@@ -139,7 +139,7 @@ export const skins = async () => {
         (items, item) => ({
             ...items,
             [item.weapon_id]: {
-                name: item.name,
+                name: item.weapon,
                 skins: [...(items[item.weapon_id]?.skins || []), item],
             },
         }),
