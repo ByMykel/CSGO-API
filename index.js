@@ -5,7 +5,7 @@ import { skins } from "./services/csgo.js";
     const data = await skins();
     const json = JSON.stringify(data, null, 4);
 
-    fs.writeFile("api/skins.json", json, (err) => {
+    fs.writeFile("public/api/skins.json", json, (err) => {
         if (err) {
             throw err;
         }
