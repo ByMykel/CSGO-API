@@ -2,78 +2,115 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<title>CSGO API</title>
+
+	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+	<link href="prism/prism.css" rel="stylesheet" />
+
 	<script src="https://cdn.tailwindcss.com"></script>
+
 	<style type="text/tailwindcss">
 		@layer base {
-            body {
-                @apply font-sans antialiased bg-gray-50;
-            }
+			html {
+				font-family: "Inter", sans-serif !important;
+			}
+
+			body {
+				@apply antialiased bg-white text-slate-500;
+			}
         }
-      </style>
+    </style>
 </head>
 
 <body>
 	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8">
-		<div class="py-10">
+		<div class="my-10">
 			<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
 				CSGO API
 			</h1>
-			<p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-center">
-				some text here
+			<p class="mt-3 text-base sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-center">
+				An unofficial JSON API for CS:GO
 			</p>
 		</div>
 
-		<div class="bg-white p-4 rounded-md shadow-sm space-y-2">
-			<h3 class="text-base sm:text-lg md:text-xl py-2">LIST SKINS</h3>
+		<div class="mb-12">
+			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+				List weapons
+			</h1>
 
-			<pre class="bg-gray-100 w-full rounded-md overflow-y-auto text-md p-3">
-<span>GET</span> http://bymykel.me/CSGO-API/api/skins.json
-</pre>
+			<p class="mt-2 text-lg text-slate-700 mb-4">
+				This list includes knives and gloves. This will be useful in the next endpoint
+				where the skins are grouped by weapons ids.
+			</p>
 
-			<pre class="bg-gray-100 w-full rounded-md overflow-y-auto text-md p-3">
-{
-    "1": {
-        "name": "Desert Eagle",
-        "skins": [
-            {
-                "id": 1,
-                "weapon_id": 1,
-                "weapon": "Desert Eagle",
-                "pattern": "Urban DDPAT",
-                "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_large.png"
-            },
-            {
-                "id": 2,
-                "weapon_id": 1,
-                "weapon": "Desert Eagle",
-                "pattern": "Blaze",
-                "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_deagle_aa_flames_light_large.png"
-            },
-            // ...
-        ]
+			<div class="bg-slate-800 text-slate-50 rounded-md text-md p-3 shadow-lg">
+				<span class="text-pink-400">GET</span>
+				https://bymykel.me/CSGO-API/api/weapons.json
+			</div>
+
+			<pre class="rounded-md h-68">
+<code class="language-json">[
+    {
+        "id": 1,
+        "name": "Desert Eagle"
     },
-    "2": {
-        "name": "Dual Berettas",
-        "skins": [
-            {
-                "id": 36,
-                "weapon_id": 2,
-                "weapon": "Dual Berettas",
-                "pattern": "Anodized Navy",
-                "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_elite_an_navy_light_large.png"
-            },
-            // ...
-        ]
-    }
-    // ...
-}
-</pre>
+    {
+        "id": 2,
+        "name": "Dual Berettas"
+    },
+    {
+        "id": 3,
+        "name": "Five-SeveN"
+    },
+	// ...
+]</code></pre>
+		</div>
+
+		<div class="mb-12">
+			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+				List skins
+			</h1>
+
+			<p class="mt-2 text-lg text-slate-700 mb-4">
+				Get a list of skins grouped by weapons.
+			</p>
+
+			<div class="bg-slate-800 text-slate-50 rounded-md text-md p-3 shadow-lg">
+				<span class="text-pink-400">GET</span>
+				https://bymykel.me/CSGO-API/api/skins.json
+			</div>
+
+			<pre class="rounded-md h-68">
+<code class="language-json">{
+	"1": {
+		"name": "Desert Eagle",
+		"skins": [
+			{
+				"id": 1,
+				"weapon_id": 1,
+				"weapon": "Desert Eagle",
+				"pattern": "Urban DDPAT",
+				"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_large.png"
+			},
+			// ...
+		]
+	},
+	"2": {
+		"name": "Dual Berettas",
+		"skins": [
+			// ...
+		]
+	},
+	// ...
+}</code></pre>
 		</div>
 	</div>
+
+	<script src="prism/prism.js"></script>
 </body>
 
 </html>
