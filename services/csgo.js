@@ -160,3 +160,22 @@ export const skins = async () => {
 
     return results;
 };
+
+export const collectibles = async () => {
+    const allItems = await items();
+    const result = [];
+
+    for (const [key, value] of Object.entries(allItems)) {
+        if (value.item_name === undefined) continue;
+        if (value.item_name?.indexOf("#CSGO_Collectible") !== -1) {
+            result.push({
+                id: result.length + 1,
+                name: value.translation_name,
+                description: value.translation_description,
+                image: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/${value.image_inventory}_large.png`,
+            });
+        }
+    }
+
+    return result;
+};
