@@ -9,7 +9,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
 
-            - name: Init new repo in dist folder and commit generated files
+            - name: Commit generated files inside public folder
               run: |
                   git init
                   git add -A
