@@ -85,16 +85,27 @@ export const items = async () => {
     for (const [key, value] of Object.entries(items)) {
         for (const [key, item] of Object.entries(value)) {
             const name = item.item_name?.replace("#", "").toLowerCase();
+            const description = item.item_description
+                ?.replace("#", "")
+                .toLowerCase();
 
             if (name === undefined) {
                 if (item.prefab) {
-                    results[item.name] = allPrefabs[item.prefab];
+                    results[item.name] = {
+                        ...item,
+                        translation_name: allPrefabs[item.prefab],
+                        translation_description: "",
+                    };
                 }
 
                 continue;
             }
 
-            results[item.name] = allTranslation[name];
+            results[item.name] = {
+                ...item,
+                translation_name: allTranslation[name],
+                translation_description: allTranslation[description],
+            };
         }
     }
 
@@ -121,8 +132,9 @@ export const skins = async () => {
                 const pattern = name[1].replace(`${weapon}_`, "");
 
                 const translatedName =
-                    allItems[weapon] ||
-                    allItems[`sfui_wpnhud_${weapon.replace("weapon_", "")}`];
+                    allItems[weapon]?.translation_name ||
+                    allItems[`sfui_wpnhud_${weapon.replace("weapon_", "")}`]
+                        ?.translation_name;
 
                 results.push({
                     id: results.length + 1,
