@@ -1,15 +1,10 @@
-import * as fs from "fs";
-import { skins } from "./services/csgo.js";
+import { skins, collectibles } from "./services/csgo.js";
+import { saveDataJson } from "./services/saveDataJson.js";
 
 (async () => {
-    const data = await skins();
-    const json = JSON.stringify(data, null, 4);
+    const skinsData = await skins().then(response => JSON.stringify(response, null, 4));
+    const collectiblesData = await collectibles().then(response => JSON.stringify(response, null, 4));
 
-    fs.writeFile("public/api/skins.json", json, (err) => {
-        if (err) {
-            throw err;
-        }
-
-        console.log("JSON data is saved.");
-    });
+    saveDataJson("public/api/skins.json", skinsData);
+    saveDataJson("public/api/collectibles.json", collectiblesData);
 })();
