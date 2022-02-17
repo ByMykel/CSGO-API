@@ -42,12 +42,12 @@
 				List weapons
 			</h1>
 
-			<p class="mt-2 text-lg text-slate-700 mb-4">
+			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
 				This list includes knives and gloves. This will be useful in the next endpoint
 				where the skins are grouped by weapons ids.
 			</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-md text-md p-3 shadow-lg">
+			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
 				<span class="text-pink-400">GET</span>
 				https://bymykel.me/CSGO-API/api/weapons.json
 			</div>
@@ -75,11 +75,11 @@
 				List skins
 			</h1>
 
-			<p class="mt-2 text-lg text-slate-700 mb-4">
+			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
 				Get a list of skins grouped by weapons.
 			</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-md text-md p-3 shadow-lg">
+			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
 				<span class="text-pink-400">GET</span>
 				https://bymykel.me/CSGO-API/api/skins.json
 			</div>
@@ -107,6 +107,44 @@
 	},
 	// ...
 }</code></pre>
+		</div>
+
+		<div class="mb-12">
+			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+				List collectibles
+			</h1>
+
+			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+				Get a list of collectibles.
+			</p>
+
+			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
+				<span class="text-pink-400">GET</span>
+				https://bymykel.me/CSGO-API/api/collectibles.json
+			</div>
+
+			<pre class="rounded-md h-68">
+<code class="language-json">[
+	{
+		"id": 1,
+		"name": "5 Year Veteran Coin",
+		"description": "Has been a member of the Counter-Strike community for over 5 years.",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/5yearcoin_large.png"
+	},
+	{
+		"id": 2,
+		"name": "Champion at DreamHack 2013",
+		"description": "This championship trophy was awarded to the Champion at The 2013 DreamHack SteelSeries CS:GO Championship.",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_champion_large.png"
+	},
+	{
+		"id": 3,
+		"name": "Finalist at DreamHack 2013",
+		"description": "This championship trophy was awarded to the Finalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_finalist_large.png"
+	},
+	// ...
+]</code></pre>
 		</div>
 	</div>
 
