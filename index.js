@@ -1,4 +1,4 @@
-import { skins, collectibles } from "./services/csgo.js";
+import { skins, stickers, collectibles } from "./services/csgo.js";
 import { saveDataJson } from "./services/saveDataJson.js";
 
 (async () => {
@@ -17,10 +17,15 @@ import { saveDataJson } from "./services/saveDataJson.js";
         return JSON.stringify(Object.values(skins), null, 4);
     });
     
+    const stickersData = await stickers().then((response) =>
+        JSON.stringify(response, null, 4)
+    );
+
     const collectiblesData = await collectibles().then((response) =>
         JSON.stringify(response, null, 4)
     );
 
     saveDataJson("public/api/skins.json", skinsData);
+    saveDataJson("public/api/stickers.json", stickersData);
     saveDataJson("public/api/collectibles.json", collectiblesData);
 })();
