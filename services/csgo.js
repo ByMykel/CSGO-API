@@ -2,6 +2,10 @@ import * as VDF from "vdf-parser";
 import axios from "axios";
 import { weaponsNames, getWeaponName } from "../utils/weapons.js";
 
+const getTranslation = (translations, key) => {
+    return translations[key?.replace("#", "").toLowerCase()] ?? "";
+};
+
 export const itemsGame = async () => {
     const data = await axios
         .get(
@@ -173,6 +177,41 @@ export const collectibles = async () => {
                 name: value.translation_name,
                 description: value.translation_description,
                 image: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/${value.image_inventory}_large.png`,
+            });
+        }
+    }
+
+    return result;
+};
+
+export const stickers = async () => {
+    const allItemsGame = await itemsGame().then(
+        (response) => response.items_game.sticker_kits
+    );
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const stickers of Object.values(allItemsGame)) {
+        for (const [key, sticker] of Object.entries(stickers)) {
+            if (sticker.sticker_material === undefined) continue;
+
+            const name = getTranslation(allTranslation, sticker.item_name);
+            const description = getTranslation(
+                allTranslation,
+                sticker.description_string
+            );
+            const rarity = getTranslation(
+                allTranslation,
+                `rarity_${sticker.item_rarity?.toLowerCase()}`
+            );
+            const image = `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/${sticker.sticker_material.toLowerCase()}_large.png`;
+
+            result.push({
+                id: parseInt(key),
+                name,
+                description,
+                rarity,
+                image,
             });
         }
     }
