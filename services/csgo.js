@@ -118,7 +118,7 @@ export const skins = async () => {
     );
     const allItems = await items();
     const allPaintKits = await paintKits();
-    let results = [];
+    const results = [];
 
     for (const [key, value] of Object.entries(weaponIcons)) {
         const path = value.icon_path.toLowerCase();
@@ -147,16 +147,16 @@ export const skins = async () => {
         }
     }
 
-    results = results.reduce(
-        (items, item) => ({
-            ...items,
-            [item.weapon_id]: {
-                name: item.weapon,
-                skins: [...(items[item.weapon_id]?.skins || []), item],
-            },
-        }),
-        {}
-    );
+    // results = results.reduce(
+    //     (items, item) => ({
+    //         ...items,
+    //         [item.weapon_id]: {
+    //             name: item.weapon,
+    //             skins: [...(items[item.weapon_id]?.skins || []), item],
+    //         },
+    //     }),
+    //     {}
+    // );
 
     return results;
 };
