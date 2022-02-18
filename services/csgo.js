@@ -1,5 +1,10 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
+import {
+    ITEMS_GAME_URL,
+    CSGO_ENGLISH_URL,
+    IMAGES_BASE_URL,
+} from "../utils/config.js";
 import { weaponsNames, getWeaponName } from "../utils/weapons.js";
 
 const getTranslation = (translations, key) => {
@@ -8,20 +13,16 @@ const getTranslation = (translations, key) => {
 
 export const itemsGame = async () => {
     const data = await axios
-        .get(
-            "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/scripts/items/items_game.txt"
-        )
-        .then((r) => r.data);
+        .get(ITEMS_GAME_URL)
+        .then((response) => response.data);
 
     return VDF.parse(data);
 };
 
 export const translations = async () => {
     const data = await axios
-        .get(
-            "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/resource/csgo_english.txt"
-        )
-        .then((r) => r.data);
+        .get(CSGO_ENGLISH_URL)
+        .then((response) => response.data);
 
     const parsed = VDF.parse(data);
 
@@ -42,12 +43,11 @@ export const prefabs = async () => {
     const allTranslation = await translations();
     const results = [];
 
-    for (const [key, value] of Object.entries(prefabs)) {
-        for (const [weapon, prefab] of Object.entries(value)) {
-            const name = prefab.item_name?.replace("#", "").toLowerCase();
-            if (name === undefined) continue;
+    for (const values of Object.values(prefabs)) {
+        for (const [weapon, prefab] of Object.entries(values)) {
+            if (prefab.item_name === undefined) continue;
 
-            results[weapon] = allTranslation[name];
+            results[weapon] = getTranslation(allTranslation, prefab.item_name);
         }
     }
 
@@ -61,17 +61,13 @@ export const paintKits = async () => {
     const allTranslation = await translations();
     const results = [];
 
-    for (const [key, value] of Object.entries(paintKits)) {
-        for (const [key, paint] of Object.entries(value)) {
-            const description = paint.description_tag
-                ?.replace("#", "")
-                .toLowerCase();
-
-            if (description === undefined) continue;
+    for (const values of Object.values(paintKits)) {
+        for (const paint of Object.values(values)) {
+            if (paint.description_tag === undefined) continue;
 
             results[paint.name] =
-                allTranslation[description] ||
-                allTranslation[`paintkit_${description}`];
+                getTranslation(allTranslation, paint.description_tag) ||
+                getTranslation(allTranslation, `paintkit_${description}`);
         }
     }
 
@@ -86,14 +82,9 @@ export const items = async () => {
     const allTranslation = await translations();
     const results = [];
 
-    for (const [key, value] of Object.entries(items)) {
-        for (const [key, item] of Object.entries(value)) {
-            const name = item.item_name?.replace("#", "").toLowerCase();
-            const description = item.item_description
-                ?.replace("#", "")
-                .toLowerCase();
-
-            if (name === undefined) {
+    for (const values of Object.values(items)) {
+        for (const item of Object.values(values)) {
+            if (item.item_name === undefined) {
                 if (item.prefab) {
                     results[item.name] = {
                         ...item,
@@ -107,8 +98,14 @@ export const items = async () => {
 
             results[item.name] = {
                 ...item,
-                translation_name: allTranslation[name],
-                translation_description: allTranslation[description],
+                translation_name: getTranslation(
+                    allTranslation,
+                    item.item_name
+                ),
+                translation_description: getTranslation(
+                    allTranslation,
+                    item.item_description
+                ),
             };
         }
     }
@@ -118,14 +115,14 @@ export const items = async () => {
 
 export const skins = async () => {
     const weaponIcons = await itemsGame().then(
-        (r) => r.items_game.alternate_icons2.weapon_icons
+        (response) => response.items_game.alternate_icons2.weapon_icons
     );
     const allItems = await items();
     const allPaintKits = await paintKits();
     const results = [];
 
-    for (const [key, value] of Object.entries(weaponIcons)) {
-        const path = value.icon_path.toLowerCase();
+    for (const values of Object.values(weaponIcons)) {
+        const path = values.icon_path.toLowerCase();
         const regex = /econ\/default_generated\/(.*?)_light$/i;
 
         if (regex.test(path)) {
@@ -140,27 +137,18 @@ export const skins = async () => {
                     allItems[`sfui_wpnhud_${weapon.replace("weapon_", "")}`]
                         ?.translation_name;
 
+                const image = `${IMAGES_BASE_URL}${path}_large.png`;
+
                 results.push({
                     id: results.length + 1,
                     weapon_id: weaponsNames.indexOf(weapon) + 1,
                     weapon: translatedName,
                     pattern: allPaintKits[pattern],
-                    image: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/${path}_large.png`,
+                    image,
                 });
             }
         }
     }
-
-    // results = results.reduce(
-    //     (items, item) => ({
-    //         ...items,
-    //         [item.weapon_id]: {
-    //             name: item.weapon,
-    //             skins: [...(items[item.weapon_id]?.skins || []), item],
-    //         },
-    //     }),
-    //     {}
-    // );
 
     return results;
 };
@@ -169,14 +157,14 @@ export const collectibles = async () => {
     const allItems = await items();
     const result = [];
 
-    for (const [key, value] of Object.entries(allItems)) {
-        if (value.item_name === undefined) continue;
-        if (value.item_name?.indexOf("#CSGO_Collectible") !== -1) {
+    for (const values of Object.values(allItems)) {
+        if (values.item_name === undefined) continue;
+        if (values.item_name?.indexOf("#CSGO_Collectible") !== -1) {
             result.push({
                 id: result.length + 1,
-                name: value.translation_name,
-                description: value.translation_description,
-                image: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/${value.image_inventory}_large.png`,
+                name: values.translation_name,
+                description: values.translation_description,
+                image: `${IMAGES_BASE_URL}${values.image_inventory}_large.png`,
             });
         }
     }
@@ -204,7 +192,7 @@ export const stickers = async () => {
                 allTranslation,
                 `rarity_${sticker.item_rarity?.toLowerCase()}`
             );
-            const image = `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/${sticker.sticker_material.toLowerCase()}_large.png`;
+            const image = `${IMAGES_BASE_URL}econ/stickers/${sticker.sticker_material.toLowerCase()}_large.png`;
 
             result.push({
                 id: parseInt(key),
