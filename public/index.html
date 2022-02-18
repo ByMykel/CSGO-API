@@ -22,6 +22,13 @@
 			body {
 				@apply antialiased bg-white text-slate-500;
 			}
+
+			hr {
+				border-color: #f1f5f9;
+				border-top-width: 1px;
+				margin-top: 3em;
+				margin-bottom: 3em;
+			}
         }
     </style>
 </head>
@@ -37,60 +44,60 @@
 			</p>
 		</div>
 
-		<div class="mb-12">
-			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-				List weapons
-			</h1>
+		<div class="pb-12">
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+					List weapons
+				</h1>
 
-			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-				This list includes knives and gloves. This will be useful in the next endpoint
-				where the skins are grouped by weapons ids.
-			</p>
+				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+					This list includes knives and gloves. This will be useful in the next endpoint
+					where the skins are grouped by weapons ids.
+				</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-				<span class="text-pink-400">GET</span>
-				https://bymykel.me/CSGO-API/api/weapons.json
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/weapons.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
+<code class="language-json">[
+	{
+		"id": 1,
+		"name": "Desert Eagle",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_deagle.png"
+	},
+	{
+		"id": 2,
+		"name": "Dual Berettas",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_elite.png"
+	},
+	{
+		"id": 3,
+		"name": "Five-SeveN",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_fiveseven.png"
+	},
+	// ...
+]</code></pre>
 			</div>
 
-			<div class="rounded-xl shadow-lg overflow-hidden my-2">
-				<pre class="rounded-xl h-68">
-	<code class="language-json">[
-		{
-			"id": 1,
-			"name": "Desert Eagle",
-			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_deagle.png"
-		},
-		{
-			"id": 2,
-			"name": "Dual Berettas",
-			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_elite.png"
-		},
-		{
-			"id": 3,
-			"name": "Five-SeveN",
-			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_fiveseven.png"
-		},
-		// ...
-	]</code></pre>
-			</div>
-		</div>
+			<hr>
 
-		<div class="mb-12">
-			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-				List skins
-			</h1>
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+					List skins
+				</h1>
 
-			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-				Get a list of skins grouped by weapons.
-			</p>
+				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+					Get a list of skins grouped by weapons.
+				</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-				<span class="text-pink-400">GET</span>
-				https://bymykel.me/CSGO-API/api/skins.json
-			</div>
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/skins.json
+				</div>
 
-			<div class="rounded-xl shadow-lg overflow-hidden my-2">
-				<pre class="rounded-xl h-68">
+				<pre class="rounded-xl h-68 shadow-lg">
 <code class="language-json">[
 	{
 		"name": "Desert Eagle",
@@ -113,50 +120,95 @@
 	},
 	{
 		"name": "Five-SeveN",
-        "skins": [
+		"skins": [
 			// ...
 		]
 	},
 	// ...
 ]</code></pre>
 			</div>
-		</div>
 
-		<div class="mb-12">
-			<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-				List collectibles
-			</h1>
+			<hr>
 
-			<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-				Get a list of collectibles.
-			</p>
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+					List stickers
+				</h1>
 
-			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-				<span class="text-pink-400">GET</span>
-				https://bymykel.me/CSGO-API/api/collectibles.json
+				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+					Get a list of stickers.
+				</p>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/stickers.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
+<code class="language-json">[
+	// ...
+	{
+        "id": 1246,
+        "name": "s1mple | MLG Columbus 2016",
+        "description": "This sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
+        "rarity": "High Grade",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_large.png"
+    },
+    {
+        "id": 1247,
+        "name": "s1mple (Foil) | MLG Columbus 2016",
+        "description": "This foil sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
+        "rarity": "Exotic",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_foil_large.png"
+    },
+    {
+        "id": 1248,
+        "name": "s1mple (Gold) | MLG Columbus 2016",
+        "description": "This gold sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
+        "rarity": "Exotic",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_gold_large.png"
+    },
+	// ...
+]</code></pre>
 			</div>
 
-			<div class="rounded-xl shadow-lg overflow-hidden my-2">
-				<pre class="rounded-xl h-68">
+			<hr>
+
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+					List collectibles
+				</h1>
+
+				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+					Get a list of collectibles.
+				</p>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/collectibles.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
 <code class="language-json">[
+	// ...
 	{
-		"id": 1,
-		"name": "5 Year Veteran Coin",
-		"description": "Has been a member of the Counter-Strike community for over 5 years.",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/5yearcoin_large.png"
-	},
-	{
-		"id": 2,
-		"name": "Champion at DreamHack 2013",
-		"description": "This championship trophy was awarded to the Champion at The 2013 DreamHack SteelSeries CS:GO Championship.",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_champion_large.png"
-	},
-	{
-		"id": 3,
-		"name": "Finalist at DreamHack 2013",
-		"description": "This championship trophy was awarded to the Finalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_finalist_large.png"
-	},
+        "id": 276,
+        "name": "Canals Pin",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_canals_large.png"
+    },
+    {
+        "id": 277,
+        "name": "Welcome to the Clutch Pin",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_welcome_to_the_clutch_large.png"
+    },
+    {
+        "id": 278,
+        "name": "Death Sentence Pin",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_death_sentence_large.png"
+    },
 	// ...
 ]</code></pre>
 			</div>
