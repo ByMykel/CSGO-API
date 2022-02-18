@@ -47,30 +47,32 @@
 				where the skins are grouped by weapons ids.
 			</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
+			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 				<span class="text-pink-400">GET</span>
 				https://bymykel.me/CSGO-API/api/weapons.json
 			</div>
 
-			<pre class="rounded-md h-68">
-<code class="language-json">[
-    {
-        "id": 1,
-        "name": "Desert Eagle",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_deagle.png"
-    },
-    {
-        "id": 2,
-        "name": "Dual Berettas",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_elite.png"
-    },
-    {
-        "id": 3,
-        "name": "Five-SeveN",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_fiveseven.png"
-    },
-	// ...
-]</code></pre>
+			<div class="rounded-xl shadow-lg overflow-hidden my-2">
+				<pre class="rounded-xl h-68">
+	<code class="language-json">[
+		{
+			"id": 1,
+			"name": "Desert Eagle",
+			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_deagle.png"
+		},
+		{
+			"id": 2,
+			"name": "Dual Berettas",
+			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_elite.png"
+		},
+		{
+			"id": 3,
+			"name": "Five-SeveN",
+			"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_fiveseven.png"
+		},
+		// ...
+	]</code></pre>
+			</div>
 		</div>
 
 		<div class="mb-12">
@@ -82,14 +84,15 @@
 				Get a list of skins grouped by weapons.
 			</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
+			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 				<span class="text-pink-400">GET</span>
 				https://bymykel.me/CSGO-API/api/skins.json
 			</div>
 
-			<pre class="rounded-md h-68">
-<code class="language-json">{
-	"1": {
+			<div class="rounded-xl shadow-lg overflow-hidden my-2">
+				<pre class="rounded-xl h-68">
+<code class="language-json">[
+	{
 		"name": "Desert Eagle",
 		"skins": [
 			{
@@ -102,14 +105,21 @@
 			// ...
 		]
 	},
-	"2": {
+	{
 		"name": "Dual Berettas",
 		"skins": [
 			// ...
 		]
 	},
+	{
+		"name": "Five-SeveN",
+        "skins": [
+			// ...
+		]
+	},
 	// ...
-}</code></pre>
+]</code></pre>
+			</div>
 		</div>
 
 		<div class="mb-12">
@@ -121,12 +131,13 @@
 				Get a list of collectibles.
 			</p>
 
-			<div class="bg-slate-800 text-slate-50 rounded-md text-xs md:text-base p-3 shadow-lg">
+			<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 				<span class="text-pink-400">GET</span>
 				https://bymykel.me/CSGO-API/api/collectibles.json
 			</div>
 
-			<pre class="rounded-md h-68">
+			<div class="rounded-xl shadow-lg overflow-hidden my-2">
+				<pre class="rounded-xl h-68">
 <code class="language-json">[
 	{
 		"id": 1,
@@ -148,6 +159,7 @@
 	},
 	// ...
 ]</code></pre>
+			</div>
 		</div>
 	</div>
 
