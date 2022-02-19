@@ -227,6 +227,7 @@ export const stickers = async () => {
         for (const [key, sticker] of Object.entries(stickers)) {
             if (sticker.sticker_material === undefined) continue;
             if (sticker.item_name.indexOf("#StickerKit_") === -1) continue;
+            if (sticker.name.indexOf("graffiti") !== -1) continue;
 
             const name = getTranslation(allTranslation, sticker.item_name);
             const description = getTranslation(
