@@ -183,7 +183,6 @@ export const skins = async () => {
 
                 results.push({
                     id: `${weapon}_${pattern}`,
-                    weapon_id: pattern,
                     collection_id: allSkinsCollections[pattern]?.id ?? "",
                     name: `${translatedName} | ${allPaintKits[pattern]}`,
                     weapon: translatedName,
@@ -209,7 +208,7 @@ export const collectibles = async () => {
                 id: values.item_name.replace("#CSGO_", ""),
                 name: values.translation_name,
                 description: values.translation_description,
-                image: `${IMAGES_BASE_URL}${values.image_inventory}_large.png`,
+                image: `${IMAGES_BASE_URL}${values.image_inventory}.png`,
             });
         }
     }
