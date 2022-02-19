@@ -8,7 +8,11 @@ import {
 import { getWeaponName } from "../utils/weapons.js";
 
 const getTranslation = (translations, key) => {
-    return translations[key?.replace("#", "").toLowerCase()] ?? "";
+    const translation = translations[key?.replace("#", "").toLowerCase()];
+
+    if (translation === undefined || translation === "") return null;
+
+    return translation;
 };
 
 const skinsCollections = async () => {
@@ -126,7 +130,7 @@ export const items = async () => {
                     results[item.name] = {
                         ...item,
                         translation_name: allPrefabs[item.prefab],
-                        translation_description: "",
+                        translation_description: null,
                     };
                 }
 
@@ -183,11 +187,11 @@ export const skins = async () => {
 
                 results.push({
                     id: `${weapon}_${pattern}`,
-                    collection_id: allSkinsCollections[pattern]?.id ?? "",
+                    collection_id: allSkinsCollections[pattern]?.id ?? null,
                     name: `${translatedName} | ${allPaintKits[pattern]}`,
                     weapon: translatedName,
-                    pattern: allPaintKits[pattern] ?? "",
-                    collection: allSkinsCollections[pattern]?.name ?? "",
+                    pattern: allPaintKits[pattern] ?? null,
+                    collection: allSkinsCollections[pattern]?.name ?? null,
                     image,
                 });
             }
@@ -229,7 +233,10 @@ export const stickers = async () => {
             if (sticker.item_name.indexOf("#StickerKit_") === -1) continue;
             if (sticker.name.indexOf("graffiti") !== -1) continue;
 
-            const name = `Sticker | ${getTranslation(allTranslation, sticker.item_name)}`;
+            const name = `Sticker | ${getTranslation(
+                allTranslation,
+                sticker.item_name
+            )}`;
             const description = getTranslation(
                 allTranslation,
                 sticker.description_string
@@ -292,7 +299,7 @@ export const cases = async () => {
             if (value.prefab.indexOf("weapon_case_key") === -1) {
                 result.push({
                     id: value.item_name.replace("#CSGO_crate_", ""),
-                    collection_id: value.tags?.ItemSet?.tag_value ?? "",
+                    collection_id: value.tags?.ItemSet?.tag_value ?? null,
                     name: getTranslation(allTranslation, value.item_name),
                     description: value.translation_description,
                     image: `${IMAGES_BASE_URL}${value.image_inventory.toLowerCase()}.png`,
@@ -315,10 +322,12 @@ export const keys = async () => {
             value.item_name.indexOf("#CSGO_crate") !== -1
         ) {
             if (value.prefab.indexOf("weapon_case_key") !== -1) {
+                if (value.item_name.indexOf("contestwinner") !== -1) continue;
+
                 result.push({
                     id: value.item_name.replace("#CSGO_crate_", ""),
                     case_id:
-                        value.tool?.restriction?.replace("crate_", "") ?? "",
+                        value.tool?.restriction?.replace("crate_", "") ?? null,
                     name: getTranslation(allTranslation, value.item_name),
                     description: value.translation_description,
                     image: `${IMAGES_BASE_URL}${value.image_inventory.toLowerCase()}.png`,
