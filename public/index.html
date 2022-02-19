@@ -29,12 +29,32 @@
 				margin-top: 3em;
 				margin-bottom: 3em;
 			}
+
+			.not-active-tab {
+				@apply text-slate-500 hover:text-slate-400 cursor-pointer;
+			}
+
+			.schema.null {
+				color: #cc99cd;
+			}
+
+			.schema.integer {
+				color: #f472b6;
+			}
+
+			.schema.string {
+				color: #7dd3fc;
+			}
+
+			.schema.array-object {
+				color: #fcd34d;
+			}
         }
     </style>
 </head>
 
 <body>
-	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8">
+	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20">
 		<div class="my-10">
 			<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
 				CSGO API
@@ -45,7 +65,7 @@
 		</div>
 
 		<div class="pb-12">
-			<div>
+			<div id="section-1">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
 					List weapons
 				</h1>
@@ -59,30 +79,61 @@
 					https://bymykel.me/CSGO-API/api/weapons.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-1', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-1', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema integer">integer</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
+	// ...
 	{
-		"id": 1,
-		"name": "Desert Eagle",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_deagle.png"
-	},
-	{
-		"id": 2,
-		"name": "Dual Berettas",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_elite.png"
-	},
-	{
-		"id": 3,
-		"name": "Five-SeveN",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_fiveseven.png"
-	},
+        "id": 39,
+        "name": "Karambit",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_knife_karambit.png"
+    },
+    {
+        "id": 40,
+        "name": "M9 Bayonet",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_knife_m9_bayonet.png"
+    },
+    {
+        "id": 41,
+        "name": "Huntsman Knife",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapons/base_weapons/weapon_knife_tactical.png"
+    },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-2">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List skins
 				</h1>
@@ -92,43 +143,91 @@
 					https://bymykel.me/CSGO-API/api/skins.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-2', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-2', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>collection_id</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>weapon</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>pattern</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>collection</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
         "id": "weapon_knife_karambit_am_marble_fade",
-        "collection_id": "",
+        "collection_id": null,
         "name": "Karambit | Marble Fade",
         "weapon": "Karambit",
         "pattern": "Marble Fade",
-        "collection": "",
+        "collection": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_am_marble_fade_light_large.png"
     },
     {
         "id": "weapon_knife_karambit_aq_steel_knife",
-        "collection_id": "",
+        "collection_id": null,
         "name": "Karambit | Rust Coat",
         "weapon": "Karambit",
         "pattern": "Rust Coat",
-        "collection": "",
+        "collection": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_aq_steel_knife_light_large.png"
     },
     {
         "id": "weapon_knife_karambit_am_ruby_marbleized",
-        "collection_id": "",
+        "collection_id": null,
         "name": "Karambit | Doppler",
         "weapon": "Karambit",
         "pattern": "Doppler",
-        "collection": "",
+        "collection": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_am_ruby_marbleized_light_large.png"
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-3">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List stickers
 				</h1>
@@ -138,37 +237,77 @@
 					https://bymykel.me/CSGO-API/api/stickers.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-3', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-3', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>description</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>rarity</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
         "id": "kat2014_hellraisers_holo",
         "name": "Sticker | HellRaisers (Holo) | Katowice 2014",
-        "description": "",
+        "description": null,
         "rarity": "Remarkable",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/hellraisers_holo_large.png"
     },
     {
         "id": "kat2014_ibuypower",
         "name": "Sticker | iBUYPOWER | Katowice 2014",
-        "description": "",
+        "description": null,
         "rarity": "High Grade",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_large.png"
     },
     {
         "id": "kat2014_ibuypower_holo",
         "name": "Sticker | iBUYPOWER (Holo) | Katowice 2014",
-        "description": "",
+        "description": null,
         "rarity": "Remarkable",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_holo_large.png"
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-4">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List collections
 				</h1>
@@ -178,7 +317,34 @@
 					https://bymykel.me/CSGO-API/api/collections.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-4', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-4', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
@@ -198,11 +364,12 @@
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-5">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List cases
 				</h1>
@@ -212,37 +379,77 @@
 					https://bymykel.me/CSGO-API/api/cases.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-5', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-5', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>collection_id</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>description</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
         "id": "berlin2019_promo_de_vertigo",
         "collection_id": "set_vertigo",
         "name": "Berlin 2019 Vertigo Souvenir Package",
-        "description": "",
+        "description": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_berlin2019_promo_de_vertigo.png"
     },
     {
         "id": "sticker_pack_rmr2020_legends",
-        "collection_id": "",
+        "collection_id": null,
         "name": "2020 RMR Legends",
         "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_legends.png"
     },
     {
         "id": "sticker_pack_rmr2020_challengers",
-        "collection_id": "",
+        "collection_id": null,
         "name": "2020 RMR Challengers",
         "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_challengers.png"
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-6">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List keys
 				</h1>
@@ -252,7 +459,44 @@
 					https://bymykel.me/CSGO-API/api/keys.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-6', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-6', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>case_id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>description</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
@@ -278,11 +522,12 @@
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 
 			<hr>
 
-			<div>
+			<div id="section-7">
 				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List collectibles
 				</h1>
@@ -292,7 +537,40 @@
 					https://bymykel.me/CSGO-API/api/collectibles.json
 				</div>
 
-				<pre class="rounded-xl h-68 shadow-lg">
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-7', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-7', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>description</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
@@ -315,11 +593,26 @@
     },
 	// ...
 ]</code></pre>
+				</div>
 			</div>
 		</div>
 	</div>
 
+
+
 	<script src="prism/prism.js"></script>
+
+	<script>
+		const changeTab = (sectionId, tab) => {
+			const otherTab = { 'example': 'schema', 'schema': 'example' }[tab];
+
+			document.querySelector(`#${sectionId} .${tab}-data`).classList.remove('hidden');
+			document.querySelector(`#${sectionId} .${otherTab}-data`).classList.add('hidden');
+
+			document.querySelector(`#${sectionId} .${tab}-tab`).classList.remove('not-active-tab');
+			document.querySelector(`#${sectionId} .${otherTab}-tab`).classList.add('not-active-tab');
+		}
+	</script>
 </body>
 
 </html>
