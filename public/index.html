@@ -51,8 +51,7 @@
 				</h1>
 
 				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-					This list includes knives and gloves. This will be useful in the next endpoint
-					where the skins are grouped by weapons ids.
+					This list includes knives and gloves.
 				</p>
 
 				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
@@ -84,13 +83,9 @@
 			<hr>
 
 			<div>
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List skins
 				</h1>
-
-				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-					Get a list of skins grouped by weapons.
-				</p>
 
 				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 					<span class="text-pink-400">GET</span>
@@ -99,31 +94,34 @@
 
 				<pre class="rounded-xl h-68 shadow-lg">
 <code class="language-json">[
+	// ...
 	{
-		"name": "Desert Eagle",
-		"skins": [
-			{
-				"id": 1,
-				"weapon_id": 1,
-				"weapon": "Desert Eagle",
-				"pattern": "Urban DDPAT",
-				"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_large.png"
-			},
-			// ...
-		]
-	},
-	{
-		"name": "Dual Berettas",
-		"skins": [
-			// ...
-		]
-	},
-	{
-		"name": "Five-SeveN",
-		"skins": [
-			// ...
-		]
-	},
+        "id": "weapon_knife_karambit_am_marble_fade",
+        "collection_id": "",
+        "name": "Karambit | Marble Fade",
+        "weapon": "Karambit",
+        "pattern": "Marble Fade",
+        "collection": "",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_am_marble_fade_light_large.png"
+    },
+    {
+        "id": "weapon_knife_karambit_aq_steel_knife",
+        "collection_id": "",
+        "name": "Karambit | Rust Coat",
+        "weapon": "Karambit",
+        "pattern": "Rust Coat",
+        "collection": "",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_aq_steel_knife_light_large.png"
+    },
+    {
+        "id": "weapon_knife_karambit_am_ruby_marbleized",
+        "collection_id": "",
+        "name": "Karambit | Doppler",
+        "weapon": "Karambit",
+        "pattern": "Doppler",
+        "collection": "",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_knife_karambit_am_ruby_marbleized_light_large.png"
+    },
 	// ...
 ]</code></pre>
 			</div>
@@ -131,13 +129,9 @@
 			<hr>
 
 			<div>
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
 					List stickers
 				</h1>
-
-				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-					Get a list of stickers.
-				</p>
 
 				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 					<span class="text-pink-400">GET</span>
@@ -148,25 +142,25 @@
 <code class="language-json">[
 	// ...
 	{
-        "id": 1246,
-        "name": "s1mple | MLG Columbus 2016",
-        "description": "This sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
+        "id": "kat2014_hellraisers_holo",
+        "name": "HellRaisers (Holo) | Katowice 2014",
+        "description": "",
+        "rarity": "Remarkable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/hellraisers_holo_large.png"
+    },
+    {
+        "id": "kat2014_ibuypower",
+        "name": "iBUYPOWER | Katowice 2014",
+        "description": "",
         "rarity": "High Grade",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_large.png"
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_large.png"
     },
     {
-        "id": 1247,
-        "name": "s1mple (Foil) | MLG Columbus 2016",
-        "description": "This foil sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
-        "rarity": "Exotic",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_foil_large.png"
-    },
-    {
-        "id": 1248,
-        "name": "s1mple (Gold) | MLG Columbus 2016",
-        "description": "This gold sticker was autographed by professional player Oleksandr Kostyliev playing for Team Liquid at MLG Columbus 2016.\\n\\n50% of the proceeds from the sale of this sticker support the included players and organizations.",
-        "rarity": "Exotic",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/columbus2016/sig_s1mple_gold_large.png"
+        "id": "kat2014_ibuypower_holo",
+        "name": "iBUYPOWER (Holo) | Katowice 2014",
+        "description": "",
+        "rarity": "Remarkable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_holo_large.png"
     },
 	// ...
 ]</code></pre>
@@ -175,13 +169,123 @@
 			<hr>
 
 			<div>
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-					List collectibles
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List collections
 				</h1>
 
-				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-					Get a list of collectibles.
-				</p>
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/collections.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
+<code class="language-json">[
+	// ...
+	{
+        "id": "set_op10_ancient",
+        "name": "The Ancient Collection",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_op10_ancient.png"
+    },
+    {
+        "id": "set_community_28",
+        "name": "The Snakebite Collection",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_community_28.png"
+    },
+    {
+        "id": "set_train_2021",
+        "name": "The 2021 Train Collection",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_train_2021.png"
+    },
+	// ...
+]</code></pre>
+			</div>
+
+			<hr>
+
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List cases
+				</h1>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/cases.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
+<code class="language-json">[
+	// ...
+	{
+        "id": "berlin2019_promo_de_vertigo",
+        "collection_id": "set_vertigo",
+        "name": "Berlin 2019 Vertigo Souvenir Package",
+        "description": "",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_berlin2019_promo_de_vertigo.png"
+    },
+    {
+        "id": "sticker_pack_rmr2020_legends",
+        "collection_id": "",
+        "name": "2020 RMR Legends",
+        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_legends.png"
+    },
+    {
+        "id": "sticker_pack_rmr2020_challengers",
+        "collection_id": "",
+        "name": "2020 RMR Challengers",
+        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_challengers.png"
+    },
+	// ...
+]</code></pre>
+			</div>
+
+			<hr>
+
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List keys
+				</h1>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/keys.json
+				</div>
+
+				<pre class="rounded-xl h-68 shadow-lg">
+<code class="language-json">[
+	// ...
+	{
+        "id": "key_community_28",
+        "case_id": "community_28",
+        "name": "Snakebite Case Key",
+        "description": "This key only opens Snakebite cases",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_28.png"
+    },
+    {
+        "id": "key_community_29",
+        "case_id": "community_29",
+        "name": "Operation Riptide Case Key",
+        "description": "This key only opens Operation Riptide cases",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_29.png"
+    },
+    {
+        "id": "key_community_30",
+        "case_id": "community_30",
+        "name": "Dreams & Nightmares Case Key",
+        "description": "This key only opens Dreams & Nightmares cases",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_30.png"
+    },
+	// ...
+]</code></pre>
+			</div>
+
+			<hr>
+
+			<div>
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List collectibles
+				</h1>
 
 				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 					<span class="text-pink-400">GET</span>
@@ -192,22 +296,22 @@
 <code class="language-json">[
 	// ...
 	{
-        "id": 276,
-        "name": "Canals Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_canals_large.png"
+        "id": "CollectibleCoin_DH2013_Champion",
+        "name": "Champion at DreamHack 2013",
+        "description": "This championship trophy was awarded to the Champion at The 2013 DreamHack SteelSeries CS:GO Championship.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_champion.png"
     },
     {
-        "id": 277,
-        "name": "Welcome to the Clutch Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_welcome_to_the_clutch_large.png"
+        "id": "CollectibleCoin_DH2013_Finalist",
+        "name": "Finalist at DreamHack 2013",
+        "description": "This championship trophy was awarded to the Finalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_finalist.png"
     },
     {
-        "id": 278,
-        "name": "Death Sentence Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/collectible_pin_death_sentence_large.png"
+        "id": "CollectibleCoin_DH2013_SemiFinalist",
+        "name": "Semifinalist at DreamHack 2013",
+        "description": "This championship trophy was awarded to the Semifinalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_semifinalist.png"
     },
 	// ...
 ]</code></pre>
