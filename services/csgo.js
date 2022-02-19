@@ -5,10 +5,44 @@ import {
     CSGO_ENGLISH_URL,
     IMAGES_BASE_URL,
 } from "../utils/config.js";
-import { weaponsNames, getWeaponName } from "../utils/weapons.js";
+import { getWeaponName } from "../utils/weapons.js";
 
 const getTranslation = (translations, key) => {
     return translations[key?.replace("#", "").toLowerCase()] ?? "";
+};
+
+const skinsCollections = async () => {
+    const itemSets = await itemsGame().then(
+        (response) => response.items_game.item_sets
+    );
+    const allTranslation = await translations();
+
+    const result = {};
+
+    for (const values of Object.values(itemSets)) {
+        for (const value of Object.values(values)) {
+            if (value.is_collection) {
+                const keys = Object.keys(value.items).map((item) => {
+                    const pattern = item.match(/\[(.*?)\]/i);
+
+                    if (pattern) {
+                        return pattern[1];
+                    }
+
+                    return item;
+                });
+
+                keys.forEach((item) => {
+                    result[item.toLocaleLowerCase()] = {
+                        id: value.name.replace("#CSGO_", ""),
+                        name: getTranslation(allTranslation, value.name),
+                    };
+                });
+            }
+        }
+    }
+
+    return result;
 };
 
 export const itemsGame = async () => {
@@ -65,9 +99,12 @@ export const paintKits = async () => {
         for (const paint of Object.values(values)) {
             if (paint.description_tag === undefined) continue;
 
-            results[paint.name] =
+            results[paint.name.toLowerCase()] =
                 getTranslation(allTranslation, paint.description_tag) ||
-                getTranslation(allTranslation, `paintkit_${description}`);
+                getTranslation(
+                    allTranslation,
+                    `paintkit_${paint.description_tag}`
+                );
         }
     }
 
@@ -119,6 +156,8 @@ export const skins = async () => {
     );
     const allItems = await items();
     const allPaintKits = await paintKits();
+    const allSkinsCollections = await skinsCollections();
+
     const results = [];
 
     for (const values of Object.values(weaponIcons)) {
@@ -130,7 +169,10 @@ export const skins = async () => {
             const weapon = getWeaponName(name[1]);
 
             if (weapon) {
-                const pattern = name[1].replace(`${weapon}_`, "");
+                const pattern = name[1]
+                    .replace(`${weapon}_`, "")
+                    .replace("silencer_", "")
+                    .toLowerCase();
 
                 const translatedName =
                     allItems[weapon]?.translation_name ||
@@ -140,10 +182,13 @@ export const skins = async () => {
                 const image = `${IMAGES_BASE_URL}${path}_large.png`;
 
                 results.push({
-                    id: results.length + 1,
-                    weapon_id: weaponsNames.indexOf(weapon) + 1,
+                    id: `${weapon}_${pattern}`,
+                    weapon_id: pattern,
+                    collection_id: allSkinsCollections[pattern]?.id ?? "",
+                    name: `${translatedName} | ${allPaintKits[pattern]}`,
                     weapon: translatedName,
-                    pattern: allPaintKits[pattern],
+                    pattern: allPaintKits[pattern] ?? "",
+                    collection: allSkinsCollections[pattern]?.name ?? "",
                     image,
                 });
             }
@@ -161,7 +206,7 @@ export const collectibles = async () => {
         if (values.item_name === undefined) continue;
         if (values.item_name?.indexOf("#CSGO_Collectible") !== -1) {
             result.push({
-                id: result.length + 1,
+                id: values.item_name.replace("#CSGO_", ""),
                 name: values.translation_name,
                 description: values.translation_description,
                 image: `${IMAGES_BASE_URL}${values.image_inventory}_large.png`,
@@ -182,6 +227,7 @@ export const stickers = async () => {
     for (const stickers of Object.values(allItemsGame)) {
         for (const [key, sticker] of Object.entries(stickers)) {
             if (sticker.sticker_material === undefined) continue;
+            if (sticker.item_name.indexOf("#StickerKit_") === -1) continue;
 
             const name = getTranslation(allTranslation, sticker.item_name);
             const description = getTranslation(
@@ -195,12 +241,89 @@ export const stickers = async () => {
             const image = `${IMAGES_BASE_URL}econ/stickers/${sticker.sticker_material.toLowerCase()}_large.png`;
 
             result.push({
-                id: parseInt(key),
+                id: sticker.item_name.replace("#StickerKit_", ""),
                 name,
                 description,
                 rarity,
                 image,
             });
+        }
+    }
+
+    return result;
+};
+
+export const collections = async () => {
+    const itemSets = await itemsGame().then(
+        (response) => response.items_game.item_sets
+    );
+    const allTranslation = await translations();
+
+    const result = [];
+
+    for (const values of Object.values(itemSets)) {
+        for (const value of Object.values(values)) {
+            if (value.is_collection) {
+                result.push({
+                    id: value.name.replace("#CSGO_", ""),
+                    name: getTranslation(allTranslation, value.name),
+                    image: `${IMAGES_BASE_URL}econ/set_icons/${value.name.replace(
+                        "#CSGO_",
+                        ""
+                    )}.png`,
+                });
+            }
+        }
+    }
+
+    return result;
+};
+
+export const cases = async () => {
+    const allItems = await items();
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const value of Object.values(allItems)) {
+        if (
+            value.item_name !== undefined &&
+            value.item_name.indexOf("#CSGO_crate") !== -1
+        ) {
+            if (value.prefab.indexOf("weapon_case_key") === -1) {
+                result.push({
+                    id: value.item_name.replace("#CSGO_crate_", ""),
+                    collection_id: value.tags?.ItemSet?.tag_value ?? "",
+                    name: getTranslation(allTranslation, value.item_name),
+                    description: value.translation_description,
+                    image: `${IMAGES_BASE_URL}${value.image_inventory.toLowerCase()}.png`,
+                });
+            }
+        }
+    }
+
+    return result;
+};
+
+export const keys = async () => {
+    const allItems = await items();
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const value of Object.values(allItems)) {
+        if (
+            value.item_name !== undefined &&
+            value.item_name.indexOf("#CSGO_crate") !== -1
+        ) {
+            if (value.prefab.indexOf("weapon_case_key") !== -1) {
+                result.push({
+                    id: value.item_name.replace("#CSGO_crate_", ""),
+                    case_id:
+                        value.tool?.restriction?.replace("crate_", "") ?? "",
+                    name: getTranslation(allTranslation, value.item_name),
+                    description: value.translation_description,
+                    image: `${IMAGES_BASE_URL}${value.image_inventory.toLowerCase()}.png`,
+                });
+            }
         }
     }
 
