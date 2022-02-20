@@ -191,7 +191,6 @@ export const skins = async () => {
                     name: `${translatedName} | ${allPaintKits[pattern]}`,
                     weapon: translatedName,
                     pattern: allPaintKits[pattern] ?? null,
-                    collection: allSkinsCollections[pattern]?.name ?? null,
                     image,
                 });
             }
