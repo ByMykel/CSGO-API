@@ -358,3 +358,29 @@ export const keys = async () => {
 
     return result;
 };
+
+export const agents = async () => {
+    const allItems = await items();
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const value of Object.values(allItems)) {
+        if (value.prefab === "customplayertradable") {
+            result.push({
+                id: value.name.toLocaleLowerCase(),
+                name: getTranslation(allTranslation, value.item_name),
+                description: getTranslation(
+                    allTranslation,
+                    value.item_description
+                ),
+                rarity: getTranslation(
+                    allTranslation,
+                    `rarity_${value.item_rarity}`
+                ),
+                image: `${IMAGES_BASE_URL}econ/characters/${value.name.toLocaleLowerCase()}.png`,
+            });
+        }
+    }
+
+    return result;
+};
