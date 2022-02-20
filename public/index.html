@@ -491,13 +491,13 @@
 										class="schema null">null</span>
 								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+							<div class="grid grid-cols-2 px-8 py-1">
 								<div>rarity</div>
 								<div class="text-slate-400"><span class="schema string">string</span> or <span
 										class="schema null">null</span>
 								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
 								<div>image</div>
 								<div class="schema string">string</div>
 							</div>
@@ -569,11 +569,11 @@
 								<div>description</div>
 								<div class="schema string">string</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+							<div class="grid grid-cols-2 px-8 py-1">
 								<div>rarity</div>
 								<div class="schema string">string</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
 								<div>image</div>
 								<div class="schema string">string</div>
 							</div>
@@ -647,11 +647,11 @@
 										class="schema null">null</span>
 								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+							<div class="grid grid-cols-2 px-8 py-1">
 								<div>rarity</div>
 								<div class="schema string">string</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
 								<div>image</div>
 								<div class="schema string">string</div>
 							</div>
@@ -681,6 +681,86 @@
         "description": null,
         "rarity": "Remarkable",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+	// ...
+]</code></pre>
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="section-10">
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List graffiti
+				</h1>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/graffiti.json
+				</div>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-10', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-10', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>description</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>rarity</div>
+								<div class="text-slate-400"><span class="schema string">string</span> or <span
+										class="schema null">null</span>
+								</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+<code class="language-json">[
+	// ...
+	{
+        "id": "london2018_team_c9_graffiti",
+        "name": "Sealed Graffiti | Cloud9 | London 2018",
+        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
+        "rarity": null,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/c9_graffiti_large.png"
+    },
+    {
+        "id": "london2018_team_faze_graffiti",
+        "name": "Sealed Graffiti | FaZe Clan | London 2018",
+        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
+        "rarity": null,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/faze_graffiti_large.png"
+    },
+    {
+        "id": "london2018_team_navi_graffiti",
+        "name": "Sealed Graffiti | Natus Vincere | London 2018",
+        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
+        "rarity": null,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/navi_graffiti_large.png"
     },
 	// ...
 ]</code></pre>

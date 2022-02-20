@@ -414,3 +414,46 @@ export const patches = async () => {
 
     return result;
 };
+
+export const graffiti = async () => {
+    const stickerKits = await itemsGame().then(
+        (response) => response.items_game.sticker_kits
+    );
+    const allItems = await items();
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const values of Object.values(stickerKits)) {
+        for (const spray of Object.values(values)) {
+            if (spray.item_name.indexOf("#SprayKit_") === -1) continue;
+
+            result.push({
+                id: spray.item_name.replace("#SprayKit_", ""),
+                name: getTranslation(allTranslation, spray.item_name),
+                description: getTranslation(
+                    allTranslation,
+                    spray.description_string
+                ),
+                rarity: getTranslation(
+                    allTranslation,
+                    `rarity_${spray.item_rarity}`
+                ),
+                image: `${IMAGES_BASE_URL}econ/stickers/${spray.sticker_material}_large.png`,
+            });
+        }
+    }
+
+    for (const item of Object.values(allItems)) {
+        if (item.name.indexOf("crate_graffiti_") === -1) continue;
+
+        result.push({
+            id: item.item_name.replace("#StoreItem_", ""),
+            name: getTranslation(allTranslation, item.item_name),
+            description: getTranslation(allTranslation, item.item_description),
+            rarity: null,
+            image: `${IMAGES_BASE_URL}${item.image_inventory}_large.png`,
+        });
+    }
+
+    return result;
+};
