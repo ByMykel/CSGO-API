@@ -202,16 +202,37 @@ export const skins = async () => {
 
 export const collectibles = async () => {
     const allItems = await items();
+    const allTranslation = await translations();
     const result = [];
 
     for (const values of Object.values(allItems)) {
         if (values.item_name === undefined) continue;
-        if (values.item_name?.indexOf("#CSGO_Collectible") !== -1) {
+        if (
+            values.item_name?.indexOf("#CSGO_Collectible") !== -1 ||
+            values.item_name?.indexOf("#CSGO_TournamentJournal") !== -1
+        ) {
+            let id = values.image_inventory.match(
+                /econ\/status_icons\/(.*?)$/i
+            )[1];
+            let name = values.translation_name;
+            const description = values.translation_description;
+            const image = `${IMAGES_BASE_URL}${values.image_inventory}.png`;
+            const rarity = getTranslation(
+                allTranslation,
+                `rarity_${values.item_rarity}`
+            );
+
+            if (values.prefab === "attendance_pin") {
+                id = `genuine_${id}`;
+                name = `Genuine ${name}`;
+            }
+
             result.push({
-                id: values.item_name.replace("#CSGO_", ""),
-                name: values.translation_name,
-                description: values.translation_description,
-                image: `${IMAGES_BASE_URL}${values.image_inventory}.png`,
+                id,
+                name,
+                description,
+                rarity,
+                image,
             });
         }
     }
@@ -242,7 +263,7 @@ export const stickers = async () => {
             );
             const rarity = getTranslation(
                 allTranslation,
-                `rarity_${sticker.item_rarity?.toLowerCase()}`
+                `rarity_${sticker.item_rarity}`
             );
             const image = `${IMAGES_BASE_URL}econ/stickers/${sticker.sticker_material.toLowerCase()}_large.png`;
 
