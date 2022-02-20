@@ -361,9 +361,13 @@
 			<hr>
 
 			<div id="section-5">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
 					List cases
 				</h1>
+
+				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+					This list includes patch packs, major bundles, graffiti boxes, music kits, pins capsule and sticker capsules.
+				</p>
 
 				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
 					<span class="text-pink-400">GET</span>
@@ -590,6 +594,82 @@
         "description": "This championship trophy was awarded to the Semifinalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
         "rarity": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_semifinalist.png"
+    },
+	// ...
+]</code></pre>
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="section-8">
+				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+					List agents
+				</h1>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+					<span class="text-pink-400">GET</span>
+					https://bymykel.me/CSGO-API/api/agents.json
+				</div>
+
+				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+						<div class="schema-tab" onclick="changeTab('section-8', 'schema')">
+							Schema
+						</div>
+						<div class="example-tab not-active-tab" onclick="changeTab('section-8', 'example')">
+							Example
+						</div>
+					</div>
+					<div class="schema-data">
+						<div class="px-3 py-1 schema array-object">array[object]</div>
+						<div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>id</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>name</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>description</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+								<div>rarity</div>
+								<div class="schema string">string</div>
+							</div>
+							<div class="grid grid-cols-2 px-8 py-1">
+								<div>image</div>
+								<div class="schema string">string</div>
+							</div>
+						</div>
+					</div>
+
+					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+<code class="language-json">[
+	// ...
+	{
+        "id": "customplayer_ctm_fbi_variantb",
+        "name": "Special Agent Ava | FBI",
+        "description": "Initially underestimated, Special Agent Ava soon became her team's ultimate secret weapon. \\n\\nDespite receiving three out of five possible FBI Honorary Medals, Ava is surprisingly indifferent to her accomplishments. The way she sees it, it's nothing compared to growing up with four older brothers in urban New Jersey. \\n\\nSpecial Agent Ava takes pleasure from the simple things: clean wins, cold beer, and turning bad guys into thin crust pizza pie. \\n\\n<i>They see me. They're confused. And then they're dead.</i>",
+        "rarity": "Extraordinary",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_fbi_variantb.png"
+    },
+    {
+        "id": "customplayer_ctm_st6_variantj",
+        "name": "'Blueberries' Buckshot | NSWC SEAL",
+        "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\\n\\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \\n\\n<i>They talk to me. The guns. They have feelings.</i>",
+        "rarity": "Remarkable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_st6_variantj.png"
+    },
+    {
+        "id": "customplayer_ctm_st6_variantl",
+        "name": "'Two Times' McCoy | TACP Cavalry",
+        "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike.\\n\\nHis yellow scarf is a tribute to his time with 1st Cavalry Division.\\n\\n<i>Yep. Still here.</i>",
+        "rarity": "Exotic",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_st6_variantl.png"
     },
 	// ...
 ]</code></pre>

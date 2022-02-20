@@ -5,11 +5,12 @@ import {
     collections,
     cases,
     keys,
+    agents
 } from "./services/csgo.js";
 import { saveDataJson } from "./services/saveDataJson.js";
 
 (async () => {
-    const functions = [skins, stickers, collectibles, collections, cases, keys];
+    const functions = [skins, stickers, collectibles, collections, cases, keys, agents];
 
     for (const i in functions) {
         const data = await functions[i]();
