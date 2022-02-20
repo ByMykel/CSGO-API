@@ -384,3 +384,33 @@ export const agents = async () => {
 
     return result;
 };
+
+export const patches = async () => {
+    const stickerKits = await itemsGame().then(
+        (response) => response.items_game.sticker_kits
+    );
+    const allTranslation = await translations();
+    const result = [];
+
+    for (const values of Object.values(stickerKits)) {
+        for (const patch of Object.values(values)) {
+            if (patch.patch_material === undefined) continue;
+
+            result.push({
+                id: patch.patch_material,
+                name: getTranslation(allTranslation, patch.item_name),
+                description: getTranslation(
+                    allTranslation,
+                    patch.description_string
+                ),
+                rarity: getTranslation(
+                    allTranslation,
+                    `rarity_${patch.item_rarity}`
+                ),
+                image: `${IMAGES_BASE_URL}econ/patches/${patch.patch_material}_large.png`,
+            });
+        }
+    }
+
+    return result;
+};
