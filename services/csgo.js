@@ -49,6 +49,22 @@ const skinsCollections = async () => {
     return result;
 };
 
+const paintKitsRarity = async () => {
+    const paintKitsRarity = await itemsGame().then(
+        (response) => response.items_game.paint_kits_rarity
+    );
+
+    const results = [];
+
+    for (const values of Object.values(paintKitsRarity)) {
+        for (const [pattern, rarity] of Object.entries(values)) {
+            results[pattern.toLocaleLowerCase()] = rarity;
+        }
+    }
+
+    return results;
+};
+
 export const itemsGame = async () => {
     const data = await axios
         .get(ITEMS_GAME_URL)
@@ -161,6 +177,8 @@ export const skins = async () => {
     const allItems = await items();
     const allPaintKits = await paintKits();
     const allSkinsCollections = await skinsCollections();
+    const allPaintKitsRarity = await paintKitsRarity();
+    const allTranslation = await translations();
 
     const results = [];
 
@@ -179,9 +197,7 @@ export const skins = async () => {
                     .toLowerCase();
 
                 const translatedName =
-                    allItems[weapon]?.translation_name ||
-                    allItems[`sfui_wpnhud_${weapon.replace("weapon_", "")}`]
-                        ?.translation_name;
+                    allItems[weapon]?.translation_name || "error aqui";
 
                 const image = `${IMAGES_BASE_URL}${path}_large.png`;
 
@@ -191,6 +207,10 @@ export const skins = async () => {
                     name: `${translatedName} | ${allPaintKits[pattern]}`,
                     weapon: translatedName,
                     pattern: allPaintKits[pattern] ?? null,
+                    rarity: getTranslation(
+                        allTranslation,
+                        `rarity_${allPaintKitsRarity[pattern]}_weapon`
+                    ) ?? "Contraband",
                     image,
                 });
             }
@@ -216,7 +236,7 @@ export const collectibles = async () => {
             )[1];
             let name = values.translation_name;
             const description = values.translation_description;
-            const image = `${IMAGES_BASE_URL}${values.image_inventory}.png`;
+            const image = `${IMAGES_BASE_URL}${values.image_inventory}_large.png`;
             const rarity = getTranslation(
                 allTranslation,
                 `rarity_${values.item_rarity}`
@@ -375,7 +395,7 @@ export const agents = async () => {
                 ),
                 rarity: getTranslation(
                     allTranslation,
-                    `rarity_${value.item_rarity}`
+                    `rarity_${value.item_rarity}_character`
                 ),
                 image: `${IMAGES_BASE_URL}econ/characters/${value.name.toLocaleLowerCase()}.png`,
             });
