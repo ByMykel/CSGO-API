@@ -197,7 +197,7 @@ export const skins = async () => {
                     .toLowerCase();
 
                 const translatedName =
-                    allItems[weapon]?.translation_name || "error aqui";
+                    allItems[weapon]?.translation_name;
 
                 const image = `${IMAGES_BASE_URL}${path}_large.png`;
 
