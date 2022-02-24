@@ -1,20 +1,11 @@
-import {
-    skins,
-    stickers,
-    collectibles,
-    collections,
-    cases,
-    keys,
-} from "./services/csgo.js";
-import { saveDataJson } from "./services/saveDataJson.js";
+import { items, translations } from "./services/csgo.js";
+import { getCollectibles } from "./services/collectibles/index.js";
+import { getKeys } from "./services/keys/index.js";
 
 (async () => {
-    const functions = [skins, stickers, collectibles, collections, cases, keys];
+    const allItems = await items();
+    const allTranslations = await translations();
 
-    for (const i in functions) {
-        const data = await functions[i]();
-        const json = JSON.stringify(data, null, 4);
-
-        saveDataJson(`public/api/${functions[i].name}.json`, json);
-    }
+    getCollectibles(allItems, allTranslations);
+    getKeys(allItems, allTranslations);
 })();
