@@ -49,7 +49,7 @@ const getType = (collectible) => {
     }
 
     if (collectible.item_name.startsWith("#CSGO_Collectible_CommunitySeason")) {
-        if (collectible?.prefab === "season_tiers") {
+        if (collectible?.prefab === "valve season_tiers") {
             return "Stars for Operation";
         }
 
@@ -71,13 +71,14 @@ const getFileNameByType = (type) => {
         "Tournament Finalist Trophy": "major/finalists_trophies.json",
         "Old Pick'Em Trophy": "major/pickem_old.json",
         "Operation Coin": "operation_coins.json",
+        "Stars for Operation": "major/operation_stars.json",
         "Map Contributor Coin": "map_coins.json",
         "Service Medal": "service_medals.json",
         Pin: "pins.json",
         "Pick'Em Coin": "major/pickem_coins.json",
     };
 
-    return files[type];
+    return files[type] ?? "other.json";
 };
 
 const parseItem = (item, translations) => {
