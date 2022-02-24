@@ -45,6 +45,10 @@ const getType = (collectible) => {
             return "Old Pick'Em Trophy";
         }
 
+        if (collectible.translation_name.includes("Fantasy")) {
+            return "Fantasy Trophy";
+        }
+
         return "Tournament Finalist Trophy";
     }
 
@@ -70,12 +74,13 @@ const getFileNameByType = (type) => {
         other: "other.json",
         "Tournament Finalist Trophy": "major/finalists_trophies.json",
         "Old Pick'Em Trophy": "major/pickem_old.json",
+        "Pick'Em Coin": "major/pickem_coins.json",
+        "Fantasy Trophy": "major/fantasy_trophies.json",
         "Operation Coin": "operation/coins.json",
         "Stars for Operation": "operation/stars.json",
         "Map Contributor Coin": "map_coins.json",
         "Service Medal": "service_medals.json",
         Pin: "pins.json",
-        "Pick'Em Coin": "major/pickem_coins.json",
     };
 
     return files[type] ?? "other.json";
