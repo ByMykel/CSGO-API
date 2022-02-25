@@ -1,13 +1,6 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-
-const getTranslation = (translations, key) => {
-    const translation = translations[key?.replace("#", "").toLowerCase()];
-
-    if (translation === undefined || translation === "") return null;
-
-    return translation;
-};
+import { getTranslation } from "./translations.js";
 
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
