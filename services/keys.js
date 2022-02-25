@@ -1,5 +1,5 @@
-import { IMAGES_BASE_URL } from "../../utils/config.js";
-import { saveDataJson } from "../../services/saveDataJson.js";
+import { IMAGES_BASE_URL } from "../utils/config.js";
+import { saveDataJson } from "./saveDataJson.js";
 
 const getTranslation = (translations, key) => {
     const translation = translations[key?.replace("#", "").toLowerCase()];
