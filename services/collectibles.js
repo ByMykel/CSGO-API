@@ -1,13 +1,6 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-
-const getTranslation = (translations, key) => {
-    const translation = translations[key?.replace("#", "").toLowerCase()];
-
-    if (translation === undefined || translation === "") return null;
-
-    return translation;
-};
+import { getTranslation } from "./translations.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -118,7 +111,7 @@ const groupByType = (collectibles) => {
     );
 };
 
-export const getCollectibles = async (items, translations) => {
+export const getCollectibles = (items, translations) => {
     const collectibles = [];
 
     Object.values(items).forEach((item) => {
