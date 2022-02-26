@@ -35,7 +35,7 @@ import { CSGO_ENGLISH_URL } from "./utils/config.js";
     getKeys(items, translations);
     getAgents(items, translations);
     getCrates(items, translations);
-    getCollections(itemSets, translations);
+    getCollections(items, itemSets, translations);
     getGraffiti(items, stickerKits, translations);
     getPatches(stickerKits, translations);
     getStickers(stickerKits, translations);
