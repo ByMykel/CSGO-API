@@ -7,6 +7,10 @@ const isSpray = (item) => {
         return true;
     }
 
+    if (item.name.includes("spray_")) {
+        return true;
+    }
+
     return false;
 };
 

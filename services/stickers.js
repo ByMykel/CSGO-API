@@ -6,10 +6,16 @@ const isSticker = (item) => {
     if (item.sticker_material === undefined) {
         return false;
     }
+
     if (!item.item_name.startsWith("#StickerKit_")) {
         return false;
     }
+
     if (item.name.includes("graffiti")) {
+        return false;
+    }
+
+    if (item.name.includes("spray_")) {
         return false;
     }
 
