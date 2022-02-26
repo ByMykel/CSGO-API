@@ -21,6 +21,10 @@ const isCrate = (item) => {
         return false;
     }
 
+    if (item.translation_name.includes('Collection')) {
+        return false;
+    }
+
     return true;
 };
 

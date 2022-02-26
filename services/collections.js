@@ -25,8 +25,14 @@ const isSelfOpeningCollection = (item) => {
         return false;
     }
 
-    if (item.item_type === "self_opening_purchase") {
+    if (item.item_type === undefined) {
         if (item.translation_name.includes("Collection")) {
+            return true;
+        }
+    }
+
+    if (item.item_type === "self_opening_purchase") {
+        if (item.translation_name.includes("Graffiti")) {
             return true;
         }
     }
