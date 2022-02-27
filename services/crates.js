@@ -21,11 +21,80 @@ const isCrate = (item) => {
         return false;
     }
 
-    if (item.translation_name.includes('Collection')) {
+    if (item.translation_name.includes("Collection")) {
         return false;
     }
 
     return true;
+};
+
+const getFileNameByType = (type) => {
+    const files = {
+        other: "other.json",
+        "Case": "cases.json",
+        "Souvenir": "souvenir.json",
+        "Sticker Capsule": "capsules/stickers.json",
+        "Autograph Capsule": "capsules/autographs.json",
+        "Patch Capsule": "capsules/patches.json",
+        "Music Kit Box": "music_kit_boxes.json",
+        "Pins": "pins.json",
+        "Graffiti": "graffiti.json",
+    };
+
+    return files[type] ?? "other.json";
+};
+
+const getCrateType = (item) => {
+    if (item.prefab === "weapon_case") {
+        return "Case";
+    }
+
+    if (item.prefab === "weapon_case_souvenirpkg") {
+        return "Souvenir";
+    }
+
+    if (item.prefab === "sticker_capsule") {
+        return "Sticker Capsule";
+    }
+
+    if (item.prefab === "graffiti_box") {
+        return "Graffiti";
+    }
+
+    if (item.translation_description?.includes("capsule")) {
+        return "Sticker Capsule";
+    }
+
+    if (item.name.startsWith("crate_signature")) {
+        return "Autograph Capsule";
+    }
+
+    if (item.translation_name.includes("Patch")) {
+        return "Patch Capsule";
+    }
+
+    if (item.name.startsWith("crate_musickit")) {
+        return "Music Kit Box";
+    }
+
+    if (item.name.startsWith("crate_pins")) {
+        return "Pins";
+    }
+
+    return null;
+};
+
+const groupByType = (crates) => {
+    return crates.reduce(
+        (items, item) => ({
+            ...items,
+            [item.type ?? "other"]: [
+                ...(items[item.type ?? "other"] || []),
+                item,
+            ],
+        }),
+        {}
+    );
 };
 
 const parseItem = (item, translations) => {
@@ -36,6 +105,7 @@ const parseItem = (item, translations) => {
         collection_id: item.tags?.ItemSet?.tag_value ?? null,
         name: getTranslation(translations, item.item_name),
         description: item.translation_description,
+        type: getCrateType(item),
         image,
     };
 };
@@ -48,4 +118,13 @@ export const getCrates = (items, translations) => {
     });
 
     saveDataJson(`./public/api/crates.json`, crates);
+
+    const cratesByTypes = groupByType(crates);
+
+    Object.entries(cratesByTypes).forEach(([type, values]) => {
+        saveDataJson(
+            `./public/api/crates/${getFileNameByType(type)}`,
+            values
+        );
+    });
 };
