@@ -36,8 +36,8 @@ const getFileNameByType = (type) => {
         "Sticker Capsule": "capsules/stickers.json",
         "Autograph Capsule": "capsules/autographs.json",
         "Patch Capsule": "capsules/patches.json",
+        "Pins": "capsules/pins.json",
         "Music Kit Box": "music_kit_boxes.json",
-        "Pins": "pins.json",
         "Graffiti": "graffiti.json",
     };
 
@@ -61,6 +61,10 @@ const getCrateType = (item) => {
         return "Graffiti";
     }
 
+    if (item.name.startsWith("crate_pins")) {
+        return "Pins";
+    }
+
     if (item.translation_description?.includes("capsule")) {
         return "Sticker Capsule";
     }
@@ -75,10 +79,6 @@ const getCrateType = (item) => {
 
     if (item.name.startsWith("crate_musickit")) {
         return "Music Kit Box";
-    }
-
-    if (item.name.startsWith("crate_pins")) {
-        return "Pins";
     }
 
     return null;
