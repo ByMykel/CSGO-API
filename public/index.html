@@ -24,15 +24,15 @@
 	<meta property="twitter:title" content="CSGO API">
 	<meta property="twitter:description" content="An unofficial JSON API for Counter-Strike: Global Offensive. ">
 	<meta property="twitter:image" content="">
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8BZKYEKZZ"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	  gtag('config', 'G-Z8BZKYEKZZ');
+		gtag('config', 'G-Z8BZKYEKZZ');
 	</script>
 
 	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -82,722 +82,699 @@
 
 <body>
 	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20">
-		<div class="my-10">
-			<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-center">
-				CSGO API
-			</h1>
-			<p class="mt-3 text-base sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-center">
-				An unofficial JSON API for CS:GO
-			</p>
-		</div>
-
-		<div class="pb-12">
-			<div id="section-2">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List skins
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/skins.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-2', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-2', 'example')">
-							Example
-						</div>
+		<div>
+			<div
+				class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[12rem] pb-10 px-6 overflow-y-auto">
+				<div class="sticky top-4">
+					<div>
+						<h1 class="text-lg tracking-tight font-extrabold text-slate-900 mb-3">CSGO API</h1>
 					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>collection_id</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>weapon</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>pattern</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
-						</div>
+					<div>
+						<a href="#section-2" class="text-slate-800 hover:underline">List skins</a>
 					</div>
-
-					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
-<code class="language-json">[
-	// ...
-	{
-        "id": "weapon_m4a1_cu_m4_asimov",
-        "collection_id": "set_community_1",
-        "name": "M4A4 | Asiimov",
-        "weapon": "M4A4",
-        "pattern": "Asiimov",
-        "rarity": "Classified",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.png"
-    },
-    {
-        "id": "weapon_m4a1_cu_m4a1_howling",
-        "collection_id": null,
-        "name": "M4A4 | Howl",
-        "weapon": "M4A4",
-        "pattern": "Howl",
-        "rarity": "Contraband",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.png"
-    },
-    {
-        "id": "weapon_m4a1_cu_titanstorm",
-        "collection_id": "set_community_3",
-        "name": "M4A4 | Desert-Strike",
-        "weapon": "M4A4",
-        "pattern": "Desert-Strike",
-        "rarity": "Classified",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_titanstorm_light_large.png"
-    },
-	// ...
-]</code></pre>
+					<div>
+						<a href="#section-3" class="text-slate-800 hover:underline">List stickers</a>
+					</div>
+					<div>
+						<a href="#section-4" class="text-slate-800 hover:underline">List collections</a>
+					</div>
+					<div>
+						<a href="#section-5" class="text-slate-800 hover:underline">List crates</a>
+					</div>
+					<div>
+						<a href="#section-6" class="text-slate-800 hover:underline">List keys</a>
+					</div>
+					<div>
+						<a href="#section-7" class="text-slate-800 hover:underline">List collectibles</a>
+					</div>
+					<div>
+						<a href="#section-8" class="text-slate-800 hover:underline">List agents</a>
+					</div>
+					<div>
+						<a href="#section-9" class="text-slate-800 hover:underline">List patches</a>
+					</div>
+					<div>
+						<a href="#section-10" class="text-slate-800 hover:underline">List graffiti</a>
+					</div>
 				</div>
 			</div>
+			<div class="lg:pl-[10rem] xl:pl-[1rem]">
+				<div class="pb-12 mt-4">
+					<div id="section-2">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List skins
+						</h1>
 
-			<hr>
-
-			<div id="section-3">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List stickers
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/stickers.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-3', 'schema')">
-							Schema
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/skins.json
 						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-3', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-2', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-2', 'example')">
+									Example
 								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>collection_id</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>weapon</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>pattern</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
 								</div>
 							</div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
-						</div>
-					</div>
 
-					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+							<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "kat2014_hellraisers_holo",
-        "name": "Sticker | HellRaisers (Holo) | Katowice 2014",
-        "description": null,
-        "rarity": "Remarkable",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/hellraisers_holo_large.png"
-    },
-    {
-        "id": "kat2014_ibuypower",
-        "name": "Sticker | iBUYPOWER | Katowice 2014",
-        "description": null,
-        "rarity": "High Grade",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_large.png"
-    },
-    {
-        "id": "kat2014_ibuypower_holo",
-        "name": "Sticker | iBUYPOWER (Holo) | Katowice 2014",
-        "description": null,
-        "rarity": "Remarkable",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_holo_large.png"
-    },
+		"id": "weapon_m4a1_cu_m4_asimov",
+		"collection_id": "set_community_1",
+		"name": "M4A4 | Asiimov",
+		"weapon": "M4A4",
+		"pattern": "Asiimov",
+		"rarity": "Classified",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.png"
+	},
+	{
+		"id": "weapon_m4a1_cu_m4a1_howling",
+		"collection_id": null,
+		"name": "M4A4 | Howl",
+		"weapon": "M4A4",
+		"pattern": "Howl",
+		"rarity": "Contraband",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-4">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List collections
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/collections.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-4', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-4', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
 						</div>
 					</div>
 
-					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+					<hr>
+
+					<div id="section-3">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List stickers
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/stickers.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-3', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-3', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "set_op10_ancient",
-        "name": "The Ancient Collection",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_op10_ancient.png"
-    },
-    {
-        "id": "set_community_28",
-        "name": "The Snakebite Collection",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_community_28.png"
-    },
-    {
-        "id": "set_train_2021",
-        "name": "The 2021 Train Collection",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_train_2021.png"
-    },
+		"id": "kat2014_ibuypower",
+		"name": "Sticker | iBUYPOWER | Katowice 2014",
+		"description": null,
+		"rarity": "High Grade",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_large.png"
+	},
+	{
+		"id": "kat2014_ibuypower_holo",
+		"name": "Sticker | iBUYPOWER (Holo) | Katowice 2014",
+		"description": null,
+		"rarity": "Remarkable",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/emskatowice2014/ibuypower_holo_large.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-5">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-					List cases
-				</h1>
-
-				<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-					This list includes patch packs, major bundles, graffiti boxes, music kits boxes, pins capsule and sticker
-					capsules.
-				</p>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/cases.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-5', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-5', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>collection_id</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
 						</div>
 					</div>
 
-					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+					<hr>
+
+					<div id="section-4">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List collections
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/collections.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-4', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-4', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "berlin2019_promo_de_vertigo",
-        "collection_id": "set_vertigo",
-        "name": "Berlin 2019 Vertigo Souvenir Package",
-        "description": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_berlin2019_promo_de_vertigo.png"
-    },
-    {
-        "id": "sticker_pack_rmr2020_legends",
-        "collection_id": null,
-        "name": "2020 RMR Legends",
-        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_legends.png"
-    },
-    {
-        "id": "sticker_pack_rmr2020_challengers",
-        "collection_id": null,
-        "name": "2020 RMR Challengers",
-        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_challengers.png"
-    },
+		"id": "set_community_28",
+		"name": "The Snakebite Collection",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_community_28.png"
+	},
+	{
+		"id": "set_train_2021",
+		"name": "The 2021 Train Collection",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/set_icons/set_train_2021.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-6">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List keys
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/keys.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-6', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-6', 'example')">
-							Example
 						</div>
 					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>case_id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
+
+					<hr>
+
+					<div id="section-5">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+							List crates
+						</h1>
+
+						<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
+							This list includes patch packs, major bundles, graffiti boxes, music kits boxes, pins
+							capsule and sticker
+							capsules.
+						</p>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/crates.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-5', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-5', 'example')">
+									Example
 								</div>
 							</div>
-							<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-								<div>image</div>
-								<div class="schema string">string</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>collection_id</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
 
-					<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+							<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "key_community_28",
-        "case_id": "community_28",
-        "name": "Snakebite Case Key",
-        "description": "This key only opens Snakebite cases",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_28.png"
-    },
-    {
-        "id": "key_community_29",
-        "case_id": "community_29",
-        "name": "Operation Riptide Case Key",
-        "description": "This key only opens Operation Riptide cases",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_29.png"
-    },
-    {
-        "id": "key_community_30",
-        "case_id": "community_30",
-        "name": "Dreams & Nightmares Case Key",
-        "description": "This key only opens Dreams & Nightmares cases",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_30.png"
-    },
+		"id": "sticker_pack_rmr2020_legends",
+		"collection_id": null,
+		"name": "2020 RMR Legends",
+		"description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_legends.png"
+	},
+	{
+		"id": "sticker_pack_rmr2020_challengers",
+		"collection_id": null,
+		"name": "2020 RMR Challengers",
+		"description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_challengers.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-7">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List collectibles
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/collectibles.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-7', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-7', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
 						</div>
 					</div>
 
-					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+					<hr>
+
+					<div id="section-6">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List keys
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/keys.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-6', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-6', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>case_id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 py-1 bg-slate-700 bg-opacity-30 px-8">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "dreamhack_2013_champion",
-        "name": "Champion at DreamHack 2013",
-        "description": "This championship trophy was awarded to the Champion at The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_champion.png"
-    },
-    {
-        "id": "dreamhack_2013_finalist",
-        "name": "Finalist at DreamHack 2013",
-        "description": "This championship trophy was awarded to the Finalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_finalist.png"
-    },
-    {
-        "id": "dreamhack_2013_semifinalist",
-        "name": "Semifinalist at DreamHack 2013",
-        "description": "This championship trophy was awarded to the Semifinalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_semifinalist.png"
-    },
+		"id": "key_community_29",
+		"case_id": "community_29",
+		"name": "Operation Riptide Case Key",
+		"description": "This key only opens Operation Riptide cases",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_29.png"
+	},
+	{
+		"id": "key_community_30",
+		"case_id": "community_30",
+		"name": "Dreams & Nightmares Case Key",
+		"description": "This key only opens Dreams & Nightmares cases",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_30.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-8">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List agents
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/agents.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-8', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-8', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>description</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
 						</div>
 					</div>
 
-					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+					<hr>
+
+					<div id="section-7">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List collectibles
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/collectibles.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-7', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-7', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "customplayer_ctm_fbi_variantb",
-        "name": "Special Agent Ava | FBI",
-        "description": "Initially underestimated, Special Agent Ava soon became her team's ultimate secret weapon. \\n\\nDespite receiving three out of five possible FBI Honorary Medals, Ava is surprisingly indifferent to her accomplishments. The way she sees it, it's nothing compared to growing up with four older brothers in urban New Jersey. \\n\\nSpecial Agent Ava takes pleasure from the simple things: clean wins, cold beer, and turning bad guys into thin crust pizza pie. \\n\\n<i>They see me. They're confused. And then they're dead.</i>",
-        "rarity": "Extraordinary",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_fbi_variantb.png"
-    },
-    {
-        "id": "customplayer_ctm_st6_variantj",
-        "name": "'Blueberries' Buckshot | NSWC SEAL",
-        "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\\n\\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \\n\\n<i>They talk to me. The guns. They have feelings.</i>",
-        "rarity": "Remarkable",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_st6_variantj.png"
-    },
-    {
-        "id": "customplayer_ctm_st6_variantl",
-        "name": "'Two Times' McCoy | TACP Cavalry",
-        "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike.\\n\\nHis yellow scarf is a tribute to his time with 1st Cavalry Division.\\n\\n<i>Yep. Still here.</i>",
-        "rarity": "Exotic",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_st6_variantl.png"
-    },
+		"id": "dreamhack_2013_finalist",
+		"name": "Finalist at DreamHack 2013",
+		"description": "This championship trophy was awarded to the Finalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
+		"rarity": null,
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_finalist.png"
+	},
+	{
+		"id": "dreamhack_2013_semifinalist",
+		"name": "Semifinalist at DreamHack 2013",
+		"description": "This championship trophy was awarded to the Semifinalist at The 2013 DreamHack SteelSeries CS:GO Championship.",
+		"rarity": null,
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dreamhack_2013_semifinalist.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-9">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List patches
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/patches.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-9', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-9', 'example')">
-							Example
 						</div>
 					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
+
+					<hr>
+
+					<div id="section-8">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List agents
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/agents.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-8', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-8', 'example')">
+									Example
 								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="schema string">string</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>description</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
 							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
-						</div>
-					</div>
 
-					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+							<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "stockh2021/patch_vp_gold",
-        "name": "Virtus.Pro (Gold) | Stockholm 2021",
-        "description": null,
-        "rarity": "Remarkable",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
-    },
-    {
-        "id": "stockh2021/patch_cope",
-        "name": "Copenhagen Flames | Stockholm 2021",
-        "description": null,
-        "rarity": "High Grade",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
-    },
-    {
-        "id": "stockh2021/patch_cope_gold",
-        "name": "Copenhagen Flames (Gold) | Stockholm 2021",
-        "description": null,
-        "rarity": "Remarkable",
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
-    },
+		"id": "customplayer_ctm_fbi_variantb",
+		"name": "Special Agent Ava | FBI",
+		"description": "Initially underestimated, Special Agent Ava soon became her team's ultimate secret weapon. \\n\\nDespite receiving three out of five possible FBI Honorary Medals, Ava is surprisingly indifferent to her accomplishments. The way she sees it, it's nothing compared to growing up with four older brothers in urban New Jersey. \\n\\nSpecial Agent Ava takes pleasure from the simple things: clean wins, cold beer, and turning bad guys into thin crust pizza pie. \\n\\n<i>They see me. They're confused. And then they're dead.</i>",
+		"rarity": "Extraordinary",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_fbi_variantb.png"
+	},
+	{
+		"id": "customplayer_ctm_st6_variantj",
+		"name": "'Blueberries' Buckshot | NSWC SEAL",
+		"description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\\n\\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \\n\\n<i>They talk to me. The guns. They have feelings.</i>",
+		"rarity": "Remarkable",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/characters/customplayer_ctm_st6_variantj.png"
+	},
 	// ...
 ]</code></pre>
-				</div>
-			</div>
-
-			<hr>
-
-			<div id="section-10">
-				<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-					List graffiti
-				</h1>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
-					<span class="text-pink-400">GET</span>
-					https://bymykel.me/CSGO-API/api/graffiti.json
-				</div>
-
-				<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-					<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-						<div class="schema-tab" onclick="changeTab('section-10', 'schema')">
-							Schema
-						</div>
-						<div class="example-tab not-active-tab" onclick="changeTab('section-10', 'example')">
-							Example
-						</div>
-					</div>
-					<div class="schema-data">
-						<div class="px-3 py-1 schema array-object">array[object]</div>
-						<div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>id</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>name</div>
-								<div class="schema string">string</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>description</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1">
-								<div>rarity</div>
-								<div class="text-slate-400"><span class="schema string">string</span> or <span
-										class="schema null">null</span>
-								</div>
-							</div>
-							<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-								<div>image</div>
-								<div class="schema string">string</div>
-							</div>
 						</div>
 					</div>
 
-					<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+					<hr>
+
+					<div id="section-9">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List patches
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/patches.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-9', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-9', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
 <code class="language-json">[
 	// ...
 	{
-        "id": "london2018_team_c9_graffiti",
-        "name": "Sealed Graffiti | Cloud9 | London 2018",
-        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/c9_graffiti_large.png"
-    },
-    {
-        "id": "london2018_team_faze_graffiti",
-        "name": "Sealed Graffiti | FaZe Clan | London 2018",
-        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/faze_graffiti_large.png"
-    },
-    {
-        "id": "london2018_team_navi_graffiti",
-        "name": "Sealed Graffiti | Natus Vincere | London 2018",
-        "description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
-        "rarity": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/navi_graffiti_large.png"
-    },
+		"id": "stockh2021/patch_vp_gold",
+		"name": "Virtus.Pro (Gold) | Stockholm 2021",
+		"description": null,
+		"rarity": "Remarkable",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+	},
+	{
+		"id": "stockh2021/patch_cope",
+		"name": "Copenhagen Flames | Stockholm 2021",
+		"description": null,
+		"rarity": "High Grade",
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+	},
 	// ...
 ]</code></pre>
+						</div>
+					</div>
+
+					<hr>
+
+					<div id="section-10">
+						<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+							List graffiti
+						</h1>
+
+						<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+							<span class="text-pink-400">GET</span>
+							https://bymykel.me/CSGO-API/api/graffiti.json
+						</div>
+
+						<div
+							class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+							<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+								<div class="schema-tab" onclick="changeTab('section-10', 'schema')">
+									Schema
+								</div>
+								<div class="example-tab not-active-tab" onclick="changeTab('section-10', 'example')">
+									Example
+								</div>
+							</div>
+							<div class="schema-data">
+								<div class="px-3 py-1 schema array-object">array[object]</div>
+								<div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>id</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>name</div>
+										<div class="schema string">string</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>description</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1">
+										<div>rarity</div>
+										<div class="text-slate-400"><span class="schema string">string</span> or <span
+												class="schema null">null</span>
+										</div>
+									</div>
+									<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+										<div>image</div>
+										<div class="schema string">string</div>
+									</div>
+								</div>
+							</div>
+
+							<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+<code class="language-json">[
+	// ...
+	{
+		"id": "london2018_team_faze_graffiti",
+		"name": "Sealed Graffiti | FaZe Clan | London 2018",
+		"description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
+		"rarity": null,
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/faze_graffiti_large.png"
+	},
+	{
+		"id": "london2018_team_navi_graffiti",
+		"name": "Sealed Graffiti | Natus Vincere | London 2018",
+		"description": "50% of the proceeds from the sale of this graffiti support the included players and organizations.",
+		"rarity": null,
+		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/navi_graffiti_large.png"
+	},
+	// ...
+]</code></pre>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
