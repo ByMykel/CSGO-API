@@ -81,7 +81,156 @@
 </head>
 
 <body>
-	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20">
+	<div
+		class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center">
+		<h1 class="text-2xl tracking-tight font-extrabold text-slate-900">CSGO API</h1>
+		<button onclick="openLateralNav()">
+			<svg width="24" height="24">
+				<path d="M5 6h14M5 12h14M5 18h14" fill="none" stroke="currentColor" strokeWidth="2"
+					strokeLinecap="round"></path>
+			</svg>
+		</button>
+	</div>
+	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20 pt-12 lg:pt-0">
+		<div class="fixed z-50 inset-0 overflow-y-auto lg:hidden hidden" id="lateral-nav" role="dialog"
+			aria-modal="true">
+			<div class="fixed inset-0 bg-black/20 backdrop-blur-sm"></div>
+			<div class="relative bg-white w-80 max-w-[calc(100%-3rem)] p-6">
+				<button
+					class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+					onClick="closeLateralNav()">
+					<svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible">
+						<path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2"
+							stroke-linecap="round"></path>
+					</svg>
+				</button>
+				<nav id="nav" class="lg:text-sm lg:leading-6 relative">
+					<div class="space-y-2 pb-28 pt-6">
+						<div class="mb-1.5">
+							<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-skins" class="text-slate-900 hover:underline">List skins</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-stickers" class="text-slate-900 hover:underline">List stickers</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-collections" class="text-slate-900 hover:underline">List collections</a>
+						</div>
+						<div class="mb-1.5">
+							<div class="text-slate-900">
+								List crates
+							</div>
+							<div class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100">
+								<div>
+									<a href="#list-crates"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
+								</div>
+								<div>
+									<a href="#list-crates-1"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
+										/ patches</a>
+								</div>
+								<div>
+									<a href="#list-crates-2"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
+										/ pins</a>
+								</div>
+								<div>
+									<a href="#list-crates-3"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Cases</a>
+								</div>
+								<div>
+									<a href="#list-crates-4"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Graffiti
+										boxes</a>
+								</div>
+								<div>
+									<a href="#list-crates-5"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Music
+										kit boxes</a>
+								</div>
+								<div>
+									<a href="#list-crates-6"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Souvenir
+										packages</a>
+								</div>
+							</div>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-keys" class="text-slate-900 hover:underline">List keys</a>
+						</div>
+						<div class="mb-1.5">
+							<div class="text-slate-900">
+								List collectibles
+							</div>
+							<div class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100">
+								<div>
+									<a href="#list-collectibles"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-1"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
+										/ fantasy team</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-2"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
+										/ finalists</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-3"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
+										/ pick'em</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-4"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
+										/ old pick'em</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-5"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
+										/ coins</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-6"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
+										/ stars</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-7"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Map
+										Contributor</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-8"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Pins</a>
+								</div>
+								<div>
+									<a href="#list-collectibles-9"
+										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Service
+										medals</a>
+								</div>
+							</div>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-agents" class="text-slate-900 hover:underline">List agents</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-patches" class="text-slate-900 hover:underline">List patches</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
+						</div>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
 		<div
 			class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[16rem] pb-10 px-6 overflow-y-auto">
 			<div class="sticky top-4">
@@ -226,7 +375,7 @@
 							target="_blank">items_game.txt</a> and <a class="hover:underline text-sky-500"
 							href="https://github.com/SteamDatabase/GameTracking-CSGO/blob/master/csgo/resource/csgo_english.txt"
 							target="_blank">csgo_english.txt</a>.
-						These files use Valve's KeyValue text file format and have to be parsed and translated with <a
+						These files use Valve's KeyValue text file format and have to be parsed with <a
 							class="hover:underline text-sky-500" href="https://github.com/p0358/vdf-parser"
 							target="_blank">vdf-parser</a>.
 					</p>
@@ -1095,6 +1244,16 @@
 
 			document.querySelector(`#${sectionId} .${tab}-tab`).classList.remove('not-active-tab');
 			document.querySelector(`#${sectionId} .${otherTab}-tab`).classList.add('not-active-tab');
+		}
+
+		const openLateralNav = () => {
+			document.body.classList.add('overflow-hidden');
+			document.getElementById('lateral-nav').classList.remove('hidden');
+		}
+
+		const closeLateralNav = () => {
+			document.body.classList.remove('overflow-hidden');
+			document.getElementById('lateral-nav').classList.add('hidden');
 		}
 	</script>
 </body>
