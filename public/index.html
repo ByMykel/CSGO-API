@@ -82,7 +82,7 @@
 
 <body>
 	<div
-		class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center">
+		class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center">
 		<h1 class="text-2xl tracking-tight font-extrabold text-slate-900">CSGO API</h1>
 		<button onclick="openLateralNav()">
 			<svg width="24" height="24">
@@ -105,7 +105,7 @@
 					</svg>
 				</button>
 				<nav id="nav" class="lg:text-sm lg:leading-6 relative">
-					<div class="space-y-2 pb-28 pt-6">
+					<div id="responsive-links" class="space-y-2 pb-28 pt-6">
 						<div class="mb-1.5">
 							<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
 						</div>
@@ -226,7 +226,6 @@
 							<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
 						</div>
 					</div>
-
 				</nav>
 			</div>
 		</div>
@@ -1255,6 +1254,17 @@
 			document.body.classList.remove('overflow-hidden');
 			document.getElementById('lateral-nav').classList.add('hidden');
 		}
+
+		(() => {
+			const links = document.querySelectorAll('#responsive-links a');
+
+			for (const link of links) {
+				link.addEventListener('click', () => {
+					closeLateralNav();
+					setTimeout(() => window.scrollBy(0, -48), 10);
+				});
+			}
+		})()
 	</script>
 </body>
 
