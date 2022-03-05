@@ -895,7 +895,7 @@
 <code class="language-json">[
 	// ...
 	{
-        "id": "dhw_2014_champion",
+        "id": 17,
         "name": "Champion at DreamHack Winter 2014",
         "description": "This championship trophy was awarded to the Champion at The DreamHack Winter 2014 CS:GO Championship.",
         "rarity": null,
@@ -903,7 +903,7 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/status_icons/dhw_2014_champion_large.png"
     },
     {
-        "id": "dhw_2014_finalist",
+        "id": 18,
         "name": "Finalist at DreamHack Winter 2014",
         "description": "This championship trophy was awarded to the Finalist at The DreamHack Winter 2014 CS:GO Championship.",
         "rarity": null,
@@ -1247,11 +1247,13 @@
 
 		const openLateralNav = () => {
 			document.body.classList.add('overflow-hidden');
+			document.body.classList.add('lg:overflow-auto');
 			document.getElementById('lateral-nav').classList.remove('hidden');
 		}
 
 		const closeLateralNav = () => {
 			document.body.classList.remove('overflow-hidden');
+			document.body.classList.remove('lg:overflow-auto');
 			document.getElementById('lateral-nav').classList.add('hidden');
 		}
 
