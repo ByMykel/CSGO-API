@@ -1,6 +1,5 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
-import { CSGO_ENGLISH_URL } from "../utils/config.js";
 
 export const getTranslation = (translations, key) => {
     const translation = translations[key?.replace("#", "").toLowerCase()];
