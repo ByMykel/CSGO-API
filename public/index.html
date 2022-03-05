@@ -94,7 +94,7 @@
 	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20 pt-12 lg:pt-0">
 		<div class="fixed z-50 inset-0 overflow-y-auto lg:hidden hidden" id="lateral-nav" role="dialog"
 			aria-modal="true">
-			<div class="fixed inset-0 bg-black/20 backdrop-blur-sm"></div>
+			<div class="fixed inset-0 bg-black/20 backdrop-blur-sm" onClick="closeLateralNav()"></div>
 			<div class="relative bg-white w-80 max-w-[calc(100%-3rem)] p-6">
 				<button
 					class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
@@ -105,7 +105,7 @@
 					</svg>
 				</button>
 				<nav id="nav" class="lg:text-sm lg:leading-6 relative">
-					<div id="responsive-links" class="space-y-2 pb-28 pt-6">
+					<div id="responsive-links" class="space-y-2 h-screen pt-6">
 						<div class="mb-1.5">
 							<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
 						</div>
@@ -860,7 +860,7 @@
 							<div>
 								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
 									<div>id</div>
-									<div class="schema string">string</div>
+									<div class="schema integer">integer</div>
 								</div>
 								<div class="grid grid-cols-2 px-8 py-1">
 									<div>name</div>
