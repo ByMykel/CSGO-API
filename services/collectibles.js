@@ -73,12 +73,12 @@ const getFileNameByType = (type) => {
     return files[type] ?? "other.json";
 };
 
-const parseItem = (id, item, translations) => {
+const parseItem = (item, translations) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id,
+        id: item.item_name.replace("#CSGO_", '').toLowerCase(),
         name: isAttendance
             ? `Genuine ${item.translation_name}`
             : item.translation_name,
@@ -104,11 +104,10 @@ const groupByType = (collectibles) => {
 
 export const getCollectibles = (items, translations) => {
     const collectibles = [];
-    let id = 1;
 
     Object.values(items).forEach((item) => {
         if (isCollectible(item))
-            collectibles.push(parseItem(id++, item, translations));
+            collectibles.push(parseItem(item, translations));
     });
 
     saveDataJson(`./public/api/collectibles.json`, collectibles);
