@@ -56,12 +56,6 @@ const getType = (collectible) => {
     return null;
 };
 
-const getId = (item) => {
-    const iconFile = /econ\/status_icons\/(.*?)$/i;
-    const iconMatch = item.image_inventory?.match(iconFile);
-    return iconMatch ? iconMatch[1] : null;
-};
-
 const getFileNameByType = (type) => {
     const files = {
         other: "other.json",
@@ -79,15 +73,12 @@ const getFileNameByType = (type) => {
     return files[type] ?? "other.json";
 };
 
-const parseItem = (item, translations) => {
-    let id = getId(item);
-    if (!id) throw new Error(`Could not find id for item ${item.name}`);
-
+const parseItem = (id, item, translations) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id: isAttendance ? `genuine_${id}` : id,
+        id,
         name: isAttendance
             ? `Genuine ${item.translation_name}`
             : item.translation_name,
@@ -113,10 +104,11 @@ const groupByType = (collectibles) => {
 
 export const getCollectibles = (items, translations) => {
     const collectibles = [];
+    let id = 1;
 
     Object.values(items).forEach((item) => {
         if (isCollectible(item))
-            collectibles.push(parseItem(item, translations));
+            collectibles.push(parseItem(id++, item, translations));
     });
 
     saveDataJson(`./public/api/collectibles.json`, collectibles);

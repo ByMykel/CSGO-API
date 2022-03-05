@@ -45,25 +45,17 @@ export const getItems = (itemsGame, prefabs, translations) => {
     const results = [];
 
     for (const item of parseObjectValues(itemsGame.items)) {
-        if (item.item_name === undefined) {
-            if (item.prefab) {
-                results[item.name] = {
-                    ...item,
-                    translation_name: prefabs[item.prefab],
-                    translation_description: null,
-                };
-            }
-
-            continue;
-        }
+        let translation_name =
+            getTranslation(translations, item.item_name) ??
+            prefabs[item.prefab]?.item_name;
+        let translation_description =
+            getTranslation(translations, item.item_description) ??
+            prefabs[item.prefab]?.item_description;
 
         results[item.name] = {
             ...item,
-            translation_name: getTranslation(translations, item.item_name),
-            translation_description: getTranslation(
-                translations,
-                item.item_description
-            ),
+            translation_name,
+            translation_description,
         };
     }
 
@@ -74,9 +66,13 @@ export const getPrefabs = (itemsGame, translations) => {
     const results = [];
 
     for (const [key, prefab] of parseObjectEntries(itemsGame.prefabs)) {
-        if (prefab.item_name === undefined) continue;
-
-        results[key] = getTranslation(translations, prefab.item_name);
+        results[key] = {
+            item_name: getTranslation(translations, prefab.item_name),
+            item_description: getTranslation(
+                translations,
+                prefab.item_description
+            ),
+        };
     }
 
     return results;
