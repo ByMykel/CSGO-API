@@ -78,10 +78,10 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id: item.item_name.replace("#CSGO_", '').toLowerCase(),
-        name: isAttendance
-            ? `Genuine ${item.translation_name}`
-            : item.translation_name,
+        id:
+            (isAttendance ? "genuine_" : "") +
+            item.item_name.replace("#CSGO_", "").toLowerCase(),
+        name: (isAttendance ? "Genuine " : "") + item.translation_name,
         description: item.translation_description,
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
         type: getType(item),
