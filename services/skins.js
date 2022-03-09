@@ -69,9 +69,11 @@ const parseItem = (
     return {
         id: `${weapon}_${pattern}`,
         collection_id: skinsCollections[pattern]?.id ?? null,
-        name: `${translatedName} | ${paintKits[pattern]}`,
+        name: `${translatedName} | ${paintKits[pattern].description_tag}`,
         weapon: translatedName,
-        pattern: paintKits[pattern] ?? null,
+        pattern:paintKits[pattern].description_tag ?? null,
+        min_float: paintKits[pattern].wear_remap_min,
+        max_float: paintKits[pattern].wear_remap_max,
         rarity:
             getTranslation(
                 translations,

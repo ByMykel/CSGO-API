@@ -95,10 +95,11 @@ export const getPaintKits = (itemsGame, translations) => {
 
     parseObjectValues(itemsGame.paint_kits).forEach((item) => {
         if (item.description_tag !== undefined) {
-            results[item.name.toLowerCase()] = getTranslation(
-                translations,
-                item.description_tag
-            );
+            results[item.name.toLowerCase()] = {
+                description_tag: getTranslation(translations, item.description_tag),
+                wear_remap_min: item.wear_remap_min ?? 0.06,
+                wear_remap_max: item.wear_remap_max ?? 0.80
+            };
         }
     });
 
