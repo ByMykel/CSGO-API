@@ -69,6 +69,10 @@
 				color: #f472b6;
 			}
 
+			.schema.number {
+				color: #f472b6;
+			}
+
 			.schema.string {
 				color: #7dd3fc;
 			}
@@ -440,6 +444,14 @@
 									<div class="schema string">string</div>
 								</div>
 								<div class="grid grid-cols-2 px-8 py-1">
+									<div>Min float</div>
+									<div class="schema number">number</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+									<div>Max float</div>
+									<div class="schema number">number</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1">
 									<div>rarity</div>
 									<div class="schema string">string</div>
 								</div>
@@ -454,23 +466,27 @@
 <code class="language-json">[
 	// ...
 	{
-		"id": "weapon_m4a1_cu_m4_asimov",
-		"collection_id": "set_community_1",
-		"name": "M4A4 | Asiimov",
-		"weapon": "M4A4",
-		"pattern": "Asiimov",
-		"rarity": "Classified",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.png"
-	},
-	{
-		"id": "weapon_m4a1_cu_m4a1_howling",
-		"collection_id": null,
-		"name": "M4A4 | Howl",
-		"weapon": "M4A4",
-		"pattern": "Howl",
-		"rarity": "Contraband",
-		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.png"
-	},
+        "id": "weapon_m4a1_cu_m4_asimov",
+        "collection_id": "set_community_1",
+        "name": "M4A4 | Asiimov",
+        "weapon": "M4A4",
+        "pattern": "Asiimov",
+        "min_float": 0.18,
+        "max_float": 1,
+        "rarity": "Classified",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.png"
+    },
+    {
+        "id": "weapon_m4a1_cu_m4a1_howling",
+        "collection_id": null,
+        "name": "M4A4 | Howl",
+        "weapon": "M4A4",
+        "pattern": "Howl",
+        "min_float": 0,
+        "max_float": 0.4,
+        "rarity": "Contraband",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.png"
+    },
 	// ...
 ]</code></pre>
 					</div>

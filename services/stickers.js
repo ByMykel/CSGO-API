@@ -27,7 +27,7 @@ const parseItem = (item, translations) => {
 
     return {
         id: item.item_name.replace("#StickerKit_", ""),
-        name: getTranslation(translations, item.item_name),
+        name: `Sticker | ${getTranslation(translations, item.item_name)}`,
         description: getTranslation(translations, item.description_string),
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
         image,
