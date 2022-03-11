@@ -31,14 +31,14 @@ const isCrate = (item) => {
 const getFileNameByType = (type) => {
     const files = {
         other: "other.json",
-        "Case": "cases.json",
-        "Souvenir": "souvenir.json",
+        Case: "cases.json",
+        Souvenir: "souvenir.json",
         "Sticker Capsule": "capsules/stickers.json",
         "Autograph Capsule": "capsules/autographs.json",
         "Patch Capsule": "capsules/patches.json",
-        "Pins": "capsules/pins.json",
+        Pins: "capsules/pins.json",
         "Music Kit Box": "music_kit_boxes.json",
-        "Graffiti": "graffiti.json",
+        Graffiti: "graffiti.json",
     };
 
     return files[type] ?? "other.json";
@@ -97,7 +97,25 @@ const groupByType = (crates) => {
     );
 };
 
-const parseItem = (item, translations) => {
+const getFirstSaleDate = (item, itemsById, prefabs) => {
+    if (item.first_sale_date !== undefined) {
+        return item.first_sale_date;
+    }
+
+    if (item.associated_items !== undefined) {
+        const id = Object.keys(item.associated_items)[0];
+
+        return itemsById[id].first_sale_date;
+    }
+
+    if (item.prefab !== undefined) {
+        return prefabs[item.prefab].first_sale_date;
+    }
+
+    return null;
+};
+
+const parseItem = (item, itemsById, prefabs, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
@@ -106,15 +124,17 @@ const parseItem = (item, translations) => {
         name: getTranslation(translations, item.item_name),
         description: item.translation_description,
         type: getCrateType(item),
+        first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
         image,
     };
 };
 
-export const getCrates = (items, translations) => {
+export const getCrates = (items, itemsById, prefabs, translations) => {
     const crates = [];
 
     Object.values(items).forEach((item) => {
-        if (isCrate(item)) crates.push(parseItem(item, translations));
+        if (isCrate(item))
+            crates.push(parseItem(item, itemsById, prefabs, translations));
     });
 
     saveDataJson(`./public/api/crates.json`, crates);
@@ -122,9 +142,6 @@ export const getCrates = (items, translations) => {
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
-        saveDataJson(
-            `./public/api/crates/${getFileNameByType(type)}`,
-            values
-        );
+        saveDataJson(`./public/api/crates/${getFileNameByType(type)}`, values);
     });
 };

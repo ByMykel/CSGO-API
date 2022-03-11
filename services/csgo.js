@@ -62,6 +62,27 @@ export const getItems = (itemsGame, prefabs, translations) => {
     return results;
 };
 
+export const getItemsById = (itemsGame, prefabs, translations) => {
+    const results = [];
+
+    for (const [id, item] of parseObjectEntries(itemsGame.items)) {
+        let translation_name =
+            getTranslation(translations, item.item_name) ??
+            prefabs[item.prefab]?.item_name;
+        let translation_description =
+            getTranslation(translations, item.item_description) ??
+            prefabs[item.prefab]?.item_description;
+
+        results[id] = {
+            ...item,
+            translation_name,
+            translation_description,
+        };
+    }
+
+    return results;
+};
+
 export const getPrefabs = (itemsGame, translations) => {
     const results = [];
 
@@ -72,6 +93,7 @@ export const getPrefabs = (itemsGame, translations) => {
                 translations,
                 prefab.item_description
             ),
+            first_sale_date: prefab.first_sale_date ?? null,
         };
     }
 
@@ -96,9 +118,12 @@ export const getPaintKits = (itemsGame, translations) => {
     parseObjectValues(itemsGame.paint_kits).forEach((item) => {
         if (item.description_tag !== undefined) {
             results[item.name.toLowerCase()] = {
-                description_tag: getTranslation(translations, item.description_tag),
+                description_tag: getTranslation(
+                    translations,
+                    item.description_tag
+                ),
                 wear_remap_min: item.wear_remap_min ?? 0.06,
-                wear_remap_max: item.wear_remap_max ?? 0.80
+                wear_remap_max: item.wear_remap_max ?? 0.8,
             };
         }
     });

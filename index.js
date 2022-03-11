@@ -1,5 +1,6 @@
 import {
     getItems,
+    getItemsById,
     getItemSets,
     getItemsGame,
     getPaintKits,
@@ -26,6 +27,7 @@ import { CSGO_ENGLISH_URL } from "./utils/config.js";
 
     const prefabs = getPrefabs(itemsGame, translations);
     const items = getItems(itemsGame, prefabs, translations);
+    const itemsById = getItemsById(itemsGame, prefabs, translations);
     const itemSets = getItemSets(itemsGame);
     const stickerKits = getStickerKits(itemsGame);
     const paintKits = getPaintKits(itemsGame, translations);
@@ -34,7 +36,7 @@ import { CSGO_ENGLISH_URL } from "./utils/config.js";
     getCollectibles(items, translations);
     getKeys(items, translations);
     getAgents(items, translations);
-    getCrates(items, translations);
+    getCrates(items, itemsById, prefabs, translations);
     getCollections(items, itemSets, translations);
     getGraffiti(items, stickerKits, translations);
     getPatches(stickerKits, translations);
