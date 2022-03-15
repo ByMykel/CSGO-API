@@ -110,7 +110,7 @@
 					</svg>
 				</button>
 				<nav id="nav" class="lg:text-sm lg:leading-6 relative">
-					<div id="responsive-links" class="space-y-2 h-screen pt-6">
+					<div id="responsive-links" class="space-y-2 min-h-screen pt-6">
 						<div class="mb-1.5">
 							<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
 						</div>
@@ -229,6 +229,9 @@
 						</div>
 						<div class="mb-1.5">
 							<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
+						</div>
+						<div class="mb-1.5">
+							<a href="#list-music-kits" class="text-slate-900 hover:underline">List music kits</a>
 						</div>
 					</div>
 				</nav>
@@ -359,6 +362,9 @@
 				</div>
 				<div class="mb-1.5">
 					<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
+				</div>
+				<div class="mb-1.5">
+					<a href="#list-music-kits" class="text-slate-900 hover:underline">List music kits</a>
 				</div>
 			</div>
 		</div>
@@ -1246,6 +1252,80 @@
 		"rarity": null,
 		"image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/stickers/london2018/navi_graffiti_large.png"
 	},
+	// ...
+]</code></pre>
+					</div>
+				</div>
+
+				<hr>
+
+				<div id="list-music-kits">
+					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+						List music kits
+					</h1>
+
+					<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg">
+						<span class="text-pink-400">GET</span>
+						/music_kits.json
+					</div>
+
+					<div
+						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
+						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
+							<div class="schema-tab" onclick="changeTab('list-music-kits', 'schema')">
+								Schema
+							</div>
+							<div class="example-tab not-active-tab" onclick="changeTab('list-music-kits', 'example')">
+								Example
+							</div>
+						</div>
+						<div class="schema-data">
+							<div class="px-3 py-1 schema array-object">array[object]</div>
+							<div>
+								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+									<div>id</div>
+									<div class="schema string">string</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1">
+									<div>name</div>
+									<div class="schema string">string</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+									<div>description</div>
+									<div class="text-slate-400">
+										<span class="schema string">string</span>
+									</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1">
+									<div>rarity</div>
+									<div class="text-slate-400">
+										<span class="schema string">string</span>
+									</div>
+								</div>
+								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
+									<div>image</div>
+									<div class="schema string">string</div>
+								</div>
+							</div>
+						</div>
+
+						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+<code class="language-json">[
+	// ...
+	{
+        "id": "hotlinemiami_01",
+        "name": "Various Artists, Hotline Miami",
+        "description": "A multitude of electronic artists deliver brutal beats in this exhilarating Music Pack from the iconic Hotline Miami.",
+        "rarity": "High Grade",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/music_kits/hotlinemiami_01.png"
+    },
+    {
+        "id": "danielsadowski_02",
+        "name": "Daniel Sadowski, Total Domination",
+        "description": "Composer Daniel Sadowski raises the bar with aggressive electronic beats, creative sound fx and an exhilerating, driving, futuristic vibe. \\\"Warning: Will cause a rise in adrenaline!\\\"",
+        "rarity": "High Grade",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/music_kits/danielsadowski_02.png"
+    },
 	// ...
 ]</code></pre>
 					</div>

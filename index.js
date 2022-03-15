@@ -3,6 +3,7 @@ import {
     getItemsById,
     getItemSets,
     getItemsGame,
+    getMusicDefinitions,
     getPaintKits,
     getPaintKitsRarity,
     getPrefabs,
@@ -19,6 +20,7 @@ import { getPatches } from "./services/patches.js";
 import { getStickers } from "./services/stickers.js";
 import { getSkins } from "./services/skins.js";
 import { CSGO_ENGLISH_URL } from "./utils/config.js";
+import { getMusicKits } from "./services/musicKits.js";
 
 (async () => {
     const translations = await getTranslations(CSGO_ENGLISH_URL);
@@ -32,6 +34,7 @@ import { CSGO_ENGLISH_URL } from "./utils/config.js";
     const stickerKits = getStickerKits(itemsGame);
     const paintKits = getPaintKits(itemsGame, translations);
     const paintKitsRarity = getPaintKitsRarity(itemsGame);
+    const MusicDefinitions = getMusicDefinitions(itemsGame, translations);
 
     getCollectibles(items, translations);
     getKeys(items, translations);
@@ -49,4 +52,5 @@ import { CSGO_ENGLISH_URL } from "./utils/config.js";
         paintKitsRarity,
         translations
     );
+    getMusicKits(MusicDefinitions);
 })();

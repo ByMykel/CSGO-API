@@ -130,3 +130,22 @@ export const getPaintKits = (itemsGame, translations) => {
 
     return results;
 };
+
+export const getMusicDefinitions = (itemsGame, translations) => {
+    const results = [];
+
+    parseObjectValues(itemsGame.music_definitions).forEach((item) => {
+        if (item.name !== "valve_csgo_01" && item.name !== "valve_csgo_02") {
+            results.push({
+                ...item,
+                translation_name: getTranslation(translations, item.loc_name),
+                translation_description: getTranslation(
+                    translations,
+                    item.loc_description
+                ),
+            });
+        }
+    });
+
+    return results;
+};
