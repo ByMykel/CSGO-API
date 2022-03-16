@@ -14,7 +14,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/patches/${item.patch_material}_large.png`;
 
     return {
-        id: item.patch_material,
+        id: item.patch_material.replace('/', '_'),
         name: getTranslation(translations, item.item_name),
         description: getTranslation(translations, item.description_string),
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
