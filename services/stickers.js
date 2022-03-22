@@ -2,6 +2,8 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
         return false;
@@ -26,7 +28,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
 
     return {
-        id: item.item_name.replace("#StickerKit_", ""),
+        id: `sticker-${++id_count}`,
         name: `Sticker | ${getTranslation(translations, item.item_name)}`,
         description: getTranslation(translations, item.description_string),
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),

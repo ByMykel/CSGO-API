@@ -2,6 +2,8 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const isCollection = (item) => {
     if (item.is_collection) {
         return true;
@@ -45,7 +47,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
 
     return {
-        id: item.name.replace("#CSGO_", ""),
+        id: `collection-${++id_count}`,
         name: getTranslation(translations, item.name),
         image,
     };

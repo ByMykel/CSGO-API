@@ -2,6 +2,8 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
 
@@ -119,8 +121,8 @@ const parseItem = (item, itemsById, prefabs, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
-        id: item.item_name.replace("#CSGO_crate_", ""),
-        collection_id: item.tags?.ItemSet?.tag_value ?? null,
+        id: `crate-${++id_count}`,
+        // collection_id: item.tags?.ItemSet?.tag_value ?? null,
         name: getTranslation(translations, item.item_name),
         description: item.translation_description,
         type: getCrateType(item),
