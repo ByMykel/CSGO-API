@@ -2,6 +2,8 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
 
@@ -73,12 +75,12 @@ const getFileNameByType = (type) => {
     return files[type] ?? "other.json";
 };
 
-const parseItem = (id, item, translations) => {
+const parseItem = (item, translations) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id,
+        id: `collectible-${++id_count}`,
         name: (isAttendance ? "Genuine " : "") + item.translation_name,
         description: item.translation_description,
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
@@ -102,11 +104,10 @@ const groupByType = (collectibles) => {
 
 export const getCollectibles = (items, translations) => {
     const collectibles = [];
-    let id = 1;
 
     Object.values(items).forEach((item) => {
         if (isCollectible(item))
-            collectibles.push(parseItem(id++, item, translations));
+            collectibles.push(parseItem(item, translations));
     });
 
     saveDataJson(`./public/api/collectibles.json`, collectibles);

@@ -2,6 +2,8 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
 
@@ -24,8 +26,8 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
-        id: item.item_name.replace("#CSGO_crate_", ""),
-        case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
+        id: `key-${++id_count}`,
+        // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
         name: getTranslation(translations, item.item_name),
         description: item.translation_description,
         image,

@@ -3,6 +3,8 @@ import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+let id_count = 0;
+
 const getSkinsCollections = (itemSets, translations) => {
     const result = {};
 
@@ -67,7 +69,7 @@ const parseItem = (
     const translatedName = items[weapon].translation_name;
 
     return {
-        id: `${weapon}_${pattern}`,
+        id: `skin-${++id_count}`,
         collection_id: skinsCollections[pattern]?.id ?? null,
         name: `${translatedName} | ${paintKits[pattern].description_tag}`,
         weapon: translatedName,
