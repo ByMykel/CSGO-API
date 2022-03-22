@@ -11,6 +11,7 @@ const parseItem = (item) => {
         name: item.translation_name,
         description: item.translation_description,
         rarity: "High Grade",
+        exclusive: item.exclusive,
         image,
     };
 };

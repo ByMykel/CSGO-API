@@ -136,13 +136,19 @@ export const getMusicDefinitions = (itemsGame, translations) => {
 
     parseObjectValues(itemsGame.music_definitions).forEach((item) => {
         if (item.name !== "valve_csgo_01" && item.name !== "valve_csgo_02") {
+            const exclusive =
+                getTranslation(translations, `coupon_${item.name}`) === null;
+
             results.push({
                 ...item,
-                translation_name: getTranslation(translations, item.loc_name),
+                translation_name: exclusive
+                    ? getTranslation(translations, item.loc_name)
+                    : getTranslation(translations, `coupon_${item.name}`),
                 translation_description: getTranslation(
                     translations,
                     item.loc_description
                 ),
+                exclusive,
             });
         }
     });
