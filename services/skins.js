@@ -70,7 +70,7 @@ const parseItem = (
 
     return {
         id: `skin-${++id_count}`,
-        collection_id: skinsCollections[pattern]?.id ?? null,
+        // collection_id: skinsCollections[pattern]?.id ?? null,
         name: `${translatedName} | ${paintKits[pattern].description_tag}`,
         weapon: translatedName,
         pattern:paintKits[pattern].description_tag ?? null,
