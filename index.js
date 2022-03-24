@@ -21,6 +21,7 @@ import { getStickers } from "./services/stickers.js";
 import { getSkins } from "./services/skins.js";
 import { CSGO_ENGLISH_URL } from "./utils/config.js";
 import { getMusicKits } from "./services/musicKits.js";
+import { getAllItems } from "./services/getAllItems.js";
 
 (async () => {
     const translations = await getTranslations(CSGO_ENGLISH_URL);
@@ -53,4 +54,5 @@ import { getMusicKits } from "./services/musicKits.js";
         translations
     );
     getMusicKits(MusicDefinitions);
+    getAllItems();
 })();
