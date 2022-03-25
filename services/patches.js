@@ -17,7 +17,7 @@ const parseItem = (item, translations) => {
 
     return {
         id: `patch-${++id_count}`,
-        name: getTranslation(translations, item.item_name),
+        name: `Patch | ${getTranslation(translations, item.item_name)}`,
         description: getTranslation(translations, item.description_string),
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
         image,
