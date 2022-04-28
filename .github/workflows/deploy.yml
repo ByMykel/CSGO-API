@@ -18,10 +18,8 @@ jobs:
                   git commit -m 'deploy'
               working-directory: ./public
 
-            - name: Force push to destination branch
-              uses: ad-m/github-push-action@v0.5.0
+            - name: Deploy 🚀
+              uses: JamesIves/github-pages-deploy-action@v4.3.3
               with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: gh-pages
-                  force: true
-                  directory: ./public
+                branch: gh-pages 
+                folder: public
