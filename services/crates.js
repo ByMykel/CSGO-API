@@ -111,7 +111,7 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     }
 
     if (item.prefab !== undefined) {
-        return prefabs[item.prefab].first_sale_date;
+        return prefabs[item.prefab]?.first_sale_date ?? null;
     }
 
     return null;
