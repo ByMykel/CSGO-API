@@ -2,8 +2,6 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const isAgent = (item) => {
     return item.prefab === "customplayertradable";
 };
@@ -12,7 +10,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/characters/${item.name.toLocaleLowerCase()}.png`;
 
     return {
-        id: `agent-${++id_count}`,
+        id: `agent-${item.object_id}`,
         name: getTranslation(translations, item.item_name),
         description: getTranslation(translations, item.item_description),
         rarity: getTranslation(

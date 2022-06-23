@@ -2,8 +2,6 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
 
@@ -26,7 +24,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
-        id: `key-${++id_count}`,
+        id: `key-${item.object_id}`,
         // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
         name: getTranslation(translations, item.item_name),
         description: item.translation_description,

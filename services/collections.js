@@ -2,8 +2,6 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const isCollection = (item) => {
     if (item.is_collection) {
         return true;
@@ -47,7 +45,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
 
     return {
-        id: `collection-${++id_count}`,
+        id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, '-')}`,
         name: getTranslation(translations, item.name),
         image,
     };
@@ -57,7 +55,7 @@ const parseItemSelfOpening = (item, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
-        id: item.item_name.replace("#CSGO_crate_", ""),
+        id: `collection-${item.object_id}`,
         name: getTranslation(translations, item.item_name),
         image,
     };
