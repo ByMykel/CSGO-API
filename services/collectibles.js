@@ -2,8 +2,6 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
 
@@ -80,7 +78,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id: `collectible-${++id_count}`,
+        id: `collectible-${++item.object_id}`,
         name: (isAttendance ? "Genuine " : "") + item.translation_name,
         description: item.translation_description,
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),

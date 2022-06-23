@@ -3,8 +3,6 @@ import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const getSkinsCollections = (itemSets, translations) => {
     const result = {};
 
@@ -69,7 +67,7 @@ const parseItem = (
     const translatedName = items[weapon].translation_name;
 
     return {
-        id: `skin-${++id_count}`,
+        id: `skin-${item.object_id}`,
         // collection_id: skinsCollections[pattern]?.id ?? null,
         name: `${translatedName} | ${paintKits[pattern].description_tag}`,
         weapon: translatedName,
@@ -96,11 +94,11 @@ export const getSkins = (
     const skinsCollections = getSkinsCollections(itemSets, translations);
     const skins = [];
 
-    Object.values(itemsGame.alternate_icons2.weapon_icons).forEach((item) => {
+    Object.entries(itemsGame.alternate_icons2.weapon_icons).forEach(([key, item]) => {
         if (isSkin(item.icon_path))
             skins.push(
                 parseItem(
-                    item,
+                    { ...item, object_id: key},
                     items,
                     skinsCollections,
                     paintKits,

@@ -2,8 +2,6 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-let id_count = 0;
-
 const isPatch = (item) => {
     if (item.patch_material === undefined) {
         return false;
@@ -16,7 +14,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/patches/${item.patch_material}_large.png`;
 
     return {
-        id: `patch-${++id_count}`,
+        id: `patch-${item.object_id}`,
         name: `Patch | ${getTranslation(translations, item.item_name)}`,
         description: getTranslation(translations, item.description_string),
         rarity: getTranslation(translations, `rarity_${item.item_rarity}`),

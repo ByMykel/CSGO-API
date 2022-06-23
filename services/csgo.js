@@ -38,13 +38,18 @@ export const getItemSets = (itemsGame) => {
 };
 
 export const getStickerKits = (itemsGame) => {
-    return parseObjectValues(itemsGame.sticker_kits);
+    return parseObjectEntries(itemsGame.sticker_kits).map(([key, item]) => {
+        return {
+            ...item,
+            object_id: key,
+        };
+    });
 };
 
 export const getItems = (itemsGame, prefabs, translations) => {
     const results = [];
 
-    for (const item of parseObjectValues(itemsGame.items)) {
+    for (const [key, item] of parseObjectEntries(itemsGame.items)) {
         let translation_name =
             getTranslation(translations, item.item_name) ??
             prefabs[item.prefab]?.item_name;
@@ -54,6 +59,7 @@ export const getItems = (itemsGame, prefabs, translations) => {
 
         results[item.name] = {
             ...item,
+            object_id: key,
             translation_name,
             translation_description,
         };
@@ -134,13 +140,14 @@ export const getPaintKits = (itemsGame, translations) => {
 export const getMusicDefinitions = (itemsGame, translations) => {
     const results = [];
 
-    parseObjectValues(itemsGame.music_definitions).forEach((item) => {
+    parseObjectEntries(itemsGame.music_definitions).forEach(([key, item]) => {
         if (item.name !== "valve_csgo_01" && item.name !== "valve_csgo_02") {
             const exclusive =
                 getTranslation(translations, `coupon_${item.name}`) === null;
 
             results.push({
                 ...item,
+                object_id: key,
                 translation_name: exclusive
                     ? getTranslation(translations, item.loc_name)
                     : getTranslation(translations, `coupon_${item.name}`),
