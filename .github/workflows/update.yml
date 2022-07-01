@@ -1,0 +1,25 @@
+name: Update JSON API
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16"
+      - run: npm install
+      - run: npm run update-data
+      - run: |
+          git config user.name ByMykel
+          git config user.email bymykel5@gmail.com
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update JSON API with latest info"
+          git push origin main

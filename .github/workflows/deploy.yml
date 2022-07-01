@@ -1,25 +1,27 @@
 name: Deploy to GitHub pages
+
 on:
-    push:
-        branches: [main]
+  push:
+    branches: [main]
+
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-            - name: Commit generated files inside public folder
-              run: |
-                  git init
-                  git add -A
-                  git config --local user.email "action@github.com"
-                  git config --local user.name "GitHub Action"
-                  git commit -m 'deploy'
-              working-directory: ./public
+      - name: Commit generated files inside public folder
+        run: |
+          git init
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'deploy'
+        working-directory: ./public
 
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4.3.3
-              with:
-                branch: gh-pages 
-                folder: public
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: public
