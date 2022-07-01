@@ -3,5 +3,8 @@
   "dependencies": {
     "axios": "^0.26.0",
     "vdf-parser": "https://github.com/ByMykel/vdf-parser/tarball/master"
+  },
+  "scripts": {
+    "update-data": "node index.js"
   }
 }
