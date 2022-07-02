@@ -65,11 +65,13 @@ const parseItem = (
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
     const translatedName = items[weapon].translation_name;
+    const translatedDescription = items[weapon].translation_description;
 
     return {
         id: `skin-${item.object_id}`,
         // collection_id: skinsCollections[pattern]?.id ?? null,
         name: `${translatedName} | ${paintKits[pattern].description_tag}`,
+        description: translatedDescription,
         weapon: translatedName,
         pattern:paintKits[pattern].description_tag ?? null,
         min_float: paintKits[pattern].wear_remap_min,
