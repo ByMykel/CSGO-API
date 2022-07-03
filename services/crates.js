@@ -21,9 +21,10 @@ const isCrate = (item) => {
         return false;
     }
 
-    if (item.translation_name.includes("Collection")) {
-        return false;
-    }
+    // Can't really find a way to filter collections
+    // if (item.translation_name.includes("Collection")) {
+    //     return false;
+    // }
 
     return true;
 };
@@ -53,7 +54,7 @@ const getCrateType = (item) => {
         return "Souvenir";
     }
 
-    if (item.prefab === "sticker_capsule") {
+    if (item.prefab.includes("sticker_capsule")) {
         return "Sticker Capsule";
     }
 
@@ -73,12 +74,16 @@ const getCrateType = (item) => {
         return "Autograph Capsule";
     }
 
-    if (item.translation_name.includes("Patch")) {
+    if (item.image_inventory.includes("patch")) {
         return "Patch Capsule";
     }
 
     if (item.name.startsWith("crate_musickit")) {
         return "Music Kit Box";
+    }
+
+    if (item?.tags?.StickerCapsule !== undefined) {
+        return "Sticker Capsule";
     }
 
     return null;
@@ -137,11 +142,16 @@ export const getCrates = (items, itemsById, prefabs, translations) => {
             crates.push(parseItem(item, itemsById, prefabs, translations));
     });
 
-    saveDataJson(`./public/api/crates.json`, crates);
+    saveDataJson(`./public/api/${translations.language}/crates.json`, crates);
 
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
-        saveDataJson(`./public/api/crates/${getFileNameByType(type)}`, values);
+        saveDataJson(
+            `./public/api/${translations.language}/crates/${getFileNameByType(
+                type
+            )}`,
+            values
+        );
     });
 };
