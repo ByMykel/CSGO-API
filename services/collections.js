@@ -25,14 +25,15 @@ const isSelfOpeningCollection = (item) => {
         return false;
     }
 
-    if (item.item_type === undefined) {
-        if (item.translation_name.includes("Collection")) {
-            return true;
-        }
-    }
+    // Can't really find a way to filter collections
+    // if (item.item_type === undefined) {
+    //     if (item.translation_name.includes("Collection")) {
+    //         return true;
+    //     }
+    // }
 
     if (item.item_type === "self_opening_purchase") {
-        if (item.translation_name.includes("Graffiti")) {
+        if (item.prefab.includes("graffiti")) {
             return true;
         }
     }
@@ -45,7 +46,7 @@ const parseItem = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
 
     return {
-        id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, '-')}`,
+        id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: getTranslation(translations, item.name),
         image,
     };
@@ -73,5 +74,8 @@ export const getCollections = (items, itemSets, translations) => {
             collections.push(parseItemSelfOpening(item, translations));
     });
 
-    saveDataJson(`./public/api/collections.json`, collections);
+    saveDataJson(
+        `./public/api/${translations.language}/collections.json`,
+        collections
+    );
 };

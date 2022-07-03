@@ -29,5 +29,5 @@ export const getPatches = (stickerKits, translations) => {
         if (isPatch(item)) patches.push(parseItem(item, translations));
     });
 
-    saveDataJson(`./public/api/patches.json`, patches);
+    saveDataJson(`./public/api/${translations.language}/patches.json`, patches);
 };

@@ -60,5 +60,5 @@ export const getGraffiti = (items, stickerKits, translations) => {
             graffiti.push(parseItemSealedGraffiti(item, translations));
     });
 
-    saveDataJson(`./public/api/graffiti.json`, graffiti);
+    saveDataJson(`./public/api/${translations.language}/graffiti.json`, graffiti);
 };
