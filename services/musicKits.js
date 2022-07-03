@@ -14,12 +14,12 @@ const parseItem = (item) => {
     };
 };
 
-export const getMusicKits = (MusicDefinitions) => {
+export const getMusicKits = (MusicDefinitions, language) => {
     const musicKits = [];
 
     Object.values(MusicDefinitions).forEach((item) => {
         musicKits.push(parseItem(item));
     });
 
-    saveDataJson(`./public/api/music_kits.json`, musicKits);
+    saveDataJson(`./public/api/${language}/music_kits.json`, musicKits);
 };

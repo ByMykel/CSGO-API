@@ -3,6 +3,44 @@ import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
+const getAllStatTrak = (itemSets, items) => {
+    const crates = {};
+
+    Object.values(items).forEach((item) => {
+        if (item.prefab === "weapon_case") {
+            const name = item?.tags?.ItemSet?.tag_value;
+
+            if (name !== undefined) {
+                crates[name] = true;
+            }
+        }
+    });
+
+    const result = {};
+
+    itemSets.forEach((item) => {
+        if (item.is_collection) {
+            const keys = Object.keys(item.items).map((item) => {
+                const pattern = item.match(/\[(.*?)\]/i);
+
+                if (pattern) {
+                    return pattern[1];
+                }
+
+                return item;
+            });
+
+            keys.forEach((key) => {
+                if (crates[item.name.replace("#CSGO_", "")] !== undefined) {
+                    result[key.toLocaleLowerCase()] = true;
+                }
+            });
+        }
+    });
+
+    return result;
+};
+
 const getSkinsCollections = (itemSets, translations) => {
     const result = {};
 
@@ -47,7 +85,7 @@ const getSkinInfo = (iconPath) => {
     const regexSkinId = /econ\/default_generated\/(.*?)_light$/i;
     const path = iconPath.toLowerCase();
     const skinId = path.match(regexSkinId);
-    
+
     const weapon = getWeaponName(skinId[1]);
     const pattern = getPatternName(weapon, skinId[1]);
 
@@ -58,6 +96,7 @@ const parseItem = (
     item,
     items,
     skinsCollections,
+    allStatTrak,
     paintKits,
     paintKitsRarity,
     translations
@@ -67,13 +106,18 @@ const parseItem = (
     const translatedName = items[weapon].translation_name;
     const translatedDescription = items[weapon].translation_description;
 
+    const isStatTrak =
+        weapon.includes("knife") ||
+        weapon.includes("bayonet") ||
+        allStatTrak[pattern] !== undefined;
+
     return {
         id: `skin-${item.object_id}`,
         // collection_id: skinsCollections[pattern]?.id ?? null,
         name: `${translatedName} | ${paintKits[pattern].description_tag}`,
         description: translatedDescription,
         weapon: translatedName,
-        pattern:paintKits[pattern].description_tag ?? null,
+        pattern: paintKits[pattern].description_tag ?? null,
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
         rarity:
@@ -81,6 +125,7 @@ const parseItem = (
                 translations,
                 `rarity_${paintKitsRarity[pattern]}_weapon`
             ) ?? "Contraband",
+        stattrak: isStatTrak,
         image,
     };
 };
@@ -94,21 +139,25 @@ export const getSkins = (
     translations
 ) => {
     const skinsCollections = getSkinsCollections(itemSets, translations);
+    const allStatTrak = getAllStatTrak(itemSets, items);
     const skins = [];
 
-    Object.entries(itemsGame.alternate_icons2.weapon_icons).forEach(([key, item]) => {
-        if (isSkin(item.icon_path))
-            skins.push(
-                parseItem(
-                    { ...item, object_id: key},
-                    items,
-                    skinsCollections,
-                    paintKits,
-                    paintKitsRarity,
-                    translations
-                )
-            );
-    });
+    Object.entries(itemsGame.alternate_icons2.weapon_icons).forEach(
+        ([key, item]) => {
+            if (isSkin(item.icon_path))
+                skins.push(
+                    parseItem(
+                        { ...item, object_id: key },
+                        items,
+                        skinsCollections,
+                        allStatTrak,
+                        paintKits,
+                        paintKitsRarity,
+                        translations
+                    )
+                );
+        }
+    );
 
-    saveDataJson(`./public/api/skins.json`, skins);
+    saveDataJson(`./public/api/${translations.language}/skins.json`, skins);
 };

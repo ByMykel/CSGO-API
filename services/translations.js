@@ -2,11 +2,19 @@ import * as VDF from "vdf-parser";
 import axios from "axios";
 
 export const getTranslation = (translations, key) => {
-    const translation = translations[key?.replace("#", "").toLowerCase()];
+    const translation =
+        translations.selected[key?.replace("#", "").toLowerCase()];
+    const defaultTranslation =
+        translations.default[key?.replace("#", "").toLowerCase()];
 
-    if (translation === undefined || translation === "") return null;
+    if (
+        translation === undefined ||
+        (translation === "" && defaultTranslation === undefined) ||
+        defaultTranslation === ""
+    )
+        return null;
 
-    return translation;
+    return translation || defaultTranslation;
 };
 
 export const getTranslations = async (url) => {

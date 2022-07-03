@@ -17,7 +17,7 @@ const isCollectible = (item) => {
 };
 
 const getType = (collectible) => {
-    if (collectible.translation_name.includes("Service Medal")) {
+    if (collectible.image_inventory.includes("service_medal")) {
         return "Service Medal";
     }
 
@@ -34,11 +34,11 @@ const getType = (collectible) => {
     }
 
     if (collectible?.attributes["tournament event id"] !== undefined) {
-        if (collectible.translation_name.includes("Pick'Em")) {
+        if (collectible.item_name.includes("PickEm")) {
             return "Old Pick'Em Trophy";
         }
 
-        if (collectible.translation_name.includes("Fantasy")) {
+        if (collectible.item_name.includes("Fantasy")) {
             return "Fantasy Trophy";
         }
 
@@ -108,13 +108,18 @@ export const getCollectibles = (items, translations) => {
             collectibles.push(parseItem(item, translations));
     });
 
-    saveDataJson(`./public/api/collectibles.json`, collectibles);
+    saveDataJson(
+        `./public/api/${translations.language}/collectibles.json`,
+        collectibles
+    );
 
     const collectiblesByTypes = groupByType(collectibles);
 
     Object.entries(collectiblesByTypes).forEach(([type, values]) => {
         saveDataJson(
-            `./public/api/collectibles/${getFileNameByType(type)}`,
+            `./public/api/${
+                translations.language
+            }/collectibles/${getFileNameByType(type)}`,
             values
         );
     });

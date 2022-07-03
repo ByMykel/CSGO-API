@@ -41,5 +41,5 @@ export const getStickers = (stickerKits, translations) => {
         if (isSticker(item)) stickers.push(parseItem(item, translations));
     });
 
-    saveDataJson(`./public/api/stickers.json`, stickers);
+    saveDataJson(`./public/api/${translations.language}/stickers.json`, stickers);
 };

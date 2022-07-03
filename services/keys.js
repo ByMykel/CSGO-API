@@ -39,5 +39,5 @@ export const getKeys = (items, translations) => {
         if (isKey(item)) keys.push(parseItem(item, translations));
     });
 
-    saveDataJson(`./public/api/keys.json`, keys);
+    saveDataJson(`./public/api/${translations.language}/keys.json`, keys);
 };

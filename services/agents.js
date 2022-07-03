@@ -28,5 +28,5 @@ export const getAgents = (items, translations) => {
         if (isAgent(item)) agents.push(parseItem(item, translations));
     });
 
-    saveDataJson(`./public/api/agents.json`, agents);
+    saveDataJson(`./public/api/${translations.language}/agents.json`, agents);
 };
