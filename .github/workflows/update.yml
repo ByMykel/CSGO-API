@@ -2,7 +2,7 @@ name: Update JSON API
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 7 * * *"
 
 jobs:
   build:
