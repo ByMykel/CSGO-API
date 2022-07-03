@@ -1,0 +1,793 @@
+[
+    {
+        "id": "patch-4550",
+        "name": "Patch | Banane folle",
+        "description": "<i>Agent pour comparaison</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_banana_large.png"
+    },
+    {
+        "id": "patch-4551",
+        "name": "Patch | Le Boss",
+        "description": "<i>Heavy est l´agent qui porte la couronne</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_boss_large.png"
+    },
+    {
+        "id": "patch-4552",
+        "name": "Patch | Chicken Lover",
+        "description": "<i>Merci de ne pas les avoir sacrifiés</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_chickenlover_large.png"
+    },
+    {
+        "id": "patch-4553",
+        "name": "Patch | Bienvenue en Enfer",
+        "description": "<i>4 victimes est la norme pour tout agent portant cet écusson</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_clutch_large.png"
+    },
+    {
+        "id": "patch-4554",
+        "name": "Patch | Dragon",
+        "description": "<i>Cet écusson représente un dragon de profil avec l'emblématique AK-47</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dragon_large.png"
+    },
+    {
+        "id": "patch-4555",
+        "name": "Patch | Facile comme bonjour",
+        "description": "<i>Cet écusson a réussi à échapper au contrôle de qualité. La faute « SQEEZY » n'a pas été corrigée</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_easypeasy_large.png"
+    },
+    {
+        "id": "patch-4556",
+        "name": "Patch | Rage",
+        "description": "<i>Cet écusson représente la rage, la colère ou la fureur</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_fury_large.png"
+    },
+    {
+        "id": "patch-4557",
+        "name": "Patch | Hurlement",
+        "description": "<i>Cet écusson vaut son pesant d'or, de rouge et d'orange</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_howl_large.png"
+    },
+    {
+        "id": "patch-4558",
+        "name": "Patch | Koï",
+        "description": "<i>Cet écusson représente deux carpes koïs dans une eau bleue tourbillonnante</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_koi_large.png"
+    },
+    {
+        "id": "patch-4559",
+        "name": "Patch | Longévité",
+        "description": "<i>Cet écusson rouge et blanc représente une version artistique du logo « CSGO »</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_longevity_large.png"
+    },
+    {
+        "id": "patch-4560",
+        "name": "Patch | Wildfire",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Wildfire, qui a été dévoilée le 17 février 2016</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_wildfire_large.png"
+    },
+    {
+        "id": "patch-4561",
+        "name": "Patch | Vigilance",
+        "description": "<i>Un écusson pour le lurker ; un coéquipier qui veille au grain</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vigilance_large.png"
+    },
+    {
+        "id": "patch-4562",
+        "name": "Patch | Bloodhound",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Bloodhound, qui a été dévoilée le 26 mai 2015</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bloodhound_large.png"
+    },
+    {
+        "id": "patch-4563",
+        "name": "Patch | Bravo",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Bravo, qui a été dévoilée le 19 septembre 2013</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bravo_large.png"
+    },
+    {
+        "id": "patch-4564",
+        "name": "Patch | Breakout",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Breakout, qui a été dévoilée le 1er juillet 2014</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_breakout_large.png"
+    },
+    {
+        "id": "patch-4565",
+        "name": "Patch | Zone de danger",
+        "description": "<i>Cet écusson représente l'iconographie de Zone de Danger, qui a été dévoilée le 6 décembre 2018</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dangerzone_large.png"
+    },
+    {
+        "id": "patch-4566",
+        "name": "Patch | Hydra",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Hydra, qui a été dévoilée le 23 mai 2017</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_hydra_large.png"
+    },
+    {
+        "id": "patch-4567",
+        "name": "Patch | Revanche",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Payback, qui a été dévoilée le 25 avril 2013</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_payback_large.png"
+    },
+    {
+        "id": "patch-4568",
+        "name": "Patch | Phoenix",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Phoenix, qui a été dévoilée le 20 février 2014</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_phoenix_large.png"
+    },
+    {
+        "id": "patch-4569",
+        "name": "Patch | Shattered Web",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Shattered Web, qui a été dévoilée le 18 novembre 2019</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_shatteredweb_large.png"
+    },
+    {
+        "id": "patch-4570",
+        "name": "Patch | Vanguard",
+        "description": "<i>Cet écusson représente l'iconographie de l'Opération Vanguard, qui a été dévoilée le 11 novembre 2014</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vanguard_large.png"
+    },
+    {
+        "id": "patch-4571",
+        "name": "Patch | Argent (métal)",
+        "description": "<i>Pour celles et ceux qui font leurs premiers pas sur la route qui mène à l'élite mondiale.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_large.png"
+    },
+    {
+        "id": "patch-4572",
+        "name": "Patch | Nova d'or I (métal)",
+        "description": "<i>Vous venez tout juste de sortir de l'infanterie d'argent ? Il y a encore du boulot.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova1_large.png"
+    },
+    {
+        "id": "patch-4575",
+        "name": "Patch | Maîtrise nova d'or (métal)",
+        "description": "<i>Et tu croyais que dépasser l'argent était difficile...</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnovamaster_large.png"
+    },
+    {
+        "id": "patch-4576",
+        "name": "Patch | Maîtrise sentinelle I (métal)",
+        "description": "<i>Tu as échappé à la nova d'or ? C'est bien, tu commences à apprendre.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian1_large.png"
+    },
+    {
+        "id": "patch-4578",
+        "name": "Patch | Maîtrise sentinelle d'élite (métal)",
+        "description": "<i>Tissé par des mains expertes, le fil d'argent sur cet écusson MGE contraste avec le fond bleu marine.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardianelite_large.png"
+    },
+    {
+        "id": "patch-4579",
+        "name": "Patch | Maîtrise sentinelle distinguée ★ (métal)",
+        "description": "<i>Pour parvenir au grade de MGD, il faut se surpasser, s'adapter et travailler ensemble. Continue ton ascension.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg_large.png"
+    },
+    {
+        "id": "patch-4580",
+        "name": "Patch | Aigle légendaire (métal)",
+        "description": "<i>Cet écusson de l'aigle légendaire est orné d'une paires d'ailes dorées.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle_large.png"
+    },
+    {
+        "id": "patch-4581",
+        "name": "Patch | Maîtrise aigle légendaire ★ (métal)",
+        "description": "<i>Tu es presque au sommet, mais les adversaires que tu défieras bientôt ne te montreront aucune pitié.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster_large.png"
+    },
+    {
+        "id": "patch-4582",
+        "name": "Patch | Maîtrise suprême de première classe (métal)",
+        "description": "<i>Cet écusson suprême met en scène un globe en forme de cœur avec des motifs rouges et bleus.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_supreme_large.png"
+    },
+    {
+        "id": "patch-4583",
+        "name": "Patch | L'élite mondiale ★ (métal)",
+        "description": "<i>Félicitations pour le chemin parcouru. Le vrai défi va pouvoir commencer.</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite_large.png"
+    },
+    {
+        "id": "patch-4584",
+        "name": "Patch | Maîtrise sentinelle distinguée (métal)",
+        "description": "<i>Pour parvenir au grade de MGD, il faut se surpasser, s'adapter et travailler ensemble. Continue ton ascension.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg2_large.png"
+    },
+    {
+        "id": "patch-4585",
+        "name": "Patch | Aigle légendaire (métal)",
+        "description": "<i>Cet écusson de l'aigle légendaire est orné d'une paires d'ailes dorées.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle2_large.png"
+    },
+    {
+        "id": "patch-4586",
+        "name": "Patch | Maîtrise aigle légendaire (métal)",
+        "description": "<i>Tu es presque au sommet, mais les adversaires que tu défieras bientôt ne te montreront aucune pitié.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster2_large.png"
+    },
+    {
+        "id": "patch-4587",
+        "name": "Patch | Démon d'argent (métal)",
+        "description": "<i>« L'enfer d'argent » n'est pas un endroit, c'est un état d'esprit, et on peut le quitter n'importe quand.</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_demon_large.png"
+    },
+    {
+        "id": "patch-4588",
+        "name": "Patch | Maîtrise suprême (métal)",
+        "description": "<i>Cet écusson MSPC représente une unité antiterroriste ailée flanquée de six étoiles.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_suprememaster_large.png"
+    },
+    {
+        "id": "patch-4589",
+        "name": "Patch | Alyx",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_alyx_large.png"
+    },
+    {
+        "id": "patch-4591",
+        "name": "Patch | Subsistance !",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_green_large.png"
+    },
+    {
+        "id": "patch-4592",
+        "name": "Patch | Vortigaunt",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_vort_large.png"
+    },
+    {
+        "id": "patch-4593",
+        "name": "Patch | Glyphe de crabe de tête",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_teal_large.png"
+    },
+    {
+        "id": "patch-4594",
+        "name": "Patch | Lambda cuivré",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_copper_large.png"
+    },
+    {
+        "id": "patch-4595",
+        "name": "Patch | Santé",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_hearts_large.png"
+    },
+    {
+        "id": "patch-4596",
+        "name": "Patch | Masque du Cartel",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_combine_front_large.png"
+    },
+    {
+        "id": "patch-4597",
+        "name": "Patch | Black Mesa",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_blackmesa_large.png"
+    },
+    {
+        "id": "patch-4598",
+        "name": "Patch | CMB",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_cmb_large.png"
+    },
+    {
+        "id": "patch-4599",
+        "name": "Patch | Lambda",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_orange_large.png"
+    },
+    {
+        "id": "patch-4600",
+        "name": "Patch | Cité 17",
+        "description": "Écusson à l'effigie de Half-Life: Alyx",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_c17_large.png"
+    },
+    {
+        "id": "patch-4697",
+        "name": "Patch | L'élite mondiale (métal)",
+        "description": "<i>Félicitations pour le chemin parcouru. Le vrai défi va pouvoir commencer.</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite2_large.png"
+    },
+    {
+        "id": "patch-4699",
+        "name": "Patch | Maîtrise sentinelle I (métal)",
+        "description": "<i>Tu as échappé à la nova d'or ? C'est bien, tu commences à apprendre.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian3_large.png"
+    },
+    {
+        "id": "patch-4700",
+        "name": "Patch | Nova d'or (métal)",
+        "description": "<i>Vous venez tout juste de sortir de l'infanterie d'argent ? Il y a encore du boulot.</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova4_large.png"
+    },
+    {
+        "id": "patch-4937",
+        "name": "Patch | Espoir envolé",
+        "description": "<i>À toi qui oses entrer…</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_abandon_hope_large.png"
+    },
+    {
+        "id": "patch-4938",
+        "name": "Patch | Levez les ancres",
+        "description": "<i>Immobile sur une mer déchainée…</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_anchor_large.png"
+    },
+    {
+        "id": "patch-4939",
+        "name": "Patch | Raie voyageuse",
+        "description": "<i>Elle glisse sous les ondes…</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cruising_large.png"
+    },
+    {
+        "id": "patch-4940",
+        "name": "Patch | Grenouille à baïonnette",
+        "description": "<i>Ça passe ou ça coasse…</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_frog_skeleton_large.png"
+    },
+    {
+        "id": "patch-4941",
+        "name": "Patch | Sushi fou",
+        "description": "<i>Emmaillotez vos adversaires !</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_mad_sushi_large.png"
+    },
+    {
+        "id": "patch-4942",
+        "name": "Patch | Calamar géant",
+        "description": "<i>Entraine sa proie dans les profondeurs marines…</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_pink_squid_large.png"
+    },
+    {
+        "id": "patch-4943",
+        "name": "Patch | El Pirata",
+        "description": "<i>Un travail d'équipe, une bouchée à la fois…</i>",
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_piranha_large.png"
+    },
+    {
+        "id": "patch-4944",
+        "name": "Patch | Menace des abysses",
+        "description": "<i>Levez les yeux…</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_siren_large.png"
+    },
+    {
+        "id": "patch-4945",
+        "name": "Patch | Têtes de mort",
+        "description": "<i>Symbole universel du danger…</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_skull_crossswords_large.png"
+    },
+    {
+        "id": "patch-4946",
+        "name": "Patch | Vague crépusculaire",
+        "description": "<i>Une nouvelle journée sur l'océan…</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_sunset_wave_large.png"
+    },
+    {
+        "id": "patch-4947",
+        "name": "Patch | Offensive aquatique",
+        "description": "<i>Poisson à gogo</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_fish_go_large.png"
+    },
+    {
+        "id": "patch-4948",
+        "name": "Patch | Dieu très ancien",
+        "description": "<i>Cthulhu en appelle au désamorçage…</i>",
+        "rarity": "Exotique",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cthulhu_large.png"
+    },
+    {
+        "id": "patch-4949",
+        "name": "Patch | L'heure du repas",
+        "description": "<i>Affamé de victoire…</i>",
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_meal_time_large.png"
+    },
+    {
+        "id": "patch-5079",
+        "name": "Patch | Ninjas in Pyjamas | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_large.png"
+    },
+    {
+        "id": "patch-5080",
+        "name": "Patch | Ninjas in Pyjamas (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_gold_large.png"
+    },
+    {
+        "id": "patch-5081",
+        "name": "Patch | FURIA | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_large.png"
+    },
+    {
+        "id": "patch-5082",
+        "name": "Patch | FURIA (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_gold_large.png"
+    },
+    {
+        "id": "patch-5083",
+        "name": "Patch | Natus Vincere | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_large.png"
+    },
+    {
+        "id": "patch-5084",
+        "name": "Patch | Natus Vincere (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_gold_large.png"
+    },
+    {
+        "id": "patch-5085",
+        "name": "Patch | Team Vitality | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_large.png"
+    },
+    {
+        "id": "patch-5086",
+        "name": "Patch | Team Vitality (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_gold_large.png"
+    },
+    {
+        "id": "patch-5087",
+        "name": "Patch | Team Liquid | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_large.png"
+    },
+    {
+        "id": "patch-5088",
+        "name": "Patch | Team Liquid (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_gold_large.png"
+    },
+    {
+        "id": "patch-5089",
+        "name": "Patch | Gambit Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_large.png"
+    },
+    {
+        "id": "patch-5090",
+        "name": "Patch | Gambit Esports (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_gold_large.png"
+    },
+    {
+        "id": "patch-5091",
+        "name": "Patch | G2 Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_large.png"
+    },
+    {
+        "id": "patch-5092",
+        "name": "Patch | G2 Esports (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_gold_large.png"
+    },
+    {
+        "id": "patch-5093",
+        "name": "Patch | Evil Geniuses | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_large.png"
+    },
+    {
+        "id": "patch-5094",
+        "name": "Patch | Evil Geniuses (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_gold_large.png"
+    },
+    {
+        "id": "patch-5095",
+        "name": "Patch | Team Spirit | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_large.png"
+    },
+    {
+        "id": "patch-5096",
+        "name": "Patch | Team Spirit (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_gold_large.png"
+    },
+    {
+        "id": "patch-5097",
+        "name": "Patch | Astralis | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_large.png"
+    },
+    {
+        "id": "patch-5098",
+        "name": "Patch | Astralis (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_gold_large.png"
+    },
+    {
+        "id": "patch-5099",
+        "name": "Patch | paiN Gaming | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_large.png"
+    },
+    {
+        "id": "patch-5100",
+        "name": "Patch | paiN Gaming (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_gold_large.png"
+    },
+    {
+        "id": "patch-5101",
+        "name": "Patch | ENCE | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_large.png"
+    },
+    {
+        "id": "patch-5102",
+        "name": "Patch | ENCE (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_gold_large.png"
+    },
+    {
+        "id": "patch-5103",
+        "name": "Patch | BIG | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_large.png"
+    },
+    {
+        "id": "patch-5104",
+        "name": "Patch | BIG (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_gold_large.png"
+    },
+    {
+        "id": "patch-5105",
+        "name": "Patch | Movistar Riders | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_large.png"
+    },
+    {
+        "id": "patch-5106",
+        "name": "Patch | Movistar Riders (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_gold_large.png"
+    },
+    {
+        "id": "patch-5107",
+        "name": "Patch | Heroic | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_large.png"
+    },
+    {
+        "id": "patch-5108",
+        "name": "Patch | Heroic (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_gold_large.png"
+    },
+    {
+        "id": "patch-5109",
+        "name": "Patch | MOUZ | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_large.png"
+    },
+    {
+        "id": "patch-5110",
+        "name": "Patch | MOUZ (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_gold_large.png"
+    },
+    {
+        "id": "patch-5111",
+        "name": "Patch | Sharks Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_large.png"
+    },
+    {
+        "id": "patch-5112",
+        "name": "Patch | Sharks Esports (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_gold_large.png"
+    },
+    {
+        "id": "patch-5113",
+        "name": "Patch | TYLOO | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_large.png"
+    },
+    {
+        "id": "patch-5114",
+        "name": "Patch | TYLOO (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_gold_large.png"
+    },
+    {
+        "id": "patch-5115",
+        "name": "Patch | Renegades | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_large.png"
+    },
+    {
+        "id": "patch-5116",
+        "name": "Patch | Renegades (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_gold_large.png"
+    },
+    {
+        "id": "patch-5117",
+        "name": "Patch | Entropiq | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_large.png"
+    },
+    {
+        "id": "patch-5118",
+        "name": "Patch | Entropiq (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_gold_large.png"
+    },
+    {
+        "id": "patch-5119",
+        "name": "Patch | GODSENT | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_large.png"
+    },
+    {
+        "id": "patch-5120",
+        "name": "Patch | GODSENT (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_gold_large.png"
+    },
+    {
+        "id": "patch-5121",
+        "name": "Patch | Virtus.pro | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_large.png"
+    },
+    {
+        "id": "patch-5122",
+        "name": "Patch | Virtus.pro (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+    },
+    {
+        "id": "patch-5123",
+        "name": "Patch | Copenhagen Flames | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+    },
+    {
+        "id": "patch-5124",
+        "name": "Patch | Copenhagen Flames (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+    {
+        "id": "patch-5125",
+        "name": "Patch | FaZe Clan | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_large.png"
+    },
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_gold_large.png"
+    },
+    {
+        "id": "patch-5127",
+        "name": "Patch | PGL | Stockholm 2021",
+        "description": null,
+        "rarity": "Qualité supérieure",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_large.png"
+    },
+    {
+        "id": "patch-5128",
+        "name": "Patch | PGL (or) | Stockholm 2021",
+        "description": null,
+        "rarity": "Remarquable",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_gold_large.png"
+    }
+]
