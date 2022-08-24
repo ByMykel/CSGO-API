@@ -2354,7 +2354,7 @@
     {
         "id": "crate-4669",
         "name": "CS20 Case",
-        "description": "Tato bedna obsahuje řadu tematických vzhledů zbraní z workshopu služby Steam upomínajících dvacáté výročí série her Counter-Strike a vzácnou odměnu v podobě Klasického nože.",
+        "description": "Tato bedna obsahuje řadu tematických vzhledů zbraní z workshopu služby Steam připomínajících dvacáté výročí série her Counter-Strike a vzácnou odměnu v podobě Klasického nože.",
         "type": "Case",
         "first_sale_date": "2019-10-14",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_community_24.png"
@@ -2362,7 +2362,7 @@
     {
         "id": "crate-4670",
         "name": "CS20 Sticker Capsule",
-        "description": "Tato kapsle obsahuje řadu tematických samolepek z workshopu služby Steam upomínajících dvacáté výročí série her Counter-Strike.",
+        "description": "Tato kapsle obsahuje řadu tematických samolepek z workshopu služby Steam připomínajících dvacáté výročí série her Counter-Strike.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/16",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_cs20_capsule.png"
@@ -2801,10 +2801,26 @@
     },
     {
         "id": "crate-4847",
-        "name": null,
-        "description": null,
+        "name": "10 Year Birthday Sticker Capsule",
+        "description": "Tato kapsle obsahuje řadu tematických samolepek z workshopu služby Steam připomínajících desáté narozeniny hry CS:GO.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/06/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_csgo10_capsule.png"
+    },
+    {
+        "id": "crate-4848",
+        "name": null,
+        "description": null,
+        "type": "Music Kit Box",
+        "first_sale_date": "2022/08/15",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_capsule.png"
+    },
+    {
+        "id": "crate-4849",
+        "name": null,
+        "description": null,
+        "type": "Music Kit Box",
+        "first_sale_date": "2022/08/15",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_stattrak_capsule.png"
     }
 ]

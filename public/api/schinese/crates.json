@@ -49,7 +49,7 @@
     },
     {
         "id": "crate-4007",
-        "name": "印花胶囊",
+        "name": "1 号印花胶囊",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2014/01/29",
@@ -2801,10 +2801,26 @@
     },
     {
         "id": "crate-4847",
-        "name": null,
-        "description": null,
+        "name": "CS:GO 10周年印花胶囊",
+        "description": "这个胶囊包含多张由Steam创意工坊艺术家创作的印花，用以庆祝CS:GO十周年生日。",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/06/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_csgo10_capsule.png"
+    },
+    {
+        "id": "crate-4848",
+        "name": null,
+        "description": null,
+        "type": "Music Kit Box",
+        "first_sale_date": "2022/08/15",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_capsule.png"
+    },
+    {
+        "id": "crate-4849",
+        "name": null,
+        "description": null,
+        "type": "Music Kit Box",
+        "first_sale_date": "2022/08/15",
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_stattrak_capsule.png"
     }
 ]
