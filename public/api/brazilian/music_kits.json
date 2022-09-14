@@ -490,7 +490,7 @@
     {
         "id": "music-kit-64",
         "name": "Trilha Sonora | Juelz, Shooters",
-        "description": null,
+        "description": "Sintetizadores neo trap, 808s enérgicos, um riff épico de piano e uma infinidade de efeitos sonoros de tiros. O hino de trap original \\\"Shooters\\\" feito por Juelz cria uma trilha sonora verdadeiramente de elite. Disponível apenas para destaques.",
         "rarity": "High Grade",
         "exclusive": false,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/music_kits/juelz_01.png"
@@ -514,9 +514,17 @@
     {
         "id": "music-kit-67",
         "name": "Trilha Sonora | Sullivan King, Lock Me Up",
-        "description": null,
+        "description": "Curte uma perseguição? E uma boa caça? Hard rock, metal e dubstep colidem na trilha sonora de Sullivan King para tornar-se invencível.",
         "rarity": "High Grade",
         "exclusive": false,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/music_kits/sullivanking_01.png"
+    },
+    {
+        "id": "music-kit-68",
+        "name": null,
+        "description": null,
+        "rarity": "High Grade",
+        "exclusive": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/music_kits/perfectworld_01.png"
     }
 ]
