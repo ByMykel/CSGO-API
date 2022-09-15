@@ -8,7 +8,7 @@ import {
     getPaintKitsRarity,
     getPrefabs,
     getStickerKits,
-} from "./services/csgo.js";
+} from "./services/main.js";
 import { getCollectibles } from "./services/collectibles.js";
 import { getKeys } from "./services/keys.js";
 import { getAgents } from "./services/agents.js";

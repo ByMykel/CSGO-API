@@ -7,14 +7,7 @@ export const getTranslation = (translations, key) => {
     const defaultTranslation =
         translations.default[key?.replace("#", "").toLowerCase()];
 
-    if (
-        translation === undefined ||
-        (translation === "" && defaultTranslation === undefined) ||
-        defaultTranslation === ""
-    )
-        return null;
-
-    return translation || defaultTranslation;
+    return translation || defaultTranslation || null;
 };
 
 export const getTranslations = async (url) => {
