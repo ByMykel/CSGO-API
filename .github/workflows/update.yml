@@ -1,6 +1,7 @@
 name: Update JSON API
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 7 * * *"
 
