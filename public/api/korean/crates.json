@@ -290,7 +290,7 @@
     {
         "id": "crate-4061",
         "name": "크로마 상자",
-        "description": null,
+        "description": "\n",
         "type": "Case",
         "first_sale_date": "2015/1/8",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_community_6.png"
@@ -1401,8 +1401,8 @@
     },
     {
         "id": "crate-4286",
-        "name": null,
-        "description": null,
+        "name": "Perfect World Graffiti Box",
+        "description": "This capsule contains a variety of graffiti from Perfect World to commemorate the launch of Counter-Strike: Global Offensive in mainland China.",
         "type": "Graffiti",
         "first_sale_date": "2017/09/14",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_spray_pack_illuminate_1.png"
@@ -1657,39 +1657,39 @@
     },
     {
         "id": "crate-4391",
-        "name": null,
-        "description": null,
+        "name": "Krakow 2017 Legends (Holo/Foil)",
+        "description": "This capsule contains a single Krakow 2017 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_krakow2017_01.png"
     },
     {
         "id": "crate-4392",
-        "name": null,
-        "description": null,
+        "name": "Krakow 2017 Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Krakow 2017 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_krakow2017_02.png"
     },
     {
         "id": "crate-4393",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Krakow 2017 Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Challengers teams at Krakow 2017.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_krakow2017_group_1.png"
     },
     {
         "id": "crate-4394",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Krakow 2017 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at Krakow 2017.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_krakow2017_group_2.png"
     },
     {
         "id": "crate-4396",
-        "name": null,
+        "name": "Krakow 2017 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1697,7 +1697,7 @@
     },
     {
         "id": "crate-4397",
-        "name": null,
+        "name": "Krakow 2017 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1705,7 +1705,7 @@
     },
     {
         "id": "crate-4398",
-        "name": null,
+        "name": "Krakow 2017 Cobblestone Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1713,7 +1713,7 @@
     },
     {
         "id": "crate-4399",
-        "name": null,
+        "name": "Krakow 2017 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1721,7 +1721,7 @@
     },
     {
         "id": "crate-4400",
-        "name": null,
+        "name": "Krakow 2017 Cache Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1729,7 +1729,7 @@
     },
     {
         "id": "crate-4401",
-        "name": null,
+        "name": "Krakow 2017 Train Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1737,7 +1737,7 @@
     },
     {
         "id": "crate-4402",
-        "name": null,
+        "name": "Krakow 2017 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1769,55 +1769,55 @@
     },
     {
         "id": "crate-4456",
-        "name": null,
-        "description": null,
+        "name": "Boston 2018 Legends (Holo/Foil)",
+        "description": "This capsule contains a single Boston 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_legends.png"
     },
     {
         "id": "crate-4457",
-        "name": null,
-        "description": null,
+        "name": "Boston 2018 Returning Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Boston 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_challengers.png"
     },
     {
         "id": "crate-4458",
-        "name": null,
-        "description": null,
+        "name": "Boston 2018 Minor Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Boston 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_contenders.png"
     },
     {
         "id": "crate-4459",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Boston 2018 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at Boston 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_group_legends.png"
     },
     {
         "id": "crate-4460",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Boston 2018 Returning Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Returning Challengers teams at Boston 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_group_challengers.png"
     },
     {
         "id": "crate-4461",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Boston 2018 Minor Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Minor Challengers teams at Boston 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_group_contenders.png"
     },
     {
         "id": "crate-4463",
-        "name": null,
+        "name": "Boston 2018 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1825,7 +1825,7 @@
     },
     {
         "id": "crate-4464",
-        "name": null,
+        "name": "Boston 2018 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1833,7 +1833,7 @@
     },
     {
         "id": "crate-4465",
-        "name": null,
+        "name": "Boston 2018 Cobblestone Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1841,7 +1841,7 @@
     },
     {
         "id": "crate-4466",
-        "name": null,
+        "name": "Boston 2018 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1849,7 +1849,7 @@
     },
     {
         "id": "crate-4467",
-        "name": null,
+        "name": "Boston 2018 Cache Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1857,7 +1857,7 @@
     },
     {
         "id": "crate-4468",
-        "name": null,
+        "name": "Boston 2018 Train Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1865,7 +1865,7 @@
     },
     {
         "id": "crate-4469",
-        "name": null,
+        "name": "Boston 2018 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -1873,15 +1873,15 @@
     },
     {
         "id": "crate-4470",
-        "name": null,
-        "description": null,
+        "name": "Community Capsule 2018",
+        "description": "This capsule contains a variety of stickers from the community Workshop.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/12/11",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_comm2018_01_capsule.png"
     },
     {
         "id": "crate-4471",
-        "name": null,
+        "name": "Clutch Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-12-20",
@@ -1889,55 +1889,55 @@
     },
     {
         "id": "crate-4474",
-        "name": null,
-        "description": null,
+        "name": "Boston 2018 Minor Challengers with Flash Gaming (Holo/Foil)",
+        "description": "This capsule contains a single Boston 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_contenders_flg.png"
     },
     {
         "id": "crate-4475",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Boston 2018 Minor Challengers with Flash Gaming Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Minor Challengers with Flash Gaming teams at Boston 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_group_contenders_flg.png"
     },
     {
         "id": "crate-4477",
-        "name": null,
-        "description": null,
+        "name": "Chicken Capsule",
+        "description": "This capsule contains a variety of stickers from the community artist Slid3.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/06/10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_chicken_capsule.png"
     },
     {
         "id": "crate-4478",
-        "name": null,
-        "description": null,
+        "name": "Boston 2018 Attending Legends (Holo/Foil)",
+        "description": "This capsule contains a single Boston 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_legends_ntv.png"
     },
     {
         "id": "crate-4479",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Boston 2018 Attending Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at Boston 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_boston2018_group_legends_ntv.png"
     },
     {
         "id": "crate-4481",
-        "name": null,
-        "description": null,
+        "name": "Collectible Pins Capsule Series 3",
+        "description": "This capsule contains a single Series 3 collectible pin. Collectible pins can be displayed on your CS:GO profile.",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_pins_series_3.png"
     },
     {
         "id": "crate-4482",
-        "name": null,
+        "name": "Horizon Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-06-07",
@@ -1945,55 +1945,55 @@
     },
     {
         "id": "crate-4533",
-        "name": null,
-        "description": null,
+        "name": "London 2018 Legends (Holo/Foil)",
+        "description": "This capsule contains a single London 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_legends.png"
     },
     {
         "id": "crate-4534",
-        "name": null,
-        "description": null,
+        "name": "London 2018 Returning Challengers (Holo/Foil)",
+        "description": "This capsule contains a single London 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_challengers.png"
     },
     {
         "id": "crate-4535",
-        "name": null,
-        "description": null,
+        "name": "London 2018 Minor Challengers (Holo/Foil)",
+        "description": "This capsule contains a single London 2018 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_contenders.png"
     },
     {
         "id": "crate-4536",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "London 2018 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at London 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_group_legends.png"
     },
     {
         "id": "crate-4537",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "London 2018 Returning Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Returning Challengers teams at London 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_group_challengers.png"
     },
     {
         "id": "crate-4538",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "London 2018 Minor Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Minor Challengers teams at London 2018.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_london2018_group_contenders.png"
     },
     {
         "id": "crate-4540",
-        "name": null,
+        "name": "London 2018 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2001,7 +2001,7 @@
     },
     {
         "id": "crate-4541",
-        "name": null,
+        "name": "London 2018 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2009,7 +2009,7 @@
     },
     {
         "id": "crate-4542",
-        "name": null,
+        "name": "London 2018 Dust II Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2017,7 +2017,7 @@
     },
     {
         "id": "crate-4543",
-        "name": null,
+        "name": "London 2018 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2025,7 +2025,7 @@
     },
     {
         "id": "crate-4544",
-        "name": null,
+        "name": "London 2018 Cache Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2033,7 +2033,7 @@
     },
     {
         "id": "crate-4545",
-        "name": null,
+        "name": "London 2018 Train Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2041,7 +2041,7 @@
     },
     {
         "id": "crate-4546",
-        "name": null,
+        "name": "London 2018 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2049,15 +2049,15 @@
     },
     {
         "id": "crate-4547",
-        "name": null,
-        "description": null,
+        "name": "Skill Groups Capsule",
+        "description": "This capsule contains a variety of stickers from the community artist daniDem.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018/11/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_skillgroup_capsule.png"
     },
     {
         "id": "crate-4548",
-        "name": null,
+        "name": "Danger Zone Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-11-29",
@@ -2065,55 +2065,55 @@
     },
     {
         "id": "crate-4584",
-        "name": null,
-        "description": null,
+        "name": "Katowice 2019 Legends (Holo/Foil)",
+        "description": "This capsule contains a single Katowice 2019 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_legends.png"
     },
     {
         "id": "crate-4585",
-        "name": null,
-        "description": null,
+        "name": "Katowice 2019 Returning Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Katowice 2019 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_challengers.png"
     },
     {
         "id": "crate-4586",
-        "name": null,
-        "description": null,
+        "name": "Katowice 2019 Minor Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Katowice 2019 participant Holo or Foil sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_contenders.png"
     },
     {
         "id": "crate-4587",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Katowice 2019 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at Katowice 2019.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_group_legends.png"
     },
     {
         "id": "crate-4588",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Katowice 2019 Returning Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Returning Challengers teams at Katowice 2019.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_group_challengers.png"
     },
     {
         "id": "crate-4589",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Katowice 2019 Minor Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Minor Challengers teams at Katowice 2019.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_katowice2019_group_contenders.png"
     },
     {
         "id": "crate-4590",
-        "name": null,
+        "name": "Katowice 2019 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2121,7 +2121,7 @@
     },
     {
         "id": "crate-4591",
-        "name": null,
+        "name": "Katowice 2019 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2129,7 +2129,7 @@
     },
     {
         "id": "crate-4592",
-        "name": null,
+        "name": "Katowice 2019 Dust II Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2137,7 +2137,7 @@
     },
     {
         "id": "crate-4593",
-        "name": null,
+        "name": "Katowice 2019 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2145,7 +2145,7 @@
     },
     {
         "id": "crate-4594",
-        "name": null,
+        "name": "Katowice 2019 Cache Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2153,7 +2153,7 @@
     },
     {
         "id": "crate-4595",
-        "name": null,
+        "name": "Katowice 2019 Train Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2161,7 +2161,7 @@
     },
     {
         "id": "crate-4596",
-        "name": null,
+        "name": "Katowice 2019 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2169,15 +2169,15 @@
     },
     {
         "id": "crate-4597",
-        "name": null,
-        "description": null,
+        "name": "Halo Capsule",
+        "description": "This capsule contains a variety of stickers from 343 Industries.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/11/25",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_halo_capsule.png"
     },
     {
         "id": "crate-4598",
-        "name": null,
+        "name": "Prisma Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-03-05",
@@ -2185,55 +2185,55 @@
     },
     {
         "id": "crate-4599",
-        "name": null,
-        "description": null,
+        "name": "Feral Predators Capsule",
+        "description": "This capsule contains a variety of stickers from community artists 2Minds, OniLolz, and Zaphk.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/04/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_feral_predators_capsule.png"
     },
     {
         "id": "crate-4600",
-        "name": null,
-        "description": null,
+        "name": "Shattered Web Sticker Collection",
+        "description": "This collection contains a variety of stickers celebrating Operation Shattered Web.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_shattered_web_capsule.png"
     },
     {
         "id": "crate-4610",
-        "name": null,
-        "description": null,
+        "name": "CS:GO Patch Pack",
+        "description": "This pack contains a variety of embroidered patches. Patches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack01.png"
     },
     {
         "id": "crate-4614",
-        "name": null,
-        "description": null,
+        "name": "Metal Skill Group Patch Collection",
+        "description": "This patch collection contains a variety of embroidered patches. Patches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack02.png"
     },
     {
         "id": "crate-4615",
-        "name": null,
-        "description": null,
+        "name": "Half-Life: Alyx Patch Pack",
+        "description": "This pack contains a variety of embroidered patches commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. Patches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/03/23",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack_hlalyx.png"
     },
     {
         "id": "crate-4616",
-        "name": null,
-        "description": null,
+        "name": "Warhammer 40,000 Sticker Capsule",
+        "description": "This capsule contains a variety of stickers from the Warhammer 40,000 series.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/05/28",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_warhammer_capsule.png"
     },
     {
         "id": "crate-4620",
-        "name": null,
+        "name": "Shattered Web Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-06-12",
@@ -2241,55 +2241,55 @@
     },
     {
         "id": "crate-4654",
-        "name": null,
-        "description": null,
+        "name": "Berlin 2019 Legends (Holo/Foil)",
+        "description": "This capsule contains a single Berlin 2019 participant Holo or Foil sticker.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_legends.png"
     },
     {
         "id": "crate-4655",
-        "name": null,
-        "description": null,
+        "name": "Berlin 2019 Returning Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Berlin 2019 participant Holo or Foil sticker.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_challengers.png"
     },
     {
         "id": "crate-4656",
-        "name": null,
-        "description": null,
+        "name": "Berlin 2019 Minor Challengers (Holo/Foil)",
+        "description": "This capsule contains a single Berlin 2019 participant Holo or Foil sticker.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_contenders.png"
     },
     {
         "id": "crate-4657",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Berlin 2019 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Legends teams at Berlin 2019.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_group_legends.png"
     },
     {
         "id": "crate-4658",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Berlin 2019 Returning Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Returning Challengers teams at Berlin 2019.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_group_challengers.png"
     },
     {
         "id": "crate-4659",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Berlin 2019 Minor Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Foil, or Gold sticker autographed by one of the players from Minor Challengers teams at Berlin 2019.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_berlin2019_group_contenders.png"
     },
     {
         "id": "crate-4660",
-        "name": null,
+        "name": "Berlin 2019 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2297,7 +2297,7 @@
     },
     {
         "id": "crate-4661",
-        "name": null,
+        "name": "Berlin 2019 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2305,7 +2305,7 @@
     },
     {
         "id": "crate-4662",
-        "name": null,
+        "name": "Berlin 2019 Dust II Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2313,7 +2313,7 @@
     },
     {
         "id": "crate-4663",
-        "name": null,
+        "name": "Berlin 2019 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2321,7 +2321,7 @@
     },
     {
         "id": "crate-4664",
-        "name": null,
+        "name": "Berlin 2019 Train Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2329,7 +2329,7 @@
     },
     {
         "id": "crate-4665",
-        "name": null,
+        "name": "Berlin 2019 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2337,7 +2337,7 @@
     },
     {
         "id": "crate-4666",
-        "name": null,
+        "name": "Berlin 2019 Vertigo Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2345,47 +2345,47 @@
     },
     {
         "id": "crate-4668",
-        "name": null,
-        "description": null,
+        "name": "X-Ray P250 Package",
+        "description": "This package contains a single custom painted P250 showing its internals with an X-Ray. P250 is a low-recoil firearm with a high rate of fire, which is a relatively inexpensive choice against armored opponents.",
         "type": null,
         "first_sale_date": "2019/10/02",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_xray_p250.png"
     },
     {
         "id": "crate-4669",
-        "name": null,
-        "description": null,
+        "name": "CS20 Case",
+        "description": "Celebrating the 20th Anniversary of Counter-Strike, this weapon case contains a variety of weapon finishes from Steam Community Workshop and features the Classic Knife as the rare special item, a classic of the Counter-Strike series.",
         "type": "Case",
         "first_sale_date": "2019-10-14",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_community_24.png"
     },
     {
         "id": "crate-4670",
-        "name": null,
-        "description": null,
+        "name": "CS20 Sticker Capsule",
+        "description": "Celebrating the 20th Anniversary of Counter-Strike, this capsule contains a variety of stickers from Steam Community Workshop.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/16",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_cs20_capsule.png"
     },
     {
         "id": "crate-4693",
-        "name": null,
-        "description": null,
+        "name": "Half-Life: Alyx Collectible Pins Capsule",
+        "description": "This capsule contains a single collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. Collectible pins can be displayed on your CS:GO profile.",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_pins_hlalyx.png"
     },
     {
         "id": "crate-4694",
-        "name": null,
-        "description": null,
+        "name": "Half-Life: Alyx Sticker Capsule",
+        "description": "This capsule contains a variety of stickers commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/03/23",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_hlalyx_capsule.png"
     },
     {
         "id": "crate-4695",
-        "name": null,
+        "name": "Prisma 2 Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-03-24",
@@ -2393,23 +2393,23 @@
     },
     {
         "id": "crate-4696",
-        "name": null,
-        "description": null,
+        "name": "Masterminds Music Kit Box",
+        "description": "This box contains a variety of music kits from various composers.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_masterminds_capsule.png"
     },
     {
         "id": "crate-4697",
-        "name": null,
-        "description": null,
+        "name": "StatTrak™ Masterminds Music Kit Box",
+        "description": "This box contains a variety of StatTrak™ music kits from various composers.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_masterminds_stattrak_capsule.png"
     },
     {
         "id": "crate-4698",
-        "name": null,
+        "name": "Fracture Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-07-13",
@@ -2417,7 +2417,7 @@
     },
     {
         "id": "crate-4717",
-        "name": null,
+        "name": "Operation Broken Fang Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-10-14",
@@ -2425,7 +2425,7 @@
     },
     {
         "id": "crate-4719",
-        "name": null,
+        "name": "Recoil Sticker Collection",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
@@ -2433,47 +2433,47 @@
     },
     {
         "id": "crate-4729",
-        "name": null,
-        "description": null,
+        "name": "Broken Fang Sticker Collection",
+        "description": "This collection contains a variety of stickers celebrating Operation Broken Fang.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/11/9",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_broken_fang_capsule.png"
     },
     {
         "id": "crate-4743",
-        "name": null,
-        "description": null,
+        "name": "2020 RMR Legends",
+        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_legends.png"
     },
     {
         "id": "crate-4744",
-        "name": null,
-        "description": null,
+        "name": "2020 RMR Challengers",
+        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_challengers.png"
     },
     {
         "id": "crate-4745",
-        "name": null,
-        "description": null,
+        "name": "2020 RMR Contenders",
+        "description": "This capsule contains a single Paper, Holographic, Foil, or Gold 2020 RMR participant sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rmr2020_contenders.png"
     },
     {
         "id": "crate-4746",
-        "name": null,
-        "description": null,
+        "name": "Poorly Drawn Capsule",
+        "description": "This capsule contains a variety of poorly drawn stickers from community artists HH110011HH and Hoxton.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/02/14",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_poorly_drawn_capsule.png"
     },
     {
         "id": "crate-4747",
-        "name": null,
+        "name": "Snakebite Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-03-26",
@@ -2481,23 +2481,23 @@
     },
     {
         "id": "crate-4754",
-        "name": null,
-        "description": null,
+        "name": "Tacticians Music Kit Box",
+        "description": "This box contains a variety of music kits from \\\"Tacticians\\\" artists.",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_tacticians_capsule.png"
     },
     {
         "id": "crate-4755",
-        "name": null,
-        "description": null,
+        "name": "StatTrak™ Tacticians Music Kit Box",
+        "description": "This box contains a variety of StatTrak™ music kits from \\\"Tacticians\\\" artists.",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_tacticians_stattrak_capsule.png"
     },
     {
         "id": "crate-4779",
-        "name": null,
+        "name": "Riptide Surf Shop Sticker Collection",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2021/08/01",
@@ -2505,39 +2505,39 @@
     },
     {
         "id": "crate-4782",
-        "name": null,
-        "description": null,
+        "name": "2021 Community Sticker Capsule",
+        "description": "This capsule contains a variety of stickers from Steam Workshop artists.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/02",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_community2021_capsule.png"
     },
     {
         "id": "crate-4783",
-        "name": null,
-        "description": null,
+        "name": "Operation Riptide Sticker Collection",
+        "description": "This collection contains a variety of stickers celebrating Operation Riptide.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/21",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_op_riptide_capsule.png"
     },
     {
         "id": "crate-4784",
-        "name": null,
-        "description": null,
+        "name": "The Boardroom Sticker Capsule",
+        "description": "This capsule contains a variety of stickers from Steam Workshop artists and was released in February 2022.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/02/20",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_spring2022_capsule.png"
     },
     {
         "id": "crate-4789",
-        "name": null,
-        "description": null,
+        "name": "Battlefield 2042 Sticker Capsule",
+        "description": "This capsule contains a variety of stickers from Electronic Arts.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/10/07",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_bf2042_capsule.png"
     },
     {
         "id": "crate-4790",
-        "name": null,
+        "name": "Operation Riptide Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-09-08",
@@ -2545,63 +2545,63 @@
     },
     {
         "id": "crate-4795",
-        "name": null,
-        "description": null,
+        "name": "Operation Riptide Patch Collection",
+        "description": "This patch collection contains a variety of embroidered patches commemorating Operation Riptide. Patches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": "2021/09/01",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack03.png"
     },
     {
         "id": "crate-4803",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Legends Sticker Capsule",
+        "description": "This capsule contains a single Stockholm 2021 participant High Grade, Holo, Foil, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_stockh2021_legends.png"
     },
     {
         "id": "crate-4804",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Challengers Sticker Capsule",
+        "description": "This capsule contains a single Stockholm 2021 participant High Grade, Holo, Foil, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_stockh2021_challengers.png"
     },
     {
         "id": "crate-4805",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Contenders Sticker Capsule",
+        "description": "This capsule contains a single Stockholm 2021 participant High Grade, Holo, Foil, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_stockh2021_contenders.png"
     },
     {
         "id": "crate-4806",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Legends Patch Pack",
+        "description": "This pack contains a single Stockholm 2021 participant High Grade, or Gold embroidered patch.\\n\\n50% of the proceeds from the sale of this pack support the included organizations.\\n\\nPatches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack_stockh2021_legends.png"
     },
     {
         "id": "crate-4807",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Challengers Patch Pack",
+        "description": "This pack contains a single Stockholm 2021 participant High Grade, or Gold embroidered patch.\\n\\n50% of the proceeds from the sale of this pack support the included organizations.\\n\\nPatches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack_stockh2021_challengers.png"
     },
     {
         "id": "crate-4808",
-        "name": null,
-        "description": null,
+        "name": "Stockholm 2021 Contenders Patch Pack",
+        "description": "This pack contains a single Stockholm 2021 participant High Grade, or Gold embroidered patch.\\n\\n50% of the proceeds from the sale of this pack support the included organizations.\\n\\nPatches can be applied to any agent you own.",
         "type": "Patch Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_patch_pack_stockh2021_contenders.png"
     },
     {
         "id": "crate-4809",
-        "name": null,
+        "name": "Stockholm 2021 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2609,7 +2609,7 @@
     },
     {
         "id": "crate-4810",
-        "name": null,
+        "name": "Stockholm 2021 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2617,7 +2617,7 @@
     },
     {
         "id": "crate-4811",
-        "name": null,
+        "name": "Stockholm 2021 Dust II Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2625,7 +2625,7 @@
     },
     {
         "id": "crate-4812",
-        "name": null,
+        "name": "Stockholm 2021 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2633,7 +2633,7 @@
     },
     {
         "id": "crate-4813",
-        "name": null,
+        "name": "Stockholm 2021 Ancient Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2641,7 +2641,7 @@
     },
     {
         "id": "crate-4814",
-        "name": null,
+        "name": "Stockholm 2021 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2649,7 +2649,7 @@
     },
     {
         "id": "crate-4815",
-        "name": null,
+        "name": "Stockholm 2021 Vertigo Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2657,23 +2657,23 @@
     },
     {
         "id": "crate-4816",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Stockholm 2021 Champions Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Holo, or Gold sticker autographed by one of the Champions players at Stockholm 2021.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_stockh2021_group_champions.png"
     },
     {
         "id": "crate-4817",
-        "name": null,
-        "description": null,
-        "type": "Autograph Capsule",
+        "name": "Stockholm 2021 Finalists Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Holo, or Gold sticker autographed by one of the Finalists players at Stockholm 2021.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_stockh2021_group_finalists.png"
     },
     {
         "id": "crate-4818",
-        "name": null,
+        "name": "Dreams & Nightmares Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-11-17",
@@ -2681,28 +2681,31 @@
     },
     {
         "id": "crate-4832",
-        "name": null,
+        "name": "Antwerp 2022 Legends Sticker Capsule",
+        "description": "This capsule contains a single Antwerp 2022 Legends participant High Grade, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_legends.png"
     },
     {
         "id": "crate-4833",
-        "name": null,
+        "name": "Antwerp 2022 Challengers Sticker Capsule",
+        "description": "This capsule contains a single Antwerp 2022 Challengers participant High Grade, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_challengers.png"
     },
     {
         "id": "crate-4834",
-        "name": null,
+        "name": "Antwerp 2022 Contenders Sticker Capsule",
+        "description": "This capsule contains a single Antwerp 2022 Contenders participant High Grade, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_contenders.png"
     },
     {
         "id": "crate-4835",
-        "name": null,
+        "name": "Antwerp 2022 Inferno Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2710,7 +2713,7 @@
     },
     {
         "id": "crate-4836",
-        "name": null,
+        "name": "Antwerp 2022 Mirage Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2718,7 +2721,7 @@
     },
     {
         "id": "crate-4837",
-        "name": null,
+        "name": "Antwerp 2022 Dust II Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2726,7 +2729,7 @@
     },
     {
         "id": "crate-4838",
-        "name": null,
+        "name": "Antwerp 2022 Overpass Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2734,7 +2737,7 @@
     },
     {
         "id": "crate-4839",
-        "name": null,
+        "name": "Antwerp 2022 Ancient Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2742,7 +2745,7 @@
     },
     {
         "id": "crate-4840",
-        "name": null,
+        "name": "Antwerp 2022 Nuke Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2750,7 +2753,7 @@
     },
     {
         "id": "crate-4841",
-        "name": null,
+        "name": "Antwerp 2022 Vertigo Souvenir Package",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2758,35 +2761,39 @@
     },
     {
         "id": "crate-4842",
-        "name": null,
-        "type": "Autograph Capsule",
+        "name": "Antwerp 2022 Legends Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Glitter, Holo, or Gold sticker autographed by one of the Legends players at Antwerp 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_group_legends.png"
     },
     {
         "id": "crate-4843",
-        "name": null,
-        "type": "Autograph Capsule",
+        "name": "Antwerp 2022 Challengers Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Glitter, Holo, or Gold sticker autographed by one of the Challengers players at Antwerp 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_group_challengers.png"
     },
     {
         "id": "crate-4844",
-        "name": null,
-        "type": "Autograph Capsule",
+        "name": "Antwerp 2022 Contenders Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Glitter, Holo, or Gold sticker autographed by one of the Contenders players at Antwerp 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_group_contenders.png"
     },
     {
         "id": "crate-4845",
-        "name": null,
-        "type": "Autograph Capsule",
+        "name": "Antwerp 2022 Champions Autograph Capsule",
+        "description": "This capsule contains a single High Grade, Glitter, Holo, or Gold sticker autographed by one of the Champions players at Antwerp 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_antwerp2022_group_champions.png"
     },
     {
         "id": "crate-4846",
-        "name": null,
+        "name": "Recoil Case",
         "description": null,
         "type": "Case",
         "first_sale_date": "2022-05-30",
@@ -2794,24 +2801,24 @@
     },
     {
         "id": "crate-4847",
-        "name": null,
-        "description": null,
+        "name": "10 Year Birthday Sticker Capsule",
+        "description": "This capsule contains a variety of stickers from Steam Workshop artists celebrating CS:GO's 10th birthday.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/06/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_csgo10_capsule.png"
     },
     {
         "id": "crate-4848",
-        "name": null,
-        "description": null,
+        "name": "Initiators Music Kit Box",
+        "description": "This box contains a variety of music kits from \\\"Initiators\\\" artists.",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_capsule.png"
     },
     {
         "id": "crate-4849",
-        "name": null,
-        "description": null,
+        "name": "StatTrak™ Initiators Music Kit Box",
+        "description": "This box contains a variety of StatTrak™ music kits from \\\"Initiators\\\" artists.",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_musickit_initiators_stattrak_capsule.png"

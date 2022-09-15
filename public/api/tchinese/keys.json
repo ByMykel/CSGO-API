@@ -91,8 +91,8 @@
     },
     {
         "id": "key-1387",
-        "name": null,
-        "description": "這把鑰匙能打開任何 Valve 系列的武器箱。不屬於 Valve 系列的武器箱（例如電子競技箱）會需要使用專門的鑰匙來打開。",
+        "name": "Fracture Case Key",
+        "description": "This key only opens Fracture cases",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_26.png"
     },
     {
@@ -115,7 +115,8 @@
     },
     {
         "id": "key-1391",
-        "name": null,
+        "name": "Dreams & Nightmares Case Key",
+        "description": "This key only opens Dreams & Nightmares cases",
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/tools/crate_key_community_30.png"
     },
     {
