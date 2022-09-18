@@ -35,6 +35,8 @@ import { getAllItems } from "./services/getAllItems.js";
             selected: selectedTranslations,
         };
 
+        console.log(`%c${language.language.toUpperCase()}`, "color: #8cb4ff");
+
         const itemsGame = await getItemsGame();
 
         const prefabs = getPrefabs(itemsGame, translations);
