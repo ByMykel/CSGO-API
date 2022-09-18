@@ -35,7 +35,7 @@ import { getAllItems } from "./services/getAllItems.js";
             selected: selectedTranslations,
         };
 
-        console.log(`%c${language.language.toUpperCase()}`, "color: #8cb4ff");
+        console.log(`\n${language.language.toUpperCase()}`);
 
         const itemsGame = await getItemsGame();
 
@@ -66,6 +66,6 @@ import { getAllItems } from "./services/getAllItems.js";
             translations
         );
         getMusicKits(MusicDefinitions, translations.language);
-        getAllItems(translations.language);
+        await getAllItems(translations.language);
     }
 })();
