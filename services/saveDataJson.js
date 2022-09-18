@@ -19,9 +19,5 @@ export const saveDataJson = (file, data) => {
         if (err) throw err;
 
         console.log(`JSON data is saved in ${file}.`);
-
-        if (file.includes("all.json")) {
-            console.log("");
-        }
     });
 };
