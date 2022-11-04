@@ -10,6 +10,10 @@ const isSpray = (item) => {
     if (item.name.includes("spray_")) {
         return true;
     }
+    
+    if (item.sticker_material?.includes("_graffiti")) {
+        return true;
+    }
 
     return false;
 };
