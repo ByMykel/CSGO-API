@@ -4,6 +4,10 @@ import { getTranslation } from "./translations.js";
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
+    
+    if (item.item_name.startsWith("#CSGO_storageunit")) {
+        return true;
+    }
 
     if (!item.item_name.startsWith("#CSGO_crate")) {
         return false;
@@ -52,6 +56,10 @@ const getCrateType = (item) => {
 
     if (item.prefab === "weapon_case_souvenirpkg") {
         return "Souvenir";
+    }
+
+    if (item.item_name.startsWith("#CSGO_storageunit")) {
+        return null;
     }
 
     if (item.prefab.includes("sticker_capsule")) {
