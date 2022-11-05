@@ -45,7 +45,7 @@ const parseItemSealedGraffiti = (item, translations) => {
         id: `graffiti-${item.object_id}`,
         name: getTranslation(translations, item.item_name),
         description: getTranslation(translations, item.item_description),
-        rarity: null,
+        rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
         image,
     };
 };
@@ -63,6 +63,9 @@ export const getGraffiti = (items, stickerKits, translations) => {
         if (isGraffiti(item))
             graffiti.push(parseItemSealedGraffiti(item, translations));
     });
+
+    // sort by id
+    graffiti.sort((a, b) => a.id.localeCompare(b.id));
 
     saveDataJson(`./public/api/${translations.language}/graffiti.json`, graffiti);
 };
