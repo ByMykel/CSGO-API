@@ -2,7 +2,7 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { getTranslation } from "./translations.js";
 
-const isSpray = (item) => {
+const isGraffiti = (item) => {
     if (item.item_name.startsWith("#SprayKit_")) {
         return true;
     }
@@ -18,15 +18,7 @@ const isSpray = (item) => {
     return false;
 };
 
-const isGraffiti = (item) => {
-    if (item.name.includes("crate_graffiti_")) {
-        return true;
-    }
-
-    return false;
-};
-
-const parseItemSpray = (item, translations) => {
+const parseItemSealedGraffiti = (item, translations) => {
     const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material}_large.png`;
 
     return {
@@ -38,34 +30,12 @@ const parseItemSpray = (item, translations) => {
     };
 };
 
-const parseItemSealedGraffiti = (item, translations) => {
-    const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
-
-    return {
-        id: `graffiti-${item.object_id}`,
-        name: getTranslation(translations, item.item_name),
-        description: getTranslation(translations, item.item_description),
-        rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
-        image,
-    };
-};
-
 export const getGraffiti = (items, stickerKits, translations) => {
     const graffiti = [];
 
-    // All sprays
     stickerKits.forEach((item) => {
-        if (isSpray(item)) graffiti.push(parseItemSpray(item, translations));
+        if (isGraffiti(item)) graffiti.push(parseItemSealedGraffiti(item, translations));
     });
-
-    // All sealed graffiti
-    Object.values(items).forEach((item) => {
-        if (isGraffiti(item))
-            graffiti.push(parseItemSealedGraffiti(item, translations));
-    });
-
-    // sort by id
-    graffiti.sort((a, b) => a.id.localeCompare(b.id));
 
     saveDataJson(`./public/api/${translations.language}/graffiti.json`, graffiti);
 };
