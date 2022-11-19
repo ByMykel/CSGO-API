@@ -570,7 +570,7 @@
     {
         "id": "crate-4857",
         "name": "Капсула с наклейками легенд IEM Rio Major 2022",
-        "description": "This capsule contains a single Rio 2022 Legends participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "description": "Эта капсула содержит одну наклейку (либо бумажную, либо с блёстками, либо голографическую, либо золотую) команды-легенды с IEM Rio Major 2022.\\n\\n50% от продаж этой капсулы получают указанные организации.\\n\\nНаклейку можно разместить на любом оружии и поскрести, чтобы она выглядела поношенной. Одну и ту же наклейку можно поскрести несколько раз. Каждый раз она будет выглядеть всё более поношенной, пока окончательно не исчезнет с оружия.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_legends.png"
@@ -578,7 +578,7 @@
     {
         "id": "crate-4858",
         "name": "Капсула с наклейками претендентов IEM Rio Major 2022",
-        "description": "This capsule contains a single Rio 2022 Challengers participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "description": "Эта капсула содержит одну наклейку (либо бумажную, либо с блёстками, либо голографическую, либо золотую) команды-претендентки с IEM Rio Major 2022.\\n\\n50% от продаж этой капсулы получают указанные организации.\\n\\nНаклейку можно разместить на любом оружии и поскрести, чтобы она выглядела поношенной. Одну и ту же наклейку можно поскрести несколько раз. Каждый раз она будет выглядеть всё более поношенной, пока окончательно не исчезнет с оружия.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_challengers.png"
@@ -586,41 +586,9 @@
     {
         "id": "crate-4859",
         "name": "Капсула с наклейками соперников IEM Rio Major 2022",
-        "description": "This capsule contains a single Rio 2022 Contenders participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "description": "Эта капсула содержит одну наклейку (либо бумажную, либо с блёстками, либо голографическую, либо золотую) команды-соперницы с IEM Rio Major 2022.\\n\\n50% от продаж этой капсулы получают указанные организации.\\n\\nНаклейку можно разместить на любом оружии и поскрести, чтобы она выглядела поношенной. Одну и ту же наклейку можно поскрести несколько раз. Каждый раз она будет выглядеть всё более поношенной, пока окончательно не исчезнет с оружия.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_contenders.png"
-    },
-    {
-        "id": "crate-4867",
-        "name": "Капсула с автографом | Легенды | Рио 2022",
-        "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Legends players at Rio 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "type": "Sticker Capsule",
-        "first_sale_date": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_group_legends.png"
-    },
-    {
-        "id": "crate-4868",
-        "name": "Капсула с автографом | Претенденты | Рио 2022",
-        "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Challengers players at Rio 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "type": "Sticker Capsule",
-        "first_sale_date": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_group_challengers.png"
-    },
-    {
-        "id": "crate-4869",
-        "name": "Капсула с автографом | Соперники | Рио 2022",
-        "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Contenders players at Rio 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "type": "Sticker Capsule",
-        "first_sale_date": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_group_contenders.png"
-    },
-    {
-        "id": "crate-4870",
-        "name": "Капсула с автографом | Чемпионы | Рио 2022",
-        "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Champions players at Rio 2022.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "type": "Sticker Capsule",
-        "first_sale_date": null,
-        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/weapon_cases/crate_sticker_pack_rio2022_group_champions.png"
     }
 ]
