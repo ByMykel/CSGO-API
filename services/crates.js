@@ -1,10 +1,11 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
-    
+
     if (item.item_name.startsWith("#CSGO_storageunit")) {
         return true;
     }
@@ -74,9 +75,9 @@ const getCrateType = (item) => {
         return "Pins";
     }
 
-    if (item.translation_description?.includes("capsule")) {
-        return "Sticker Capsule";
-    }
+    // if (item.translation_description?.includes("capsule")) {
+    //     return "Sticker Capsule";
+    // }
 
     if (item.name.startsWith("crate_signature")) {
         return "Autograph Capsule";
@@ -128,37 +129,37 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     return null;
 };
 
-const parseItem = (item, itemsById, prefabs, translations) => {
+const parseItem = (item, itemsById, prefabs) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
         id: `crate-${item.object_id}`,
         // collection_id: item.tags?.ItemSet?.tag_value ?? null,
-        name: getTranslation(translations, item.item_name),
-        description: item.translation_description,
+        name: $translate(item.item_name) ?? $translate(item_name_prefab),
+        description:
+            $translate(item.item_description) ??
+            $translate(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
         image,
     };
 };
 
-export const getCrates = (items, itemsById, prefabs, translations) => {
+export const getCrates = () => {
+    const { items, itemsById, prefabs } = state;
     const crates = [];
 
     Object.values(items).forEach((item) => {
-        if (isCrate(item))
-            crates.push(parseItem(item, itemsById, prefabs, translations));
+        if (isCrate(item)) crates.push(parseItem(item, itemsById, prefabs));
     });
 
-    saveDataJson(`./public/api/${translations.language}/crates.json`, crates);
+    saveDataJson(`./public/api/${language}/crates.json`, crates);
 
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
         saveDataJson(
-            `./public/api/${translations.language}/crates/${getFileNameByType(
-                type
-            )}`,
+            `./public/api/${language}/crates/${getFileNameByType(type)}`,
             values
         );
     });
