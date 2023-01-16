@@ -1,6 +1,7 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -73,15 +74,19 @@ const getFileNameByType = (type) => {
     return files[type] ?? "other.json";
 };
 
-const parseItem = (item, translations) => {
+const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
 
     return {
-        id: `collectible-${++item.object_id}`,
-        name: (isAttendance ? "Genuine " : "") + item.translation_name,
-        description: item.translation_description,
-        rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
+        id: `collectible-${item.object_id}`,
+        name:
+            (isAttendance ? "Genuine " : "") + $translate(item.item_name) ??
+            $translate(item_name_prefab),
+        description:
+            $translate(item.item_description) ??
+            $translate(item.item_description_prefab),
+        rarity: $translate(`rarity_${item.item_rarity}`),
         type: getType(item),
         image,
     };
@@ -100,26 +105,22 @@ const groupByType = (collectibles) => {
     );
 };
 
-export const getCollectibles = (items, translations) => {
+export const getCollectibles = () => {
     const collectibles = [];
 
+    const { items } = state;
+
     Object.values(items).forEach((item) => {
-        if (isCollectible(item))
-            collectibles.push(parseItem(item, translations));
+        if (isCollectible(item)) collectibles.push(parseItem(item));
     });
 
-    saveDataJson(
-        `./public/api/${translations.language}/collectibles.json`,
-        collectibles
-    );
+    saveDataJson(`./public/api/${language}/collectibles.json`, collectibles);
 
     const collectiblesByTypes = groupByType(collectibles);
 
     Object.entries(collectiblesByTypes).forEach(([type, values]) => {
         saveDataJson(
-            `./public/api/${
-                translations.language
-            }/collectibles/${getFileNameByType(type)}`,
+            `./public/api/${language}/collectibles/${getFileNameByType(type)}`,
             values
         );
     });

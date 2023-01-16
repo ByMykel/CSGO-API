@@ -1,16 +1,14 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
+import { CSGO_ENGLISH_URL } from "../utils/config.js";
 
-export const getTranslation = (translations, key) => {
-    const translation =
-        translations.selected[key?.replace("#", "").toLowerCase()];
-    const defaultTranslation =
-        translations.default[key?.replace("#", "").toLowerCase()];
-
-    return translation || defaultTranslation || null;
+export let language = "";
+const translations = {
+    default: null,
+    selected: null,
 };
 
-export const getTranslations = async (url) => {
+const getTranslations = async (url) => {
     const { data } = await axios.get(url);
 
     const parsed = VDF.parse(data);
@@ -23,4 +21,27 @@ export const getTranslations = async (url) => {
     );
 
     return lowerCaseKeys;
+};
+
+export const $translate = (key) => {
+    key = key?.replace("#", "").toLowerCase();
+
+    return translations.selected[key] || translations.default[key] || null;
+};
+
+export const loadTranslations = async ({ lang, url }) => {
+    if (translations.default == null) {
+        await getTranslations(CSGO_ENGLISH_URL).then((data) => {
+            translations.default = data;
+        });
+    }
+
+    await getTranslations(url)
+        .then((data) => {
+            language = lang === "english" ? "" : lang;
+            translations.selected = data;
+        })
+        .catch(() => {
+            throw new Error(`Error loading translations from ${url}`);
+        });
 };

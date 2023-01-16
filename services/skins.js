@@ -1,7 +1,8 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -41,33 +42,6 @@ const getAllStatTrak = (itemSets, items) => {
     return result;
 };
 
-const getSkinsCollections = (itemSets, translations) => {
-    const result = {};
-
-    itemSets.forEach((item) => {
-        if (item.is_collection) {
-            const keys = Object.keys(item.items).map((item) => {
-                const pattern = item.match(/\[(.*?)\]/i);
-
-                if (pattern) {
-                    return pattern[1];
-                }
-
-                return item;
-            });
-
-            keys.forEach((key) => {
-                result[key.toLocaleLowerCase()] = {
-                    id: item.name.replace("#CSGO_", ""),
-                    name: getTranslation(translations, item.name),
-                };
-            });
-        }
-    });
-
-    return result;
-};
-
 const getPatternName = (weapon, string) => {
     return string
         .replace(`${weapon}_`, "")
@@ -92,19 +66,15 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const parseItem = (
-    item,
-    items,
-    skinsCollections,
-    allStatTrak,
-    paintKits,
-    paintKitsRarity,
-    translations
-) => {
+const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
-    const translatedName = items[weapon].translation_name;
-    const translatedDescription = items[weapon].translation_description;
+    const translatedName =
+        $translate(items[weapon].item_name) ??
+        $translate(items[weapon].item_name_prefab);
+    const translatedDescription =
+        $translate(items[weapon].item_description) ??
+        $translate(items[weapon].item_description_prefab);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -113,32 +83,25 @@ const parseItem = (
 
     return {
         id: `skin-${item.object_id}`,
-        // collection_id: skinsCollections[pattern]?.id ?? null,
-        name: `${translatedName} | ${paintKits[pattern].description_tag}`,
+        name: `${translatedName} | ${$translate(
+            paintKits[pattern].description_tag
+        )}`,
         description: translatedDescription,
         weapon: translatedName,
-        pattern: paintKits[pattern].description_tag ?? null,
+        pattern: $translate(paintKits[pattern].description_tag),
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
         rarity:
-            getTranslation(
-                translations,
-                `rarity_${paintKitsRarity[pattern]}_weapon`
-            ) ?? "Contraband",
+            $translate(`rarity_${paintKitsRarity[pattern]}_weapon`) ??
+            "Contraband",
         stattrak: isStatTrak,
         image,
     };
 };
 
-export const getSkins = (
-    itemsGame,
-    items,
-    paintKits,
-    itemSets,
-    paintKitsRarity,
-    translations
-) => {
-    const skinsCollections = getSkinsCollections(itemSets, translations);
+export const getSkins = () => {
+    const { itemsGame, items, paintKits, itemSets, paintKitsRarity } = state;
+
     const allStatTrak = getAllStatTrak(itemSets, items);
     const skins = [];
 
@@ -149,15 +112,13 @@ export const getSkins = (
                     parseItem(
                         { ...item, object_id: key },
                         items,
-                        skinsCollections,
                         allStatTrak,
                         paintKits,
-                        paintKitsRarity,
-                        translations
+                        paintKitsRarity
                     )
                 );
         }
     );
 
-    saveDataJson(`./public/api/${translations.language}/skins.json`, skins);
+    saveDataJson(`./public/api/${language}/skins.json`, skins);
 };
