@@ -1,7 +1,18 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
 import { ITEMS_GAME_URL } from "../utils/config.js";
-import { getTranslation } from "./translations.js";
+
+export const state = {
+    itemsGame: null,
+    prefabs: null,
+    items: null,
+    itemsById: null,
+    itemSets: null,
+    stickerKits: null,
+    paintKits: null,
+    paintKitsRarity: null,
+    musicDefinitions: null,
+};
 
 export const parseObjectValues = (items) => {
     const result = [];
@@ -27,138 +38,141 @@ export const parseObjectEntries = (items) => {
     return Object.entries(result);
 };
 
-export const getItemsGame = async () => {
-    const { data } = await axios.get(ITEMS_GAME_URL);
-
-    return VDF.parse(data).items_game;
+export const loadItemsGame = async () => {
+    await axios
+        .get(ITEMS_GAME_URL)
+        .then((response) => {
+            return VDF.parse(response.data).items_game;
+        })
+        .then((data) => {
+            state.itemsGame = data;
+        })
+        .catch((error) => {
+            throw new Error(`Error loading items_game.txt`);
+        });
 };
 
-export const getItemSets = (itemsGame) => {
-    return parseObjectValues(itemsGame.item_sets);
+export const loadItemSets = () => {
+    state.itemSets = parseObjectValues(state.itemsGame.item_sets);
 };
 
-export const getStickerKits = (itemsGame) => {
-    return parseObjectEntries(itemsGame.sticker_kits).map(([key, item]) => {
-        return {
-            ...item,
-            object_id: key,
-        };
-    });
+export const loadStickerKits = () => {
+    state.stickerKits = parseObjectEntries(state.itemsGame.sticker_kits).map(
+        ([key, item]) => {
+            return {
+                ...item,
+                object_id: key,
+            };
+        }
+    );
 };
 
-export const getItems = (itemsGame, prefabs, translations) => {
+export const loadItems = () => {
+    state.items = parseObjectEntries(state.itemsGame.items).reduce(
+        (acc, [key, item]) => {
+            acc[item.name] = {
+                ...item,
+                object_id: key,
+                item_name: item.item_name,
+                item_description: item.item_description,
+                item_name_prefab: state.prefabs[item.prefab]?.item_name,
+                item_description_prefab:
+                    state.prefabs[item.prefab]?.item_description,
+            };
+            return acc;
+        },
+        {}
+    );
+};
+
+export const loadItemsById = () => {
+    state.itemsById = parseObjectEntries(state.itemsGame.items).reduce(
+        (acc, [key, item]) => {
+            acc[key] = {
+                ...item,
+                object_id: key,
+                item_name: item.item_name,
+                item_description: item.item_description,
+                item_name_prefab: state.prefabs[item.prefab]?.item_name,
+                item_description_prefab:
+                    state.prefabs[item.prefab]?.item_description,
+            };
+            return acc;
+        },
+        {}
+    );
+};
+
+export const loadPrefabs = () => {
+    state.prefabs = parseObjectEntries(state.itemsGame.prefabs).reduce(
+        (acc, [key, prefab]) => {
+            acc[key] = {
+                item_name: prefab.item_name,
+                item_description: prefab.item_description,
+                first_sale_date: prefab.first_sale_date ?? null,
+            };
+            return acc;
+        },
+        {}
+    );
+};
+
+export const loadPaintKitsRarity = () => {
+    state.paintKitsRarity = parseObjectEntries(
+        state.itemsGame.paint_kits_rarity
+    ).reduce((acc, [pattern, rarity]) => {
+        acc[pattern.toLocaleLowerCase()] = rarity;
+        return acc;
+    }, {});
+};
+
+export const loadPaintKits = () => {
+    state.paintKits = parseObjectValues(state.itemsGame.paint_kits).reduce(
+        (acc, item) => {
+            if (item.description_tag !== undefined) {
+                acc[item.name.toLowerCase()] = {
+                    description_tag: item.description_tag,
+                    wear_remap_min: item.wear_remap_min ?? 0.06,
+                    wear_remap_max: item.wear_remap_max ?? 0.8,
+                };
+            }
+            return acc;
+        },
+        {}
+    );
+};
+
+export const loadMusicDefinitions = () => {
     const results = [];
 
-    for (const [key, item] of parseObjectEntries(itemsGame.items)) {
-        let translation_name =
-            getTranslation(translations, item.item_name) ??
-            prefabs[item.prefab]?.item_name;
-        let translation_description =
-            getTranslation(translations, item.item_description) ??
-            prefabs[item.prefab]?.item_description;
-
-        results[item.name] = {
-            ...item,
-            object_id: key,
-            translation_name,
-            translation_description,
-        };
-    }
-
-    return results;
-};
-
-export const getItemsById = (itemsGame, prefabs, translations) => {
-    const results = [];
-
-    for (const [id, item] of parseObjectEntries(itemsGame.items)) {
-        let translation_name =
-            getTranslation(translations, item.item_name) ??
-            prefabs[item.prefab]?.item_name;
-        let translation_description =
-            getTranslation(translations, item.item_description) ??
-            prefabs[item.prefab]?.item_description;
-
-        results[id] = {
-            ...item,
-            translation_name,
-            translation_description,
-        };
-    }
-
-    return results;
-};
-
-export const getPrefabs = (itemsGame, translations) => {
-    const results = [];
-
-    for (const [key, prefab] of parseObjectEntries(itemsGame.prefabs)) {
-        results[key] = {
-            item_name: getTranslation(translations, prefab.item_name),
-            item_description: getTranslation(
-                translations,
-                prefab.item_description
-            ),
-            first_sale_date: prefab.first_sale_date ?? null,
-        };
-    }
-
-    return results;
-};
-
-export const getPaintKitsRarity = (itemsGame) => {
-    const results = [];
-
-    parseObjectEntries(itemsGame.paint_kits_rarity).forEach(
-        ([pattern, rarity]) => {
-            results[pattern.toLocaleLowerCase()] = rarity;
+    parseObjectEntries(state.itemsGame.music_definitions).forEach(
+        ([key, item]) => {
+            if (
+                item.name !== "valve_csgo_01" &&
+                item.name !== "valve_csgo_02"
+            ) {
+                results.push({
+                    ...item,
+                    object_id: key,
+                    loc_name: item.loc_name,
+                    loc_description: item.loc_description,
+                    coupon_name: `coupon_${item.name}`,
+                });
+            }
         }
     );
 
-    return results;
+    state.musicDefinitions = results;
 };
 
-export const getPaintKits = (itemsGame, translations) => {
-    const results = [];
-
-    parseObjectValues(itemsGame.paint_kits).forEach((item) => {
-        if (item.description_tag !== undefined) {
-            results[item.name.toLowerCase()] = {
-                description_tag: getTranslation(
-                    translations,
-                    item.description_tag
-                ),
-                wear_remap_min: item.wear_remap_min ?? 0.06,
-                wear_remap_max: item.wear_remap_max ?? 0.8,
-            };
-        }
-    });
-
-    return results;
-};
-
-export const getMusicDefinitions = (itemsGame, translations) => {
-    const results = [];
-
-    parseObjectEntries(itemsGame.music_definitions).forEach(([key, item]) => {
-        if (item.name !== "valve_csgo_01" && item.name !== "valve_csgo_02") {
-            const exclusive =
-                getTranslation(translations, `coupon_${item.name}`) === null;
-
-            results.push({
-                ...item,
-                object_id: key,
-                translation_name: exclusive
-                    ? getTranslation(translations, item.loc_name)
-                    : getTranslation(translations, `coupon_${item.name}`),
-                translation_description: getTranslation(
-                    translations,
-                    item.loc_description
-                ),
-                exclusive,
-            });
-        }
-    });
-
-    return results;
+export const loadData = async () => {
+    await loadItemsGame();
+    loadPrefabs();
+    loadItems();
+    loadItemsById();
+    loadItemSets();
+    loadStickerKits();
+    loadPaintKits();
+    loadPaintKitsRarity();
+    loadMusicDefinitions();
 };

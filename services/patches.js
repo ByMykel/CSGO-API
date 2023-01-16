@@ -1,33 +1,30 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
-const isPatch = (item) => {
-    if (item.patch_material === undefined) {
-        return false;
-    }
+const isPatch = (item) => !(item.patch_material === undefined);
 
-    return true;
-};
-
-const parseItem = (item, translations) => {
+const parseItem = (item) => {
     const image = `${IMAGES_BASE_URL}econ/patches/${item.patch_material}_large.png`;
 
     return {
         id: `patch-${item.object_id}`,
-        name: `Patch | ${getTranslation(translations, item.item_name)}`,
-        description: getTranslation(translations, item.description_string),
-        rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
+        name: `Patch | ${$translate(item.item_name)}`,
+        description: $translate(item.description_string),
+        rarity: $translate(`rarity_${item.item_rarity}`),
         image,
     };
 };
 
-export const getPatches = (stickerKits, translations) => {
+export const getPatches = () => {
+    const { stickerKits } = state;
+
     const patches = [];
 
     stickerKits.forEach((item) => {
-        if (isPatch(item)) patches.push(parseItem(item, translations));
+        if (isPatch(item)) patches.push(parseItem(item));
     });
 
-    saveDataJson(`./public/api/${translations.language}/patches.json`, patches);
+    saveDataJson(`./public/api/${language}/patches.json`, patches);
 };

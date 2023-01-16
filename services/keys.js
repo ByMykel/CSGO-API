@@ -1,6 +1,7 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
@@ -20,24 +21,27 @@ const isKey = (item) => {
     return true;
 };
 
-const parseItem = (item, translations) => {
+const parseItem = (item) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
         id: `key-${item.object_id}`,
         // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
-        name: getTranslation(translations, item.item_name),
-        description: item.translation_description,
+        name: $translate(item.item_name) ?? $translate(item_name_prefab),
+        description:
+            $translate(item.item_description) ??
+            $translate(item.item_description_prefab),
         image,
     };
 };
 
-export const getKeys = (items, translations) => {
+export const getKeys = () => {
+    const { items } = state;
     const keys = [];
 
     Object.values(items).forEach((item) => {
-        if (isKey(item)) keys.push(parseItem(item, translations));
+        if (isKey(item)) keys.push(parseItem(item));
     });
 
-    saveDataJson(`./public/api/${translations.language}/keys.json`, keys);
+    saveDataJson(`./public/api/${language}/keys.json`, keys);
 };

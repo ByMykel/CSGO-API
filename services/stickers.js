@@ -1,6 +1,7 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -22,24 +23,25 @@ const isSticker = (item) => {
     return true;
 };
 
-const parseItem = (item, translations) => {
+const parseItem = (item) => {
     const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
 
     return {
         id: `sticker-${item.object_id}`,
-        name: `Sticker | ${getTranslation(translations, item.item_name)}`,
-        description: getTranslation(translations, item.description_string),
-        rarity: getTranslation(translations, `rarity_${item.item_rarity}`),
+        name: `Sticker | ${$translate(item.item_name)}`,
+        description: $translate(item.description_string),
+        rarity: $translate(`rarity_${item.item_rarity}`),
         image,
     };
 };
 
-export const getStickers = (stickerKits, translations) => {
+export const getStickers = () => {
+    const { stickerKits } = state;
     const stickers = [];
 
     stickerKits.forEach((item) => {
-        if (isSticker(item)) stickers.push(parseItem(item, translations));
+        if (isSticker(item)) stickers.push(parseItem(item));
     });
 
-    saveDataJson(`./public/api/${translations.language}/stickers.json`, stickers);
+    saveDataJson(`./public/api/${language}/stickers.json`, stickers);
 };
