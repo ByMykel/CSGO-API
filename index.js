@@ -18,8 +18,6 @@ await loadData();
 for (const language of LANGUAGES_URL) {
     await loadTranslations({ lang: language.language, url: language.url });
 
-    console.log(`\n${language.language.toUpperCase()}`);
-
     getCollectibles();
     getKeys();
     getAgents();
