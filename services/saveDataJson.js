@@ -18,6 +18,6 @@ export const saveDataJson = (file, data) => {
     fs.writeFile(file, json, (err) => {
         if (err) throw err;
 
-        console.log(`JSON data is saved in ${file}.`);
+        // console.log(`JSON data is saved in ${file}.`);
     });
 };

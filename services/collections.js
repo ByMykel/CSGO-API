@@ -1,14 +1,9 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { getTranslation } from "./translations.js";
+import { $translate, language } from "./translations.js";
+import { state } from "./main.js";
 
-const isCollection = (item) => {
-    if (item.is_collection) {
-        return true;
-    }
-
-    return false;
-};
+const isCollection = (item) => item.is_collection !== undefined;
 
 const isSelfOpeningCollection = (item) => {
     if (item.item_name === undefined) return false;
@@ -41,41 +36,40 @@ const isSelfOpeningCollection = (item) => {
     return false;
 };
 
-const parseItem = (item, translations) => {
+const parseItem = (item) => {
     const fileName = `${item.name.replace("#CSGO_", "")}.png`;
     const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
-        name: getTranslation(translations, item.name),
+        name: $translate(item.name),
         image,
     };
 };
 
-const parseItemSelfOpening = (item, translations) => {
+const parseItemSelfOpening = (item) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
 
     return {
         id: `collection-${item.object_id}`,
-        name: getTranslation(translations, item.item_name),
+        name: $translate(item.item_name),
         image,
     };
 };
 
-export const getCollections = (items, itemSets, translations) => {
+export const getCollections = () => {
+    const { items, itemSets } = state;
+
     const collections = [];
 
     Object.values(itemSets).forEach((item) => {
-        if (isCollection(item)) collections.push(parseItem(item, translations));
+        if (isCollection(item)) collections.push(parseItem(item));
     });
 
     Object.values(items).forEach((item) => {
         if (isSelfOpeningCollection(item))
-            collections.push(parseItemSelfOpening(item, translations));
+            collections.push(parseItemSelfOpening(item));
     });
 
-    saveDataJson(
-        `./public/api/${translations.language}/collections.json`,
-        collections
-    );
+    saveDataJson(`./public/api/${language}/collections.json`, collections);
 };
