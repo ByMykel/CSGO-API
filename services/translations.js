@@ -38,7 +38,7 @@ export const loadTranslations = async ({ lang, url }) => {
 
     await getTranslations(url)
         .then((data) => {
-            language = lang === "english" ? "" : lang;
+            language = lang;
             translations.selected = data;
         })
         .catch(() => {
