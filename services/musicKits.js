@@ -2,6 +2,7 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, language } from "./translations.js";
 import { state } from "./main.js";
+import { saveDataMemory } from "./saveDataMemory.js";
 
 const parseItem = (item) => {
     const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
@@ -27,5 +28,6 @@ export const getMusicKits = () => {
         musicKits.push(parseItem(item));
     });
 
+    saveDataMemory(language, musicKits);
     saveDataJson(`./public/api/${language}/music_kits.json`, musicKits);
 };
