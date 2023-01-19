@@ -40,5 +40,6 @@ export const LANGUAGES = [
 
 export const LANGUAGES_URL = LANGUAGES.map((language) => ({
     language: language,
+    folder: language === "english" ? "" : language,
     url: `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/resource/csgo_${language}.txt`,
 }));
