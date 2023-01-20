@@ -2,6 +2,7 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, language } from "./translations.js";
 import { state } from "./main.js";
+import { saveDataMemory } from "./saveDataMemory.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -114,11 +115,13 @@ export const getCollectibles = () => {
         if (isCollectible(item)) collectibles.push(parseItem(item));
     });
 
+    saveDataMemory(language, collectibles);
     saveDataJson(`./public/api/${language}/collectibles.json`, collectibles);
 
     const collectiblesByTypes = groupByType(collectibles);
 
     Object.entries(collectiblesByTypes).forEach(([type, values]) => {
+        saveDataMemory(language, values);
         saveDataJson(
             `./public/api/${language}/collectibles/${getFileNameByType(type)}`,
             values
