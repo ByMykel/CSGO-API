@@ -48,7 +48,7 @@ export const loadItemsGame = async () => {
             state.itemsGame = data;
         })
         .catch((error) => {
-            throw new Error(`Error loading items_game.txt`);
+            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
         });
 };
 

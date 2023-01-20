@@ -2,6 +2,7 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, language } from "./translations.js";
 import { state } from "./main.js";
+import { saveDataMemory } from "./saveDataMemory.js";
 
 const isCollection = (item) => item.is_collection !== undefined;
 
@@ -71,5 +72,6 @@ export const getCollections = () => {
             collections.push(parseItemSelfOpening(item));
     });
 
+    saveDataMemory(language, collections);
     saveDataJson(`./public/api/${language}/collections.json`, collections);
 };

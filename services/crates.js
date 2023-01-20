@@ -2,6 +2,7 @@ import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, language } from "./translations.js";
 import { state } from "./main.js";
+import { saveDataMemory } from "./saveDataMemory.js";
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
@@ -153,11 +154,13 @@ export const getCrates = () => {
         if (isCrate(item)) crates.push(parseItem(item, itemsById, prefabs));
     });
 
+    saveDataMemory(language, crates);
     saveDataJson(`./public/api/${language}/crates.json`, crates);
 
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
+        saveDataMemory(language, values);
         saveDataJson(
             `./public/api/${language}/crates/${getFileNameByType(type)}`,
             values

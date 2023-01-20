@@ -11,23 +11,29 @@ import { getStickers } from "./services/stickers.js";
 import { getSkins } from "./services/skins.js";
 import { LANGUAGES_URL } from "./utils/config.js";
 import { getMusicKits } from "./services/musicKits.js";
-import { getAllItems } from "./services/getAllItems.js";
+import { saveAllItems } from "./services/all.js";
 
 await loadData();
 
 for (const language of LANGUAGES_URL) {
-    await loadTranslations({ lang: language.language, url: language.url });
+    console.log(`Language: ${language.language}`);
 
-    getCollectibles();
-    getKeys();
-    getAgents();
-    getCrates();
-    getCollections();
-    getGraffiti();
-    getPatches();
-    getStickers();
-    getSkins();
-    getMusicKits();
+    try {
+        await loadTranslations({ lang: language.language, url: language.url });
 
-    await getAllItems();
+        getAgents();
+        getCollectibles();
+        getCollections();
+        getCrates();
+        getGraffiti();
+        getKeys();
+        getMusicKits();
+        getPatches();
+        getSkins();
+        getStickers();
+
+        saveAllItems(language.language, language.folder);
+    } catch (error) {
+        console.log(error);
+    }
 }

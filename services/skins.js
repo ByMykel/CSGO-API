@@ -3,6 +3,7 @@ import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, language } from "./translations.js";
 import { state } from "./main.js";
+import { saveDataMemory } from "./saveDataMemory.js";
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -119,6 +120,7 @@ export const getSkins = () => {
                 );
         }
     );
-
+    
+    saveDataMemory(language, skins);
     saveDataJson(`./public/api/${language}/skins.json`, skins);
 };
