@@ -1,7 +1,7 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { $translate, language } from "./translations.js";
+import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "./saveDataMemory.js";
 
@@ -121,6 +121,6 @@ export const getSkins = () => {
         }
     );
     
-    saveDataMemory(language, skins);
-    saveDataJson(`./public/api/${language}/skins.json`, skins);
+    saveDataMemory(languageData.language, skins);
+    saveDataJson(`./public/api/${languageData.folder}/skins.json`, skins);
 };

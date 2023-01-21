@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { $translate, language } from "./translations.js";
+import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "./saveDataMemory.js";
 
@@ -44,6 +44,6 @@ export const getStickers = () => {
         if (isSticker(item)) stickers.push(parseItem(item));
     });
 
-    saveDataMemory(language, stickers);
-    saveDataJson(`./public/api/${language}/stickers.json`, stickers);
+    saveDataMemory(languageData.language, stickers);
+    saveDataJson(`./public/api/${languageData.folder}/stickers.json`, stickers);
 };
