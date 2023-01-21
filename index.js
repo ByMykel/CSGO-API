@@ -19,7 +19,7 @@ for (const language of LANGUAGES_URL) {
     console.log(`Language: ${language.language}`);
 
     try {
-        await loadTranslations({ lang: language.language, url: language.url });
+        await loadTranslations(language);
 
         getAgents();
         getCollectibles();

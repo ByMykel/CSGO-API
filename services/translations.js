@@ -2,7 +2,7 @@ import * as VDF from "vdf-parser";
 import axios from "axios";
 import { CSGO_ENGLISH_URL } from "../utils/config.js";
 
-export let language = "";
+export let languageData = null;
 const translations = {
     default: null,
     selected: null,
@@ -29,7 +29,7 @@ export const $translate = (key) => {
     return translations.selected[key] || translations.default[key] || null;
 };
 
-export const loadTranslations = async ({ lang, url }) => {
+export const loadTranslations = async ({ language, url, folder }) => {
     if (translations.default == null) {
         await getTranslations(CSGO_ENGLISH_URL).then((data) => {
             translations.default = data;
@@ -38,7 +38,7 @@ export const loadTranslations = async ({ lang, url }) => {
 
     await getTranslations(url)
         .then((data) => {
-            language = lang;
+            languageData = { language, folder };
             translations.selected = data;
         })
         .catch(() => {

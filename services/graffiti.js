@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../utils/config.js";
 import { saveDataJson } from "./saveDataJson.js";
-import { $translate, language } from "./translations.js";
+import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "./saveDataMemory.js";
 
@@ -41,6 +41,6 @@ export const getGraffiti = () => {
         if (isGraffiti(item)) graffiti.push(parseItemSealedGraffiti(item));
     });
 
-    saveDataMemory(language, graffiti);
-    saveDataJson(`./public/api/${language}/graffiti.json`, graffiti);
+    saveDataMemory(languageData.language, graffiti);
+    saveDataJson(`./public/api/${languageData.folder}/graffiti.json`, graffiti);
 };
