@@ -1752,6 +1752,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_gs_glock_elite_camo_light_large.png"
     },
     {
+        "id": "skin-267052",
+        "name": "Glock-18 | Umbral Rabbit",
+        "description": "Το Glock 18 είναι ένα χρήσιμο πιστόλι τριών ριπών για τον πρώτο γύρο που λειτουργεί καλύτερα απέναντι σε αντιπάλους χωρίς αλεξίσφαιρο.",
+        "weapon": "Glock-18",
+        "pattern": "Umbral Rabbit",
+        "min_float": 0,
+        "max_float": 0.75,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light_large.png"
+    },
+    {
         "id": "skin-458808",
         "name": "AK-47 | Red Laminate",
         "description": "Ισχυρό και αξιόπιστο, το AK-47 είναι ένα από τα πιο δημοφιλή τουφέκια στον κόσμο. Είναι το πιο θανάσιμο σε σύντομες, συγκρατημένες βολές.",
@@ -2266,6 +2278,18 @@
         "rarity": "Restricted",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_large.png"
+    },
+    {
+        "id": "skin-463636",
+        "name": "AK-47 | Head Shot",
+        "description": "Ισχυρό και αξιόπιστο, το AK-47 είναι ένα από τα πιο δημοφιλή τουφέκια στον κόσμο. Είναι το πιο θανάσιμο σε σύντομες, συγκρατημένες βολές.",
+        "weapon": "AK-47",
+        "pattern": "Head Shot",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Classified",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_large.png"
     },
     {
         "id": "skin-524324",
@@ -3142,6 +3166,18 @@
         "rarity": "Classified",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_large.png"
+    },
+    {
+        "id": "skin-594712",
+        "name": "AWP | Doodle Lore",
+        "description": "Υψηλού κινδύνου αλλά υψηλής ανταπόδωσης, το περιβόητο AWP είναι αναγνωρίσιμο από το χαρακτηριστικό του ήχο και την τακτική του «μία βολή, ένας θάνατος».",
+        "weapon": "AWP",
+        "pattern": "Doodle Lore",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Restricted",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_doodle_lore_light_large.png"
     },
     {
         "id": "skin-655448",
@@ -4944,6 +4980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_light_large.png"
     },
     {
+        "id": "skin-1053488",
+        "name": "M4A4 | Temukau",
+        "description": "Πιο ακριβές αλλά λιγότερο επιζήμιο από το αντίστοιχο AK-47, το M4A4 είναι η επιλογή της αντιτρομοκρατικής σε πλήρως αυτόματα τυφέκια εφόδου.",
+        "weapon": "M4A4",
+        "pattern": "Temukau",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Classified",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_large.png"
+    },
+    {
         "id": "skin-1114124",
         "name": "MAC-10 | Candy Apple",
         "description": "Ουσιαστικά ένα κουτί από το οποίο βγαίνουν σφαίρες, το MAC-10 SMG έχει υψηλή ταχυβολία, με μικρή ακρίβεια διασποράς και μεγάλη ανάκρουση για αντάλλαγμα.",
@@ -5460,6 +5508,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_light_large.png"
     },
     {
+        "id": "skin-1119028",
+        "name": "MAC-10 | Sakkaku",
+        "description": "Ουσιαστικά ένα κουτί από το οποίο βγαίνουν σφαίρες, το MAC-10 SMG έχει υψηλή ταχυβολία, με μικρή ακρίβεια διασποράς και μεγάλη ανάκρουση για αντάλλαγμα.",
+        "weapon": "MAC-10",
+        "pattern": "Sakkaku",
+        "min_float": 0.21,
+        "max_float": 0.79,
+        "rarity": "Restricted",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_large.png"
+    },
+    {
         "id": "skin-1245264",
         "name": "P90 | Virus",
         "description": "Εύκολα αναγνωρίσιμο από το μοναδικό σχεδιασμό του τύπου bullpup, το P90 είναι ένα τέλειο όπλο για να πυροβολείτε εν κινήσει χάρις στον υψηλής χωρητικότητας γεμιστήρα και στην μικρή ανάκρουσή του.",
@@ -5928,6 +5988,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_tangled_light_large.png"
     },
     {
+        "id": "skin-1250116",
+        "name": "P90 | Neoqueen",
+        "description": "Εύκολα αναγνωρίσιμο από το μοναδικό σχεδιασμό του τύπου bullpup, το P90 είναι ένα τέλειο όπλο για να πυροβολείτε εν κινήσει χάρις στον υψηλής χωρητικότητας γεμιστήρα και στην μικρή ανάκρουσή του.",
+        "weapon": "P90",
+        "pattern": "Neoqueen",
+        "min_float": 0,
+        "max_float": 0.6,
+        "rarity": "Restricted",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.png"
+    },
+    {
         "id": "skin-1510340",
         "name": "MP5-SD | Dirt Drop",
         "description": "Συχνά το μιμούνται αλλά ποτέ δεν το φτάνουν, το εικονικό MP5 είναι ίσως το προσαρμόσιμο και δημοφιλές SMG στον κόσμο. Η έκδοση SD παρέχει έναν ενσωματωμένο σιγαστήρα, καθιστώντας ένα ήδη τρομερό όπλο αθόρυβο σαν ψίθυρο.",
@@ -6106,6 +6178,18 @@
         "rarity": "Mil-Spec Grade",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_light_large.png"
+    },
+    {
+        "id": "skin-1512252",
+        "name": "MP5-SD | Liquidation",
+        "description": "Συχνά το μιμούνται αλλά ποτέ δεν το φτάνουν, το εικονικό MP5 είναι ίσως το προσαρμόσιμο και δημοφιλές SMG στον κόσμο. Η έκδοση SD παρέχει έναν ενσωματωμένο σιγαστήρα, καθιστώντας ένα ήδη τρομερό όπλο αθόρυβο σαν ψίθυρο.",
+        "weapon": "MP5-SD",
+        "pattern": "Liquidation",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light_large.png"
     },
     {
         "id": "skin-1572924",
@@ -6526,6 +6610,18 @@
         "rarity": "Mil-Spec Grade",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_gs_ump_roadblock_light_large.png"
+    },
+    {
+        "id": "skin-1577808",
+        "name": "UMP-45 | Wild Child",
+        "description": "Το παρεξηγημένο μεσαίο παιδί της οικογένειας των υποπολυβόλων (SMG), ο μικρός γεμιστήρας του UMP45 είναι το μοναδικό ελάττωμα σε ένα κατά τα άλλα ευέλικτο αυτόματο για μάχες εκ του συστάδην.",
+        "weapon": "UMP-45",
+        "pattern": "Wild Child",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Classified",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light_large.png"
     },
     {
         "id": "skin-1638568",
@@ -7692,6 +7788,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_predictor_light_large.png"
     },
     {
+        "id": "skin-1774352",
+        "name": "MAG-7 | Insomnia",
+        "description": "Το Mag-7, αποκλειστικά για την αντιτρομοκρατική, προκαλεί καταστροφική ζημιά σε κοντινές αποστάσεις. Ο γεμιστήρας του ξαναγεμίζεται γρήγορα, κάνοντας το όπλο αυτό μια τέλεια τακτική επιλογή.",
+        "weapon": "MAG-7",
+        "pattern": "Insomnia",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_insomnia_light_large.png"
+    },
+    {
         "id": "skin-1835120",
         "name": "Negev | Anodized Navy",
         "description": "Το Negev είναι ένα θηρίο που μπορεί να κρατάει τον εχθρό μακριά με εύστοχα πυρά καταστολής, δεδομένου ότι έχετε την πολυτέλεια του χρόνου για να αποκτήσετε τον έλεγχο πάνω του.",
@@ -8760,6 +8868,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_large.png"
     },
     {
+        "id": "skin-1971020",
+        "name": "Tec-9 | Rebel",
+        "description": "Ένα ιδανικό πιστόλι για τον Τρομοκράτη εν κινήσει, το Tec-9 είναι θανατηφόρο σε κοντινή απόσταση και προσφέρει μεγάλη χωρητικότητα γεμιστήρα.",
+        "weapon": "Tec-9",
+        "pattern": "Rebel",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_cu_tec9_freedom_light_large.png"
+    },
+    {
         "id": "skin-2097236",
         "name": "P2000 | Granite Marbleized",
         "description": "Ακριβές και ελεγχόμενο, το γερμανικό P2000 είναι ένα χρήσιμο πιστόλι για τον πρώτο γύρο που λειτουργεί καλύτερα απέναντι σε αντιπάλους χωρίς αλεξίσφαιρο.",
@@ -9106,6 +9226,18 @@
         "rarity": "Industrial Grade",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_light_large.png"
+    },
+    {
+        "id": "skin-2102048",
+        "name": "P2000 | Wicked Sick",
+        "description": "Ακριβές και ελεγχόμενο, το γερμανικό P2000 είναι ένα χρήσιμο πιστόλι για τον πρώτο γύρο που λειτουργεί καλύτερα απέναντι σε αντιπάλους χωρίς αλεξίσφαιρο.",
+        "weapon": "P2000",
+        "pattern": "Wicked Sick",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restricted",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2000_decline_light_large.png"
     },
     {
         "id": "skin-2162708",
@@ -9874,6 +10006,18 @@
         "rarity": "Covert",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_gs_mp9_starlight_light_large.png"
+    },
+    {
+        "id": "skin-2233124",
+        "name": "MP9 | Featherweight",
+        "description": "Κατασκευασμένο στην Ελβετία, το πρωτοποριακό υποπολυβόλο (SMG) MP9 είναι ένα εργονομικό όπλο από πολυμερές που προτιμάται από εταιρείες ιδιωτικής ασφάλειας.",
+        "weapon": "MP9",
+        "pattern": "Featherweight",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_cu_mp9_superlight_light_large.png"
     },
     {
         "id": "skin-2293772",
@@ -10836,6 +10980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_gs_p250_visions_light_large.png"
     },
     {
+        "id": "skin-2364216",
+        "name": "P250 | Re.built",
+        "description": "Ένα πυροβόλο όπλο με μικρή ανάκρουση και μεγάλη ταχυβολία, το P250 είναι μια σχετικά φθηνή επιλογή ενάντια σε θωρακισμένους εχθρούς.",
+        "weapon": "P250",
+        "pattern": "Re.built",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_large.png"
+    },
+    {
         "id": "skin-2490552",
         "name": "SCAR-20 | Contractor",
         "description": "Το SCAR-20 είναι ένα ημιαυτόματα τουφέκι ακροβολιστή που ανταλλάζει την μεγάλη ταχυβολία του και την ισχυρή ζημιά του σε μεγάλη εμβέλεια για μια μεγάλη μείωση στην ταχύτητα κίνησης και μια αρκετά ακριβή τιμή.",
@@ -11134,6 +11290,18 @@
         "rarity": "Mil-Spec Grade",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_sp_scar_chickenfight_light_large.png"
+    },
+    {
+        "id": "skin-2495272",
+        "name": "SCAR-20 | Fragments",
+        "description": "Το SCAR-20 είναι ένα ημιαυτόματα τουφέκι ακροβολιστή που ανταλλάζει την μεγάλη ταχυβολία του και την ισχυρή ζημιά του σε μεγάλη εμβέλεια για μια μεγάλη μείωση στην ταχύτητα κίνησης και μια αρκετά ακριβή τιμή.",
+        "weapon": "SCAR-20",
+        "pattern": "Fragments",
+        "min_float": 0,
+        "max_float": 0.78,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_gs_scar_fragments_black_light_large.png"
     },
     {
         "id": "skin-2556016",
@@ -11530,6 +11698,18 @@
         "rarity": "Restricted",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_light_large.png"
+    },
+    {
+        "id": "skin-2560840",
+        "name": "SG 553 | Cyberforce",
+        "description": "Το SG553 με τηλεφακό, αποκλειστικά για τρομοκράτες, είναι μια ανώτερης ποιότητας εναλλακτική του AK47 για αποτελεσματικές συμπλοκές μεγάλων αποστάσεων.",
+        "weapon": "SG 553",
+        "pattern": "Cyberforce",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyberforce_light_large.png"
     },
     {
         "id": "skin-2621544",
@@ -12286,6 +12466,18 @@
         "rarity": "Mil-Spec Grade",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_light_large.png"
+    },
+    {
+        "id": "skin-3937052",
+        "name": "M4A4 | Emphorosaur-S",
+        "description": "Πιο ακριβές αλλά λιγότερο επιζήμιο από το αντίστοιχο AK-47, το M4A4 είναι η επιλογή της αντιτρομοκρατικής σε πλήρως αυτόματα τυφέκια εφόδου.",
+        "weapon": "M4A4",
+        "pattern": "Emphorosaur-S",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Mil-Spec Grade",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light_large.png"
     },
     {
         "id": "skin-3997796",
@@ -13306,6 +13498,18 @@
         "rarity": "Restricted",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_revolver_purple_elite_light_large.png"
+    },
+    {
+        "id": "skin-4199232",
+        "name": "R8 Revolver | Banana Cannon",
+        "description": "Το R8 Revolver προσφέρει εξαιρετικά ακριβή και δυνατή βολή εις βάρος του χρόνου τραβήγματος της σκανδάλης. Οι γρήγοροι πυροβολισμοί χτυπώντας επανειλημμένα τον κόκορα ίσως είναι η καλύτερη επιλογή όταν απαιτείται μεγάλη δύναμη άμεσα.",
+        "weapon": "R8 Revolver",
+        "pattern": "Banana Cannon",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restricted",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_r8_banana_light_large.png"
     },
     {
         "id": "skin-32768020",

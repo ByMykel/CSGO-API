@@ -1752,6 +1752,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_gs_glock_elite_camo_light_large.png"
     },
     {
+        "id": "skin-267052",
+        "name": "Glock-18 | Umbral Rabbit",
+        "description": "Die Glock 18 ist eine brauchbare Pistole für die erste Runde, die am effektivsten gegen ungepanzerte Gegner eingesetzt werden kann und in der Lage ist, drei Kugeln gleichzeitig abzufeuern.",
+        "weapon": "Glock-18",
+        "pattern": "Umbral Rabbit",
+        "min_float": 0,
+        "max_float": 0.75,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light_large.png"
+    },
+    {
         "id": "skin-458808",
         "name": "AK-47 | Rot laminiert",
         "description": "Als eines der beliebtesten Sturmgewehre der Welt ist das AK-47 sehr stark und zuverlässig. Mit kurzen, kontrollierten Feuerstößen ist diese Waffe besonders tödlich.",
@@ -2266,6 +2278,18 @@
         "rarity": "Limitiert",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_large.png"
+    },
+    {
+        "id": "skin-463636",
+        "name": "AK-47 | Head Shot",
+        "description": "Als eines der beliebtesten Sturmgewehre der Welt ist das AK-47 sehr stark und zuverlässig. Mit kurzen, kontrollierten Feuerstößen ist diese Waffe besonders tödlich.",
+        "weapon": "AK-47",
+        "pattern": "Head Shot",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Vertraulich",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_large.png"
     },
     {
         "id": "skin-524324",
@@ -3142,6 +3166,18 @@
         "rarity": "Vertraulich",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_large.png"
+    },
+    {
+        "id": "skin-594712",
+        "name": "AWP | Doodle Lore",
+        "description": "Mit hohem Risiko und hohem Gewinn ist das AWP wegen seines unverkennbaren Schussgeräusches und seiner tödlichen Einzeltreffer berüchtigt.",
+        "weapon": "AWP",
+        "pattern": "Doodle Lore",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Limitiert",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_doodle_lore_light_large.png"
     },
     {
         "id": "skin-655448",
@@ -4944,6 +4980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_light_large.png"
     },
     {
+        "id": "skin-1053488",
+        "name": "M4A4 | Temukau",
+        "description": "Mit höherer Präzision aber geringerem Schaden als sein Gegenstück AK-47 ist das M4A4 das bevorzugte vollautomatische Sturmgewehr der Antiterroreinheit.",
+        "weapon": "M4A4",
+        "pattern": "Temukau",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Vertraulich",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_large.png"
+    },
+    {
         "id": "skin-1114124",
         "name": "MAC-10 | Kandierter Apfel",
         "description": "Die MAC-10, im Grunde genommen nur eine Box, die Kugeln ausspuckt, bietet eine hohe Feuerrate in Kombination mit geringer Präzision und hohem Rückstoß.",
@@ -5460,6 +5508,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_light_large.png"
     },
     {
+        "id": "skin-1119028",
+        "name": "MAC-10 | Sakkaku",
+        "description": "Die MAC-10, im Grunde genommen nur eine Box, die Kugeln ausspuckt, bietet eine hohe Feuerrate in Kombination mit geringer Präzision und hohem Rückstoß.",
+        "weapon": "MAC-10",
+        "pattern": "Sakkaku",
+        "min_float": 0.21,
+        "max_float": 0.79,
+        "rarity": "Limitiert",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_large.png"
+    },
+    {
         "id": "skin-1245264",
         "name": "P90 | Virus",
         "description": "Die P90, leicht erkennbar durch ihr einzigartiges Bullpup-Design, ist dank ihrem großen Magazin und dem geringen Rückstoß eine großartige Waffe für Schüsse aus der Bewegung.",
@@ -5928,6 +5988,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_tangled_light_large.png"
     },
     {
+        "id": "skin-1250116",
+        "name": "P90 | Neoqueen",
+        "description": "Die P90, leicht erkennbar durch ihr einzigartiges Bullpup-Design, ist dank ihrem großen Magazin und dem geringen Rückstoß eine großartige Waffe für Schüsse aus der Bewegung.",
+        "weapon": "P90",
+        "pattern": "Neoqueen",
+        "min_float": 0,
+        "max_float": 0.6,
+        "rarity": "Limitiert",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.png"
+    },
+    {
         "id": "skin-1510340",
         "name": "MP5-SD | Schmutz",
         "description": "Die oft kopierte, aber nie erreichte, ikonische MP5 ist wahrscheinlich die vielseitigste und beliebteste MP der Welt. Diese SD-Veriante kommt mit einem integrierten Schalldämpfer und macht eine bereits beeindruckende Waffe flüsterleise.",
@@ -6106,6 +6178,18 @@
         "rarity": "Militärstandard",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_light_large.png"
+    },
+    {
+        "id": "skin-1512252",
+        "name": "MP5-SD | Liquidation",
+        "description": "Die oft kopierte, aber nie erreichte, ikonische MP5 ist wahrscheinlich die vielseitigste und beliebteste MP der Welt. Diese SD-Veriante kommt mit einem integrierten Schalldämpfer und macht eine bereits beeindruckende Waffe flüsterleise.",
+        "weapon": "MP5-SD",
+        "pattern": "Liquidation",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light_large.png"
     },
     {
         "id": "skin-1572924",
@@ -6526,6 +6610,18 @@
         "rarity": "Militärstandard",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_gs_ump_roadblock_light_large.png"
+    },
+    {
+        "id": "skin-1577808",
+        "name": "UMP-45 | Wild Child",
+        "description": "Das verkannte Mittelkind der MP-Familie - Das kleine Magazin der UMP45 ist der einzige Nachteil einer ansonsten vielseitigen Automatikwaffe für Nahkampfeinsätze.",
+        "weapon": "UMP-45",
+        "pattern": "Wild Child",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Vertraulich",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light_large.png"
     },
     {
         "id": "skin-1638568",
@@ -7692,6 +7788,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_predictor_light_large.png"
     },
     {
+        "id": "skin-1774352",
+        "name": "MAG-7 | Insomnia",
+        "description": "Die AT-exklusive MAG-7 richtet auf geringe Distanz verheerenden Schaden an. Ihre dank Magazinen kurze Nachladedauer macht sie zu einer großartigen taktischen Wahl.",
+        "weapon": "MAG-7",
+        "pattern": "Insomnia",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_insomnia_light_large.png"
+    },
+    {
         "id": "skin-1835120",
         "name": "Negev | Marineblau eloxiert",
         "description": "Die Negev ist ein Biest, das den Gegner mit zielgenauem, unterdrückenden Kugelhagel auf Abstand halten kann – vorausgesetzt Sie haben den Luxus der Zeit, um es zu kontrollieren.",
@@ -8760,6 +8868,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_large.png"
     },
     {
+        "id": "skin-1971020",
+        "name": "Tec-9 | Rebel",
+        "description": "Als ideale Pistole für den Terroristen unterwegs, ist die Tec-9 tödlich in kleinen Räumen und bietet ein großes Magazin.",
+        "weapon": "Tec-9",
+        "pattern": "Rebel",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_cu_tec9_freedom_light_large.png"
+    },
+    {
         "id": "skin-2097236",
         "name": "P2000 | Marmoriertes Granit",
         "description": "Mit ihrer hohen Präzision und Kontrollierbarkeit ist die in Deutschland hergestellte P2000 eine brauchbare Pistole für die erste Runde, die im Einsatz gegen ungepanzerte Gegner am effektivsten ist.",
@@ -9106,6 +9226,18 @@
         "rarity": "Industriequalität",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_light_large.png"
+    },
+    {
+        "id": "skin-2102048",
+        "name": "P2000 | Wicked Sick",
+        "description": "Mit ihrer hohen Präzision und Kontrollierbarkeit ist die in Deutschland hergestellte P2000 eine brauchbare Pistole für die erste Runde, die im Einsatz gegen ungepanzerte Gegner am effektivsten ist.",
+        "weapon": "P2000",
+        "pattern": "Wicked Sick",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Limitiert",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2000_decline_light_large.png"
     },
     {
         "id": "skin-2162708",
@@ -9874,6 +10006,18 @@
         "rarity": "Verdeckt",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_gs_mp9_starlight_light_large.png"
+    },
+    {
+        "id": "skin-2233124",
+        "name": "MP9 | Featherweight",
+        "description": "Die in der Schweiz hergestellte, innovative Maschinenpistole MP9 ist eine ergonomische Polymer-Waffe, die von privaten Sicherheitsfirmen bevorzugt wird.",
+        "weapon": "MP9",
+        "pattern": "Featherweight",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_cu_mp9_superlight_light_large.png"
     },
     {
         "id": "skin-2293772",
@@ -10836,6 +10980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_gs_p250_visions_light_large.png"
     },
     {
+        "id": "skin-2364216",
+        "name": "P250 | Re.built",
+        "description": "Als eine Waffe mit wenig Rückstoß und hoher Feuerrate erweist sich die P250 als eine relativ preiswerte Wahl gegen gepanzerte Gegner.",
+        "weapon": "P250",
+        "pattern": "Re.built",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_large.png"
+    },
+    {
         "id": "skin-2490552",
         "name": "SCAR-20 | Auftragnehmer",
         "description": "Das SCAR-20 ist ein halbautomatisches Scharfschützengewehr, dessen hohe Feurrate und Durchschlagskraft auf lange Distanz mit eingeschränkter Beweglichkeit und hohen Kosten erkauft wird.",
@@ -11134,6 +11290,18 @@
         "rarity": "Militärstandard",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_sp_scar_chickenfight_light_large.png"
+    },
+    {
+        "id": "skin-2495272",
+        "name": "SCAR-20 | Fragments",
+        "description": "Das SCAR-20 ist ein halbautomatisches Scharfschützengewehr, dessen hohe Feurrate und Durchschlagskraft auf lange Distanz mit eingeschränkter Beweglichkeit und hohen Kosten erkauft wird.",
+        "weapon": "SCAR-20",
+        "pattern": "Fragments",
+        "min_float": 0,
+        "max_float": 0.78,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_gs_scar_fragments_black_light_large.png"
     },
     {
         "id": "skin-2556016",
@@ -11530,6 +11698,18 @@
         "rarity": "Limitiert",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_light_large.png"
+    },
+    {
+        "id": "skin-2560840",
+        "name": "SG 553 | Cyberforce",
+        "description": "Das den Terroristen vorbehaltene SG553 ist eine hochklassige und mit einem Zielfernrohr ausgestattete Alternative zum AK-47, wenn es um effektiven Kampf auf lange Distanz geht.",
+        "weapon": "SG 553",
+        "pattern": "Cyberforce",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyberforce_light_large.png"
     },
     {
         "id": "skin-2621544",
@@ -12286,6 +12466,18 @@
         "rarity": "Militärstandard",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_light_large.png"
+    },
+    {
+        "id": "skin-3937052",
+        "name": "M4A4 | Emphorosaur-S",
+        "description": "Mit höherer Präzision aber geringerem Schaden als sein Gegenstück AK-47 ist das M4A4 das bevorzugte vollautomatische Sturmgewehr der Antiterroreinheit.",
+        "weapon": "M4A4",
+        "pattern": "Emphorosaur-S",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Militärstandard",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light_large.png"
     },
     {
         "id": "skin-3997796",
@@ -13306,6 +13498,18 @@
         "rarity": "Limitiert",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_revolver_purple_elite_light_large.png"
+    },
+    {
+        "id": "skin-4199232",
+        "name": "R8-Revolver | Banana Cannon",
+        "description": "Der R8-Revolver gibt einen äußerst präzisen und mächtigen Schuss ab, der auf Kosten eines langwierigen Abzugs geht. Ist hohe Mannstoppwirkung auf kurze Distanz gefordert, bietet sich ein schnelles Abfeuern mittels sogenanntem „Fanning“ an.",
+        "weapon": "R8-Revolver",
+        "pattern": "Banana Cannon",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Limitiert",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_r8_banana_light_large.png"
     },
     {
         "id": "skin-32768020",

@@ -1752,6 +1752,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_gs_glock_elite_camo_light_large.png"
     },
     {
+        "id": "skin-267052",
+        "name": "Glock-18 | Umbral Rabbit",
+        "description": "Glock 18 este un pistol utilizabil in prima rundă care este cel mai eficient împotriva oponenților fără armură și este capabil de a trage în serii de câte trei gloanțe.",
+        "weapon": "Glock-18",
+        "pattern": "Umbral Rabbit",
+        "min_float": 0,
+        "max_float": 0.75,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light_large.png"
+    },
+    {
         "id": "skin-458808",
         "name": "AK-47 | Red Laminate",
         "description": "Puternică și de încredere, AK-47 este una dintre cele mai populare puști de asalt din lume. Este extrem de mortală pe rafale de foc scurte și controlate.",
@@ -2266,6 +2278,18 @@
         "rarity": "Restricționat(ă)",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_large.png"
+    },
+    {
+        "id": "skin-463636",
+        "name": "AK-47 | Head Shot",
+        "description": "Puternică și de încredere, AK-47 este una dintre cele mai populare puști de asalt din lume. Este extrem de mortală pe rafale de foc scurte și controlate.",
+        "weapon": "AK-47",
+        "pattern": "Head Shot",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Secret(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_large.png"
     },
     {
         "id": "skin-524324",
@@ -3142,6 +3166,18 @@
         "rarity": "Secret(ă)",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_large.png"
+    },
+    {
+        "id": "skin-594712",
+        "name": "AWP | Doodle Lore",
+        "description": "Dificil de folosit, dar incredibil de puternică, infama AWP este ușor de recunoscut datorită stilului „glonțul și victima”.",
+        "weapon": "AWP",
+        "pattern": "Doodle Lore",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Restricționat(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_doodle_lore_light_large.png"
     },
     {
         "id": "skin-655448",
@@ -4944,6 +4980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_light_large.png"
     },
     {
+        "id": "skin-1053488",
+        "name": "M4A4 | Temukau",
+        "description": "Mai precisă, dar nu la fel de puternică precum omologa sa AK-47, M4A4 este pușca de asalt complet automată preferată a contrateroriștilor.",
+        "weapon": "M4A4",
+        "pattern": "Temukau",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Secret(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_large.png"
+    },
+    {
         "id": "skin-1114124",
         "name": "MAC-10 | Candy Apple",
         "description": "Practic, o cutie din care ies gloanțe. Pistolul mitralieră MAC-10 are o cadență ridicată de tragere care este contrabalansată de o precizie relativ scăzută, cât și un recul considerabil.",
@@ -5460,6 +5508,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_light_large.png"
     },
     {
+        "id": "skin-1119028",
+        "name": "MAC-10 | Sakkaku",
+        "description": "Practic, o cutie din care ies gloanțe. Pistolul mitralieră MAC-10 are o cadență ridicată de tragere care este contrabalansată de o precizie relativ scăzută, cât și un recul considerabil.",
+        "weapon": "MAC-10",
+        "pattern": "Sakkaku",
+        "min_float": 0.21,
+        "max_float": 0.79,
+        "rarity": "Restricționat(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_large.png"
+    },
+    {
         "id": "skin-1245264",
         "name": "P90 | Virus",
         "description": "Ușor de recunoscut datorită designului bullpup, P90 este o armă excelentă cu care să tragi din mișcare datorită reculului redus și a încărcătorului generos.",
@@ -5928,6 +5988,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_tangled_light_large.png"
     },
     {
+        "id": "skin-1250116",
+        "name": "P90 | Neoqueen",
+        "description": "Ușor de recunoscut datorită designului bullpup, P90 este o armă excelentă cu care să tragi din mișcare datorită reculului redus și a încărcătorului generos.",
+        "weapon": "P90",
+        "pattern": "Neoqueen",
+        "min_float": 0,
+        "max_float": 0.6,
+        "rarity": "Restricționat(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.png"
+    },
+    {
         "id": "skin-1510340",
         "name": "MP5-SD | Dirt Drop",
         "description": "Often imitated but never equaled, the iconic MP5 is perhaps the most versatile and popular SMG in the world. This SD variant features an integrated silencer, making an already formidable weapon whisper-quiet.",
@@ -6106,6 +6178,18 @@
         "rarity": "Calitate militară",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_light_large.png"
+    },
+    {
+        "id": "skin-1512252",
+        "name": "MP5-SD | Liquidation",
+        "description": "Often imitated but never equaled, the iconic MP5 is perhaps the most versatile and popular SMG in the world. This SD variant features an integrated silencer, making an already formidable weapon whisper-quiet.",
+        "weapon": "MP5-SD",
+        "pattern": "Liquidation",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light_large.png"
     },
     {
         "id": "skin-1572924",
@@ -6526,6 +6610,18 @@
         "rarity": "Calitate militară",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_gs_ump_roadblock_light_large.png"
+    },
+    {
+        "id": "skin-1577808",
+        "name": "UMP-45 | Wild Child",
+        "description": "Oaia neagră a pistoalelor mitralieră, capacitatea mică a încărcătorului este singurul neajuns pentru UMP45, o armă altfel extrem de versatilă în luptele din apropiere.",
+        "weapon": "UMP-45",
+        "pattern": "Wild Child",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Secret(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light_large.png"
     },
     {
         "id": "skin-1638568",
@@ -7692,6 +7788,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_predictor_light_large.png"
     },
     {
+        "id": "skin-1774352",
+        "name": "MAG-7 | Insomnia",
+        "description": "Exclusivă contrateroriștilor, Mag-7 oferă o putere extraordinară pe distanțe mici. Iar timpii reduși de reîncărcare o fac alegerea tactică nemaipomenită.",
+        "weapon": "MAG-7",
+        "pattern": "Insomnia",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_insomnia_light_large.png"
+    },
+    {
         "id": "skin-1835120",
         "name": "Negev | Anodized Navy",
         "description": "Negevul este o bestie care poate ține inamicul la distanță datorită focului său supresiv de gloanțe mici în dimensiune, cu condiția de a avea luxul de timp de a apuca să o controlezi.",
@@ -8760,6 +8868,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_large.png"
     },
     {
+        "id": "skin-1971020",
+        "name": "Tec-9 | Rebel",
+        "description": "Un pistol ideal pentru teroriștii în mișcare, Tec-9 este letal în luptele de apropiere și include un încărcător de mare capacitate.",
+        "weapon": "Tec-9",
+        "pattern": "Rebel",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_cu_tec9_freedom_light_large.png"
+    },
+    {
         "id": "skin-2097236",
         "name": "P2000 | Granite Marbleized",
         "description": "Precis și controlabil, produsul German P2000 este un pistol utilizabil de primă rundă care este eficient împotriva oponenților fără armură.",
@@ -9106,6 +9226,18 @@
         "rarity": "Calitate industrială",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_light_large.png"
+    },
+    {
+        "id": "skin-2102048",
+        "name": "P2000 | Wicked Sick",
+        "description": "Precis și controlabil, produsul German P2000 este un pistol utilizabil de primă rundă care este eficient împotriva oponenților fără armură.",
+        "weapon": "P2000",
+        "pattern": "Wicked Sick",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restricționat(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2000_decline_light_large.png"
     },
     {
         "id": "skin-2162708",
@@ -9874,6 +10006,18 @@
         "rarity": "Clandestin(ă)",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_gs_mp9_starlight_light_large.png"
+    },
+    {
+        "id": "skin-2233124",
+        "name": "MP9 | Featherweight",
+        "description": "Produs în Elveția, pistolul mitralieră de generație nouă MP9 este o armă realizată din polimeri apreciată de firmele private de securitate.",
+        "weapon": "MP9",
+        "pattern": "Featherweight",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_cu_mp9_superlight_light_large.png"
     },
     {
         "id": "skin-2293772",
@@ -10836,6 +10980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_gs_p250_visions_light_large.png"
     },
     {
+        "id": "skin-2364216",
+        "name": "P250 | Re.built",
+        "description": "Fiind o armă de foc cu recul mic și o viteză mare de tragere, P250 reprezintă o alegere relativ ieftină împotriva oponenților cu armură.",
+        "weapon": "P250",
+        "pattern": "Re.built",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_large.png"
+    },
+    {
         "id": "skin-2490552",
         "name": "SCAR-20 | Contractor",
         "description": "SCAR-20 este o pușcă semiautomată cu lunetă ce oferă o cadență ridicată și o putere considerabilă la distanțe mari, dar care încetinește sensibil viteza de deplasare și cere un preț pe măsură.",
@@ -11134,6 +11290,18 @@
         "rarity": "Calitate militară",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_sp_scar_chickenfight_light_large.png"
+    },
+    {
+        "id": "skin-2495272",
+        "name": "SCAR-20 | Fragments",
+        "description": "SCAR-20 este o pușcă semiautomată cu lunetă ce oferă o cadență ridicată și o putere considerabilă la distanțe mari, dar care încetinește sensibil viteza de deplasare și cere un preț pe măsură.",
+        "weapon": "SCAR-20",
+        "pattern": "Fragments",
+        "min_float": 0,
+        "max_float": 0.78,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_gs_scar_fragments_black_light_large.png"
     },
     {
         "id": "skin-2556016",
@@ -11530,6 +11698,18 @@
         "rarity": "Restricționat(ă)",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_light_large.png"
+    },
+    {
+        "id": "skin-2560840",
+        "name": "SG 553 | Cyberforce",
+        "description": "Exclusivă doar teroriștilor, SG553 este o alternativă premium cu lunetă pentru AK-47 când preferi lupte de la distanță.",
+        "weapon": "SG 553",
+        "pattern": "Cyberforce",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyberforce_light_large.png"
     },
     {
         "id": "skin-2621544",
@@ -12286,6 +12466,18 @@
         "rarity": "Calitate militară",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_light_large.png"
+    },
+    {
+        "id": "skin-3937052",
+        "name": "M4A4 | Emphorosaur-S",
+        "description": "Mai precisă, dar nu la fel de puternică precum omologa sa AK-47, M4A4 este pușca de asalt complet automată preferată a contrateroriștilor.",
+        "weapon": "M4A4",
+        "pattern": "Emphorosaur-S",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Calitate militară",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light_large.png"
     },
     {
         "id": "skin-3997796",
@@ -13306,6 +13498,18 @@
         "rarity": "Restricționat(ă)",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_revolver_purple_elite_light_large.png"
+    },
+    {
+        "id": "skin-4199232",
+        "name": "Revolver R8 | Banana Cannon",
+        "description": "Revolverul R8 oferă un tir extrem de puternic și precis, sacrificând însă rata de foc. Dacă ai nevoie rapid de putere considerabilă, va trebui să mânuiești rapid percutorul.",
+        "weapon": "Revolver R8",
+        "pattern": "Banana Cannon",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restricționat(ă)",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_r8_banana_light_large.png"
     },
     {
         "id": "skin-32768020",

@@ -1752,6 +1752,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_gs_glock_elite_camo_light_large.png"
     },
     {
+        "id": "skin-267052",
+        "name": "Glock-18 | Umbral Rabbit",
+        "description": "Glock 18 е функционален пистолет през първия кръг, който работи най-добре срещу опоненти без бронежилетки и е способен да изстрелва откоси от по три изстрела.",
+        "weapon": "Glock-18",
+        "pattern": "Umbral Rabbit",
+        "min_float": 0,
+        "max_float": 0.75,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light_large.png"
+    },
+    {
         "id": "skin-458808",
         "name": "AK-47 | Червен ламинат",
         "description": "Мощен и надежден, AK-47 е един от най-популярните автомати в света. Той е най-смъртоносен с кратки, контролирани откоси при стрелба.",
@@ -2266,6 +2278,18 @@
         "rarity": "Ограничено оръжие",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak47_cogthings_light_large.png"
+    },
+    {
+        "id": "skin-463636",
+        "name": "AK-47 | Head Shot",
+        "description": "Мощен и надежден, AK-47 е един от най-популярните автомати в света. Той е най-смъртоносен с кратки, контролирани откоси при стрелба.",
+        "weapon": "AK-47",
+        "pattern": "Head Shot",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Класифицирано оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_large.png"
     },
     {
         "id": "skin-524324",
@@ -3142,6 +3166,18 @@
         "rarity": "Класифицирано оръжие",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_large.png"
+    },
+    {
+        "id": "skin-594712",
+        "name": "AWP | Doodle Lore",
+        "description": "Високорисково, но с голяма отплата, емблематичното AWP се разпознава по своята уникална слава, както и тенденцията му за един изстрел, едно убийство.",
+        "weapon": "AWP",
+        "pattern": "Doodle Lore",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Ограничено оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_awp_cu_awp_doodle_lore_light_large.png"
     },
     {
         "id": "skin-655448",
@@ -4944,6 +4980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_elite_tactical_light_large.png"
     },
     {
+        "id": "skin-1053488",
+        "name": "M4A4 | Temukau",
+        "description": "По-точна, но и нанасяща по-малко щети, отколкото съответстващия — AK-47, M4A4 е напълно авт. винтовка избирана от КТ.",
+        "weapon": "M4A4",
+        "pattern": "Temukau",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Класифицирано оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_large.png"
+    },
+    {
         "id": "skin-1114124",
         "name": "MAC-10 | Захаросана ябълка",
         "description": "Макар и най-общо казано да е кутия, от която излизат куршумите, автомата MAC-10 разполага с високо скоростна стрелба, но за сметка на това с лош обхват за точност и силен откат.",
@@ -5460,6 +5508,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_monkeyflage_light_large.png"
     },
     {
+        "id": "skin-1119028",
+        "name": "MAC-10 | Sakkaku",
+        "description": "Макар и най-общо казано да е кутия, от която излизат куршумите, автомата MAC-10 разполага с високо скоростна стрелба, но за сметка на това с лош обхват за точност и силен откат.",
+        "weapon": "MAC-10",
+        "pattern": "Sakkaku",
+        "min_float": 0.21,
+        "max_float": 0.79,
+        "rarity": "Ограничено оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_large.png"
+    },
+    {
         "id": "skin-1245264",
         "name": "P90 | Вирус",
         "description": "Лесно разпознаваем, заради уникалния си булпъп дизайн, P90 е страхотно оръжие, за стрелба в движение благодарение на своя пълнител с висок капацитет и слаб откат.",
@@ -5928,6 +5988,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_tangled_light_large.png"
     },
     {
+        "id": "skin-1250116",
+        "name": "P90 | Neoqueen",
+        "description": "Лесно разпознаваем, заради уникалния си булпъп дизайн, P90 е страхотно оръжие, за стрелба в движение благодарение на своя пълнител с висок капацитет и слаб откат.",
+        "weapon": "P90",
+        "pattern": "Neoqueen",
+        "min_float": 0,
+        "max_float": 0.6,
+        "rarity": "Ограничено оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.png"
+    },
+    {
         "id": "skin-1510340",
         "name": "MP5-SD | Калобран",
         "description": "Често имитиран, но без никакъв еквивалент, емблематичният MP5 вероятно е най-всестранно приложимият и популярен автомат в света. Този SD вариант идва екипиран с вграден заглушител, правейки едно вече застрашително оръжие шептящо тихо.",
@@ -6106,6 +6178,18 @@
         "rarity": "Стандартен военен клас",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_gs_mp5_kid_necronomicon_light_large.png"
+    },
+    {
+        "id": "skin-1512252",
+        "name": "MP5-SD | Liquidation",
+        "description": "Често имитиран, но без никакъв еквивалент, емблематичният MP5 вероятно е най-всестранно приложимият и популярен автомат в света. Този SD вариант идва екипиран с вграден заглушител, правейки едно вече застрашително оръжие шептящо тихо.",
+        "weapon": "MP5-SD",
+        "pattern": "Liquidation",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp5sd_cu_mp5sd_quick_liquidation_light_large.png"
     },
     {
         "id": "skin-1572924",
@@ -6526,6 +6610,18 @@
         "rarity": "Стандартен военен клас",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_gs_ump_roadblock_light_large.png"
+    },
+    {
+        "id": "skin-1577808",
+        "name": "UMP-45 | Wild Child",
+        "description": "Криворазбраното средно дете от семейството автоматични оръжия, малкият пълнител за UMP45 е единственият недостатък на иначе универсалния автомат при близки разстояния.",
+        "weapon": "UMP-45",
+        "pattern": "Wild Child",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Класифицирано оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light_large.png"
     },
     {
         "id": "skin-1638568",
@@ -7692,6 +7788,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_predictor_light_large.png"
     },
     {
+        "id": "skin-1774352",
+        "name": "MAG-7 | Insomnia",
+        "description": "Ексклузивният за КТ Mag-7 предоставя опустошително количество щети от близко разстояние. Бързият му начин на презареждане с пълнител го прави страхотен тактически избор.",
+        "weapon": "MAG-7",
+        "pattern": "Insomnia",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mag7_cu_mag7_insomnia_light_large.png"
+    },
+    {
         "id": "skin-1835120",
         "name": "Negev | Анодно оксидирано тъмносиньо",
         "description": "Negev е звяр, който може да отблъсне враговете със своята точна потискаща стрелба, в случай, че разполагате с времето да поемете контрола над него.",
@@ -8760,6 +8868,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_large.png"
     },
     {
+        "id": "skin-1971020",
+        "name": "Tec-9 | Rebel",
+        "description": "Идеален пистолет за подвижния терорист, Tec-9 е смъртоносен отблизо и разполага с високо капацитетен пълнител.",
+        "weapon": "Tec-9",
+        "pattern": "Rebel",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_tec9_cu_tec9_freedom_light_large.png"
+    },
+    {
         "id": "skin-2097236",
         "name": "P2000 | Гранит и мрамор",
         "description": "Точен и контролируем, произведеният в Германия P2000, е функционален пистолет през първия кръг, който работи най-добре срещу опоненти без бронежилетки.",
@@ -9106,6 +9226,18 @@
         "rarity": "Индустриален клас",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2k_flying_dream_light_large.png"
+    },
+    {
+        "id": "skin-2102048",
+        "name": "P2000 | Wicked Sick",
+        "description": "Точен и контролируем, произведеният в Германия P2000, е функционален пистолет през първия кръг, който работи най-добре срещу опоненти без бронежилетки.",
+        "weapon": "P2000",
+        "pattern": "Wicked Sick",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Ограничено оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_hkp2000_cu_p2000_decline_light_large.png"
     },
     {
         "id": "skin-2162708",
@@ -9874,6 +10006,18 @@
         "rarity": "Секретно оръжие",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_gs_mp9_starlight_light_large.png"
+    },
+    {
+        "id": "skin-2233124",
+        "name": "MP9 | Featherweight",
+        "description": "Произведен в Швейцария, модерния автомат MP9 е ергономично полимерно оръжие предпочитано от частните охранителни фирми.",
+        "weapon": "MP9",
+        "pattern": "Featherweight",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_mp9_cu_mp9_superlight_light_large.png"
     },
     {
         "id": "skin-2293772",
@@ -10836,6 +10980,18 @@
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_gs_p250_visions_light_large.png"
     },
     {
+        "id": "skin-2364216",
+        "name": "P250 | Re.built",
+        "description": "Ниско откатно и скорострелно огнестрелно оръжие, P250 е сравнително евтин избор срещу опоненти с бронежилетки.",
+        "weapon": "P250",
+        "pattern": "Re.built",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_large.png"
+    },
+    {
         "id": "skin-2490552",
         "name": "SCAR-20 | Предприемач",
         "description": "SCAR-20 е полуавтоматична снайперистка винтовка, която заменя високоскоростната стрелба и мощните щети при големи разстояния за бавна скорост на движение и висока цена.",
@@ -11134,6 +11290,18 @@
         "rarity": "Стандартен военен клас",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_sp_scar_chickenfight_light_large.png"
+    },
+    {
+        "id": "skin-2495272",
+        "name": "SCAR-20 | Fragments",
+        "description": "SCAR-20 е полуавтоматична снайперистка винтовка, която заменя високоскоростната стрелба и мощните щети при големи разстояния за бавна скорост на движение и висока цена.",
+        "weapon": "SCAR-20",
+        "pattern": "Fragments",
+        "min_float": 0,
+        "max_float": 0.78,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_scar20_gs_scar_fragments_black_light_large.png"
     },
     {
         "id": "skin-2556016",
@@ -11530,6 +11698,18 @@
         "rarity": "Ограничено оръжие",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyber_dragon_light_large.png"
+    },
+    {
+        "id": "skin-2560840",
+        "name": "SG 553 | Cyberforce",
+        "description": "Ексклузивният за терористите, SG553 с оптика е първокласната алтернатива на AK47 за ефективно сражение при големи разстояния.",
+        "weapon": "SG 553",
+        "pattern": "Cyberforce",
+        "min_float": 0,
+        "max_float": 0.9,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_sg556_cu_sg553_cyberforce_light_large.png"
     },
     {
         "id": "skin-2621544",
@@ -12286,6 +12466,18 @@
         "rarity": "Стандартен военен клас",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_insomnia_light_large.png"
+    },
+    {
+        "id": "skin-3937052",
+        "name": "M4A4 | Emphorosaur-S",
+        "description": "По-точна, но и нанасяща по-малко щети, отколкото съответстващия — AK-47, M4A4 е напълно авт. винтовка избирана от КТ.",
+        "weapon": "M4A4",
+        "pattern": "Emphorosaur-S",
+        "min_float": 0,
+        "max_float": 0.8,
+        "rarity": "Стандартен военен клас",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light_large.png"
     },
     {
         "id": "skin-3997796",
@@ -13306,6 +13498,18 @@
         "rarity": "Ограничено оръжие",
         "stattrak": true,
         "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_revolver_purple_elite_light_large.png"
+    },
+    {
+        "id": "skin-4199232",
+        "name": "Револвер R8 | Banana Cannon",
+        "description": "<b><font color='#F2A93E'>R8 Revolver</font></b>\\n \\nРеволверът R8 нанася много точен и мощен изстрел за сметка на бавно задействащия се спусък. Може би най-добрият вариант за бърза стрелба, е като използвате ударника, когато се изисква възпираща мощ от упор.",
+        "weapon": "Револвер R8",
+        "pattern": "Banana Cannon",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Ограничено оръжие",
+        "stattrak": true,
+        "image": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/pak01_dir/resource/flash/econ/default_generated/weapon_revolver_gs_r8_banana_light_large.png"
     },
     {
         "id": "skin-32768020",
