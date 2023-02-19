@@ -12,6 +12,12 @@ By default the data is in english, if you want to get the data in another langua
 https://bymykel.github.io/CSGO-API/api/{language?}
 ```
 
+### All items
+
+GET [/all.json](https://bymykel.github.io/CSGO-API/api/all.json)
+
+Object with all items accessible by their id.
+
 ### List skins
 
 GET [/skins.json](https://bymykel.github.io/CSGO-API/api/skins.json)
