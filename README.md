@@ -8,7 +8,9 @@ All data are retrieved from [items_game.txt](https://github.com/SteamDatabase/Ga
 
 By default the data is in english, if you want to get the data in another language, you can add the language to the BASE URL.
 
-Base url: `https://bymykel.github.io/CSGO-API/api/{language?}`
+```bash
+https://bymykel.github.io/CSGO-API/api/{language?}
+```
 
 ### List skins
 
@@ -59,3 +61,32 @@ GET [/skins.json](https://bymykel.github.io/CSGO-API/api/skins.json)
     <td width="400">string</td>
   </tr>
 </table>
+
+### List stickers
+
+GET [/stickers.json](https://bymykel.github.io/CSGO-API/api/stickers.json)
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
