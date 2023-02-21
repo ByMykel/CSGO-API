@@ -1,6 +1,6 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
-import { ITEMS_GAME_URL } from "../utils/config.js";
+import { ITEMS_GAME_URL } from "../constants.js";
 
 export const state = {
     itemsGame: null,

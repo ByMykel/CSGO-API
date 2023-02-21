@@ -9,7 +9,7 @@ import { getGraffiti } from "./services/graffiti.js";
 import { getPatches } from "./services/patches.js";
 import { getStickers } from "./services/stickers.js";
 import { getSkins } from "./services/skins.js";
-import { LANGUAGES_URL } from "./utils/config.js";
+import { LANGUAGES_URL } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { saveAllItems } from "./services/all.js";
 
