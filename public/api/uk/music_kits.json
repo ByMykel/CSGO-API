@@ -1,0 +1,538 @@
+[
+    {
+        "id": "music-kit-3",
+        "name": "Музичний альбом | Daniel Sadowski — Crimson Assault",
+        "description": "У цьому пульсуючому жвавому альбомі композитор відеоігор Деніел Садовський поєднує напружений бойовик із ДИКО РІЗКИМИ бітами.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/danielsadowski_01.png"
+    },
+    {
+        "id": "music-kit-4",
+        "name": "Музичний альбом | Noisia — Sharpened",
+        "description": "Нідерландське електронне тріо Noisia наділяє суміш традиційного і прогресивного підходів жорстким кінематографічним звучанням.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/noisia_01.png"
+    },
+    {
+        "id": "music-kit-5",
+        "name": "Музичний альбом | Robert Allaire — Insurgency",
+        "description": "Музика для розгрому і долання суперників від ушанованого нагородами композитора Роберта Алейра.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/robertallaire_01.png"
+    },
+    {
+        "id": "music-kit-6",
+        "name": "Музичний альбом | Sean Murray — A*D*8",
+        "description": "Композитор двох найбільших ігор про війну пропонує музичний супровід, що перенесе ваших ворогів ледь не в самісіньке пекло!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/seanmurray_01.png"
+    },
+    {
+        "id": "music-kit-7",
+        "name": "Музичний альбом | Feed Me — High Noon",
+        "description": "Відомий електронний музикант Feed Me вдихає у сучасне електронне звучання атмосферу дуелі з вестерна.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/feedme_01.png"
+    },
+    {
+        "id": "music-kit-8",
+        "name": "Музичний альбом | Dren — Death's Head Demolition",
+        "description": "Цей кіношний, стильний метал, який для вас написав ігровий композитор Dren, змусить вас відчути себе убивчим супергероєм!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/dren_01.png"
+    },
+    {
+        "id": "music-kit-9",
+        "name": "Музичний альбом | Austin Wintory — Desert Fire",
+        "description": "Номінант «Ґреммі» Остін Уінторі цікавиться: нащо вистежувати ворогів, якщо можна підманити їх звуками божевільного вбивчого танґо?",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/austinwintory_01.png"
+    },
+    {
+        "id": "music-kit-10",
+        "name": "Музичний альбом | Sasha — LNOE",
+        "description": "Пориньте в кінематографічний саундтрек, сповнений пульсуючих мелодій, жвавих барабанів та піднесеного звучання струн від всесвітньо відомого ді-джея та продюсера Sasha.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/sasha_01.png"
+    },
+    {
+        "id": "music-kit-11",
+        "name": "Музичний альбом | Skog — Metal",
+        "description": "Урок агресії від металіста Skog.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/skog_01.png"
+    },
+    {
+        "id": "music-kit-12",
+        "name": "Музичний альбом | Midnight Riders — All I Want for Christmas",
+        "description": "«З Різдвом вас, покидьки!»\\n -Midnight Riders",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/midnightriders_01.png"
+    },
+    {
+        "id": "music-kit-13",
+        "name": "Музичний альбом | Matt Lange — IsoRhythm",
+        "description": "Побалуйте свій слух колекцією кінематографічних, тяжких і атмосферних ритмів від новатора електронної музики Метта Ленджа.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/mattlange_01.png"
+    },
+    {
+        "id": "music-kit-14",
+        "name": "Музичний альбом | Mateo Messina — For No Mankind",
+        "description": "Пригнічуйте своїх ворогів. Чистий адреналін від лауреата Grammy, Матео Месіни.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/mateomessina_01.png"
+    },
+    {
+        "id": "music-kit-15",
+        "name": "Музичний альбом | Various Artists — Hotline Miami",
+        "description": "Безліч електронних творців представили нам суміш брутальних електронних мотивів у цій неповторній музичній збірці від легендарної гри «Hotline Miami».",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/hotlinemiami_01.png"
+    },
+    {
+        "id": "music-kit-16",
+        "name": "Музичний альбом | Daniel Sadowski — Total Domination",
+        "description": "Композитор Деніел Садовськи піднімає планку музики за допомогою агресивних електронних ритмів, унікальних і хвилюючих звукових ефектів, драйву і футиристичної енергетики. «Попередження: викликає виплеск адреналіну!»",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/danielsadowski_02.png"
+    },
+    {
+        "id": "music-kit-17",
+        "name": "Музичний альбом | Damjan Mravunac — The Talos Principle",
+        "description": "У цьому альбомі композитор Дам’ян Мравунац поєднує енергійні кінематографічні мотиви з епічним хором. Використана в ньому музика походить з оспіваної критиками гри «The Talos Principle» від Croteam.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/damjanmravunac_01.png"
+    },
+    {
+        "id": "music-kit-18",
+        "name": "Музичний альбом | Proxy — Battlepack",
+        "description": "Російський композитор важкої електронної музики PROXY доставив свою унікальну важку артилерію і у Counter Strike. Гібридне аудіоозброєння з найкращими студійними технологіями робить цей альбом дійсно самим унікальним.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/proxy_01.png"
+    },
+    {
+        "id": "music-kit-19",
+        "name": "Музичний альбом | Ki:Theory — MOLOTOV",
+        "description": "Виконавець  Ki:Theory, відомий виступом на турнірі «The International 4» у Dota 2, зносить голову набором гострих, як бритва електро-рок композицій.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/kitheory_01.png"
+    },
+    {
+        "id": "music-kit-20",
+        "name": "Музичний альбом | Troels Folmann — Uber Blasto Phone",
+        "description": "У цій вибуховій збірці треків відомого композитора та володаря багатьох нагород Троєля Фольмана тріумфальні бластофони поєднуються з сучасним уберпульсом.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/troelsfolmann_01.png"
+    },
+    {
+        "id": "music-kit-21",
+        "name": "Музичний альбом | Kelly Bailey — Hazardous Environments",
+        "description": "Келлі Бейлі, композитор серії ігор Half-Life від Valve, створює арсенал нової апокаліптичної музики, на яку її надихнув темний бік всесвіту Half-Life.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/kellybailey_01.png"
+    },
+    {
+        "id": "music-kit-22",
+        "name": "Музичний альбом | Skog — II-Headshot",
+        "description": "Композитор і продюсер важкої музики Джок Скоґ, повертається із повністю новим важкометалевим альбомом, що перетворює решту музичних альбомів CS:GO у щось миле, тепленьке й пухнасте. Тепер станьте MVP, щоб кожен міг почути вашу крутість!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/skog_02.png"
+    },
+    {
+        "id": "music-kit-23",
+        "name": "Музичний альбом | Daniel Sadowski — The 8-Bit Kit",
+        "description": "Даніель Садовський створив перший восьмибітний музичний набір для Counter-Strike, котрий містить автентичні восьмибітні композиції.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/danielsadowski_03.png"
+    },
+    {
+        "id": "music-kit-24",
+        "name": "Музичний альбом | AWOLNATION — I Am",
+        "description": "AWOLNATION Виконавець AWOLNATION, який грає у стилі альтернативного року пропонує вам набір музики, який надовго запам’ятаєтья. Цей набір наповнений  великою кількістю електронної музики, і включає фрагменти синглу «I Am» та «Sail», котрий вже встиг стати мультиплатиновим.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/awolnation_01.png"
+    },
+    {
+        "id": "music-kit-25",
+        "name": "Музичний альбом | Mord Fustang — Diamonds",
+        "description": "Діаманти. Вони назавжди. Пориньте в арпеджіо Морда Фустанга у цьому свіжому наборі атмосферних мотивів.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/mordfustang_01.png"
+    },
+    {
+        "id": "music-kit-26",
+        "name": "Музичний альбом | Michael Bross — Invasion!",
+        "description": "Майкл Бросс записав епічний / кінематографічний техно-гранж, щоб ви могли відчували себе справжнім задиракою в бою.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/michaelbross_01.png"
+    },
+    {
+        "id": "music-kit-27",
+        "name": "Музичний альбом | Ian Hultquist — Lion's Mouth",
+        "description": "Симбіоз бойових барабанів, синтезатора та пульсу струн — приготуйтеся до бою під лавиноподібний звуковий супровід композитора Яна Гультквіста.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/ianhultquist_01.png"
+    },
+    {
+        "id": "music-kit-28",
+        "name": "Музичний альбом | New Beat Fund — Sponge Fingerz",
+        "description": "Сонячний серф з елементами хіп-хопу, панку та гараж-попу. Будь собою та зноси усім довбешки.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/newbeatfund_01.png"
+    },
+    {
+        "id": "music-kit-29",
+        "name": "Музичний альбом | Beartooth — Disgusting",
+        "description": "Beartooth демонструє агресивний і водночас простий хардкор котрий розбурхує натовп і змушує його розносити все. Ідеальна музика для стрільби гвинтівками від бедра. Рок до смерті.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/beartooth_01.png"
+    },
+    {
+        "id": "music-kit-30",
+        "name": "Музичний альбом | Lennie Moore — Java Havana Funkaloo",
+        "description": "Ігровий композитор Дені Мур пропонує приправлену спеціями суміш джазу з фанком. Цю страву варто подавати холодною, як тіла ваших ворогів, коли ви з ними покінчите.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/lenniemoore_01.png"
+    },
+    {
+        "id": "music-kit-31",
+        "name": "Музичний альбом | Darude — Moments CS:GO",
+        "description": "Розсікаєте звукові хвилі знайомих мотивів фінського продюсера Darude. Збагатіться важким сплавом високих прогресивних тонів та тонкої структури треків із запасів одного з найвідоміших першопрохідців у жанрі танцювальної музики.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/darude_01.png"
+    },
+    {
+        "id": "music-kit-32",
+        "name": "Музичний альбом | Beartooth — Aggressive",
+        "description": "Beartooth повертається для другого раунду. Цей новий музичний альбом важчий і ще більш агресивний. Ми також зробили гімн кращого гравця дійсно важким, тож вашим ворогам буде не по собі, коли вони програють.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/beartooth_02.png"
+    },
+    {
+        "id": "music-kit-33",
+        "name": "Музичний альбом | Blitz Kids — The Good Youth",
+        "description": "Британський поп-панк гурт Blitz Kids надає вам чудовий музичний альбом для наступу на точку B під час роздумів про класні нічні вечірки, які ви мали з друзями у коледжі. Це музика, щоби бути швидким і почуватися молодим.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/blitzkids_01.png"
+    },
+    {
+        "id": "music-kit-34",
+        "name": "Музичний альбом | Hundredth — FREE",
+        "description": "Hundredth несуть важкість у світ своїм мелодичним хардкором. Вивільніться або перетворіться на попіл із цим чудовим саундтреком для знищення недостойних.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/hundredth_01.png"
+    },
+    {
+        "id": "music-kit-35",
+        "name": "Музичний альбом | Neck Deep — Life's Not Out To Get You",
+        "description": "Часом вам потрібно трохи поп-панку, аби витримати день. Байдуже, чи сьогодні постійні ворожі засідки, чи втрата тривалої серії вбивств, адже є Neck Deep, які доводять, що Life's Not Out To Get You, тож все буде гаразд.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/neckdeep_01.png"
+    },
+    {
+        "id": "music-kit-36",
+        "name": "Музичний альбом | Roam — Backbone",
+        "description": "Roam пропонує швидкий і стрімкий поп-панк, який змушує натовп і гравців ворушитися. Доведіть із цим чудовим саундтреком, що ви міцний гравець, який нападає і винищує ворогів швидше, ніж ті розуміють, що відбувається.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/roam_01.png"
+    },
+    {
+        "id": "music-kit-37",
+        "name": "Музичний альбом | Twin Atlantic — GLA",
+        "description": "Важче, гучніше та грубіше, аніж будь-коли. Twin Atlantic приходить у CS:GO, щоби допомогти вам розбити ворогів із потужністю шотландського року.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/twinatlantic_01.png"
+    },
+    {
+        "id": "music-kit-38",
+        "name": "Музичний альбом | Skog — III-Arena",
+        "description": "Skog повертається із третім руйнівним металевим альбомом. Цього разу з електроорганним додатком до музики у поєднанні з масивними гітарними рифами, музичними лупами та бурдонами.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/skog_03.png"
+    },
+    {
+        "id": "music-kit-39",
+        "name": "Музичний альбом | The Verkkars, EZ4ENCE",
+        "description": "The Verkkars злетіли вгору в чартах Фінляндії завдяки неймовірному триб’юту ENCE. Невже насправді може бути настільки EZ?",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/theverkkars_01.png"
+    },
+    {
+        "id": "music-kit-40",
+        "name": "Halo: The Master Chief Collection",
+        "description": "Додайте звуковому супроводу Counter Strike епічності з музичною збіркою Master Chief Collection Music Pack, що містить знакову музику з усесвіту Halo. © 2019 343 Industries. Усі права захищено. Дозвіл на використання надано 343 Industries. Логотипи Halo: The Master Chief Collection і Halo є торговими марками групи компаній Microsoft.",
+        "rarity": "High Grade",
+        "exclusive": true,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/halo_01.png"
+    },
+    {
+        "id": "music-kit-41",
+        "name": "Музичний альбом | Scarlxrd — King, Scar",
+        "description": "Scarlxrd сплітає важкі біти трепу з унікальним флоу та подачею, що створює унікальний піджанр. Ця неймовірна суміш привертає увагу всього натовпу.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/scarlxrd_01.png"
+    },
+    {
+        "id": "music-kit-42",
+        "name": "Half-Life: Alyx — Anti-Citizen",
+        "description": "Цей музичний альбом на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Ви — єдиний шанс людства на виживання і ваші захопливі взаємодії з оточенням продовжаться в Counter-Strike: Global Offensive.",
+        "rarity": "High Grade",
+        "exclusive": true,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/hlalyx_01.png"
+    },
+    {
+        "id": "music-kit-43",
+        "name": "Музичний альбом | Austin Wintory — Bachram",
+        "description": "У цьому музичному альбомі Остін Вінторі змішує кельтські фентезійні мотиви з електронними звуками й розкішним вокалом Пітера Голлена.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/austinwintory_02.png"
+    },
+    {
+        "id": "music-kit-44",
+        "name": "Музичний альбом | Dren — Gunman Taco Truck",
+        "description": "Апокаліптичне маріачі з популярної інді-гри Gunman Taco Truck привносить у CS:GO шалені мексиканські мелодії, як-от «Pollo Diablo» і «Persecución de Helltain»!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/dren_02.png"
+    },
+    {
+        "id": "music-kit-45",
+        "name": "Музичний альбом | Daniel Sadowski — Eye of the Dragon",
+        "description": "Композитор Даніель Садовський, який подарував нам хіти «Total Domination», «The 8-Bit Kit» і «Crimson Assault», презентує альбом «Eye Of The Dragon», в якому змішує стиль ніндзі + постріли + хіп-хоп + техно для створення динамічних треків. <i>Ніндзя настільки швидкі, що ворог навіть не помічає швидких і точних смертельних ударів.</i>",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/danielsadowski_04.png"
+    },
+    {
+        "id": "music-kit-46",
+        "name": "Музичний альбом | Tree Adams and Ben Bromfield — M.U.D.D. FORCE",
+        "description": "Композитори Трі Адамс і Бен Бромфілд — алхіміки надпотужного хаосу під назвою «M.U.D.D. FORCE» — змішали епічні бойові мотиви та відшліфовані синтезаторні звуки у вирі суцільного руйнування.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/treeadams_benbromfield_01.png"
+    },
+    {
+        "id": "music-kit-47",
+        "name": "Музичний альбом | Tim Huling — Neo Noir",
+        "description": "Композитор Tim Huling презентує музику в стилі класичних нуарних фільмів у поєднанні із сучасним грувом і бітом.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/timhuling_01.png"
+    },
+    {
+        "id": "music-kit-48",
+        "name": "Музичний альбом | Sam Marshall — Bodacious",
+        "description": "Натхненний прикольною музикою відеоігор початку 90-х, композитор Sam Marshall подає ностальгію за класичними іграми під гострим соусом сучасності.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/sammarshall_01.png"
+    },
+    {
+        "id": "music-kit-49",
+        "name": "Музичний альбом | Matt Levine — Drifter",
+        "description": "Комозитор Мет Лівайн створив музичне шаленство, щоби вшанувати спагеті-вестерни. Як же класно сказати «Уперед, порадуй мене…»",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/mattlevine_01.png"
+    },
+    {
+        "id": "music-kit-50",
+        "name": "Музичний альбом | Amon Tobin — All for Dust",
+        "description": "Легендарний продюсер Amon Tobin дає CS:GO свою унікальну естетику. Цього разу за допомогою лампових підсилювачів.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/amontobin_01.png"
+    },
+    {
+        "id": "music-kit-51",
+        "name": "Darren Korb — музичний альбом «Hades»",
+        "description": "Напевне іноді ви не влучаєте в ціль, та цей потужний музичний альбом, щойно з підземного царства Аїда, точно не промах.",
+        "rarity": "High Grade",
+        "exclusive": true,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/hades_01.png"
+    },
+    {
+        "id": "music-kit-52",
+        "name": "Музичний альбом | Neck Deep — The Lowlife Pack",
+        "description": "Доведіть свою ненормальність (і що ви кращі за всіх на цій мапі) за допомогою нового музичного альбому від Neck Deep, що містить пісні з альбому «All Distortions Are Intentional».",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/neckdeep_02.png"
+    },
+    {
+        "id": "music-kit-53",
+        "name": "Музичний альбом | Scarlxrd — CHAIN$AW.LXADXUT.",
+        "description": "CHAIN$AW ВИПУСКАЄ SCARLXRD НА НЕПЕРЕВЕРШЕНОМУ РІВНІ З ГРУБИМ ТЕМПОМ І ВІДПОВІДНОЮ ВАЖКОЮ ЧАСТИНОЮ.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/scarlxrd_02.png"
+    },
+    {
+        "id": "music-kit-54",
+        "name": "Музичний альбом | Austin Wintory — Mocha Petal",
+        "description": "Остін Вінторі відповідає на питання, яке турбувало людство з давніх-давен: що буде, якщо змішати польку для акордеона з гранджевим геві-металом?",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/austinwintory_03.png"
+    },
+    {
+        "id": "music-kit-55",
+        "name": "Музичний альбом | Chipzel — ~Yellow Magic~",
+        "description": "Відеоігровий композитор і легенда жанру чиптюн Chipzel пропонує суміш гібридних стилів, сповнених веселощами, фанком та індивідуальністю, а також натхненну ламкими звуками Speak & Spell.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/chipzel_01.png"
+    },
+    {
+        "id": "music-kit-56",
+        "name": "Музичний альбом | Freaky DNA — Vici",
+        "description": "Опера. 8-бітні звуки. Аналогові синтезатори. Як це можна не любити? Спец жанру чиптюн Freaky DNA та сопрано співачка Leanne Koch об’єднуються для важких бітів і веселощів!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/freakydna_01.png"
+    },
+    {
+        "id": "music-kit-57",
+        "name": "Музичний альбом | Jesse Harlin — Astro Bellum",
+        "description": "Композитор Джессі Гарлін презентує помпезну космічну оперу за мотивами наукової фантастики 70-х, 80-х і пізніших.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/jesseharlin_01.png"
+    },
+    {
+        "id": "music-kit-58",
+        "name": "Музичний альбом | Laura Shigihara: Work Hard — Play Hard",
+        "description": "Лаура Шиґіхара, відеоігровий композитор і розробник, допоможе вам із гордістю продемонструвати свою зірку найкращого гравця. Насолоджуйтеся цією унікальною сумішшю танцювальної музики 1990-тих, синтезаторних звуків ретроігор та відтінками Plants vs. Zombies.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/laurashigihara_01.png"
+    },
+    {
+        "id": "music-kit-59",
+        "name": "Музичний альбом | Sarah Schachner — KOLIBRI",
+        "description": "Сара Шахнер пропонує готичний та антиутопічний хор розумних скандинавських роботів, які вирішують, що людство слід знищити.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/sarahschachner_01.png"
+    },
+    {
+        "id": "music-kit-60",
+        "name": "Музичний альбом | bbno$ — u mad!",
+        "description": "bbno$ формулює гімн для токсичних гравців «Ви божевільні!». Чи ви божевільні? Дослідження показують, що гра з такою музичною збіркою миттєво перейде зі срібного на глобальний рівень.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/bbnos_01.png"
+    },
+    {
+        "id": "music-kit-61",
+        "name": "Музичний альбом | The Verkkars & n0thing — Flashbang Dance",
+        "description": "Від сонячної Каліфорнії до холодної Лапландії: легенди Counter-Strike, n0thing і The Verkkars, об’єднують свої сили, щоби створити розривний хіт «Flashbang Dance»! 3, 2, 1 і ти не бачиш!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/theverkkars_02.png"
+    },
+    {
+        "id": "music-kit-62",
+        "name": "Музичний альбом | 3kliksphilip — Heading for the Source",
+        "description": "Прагнете стати професіоналом чи ненавмисно скочуєтесь униз? Нехай синтезатори 80-х і мрійливі мелодії цього набору повернуть вас назад. Назад, назад, назад… у старі добрі дні.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/3kliksphilip_01.png"
+    },
+    {
+        "id": "music-kit-63",
+        "name": "Музичний альбом | Humanity's Last Breath — Void",
+        "description": "Шведський гурт Humanity's Last Breath вривається в гру зі своїм музичним альбомом «Void». Гуркіт ударних, колосальні рифи та атмосфера, від якої аж мурашки по спині.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/hlb_01.png"
+    },
+    {
+        "id": "music-kit-64",
+        "name": "Музичний альбом | Juelz — Shooters",
+        "description": "Синтезатори нео-треп, жорсткі 808s, епічний фортепіанний риф і безліч звукових ефектів стрілянини. Треп-гімн «Shooters» від Juelz — по-справжньому елітний музичний комплект. Підходить лише для MVP.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/juelz_01.png"
+    },
+    {
+        "id": "music-kit-65",
+        "name": "Музичний альбом | Knock2 — dashstar*",
+        "description": "dashstar*, культовий гімн від Knock2 у жанрі «бас-хаус», забезпечує безперервну енергію, яка вловлює мантру молодого уродженця Сан-Дієго — «без обмежень».",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/knock2_01.png"
+    },
+    {
+        "id": "music-kit-66",
+        "name": "Музичний альбом | Meechy Darko — Gothic Luxury",
+        "description": "Хапайте Glock і спорядіть цей музичний альбом, щоби перенестися в центр андеграундної хіп-хоп сцени Нью-Йорка.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/meechydarko_01.png"
+    },
+    {
+        "id": "music-kit-67",
+        "name": "Музичний альбом | Sullivan King — Lock Me Up",
+        "description": "Подобається переслідування? Чи ви в захваті від полювання? У саундтреку Саллівана Кінга змішуються хард-рок, метал і дабстеп. З такою сумішшю вас не зупинити.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/sullivanking_01.png"
+    },
+    {
+        "id": "music-kit-68",
+        "name": "Музичний альбом | Perfect World, 花脸 Hua Lian (Painted Face)",
+        "description": "Святкуйте п’яту річницю випуску CS:GO у Китаї з унікальним музичним альбомом 花脸 Hua Lian (Painted Face), що поєднує народну оперу ціньцян (найдавніший рок-н-рол у китайському стилі) і сучасний рок-н-рол. Чи ви в хмарі диму, чи засліплені світлошумовою гранатою — не загубіться!",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/perfectworld_01.png"
+    },
+    {
+        "id": "music-kit-69",
+        "name": "Музичний альбом | Denzel Curry — ULTIMATE",
+        "description": "Дензел привносить свою фірмову енергію в CS:GO, поєднуючи треп, джаз і драм-енд-бейс. У цьому наборі є такі хіти Дензела як «Walkin», «ULTIMATE» та багато інших, тож вибирайте нікельовані хромовані Beretta й додавайте інтенсивності з музичним альбомом ULTIMATE.",
+        "rarity": "High Grade",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/music_kits/denzelcurry_01.png"
+    }
+]

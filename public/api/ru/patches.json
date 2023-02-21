@@ -1,0 +1,793 @@
+[
+    {
+        "id": "patch-4550",
+        "name": "Patch | Безумный банан",
+        "description": "<i>Чтобы было с чем сравнивать</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_banana_large.png"
+    },
+    {
+        "id": "patch-4551",
+        "name": "Patch | Босс",
+        "description": "<i>Блажен агент, вкушая мирный сон. Не осенит главы венчанной он!</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_boss_large.png"
+    },
+    {
+        "id": "patch-4552",
+        "name": "Patch | Любитель цыпочек",
+        "description": "<i>Спасибо, что щадишь их</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_chickenlover_large.png"
+    },
+    {
+        "id": "patch-4553",
+        "name": "Patch | Желаю крепкой хватки",
+        "description": "<i>4 убийства — норма для агента с этой нашивкой</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_clutch_large.png"
+    },
+    {
+        "id": "patch-4554",
+        "name": "Patch | Дракон",
+        "description": "<i>К дракону на этой нашивке по бокам примыкают два знаменитых АК-47</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dragon_large.png"
+    },
+    {
+        "id": "patch-4555",
+        "name": "Patch | Плёвое дело",
+        "description": "<i>Контроль качества пропустил эту нашивку, хотя «SQEEZY» написано неправильно</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_easypeasy_large.png"
+    },
+    {
+        "id": "patch-4556",
+        "name": "Patch | Гнев",
+        "description": "<i>Наклейка, означающая гнев, злость или ярость</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_fury_large.png"
+    },
+    {
+        "id": "patch-4557",
+        "name": "Patch | Вой",
+        "description": "<i>Нашивка — чистое золото... а также красный и оранжевый цвета</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_howl_large.png"
+    },
+    {
+        "id": "patch-4558",
+        "name": "Patch | Карп кои",
+        "description": "<i>Нашивка с двумя карпами кои над завитками водной синевы</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_koi_large.png"
+    },
+    {
+        "id": "patch-4559",
+        "name": "Patch | Долголетие",
+        "description": "<i>Эта красно-белая нашивка — авторская версия логотипа CSGO</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_longevity_large.png"
+    },
+    {
+        "id": "patch-4560",
+        "name": "Patch | Дикое пламя",
+        "description": "<i>Нашивка с логотипом операции «Дикое пламя», начавшейся 17 февраля 2016 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_wildfire_large.png"
+    },
+    {
+        "id": "patch-4561",
+        "name": "Patch | Бдительность",
+        "description": "<i>Нашивка для скрытного; для союзника, что бдительно несёт дозор</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vigilance_large.png"
+    },
+    {
+        "id": "patch-4562",
+        "name": "Patch | Бладхаунд",
+        "description": "<i>Нашивка с логотипом операции «Бладхаунд», начавшейся 26 мая 2015 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bloodhound_large.png"
+    },
+    {
+        "id": "patch-4563",
+        "name": "Patch | Браво",
+        "description": "<i>Нашивка с логотипом операции «Браво», начавшейся 19 сентября 2013 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bravo_large.png"
+    },
+    {
+        "id": "patch-4564",
+        "name": "Patch | Прорыв",
+        "description": "<i>Нашивка с логотипом операции «Прорыв», начавшейся 1 июля 2014 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_breakout_large.png"
+    },
+    {
+        "id": "patch-4565",
+        "name": "Patch | Запретная зона",
+        "description": "<i>Нашивка с логотипом «Запретной зоны», появившейся в игре 6 декабря 2018 года</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dangerzone_large.png"
+    },
+    {
+        "id": "patch-4566",
+        "name": "Patch | Гидра",
+        "description": "<i>Нашивка с логотипом операции «Гидра», начавшейся 23 мая 2017 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_hydra_large.png"
+    },
+    {
+        "id": "patch-4567",
+        "name": "Patch | Расплата",
+        "description": "<i>Нашивка с логотипом операции «Расплата», начавшейся 25 апреля 2013 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_payback_large.png"
+    },
+    {
+        "id": "patch-4568",
+        "name": "Patch | Феникс",
+        "description": "<i>Нашивка с логотипом операции «Феникс», начавшейся 20 февраля 2014 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_phoenix_large.png"
+    },
+    {
+        "id": "patch-4569",
+        "name": "Patch | Расколотая сеть",
+        "description": "<i>Нашивка с логотипом операции «Расколотая сеть», начавшейся 18 ноября 2019 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_shatteredweb_large.png"
+    },
+    {
+        "id": "patch-4570",
+        "name": "Patch | Авангард",
+        "description": "<i>Нашивка с логотипом операции «Авангард», начавшейся 11 ноября 2014 года</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vanguard_large.png"
+    },
+    {
+        "id": "patch-4571",
+        "name": "Patch | Металлическое серебро",
+        "description": "<i>Нашивка для тех, кто делает первые шаги на пути ко «Всемирной элите».</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_large.png"
+    },
+    {
+        "id": "patch-4572",
+        "name": "Patch | Металлическая золотая звезда — I",
+        "description": "<i>Выбрались из «Серебра»? Работа ещё не окончена.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova1_large.png"
+    },
+    {
+        "id": "patch-4575",
+        "name": "Patch | Металлическая золотая звезда — Магистр",
+        "description": "<i>А вы думали, что «Серебро» сложно преодолеть...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnovamaster_large.png"
+    },
+    {
+        "id": "patch-4576",
+        "name": "Patch | Металлический магистр-хранитель — I",
+        "description": "<i>Покинули «Золотую звезду»? Молодцом, виден прогресс.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian1_large.png"
+    },
+    {
+        "id": "patch-4578",
+        "name": "Patch | Металлический магистр-хранитель — Элита",
+        "description": "<i>Нашивка создана мастерами своего дела: серебряные буквы звания отлично смотрятся на синем фоне.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardianelite_large.png"
+    },
+    {
+        "id": "patch-4579",
+        "name": "Patch | Металлический заслуженный магистр-хранитель ★",
+        "description": "<i>Человеку нужно измениться, приспособиться и научиться работе в команде, чтобы достичь звания заслуженного магистра-хранителя. Продолжайте в том же духе.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg_large.png"
+    },
+    {
+        "id": "patch-4580",
+        "name": "Patch | Металлический легендарный беркут",
+        "description": "<i>Нашивка «Легендарный беркут» с парой золотых крыльев.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle_large.png"
+    },
+    {
+        "id": "patch-4581",
+        "name": "Patch | Металлический легендарный беркут-магистр ★",
+        "description": "<i>Вы приближаетесь к вершине, но будущие соперники не дадут вам пощады.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster_large.png"
+    },
+    {
+        "id": "patch-4582",
+        "name": "Patch | Металлический великий магистр высшего ранга",
+        "description": "<i>На этой нашивке великого магистра земной шар имеет форму сердца, а украшают её синие и красные элементы.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_supreme_large.png"
+    },
+    {
+        "id": "patch-4583",
+        "name": "Patch | Металлическая всемирная элита ★",
+        "description": "<i>Поздравляем с прибытием. Теперь вас ждёт настоящее испытание.</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite_large.png"
+    },
+    {
+        "id": "patch-4584",
+        "name": "Patch | Металлический заслуженный магистр-хранитель",
+        "description": "<i>Человеку нужно измениться, приспособиться и научиться работе в команде, чтобы достичь звания заслуженного магистра-хранителя. Продолжайте в том же духе.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg2_large.png"
+    },
+    {
+        "id": "patch-4585",
+        "name": "Patch | Металлический легендарный беркут",
+        "description": "<i>Нашивка «Легендарный беркут» с парой золотых крыльев.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle2_large.png"
+    },
+    {
+        "id": "patch-4586",
+        "name": "Patch | Металлический легендарный беркут-магистр",
+        "description": "<i>Вы приближаетесь к вершине, но будущие соперники не дадут вам пощады.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster2_large.png"
+    },
+    {
+        "id": "patch-4587",
+        "name": "Patch | Металлический серебряный демон",
+        "description": "<i>«Серебряный ад» — это не место, это состояние души. И из него можно выбраться в любой момент.</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_demon_large.png"
+    },
+    {
+        "id": "patch-4588",
+        "name": "Patch | Металлический великий магистр",
+        "description": "<i>На этой нашивке изображён логотип с крылатым набором для разминирования и шесть звёзд.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_suprememaster_large.png"
+    },
+    {
+        "id": "patch-4589",
+        "name": "Patch | Аликс",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_alyx_large.png"
+    },
+    {
+        "id": "patch-4591",
+        "name": "Patch | Пропитание!",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_green_large.png"
+    },
+    {
+        "id": "patch-4592",
+        "name": "Patch | Вортигонт",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_vort_large.png"
+    },
+    {
+        "id": "patch-4593",
+        "name": "Patch | Рисунок хедкраба",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_teal_large.png"
+    },
+    {
+        "id": "patch-4594",
+        "name": "Patch | Медная лямбда",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_copper_large.png"
+    },
+    {
+        "id": "patch-4595",
+        "name": "Patch | Здоровье",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_hearts_large.png"
+    },
+    {
+        "id": "patch-4596",
+        "name": "Patch | Шлем солдата Альянса",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_combine_front_large.png"
+    },
+    {
+        "id": "patch-4597",
+        "name": "Patch | Чёрная Меза",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_blackmesa_large.png"
+    },
+    {
+        "id": "patch-4598",
+        "name": "Patch | Альянс",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_cmb_large.png"
+    },
+    {
+        "id": "patch-4599",
+        "name": "Patch | Лямбда",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_orange_large.png"
+    },
+    {
+        "id": "patch-4600",
+        "name": "Patch | Сити-17",
+        "description": "Памятная нашивка Half-Life: Alyx",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_c17_large.png"
+    },
+    {
+        "id": "patch-4697",
+        "name": "Patch | Металлическая всемирная элита",
+        "description": "<i>Поздравляем с прибытием. Теперь вас ждёт настоящее испытание.</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite2_large.png"
+    },
+    {
+        "id": "patch-4699",
+        "name": "Patch | Металлический магистр-хранитель",
+        "description": "<i>Покинули «Золотую звезду»? Молодцом, виден прогресс.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian3_large.png"
+    },
+    {
+        "id": "patch-4700",
+        "name": "Patch | Металлическая золотая звезда",
+        "description": "<i>Выбрались из «Серебра»? Работа ещё не окончена.</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova4_large.png"
+    },
+    {
+        "id": "patch-4937",
+        "name": "Patch | Оставь надежду",
+        "description": "<i>Всяк сюда входящий...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_abandon_hope_large.png"
+    },
+    {
+        "id": "patch-4938",
+        "name": "Patch | Поднять якоря",
+        "description": "<i>Недвижимость в бушующем море...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_anchor_large.png"
+    },
+    {
+        "id": "patch-4939",
+        "name": "Patch | Скользящий скат",
+        "description": "<i>Рассекает под волнами...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cruising_large.png"
+    },
+    {
+        "id": "patch-4940",
+        "name": "Patch | Штыколаз",
+        "description": "<i>Не сдавайся, пока не квакнешься...</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_frog_skeleton_large.png"
+    },
+    {
+        "id": "patch-4941",
+        "name": "Patch | Злой ролл",
+        "description": "<i>Скрути врага!</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_mad_sushi_large.png"
+    },
+    {
+        "id": "patch-4942",
+        "name": "Patch | Гигантский кальмар",
+        "description": "<i>Заманивает добычу в глубины...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_pink_squid_large.png"
+    },
+    {
+        "id": "patch-4943",
+        "name": "Patch | Пиратская пиранья",
+        "description": "<i>С миру по укусу — живому погибель...</i>",
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_piranha_large.png"
+    },
+    {
+        "id": "patch-4944",
+        "name": "Patch | Смерть из пучин",
+        "description": "<i>Берегись, там, наверху...</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_siren_large.png"
+    },
+    {
+        "id": "patch-4945",
+        "name": "Patch | Мертвецы",
+        "description": "<i>Универсальный знак опасности...</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_skull_crossswords_large.png"
+    },
+    {
+        "id": "patch-4946",
+        "name": "Patch | Закатная волна",
+        "description": "<i>Новый день на волнах...</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_sunset_wave_large.png"
+    },
+    {
+        "id": "patch-4947",
+        "name": "Patch | Подводный спецназ",
+        "description": "<i>Рыбы в деле</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_fish_go_large.png"
+    },
+    {
+        "id": "patch-4948",
+        "name": "Patch | Древний бог",
+        "description": "<i>Ктулху одобряет разминирования...</i>",
+        "rarity": "экзотичного вида",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cthulhu_large.png"
+    },
+    {
+        "id": "patch-4949",
+        "name": "Patch | Пора кушать",
+        "description": "<i>Победа не без обеда...</i>",
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_meal_time_large.png"
+    },
+    {
+        "id": "patch-5079",
+        "name": "Patch | Ninjas in Pyjamas | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_large.png"
+    },
+    {
+        "id": "patch-5080",
+        "name": "Patch | Ninjas in Pyjamas (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_gold_large.png"
+    },
+    {
+        "id": "patch-5081",
+        "name": "Patch | FURIA | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_large.png"
+    },
+    {
+        "id": "patch-5082",
+        "name": "Patch | FURIA (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_gold_large.png"
+    },
+    {
+        "id": "patch-5083",
+        "name": "Patch | Natus Vincere | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_large.png"
+    },
+    {
+        "id": "patch-5084",
+        "name": "Patch | Natus Vincere (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_gold_large.png"
+    },
+    {
+        "id": "patch-5085",
+        "name": "Patch | Vitality | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_large.png"
+    },
+    {
+        "id": "patch-5086",
+        "name": "Patch | Vitality (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_gold_large.png"
+    },
+    {
+        "id": "patch-5087",
+        "name": "Patch | Team Liquid | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_large.png"
+    },
+    {
+        "id": "patch-5088",
+        "name": "Patch | Team Liquid (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_gold_large.png"
+    },
+    {
+        "id": "patch-5089",
+        "name": "Patch | Gambit Gaming | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_large.png"
+    },
+    {
+        "id": "patch-5090",
+        "name": "Patch | Gambit Gaming (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_gold_large.png"
+    },
+    {
+        "id": "patch-5091",
+        "name": "Patch | G2 Esports | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_large.png"
+    },
+    {
+        "id": "patch-5092",
+        "name": "Patch | G2 Esports (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_gold_large.png"
+    },
+    {
+        "id": "patch-5093",
+        "name": "Patch | Evil Geniuses | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_large.png"
+    },
+    {
+        "id": "patch-5094",
+        "name": "Patch | Evil Geniuses (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_gold_large.png"
+    },
+    {
+        "id": "patch-5095",
+        "name": "Patch | Team Spirit | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_large.png"
+    },
+    {
+        "id": "patch-5096",
+        "name": "Patch | Team Spirit (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_gold_large.png"
+    },
+    {
+        "id": "patch-5097",
+        "name": "Patch | Astralis | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_large.png"
+    },
+    {
+        "id": "patch-5098",
+        "name": "Patch | Astralis (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_gold_large.png"
+    },
+    {
+        "id": "patch-5099",
+        "name": "Patch | paiN Gaming | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_large.png"
+    },
+    {
+        "id": "patch-5100",
+        "name": "Patch | paiN Gaming (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_gold_large.png"
+    },
+    {
+        "id": "patch-5101",
+        "name": "Patch | ENCE | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_large.png"
+    },
+    {
+        "id": "patch-5102",
+        "name": "Patch | ENCE (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_gold_large.png"
+    },
+    {
+        "id": "patch-5103",
+        "name": "Patch | BIG | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_large.png"
+    },
+    {
+        "id": "patch-5104",
+        "name": "Patch | BIG (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_gold_large.png"
+    },
+    {
+        "id": "patch-5105",
+        "name": "Patch | Movistar Riders | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_large.png"
+    },
+    {
+        "id": "patch-5106",
+        "name": "Patch | Movistar Riders (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_gold_large.png"
+    },
+    {
+        "id": "patch-5107",
+        "name": "Patch | Heroic | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_large.png"
+    },
+    {
+        "id": "patch-5108",
+        "name": "Patch | Heroic (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_gold_large.png"
+    },
+    {
+        "id": "patch-5109",
+        "name": "Patch | MOUZ | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_large.png"
+    },
+    {
+        "id": "patch-5110",
+        "name": "Patch | MOUZ (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_gold_large.png"
+    },
+    {
+        "id": "patch-5111",
+        "name": "Patch | Sharks Esports | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_large.png"
+    },
+    {
+        "id": "patch-5112",
+        "name": "Patch | Sharks Esports (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_gold_large.png"
+    },
+    {
+        "id": "patch-5113",
+        "name": "Patch | Tyloo | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_large.png"
+    },
+    {
+        "id": "patch-5114",
+        "name": "Patch | Tyloo (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_gold_large.png"
+    },
+    {
+        "id": "patch-5115",
+        "name": "Patch | Renegades | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_large.png"
+    },
+    {
+        "id": "patch-5116",
+        "name": "Patch | Renegades (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_gold_large.png"
+    },
+    {
+        "id": "patch-5117",
+        "name": "Patch | Entropiq | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_large.png"
+    },
+    {
+        "id": "patch-5118",
+        "name": "Patch | Entropiq (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_gold_large.png"
+    },
+    {
+        "id": "patch-5119",
+        "name": "Patch | GODSENT | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_large.png"
+    },
+    {
+        "id": "patch-5120",
+        "name": "Patch | GODSENT (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_gold_large.png"
+    },
+    {
+        "id": "patch-5121",
+        "name": "Patch | Virtus.Pro | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_large.png"
+    },
+    {
+        "id": "patch-5122",
+        "name": "Patch | Virtus.Pro (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+    },
+    {
+        "id": "patch-5123",
+        "name": "Patch | Copenhagen Flames | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+    },
+    {
+        "id": "patch-5124",
+        "name": "Patch | Copenhagen Flames (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+    {
+        "id": "patch-5125",
+        "name": "Patch | FaZe Clan | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_large.png"
+    },
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_gold_large.png"
+    },
+    {
+        "id": "patch-5127",
+        "name": "Patch | PGL | Стокгольм 2021",
+        "description": null,
+        "rarity": "высшего класса",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_large.png"
+    },
+    {
+        "id": "patch-5128",
+        "name": "Patch | PGL (золотая) | Стокгольм 2021",
+        "description": null,
+        "rarity": "примечательного типа",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_gold_large.png"
+    }
+]

@@ -1,0 +1,793 @@
+[
+    {
+        "id": "patch-4550",
+        "name": "Patch | 瘋狂香蕉",
+        "description": "<i>幹員比例尺</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_banana_large.png"
+    },
+    {
+        "id": "patch-4551",
+        "name": "Patch | 老大",
+        "description": "<i>要戴上皇冠，必須擔得起其重量</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_boss_large.png"
+    },
+    {
+        "id": "patch-4552",
+        "name": "Patch | 咕咕雞愛好者",
+        "description": "<i>感謝您饒過牠們</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_chickenlover_large.png"
+    },
+    {
+        "id": "patch-4553",
+        "name": "Patch | 歡迎來倒胃",
+        "description": "<i>通常配戴此補丁者，其四名隊友都已倒下</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_clutch_large.png"
+    },
+    {
+        "id": "patch-4554",
+        "name": "Patch | 龍",
+        "description": "<i>這塊補丁呈現了龍雙持經典 AK-47 的圖樣</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dragon_large.png"
+    },
+    {
+        "id": "patch-4555",
+        "name": "Patch | 擠檸檬般簡單",
+        "description": "<i>這塊補丁不知道怎麼通過品管的，上頭的字拼錯了</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_easypeasy_large.png"
+    },
+    {
+        "id": "patch-4556",
+        "name": "Patch | 狂怒",
+        "description": "<i>一塊象徵憤怒、氣憤，或狂怒的補丁</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_fury_large.png"
+    },
+    {
+        "id": "patch-4557",
+        "name": "Patch | 咆嚎",
+        "description": "<i>這塊補丁配得起那紅、橙、金的配色</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_howl_large.png"
+    },
+    {
+        "id": "patch-4558",
+        "name": "Patch | 錦鯉",
+        "description": "<i>這塊補丁呈現了兩隻錦鯉游於藍色漩流之上的圖樣</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_koi_large.png"
+    },
+    {
+        "id": "patch-4559",
+        "name": "Patch | 剪紙GO",
+        "description": "<i>這塊紅白配色的補丁呈現了將字體藝術化的「CS:GO」標誌</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_longevity_large.png"
+    },
+    {
+        "id": "patch-4560",
+        "name": "Patch | 野火",
+        "description": "<i>這塊補丁繡有於 2016 年 2 月 17 日啟動的《野火行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_wildfire_large.png"
+    },
+    {
+        "id": "patch-4561",
+        "name": "Patch | 高度警戒",
+        "description": "<i>給潛行者使用的補丁；潛行者是時時保持戒備的隊友</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vigilance_large.png"
+    },
+    {
+        "id": "patch-4562",
+        "name": "Patch | 獵犬",
+        "description": "<i>這塊補丁繡有於 2015 年 5 月 26 日啟動的《獵犬行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bloodhound_large.png"
+    },
+    {
+        "id": "patch-4563",
+        "name": "Patch | Bravo",
+        "description": "<i>這塊補丁繡有於 2013 年 9 月 19 日啟動的《Bravo 行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bravo_large.png"
+    },
+    {
+        "id": "patch-4564",
+        "name": "Patch | 突圍",
+        "description": "<i>這塊補丁繡有於 2014 年 7 月 1 日啟動的《突圍行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_breakout_large.png"
+    },
+    {
+        "id": "patch-4565",
+        "name": "Patch | 危險區域",
+        "description": "<i>這塊補丁繡有於 2018 年 12 月 6 日啟動的《危險區域》之標誌</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dangerzone_large.png"
+    },
+    {
+        "id": "patch-4566",
+        "name": "Patch | 九頭蛇",
+        "description": "<i>這塊補丁繡有於 2017 年 5 月 23 日啟動的《九頭蛇行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_hydra_large.png"
+    },
+    {
+        "id": "patch-4567",
+        "name": "Patch | 回饋",
+        "description": "<i>這塊補丁繡有於 2013 年 4 月 25 日啟動的《回饋行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_payback_large.png"
+    },
+    {
+        "id": "patch-4568",
+        "name": "Patch | 鳳凰",
+        "description": "<i>這塊補丁繡有於 2014 年 2 月 20 日啟動的《鳳凰行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_phoenix_large.png"
+    },
+    {
+        "id": "patch-4569",
+        "name": "Patch | 《裂網行動》",
+        "description": "<i>這塊補丁繡有於 2019 年 11 月 18 日啟動的《裂網行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_shatteredweb_large.png"
+    },
+    {
+        "id": "patch-4570",
+        "name": "Patch | 先鋒",
+        "description": "<i>這塊補丁繡有於 2014 年 11 月 11 日啟動的《先鋒行動》之標誌</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vanguard_large.png"
+    },
+    {
+        "id": "patch-4571",
+        "name": "Patch | 金屬樂團風白銀",
+        "description": "<i>A patch for those taking their first step on the road to Global.</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_large.png"
+    },
+    {
+        "id": "patch-4572",
+        "name": "Patch | 金屬樂團風黃金之星 - I",
+        "description": "<i>Made it out of Silver? There's still work to do.</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova1_large.png"
+    },
+    {
+        "id": "patch-4575",
+        "name": "Patch | 金屬樂團風黃金之星 - 大師",
+        "description": "<i>And you thought Silver was hard to get out of...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnovamaster_large.png"
+    },
+    {
+        "id": "patch-4576",
+        "name": "Patch | 金屬樂團風大師守護者 - I",
+        "description": "<i>脫離黃金之星了？很好，你在逐漸進步。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian1_large.png"
+    },
+    {
+        "id": "patch-4578",
+        "name": "Patch | 金屬樂團風大師守護者 - 菁英",
+        "description": "<i>行家打造，這塊大師守護者 - 菁英補丁上的銀色絲線閃耀於海軍藍的底布之上。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardianelite_large.png"
+    },
+    {
+        "id": "patch-4579",
+        "name": "Patch | 金屬樂團風大師守護者 - 卓越 ★",
+        "description": "<i>人人都必須放低姿態、順應環境、同心協力才能到達大師守護者 - 卓越技術組的要求。精益求精。</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg_large.png"
+    },
+    {
+        "id": "patch-4580",
+        "name": "Patch | 金屬樂團風傳奇之鷹",
+        "description": "<i>這塊傳奇之鷹補丁上有一對黃金之翼。</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle_large.png"
+    },
+    {
+        "id": "patch-4581",
+        "name": "Patch | 金屬樂團風傳奇之鷹 - 大師 ★",
+        "description": "<i>離頂端已經不遠，但前方等著你的挑戰絕對凶險萬分。</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster_large.png"
+    },
+    {
+        "id": "patch-4582",
+        "name": "Patch | 金屬樂團風至高首席大師",
+        "description": "<i>這塊首席補丁有著以紅藍點綴的心型地球圖案。</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_supreme_large.png"
+    },
+    {
+        "id": "patch-4583",
+        "name": "Patch | 金屬樂團風全球菁英 ★",
+        "description": "<i>恭喜你走到了這一步。現在真正的挑戰正要開始。</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite_large.png"
+    },
+    {
+        "id": "patch-4584",
+        "name": "Patch | 金屬樂團風大師守護者 - 卓越",
+        "description": "<i>人人都必須放低姿態、順應環境、同心協力才能到達大師守護者 - 卓越技術組的要求。精益求精。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg2_large.png"
+    },
+    {
+        "id": "patch-4585",
+        "name": "Patch | 金屬樂團風傳奇之鷹",
+        "description": "<i>這塊傳奇之鷹補丁上有一對黃金之翼。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle2_large.png"
+    },
+    {
+        "id": "patch-4586",
+        "name": "Patch | 金屬樂團風傳奇之鷹 - 大師",
+        "description": "<i>離頂端已經不遠，但前方等著你的挑戰絕對凶險萬分。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster2_large.png"
+    },
+    {
+        "id": "patch-4587",
+        "name": "Patch | 金屬樂團風白銀惡魔",
+        "description": "<i>「銀牌地獄」不是一個位置，而是一種心態，並且隨時都能脫離。</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_demon_large.png"
+    },
+    {
+        "id": "patch-4588",
+        "name": "Patch | 金屬樂團風至高大師",
+        "description": "<i>一塊有六顆星星圍繞，中間為具羽翼的拆彈工具的至高首席大師補丁。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_suprememaster_large.png"
+    },
+    {
+        "id": "patch-4589",
+        "name": "Patch | 艾莉克絲",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_alyx_large.png"
+    },
+    {
+        "id": "patch-4591",
+        "name": "Patch | 營養品！",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_green_large.png"
+    },
+    {
+        "id": "patch-4592",
+        "name": "Patch | 弗地崗人",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_vort_large.png"
+    },
+    {
+        "id": "patch-4593",
+        "name": "Patch | 食腦蟲浮雕",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_teal_large.png"
+    },
+    {
+        "id": "patch-4594",
+        "name": "Patch | 銅 λ 符號",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_copper_large.png"
+    },
+    {
+        "id": "patch-4595",
+        "name": "Patch | 生命值",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_hearts_large.png"
+    },
+    {
+        "id": "patch-4596",
+        "name": "Patch | 合成人頭盔",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_combine_front_large.png"
+    },
+    {
+        "id": "patch-4597",
+        "name": "Patch | 黑色高地",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_blackmesa_large.png"
+    },
+    {
+        "id": "patch-4598",
+        "name": "Patch | CMB",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_cmb_large.png"
+    },
+    {
+        "id": "patch-4599",
+        "name": "Patch | λ 符號",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_orange_large.png"
+    },
+    {
+        "id": "patch-4600",
+        "name": "Patch | 17 號城",
+        "description": "《戰慄時空：艾莉克絲》紀念補丁",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_c17_large.png"
+    },
+    {
+        "id": "patch-4697",
+        "name": "Patch | 金屬樂團風全球菁英",
+        "description": "<i>恭喜你走到了這一步。現在真正的挑戰正要開始。</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite2_large.png"
+    },
+    {
+        "id": "patch-4699",
+        "name": "Patch | 金屬樂團風大師守護者",
+        "description": "<i>脫離黃金之星了？很好，你在逐漸進步。</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian3_large.png"
+    },
+    {
+        "id": "patch-4700",
+        "name": "Patch | 金屬樂團風黃金之星",
+        "description": "<i>Made it out of Silver? There's still work to do.</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova4_large.png"
+    },
+    {
+        "id": "patch-4937",
+        "name": "Patch | 放棄希望",
+        "description": "<i>敢進來的都會...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_abandon_hope_large.png"
+    },
+    {
+        "id": "patch-4938",
+        "name": "Patch | 下錨",
+        "description": "<i>在風浪中屹立不搖...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_anchor_large.png"
+    },
+    {
+        "id": "patch-4939",
+        "name": "Patch | 巡弋魟",
+        "description": "<i>浪間滑行...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cruising_large.png"
+    },
+    {
+        "id": "patch-4940",
+        "name": "Patch | 刺刀青蛙",
+        "description": "<i>掛點之前絕不放棄...</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_frog_skeleton_large.png"
+    },
+    {
+        "id": "patch-4941",
+        "name": "Patch | 瘋狂壽司",
+        "description": "<i>殺敵包在我身上！</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_mad_sushi_large.png"
+    },
+    {
+        "id": "patch-4942",
+        "name": "Patch | 大王烏賊",
+        "description": "<i>把獵物拖入深淵...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_pink_squid_large.png"
+    },
+    {
+        "id": "patch-4943",
+        "name": "Patch | 海盜",
+        "description": "<i>一人一口，屍骨無存...</i>",
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_piranha_large.png"
+    },
+    {
+        "id": "patch-4944",
+        "name": "Patch | 死神來自海底",
+        "description": "<i>上面的注意了...</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_siren_large.png"
+    },
+    {
+        "id": "patch-4945",
+        "name": "Patch | 死無對證",
+        "description": "<i>世界通行的危險符號...</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_skull_crossswords_large.png"
+    },
+    {
+        "id": "patch-4946",
+        "name": "Patch | 日落餘波",
+        "description": "<i>汪洋中的新一日...</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_sunset_wave_large.png"
+    },
+    {
+        "id": "patch-4947",
+        "name": "Patch | 水中攻勢",
+        "description": "<i>魚群出擊</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_fish_go_large.png"
+    },
+    {
+        "id": "patch-4948",
+        "name": "Patch | 上古之神",
+        "description": "<i>克蘇魯稱賞能拆除炸彈的人...</i>",
+        "rarity": "特製",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cthulhu_large.png"
+    },
+    {
+        "id": "patch-4949",
+        "name": "Patch | 吃飯時間",
+        "description": "<i>來點勝利當午餐...</i>",
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_meal_time_large.png"
+    },
+    {
+        "id": "patch-5079",
+        "name": "Patch | Ninjas in Pyjamas | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_large.png"
+    },
+    {
+        "id": "patch-5080",
+        "name": "Patch | Ninjas in Pyjamas（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_gold_large.png"
+    },
+    {
+        "id": "patch-5081",
+        "name": "Patch | FURIA | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_large.png"
+    },
+    {
+        "id": "patch-5082",
+        "name": "Patch | FURIA（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_gold_large.png"
+    },
+    {
+        "id": "patch-5083",
+        "name": "Patch | Natus Vincere | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_large.png"
+    },
+    {
+        "id": "patch-5084",
+        "name": "Patch | Natus Vincere（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_gold_large.png"
+    },
+    {
+        "id": "patch-5085",
+        "name": "Patch | Vitality | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_large.png"
+    },
+    {
+        "id": "patch-5086",
+        "name": "Patch | Vitality（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_gold_large.png"
+    },
+    {
+        "id": "patch-5087",
+        "name": "Patch | Team Liquid | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_large.png"
+    },
+    {
+        "id": "patch-5088",
+        "name": "Patch | Team Liquid（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_gold_large.png"
+    },
+    {
+        "id": "patch-5089",
+        "name": "Patch | Gambit Gaming | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_large.png"
+    },
+    {
+        "id": "patch-5090",
+        "name": "Patch | Gambit Gaming（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_gold_large.png"
+    },
+    {
+        "id": "patch-5091",
+        "name": "Patch | G2 Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_large.png"
+    },
+    {
+        "id": "patch-5092",
+        "name": "Patch | G2 Esports（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_gold_large.png"
+    },
+    {
+        "id": "patch-5093",
+        "name": "Patch | Evil Geniuses | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_large.png"
+    },
+    {
+        "id": "patch-5094",
+        "name": "Patch | Evil Geniuses（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_gold_large.png"
+    },
+    {
+        "id": "patch-5095",
+        "name": "Patch | Team Spirit | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_large.png"
+    },
+    {
+        "id": "patch-5096",
+        "name": "Patch | Team Spirit（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_gold_large.png"
+    },
+    {
+        "id": "patch-5097",
+        "name": "Patch | Astralis | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_large.png"
+    },
+    {
+        "id": "patch-5098",
+        "name": "Patch | Astralis（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_gold_large.png"
+    },
+    {
+        "id": "patch-5099",
+        "name": "Patch | paiN Gaming | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_large.png"
+    },
+    {
+        "id": "patch-5100",
+        "name": "Patch | paiN Gaming（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_gold_large.png"
+    },
+    {
+        "id": "patch-5101",
+        "name": "Patch | ENCE | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_large.png"
+    },
+    {
+        "id": "patch-5102",
+        "name": "Patch | ENCE（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_gold_large.png"
+    },
+    {
+        "id": "patch-5103",
+        "name": "Patch | BIG | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_large.png"
+    },
+    {
+        "id": "patch-5104",
+        "name": "Patch | BIG（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_gold_large.png"
+    },
+    {
+        "id": "patch-5105",
+        "name": "Patch | Movistar Riders | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_large.png"
+    },
+    {
+        "id": "patch-5106",
+        "name": "Patch | Movistar Riders（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_gold_large.png"
+    },
+    {
+        "id": "patch-5107",
+        "name": "Patch | Heroic | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_large.png"
+    },
+    {
+        "id": "patch-5108",
+        "name": "Patch | Heroic（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_gold_large.png"
+    },
+    {
+        "id": "patch-5109",
+        "name": "Patch | MOUZ | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_large.png"
+    },
+    {
+        "id": "patch-5110",
+        "name": "Patch | MOUZ（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_gold_large.png"
+    },
+    {
+        "id": "patch-5111",
+        "name": "Patch | Sharks Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_large.png"
+    },
+    {
+        "id": "patch-5112",
+        "name": "Patch | Sharks Esports（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_gold_large.png"
+    },
+    {
+        "id": "patch-5113",
+        "name": "Patch | Tyloo | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_large.png"
+    },
+    {
+        "id": "patch-5114",
+        "name": "Patch | Tyloo（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_gold_large.png"
+    },
+    {
+        "id": "patch-5115",
+        "name": "Patch | Renegades | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_large.png"
+    },
+    {
+        "id": "patch-5116",
+        "name": "Patch | Renegades（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_gold_large.png"
+    },
+    {
+        "id": "patch-5117",
+        "name": "Patch | Entropiq | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_large.png"
+    },
+    {
+        "id": "patch-5118",
+        "name": "Patch | Entropiq（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_gold_large.png"
+    },
+    {
+        "id": "patch-5119",
+        "name": "Patch | GODSENT | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_large.png"
+    },
+    {
+        "id": "patch-5120",
+        "name": "Patch | GODSENT（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_gold_large.png"
+    },
+    {
+        "id": "patch-5121",
+        "name": "Patch | Virtus.Pro | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_large.png"
+    },
+    {
+        "id": "patch-5122",
+        "name": "Patch | Virtus.Pro（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+    },
+    {
+        "id": "patch-5123",
+        "name": "Patch | Copenhagen Flames | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+    },
+    {
+        "id": "patch-5124",
+        "name": "Patch | Copenhagen Flames（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+    {
+        "id": "patch-5125",
+        "name": "Patch | FaZe Clan | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_large.png"
+    },
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_gold_large.png"
+    },
+    {
+        "id": "patch-5127",
+        "name": "Patch | PGL | Stockholm 2021",
+        "description": null,
+        "rarity": "高級",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_large.png"
+    },
+    {
+        "id": "patch-5128",
+        "name": "Patch | PGL（黃金）| Stockholm 2021",
+        "description": null,
+        "rarity": "神話",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_gold_large.png"
+    }
+]

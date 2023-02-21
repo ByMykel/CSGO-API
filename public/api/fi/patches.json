@@ -1,0 +1,793 @@
+[
+    {
+        "id": "patch-4550",
+        "name": "Patch | Hullu banaani",
+        "description": "<i>Vertailukelpoinen agentti.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_banana_large.png"
+    },
+    {
+        "id": "patch-4551",
+        "name": "Patch | Kingi",
+        "description": "<i>Levoton kruunun painama on agentin pää.</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_boss_large.png"
+    },
+    {
+        "id": "patch-4552",
+        "name": "Patch | Kananrakastaja",
+        "description": "<i>Kiitos, että säästit ne.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_chickenlover_large.png"
+    },
+    {
+        "id": "patch-4553",
+        "name": "Patch | Tervetuloa kylmäpäiden joukkoon",
+        "description": "<i>4T on ihan normaali tätä hihamerkkiä kantavien agenttien keskuudessa.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_clutch_large.png"
+    },
+    {
+        "id": "patch-4554",
+        "name": "Patch | Lohikäärme",
+        "description": "<i>Tässä hihamerkissä on lohikäärme kahden AK-47:n välissä</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dragon_large.png"
+    },
+    {
+        "id": "patch-4555",
+        "name": "Patch | Helppo nakki",
+        "description": "<i>Tämä hihamerkki pääsi jotenkin laadunvalvonnasta läpi, vaikka sanassa \\\"Sqeezy\\\" on kirjoitusvirhe.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_easypeasy_large.png"
+    },
+    {
+        "id": "patch-4556",
+        "name": "Patch | Raivo",
+        "description": "<i>Raivoa, vihaa ja vimmaa ilmaiseva hihamerkki.</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_fury_large.png"
+    },
+    {
+        "id": "patch-4557",
+        "name": "Patch | Ulvonta",
+        "description": "<i>Tämä hihamerkki on painonsa arvoinen kullassa... ja punaisessa ja oranssissa.</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_howl_large.png"
+    },
+    {
+        "id": "patch-4558",
+        "name": "Patch | Koikarppi",
+        "description": "<i>Tässä hihamerkissä on kaksi koikarppia sinisen veden pyörteissä.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_koi_large.png"
+    },
+    {
+        "id": "patch-4559",
+        "name": "Patch | Pitkäikäisyys",
+        "description": "<i>Tässä punavalkoisessa hihamerkissä on taiteellinen versio CS:GO-logosta.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_longevity_large.png"
+    },
+    {
+        "id": "patch-4560",
+        "name": "Patch | Maastopalo",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Maastopalo, joka käynnistyi 17.2.2016.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_wildfire_large.png"
+    },
+    {
+        "id": "patch-4561",
+        "name": "Patch | Aina valppaana",
+        "description": "<i>Hihamerkki vaanivalle, vartiota pitävälle tiimikaverille.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vigilance_large.png"
+    },
+    {
+        "id": "patch-4562",
+        "name": "Patch | Verikoira",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Verikoira, joka käynnistyi 26.5.2015.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bloodhound_large.png"
+    },
+    {
+        "id": "patch-4563",
+        "name": "Patch | Bravo",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Bravo, joka käynnistyi 19.9.2013.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bravo_large.png"
+    },
+    {
+        "id": "patch-4564",
+        "name": "Patch | Läpimurto",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Läpimurto, joka käynnistyi 1.7.2014.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_breakout_large.png"
+    },
+    {
+        "id": "patch-4565",
+        "name": "Patch | Vaaravyöhyke",
+        "description": "<i>Tämän hihamerkin teemana on Vaaravyöhyke, joka käynnistyi 6.12.2018.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dangerzone_large.png"
+    },
+    {
+        "id": "patch-4566",
+        "name": "Patch | Hydra",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Hydra, joka käynnistyi 23.5.2017.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_hydra_large.png"
+    },
+    {
+        "id": "patch-4567",
+        "name": "Patch | Vastaisku",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Vastaisku, joka käynnistyi 25.4.2013.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_payback_large.png"
+    },
+    {
+        "id": "patch-4568",
+        "name": "Patch | Feeniks",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Feeniks, joka käynnistyi 20.2.2014.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_phoenix_large.png"
+    },
+    {
+        "id": "patch-4569",
+        "name": "Patch | Pirstaleinen verkko",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Pirstaleinen verkko, joka käynnistyi 18.11.2019.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_shatteredweb_large.png"
+    },
+    {
+        "id": "patch-4570",
+        "name": "Patch | Eturintama",
+        "description": "<i>Tämän hihamerkin teemana on Operaatio Eturintama, joka käynnistyi 11.11.2014.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vanguard_large.png"
+    },
+    {
+        "id": "patch-4571",
+        "name": "Patch | Hopea (metalli)",
+        "description": "<i>Hihamerkki niille, jotka ottavat ensiaskeleitaan kohti kansainvälistä valiotasoa.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_large.png"
+    },
+    {
+        "id": "patch-4572",
+        "name": "Patch | Kultanova I (metalli)",
+        "description": "<i>Tehty hopeasta? Vielä riittää hommaa.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova1_large.png"
+    },
+    {
+        "id": "patch-4575",
+        "name": "Patch | Kultanovamestari (metalli)",
+        "description": "<i>Ja sinäkö luulit, että hopeataso on se taso, jolta on vaikea nousta...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnovamaster_large.png"
+    },
+    {
+        "id": "patch-4576",
+        "name": "Patch | Mestarisuojelija I (metalli)",
+        "description": "<i>Pääsitkö Kultanovasta eteenpäin? Hyvä, sinähän alat oppia.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian1_large.png"
+    },
+    {
+        "id": "patch-4578",
+        "name": "Patch | Mestarisuojelijaeliitti (metalli)",
+        "description": "<i>Ammattilaisten sommittelema hihamerkki, jossa hopeinen ommel erottuu hienosti merkin laivastonsinisestä taustasta.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardianelite_large.png"
+    },
+    {
+        "id": "patch-4579",
+        "name": "Patch | Arvonsa osoittanut mestarisuojelija ★ (metalli)",
+        "description": "<i>Yksilöiden tulee taipua ja mukautua sekä työskennellä yhdessä saavuttaakseen Arvonsa osoittanut mestarisuojelija -taitotason. Jatka kiipeämistä.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg_large.png"
+    },
+    {
+        "id": "patch-4580",
+        "name": "Patch | Legendaarinen kotka (metalli)",
+        "description": "<i>Tästä Legendaarinen kotka -hihamerkistä löytyy kultainen siipipari.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle_large.png"
+    },
+    {
+        "id": "patch-4581",
+        "name": "Patch | Legendaarinen kotkamestari ★ (metalli)",
+        "description": "<i>Olet lähestymässä huippua, mutta muista, että vastaasi tulevat eivät anna armoa.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster_large.png"
+    },
+    {
+        "id": "patch-4582",
+        "name": "Patch | Korkein ensimmäisen luokan mestari (metalli)",
+        "description": "<i>Tässä hihamerkissä on sydämenmallinen maapallo punaisilla ja sinisillä yksityiskohdilla.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_supreme_large.png"
+    },
+    {
+        "id": "patch-4583",
+        "name": "Patch | Kansainvälinen valio ★ (metalli)",
+        "description": "<i>Onneksi olkoon, tavoite saavutettu. Tästä ne varsinaiset haasteet vasta alkavat.</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite_large.png"
+    },
+    {
+        "id": "patch-4584",
+        "name": "Patch | Arvonsa osoittanut mestarisuojelija (metalli)",
+        "description": "<i>Yksilöiden tulee taipua ja mukautua sekä työskennellä yhdessä saavuttaakseen Arvonsa osoittanut mestarisuojelija -taitotason. Jatka kiipeämistä.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg2_large.png"
+    },
+    {
+        "id": "patch-4585",
+        "name": "Patch | Legendaarinen kotka (metalli)",
+        "description": "<i>Tästä Legendaarinen kotka -hihamerkistä löytyy kultainen siipipari.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle2_large.png"
+    },
+    {
+        "id": "patch-4586",
+        "name": "Patch | Legendaarinen kotkamestari (metalli)",
+        "description": "<i>Olet lähestymässä huippua, mutta muista, että vastaasi tulevat eivät anna armoa.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster2_large.png"
+    },
+    {
+        "id": "patch-4587",
+        "name": "Patch | Hopeademoni (metalli)",
+        "description": "<i>\\\"Hopeinen helvetti\\\" ei ole paikka, vaan mielentila. Sieltä voi häipyä milloin tahansa.</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_demon_large.png"
+    },
+    {
+        "id": "patch-4588",
+        "name": "Patch | Korkein mestari (metalli)",
+        "description": "<i>Tästä hihamerkistä löytyy siivekäs pomminpurkaja kuuden tähden reunustamana.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_suprememaster_large.png"
+    },
+    {
+        "id": "patch-4589",
+        "name": "Patch | Alyx",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_alyx_large.png"
+    },
+    {
+        "id": "patch-4591",
+        "name": "Patch | Sapuskaa!",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_green_large.png"
+    },
+    {
+        "id": "patch-4592",
+        "name": "Patch | Vortigaunt",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_vort_large.png"
+    },
+    {
+        "id": "patch-4593",
+        "name": "Patch | Päärapusymboli",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_teal_large.png"
+    },
+    {
+        "id": "patch-4594",
+        "name": "Patch | Pronssinen lambda",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_copper_large.png"
+    },
+    {
+        "id": "patch-4595",
+        "name": "Patch | Terveys",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_hearts_large.png"
+    },
+    {
+        "id": "patch-4596",
+        "name": "Patch | Combine-kypärä",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_combine_front_large.png"
+    },
+    {
+        "id": "patch-4597",
+        "name": "Patch | Black Mesa",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_blackmesa_large.png"
+    },
+    {
+        "id": "patch-4598",
+        "name": "Patch | CMB",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_cmb_large.png"
+    },
+    {
+        "id": "patch-4599",
+        "name": "Patch | Lambda",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_orange_large.png"
+    },
+    {
+        "id": "patch-4600",
+        "name": "Patch | Kaupunki 17",
+        "description": "Half-Life: Alyx -muistohihamerkki",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_c17_large.png"
+    },
+    {
+        "id": "patch-4697",
+        "name": "Patch | Kansainvälinen valio (metalli)",
+        "description": "<i>Onneksi olkoon, tavoite saavutettu. Tästä ne varsinaiset haasteet vasta alkavat.</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite2_large.png"
+    },
+    {
+        "id": "patch-4699",
+        "name": "Patch | Mestarisuojelija (metalli)",
+        "description": "<i>Pääsitkö Kultanovasta eteenpäin? Hyvä, sinähän alat oppia.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian3_large.png"
+    },
+    {
+        "id": "patch-4700",
+        "name": "Patch | Kultanova (metalli)",
+        "description": "<i>Tehty hopeasta? Vielä riittää hommaa.</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova4_large.png"
+    },
+    {
+        "id": "patch-4937",
+        "name": "Patch | Heitä toivo",
+        "description": "<i>Ken tästä käy, saa kaiken toivon heittää...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_abandon_hope_large.png"
+    },
+    {
+        "id": "patch-4938",
+        "name": "Patch | Ankkurit ylös",
+        "description": "<i>Pysy tyynenä myrskyisillä merillä...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_anchor_large.png"
+    },
+    {
+        "id": "patch-4939",
+        "name": "Patch | Risteilevä rausku",
+        "description": "<i>Liukuu aaltojen alla...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cruising_large.png"
+    },
+    {
+        "id": "patch-4940",
+        "name": "Patch | Pistinsammakko",
+        "description": "<i>Älä anna periksi ennen kuin kurnutat...</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_frog_skeleton_large.png"
+    },
+    {
+        "id": "patch-4941",
+        "name": "Patch | Vihainen sushi",
+        "description": "<i>Pyöritä vihollista!</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_mad_sushi_large.png"
+    },
+    {
+        "id": "patch-4942",
+        "name": "Patch | Jättiläiskalmari",
+        "description": "<i>Vetää saaliinsa syvyyksiin...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_pink_squid_large.png"
+    },
+    {
+        "id": "patch-4943",
+        "name": "Patch | El Pirata",
+        "description": "<i>Pieniä puraisuja, tiimityötä...</i>",
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_piranha_large.png"
+    },
+    {
+        "id": "patch-4944",
+        "name": "Patch | Kuolema syvyyksistä",
+        "description": "<i>Vaara vaanii yllä...</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_siren_large.png"
+    },
+    {
+        "id": "patch-4945",
+        "name": "Patch | Kuolleet miehet",
+        "description": "<i>Universaali vaaran symboli...</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_skull_crossswords_large.png"
+    },
+    {
+        "id": "patch-4946",
+        "name": "Patch | Auringonlaskun aalto",
+        "description": "<i>Uusi päivä merellä...</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_sunset_wave_large.png"
+    },
+    {
+        "id": "patch-4947",
+        "name": "Patch | Merellinen puolustus",
+        "description": "<i>Kala menossa</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_fish_go_large.png"
+    },
+    {
+        "id": "patch-4948",
+        "name": "Patch | Jumalolento",
+        "description": "<i>Cthulhu arvostaa pomminpurkajia...</i>",
+        "rarity": "Eksoottinen",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cthulhu_large.png"
+    },
+    {
+        "id": "patch-4949",
+        "name": "Patch | Ruoka-aika",
+        "description": "<i>Voitonnälkäinen...</i>",
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_meal_time_large.png"
+    },
+    {
+        "id": "patch-5079",
+        "name": "Patch | Ninjas in Pyjamas | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_large.png"
+    },
+    {
+        "id": "patch-5080",
+        "name": "Patch | Ninjas in Pyjamas (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_gold_large.png"
+    },
+    {
+        "id": "patch-5081",
+        "name": "Patch | FURIA | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_large.png"
+    },
+    {
+        "id": "patch-5082",
+        "name": "Patch | FURIA (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_gold_large.png"
+    },
+    {
+        "id": "patch-5083",
+        "name": "Patch | Natus Vincere | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_large.png"
+    },
+    {
+        "id": "patch-5084",
+        "name": "Patch | Natus Vincere (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_gold_large.png"
+    },
+    {
+        "id": "patch-5085",
+        "name": "Patch | Vitality | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_large.png"
+    },
+    {
+        "id": "patch-5086",
+        "name": "Patch | Vitality (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_gold_large.png"
+    },
+    {
+        "id": "patch-5087",
+        "name": "Patch | Team Liquid | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_large.png"
+    },
+    {
+        "id": "patch-5088",
+        "name": "Patch | Team Liquid (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_gold_large.png"
+    },
+    {
+        "id": "patch-5089",
+        "name": "Patch | Gambit Gaming | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_large.png"
+    },
+    {
+        "id": "patch-5090",
+        "name": "Patch | Gambit Gaming (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_gold_large.png"
+    },
+    {
+        "id": "patch-5091",
+        "name": "Patch | G2 Esports | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_large.png"
+    },
+    {
+        "id": "patch-5092",
+        "name": "Patch | G2 Esports (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_gold_large.png"
+    },
+    {
+        "id": "patch-5093",
+        "name": "Patch | Evil Geniuses | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_large.png"
+    },
+    {
+        "id": "patch-5094",
+        "name": "Patch | Evil Geniuses (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_gold_large.png"
+    },
+    {
+        "id": "patch-5095",
+        "name": "Patch | Team Spirit | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_large.png"
+    },
+    {
+        "id": "patch-5096",
+        "name": "Patch | Team Spirit (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_gold_large.png"
+    },
+    {
+        "id": "patch-5097",
+        "name": "Patch | Astralis | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_large.png"
+    },
+    {
+        "id": "patch-5098",
+        "name": "Patch | Astralis (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_gold_large.png"
+    },
+    {
+        "id": "patch-5099",
+        "name": "Patch | paiN Gaming | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_large.png"
+    },
+    {
+        "id": "patch-5100",
+        "name": "Patch | paiN Gaming (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_gold_large.png"
+    },
+    {
+        "id": "patch-5101",
+        "name": "Patch | ENCE | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_large.png"
+    },
+    {
+        "id": "patch-5102",
+        "name": "Patch | ENCE (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_gold_large.png"
+    },
+    {
+        "id": "patch-5103",
+        "name": "Patch | BIG | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_large.png"
+    },
+    {
+        "id": "patch-5104",
+        "name": "Patch | BIG (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_gold_large.png"
+    },
+    {
+        "id": "patch-5105",
+        "name": "Patch | Movistar Riders | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_large.png"
+    },
+    {
+        "id": "patch-5106",
+        "name": "Patch | Movistar Riders (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_gold_large.png"
+    },
+    {
+        "id": "patch-5107",
+        "name": "Patch | Heroic | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_large.png"
+    },
+    {
+        "id": "patch-5108",
+        "name": "Patch | Heroic (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_gold_large.png"
+    },
+    {
+        "id": "patch-5109",
+        "name": "Patch | MOUZ | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_large.png"
+    },
+    {
+        "id": "patch-5110",
+        "name": "Patch | MOUZ (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_gold_large.png"
+    },
+    {
+        "id": "patch-5111",
+        "name": "Patch | Sharks Esports | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_large.png"
+    },
+    {
+        "id": "patch-5112",
+        "name": "Patch | Sharks Esports (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_gold_large.png"
+    },
+    {
+        "id": "patch-5113",
+        "name": "Patch | Tyloo | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_large.png"
+    },
+    {
+        "id": "patch-5114",
+        "name": "Patch | Tyloo (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_gold_large.png"
+    },
+    {
+        "id": "patch-5115",
+        "name": "Patch | Renegades | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_large.png"
+    },
+    {
+        "id": "patch-5116",
+        "name": "Patch | Renegades (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_gold_large.png"
+    },
+    {
+        "id": "patch-5117",
+        "name": "Patch | Entropiq | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_large.png"
+    },
+    {
+        "id": "patch-5118",
+        "name": "Patch | Entropiq (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_gold_large.png"
+    },
+    {
+        "id": "patch-5119",
+        "name": "Patch | GODSENT | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_large.png"
+    },
+    {
+        "id": "patch-5120",
+        "name": "Patch | GODSENT (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_gold_large.png"
+    },
+    {
+        "id": "patch-5121",
+        "name": "Patch | Virtus.Pro | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_large.png"
+    },
+    {
+        "id": "patch-5122",
+        "name": "Patch | Virtus.Pro (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+    },
+    {
+        "id": "patch-5123",
+        "name": "Patch | Copenhagen Flames | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+    },
+    {
+        "id": "patch-5124",
+        "name": "Patch | Copenhagen Flames (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+    {
+        "id": "patch-5125",
+        "name": "Patch | FaZe Clan | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_large.png"
+    },
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_gold_large.png"
+    },
+    {
+        "id": "patch-5127",
+        "name": "Patch | PGL | Tukholma 2021",
+        "description": null,
+        "rarity": "Korkean tason",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_large.png"
+    },
+    {
+        "id": "patch-5128",
+        "name": "Patch | PGL (kulta) | Tukholma 2021",
+        "description": null,
+        "rarity": "Huomattava",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_gold_large.png"
+    }
+]

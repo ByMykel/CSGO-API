@@ -1,0 +1,793 @@
+[
+    {
+        "id": "patch-4550",
+        "name": "Patch | Çılgın Muz",
+        "description": "<i>Perspektif sağlamak maksatlı ajan</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_banana_large.png"
+    },
+    {
+        "id": "patch-4551",
+        "name": "Patch | Patron",
+        "description": "<i>Büyük ajanın derdi büyük olur</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_boss_large.png"
+    },
+    {
+        "id": "patch-4552",
+        "name": "Patch | Tavuk Sever",
+        "description": "<i>Onları bağışladığın için teşekkürler</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_chickenlover_large.png"
+    },
+    {
+        "id": "patch-4553",
+        "name": "Patch | Clutch'a Hoş Geldiniz",
+        "description": "<i>Bunu üzerinde taşıyan ajan için 4'lü leş almak standart bir şeydir</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_clutch_large.png"
+    },
+    {
+        "id": "patch-4554",
+        "name": "Patch | Ejder",
+        "description": "<i>Bu yamada her iki tarafında AK-47 bulunan bir ejder tasvir ediliyor</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dragon_large.png"
+    },
+    {
+        "id": "patch-4555",
+        "name": "Patch | Çocuk Oyuncağı",
+        "description": "<i>Bu yama nasıl olduysa üzerinde \\\"SQEEZY\\\" yazdığı hâlde kalite kontrolden geçebildi</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_easypeasy_large.png"
+    },
+    {
+        "id": "patch-4556",
+        "name": "Patch | Öfke",
+        "description": "<i>Öfkeyi, kızgınlığı veya hiddeti belirten bir yama</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_fury_large.png"
+    },
+    {
+        "id": "patch-4557",
+        "name": "Patch | Uluma",
+        "description": "<i>Bu yama ağırlığınca kırmızı, turuncu ve altın eder</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_howl_large.png"
+    },
+    {
+        "id": "patch-4558",
+        "name": "Patch | Koi",
+        "description": "<i>Bu yamada tatlı suyun üstünde yüzen iki Koi balığı tasvir ediliyor</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_koi_large.png"
+    },
+    {
+        "id": "patch-4559",
+        "name": "Patch | Uzun Ömür",
+        "description": "<i>Bu kırmızı ve beyaz yama, \\\"CSGO\\\" logosunun farklı bir sanatsal yorumudur</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_longevity_large.png"
+    },
+    {
+        "id": "patch-4560",
+        "name": "Patch | Yaban Ateşi",
+        "description": "<i>Bu yamada, 17 Şubat 2016'da çıkan Yaban Ateşi Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_wildfire_large.png"
+    },
+    {
+        "id": "patch-4561",
+        "name": "Patch | Tetikte",
+        "description": "<i>Sessiz sedasız avlanan ve etrafını dikkatle izleyen takım üyesine uygun bir yama</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vigilance_large.png"
+    },
+    {
+        "id": "patch-4562",
+        "name": "Patch | Kan Tazısı",
+        "description": "<i>Bu yamada, 26 Mayıs 2015'te çıkan Kan Tazısı Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bloodhound_large.png"
+    },
+    {
+        "id": "patch-4563",
+        "name": "Patch | Bravo",
+        "description": "<i>Bu yamada, 19 Eylül 2013'te çıkan Bravo Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_bravo_large.png"
+    },
+    {
+        "id": "patch-4564",
+        "name": "Patch | Firar",
+        "description": "<i>Bu yamada, 1 Temmuz 2014'te çıkan Firar Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_breakout_large.png"
+    },
+    {
+        "id": "patch-4565",
+        "name": "Patch | Tehlikeli Bölge",
+        "description": "<i>Bu yamada, 6 Aralık 2018'te çıkan Tehlikeli Bölge'ye ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_dangerzone_large.png"
+    },
+    {
+        "id": "patch-4566",
+        "name": "Patch | Hydra",
+        "description": "<i>Bu yamada, 23 Mayıs 2017'de çıkan Hydra Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_hydra_large.png"
+    },
+    {
+        "id": "patch-4567",
+        "name": "Patch | İntikam",
+        "description": "<i>Bu yamada, 25 Nisan 2013'te çıkan İntikam Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_payback_large.png"
+    },
+    {
+        "id": "patch-4568",
+        "name": "Patch | Anka",
+        "description": "<i>Bu yamada, 20 Şubat 2014'te çıkan Anka Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_phoenix_large.png"
+    },
+    {
+        "id": "patch-4569",
+        "name": "Patch | Parçalanmış Ağ",
+        "description": "<i>Bu yamada, 18 Kasım 2019'da çıkan Parçalanmış Ağ Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_shatteredweb_large.png"
+    },
+    {
+        "id": "patch-4570",
+        "name": "Patch | Öncü",
+        "description": "<i>Bu yamada, 11 Kasım 2014'te çıkan Öncü Operasyonu'na ait ikonografi tasvir ediliyor</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case01/patch_vanguard_large.png"
+    },
+    {
+        "id": "patch-4571",
+        "name": "Patch | Metal Gümüş",
+        "description": "<i>Global'e giden yolda ilk adımını atacaklar için bir yama.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_large.png"
+    },
+    {
+        "id": "patch-4572",
+        "name": "Patch | Metal Altın Nova I",
+        "description": "<i>Gümüş rütbeleri ardınızda mı bıraktınız? Daha yapacak çok işiniz var.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova1_large.png"
+    },
+    {
+        "id": "patch-4575",
+        "name": "Patch | Metal Usta Altın Nova",
+        "description": "<i>Gümüş'ten çıkmanın zor olduğunu sanıyordunuz...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnovamaster_large.png"
+    },
+    {
+        "id": "patch-4576",
+        "name": "Patch | Metal Usta Muhafız I",
+        "description": "<i>Altın Nova'yı aştınız mı? Güzel. Öğreniyorsunuz.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian1_large.png"
+    },
+    {
+        "id": "patch-4578",
+        "name": "Patch | Metal Seçkin Usta Muhafız",
+        "description": "<i>Lacivert fon üzerine ustaca işlenen Seçkin Usta Muhafız yamasının gümüşi çizgileri göz alıyor.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardianelite_large.png"
+    },
+    {
+        "id": "patch-4579",
+        "name": "Patch | Metal Distinguished Master Guardian ★",
+        "description": "<i>Güzide Usta Muhafız'a ulaşmak isteyenler uyum sağlamalı ve iş birliği yapmalıdır. Tırmanmaya devam.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg_large.png"
+    },
+    {
+        "id": "patch-4580",
+        "name": "Patch | Metal Efsanevi Kartal",
+        "description": "<i>Bu Efsanevi Kartal yaması, bir çift altın kanat içerir.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle_large.png"
+    },
+    {
+        "id": "patch-4581",
+        "name": "Patch | Metal Legendary Eagle Master ★",
+        "description": "<i>Zirveye yaklaşıyorsun. Ama orada seni bekleyen zorlukların acıması olmayacak.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster_large.png"
+    },
+    {
+        "id": "patch-4582",
+        "name": "Patch | Metal Birinci Sınıf Üstün Usta",
+        "description": "<i>Bu Üstün yaması kalp şeklinde bir dünya ve kırmızı/mavi detaylar içerir.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_supreme_large.png"
+    },
+    {
+        "id": "patch-4583",
+        "name": "Patch | Metal The Global Elite ★",
+        "description": "<i>Tebrikler. Hedefinize ulaştınız. Asıl mücadele şimdi başlıyor.</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite_large.png"
+    },
+    {
+        "id": "patch-4584",
+        "name": "Patch | Metal Distinguished Master Guardian",
+        "description": "<i>Güzide Usta Muhafız'a ulaşmak isteyenler uyum sağlamalı ve iş birliği yapmalıdır. Tırmanmaya devam.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_dmg2_large.png"
+    },
+    {
+        "id": "patch-4585",
+        "name": "Patch | Metal Efsanevi Kartal",
+        "description": "<i>Bu Efsanevi Kartal yaması, bir çift altın kanat içerir.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeagle2_large.png"
+    },
+    {
+        "id": "patch-4586",
+        "name": "Patch | Metal Legendary Eagle Master",
+        "description": "<i>Zirveye yaklaşıyorsun. Ama orada seni bekleyen zorlukların acıması olmayacak.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_legendaryeaglemaster2_large.png"
+    },
+    {
+        "id": "patch-4587",
+        "name": "Patch | Metal Silver Demon",
+        "description": "<i>\\\"Gümüş Cehennemi\\\" gerçek değil, zihninizin bir oyunu. Gerçekten isteyen herkes oradan çıkabilir.</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_silver_demon_large.png"
+    },
+    {
+        "id": "patch-4588",
+        "name": "Patch | Metal Supreme Master",
+        "description": "<i>Bu Birinci Sınıf Üstün Usta yamasında kanatlı bomba imha aygıtı altı adet yıldızla çevrelenmiştir.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_suprememaster_large.png"
+    },
+    {
+        "id": "patch-4589",
+        "name": "Patch | Alyx",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_alyx_large.png"
+    },
+    {
+        "id": "patch-4591",
+        "name": "Patch | Yiyecek!",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_green_large.png"
+    },
+    {
+        "id": "patch-4592",
+        "name": "Patch | Vortigaunt",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_vort_large.png"
+    },
+    {
+        "id": "patch-4593",
+        "name": "Patch | Headcrab Glyph",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_headcrab_teal_large.png"
+    },
+    {
+        "id": "patch-4594",
+        "name": "Patch | Bakır Lambda",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_copper_large.png"
+    },
+    {
+        "id": "patch-4595",
+        "name": "Patch | Sağlık",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_hearts_large.png"
+    },
+    {
+        "id": "patch-4596",
+        "name": "Patch | İttifak Miğferi",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_combine_front_large.png"
+    },
+    {
+        "id": "patch-4597",
+        "name": "Patch | Black Mesa",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_blackmesa_large.png"
+    },
+    {
+        "id": "patch-4598",
+        "name": "Patch | CMB",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_cmb_large.png"
+    },
+    {
+        "id": "patch-4599",
+        "name": "Patch | Lambda",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_lambda_orange_large.png"
+    },
+    {
+        "id": "patch-4600",
+        "name": "Patch | Şehir 17",
+        "description": "Half-Life: Alyx Hatıra Yaması",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/casehlalyx/patch_hlalyx_c17_large.png"
+    },
+    {
+        "id": "patch-4697",
+        "name": "Patch | Metal The Global Elite",
+        "description": "<i>Tebrikler. Hedefinize ulaştınız. Asıl mücadele şimdi başlıyor.</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_globalelite2_large.png"
+    },
+    {
+        "id": "patch-4699",
+        "name": "Patch | Metal Master Guardian",
+        "description": "<i>Altın Nova'yı aştınız mı? Güzel. Öğreniyorsunuz.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_masterguardian3_large.png"
+    },
+    {
+        "id": "patch-4700",
+        "name": "Patch | Metal Gold Nova",
+        "description": "<i>Gümüş rütbeleri ardınızda mı bıraktınız? Daha yapacak çok işiniz var.</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_skillgroups/patch_goldnova4_large.png"
+    },
+    {
+        "id": "patch-4937",
+        "name": "Patch | Ümidi Bıraksın",
+        "description": "<i>Buraya giren herkes...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_abandon_hope_large.png"
+    },
+    {
+        "id": "patch-4938",
+        "name": "Patch | Çapa Kalktı",
+        "description": "<i>Fırtınalı denizlerde sakin kalmak...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_anchor_large.png"
+    },
+    {
+        "id": "patch-4939",
+        "name": "Patch | Seyir Işığı",
+        "description": "<i>Dalgaların altında süzülüyor...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cruising_large.png"
+    },
+    {
+        "id": "patch-4940",
+        "name": "Patch | Süngü Kurbağası",
+        "description": "<i>Son kurbağa vaklayana kadar pes etme...</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_frog_skeleton_large.png"
+    },
+    {
+        "id": "patch-4941",
+        "name": "Patch | Çılgın Suşi",
+        "description": "<i>Düşmanı sarın!</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_mad_sushi_large.png"
+    },
+    {
+        "id": "patch-4942",
+        "name": "Patch | Dev Mürekkep Balığı",
+        "description": "<i>Avını derinlere sürükler...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_pink_squid_large.png"
+    },
+    {
+        "id": "patch-4943",
+        "name": "Patch | El Pirata",
+        "description": "<i>Ufak ısırıklar; takım çalışması...</i>",
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_piranha_large.png"
+    },
+    {
+        "id": "patch-4944",
+        "name": "Patch | Derinlerden Gelen Ölüm",
+        "description": "<i>Yukarı bakın...</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_siren_large.png"
+    },
+    {
+        "id": "patch-4945",
+        "name": "Patch | Ölüler",
+        "description": "<i>Tehlikenin evrensel bir işareti...</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_skull_crossswords_large.png"
+    },
+    {
+        "id": "patch-4946",
+        "name": "Patch | Gün Batımı Dalgası",
+        "description": "<i>Okyanusta yeni bir gün...</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_sunset_wave_large.png"
+    },
+    {
+        "id": "patch-4947",
+        "name": "Patch | Su Saldırısı",
+        "description": "<i>Oradan bana bir balık</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_fish_go_large.png"
+    },
+    {
+        "id": "patch-4948",
+        "name": "Patch | Kadim Tanrı",
+        "description": "<i>Cthulhu, bomba imha edenleri takdir eder...</i>",
+        "rarity": "Egzotik",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_cthulhu_large.png"
+    },
+    {
+        "id": "patch-4949",
+        "name": "Patch | Yemek Vakti",
+        "description": "<i>Zafere aç...</i>",
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/case_op11/patch_op11_meal_time_large.png"
+    },
+    {
+        "id": "patch-5079",
+        "name": "Patch | Ninjas in Pyjamas | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_large.png"
+    },
+    {
+        "id": "patch-5080",
+        "name": "Patch | Ninjas in Pyjamas (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_nip_gold_large.png"
+    },
+    {
+        "id": "patch-5081",
+        "name": "Patch | FURIA | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_large.png"
+    },
+    {
+        "id": "patch-5082",
+        "name": "Patch | FURIA (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_furi_gold_large.png"
+    },
+    {
+        "id": "patch-5083",
+        "name": "Patch | Natus Vincere | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_large.png"
+    },
+    {
+        "id": "patch-5084",
+        "name": "Patch | Natus Vincere (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_navi_gold_large.png"
+    },
+    {
+        "id": "patch-5085",
+        "name": "Patch | Vitality | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_large.png"
+    },
+    {
+        "id": "patch-5086",
+        "name": "Patch | Vitality (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vita_gold_large.png"
+    },
+    {
+        "id": "patch-5087",
+        "name": "Patch | Team Liquid | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_large.png"
+    },
+    {
+        "id": "patch-5088",
+        "name": "Patch | Team Liquid (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_liq_gold_large.png"
+    },
+    {
+        "id": "patch-5089",
+        "name": "Patch | Gambit Gaming | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_large.png"
+    },
+    {
+        "id": "patch-5090",
+        "name": "Patch | Gambit Gaming (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_gamb_gold_large.png"
+    },
+    {
+        "id": "patch-5091",
+        "name": "Patch | G2 Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_large.png"
+    },
+    {
+        "id": "patch-5092",
+        "name": "Patch | G2 Esports (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_g2_gold_large.png"
+    },
+    {
+        "id": "patch-5093",
+        "name": "Patch | Evil Geniuses | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_large.png"
+    },
+    {
+        "id": "patch-5094",
+        "name": "Patch | Evil Geniuses (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_evl_gold_large.png"
+    },
+    {
+        "id": "patch-5095",
+        "name": "Patch | Team Spirit | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_large.png"
+    },
+    {
+        "id": "patch-5096",
+        "name": "Patch | Team Spirit (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_spir_gold_large.png"
+    },
+    {
+        "id": "patch-5097",
+        "name": "Patch | Astralis | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_large.png"
+    },
+    {
+        "id": "patch-5098",
+        "name": "Patch | Astralis (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_astr_gold_large.png"
+    },
+    {
+        "id": "patch-5099",
+        "name": "Patch | paiN Gaming | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_large.png"
+    },
+    {
+        "id": "patch-5100",
+        "name": "Patch | paiN Gaming (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pain_gold_large.png"
+    },
+    {
+        "id": "patch-5101",
+        "name": "Patch | ENCE | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_large.png"
+    },
+    {
+        "id": "patch-5102",
+        "name": "Patch | ENCE (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ence_gold_large.png"
+    },
+    {
+        "id": "patch-5103",
+        "name": "Patch | BIG | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_large.png"
+    },
+    {
+        "id": "patch-5104",
+        "name": "Patch | BIG (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_big_gold_large.png"
+    },
+    {
+        "id": "patch-5105",
+        "name": "Patch | Movistar Riders | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_large.png"
+    },
+    {
+        "id": "patch-5106",
+        "name": "Patch | Movistar Riders (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ride_gold_large.png"
+    },
+    {
+        "id": "patch-5107",
+        "name": "Patch | Heroic | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_large.png"
+    },
+    {
+        "id": "patch-5108",
+        "name": "Patch | Heroic (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_hero_gold_large.png"
+    },
+    {
+        "id": "patch-5109",
+        "name": "Patch | MOUZ | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_large.png"
+    },
+    {
+        "id": "patch-5110",
+        "name": "Patch | MOUZ (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_mouz_gold_large.png"
+    },
+    {
+        "id": "patch-5111",
+        "name": "Patch | Sharks Esports | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_large.png"
+    },
+    {
+        "id": "patch-5112",
+        "name": "Patch | Sharks Esports (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_shrk_gold_large.png"
+    },
+    {
+        "id": "patch-5113",
+        "name": "Patch | Tyloo | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_large.png"
+    },
+    {
+        "id": "patch-5114",
+        "name": "Patch | Tyloo (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_tyl_gold_large.png"
+    },
+    {
+        "id": "patch-5115",
+        "name": "Patch | Renegades | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_large.png"
+    },
+    {
+        "id": "patch-5116",
+        "name": "Patch | Renegades (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ren_gold_large.png"
+    },
+    {
+        "id": "patch-5117",
+        "name": "Patch | Entropiq | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_large.png"
+    },
+    {
+        "id": "patch-5118",
+        "name": "Patch | Entropiq (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_ent_gold_large.png"
+    },
+    {
+        "id": "patch-5119",
+        "name": "Patch | GODSENT | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_large.png"
+    },
+    {
+        "id": "patch-5120",
+        "name": "Patch | GODSENT (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_god_gold_large.png"
+    },
+    {
+        "id": "patch-5121",
+        "name": "Patch | Virtus.Pro | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_large.png"
+    },
+    {
+        "id": "patch-5122",
+        "name": "Patch | Virtus.Pro (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_vp_gold_large.png"
+    },
+    {
+        "id": "patch-5123",
+        "name": "Patch | Copenhagen Flames | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_large.png"
+    },
+    {
+        "id": "patch-5124",
+        "name": "Patch | Copenhagen Flames (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_cope_gold_large.png"
+    },
+    {
+        "id": "patch-5125",
+        "name": "Patch | FaZe Clan | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_large.png"
+    },
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_faze_gold_large.png"
+    },
+    {
+        "id": "patch-5127",
+        "name": "Patch | PGL | Stockholm 2021",
+        "description": null,
+        "rarity": "Yüksek Sınıf",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_large.png"
+    },
+    {
+        "id": "patch-5128",
+        "name": "Patch | PGL (Altın) | Stockholm 2021",
+        "description": null,
+        "rarity": "Dikkat Çekici",
+        "image": "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/econ/patches/stockh2021/patch_pgl_gold_large.png"
+    }
+]
