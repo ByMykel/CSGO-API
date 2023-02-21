@@ -7,6 +7,11 @@ export const saveDataJson = (file, data) => {
         .replace(/\.\/public\/api\/(.*)\/(.*)\.json/, "$1")
         .split("/");
 
+    // Create api folder if it doesn't exist
+    if (!fs.existsSync("./public/api")) {
+        fs.mkdirSync("./public/api");
+    }
+
     folders.forEach((folder, index) => {
         const path = folders.slice(0, index + 1).join("/");
 
