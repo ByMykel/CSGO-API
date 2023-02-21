@@ -1,6 +1,6 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
-import { CSGO_ENGLISH_URL } from "../utils/config.js";
+import { CSGO_ENGLISH_URL } from "../constants.js";
 
 export let languageData = null;
 const translations = {

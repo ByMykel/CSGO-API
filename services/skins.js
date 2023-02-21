@@ -1,4 +1,4 @@
-import { IMAGES_BASE_URL } from "../utils/config.js";
+import { IMAGES_BASE_URL } from "../constants.js";
 import { getWeaponName } from "../utils/weapons.js";
 import { saveDataJson } from "./saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
