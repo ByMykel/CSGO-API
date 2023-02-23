@@ -12,19 +12,23 @@ By default the data is in english, if you want to get the data in another langua
 GET https://bymykel.github.io/CSGO-API/api/{language}
 ```
 
-### Languages
+### Language
 
-`bg`, `cs`, `da`, `de`, `el`, `en`, `es`, `es-MX`, `fi`, `fr`, `hu`, `it`, `ja`, `ko`, `nl`, `no`, `pl`, `pt-BR`, `pt-PT`, `ro`, `ru`, `sk`, `sv`, `th`, `tr`, `uk`, `zh-CN`, `zh-TW`
+Can be one of the following: `bg` `cs` `da` `de` `el` `en` `es` `es-MX` `fi` `fr` `hu` `it` `ja` `ko` `nl` `no` `pl` `pt-BR` `pt-PT` `ro` `ru` `sk` `sv` `th` `tr` `uk` `zh-CN` `zh-TW`
 
 ### All items
 
-GET [/all.json](https://bymykel.github.io/CSGO-API/api/en/all.json)
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/all.json
+```
 
 Object with all items accessible by their id.
 
 ### List skins
 
-GET [/skins.json](https://bymykel.github.io/CSGO-API/api/en/skins.json)
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/skins.json
+```
 
 <table align="center">
   <tr>
@@ -74,7 +78,9 @@ GET [/skins.json](https://bymykel.github.io/CSGO-API/api/en/skins.json)
 
 ### List stickers
 
-GET [/stickers.json](https://bymykel.github.io/CSGO-API/api/en/stickers.json)
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
+```
 
 <table align="center">
   <tr>
