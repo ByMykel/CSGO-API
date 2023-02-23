@@ -8,19 +8,23 @@ All data are retrieved from [items_game.txt](https://github.com/SteamDatabase/Ga
 
 By default the data is in english, if you want to get the data in another language, you can add the language to the BASE URL.
 
-```bash
-https://bymykel.github.io/CSGO-API/api/{language?}
+```http
+https://bymykel.github.io/CSGO-API/api/{language}
 ```
+
+### Languages
+
+`bg`, `cs`, `da`, `de`, `el`, `en`, `es`, `es-MX`, `fi`, `fr`, `hu`, `it`, `ja`, `ko`, `nl`, `no`, `pl`, `pt-BR`, `pt-PT`, `ro`, `ru`, `sk`, `sv`, `th`, `tr`, `uk`, `zh-CN`, `zh-TW`
 
 ### All items
 
-GET [/all.json](https://bymykel.github.io/CSGO-API/api/all.json)
+GET [/all.json](https://bymykel.github.io/CSGO-API/api/en/all.json)
 
 Object with all items accessible by their id.
 
 ### List skins
 
-GET [/skins.json](https://bymykel.github.io/CSGO-API/api/skins.json)
+GET [/skins.json](https://bymykel.github.io/CSGO-API/api/en/skins.json)
 
 <table align="center">
   <tr>
@@ -70,7 +74,7 @@ GET [/skins.json](https://bymykel.github.io/CSGO-API/api/skins.json)
 
 ### List stickers
 
-GET [/stickers.json](https://bymykel.github.io/CSGO-API/api/stickers.json)
+GET [/stickers.json](https://bymykel.github.io/CSGO-API/api/en/stickers.json)
 
 <table align="center">
   <tr>
