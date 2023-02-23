@@ -9,7 +9,7 @@ All data are retrieved from [items_game.txt](https://github.com/SteamDatabase/Ga
 By default the data is in english, if you want to get the data in another language, you can add the language to the BASE URL.
 
 ```http
-https://bymykel.github.io/CSGO-API/api/{language}
+GET https://bymykel.github.io/CSGO-API/api/{language}
 ```
 
 ### Languages
