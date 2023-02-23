@@ -1,480 +1,757 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Primary Meta Tags -->
+        <title>CSGO API</title>
+        <meta name="title" content="CSGO API" />
+        <meta
+            name="description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive. "
+        />
+        <link rel="icon" href="favicon.ico" />
 
-	<!-- Primary Meta Tags -->
-	<title>CSGO API</title>
-	<meta name="title" content="CSGO API">
-	<meta name="description" content="An unofficial JSON API for Counter-Strike: Global Offensive. ">
-	<link rel="icon" href="favicon.ico">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bymykel.github.io/CSGO-API/" />
+        <meta property="og:title" content="CSGO API" />
+        <meta
+            property="og:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive. "
+        />
+        <meta
+            property="og:image"
+            content="https://bymykel.github.io/CSGO-API/image-meta.png"
+        />
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://bymykel.github.io/CSGO-API/">
-	<meta property="og:title" content="CSGO API">
-	<meta property="og:description" content="An unofficial JSON API for Counter-Strike: Global Offensive. ">
-	<meta property="og:image" content="https://bymykel.github.io/CSGO-API/image-meta.png">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://bymykel.github.io/CSGO-API/"
+        />
+        <meta property="twitter:title" content="CSGO API" />
+        <meta
+            property="twitter:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive. "
+        />
+        <meta
+            property="twitter:image"
+            content="https://bymykel.github.io/CSGO-API/image-meta.png"
+        />
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://bymykel.github.io/CSGO-API/">
-	<meta property="twitter:title" content="CSGO API">
-	<meta property="twitter:description" content="An unofficial JSON API for Counter-Strike: Global Offensive. ">
-	<meta property="twitter:image" content="https://bymykel.github.io/CSGO-API/image-meta.png">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link href="prism/prism.css" rel="stylesheet" />
 
-	<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-	<link href="prism/prism.css" rel="stylesheet" />
+        <script src="https://cdn.tailwindcss.com"></script>
 
-	<script src="https://cdn.tailwindcss.com"></script>
+        <style type="text/tailwindcss">
+            @layer base {
+                html {
+                    font-family: "Inter", sans-serif !important;
+                }
 
-	<style type="text/tailwindcss">
-		@layer base {
-			html {
-				font-family: "Inter", sans-serif !important;
-			}
+                body {
+                    @apply antialiased bg-white text-slate-500;
+                }
 
-			body {
-				@apply antialiased bg-white text-slate-500;
-			}
+                hr {
+                    border-color: #f1f5f9;
+                    border-top-width: 1px;
+                    margin-top: 3em;
+                    margin-bottom: 3em;
+                }
 
-			hr {
-				border-color: #f1f5f9;
-				border-top-width: 1px;
-				margin-top: 3em;
-				margin-bottom: 3em;
-			}
+                .not-active-tab {
+                    @apply text-slate-500 hover:text-slate-400 cursor-pointer;
+                }
 
-			.not-active-tab {
-				@apply text-slate-500 hover:text-slate-400 cursor-pointer;
-			}
+                .schema.null {
+                    color: #cc99cd;
+                }
 
-			.schema.null {
-				color: #cc99cd;
-			}
+                .schema.integer {
+                    color: #f472b6;
+                }
 
-			.schema.integer {
-				color: #f472b6;
-			}
+                .schema.number {
+                    color: #f472b6;
+                }
 
-			.schema.number {
-				color: #f472b6;
-			}
+                .schema.boolean {
+                    color: #f472b6;
+                }
 
-			.schema.boolean {
-				color: #f472b6;
-			}
+                .schema.string {
+                    color: #7dd3fc;
+                }
 
-			.schema.string {
-				color: #7dd3fc;
-			}
+                .schema.array-object {
+                    color: #fcd34d;
+                }
+            }
+        </style>
+    </head>
 
-			.schema.array-object {
-				color: #fcd34d;
-			}
-        }
-    </style>
-</head>
+    <body>
+        <div
+            class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center"
+        >
+            <h1 class="text-2xl tracking-tight font-extrabold text-slate-900">
+                CSGO API
+            </h1>
+            <button onclick="openLateralNav()">
+                <svg width="24" height="24">
+                    <path
+                        d="M5 6h14M5 12h14M5 18h14"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                    ></path>
+                </svg>
+            </button>
+        </div>
+        <div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20 pt-12 lg:pt-0">
+            <div
+                class="fixed z-50 inset-0 overflow-y-auto lg:hidden hidden"
+                id="lateral-nav"
+                role="dialog"
+                aria-modal="true"
+            >
+                <div
+                    class="fixed inset-0 bg-black/20 backdrop-blur-sm"
+                    onClick="closeLateralNav()"
+                ></div>
+                <div class="relative bg-white w-80 max-w-[calc(100%-3rem)] p-6">
+                    <button
+                        class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+                        onClick="closeLateralNav()"
+                    >
+                        <svg
+                            viewBox="0 0 10 10"
+                            class="w-2.5 h-2.5 overflow-visible"
+                        >
+                            <path
+                                d="M0 0L10 10M10 0L0 10"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            ></path>
+                        </svg>
+                    </button>
+                    <nav id="nav" class="lg:text-sm lg:leading-6 relative">
+                        <div
+                            id="responsive-links"
+                            class="space-y-2 min-h-screen pt-6"
+                        >
+                            <div class="mb-1.5">
+                                <a
+                                    href="#introduction"
+                                    class="text-slate-900 hover:underline"
+                                    >Introduction</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-skins"
+                                    class="text-slate-900 hover:underline"
+                                    >List skins</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-stickers"
+                                    class="text-slate-900 hover:underline"
+                                    >List stickers</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-collections"
+                                    class="text-slate-900 hover:underline"
+                                    >List collections</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <div class="text-slate-900">List crates</div>
+                                <div
+                                    class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100"
+                                >
+                                    <div>
+                                        <a
+                                            href="#list-crates"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >All</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-1"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Capsules / patches</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-2"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Capsules / pins</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-3"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Cases</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-4"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Graffiti boxes</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-5"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Music kit boxes</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-crates-6"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Souvenir packages</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-keys"
+                                    class="text-slate-900 hover:underline"
+                                    >List keys</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <div class="text-slate-900">
+                                    List collectibles
+                                </div>
+                                <div
+                                    class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100"
+                                >
+                                    <div>
+                                        <a
+                                            href="#list-collectibles"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >All</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-1"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Major / fantasy team</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-2"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Major / finalists</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-3"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Major / pick'em</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-4"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Major / old pick'em</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-5"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Operation / coins</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-6"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Operation / stars</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-7"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Map Contributor</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-8"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Pins</a
+                                        >
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="#list-collectibles-9"
+                                            class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                            >Service medals</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-agents"
+                                    class="text-slate-900 hover:underline"
+                                    >List agents</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-patches"
+                                    class="text-slate-900 hover:underline"
+                                    >List patches</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-graffiti"
+                                    class="text-slate-900 hover:underline"
+                                    >List graffiti</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-music-kits"
+                                    class="text-slate-900 hover:underline"
+                                    >List music kits</a
+                                >
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
 
-<body>
-	<div
-		class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center">
-		<h1 class="text-2xl tracking-tight font-extrabold text-slate-900">CSGO API</h1>
-		<button onclick="openLateralNav()">
-			<svg width="24" height="24">
-				<path d="M5 6h14M5 12h14M5 18h14" fill="none" stroke="currentColor" strokeWidth="2"
-					strokeLinecap="round"></path>
-			</svg>
-		</button>
-	</div>
-	<div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20 pt-12 lg:pt-0">
-		<div class="fixed z-50 inset-0 overflow-y-auto lg:hidden hidden" id="lateral-nav" role="dialog"
-			aria-modal="true">
-			<div class="fixed inset-0 bg-black/20 backdrop-blur-sm" onClick="closeLateralNav()"></div>
-			<div class="relative bg-white w-80 max-w-[calc(100%-3rem)] p-6">
-				<button
-					class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
-					onClick="closeLateralNav()">
-					<svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible">
-						<path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2"
-							stroke-linecap="round"></path>
-					</svg>
-				</button>
-				<nav id="nav" class="lg:text-sm lg:leading-6 relative">
-					<div id="responsive-links" class="space-y-2 min-h-screen pt-6">
-						<div class="mb-1.5">
-							<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-skins" class="text-slate-900 hover:underline">List skins</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-stickers" class="text-slate-900 hover:underline">List stickers</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-collections" class="text-slate-900 hover:underline">List collections</a>
-						</div>
-						<div class="mb-1.5">
-							<div class="text-slate-900">
-								List crates
-							</div>
-							<div class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100">
-								<div>
-									<a href="#list-crates"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
-								</div>
-								<div>
-									<a href="#list-crates-1"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
-										/ patches</a>
-								</div>
-								<div>
-									<a href="#list-crates-2"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
-										/ pins</a>
-								</div>
-								<div>
-									<a href="#list-crates-3"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Cases</a>
-								</div>
-								<div>
-									<a href="#list-crates-4"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Graffiti
-										boxes</a>
-								</div>
-								<div>
-									<a href="#list-crates-5"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Music
-										kit boxes</a>
-								</div>
-								<div>
-									<a href="#list-crates-6"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Souvenir
-										packages</a>
-								</div>
-							</div>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-keys" class="text-slate-900 hover:underline">List keys</a>
-						</div>
-						<div class="mb-1.5">
-							<div class="text-slate-900">
-								List collectibles
-							</div>
-							<div class="text-sm my-0.5 space-y-3 lg:space-y-2 border-l border-slate-100">
-								<div>
-									<a href="#list-collectibles"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-1"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-										/ fantasy team</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-2"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-										/ finalists</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-3"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-										/ pick'em</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-4"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-										/ old pick'em</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-5"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
-										/ coins</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-6"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
-										/ stars</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-7"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Map
-										Contributor</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-8"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Pins</a>
-								</div>
-								<div>
-									<a href="#list-collectibles-9"
-										class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Service
-										medals</a>
-								</div>
-							</div>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-agents" class="text-slate-900 hover:underline">List agents</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-patches" class="text-slate-900 hover:underline">List patches</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
-						</div>
-						<div class="mb-1.5">
-							<a href="#list-music-kits" class="text-slate-900 hover:underline">List music kits</a>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
+            <div
+                class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[16rem] pb-10 px-6 overflow-y-auto"
+            >
+                <div class="sticky top-4">
+                    <div>
+                        <h1
+                            class="text-lg tracking-tight font-extrabold text-slate-900 mb-3"
+                        >
+                            CSGO API
+                        </h1>
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#introduction"
+                            class="text-slate-900 hover:underline"
+                            >Introduction</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-skins"
+                            class="text-slate-900 hover:underline"
+                            >List skins</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-stickers"
+                            class="text-slate-900 hover:underline"
+                            >List stickers</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-collections"
+                            class="text-slate-900 hover:underline"
+                            >List collections</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <div class="text-slate-900">List crates</div>
+                        <div
+                            class="text-sm my-0.5 space-y-6 lg:space-y-2 border-l border-slate-100"
+                        >
+                            <div>
+                                <a
+                                    href="#list-crates"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >All</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-1"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Capsules / patches</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-2"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Capsules / pins</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-3"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Cases</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-4"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Graffiti boxes</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-5"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Music kit boxes</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-crates-6"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Souvenir packages</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-keys"
+                            class="text-slate-900 hover:underline"
+                            >List keys</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <div class="text-slate-900">List collectibles</div>
+                        <div
+                            class="text-sm my-0.5 space-y-6 lg:space-y-2 border-l border-slate-100"
+                        >
+                            <div>
+                                <a
+                                    href="#list-collectibles"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >All</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-1"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Major / fantasy team</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-2"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Major / finalists</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-3"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Major / pick'em</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-4"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Major / old pick'em</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-5"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Operation / coins</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-6"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Operation / stars</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-7"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Map Contributor</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-8"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Pins</a
+                                >
+                            </div>
+                            <div>
+                                <a
+                                    href="#list-collectibles-9"
+                                    class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900"
+                                    >Service medals</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-agents"
+                            class="text-slate-900 hover:underline"
+                            >List agents</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-patches"
+                            class="text-slate-900 hover:underline"
+                            >List patches</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-graffiti"
+                            class="text-slate-900 hover:underline"
+                            >List graffiti</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-music-kits"
+                            class="text-slate-900 hover:underline"
+                            >List music kits</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="lg:pl-[15rem] xl:pl-[7rem]">
+                <div class="pb-12 mt-4">
+                    <div id="introduction">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            Introduction
+                        </h1>
 
-		<div
-			class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[16rem] pb-10 px-6 overflow-y-auto">
-			<div class="sticky top-4">
-				<div>
-					<h1 class="text-lg tracking-tight font-extrabold text-slate-900 mb-3">CSGO API</h1>
-				</div>
-				<div class="mb-1.5">
-					<a href="#introduction" class="text-slate-900 hover:underline">Introduction</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-skins" class="text-slate-900 hover:underline">List skins</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-stickers" class="text-slate-900 hover:underline">List stickers</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-collections" class="text-slate-900 hover:underline">List collections</a>
-				</div>
-				<div class="mb-1.5">
-					<div class="text-slate-900">
-						List crates
-					</div>
-					<div class="text-sm my-0.5 space-y-6 lg:space-y-2 border-l border-slate-100">
-						<div>
-							<a href="#list-crates"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
-						</div>
-						<div>
-							<a href="#list-crates-1"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
-								/ patches</a>
-						</div>
-						<div>
-							<a href="#list-crates-2"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Capsules
-								/ pins</a>
-						</div>
-						<div>
-							<a href="#list-crates-3"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Cases</a>
-						</div>
-						<div>
-							<a href="#list-crates-4"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Graffiti
-								boxes</a>
-						</div>
-						<div>
-							<a href="#list-crates-5"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Music
-								kit boxes</a>
-						</div>
-						<div>
-							<a href="#list-crates-6"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Souvenir
-								packages</a>
-						</div>
-					</div>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-keys" class="text-slate-900 hover:underline">List keys</a>
-				</div>
-				<div class="mb-1.5">
-					<div class="text-slate-900">
-						List collectibles
-					</div>
-					<div class="text-sm my-0.5 space-y-6 lg:space-y-2 border-l border-slate-100">
-						<div>
-							<a href="#list-collectibles"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">All</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-1"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-								/ fantasy team</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-2"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-								/ finalists</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-3"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-								/ pick'em</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-4"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Major
-								/ old pick'em</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-5"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
-								/ coins</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-6"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Operation
-								/ stars</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-7"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Map
-								Contributor</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-8"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Pins</a>
-						</div>
-						<div>
-							<a href="#list-collectibles-9"
-								class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 text-slate-700 hover:text-slate-900">Service
-								medals</a>
-						</div>
-					</div>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-agents" class="text-slate-900 hover:underline">List agents</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-patches" class="text-slate-900 hover:underline">List patches</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-graffiti" class="text-slate-900 hover:underline">List graffiti</a>
-				</div>
-				<div class="mb-1.5">
-					<a href="#list-music-kits" class="text-slate-900 hover:underline">List music kits</a>
-				</div>
-			</div>
-		</div>
-		<div class="lg:pl-[15rem] xl:pl-[7rem]">
-			<div class="pb-12 mt-4">
-				<div id="introduction">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						Introduction
-					</h1>
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            An unofficial JSON API for Counter-Strike: Global
+                            Offensive.
+                        </p>
 
-					<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-						An unofficial JSON API for Counter-Strike: Global Offensive.
-					</p>
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            All data are retrieved from
+                            <a
+                                class="hover:underline text-sky-500"
+                                href="https://github.com/SteamDatabase/GameTracking-CSGO/blob/master/csgo/scripts/items/items_game.txt"
+                                target="_blank"
+                                >items_game.txt</a
+                            >
+                            and
+                            <a
+                                class="hover:underline text-sky-500"
+                                href="https://github.com/SteamDatabase/GameTracking-CSGO/blob/master/csgo/resource/csgo_english.txt"
+                                target="_blank"
+                                >csgo_english.txt</a
+                            >. These files use Valve's KeyValue text file format
+                            and have to be parsed with
+                            <a
+                                class="hover:underline text-sky-500"
+                                href="https://github.com/p0358/vdf-parser"
+                                target="_blank"
+                                >vdf-parser</a
+                            >.
+                        </p>
 
-					<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-						All data are retrieved from <a class="hover:underline text-sky-500"
-							href="https://github.com/SteamDatabase/GameTracking-CSGO/blob/master/csgo/scripts/items/items_game.txt"
-							target="_blank">items_game.txt</a> and <a class="hover:underline text-sky-500"
-							href="https://github.com/SteamDatabase/GameTracking-CSGO/blob/master/csgo/resource/csgo_english.txt"
-							target="_blank">csgo_english.txt</a>.
-						These files use Valve's KeyValue text file format and have to be parsed with <a
-							class="hover:underline text-sky-500" href="https://github.com/p0358/vdf-parser"
-							target="_blank">vdf-parser</a>.
-					</p>
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            This project is
+                            <a
+                                class="hover:underline text-sky-500"
+                                href="https://github.com/ByMykel/CSGO-API"
+                                target="_blank"
+                                >open source</a
+                            >.
+                        </p>
 
-					<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-						This project is <a class="hover:underline text-sky-500"
-							href="https://github.com/ByMykel/CSGO-API" target="_blank">open source</a>.
-					</p>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4 text-[#7dd3fc]"
+                            >
+                                BASE URL
+                            </div>
+                            <div class="py-2.5 px-3">
+                                https://bymykel.github.io/CSGO-API/api/{language}
+                            </div>
+                        </div>
 
-					<div class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4 text-[#7dd3fc]">
-							BASE URL
-						</div>
-						<div class="py-2.5 px-3">https://bymykel.github.io/CSGO-API/api/{language}</div>
-					</div>
-				</div>
+                        <p
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            Languages: bg, cs, da, de, el, en, es, es-MX, fi,
+                            fr, hu, it, ja, ko, nl, no, pl, pt-BR, pt-PT, ro,
+                            ru, sv, th, tr, uk, zh-CN, zh-TW
+                        </p>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-skins">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List skins
-					</h1>
+                    <div id="list-skins">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List skins
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/skins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/skins.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /skins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/skins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-skins', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-skins', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>weapon</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>pattern</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>min_float</div>
-									<div class="schema number">number</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>max_float</div>
-									<div class="schema number">number</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-skins', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-skins', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>weapon</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>pattern</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>min_float</div>
+                                        <div class="schema number">number</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>max_float</div>
+                                        <div class="schema number">number</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -490,75 +767,120 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-stickers">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List stickers
-					</h1>
+                    <div id="list-stickers">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List stickers
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/stickers.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/stickers.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /stickers.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/stickers.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-stickers', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-stickers', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-stickers', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-stickers', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -570,63 +892,94 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-collections">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List collections
-					</h1>
+                    <div id="list-collections">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List collections
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collections.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collections.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collections.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collections.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-collections', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-collections', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-collections', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-collections', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -636,85 +989,143 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-crates">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-						List crates
-					</h1>
+                    <div id="list-crates">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight"
+                        >
+                            List crates
+                        </h1>
 
-					<p class="mt-2 text-base md:text-lg text-slate-700 mb-4">
-						This list includes cases, capsules, graffiti boxes, music kit boxes and souvenir packages.
-					</p>
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            This list includes cases, capsules, graffiti boxes,
+                            music kit boxes and souvenir packages.
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-crates', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-crates', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 py-1 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>type</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>first_sale_date</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-crates', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-crates', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 py-1 px-8 py-1"
+                                    >
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>type</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>first_sale_date</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -727,229 +1138,371 @@
     },
 	// ...
 ]</code></pre>
-					</div>
+                        </div>
 
-					<h1 class="mt-8 inline-block text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-						Filter by type
-					</h1>
+                        <h1
+                            class="mt-8 inline-block text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight"
+                        >
+                            Filter by type
+                        </h1>
 
-					<p id="list-crates-1" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Capsules with patches
-					</p>
+                        <p
+                            id="list-crates-1"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Capsules with patches
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/capsules/patches.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/capsules/patches.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/capsules/patches.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/capsules/patches.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-2" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Capsules with pins
-					</p>
+                        <p
+                            id="list-crates-2"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Capsules with pins
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/capsules/pins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/capsules/pins.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/capsules/pins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/capsules/pins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-3" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Cases
-					</p>
+                        <p
+                            id="list-crates-3"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Cases
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/cases.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/cases.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/cases.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/cases.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-4" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Graffiti boxes
-					</p>
+                        <p
+                            id="list-crates-4"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Graffiti boxes
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/graffiti.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/graffiti.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/graffiti.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/graffiti.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-5" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Music kit boxes
-					</p>
+                        <p
+                            id="list-crates-5"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Music kit boxes
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/music_kit_boxes.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/music_kit_boxes.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/music_kit_boxes.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/music_kit_boxes.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-6" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Souvenir packages
-					</p>
+                        <p
+                            id="list-crates-6"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Souvenir packages
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/souvenir.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/souvenir.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/souvenir.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/souvenir.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-crates-7" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Rest of crates that don't fit in any type
-					</p>
+                        <p
+                            id="list-crates-7"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Rest of crates that don't fit in any type
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/crates/other.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/crates/other.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
-				</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /crates/other.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/crates/other.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-keys">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List keys
-					</h1>
+                    <div id="list-keys">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List keys
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/keys.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/keys.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /keys.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/keys.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-keys', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-keys', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 py-1 px-8">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-keys', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-keys', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 py-1 px-8">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -960,81 +1513,132 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-collectibles">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List collectibles
-					</h1>
+                    <div id="list-collectibles">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List collectibles
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-collectibles', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-collectibles', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>type</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-collectibles', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-collectibles', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>type</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -1047,304 +1651,479 @@
     },
 	// ...
 ]</code></pre>
-					</div>
+                        </div>
 
-					<h1 class="mt-8 inline-block text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-						Filter by type
-					</h1>
+                        <h1
+                            class="mt-8 inline-block text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight"
+                        >
+                            Filter by type
+                        </h1>
 
-					<p id="list-collectibles-1" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Major fantasy team trophies
-					</p>
+                        <p
+                            id="list-collectibles-1"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Major fantasy team trophies
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/major/fantasy_trophies.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/fantasy_trophies.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/major/fantasy_trophies.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/fantasy_trophies.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-2" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Major finalists trophies
-					</p>
+                        <p
+                            id="list-collectibles-2"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Major finalists trophies
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/major/finalists_trophies.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/finalists_trophies.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/major/finalists_trophies.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/finalists_trophies.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-3" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Major pickem coins
-					</p>
+                        <p
+                            id="list-collectibles-3"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Major pickem coins
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/major/pickem_coins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/pickem_coins.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/major/pickem_coins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/pickem_coins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-4" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Major old pickem trophy
-					</p>
+                        <p
+                            id="list-collectibles-4"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Major old pickem trophy
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/major/pickem_old.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/pickem_old.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/major/pickem_old.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/major/pickem_old.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-5" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Operation coins
-					</p>
+                        <p
+                            id="list-collectibles-5"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Operation coins
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/operation/coins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/operation/coins.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/operation/coins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/operation/coins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-6" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Operation stars
-					</p>
+                        <p
+                            id="list-collectibles-6"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Operation stars
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/operation/stars.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/operation/stars.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/operation/stars.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/operation/stars.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-7" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Map Contributor Coins
-					</p>
+                        <p
+                            id="list-collectibles-7"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Map Contributor Coins
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/map_coins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/map_coins.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/map_coins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/map_coins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-8" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Pins
-					</p>
+                        <p
+                            id="list-collectibles-8"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Pins
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/pins.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/pins.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/pins.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/pins.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p id="list-collectibles-9" class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Service medals
-					</p>
+                        <p
+                            id="list-collectibles-9"
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Service medals
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/service_medals.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/service_medals.json"
-								target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/service_medals.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/service_medals.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<p class="mt-4 text-base md:text-lg text-slate-700 mb-2">
-						Rest of collectibles that don't fit in any type
-					</p>
+                        <p
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-2"
+                        >
+                            Rest of collectibles that don't fit in any type
+                        </p>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/collectibles/other.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/collectibles/other.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /collectibles/other.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/collectibles/other.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-				</div>
+                    <hr />
 
-				<hr>
+                    <div id="list-agents">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List agents
+                        </h1>
 
-				<div id="list-agents">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List agents
-					</h1>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /agents.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/agents.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/agents.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/agents.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-agents', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-agents', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-agents', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-agents', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
-
-						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -1356,73 +2135,112 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-patches">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List patches
-					</h1>
+                    <div id="list-patches">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List patches
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/patches.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/patches.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /patches.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/patches.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-patches', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-patches', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-patches', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-patches', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -1434,75 +2252,120 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-graffiti">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List graffiti
-					</h1>
+                    <div id="list-graffiti">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List graffiti
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/graffiti.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/graffiti.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /graffiti.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/graffiti.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-graffiti', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-graffiti', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="text-slate-400"><span class="schema string">string</span> or <span
-											class="schema null">null</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-graffiti', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-graffiti', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                            or
+                                            <span class="schema null"
+                                                >null</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -1514,81 +2377,120 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
+                        </div>
+                    </div>
 
-				<hr>
+                    <hr />
 
-				<div id="list-music-kits">
-					<h1 class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
-						List music kits
-					</h1>
+                    <div id="list-music-kits">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
+                        >
+                            List music kits
+                        </h1>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center">
-						<div>
-							<span class="text-pink-400">GET</span>
-							/music_kits.json
-						</div>
-						<div>
-							<a href="https://bymykel.github.io/CSGO-API/api/en/music_kits.json" target="_blank">
-								<svg class="w-5 h-5 text-slate-400 hover:text-slate-300" fill="none"
-									stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
-									</path>
-								</svg>
-							</a>
-						</div>
-					</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /music_kits.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/music_kits.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-					<div
-						class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden">
-						<div class="py-2.5 px-3 border-b border-slate-700 flex space-x-4">
-							<div class="schema-tab" onclick="changeTab('list-music-kits', 'schema')">
-								Schema
-							</div>
-							<div class="example-tab not-active-tab" onclick="changeTab('list-music-kits', 'example')">
-								Example
-							</div>
-						</div>
-						<div class="schema-data">
-							<div class="px-3 py-1 schema array-object">array[object]</div>
-							<div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>id</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>name</div>
-									<div class="schema string">string</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>description</div>
-									<div class="text-slate-400">
-										<span class="schema string">string</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>rarity</div>
-									<div class="text-slate-400">
-										<span class="schema string">string</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30">
-									<div>exclusive</div>
-									<div class="text-slate-400">
-										<span class="schema boolean">boolean</span>
-									</div>
-								</div>
-								<div class="grid grid-cols-2 px-8 py-1">
-									<div>image</div>
-									<div class="schema string">string</div>
-								</div>
-							</div>
-						</div>
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mt-2 overflow-hidden"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4"
+                            >
+                                <div
+                                    class="schema-tab"
+                                    onclick="changeTab('list-music-kits', 'schema')"
+                                >
+                                    Schema
+                                </div>
+                                <div
+                                    class="example-tab not-active-tab"
+                                    onclick="changeTab('list-music-kits', 'example')"
+                                >
+                                    Example
+                                </div>
+                            </div>
+                            <div class="schema-data">
+                                <div class="px-3 py-1 schema array-object">
+                                    array[object]
+                                </div>
+                                <div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>id</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>name</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>description</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>rarity</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema string"
+                                                >string</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                    >
+                                        <div>exclusive</div>
+                                        <div class="text-slate-400">
+                                            <span class="schema boolean"
+                                                >boolean</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-2 px-8 py-1">
+                                        <div>image</div>
+                                        <div class="schema string">string</div>
+                                    </div>
+                                </div>
+                            </div>
 
-						<pre class="example-data  rounded-xl h-68 shadow-lg hidden">
+                            <pre
+                                class="example-data rounded-xl h-68 shadow-lg hidden"
+                            >
 <code class="language-json">[
 	// ...
 	{
@@ -1601,61 +2503,69 @@
     },
 	// ...
 ]</code></pre>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <script src="prism/prism.js"></script>
 
+        <script>
+            const changeTab = (sectionId, tab) => {
+                const otherTab = { example: "schema", schema: "example" }[tab];
 
-	<script src="prism/prism.js"></script>
+                document
+                    .querySelector(`#${sectionId} .${tab}-data`)
+                    .classList.remove("hidden");
+                document
+                    .querySelector(`#${sectionId} .${otherTab}-data`)
+                    .classList.add("hidden");
 
-	<script>
-		const changeTab = (sectionId, tab) => {
-			const otherTab = { 'example': 'schema', 'schema': 'example' }[tab];
+                document
+                    .querySelector(`#${sectionId} .${tab}-tab`)
+                    .classList.remove("not-active-tab");
+                document
+                    .querySelector(`#${sectionId} .${otherTab}-tab`)
+                    .classList.add("not-active-tab");
+            };
 
-			document.querySelector(`#${sectionId} .${tab}-data`).classList.remove('hidden');
-			document.querySelector(`#${sectionId} .${otherTab}-data`).classList.add('hidden');
+            const openLateralNav = () => {
+                document.body.classList.add("overflow-hidden");
+                document.body.classList.add("lg:overflow-auto");
+                document
+                    .getElementById("lateral-nav")
+                    .classList.remove("hidden");
+            };
 
-			document.querySelector(`#${sectionId} .${tab}-tab`).classList.remove('not-active-tab');
-			document.querySelector(`#${sectionId} .${otherTab}-tab`).classList.add('not-active-tab');
-		}
+            const closeLateralNav = () => {
+                document.body.classList.remove("overflow-hidden");
+                document.body.classList.remove("lg:overflow-auto");
+                document.getElementById("lateral-nav").classList.add("hidden");
+            };
 
-		const openLateralNav = () => {
-			document.body.classList.add('overflow-hidden');
-			document.body.classList.add('lg:overflow-auto');
-			document.getElementById('lateral-nav').classList.remove('hidden');
-		}
+            (() => {
+                const links = document.querySelectorAll("#responsive-links a");
 
-		const closeLateralNav = () => {
-			document.body.classList.remove('overflow-hidden');
-			document.body.classList.remove('lg:overflow-auto');
-			document.getElementById('lateral-nav').classList.add('hidden');
-		}
+                for (const link of links) {
+                    link.addEventListener("click", () => {
+                        closeLateralNav();
+                        setTimeout(() => window.scrollBy(0, -48), 10);
+                    });
+                }
 
-		(() => {
-			const links = document.querySelectorAll('#responsive-links a');
+                document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+                    anchor.addEventListener("click", function (e) {
+                        e.preventDefault();
 
-			for (const link of links) {
-				link.addEventListener('click', () => {
-					closeLateralNav();
-					setTimeout(() => window.scrollBy(0, -48), 10);
-				});
-			}
-
-			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-				anchor.addEventListener('click', function (e) {
-					e.preventDefault();
-
-					document.querySelector(this.getAttribute('href')).scrollIntoView({
-						behavior: 'smooth'
-					});
-				});
-			});
-		})()
-	</script>
-</body>
-
+                        document
+                            .querySelector(this.getAttribute("href"))
+                            .scrollIntoView({
+                                behavior: "smooth",
+                            });
+                    });
+                });
+            })();
+        </script>
+    </body>
 </html>
