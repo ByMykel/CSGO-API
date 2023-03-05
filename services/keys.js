@@ -1,8 +1,8 @@
 import { IMAGES_BASE_URL } from "../constants.js";
-import { saveDataJson } from "./saveDataJson.js";
+import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "./saveDataMemory.js";
+import { saveDataMemory } from "../utils/saveDataMemory.js";
 
 const isKey = (item) => {
     if (item.item_name === undefined) return false;

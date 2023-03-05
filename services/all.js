@@ -1,5 +1,5 @@
-import { saveDataJson } from "./saveDataJson.js";
-import { getSavedData, removeDataMemory } from "./saveDataMemory.js";
+import { saveDataJson } from "../utils/saveDataJson.js";
+import { getSavedData, removeDataMemory } from "../utils/saveDataMemory.js";
 
 export const saveAllItems = (language, folder) => {
     try {
