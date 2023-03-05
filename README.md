@@ -106,3 +106,261 @@ GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
     <td width="400">image</td>
     <td width="400">string</td>
   </tr>
+
+### List collections
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/collections.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List crates
+
+This list includes cases, capsules, graffiti boxes, music kit boxes and souvenir packages.
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/crates.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">type</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">first_sale_date</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List keys
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/keys.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List collectibles
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/collectibles.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">type</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List agents
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/agents.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List patches
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/patches.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List graffiti
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/graffiti.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List music kits
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/music_kits.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">exclusive</td>
+    <td width="400">boolean</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
