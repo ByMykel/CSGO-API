@@ -106,6 +106,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
     <td width="400">image</td>
     <td width="400">string</td>
   </tr>
+</table>
 
 ### List collections
 
