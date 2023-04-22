@@ -3,11 +3,13 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isPatch = (item) => !(item.patch_material === undefined);
 
 const parseItem = (item) => {
-    const image = `${IMAGES_BASE_URL}econ/patches/${item.patch_material}_large.png`;
+    // const image = `${IMAGES_BASE_URL}econ/patches/${item.patch_material}_large.png`;
+    const image = cdn[`econ/patches/${item.patch_material}_large`];
 
     return {
         id: `patch-${item.object_id}`,

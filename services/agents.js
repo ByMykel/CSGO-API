@@ -3,11 +3,14 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isAgent = (item) => item.prefab === "customplayertradable";
 
 const parseItem = (item) => {
-    const image = `${IMAGES_BASE_URL}econ/characters/${item.name.toLocaleLowerCase()}.png`;
+    // const image = `${IMAGES_BASE_URL}econ/characters/${item.name.toLocaleLowerCase()}.png`;
+    const image = cdn[`econ/characters/${item.name.toLocaleLowerCase()}`];
+
 
     return {
         id: `agent-${item.object_id}`,

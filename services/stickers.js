@@ -3,6 +3,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -25,7 +26,8 @@ const isSticker = (item) => {
 };
 
 const parseItem = (item) => {
-    const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
+    // const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
+    const image = cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
     return {
         id: `sticker-${item.object_id}`,
