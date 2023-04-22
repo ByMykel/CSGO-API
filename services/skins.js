@@ -4,6 +4,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -69,7 +70,8 @@ const getSkinInfo = (iconPath) => {
 
 const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
+    // const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
+    const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
         $translate(items[weapon].item_name) ??
         $translate(items[weapon].item_name_prefab);
