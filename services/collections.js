@@ -3,7 +3,6 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isCollection = (item) => item.is_collection !== undefined;
 
@@ -39,9 +38,8 @@ const isSelfOpeningCollection = (item) => {
 };
 
 const parseItem = (item) => {
-    // const fileName = `${item.name.replace("#CSGO_", "")}.png`;
-    // const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
-    const image = cdn[`econ/set_icons/${item.name.replace("#CSGO_", "")}`];
+    const fileName = `${item.name.replace("#CSGO_", "")}.png`;
+    const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
