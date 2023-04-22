@@ -27,7 +27,7 @@ const isSticker = (item) => {
 
 const parseItem = (item) => {
     // const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
-    const image = cdn[`${item.sticker_material.toLowerCase()}_large`];
+    const image = cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
     return {
         id: `sticker-${item.object_id}`,
