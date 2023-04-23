@@ -3,6 +3,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isGraffiti = (item) => {
     if (item.item_name.startsWith("#SprayKit_")) {
@@ -21,7 +22,8 @@ const isGraffiti = (item) => {
 };
 
 const parseItemSealedGraffiti = (item) => {
-    const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material}_large.png`;
+    // const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material}_large.png`;
+    const image = cdn[`econ/stickers/${item.sticker_material}_large`];
 
     return {
         id: `graffiti-${item.object_id}`,
