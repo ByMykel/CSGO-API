@@ -5,6 +5,63 @@
         "description": "这个胶囊包含一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示收藏胸章。",
         "type": "Pins",
         "first_sale_date": "2016/06/01",
+        "contains": [
+            {
+                "id": "collection-6110",
+                "name": "守护者胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6111",
+                "name": "战术胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6108",
+                "name": "核子危机胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6109",
+                "name": "列车停放站胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6106",
+                "name": "胜利胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6107",
+                "name": "佣兵训练营胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6105",
+                "name": "意大利小镇胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6103",
+                "name": "荒漠迷城胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6104",
+                "name": "炼狱小镇胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6101",
+                "name": "炙热沙城 II 胸章",
+                "rarity": "非凡"
+            },
+            {
+                "id": "collection-6102",
+                "name": "精英守护者胸章",
+                "rarity": "非凡"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_1.d43d773dc49e91152169d79cfca70a76a7ef7c06.png"
     },
     {
@@ -13,6 +70,63 @@
         "description": "这个胶囊包含一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示收藏胸章。",
         "type": "Pins",
         "first_sale_date": "2016/09/28",
+        "contains": [
+            {
+                "id": "collection-6112",
+                "name": "守护者 2 号胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6113",
+                "name": "英勇胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6114",
+                "name": "行李仓库胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6115",
+                "name": "凤凰胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6116",
+                "name": "办公室胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6117",
+                "name": "古堡激战胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6118",
+                "name": "死亡游乐园胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6119",
+                "name": "血猎胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6120",
+                "name": "死城之谜胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6122",
+                "name": "幻彩胸章",
+                "rarity": "非凡"
+            },
+            {
+                "id": "collection-6121",
+                "name": "瓦莱里娅凤凰胸章",
+                "rarity": "非凡"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_2.96ecd6ea95f24366ca9b41f185cd2bff3a00ab00.png"
     },
     {
@@ -21,6 +135,63 @@
         "description": "这个胶囊包含一枚系列 3 的收藏胸章。您可以在 CS:GO 个人资料上展示收藏胸章。",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
+        "contains": [
+            {
+                "id": "collection-6123",
+                "name": "守护者 3 号胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6124",
+                "name": "运河水城胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6125",
+                "name": "欢迎翻盘胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6126",
+                "name": "死刑胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-6127",
+                "name": "炼狱小镇 2 号胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6128",
+                "name": "野火胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6129",
+                "name": "柠檬汁胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-6130",
+                "name": "黑桃 A 胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6131",
+                "name": "九头蛇胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6132",
+                "name": "咆哮胸章",
+                "rarity": "非凡"
+            },
+            {
+                "id": "collection-6133",
+                "name": "准将胸章",
+                "rarity": "非凡"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_3.2c42778f1c923b58c5c96012846fbeca39a29625.png"
     },
     {
@@ -29,6 +200,68 @@
         "description": "这个胶囊包含一枚用于纪念《半衰期：爱莉克斯》的收藏品胸章，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示收藏品胸章。",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
+        "contains": [
+            {
+                "id": "collection-4691",
+                "name": "联合军头盔胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-4690",
+                "name": "黑山基地胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-4689",
+                "name": "联合军胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-4687",
+                "name": "λ 胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-4692",
+                "name": "17号城市胸章",
+                "rarity": "高级"
+            },
+            {
+                "id": "collection-4685",
+                "name": "猎头蟹符文胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-4688",
+                "name": "铜质 λ 胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-4686",
+                "name": "生命值胸章",
+                "rarity": "卓越"
+            },
+            {
+                "id": "collection-4683",
+                "name": "养料！胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-4684",
+                "name": "弗地岗人胸章",
+                "rarity": "奇异"
+            },
+            {
+                "id": "collection-6134",
+                "name": "爱莉克斯胸章",
+                "rarity": "非凡"
+            },
+            {
+                "id": "collection-4682",
+                "name": "国民护卫队胸章",
+                "rarity": "非凡"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_hlalyx.eb16a18634b793404efe1002106906ac64e1c3f2.png"
     }
 ]

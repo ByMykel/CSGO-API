@@ -5,6 +5,98 @@
         "description": "Этот ящик содержит один шаблон граффити, созданный сообществом. Часть прибыли с продаж будет поделена между создателями наклеек.",
         "type": "Graffiti",
         "first_sale_date": "2016/06/20",
+        "contains": [
+            {
+                "id": "graffiti-1654",
+                "name": "Петушок",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1656",
+                "name": "Щелбан",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1666",
+                "name": "Возвращение падающей звезды",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1662",
+                "name": "Старая школа",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1663",
+                "name": "Карманный мангал",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1665",
+                "name": "Повелитель лезвия",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1658",
+                "name": "Иветта",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1669",
+                "name": "Единорог",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1670",
+                "name": "Крылатый сапер",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1657",
+                "name": "Хомагавк",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1659",
+                "name": "Кавайный спецназ",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1660",
+                "name": "Кавайный террорист",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1661",
+                "name": "Марта",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1668",
+                "name": "Тамара",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1667",
+                "name": "Открытый череп",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1655",
+                "name": "Ветеран нарковойн",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-1653",
+                "name": "Кровожадный бойлер",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-1664",
+                "name": "Rekt",
+                "rarity": "экзотичного вида"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_community_1.9901d4df438f7ab1df3b493a063d80ca82711550.png"
     },
     {
@@ -13,6 +105,98 @@
         "description": null,
         "type": "Graffiti",
         "first_sale_date": "2016/08/24",
+        "contains": [
+            {
+                "id": "graffiti-1676",
+                "name": "Страж",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1672",
+                "name": "Банан",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1671",
+                "name": "Эйс",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1686",
+                "name": "Череп на мушке",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1682",
+                "name": "Отличный выстрел",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1688",
+                "name": "Крылья",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1683",
+                "name": "«Феникс»",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1687",
+                "name": "Желаю крепкой хватки",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1681",
+                "name": "Плёвое дело",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-1677",
+                "name": "EZ",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1673",
+                "name": "Цербер",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1680",
+                "name": "Поцелуйчики",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1675",
+                "name": "Корона",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1684",
+                "name": "Лучший игрок",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1685",
+                "name": "Раскатали",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-1679",
+                "name": "Утренний вой",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-1678",
+                "name": "Огненный змей",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-1674",
+                "name": "Последняя надежда",
+                "rarity": "экзотичного вида"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_valve_1.631e40631e3129ac3dd15adf2eeccd964b531498.png"
     },
     {
@@ -21,6 +205,98 @@
         "description": "В этой капсуле содержатся разнообразные граффити от Perfect World в честь запуска Counter-Strike: Global Offensive в континентальном Китае.",
         "type": "Graffiti",
         "first_sale_date": "2017/09/14",
+        "contains": [
+            {
+                "id": "graffiti-2423",
+                "name": "Хого",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2427",
+                "name": "Лапша",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2431",
+                "name": "Рисовая бомба",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2432",
+                "name": "Террорис",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2422",
+                "name": "Бог удачи",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2433",
+                "name": "Шаолинь",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2435",
+                "name": "Зомби",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2434",
+                "name": "Игрушечный тигр",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2428",
+                "name": "Нетравоядное",
+                "rarity": "высшего класса"
+            },
+            {
+                "id": "graffiti-2419",
+                "name": "Ципао",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2418",
+                "name": "Водяной пистолет",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2426",
+                "name": "Нэчжа",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2421",
+                "name": "Гнев",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2430",
+                "name": "Карпы-близнецы",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2429",
+                "name": "Талисман",
+                "rarity": "примечательного типа"
+            },
+            {
+                "id": "graffiti-2424",
+                "name": "Модный карп",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-2420",
+                "name": "Дракон-защитник",
+                "rarity": "экзотичного вида"
+            },
+            {
+                "id": "graffiti-2425",
+                "name": "Долголетие",
+                "rarity": "экзотичного вида"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_illuminate_1.fa3f92860ca0a6c2b23a1301a289bf683ba5ddee.png"
     }
 ]

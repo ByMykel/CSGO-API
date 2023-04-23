@@ -5,6 +5,53 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
+        "contains": [
+            {
+                "id": "skin-2162732",
+                "name": "MP7 | Koponyák",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-524580",
+                "name": "AUG | Szárnyak",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1114504",
+                "name": "SG 553 | Ultraibolya",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-262336",
+                "name": "Glock-18 | Sárkány Tetoválás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-655600",
+                "name": "USP-S | Fekete Víz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-655600",
+                "name": "M4A1-S | Fekete Víz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-196784",
+                "name": "AK-47 | Edzett",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-65780",
+                "name": "Desert Eagle | Hipnotikus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-590028",
+                "name": "AWP | Villámcsapás",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_1.23c783d005b446a1004c97057cfb5ac2d8dae186.png"
     },
     {
@@ -13,6 +60,53 @@
         "description": "Az ennek kinyitásához szükséges kulcsból befolyó bevétel egy része segít hivatásos CS:GO bajnokságok pénzalapját támogatni.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
+        "contains": [
+            {
+                "id": "skin-1049280",
+                "name": "M4A4 | Fakó Zebra",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1770180",
+                "name": "MAG-7 | Mementó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-656072",
+                "name": "FAMAS | Végzetcica",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-852300",
+                "name": "Galil AR | Narancs DDPAT",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-852300",
+                "name": "Lefűrészelt csövű sörétes | Narancs DDPAT",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2359944",
+                "name": "P250 | Fröccs",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-458808",
+                "name": "AK-47 | Laminált Piros",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-590520",
+                "name": "AWP | BOOM",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1245808",
+                "name": "P90 | Gyilkos Cica",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2013.c4fd3c71742688383914a7ef7127652764f4567c.png"
     },
     {
@@ -21,6 +115,83 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
+        "contains": [
+            {
+                "id": "skin-2556648",
+                "name": "SG 553 | Hullám Szórt",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-131832",
+                "name": "Dupla Beretta | Fekete Limba",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2294524",
+                "name": "Nova | Vihar",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-852736",
+                "name": "Galil AR | Összetört",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1573636",
+                "name": "UMP-45 | Csonthalom",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-721676",
+                "name": "G3SG1 | Demeter",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3998428",
+                "name": "USP-S | Burjánzás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1049324",
+                "name": "M4A4 | Zirka",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1114864",
+                "name": "MAC-10 | Vésett",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3932916",
+                "name": "M4A1-S | Fényes Víz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1245912",
+                "name": "P90 | Smaragd Sárkány",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2097996",
+                "name": "P2000 | Óceánhab",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-590672",
+                "name": "AWP | Grafit",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-459472",
+                "name": "AK-47 | Tűzkígyó",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-66276",
+                "name": "Desert Eagle | Arany Koi",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_operation_ii.5e5104a6291741c5693a1e78bd6ecc9560b51f0a.png"
     },
     {
@@ -29,6 +200,68 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
+        "contains": [
+            {
+                "id": "skin-852832",
+                "name": "Tec-9 | Kék Titán",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3933028",
+                "name": "M4A1-S | Vértigris",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-656232",
+                "name": "FAMAS | Hexán",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2360172",
+                "name": "P250 | Kaptár",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-66464",
+                "name": "SCAR-20 | Karmazsin Háló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-196784",
+                "name": "Five-SeveN | Edzett",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-65780",
+                "name": "MP9 | Hipnotikus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-590672",
+                "name": "Nova | Grafit",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-131952",
+                "name": "Dupla Beretta | Hemoglobin",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1245452",
+                "name": "P90 | Hidegvérű",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3998580",
+                "name": "USP-S | Szérum",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2622328",
+                "name": "SSG 08 | Vér a Vízben",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_2.912031176f2320d2d39f449ab3e27c41f5ec7faa.png"
     },
     {
@@ -37,6 +270,68 @@
         "description": "Az ennek kinyitásához szükséges kulcsból befolyó bevétel egy része segít hivatásos CS:GO bajnokságok pénzalapját támogatni.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
+        "contains": [
+            {
+                "id": "skin-852832",
+                "name": "Galil AR | Kék Titán",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-197500",
+                "name": "Five-SeveN | Nadragulya",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1704832",
+                "name": "PP-Bizon | Vízpecsét",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2294660",
+                "name": "Nova | Szellem Terepminta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-721812",
+                "name": "G3SG1 | Égszínkék Zebra",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-263064",
+                "name": "P250 | Acél Álca",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-459656",
+                "name": "AK-47 | Laminált Kék",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1246096",
+                "name": "P90 | Vakfolt",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-655976",
+                "name": "FAMAS | Utókép",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-590732",
+                "name": "AWP | Elektromos Kaptár",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-66460",
+                "name": "Desert Eagle | Kobalt Álca",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1049436",
+                "name": "M4A4 | Röntgen",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2013_14.a83d1976bb20db8b4a64e7acad93aac87127ddd5.png"
     },
     {
@@ -45,6 +340,73 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/12/18",
+        "contains": [
+            {
+                "id": "skin-853024",
+                "name": "Galil AR | Homokvihar",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-197668",
+                "name": "Five-SeveN | Kami",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-918568",
+                "name": "M249 | Magma",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1705004",
+                "name": "PP-Bizon | Árnyalt Kobalt",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-656400",
+                "name": "FAMAS | Impulzus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-132116",
+                "name": "Dupla Beretta | Kikötő",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2229272",
+                "name": "MP9 | Vasrózsa",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2294812",
+                "name": "Nova | Felkelő Koponya",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3933188",
+                "name": "M4A1-S | Őrző",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2360328",
+                "name": "P250 | Henna",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-590860",
+                "name": "AWP | Vörös Vonal",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1049596",
+                "name": "M4A4 | Asiimov",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1901568",
+                "name": "Lefűrészelt csövű sörétes | A Kraken",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_1.b176b8ca60249d0a2e7c6d72ec7d2d1a9632bd06.png"
     },
     {
@@ -53,6 +415,68 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
+        "contains": [
+            {
+                "id": "skin-66464",
+                "name": "CZ75-Auto | Karmazsin Háló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2098252",
+                "name": "P2000 | Vörös FragCam",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-132176",
+                "name": "Dupla Beretta | Párduc",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3998804",
+                "name": "USP-S | Rozsdamentes",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-263256",
+                "name": "Glock-18 | Kék Repedés",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-4129840",
+                "name": "CZ75-Auto | Csúszásgátló",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1967168",
+                "name": "Tec-9 | Titános",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-66628",
+                "name": "Desert Eagle | Hagyaték",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-197704",
+                "name": "Five-SeveN | Réz Galaxis",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4129844",
+                "name": "CZ75-Auto | Na Most Lila",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2360380",
+                "name": "P250 | Merülés",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-4129848",
+                "name": "CZ75-Auto | Victoria",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_3.b49dc22a06991946e849c7b364b7d5876534ef61.png"
     },
     {
@@ -61,6 +485,73 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/2/19",
+        "contains": [
+            {
+                "id": "skin-1573988",
+                "name": "UMP-45 | Tizedes",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1836148",
+                "name": "Negev | Terep",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1967236",
+                "name": "Tec-9 | Homokvihar",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1770636",
+                "name": "MAG-7 | Mennyei Őr",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1115248",
+                "name": "MAC-10 | Forróság",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2557052",
+                "name": "SG 553 | Impulzus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-656512",
+                "name": "FAMAS | Őrmester",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3998856",
+                "name": "USP-S | Őrző",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-459880",
+                "name": "AK-47 | Vörös Vonal",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1246316",
+                "name": "P90 | Trigon",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2294904",
+                "name": "Nova | Antik",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-590940",
+                "name": "AWP | Asiimov",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-525408",
+                "name": "AUG | Kaméleon",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_2.49174abddcccb6519b83d27d0cff476e1c44cc57.png"
     },
     {
@@ -69,6 +560,83 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/11",
+        "contains": [
+            {
+                "id": "skin-1967292",
+                "name": "Tec-9 | Isaac",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2622656",
+                "name": "SSG 08 | Hasított",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-853200",
+                "name": "Galil AR | Kami",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4130104",
+                "name": "CZ75-Auto | Csavart",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1246524",
+                "name": "P90 | Modul",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2098504",
+                "name": "P2000 | Impulzus",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-525508",
+                "name": "AUG | Nyomaték",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1705160",
+                "name": "PP-Bizon | Antik",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1639656",
+                "name": "XM1014 | Mennyei Őr",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1115460",
+                "name": "MAC-10 | Toprongy",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3933364",
+                "name": "M4A1-S | Atom Ötvözet",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2491616",
+                "name": "SCAR-20 | Cyrex",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3999052",
+                "name": "USP-S | Kajmán",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-459960",
+                "name": "AK-47 | Vulkanizáció",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1049920",
+                "name": "M4A4 | Sivatagi Csapás",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_3.ce832a92f9fc329dc87d7a802374b918b07cdb84.png"
     },
     {
@@ -77,6 +645,78 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/23",
+        "contains": [
+            {
+                "id": "skin-2164104",
+                "name": "MP7 | Városi Veszély",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1836428",
+                "name": "Negev | Sivatagi Csapás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2098580",
+                "name": "P2000 | Elefántcsont",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2622884",
+                "name": "SSG 08 | Mélység",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1574312",
+                "name": "UMP-45 | Labirintus",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1705332",
+                "name": "PP-Bizon | Ozirisz",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4130168",
+                "name": "CZ75-Auto | Tigris",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2295184",
+                "name": "Nova | Koi",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2360728",
+                "name": "P250 | Szupernóva",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-66940",
+                "name": "Desert Eagle | Összeesküvés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-198016",
+                "name": "Five-SeveN | Palimadár-vadászat",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-263556",
+                "name": "Glock-18 | Vízelementál",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1246620",
+                "name": "P90 | Asiimov",
+                "rarity": "Fedett"
+            },
+            {
+                "id": "skin-3933600",
+                "name": "M4A1-S | Cyrex",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_4.f0d23848527b7be0f1fc9556b1f3ecfb1193ee40.png"
     },
     {
@@ -85,6 +725,93 @@
         "description": "Az ennek kinyitásához szükséges kulcsból befolyó bevétel egy része segít hivatásos CS:GO bajnokságok pénzalapját támogatni.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
+        "contains": [
+            {
+                "id": "skin-655600",
+                "name": "SSG 08 | Fekete Víz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1114504",
+                "name": "MAC-10 | Ultraibolya",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3933028",
+                "name": "USP-S | Vértigris",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-656232",
+                "name": "CZ75-Auto | Hexán",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1836276",
+                "name": "Negev | Bratatat",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1639680",
+                "name": "XM1014 | Vörös Piton",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1703988",
+                "name": "PP-Bizon | Kék Csík",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1245264",
+                "name": "P90 | Vírus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2097996",
+                "name": "MP7 | Óceánhab",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-263064",
+                "name": "Glock-18 | Acél Álca",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-66464",
+                "name": "Desert Eagle | Karmazsin Háló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-524324",
+                "name": "AUG | Bengáli Tigris",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2294008",
+                "name": "Nova | Virágzó Bot",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-590548",
+                "name": "AWP | Tarajos Korall",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2097888",
+                "name": "P2000 | Tarajos Korall",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1049196",
+                "name": "M4A4 | Golyózápor",
+                "rarity": "Fedett"
+            },
+            {
+                "id": "skin-460016",
+                "name": "AK-47 | Jaguár",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2014_summer.e579e3f7ca004fd9b51aa0f597590c936bb9f67c.png"
     },
     {
@@ -93,6 +820,78 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2014/11/5",
+        "contains": [
+            {
+                "id": "skin-722424",
+                "name": "G3SG1 | Borongós",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1771012",
+                "name": "MAG-7 | Tűzgyújtó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2229768",
+                "name": "MP9 | Nyílvessző",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-198156",
+                "name": "Five-SeveN | Városi Veszély",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1574432",
+                "name": "UMP-45 | Téveszme",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-263668",
+                "name": "Glock-18 | Daráló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3933692",
+                "name": "M4A1-S | Baziliszkusz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1050112",
+                "name": "M4A4 | Griffmadár",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1902104",
+                "name": "Lefűrészelt csövű sörétes | Útonálló",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2360848",
+                "name": "P250 | Kartell",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2491932",
+                "name": "SCAR-20 | Kardiális",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1639972",
+                "name": "XM1014 | Nyugalom",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-460272",
+                "name": "AK-47 | Pusztasági Lázadó",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2098708",
+                "name": "P2000 | Elemi Tűz",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_5.49a38d2d3afff918ae3b5c5bc2ba2f99b02888f3.png"
     },
     {
@@ -101,6 +900,78 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2015/1/8",
+        "contains": [
+            {
+                "id": "skin-263740",
+                "name": "Glock-18 | Katakombák",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-919108",
+                "name": "M249 | Rendszerzár",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2229836",
+                "name": "MP9 | Halálos Méreg",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2491992",
+                "name": "SCAR-20 | Grotta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1640028",
+                "name": "XM1014 | Higany",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-132656",
+                "name": "Dupla Beretta | Városi Roham",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-67124",
+                "name": "Desert Eagle | Nága",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1115720",
+                "name": "MAC-10 | Malachit",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1902164",
+                "name": "Lefűrészelt csövű sörétes | Derű",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-460328",
+                "name": "AK-47 | Kartell",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1050176",
+                "name": "M4A4 | 龍王 (Sárkánykirály)",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2360912",
+                "name": "P250 | Muertos",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-591404",
+                "name": "AWP | Hadfi",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-853560",
+                "name": "Galil AR | Szószátyár",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_6.4a84ff42a0e0149973c8580dd23f8ba6e7c68142.png"
     },
     {
@@ -109,6 +980,83 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2015/4/15",
+        "contains": [
+            {
+                "id": "skin-460440",
+                "name": "AK-47 | Elit Összeállítás",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2164380",
+                "name": "MP7 | Páncélozott Mag",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-67236",
+                "name": "Desert Eagle | Bronz Déco",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2361000",
+                "name": "P250 | Vegyérték",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1836736",
+                "name": "Negev | Hadfi",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1902280",
+                "name": "Lefűrészelt csövű sörétes | Origami",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-591520",
+                "name": "AWP | Féregisten",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1771196",
+                "name": "MAG-7 | Forróság",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4130508",
+                "name": "CZ75-Auto | Pole-pozíció",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1574608",
+                "name": "UMP-45 | Grand Prix",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-198316",
+                "name": "Five-SeveN | Majomkodás",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-853680",
+                "name": "Galil AR | Eco",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-657076",
+                "name": "FAMAS | Dzsinn",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3933880",
+                "name": "M4A1-S | Hiperbestia",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1115844",
+                "name": "MAC-10 | Neonlovas",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_7.57286f710260d1a8eb4e93c4795ae7ca980ea981.png"
     },
     {
@@ -117,6 +1065,88 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2015/4/15",
+        "contains": [
+            {
+                "id": "skin-853880",
+                "name": "Galil AR | Rakétapukkanás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264060",
+                "name": "Glock-18 | Bunsen-égő",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2295696",
+                "name": "Nova | Vadőr",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1247128",
+                "name": "P90 | Elit Összeállítás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1574816",
+                "name": "UMP-45 | Felkelés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3999652",
+                "name": "USP-S | Nyomaték",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-657268",
+                "name": "FAMAS | Idegháló",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1050496",
+                "name": "M4A4 | Gonosz Daimjó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2230152",
+                "name": "MP9 | Rubin Nyílméreg",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1836940",
+                "name": "Negev | Hangoskodó",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2099092",
+                "name": "P2000 | Kézifegyver",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4130672",
+                "name": "CZ75-Auto | Sárga Kabát",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2164612",
+                "name": "MP7 | Nemezis",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2557852",
+                "name": "SG 553 | Cyrex",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-460648",
+                "name": "AK-47 | Akvamarin Bosszú",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-591724",
+                "name": "AWP | Hiperbestia",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_8.3cd07b46c7bcb7577453816c5d2f8afdbee98234.png"
     },
     {
@@ -125,6 +1155,88 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2015/9/15",
+        "contains": [
+            {
+                "id": "skin-133036",
+                "name": "Dupla Beretta | Duplázó Sárkányok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-657328",
+                "name": "FAMAS | Survivor Z",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264124",
+                "name": "Glock-18 | Lidércek",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1116104",
+                "name": "MAC-10 | Rangeen",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1771468",
+                "name": "MAG-7 | Kobaltmag",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2492376",
+                "name": "SCAR-20 | Zöld Tengerész",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1640420",
+                "name": "XM1014 | Makréla",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-853944",
+                "name": "Galil AR | Jéghideg",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-919488",
+                "name": "M249 | Csillagköd Vitéz",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2164688",
+                "name": "MP7 | Különleges Szállítmány",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2361300",
+                "name": "P250 | Szárnylövés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-460712",
+                "name": "AK-47 | Elülső Homály",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-722868",
+                "name": "G3SG1 | Folyam",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2623452",
+                "name": "SSG 08 | Nagy Vas",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3934148",
+                "name": "M4A1-S | Aranytekercs",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3999712",
+                "name": "USP-S | Ölés Megerősítve",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_9.e8303075e1a0969497a4502140ea47ecc65b4c50.png"
     },
     {
@@ -133,6 +1245,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2015-11-30",
+        "contains": [
+            {
+                "id": "skin-66464",
+                "name": "R8 revolver | Karmazsin Háló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-526316",
+                "name": "AUG | Geller",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-67572",
+                "name": "Desert Eagle | Korinthoszi",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2099212",
+                "name": "P2000 | Birodalmi",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1902612",
+                "name": "Lefűrészelt csövű sörétes | Yorick",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2492440",
+                "name": "SCAR-20 | Kitörés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1705968",
+                "name": "PP-Bizon | Üzemanyagrúd",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-198648",
+                "name": "Five-SeveN | Retrorlás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1837064",
+                "name": "Negev | Munkagép",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2557980",
+                "name": "SG 553 | Molylepke",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1968160",
+                "name": "Tec-9 | Lavina",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1640484",
+                "name": "XM1014 | Teclu-égő",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-460776",
+                "name": "AK-47 | Rendezetlenség",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-722940",
+                "name": "G3SG1 | A Hóhér",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1247248",
+                "name": "P90 | Faragott Fa",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1050624",
+                "name": "M4A4 | Királyi Lovag",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-4196392",
+                "name": "R8 revolver | Halványulás",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_10.a7a2e0b4f6ee7a99b25c531b2d3bdef5147200f7.png"
     },
     {
@@ -141,6 +1340,88 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2016-01-19",
+        "contains": [
+            {
+                "id": "skin-1706040",
+                "name": "PP-Bizon | Fotikus Zóna",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-133184",
+                "name": "Dupla Beretta | Kartell",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1116248",
+                "name": "MAC-10 | Lapis Gator",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2623592",
+                "name": "SSG 08 | Necropos",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1968236",
+                "name": "Tec-9 | Jambiya",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3999856",
+                "name": "USP-S | Ólomvezeték",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-657476",
+                "name": "FAMAS | Vegyérték",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-198728",
+                "name": "Five-SeveN | Triumvirátus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-264272",
+                "name": "Glock-18 | Királyi Légió",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1771612",
+                "name": "MAG-7 | Pretoriánus",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2164832",
+                "name": "MP7 | Ördögmanó",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-591924",
+                "name": "AWP | Elit Összeállítás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-67644",
+                "name": "Desert Eagle | Kumicho Sárkány",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2295908",
+                "name": "Nova | Hiperbestia",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-460848",
+                "name": "AK-47 | Üzemanyag-befecskendező",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1050708",
+                "name": "M4A4 | A Battlestar",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_11.4839d78c3416c2036da2ed42111df77177828399.png"
     },
     {
@@ -149,6 +1430,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2016-04-19",
+        "contains": [
+            {
+                "id": "skin-133248",
+                "name": "Dupla Beretta | Kifüstölők",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-723076",
+                "name": "G3SG1 | Narancstörés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-919692",
+                "name": "M249 | Kísértet",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2230420",
+                "name": "MP9 | Biokémiai Szivárgás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2099352",
+                "name": "P2000 | Óceáni",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1902752",
+                "name": "Lefűrészelt csövű sörétes | Bukta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2558116",
+                "name": "SG 553 | Atlasz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4130940",
+                "name": "CZ75-Auto | Vörös Héja",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-854152",
+                "name": "Galil AR | Tűzharc",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2623656",
+                "name": "SSG 08 | Keresztes Szellem",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1968300",
+                "name": "Tec-9 | Visszatérés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1640628",
+                "name": "XM1014 | Fekete Nyakkendő",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-526452",
+                "name": "AUG | Röppenő Madárraj",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2361500",
+                "name": "P250 | Asiimov",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1575088",
+                "name": "UMP-45 | Ősi Kardfog",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1706104",
+                "name": "PP-Bizon | Anubisz Ítélete",
+                "rarity": null
+            },
+            {
+                "id": "skin-3934352",
+                "name": "M4A1-S | Chantico Tüze",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_12.7555fc0b45c4d1e0ff1c117af393463f29f20f66.png"
     },
     {
@@ -157,6 +1525,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2016-06-10",
+        "contains": [
+            {
+                "id": "skin-198948",
+                "name": "Five-SeveN | Erőszakos Daimjó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1116468",
+                "name": "MAC-10 | Húsevő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2296120",
+                "name": "Nova | Külső",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2361664",
+                "name": "P250 | Vaspáncélos",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1706312",
+                "name": "PP-Bizon | Arató",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2558296",
+                "name": "SG 553 | Légi",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1968476",
+                "name": "Tec-9 | Jégsapka",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-526620",
+                "name": "AUG | Arisztokrata",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-592160",
+                "name": "AWP | Phobosz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1247556",
+                "name": "P90 | Chopper",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4196684",
+                "name": "R8 revolver | Újraindítás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1902928",
+                "name": "Lefűrészelt csövű sörétes | Citromfény",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1050928",
+                "name": "M4A4 | Elhagyatott Űr",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2099516",
+                "name": "P2000 | Birodalmi Sárkány",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2492756",
+                "name": "SCAR-20 | Vérsport",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-264488",
+                "name": "Glock-18 | Pusztasági Lázadó",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3934508",
+                "name": "M4A1-S | Mecha Iparművek",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_13.9a7d2f757ddbdc915aa005def74ac186a457346a.png"
     },
     {
@@ -165,6 +1620,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2016-08-08",
+        "contains": [
+            {
+                "id": "skin-4131176",
+                "name": "CZ75-Auto | Véset",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-199028",
+                "name": "Five-SeveN | Makréla",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-723320",
+                "name": "G3SG1 | Kifüstölő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1837448",
+                "name": "Negev | Káprázat",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1247628",
+                "name": "P90 | Komor",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1575324",
+                "name": "UMP-45 | Eligazítás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1640864",
+                "name": "XM1014 | Légörvény",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-67948",
+                "name": "Desert Eagle | Direktíva",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264572",
+                "name": "Glock-18 | Menyét",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1771904",
+                "name": "MAG-7 | Petroglifa",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2492816",
+                "name": "SCAR-20 | Powercore",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2558356",
+                "name": "SG 553 | Triarchia",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-526692",
+                "name": "AUG | Syd Mead",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2230660",
+                "name": "MP9 | Légzsilip",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1968536",
+                "name": "Tec-9 | Üzemanyag-befecskendező",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-461152",
+                "name": "AK-47 | Neon Forradalom",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-657776",
+                "name": "FAMAS | Bukókeret",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_gamma_2.ab916b78e7093039642cc7538466bf87cf314363.png"
     },
     {
@@ -173,6 +1715,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2016-11-02",
+        "contains": [
+            {
+                "id": "skin-4131256",
+                "name": "CZ75-Auto | Polimer",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264636",
+                "name": "Glock-18 | Vasszerkezet",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2165196",
+                "name": "MP7 | Cirrusz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-854484",
+                "name": "Galil AR | Fekete Homok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2230744",
+                "name": "MP9 | Homokpikkely",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1772004",
+                "name": "MAG-7 | Szonár",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2099692",
+                "name": "P2000 | Gyep",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-133572",
+                "name": "Dupla Beretta | Fenséges Összhang",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-723408",
+                "name": "G3SG1 | Fullánk",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3934684",
+                "name": "M4A1-S | Visszapillantás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2296296",
+                "name": "Nova | Gila",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4000244",
+                "name": "USP-S | Cyrex",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-657864",
+                "name": "FAMAS | Mecha Iparművek",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1247728",
+                "name": "P90 | Sekély Sírhant",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1903096",
+                "name": "Lefűrészelt csövű sörétes | Pusztasági Hercegnő",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2623936",
+                "name": "SSG 08 | Sárkánytűz",
+                "rarity": "Fedett"
+            },
+            {
+                "id": "skin-1051104",
+                "name": "M4A4 | Ünneprontó",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_15.7dfa18f8f7ce3bc4e55aac0c566fe068e741bddf.png"
     },
     {
@@ -181,6 +1810,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2017-03-01",
+        "contains": [
+            {
+                "id": "skin-1706500",
+                "name": "PP-Bizon | Őserdei Suhanás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2492936",
+                "name": "SCAR-20 | Tervrajz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-68116",
+                "name": "Desert Eagle | Oxidláng",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-199192",
+                "name": "Five-SeveN | Hajszálér",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2165284",
+                "name": "MP7 | Akoben",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2361896",
+                "name": "P250 | Fodrozódás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1903164",
+                "name": "Lefűrészelt csövű sörétes | Fogassüllő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-854556",
+                "name": "Galil AR | Karmazsin Szökőár",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-920096",
+                "name": "M249 | Smaragd Méregnyíl",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1116716",
+                "name": "MAC-10 | Alámerülés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1575472",
+                "name": "UMP-45 | Állványzat",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1641016",
+                "name": "XM1014 | Évszakok",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-592384",
+                "name": "AWP | Lázálom",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4131340",
+                "name": "CZ75-Auto | Xiangliu",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3934736",
+                "name": "M4A1-S | Tizedelő",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-461308",
+                "name": "AK-47 | Vérsport",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-4000308",
+                "name": "USP-S | Neonoir",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_16.a2ec6a235e52612fa82e5858af3751b6e77f4ec2.png"
     },
     {
@@ -189,6 +1905,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-04-21",
+        "contains": [
+            {
+                "id": "skin-4000324",
+                "name": "USP-S | Tervrajz",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-657996",
+                "name": "FAMAS | Kísérteties",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3934812",
+                "name": "M4A1-S | Eligazítás",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1116772",
+                "name": "MAC-10 | Aloha",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1772136",
+                "name": "MAG-7 | Kemény Víz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1968764",
+                "name": "Tec-9 | Kivágás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1575552",
+                "name": "UMP-45 | Fémvirágok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-461376",
+                "name": "AK-47 | Orbit Mk01",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2099820",
+                "name": "P2000 | Favágó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2361968",
+                "name": "P250 | Vörös Szikla",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1247860",
+                "name": "P90 | A Halál Marka",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2624120",
+                "name": "SSG 08 | Halálfej",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-133704",
+                "name": "Dupla Beretta | Kobratámadás",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-854612",
+                "name": "Galil AR | Cukorlöket",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1051232",
+                "name": "M4A4 | Pokoltűz",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-199248",
+                "name": "Five-SeveN | Hiperbestia",
+                "rarity": "Fedett"
+            },
+            {
+                "id": "skin-592472",
+                "name": "AWP | Oni Taiji",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_17.8d4528eca229d65d0c19929ae2078aab38df1369.png"
     },
     {
@@ -197,6 +2000,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2017-09-06",
+        "contains": [
+            {
+                "id": "skin-1903236",
+                "name": "Lefűrészelt csövű sörétes | Morris",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-526984",
+                "name": "AUG | Triqua",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-723604",
+                "name": "G3SG1 | Vadász",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264864",
+                "name": "Glock-18 | Földönkívüli",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1116840",
+                "name": "MAC-10 | Óceáni",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1968816",
+                "name": "Tec-9 | Repedt Opál",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2493108",
+                "name": "SCAR-20 | Őserdei Suhanás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2230940",
+                "name": "MP9 | Ragacs",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2558648",
+                "name": "SG 553 | Fantom",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4131516",
+                "name": "CZ75-Auto | Takcicai",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1575616",
+                "name": "UMP-45 | Átvilágítás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1641156",
+                "name": "XM1014 | Cikkcakk",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1706640",
+                "name": "PP-Bizon | Nagy Zsugás",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3934884",
+                "name": "M4A1-S | Ólomüveg",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4197036",
+                "name": "R8 revolver | Láma Ágyú",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-461452",
+                "name": "AK-47 | A Császárnő",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2362008",
+                "name": "P250 | Viszlát Később",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_18.4255d9e03d5dad034bbe868622733deeb81434c1.png"
     },
     {
@@ -205,6 +2095,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2017-12-20",
+        "contains": [
+            {
+                "id": "skin-1706704",
+                "name": "PP-Bizon | Éjjeli Ricsaj",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-199380",
+                "name": "Five-SeveN | Lángteszt",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2231012",
+                "name": "MP9 | Fekete Homok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2099952",
+                "name": "P2000 | Városi Vész",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-4197108",
+                "name": "R8 revolver | Markolat",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2558712",
+                "name": "SG 553 | Aloha",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1641224",
+                "name": "XM1014 | Oxidláng",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264920",
+                "name": "Glock-18 | Holdkelte",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1837800",
+                "name": "Negev | Tűzhal",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2296556",
+                "name": "Nova | Vad Hatos",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1772284",
+                "name": "MAG-7 | PAZAR-7",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1575680",
+                "name": "UMP-45 | Jégfarkas",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-527048",
+                "name": "AUG | Sztümphaloszi",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-592588",
+                "name": "AWP | Mortis",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4000516",
+                "name": "USP-S | Agykéreg",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1051356",
+                "name": "M4A4 | Neonoir",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2165472",
+                "name": "MP7 | Vérsport",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_19.982c3a44362ee65b192b359c12d3d3af9ecb56b2.png"
     },
     {
@@ -213,6 +2190,93 @@
         "description": "\n",
         "type": "Case",
         "first_sale_date": "2018-06-07",
+        "contains": [
+            {
+                "id": "skin-527120",
+                "name": "AUG | Borostyán Suhanás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-133912",
+                "name": "Dupla Beretta | Foszlány",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-264996",
+                "name": "Glock-18 | Harci Sólyom",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2231084",
+                "name": "MP9 | Hajszálér",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1248052",
+                "name": "P90 | Tapadás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4197188",
+                "name": "R8 revolver | Túlélő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1968968",
+                "name": "Tec-9 | Kígyó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4131604",
+                "name": "CZ75-Auto | Öko",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-723744",
+                "name": "G3SG1 | Nyílt Tenger",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2296624",
+                "name": "Nova | Játék Katona",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-592696",
+                "name": "AWP | Mancs",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2165564",
+                "name": "MP7 | Akksi",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3935016",
+                "name": "M4A1-S | Rémálom",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1903424",
+                "name": "Lefűrészelt csövű sörétes | Mohó",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-658252",
+                "name": "FAMAS | Athéné Szeme",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-461580",
+                "name": "AK-47 | Neonlovas",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-68380",
+                "name": "Desert Eagle | Vörös Riasztás",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_20.efee8198ed2e0b6ab4b5bb1e99be04a1308b43fe.png"
     },
     {
@@ -221,6 +2285,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-11-29",
+        "contains": [
+            {
+                "id": "skin-2231440",
+                "name": "MP9 | Mérsékelt Fenyegetés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-265376",
+                "name": "Glock-18 | Oxidláng",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2296996",
+                "name": "Nova | Perzselt Fa",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1051820",
+                "name": "M4A4 | Magnézium",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1903800",
+                "name": "Lefűrészelt csövű sörétes | Fekete Homok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2559164",
+                "name": "SG 553 | Közeli Veszély",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1969344",
+                "name": "Tec-9 | Bukta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-724120",
+                "name": "G3SG1 | Guberáló",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-855196",
+                "name": "Galil AR | Jelzés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1117360",
+                "name": "MAC-10 | Csövezés",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2362548",
+                "name": "P250 | Sohamár",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4000964",
+                "name": "USP-S | Visszapillantás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1576072",
+                "name": "UMP-45 | Lendület",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-68756",
+                "name": "Desert Eagle | Mecha Iparművek",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1510568",
+                "name": "MP5-SD | Foszfor",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-461956",
+                "name": "AK-47 | Asiimov",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-593036",
+                "name": "AWP | Neonoir",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_21.0c6cec0c247809e291dea2fe514d46ea21607201.png"
     },
     {
@@ -229,6 +2380,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-03-05",
+        "contains": [
+            {
+                "id": "skin-658700",
+                "name": "FAMAS | Rejtőzködés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-462096",
+                "name": "AK-47 | Feltérképezetlen",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1117472",
+                "name": "MAC-10 | Fehér Hal",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-855336",
+                "name": "Galil AR | Akoben",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2166076",
+                "name": "MP7 | Bajkeverő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2362688",
+                "name": "P250 | Rézrozsda",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1248580",
+                "name": "P90 | Földönkívüli",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-593176",
+                "name": "AWP | Atheris",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1969436",
+                "name": "Tec-9 | Bambusz",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-68900",
+                "name": "Desert Eagle | Könnyű Sínágyú",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1510712",
+                "name": "MP5-SD | Gauss",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1576268",
+                "name": "UMP-45 | Holdkelte",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4197676",
+                "name": "R8 revolver | Koponyatörő",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-527668",
+                "name": "AUG | Lendület",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1641800",
+                "name": "XM1014 | Lánggátor",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-199956",
+                "name": "Five-SeveN | Dühös Sokaság",
+                "rarity": "Fedett"
+            },
+            {
+                "id": "skin-1051952",
+                "name": "M4A4 | A Császár",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_22.f223dd42c8d4c3ecf5a03b27416cb523f493d8af.png"
     },
     {
@@ -237,6 +2475,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-06-12",
+        "contains": [
+            {
+                "id": "skin-1510880",
+                "name": "MP5-SD | Savfürdő",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2297320",
+                "name": "Nova | Tollazat",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-724460",
+                "name": "G3SG1 | Fekete Homok",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4197872",
+                "name": "R8 revolver | Emlék",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-134652",
+                "name": "Dupla Beretta | Egyensúly",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2493952",
+                "name": "SCAR-20 | Tépett",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-921104",
+                "name": "M249 | Harci Madár",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1707472",
+                "name": "PP-Bizon | Embargó",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-462292",
+                "name": "AK-47 | Patkánybot",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-527832",
+                "name": "AUG | Sarki Farkas",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2166260",
+                "name": "MP7 | Neon Kavalkád",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2100728",
+                "name": "P2000 | Obszidián",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1969636",
+                "name": "Tec-9 | Tizedelő",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2559492",
+                "name": "SG 553 | IV. Kolónia",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2625036",
+                "name": "SSG 08 | Véreres",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-593372",
+                "name": "AWP | Elszabadulás",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1117704",
+                "name": "MAC-10 | Cserkész",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_23.3248a20393f5e73c0ee99448b994e89381565353.png"
     },
     {
@@ -245,6 +2570,93 @@
         "description": "A Counter-Strike 20. évfordulóját ünnepelve ez a fegyverláda számos különféle fegyverfestést tartalmaz a Steam Közösségi Műhelyből, valamint ritka különleges tárgyként a klasszikus kést, a Counter-Strike sorozat egyik klasszikusát.",
         "type": "Case",
         "first_sale_date": "2019-10-14",
+        "contains": [
+            {
+                "id": "skin-134684",
+                "name": "Dupla Beretta | Elite 1.6",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1969700",
+                "name": "Tec-9 | Villanás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1117744",
+                "name": "MAC-10 | Klasszikus Láda",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1773108",
+                "name": "MAG-7 | Pop Dog",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2494024",
+                "name": "SCAR-20 | Assault",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-658976",
+                "name": "FAMAS | Üzemen Kívül Helyezve",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-265816",
+                "name": "Glock-18 | Áldozat",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-921112",
+                "name": "M249 | Azték",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1510988",
+                "name": "MP5-SD | Ügynök",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-200232",
+                "name": "Five-SeveN | Pajtás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2362924",
+                "name": "P250 | Inferno",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1576528",
+                "name": "UMP-45 | Plasztik",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2231864",
+                "name": "MP9 | Hydra",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1248828",
+                "name": "P90 | Nosztalgia",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-527940",
+                "name": "AUG | Gyilkos Kutyus",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-593492",
+                "name": "AWP | Futótűz",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-659036",
+                "name": "FAMAS | Megemlékezés",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_24.2b3bab86cb5b63a196342af58c0e4c82986ab54d.png"
     },
     {
@@ -253,6 +2665,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-03-24",
+        "contains": [
+            {
+                "id": "skin-528056",
+                "name": "AUG | Kandúr",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-593596",
+                "name": "AWP | Hajszálér",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-4132544",
+                "name": "CZ75-Auto | Ínséges",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-69316",
+                "name": "Desert Eagle | Kék Kavalkád",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1511124",
+                "name": "MP5-SD | Sivatagi Csapás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1838808",
+                "name": "Negev | Prototípus",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4198112",
+                "name": "R8 revolver | Csontból Kovácsolt",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2100956",
+                "name": "P2000 | Savmart",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1904356",
+                "name": "Lefűrészelt csövű sörétes | Apocalypto",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2494184",
+                "name": "SCAR-20 | Végrehajtó",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2559724",
+                "name": "SG 553 | Éjszárny",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2625264",
+                "name": "SSG 08 | Lázálom",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-462516",
+                "name": "AK-47 | Zavaró Fantom",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1117900",
+                "name": "MAC-10 | Diszkó-tech",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1773264",
+                "name": "MAG-7 | Igazság",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-3935944",
+                "name": "M4A1-S | Kettes Játékos",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-265972",
+                "name": "Glock-18 | Golyókirálynő",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_25.ef3b4b9eeb6cd8c29eb79e23ceb8205d40df4b55.png"
     },
     {
@@ -261,6 +2760,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-07-13",
+        "contains": [
+            {
+                "id": "skin-1838840",
+                "name": "Negev | Ultrakönnyű",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2100992",
+                "name": "P2000 | Görcsös",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2559768",
+                "name": "SG 553 | Öreg Rozsdás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2625308",
+                "name": "SSG 08 | Nagygép 001",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2363168",
+                "name": "P250 | Kazetta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1249060",
+                "name": "P90 | Rakomány",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1707828",
+                "name": "PP-Bizon | Rúnák",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1773316",
+                "name": "MAG-7 | A Szörny Szava",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1969936",
+                "name": "Tec-9 | Testvér",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1117972",
+                "name": "MAC-10 | Csábítás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-855856",
+                "name": "Galil AR | Connexion",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1511224",
+                "name": "MP5-SD | Tákolmány",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1052460",
+                "name": "M4A4 | Fogtündér",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-265996",
+                "name": "Glock-18 | Divat",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1642280",
+                "name": "XM1014 | Eltemetve",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-69384",
+                "name": "Desert Eagle | Nyomdafolyam",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-462588",
+                "name": "AK-47 | Anubisz Légiója",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_26.b25098af5a4285004052786e261be43dec5b89cf.png"
     },
     {
@@ -269,6 +2855,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-10-14",
+        "contains": [
+            {
+                "id": "skin-4132672",
+                "name": "CZ75-Auto | Vérbosszú",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1249092",
+                "name": "P90 | Kakaószín Tombolás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-724816",
+                "name": "G3SG1 | Digitális Háló",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-855892",
+                "name": "Galil AR | Vandál",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2363224",
+                "name": "P250 | Szennyezés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-921436",
+                "name": "M249 | Mély Megkönnyebbülés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1511272",
+                "name": "MP5-SD | Condition Zero",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-593724",
+                "name": "AWP | Külső Váz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-134984",
+                "name": "Dupla Beretta | Csapás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2297708",
+                "name": "Nova | Áttetsző Polimer",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2625396",
+                "name": "SSG 08 | Parallaxis",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1576824",
+                "name": "UMP-45 | Arany Bizmut",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-200524",
+                "name": "Five-SeveN | Tündérmese",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1052516",
+                "name": "M4A4 | Kiberbiztonság",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4001660",
+                "name": "USP-S | Szörnyegyveleg",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3936096",
+                "name": "M4A1-S | Nyomdafolyam",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-266096",
+                "name": "Glock-18 | Neonoir",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_27.410809461956f26e23d1268152af7bdea7875fb0.png"
     },
     {
@@ -277,6 +2950,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-03-26",
+        "contains": [
+            {
+                "id": "skin-2560096",
+                "name": "SG 553 | Heavy Metal",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-266300",
+                "name": "Glock-18 | Átlátszó Műanyag",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-921672",
+                "name": "M249 | Sz.F.I.P.",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4132912",
+                "name": "CZ75-Auto | Circaetus",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1577060",
+                "name": "UMP-45 | Oszcillátor",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4198492",
+                "name": "R8 revolver | Szeméttelep",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2297964",
+                "name": "Nova | Szélfútta",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2363472",
+                "name": "P250 | Kiberburok",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1839180",
+                "name": "Negev | dev_texture",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1118292",
+                "name": "MAC-10 | Gombnyomorgató",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-69736",
+                "name": "Desert Eagle | Tűzfegyelem",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-462892",
+                "name": "AK-47 | Pala",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2232372",
+                "name": "MP9 | Tápláléklánc",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1642584",
+                "name": "XM1014 | XOXO",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-856120",
+                "name": "Galil AR | Kromatikus Aberráció",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-4001856",
+                "name": "USP-S | Az Áruló",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1052740",
+                "name": "M4A4 | Élethű Színekkel",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_28.1f6e656d8fc297c9f2b65f2c05b8552d1cc63082.png"
     },
     {
@@ -285,6 +3045,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-09-08",
+        "contains": [
+            {
+                "id": "skin-528640",
+                "name": "AUG | Pestis",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-135436",
+                "name": "Dupla Beretta | Csavarmenet",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-725276",
+                "name": "G3SG1 | Megfigyelés Alatt",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2167072",
+                "name": "MP7 | Gerilla",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1708332",
+                "name": "PP-Bizon | Lumen",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-4002104",
+                "name": "USP-S | Fekete Lótusz",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1642812",
+                "name": "XM1014 | Házőrző",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1773828",
+                "name": "MAG-7 | BI83 Színkép",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-659728",
+                "name": "FAMAS | ZX Spectron",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-200980",
+                "name": "Five-SeveN | Erősítésprotokoll",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2232600",
+                "name": "MP9 | Fudzsi-hegy",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1052964",
+                "name": "M4A4 | Pókliliom",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1118504",
+                "name": "MAC-10 | Játékdoboz",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-266544",
+                "name": "Glock-18 | Nasiroham",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2625844",
+                "name": "SSG 08 | Turbócsúcs",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-463100",
+                "name": "AK-47 | Leet Museo",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-69896",
+                "name": "Desert Eagle | Óceánparti Út",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_29.9b830067732b4de110c01fb24cd067a3061b43a8.png"
     },
     {
@@ -293,6 +3140,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-11-17",
+        "contains": [
+            {
+                "id": "skin-201120",
+                "name": "Five-SeveN | Firka",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1118636",
+                "name": "MAC-10 | Csapdában",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1774000",
+                "name": "MAG-7 | Jövőbe Látás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1511876",
+                "name": "MP5-SD | Ifj. Necro",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2101704",
+                "name": "P2000 | Emelkedett Lelkek",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-2494924",
+                "name": "SCAR-20 | Kakaskodás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1905104",
+                "name": "Lefűrészelt csövű sörétes | Lélektábla",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1708436",
+                "name": "PP-Bizon | Űrmacska",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-725412",
+                "name": "G3SG1 | Álomtisztás",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-3936680",
+                "name": "M4A1-S | Felrettenés",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1642940",
+                "name": "XM1014 | Zombioffenzíva",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4002240",
+                "name": "USP-S | Menetjegy a Pokolba",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-135576",
+                "name": "Dupla Beretta | Dörögdinnye",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-659868",
+                "name": "FAMAS | Gyors Szemmozgás",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2167220",
+                "name": "MP7 | Lidérces Mélység",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-463316",
+                "name": "AK-47 | Éjsóvárság",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2232760",
+                "name": "MP9 | Védelmező Csillagfény",
+                "rarity": "Fedett"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_30.c471a3f74a254c80754f7deec19adaf0df266e23.png"
     },
     {
@@ -301,6 +3235,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2022-05-30",
+        "contains": [
+            {
+                "id": "skin-659944",
+                "name": "FAMAS | Miau 36",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-856556",
+                "name": "Galil AR | Pusztító",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1053172",
+                "name": "M4A4 | Műanyag Tár",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-1118712",
+                "name": "MAC-10 | Majomparádé",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1839616",
+                "name": "Negev | Szedj Le",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1577492",
+                "name": "UMP-45 | Úttorlasz",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-266776",
+                "name": "Glock-18 | Téliesített",
+                "rarity": "Ipari fokozatú"
+            },
+            {
+                "id": "skin-4198884",
+                "name": "R8 revolver | Bolond 8",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-922096",
+                "name": "M249 | Belváros",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2560508",
+                "name": "SG 553 | Sárkánytech",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1249800",
+                "name": "P90 | Dühroham",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-135696",
+                "name": "Dupla Beretta | Flora Carnivora",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-463324",
+                "name": "AK-47 | Beállt Jég",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-2363908",
+                "name": "P250 | Látomások",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-1905164",
+                "name": "Lefűrészelt csövű sörétes | Puszi♥Szeretlek",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-4002264",
+                "name": "USP-S | Nyomdafolyam",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-594400",
+                "name": "AWP | Kromatikus Aberráció",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_31.440b43f4ad3fcfe344ce63b5d8cf59cd8034ba1a.png"
     },
     {
@@ -309,6 +3330,93 @@
         "description": null,
         "type": "Case",
         "first_sale_date": "2023-01-31",
+        "contains": [
+            {
+                "id": "skin-1774352",
+                "name": "MAG-7 | Álmatlanság",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2233124",
+                "name": "MP9 | Pehelysúly",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2495272",
+                "name": "SCAR-20 | Töredékek",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2364216",
+                "name": "P250 | Újra.Gyártva",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1512252",
+                "name": "MP5-SD | Likvidálás",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-2560840",
+                "name": "SG 553 | Cyberforce",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1971020",
+                "name": "Tec-9 | Lázadó",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-3937052",
+                "name": "M4A1-S | Emphorosaur-S",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-267052",
+                "name": "Glock-18 | Holdnyúl",
+                "rarity": "Katonai fokozatú"
+            },
+            {
+                "id": "skin-1119028",
+                "name": "MAC-10 | Sakkaku",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-4199232",
+                "name": "R8 revolver | Banánágyú",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1250116",
+                "name": "P90 | Neo-királynő",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-594712",
+                "name": "AWP | Kettősség",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1577808",
+                "name": "UMP-45 | Vadóc",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-2102048",
+                "name": "P2000 | Nagyon Durva",
+                "rarity": "Korlátozott"
+            },
+            {
+                "id": "skin-1053488",
+                "name": "M4A4 | Temukau",
+                "rarity": "Bizalmas"
+            },
+            {
+                "id": "skin-463636",
+                "name": "AK-47 | Fejlövés",
+                "rarity": "Bizalmas"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_32.2d4bcc3d6832d2b4d1d11a273a4ff4bf55dc63a1.png"
     }
 ]

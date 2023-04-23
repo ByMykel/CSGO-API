@@ -5,6 +5,98 @@
         "description": "Ta skrzynia zawiera jeden wzór graffiti stworzony przez społeczność. Część z zysków jest dzielona równomiernie pomiędzy twórcami.",
         "type": "Graffiti",
         "first_sale_date": "2016/06/20",
+        "contains": [
+            {
+                "id": "graffiti-1654",
+                "name": "Chabo",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1656",
+                "name": "Pstryczek",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1666",
+                "name": "Powrót gwiazdy strzelania",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1662",
+                "name": "Stara szkoła",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1663",
+                "name": "Kieszonkowy grill",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1665",
+                "name": "Mistrz golenia",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1658",
+                "name": "Ivette",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1669",
+                "name": "Jednorożec",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1670",
+                "name": "Uskrzydlony Saper",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1657",
+                "name": "Chomik z irokezem",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1659",
+                "name": "Operator otaku",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1660",
+                "name": "Słodziaśny terrorysta",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1661",
+                "name": "Martha",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1668",
+                "name": "Tamara",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1667",
+                "name": "Wschodząca czaszka",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1655",
+                "name": "Weteran wojny narkotykowej",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-1653",
+                "name": "Krew się gotuje",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-1664",
+                "name": "Rekt",
+                "rarity": "egzotycznego pochodzenia"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_community_1.9901d4df438f7ab1df3b493a063d80ca82711550.png"
     },
     {
@@ -13,6 +105,98 @@
         "description": null,
         "type": "Graffiti",
         "first_sale_date": "2016/08/24",
+        "contains": [
+            {
+                "id": "graffiti-1676",
+                "name": "Obrońca",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1672",
+                "name": "Banan",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1671",
+                "name": "As",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1686",
+                "name": "Czaszka i celownik",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1682",
+                "name": "Niezły strzał",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1688",
+                "name": "Skrzydła",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1683",
+                "name": "Phoenix",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1687",
+                "name": "Welcome to the Clutch",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1681",
+                "name": "Łatwizna",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-1677",
+                "name": "EZ",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1673",
+                "name": "Cerber",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1680",
+                "name": "Całuski",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1675",
+                "name": "Korona",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1684",
+                "name": "Prawdziwy MVP",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1685",
+                "name": "R.I.P.I.P.",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-1679",
+                "name": "Ryczący świt",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-1678",
+                "name": "Ognisty wąż",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-1674",
+                "name": "Król clutchów",
+                "rarity": "egzotycznego pochodzenia"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_valve_1.631e40631e3129ac3dd15adf2eeccd964b531498.png"
     },
     {
@@ -21,6 +205,98 @@
         "description": "Ten pojemnik zawiera różnorodne graffiti z Perfect World upamiętniające premierę Counter-Strike: Global Offensive w Chinach kontynentalnych.",
         "type": "Graffiti",
         "first_sale_date": "2017/09/14",
+        "contains": [
+            {
+                "id": "graffiti-2423",
+                "name": "Huoguo",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2427",
+                "name": "Makaron",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2431",
+                "name": "Bomba ryżowa",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2432",
+                "name": "Terroryżta",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2422",
+                "name": "Bóg szczęścia",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2433",
+                "name": "Szaolin",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2435",
+                "name": "Skok zombi",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2434",
+                "name": "Pluszowy tygrys",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2428",
+                "name": "Niewege",
+                "rarity": "wysokiej jakości"
+            },
+            {
+                "id": "graffiti-2419",
+                "name": "Cheongsam",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2418",
+                "name": "Pistolet na wodę",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2426",
+                "name": "Nezha",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2421",
+                "name": "Szał",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2430",
+                "name": "Bliźniacze koi",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2429",
+                "name": "Pixiu",
+                "rarity": "nadzwyczajnej rzadkości"
+            },
+            {
+                "id": "graffiti-2424",
+                "name": "Wyszukany koi",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-2420",
+                "name": "Smok obrońca",
+                "rarity": "egzotycznego pochodzenia"
+            },
+            {
+                "id": "graffiti-2425",
+                "name": "Długowieczność",
+                "rarity": "egzotycznego pochodzenia"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_spray_pack_illuminate_1.fa3f92860ca0a6c2b23a1301a289bf683ba5ddee.png"
     }
 ]
