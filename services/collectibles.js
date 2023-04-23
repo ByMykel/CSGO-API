@@ -3,6 +3,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -77,7 +78,8 @@ const getFileNameByType = (type) => {
 
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
-    const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
+    // const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
+    const image = cdn[`${item.image_inventory}_large`];
 
     return {
         id: `collectible-${item.object_id}`,

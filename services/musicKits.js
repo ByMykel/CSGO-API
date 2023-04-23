@@ -3,9 +3,11 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 
 const parseItem = (item) => {
-    const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
+    // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
+    const image = cdn[`${item.image_inventory.toLowerCase()}`];
     const exclusive = $translate(item.coupon_name) === null;
 
     return {
