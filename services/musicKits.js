@@ -9,7 +9,7 @@ const parseItem = (item) => {
     const exclusive = $translate(item.coupon_name) === null;
 
     return {
-        id: `music-kit-${item.object_id}`,
+        id: `music_kit-${item.object_id}`,
         name: exclusive
             ? $translate(item.loc_name)
             : $translate(item.coupon_name),
