@@ -12,6 +12,8 @@ export const state = {
     paintKits: null,
     paintKitsRarity: null,
     musicDefinitions: null,
+    clientLootLists: null,
+    revolvingLootLists: null,
 };
 
 export const parseObjectValues = (items) => {
@@ -165,6 +167,30 @@ export const loadMusicDefinitions = () => {
     state.musicDefinitions = results;
 };
 
+export const loadClientLootLists = () => {
+    state.clientLootLists = state.itemsGame.client_loot_lists.reduce(
+        (acc, item) => {
+            return {
+                ...acc,
+                ...item,
+            }
+        },
+        {}
+    );
+}
+
+export const loadRevolvingLootLists = () => {
+    state.revolvingLootLists = state.itemsGame.revolving_loot_lists.reduce(
+        (acc, item) => {
+            return {
+                ...acc,
+                ...item,
+            }
+        },
+        {}
+    );
+}
+
 export const loadData = async () => {
     await loadItemsGame();
     loadPrefabs();
@@ -175,4 +201,6 @@ export const loadData = async () => {
     loadPaintKits();
     loadPaintKitsRarity();
     loadMusicDefinitions();
+    loadClientLootLists();
+    loadRevolvingLootLists();
 };
