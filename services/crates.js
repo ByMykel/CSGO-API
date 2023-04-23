@@ -3,7 +3,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
@@ -131,9 +131,127 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     return null;
 };
 
+const getItemFromKey = (key) => {
+    const {
+        stickerKits,
+        musicDefinitions,
+        items,
+        paintKits,
+        itemsGame,
+        paintKitsRarity,
+    } = state;
+
+    const regex = /\[(?<name>.+?)\](?<type>.+)/;
+    const match = key.match(regex);
+
+    const { name, type } = match.groups;
+
+    switch (type) {
+        case "sticker":
+            const sticker = stickerKits.find((item) => item.name === name);
+            return {
+                id: `sticker-${sticker.object_id}`,
+                name: $translate(sticker.item_name),
+                rarity: $translate(`rarity_${sticker.item_rarity}`),
+            };
+        case "patch":
+            const patch = stickerKits.find((item) => item.name === name);
+            return {
+                id: `patch-${patch.object_id}`,
+                name: $translate(patch.item_name),
+                rarity: $translate(`rarity_${patch.item_rarity}`),
+            };
+        case "musickit":
+            const kit = musicDefinitions.find((item) => item.name === name);
+            const exclusive = $translate(kit.coupon_name) === null;
+            return {
+                id: `music_kit-${kit.object_id}`,
+                name: exclusive
+                    ? $translate(kit.loc_name)
+                    : $translate(kit.coupon_name),
+                // TODO: rarity should be translated
+                rarity: "High Grade",
+            };
+        case "spray":
+            const spray = stickerKits.find((item) => item.name === name);
+            return {
+                id: `graffiti-${spray.object_id}`,
+                name: $translate(spray.item_name),
+                rarity: $translate(`rarity_${spray.item_rarity}`),
+            };
+        // The rest are skins
+        default:
+            const id = Object.entries(
+                itemsGame.alternate_icons2.weapon_icons
+            ).find(([, value]) => value.icon_path.includes(name));
+            const translatedName =
+                $translate(items[type].item_name) ??
+                $translate(items[type].item_name_prefab);
+
+            return {
+                id: `skin-${id[0]}`,
+                name: `${translatedName} | ${$translate(
+                    paintKits[name.toLowerCase()].description_tag
+                )}`,
+                rarity: $translate(`rarity_${paintKitsRarity[name]}_weapon`),
+            };
+    }
+};
+
+const getContainedItems = (itemName) => {
+    const { clientLootLists, items } = state;
+
+    const lootList = clientLootLists[itemName];
+
+    if (lootList === undefined) {
+        return [];
+    }
+
+    const keyys = Object.keys(lootList).filter((item) => {
+        const ignore = [
+            "will_produce_stattrak",
+            "limit_description_to_number_rnd",
+            "contains_stickers_autographed_by_proplayers",
+            "contains_stickers_autographed_by_proplayers",
+            "contains_stickers_representing_organizations",
+            "contains_patches_representing_organizations",
+            "all_entries_as_additional_drops",
+        ];
+
+        return !ignore.includes(item);
+    });
+
+    if (keyys[0].includes("Commodity Pin")) {
+        return keyys.map((key) => {
+            const pin = items[key];
+
+            return {
+                id: `collection-${pin.object_id}`,
+                name: $translate(pin.item_name),
+                rarity: $translate(`rarity_${pin.item_rarity}`),
+            };
+        });
+    }
+
+    if (keyys[0].includes("[") && keyys[0].includes("]")) {
+        return keyys.map((key) => getItemFromKey(key));
+    }
+
+    return keyys.reduce((items, key) => {
+        return [...items, ...getContainedItems(key)];
+    }, []);
+};
+
 const parseItem = (item, itemsById, prefabs) => {
     // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
     const image = cdn[item.image_inventory.toLowerCase()];
+
+    const { revolvingLootLists } = state;
+    const lootListName = item?.loot_list_name ?? null;
+    const attributeValue =
+        item.attributes?.["set supply crate series"]?.value ?? null;
+    const keyLootList =
+        lootListName ?? revolvingLootLists[attributeValue] ?? null;
 
     return {
         id: `crate-${item.object_id}`,
@@ -144,6 +262,7 @@ const parseItem = (item, itemsById, prefabs) => {
             $translate(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
+        contains: getContainedItems(keyLootList),
         image,
     };
 };
@@ -164,7 +283,9 @@ export const getCrates = () => {
     Object.entries(cratesByTypes).forEach(([type, values]) => {
         saveDataMemory(languageData.language, values);
         saveDataJson(
-            `./public/api/${languageData.folder}/crates/${getFileNameByType(type)}`,
+            `./public/api/${languageData.folder}/crates/${getFileNameByType(
+                type
+            )}`,
             values
         );
     });
