@@ -14,7 +14,7 @@ GET https://bymykel.github.io/CSGO-API/api/{language}
 
 ### Language
 
-Can be one of the following: `bg` `cs` `da` `de` `el` `en` `es` `es-MX` `fi` `fr` `hu` `it` `ja` `ko` `nl` `no` `pl` `pt-BR` `pt-PT` `ro` `ru` `sk` `sv` `th` `tr` `uk` `zh-CN` `zh-TW`
+Can be one of the following: `bg` `cs` `da` `de` `el` `en` `es-ES` `es-MX` `fi` `fr` `hu` `it` `ja` `ko` `nl` `no` `pl` `pt-BR` `pt-PT` `ro` `ru` `sk` `sv` `th` `tr` `uk` `zh-CN` `zh-TW`
 
 ### All items
 
