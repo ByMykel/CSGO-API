@@ -1764,6 +1764,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_moon_rabbit_light_large.9063b9745250446c657632eb13a6325f51d101f2.png"
     },
     {
+        "id": "skin-267104",
+        "name": "Glock-18 | Ramese's Reach",
+        "description": "A Glock-18 é uma boa pistola para começar a partida. É mais eficiente contra oponentes sem proteção e é capaz de disparar rajadas de três balas.",
+        "weapon": "Glock-18",
+        "pattern": "Ramese's Reach",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Militar",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_ramzes_light_large.86da273a88db7c8d0231e03a45cd94929efeb1ff.png"
+    },
+    {
         "id": "skin-458808",
         "name": "AK-47 | Vermelho Laminado",
         "description": "Poderoso e confiável, o AK-47 é um dos rifles de assalto mais populares do mundo. Ele é mais mortal em rajadas curtas e controladas.",
@@ -2292,6 +2304,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_head_shot_holo_light_large.85be84ba7c07917493b8e8a66c9d95c928ebe8b6.png"
     },
     {
+        "id": "skin-463704",
+        "name": "AK-47 | Steel Delta",
+        "description": "Poderoso e confiável, o AK-47 é um dos rifles de assalto mais populares do mundo. Ele é mais mortal em rajadas curtas e controladas.",
+        "weapon": "AK-47",
+        "pattern": "Steel Delta",
+        "min_float": 0,
+        "max_float": 0.73,
+        "rarity": "Nível Industrial",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_strone_light_large.8434d6be7fa076ce41c86eb5ea00efe9383800c6.png"
+    },
+    {
         "id": "skin-524324",
         "name": "AUG | Tigre Indiano",
         "description": "Poderoso e preciso, o rifle de assalto com lente de aproximação AUG compensa a sua recarga demorada com a sua precisão e rápido disparo.",
@@ -2722,6 +2746,18 @@
         "rarity": "Nível Militar",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_gs_aug_plague_light_large.d7c01b0e4e2bc1e890cf3965874fad8a1bb27a17.png"
+    },
+    {
+        "id": "skin-529284",
+        "name": "AUG | Snake Pit",
+        "description": "Poderoso e preciso, o rifle de assalto com lente de aproximação AUG compensa a sua recarga demorada com a sua precisão e rápido disparo.",
+        "weapon": "AUG",
+        "pattern": "Snake Pit",
+        "min_float": 0,
+        "max_float": 0.55,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_dune_trap_light_large.61e49e32c50c4a984fec89ec01defd789ae42376.png"
     },
     {
         "id": "skin-589944",
@@ -3180,6 +3216,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_limbo_snake_light_large.60984ce1e5c1a4ac10e83444a9b7e7f78dd98b1e.png"
     },
     {
+        "id": "skin-594780",
+        "name": "AWP | Black Nile",
+        "description": "A infame AWP é conhecida por recompensar aqueles que arriscam, sendo famosa pelo funcionamento \\\"Um tiro, uma morte\\\".",
+        "weapon": "AWP",
+        "pattern": "Black Nile",
+        "min_float": 0,
+        "max_float": 0.75,
+        "rarity": "Nível Industrial",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_strone_light_large.f6a8a693f8bcdd89436549db6079bb5f102c9616.png"
+    },
+    {
         "id": "skin-655448",
         "name": "FAMAS | Spray de Contraste",
         "description": "Uma opção barata para jogadores com pouco dinheiro, o FAMAS preenche bem o nicho entre os rifles mais caros e as submetralhadoras menos eficientes.",
@@ -3562,6 +3610,18 @@
         "rarity": "Nível Militar",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_corp_meow_light_large.7e27ced9616b1a4808cad37e8c0c653b9c866f07.png"
+    },
+    {
+        "id": "skin-660324",
+        "name": "FAMAS | Waters of Nephthys",
+        "description": "Uma opção barata para jogadores com pouco dinheiro, o FAMAS preenche bem o nicho entre os rifles mais caros e as submetralhadoras menos eficientes.",
+        "weapon": "FAMAS",
+        "pattern": "Waters of Nephthys",
+        "min_float": 0,
+        "max_float": 0.7,
+        "rarity": "Secreto",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_holo_ocean_light_large.e9efee74629f50aab0110ae3fc6a07aabac679e0.png"
     },
     {
         "id": "skin-720920",
@@ -4536,6 +4596,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_downvote_light_large.9d51d5d89b1df07b160580b5b929f66f06bb8310.png"
     },
     {
+        "id": "skin-922472",
+        "name": "M249 | Submerged",
+        "description": "Uma poderosa metralhadora leve para áreas abertas, a M249 é a escolha perfeita para jogadores que querem abrir mão da taxa de disparo por uma precisão melhor e um limite de munição maior.",
+        "weapon": "M249",
+        "pattern": "Submerged",
+        "min_float": 0.02,
+        "max_float": 0.8,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_scarab_light_large.6dc1dc25afc1a3a22fff064c85c8f2d3d88aeac7.png"
+    },
+    {
         "id": "skin-1048608",
         "name": "M4A4 | Tempestade do Deserto",
         "description": "Mais preciso e menos poderoso que o AK-47, o seu correspondente, o M4A4 é o rifle de assalto automático dos CTs.",
@@ -4990,6 +5062,18 @@
         "rarity": "Secreto",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_temukau_light_large.a41eb80c70cbbee5d84e53b5cd1eaa10954c938d.png"
+    },
+    {
+        "id": "skin-1053596",
+        "name": "M4A4 | Eye of Horus",
+        "description": "Mais preciso e menos poderoso que o AK-47, o seu correspondente, o M4A4 é o rifle de assalto automático dos CTs.",
+        "weapon": "M4A4",
+        "pattern": "Eye of Horus",
+        "min_float": 0,
+        "max_float": 0.7,
+        "rarity": "Secreto",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_ra_light_large.7531ec73ee20dac93f068342616599e4808fb850.png"
     },
     {
         "id": "skin-1114124",
@@ -5520,6 +5604,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_sakkaku_light_large.b590689d0ca099e8a759dd0a86da0710a58bca42.png"
     },
     {
+        "id": "skin-1119088",
+        "name": "MAC-10 | Echoing Sands",
+        "description": "Essencialmente uma caixa que lança balas, a submetralhadora MAC-10 possui uma alta taxa de disparo, que compensa a precisão ruim e o forte coice.",
+        "weapon": "MAC-10",
+        "pattern": "Echoing Sands",
+        "min_float": 0.02,
+        "max_float": 0.8,
+        "rarity": "Nível Industrial",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_scarab_light_large.3dce90df4da34a30c0437a51e90fc77d08bbe2f3.png"
+    },
+    {
         "id": "skin-1245264",
         "name": "P90 | Vírus",
         "description": "Facilmente reconhecida pelo seu design \\\"bullpup\\\", a P90 é uma ótima arma para atirar em movimento devido ao seu pente de alta capacidade e pequeno coice.",
@@ -5998,6 +6094,18 @@
         "rarity": "Restrito",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.fa2a81f8c7906b2683b5eb4b562edd2529ad2cf0.png"
+    },
+    {
+        "id": "skin-1250184",
+        "name": "P90 | ScaraB Rush",
+        "description": "Facilmente reconhecida pelo seu design \\\"bullpup\\\", a P90 é uma ótima arma para atirar em movimento devido ao seu pente de alta capacidade e pequeno coice.",
+        "weapon": "P90",
+        "pattern": "ScaraB Rush",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restrito",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_scarab_of_wisdom_light_large.54f85e60f71185083323768b79e699da762e09e6.png"
     },
     {
         "id": "skin-1510340",
@@ -7020,6 +7128,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_am_xm_zombie_offensive_light_large.0e15d69fbf9b3d93b14f54f85fa84bcb45c8f49e.png"
     },
     {
+        "id": "skin-1643416",
+        "name": "XM1014 | Hieroglyph",
+        "description": "A XM1014 é uma escopeta automática poderosa que justifica o alto custo com a habilidade de limpar rapidamente qualquer área com as suas balas.",
+        "weapon": "XM1014",
+        "pattern": "Hieroglyph",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_pharaoh_light_large.dd51bfb65f740dd4145fb548ef9be0a353f82766.png"
+    },
+    {
         "id": "skin-1703948",
         "name": "PP-Bizon | Maçã do Amor",
         "description": "A Submetralhadora Bizon não causa muito dano, mas oferece um cartucho de alta capacidade exclusivo que permite um recarregamento rápido.",
@@ -7798,6 +7918,18 @@
         "rarity": "Nível Militar",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_cu_mag7_insomnia_light_large.0d971fb17ca0bb1df7baed6a1caa902c56c1ea5b.png"
+    },
+    {
+        "id": "skin-1774452",
+        "name": "MAG-7 | Copper Coated",
+        "description": "A Mag-7, exclusiva dos CTs, fornece uma quantidade devastadora de dano a curta distância. O seu recarregamento rápido a torna uma ótima escolha tática.",
+        "weapon": "MAG-7",
+        "pattern": "Copper Coated",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Militar",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_goold_light_large.293c06a3f62ce9dfb177f79462fbb7b31bd5eb9f.png"
     },
     {
         "id": "skin-1835120",
@@ -8880,6 +9012,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_freedom_light_large.bb79585222a88d4dd3b154915c5527cac7e507d1.png"
     },
     {
+        "id": "skin-1971088",
+        "name": "Tec-9 | Mummy's Rot",
+        "description": "Uma pistola ideal para Terroristas que rotacionam pelo mapa, a Tec-9 é letal nos combates em ambientes confinados e possui um pente que porta bastante munição.",
+        "weapon": "Tec-9",
+        "pattern": "Mummy's Rot",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Militar",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_mummy_light_large.b70be5ec031a0538fe3e7b42d0a21d1cebe869e1.png"
+    },
+    {
         "id": "skin-2097236",
         "name": "P2000 | Granito Marmorizado",
         "description": "Precisa e fácil de usar, a alemã P2000 é uma útil pistola de primeira rodada que funciona melhor em adversários desprotegidos.",
@@ -9622,6 +9766,18 @@
         "rarity": "Secreto",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_fear_light_large.17f608ce70f44af09c1a92c541430804429ae2d6.png"
+    },
+    {
+        "id": "skin-2167672",
+        "name": "MP7 | Sunbaked",
+        "description": "Versátil, porém cara, a submetralhadora alemã MP7 é a escolha perfeita para combate de alto impacto a curta distância.",
+        "weapon": "MP7",
+        "pattern": "Sunbaked",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_mp7_strone_light_large.38c65124a7edf35fa2223c37e97c5ac803c24207.png"
     },
     {
         "id": "skin-2228356",
@@ -10440,6 +10596,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_hy_vertigoillusion_yellow_light_large.73fdfc85585fff74804a6f22179406a48ce74947.png"
     },
     {
+        "id": "skin-2298748",
+        "name": "Nova | Sobek's Bite",
+        "description": "O preço baixíssimo da Nova a torna uma ótima arma para emboscadas para equipes que não podem esbanjar dinheiro.",
+        "weapon": "Nova",
+        "pattern": "Sobek's Bite",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Restrito",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_gs_nova_sobek_light_large.53046ae2482691e0c1ba90de50698f875294a737.png"
+    },
+    {
         "id": "skin-2359356",
         "name": "P250 | Fumaça",
         "description": "Uma arma de fogo com alta taxa de disparo e pouco coice, a P250 é uma escolha relativamente barata contra adversários bem protegidos.",
@@ -10990,6 +11158,18 @@
         "rarity": "Nível Militar",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_p250_rebuilt_light_large.69d4fcb9a8151d09818d1c26cf4c7b03d046b5a1.png"
+    },
+    {
+        "id": "skin-2364288",
+        "name": "P250 | Apep's Curse",
+        "description": "Uma arma de fogo com alta taxa de disparo e pouco coice, a P250 é uma escolha relativamente barata contra adversários bem protegidos.",
+        "weapon": "P250",
+        "pattern": "Apep's Curse",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Secreto",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_apep_light_large.39613b6ade6f204aaaed995e47d0a9fa42963b45.png"
     },
     {
         "id": "skin-2490552",
@@ -12084,6 +12264,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg_overtake_light_large.62261051818eb21f13e782cd49a33970360b4581.png"
     },
     {
+        "id": "skin-2626444",
+        "name": "SSG 08 | Azure Glyph",
+        "description": "O SSG08 é um rifle de precisão que não causa muito dano, mas é barato e tem grande poder de disparo, sendo ideal para confrontos a longa distância no início de rodadas.",
+        "weapon": "SSG 08",
+        "pattern": "Azure Glyph",
+        "min_float": 0.01,
+        "max_float": 0.99,
+        "rarity": "Nível Industrial",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_light_large.6e654fe6456fb019d4507f750d113f67ca0a879f.png"
+    },
+    {
         "id": "skin-3932400",
         "name": "M4A4 | Água Escura",
         "description": "Mais preciso e menos poderoso que o AK-47, o seu correspondente, o M4A4 é o rifle de assalto automático dos CTs.",
@@ -12478,6 +12670,18 @@
         "rarity": "Nível Militar",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_feeding_frenzy_light_large.e1cb803e0e10ae4457e42d34ec8515b1500f4762.png"
+    },
+    {
+        "id": "skin-3937132",
+        "name": "M4A4 | Mud-Spec",
+        "description": "Mais preciso e menos poderoso que o AK-47, o seu correspondente, o M4A4 é o rifle de assalto automático dos CTs.",
+        "weapon": "M4A4",
+        "pattern": "Mud-Spec",
+        "min_float": 0,
+        "max_float": 0.73,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_milspec_light_large.abf3dbeb994944b3182cc60c50d3a729f47c1979.png"
     },
     {
         "id": "skin-3997796",
@@ -12886,6 +13090,18 @@
         "rarity": "Secreto",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_light_large.9f5bcd4f94db3d965b3b2e7c3aace470e9466380.png"
+    },
+    {
+        "id": "skin-4002708",
+        "name": "USP-S | Desert Tactical",
+        "description": "Uma arma favorita dos fãs de Counter-Strike: Source, esta versão da pistola USP tem um silenciador removível que reduz o som e o coice dos disparos.",
+        "weapon": "USP-S",
+        "pattern": "Desert Tactical",
+        "min_float": 0,
+        "max_float": 1,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_light_large.ff54560941a8f50919ea6be8126490aff54ae810.png"
     },
     {
         "id": "skin-4128816",
@@ -13510,6 +13726,18 @@
         "rarity": "Restrito",
         "stattrak": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_r8_banana_light_large.50f0b729a36a405d48b41d58463234dbbd15b9cf.png"
+    },
+    {
+        "id": "skin-4199252",
+        "name": "Revólver R8 | Inlay",
+        "description": "O Revólver R8 dispara balas precisas e poderosas em troca de um gatilho duro. Disparar rapidamente girando o cão pode ser a melhor opção quando for necessário um poder de parada à queima-roupa.",
+        "weapon": "Revólver R8",
+        "pattern": "Inlay",
+        "min_float": 0,
+        "max_float": 0.76,
+        "rarity": "Nível Consumidor",
+        "stattrak": false,
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_light_large.3d652732f4082f2af2acce48c2343d2fd73bdcae.png"
     },
     {
         "id": "skin-32768020",
