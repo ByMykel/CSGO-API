@@ -8,15 +8,15 @@ import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
 
-    if (!item.item_name.startsWith("#CSGO_crate")) {
-        return false;
-    }
+    // if (!item.item_name.startsWith("#CSGO_crate")) {
+    //     return false;
+    // }
 
-    if (item.item_name.includes("contestwinner")) {
-        return false;
-    }
+    // if (item.item_name.includes("contestwinner")) {
+    //     return false;
+    // }
 
-    if (!item.prefab.includes("weapon_case_key")) {
+    if (!item?.prefab?.includes("weapon_case_key")) {
         return false;
     }
 
