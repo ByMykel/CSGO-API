@@ -8,6 +8,10 @@ import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
 
+    if (item?.attributes?.["set supply crate series"]?.attribute_class === "supply_crate_series") {
+        return true
+    };
+
     if (item.item_name.startsWith("#CSGO_storageunit")) {
         return true;
     }
