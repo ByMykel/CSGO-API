@@ -1,5 +1,32 @@
 [
     {
+        "id": "crate-1210",
+        "name": "Geschenkpaket",
+        "description": "Bei Benutzung erhält ein zufälliger Spieler in Ihrem Spiel einen zufälligen Gegenstand als Geschenk von Ihnen.",
+        "type": null,
+        "first_sale_date": "2013/12/17",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
+    },
+    {
+        "id": "crate-1211",
+        "name": "Palette von Geschenken",
+        "description": "Bei Benutzung erhalten bis zu 9 andere Spieler in Ihrem Spiel einen zufällig ausgewählten Gegenstand als Geschenk von Ihnen.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
+    },
+    {
+        "id": "crate-1215",
+        "name": "Publikumteilnahmepaket",
+        "description": "Bei Benutzung erhalten bis zu 25 Zuschauer Ihres Spiels einen zufällig ausgewählten Gegenstand von Ihnen.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
+    },
+    {
         "id": "crate-4668",
         "name": "Paket: P250 | Röntgen",
         "description": "Dieses Paket enthält eine P250, die mit einer Sonderlackierung versehen wurde, welche ihr Innenleben mit Röntgenstrahlen sichtbar macht. Die P250 ist eine Schusswaffe mit geringem Rückschlag und hoher Feuerrate, eine relativ günstige Wahl gegen Gegner mit Rüstung.",
@@ -1477,5 +1504,110 @@
             }
         ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_1.fc1d279e386ce56a3b20c7c449199d89efe58128.png"
+    },
+    {
+        "id": "crate-4882",
+        "name": "Anubis Collection Package",
+        "description": null,
+        "type": null,
+        "first_sale_date": "2023/04/24",
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "R8-Revolver | Inlay",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | Submerged",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | Hieroglyph",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | Sunbaked",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | Snake Pit",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1-S | Mud-Spec",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | Azure Glyph",
+                "rarity": "Industriequalität"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP-S | Desert Tactical",
+                "rarity": "Verbraucherklasse"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | Echoing Sands",
+                "rarity": "Industriequalität"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | Mummy's Rot",
+                "rarity": "Militärstandard"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | Steel Delta",
+                "rarity": "Industriequalität"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | Black Nile",
+                "rarity": "Industriequalität"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | Copper Coated",
+                "rarity": "Militärstandard"
+            },
+            {
+                "id": "skin-267104",
+                "name": "Glock-18 | Ramese's Reach",
+                "rarity": "Militärstandard"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "Nova | Sobek's Bite",
+                "rarity": "Limitiert"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | ScaraB Rush",
+                "rarity": "Limitiert"
+            },
+            {
+                "id": "skin-660324",
+                "name": "FAMAS | Waters of Nephthys",
+                "rarity": "Vertraulich"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | Apep's Curse",
+                "rarity": "Vertraulich"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | Eye of Horus",
+                "rarity": "Vertraulich"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
     }
 ]

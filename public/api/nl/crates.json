@@ -1,5 +1,32 @@
 [
     {
+        "id": "crate-1210",
+        "name": "Cadeaupakket",
+        "description": "Als deze gebruikt wordt krijgt een willekeurige speler in je spel een willekeurig voorwerp als cadeau van jou.",
+        "type": null,
+        "first_sale_date": "2013/12/17",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
+    },
+    {
+        "id": "crate-1211",
+        "name": "Pallet met cadeaus",
+        "description": "Als deze gebruikt wordt krijgen tot maximaal 9 andere spelers in je spel een willekeurig voorwerp als cadeau van jou.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
+    },
+    {
+        "id": "crate-1215",
+        "name": "Publieksparticipatiepakket",
+        "description": "Als deze gebruikt wordt krijgen tot maximaal 25 kijkers die jouw spel bekijken een willekeurig voorwerp als cadeau van jou.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
+    },
+    {
         "id": "crate-4001",
         "name": "CS:GO-wapenkist",
         "description": null,
@@ -44630,5 +44657,110 @@
             }
         ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_32.2d4bcc3d6832d2b4d1d11a273a4ff4bf55dc63a1.png"
+    },
+    {
+        "id": "crate-4882",
+        "name": "Anubis Collection Package",
+        "description": null,
+        "type": null,
+        "first_sale_date": "2023/04/24",
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "R8-revolver | Inlay",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | Submerged",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | Hieroglyph",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | Sunbaked",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | Snake Pit",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1-S | Mud-Spec",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | Azure Glyph",
+                "rarity": "Industrie-rang"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP-S | Desert Tactical",
+                "rarity": "Consumenten-rang"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | Echoing Sands",
+                "rarity": "Industrie-rang"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | Mummy's Rot",
+                "rarity": "Mil-Spec-rang"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | Steel Delta",
+                "rarity": "Industrie-rang"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | Black Nile",
+                "rarity": "Industrie-rang"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | Copper Coated",
+                "rarity": "Mil-Spec-rang"
+            },
+            {
+                "id": "skin-267104",
+                "name": "Glock-18 | Ramese's Reach",
+                "rarity": "Mil-Spec-rang"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "Nova | Sobek's Bite",
+                "rarity": "Beperkt"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | ScaraB Rush",
+                "rarity": "Beperkt"
+            },
+            {
+                "id": "skin-660324",
+                "name": "FAMAS | Waters of Nephthys",
+                "rarity": "Geheim"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | Apep's Curse",
+                "rarity": "Geheim"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | Eye of Horus",
+                "rarity": "Geheim"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
     }
 ]

@@ -1,5 +1,32 @@
 [
     {
+        "id": "crate-1210",
+        "name": "礼品包",
+        "description": "使用此物品后，一名和您一起比赛的随机玩家将获得一件由您赠送的随机物品。",
+        "type": null,
+        "first_sale_date": "2013/12/17",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
+    },
+    {
+        "id": "crate-1211",
+        "name": "摆满礼物的托盘",
+        "description": "使用此物品后，至多 9 名和您一起比赛的玩家将获得一件由您赠送的随机物品。",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
+    },
+    {
+        "id": "crate-1215",
+        "name": "观众出席大礼包",
+        "description": "使用此物品后，至多 25 名正在观看您的比赛的观看者将获得一件由您赠送的随机物品。",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
+    },
+    {
         "id": "crate-4668",
         "name": "P250 | X 射线 包裹",
         "description": "此包裹包含一把自定义涂装的P250，内部结构暴露在 X 射线下。 P250 是一把低后坐力和高射速的手枪，在对付穿了护甲的对手时，P250是一个相对便宜的选择。",
@@ -1477,5 +1504,110 @@
             }
         ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_1.fc1d279e386ce56a3b20c7c449199d89efe58128.png"
+    },
+    {
+        "id": "crate-4882",
+        "name": "Anubis Collection Package",
+        "description": null,
+        "type": null,
+        "first_sale_date": "2023/04/24",
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "R8 左轮手枪 | Inlay",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | Submerged",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | Hieroglyph",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | Sunbaked",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | Snake Pit",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1 消音型 | Mud-Spec",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | Azure Glyph",
+                "rarity": "工业级"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP 消音版 | Desert Tactical",
+                "rarity": "消费级"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | Echoing Sands",
+                "rarity": "工业级"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | Mummy's Rot",
+                "rarity": "军规级"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | Steel Delta",
+                "rarity": "工业级"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | Black Nile",
+                "rarity": "工业级"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | Copper Coated",
+                "rarity": "军规级"
+            },
+            {
+                "id": "skin-267104",
+                "name": "格洛克 18 型 | Ramese's Reach",
+                "rarity": "军规级"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "新星 | Sobek's Bite",
+                "rarity": "受限"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | ScaraB Rush",
+                "rarity": "受限"
+            },
+            {
+                "id": "skin-660324",
+                "name": "法玛斯 | Waters of Nephthys",
+                "rarity": "保密"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | Apep's Curse",
+                "rarity": "保密"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | Eye of Horus",
+                "rarity": "保密"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
     }
 ]
