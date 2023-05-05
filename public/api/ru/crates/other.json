@@ -6,6 +6,7 @@
         "type": null,
         "first_sale_date": "2013/12/17",
         "contains": [],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
     },
     {
@@ -15,6 +16,7 @@
         "type": null,
         "first_sale_date": "2013/12/16",
         "contains": [],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
     },
     {
@@ -24,6 +26,7 @@
         "type": null,
         "first_sale_date": "2013/12/16",
         "contains": [],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
     },
     {
@@ -33,6 +36,13 @@
         "type": null,
         "first_sale_date": "2019/10/02",
         "contains": [],
+        "contains_rare": [
+            {
+                "id": "skin-2359796",
+                "name": "P250 | Рентген",
+                "rarity": "Запрещённое"
+            }
+        ],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {
@@ -768,6 +778,7 @@
                 "rarity": "высшего класса"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_0.4ebc70533404b253a925819a91240e5313491f1b.png"
     },
     {
@@ -1503,6 +1514,7 @@
                 "rarity": "примечательного типа"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_1.fc1d279e386ce56a3b20c7c449199d89efe58128.png"
     },
     {
@@ -1608,6 +1620,7 @@
                 "rarity": "Засекреченное"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
     }
 ]
