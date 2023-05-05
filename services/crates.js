@@ -3,14 +3,19 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
+import { rareSpecial } from "../utils/rareSpecial.js";
+import { isNotWeapon } from "../utils/weapon.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
 
-    if (item?.attributes?.["set supply crate series"]?.attribute_class === "supply_crate_series") {
-        return true
-    };
+    if (
+        item?.attributes?.["set supply crate series"]?.attribute_class ===
+        "supply_crate_series"
+    ) {
+        return true;
+    }
 
     if (item.item_name.startsWith("#CSGO_storageunit")) {
         return true;
@@ -197,7 +202,11 @@ const getItemFromKey = (key) => {
                 name: `${translatedName} | ${$translate(
                     paintKits[name.toLowerCase()].description_tag
                 )}`,
-                rarity: $translate(`rarity_${paintKitsRarity[name]}_weapon`),
+                rarity: !isNotWeapon(type)
+                    ? $translate(`rarity_${paintKitsRarity[name]}_weapon`)
+                    : type.includes("weapon_knife") || type.includes("weapon_bayonet")
+                    ? $translate(`rarity_ancient_weapon`)
+                    : $translate(`rarity_ancient`),
             };
     }
 };
@@ -246,6 +255,48 @@ const getContainedItems = (itemName) => {
     }, []);
 };
 
+const getContainedRareItems = (itemName) => {
+    const { clientLootLists, items } = state;
+
+    const lootList = clientLootLists[itemName];
+
+    if (lootList === undefined) {
+        if (rareSpecial[itemName] !== undefined) {
+            return Object.keys(rareSpecial[itemName]).map((key) =>
+                getItemFromKey(key)
+            );
+        }
+
+        return [];
+    }
+
+    const keyys = Object.keys(lootList).filter((item) => {
+        const ignore = [
+            "will_produce_stattrak",
+            "limit_description_to_number_rnd",
+            "contains_stickers_autographed_by_proplayers",
+            "contains_stickers_autographed_by_proplayers",
+            "contains_stickers_representing_organizations",
+            "contains_patches_representing_organizations",
+            "all_entries_as_additional_drops",
+        ];
+
+        return !ignore.includes(item);
+    });
+
+    if (keyys[0].includes("Commodity Pin")) {
+        return [];
+    }
+
+    if (keyys[0].includes("[") && keyys[0].includes("]")) {
+        return [];
+    }
+
+    return keyys.reduce((items, key) => {
+        return [...items, ...getContainedRareItems(key)];
+    }, []);
+};
+
 const parseItem = (item, itemsById, prefabs) => {
     // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
     const image = cdn[item.image_inventory.toLowerCase()];
@@ -267,6 +318,7 @@ const parseItem = (item, itemsById, prefabs) => {
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
         contains: getContainedItems(keyLootList),
+        contains_rare: getContainedRareItems(keyLootList),
         image,
     };
 };

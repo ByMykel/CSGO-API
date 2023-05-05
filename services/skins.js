@@ -1,10 +1,10 @@
 import { IMAGES_BASE_URL } from "../constants.js";
-import { getWeaponName } from "../utils/weapons.js";
+import { getWeaponName, isNotWeapon } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -45,10 +45,12 @@ const getAllStatTrak = (itemSets, items) => {
 };
 
 const getPatternName = (weapon, string) => {
-    return string
-        .replace(`${weapon}_`, "")
-        // .replace("silencer_", "")
-        .toLowerCase();
+    return (
+        string
+            .replace(`${weapon}_`, "")
+            // .replace("silencer_", "")
+            .toLowerCase()
+    );
 };
 
 const isSkin = (iconPath) => {
@@ -95,8 +97,12 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
         rarity:
-            $translate(`rarity_${paintKitsRarity[pattern]}_weapon`) ??
-            "Contraband",
+            (!isNotWeapon(weapon)
+                ? $translate(`rarity_${paintKitsRarity[pattern]}_weapon`)
+                : weapon.includes("weapon_knife") ||
+                weapon.includes("weapon_bayonet")
+                ? $translate(`rarity_ancient_weapon`)
+                : $translate(`rarity_ancient`)) ?? "Contraband",
         stattrak: isStatTrak,
         image,
     };
@@ -122,7 +128,7 @@ export const getSkins = () => {
                 );
         }
     );
-    
+
     saveDataMemory(languageData.language, skins);
     saveDataJson(`./public/api/${languageData.folder}/skins.json`, skins);
 };
