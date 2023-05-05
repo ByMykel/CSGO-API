@@ -47,7 +47,7 @@ const getAllStatTrak = (itemSets, items) => {
 const getPatternName = (weapon, string) => {
     return string
         .replace(`${weapon}_`, "")
-        .replace("silencer_", "")
+        // .replace("silencer_", "")
         .toLowerCase();
 };
 
