@@ -71,3 +71,11 @@ export const getWeaponName = (string) => {
 
     return false;
 };
+
+export const isNotWeapon = (string) => {
+    return (
+        !string.includes("weapon_") ||
+        string.includes("weapon_knife") ||
+        string.includes("weapon_bayonet")
+    );
+};
