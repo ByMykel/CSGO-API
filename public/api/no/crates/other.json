@@ -1,0 +1,1626 @@
+[
+    {
+        "id": "crate-1210",
+        "name": "Gavepakke",
+        "description": "Når denne brukes, vil en tilfeldig spiller i kampen få en tilfeldig gjenstand som en gave fra deg.",
+        "type": null,
+        "first_sale_date": "2013/12/17",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
+    },
+    {
+        "id": "crate-1211",
+        "name": "Pall med presanger",
+        "description": "Når denne brukes, vil opp til ni andre spillere i kampen din få en tilfeldig gjenstand som en gave fra deg.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
+    },
+    {
+        "id": "crate-1215",
+        "name": "Publikumdeltagelsespakke",
+        "description": "Når denne brukes, vil opp til 25 nåværende seere få en tilfeldig gjenstand i gave fra deg.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
+    },
+    {
+        "id": "crate-4668",
+        "name": "X-Ray P250-pakke",
+        "description": "Denne pakken inneholder en enkel spesiallakkert P250, som viser de indre delene med et røntgenbilde. P250 er et skytevåpen med en lav rekyl og høy skuddtakt, som er et relativt billig valg mot pansrede motstandere.",
+        "type": null,
+        "first_sale_date": "2019/10/02",
+        "contains": [],
+        "contains_rare": [
+            {
+                "id": "skin-2359796",
+                "name": "P250 | X-Ray",
+                "rarity": "Begrenset"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
+    },
+    {
+        "id": "crate-4871",
+        "name": "Rio 2022 – Lagerenhet med papirklistremerker",
+        "description": "Denne lagerenheten inneholder alle spillerautografene i papir og alle papirklistremerkene til minne om majormesterskapet IEM Rio 2022.\\n\\n50 % av inntektene fra salget av denne kapselen går til de inkluderte spillerne og organisasjonene.",
+        "type": null,
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-6086",
+                "name": "Snappi | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6090",
+                "name": "Dycha | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6094",
+                "name": "maden | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6098",
+                "name": "v4lde | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6102",
+                "name": "SunPayus | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6106",
+                "name": "karrigan | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6110",
+                "name": "rain | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6114",
+                "name": "Twistzz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6118",
+                "name": "ropz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6122",
+                "name": "broky | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6126",
+                "name": "cadiaN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6130",
+                "name": "TeSeS | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6134",
+                "name": "sjuush | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6138",
+                "name": "jabbi | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6142",
+                "name": "stavn | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6146",
+                "name": "b1t | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6150",
+                "name": "electronic | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6154",
+                "name": "sdy | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6158",
+                "name": "Perfecto | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6162",
+                "name": "s1mple | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6166",
+                "name": "es3tag | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6170",
+                "name": "Aleksib | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6174",
+                "name": "REZ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6178",
+                "name": "hampus | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6182",
+                "name": "Brollan | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6186",
+                "name": "slaxz- | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6190",
+                "name": "lauNX | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6194",
+                "name": "refrezh | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6198",
+                "name": "Staehr | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6202",
+                "name": "Zyphon | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6206",
+                "name": "YEKINDAR | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6210",
+                "name": "oSee | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6214",
+                "name": "nitr0 | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6218",
+                "name": "NAF | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6222",
+                "name": "EliGE | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6226",
+                "name": "chopper | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6230",
+                "name": "magixx | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6234",
+                "name": "Patsi | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6238",
+                "name": "S1ren | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6242",
+                "name": "w0nderful | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6246",
+                "name": "NQZ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6250",
+                "name": "dav1deuS | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6254",
+                "name": "max | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6258",
+                "name": "dgt | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6262",
+                "name": "BUDA | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6266",
+                "name": "gxx- | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6270",
+                "name": "SENER1 | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6274",
+                "name": "juanflatroo | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6278",
+                "name": "rigoN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6282",
+                "name": "sinnopsyy | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6286",
+                "name": "faveN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6290",
+                "name": "Krimbo | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6294",
+                "name": "k1to | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6298",
+                "name": "tabseN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6302",
+                "name": "syrsoN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6306",
+                "name": "sh1ro | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6310",
+                "name": "nafany | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6314",
+                "name": "Ax1Le | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6318",
+                "name": "interz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6322",
+                "name": "Hobbit | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6326",
+                "name": "autimatic | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6330",
+                "name": "neaLaN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6334",
+                "name": "Brehze | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6338",
+                "name": "HexT | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6342",
+                "name": "CeRq | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6346",
+                "name": "frozen | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6350",
+                "name": "dexter | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6354",
+                "name": "JDC | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6358",
+                "name": "torzsi | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6362",
+                "name": "xertioN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6366",
+                "name": "nexa | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6370",
+                "name": "NEOFRAG | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6374",
+                "name": "FlameZ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6378",
+                "name": "degster | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6382",
+                "name": "F1KU | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6386",
+                "name": "dupreeh | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6390",
+                "name": "Magisk | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6394",
+                "name": "apEX | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6398",
+                "name": "Spinx | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6402",
+                "name": "ZywOo | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6406",
+                "name": "TACO | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6410",
+                "name": "coldzera | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6414",
+                "name": "TRY | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6418",
+                "name": "latto | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6422",
+                "name": "dumau | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6426",
+                "name": "KRIMZ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6430",
+                "name": "mezii | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6434",
+                "name": "FASHR | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6438",
+                "name": "roeJ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6442",
+                "name": "nicoodoz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6446",
+                "name": "KSCERATO | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6450",
+                "name": "yuurih | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6454",
+                "name": "drop | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6458",
+                "name": "saffee | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6462",
+                "name": "arT | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6466",
+                "name": "acoR | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6470",
+                "name": "iM | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6474",
+                "name": "siuhy | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6478",
+                "name": "Keoz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6482",
+                "name": "isak | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6486",
+                "name": "INS | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6490",
+                "name": "vexite | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6494",
+                "name": "Sico | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6498",
+                "name": "Liazz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6502",
+                "name": "aliStair | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6506",
+                "name": "sk0R | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6510",
+                "name": "Techno4K | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6514",
+                "name": "kabal | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6518",
+                "name": "bLitz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6522",
+                "name": "ANNIHILATION | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6526",
+                "name": "FalleN | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6530",
+                "name": "fer | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6534",
+                "name": "boltz | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6538",
+                "name": "VINI | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6542",
+                "name": "chelo | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6546",
+                "name": "FL1T | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6550",
+                "name": "n0rb3r7 | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6554",
+                "name": "Jame | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6558",
+                "name": "qikert | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6562",
+                "name": "fame | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5961",
+                "name": "ENCE | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5965",
+                "name": "FaZe Clan | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5969",
+                "name": "Heroic | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5973",
+                "name": "Natus Vincere | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5977",
+                "name": "Ninjas in Pyjamas | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5981",
+                "name": "Sprout Esports | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5985",
+                "name": "Team Liquid | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5989",
+                "name": "Team Spirit | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5993",
+                "name": "9z Team | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-5997",
+                "name": "Bad News Eagles | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6001",
+                "name": "BIG | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6005",
+                "name": "Cloud9 | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6009",
+                "name": "Evil Geniuses | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6013",
+                "name": "MOUZ | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6017",
+                "name": "OG | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6021",
+                "name": "Vitality | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6025",
+                "name": "00 Nation | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6029",
+                "name": "Fnatic | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6033",
+                "name": "FURIA | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6037",
+                "name": "GamerLegion | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6041",
+                "name": "Grayhound Gaming | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6045",
+                "name": "IHC Esports | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6049",
+                "name": "Imperial Esports | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6053",
+                "name": "Outsiders | Rio 2022",
+                "rarity": "Høy klasse"
+            },
+            {
+                "id": "sticker-6057",
+                "name": "IEM | Rio 2022",
+                "rarity": "Høy klasse"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_0.4ebc70533404b253a925819a91240e5313491f1b.png"
+    },
+    {
+        "id": "crate-4872",
+        "name": "Rio 2022 – Lagerenhet med glitterklistremerker",
+        "description": "Denne lagerenheten inneholder alle spillerautografene i glitter og alle glitterklistremerkene til minne om majormesterskapet IEM Rio 2022.\\n\\n50 % av inntektene fra salget av denne kapselen går til de inkluderte spillerne og organisasjonene.",
+        "type": null,
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-6087",
+                "name": "Snappi (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6091",
+                "name": "Dycha (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6095",
+                "name": "maden (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6099",
+                "name": "v4lde (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6103",
+                "name": "SunPayus (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6107",
+                "name": "karrigan (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6111",
+                "name": "rain (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6115",
+                "name": "Twistzz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6119",
+                "name": "ropz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6123",
+                "name": "broky (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6127",
+                "name": "cadiaN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6131",
+                "name": "TeSeS (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6135",
+                "name": "sjuush (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6139",
+                "name": "jabbi (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6143",
+                "name": "stavn (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6147",
+                "name": "b1t (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6151",
+                "name": "electronic (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6155",
+                "name": "sdy (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6159",
+                "name": "Perfecto (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6163",
+                "name": "s1mple (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6167",
+                "name": "es3tag (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6171",
+                "name": "Aleksib (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6175",
+                "name": "REZ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6179",
+                "name": "hampus (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6183",
+                "name": "Brollan (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6187",
+                "name": "slaxz- (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6191",
+                "name": "lauNX (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6195",
+                "name": "refrezh (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6199",
+                "name": "Staehr (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6203",
+                "name": "Zyphon (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6207",
+                "name": "YEKINDAR (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6211",
+                "name": "oSee (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6215",
+                "name": "nitr0 (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6219",
+                "name": "NAF (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6223",
+                "name": "EliGE (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6227",
+                "name": "chopper (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6231",
+                "name": "magixx (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6235",
+                "name": "Patsi (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6239",
+                "name": "S1ren (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6243",
+                "name": "w0nderful (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6247",
+                "name": "NQZ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6251",
+                "name": "dav1deuS (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6255",
+                "name": "max (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6259",
+                "name": "dgt (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6263",
+                "name": "BUDA (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6267",
+                "name": "gxx- (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6271",
+                "name": "SENER1 (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6275",
+                "name": "juanflatroo (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6279",
+                "name": "rigoN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6283",
+                "name": "sinnopsyy (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6287",
+                "name": "faveN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6291",
+                "name": "Krimbo (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6295",
+                "name": "k1to (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6299",
+                "name": "tabseN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6303",
+                "name": "syrsoN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6307",
+                "name": "sh1ro (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6311",
+                "name": "nafany (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6315",
+                "name": "Ax1Le (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6319",
+                "name": "interz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6323",
+                "name": "Hobbit (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6327",
+                "name": "autimatic (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6331",
+                "name": "neaLaN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6335",
+                "name": "Brehze (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6339",
+                "name": "HexT (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6343",
+                "name": "CeRq (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6347",
+                "name": "frozen (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6351",
+                "name": "dexter (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6355",
+                "name": "JDC (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6359",
+                "name": "torzsi (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6363",
+                "name": "xertioN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6367",
+                "name": "nexa (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6371",
+                "name": "NEOFRAG (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6375",
+                "name": "FlameZ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6379",
+                "name": "degster (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6383",
+                "name": "F1KU (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6387",
+                "name": "dupreeh (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6391",
+                "name": "Magisk (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6395",
+                "name": "apEX (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6399",
+                "name": "Spinx (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6403",
+                "name": "ZywOo (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6407",
+                "name": "TACO (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6411",
+                "name": "coldzera (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6415",
+                "name": "TRY (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6419",
+                "name": "latto (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6423",
+                "name": "dumau (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6427",
+                "name": "KRIMZ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6431",
+                "name": "mezii (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6435",
+                "name": "FASHR (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6439",
+                "name": "roeJ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6443",
+                "name": "nicoodoz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6447",
+                "name": "KSCERATO (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6451",
+                "name": "yuurih (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6455",
+                "name": "drop (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6459",
+                "name": "saffee (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6463",
+                "name": "arT (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6467",
+                "name": "acoR (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6471",
+                "name": "iM (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6475",
+                "name": "siuhy (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6479",
+                "name": "Keoz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6483",
+                "name": "isak (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6487",
+                "name": "INS (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6491",
+                "name": "vexite (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6495",
+                "name": "Sico (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6499",
+                "name": "Liazz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6503",
+                "name": "aliStair (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6507",
+                "name": "sk0R (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6511",
+                "name": "Techno4K (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6515",
+                "name": "kabal (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6519",
+                "name": "bLitz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6523",
+                "name": "ANNIHILATION (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6527",
+                "name": "FalleN (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6531",
+                "name": "fer (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6535",
+                "name": "boltz (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6539",
+                "name": "VINI (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6543",
+                "name": "chelo (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6547",
+                "name": "FL1T (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6551",
+                "name": "n0rb3r7 (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6555",
+                "name": "Jame (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6559",
+                "name": "qikert (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6563",
+                "name": "fame (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5962",
+                "name": "ENCE (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5966",
+                "name": "FaZe Clan (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5970",
+                "name": "Heroic (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5974",
+                "name": "Natus Vincere (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5978",
+                "name": "Ninjas in Pyjamas (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5982",
+                "name": "Sprout Esports (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5986",
+                "name": "Team Liquid (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5990",
+                "name": "Team Spirit (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5994",
+                "name": "9z Team (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-5998",
+                "name": "Bad News Eagles (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6002",
+                "name": "BIG (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6006",
+                "name": "Cloud9 (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6010",
+                "name": "Evil Geniuses (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6014",
+                "name": "MOUZ (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6018",
+                "name": "OG (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6022",
+                "name": "Vitality (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6026",
+                "name": "00 Nation (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6030",
+                "name": "Fnatic (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6034",
+                "name": "FURIA (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6038",
+                "name": "GamerLegion (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6042",
+                "name": "Grayhound Gaming (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6046",
+                "name": "IHC Esports (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6050",
+                "name": "Imperial Esports (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6054",
+                "name": "Outsiders (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            },
+            {
+                "id": "sticker-6058",
+                "name": "IEM (glitter) | Rio 2022",
+                "rarity": "Spesielt"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_1.fc1d279e386ce56a3b20c7c449199d89efe58128.png"
+    },
+    {
+        "id": "crate-4882",
+        "name": "Anubis-samlingspakke",
+        "description": null,
+        "type": null,
+        "first_sale_date": "2023/04/24",
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "R8 Revolver | Inlay",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | Submerged",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | Hieroglyph",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | Sunbaked",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | Snake Pit",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1-S | Mud-Spec",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | Azure Glyph",
+                "rarity": "Industriklasse"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP-S | Desert Tactical",
+                "rarity": "Forbrukerklasse"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | Echoing Sands",
+                "rarity": "Industriklasse"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | Mummy's Rot",
+                "rarity": "Militær standard"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | Steel Delta",
+                "rarity": "Industriklasse"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | Black Nile",
+                "rarity": "Industriklasse"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | Copper Coated",
+                "rarity": "Militær standard"
+            },
+            {
+                "id": "skin-267104",
+                "name": "Glock-18 | Ramese's Reach",
+                "rarity": "Militær standard"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "Nova | Sobek's Bite",
+                "rarity": "Begrenset"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | ScaraB Rush",
+                "rarity": "Begrenset"
+            },
+            {
+                "id": "skin-660324",
+                "name": "FAMAS | Waters of Nephthys",
+                "rarity": "Klassifisert"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | Apep's Curse",
+                "rarity": "Klassifisert"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | Eye of Horus",
+                "rarity": "Klassifisert"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
+    }
+]
