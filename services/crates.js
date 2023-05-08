@@ -140,7 +140,7 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     return null;
 };
 
-const getItemFromKey = (key) => {
+const getItemFromKey = (key, parentKey) => {
     const {
         stickerKits,
         musicDefinitions,
@@ -197,13 +197,15 @@ const getItemFromKey = (key) => {
                 $translate(items[type].item_name) ??
                 $translate(items[type].item_name_prefab);
 
+            const itemRarity = parentKey.split("_").pop();
+
             return {
                 id: `skin-${id[0]}`,
                 name: `${translatedName} | ${$translate(
                     paintKits[name.toLowerCase()].description_tag
                 )}`,
                 rarity: !isNotWeapon(type)
-                    ? $translate(`rarity_${paintKitsRarity[name]}_weapon`)
+                    ? $translate(`rarity_${itemRarity}_weapon`)
                     : type.includes("weapon_knife") || type.includes("weapon_bayonet")
                     ? $translate(`rarity_ancient_weapon`)
                     : $translate(`rarity_ancient`),
@@ -247,7 +249,7 @@ const getContainedItems = (itemName) => {
     }
 
     if (keyys[0].includes("[") && keyys[0].includes("]")) {
-        return keyys.map((key) => getItemFromKey(key));
+        return keyys.map((key) => getItemFromKey(key, itemName));
     }
 
     return keyys.reduce((items, key) => {
@@ -263,7 +265,7 @@ const getContainedRareItems = (itemName) => {
     if (lootList === undefined) {
         if (rareSpecial[itemName] !== undefined) {
             return Object.keys(rareSpecial[itemName]).map((key) =>
-                getItemFromKey(key)
+                getItemFromKey(key, itemName)
             );
         }
 
