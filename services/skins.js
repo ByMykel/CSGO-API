@@ -104,6 +104,7 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
                 ? $translate(`rarity_ancient_weapon`)
                 : $translate(`rarity_ancient`)) ?? "Contraband",
         stattrak: isStatTrak,
+        paint_index: paintKits[pattern].paint_index,
         image,
     };
 };
