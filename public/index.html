@@ -351,6 +351,13 @@
                                     >List music kits</a
                                 >
                             </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#api-rest"
+                                    class="text-blue-400 hover:underline"
+                                    >Experimental API REST</a
+                                >
+                            </div>
                         </div>
                     </nav>
                 </div>
@@ -563,6 +570,13 @@
                             >List music kits</a
                         >
                     </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#api-rest"
+                            class="text-blue-400 hover:underline"
+                            >Experimental API REST</a
+                        >
+                    </div>
                 </div>
             </div>
             <div class="lg:pl-[15rem] xl:pl-[7rem]">
@@ -634,8 +648,9 @@
 
                         <p
                             class="mt-4 text-base md:text-lg text-slate-700 mb-4"
-                        >   
-                            <span class="font-bold">language</span> can be one of the following:
+                        >
+                            <span class="font-bold">language</span> can be one
+                            of the following:
                             <span class="language-code">bg</span>
                             <span class="language-code">cs</span>
                             <span class="language-code">da</span>
@@ -664,6 +679,47 @@
                             <span class="language-code">zh-CN</span>
                             <span class="language-code">zh-TW</span>
                         </p>
+                    </div>
+
+                    <div
+                        class="rounded-xl bg-blue-400/20 text-blue-500 p-3 flex justify-between items-center"
+                    >
+                        <div class="flex items-center gap-2">
+                            <svg
+                                class="h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                class="nu rw aww"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                            <p class="text-sm md:text-base">
+                                Try some experimental API REST endpoints
+                            </p>
+                        </div>
+                        <a href="#api-rest">
+                            <svg
+                                class="h-5 w-5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+                                ></path>
+                            </svg>
+                        </a>
                     </div>
 
                     <hr />
@@ -2533,6 +2589,226 @@
 	// ...
 ]</code></pre>
                         </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="api-rest">
+                        <div
+                            class="rounded-xl bg-yellow-400/20 text-yellow-500 p-3 flex items-center gap-4 mb-4"
+                        >
+                            <svg
+                                class="h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                                aria-hidden="true"
+                                class="nu rw aww"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z"
+                                    clip-rule="evenodd"
+                                ></path>
+                            </svg>
+                            <div class="text-sm md:text-base">
+                                <p>
+                                    I have created some API REST endpoints to
+                                    make it easier to retrieve the data.
+                                </p>
+                                <p>
+                                    I'm still working on it, so it may change in
+                                    the future.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base shadow-lg mb-6"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4 text-[#7dd3fc]"
+                            >
+                                BASE URL
+                            </div>
+                            <div class="py-2.5 px-3">
+                                https://cs2-api.vercel.app/api
+                            </div>
+                        </div>
+
+                        <p class="mb-2 text-base md:text-lg text-slate-700">
+                            Search by query
+                        </p>
+
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center mb-4"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /search?page=6&q=paris
+                            </div>
+                            <div>
+                                <a
+                                    href="https://cs2-api.vercel.app/api/search?page=6&q=paris"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <pre class="example-data rounded-xl h-68 shadow-lg">
+<code class="language-json">{
+    "data": [
+        {
+            "id": "sticker-6661",
+            "name": "Sticker | GamerLegion (Glitter) | Paris 2023",
+            "description": null,
+            "rarity": "Remarkable",
+            "image": "https://steamcdn-a.akamaihd.net/..."
+        },
+        {
+            "id": "sticker-6662",
+            "name": "Sticker | GamerLegion (Holo) | Paris 2023",
+            "description": null,
+            "rarity": "Exotic",
+            "image": "https://steamcdn-a.akamaihd.net/..."
+        },
+        {},
+        {}
+    ],
+    "total": 627,
+    "page": {
+        "prev": "https://cs2-api.vercel.app/api/search?page=5&q=paris",
+        "next": "https://cs2-api.vercel.app/api/search?page=7&q=paris"
+    }
+}</code></pre>
+
+                        <p
+                            class="mb-2 text-base md:text-lg text-slate-700 mt-6"
+                        >
+                            Get all items paginated
+                        </p>
+
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center mb-4"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /items
+                            </div>
+                            <div>
+                                <a
+                                    href="https://cs2-api.vercel.app/api/items"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <pre class="example-data rounded-xl h-68 shadow-lg">
+<code class="language-json">{
+    "data": [
+        {
+            "id": "agent-4613",
+            "name": "Bloody Darryl The Strapped | The Professionals",
+            "description": "Before he was leader of the heist gang 'The Pro....",
+            "rarity": "Superior",
+            "image": "https://steamcdn-a.akamaihd.net/..."
+        },
+        {
+            "id": "agent-4619",
+            "name": "'Blueberries' Buckshot | NSWC SEAL",
+            "description": "Known as SEAL Team's \\\"Weapon....",
+            "rarity": "Exceptional",
+            "image": "https://steamcdn-a.akamaihd.net/..."
+        },
+        {},
+        {}
+    ],
+    "total": 9938,
+    "page": {
+        "prev": null,
+        "next": "https://cs2-api.vercel.app/api/items?page=2"
+    }
+}</code></pre>
+
+                        <p
+                            class="mb-2 text-base md:text-lg text-slate-700 mt-6"
+                        >
+                            To get an item by id
+                        </p>
+
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-xs md:text-base p-3 shadow-lg flex justify-between items-center mb-4"
+                        >
+                            <div>
+                                <span class="text-pink-400">GET</span>
+                                /items?id=skin-1049812
+                            </div>
+                            <div>
+                                <a
+                                    href="https://cs2-api.vercel.app/api/items?id=skin-1049812"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <pre class="example-data rounded-xl h-68 shadow-lg">
+<code class="language-json">{
+    "id": "skin-1049812",
+    "name": "M4A4 | Howl",
+    "description": "More accurate but less damaging...",
+    "weapon": "M4A4",
+    "pattern": "Howl",
+    "min_float": 0,
+    "max_float": 0.4,
+    "rarity": "Contraband",
+    "stattrak": false,
+    "image": "https://steamcdn-a.akamaihd.net/..."
+}</code></pre>
                     </div>
                 </div>
             </div>
