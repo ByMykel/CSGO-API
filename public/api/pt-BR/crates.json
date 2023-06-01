@@ -57407,7 +57407,108 @@
         "description": "Esta cápsula contém um único adesivo de papel, purpurinado, holográfico ou dourado autografado por um dos jogadores campeões do Paris 2023.\\n\\n50% da receita proveniente da venda desta cápsula será destinada aos jogadores e organizações inclusas.\\n\\nO adesivo pode ser aplicado a qualquer arma no seu inventário e pode ser raspado para parecer mais desgastado. Você pode raspar o mesmo adesivo múltiplas vezes, tornando-o cada vez mais desgastado, até ser removido da arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "sticker-7213",
+                "name": "apEX (Champion) | Paris 2023",
+                "rarity": "Alta Qualidade"
+            },
+            {
+                "id": "sticker-7217",
+                "name": "dupreeh (Champion) | Paris 2023",
+                "rarity": "Alta Qualidade"
+            },
+            {
+                "id": "sticker-7221",
+                "name": "Magisk (Champion) | Paris 2023",
+                "rarity": "Alta Qualidade"
+            },
+            {
+                "id": "sticker-7225",
+                "name": "Spinx (Champion) | Paris 2023",
+                "rarity": "Alta Qualidade"
+            },
+            {
+                "id": "sticker-7229",
+                "name": "ZywOo (Champion) | Paris 2023",
+                "rarity": "Alta Qualidade"
+            },
+            {
+                "id": "sticker-7214",
+                "name": "apEX (Glitter, Champion) | Paris 2023",
+                "rarity": "Notável"
+            },
+            {
+                "id": "sticker-7218",
+                "name": "dupreeh (Glitter, Champion) | Paris 2023",
+                "rarity": "Notável"
+            },
+            {
+                "id": "sticker-7222",
+                "name": "Magisk (Glitter, Champion) | Paris 2023",
+                "rarity": "Notável"
+            },
+            {
+                "id": "sticker-7226",
+                "name": "Spinx (Glitter, Champion) | Paris 2023",
+                "rarity": "Notável"
+            },
+            {
+                "id": "sticker-7230",
+                "name": "ZywOo (Glitter, Champion) | Paris 2023",
+                "rarity": "Notável"
+            },
+            {
+                "id": "sticker-7215",
+                "name": "apEX (Holo, Champion) | Paris 2023",
+                "rarity": "Exótico"
+            },
+            {
+                "id": "sticker-7219",
+                "name": "dupreeh (Holo, Champion) | Paris 2023",
+                "rarity": "Exótico"
+            },
+            {
+                "id": "sticker-7223",
+                "name": "Magisk (Holo, Champion) | Paris 2023",
+                "rarity": "Exótico"
+            },
+            {
+                "id": "sticker-7227",
+                "name": "Spinx (Holo, Champion) | Paris 2023",
+                "rarity": "Exótico"
+            },
+            {
+                "id": "sticker-7231",
+                "name": "ZywOo (Holo, Champion) | Paris 2023",
+                "rarity": "Exótico"
+            },
+            {
+                "id": "sticker-7216",
+                "name": "apEX (Gold, Champion) | Paris 2023",
+                "rarity": "Extraordinário"
+            },
+            {
+                "id": "sticker-7220",
+                "name": "dupreeh (Gold, Champion) | Paris 2023",
+                "rarity": "Extraordinário"
+            },
+            {
+                "id": "sticker-7224",
+                "name": "Magisk (Gold, Champion) | Paris 2023",
+                "rarity": "Extraordinário"
+            },
+            {
+                "id": "sticker-7228",
+                "name": "Spinx (Gold, Champion) | Paris 2023",
+                "rarity": "Extraordinário"
+            },
+            {
+                "id": "sticker-7232",
+                "name": "ZywOo (Gold, Champion) | Paris 2023",
+                "rarity": "Extraordinário"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack_paris2023_group_champions.9d0cf6351e546f7bd5848db29b90999319bd3145.png"
     }
