@@ -192,7 +192,7 @@ const getItemFromKey = (key, parentKey) => {
         default:
             const id = Object.entries(
                 itemsGame.alternate_icons2.weapon_icons
-            ).find(([, value]) => value.icon_path.includes(name));
+            ).find(([, value]) => value.icon_path.includes(name) && value.icon_path.includes(type));
             const translatedName =
                 $translate(items[type].item_name) ??
                 $translate(items[type].item_name_prefab);
