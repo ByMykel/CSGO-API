@@ -50,7 +50,9 @@ export const loadItemsGame = async () => {
             state.itemsGame = data;
         })
         .catch((error) => {
-            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
+            throw new Error(
+                `Error loading items_game.txt from ${ITEMS_GAME_URL}`
+            );
         });
 };
 
@@ -174,11 +176,11 @@ export const loadClientLootLists = () => {
             return {
                 ...acc,
                 ...item,
-            }
+            };
         },
         {}
     );
-}
+};
 
 export const loadRevolvingLootLists = () => {
     state.revolvingLootLists = state.itemsGame.revolving_loot_lists.reduce(
@@ -186,11 +188,77 @@ export const loadRevolvingLootLists = () => {
             return {
                 ...acc,
                 ...item,
-            }
+            };
         },
         {}
     );
-}
+};
+
+export const loadRarities = () => {
+    const hardCoded = {
+        "[cu_m4a1_howling]weapon_m4a1": {
+            rarity: "contraband",
+        },
+        "[cu_retribution]weapon_elite": {
+            rarity: "rare",
+        },
+        "[cu_mac10_decay]weapon_mac10": {
+            rarity: "mythical",
+        },
+        "[cu_p90_scorpius]weapon_p90": {
+            rarity: "rare",
+        },
+        "[hy_labrat_mp5]weapon_mp5sd": {
+            rarity: "mythical",
+        },
+        "[cu_xray_p250]weapon_p250": {
+            rarity: "mythical",
+        }, 
+        "[cu_usp_spitfire]weapon_usp_silencer": {
+            rarity: "legendary",
+        }, 
+        "[am_nitrogen]weapon_cz75a": {
+            rarity: "rare",
+        },
+    };
+
+    const rarities = [
+        "common",
+        "uncommon",
+        "rare",
+        "mythical",
+        "legendary",
+        "ancient",
+    ];
+
+    const lootList = Object.entries(
+        state.itemsGame.client_loot_lists.reduce((acc, item) => {
+            return {
+                ...acc,
+                ...item,
+            };
+        }, {})
+    );
+
+    const items = {};
+
+    lootList.forEach(([name, keys]) => {
+        const rarity = name.split("_").pop();
+        if (!rarities.includes(rarity)) return;
+
+        Object.keys(keys).forEach((key) => {
+            if (!key.includes('[')) return;
+            
+            items[key.toLocaleLowerCase()] = {
+                rarity: rarity,
+            };
+        });
+    });
+
+    Object.assign(items, hardCoded);
+
+    state.rarities = items;
+};
 
 export const loadData = async () => {
     await loadItemsGame();
@@ -204,4 +272,5 @@ export const loadData = async () => {
     loadMusicDefinitions();
     loadClientLootLists();
     loadRevolvingLootLists();
+    loadRarities();
 };
