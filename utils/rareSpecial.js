@@ -97,6 +97,7 @@ export const rareSpecial = {
         "[aq_steel_knife]weapon_knife_m9_bayonet": 1,
     },
     unusual_revolving_list: {
+        "[vanilla]weapon_bayonet": 1,
         "[aa_fade]weapon_bayonet": 1,
         "[am_zebra]weapon_bayonet": 1,
         "[aq_oiled]weapon_bayonet": 1,
@@ -110,6 +111,7 @@ export const rareSpecial = {
         "[sp_tape_urban]weapon_bayonet": 1,
         "[hy_ddpat]weapon_bayonet": 1,
 
+        "[vanilla]weapon_knife_flip": 1,
         "[aa_fade]weapon_knife_flip": 1,
         "[am_zebra]weapon_knife_flip": 1,
         "[aq_oiled]weapon_knife_flip": 1,
@@ -123,6 +125,7 @@ export const rareSpecial = {
         "[sp_tape_urban]weapon_knife_flip": 1,
         "[hy_ddpat]weapon_knife_flip": 1,
 
+        "[vanilla]weapon_knife_gut": 1,
         "[aa_fade]weapon_knife_gut": 1,
         "[am_zebra]weapon_knife_gut": 1,
         "[aq_oiled]weapon_knife_gut": 1,
@@ -136,6 +139,7 @@ export const rareSpecial = {
         "[sp_tape_urban]weapon_knife_gut": 1,
         "[hy_ddpat]weapon_knife_gut": 1,
 
+        "[vanilla]weapon_knife_karambit": 1,
         "[aa_fade]weapon_knife_karambit": 1,
         "[am_zebra]weapon_knife_karambit": 1,
         "[aq_oiled]weapon_knife_karambit": 1,
@@ -149,6 +153,7 @@ export const rareSpecial = {
         "[sp_tape_urban]weapon_knife_karambit": 1,
         "[hy_ddpat]weapon_knife_karambit": 1,
 
+        "[vanilla]weapon_knife_m9_bayonet": 1,
         "[aa_fade]weapon_knife_m9_bayonet": 1,
         "[am_zebra]weapon_knife_m9_bayonet": 1,
         "[aq_oiled]weapon_knife_m9_bayonet": 1,
@@ -253,6 +258,7 @@ export const rareSpecial = {
         "[cu_xray_p250]weapon_p250": 1,
     },
     community_case_3_unusual: {
+        "[vanilla]weapon_knife_tactical": 1,
         "[aa_fade]weapon_knife_tactical": 1,
         "[hy_webs]weapon_knife_tactical": 1,
         "[am_zebra]weapon_knife_tactical": 1,
@@ -267,6 +273,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_tactical": 1,
     },
     community_case_4_unusual: {
+        "[vanilla]weapon_knife_butterfly": 1,
         "[aa_fade]weapon_knife_butterfly": 1,
         "[hy_webs]weapon_knife_butterfly": 1,
         "[am_zebra]weapon_knife_butterfly": 1,
@@ -281,6 +288,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_butterfly": 1,
     },
     community_case_9_unusual: {
+        "[vanilla]weapon_knife_push": 1,
         "[aa_fade]weapon_knife_push": 1,
         "[hy_webs]weapon_knife_push": 1,
         "[am_zebra]weapon_knife_push": 1,
@@ -295,6 +303,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_push": 1,
     },
     community_case_11_unusual: {
+        "[vanilla]weapon_knife_survival_bowie": 1,
         "[aa_fade]weapon_knife_survival_bowie": 1,
         "[hy_webs]weapon_knife_survival_bowie": 1,
         "[am_zebra]weapon_knife_survival_bowie": 1,
@@ -468,6 +477,7 @@ export const rareSpecial = {
         "[aq_steel_knife]weapon_knife_push": 1,
     },
     community_case_8_unusual: {
+        "[vanilla]weapon_knife_falchion": 1,
         "[aa_fade]weapon_knife_falchion": 1,
         "[hy_webs]weapon_knife_falchion": 1,
         "[am_zebra]weapon_knife_falchion": 1,
@@ -482,6 +492,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_falchion": 1,
     },
     set_community_24_unusual: {
+        "[vanilla]weapon_knife_css": 1,
         "[aa_fade]weapon_knife_css": 1,
         "[hy_webs]weapon_knife_css": 1,
         "[am_zebra]weapon_knife_css": 1,
@@ -496,6 +507,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_css": 1,
     },
     set_community_23_unusual: {
+        "[vanilla]weapon_knife_outdoor": 1,
         "[aa_fade]weapon_knife_outdoor": 1,
         "[hy_webs]weapon_knife_outdoor": 1,
         "[am_zebra]weapon_knife_outdoor": 1,
@@ -509,6 +521,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_outdoor": 1,
         "[sp_mesh_tan]weapon_knife_outdoor": 1,
 
+        "[vanilla]weapon_knife_cord": 1,
         "[aa_fade]weapon_knife_cord": 1,
         "[hy_webs]weapon_knife_cord": 1,
         "[am_zebra]weapon_knife_cord": 1,
@@ -522,6 +535,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_cord": 1,
         "[sp_mesh_tan]weapon_knife_cord": 1,
 
+        "[vanilla]weapon_knife_skeleton": 1,
         "[aa_fade]weapon_knife_skeleton": 1,
         "[hy_webs]weapon_knife_skeleton": 1,
         "[am_zebra]weapon_knife_skeleton": 1,
@@ -535,6 +549,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_skeleton": 1,
         "[sp_mesh_tan]weapon_knife_skeleton": 1,
 
+        "[vanilla]weapon_knife_canis": 1,
         "[aa_fade]weapon_knife_canis": 1,
         "[hy_webs]weapon_knife_canis": 1,
         "[am_zebra]weapon_knife_canis": 1,
@@ -602,6 +617,7 @@ export const rareSpecial = {
         "[aq_steel_knife]weapon_knife_ursus": 1,
     },
     set_community_20_unusual: {
+        "[vanilla]weapon_knife_gypsy_jackknife": 1,
         "[aa_fade]weapon_knife_gypsy_jackknife": 1,
         "[hy_webs]weapon_knife_gypsy_jackknife": 1,
         "[am_zebra]weapon_knife_gypsy_jackknife": 1,
@@ -615,6 +631,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_gypsy_jackknife": 1,
         "[sp_mesh_tan]weapon_knife_gypsy_jackknife": 1,
 
+        "[vanilla]weapon_knife_stiletto": 1,
         "[aa_fade]weapon_knife_stiletto": 1,
         "[hy_webs]weapon_knife_stiletto": 1,
         "[am_zebra]weapon_knife_stiletto": 1,
@@ -628,6 +645,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_stiletto": 1,
         "[sp_mesh_tan]weapon_knife_stiletto": 1,
 
+        "[vanilla]weapon_knife_widowmaker": 1,
         "[aa_fade]weapon_knife_widowmaker": 1,
         "[hy_webs]weapon_knife_widowmaker": 1,
         "[am_zebra]weapon_knife_widowmaker": 1,
@@ -641,6 +659,7 @@ export const rareSpecial = {
         "[sp_dapple]weapon_knife_widowmaker": 1,
         "[sp_mesh_tan]weapon_knife_widowmaker": 1,
 
+        "[vanilla]weapon_knife_ursus": 1,
         "[aa_fade]weapon_knife_ursus": 1,
         "[hy_webs]weapon_knife_ursus": 1,
         "[am_zebra]weapon_knife_ursus": 1,
