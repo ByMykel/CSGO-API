@@ -71,6 +71,7 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
+    const { rarities } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     // const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
@@ -86,6 +87,19 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         weapon.includes("bayonet") ||
         allStatTrak[pattern] !== undefined;
 
+    const isKnife =
+        weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
+
+    const rarity = !isNotWeapon(weapon)
+        ? $translate(
+              `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
+          )
+        : isKnife
+        ? // Knives are 'Covert'
+          $translate(`rarity_ancient_weapon`)
+        : // Gloves are 'Extraordinary'
+          $translate(`rarity_ancient`);
+
     return {
         id: `skin-${item.object_id}`,
         name: `${translatedName} | ${$translate(
@@ -96,13 +110,7 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         pattern: $translate(paintKits[pattern].description_tag),
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
-        rarity:
-            (!isNotWeapon(weapon)
-                ? $translate(`rarity_${paintKitsRarity[pattern]}_weapon`)
-                : weapon.includes("weapon_knife") ||
-                  weapon.includes("weapon_bayonet")
-                ? $translate(`rarity_ancient_weapon`)
-                : $translate(`rarity_ancient`)) ?? "Contraband",
+        rarity,
         stattrak: isStatTrak,
         paint_index: paintKits[pattern].paint_index,
         image,
@@ -135,14 +143,16 @@ export const getSkins = () => {
             id: `skin-vanilla-${knife.name}`,
             name: $translate(knife.item_name),
             description: $translate(knife.item_description),
-            weapon: $translate(`sfui_wpnhud_${knife.name.replace('weapon_', '')}`),
+            weapon: $translate(
+                `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
+            ),
             pattern: null,
             min_float: null,
             max_float: null,
             rarity: $translate(`rarity_ancient_weapon`),
             stattrak: true,
             paint_index: null,
-            image: cdn[`econ/weapons/base_weapons/${knife.name}`]
+            image: cdn[`econ/weapons/base_weapons/${knife.name}`],
         });
     });
 
