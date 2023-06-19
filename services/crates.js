@@ -4,7 +4,7 @@ import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
-import { isNotWeapon } from "../utils/weapon.js";
+import { isNotWeapon, knives } from "../utils/weapon.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCrate = (item) => {
@@ -190,23 +190,39 @@ const getItemFromKey = (key, parentKey) => {
             };
         // The rest are skins
         default:
-            const id = Object.entries(
-                itemsGame.alternate_icons2.weapon_icons
-            ).find(([, value]) => value.icon_path.includes(name) && value.icon_path.includes(type));
+            let id = "";
+            let itemName = "";
             const translatedName =
                 $translate(items[type].item_name) ??
                 $translate(items[type].item_name_prefab);
-
             const itemRarity = parentKey.split("_").pop();
+            
+            // Not the best way to add vanilla knives.
+            if (name === "vanilla") {
+                id = `skin-vanilla-${type}`;
+                itemName = $translate(knives.find((k) => k.name == type).item_name);
+            } else {
+                const weaponIcons = Object.entries(
+                    itemsGame.alternate_icons2.weapon_icons
+                ).find(
+                    ([, value]) =>
+                        value.icon_path.includes(name) &&
+                        value.icon_path.includes(type)
+                );
+
+                id = `skin-${weaponIcons[0]}`;
+                itemName = `${translatedName} | ${$translate(
+                    paintKits[name.toLowerCase()].description_tag
+                )}`;
+            }
 
             return {
-                id: `skin-${id[0]}`,
-                name: `${translatedName} | ${$translate(
-                    paintKits[name.toLowerCase()].description_tag
-                )}`,
+                id,
+                name: itemName,
                 rarity: !isNotWeapon(type)
                     ? $translate(`rarity_${itemRarity}_weapon`)
-                    : type.includes("weapon_knife") || type.includes("weapon_bayonet")
+                    : type.includes("weapon_knife") ||
+                      type.includes("weapon_bayonet")
                     ? $translate(`rarity_ancient_weapon`)
                     : $translate(`rarity_ancient`),
             };

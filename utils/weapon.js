@@ -62,6 +62,104 @@ export const weaponsNames = [
     "studded_hydra_gloves",
 ];
 
+export const knives = [
+    {
+        name: "weapon_bayonet",
+        item_name: "sfui_wpnhud_knifebayonet",
+        item_description: "csgo_item_desc_knife_bayonet",
+    },
+    {
+        name: "weapon_knife_css",
+        item_name: "sfui_wpnhud_knifecss",
+        item_description: "csgo_item_desc_knife_css",
+    },
+    {
+        name: "weapon_knife_flip",
+        item_name: "sfui_wpnhud_knifeflip",
+        item_description: "csgo_item_desc_knife_flip",
+    },
+    {
+        name: "weapon_knife_gut",
+        item_name: "sfui_wpnhud_knifegut",
+        item_description: "csgo_item_desc_knife_gut",
+    },
+    {
+        name: "weapon_knife_karambit",
+        item_name: "sfui_wpnhud_knifekaram",
+        item_description: "csgo_item_desc_knife_karam",
+    },
+    {
+        name: "weapon_knife_m9_bayonet",
+        item_name: "sfui_wpnhud_knifem9",
+        item_description: "csgo_item_desc_knifem9",
+    },
+    {
+        name: "weapon_knife_tactical",
+        item_name: "sfui_wpnhud_knifetactical",
+        item_description: "csgo_item_desc_knifetactical",
+    },
+    {
+        name: "weapon_knife_falchion",
+        item_name: "sfui_wpnhud_knife_falchion_advanced",
+        item_description: "csgo_item_desc_knife_falchion_advanced",
+    },
+    {
+        name: "weapon_knife_survival_bowie",
+        item_name: "sfui_wpnhud_knife_survival_bowie",
+        item_description: "csgo_item_desc_knife_survival_bowie",
+    },
+    {
+        name: "weapon_knife_butterfly",
+        item_name: "sfui_wpnhud_knife_butterfly",
+        item_description: "csgo_item_desc_knife_butterfly",
+    },
+    {
+        name: "weapon_knife_push",
+        item_name: "sfui_wpnhud_knife_push",
+        item_description: "csgo_item_desc_knife_push",
+    },
+    {
+        name: "weapon_knife_cord",
+        item_name: "sfui_wpnhud_knife_cord",
+        item_description: "csgo_item_desc_knife_cord",
+    },
+    {
+        name: "weapon_knife_canis",
+        item_name: "sfui_wpnhud_knife_canis",
+        item_description: "csgo_item_desc_knife_canis",
+    },
+    {
+        name: "weapon_knife_ursus",
+        item_name: "sfui_wpnhud_knife_ursus",
+        item_description: "csgo_item_desc_knife_ursus",
+    },
+    {
+        name: "weapon_knife_gypsy_jackknife",
+        item_name: "sfui_wpnhud_knife_gypsy_jackknife",
+        item_description: "csgo_item_desc_knife_gypsy_jackknife",
+    },
+    {
+        name: "weapon_knife_outdoor",
+        item_name: "sfui_wpnhud_knife_outdoor",
+        item_description: "csgo_item_desc_knife_outdoor",
+    },
+    {
+        name: "weapon_knife_stiletto",
+        item_name: "sfui_wpnhud_knife_stiletto",
+        item_description: "csgo_item_desc_knife_stiletto",
+    },
+    {
+        name: "weapon_knife_widowmaker",
+        item_name: "sfui_wpnhud_knife_widowmaker",
+        item_description: "csgo_item_desc_knife_widowmaker",
+    },
+    {
+        name: "weapon_knife_skeleton",
+        item_name: "sfui_wpnhud_knife_skeleton",
+        item_description: "csgo_item_desc_knife_skeleton",
+    },
+];
+
 export const getWeaponName = (string) => {
     for (const weapon of weaponsNames) {
         if (string.includes(weapon)) {
