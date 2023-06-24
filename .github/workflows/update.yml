@@ -20,5 +20,5 @@ jobs:
           git config user.name ByMykel
           git config user.email bymykel5@gmail.com
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update JSON API with latest info " -m "$(git diff --numstat | wc -l) files changed"
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update JSON API | $(git diff --name-only | wc -l) files" -m "$(git show --pretty="" --name-only)"
           git push origin main
