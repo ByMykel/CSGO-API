@@ -177,3 +177,77 @@ export const isNotWeapon = (string) => {
         string.includes("weapon_bayonet")
     );
 };
+
+export const getCategory = (weapon) => {
+    switch (weapon) {
+        case "weapon_deagle":
+        case "weapon_elite":
+        case "weapon_fiveseven":
+        case "weapon_glock":
+        case "weapon_tec9":
+        case "weapon_hkp2000":
+        case "weapon_p250":
+        case "weapon_usp_silencer":
+        case "weapon_cz75a":
+        case "weapon_revolver":
+            return "csgo_inventory_weapon_category_pistols";
+        case "weapon_ak47":
+        case "weapon_aug":
+        case "weapon_awp":
+        case "weapon_famas":
+        case "weapon_g3sg1":
+        case "weapon_galilar":
+        case "weapon_scar20":
+        case "weapon_sg556":
+        case "weapon_ssg08":
+        case "weapon_m4a1_silencer":
+        case "weapon_m4a1":
+            return "csgo_inventory_weapon_category_rifles";
+        case "weapon_m249":
+        case "weapon_xm1014":
+        case "weapon_mag7":
+        case "weapon_negev":
+        case "weapon_sawedoff":
+        case "weapon_nova":
+            return "csgo_inventory_weapon_category_heavy";
+        case "weapon_mac10":
+        case "weapon_p90":
+        case "weapon_mp5sd":
+        case "weapon_ump45":
+        case "weapon_bizon":
+        case "weapon_mp7":
+        case "weapon_mp9":
+            return "csgo_inventory_weapon_category_smgs";
+        case "weapon_bayonet":
+        case "weapon_knife_css":
+        case "weapon_knife_flip":
+        case "weapon_knife_gut":
+        case "weapon_knife_karambit":
+        case "weapon_knife_m9_bayonet":
+        case "weapon_knife_tactical":
+        case "weapon_knife_falchion":
+        case "weapon_knife_survival_bowie":
+        case "weapon_knife_butterfly":
+        case "weapon_knife_push":
+        case "weapon_knife_cord":
+        case "weapon_knife_canis":
+        case "weapon_knife_ursus":
+        case "weapon_knife_gypsy_jackknife":
+        case "weapon_knife_outdoor":
+        case "weapon_knife_stiletto":
+        case "weapon_knife_widowmaker":
+        case "weapon_knife_skeleton":
+            return "sfui_invpanel_filter_melee";
+        case "studded_bloodhound_gloves":
+        case "studded_brokenfang_gloves":
+        case "sporty_gloves":
+        case "slick_gloves":
+        case "leather_handwraps":
+        case "motorcycle_gloves":
+        case "specialist_gloves":
+        case "studded_hydra_gloves":
+            return "sfui_invpanel_filter_gloves";
+    }
+
+    return null;
+};
