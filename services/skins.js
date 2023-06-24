@@ -1,5 +1,5 @@
 import { IMAGES_BASE_URL } from "../constants.js";
-import { getWeaponName, isNotWeapon, knives } from "../utils/weapon.js";
+import { getWeaponName, isNotWeapon, knives, getCategory } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
@@ -107,6 +107,7 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         )}`,
         description: translatedDescription,
         weapon: translatedName,
+        category: $translate(getCategory(weapon)),
         pattern: $translate(paintKits[pattern].description_tag),
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
@@ -146,6 +147,7 @@ export const getSkins = () => {
             weapon: $translate(
                 `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
             ),
+            category: $translate("sfui_invpanel_filter_melee"),
             pattern: null,
             min_float: null,
             max_float: null,
