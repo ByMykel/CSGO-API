@@ -16,7 +16,7 @@ const parseItem = (item) => {
             ? $translate(item.loc_name)
             : $translate(item.coupon_name),
         description: $translate(item.loc_description),
-        rarity: "High Grade",
+        rarity: $translate('rarity_rare'),
         exclusive,
         image,
     };
