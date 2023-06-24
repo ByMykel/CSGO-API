@@ -84,7 +84,7 @@ const parseItem = (item) => {
     return {
         id: `collectible-${item.object_id}`,
         name:
-            (isAttendance ? "Genuine " : "") + $translate(item.item_name) ??
+            (isAttendance ? `${$translate('genuine')} ` : "") + $translate(item.item_name) ??
             $translate(item_name_prefab),
         description:
             $translate(item.item_description) ??
