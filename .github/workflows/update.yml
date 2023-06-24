@@ -20,5 +20,11 @@ jobs:
           git config user.name ByMykel
           git config user.email bymykel5@gmail.com
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update JSON API with latest info"
-          git push origin main
+          files_changed=$(git diff --name-only | wc -l)
+          if [ "$files_changed" -gt 0 ]; then
+            git commit -m "[bot] Update JSON API with latest info ($files_changed files changed)"
+            git push origin main
+          else
+            echo "No changes detected. Skipping commit and push."
+          fi
+
