@@ -1,5 +1,11 @@
 import { IMAGES_BASE_URL } from "../constants.js";
-import { getWeaponName, isNotWeapon, knives, getCategory } from "../utils/weapon.js";
+import {
+    getWeaponName,
+    isNotWeapon,
+    knives,
+    getCategory,
+    getWears,
+} from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $translate, languageData } from "./translations.js";
 import { state } from "./main.js";
@@ -114,6 +120,10 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         rarity,
         stattrak: isStatTrak,
         paint_index: paintKits[pattern].paint_index,
+        wears: getWears(
+            paintKits[pattern].wear_remap_min,
+            paintKits[pattern].wear_remap_max
+        ).map($translate),
         image,
     };
 };
