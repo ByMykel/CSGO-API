@@ -251,3 +251,19 @@ export const getCategory = (weapon) => {
 
     return null;
 };
+
+export const getWears = (minFloat, maxFloat) => {
+    const wears = [
+        { wear: "SFUI_InvTooltip_Wear_Amount_0", min: 0.0, max: 0.07 },
+        { wear: "SFUI_InvTooltip_Wear_Amount_1", min: 0.07, max: 0.15 },
+        { wear: "SFUI_InvTooltip_Wear_Amount_2", min: 0.15, max: 0.38 },
+        { wear: "SFUI_InvTooltip_Wear_Amount_3", min: 0.38, max: 0.45 },
+        { wear: "SFUI_InvTooltip_Wear_Amount_4", min: 0.45, max: 1.0 },
+    ];
+
+    return wears
+        .filter((range) => {
+            return range.min <= maxFloat && range.max >= minFloat;
+        })
+        .map((range) => range.wear);
+};
