@@ -16,10 +16,10 @@ export const $t = (key) => {
 };
 
 export const $tc = (key, data = {}) => {
-    const all = customTranslations?.[languageData.language];
+    const all = customTranslations?.[languageData.folder];
 
     if (!all) {
-        throw new Error(`translations for '${languageData.language}' not found`);
+        throw new Error(`translations for '${languageData.folder}' not found`);
     }
 
     const specific = all[key]
@@ -28,7 +28,7 @@ export const $tc = (key, data = {}) => {
         throw new Error(`key '${key}' does not exist in '${languageData.language}' translations`);
     }
 
-    let replaced = selected.replace(/\{.*?\}/g, function (match) {
+    let replaced = specific.replace(/\{.*?\}/g, function (match) {
         const key = match.replace("{", "").replace("}", "")
 
         if (!(key in data)) {
