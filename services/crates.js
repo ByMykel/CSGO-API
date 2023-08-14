@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
@@ -160,24 +160,24 @@ const getItemFromKey = (key, parentKey) => {
             const sticker = stickerKits.find((item) => item.name === name);
             return {
                 id: `sticker-${sticker.object_id}`,
-                name: $translate(sticker.item_name),
-                rarity: $translate(`rarity_${sticker.item_rarity}`),
+                name: $t(sticker.item_name),
+                rarity: $t(`rarity_${sticker.item_rarity}`),
             };
         case "patch":
             const patch = stickerKits.find((item) => item.name === name);
             return {
                 id: `patch-${patch.object_id}`,
-                name: $translate(patch.item_name),
-                rarity: $translate(`rarity_${patch.item_rarity}`),
+                name: $t(patch.item_name),
+                rarity: $t(`rarity_${patch.item_rarity}`),
             };
         case "musickit":
             const kit = musicDefinitions.find((item) => item.name === name);
-            const exclusive = $translate(kit.coupon_name) === null;
+            const exclusive = $t(kit.coupon_name) === null;
             return {
                 id: `music_kit-${kit.object_id}`,
                 name: exclusive
-                    ? $translate(kit.loc_name)
-                    : $translate(kit.coupon_name),
+                    ? $t(kit.loc_name)
+                    : $t(kit.coupon_name),
                 // TODO: rarity should be translated
                 rarity: "High Grade",
             };
@@ -185,22 +185,22 @@ const getItemFromKey = (key, parentKey) => {
             const spray = stickerKits.find((item) => item.name === name);
             return {
                 id: `graffiti-${spray.object_id}`,
-                name: $translate(spray.item_name),
-                rarity: $translate(`rarity_${spray.item_rarity}`),
+                name: $t(spray.item_name),
+                rarity: $t(`rarity_${spray.item_rarity}`),
             };
         // The rest are skins
         default:
             let id = "";
             let itemName = "";
             const translatedName =
-                $translate(items[type].item_name) ??
-                $translate(items[type].item_name_prefab);
+                $t(items[type].item_name) ??
+                $t(items[type].item_name_prefab);
             const itemRarity = parentKey.split("_").pop();
             
             // Not the best way to add vanilla knives.
             if (name === "vanilla") {
                 id = `skin-vanilla-${type}`;
-                itemName = $translate(knives.find((k) => k.name == type).item_name);
+                itemName = $t(knives.find((k) => k.name == type).item_name);
             } else {
                 const weaponIcons = Object.entries(
                     itemsGame.alternate_icons2.weapon_icons
@@ -211,7 +211,7 @@ const getItemFromKey = (key, parentKey) => {
                 );
 
                 id = `skin-${weaponIcons[0]}`;
-                itemName = `${translatedName} | ${$translate(
+                itemName = `${translatedName} | ${$t(
                     paintKits[name.toLowerCase()].description_tag
                 )}`;
             }
@@ -220,11 +220,11 @@ const getItemFromKey = (key, parentKey) => {
                 id,
                 name: itemName,
                 rarity: !isNotWeapon(type)
-                    ? $translate(`rarity_${itemRarity}_weapon`)
+                    ? $t(`rarity_${itemRarity}_weapon`)
                     : type.includes("weapon_knife") ||
                       type.includes("weapon_bayonet")
-                    ? $translate(`rarity_ancient_weapon`)
-                    : $translate(`rarity_ancient`),
+                    ? $t(`rarity_ancient_weapon`)
+                    : $t(`rarity_ancient`),
             };
     }
 };
@@ -258,8 +258,8 @@ const getContainedItems = (itemName) => {
 
             return {
                 id: `collection-${pin.object_id}`,
-                name: $translate(pin.item_name),
-                rarity: $translate(`rarity_${pin.item_rarity}`),
+                name: $t(pin.item_name),
+                rarity: $t(`rarity_${pin.item_rarity}`),
             };
         });
     }
@@ -329,10 +329,10 @@ const parseItem = (item, itemsById, prefabs) => {
     return {
         id: `crate-${item.object_id}`,
         // collection_id: item.tags?.ItemSet?.tag_value ?? null,
-        name: $translate(item.item_name) ?? $translate(item_name_prefab),
+        name: $t(item.item_name) ?? $t(item_name_prefab),
         description:
-            $translate(item.item_description) ??
-            $translate(item.item_description_prefab),
+            $t(item.item_description) ??
+            $t(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
         contains: getContainedItems(keyLootList),
