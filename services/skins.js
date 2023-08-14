@@ -6,7 +6,7 @@ import {
     getWears,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $t, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
@@ -75,8 +75,8 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const parseItem = (item, items, allStatTrak, paintKits) => {
-    const { rarities } = state;
+const parseItem = (item, items, allStatTrak) => {
+    const { rarities, paintKits } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
@@ -103,7 +103,12 @@ const parseItem = (item, items, allStatTrak, paintKits) => {
 
     return {
         id: `skin-${item.object_id}`,
-        name: `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
+        name: isNotWeapon(weapon)
+            ? $tc("rare_special", {
+                  item_name: translatedName,
+                  pattern: $t(paintKits[pattern].description_tag),
+              })
+            : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
         description: translatedDescription,
         weapon: translatedName,
         category: $t(getCategory(weapon)),
@@ -122,7 +127,7 @@ const parseItem = (item, items, allStatTrak, paintKits) => {
 };
 
 export const getSkins = () => {
-    const { itemsGame, items, paintKits, itemSets } = state;
+    const { itemsGame, items, itemSets } = state;
     const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
@@ -130,16 +135,13 @@ export const getSkins = () => {
         ...Object.entries(itemsGame.alternate_icons2.weapon_icons)
             .filter(([, item]) => isSkin(item.icon_path))
             .map(([key, item]) =>
-                parseItem(
-                    { ...item, object_id: key },
-                    items,
-                    allStatTrak,
-                    paintKits
-                )
+                parseItem({ ...item, object_id: key }, items, allStatTrak)
             ),
         ...knives.map((knife) => ({
             id: `skin-vanilla-${knife.name}`,
-            name: $t(knife.item_name),
+            name: $tc("rare_special_vanilla", {
+                item_name: $t(knife.item_name),
+            }),
             description: $t(knife.item_description),
             weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
             category: $t("sfui_invpanel_filter_melee"),
