@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
@@ -8,15 +8,15 @@ import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
 const parseItem = (item) => {
     // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
     const image = cdn[`${item.image_inventory.toLowerCase()}`];
-    const exclusive = $translate(item.coupon_name) === null;
+    const exclusive = $t(item.coupon_name) === null;
 
     return {
         id: `music_kit-${item.object_id}`,
         name: exclusive
-            ? $translate(item.loc_name)
-            : $translate(item.coupon_name),
-        description: $translate(item.loc_description),
-        rarity: $translate('rarity_rare'),
+            ? $t(item.loc_name)
+            : $t(item.coupon_name),
+        description: $t(item.loc_description),
+        rarity: $t('rarity_rare'),
         exclusive,
         image,
     };

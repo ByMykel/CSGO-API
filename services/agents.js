@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
@@ -14,9 +14,9 @@ const parseItem = (item) => {
 
     return {
         id: `agent-${item.object_id}`,
-        name: $translate(item.item_name),
-        description: $translate(item.item_description),
-        rarity: $translate(`rarity_${item.item_rarity}_character`),
+        name: $t(item.item_name),
+        description: $t(item.item_description),
+        rarity: $t(`rarity_${item.item_rarity}_character`),
         image,
     };
 };

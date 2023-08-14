@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
@@ -30,10 +30,10 @@ const parseItem = (item) => {
     return {
         id: `key-${item.object_id}`,
         // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
-        name: $translate(item.item_name) ?? $translate(item_name_prefab),
+        name: $t(item.item_name) ?? $t(item_name_prefab),
         description:
-            $translate(item.item_description) ??
-            $translate(item.item_description_prefab),
+            $t(item.item_description) ??
+            $t(item.item_description_prefab),
         image,
     };
 };

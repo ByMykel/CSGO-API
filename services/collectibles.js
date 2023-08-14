@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
@@ -84,12 +84,12 @@ const parseItem = (item) => {
     return {
         id: `collectible-${item.object_id}`,
         name:
-            (isAttendance ? `${$translate('genuine')} ` : "") + $translate(item.item_name) ??
-            $translate(item_name_prefab),
+            (isAttendance ? `${$t('genuine')} ` : "") + $t(item.item_name) ??
+            $t(item_name_prefab),
         description:
-            $translate(item.item_description) ??
-            $translate(item.item_description_prefab),
-        rarity: $translate(`rarity_${item.item_rarity}`),
+            $t(item.item_description) ??
+            $t(item.item_description_prefab),
+        rarity: $t(`rarity_${item.item_rarity}`),
         type: getType(item),
         image,
     };
