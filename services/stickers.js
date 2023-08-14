@@ -30,10 +30,7 @@ const parseItem = (item) => {
 
     return {
         id: `sticker-${item.object_id}`,
-        name: $tc("sticker", {
-            sticker: $t("csgo_tool_sticker"),
-            item_name: $t(item.item_name),
-        }),
+        name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
         description: $t(item.description_string),
         rarity: $t(`rarity_${item.item_rarity}`),
         image,
