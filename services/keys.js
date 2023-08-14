@@ -1,9 +1,8 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isKey = (item) => {
     if (item.item_name === undefined) return false;
@@ -24,7 +23,6 @@ const isKey = (item) => {
 };
 
 const parseItem = (item) => {
-    // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
     const image = cdn[item.image_inventory.toLowerCase()];
 
     return {
@@ -32,20 +30,17 @@ const parseItem = (item) => {
         // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
         name: $t(item.item_name) ?? $t(item_name_prefab),
         description:
-            $t(item.item_description) ??
-            $t(item.item_description_prefab),
+            $t(item.item_description) ?? $t(item.item_description_prefab),
         image,
     };
 };
 
 export const getKeys = () => {
     const { items } = state;
-    const keys = [];
+    const { language, folder } = languageData;
 
-    Object.values(items).forEach((item) => {
-        if (isKey(item)) keys.push(parseItem(item));
-    });
+    const keys = Object.values(items).filter(isKey).map(parseItem);
 
-    saveDataMemory(languageData.language, keys);
-    saveDataJson(`./public/api/${languageData.folder}/keys.json`, keys);
+    saveDataMemory(language, keys);
+    saveDataJson(`./public/api/${folder}/keys.json`, keys);
 };
