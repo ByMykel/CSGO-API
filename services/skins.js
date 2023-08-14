@@ -1,4 +1,3 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import {
     getWeaponName,
     isNotWeapon,
@@ -76,14 +75,12 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
+const parseItem = (item, items, allStatTrak, paintKits) => {
     const { rarities } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    // const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
-        $t(items[weapon].item_name) ??
-        $t(items[weapon].item_name_prefab);
+        $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
     const translatedDescription =
         $t(items[weapon].item_description) ??
         $t(items[weapon].item_description_prefab);
@@ -97,9 +94,7 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
 
     const rarity = !isNotWeapon(weapon)
-        ? $t(
-              `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
-          )
+        ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
         : isKnife
         ? // Knives are 'Covert'
           $t(`rarity_ancient_weapon`)
@@ -108,9 +103,7 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
 
     return {
         id: `skin-${item.object_id}`,
-        name: `${translatedName} | ${$t(
-            paintKits[pattern].description_tag
-        )}`,
+        name: `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
         description: translatedDescription,
         weapon: translatedName,
         category: $t(getCategory(weapon)),
@@ -129,34 +122,26 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
 };
 
 export const getSkins = () => {
-    const { itemsGame, items, paintKits, itemSets, paintKitsRarity } = state;
+    const { itemsGame, items, paintKits, itemSets } = state;
+    const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
-    const skins = [];
-
-    Object.entries(itemsGame.alternate_icons2.weapon_icons).forEach(
-        ([key, item]) => {
-            if (isSkin(item.icon_path))
-                skins.push(
-                    parseItem(
-                        { ...item, object_id: key },
-                        items,
-                        allStatTrak,
-                        paintKits,
-                        paintKitsRarity
-                    )
-                );
-        }
-    );
-
-    knives.forEach((knife) => {
-        skins.push({
+    const skins = [
+        ...Object.entries(itemsGame.alternate_icons2.weapon_icons)
+            .filter(([, item]) => isSkin(item.icon_path))
+            .map(([key, item]) =>
+                parseItem(
+                    { ...item, object_id: key },
+                    items,
+                    allStatTrak,
+                    paintKits
+                )
+            ),
+        ...knives.map((knife) => ({
             id: `skin-vanilla-${knife.name}`,
             name: $t(knife.item_name),
             description: $t(knife.item_description),
-            weapon: $t(
-                `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
-            ),
+            weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
             category: $t("sfui_invpanel_filter_melee"),
             pattern: null,
             min_float: null,
@@ -165,9 +150,9 @@ export const getSkins = () => {
             stattrak: true,
             paint_index: null,
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
-        });
-    });
+        })),
+    ];
 
-    saveDataMemory(languageData.language, skins);
-    saveDataJson(`./public/api/${languageData.folder}/skins.json`, skins);
+    saveDataMemory(language, skins);
+    saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };
