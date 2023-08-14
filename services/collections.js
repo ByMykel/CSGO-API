@@ -40,7 +40,6 @@ const isSelfOpeningCollection = (item) => {
 
 const parseItem = (item) => {
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-    // const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
     const image = cdn[`econ/set_icons/${fileName}`];
 
     return {
@@ -62,18 +61,15 @@ const parseItemSelfOpening = (item) => {
 
 export const getCollections = () => {
     const { items, itemSets } = state;
+    const { language, folder } = languageData;
 
-    const collections = [];
+    const collections = [
+        ...Object.values(itemSets).filter(isCollection).map(parseItem),
+        ...Object.values(items)
+            .filter(isSelfOpeningCollection)
+            .map(parseItemSelfOpening),
+    ];
 
-    Object.values(itemSets).forEach((item) => {
-        if (isCollection(item)) collections.push(parseItem(item));
-    });
-
-    Object.values(items).forEach((item) => {
-        if (isSelfOpeningCollection(item))
-            collections.push(parseItemSelfOpening(item));
-    });
-
-    saveDataMemory(languageData.language, collections);
-    saveDataJson(`./public/api/${languageData.folder}/collections.json`, collections);
+    saveDataMemory(language, collections);
+    saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };

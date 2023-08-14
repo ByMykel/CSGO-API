@@ -1,4 +1,3 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
@@ -141,14 +140,8 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
 };
 
 const getItemFromKey = (key, parentKey) => {
-    const {
-        stickerKits,
-        musicDefinitions,
-        items,
-        paintKits,
-        itemsGame,
-        paintKitsRarity,
-    } = state;
+    const { stickerKits, musicDefinitions, items, paintKits, itemsGame } =
+        state;
 
     const regex = /\[(?<name>.+?)\](?<type>.+)/;
     const match = key.match(regex);
@@ -175,11 +168,8 @@ const getItemFromKey = (key, parentKey) => {
             const exclusive = $t(kit.coupon_name) === null;
             return {
                 id: `music_kit-${kit.object_id}`,
-                name: exclusive
-                    ? $t(kit.loc_name)
-                    : $t(kit.coupon_name),
-                // TODO: rarity should be translated
-                rarity: "High Grade",
+                name: exclusive ? $t(kit.loc_name) : $t(kit.coupon_name),
+                rarity: $t("rarity_rare"),
             };
         case "spray":
             const spray = stickerKits.find((item) => item.name === name);
@@ -193,10 +183,9 @@ const getItemFromKey = (key, parentKey) => {
             let id = "";
             let itemName = "";
             const translatedName =
-                $t(items[type].item_name) ??
-                $t(items[type].item_name_prefab);
+                $t(items[type].item_name) ?? $t(items[type].item_name_prefab);
             const itemRarity = parentKey.split("_").pop();
-            
+
             // Not the best way to add vanilla knives.
             if (name === "vanilla") {
                 id = `skin-vanilla-${type}`;
@@ -316,7 +305,6 @@ const getContainedRareItems = (itemName) => {
 };
 
 const parseItem = (item, itemsById, prefabs) => {
-    // const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
     const image = cdn[item.image_inventory.toLowerCase()];
 
     const { revolvingLootLists } = state;
@@ -331,8 +319,7 @@ const parseItem = (item, itemsById, prefabs) => {
         // collection_id: item.tags?.ItemSet?.tag_value ?? null,
         name: $t(item.item_name) ?? $t(item_name_prefab),
         description:
-            $t(item.item_description) ??
-            $t(item.item_description_prefab),
+            $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
         contains: getContainedItems(keyLootList),
@@ -343,23 +330,21 @@ const parseItem = (item, itemsById, prefabs) => {
 
 export const getCrates = () => {
     const { items, itemsById, prefabs } = state;
-    const crates = [];
+    const { language, folder } = languageData;
 
-    Object.values(items).forEach((item) => {
-        if (isCrate(item)) crates.push(parseItem(item, itemsById, prefabs));
-    });
+    const crates = Object.values(items)
+        .filter(isCrate)
+        .map((item) => parseItem(item, itemsById, prefabs));
 
-    saveDataMemory(languageData.language, crates);
-    saveDataJson(`./public/api/${languageData.folder}/crates.json`, crates);
+    saveDataMemory(language, crates);
+    saveDataJson(`./public/api/${folder}/crates.json`, crates);
 
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
-        saveDataMemory(languageData.language, values);
+        saveDataMemory(language, values);
         saveDataJson(
-            `./public/api/${languageData.folder}/crates/${getFileNameByType(
-                type
-            )}`,
+            `./public/api/${folder}/crates/${getFileNameByType(type)}`,
             values
         );
     });
