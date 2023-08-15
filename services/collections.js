@@ -1,6 +1,6 @@
 import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
@@ -40,12 +40,11 @@ const isSelfOpeningCollection = (item) => {
 
 const parseItem = (item) => {
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-    // const image = `${IMAGES_BASE_URL}econ/set_icons/${fileName}`;
     const image = cdn[`econ/set_icons/${fileName}`];
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
-        name: $translate(item.name),
+        name: $t(item.name),
         image,
     };
 };
@@ -55,25 +54,22 @@ const parseItemSelfOpening = (item) => {
 
     return {
         id: `collection-${item.object_id}`,
-        name: $translate(item.item_name),
+        name: $t(item.item_name),
         image,
     };
 };
 
 export const getCollections = () => {
     const { items, itemSets } = state;
+    const { language, folder } = languageData;
 
-    const collections = [];
+    const collections = [
+        ...Object.values(itemSets).filter(isCollection).map(parseItem),
+        ...Object.values(items)
+            .filter(isSelfOpeningCollection)
+            .map(parseItemSelfOpening),
+    ];
 
-    Object.values(itemSets).forEach((item) => {
-        if (isCollection(item)) collections.push(parseItem(item));
-    });
-
-    Object.values(items).forEach((item) => {
-        if (isSelfOpeningCollection(item))
-            collections.push(parseItemSelfOpening(item));
-    });
-
-    saveDataMemory(languageData.language, collections);
-    saveDataJson(`./public/api/${languageData.folder}/collections.json`, collections);
+    saveDataMemory(language, collections);
+    saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };

@@ -1,9 +1,8 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -26,26 +25,24 @@ const isSticker = (item) => {
 };
 
 const parseItem = (item) => {
-    // const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material.toLowerCase()}_large.png`;
-    const image = cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
+    const image =
+        cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
     return {
         id: `sticker-${item.object_id}`,
-        name: `Sticker | ${$translate(item.item_name)}`,
-        description: $translate(item.description_string),
-        rarity: $translate(`rarity_${item.item_rarity}`),
+        name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
+        description: $t(item.description_string),
+        rarity: $t(`rarity_${item.item_rarity}`),
         image,
     };
 };
 
 export const getStickers = () => {
     const { stickerKits } = state;
-    const stickers = [];
+    const { language, folder } = languageData;
 
-    stickerKits.forEach((item) => {
-        if (isSticker(item)) stickers.push(parseItem(item));
-    });
+    const stickers = stickerKits.filter(isSticker).map(parseItem);
 
-    saveDataMemory(languageData.language, stickers);
-    saveDataJson(`./public/api/${languageData.folder}/stickers.json`, stickers);
+    saveDataMemory(language, stickers);
+    saveDataJson(`./public/api/${folder}/stickers.json`, stickers);
 };
