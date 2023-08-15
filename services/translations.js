@@ -1,12 +1,45 @@
 import * as VDF from "vdf-parser";
 import axios from "axios";
 import { CSGO_ENGLISH_URL } from "../constants.js";
+import customTranslations from "../utils/translations.json" assert { type: "json" };
 
 export let languageData = null;
 const translations = {
     default: null,
     selected: null,
 };
+
+export const $t = (key) => {
+    key = key?.replace("#", "").toLowerCase();
+
+    return translations.selected[key] || translations.default[key] || null;
+};
+
+export const $tc = (key, data = {}) => {
+    const all = customTranslations?.[languageData.folder];
+
+    if (!all) {
+        throw new Error(`translations for '${languageData.folder}' not found`);
+    }
+
+    const specific = all[key]
+
+    if (!specific) {
+        throw new Error(`key '${key}' does not exist in '${languageData.language}' translations`);
+    }
+
+    let replaced = specific.replace(/\{.*?\}/g, function (match) {
+        const key = match.replace("{", "").replace("}", "")
+
+        if (!(key in data)) {
+            throw new Error(`$tc data key {${key}} not provided`);
+        }
+
+        return data[key];
+    });
+
+    return replaced;
+}
 
 const getTranslations = async (url) => {
     const { data } = await axios.get(url);
@@ -21,12 +54,6 @@ const getTranslations = async (url) => {
     );
 
     return lowerCaseKeys;
-};
-
-export const $translate = (key) => {
-    key = key?.replace("#", "").toLowerCase();
-
-    return translations.selected[key] || translations.default[key] || null;
 };
 
 export const loadTranslations = async ({ language, url, folder }) => {
