@@ -1,4 +1,3 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import {
     getWeaponName,
     isNotWeapon,
@@ -8,7 +7,7 @@ import {
     getDopplerPhase,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
@@ -77,17 +76,15 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
-    const { rarities } = state;
+const parseItem = (item, items, allStatTrak) => {
+    const { rarities, paintKits } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    // const image = `${IMAGES_BASE_URL}${item.icon_path.toLowerCase()}_large.png`;
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
-        $translate(items[weapon].item_name) ??
-        $translate(items[weapon].item_name_prefab);
+        $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
     const translatedDescription =
-        $translate(items[weapon].item_description) ??
-        $translate(items[weapon].item_description_prefab);
+        $t(items[weapon].item_description) ??
+        $t(items[weapon].item_description_prefab);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -100,24 +97,25 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
     const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
 
     const rarity = !isNotWeapon(weapon)
-        ? $translate(
-              `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
-          )
+        ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
         : isKnife
         ? // Knives are 'Covert'
-          $translate(`rarity_ancient_weapon`)
+          $t(`rarity_ancient_weapon`)
         : // Gloves are 'Extraordinary'
-          $translate(`rarity_ancient`);
+          $t(`rarity_ancient`);
 
     return {
         id: `skin-${item.object_id}`,
-        name: `${translatedName} | ${$translate(
-            paintKits[pattern].description_tag
-        )}`,
+        name: isNotWeapon(weapon)
+            ? $tc("rare_special", {
+                  item_name: translatedName,
+                  pattern: $t(paintKits[pattern].description_tag),
+              })
+            : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
         description: translatedDescription,
         weapon: translatedName,
-        category: $translate(getCategory(weapon)),
-        pattern: $translate(paintKits[pattern].description_tag),
+        category: $t(getCategory(weapon)),
+        pattern: $t(paintKits[pattern].description_tag),
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
         rarity,
@@ -126,52 +124,41 @@ const parseItem = (item, items, allStatTrak, paintKits, paintKitsRarity) => {
         wears: getWears(
             paintKits[pattern].wear_remap_min,
             paintKits[pattern].wear_remap_max
-        ).map($translate),
+        ).map($t),
         ...(dopplerPhase && { phase: dopplerPhase }),
         image,
     };
 };
 
 export const getSkins = () => {
-    const { itemsGame, items, paintKits, itemSets, paintKitsRarity } = state;
+    const { itemsGame, items, itemSets } = state;
+    const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
-    const skins = [];
-
-    Object.entries(itemsGame.alternate_icons2.weapon_icons).forEach(
-        ([key, item]) => {
-            if (isSkin(item.icon_path))
-                skins.push(
-                    parseItem(
-                        { ...item, object_id: key },
-                        items,
-                        allStatTrak,
-                        paintKits,
-                        paintKitsRarity
-                    )
-                );
-        }
-    );
-
-    knives.forEach((knife) => {
-        skins.push({
-            id: `skin-vanilla-${knife.name}`,
-            name: $translate(knife.item_name),
-            description: $translate(knife.item_description),
-            weapon: $translate(
-                `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
+    const skins = [
+        ...Object.entries(itemsGame.alternate_icons2.weapon_icons)
+            .filter(([, item]) => isSkin(item.icon_path))
+            .map(([key, item]) =>
+                parseItem({ ...item, object_id: key }, items, allStatTrak)
             ),
-            category: $translate("sfui_invpanel_filter_melee"),
+        ...knives.map((knife) => ({
+            id: `skin-vanilla-${knife.name}`,
+            name: $tc("rare_special_vanilla", {
+                item_name: $t(knife.item_name),
+            }),
+            description: $t(knife.item_description),
+            weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
+            category: $t("sfui_invpanel_filter_melee"),
             pattern: null,
             min_float: null,
             max_float: null,
-            rarity: $translate(`rarity_ancient_weapon`),
+            rarity: $t(`rarity_ancient_weapon`),
             stattrak: true,
             paint_index: null,
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
-        });
-    });
+        })),
+    ];
 
-    saveDataMemory(languageData.language, skins);
-    saveDataJson(`./public/api/${languageData.folder}/skins.json`, skins);
+    saveDataMemory(language, skins);
+    saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };

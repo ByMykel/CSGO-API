@@ -1,9 +1,8 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isGraffiti = (item) => {
     if (item.item_name.startsWith("#SprayKit_")) {
@@ -22,27 +21,25 @@ const isGraffiti = (item) => {
 };
 
 const parseItemSealedGraffiti = (item) => {
-    // const image = `${IMAGES_BASE_URL}econ/stickers/${item.sticker_material}_large.png`;
     const image = cdn[`econ/stickers/${item.sticker_material}_large`];
 
     return {
         id: `graffiti-${item.object_id}`,
-        name: $translate(item.item_name),
-        description: $translate(item.description_string),
-        rarity: $translate(`rarity_${item.item_rarity}`),
+        name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
+        description: $t(item.description_string),
+        rarity: $t(`rarity_${item.item_rarity}`),
         image,
     };
 };
 
 export const getGraffiti = () => {
     const { stickerKits } = state;
+    const { language, folder } = languageData;
 
-    const graffiti = [];
+    const graffiti = stickerKits
+        .filter(isGraffiti)
+        .map(parseItemSealedGraffiti);
 
-    stickerKits.forEach((item) => {
-        if (isGraffiti(item)) graffiti.push(parseItemSealedGraffiti(item));
-    });
-
-    saveDataMemory(languageData.language, graffiti);
-    saveDataJson(`./public/api/${languageData.folder}/graffiti.json`, graffiti);
+    saveDataMemory(language, graffiti);
+    saveDataJson(`./public/api/${folder}/graffiti.json`, graffiti);
 };
