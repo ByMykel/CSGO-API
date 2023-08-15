@@ -4,6 +4,7 @@ import {
     knives,
     getCategory,
     getWears,
+    getDopplerPhase,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
@@ -93,6 +94,8 @@ const parseItem = (item, items, allStatTrak) => {
     const isKnife =
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
 
+    const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
+
     const rarity = !isNotWeapon(weapon)
         ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
         : isKnife
@@ -122,6 +125,7 @@ const parseItem = (item, items, allStatTrak) => {
             paintKits[pattern].wear_remap_min,
             paintKits[pattern].wear_remap_max
         ).map($t),
+        ...(dopplerPhase && { phase: dopplerPhase }),
         image,
     };
 };
