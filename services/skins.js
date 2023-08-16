@@ -11,6 +11,7 @@ import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -131,6 +132,7 @@ const parseItem = (item, items, allStatTrak) => {
                 name: $t(i.name),
             })) ?? [],
         ...(dopplerPhase && { phase: dopplerPhase }),
+        special_notes: specialNotes?.[`skin-${item.object_id}`],
         image,
     };
 };

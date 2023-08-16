@@ -3,6 +3,7 @@ import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
@@ -174,6 +175,7 @@ const parseItem = (item, itemsById, prefabs) => {
             }),
             rarity: $t(i.rarity),
         })),
+        special_notes: specialNotes?.[`crate-${item.object_id}`],
         image,
     };
 };
