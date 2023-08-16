@@ -35,14 +35,14 @@
         "description": "<b><font color='#F2A93E'>X-Ray</font></b>. Цей пакунок містить один P250 із нанесеним рентген-зображенням його нутрощів. Швидкострільний пістолет P250 має низьку віддачу і є відносно недорогим вибором проти захищених бронежилетами опонентів.",
         "type": null,
         "first_sale_date": "2019/10/02",
-        "contains": [],
-        "contains_rare": [
+        "contains": [
             {
                 "id": "skin-2359796",
                 "name": "P250 | Рентген",
-                "rarity": null
+                "rarity": "зброя спецслужб"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {

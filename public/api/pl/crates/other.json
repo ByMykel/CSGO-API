@@ -35,14 +35,14 @@
         "description": "Ten zestaw zawiera pojedyncze P250 pokazujące swe wnętrze dzięki wykonanemu na zamówienie zdobieniu, które przypomina zdjęcie rentgenowskie. P250 to broń o niskim odrzucie i wysokiej szybkostrzelności, co stanowi dość tani sposób na pozbycie się opancerzonych wrogów.",
         "type": null,
         "first_sale_date": "2019/10/02",
-        "contains": [],
-        "contains_rare": [
+        "contains": [
             {
                 "id": "skin-2359796",
                 "name": "P250 | Rentgen",
-                "rarity": null
+                "rarity": "spoza obiegu"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {

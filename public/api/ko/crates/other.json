@@ -35,14 +35,14 @@
         "description": "This package contains a single custom painted P250 showing its internals with an X-Ray. P250 is a low-recoil firearm with a high rate of fire, which is a relatively inexpensive choice against armored opponents.",
         "type": null,
         "first_sale_date": "2019/10/02",
-        "contains": [],
-        "contains_rare": [
+        "contains": [
             {
                 "id": "skin-2359796",
                 "name": "P250 | X-Ray",
-                "rarity": null
+                "rarity": "제한된"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {

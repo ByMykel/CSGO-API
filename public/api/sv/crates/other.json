@@ -35,14 +35,14 @@
         "description": "Detta paket innehåller en specialmålad P250 som visar dess interna komponenter med röntgenstrålning. P250 är ett vapen med låg rekyl och hög eldhastighet, och är ett relativt billigt val mot bepansrade motståndare.",
         "type": null,
         "first_sale_date": "2019/10/02",
-        "contains": [],
-        "contains_rare": [
+        "contains": [
             {
                 "id": "skin-2359796",
                 "name": "P250 | X-Ray",
-                "rarity": null
+                "rarity": "Begränsad"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {

@@ -35,14 +35,14 @@
         "description": "此包裹包含一把自定义涂装的P250，内部结构暴露在 X 射线下。 P250 是一把低后坐力和高射速的手枪，在对付穿了护甲的对手时，P250是一个相对便宜的选择。",
         "type": null,
         "first_sale_date": "2019/10/02",
-        "contains": [],
-        "contains_rare": [
+        "contains": [
             {
                 "id": "skin-2359796",
                 "name": "P250 | X 射线",
-                "rarity": null
+                "rarity": "受限"
             }
         ],
+        "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
     },
     {
