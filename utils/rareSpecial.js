@@ -254,9 +254,9 @@ export const rareSpecial = {
         "[am_marked_up_90]weapon_knife_push": 1,
         "[hy_ocean_knife_90]weapon_knife_push": 1,
     },
-    crate_xray_p250_lootlist: {
-        "[cu_xray_p250]weapon_p250": 1,
-    },
+    // crate_xray_p250_lootlist: {
+    //     "[cu_xray_p250]weapon_p250": 1,
+    // },
     community_case_3_unusual: {
         "[vanilla]weapon_knife_tactical": 1,
         "[aa_fade]weapon_knife_tactical": 1,

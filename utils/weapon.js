@@ -302,3 +302,7 @@ export const getDopplerPhase = (paintIndex) => {
 
     return dopplerPhases?.[paintIndex];
 };
+
+export const isExclusive = (name) => {
+    return ["halo_01", "halflife_alyx_01", "hades_01"].includes(name);
+};
