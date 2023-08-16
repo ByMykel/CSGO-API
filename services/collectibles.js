@@ -1,9 +1,8 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $translate, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import cdn from '../public/api/cdn_images.json' assert {type: 'json'};
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -78,18 +77,19 @@ const getFileNameByType = (type) => {
 
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
-    // const image = `${IMAGES_BASE_URL}${item.image_inventory}_large.png`;
     const image = cdn[`${item.image_inventory}_large`];
 
     return {
         id: `collectible-${item.object_id}`,
-        name:
-            (isAttendance ? `${$translate('genuine')} ` : "") + $translate(item.item_name) ??
-            $translate(item_name_prefab),
+        name: isAttendance
+            ? $tc("collectible_genuine", {
+                  genuine: $t("genuine"),
+                  item_name: $t(item.item_name),
+              })
+            : $t(item.item_name),
         description:
-            $translate(item.item_description) ??
-            $translate(item.item_description_prefab),
-        rarity: $translate(`rarity_${item.item_rarity}`),
+            $t(item.item_description) ?? $t(item.item_description_prefab),
+        rarity: $t(`rarity_${item.item_rarity}`),
         type: getType(item),
         image,
     };
@@ -109,23 +109,22 @@ const groupByType = (collectibles) => {
 };
 
 export const getCollectibles = () => {
-    const collectibles = [];
-
     const { items } = state;
+    const { language, folder } = languageData;
 
-    Object.values(items).forEach((item) => {
-        if (isCollectible(item)) collectibles.push(parseItem(item));
-    });
+    const collectibles = Object.values(items)
+        .filter(isCollectible)
+        .map(parseItem);
 
-    saveDataMemory(languageData.language, collectibles);
-    saveDataJson(`./public/api/${languageData.folder}/collectibles.json`, collectibles);
+    saveDataMemory(language, collectibles);
+    saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
 
     const collectiblesByTypes = groupByType(collectibles);
 
     Object.entries(collectiblesByTypes).forEach(([type, values]) => {
-        saveDataMemory(languageData.language, values);
+        saveDataMemory(language, values);
         saveDataJson(
-            `./public/api/${languageData.folder}/collectibles/${getFileNameByType(type)}`,
+            `./public/api/${folder}/collectibles/${getFileNameByType(type)}`,
             values
         );
     });
