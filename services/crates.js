@@ -1,9 +1,7 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $t, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
-import { rareSpecial } from "../utils/rareSpecial.js";
-import { isNotWeapon, knives } from "../utils/weapon.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCrate = (item) => {
@@ -139,175 +137,10 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     return null;
 };
 
-const getItemFromKey = (key, parentKey) => {
-    const { stickerKits, musicDefinitions, items, paintKits, itemsGame } =
-        state;
-
-    const regex = /\[(?<name>.+?)\](?<type>.+)/;
-    const match = key.match(regex);
-
-    const { name, type } = match.groups;
-
-    switch (type) {
-        case "sticker":
-            const sticker = stickerKits.find((item) => item.name === name);
-            return {
-                id: `sticker-${sticker.object_id}`,
-                name: $t(sticker.item_name),
-                rarity: $t(`rarity_${sticker.item_rarity}`),
-            };
-        case "patch":
-            const patch = stickerKits.find((item) => item.name === name);
-            return {
-                id: `patch-${patch.object_id}`,
-                name: $t(patch.item_name),
-                rarity: $t(`rarity_${patch.item_rarity}`),
-            };
-        case "musickit":
-            const kit = musicDefinitions.find((item) => item.name === name);
-            const exclusive = $t(kit.coupon_name) === null;
-            return {
-                id: `music_kit-${kit.object_id}`,
-                name: exclusive ? $t(kit.loc_name) : $t(kit.coupon_name),
-                rarity: $t("rarity_rare"),
-            };
-        case "spray":
-            const spray = stickerKits.find((item) => item.name === name);
-            return {
-                id: `graffiti-${spray.object_id}`,
-                name: $t(spray.item_name),
-                rarity: $t(`rarity_${spray.item_rarity}`),
-            };
-        // The rest are skins
-        default:
-            let id = "";
-            let itemName = "";
-            const translatedName =
-                $t(items[type].item_name) ?? $t(items[type].item_name_prefab);
-            const itemRarity = parentKey.split("_").pop();
-
-            // Not the best way to add vanilla knives.
-            if (name === "vanilla") {
-                id = `skin-vanilla-${type}`;
-                itemName = $t(knives.find((k) => k.name == type).item_name);
-            } else {
-                const weaponIcons = Object.entries(
-                    itemsGame.alternate_icons2.weapon_icons
-                ).find(
-                    ([, value]) =>
-                        value.icon_path.includes(name) &&
-                        value.icon_path.includes(type)
-                );
-
-                id = `skin-${weaponIcons[0]}`;
-                itemName = `${translatedName} | ${$t(
-                    paintKits[name.toLowerCase()].description_tag
-                )}`;
-            }
-
-            return {
-                id,
-                name: itemName,
-                rarity: !isNotWeapon(type)
-                    ? $t(`rarity_${itemRarity}_weapon`)
-                    : type.includes("weapon_knife") ||
-                      type.includes("weapon_bayonet")
-                    ? $t(`rarity_ancient_weapon`)
-                    : $t(`rarity_ancient`),
-            };
-    }
-};
-
-const getContainedItems = (itemName) => {
-    const { clientLootLists, items } = state;
-
-    const lootList = clientLootLists[itemName];
-
-    if (lootList === undefined) {
-        return [];
-    }
-
-    const keyys = Object.keys(lootList).filter((item) => {
-        const ignore = [
-            "will_produce_stattrak",
-            "limit_description_to_number_rnd",
-            "contains_stickers_autographed_by_proplayers",
-            "contains_stickers_autographed_by_proplayers",
-            "contains_stickers_representing_organizations",
-            "contains_patches_representing_organizations",
-            "all_entries_as_additional_drops",
-        ];
-
-        return !ignore.includes(item);
-    });
-
-    if (keyys[0].includes("Commodity Pin")) {
-        return keyys.map((key) => {
-            const pin = items[key];
-
-            return {
-                id: `collection-${pin.object_id}`,
-                name: $t(pin.item_name),
-                rarity: $t(`rarity_${pin.item_rarity}`),
-            };
-        });
-    }
-
-    if (keyys[0].includes("[") && keyys[0].includes("]")) {
-        return keyys.map((key) => getItemFromKey(key, itemName));
-    }
-
-    return keyys.reduce((items, key) => {
-        return [...items, ...getContainedItems(key)];
-    }, []);
-};
-
-const getContainedRareItems = (itemName) => {
-    const { clientLootLists, items } = state;
-
-    const lootList = clientLootLists[itemName];
-
-    if (lootList === undefined) {
-        if (rareSpecial[itemName] !== undefined) {
-            return Object.keys(rareSpecial[itemName]).map((key) =>
-                getItemFromKey(key, itemName)
-            );
-        }
-
-        return [];
-    }
-
-    const keyys = Object.keys(lootList).filter((item) => {
-        const ignore = [
-            "will_produce_stattrak",
-            "limit_description_to_number_rnd",
-            "contains_stickers_autographed_by_proplayers",
-            "contains_stickers_autographed_by_proplayers",
-            "contains_stickers_representing_organizations",
-            "contains_patches_representing_organizations",
-            "all_entries_as_additional_drops",
-        ];
-
-        return !ignore.includes(item);
-    });
-
-    if (keyys[0].includes("Commodity Pin")) {
-        return [];
-    }
-
-    if (keyys[0].includes("[") && keyys[0].includes("]")) {
-        return [];
-    }
-
-    return keyys.reduce((items, key) => {
-        return [...items, ...getContainedRareItems(key)];
-    }, []);
-};
-
 const parseItem = (item, itemsById, prefabs) => {
-    const image = cdn[item.image_inventory.toLowerCase()];
+    const { skinsByCrates, skinsByCratesSpecial, revolvingLootLists } = state;
 
-    const { revolvingLootLists } = state;
+    const image = cdn[item.image_inventory.toLowerCase()];
     const lootListName = item?.loot_list_name ?? null;
     const attributeValue =
         item.attributes?.["set supply crate series"]?.value ?? null;
@@ -316,14 +149,31 @@ const parseItem = (item, itemsById, prefabs) => {
 
     return {
         id: `crate-${item.object_id}`,
-        // collection_id: item.tags?.ItemSet?.tag_value ?? null,
         name: $t(item.item_name) ?? $t(item_name_prefab),
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
-        contains: getContainedItems(keyLootList),
-        contains_rare: getContainedRareItems(keyLootList),
+        contains: (
+            skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
+            skinsByCrates?.[keyLootList] ??
+            []
+        ).map((i) => ({
+            ...i,
+            name:
+                i.name instanceof Object
+                    ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
+                    : $t(i.name),
+            rarity: $t(i.rarity),
+        })),
+        contains_rare: (skinsByCratesSpecial?.[keyLootList] ?? []).map((i) => ({
+            ...i,
+            name: $tc(i.name?.tKey ?? JSON.stringify(i.name), {
+                item_name: $t(i.name.weapon),
+                pattern: $t(i.name.pattern),
+            }),
+            rarity: $t(i.rarity),
+        })),
         image,
     };
 };
