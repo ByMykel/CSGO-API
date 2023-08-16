@@ -267,3 +267,7 @@ export const getWears = (minFloat, maxFloat) => {
         })
         .map((range) => range.wear);
 };
+
+export const isExclusive = (name) => {
+    return ["halo_01", "halflife_alyx_01", "hades_01"].includes(name);
+};
