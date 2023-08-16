@@ -3,6 +3,7 @@ import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -33,6 +34,7 @@ const parseItem = (item) => {
         name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
         description: $t(item.description_string),
         rarity: $t(`rarity_${item.item_rarity}`),
+        special_notes: specialNotes?.[`sticker-${item.object_id}`],
         image,
     };
 };
