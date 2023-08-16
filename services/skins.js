@@ -77,7 +77,7 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits } = state;
+    const { rarities, paintKits, cratesBySkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
@@ -125,13 +125,25 @@ const parseItem = (item, items, allStatTrak) => {
             paintKits[pattern].wear_remap_min,
             paintKits[pattern].wear_remap_max
         ).map($t),
+        crates:
+            cratesBySkins[`skin-${item.object_id}`]?.map((i) => ({
+                ...i,
+                name: $t(i.name),
+            })) ?? [],
         ...(dopplerPhase && { phase: dopplerPhase }),
         image,
     };
 };
 
 export const getSkins = () => {
-    const { itemsGame, items, itemSets } = state;
+    const {
+        itemsGame,
+        items,
+        paintKits,
+        itemSets,
+        paintKitsRarity,
+        cratesBySkins,
+    } = state;
     const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
@@ -155,6 +167,11 @@ export const getSkins = () => {
             rarity: $t(`rarity_ancient_weapon`),
             stattrak: true,
             paint_index: null,
+            crates:
+                cratesBySkins[`skin-vanilla-${knife.name}`]?.map((i) => ({
+                    ...i,
+                    name: $t(i.name),
+                })) ?? [],
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
         })),
     ];
