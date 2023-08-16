@@ -531,7 +531,6 @@ const getItemFromKey = (key) => {
             let itemName = "";
             const translatedName =
                 items[type]?.item_name ?? items[type].item_name_prefab;
-            // ?? (items[type].item_name_prefab);
 
             const isKnife =
                 type.includes("weapon_knife") ||
@@ -548,7 +547,10 @@ const getItemFromKey = (key) => {
             // Not the best way to add vanilla knives.
             if (name === "vanilla") {
                 id = `skin-vanilla-${type}`;
-                itemName = knives.find((k) => k.name == type).item_name;
+                itemName = {
+                    tKey: "rare_special_vanilla",
+                    weapon: knives.find((k) => k.name == type).item_name,
+                };
             } else {
                 const weaponIcons = Object.entries(
                     itemsGame.alternate_icons2.weapon_icons
@@ -559,13 +561,13 @@ const getItemFromKey = (key) => {
                 );
 
                 id = `skin-${weaponIcons[0]}`;
-                // itemName = `${translatedName} | ${(
-                //     paintKits[name.toLowerCase()].description_tag
-                // )}`;
-                itemName = [
-                    translatedName,
-                    paintKits[name.toLowerCase()].description_tag,
-                ];
+                itemName = {
+                    ...(isNotWeapon(type) && { tKey: "rare_special" }),
+                    weapon: translatedName.replace("#", ""),
+                    pattern: paintKits[
+                        name.toLowerCase()
+                    ].description_tag.replace("#", ""),
+                };
             }
 
             return {
