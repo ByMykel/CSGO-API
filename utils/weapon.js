@@ -270,6 +270,7 @@ export const getWears = (minFloat, maxFloat) => {
 
 export const getDopplerPhase = (paintIndex) => {
     const dopplerPhases = {
+        // Doppler
         415: "Ruby",
         416: "Sapphire",
         417: "Black Pearl",
@@ -278,21 +279,25 @@ export const getDopplerPhase = (paintIndex) => {
         420: "Phase 3",
         421: "Phase 4",
 
+        // Gamma Doppler
         568: "Emerald",
         569: "Phase 1",
         570: "Phase 2",
         571: "Phase 3",
         572: "Phase 4",
 
+        // Doppler (Butterfly Knife, Shadow Daggers)
         617: "Black Pearl",
         618: "Phase 2",
         619: "Sapphire",
 
+        // Doppler (Talon Knife)
         852: "Phase 1",
         853: "Phase 2",
         854: "Phase 3",
         855: "Phase 4",
 
+        // Gamma Doppler (Glock-18)
         1119: "Emerald",
         1120: "Phase 1",
         1121: "Phase 2",
