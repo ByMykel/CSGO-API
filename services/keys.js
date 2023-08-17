@@ -5,7 +5,17 @@ import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isKey = (item) => {
-    if (item.item_name === undefined) return false;
+    if (item.item_name === undefined) {
+        return false;
+    }
+
+    if (item.item_name.includes("contestwinner")) {
+        return false;
+    }
+
+    if (item.item_name.includes("storepromo_key")) {
+        return false;
+    }
 
     // if (!item.item_name.startsWith("#CSGO_crate")) {
     //     return false;
@@ -23,14 +33,27 @@ const isKey = (item) => {
 };
 
 const parseItem = (item) => {
+    const { items } = state;
+
     const image = cdn[item.image_inventory.toLowerCase()];
+    const crates = Object.values(items)
+        .filter(
+            (crate) =>
+                ["sticker_capsule", "weapon_case"].includes(crate.prefab) &&
+                crate?.tool?.restriction === item.tool?.restriction
+        )
+        .map((crate) => ({
+            id: `crate-${crate.object_id}`,
+            name: $t(crate.item_name),
+            image: cdn[crate.image_inventory.toLowerCase()],
+        }));
 
     return {
         id: `key-${item.object_id}`,
-        // case_id: item.tool?.restriction?.replace("crate_", "") ?? null,
-        name: $t(item.item_name) ?? $t(item_name_prefab),
+        name: $t(item.item_name),
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
+        crates,
         image,
     };
 };
