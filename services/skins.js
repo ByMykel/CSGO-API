@@ -78,7 +78,7 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits, cratesBySkins } = state;
+    const { rarities, paintKits, cratesBySkins, souvenirSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
@@ -122,6 +122,7 @@ const parseItem = (item, items, allStatTrak) => {
         max_float: paintKits[pattern].wear_remap_max,
         rarity,
         stattrak: isStatTrak,
+        souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
         paint_index: paintKits[pattern].paint_index,
         wears: getWears(
             paintKits[pattern].wear_remap_min,

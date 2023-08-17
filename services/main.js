@@ -18,6 +18,7 @@ export const state = {
     revolvingLootLists: null,
     skinsByCrates: null,
     skinsByCratesSpecial: null,
+    souvenirSkins: null
 };
 
 export const parseObjectValues = (items) => {
@@ -470,6 +471,30 @@ export const loadyCratesBySkins = () => {
     };
 };
 
+export const loadSouvenirSkins = () => {
+    const { items, skinsByCrates, revolvingLootLists } = state;
+
+    state.souvenirSkins = Object.values(items)
+        .filter((item) => {
+            return item.prefab === "weapon_case_souvenirpkg";
+        })
+        .map((item) => {
+            const lootListName = item?.loot_list_name ?? null;
+            const attributeValue =
+                item.attributes?.["set supply crate series"]?.value ?? null;
+            const keyLootList =
+                lootListName ?? revolvingLootLists[attributeValue] ?? null;
+
+            return (
+                skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
+                skinsByCrates?.[keyLootList] ??
+                []
+            );
+        })
+        .flatMap((level1) => level1)
+        .reduce((acc, item) => ({ ...acc, [item.id]: true }), {});
+};
+
 const getItemFromKey = (key) => {
     const {
         stickerKits,
@@ -595,4 +620,5 @@ export const loadData = async () => {
     loadSkinsByCrates();
     loadSkinsByCratesSpecial();
     loadyCratesBySkins();
+    loadSouvenirSkins();
 };
