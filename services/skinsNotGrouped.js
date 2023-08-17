@@ -79,8 +79,9 @@ const parseItem = (item, items, allStatTrak) => {
     const { rarities, paintKits } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
-    const translatedName =
-        $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
+    const translatedName = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_name_prefab)
+        : $t(items[weapon].item_name);
 
     const isStatTrak =
         weapon.includes("knife") ||

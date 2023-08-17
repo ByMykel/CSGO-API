@@ -81,11 +81,12 @@ const parseItem = (item, items, allStatTrak) => {
     const { rarities, paintKits, cratesBySkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
-    const translatedName =
-        $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
-    const translatedDescription =
-        $t(items[weapon].item_description) ??
-        $t(items[weapon].item_description_prefab);
+    const translatedName = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_name_prefab)
+        : $t(items[weapon].item_name);
+    const translatedDescription = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_description_prefab)
+        : $t(items[weapon].item_description);
 
     const isStatTrak =
         weapon.includes("knife") ||
