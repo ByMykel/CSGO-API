@@ -4,6 +4,7 @@ import {
     knives,
     getWears,
     getDopplerPhase,
+    skinMarketHashName,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
@@ -147,6 +148,15 @@ const parseItem = (item, items, allStatTrak) => {
             pattern: $t(paintKits[pattern].description_tag),
             rarity,
             ...(dopplerPhase && { phase: dopplerPhase }),
+            market_hash_name: skinMarketHashName({
+                itemName: translatedName,
+                pattern: $t(paintKits[pattern].description_tag),
+                wear: wear,
+                isStatTrak: type === "skin_stattrak",
+                isSouvenir: type === "skin_souvenir",
+                isWeapon: !isNotWeapon(weapon),
+                isVanilla: false,
+            }),
             image,
         }))
     );
@@ -179,6 +189,15 @@ export const getSkinsNotGrouped = () => {
                         `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
                     ),
                     rarity: $t(`rarity_ancient_weapon`),
+                    market_hash_name: skinMarketHashName({
+                        itemName: $t(knife.item_name),
+                        pattern: null,
+                        wear: null,
+                        isStatTrak: type === "rare_special_vanilla_stattrak",
+                        isSouvenir: false,
+                        isWeapon: false,
+                        isVanilla: true,
+                    }),
                     image: cdn[`econ/weapons/base_weapons/${knife.name}`],
                 }))
             )

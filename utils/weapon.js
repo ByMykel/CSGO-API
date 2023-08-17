@@ -311,3 +311,39 @@ export const getDopplerPhase = (paintIndex) => {
 export const isExclusive = (name) => {
     return ["halo_01", "halflife_alyx_01", "hades_01"].includes(name);
 };
+
+export const skinMarketHashName = ({
+    itemName,
+    pattern,
+    wear,
+    isStatTrak,
+    isSouvenir,
+    isWeapon,
+    isVanilla,
+}) => {
+    if (isWeapon) {
+        if (isStatTrak) {
+            return `StatTrak™ ${itemName} | ${pattern} (${wear})`;
+        }
+
+        if (isSouvenir) {
+            return `Souvenir ${itemName} | ${pattern} (${wear})`;
+        }
+
+        return `${itemName} | ${pattern} (${wear})`;
+    } else {
+        if (isVanilla) {
+            if (isStatTrak) {
+                return `★ StatTrak™ ${itemName}`;
+            }
+
+            return `★ ${itemName}`;
+        } else {
+            if (isStatTrak) {
+                return `★ StatTrak™ ${itemName} | ${pattern} (${wear})`;
+            }
+
+            return `★ ${itemName} | ${pattern} (${wear})`;
+        }
+    }
+};
