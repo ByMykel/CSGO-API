@@ -9,8 +9,12 @@ const translations = {
     selected: null,
 };
 
-export const $t = (key) => {
+export const $t = (key, useDefault = false) => {
     key = key?.replace("#", "").toLowerCase();
+
+    if (useDefault) {
+        return translations.default[key] || null;
+    }
 
     return translations.selected[key] || translations.default[key] || null;
 };
@@ -22,14 +26,16 @@ export const $tc = (key, data = {}) => {
         throw new Error(`translations for '${languageData.folder}' not found`);
     }
 
-    const specific = all[key]
+    const specific = all[key];
 
     if (!specific) {
-        throw new Error(`key '${key}' does not exist in '${languageData.language}' translations`);
+        throw new Error(
+            `key '${key}' does not exist in '${languageData.language}' translations`
+        );
     }
 
     let replaced = specific.replace(/\{.*?\}/g, function (match) {
-        const key = match.replace("{", "").replace("}", "")
+        const key = match.replace("{", "").replace("}", "");
 
         if (!(key in data)) {
             throw new Error(`$tc data key {${key}} not provided`);
@@ -39,7 +45,7 @@ export const $tc = (key, data = {}) => {
     });
 
     return replaced;
-}
+};
 
 const getTranslations = async (url) => {
     const { data } = await axios.get(url);

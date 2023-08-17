@@ -149,8 +149,10 @@ const parseItem = (item, items, allStatTrak) => {
             rarity,
             ...(dopplerPhase && { phase: dopplerPhase }),
             market_hash_name: skinMarketHashName({
-                itemName: translatedName,
-                pattern: $t(paintKits[pattern].description_tag),
+                itemName: !isNotWeapon(weapon)
+                    ? $t(items[weapon].item_name_prefab, true)
+                    : $t(items[weapon].item_name, true),
+                pattern: $t(paintKits[pattern].description_tag, true),
                 wear: wear,
                 isStatTrak: type === "skin_stattrak",
                 isSouvenir: type === "skin_souvenir",
@@ -190,7 +192,7 @@ export const getSkinsNotGrouped = () => {
                     ),
                     rarity: $t(`rarity_ancient_weapon`),
                     market_hash_name: skinMarketHashName({
-                        itemName: $t(knife.item_name),
+                        itemName: $t(knife.item_name, true),
                         pattern: null,
                         wear: null,
                         isStatTrak: type === "rare_special_vanilla_stattrak",
