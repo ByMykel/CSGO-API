@@ -78,14 +78,15 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits, cratesBySkins } = state;
+    const { rarities, paintKits, cratesBySkins, souvenirSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
-    const translatedName =
-        $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
-    const translatedDescription =
-        $t(items[weapon].item_description) ??
-        $t(items[weapon].item_description_prefab);
+    const translatedName = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_name_prefab)
+        : $t(items[weapon].item_name);
+    const translatedDescription = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_description_prefab)
+        : $t(items[weapon].item_description);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -121,6 +122,7 @@ const parseItem = (item, items, allStatTrak) => {
         max_float: paintKits[pattern].wear_remap_max,
         rarity,
         stattrak: isStatTrak,
+        souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
         paint_index: paintKits[pattern].paint_index,
         wears: getWears(
             paintKits[pattern].wear_remap_min,
@@ -138,14 +140,7 @@ const parseItem = (item, items, allStatTrak) => {
 };
 
 export const getSkins = () => {
-    const {
-        itemsGame,
-        items,
-        paintKits,
-        itemSets,
-        paintKitsRarity,
-        cratesBySkins,
-    } = state;
+    const { itemsGame, items, itemSets, cratesBySkins } = state;
     const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
@@ -178,6 +173,6 @@ export const getSkins = () => {
         })),
     ];
 
-    saveDataMemory(language, skins);
+    // saveDataMemory(language, skins);
     saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };
