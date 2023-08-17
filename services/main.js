@@ -529,8 +529,9 @@ const getItemFromKey = (key) => {
         default:
             let id = "";
             let itemName = "";
-            const translatedName =
-                items[type]?.item_name ?? items[type].item_name_prefab;
+            const translatedName = !isNotWeapon(type)
+                ? items[type].item_name_prefab
+                : items[type]?.item_name;
 
             const isKnife =
                 type.includes("weapon_knife") ||
