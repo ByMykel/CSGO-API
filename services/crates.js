@@ -150,7 +150,7 @@ const parseItem = (item, itemsById, prefabs) => {
 
     return {
         id: `crate-${item.object_id}`,
-        name: $t(item.item_name) ?? $t(item_name_prefab),
+        name: $t(item.item_name),
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
