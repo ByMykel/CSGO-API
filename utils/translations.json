@@ -2,136 +2,352 @@
     "pt-BR": {
         "collectible_genuine": "{item_name} {genuine}",
         "rare_special": "{item_name} ★ | {pattern}",
-        "rare_special_vanilla": "{item_name} ★"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} ★",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "bg": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "cs": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "da": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "nl": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "en": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "★ StatTrak™ {item_name} | {pattern}",
+        "rare_special_with_wear": "★ {item_name} | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "★ {item_name} | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "★ StatTrak™ {item_name}",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "fi": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "fr": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "de": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "el": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "hu": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "it": {
         "collectible_genuine": "{item_name} {genuine}",
         "rare_special": "{item_name} ★ | {pattern}",
-        "rare_special_vanilla": "{item_name} ★"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} ★",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "ja": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "ko": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "es-MX": {
         "collectible_genuine": "{item_name} {genuine}",
         "rare_special": "{item_name} ★ | {pattern}",
-        "rare_special_vanilla": "{item_name} ★"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} ★",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "no": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "pl": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "pt-PT": {
         "collectible_genuine": "{item_name} {genuine}",
         "rare_special": "{item_name} ★ | {pattern}",
-        "rare_special_vanilla": "{item_name} ★"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} ★",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "ro": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "ru": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "zh-CN": {
         "collectible_genuine": "{item_name}（{genuine}）",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "es-ES": {
         "collectible_genuine": "{item_name} {genuine}",
         "rare_special": "{item_name} ★ | {pattern}",
-        "rare_special_vanilla": "{item_name} ★"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} ★",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "sv": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "zh-TW": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "th": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "tr": {
         "collectible_genuine": "{genuine} {item_name}",
         "rare_special": "★ {item_name} | {pattern}",
-        "rare_special_vanilla": "★ {item_name}"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "★ {item_name}",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     },
     "uk": {
         "collectible_genuine": "{item_name} ({genuine})",
         "rare_special": "{item_name} (★) | {pattern}",
-        "rare_special_vanilla": "{item_name} (★)"
+        "rare_special_stattrak": "StatTrak™ {item_name} ★ | {pattern}",
+        "rare_special_with_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_with_wear_stattrak": "★ StatTrak™ {item_name} | {pattern} ({wear})",
+        "rare_special_wear": "{item_name} ★ | {pattern} ({wear})",
+        "rare_special_vanilla": "{item_name} (★)",
+        "rare_special_vanilla_stattrak": "StatTrak™ {item_name} ★",
+        "skin": "{item_name} | {pattern} ({wear})",
+        "skin_stattrak": "StatTrak™ {item_name} | {pattern} ({wear})",
+        "skin_souvenir": "Souvenir {item_name} | {pattern} ({wear})"
     }
 }

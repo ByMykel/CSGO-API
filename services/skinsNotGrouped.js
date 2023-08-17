@@ -2,7 +2,6 @@ import {
     getWeaponName,
     isNotWeapon,
     knives,
-    getCategory,
     getWears,
     getDopplerPhase,
 } from "../utils/weapon.js";
@@ -11,7 +10,6 @@ import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
-import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
 const getAllStatTrak = (itemSets, items) => {
     const crates = {};
@@ -78,14 +76,11 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits, cratesBySkins } = state;
+    const { rarities, paintKits } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName =
         $t(items[weapon].item_name) ?? $t(items[weapon].item_name_prefab);
-    const translatedDescription =
-        $t(items[weapon].item_description) ??
-        $t(items[weapon].item_description_prefab);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -105,72 +100,81 @@ const parseItem = (item, items, allStatTrak) => {
         : // Gloves are 'Extraordinary'
           $t(`rarity_ancient`);
 
-    return {
-        id: `skin-${item.object_id}`,
-        name: isNotWeapon(weapon)
-            ? $tc("rare_special", {
-                  item_name: translatedName,
-                  pattern: $t(paintKits[pattern].description_tag),
-              })
-            : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
-        description: translatedDescription,
-        weapon: translatedName,
-        category: $t(getCategory(weapon)),
-        pattern: $t(paintKits[pattern].description_tag),
-        min_float: paintKits[pattern].wear_remap_min,
-        max_float: paintKits[pattern].wear_remap_max,
-        rarity,
-        stattrak: isStatTrak,
-        paint_index: paintKits[pattern].paint_index,
-        wears: getWears(
-            paintKits[pattern].wear_remap_min,
-            paintKits[pattern].wear_remap_max
-        ).map($t),
-        crates:
-            cratesBySkins[`skin-${item.object_id}`]?.map((i) => ({
-                ...i,
-                name: $t(i.name),
-            })) ?? [],
-        ...(dopplerPhase && { phase: dopplerPhase }),
-        special_notes: specialNotes?.[`skin-${item.object_id}`],
-        image,
-    };
+    const types = ["skin"];
+
+    if (isStatTrak) {
+        types.push("skin_stattrak");
+    }
+
+    const wears = getWears(
+        paintKits[pattern].wear_remap_min,
+        paintKits[pattern].wear_remap_max
+    ).map($t);
+
+    return types.map((type) =>
+        wears.map((wear, index) => ({
+            id: `skin-${item.object_id}_${index}${
+                type === "skin_stattrak" ? "_st" : ""
+            }`,
+            skin_id: `skin-${item.object_id}`,
+            name: isNotWeapon(weapon)
+                ? $tc(
+                      isStatTrak
+                          ? "rare_special_with_wear_stattrak"
+                          : "rare_special_with_wear",
+                      {
+                          item_name: translatedName,
+                          pattern: $t(paintKits[pattern].description_tag),
+                          wear,
+                      }
+                  )
+                : $tc(type, {
+                      item_name: translatedName,
+                      pattern: $t(paintKits[pattern].description_tag),
+                      wear,
+                  }),
+            weapon: translatedName,
+            pattern: $t(paintKits[pattern].description_tag),
+            rarity,
+            ...(dopplerPhase && { phase: dopplerPhase }),
+            image,
+        }))
+    );
 };
 
-export const getSkins = () => {
-    const { itemsGame, items, itemSets, cratesBySkins } = state;
+export const getSkinsNotGrouped = () => {
+    const { itemsGame, items, itemSets } = state;
     const { language, folder } = languageData;
 
     const allStatTrak = getAllStatTrak(itemSets, items);
+    const types = ["rare_special_vanilla", "rare_special_vanilla_stattrak"];
+
     const skins = [
         ...Object.entries(itemsGame.alternate_icons2.weapon_icons)
             .filter(([, item]) => isSkin(item.icon_path))
             .map(([key, item]) =>
                 parseItem({ ...item, object_id: key }, items, allStatTrak)
-            ),
-        ...knives.map((knife) => ({
-            id: `skin-vanilla-${knife.name}`,
-            name: $tc("rare_special_vanilla", {
-                item_name: $t(knife.item_name),
-            }),
-            description: $t(knife.item_description),
-            weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
-            category: $t("sfui_invpanel_filter_melee"),
-            pattern: null,
-            min_float: null,
-            max_float: null,
-            rarity: $t(`rarity_ancient_weapon`),
-            stattrak: true,
-            paint_index: null,
-            crates:
-                cratesBySkins[`skin-vanilla-${knife.name}`]?.map((i) => ({
-                    ...i,
-                    name: $t(i.name),
-                })) ?? [],
-            image: cdn[`econ/weapons/base_weapons/${knife.name}`],
-        })),
+            )
+            .flatMap((level1) => level1.flatMap((level2) => level2)),
+        ...types
+            .map((type) =>
+                knives.map((knife) => ({
+                    id: `skin-vanilla-${knife.name}${
+                        type === "rare_special_vanilla_stattrak" ? "_st" : ""
+                    }`,
+                    name: $tc(type, {
+                        item_name: $t(knife.item_name),
+                    }),
+                    weapon: $t(
+                        `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
+                    ),
+                    rarity: $t(`rarity_ancient_weapon`),
+                    image: cdn[`econ/weapons/base_weapons/${knife.name}`],
+                }))
+            )
+            .flatMap((level1) => level1),
     ];
 
-    // saveDataMemory(language, skins);
-    saveDataJson(`./public/api/${folder}/skins.json`, skins);
+    saveDataMemory(language, skins);
+    saveDataJson(`./public/api/${folder}/skins_not_grouped.json`, skins);
 };
