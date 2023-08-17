@@ -76,7 +76,7 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits } = state;
+    const { rarities, paintKits, souvenirSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
@@ -87,6 +87,7 @@ const parseItem = (item, items, allStatTrak) => {
         weapon.includes("knife") ||
         weapon.includes("bayonet") ||
         allStatTrak[pattern] !== undefined;
+    const isSouvenir = souvenirSkins?.[`skin-${item.object_id}`] ?? false;
 
     const isKnife =
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
@@ -107,6 +108,10 @@ const parseItem = (item, items, allStatTrak) => {
         types.push("skin_stattrak");
     }
 
+    if (isSouvenir) {
+        types.push("skin_souvenir");
+    }
+
     const wears = getWears(
         paintKits[pattern].wear_remap_min,
         paintKits[pattern].wear_remap_max
@@ -115,7 +120,11 @@ const parseItem = (item, items, allStatTrak) => {
     return types.map((type) =>
         wears.map((wear, index) => ({
             id: `skin-${item.object_id}_${index}${
-                type === "skin_stattrak" ? "_st" : ""
+                type === "skin_stattrak"
+                    ? "_st"
+                    : type === "skin_souvenir"
+                    ? "_so"
+                    : ""
             }`,
             skin_id: `skin-${item.object_id}`,
             name: isNotWeapon(weapon)
