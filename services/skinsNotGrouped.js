@@ -146,6 +146,7 @@ const parseItem = (item, items, allStatTrak) => {
                   }),
             weapon: translatedName,
             pattern: $t(paintKits[pattern].description_tag),
+            wear,
             rarity,
             ...(dopplerPhase && { phase: dopplerPhase }),
             market_hash_name: skinMarketHashName({
