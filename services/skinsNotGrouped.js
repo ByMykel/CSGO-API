@@ -130,7 +130,7 @@ const parseItem = (item, items, allStatTrak) => {
             skin_id: `skin-${item.object_id}`,
             name: isNotWeapon(weapon)
                 ? $tc(
-                      isStatTrak
+                      type === "skin_stattrak"
                           ? "rare_special_with_wear_stattrak"
                           : "rare_special_with_wear",
                       {
