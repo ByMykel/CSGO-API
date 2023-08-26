@@ -1,4 +1,3 @@
-import * as VDF from "vdf-parser";
 import axios from "axios";
 import { CSGO_ENGLISH_URL } from "../constants.js";
 import customTranslations from "../utils/translations.json" assert { type: "json" };
@@ -50,10 +49,8 @@ export const $tc = (key, data = {}) => {
 const getTranslations = async (url) => {
     const { data } = await axios.get(url);
 
-    const parsed = VDF.parse(data);
-
     const lowerCaseKeys = Object.fromEntries(
-        Object.entries(parsed.lang.Tokens).map(([key, val]) => [
+        Object.entries(data.lang.Tokens).map(([key, val]) => [
             key.toLowerCase(),
             val,
         ])
@@ -64,9 +61,15 @@ const getTranslations = async (url) => {
 
 export const loadTranslations = async ({ language, url, folder }) => {
     if (translations.default == null) {
-        await getTranslations(CSGO_ENGLISH_URL).then((data) => {
-            translations.default = data;
-        });
+        await getTranslations(CSGO_ENGLISH_URL)
+            .then((data) => {
+                translations.default = data;
+            })
+            .catch(() => {
+                throw new Error(
+                    `Error loading translations from ${CSGO_ENGLISH_URL}`
+                );
+            });
     }
 
     await getTranslations(url)

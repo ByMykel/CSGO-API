@@ -1,4 +1,3 @@
-import * as VDF from "vdf-parser";
 import axios from "axios";
 import { ITEMS_GAME_URL } from "../constants.js";
 import { isExclusive, isNotWeapon, knives } from "../utils/weapon.js";
@@ -18,7 +17,7 @@ export const state = {
     revolvingLootLists: null,
     skinsByCrates: null,
     skinsByCratesSpecial: null,
-    souvenirSkins: null
+    souvenirSkins: null,
 };
 
 export const parseObjectValues = (items) => {
@@ -48,11 +47,8 @@ export const parseObjectEntries = (items) => {
 export const loadItemsGame = async () => {
     await axios
         .get(ITEMS_GAME_URL)
-        .then((response) => {
-            return VDF.parse(response.data).items_game;
-        })
         .then((data) => {
-            state.itemsGame = data;
+            state.itemsGame = data.data.items_game;
         })
         .catch((error) => {
             throw new Error(

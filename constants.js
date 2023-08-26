@@ -1,15 +1,15 @@
 const getLanguageUrl = (language) => {
-    return `https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/resource/csgo_${language}.txt`;
+    return `https://raw.githubusercontent.com/ByMykel/items_game.txt/main/parsed/@node-steam--vdf/csgo_${language}.json`;
 };
 
 export const ITEMS_GAME_URL =
-    "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/scripts/items/items_game.txt";
+    "https://raw.githubusercontent.com/ByMykel/items_game.txt/main/parsed/vdf-parser/items_game.json";
 
 export const IMAGES_BASE_URL =
     "https://raw.githubusercontent.com/steamdatabase/gametracking-csgo/108f1682bf7eeb1420caaf2357da88b614a7e1b0/csgo/pak01_dir/resource/flash/";
 
 export const CSGO_ENGLISH_URL =
-    "https://raw.githubusercontent.com/SteamDatabase/GameTracking-CSGO/master/csgo/resource/csgo_english.txt";
+    "https://raw.githubusercontent.com/ByMykel/items_game.txt/main/parsed/@node-steam--vdf/csgo_english.json";
 
 export const LANGUAGES_URL = [
     {
