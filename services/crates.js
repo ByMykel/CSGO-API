@@ -120,7 +120,7 @@ const groupByType = (crates) => {
     );
 };
 
-const getFirstSaleDate = (item, itemsById, prefabs) => {
+const getFirstSaleDate = (item, prefabs) => {
     if (item.first_sale_date !== undefined) {
         return item.first_sale_date;
     }
@@ -128,7 +128,7 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     if (item.associated_items !== undefined) {
         const id = Object.keys(item.associated_items)[0];
 
-        return itemsById[id].first_sale_date;
+        return state.itemsGame.items[id]?.first_sale_date;
     }
 
     if (item.prefab !== undefined) {
@@ -138,7 +138,7 @@ const getFirstSaleDate = (item, itemsById, prefabs) => {
     return null;
 };
 
-const parseItem = (item, itemsById, prefabs) => {
+const parseItem = (item, prefabs) => {
     const { skinsByCrates, skinsByCratesSpecial, revolvingLootLists } = state;
 
     const image = cdn[item.image_inventory.toLowerCase()];
@@ -154,7 +154,7 @@ const parseItem = (item, itemsById, prefabs) => {
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
-        first_sale_date: getFirstSaleDate(item, itemsById, prefabs),
+        first_sale_date: getFirstSaleDate(item, prefabs),
         contains: (
             skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
             skinsByCrates?.[keyLootList] ??
@@ -167,26 +167,28 @@ const parseItem = (item, itemsById, prefabs) => {
                     : $t(i.name),
             rarity: $t(i.rarity),
         })),
-        contains_rare: (skinsByCratesSpecial?.[keyLootList] ?? []).map((i) => ({
-            ...i,
-            name: $tc(i.name?.tKey ?? JSON.stringify(i.name), {
-                item_name: $t(i.name.weapon),
-                pattern: $t(i.name.pattern),
-            }),
-            rarity: $t(i.rarity),
-        })),
+        contains_rare: (skinsByCrates?.[`rare--${keyLootList}`] ?? []).map(
+            (i) => ({
+                ...i,
+                name: $tc(i.name?.tKey ?? JSON.stringify(i.name), {
+                    item_name: $t(i.name.weapon),
+                    pattern: $t(i.name.pattern),
+                }),
+                rarity: $t(i.rarity),
+            })
+        ),
         special_notes: specialNotes?.[`crate-${item.object_id}`],
         image,
     };
 };
 
 export const getCrates = () => {
-    const { items, itemsById, prefabs } = state;
+    const { items, prefabs } = state;
     const { language, folder } = languageData;
 
     const crates = Object.values(items)
         .filter(isCrate)
-        .map((item) => parseItem(item, itemsById, prefabs));
+        .map((item) => parseItem(item, prefabs));
 
     saveDataMemory(language, crates);
     saveDataJson(`./public/api/${folder}/crates.json`, crates);
