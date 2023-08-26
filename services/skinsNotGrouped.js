@@ -12,44 +12,6 @@ import { state } from "./main.js";
 import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
-const getAllStatTrak = (itemSets, items) => {
-    const crates = {};
-
-    Object.values(items).forEach((item) => {
-        if (item.prefab === "weapon_case") {
-            const name = item?.tags?.ItemSet?.tag_value;
-
-            if (name !== undefined) {
-                crates[name] = true;
-            }
-        }
-    });
-
-    const result = {};
-
-    itemSets.forEach((item) => {
-        if (item.is_collection) {
-            const keys = Object.keys(item.items).map((item) => {
-                const pattern = item.match(/\[(.*?)\]/i);
-
-                if (pattern) {
-                    return pattern[1];
-                }
-
-                return item;
-            });
-
-            keys.forEach((key) => {
-                if (crates[item.name.replace("#CSGO_", "")] !== undefined) {
-                    result[key.toLocaleLowerCase()] = true;
-                }
-            });
-        }
-    });
-
-    return result;
-};
-
 const getPatternName = (weapon, string) => {
     return (
         string
@@ -76,8 +38,8 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const parseItem = (item, items, allStatTrak) => {
-    const { rarities, paintKits, souvenirSkins } = state;
+const parseItem = (item, items) => {
+    const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
@@ -87,7 +49,7 @@ const parseItem = (item, items, allStatTrak) => {
     const isStatTrak =
         weapon.includes("knife") ||
         weapon.includes("bayonet") ||
-        allStatTrak[pattern] !== undefined;
+        stattTrakSkins[pattern] !== undefined;
     const isSouvenir = souvenirSkins?.[`skin-${item.object_id}`] ?? false;
 
     const isKnife =
@@ -166,18 +128,15 @@ const parseItem = (item, items, allStatTrak) => {
 };
 
 export const getSkinsNotGrouped = () => {
-    const { itemsGame, items, itemSets } = state;
+    const { itemsGame, items } = state;
     const { language, folder } = languageData;
 
-    const allStatTrak = getAllStatTrak(itemSets, items);
     const types = ["rare_special_vanilla", "rare_special_vanilla_stattrak"];
 
     const skins = [
         ...Object.entries(itemsGame.alternate_icons2.weapon_icons)
             .filter(([, item]) => isSkin(item.icon_path))
-            .map(([key, item]) =>
-                parseItem({ ...item, object_id: key }, items, allStatTrak)
-            )
+            .map(([key, item]) => parseItem({ ...item, object_id: key }, items))
             .flatMap((level1) => level1.flatMap((level2) => level2)),
         ...types
             .map((type) =>

@@ -64,7 +64,7 @@ export const getCollections = () => {
     const { language, folder } = languageData;
 
     const collections = [
-        ...Object.values(itemSets).filter(isCollection).map(parseItem),
+        ...itemSets.filter(isCollection).map(parseItem),
         ...Object.values(items)
             .filter(isSelfOpeningCollection)
             .map(parseItemSelfOpening),
