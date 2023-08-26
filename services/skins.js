@@ -13,12 +13,7 @@ import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
 const getPatternName = (weapon, string) => {
-    return (
-        string
-            .replace(`${weapon}_`, "")
-            // .replace("silencer_", "")
-            .toLowerCase()
-    );
+    return string.replace(`${weapon}_`, "").toLowerCase();
 };
 
 const isSkin = (iconPath) => {

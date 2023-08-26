@@ -2,7 +2,6 @@ import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCollection = (item) => item.is_collection !== undefined;
@@ -61,7 +60,7 @@ const parseItemSelfOpening = (item) => {
 
 export const getCollections = () => {
     const { items, itemSets } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const collections = [
         ...itemSets.filter(isCollection).map(parseItem),
@@ -70,6 +69,5 @@ export const getCollections = () => {
             .map(parseItemSelfOpening),
     ];
 
-    saveDataMemory(language, collections);
     saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };
