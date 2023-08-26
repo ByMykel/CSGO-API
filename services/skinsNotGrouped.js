@@ -9,16 +9,11 @@ import {
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
+
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const getPatternName = (weapon, string) => {
-    return (
-        string
-            .replace(`${weapon}_`, "")
-            // .replace("silencer_", "")
-            .toLowerCase()
-    );
+    return string.replace(`${weapon}_`, "").toLowerCase();
 };
 
 const isSkin = (iconPath) => {
@@ -166,6 +161,5 @@ export const getSkinsNotGrouped = () => {
             .flatMap((level1) => level1),
     ];
 
-    saveDataMemory(language, skins);
     saveDataJson(`./public/api/${folder}/skins_not_grouped.json`, skins);
 };

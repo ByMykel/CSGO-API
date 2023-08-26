@@ -11,7 +11,6 @@ import { getStickers } from "./services/stickers.js";
 import { getSkins } from "./services/skins.js";
 import { LANGUAGES_URL } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
-import { saveAllItems } from "./services/all.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 
 await loadData();
@@ -33,8 +32,6 @@ for (const language of LANGUAGES_URL) {
         getSkins();
         getSkinsNotGrouped();
         getStickers();
-
-        saveAllItems(language.language, language.folder);
     } catch (error) {
         console.log(error);
     }
