@@ -1,8 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "axios": "^0.26.0",
-    "vdf-parser": "^1.2.1"
+    "axios": "^0.26.0"
   },
   "scripts": {
     "update-data": "node index.js"
