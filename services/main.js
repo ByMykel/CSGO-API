@@ -20,30 +20,6 @@ export const state = {
     stattTrakSkins: null,
 };
 
-export const parseObjectValues = (items) => {
-    const result = [];
-
-    for (const values of Object.values(items)) {
-        for (const value of Object.values(values)) {
-            result.push(value);
-        }
-    }
-
-    return Object.values(result);
-};
-
-export const parseObjectEntries = (items) => {
-    const result = [];
-
-    for (const values of Object.values(items)) {
-        for (const [key, value] of Object.entries(values)) {
-            result[key] = value;
-        }
-    }
-
-    return Object.entries(result);
-};
-
 export const loadItemsGame = async () => {
     await axios
         .get(ITEMS_GAME_URL)
