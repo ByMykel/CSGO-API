@@ -1,7 +1,6 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isKey = (item) => {
@@ -60,10 +59,9 @@ const parseItem = (item) => {
 
 export const getKeys = () => {
     const { items } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const keys = Object.values(items).filter(isKey).map(parseItem);
 
-    saveDataMemory(language, keys);
     saveDataJson(`./public/api/${folder}/keys.json`, keys);
 };

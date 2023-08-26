@@ -1,7 +1,6 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 const isCollectible = (item) => {
@@ -110,19 +109,17 @@ const groupByType = (collectibles) => {
 
 export const getCollectibles = () => {
     const { items } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const collectibles = Object.values(items)
         .filter(isCollectible)
         .map(parseItem);
 
-    saveDataMemory(language, collectibles);
     saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
 
     const collectiblesByTypes = groupByType(collectibles);
 
     Object.entries(collectiblesByTypes).forEach(([type, values]) => {
-        saveDataMemory(language, values);
         saveDataJson(
             `./public/api/${folder}/collectibles/${getFileNameByType(type)}`,
             values

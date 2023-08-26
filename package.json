@@ -4,6 +4,7 @@
     "axios": "^0.26.0"
   },
   "scripts": {
-    "update-data": "node index.js"
+    "update-data": "node update.js",
+    "group-data": "node group.js"
   }
 }

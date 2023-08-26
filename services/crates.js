@@ -1,7 +1,6 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
@@ -184,19 +183,17 @@ const parseItem = (item, prefabs) => {
 
 export const getCrates = () => {
     const { items, prefabs } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const crates = Object.values(items)
         .filter(isCrate)
         .map((item) => parseItem(item, prefabs));
 
-    saveDataMemory(language, crates);
     saveDataJson(`./public/api/${folder}/crates.json`, crates);
 
     const cratesByTypes = groupByType(crates);
 
     Object.entries(cratesByTypes).forEach(([type, values]) => {
-        saveDataMemory(language, values);
         saveDataJson(
             `./public/api/${folder}/crates/${getFileNameByType(type)}`,
             values

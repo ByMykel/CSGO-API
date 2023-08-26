@@ -9,9 +9,11 @@ export const state = {
     items: null,
     itemSets: null,
     stickerKits: null,
+    stickerKitsObj: null,
     paintKits: null,
     paintKitsRarity: null,
     musicDefinitions: null,
+    musicDefinitionsObj: null,
     clientLootLists: null,
     revolvingLootLists: null,
     skinsByCrates: null,
@@ -45,6 +47,10 @@ export const loadStickerKits = () => {
                 object_id: key,
             };
         }
+    );
+
+    state.stickerKitsObj = Object.fromEntries(
+        state.stickerKits.map((item) => [item.name, item])
     );
 };
 
@@ -117,6 +123,10 @@ export const loadMusicDefinitions = () => {
             loc_description: item.loc_description,
             coupon_name: `coupon_${item.name}`,
         }));
+
+    state.musicDefinitionsObj = Object.fromEntries(
+        state.musicDefinitions.map((item) => [item.name, item])
+    );
 };
 
 export const loadClientLootLists = () => {
@@ -357,17 +367,16 @@ export const loadStattrakSkins = () => {
 
 const getItemFromKey = (key) => {
     const {
-        stickerKits,
-        musicDefinitions,
         items,
-        paintKits,
         itemsGame,
         rarities,
+        paintKits,
+        stickerKitsObj,
+        musicDefinitionsObj,
     } = state;
 
     if (key.includes("Commodity Pin")) {
         const pin = items[key];
-
         return {
             id: `collection-${pin.object_id}`,
             name: pin.item_name,
@@ -377,38 +386,34 @@ const getItemFromKey = (key) => {
 
     const regex = /\[(?<name>.+?)\](?<type>.+)/;
     const match = key.match(regex);
+    if (!match) {
+        return;
+    }
     const { name, type } = match.groups;
 
     switch (type) {
         case "sticker":
-            const sticker = stickerKits.find((item) => item.name === name);
-            return {
-                id: `sticker-${sticker.object_id}`,
-                name: sticker.item_name,
-                rarity: `rarity_${sticker.item_rarity}`,
-            };
         case "patch":
-            const patch = stickerKits.find((item) => item.name === name);
+            const item = stickerKitsObj[name];
             return {
-                id: `patch-${patch.object_id}`,
-                name: patch.item_name,
-                rarity: `rarity_${patch.item_rarity}`,
+                id: `${type}-${item.object_id}`,
+                name: item.item_name,
+                rarity: `rarity_${item.item_rarity}`,
+            };
+        case "spray":
+            const graffiti = stickerKitsObj[name];
+            return {
+                id: `graffiti-${graffiti.object_id}`,
+                name: graffiti.item_name,
+                rarity: `rarity_${graffiti.item_rarity}`,
             };
         case "musickit":
-            const kit = musicDefinitions.find((item) => item.name === name);
+            const kit = musicDefinitionsObj[name];
             const exclusive = isExclusive(kit.name);
             return {
                 id: `music_kit-${kit.object_id}`,
                 name: exclusive ? kit.loc_name : kit.coupon_name,
-                // TODO: rarity should be translated
                 rarity: "rarity_rare",
-            };
-        case "spray":
-            const spray = stickerKits.find((item) => item.name === name);
-            return {
-                id: `graffiti-${spray.object_id}`,
-                name: spray.item_name,
-                rarity: `rarity_${spray.item_rarity}`,
             };
         // The rest are skins
         default:
