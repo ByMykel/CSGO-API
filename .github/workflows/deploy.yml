@@ -2,10 +2,10 @@ name: Deploy to GitHub pages
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 9 * * *"
 
 jobs:
   build:

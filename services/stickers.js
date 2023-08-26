@@ -1,7 +1,6 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $t, $tc, languageData } from "./translations.js";
+import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import { saveDataMemory } from "../utils/saveDataMemory.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 
@@ -41,10 +40,9 @@ const parseItem = (item) => {
 
 export const getStickers = () => {
     const { stickerKits } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const stickers = stickerKits.filter(isSticker).map(parseItem);
 
-    saveDataMemory(language, stickers);
     saveDataJson(`./public/api/${folder}/stickers.json`, stickers);
 };
