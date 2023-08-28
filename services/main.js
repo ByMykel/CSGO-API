@@ -2,6 +2,7 @@ import axios from "axios";
 import { ITEMS_GAME_URL } from "../constants.js";
 import { isExclusive, isNotWeapon, knives } from "../utils/weapon.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
+import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 export const state = {
     itemsGame: null,
@@ -393,12 +394,22 @@ const getItemFromKey = (key) => {
 
     switch (type) {
         case "sticker":
-        case "patch":
-            const item = stickerKitsObj[name];
+            const sticker = stickerKitsObj[name];
             return {
-                id: `${type}-${item.object_id}`,
-                name: item.item_name,
-                rarity: `rarity_${item.item_rarity}`,
+                id: `${type}-${sticker.object_id}`,
+                name: sticker.item_name,
+                rarity: `rarity_${sticker.item_rarity}`,
+                image: cdn[
+                    `econ/stickers/${sticker.sticker_material.toLowerCase()}_large`
+                ],
+            };
+        case "patch":
+            const patch = stickerKitsObj[name];
+            return {
+                id: `${type}-${patch.object_id}`,
+                name: patch.item_name,
+                rarity: `rarity_${patch.item_rarity}`,
+                image: cdn[`econ/patches/${patch.patch_material}_large`],
             };
         case "spray":
             const graffiti = stickerKitsObj[name];
@@ -406,6 +417,7 @@ const getItemFromKey = (key) => {
                 id: `graffiti-${graffiti.object_id}`,
                 name: graffiti.item_name,
                 rarity: `rarity_${graffiti.item_rarity}`,
+                image: cdn[`econ/stickers/${graffiti.sticker_material}_large`],
             };
         case "musickit":
             const kit = musicDefinitionsObj[name];
@@ -419,6 +431,7 @@ const getItemFromKey = (key) => {
         default:
             let id = "";
             let itemName = "";
+            let image = null;
             const translatedName = !isNotWeapon(type)
                 ? items[type].item_name_prefab
                 : items[type]?.item_name;
@@ -437,11 +450,13 @@ const getItemFromKey = (key) => {
 
             // Not the best way to add vanilla knives.
             if (name === "vanilla") {
+                const knife = knives.find((k) => k.name == type);
                 id = `skin-vanilla-${type}`;
                 itemName = {
                     tKey: "rare_special_vanilla",
-                    weapon: knives.find((k) => k.name == type).item_name,
+                    weapon: knife.item_name,
                 };
+                image = cdn[`econ/weapons/base_weapons/${knife.name}`];
             } else {
                 const weaponIcons = Object.entries(
                     itemsGame.alternate_icons2.weapon_icons
@@ -459,12 +474,14 @@ const getItemFromKey = (key) => {
                         name.toLowerCase()
                     ].description_tag.replace("#", ""),
                 };
+                image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
             }
 
             return {
                 id,
                 name: itemName,
                 rarity,
+                image,
             };
     }
 };
