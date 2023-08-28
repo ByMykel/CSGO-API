@@ -1,6 +1,11 @@
 import axios from "axios";
 import { ITEMS_GAME_URL } from "../constants.js";
-import { isExclusive, isNotWeapon, knives } from "../utils/weapon.js";
+import {
+    getDopplerPhase,
+    isExclusive,
+    isNotWeapon,
+    knives,
+} from "../utils/weapon.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
@@ -431,6 +436,8 @@ const getItemFromKey = (key) => {
         default:
             let id = "";
             let itemName = "";
+            let paint_index = null;
+            let phase = null;
             let image = null;
             const translatedName = !isNotWeapon(type)
                 ? items[type].item_name_prefab
@@ -474,6 +481,10 @@ const getItemFromKey = (key) => {
                         name.toLowerCase()
                     ].description_tag.replace("#", ""),
                 };
+                paint_index = paintKits[name.toLowerCase()]?.paint_index;
+                phase = getDopplerPhase(
+                    paintKits[name.toLowerCase()].paint_index
+                );
                 image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
             }
 
@@ -481,6 +492,8 @@ const getItemFromKey = (key) => {
                 id,
                 name: itemName,
                 rarity,
+                paint_index,
+                phase,
                 image,
             };
     }
