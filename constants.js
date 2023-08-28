@@ -162,10 +162,9 @@ export const LANGUAGES_URL = [
         folder: "uk",
         url: getLanguageUrl("ukrainian"),
     },
-    // Got syntax error while parsing
-    // {
-    // language: "vietnamese",
-    // folder: "vi",
-    // url: getLanguageUrl("vietnamese"),
-    // },
+    {
+        language: "vietnamese",
+        folder: "vi",
+        url: getLanguageUrl("vietnamese"),
+    },
 ];
