@@ -1,5 +1,77 @@
 [
     {
+        "id": "collectible-1000",
+        "name": "Bilet pentru Operațiunea Payback",
+        "description": "Operațiunea Payback s-a desfășurat în perioada 25 aprilie 2013 - 2 septembrie 2013 și a răsplătit creatorii de hărți comunitare cu peste 180.000 USD. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Payback.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass.b17a35da019f3256833ea4089c7df6c2ece80274.png"
+    },
+    {
+        "id": "collectible-1012",
+        "name": "Bilet pentru operațiunea Bravo",
+        "description": "Operațiunea Bravo s-a desfășurat în perioada 19 septembrie 2013 - 5 februarie 2014. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Bravo.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_pass.d8cb196619345c8b5883f515bdb46c5b3de4e995.png"
+    },
+    {
+        "id": "collectible-1023",
+        "name": "Bilet pentru operațiunea Phoenix",
+        "description": "Operațiunea Phoenix s-a desfășurat în perioada 20 februarie 2014 - 11 iunie 2014. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Phoenix.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_pass.ef3b4180e52d2d4a4cbb9fbe2df440b1ee8f0dca.png"
+    },
+    {
+        "id": "collectible-1027",
+        "name": "Bilet cu acces complet pentru Operațiunea Breakout",
+        "description": "Operațiunea Breakout s-a desfășurat în perioada 2 iulie 2014 - 2 octombrie 2014. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Breakout.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_pass.2c84f278eec59611affd866a64e255d6f64b8a44.png"
+    },
+    {
+        "id": "collectible-1315",
+        "name": "Bilet cu acces complet pentru Operațiunea Vanguard",
+        "description": "Operațiunea Vanguard s-a desfășurat în perioada 11 noiembrie 2014 - 31 martie 2015. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Vanguard.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_pass.4dbf27f27c32be69ae74f13f6aaa20da52ae8126.png"
+    },
+    {
+        "id": "collectible-1326",
+        "name": "Bilet de acces pentru Operațiunea Bloodhound",
+        "description": "Operațiunea Bloodhound s-a desfășurat în perioada 26 mai 2015 - 1 octombrie 2015. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Bloodhound.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_pass.6c266208675ae8c4ad41b9ecd09502f7bf0fd97e.png"
+    },
+    {
+        "id": "collectible-1335",
+        "name": "Bilet de acces pentru Operațiunea Wildfire",
+        "description": "Operațiunea Wildfire s-a desfășurat în perioada 17 februarie 2016 - 13 iulie 2016. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Wildfire.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_pass.b32f61c6e309f3a7e65af16b69b247909fcd0c0b.png"
+    },
+    {
+        "id": "collectible-1352",
+        "name": "Bilet de acces pentru Operațiunea Hydra",
+        "description": "Operațiunea Hydra s-a desfășurat în perioada 23 mai 2017 - 14 noiembrie 2017. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Hydra.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_pass.618082f7f809d4e09d021d535bc2aac25c58cffd.png"
+    },
+    {
+        "id": "collectible-4549",
+        "name": "Operațiunea Shattered Web – Bilet premium",
+        "description": "Operațiunea Shattered Web s-a desfășurat în perioada 18 noiembrie 2019 - 31 martie 2020. Acest bilet nu mai oferă acces la o operațiunea, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Shattered Web.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_pass.d5d295b3cc8f44e27d007be7adff692bee8f0e0d.png"
+    },
+    {
         "id": "collectible-4554",
         "name": "Katowice 2019 - Bilet de spectator",
         "description": "Acesta este un bilet de spectator sigilat pentru Campionatul Major de CS:GO IEM Katowice 2019. Odată desigilat, acesta îți va oferi moneda Katowice 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
@@ -30,6 +102,22 @@
         "rarity": null,
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
+    },
+    {
+        "id": "collectible-4699",
+        "name": "Operațiunea Broken Fang – Bilet premium",
+        "description": "Operațiunea Broken Fang s-a desfășurat în perioada 3 decembrie 2020 - 30 aprilie 2021. Acest bilet nu mai oferă acces la o operațiunea, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Broken Fang.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_pass.01c15c3af790fac8b2e3834f9cc6b4bb18805e8d.png"
+    },
+    {
+        "id": "collectible-4758",
+        "name": "Operațiunea Riptide – Bilet premium",
+        "description": "Biletul premium al operațiunii Riptide îți oferă o monedă comemorativă a operațiunii Riptide care poate fi îmbunătățită, misiuni săptămânale și acces la obiectele exclusive din magazinul operațiunii.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_pass.2f9518117457d2500452254f1971dcc00771e1df.png"
     },
     {
         "id": "collectible-4796",

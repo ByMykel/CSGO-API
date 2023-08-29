@@ -1,5 +1,77 @@
 [
     {
+        "id": "collectible-1000",
+        "name": "Operation Payback-pas",
+        "description": "Operation Payback-begivenheden kørte fra 25. april til 2. september 2013 og belønnede fællesskabets baneskabere med over 180.000$. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Payback-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass.b17a35da019f3256833ea4089c7df6c2ece80274.png"
+    },
+    {
+        "id": "collectible-1012",
+        "name": "Operation Bravo-pas",
+        "description": "Operation Bravo-begivenheden kørte fra d. 19. september 2013 til d. 5. februar 2014. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Bravo-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_pass.d8cb196619345c8b5883f515bdb46c5b3de4e995.png"
+    },
+    {
+        "id": "collectible-1023",
+        "name": "Operation Phoenix-pas",
+        "description": "Operation Phoenix-begivenheden kørte fra d. 20. februar 2014 til d. 11. juni 2014. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Phoenix-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_pass.ef3b4180e52d2d4a4cbb9fbe2df440b1ee8f0dca.png"
+    },
+    {
+        "id": "collectible-1027",
+        "name": "Operation Breakout All Access-pas",
+        "description": "Operation Breakout-begivenheden kørte fra d. 2. juli 2014 til d. 2. oktober 2014. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Bravo-erindringsmønt.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_pass.2c84f278eec59611affd866a64e255d6f64b8a44.png"
+    },
+    {
+        "id": "collectible-1315",
+        "name": "Operation Vanguard-adgangspas",
+        "description": "Operation Vanguard-begivenheden kørte fra 11. november 2014 til 31. marts 2015. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Vanguard-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_pass.4dbf27f27c32be69ae74f13f6aaa20da52ae8126.png"
+    },
+    {
+        "id": "collectible-1326",
+        "name": "Operation Bloodhound-adgangspas",
+        "description": "Operation Bloodhound-begivenheden kørte fra 26. maj 2015 til 1. oktober 2015. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Bloodhound-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_pass.6c266208675ae8c4ad41b9ecd09502f7bf0fd97e.png"
+    },
+    {
+        "id": "collectible-1335",
+        "name": "Operation Wildfire-adgangspas",
+        "description": "Operation Wildfire-begivenheden kørte fra 17. februar 2016 til 13. juli 2016. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Wildfire-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_pass.b32f61c6e309f3a7e65af16b69b247909fcd0c0b.png"
+    },
+    {
+        "id": "collectible-1352",
+        "name": "Operation Hydra-adgangspas",
+        "description": "Operation Hydra-begivenheden kørte fra d. 23. maj 2017 til d. 14. november 2017. Dette pas giver ikke længere adgang til en operation men kan indløses for en Operation Hydra-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_pass.618082f7f809d4e09d021d535bc2aac25c58cffd.png"
+    },
+    {
+        "id": "collectible-4549",
+        "name": "Premiumpas til Operation Shattered Web",
+        "description": "Operation Shattered Web-begivenheden kørte fra d. 18. november 2019 til d. 31. marts 2020. Dette pas giver ikke længere adgang til en operation, men kan indløses til en Operation Shattered Web-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_pass.d5d295b3cc8f44e27d007be7adff692bee8f0e0d.png"
+    },
+    {
         "id": "collectible-4554",
         "name": "Katowice 2019-seerpas",
         "description": "This is a sealed IEM 2019 Katowice CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Katowice 2019 Coin tracking your progress throughout the event, full access to the Katowice 2019 Pick'Em Challenge, exclusive access to Souvenir Packages, Steam.tv chat flair, and unlimited team graffiti for the duration of the event.\\n\\nYou can upgrade your Katowice 2019 Coin by completing challenges. You can redeem a Souvenir Package every time you upgrade your Coin.",
@@ -30,6 +102,22 @@
         "rarity": null,
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
+    },
+    {
+        "id": "collectible-4699",
+        "name": "Premiumpas til Operation Broken Fang",
+        "description": "Operation Broken Fang-begivenheden kørte fra d. 3. december 2020 til d. 30. april 2021. Dette pas giver ikke længere adgang til en operation, men kan indløses til en Operation Broken Fang-mønt til minde om den.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_pass.01c15c3af790fac8b2e3834f9cc6b4bb18805e8d.png"
+    },
+    {
+        "id": "collectible-4758",
+        "name": "Premiumpas til Operation Riptide",
+        "description": "Premiumpasset til Operation Riptide giver dig en Operation Riptide-mindemønt, som kan opgraderes, ugentlige missioner og adgang til eksklusive genstande i operationsbutikken.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_pass.2f9518117457d2500452254f1971dcc00771e1df.png"
     },
     {
         "id": "collectible-4796",

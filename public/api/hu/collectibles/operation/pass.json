@@ -1,5 +1,77 @@
 [
     {
+        "id": "collectible-1000",
+        "name": "Operation Payback belépő",
+        "description": "Az Operation Payback esemény 2013. április 25-től szeptember 2-ig tartott, és több mint 180 000 dollárral jutalmazta a közösségi pályakészítőket. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Payback emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass.b17a35da019f3256833ea4089c7df6c2ece80274.png"
+    },
+    {
+        "id": "collectible-1012",
+        "name": "Operation Bravo belépő",
+        "description": "Az Operation Bravo esemény 2013. szeptember 19-től 2014. február 5-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Bravo emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_pass.d8cb196619345c8b5883f515bdb46c5b3de4e995.png"
+    },
+    {
+        "id": "collectible-1023",
+        "name": "Operation Phoenix belépő",
+        "description": "Az Operation Phoenix esemény 2014. február 20-tól 2014. június 11-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Phoenix emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_pass.ef3b4180e52d2d4a4cbb9fbe2df440b1ee8f0dca.png"
+    },
+    {
+        "id": "collectible-1027",
+        "name": "Operation Breakout teljes hozzáférés",
+        "description": "Az Operation Breakout esemény 2014. július 2-től 2014. október 2-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Breakout emlékérmére.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_pass.2c84f278eec59611affd866a64e255d6f64b8a44.png"
+    },
+    {
+        "id": "collectible-1315",
+        "name": "Operation Vanguard hozzáférés belépő",
+        "description": "Az Operation Vanguard esemény 2014. november 11-től 2015. március 31-ig tartott. Ez a belépő már nem ad hozzáférést az Operation eseményhez, de beváltható egy Operation Vanguard emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_pass.4dbf27f27c32be69ae74f13f6aaa20da52ae8126.png"
+    },
+    {
+        "id": "collectible-1326",
+        "name": "Operation Bloodhound hozzáférés belépő",
+        "description": "Az Operation Bloodhound esemény 2015. május 26-tól 2015. október 1-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Bloodhound emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_pass.6c266208675ae8c4ad41b9ecd09502f7bf0fd97e.png"
+    },
+    {
+        "id": "collectible-1335",
+        "name": "Operation Wildfire Belépő",
+        "description": "Az Operation Wildfire esemény 2016. február 17-től 2016. július 13-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Wildfire emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_pass.b32f61c6e309f3a7e65af16b69b247909fcd0c0b.png"
+    },
+    {
+        "id": "collectible-1352",
+        "name": "Operation Hydra Belépő",
+        "description": "Az Operation Hydra esemény 2017. május 23-tól 2017. november 14-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Hydra emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_pass.618082f7f809d4e09d021d535bc2aac25c58cffd.png"
+    },
+    {
+        "id": "collectible-4549",
+        "name": "Operation Shattered Web prémium belépő",
+        "description": "Az Operation Shattered Web esemény 2019. november 18-tól 2020. március 31-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Shattered Web emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_pass.d5d295b3cc8f44e27d007be7adff692bee8f0e0d.png"
+    },
+    {
         "id": "collectible-4554",
         "name": "Katowice 2019 nézői belépő",
         "description": "Ez egy lezárt IEM Katowice 2019 CS:GO Major Bajnokság nézői belépő. Felbontása után megkapod a Katowice 2019 Érmét, ami követi előrehaladásod az esemény során, teljes hozzáférést ad a Katowice 2019 Válassz! Kihíváshoz, exkluzív hozzáférést ad emlékcsomagokhoz, Steam.tv csevegésdíszekhez, és korlátlan csapatfalfirkákat ad az esemény ideje alatt.\\n\\nKihívások teljesítésével fejlesztheted Katowice 2019 érmedet. Valahányszor fejleszted az érmedet, emlékcsomagot vehetsz fel.",
@@ -30,6 +102,22 @@
         "rarity": null,
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
+    },
+    {
+        "id": "collectible-4699",
+        "name": "Operation Broken Fang prémium belépő",
+        "description": "Az Operation Broken Fang esemény 2020. december 3-tól 2021. április 30-ig tartott. Ez a belépő már nem ad hozzáférést Operation eseményhez, de beváltható egy Operation Broken Fang emlékéremre.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_pass.01c15c3af790fac8b2e3834f9cc6b4bb18805e8d.png"
+    },
+    {
+        "id": "collectible-4758",
+        "name": "Operation Riptide prémium belépő",
+        "description": "Az Operation Riptide prémium belépő ad egy fejleszthető Operation Riptide emlékérmet, heti küldetéseket, és hozzáférést exkluzív tárgyakhoz az Operation boltban.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_pass.2f9518117457d2500452254f1971dcc00771e1df.png"
     },
     {
         "id": "collectible-4796",

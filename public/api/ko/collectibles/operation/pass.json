@@ -1,5 +1,77 @@
 [
     {
+        "id": "collectible-1000",
+        "name": "보상 작전 참가권",
+        "description": "2013년 4월 25일부터 9월 2일까지 총 131일 동안 진행된 보상 작전을 통해 커뮤니티 맵 제작자들에게 18만 달러 이상을 지급했습니다. 이제는 이 참가권을 통해 작전에 참여할 수 없게 되었지만, 여전히 기념 코인을 받을 수 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass.b17a35da019f3256833ea4089c7df6c2ece80274.png"
+    },
+    {
+        "id": "collectible-1012",
+        "name": "브라보 작전 참가권",
+        "description": "브라보 작전은 2013년 9월 19일부터 2014년 2월 5일까지 진행되었습니다. 이 참가권은 이미 끝난 작전에 참가할 때 쓸 수는 없지만 브라보 작전 기념 주화로 교환할 수는 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_pass.d8cb196619345c8b5883f515bdb46c5b3de4e995.png"
+    },
+    {
+        "id": "collectible-1023",
+        "name": "불사조 작전 참가권",
+        "description": "불사조 작전은 2014년 2월 20일부터 6월 11일까지 진행되었습니다. 이 참가권으로 이미 끝난 작전에 참가할 수는 없지만 불사조 작전 기념 주화로 교환할 수는 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_pass.ef3b4180e52d2d4a4cbb9fbe2df440b1ee8f0dca.png"
+    },
+    {
+        "id": "collectible-1027",
+        "name": "돌파 작전 무제한 참가권",
+        "description": "돌파 작전은 2014년 6월 2일부터 10월 2일까지 진행되었습니다. 이 참가권으로 이미 끝난 작전에 참가할 수는 없지만 돌파 작전 기념 주화로 교환할 수는 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_pass.2c84f278eec59611affd866a64e255d6f64b8a44.png"
+    },
+    {
+        "id": "collectible-1315",
+        "name": "선봉 작전 참가권",
+        "description": "선봉대 작전은 2014년 11월 11일부터 2015년 3월 31일까지 진행됐습니다. 이 참가권으로는 작전에 참가할 수 없지만 작전 기념 주화로 교환할 수는 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_pass.4dbf27f27c32be69ae74f13f6aaa20da52ae8126.png"
+    },
+    {
+        "id": "collectible-1326",
+        "name": "블러드하운드 작전 참가권",
+        "description": "블러드하운드 작전은 2015년 5월 26일부터 10월 1일까지 진행됐습니다. 이제 이 참가권을 사용해도 작전에 참가할 수는 없지만 블러드하운드 기념 주화를 얻으실 수 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_pass.6c266208675ae8c4ad41b9ecd09502f7bf0fd97e.png"
+    },
+    {
+        "id": "collectible-1335",
+        "name": "들불 작전 참가권",
+        "description": "들불 작전 이벤트는 2016년 2월 17일부터 2016년 7월 13일까지 열립니다. 이 참가권으로 더는 작전을 액세스할 수 없지만, 들불 작전 기념주화를 받을 수 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_pass.b32f61c6e309f3a7e65af16b69b247909fcd0c0b.png"
+    },
+    {
+        "id": "collectible-1352",
+        "name": "히드라 작전 참가권",
+        "description": "히드라 작전 참가권을 드립니다. 참가권에는 업그레이드 가능한 기념 주화, 수호자 캠페인, 전투 참여 시 경험치 추가 획득, 히드라 작전 상자 드롭, 무기 드롭 및 캠페인 일지(캠페인 개요, 현역 점수표, 작전 점수표 및 친구 순위표를 볼 수 있음)와 같은 혜택이 포함되어 있습니다.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_pass.618082f7f809d4e09d021d535bc2aac25c58cffd.png"
+    },
+    {
+        "id": "collectible-4549",
+        "name": "Operation Shattered Web Premium Pass",
+        "description": "The Operation Shattered Web event ran from November 18th, 2019 to March 31st, 2020. This pass no longer grants access to an Operation, but may be redeemed for a commemorative Operation Shattered Web Coin.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_pass.d5d295b3cc8f44e27d007be7adff692bee8f0e0d.png"
+    },
+    {
         "id": "collectible-4554",
         "name": "Katowice 2019 Viewer Pass",
         "description": "This is a sealed IEM 2019 Katowice CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Katowice 2019 Coin tracking your progress throughout the event, full access to the Katowice 2019 Pick'Em Challenge, exclusive access to Souvenir Packages, Steam.tv chat flair, and unlimited team graffiti for the duration of the event.\\n\\nYou can upgrade your Katowice 2019 Coin by completing challenges. You can redeem a Souvenir Package every time you upgrade your Coin.",
@@ -30,6 +102,22 @@
         "rarity": null,
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
+    },
+    {
+        "id": "collectible-4699",
+        "name": "Operation Broken Fang Premium Pass",
+        "description": "The Operation Broken Fang event ran from December 3rd, 2020 to April 30th, 2021. This pass no longer grants access to an Operation, but may be redeemed for a commemorative Operation Broken Fang Coin.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_pass.01c15c3af790fac8b2e3834f9cc6b4bb18805e8d.png"
+    },
+    {
+        "id": "collectible-4758",
+        "name": "Operation Riptide Premium Pass",
+        "description": "The Operation Riptide Premium Pass grants a commemorative upgradeable Operation Riptide Coin, weekly missions, and access to exclusive items in the Operation Shop.",
+        "rarity": null,
+        "type": "Pass",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_pass.2f9518117457d2500452254f1971dcc00771e1df.png"
     },
     {
         "id": "collectible-4796",
