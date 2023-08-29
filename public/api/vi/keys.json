@@ -1,0 +1,537 @@
+[
+    {
+        "id": "key-1204",
+        "name": "Chìa khóa eSports",
+        "description": "Chìa khóa này mở bất kì hòm eSports nào.\\n\\nMột phần doanh thu của chìa khóa này sẽ được tích vào một trong những giải đấu có uy tín của cộng đồng CS:GO. Hãy theo dõi những thông báo sau này.",
+        "crates": [
+            {
+                "id": "crate-4002",
+                "name": "Hòm eSports 2013",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2013.c4fd3c71742688383914a7ef7127652764f4567c.png"
+            },
+            {
+                "id": "crate-4005",
+                "name": "Hòm eSports 2013 mùa đông",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2013_14.a83d1976bb20db8b4a64e7acad93aac87127ddd5.png"
+            },
+            {
+                "id": "crate-4019",
+                "name": "Hòm eSports 2014 hè",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_esports_2014_summer.e579e3f7ca004fd9b51aa0f597590c936bb9f67c.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/weapon_case_key_special_1.6ced14e09f1d1f2f52a648b37d245fc1f1419a34.png"
+    },
+    {
+        "id": "key-1212",
+        "name": "Chìa khóa vỏ nhộng CS:GO",
+        "description": "Chìa khóa này sẽ mở bất kỳ vỏ nhộng Valve Series nào.",
+        "crates": [
+            {
+                "id": "crate-4007",
+                "name": "Gói hình dán",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack01.050d07ce442dc326f33bbb10ade6df941136b479.png"
+            },
+            {
+                "id": "crate-4012",
+                "name": "Gói hình dán 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack02.49c83ded1d25de8cc486de43797b260361bdeff7.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/sticker_crate_key.1a436eb9f66602a8f472adf2afa600271056370c.png"
+    },
+    {
+        "id": "key-1214",
+        "name": "Chìa khóa hòm Winter Offensive",
+        "description": "Chìa khóa này chỉ mở hòm Winter Offensive",
+        "crates": [
+            {
+                "id": "crate-4009",
+                "name": "Hòm vũ khí Winter Offensive",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_1.b176b8ca60249d0a2e7c6d72ec7d2d1a9632bd06.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_1.f168439f93277d8b3869910a3ee649ee4039edb4.png"
+    },
+    {
+        "id": "key-1303",
+        "name": "Chìa khóa hòm chiến dịch Phoenix",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Phoenix",
+        "crates": [
+            {
+                "id": "crate-4011",
+                "name": "Hòm vũ khí chiến dịch Phoenix",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_2.49174abddcccb6519b83d27d0cff476e1c44cc57.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_2.d1bb59f3fd96f4332979690c08dc314f74d484de.png"
+    },
+    {
+        "id": "key-1304",
+        "name": "Chìa khóa gói hình dán cộng đồng 1",
+        "description": "Chìa khóa này có thể mở gói hình dán cộng đồng 1.\\n\\nMột phần doanh thu từ chìa khóa này sẽ được gửi đến các tác giả của hình dán.",
+        "crates": [
+            {
+                "id": "crate-4016",
+                "name": "Gói hình dán cộng đồng 1",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack_community01.86463c48a690c9df0853510aeb9f43275baa2d49.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/sticker_crate_key_community01.1301a32528f2f388b93f0d23a6ca23578bf99569.png"
+    },
+    {
+        "id": "key-1305",
+        "name": "Chìa khóa hòm Huntsman",
+        "description": "Chìa khóa này chỉ mở hòm Huntsman",
+        "crates": [
+            {
+                "id": "crate-4017",
+                "name": "Hòm vũ khí Huntsman",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_3.ce832a92f9fc329dc87d7a802374b918b07cdb84.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_3.37247b8634e99bd7061ed75e9b298cb031b24beb.png"
+    },
+    {
+        "id": "key-1307",
+        "name": "Chìa khóa hòm Huntsman",
+        "description": "Chìa khóa này chỉ mở hòm Huntsman",
+        "crates": [
+            {
+                "id": "crate-4017",
+                "name": "Hòm vũ khí Huntsman",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_3.ce832a92f9fc329dc87d7a802374b918b07cdb84.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_3.37247b8634e99bd7061ed75e9b298cb031b24beb.png"
+    },
+    {
+        "id": "key-1308",
+        "name": "Chìa khóa gói hình dán cộng đồng 1",
+        "description": "Chìa khóa này có thể mở gói hình dán cộng đồng 1.\\n\\nMột phần doanh thu từ chìa khóa này sẽ được gửi đến các tác giả của hình dán.",
+        "crates": [
+            {
+                "id": "crate-4016",
+                "name": "Gói hình dán cộng đồng 1",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack_community01.86463c48a690c9df0853510aeb9f43275baa2d49.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/sticker_crate_key_community01.1301a32528f2f388b93f0d23a6ca23578bf99569.png"
+    },
+    {
+        "id": "key-1309",
+        "name": "Chìa khóa hòm chiến dịch Breakout",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+        "crates": [
+            {
+                "id": "crate-4018",
+                "name": "Hòm vũ khí chiến dịch Breakout",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_4.f0d23848527b7be0f1fc9556b1f3ecfb1193ee40.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_4.9767c63233d8985cd090230ab2bfa29ae05ecdc0.png"
+    },
+    {
+        "id": "key-1310",
+        "name": "Chìa khóa hòm chiến dịch Breakout",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+        "crates": [
+            {
+                "id": "crate-4018",
+                "name": "Hòm vũ khí chiến dịch Breakout",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_4.f0d23848527b7be0f1fc9556b1f3ecfb1193ee40.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_4.9767c63233d8985cd090230ab2bfa29ae05ecdc0.png"
+    },
+    {
+        "id": "key-1311",
+        "name": "Chìa khóa hòm chiến dịch Breakout",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+        "crates": [
+            {
+                "id": "crate-4018",
+                "name": "Hòm vũ khí chiến dịch Breakout",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_4.f0d23848527b7be0f1fc9556b1f3ecfb1193ee40.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_4.9767c63233d8985cd090230ab2bfa29ae05ecdc0.png"
+    },
+    {
+        "id": "key-1313",
+        "name": "Chìa khóa hòm chiến dịch Breakout",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+        "crates": [
+            {
+                "id": "crate-4018",
+                "name": "Hòm vũ khí chiến dịch Breakout",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_4.f0d23848527b7be0f1fc9556b1f3ecfb1193ee40.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_4.9767c63233d8985cd090230ab2bfa29ae05ecdc0.png"
+    },
+    {
+        "id": "key-1322",
+        "name": "Chìa khóa chiến dịch Vanguard",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Vanguard",
+        "crates": [
+            {
+                "id": "crate-4029",
+                "name": "Hòm vũ khí chiến dịch Vanguard",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_5.49a38d2d3afff918ae3b5c5bc2ba2f99b02888f3.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_5.af5e2695975f07d5efbf02de9274e9b1041ff1fc.png"
+    },
+    {
+        "id": "key-1323",
+        "name": "Chìa khóa hòm Chroma",
+        "description": "Chìa khóa này chỉ mở hòm Chroma",
+        "crates": [
+            {
+                "id": "crate-4061",
+                "name": "Hòm Chroma",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_6.4a84ff42a0e0149973c8580dd23f8ba6e7c68142.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_6.f12230edccc052ca8909ea30bc7167d7d9cf4570.png"
+    },
+    {
+        "id": "key-1325",
+        "name": "Chìa khóa hòm Chroma 2",
+        "description": "Chìa khóa này chỉ mở hòm Chroma 2",
+        "crates": [
+            {
+                "id": "crate-4089",
+                "name": "Hòm Chroma 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_7.57286f710260d1a8eb4e93c4795ae7ca980ea981.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_7.c3ad0bf7a20424e64b9eca91bd908c004d5ed3fc.png"
+    },
+    {
+        "id": "key-1330",
+        "name": "Chìa khóa hòm Falchion",
+        "description": "Chìa khóa này chỉ mở hòm Falchion",
+        "crates": [
+            {
+                "id": "crate-4091",
+                "name": "Hòm Falchion",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_8.3cd07b46c7bcb7577453816c5d2f8afdbee98234.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_8.2f80c7209bd0853385326d4a6712e407981a77aa.png"
+    },
+    {
+        "id": "key-1333",
+        "name": "Chìa khóa hòm Shadow",
+        "description": "Chìa khóa này chỉ mở hòm Shadow",
+        "crates": [
+            {
+                "id": "crate-4138",
+                "name": "Hòm Shadow",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_9.e8303075e1a0969497a4502140ea47ecc65b4c50.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_9.c908521108c5cf99bdc5162c6c9ba8d46529a6a5.png"
+    },
+    {
+        "id": "key-1334",
+        "name": "Chìa khóa hòm Revolver",
+        "description": "Chìa khóa này chỉ mở hòm Revolver",
+        "crates": [
+            {
+                "id": "crate-4186",
+                "name": "Hòm Revolver",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_10.a7a2e0b4f6ee7a99b25c531b2d3bdef5147200f7.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_10.4d149d87b12b269d791362e2529cbfafd295f1ca.png"
+    },
+    {
+        "id": "key-1347",
+        "name": "Chìa khóa hòm Chroma 3",
+        "description": "Chìa khóa này chỉ mở hòm Chroma 3",
+        "crates": [
+            {
+                "id": "crate-4233",
+                "name": "Hòm Chroma 3",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_12.7555fc0b45c4d1e0ff1c117af393463f29f20f66.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_12.89e026230580ed4b9ad7e64590105df3476d6714.png"
+    },
+    {
+        "id": "key-1350",
+        "name": "Chìa khóa hòm Gamma",
+        "description": "Chìa khóa này chỉ mở hòm Gamma",
+        "crates": [
+            {
+                "id": "crate-4236",
+                "name": "Hòm Gamma",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_13.9a7d2f757ddbdc915aa005def74ac186a457346a.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_13.7d24fd2e7d65e034b4b35d61cde00c7dfc025a66.png"
+    },
+    {
+        "id": "key-1351",
+        "name": "Chìa khóa hòm Gamma 2",
+        "description": "Chìa khóa này chỉ mở hòm Gamma 2",
+        "crates": [
+            {
+                "id": "crate-4281",
+                "name": "Hòm Gamma 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_gamma_2.ab916b78e7093039642cc7538466bf87cf314363.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_gamma_2.e82ffcea6be229d0d163d84725cced587d22b666.png"
+    },
+    {
+        "id": "key-1356",
+        "name": "Chìa khóa hòm Glove",
+        "description": "Chìa khóa này chỉ mở hòm Glove",
+        "crates": [
+            {
+                "id": "crate-4288",
+                "name": "Hòm Glove",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_15.7dfa18f8f7ce3bc4e55aac0c566fe068e741bddf.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_15.39e77f7c6d1140f7b2cb65011f0edc1e861176d1.png"
+    },
+    {
+        "id": "key-1364",
+        "name": "Chìa khóa hòm Spectrum",
+        "description": "Chìa khóa này chỉ mở hòm Spectrum",
+        "crates": [
+            {
+                "id": "crate-4351",
+                "name": "Hòm Spectrum",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_16.a2ec6a235e52612fa82e5858af3751b6e77f4ec2.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_16.42f16533e06837b72df3b8a467f544c3e0670a95.png"
+    },
+    {
+        "id": "key-1365",
+        "name": "Chìa khóa hòm chiến dịch Hydra",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Hydra",
+        "crates": [
+            {
+                "id": "crate-4352",
+                "name": "Hòm chiến dịch Hydra",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_17.8d4528eca229d65d0c19929ae2078aab38df1369.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_17.17e2ff687cea9d51d46b5deaf6ea1e3a598e82f6.png"
+    },
+    {
+        "id": "key-1366",
+        "name": "Chìa khóa hòm Spectrum 2",
+        "description": "Chìa khóa này chỉ mở hòm Spectrum 2",
+        "crates": [
+            {
+                "id": "crate-4403",
+                "name": "Hòm Spectrum 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_18.4255d9e03d5dad034bbe868622733deeb81434c1.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_18.0d08136cd38dca412e831d79252e196748bbe3ad.png"
+    },
+    {
+        "id": "key-1373",
+        "name": "Chìa khóa hòm Clutch",
+        "description": "Chìa khóa này chỉ mở hòm Clutch",
+        "crates": [
+            {
+                "id": "crate-4471",
+                "name": "Hòm Clutch",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_19.982c3a44362ee65b192b359c12d3d3af9ecb56b2.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_19.c7c8308a5f6d97485064e6cd1b3cf45fb9eb633c.png"
+    },
+    {
+        "id": "key-1374",
+        "name": "Chìa khóa hòm Horizon",
+        "description": "Chìa khóa này chỉ mở hòm Horizon",
+        "crates": [
+            {
+                "id": "crate-4482",
+                "name": "Hòm Horizon",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_20.efee8198ed2e0b6ab4b5bb1e99be04a1308b43fe.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_20.0a6d3621bf5daa2ed67e691208366ca8c96e8944.png"
+    },
+    {
+        "id": "key-1375",
+        "name": "Chìa khóa hòm Danger Zone",
+        "description": "Chìa khóa này chỉ mở hòm Danger Zone",
+        "crates": [
+            {
+                "id": "crate-4548",
+                "name": "Hòm Danger Zone",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_21.0c6cec0c247809e291dea2fe514d46ea21607201.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_21.46f17e4ce1494997204bc5335d4175eb8eb0dfbe.png"
+    },
+    {
+        "id": "key-1383",
+        "name": "Chìa khóa hòm Prisma",
+        "description": "Chìa khóa này chỉ mở hòm Prisma",
+        "crates": [
+            {
+                "id": "crate-4598",
+                "name": "Hòm Prisma",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_22.f223dd42c8d4c3ecf5a03b27416cb523f493d8af.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_22.b45a93ebac18b0379488f6ff74d271d3b3df8c59.png"
+    },
+    {
+        "id": "key-1384",
+        "name": "Chìa khóa hòm Shattered Web",
+        "description": "Chìa khóa này chỉ mở hòm Shattered Web",
+        "crates": [
+            {
+                "id": "crate-4620",
+                "name": "Hòm Shattered Web",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_23.3248a20393f5e73c0ee99448b994e89381565353.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_23.3cee767d650d99117317816fe485211de904e96b.png"
+    },
+    {
+        "id": "key-1385",
+        "name": "Chìa khoá hòm CS20",
+        "description": "Chìa khoá này chỉ mở hòm CS20",
+        "crates": [
+            {
+                "id": "crate-4669",
+                "name": "Hòm CS20",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_24.2b3bab86cb5b63a196342af58c0e4c82986ab54d.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_24.3b12bdea44202cddb02dd3acd3ddabf27c232a30.png"
+    },
+    {
+        "id": "key-1386",
+        "name": "Chìa khóa hòm Prisma 2",
+        "description": "Chìa khóa này chỉ mở hòm Prisma 2",
+        "crates": [
+            {
+                "id": "crate-4695",
+                "name": "Hòm Prisma 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_25.ef3b4b9eeb6cd8c29eb79e23ceb8205d40df4b55.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_25.10fa50527bc460dab06f0d7e719b9161b99bcfb4.png"
+    },
+    {
+        "id": "key-1387",
+        "name": "Chìa khóa hòm Fracture",
+        "description": "Chìa khóa này chỉ mở hòm Fracture",
+        "crates": [
+            {
+                "id": "crate-4698",
+                "name": "Hòm Fracture",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_26.b25098af5a4285004052786e261be43dec5b89cf.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_26.c1f340ba8d20e88ffeb84e49dff5ccf347b4f9fd.png"
+    },
+    {
+        "id": "key-1388",
+        "name": "Chìa khóa hòm chiến dịch Broken Fang",
+        "description": "Chìa khóa này chỉ mở chiến dịch Broken Fang",
+        "crates": [
+            {
+                "id": "crate-4717",
+                "name": "Hòm chiến dịch Broken Fang",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_27.410809461956f26e23d1268152af7bdea7875fb0.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_27.cd7f0dab941fe64c7b7e6fd96f29609e4569016a.png"
+    },
+    {
+        "id": "key-1389",
+        "name": "Chìa khóa hòm Snakebite",
+        "description": "Chìa khóa này chỉ mở hòm Snakebite",
+        "crates": [
+            {
+                "id": "crate-4747",
+                "name": "Hòm Snakebite",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_28.1f6e656d8fc297c9f2b65f2c05b8552d1cc63082.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_28.aec3b08b1751f1f06389fed61f489eb1ac418fff.png"
+    },
+    {
+        "id": "key-1390",
+        "name": "Chìa khóa hòm chiến dịch Riptide",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Riptide",
+        "crates": [
+            {
+                "id": "crate-4790",
+                "name": "Hòm chiến dịch Riptide",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_29.9b830067732b4de110c01fb24cd067a3061b43a8.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_29.e99ba5ac51552cb18672968e388957c48d884e66.png"
+    },
+    {
+        "id": "key-1391",
+        "name": "Chìa khóa hòm Dreams & Nightmares",
+        "description": "Chìa khóa này chỉ mở hòm Dreams & Nightmares",
+        "crates": [
+            {
+                "id": "crate-4818",
+                "name": "Hòm Dreams & Nightmares",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_30.c471a3f74a254c80754f7deec19adaf0df266e23.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_30.7e43a14a5d6c6d2678de7fdc1d91b4bb599d977d.png"
+    },
+    {
+        "id": "key-1392",
+        "name": "Chìa khóa hòm Recoil",
+        "description": "Chìa khóa này chỉ mở hòm Recoil",
+        "crates": [
+            {
+                "id": "crate-4846",
+                "name": "Hòm Recoil",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_31.440b43f4ad3fcfe344ce63b5d8cf59cd8034ba1a.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_31.52815f7f63fa935a0bdec2533215f75b05f6748a.png"
+    },
+    {
+        "id": "key-1393",
+        "name": "Revolution Case Key",
+        "description": "This key only opens Revolution cases",
+        "crates": [
+            {
+                "id": "crate-4880",
+                "name": "Revolution Case",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_32.2d4bcc3d6832d2b4d1d11a273a4ff4bf55dc63a1.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
+    },
+    {
+        "id": "key-7000",
+        "name": "Chìa khóa hòm chiến dịch Wildfire",
+        "description": "Chìa khóa này chỉ mở hòm chiến dịch Wildfire",
+        "crates": [
+            {
+                "id": "crate-4187",
+                "name": "Hòm chiến dịch Wildfire",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_community_11.4839d78c3416c2036da2ed42111df77177828399.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_11.1eeb8a813ef7f45d274b8737171a95167fe4cd1d.png"
+    }
+]

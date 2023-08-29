@@ -1,0 +1,1956 @@
+[
+    {
+        "id": "crate-1210",
+        "name": "Gói quà tặng",
+        "description": "Khi dùng, người chơi ngẫu nhiên trong trận sẽ nhận một vật phẩm ngẫu nhiên như một món quà từ bạn.",
+        "type": null,
+        "first_sale_date": "2013/12/17",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift1player.d7af0c74ccc8314c314c870708c0ae3a0ead32ad.png"
+    },
+    {
+        "id": "crate-1211",
+        "name": "Pa-lét chứa quà tặng",
+        "description": "Khi dùng, tối đa 9 người chơi khác trong trận sẽ nhận một vật phẩm ngẫu nhiên như một món quà từ bạn.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift9players.d17fef24890f21e6de8cbc9690f5198d45cbb617.png"
+    },
+    {
+        "id": "crate-1215",
+        "name": "Gói quà cho khán giả tham dự",
+        "description": "Khi dùng, 25 khán giả đang xem trận đấu của bạn sẽ nhận một vật phẩm bất kỳ như một món quà từ bạn.",
+        "type": null,
+        "first_sale_date": "2013/12/16",
+        "contains": [],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/gift25spectators.2df066096864ba183f903f656abe149b9d1f7a02.png"
+    },
+    {
+        "id": "crate-4668",
+        "name": "Gói X-Ray P250",
+        "description": "Gói này chứa một khẩu P250 được sơn tùy chỉnh để lộ cấu trúc bên trong bằng tia X. P250 là súng độ giật thấp, tốc độ bắn cao, là lựa chọn tiết kiệm để đấu lại đối thủ mặc giáp.",
+        "type": null,
+        "first_sale_date": "2019/10/02",
+        "contains": [
+            {
+                "id": "skin-2359796",
+                "name": "P250 | X-Ray",
+                "rarity": "Hàng hạn chế",
+                "paint_index": "125",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_xray_p250_light_large.4b9f603e1a1dd4de2d64e05bf21168bc8b070bf2.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_xray_p250.a25f07aef78944efdd2ad4bca2a009749b3346e8.png"
+    },
+    {
+        "id": "crate-4871",
+        "name": "Rio 2022 Storage Unit with Paper Stickers",
+        "description": "This is a Storage Unit containing every Paper player autograph and every Paper sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
+        "type": null,
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-6086",
+                "name": "Snappi | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_snappi_large.e017406f0b2a849dc4b0f57f210c723c851ea3ae.png"
+            },
+            {
+                "id": "sticker-6090",
+                "name": "Dycha | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dycha_large.e2904e3e83023a15a574899a6825ccc1c8f7f718.png"
+            },
+            {
+                "id": "sticker-6094",
+                "name": "maden | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_maden_large.db286e06120c0d4ba07bb2c33d0ace8295181177.png"
+            },
+            {
+                "id": "sticker-6098",
+                "name": "v4lde | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_v4lde_large.ef14e6cb06fab1e027d2c5b96f82f7e3e5072913.png"
+            },
+            {
+                "id": "sticker-6102",
+                "name": "SunPayus | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sunpayus_large.2c8b7d3e630c858a6b30ebcdb8e93f9c51d7c90d.png"
+            },
+            {
+                "id": "sticker-6106",
+                "name": "karrigan | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_karrigan_large.11c446cce93b53ce95046b36ece6bdd61d85a582.png"
+            },
+            {
+                "id": "sticker-6110",
+                "name": "rain | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rain_large.ecf60c1263938181cbd06f0cbfbb2ed1d8215781.png"
+            },
+            {
+                "id": "sticker-6114",
+                "name": "Twistzz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_twistzz_large.69a6f56dba5f17901bf30c68a8d2e2c3dde2e765.png"
+            },
+            {
+                "id": "sticker-6118",
+                "name": "ropz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ropz_large.a82890ccffad983eb4f154223ba9de66d1f6aae5.png"
+            },
+            {
+                "id": "sticker-6122",
+                "name": "broky | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_broky_large.b6a0f2518ad94d1a76306c594d5fd5c5a2e65391.png"
+            },
+            {
+                "id": "sticker-6126",
+                "name": "cadiaN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_cadian_large.4f4b35fe8c2e0eed52bcce844f54fed9928c57e4.png"
+            },
+            {
+                "id": "sticker-6130",
+                "name": "TeSeS | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_teses_large.a13db0bc26e74208121444b5c27aece92dc8e302.png"
+            },
+            {
+                "id": "sticker-6134",
+                "name": "sjuush | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sjuush_large.5c4235a21fe670f6e8124dcd499e62c446380f75.png"
+            },
+            {
+                "id": "sticker-6138",
+                "name": "jabbi | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jabbi_large.23599ab78d06ca4fad81ff056bf1d7dd508bff10.png"
+            },
+            {
+                "id": "sticker-6142",
+                "name": "stavn | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_stavn_large.c348428d330da0e481b7ab9c84aa4621c9a92b08.png"
+            },
+            {
+                "id": "sticker-6146",
+                "name": "b1t | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_b1t_large.e18639e9edee1a804429b6ce366f2860afb90786.png"
+            },
+            {
+                "id": "sticker-6150",
+                "name": "electronic | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_electronic_large.b1a2b07ce6517be30dd8a9648a2cf54f96f34002.png"
+            },
+            {
+                "id": "sticker-6154",
+                "name": "sdy | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sdy_large.2981040c9697ba8a6ebd8c59abf0730065ba4dbd.png"
+            },
+            {
+                "id": "sticker-6158",
+                "name": "Perfecto | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_perfecto_large.b1a7312d248e00f189cddafcbeadca3ef1895028.png"
+            },
+            {
+                "id": "sticker-6162",
+                "name": "s1mple | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_s1mple_large.43d0f9ee1a3226ff6cbc41cc48b8c69a56ee00c7.png"
+            },
+            {
+                "id": "sticker-6166",
+                "name": "es3tag | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_es3tag_large.8298ffe45a3af31a777ae302e9a104f187a8fbc6.png"
+            },
+            {
+                "id": "sticker-6170",
+                "name": "Aleksib | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_aleksib_large.cb57804bd662ddc97f8b52dbe5426125cbfb8974.png"
+            },
+            {
+                "id": "sticker-6174",
+                "name": "REZ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rez_large.06b08d4e90171591cfc08978a5c744a624e16751.png"
+            },
+            {
+                "id": "sticker-6178",
+                "name": "hampus | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hampus_large.a819edf4010a4799c0cffa1b1818ee894733f33f.png"
+            },
+            {
+                "id": "sticker-6182",
+                "name": "Brollan | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_brollan_large.44958b9fead0815ce697bb3f92792934a1aba82e.png"
+            },
+            {
+                "id": "sticker-6186",
+                "name": "slaxz- | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_slaxz_large.0ef19c3441f8e91a296222cce8db0d95406bfb4b.png"
+            },
+            {
+                "id": "sticker-6190",
+                "name": "lauNX | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_launx_large.d384cbc6ab067ce331ac68522200e21ad4c11ded.png"
+            },
+            {
+                "id": "sticker-6194",
+                "name": "refrezh | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_refrezh_large.05a51575674c454be81b7f7ede95e39724675b6a.png"
+            },
+            {
+                "id": "sticker-6198",
+                "name": "Staehr | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_staehr_large.f926122d269a33f37fbe3943d602d59a6c789f2d.png"
+            },
+            {
+                "id": "sticker-6202",
+                "name": "Zyphon | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_zyphon_large.930343ebdab8b738a32db8b341ebf5baf0282e10.png"
+            },
+            {
+                "id": "sticker-6206",
+                "name": "YEKINDAR | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_yekindar_large.671a4ec0e0b39ebf605c38cdf398df27bdbd8b7d.png"
+            },
+            {
+                "id": "sticker-6210",
+                "name": "oSee | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_osee_large.b365e3779afac2312fed1b7d1c63d705db209470.png"
+            },
+            {
+                "id": "sticker-6214",
+                "name": "nitr0 | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nitro_large.b31028e5040c04e62df9cc532d59f7c1f6ae2aab.png"
+            },
+            {
+                "id": "sticker-6218",
+                "name": "NAF | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_naf_large.d1e31a1489060ce57c054bf69d84161496896c24.png"
+            },
+            {
+                "id": "sticker-6222",
+                "name": "EliGE | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_elige_large.57472f9813a96537333cf49dc21cf4cdaef8b25c.png"
+            },
+            {
+                "id": "sticker-6226",
+                "name": "chopper | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_large.6b1b2a5e66b7f8c49f278d65d93f135a84ce0c8b.png"
+            },
+            {
+                "id": "sticker-6230",
+                "name": "magixx | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_magixx_large.2d0a3186f48318815fc57de2b2971ac24bd89650.png"
+            },
+            {
+                "id": "sticker-6234",
+                "name": "Patsi | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_patsi_large.cc23187c046cb9f53bffc99819f1029495a89e76.png"
+            },
+            {
+                "id": "sticker-6238",
+                "name": "S1ren | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_s1ren_large.f029532210e4bdb706ebdc3eea309be89fc681f7.png"
+            },
+            {
+                "id": "sticker-6242",
+                "name": "w0nderful | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_w0nderful_large.edc8950e26acfae0c823b5629296f4e392ca7000.png"
+            },
+            {
+                "id": "sticker-6246",
+                "name": "NQZ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nqz_large.f218af7e322946968526ef69b118a156c12c3c2e.png"
+            },
+            {
+                "id": "sticker-6250",
+                "name": "dav1deuS | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dav1deus_large.99f9c173d0d4607d6f48a32ae8b46312515c4198.png"
+            },
+            {
+                "id": "sticker-6254",
+                "name": "max | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_max_large.b0164d548dd8aed930ceb864f99589d3fb821490.png"
+            },
+            {
+                "id": "sticker-6258",
+                "name": "dgt | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dgt_large.04ec31a338fbb8d4af9b49be6f81bf195dbacb65.png"
+            },
+            {
+                "id": "sticker-6262",
+                "name": "BUDA | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_buda_large.7b4efd4c30357ae76d9ceb5958630aa3ac7a4536.png"
+            },
+            {
+                "id": "sticker-6266",
+                "name": "gxx- | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_gxx_large.259c45c7ea74080eeb6fe3873d893c856cbb1cf1.png"
+            },
+            {
+                "id": "sticker-6270",
+                "name": "SENER1 | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sener1_large.f27e09b8f9144fb40ea12ac634bb431dec2f24fb.png"
+            },
+            {
+                "id": "sticker-6274",
+                "name": "juanflatroo | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_juanflatroo_large.cca68ff54c161d645eb86eddb3d0e15c0bf7077b.png"
+            },
+            {
+                "id": "sticker-6278",
+                "name": "rigoN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rigon_large.8e4b7cd6335dba9a54ae3bf9c894db376155652a.png"
+            },
+            {
+                "id": "sticker-6282",
+                "name": "sinnopsyy | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sinnopsyy_large.705ddb5154bc4c9d99d2bd6edc101d209f3e538c.png"
+            },
+            {
+                "id": "sticker-6286",
+                "name": "faveN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_faven_large.79047f6bdee1f43c9a3192a9425693013c676b63.png"
+            },
+            {
+                "id": "sticker-6290",
+                "name": "Krimbo | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_krimbo_large.c6d57faefe10dd6338ec1234e9f2903c36a45582.png"
+            },
+            {
+                "id": "sticker-6294",
+                "name": "k1to | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_k1to_large.409eae9c0a7526c237e49fcdb3fa1cbb687524a7.png"
+            },
+            {
+                "id": "sticker-6298",
+                "name": "tabseN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_tabsen_large.9764c330ab42b793ec57e0e31888eef38be41152.png"
+            },
+            {
+                "id": "sticker-6302",
+                "name": "syrsoN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_syrson_large.1f57a194621d840461e2ecd10162a8ae7eb442bb.png"
+            },
+            {
+                "id": "sticker-6306",
+                "name": "sh1ro | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sh1ro_large.b733ea8da3bcd4a6f1d7ebff34ea4794d7397cc6.png"
+            },
+            {
+                "id": "sticker-6310",
+                "name": "nafany | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nafany_large.3e8bfc825d4d196868a70cb3783ae10011a313ff.png"
+            },
+            {
+                "id": "sticker-6314",
+                "name": "Ax1Le | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ax1le_large.d3e224ab99bd3d709a936c83ab7aaa6ec3588cf9.png"
+            },
+            {
+                "id": "sticker-6318",
+                "name": "interz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_interz_large.4e848a704fe0d93a588e03b6b75a7bd91a128bd8.png"
+            },
+            {
+                "id": "sticker-6322",
+                "name": "Hobbit | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hobbit_large.7542658a2116f2a3066b7e0ae9fc0e5d47875a92.png"
+            },
+            {
+                "id": "sticker-6326",
+                "name": "autimatic | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_autimatic_large.0b33254959329defded948da1f2933755673f0af.png"
+            },
+            {
+                "id": "sticker-6330",
+                "name": "neaLaN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nealan_large.75afb1623d13654b2c65fef4a29570f9508a796e.png"
+            },
+            {
+                "id": "sticker-6334",
+                "name": "Brehze | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_brehze_large.eb54d7d0cb9cebfbe583fb23dd8e8763bc07bcdf.png"
+            },
+            {
+                "id": "sticker-6338",
+                "name": "HexT | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hext_large.3831050f598c57f7bde15b6d6295248547a7576e.png"
+            },
+            {
+                "id": "sticker-6342",
+                "name": "CeRq | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_cerq_large.94b66a2189382febbce7a5fc6a1bb64d7775ee57.png"
+            },
+            {
+                "id": "sticker-6346",
+                "name": "frozen | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_frozen_large.f8a3cb4a37aee8048920f5ba57e0f145b32f3cdd.png"
+            },
+            {
+                "id": "sticker-6350",
+                "name": "dexter | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dexter_large.1cc83da8961d4820ca94c63c364873a5a937d367.png"
+            },
+            {
+                "id": "sticker-6354",
+                "name": "JDC | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jdc_large.e567b7d6c300b0a1abc70187884e297eac65290f.png"
+            },
+            {
+                "id": "sticker-6358",
+                "name": "torzsi | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_torzsi_large.17f545e04376a6b7eaf9437bd99d3d156ffb1a89.png"
+            },
+            {
+                "id": "sticker-6362",
+                "name": "xertioN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_xertion_large.793b1d44f3b7edf76c9ef1d5f7972071c5fe28a3.png"
+            },
+            {
+                "id": "sticker-6366",
+                "name": "nexa | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nexa_large.4566e062309a51f859e3078d75e7577153bfc129.png"
+            },
+            {
+                "id": "sticker-6370",
+                "name": "NEOFRAG | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_neofrag_large.1f70739d4d7ca523f03d63e17c397f212f27dc4c.png"
+            },
+            {
+                "id": "sticker-6374",
+                "name": "FlameZ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_flamez_large.9fdd64e8e3e57a4a20ac94cc85f4b530962942ff.png"
+            },
+            {
+                "id": "sticker-6378",
+                "name": "degster | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_degster_large.aecb747964a9f77bda854e4223da464df11af6e1.png"
+            },
+            {
+                "id": "sticker-6382",
+                "name": "F1KU | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_f1ku_large.d12ab7c6746f388d06446395e56431067be39aab.png"
+            },
+            {
+                "id": "sticker-6386",
+                "name": "dupreeh | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dupreeh_large.572f3b5a2ca7fc2151875f378e93aa3d5cc2c9bf.png"
+            },
+            {
+                "id": "sticker-6390",
+                "name": "Magisk | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_magisk_large.fae6b05be9cc66e4cdaf3a18cce2befe1436b45f.png"
+            },
+            {
+                "id": "sticker-6394",
+                "name": "apEX | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_apex_large.733876a0410d8f464abd1ff6e4d1f808b6db06d6.png"
+            },
+            {
+                "id": "sticker-6398",
+                "name": "Spinx | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_spinx_large.fd912cf7a92cb196b3e8957a8c51116f8ffe03e2.png"
+            },
+            {
+                "id": "sticker-6402",
+                "name": "ZywOo | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_zywoo_large.46cf16106276640951cdfa78c0d9d4bd0305a65e.png"
+            },
+            {
+                "id": "sticker-6406",
+                "name": "TACO | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_taco_large.4d569204d4792955b6e9427b085709b20b4fc038.png"
+            },
+            {
+                "id": "sticker-6410",
+                "name": "coldzera | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_coldzera_large.8a1c7bc3fdbbad82575d82ba1652f3cb94316b32.png"
+            },
+            {
+                "id": "sticker-6414",
+                "name": "TRY | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_try_large.35b3b0c8b9cd4dab95371c67f4f7f05948f8eed7.png"
+            },
+            {
+                "id": "sticker-6418",
+                "name": "latto | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_latto_large.f5058506a2a30eb354eb63e98d43573216c3e07c.png"
+            },
+            {
+                "id": "sticker-6422",
+                "name": "dumau | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dumau_large.b0f329ba1f6619605bc42db774a28a6c8c6f091b.png"
+            },
+            {
+                "id": "sticker-6426",
+                "name": "KRIMZ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_krimz_large.053d3edc9c333d87f557df6148254e28006ae067.png"
+            },
+            {
+                "id": "sticker-6430",
+                "name": "mezii | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_mezii_large.3d2f0d2e400cfa8b52ff7013dcca930a44201f01.png"
+            },
+            {
+                "id": "sticker-6434",
+                "name": "FASHR | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fashr_large.0404bdd18761fc68724fa9d36ffffdea302a7c96.png"
+            },
+            {
+                "id": "sticker-6438",
+                "name": "roeJ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_roej_large.5ed014c5d51c29772deefe9beadc63fcd2b3620d.png"
+            },
+            {
+                "id": "sticker-6442",
+                "name": "nicoodoz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nicoodoz_large.c3afc7c1adf430cf5a66d6aea4754b647bd01057.png"
+            },
+            {
+                "id": "sticker-6446",
+                "name": "KSCERATO | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_kscerato_large.ae8243c3512ffc1ed4d14e94549328c6aa39b4ae.png"
+            },
+            {
+                "id": "sticker-6450",
+                "name": "yuurih | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_yuurih_large.e2582251edda427a32a66d318aa4d70b9654112c.png"
+            },
+            {
+                "id": "sticker-6454",
+                "name": "drop | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_drop_large.0630a8aad19002a51cfd6386910b6f1a2331a603.png"
+            },
+            {
+                "id": "sticker-6458",
+                "name": "saffee | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_saffee_large.515c3db5e7e129da487ea95cb27bac1f3b9c4ea4.png"
+            },
+            {
+                "id": "sticker-6462",
+                "name": "arT | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_art_large.daf028854d4ef9c45027cf8efd19749d21f59ade.png"
+            },
+            {
+                "id": "sticker-6466",
+                "name": "acoR | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_acor_large.75bc571e9eb306617fe7df4e3ee7b0535a059055.png"
+            },
+            {
+                "id": "sticker-6470",
+                "name": "iM | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_im_large.3ead0ef7cc5945269c6188be4acfde41e8972d8e.png"
+            },
+            {
+                "id": "sticker-6474",
+                "name": "siuhy | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_siuhy_large.be97c222b63390c7118e2e5ba312cf4f9d2df864.png"
+            },
+            {
+                "id": "sticker-6478",
+                "name": "Keoz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_keoz_large.47e031534c0d016c8d1da943729f472c770dfb62.png"
+            },
+            {
+                "id": "sticker-6482",
+                "name": "isak | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_isak_large.51df687e69897c6edb606fdd11a00c214f7d1e8d.png"
+            },
+            {
+                "id": "sticker-6486",
+                "name": "INS | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ins_large.64e755277a41480b4e89a5280c6a525ada415761.png"
+            },
+            {
+                "id": "sticker-6490",
+                "name": "vexite | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_vexite_large.e42a16dce53f3f7e6674528eadcb09dc2b18c4bf.png"
+            },
+            {
+                "id": "sticker-6494",
+                "name": "Sico | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sico_large.ffb531602d1cdbd4b0674068fd96fcee3638fc60.png"
+            },
+            {
+                "id": "sticker-6498",
+                "name": "Liazz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_liazz_large.3146e89a577e8108db0db3f6e28fdf6be127bab3.png"
+            },
+            {
+                "id": "sticker-6502",
+                "name": "aliStair | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_alistair_large.75b566639c7c090d31019c0dd18fdfd0b6a1e140.png"
+            },
+            {
+                "id": "sticker-6506",
+                "name": "sk0R | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sk0r_large.45249b34aa50dd64acee2e635b37959b98f04454.png"
+            },
+            {
+                "id": "sticker-6510",
+                "name": "Techno4K | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_techno4k_large.01be8aae5a79fd02e2f3bb30cb52193d725a2a1c.png"
+            },
+            {
+                "id": "sticker-6514",
+                "name": "kabal | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_kabal_large.21b3ac0e3b05682f0fd4bd6ce10e402e56982ce2.png"
+            },
+            {
+                "id": "sticker-6518",
+                "name": "bLitz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_blitz_large.6e43d09dde2c30de63c4633032e887b7c649952f.png"
+            },
+            {
+                "id": "sticker-6522",
+                "name": "ANNIHILATION | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_annihilation_large.69284cbd900b5ffb1a661fabd7407446570b213f.png"
+            },
+            {
+                "id": "sticker-6526",
+                "name": "FalleN | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fallen_large.803bc593da316955902c2ccfef6695d295f5d9c0.png"
+            },
+            {
+                "id": "sticker-6530",
+                "name": "fer | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fer_large.c40c92816adb94d3a19a778e8e7d79f0c3c61dae.png"
+            },
+            {
+                "id": "sticker-6534",
+                "name": "boltz | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_boltz_large.843ce13c7bac589a0ac57f52c94641c2f2247603.png"
+            },
+            {
+                "id": "sticker-6538",
+                "name": "VINI | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_vini_large.163fc2521a61631129dba4664ba1db6793f78650.png"
+            },
+            {
+                "id": "sticker-6542",
+                "name": "chelo | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chelo_large.c603b22eb98168694dac389ad4b12e04a736b5dd.png"
+            },
+            {
+                "id": "sticker-6546",
+                "name": "FL1T | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fl1t_large.6a561aa634befe5bef9951a36ee6af2f42b6e1a3.png"
+            },
+            {
+                "id": "sticker-6550",
+                "name": "n0rb3r7 | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_n0rb3r7_large.4cfa0de7022a5f33f56de0a7008b85700d0edcb0.png"
+            },
+            {
+                "id": "sticker-6554",
+                "name": "Jame | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jame_large.6c5176f92bef696357f06c679ee2b23dd155f6b2.png"
+            },
+            {
+                "id": "sticker-6558",
+                "name": "qikert | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_qikert_large.02a8a611e7f26085c1c527963f3aca4350953939.png"
+            },
+            {
+                "id": "sticker-6562",
+                "name": "fame | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fame_large.00a06bdd7b40f873668542c11e58e1d24c72b7d0.png"
+            },
+            {
+                "id": "sticker-5961",
+                "name": "ENCE | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/ence_large.d843336feed2975a05c1af248b0b897132130fe6.png"
+            },
+            {
+                "id": "sticker-5965",
+                "name": "FaZe Clan | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/faze_large.0f61764532a9f577250f8de8bd6a8082b5e4e66a.png"
+            },
+            {
+                "id": "sticker-5969",
+                "name": "Heroic | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/hero_large.58c76fe6aafa8a84756d932a1cd76fe4314dfeaa.png"
+            },
+            {
+                "id": "sticker-5973",
+                "name": "Natus Vincere | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/navi_large.6e3485b4d80bd407b23c1950b7d23978deeb1227.png"
+            },
+            {
+                "id": "sticker-5977",
+                "name": "Ninjas in Pyjamas | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/nip_large.26120b8b76cabc5c61bc34222bb0beb52ec60bc0.png"
+            },
+            {
+                "id": "sticker-5981",
+                "name": "Sprout Esports | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/spr_large.ad4f2b798ff8e3b3304192e82fa8d1cb59ee7cd3.png"
+            },
+            {
+                "id": "sticker-5985",
+                "name": "Team Liquid | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/liq_large.d118fdb639f00d79d0b7dcba03eba465836131c8.png"
+            },
+            {
+                "id": "sticker-5989",
+                "name": "Team Spirit | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/spir_large.e91545c7ab2e7171a0538a56fd739101c38b2ef3.png"
+            },
+            {
+                "id": "sticker-5993",
+                "name": "9z Team | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/nine_large.468c6805809add5ea3fafeeca88f76d6a85ee3be.png"
+            },
+            {
+                "id": "sticker-5997",
+                "name": "Bad News Eagles | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/bne_large.1b362f77cfd5334848033de7a4e140961812d896.png"
+            },
+            {
+                "id": "sticker-6001",
+                "name": "BIG | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/big_large.6625e0dca297be099746b60809afba3ada0be546.png"
+            },
+            {
+                "id": "sticker-6005",
+                "name": "Cloud9 | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/c9_large.30fefe7e33c9410f66c12da1969054b1d486144c.png"
+            },
+            {
+                "id": "sticker-6009",
+                "name": "Evil Geniuses | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/evl_large.b7f398cbcdbe2d03d9ca6148ae6fbe5e308aae91.png"
+            },
+            {
+                "id": "sticker-6013",
+                "name": "MOUZ | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/mouz_large.a41bd6d66c31e9ffaaa37d5d8cb0a029c421ac55.png"
+            },
+            {
+                "id": "sticker-6017",
+                "name": "OG | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/og_large.5a8feaf225daefb9713602ecce7d6cb88fa6cdd1.png"
+            },
+            {
+                "id": "sticker-6021",
+                "name": "Vitality | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/vita_large.ac3679a35f1de2381c04fbbe7fe550a47496718b.png"
+            },
+            {
+                "id": "sticker-6025",
+                "name": "00 Nation | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/zzn_large.246ed006b071b28049bac9990ead808e993b5404.png"
+            },
+            {
+                "id": "sticker-6029",
+                "name": "Fnatic | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/fntc_large.57b358e1d05c917b9108ae7f9c38b54f1dd9a178.png"
+            },
+            {
+                "id": "sticker-6033",
+                "name": "FURIA | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/furi_large.dada8de9acf6f8530c6bae6498f6492b7040fc17.png"
+            },
+            {
+                "id": "sticker-6037",
+                "name": "GamerLegion | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/gl_large.4d54c5b8dab7c5bbf683d45709883886c8eee7ea.png"
+            },
+            {
+                "id": "sticker-6041",
+                "name": "Grayhound Gaming | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/gray_large.e994e8661a3005a2d142428626f734dd0ec7b79f.png"
+            },
+            {
+                "id": "sticker-6045",
+                "name": "IHC Esports | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/ihc_large.4ec37d60e399739d5a18eb4b8f57f2773e2e71ff.png"
+            },
+            {
+                "id": "sticker-6049",
+                "name": "Imperial Esports | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/imp_large.5cd365c3ae7daffbe8a2a6df895be46ba2f414aa.png"
+            },
+            {
+                "id": "sticker-6053",
+                "name": "Outsiders | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/out_large.dad44df4c1654ead1b67c6ce16b4974b75a5b117.png"
+            },
+            {
+                "id": "sticker-6057",
+                "name": "IEM | Rio 2022",
+                "rarity": "Hạng cao cấp",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/iem_large.7427f60e693c7acabd993879ca237e4dcebacd1b.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_0.4ebc70533404b253a925819a91240e5313491f1b.png"
+    },
+    {
+        "id": "crate-4872",
+        "name": "Rio 2022 Storage Unit with Glitter Stickers",
+        "description": "This is a Storage Unit containing every Glitter player autograph and every Glitter sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
+        "type": null,
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-6087",
+                "name": "Snappi (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_snappi_glitter_large.82e2c89bb5620ac84590db06e139bb2d63bd85ea.png"
+            },
+            {
+                "id": "sticker-6091",
+                "name": "Dycha (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dycha_glitter_large.4873dacd77ec9632c20af17709b89f26099eec8d.png"
+            },
+            {
+                "id": "sticker-6095",
+                "name": "maden (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_maden_glitter_large.804c6a24bf8d1c039eb46eed221a410e62b50b90.png"
+            },
+            {
+                "id": "sticker-6099",
+                "name": "v4lde (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_v4lde_glitter_large.d6a89b0510601fddb9f2a40398d096185b439cf2.png"
+            },
+            {
+                "id": "sticker-6103",
+                "name": "SunPayus (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sunpayus_glitter_large.67ade70f759dbbc04be1542b1bba7d4a3cdf48f5.png"
+            },
+            {
+                "id": "sticker-6107",
+                "name": "karrigan (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_karrigan_glitter_large.f17d85c648c73413d6d00f3628b75e4ceb5d891a.png"
+            },
+            {
+                "id": "sticker-6111",
+                "name": "rain (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rain_glitter_large.d097b1ea1f0b86de6b441523bcf176843a1346e5.png"
+            },
+            {
+                "id": "sticker-6115",
+                "name": "Twistzz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_twistzz_glitter_large.1ae8c2e86a3a7255dff11fd681aff2c471b297d9.png"
+            },
+            {
+                "id": "sticker-6119",
+                "name": "ropz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ropz_glitter_large.338b1006673ca8e1292bc3b1c5bb64bc12cae0d7.png"
+            },
+            {
+                "id": "sticker-6123",
+                "name": "broky (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_broky_glitter_large.7b0243bf0e94ef2ef8a6643197273c440a281ba3.png"
+            },
+            {
+                "id": "sticker-6127",
+                "name": "cadiaN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_cadian_glitter_large.6416ac752cb3dcc81e212fafb09812c1838dd7cd.png"
+            },
+            {
+                "id": "sticker-6131",
+                "name": "TeSeS (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_teses_glitter_large.3d1d470f9b4a2db0f32c34f108247563aa709783.png"
+            },
+            {
+                "id": "sticker-6135",
+                "name": "sjuush (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sjuush_glitter_large.e74ba61b579630ecb796c56e955a50c9bdd292a1.png"
+            },
+            {
+                "id": "sticker-6139",
+                "name": "jabbi (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jabbi_glitter_large.64543cb9c6be935f0fb9ec4dadc3d3b0b8928dbb.png"
+            },
+            {
+                "id": "sticker-6143",
+                "name": "stavn (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_stavn_glitter_large.4e0ad71296f3caa7f354fe16f1f9ec99f9293613.png"
+            },
+            {
+                "id": "sticker-6147",
+                "name": "b1t (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_b1t_glitter_large.7fe888be1da557d777b0e79d014a0972b8574513.png"
+            },
+            {
+                "id": "sticker-6151",
+                "name": "electronic (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_electronic_glitter_large.077a0a9061d0e0fa943dcb7c10290092814f21ed.png"
+            },
+            {
+                "id": "sticker-6155",
+                "name": "sdy (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sdy_glitter_large.eb488a668cde1425a50e8535ebb34b43b1d1d9d8.png"
+            },
+            {
+                "id": "sticker-6159",
+                "name": "Perfecto (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_perfecto_glitter_large.7fb5d076acd2f244e9e7b09aaa6e8db6c67a5aed.png"
+            },
+            {
+                "id": "sticker-6163",
+                "name": "s1mple (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_s1mple_glitter_large.233500b50e671b7bc052b7a2a5fab8dec3125ee5.png"
+            },
+            {
+                "id": "sticker-6167",
+                "name": "es3tag (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_es3tag_glitter_large.d99fa915072d74da50bb40f00e5d91a8932fe2e1.png"
+            },
+            {
+                "id": "sticker-6171",
+                "name": "Aleksib (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_aleksib_glitter_large.0a7a6b15136e3c7c57b7ec50d7b331e24c07025c.png"
+            },
+            {
+                "id": "sticker-6175",
+                "name": "REZ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rez_glitter_large.7b6be7c282648fbc54d292385bccdbf8e3da9009.png"
+            },
+            {
+                "id": "sticker-6179",
+                "name": "hampus (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hampus_glitter_large.cee3e7d59e2750c185d3c317056002ca45933a0d.png"
+            },
+            {
+                "id": "sticker-6183",
+                "name": "Brollan (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_brollan_glitter_large.45df2a0fce458acedfa5d5e92a20842bb32e0574.png"
+            },
+            {
+                "id": "sticker-6187",
+                "name": "slaxz- (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_slaxz_glitter_large.46e663e8c0222172e5a24572cb5d7c2eb8badfc1.png"
+            },
+            {
+                "id": "sticker-6191",
+                "name": "lauNX (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_launx_glitter_large.79c35cb2240528f6160f8ff0ecf52994bc3ff371.png"
+            },
+            {
+                "id": "sticker-6195",
+                "name": "refrezh (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_refrezh_glitter_large.36edaf83bc00631dd61f01dca41cd1fbc167126b.png"
+            },
+            {
+                "id": "sticker-6199",
+                "name": "Staehr (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_staehr_glitter_large.0b03dc1e5e5afef0fe19ea713e1ea875a12c389d.png"
+            },
+            {
+                "id": "sticker-6203",
+                "name": "Zyphon (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_zyphon_glitter_large.bca2e6906d4c9af638609db18c53b5b2467289ef.png"
+            },
+            {
+                "id": "sticker-6207",
+                "name": "YEKINDAR (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_yekindar_glitter_large.9a6491e881b3cb772974253d63135c87bab42e54.png"
+            },
+            {
+                "id": "sticker-6211",
+                "name": "oSee (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_osee_glitter_large.5d29835fa56dae31b2ef4736329129917d8d772e.png"
+            },
+            {
+                "id": "sticker-6215",
+                "name": "nitr0 (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nitro_glitter_large.1568d5a69e97c52b9825fcfc3202aee6dfc59274.png"
+            },
+            {
+                "id": "sticker-6219",
+                "name": "NAF (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_naf_glitter_large.4309fcd2c8f571814275d65a0c3523b1dcc4abc4.png"
+            },
+            {
+                "id": "sticker-6223",
+                "name": "EliGE (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_elige_glitter_large.fc4fec6edc84604325be3cae914bd29188fc3c55.png"
+            },
+            {
+                "id": "sticker-6227",
+                "name": "chopper (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_glitter_large.877964f6109e8cc6eae87d1f3bb6d85345137f83.png"
+            },
+            {
+                "id": "sticker-6231",
+                "name": "magixx (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_magixx_glitter_large.8dbfb021daf70c8e4cd1ff788415f1cb5ccfb77c.png"
+            },
+            {
+                "id": "sticker-6235",
+                "name": "Patsi (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_patsi_glitter_large.fe20cbfe3adf68d7a551da152f0edde06d8e6c08.png"
+            },
+            {
+                "id": "sticker-6239",
+                "name": "S1ren (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_s1ren_glitter_large.5ecd02f2b8d2568c85ff7a08cdd1f690cd4b0b65.png"
+            },
+            {
+                "id": "sticker-6243",
+                "name": "w0nderful (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_w0nderful_glitter_large.2106f2a57973b946ab5ced310fc596579d705262.png"
+            },
+            {
+                "id": "sticker-6247",
+                "name": "NQZ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nqz_glitter_large.99681e0378c0961c3b415f224aaef7672f2bcd1a.png"
+            },
+            {
+                "id": "sticker-6251",
+                "name": "dav1deuS (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dav1deus_glitter_large.9d91576eb7e2691ed1531622b717bdc29a46a4ee.png"
+            },
+            {
+                "id": "sticker-6255",
+                "name": "max (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_max_glitter_large.3a067897e700d60bc6ba05b95978c5e44f1ed8e5.png"
+            },
+            {
+                "id": "sticker-6259",
+                "name": "dgt (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dgt_glitter_large.a43136f8494ebb7432650a5441a56aafc84665a7.png"
+            },
+            {
+                "id": "sticker-6263",
+                "name": "BUDA (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_buda_glitter_large.c10948e401021c5d5be9af1380a8ca3a37bfb6bc.png"
+            },
+            {
+                "id": "sticker-6267",
+                "name": "gxx- (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_gxx_glitter_large.070c8caeff6416763b092da9cacac6b8a00c1a25.png"
+            },
+            {
+                "id": "sticker-6271",
+                "name": "SENER1 (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sener1_glitter_large.456199b481b1b11e575eec70831ce44df2fed631.png"
+            },
+            {
+                "id": "sticker-6275",
+                "name": "juanflatroo (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_juanflatroo_glitter_large.6f7b396ff1b9b5cb4cbba466efc21d0d0e6afc57.png"
+            },
+            {
+                "id": "sticker-6279",
+                "name": "rigoN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_rigon_glitter_large.e090ed256130d98c1439e2e109aa55b56ce5ea6f.png"
+            },
+            {
+                "id": "sticker-6283",
+                "name": "sinnopsyy (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sinnopsyy_glitter_large.6a18592fcf4cb5e7f42405ccfcd26440ba8d5a46.png"
+            },
+            {
+                "id": "sticker-6287",
+                "name": "faveN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_faven_glitter_large.ba3f2252416ac720b47bcbf627175aa04e708cf2.png"
+            },
+            {
+                "id": "sticker-6291",
+                "name": "Krimbo (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_krimbo_glitter_large.bbbaacb43fabefdc6a4cdf3a1860b5e24a642ee8.png"
+            },
+            {
+                "id": "sticker-6295",
+                "name": "k1to (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_k1to_glitter_large.4367c4a0a3046244c0695e45cac9af5f3ef7a0f7.png"
+            },
+            {
+                "id": "sticker-6299",
+                "name": "tabseN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_tabsen_glitter_large.a08780d893458da2313734ac6a46e19ee75a0b1c.png"
+            },
+            {
+                "id": "sticker-6303",
+                "name": "syrsoN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_syrson_glitter_large.a087fb0ce594ea465d195d0646172e97540b741d.png"
+            },
+            {
+                "id": "sticker-6307",
+                "name": "sh1ro (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sh1ro_glitter_large.1ee6f975a109f7697dceb7fa2532092449e9b115.png"
+            },
+            {
+                "id": "sticker-6311",
+                "name": "nafany (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nafany_glitter_large.bfb1e39c15f42e1de37e1cdf1cd06168c47bc868.png"
+            },
+            {
+                "id": "sticker-6315",
+                "name": "Ax1Le (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ax1le_glitter_large.4a0314b5407bd6dbec1686cb31d8094b23a995ec.png"
+            },
+            {
+                "id": "sticker-6319",
+                "name": "interz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_interz_glitter_large.1cff6e52e0032d797b25dbae0a942a9f9fb08a22.png"
+            },
+            {
+                "id": "sticker-6323",
+                "name": "Hobbit (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hobbit_glitter_large.4d2604d4f378baea8e491236aeec9d990c30451c.png"
+            },
+            {
+                "id": "sticker-6327",
+                "name": "autimatic (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_autimatic_glitter_large.9459ace14c4c4b653e27a9b9a84b92c1192f1b72.png"
+            },
+            {
+                "id": "sticker-6331",
+                "name": "neaLaN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nealan_glitter_large.c519c1e74ae5c89bec99ea8ecd4ed484c32bc99b.png"
+            },
+            {
+                "id": "sticker-6335",
+                "name": "Brehze (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_brehze_glitter_large.e5d8e6677346f6f58a7b0b1650116f52663f8e7d.png"
+            },
+            {
+                "id": "sticker-6339",
+                "name": "HexT (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_hext_glitter_large.7eb0efd6185d7a67638e0450d9d0590276ad4c1c.png"
+            },
+            {
+                "id": "sticker-6343",
+                "name": "CeRq (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_cerq_glitter_large.88349928af456f4bdde4554a56f962cdffaf7e08.png"
+            },
+            {
+                "id": "sticker-6347",
+                "name": "frozen (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_frozen_glitter_large.576529ad9757b7bc188f2d57a73bc1caf1d4277b.png"
+            },
+            {
+                "id": "sticker-6351",
+                "name": "dexter (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dexter_glitter_large.3928abbd222321bd7ec251f772155e254c00529d.png"
+            },
+            {
+                "id": "sticker-6355",
+                "name": "JDC (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jdc_glitter_large.f25b94987343be08bcc016e19ec9715c6a0bf4e9.png"
+            },
+            {
+                "id": "sticker-6359",
+                "name": "torzsi (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_torzsi_glitter_large.b6b6e13db43252e0be66d20abc765fbccbaf9f6b.png"
+            },
+            {
+                "id": "sticker-6363",
+                "name": "xertioN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_xertion_glitter_large.c346ec96101e2364c4e56cf50b09fc5ba804e327.png"
+            },
+            {
+                "id": "sticker-6367",
+                "name": "nexa (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nexa_glitter_large.577929b69e041f7ea7b19d002baa5acd8880f7f2.png"
+            },
+            {
+                "id": "sticker-6371",
+                "name": "NEOFRAG (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_neofrag_glitter_large.cebb53b0aa217fa901bdbebbc5b3280189a9dd40.png"
+            },
+            {
+                "id": "sticker-6375",
+                "name": "FlameZ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_flamez_glitter_large.31aa30679f78884e45061fdcca1f2ceca0d1d637.png"
+            },
+            {
+                "id": "sticker-6379",
+                "name": "degster (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_degster_glitter_large.1de5275c70b83f3dcfcc327d269d0cfa425c66ee.png"
+            },
+            {
+                "id": "sticker-6383",
+                "name": "F1KU (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_f1ku_glitter_large.6d3149fc184365c927997fe911aec7289f2565c4.png"
+            },
+            {
+                "id": "sticker-6387",
+                "name": "dupreeh (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dupreeh_glitter_large.d83f72e695a14ae2ee426db4b396be0abae9eeb6.png"
+            },
+            {
+                "id": "sticker-6391",
+                "name": "Magisk (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_magisk_glitter_large.1eae6a1b4623bbcf84585b7e1299c072b3eddddc.png"
+            },
+            {
+                "id": "sticker-6395",
+                "name": "apEX (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_apex_glitter_large.b6b50e0459e56d101c2f0105eaa83e4eea4d733d.png"
+            },
+            {
+                "id": "sticker-6399",
+                "name": "Spinx (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_spinx_glitter_large.6c56d7262806a852129a9bf6f3be3b910252776a.png"
+            },
+            {
+                "id": "sticker-6403",
+                "name": "ZywOo (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_zywoo_glitter_large.d991793cf19cf145de414f01e9e4ad4c626bb558.png"
+            },
+            {
+                "id": "sticker-6407",
+                "name": "TACO (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_taco_glitter_large.265e1cda12e782a674c6071e8f1a88f021009908.png"
+            },
+            {
+                "id": "sticker-6411",
+                "name": "coldzera (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_coldzera_glitter_large.65223dff03a904a832f29722c0a85f8153186261.png"
+            },
+            {
+                "id": "sticker-6415",
+                "name": "TRY (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_try_glitter_large.712c40346167a48b453fb075fe12937cad57cbdb.png"
+            },
+            {
+                "id": "sticker-6419",
+                "name": "latto (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_latto_glitter_large.5fd7737889c1af0f7eed9a542df0a41b7e441712.png"
+            },
+            {
+                "id": "sticker-6423",
+                "name": "dumau (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_dumau_glitter_large.5a1a463d7d5ca7f0e424b77e4e48f267bd79feeb.png"
+            },
+            {
+                "id": "sticker-6427",
+                "name": "KRIMZ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_krimz_glitter_large.dab634a3a04719454e70d3546f61a0db2af64e76.png"
+            },
+            {
+                "id": "sticker-6431",
+                "name": "mezii (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_mezii_glitter_large.56d66445756849bad9bf00b763f33fe5f110c24c.png"
+            },
+            {
+                "id": "sticker-6435",
+                "name": "FASHR (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fashr_glitter_large.c7e73d9d002496ef31c2d60356f748001d1bc3d0.png"
+            },
+            {
+                "id": "sticker-6439",
+                "name": "roeJ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_roej_glitter_large.ac0346c5330e3530601cf2afc0729b9b1587704d.png"
+            },
+            {
+                "id": "sticker-6443",
+                "name": "nicoodoz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_nicoodoz_glitter_large.3d9405aeaee7ea8e71498db222cbb9204f0ae45c.png"
+            },
+            {
+                "id": "sticker-6447",
+                "name": "KSCERATO (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_kscerato_glitter_large.0bb75ae1e0b24f0300c446d171a6c35cd25eaa01.png"
+            },
+            {
+                "id": "sticker-6451",
+                "name": "yuurih (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_yuurih_glitter_large.ee91c7242f6fa82531d5e0ff211c7dfa06b8d0c7.png"
+            },
+            {
+                "id": "sticker-6455",
+                "name": "drop (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_drop_glitter_large.b866415942e66ee1b8a5f4c1f50f88b1a56569f7.png"
+            },
+            {
+                "id": "sticker-6459",
+                "name": "saffee (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_saffee_glitter_large.a4a9eaa820496bf897310752b3b36967836d9b3b.png"
+            },
+            {
+                "id": "sticker-6463",
+                "name": "arT (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_art_glitter_large.06d0897795e4102a209518f9e8f80cc666aabd2a.png"
+            },
+            {
+                "id": "sticker-6467",
+                "name": "acoR (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_acor_glitter_large.b71ef459b85a9fb4b1eb64b48e5258e097095dc0.png"
+            },
+            {
+                "id": "sticker-6471",
+                "name": "iM (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_im_glitter_large.9d74150d25f2d12d6034005ca8b646f4fc395ac4.png"
+            },
+            {
+                "id": "sticker-6475",
+                "name": "siuhy (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_siuhy_glitter_large.3a68c7d166e61a4c6b2f5749a7e4225c2b28d447.png"
+            },
+            {
+                "id": "sticker-6479",
+                "name": "Keoz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_keoz_glitter_large.9db11526b4cf28a5cc48556a5ebe2f61d8cefc7e.png"
+            },
+            {
+                "id": "sticker-6483",
+                "name": "isak (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_isak_glitter_large.a28ef193ece9e5862202ac3b911ae2657180fa55.png"
+            },
+            {
+                "id": "sticker-6487",
+                "name": "INS (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_ins_glitter_large.ec96850866918d91311935d1c8aed6f4d6b381bc.png"
+            },
+            {
+                "id": "sticker-6491",
+                "name": "vexite (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_vexite_glitter_large.51d1a78d6ed8c94035f2fcf42274e726e1f73dbb.png"
+            },
+            {
+                "id": "sticker-6495",
+                "name": "Sico (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sico_glitter_large.b50ea6bfe2b33706fde45e4f7504281dbe84374c.png"
+            },
+            {
+                "id": "sticker-6499",
+                "name": "Liazz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_liazz_glitter_large.8819ffb00f89cd325f98e14f6c65dcccde265d6c.png"
+            },
+            {
+                "id": "sticker-6503",
+                "name": "aliStair (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_alistair_glitter_large.6e95d51796006a11e0720e85c8383f10d2b38743.png"
+            },
+            {
+                "id": "sticker-6507",
+                "name": "sk0R (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_sk0r_glitter_large.865ac43364a59de82ad085b4358833e188755cf1.png"
+            },
+            {
+                "id": "sticker-6511",
+                "name": "Techno4K (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_techno4k_glitter_large.145a190cf492118bb7a32234d97cb893cb840fb9.png"
+            },
+            {
+                "id": "sticker-6515",
+                "name": "kabal (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_kabal_glitter_large.dbda6cf24f8f18c0c985979e80e02d88e97c14df.png"
+            },
+            {
+                "id": "sticker-6519",
+                "name": "bLitz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_blitz_glitter_large.3b8894c856fbc67b718650ffc342270d2b65f4f2.png"
+            },
+            {
+                "id": "sticker-6523",
+                "name": "ANNIHILATION (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_annihilation_glitter_large.bd086d3c8bdf48274b6dcdcd3477986705169c56.png"
+            },
+            {
+                "id": "sticker-6527",
+                "name": "FalleN (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fallen_glitter_large.5af462233760a09ba63236c4ac843814ad47db2f.png"
+            },
+            {
+                "id": "sticker-6531",
+                "name": "fer (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fer_glitter_large.d4d3c311a4f033b7edb4f31920d4896daf9171a9.png"
+            },
+            {
+                "id": "sticker-6535",
+                "name": "boltz (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_boltz_glitter_large.8d6bd656e628939dcad2fd599006fa01c0a23925.png"
+            },
+            {
+                "id": "sticker-6539",
+                "name": "VINI (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_vini_glitter_large.84fe607de1946aafde64eff4ef3cce7aa5c760fa.png"
+            },
+            {
+                "id": "sticker-6543",
+                "name": "chelo (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chelo_glitter_large.4803577cc74b9ea3bec4c182693cb30a7415f530.png"
+            },
+            {
+                "id": "sticker-6547",
+                "name": "FL1T (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fl1t_glitter_large.db6a2116fad2a4becb8e4a3ec478cb0bdf13e829.png"
+            },
+            {
+                "id": "sticker-6551",
+                "name": "n0rb3r7 (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_n0rb3r7_glitter_large.5ec3085e2e7d0e6d624df9defafe301e985ed9d3.png"
+            },
+            {
+                "id": "sticker-6555",
+                "name": "Jame (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_jame_glitter_large.9ed38489f46d5ea5aaa8374363181b915b1aa35a.png"
+            },
+            {
+                "id": "sticker-6559",
+                "name": "qikert (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_qikert_glitter_large.25e3baca8f873d22c6167f6db16acb6d5df6c379.png"
+            },
+            {
+                "id": "sticker-6563",
+                "name": "fame (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_fame_glitter_large.f4c340a035eb0a4359eb52c9f6a94f869d1c0d02.png"
+            },
+            {
+                "id": "sticker-5962",
+                "name": "ENCE (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/ence_glitter_large.b22d0d14250a3ff64af4f948d6caf8fd04486b11.png"
+            },
+            {
+                "id": "sticker-5966",
+                "name": "FaZe Clan (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/faze_glitter_large.f3f370a42ffdb20668ed4a71b0d9c3e6b43c0b2c.png"
+            },
+            {
+                "id": "sticker-5970",
+                "name": "Heroic (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/hero_glitter_large.c7848135f7b725ff3a14b3d28c2b1c9632fcfd59.png"
+            },
+            {
+                "id": "sticker-5974",
+                "name": "Natus Vincere (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/navi_glitter_large.a06bece6fec4f804172b4d42bcc057c9b73032e2.png"
+            },
+            {
+                "id": "sticker-5978",
+                "name": "Ninjas in Pyjamas (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/nip_glitter_large.e3a8eb8144a0a13d026dc0f452b221813abad75e.png"
+            },
+            {
+                "id": "sticker-5982",
+                "name": "Sprout Esports (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/spr_glitter_large.3b0d473dd28ca0814f3057bfc3e62cd7c0f5d660.png"
+            },
+            {
+                "id": "sticker-5986",
+                "name": "Team Liquid (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/liq_glitter_large.bb8206a308745f2e8f406018ee4bdb73292a6948.png"
+            },
+            {
+                "id": "sticker-5990",
+                "name": "Team Spirit (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/spir_glitter_large.fe9301586c20ae263abc208f0433fa053b65063c.png"
+            },
+            {
+                "id": "sticker-5994",
+                "name": "9z Team (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/nine_glitter_large.492c542aaa4318d7204a04a1ac341714ade879f2.png"
+            },
+            {
+                "id": "sticker-5998",
+                "name": "Bad News Eagles (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/bne_glitter_large.d1e6867b323044e2005075f4be2d023b9cb912e3.png"
+            },
+            {
+                "id": "sticker-6002",
+                "name": "BIG (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/big_glitter_large.28d9ddc3471709f78951d85d960c61ead259e037.png"
+            },
+            {
+                "id": "sticker-6006",
+                "name": "Cloud9 (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/c9_glitter_large.f2abd4f7c92bc6f2551f0829f8f41dd323606232.png"
+            },
+            {
+                "id": "sticker-6010",
+                "name": "Evil Geniuses (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/evl_glitter_large.02cf4814c3187382a5cae4fd8cd457331c67e49b.png"
+            },
+            {
+                "id": "sticker-6014",
+                "name": "MOUZ (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/mouz_glitter_large.a690646b57ac2333ba5859a856621aca19768e65.png"
+            },
+            {
+                "id": "sticker-6018",
+                "name": "OG (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/og_glitter_large.6f48bba17bb647203cabc50fc729279ffc3ddbf8.png"
+            },
+            {
+                "id": "sticker-6022",
+                "name": "Vitality (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/vita_glitter_large.fdd5b0117fbc0ea5103c4c190e51c4f2aafc7c3f.png"
+            },
+            {
+                "id": "sticker-6026",
+                "name": "00 Nation (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/zzn_glitter_large.60d8839cb2f7ad4424afc0031124e7c7949c4acc.png"
+            },
+            {
+                "id": "sticker-6030",
+                "name": "Fnatic (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/fntc_glitter_large.55abafbdb27eb7fdfd21bc08d189f5c58d9b87e6.png"
+            },
+            {
+                "id": "sticker-6034",
+                "name": "FURIA (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/furi_glitter_large.cbe005fae60f2c4e4a123307be52ff7de6c7bdaf.png"
+            },
+            {
+                "id": "sticker-6038",
+                "name": "GamerLegion (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/gl_glitter_large.05bc4491a4b5fac78139cbbdf64bdf08bf3e817a.png"
+            },
+            {
+                "id": "sticker-6042",
+                "name": "Grayhound Gaming (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/gray_glitter_large.179ca889d1b8d771a9acd3dba03ed63e6a02661a.png"
+            },
+            {
+                "id": "sticker-6046",
+                "name": "IHC Esports (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/ihc_glitter_large.39b27b31f0b313ba47914fe02682a44f32b9b58c.png"
+            },
+            {
+                "id": "sticker-6050",
+                "name": "Imperial Esports (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/imp_glitter_large.5c8c392c16a535737d57d07ba23e91382d76ccb7.png"
+            },
+            {
+                "id": "sticker-6054",
+                "name": "Outsiders (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/out_glitter_large.0ab1bb28a6addcade0bce5cbd0a60cc96f271aa7.png"
+            },
+            {
+                "id": "sticker-6058",
+                "name": "IEM (Glitter) | Rio 2022",
+                "rarity": "Ấn tượng",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/iem_glitter_large.2e1a702f28199c4f5ab7a08b9f8f671e109229da.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_rio2022_1.fc1d279e386ce56a3b20c7c449199d89efe58128.png"
+    },
+    {
+        "id": "crate-4882",
+        "name": "Gói sưu tập Anubis",
+        "description": null,
+        "type": null,
+        "first_sale_date": "2023/04/24",
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "Súng lục R8 | Inlay",
+                "rarity": "Hạng tiêu dùng",
+                "paint_index": "1237",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_light_large.3d652732f4082f2af2acce48c2343d2fd73bdcae.png"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | Submerged",
+                "rarity": "Hạng tiêu dùng",
+                "paint_index": "1242",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_scarab_light_large.6dc1dc25afc1a3a22fff064c85c8f2d3d88aeac7.png"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | Hieroglyph",
+                "rarity": "Hạng tiêu dùng",
+                "paint_index": "1254",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_pharaoh_light_large.dd51bfb65f740dd4145fb548ef9be0a353f82766.png"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | Sunbaked",
+                "rarity": "Hạng tiêu dùng",
+                "paint_index": "1246",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_mp7_strone_light_large.38c65124a7edf35fa2223c37e97c5ac803c24207.png"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | Snake Pit",
+                "rarity": "Hạng tiêu dùng",
+                "paint_index": "1249",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_dune_trap_light_large.61e49e32c50c4a984fec89ec01defd789ae42376.png"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1-S | Mud-Spec",
+                "rarity": "Hạng công nghiệp",
+                "paint_index": "1243",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_milspec_light_large.abf3dbeb994944b3182cc60c50d3a729f47c1979.png"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | Azure Glyph",
+                "rarity": "Hạng công nghiệp",
+                "paint_index": "1251",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_light_large.6e654fe6456fb019d4507f750d113f67ca0a879f.png"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP-S | Desert Tactical",
+                "rarity": "Hạng công nghiệp",
+                "paint_index": "1253",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_light_large.ff54560941a8f50919ea6be8126490aff54ae810.png"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | Echoing Sands",
+                "rarity": "Hạng công nghiệp",
+                "paint_index": "1244",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_scarab_light_large.3dce90df4da34a30c0437a51e90fc77d08bbe2f3.png"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | Mummy's Rot",
+                "rarity": "Hạng Mil-Spec",
+                "paint_index": "1252",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_mummy_light_large.b70be5ec031a0538fe3e7b42d0a21d1cebe869e1.png"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | Steel Delta",
+                "rarity": "Hạng Mil-Spec",
+                "paint_index": "1238",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_strone_light_large.8434d6be7fa076ce41c86eb5ea00efe9383800c6.png"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | Black Nile",
+                "rarity": "Hạng Mil-Spec",
+                "paint_index": "1239",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_strone_light_large.f6a8a693f8bcdd89436549db6079bb5f102c9616.png"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | Copper Coated",
+                "rarity": "Hạng Mil-Spec",
+                "paint_index": "1245",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_goold_light_large.293c06a3f62ce9dfb177f79462fbb7b31bd5eb9f.png"
+            },
+            {
+                "id": "skin-267104",
+                "name": "Glock-18 | Ramese's Reach",
+                "rarity": "Hàng hạn chế",
+                "paint_index": "1240",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_ramzes_light_large.86da273a88db7c8d0231e03a45cd94929efeb1ff.png"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "Nova | Sobek's Bite",
+                "rarity": "Hàng hạn chế",
+                "paint_index": "1247",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_gs_nova_sobek_light_large.53046ae2482691e0c1ba90de50698f875294a737.png"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | ScaraB Rush",
+                "rarity": "Hàng hạn chế",
+                "paint_index": "1250",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_scarab_of_wisdom_light_large.54f85e60f71185083323768b79e699da762e09e6.png"
+            },
+            {
+                "id": "skin-660324",
+                "name": "FAMAS | Waters of Nephthys",
+                "rarity": "Hạng tuyệt mật",
+                "paint_index": "1241",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_holo_ocean_light_large.e9efee74629f50aab0110ae3fc6a07aabac679e0.png"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | Apep's Curse",
+                "rarity": "Hạng tuyệt mật",
+                "paint_index": "1248",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_apep_light_large.39613b6ade6f204aaaed995e47d0a9fa42963b45.png"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | Eye of Horus",
+                "rarity": "Mật vụ",
+                "paint_index": "1255",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_ra_light_large.7531ec73ee20dac93f068342616599e4808fb850.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_anubis_storepromo.652ce0f3f70f92157591a29d3e36f2cebcc27f64.png"
+    }
+]
