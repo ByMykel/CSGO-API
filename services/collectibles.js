@@ -14,6 +14,10 @@ const isCollectible = (item) => {
         return true;
     }
 
+    if (item.item_name.startsWith("#CSGO_TournamentPass")) {
+        return true;
+    }
+
     return false;
 };
 
@@ -34,6 +38,18 @@ const getType = (collectible) => {
         return "Pin";
     }
 
+    if (collectible.item_name.startsWith("#CSGO_TournamentPass")) {
+        return "Pass";
+    }
+
+    if (collectible.item_name.startsWith("#CSGO_Collectible_CommunitySeason")) {
+        if (collectible?.prefab === "valve season_tiers") {
+            return "Stars for Operation";
+        }
+
+        return "Operation Coin";
+    }
+
     if (collectible?.attributes["tournament event id"] !== undefined) {
         if (collectible.item_name.includes("PickEm")) {
             return "Old Pick'Em Trophy";
@@ -44,14 +60,6 @@ const getType = (collectible) => {
         }
 
         return "Tournament Finalist Trophy";
-    }
-
-    if (collectible.item_name.startsWith("#CSGO_Collectible_CommunitySeason")) {
-        if (collectible?.prefab === "valve season_tiers") {
-            return "Stars for Operation";
-        }
-
-        return "Operation Coin";
     }
 
     return null;
@@ -66,6 +74,7 @@ const getFileNameByType = (type) => {
         "Fantasy Trophy": "major/fantasy_trophies.json",
         "Operation Coin": "operation/coins.json",
         "Stars for Operation": "operation/stars.json",
+        Pass: "operation/pass.json",
         "Map Contributor Coin": "map_coins.json",
         "Service Medal": "service_medals.json",
         Pin: "pins.json",
@@ -88,6 +97,7 @@ const parseItem = (item) => {
             : $t(item.item_name),
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
+        // TODO: fix collectible's rarity
         rarity: $t(`rarity_${item.item_rarity}`),
         type: getType(item),
         image,
