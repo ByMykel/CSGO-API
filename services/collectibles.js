@@ -14,7 +14,10 @@ const isCollectible = (item) => {
         return true;
     }
 
-    if (item.item_name.startsWith("#CSGO_TournamentPass")) {
+    if (
+        item.item_name.startsWith("#CSGO_TournamentPass") ||
+        item.item_name.startsWith("#CSGO_Ticket_")
+    ) {
         return true;
     }
 
@@ -38,7 +41,10 @@ const getType = (collectible) => {
         return "Pin";
     }
 
-    if (collectible.item_name.startsWith("#CSGO_TournamentPass")) {
+    if (
+        collectible.item_name.startsWith("#CSGO_TournamentPass") ||
+        collectible.item_name.startsWith("#CSGO_Ticket_")
+    ) {
         return "Pass";
     }
 
@@ -85,7 +91,9 @@ const getFileNameByType = (type) => {
 
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
-    const image = cdn[`${item.image_inventory}_large`];
+    const image = item.item_name.startsWith("#CSGO_Ticket_")
+        ? cdn[`${item.image_inventory}`]
+        : cdn[`${item.image_inventory}_large`];
 
     return {
         id: `collectible-${item.object_id}`,
