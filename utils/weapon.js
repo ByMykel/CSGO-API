@@ -347,3 +347,47 @@ export const skinMarketHashName = ({
         }
     }
 };
+
+export const getCollectibleRarity = (prefab) => {
+    const keys = prefab.split(" ");
+
+    for (const key of keys) {
+        switch (key) {
+            case "antwerp2022_tournament_pass_prefab":
+            case "antwerp2022_tournament_pass_prefab":
+            case "berlin2019_tournament_pass_prefab":
+            case "katowice2019_tournament_pass_prefab":
+            case "rio2022_tournament_pass_prefab":
+            case "stockh2021_tournament_pass_prefab":
+            case "paris2023_tournament_pass_prefab":
+            case "season_pass":
+            case "season_tiers":
+                return "rarity_common";
+            case "antwerp2022_tournament_journal_prefab":
+            case "berlin2019_tournament_journal_prefab":
+            case "katowice2019_tournament_journal_prefab":
+            case "rio2022_tournament_journal_prefab":
+            case "stockh2021_tournament_journal_prefab":
+            case "paris2023_tournament_journal_prefab":
+            case "collectible_untradable_coin":
+            case "majors_trophy":
+            case "map_token":
+            case "pickem_trophy":
+            case "prestige_coin":
+            case "season1_coin":
+            case "season10_coin":
+            case "season11_coin":
+            case "season2_coin":
+            case "season3_coin":
+            case "season4_coin":
+            case "season5_coin":
+            case "season6_coin":
+            case "season7_coin":
+            case "season8_coin":
+            case "season9_coin":
+                return "rarity_ancient";
+        }
+    }
+
+    return null;
+};

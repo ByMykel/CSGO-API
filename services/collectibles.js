@@ -2,6 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getCollectibleRarity } from "../utils/weapon.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -103,10 +104,14 @@ const parseItem = (item) => {
                   item_name: $t(item.item_name),
               })
             : $t(item.item_name),
-        description:
-            $t(item.item_description) ?? $t(item.item_description_prefab),
-        // TODO: fix collectible's rarity
-        rarity: $t(`rarity_${item.item_rarity}`),
+        description: item.item_description
+            ? $t(item.item_description)
+            : item.item_description_prefab
+            ? $t(item.item_description_prefab)
+            : null,
+        rarity: item.item_rarity
+            ? $t(`rarity_${item.item_rarity}`)
+            : $t(getCollectibleRarity(item?.prefab)),
         type: getType(item),
         image,
     };
