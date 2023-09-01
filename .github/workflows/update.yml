@@ -1,45 +1,45 @@
 name: Update JSON API
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 7 * * *"
+    workflow_dispatch:
+    schedule:
+        - cron: "0 7 * * *"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "16"
-      - run: npm install
-      - run: npm run update-data
-      - run: |
-          git config user.name ByMykel
-          git config user.email bymykel5@gmail.com
-          git add .
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: "16"
+            - run: npm install
+            - run: npm run update-data
+            - run: |
+                  git config user.name ByMykel
+                  git config user.email bymykel5@gmail.com
+                  git add .
 
-          # Get a list of changed files
-          changed_files=$(git status --porcelain | awk '{print $2}')
+                  # Get a list of changed files
+                  changed_files=$(git status --porcelain | awk '{print $2}')
 
-          # Check for changes
-          if ! git diff --quiet || ! git diff --staged --quiet; then
-              # Organize the changed files by language/region
-              organized_changes=""
-              for lang in $(echo "$changed_files" | cut -d'/' -f 3 | sort | uniq); do
-                  # List files changed for this language, and remove the "public/api/lang" prefix for clarity
-                  files_changed_for_lang=$(echo "$changed_files" | grep "/$lang/" | sed "s|public/api/$lang/||")
-                  organized_changes="${organized_changes}\n\n${lang}:\n${files_changed_for_lang}"
-              done
+                  # Check for changes
+                  if ! git diff --quiet || ! git diff --staged --quiet; then
+                      # Organize the changed files by language/region
+                      organized_changes=""
+                      for lang in $(echo "$changed_files" | cut -d'/' -f 3 | sort | uniq); do
+                          # List files changed for this language, and remove the "public/api/lang" prefix for clarity
+                          files_changed_for_lang=$(echo "$changed_files" | grep "/$lang/" | sed "s|public/api/$lang/||" | paste -sd ", " -)
+                          organized_changes="${organized_changes}\n${lang}: ${files_changed_for_lang}."
+                      done
 
-              # Commit the changes
-              commit_message="[bot] Update JSON API"
-              detailed_changes="Affected languages and files:${organized_changes}"
+                      # Commit the changes
+                      commit_message="[bot] Update JSON API"
+                      detailed_changes="Affected languages and files:${organized_changes}"
 
-              git commit -m "$commit_message" -m "$(echo -e "$detailed_changes")"
+                      git commit -m "$commit_message" -m "$(echo -e "$detailed_changes")"
 
-              # Push the changes to the 'main' branch
-              git push origin main
-          fi
+                      # Push the changes to the 'main' branch
+                      git push origin main
+                  fi
