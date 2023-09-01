@@ -6,6 +6,8 @@ import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 const isAgent = (item) => item.prefab === "customplayertradable";
 
 const parseItem = (item) => {
+    const { collectionsBySkins } = state;
+
     const image = cdn[`econ/characters/${item.name.toLocaleLowerCase()}`];
 
     return {
@@ -13,6 +15,12 @@ const parseItem = (item) => {
         name: $t(item.item_name),
         description: $t(item.item_description),
         rarity: $t(`rarity_${item.item_rarity}_character`),
+        collections: collectionsBySkins?.[`agent-${item.object_id}`]?.map(
+            (i) => ({
+                ...i,
+                name: $t(i.name),
+            })
+        ),
         image,
     };
 };
