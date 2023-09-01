@@ -270,6 +270,15 @@ export const loadSkinsByCrates = () => {
 };
 
 export const loadyCratesBySkins = () => {
+    const hardCodedCrates = {
+        set_xraymachine: {
+            object_id: 4668,
+            item_name: "#CSGO_set_xraymachine",
+            image_inventory:
+                "econ/default_generated/weapon_p250_cu_xray_p250_light_large",
+        },
+    };
+
     state.cratesBySkins = {
         ...Object.entries(state.skinsByCrates).reduce(
             (acc, [crateKey, itemsList]) => {
@@ -285,6 +294,7 @@ export const loadyCratesBySkins = () => {
                     ).find(([id, item]) => item === crateKey);
 
                     const crateItem =
+                        hardCodedCrates[crateKey] ||
                         state.items[crateKey] ||
                         Object.values(state.items).find(
                             (i) =>
@@ -296,6 +306,9 @@ export const loadyCratesBySkins = () => {
                         acc[item.id].push({
                             id: `crate-${crateItem.object_id}`,
                             name: crateItem.item_name,
+                            image: cdn[
+                                crateItem?.image_inventory?.toLowerCase()
+                            ],
                         });
                     }
                 });
