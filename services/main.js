@@ -24,6 +24,8 @@ export const state = {
     revolvingLootLists: null,
     skinsByCrates: null,
     skinsByCratesSpecial: null,
+    skinsByCollections: null,
+    collectionsBySkins: null,
     souvenirSkins: null,
     stattTrakSkins: null,
 };
@@ -247,15 +249,6 @@ export const loadSkinsByCrates = () => {
 
         // To avoid the loop down below
         set_xraymachine: [getItemFromKey("[cu_xray_p250]weapon_p250")],
-        // ...Object.entries(state.itemsGame.item_sets)
-        //     .filter((i) => {
-        //         return !["set_xraymachine"].includes(i[0]);
-        //     })
-        //     .reduce((items, [key, value]) => {
-        //         items[key] = Object.keys(value.items)
-        //         // .map(getItemFromKey);
-        //         return items;
-        //     }, {}),
 
         // Rare special
         ...Object.values(revolvingLootLists).reduce((items, item) => {
@@ -274,8 +267,7 @@ export const loadyCratesBySkins = () => {
         set_xraymachine: {
             object_id: 4668,
             item_name: "#CSGO_set_xraymachine",
-            image_inventory:
-                "econ/default_generated/weapon_p250_cu_xray_p250_light_large",
+            image_inventory: "econ/weapon_cases/crate_xray_p250",
         },
     };
 
@@ -318,6 +310,58 @@ export const loadyCratesBySkins = () => {
             {}
         ),
     };
+};
+
+export const loadSkinsByCollections = () => {
+    state.skinsByCollections = Object.entries(state.itemsGame.item_sets).reduce(
+        (items, [key, value]) => {
+            items[key] = Object.keys(value.items).map((item) => {
+                const ftt = getItemFromKey(item);
+
+                if (ftt == null) {
+                    console.log(item);
+                }
+
+                return ftt;
+            });
+            return items;
+        },
+        {}
+    );
+};
+
+export const loadCollectionsBySkins = () => {
+    state.collectionsBySkins = Object.entries(state.skinsByCollections).reduce(
+        (acc, [crateKey, itemsList]) => {
+            crateKey = crateKey.replace("rare--", "");
+
+            itemsList.forEach((item) => {
+                if (!(item.id in acc)) {
+                    acc[item.id] = [];
+                }
+
+                const crateItem = state.itemsGame.item_sets[crateKey];
+
+                if (crateItem != null) {
+                    acc[item.id].push({
+                        id: `collection-${crateItem.name
+                            .replace("#CSGO_", "")
+                            .replace(/_/g, "-")}`,
+                        name: crateItem.name,
+                        image: cdn[
+                            `econ/set_icons/${crateItem.name.replace(
+                                "#CSGO_",
+                                ""
+                            )}`
+                        ],
+                    });
+                }
+            });
+
+            return acc;
+        },
+        {}
+    );
 };
 
 export const loadSouvenirSkins = () => {
@@ -400,6 +444,16 @@ const getItemFromKey = (key) => {
             id: `collection-${pin.object_id}`,
             name: pin.item_name,
             rarity: `rarity_${pin.item_rarity}`,
+        };
+    }
+
+    if (key.startsWith("customplayer_")) {
+        const agent = items[key];
+        return {
+            id: `agent-${agent.object_id}`,
+            name: agent.item_name,
+            rarity: `rarity_${agent.item_rarity}_character`,
+            image: cdn[`econ/characters/${agent.name.toLocaleLowerCase()}`]
         };
     }
 
@@ -525,6 +579,8 @@ export const loadData = async () => {
     loadRarities();
     loadSkinsByCrates();
     loadyCratesBySkins();
+    loadSkinsByCollections();
+    loadCollectionsBySkins();
     loadSouvenirSkins();
     loadStattrakSkins();
 };
