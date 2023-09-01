@@ -38,12 +38,24 @@ const isSelfOpeningCollection = (item) => {
 };
 
 const parseItem = (item) => {
+    const { skinsByCollections } = state;
+
     const fileName = `${item.name.replace("#CSGO_", "")}`;
     const image = cdn[`econ/set_icons/${fileName}`];
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: $t(item.name),
+        contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(
+            (i) => ({
+                ...i,
+                name:
+                    i.name instanceof Object
+                        ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
+                        : $t(i.name),
+                rarity: $t(i.rarity),
+            })
+        ),
         image,
     };
 };
@@ -54,6 +66,8 @@ const parseItemSelfOpening = (item) => {
     return {
         id: `collection-${item.object_id}`,
         name: $t(item.item_name),
+        // TODO: https://github.com/ByMykel/CSGO-API/issues/51
+        contains: [],
         image,
     };
 };
