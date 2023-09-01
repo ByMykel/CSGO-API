@@ -95,6 +95,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">description</td>
     <td width="400">string or null</td>
   </tr>
