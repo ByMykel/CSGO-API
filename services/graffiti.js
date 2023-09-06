@@ -26,6 +26,7 @@ const parseItemSealedGraffiti = (item) => {
     return {
         id: `graffiti-${item.object_id}`,
         name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
+        name_original: item.name,
         description:
             item.description_string.includes("SprayKit_desc_") ||
             item.description_string.includes("StickerKit_")

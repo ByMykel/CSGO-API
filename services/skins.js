@@ -61,12 +61,12 @@ const parseItem = (item, items) => {
     const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
 
     const rarity = !isNotWeapon(weapon)
-        ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
+        ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
         : isKnife
         ? // Knives are 'Covert'
-          $t(`rarity_ancient_weapon`)
+          `rarity_ancient_weapon`
         : // Gloves are 'Extraordinary'
-          $t(`rarity_ancient`);
+          `rarity_ancient`;
 
     return {
         id: `skin-${item.object_id}`,
@@ -76,13 +76,15 @@ const parseItem = (item, items) => {
                   pattern: $t(paintKits[pattern].description_tag),
               })
             : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
+        name_original: items[weapon].name,
         description: translatedDescription,
         weapon: translatedName,
         category: $t(getCategory(weapon)),
         pattern: $t(paintKits[pattern].description_tag),
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
-        rarity,
+        rarity: $t(rarity),
+        rarity_original: rarity,
         stattrak: isStatTrak,
         souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
         paint_index: paintKits[pattern].paint_index,
