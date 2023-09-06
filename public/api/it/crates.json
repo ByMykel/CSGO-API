@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Pacchetto dono",
+        "name_original": "Tool_Gift1Player",
         "description": "Quando lo usi, verrà donato un oggetto casuale a un giocatore nella tua partita.",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "Bancale di doni",
+        "name_original": "Tool_Gift9Players",
         "description": "Quando lo usi, verrà donato un oggetto casuale a un massimo di 9 giocatori nella tua partita.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Collo di partecipazione per il pubblico",
+        "name_original": "Tool_Gift25Spectators",
         "description": "Quando lo usi, verrà donato un oggetto casuale a un massimo di 25 spettatori che stanno guardando la tua partita.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4001",
         "name": "Cassa di armi di CS:GO",
+        "name_original": "crate_valve_1",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -567,6 +571,7 @@
     {
         "id": "crate-4002",
         "name": "Cassa degli eSport del 2013",
+        "name_original": "crate_esports_2013",
         "description": "Una parte dei profitti della vendita delle chiavi usate per sbloccarla andrà ad aumentare il montepremi dei tornei professionistici di CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -1102,6 +1107,7 @@
     {
         "id": "crate-4003",
         "name": "Cassa dell'Operazione Bravo",
+        "name_original": "crate_operation_ii",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -1679,6 +1685,7 @@
     {
         "id": "crate-4004",
         "name": "Cassa di armi di CS:GO - serie #2",
+        "name_original": "crate_valve_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -2235,6 +2242,7 @@
     {
         "id": "crate-4005",
         "name": "Cassa invernale degli eSport del 2013",
+        "name_original": "crate_esports_2013_winter",
         "description": "Una parte dei profitti della vendita delle chiavi usate per sbloccarla andrà ad aumentare il montepremi dei tornei professionistici di CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -2791,6 +2799,7 @@
     {
         "id": "crate-4006",
         "name": "Pacchetto di souvenir del DreamHack del 2013",
+        "name_original": "crate_dhw13_promo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2801,6 +2810,7 @@
     {
         "id": "crate-4007",
         "name": "Capsula di adesivi",
+        "name_original": "crate_sticker_pack01",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2014/01/29",
@@ -2902,6 +2912,7 @@
     {
         "id": "crate-4009",
         "name": "Cassa di armi dell'Offensiva invernale",
+        "name_original": "crate_community_1",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/12/18",
@@ -3465,6 +3476,7 @@
     {
         "id": "crate-4010",
         "name": "Cassa di armi 3 di CS:GO",
+        "name_original": "crate_valve_3",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -4021,6 +4033,7 @@
     {
         "id": "crate-4011",
         "name": "Cassa di armi dell'Operazione Phoenix",
+        "name_original": "crate_community_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/2/19",
@@ -4584,6 +4597,7 @@
     {
         "id": "crate-4012",
         "name": "Capsula di adesivi #2",
+        "name_original": "crate_sticker_pack02",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2014/01/29",
@@ -4691,6 +4705,7 @@
     {
         "id": "crate-4013",
         "name": "Pacchetto di souvenir dell'EMS One del 2014",
+        "name_original": "crate_ems14_promo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -4701,6 +4716,7 @@
     {
         "id": "crate-4014",
         "name": "Concorrenti dell'EMS Katowice del 2014",
+        "name_original": "crate_sticker_pack_kat2014_01",
         "description": "Questa capsula contiene uno degli adesivi dei partecipanti all'EMS One Katowice del 2014. Una parte dei profitti verrà distribuita equamente tra tutte le organizzazioni dell'evento.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/03/02",
@@ -4814,6 +4830,7 @@
     {
         "id": "crate-4015",
         "name": "Leggende dell'EMS Katowice del 2014",
+        "name_original": "crate_sticker_pack_kat2014_02",
         "description": "Questa capsula contiene uno degli adesivi dei partecipanti all'EMS One Katowice del 2014. Una parte dei profitti verrà distribuita equamente tra tutte le organizzazioni dell'evento.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/03/02",
@@ -4927,6 +4944,7 @@
     {
         "id": "crate-4016",
         "name": "Capsula di adesivi della comunità #1",
+        "name_original": "crate_sticker_pack_community01",
         "description": "Questa capsula contiene uno degli adesivi disegnati dalla comunità. Una parte dei profitti verrà distribuita equamente tra tutti i creatori partecipanti.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/06/11",
@@ -5040,6 +5058,7 @@
     {
         "id": "crate-4017",
         "name": "Cassa di armi del Cacciatore",
+        "name_original": "crate_community_3",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/11",
@@ -5255,6 +5274,7 @@
     {
         "id": "crate-4018",
         "name": "Cassa di armi dell'Operazione Breakout",
+        "name_original": "crate_community_4",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/23",
@@ -5457,6 +5477,7 @@
     {
         "id": "crate-4019",
         "name": "Cassa estiva degli eSport del 2014",
+        "name_original": "crate_esports_2014_summer",
         "description": "Una parte dei profitti della vendita delle chiavi usate per sbloccarla andrà ad aumentare il montepremi dei tornei professionistici di CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -6048,6 +6069,7 @@
     {
         "id": "crate-4020",
         "name": "Leggende dell'ESL One Cologne del 2014",
+        "name_original": "crate_sticker_pack_cologne2014_01",
         "description": "Questa capsula contiene uno degli adesivi dei partecipanti all'ESL One Cologne del 2014. Una parte dei profitti verrà distribuita equamente tra tutte le organizzazioni dell'evento.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/08/01",
@@ -6149,6 +6171,7 @@
     {
         "id": "crate-4021",
         "name": "Concorrenti dell'ESL One Cologne del 2014",
+        "name_original": "crate_sticker_pack_cologne2014_02",
         "description": "Questa capsula contiene uno degli adesivi dei partecipanti all'ESL One Cologne del 2014. Una parte dei profitti verrà distribuita equamente tra tutte le organizzazioni dell'evento.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/08/01",
@@ -6274,6 +6297,7 @@
     {
         "id": "crate-4022",
         "name": "Pacchetto di souvenir di Dust II dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6397,6 +6421,7 @@
     {
         "id": "crate-4023",
         "name": "Pacchetto di souvenir di Inferno dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6450,6 +6475,7 @@
     {
         "id": "crate-4024",
         "name": "Pacchetto di souvenir di Mirage dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6566,6 +6592,7 @@
     {
         "id": "crate-4025",
         "name": "Pacchetto di souvenir di Nuke dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6640,6 +6667,7 @@
     {
         "id": "crate-4026",
         "name": "Pacchetto di souvenir di Cache dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6742,6 +6770,7 @@
     {
         "id": "crate-4027",
         "name": "Pacchetto di souvenir di Cobblestone dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6858,6 +6887,7 @@
     {
         "id": "crate-4028",
         "name": "Pacchetto di souvenir di Overpass dell'ESL One Cologne del 2014",
+        "name_original": "crate_esl14_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6974,6 +7004,7 @@
     {
         "id": "crate-4029",
         "name": "Cassa di armi dell'Operazione Vanguard",
+        "name_original": "crate_operation_vanguard",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/11/5",
@@ -7544,6 +7575,7 @@
     {
         "id": "crate-4030",
         "name": "Leggende del DreamHack del 2014 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_dhw2014_01",
         "description": "Questa capsula contiene un adesivo olografico o foil di una squadra partecipante al DreamHack del 2014. Una parte dei proventi verrà distribuita equamente tra tutte le organizzazioni coinvolte.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/11/20",
@@ -7633,6 +7665,7 @@
     {
         "id": "crate-4031",
         "name": "Pacchetto di souvenir di Dust II del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7756,6 +7789,7 @@
     {
         "id": "crate-4032",
         "name": "Pacchetto di souvenir di Inferno del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7809,6 +7843,7 @@
     {
         "id": "crate-4033",
         "name": "Pacchetto di souvenir di Mirage del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7925,6 +7960,7 @@
     {
         "id": "crate-4034",
         "name": "Pacchetto di souvenir di Nuke del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7999,6 +8035,7 @@
     {
         "id": "crate-4035",
         "name": "Pacchetto di souvenir di Cache del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8101,6 +8138,7 @@
     {
         "id": "crate-4036",
         "name": "Pacchetto di souvenir di Cobblestone del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8217,6 +8255,7 @@
     {
         "id": "crate-4037",
         "name": "Pacchetto di souvenir di Overpass del DreamHack del 2014",
+        "name_original": "crate_dhw14_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8333,6 +8372,7 @@
     {
         "id": "crate-4061",
         "name": "Cassa cromatica",
+        "name_original": "crate_community_6",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/1/8",
@@ -8898,6 +8938,7 @@
     {
         "id": "crate-4079",
         "name": "Pacchetto di souvenir di Dust II dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9021,6 +9062,7 @@
     {
         "id": "crate-4080",
         "name": "Pacchetto di souvenir di Inferno dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9074,6 +9116,7 @@
     {
         "id": "crate-4081",
         "name": "Pacchetto di souvenir di Mirage dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9190,6 +9233,7 @@
     {
         "id": "crate-4082",
         "name": "Pacchetto di souvenir di Nuke dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9264,6 +9308,7 @@
     {
         "id": "crate-4083",
         "name": "Pacchetto di souvenir di Cache dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9366,6 +9411,7 @@
     {
         "id": "crate-4084",
         "name": "Pacchetto di souvenir di Cobblestone dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9482,6 +9528,7 @@
     {
         "id": "crate-4085",
         "name": "Pacchetto di souvenir di Overpass dell'ESL One Katowice del 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9598,6 +9645,7 @@
     {
         "id": "crate-4086",
         "name": "Leggende dell'ESL One Katowice del 2015 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_eslkatowice2015_01",
         "description": "Questa capsula contiene un adesivo Olografico o Foil dei partecipanti all'ESL One Katowice del 2015. Una parte dei proventi verrà distribuita equamente tra le organizzazioni incluse.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/02/26",
@@ -9711,6 +9759,7 @@
     {
         "id": "crate-4087",
         "name": "Sfidanti dell'ESL One Katowice del 2015 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_eslkatowice2015_02",
         "description": "Questa capsula contiene un adesivo Olografico o Foil dei partecipanti all'ESL One Katowice del 2015. Una parte dei proventi verrà distribuita equamente tra le organizzazioni incluse.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/02/26",
@@ -9824,6 +9873,7 @@
     {
         "id": "crate-4089",
         "name": "Cassa cromatica 2",
+        "name_original": "crate_community_7",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/4/15",
@@ -10396,6 +10446,7 @@
     {
         "id": "crate-4090",
         "name": "Capsula di adesivi di Enfu",
+        "name_original": "crate_sticker_pack_enfu_capsule",
         "description": "Questa capsula contiene una serie di adesivi disegnati da un artista della comunità, ENFU.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/04/22",
@@ -10497,6 +10548,7 @@
     {
         "id": "crate-4091",
         "name": "Cassa Falchion",
+        "name_original": "crate_community_8",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/4/15",
@@ -10713,6 +10765,7 @@
     {
         "id": "crate-4109",
         "name": "Leggende dell'ESL One Cologne 2015 (Foil)",
+        "name_original": "crate_sticker_pack_eslcologne2015_legends",
         "description": "Questa capsula contiene un adesivo foil dei partecipanti all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/8/10",
@@ -10778,6 +10831,7 @@
     {
         "id": "crate-4110",
         "name": "Sfidanti dell'ESL One Cologne 2015 (Foil)",
+        "name_original": "crate_sticker_pack_eslcologne2015_challengers",
         "description": "Questa capsula contiene un adesivo foil dei partecipanti all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/8/10",
@@ -10843,6 +10897,7 @@
     {
         "id": "crate-4111",
         "name": "Capsula con autografo | Girone A (Foil) | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_1",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre del Girone A all'ESL One Cologne 2015: Ninjas in Pyjamas, Team SoloMid, Renegades e Counter Logic Gaming.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -10974,6 +11029,7 @@
     {
         "id": "crate-4112",
         "name": "Capsula con autografo | Girone B (Foil) | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_2",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre del Girone B all'ESL One Cologne 2015: Team EnVyUs, Luminosity Gaming, Team Kinguin e Flipsid3 Tactics.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11105,6 +11161,7 @@
     {
         "id": "crate-4113",
         "name": "Capsula con autografo | Girone C (Foil) | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_3",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre del Girone C all'ESL One Cologne 2015: Fnatic, Natus Vincere, Titan e Team eBettle.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11236,6 +11293,7 @@
     {
         "id": "crate-4114",
         "name": "Capsula con autografo | Girone D (Foil) | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_4",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre del Girone D all'ESL One Cologne 2015: Virtus.Pro, mousesports, Cloud9 G2A e Team Immunity.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11367,6 +11425,7 @@
     {
         "id": "crate-4115",
         "name": "Capsula con autografo | Fnatic | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_fnatic",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Fnatic all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11408,6 +11467,7 @@
     {
         "id": "crate-4116",
         "name": "Capsula con autografo | Luminosity Gaming | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_luminositygaming",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Luminosity Gaming all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11449,6 +11509,7 @@
     {
         "id": "crate-4117",
         "name": "Capsula con autografo | Natus Vincere | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_navi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Natus Vincere all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11490,6 +11551,7 @@
     {
         "id": "crate-4118",
         "name": "Capsula con autografo | Ninjas in Pyjamas | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_ninjasinpyjamas",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Ninjas in Pyjamas all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11531,6 +11593,7 @@
     {
         "id": "crate-4119",
         "name": "Capsula con autografo | Team EnVyUs | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_envyus",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team EnVyUs all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11572,6 +11635,7 @@
     {
         "id": "crate-4120",
         "name": "Capsula con autografo | Titan | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_titan",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Titan all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11613,6 +11677,7 @@
     {
         "id": "crate-4121",
         "name": "Capsula con autografo | Team SoloMid | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_solomid",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team SoloMid all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11654,6 +11719,7 @@
     {
         "id": "crate-4122",
         "name": "Capsula con autografo | Virtus.Pro | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_virtuspro",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Virtus.Pro all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11695,6 +11761,7 @@
     {
         "id": "crate-4123",
         "name": "Capsula con autografo | mousesports | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_mousesports",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di mousesports all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11736,6 +11803,7 @@
     {
         "id": "crate-4124",
         "name": "Capsula con autografo | Renegades | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_renegades",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Renegades all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11777,6 +11845,7 @@
     {
         "id": "crate-4125",
         "name": "Capsula con autografo | Team Immunity | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_teamimmunity",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Immunity all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11818,6 +11887,7 @@
     {
         "id": "crate-4126",
         "name": "Capsula con autografo | Team eBettle | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_ebettle",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team eBettle all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11859,6 +11929,7 @@
     {
         "id": "crate-4127",
         "name": "Capsula con autografo | Team Kinguin | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_kinguin",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Kinguin all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11900,6 +11971,7 @@
     {
         "id": "crate-4128",
         "name": "Capsula con autografo | Flipsid3 Tactics | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_flipside",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Flipsid3 Tactics all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11941,6 +12013,7 @@
     {
         "id": "crate-4129",
         "name": "Capsula con autografo | Counter Logic Gaming | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_clg",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Counter Logic Gaming all'ESL One Cologne 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11982,6 +12055,7 @@
     {
         "id": "crate-4130",
         "name": "Capsula con autografo | Cloud9 G2A | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_cloud9",
         "description": "Questa capsula contiene un adesivo autografato da uno dei giocatori della squadra Cloud9 G2A all'ESL One Cologne del 2015.\\n\\nIl 50% dei proventi della vendita di questa capsula andrà a sostenere i giocatori e le organizzazioni che hanno partecipato all'evento.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -12023,6 +12097,7 @@
     {
         "id": "crate-4131",
         "name": "Pacchetto di souvenir di Dust II dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12146,6 +12221,7 @@
     {
         "id": "crate-4132",
         "name": "Pacchetto di souvenir di Mirage dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12262,6 +12338,7 @@
     {
         "id": "crate-4133",
         "name": "Pacchetto di souvenir di Inferno dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12315,6 +12392,7 @@
     {
         "id": "crate-4134",
         "name": "Pacchetto di souvenir di Cobblestone dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12431,6 +12509,7 @@
     {
         "id": "crate-4135",
         "name": "Pacchetto di souvenir di Overpass dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12547,6 +12626,7 @@
     {
         "id": "crate-4136",
         "name": "Pacchetto di souvenir di Cache dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12649,6 +12729,7 @@
     {
         "id": "crate-4137",
         "name": "Pacchetto di souvenir di Train dell'ESL One Cologne 2015",
+        "name_original": "crate_eslcologne2015_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12765,6 +12846,7 @@
     {
         "id": "crate-4138",
         "name": "Cassa Shadow",
+        "name_original": "crate_community_9",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/9/15",
@@ -12981,6 +13063,7 @@
     {
         "id": "crate-4156",
         "name": "Leggende del DreamHack Cluj-Napoca del 2015 (Foil)",
+        "name_original": "crate_sticker_pack_cluj2015_legends",
         "description": "Questa capsula contiene un adesivo foil di un partecipante del DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/10/20",
@@ -13046,6 +13129,7 @@
     {
         "id": "crate-4157",
         "name": "Sfidanti del DreamHack Cluj-Napoca del 2015 (Foil)",
+        "name_original": "crate_sticker_pack_cluj2015_challengers",
         "description": "Questa capsula contiene un adesivo foil di un partecipante del DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/10/20",
@@ -13111,6 +13195,7 @@
     {
         "id": "crate-4158",
         "name": "Capsula con autografo | Sfidanti (Foil) | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_group_1",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre sfidanti al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13362,6 +13447,7 @@
     {
         "id": "crate-4159",
         "name": "Capsula con autografo | Leggende (Foil) | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_group_2",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre leggendarie al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13613,6 +13699,7 @@
     {
         "id": "crate-4160",
         "name": "Capsula con autografo | Ninjas in Pyjamas | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_nip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Ninjas in Pyjamas al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13654,6 +13741,7 @@
     {
         "id": "crate-4161",
         "name": "Capsula con autografo | Team Dignitas | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_dig",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Dignitas al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13695,6 +13783,7 @@
     {
         "id": "crate-4162",
         "name": "Capsula con autografo | Counter Logic Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_clg",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Counter Logic Gaming al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13736,6 +13825,7 @@
     {
         "id": "crate-4163",
         "name": "Capsula con autografo | Vexed Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_vex",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Vexed Gaming al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13777,6 +13867,7 @@
     {
         "id": "crate-4164",
         "name": "Capsula con autografo | Flipsid3 Tactics | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_flip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Flipsid3 Tactics al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13818,6 +13909,7 @@
     {
         "id": "crate-4165",
         "name": "Capsula con autografo | Team Liquid | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_liq",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Liquid al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13859,6 +13951,7 @@
     {
         "id": "crate-4166",
         "name": "Capsula con autografo | mousesports | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_mss",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di mousesports al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13900,6 +13993,7 @@
     {
         "id": "crate-4167",
         "name": "Capsula con autografo | Natus Vincere | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_navi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Natus Vincere al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13941,6 +14035,7 @@
     {
         "id": "crate-4168",
         "name": "Capsula con autografo | Virtus.Pro | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_vp",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Virtus.Pro al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13982,6 +14077,7 @@
     {
         "id": "crate-4169",
         "name": "Capsula con autografo | Cloud9 | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_c9",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Cloud9 al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14023,6 +14119,7 @@
     {
         "id": "crate-4170",
         "name": "Capsula con autografo | G2 Esports | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_g2",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di G2 Esports al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14064,6 +14161,7 @@
     {
         "id": "crate-4171",
         "name": "Capsula con autografo | Titan | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_tit",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Titan al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14105,6 +14203,7 @@
     {
         "id": "crate-4172",
         "name": "Capsula con autografo | Team SoloMid | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_tsolo",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team SoloMid al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14146,6 +14245,7 @@
     {
         "id": "crate-4173",
         "name": "Capsula con autografo | Team EnVyUs | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_nv",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team EnVyUs al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14187,6 +14287,7 @@
     {
         "id": "crate-4174",
         "name": "Capsula con autografo | Fnatic | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_fntc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Fnatic al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14228,6 +14329,7 @@
     {
         "id": "crate-4175",
         "name": "Capsula con autografo | Luminosity Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_lumi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Luminosity Gaming al DreamHack Cluj-Napoca del 2015.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14269,6 +14371,7 @@
     {
         "id": "crate-4176",
         "name": "Pacchetto di souvenir di Dust II del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14392,6 +14495,7 @@
     {
         "id": "crate-4177",
         "name": "Pacchetto di souvenir di Mirage del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14508,6 +14612,7 @@
     {
         "id": "crate-4178",
         "name": "Pacchetto di souvenir di Inferno del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14561,6 +14666,7 @@
     {
         "id": "crate-4179",
         "name": "Pacchetto di souvenir di Cobblestone del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14677,6 +14783,7 @@
     {
         "id": "crate-4180",
         "name": "Pacchetto di souvenir di Overpass del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14793,6 +14900,7 @@
     {
         "id": "crate-4181",
         "name": "Pacchetto di souvenir di Cache del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14895,6 +15003,7 @@
     {
         "id": "crate-4182",
         "name": "Pacchetto di souvenir di Train del DreamHack Cluj-Napoca del 2015",
+        "name_original": "crate_cluj2015_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -15011,6 +15120,7 @@
     {
         "id": "crate-4183",
         "name": "Capsula delle Pin-up",
+        "name_original": "crate_sticker_pack_pinups_capsule",
         "description": "Questa capsula contiene diversi adesivi creati dall'artista della comunità ninjasia.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15094,6 +15204,7 @@
     {
         "id": "crate-4184",
         "name": "Capsula Slid3",
+        "name_original": "crate_sticker_pack_slid3_capsule",
         "description": "Questa capsula contiene diversi adesivi creati dall'artista della comunità Slid3.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15195,6 +15306,7 @@
     {
         "id": "crate-4185",
         "name": "Capsula ruoli di squadra",
+        "name_original": "crate_sticker_pack_team_roles_capsule",
         "description": "Questa capsula contiene diversi adesivi creati dall'artista della comunità ThePolymath.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15272,6 +15384,7 @@
     {
         "id": "crate-4186",
         "name": "Cassa Revolver",
+        "name_original": "crate_community_10",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015-11-30",
@@ -15863,6 +15976,7 @@
     {
         "id": "crate-4187",
         "name": "Cassa dell'Operazione Wildfire",
+        "name_original": "crate_community_11",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-01-19",
@@ -16079,6 +16193,7 @@
     {
         "id": "crate-4205",
         "name": "Leggende del MLG Columbus del 2016 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_columbus2016_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante del MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-03-10",
@@ -16198,6 +16313,7 @@
     {
         "id": "crate-4206",
         "name": "Sfidanti del MLG Columbus del 2016 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_columbus2016_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante del MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-03-10",
@@ -16317,6 +16433,7 @@
     {
         "id": "crate-4207",
         "name": "Capsula con autografo | Sfidanti (Foil) | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_group_1",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre sfidanti al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16568,6 +16685,7 @@
     {
         "id": "crate-4208",
         "name": "Capsula con autografo | Leggende (Foil) | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_group_2",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre leggendarie al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16819,6 +16937,7 @@
     {
         "id": "crate-4209",
         "name": "Capsula con autografo | Ninjas in Pyjamas | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_nip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Ninjas in Pyjamas al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16860,6 +16979,7 @@
     {
         "id": "crate-4210",
         "name": "Capsula con autografo | Splyce | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_splc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Splyce al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16901,6 +17021,7 @@
     {
         "id": "crate-4211",
         "name": "Capsula con autografo | Counter Logic Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_clg",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Counter Logic Gaming al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16942,6 +17063,7 @@
     {
         "id": "crate-4212",
         "name": "Capsula con autografo | Gambit Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_gamb",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Gambit Gaming al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16983,6 +17105,7 @@
     {
         "id": "crate-4213",
         "name": "Capsula con autografo | Flipsid3 Tactics | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_flip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Flipsid3 Tactics al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17024,6 +17147,7 @@
     {
         "id": "crate-4214",
         "name": "Capsula con autografo | Team Liquid | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_liq",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Liquid al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17065,6 +17189,7 @@
     {
         "id": "crate-4215",
         "name": "Capsula con autografo | mousesports | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_mss",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di mousesports al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17106,6 +17231,7 @@
     {
         "id": "crate-4216",
         "name": "Capsula con autografo | Natus Vincere | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_navi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Natus Vincere al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17147,6 +17273,7 @@
     {
         "id": "crate-4217",
         "name": "Capsula con autografo | Virtus.Pro | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_vp",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Virtus.Pro al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17188,6 +17315,7 @@
     {
         "id": "crate-4218",
         "name": "Capsula con autografo | Cloud9 | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_c9",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Cloud9 al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17229,6 +17357,7 @@
     {
         "id": "crate-4219",
         "name": "Capsula con autografo | G2 Esports | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_g2",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di G2 Esports al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17270,6 +17399,7 @@
     {
         "id": "crate-4220",
         "name": "Capsula con autografo | FaZe Clan | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_faze",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di FaZe Clan al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17311,6 +17441,7 @@
     {
         "id": "crate-4221",
         "name": "Capsula con autografo | Astralis | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_astr",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Astralis al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17352,6 +17483,7 @@
     {
         "id": "crate-4222",
         "name": "Capsula con autografo | Team EnVyUs | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_nv",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team EnVyUs al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17393,6 +17525,7 @@
     {
         "id": "crate-4223",
         "name": "Capsula con autografo | Fnatic | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_fntc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Fnatic al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17434,6 +17567,7 @@
     {
         "id": "crate-4224",
         "name": "Capsula con autografo | Luminosity Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_lumi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Luminosity Gaming al MLG Columbus del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17475,6 +17609,7 @@
     {
         "id": "crate-4225",
         "name": "Pacchetto di souvenir di Dust II del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17598,6 +17733,7 @@
     {
         "id": "crate-4226",
         "name": "Pacchetto di souvenir di Mirage del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17714,6 +17850,7 @@
     {
         "id": "crate-4227",
         "name": "Pacchetto di souvenir di Inferno del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17767,6 +17904,7 @@
     {
         "id": "crate-4228",
         "name": "Pacchetto di souvenir di Cobblestone del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17883,6 +18021,7 @@
     {
         "id": "crate-4229",
         "name": "Pacchetto di souvenir di Overpass del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17999,6 +18138,7 @@
     {
         "id": "crate-4230",
         "name": "Pacchetto di souvenir di Cache del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18101,6 +18241,7 @@
     {
         "id": "crate-4231",
         "name": "Pacchetto di souvenir di Train del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18217,6 +18358,7 @@
     {
         "id": "crate-4232",
         "name": "Pacchetto di souvenir di Nuke del MLG Columbus del 2016",
+        "name_original": "crate_columbus2016_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18291,6 +18433,7 @@
     {
         "id": "crate-4233",
         "name": "Cassa Cromatica 3",
+        "name_original": "crate_community_12",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-04-19",
@@ -18877,6 +19020,7 @@
     {
         "id": "crate-4234",
         "name": "Scatola di graffiti della comunità 1",
+        "name_original": "crate_sprays_community_1",
         "description": "Questa scatola contiene uno dei graffiti creati dalla comunità. Una parte dei profitti verrà distribuita equamente tra tutti i creatori partecipanti.",
         "type": "Graffiti",
         "first_sale_date": "2016/06/20",
@@ -18996,6 +19140,7 @@
     {
         "id": "crate-4235",
         "name": "Capsula di spille da collezione - Serie 1",
+        "name_original": "crate_pins_series_1",
         "description": "Questa capsula contiene una spilla da collezione della serie 1. Puoi sfoggiarla sul tuo profilo di CS:GO.",
         "type": "Pins",
         "first_sale_date": "2016/06/01",
@@ -19062,6 +19207,7 @@
     {
         "id": "crate-4236",
         "name": "Cassa Gamma",
+        "name_original": "crate_community_13",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-06-10",
@@ -19568,6 +19714,7 @@
     {
         "id": "crate-4254",
         "name": "Leggende del Cologne del 2016 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_cologne2016_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-06-24",
@@ -19687,6 +19834,7 @@
     {
         "id": "crate-4255",
         "name": "Sfidanti del Cologne del 2016 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_cologne2016_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-06-24",
@@ -19806,6 +19954,7 @@
     {
         "id": "crate-4256",
         "name": "Capsula con autografo | Sfidanti (Foil) | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_group_1",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre sfidanti al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20057,6 +20206,7 @@
     {
         "id": "crate-4257",
         "name": "Capsula con autografo | Leggende (Foil) | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_group_2",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre leggendarie al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20308,6 +20458,7 @@
     {
         "id": "crate-4258",
         "name": "Capsula con autografo | Ninjas in Pyjamas | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_nip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Ninjas in Pyjamas al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20349,6 +20500,7 @@
     {
         "id": "crate-4259",
         "name": "Capsula con autografo | OpTic Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_optc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di OpTic Gaming al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20390,6 +20542,7 @@
     {
         "id": "crate-4260",
         "name": "Capsula con autografo | Counter Logic Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_clg",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Counter Logic Gaming al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20431,6 +20584,7 @@
     {
         "id": "crate-4261",
         "name": "Capsula con autografo | Gambit Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_gamb",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Gambit Gaming al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20472,6 +20626,7 @@
     {
         "id": "crate-4262",
         "name": "Capsula con autografo | Flipsid3 Tactics | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_flip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Flipsid3 Tactics al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20513,6 +20668,7 @@
     {
         "id": "crate-4263",
         "name": "Capsula con autografo | Team Liquid | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_liq",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Liquid al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20554,6 +20710,7 @@
     {
         "id": "crate-4264",
         "name": "Capsula con autografo | mousesports | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_mss",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di mousesports al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20595,6 +20752,7 @@
     {
         "id": "crate-4265",
         "name": "Capsula con autografo | Natus Vincere | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_navi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Natus Vincere al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20636,6 +20794,7 @@
     {
         "id": "crate-4266",
         "name": "Capsula con autografo | Virtus.Pro | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_vp",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Virtus.Pro al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20677,6 +20836,7 @@
     {
         "id": "crate-4267",
         "name": "Capsula con autografo | SK Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_sk",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di SK Gaming al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20718,6 +20878,7 @@
     {
         "id": "crate-4268",
         "name": "Capsula con autografo | G2 Esports | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_g2",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di G2 Esports al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20759,6 +20920,7 @@
     {
         "id": "crate-4269",
         "name": "Capsula con autografo | FaZe Clan | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_faze",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di FaZe Clan al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20800,6 +20962,7 @@
     {
         "id": "crate-4270",
         "name": "Capsula con autografo | Astralis | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_astr",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Astralis al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20841,6 +21004,7 @@
     {
         "id": "crate-4271",
         "name": "Capsula con autografo | Team EnVyUs | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_nv",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team EnVyUs al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20882,6 +21046,7 @@
     {
         "id": "crate-4272",
         "name": "Capsula con autografo | Fnatic | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_fntc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Fnatic al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20923,6 +21088,7 @@
     {
         "id": "crate-4273",
         "name": "Capsula con autografo | Team Dignitas | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_dig",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Dignitas al Cologne del 2016.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni incluse.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20964,6 +21130,7 @@
     {
         "id": "crate-4274",
         "name": "Pacchetto di souvenir di Dust II del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21087,6 +21254,7 @@
     {
         "id": "crate-4275",
         "name": "Pacchetto di souvenir di Mirage del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21203,6 +21371,7 @@
     {
         "id": "crate-4276",
         "name": "Pacchetto di souvenir di Cobblestone del MLG Columbus del 2016",
+        "name_original": "crate_cologne2016_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21319,6 +21488,7 @@
     {
         "id": "crate-4277",
         "name": "Pacchetto di souvenir di Overpass del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21435,6 +21605,7 @@
     {
         "id": "crate-4278",
         "name": "Pacchetto di souvenir di Cache del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21537,6 +21708,7 @@
     {
         "id": "crate-4279",
         "name": "Pacchetto di souvenir di Train del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21653,6 +21825,7 @@
     {
         "id": "crate-4280",
         "name": "Pacchetto di souvenir di Nuke del Cologne del 2016",
+        "name_original": "crate_cologne2016_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21727,6 +21900,7 @@
     {
         "id": "crate-4281",
         "name": "Cassa Gamma 2",
+        "name_original": "crate_gamma_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-08-08",
@@ -22233,6 +22407,7 @@
     {
         "id": "crate-4282",
         "name": "Capsula dei teschi psichedelici",
+        "name_original": "crate_sticker_pack_sugarface_capsule",
         "description": "Questa capsula contiene una serie di adesivi disegnati da un artista della comunità, Guardian Gear.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016/08/16",
@@ -22328,6 +22503,7 @@
     {
         "id": "crate-4283",
         "name": "Capsula del bestiario",
+        "name_original": "crate_sticker_pack_bestiary_capsule",
         "description": "Questa capsula contiene una serie di adesivi disegnati da un artista della comunità, apёl7.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016/08/16",
@@ -22423,6 +22599,7 @@
     {
         "id": "crate-4284",
         "name": "Capsula di spille da collezione - Serie 2",
+        "name_original": "crate_pins_series_2",
         "description": "Questa capsula contiene una spilla da collezione della serie 2. Puoi sfoggiarla sul tuo profilo di CS:GO.",
         "type": "Pins",
         "first_sale_date": "2016/09/28",
@@ -22489,6 +22666,7 @@
     {
         "id": "crate-4285",
         "name": "Scatola di graffiti di CS:GO",
+        "name_original": "crate_sprays_vcap1",
         "description": null,
         "type": "Graffiti",
         "first_sale_date": "2016/08/24",
@@ -22608,6 +22786,7 @@
     {
         "id": "crate-4286",
         "name": "Scatola di graffiti di Perfect World",
+        "name_original": "crate_sprays_illuminate1",
         "description": "Questa capsula contiene una serie di graffiti di Perfect World per commemorare il rilascio di Counter-Strike: Global Offensive nella Cina continentale.",
         "type": "Graffiti",
         "first_sale_date": "2017/09/14",
@@ -22727,6 +22906,7 @@
     {
         "id": "crate-4287",
         "name": "Scatola dei radicali StatTrak™",
+        "name_original": "crate_musickit_radicals_stattrak_capsule",
         "description": "Questa scatola contiene una serie di temi musicali StatTrak™ realizzati da artisti \\\"Radicali\\\".",
         "type": "Music Kit Box",
         "first_sale_date": "2016/08/16",
@@ -22773,6 +22953,7 @@
     {
         "id": "crate-4288",
         "name": "Cassa di guanti",
+        "name_original": "crate_community_15",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-11-02",
@@ -23072,6 +23253,7 @@
     {
         "id": "crate-4323",
         "name": "Leggende della ELEAGUE di Atlanta 2017 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_atlanta2017_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-01-10",
@@ -23191,6 +23373,7 @@
     {
         "id": "crate-4324",
         "name": "Sfidanti della ELEAGUE di Atlanta 2017 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_atlanta2017_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-01-10",
@@ -23310,6 +23493,7 @@
     {
         "id": "crate-4325",
         "name": "Capsula con autografo | Sfidanti (Foil) | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_group_1",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre sfidanti alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23561,6 +23745,7 @@
     {
         "id": "crate-4326",
         "name": "Capsula con autografo | Leggende (Foil) | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_group_2",
         "description": "Questa capsula contiene un adesivo foil autografato da un giocatore delle squadre leggendarie alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23812,6 +23997,7 @@
     {
         "id": "crate-4327",
         "name": "Capsula con autografo | Astralis | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_astr",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Astralis alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23853,6 +24039,7 @@
     {
         "id": "crate-4328",
         "name": "Capsula con autografo | Team EnVyUs | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_nv",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team EnVyUs alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23894,6 +24081,7 @@
     {
         "id": "crate-4329",
         "name": "Capsula con autografo | FaZe Clan | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_faze",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di FaZe Clan alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23935,6 +24123,7 @@
     {
         "id": "crate-4330",
         "name": "Capsula con autografo | Flipsid3 Tactics | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_flip",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Flipsid3 Tactics alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23976,6 +24165,7 @@
     {
         "id": "crate-4331",
         "name": "Capsula con autografo | Fnatic | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_fntc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Fnatic alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24017,6 +24207,7 @@
     {
         "id": "crate-4332",
         "name": "Capsula con autografo | G2 Esports | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_g2",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di G2 Esports alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24058,6 +24249,7 @@
     {
         "id": "crate-4333",
         "name": "Capsula con autografo | Gambit Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_gamb",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Gambit Gaming alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24099,6 +24291,7 @@
     {
         "id": "crate-4334",
         "name": "Capsula con autografo | GODSENT | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_god",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di GODSENT alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24140,6 +24333,7 @@
     {
         "id": "crate-4335",
         "name": "Capsula con autografo | HellRaisers | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_hlr",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di HellRaisers alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24181,6 +24375,7 @@
     {
         "id": "crate-4336",
         "name": "Capsula con autografo | mousesports | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_mss",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di mousesports alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24222,6 +24417,7 @@
     {
         "id": "crate-4337",
         "name": "Capsula con autografo | Natus Vincere | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_navi",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Natus Vincere alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24263,6 +24459,7 @@
     {
         "id": "crate-4338",
         "name": "Capsula con autografo | North | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_nor",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di North alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24304,6 +24501,7 @@
     {
         "id": "crate-4339",
         "name": "Capsula con autografo | OpTic Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_optc",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di OpTic Gaming alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24345,6 +24543,7 @@
     {
         "id": "crate-4340",
         "name": "Capsula con autografo | SK Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_sk",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di SK Gaming alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24386,6 +24585,7 @@
     {
         "id": "crate-4341",
         "name": "Capsula con autografo | Team Liquid | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_liq",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Team Liquid alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24427,6 +24627,7 @@
     {
         "id": "crate-4342",
         "name": "Capsula con autografo | Virtus.Pro | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_vp",
         "description": "Questa capsula contiene un adesivo autografato da un giocatore di Virtus.Pro alla ELEAGUE di Atlanta 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà ai giocatori e alle organizzazioni coinvolte.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24468,6 +24669,7 @@
     {
         "id": "crate-4344",
         "name": "Pacchetto di souvenir di Dust II dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24591,6 +24793,7 @@
     {
         "id": "crate-4345",
         "name": "Pacchetto di souvenir di Mirage dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24707,6 +24910,7 @@
     {
         "id": "crate-4346",
         "name": "Pacchetto di souvenir di Cobblestone dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24823,6 +25027,7 @@
     {
         "id": "crate-4347",
         "name": "Pacchetto di souvenir di Overpass dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24939,6 +25144,7 @@
     {
         "id": "crate-4348",
         "name": "Pacchetto di souvenir di Cache dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25041,6 +25247,7 @@
     {
         "id": "crate-4349",
         "name": "Pacchetto di souvenir di Train dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25157,6 +25364,7 @@
     {
         "id": "crate-4350",
         "name": "Pacchetto di souvenir di Nuke dell'Atlanta del 2017",
+        "name_original": "crate_atlanta2017_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25231,6 +25439,7 @@
     {
         "id": "crate-4351",
         "name": "Cassa Spectrum",
+        "name_original": "crate_community_16",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-03-01",
@@ -25817,6 +26026,7 @@
     {
         "id": "crate-4352",
         "name": "Cassa dell'Operazione Hydra",
+        "name_original": "crate_community_17",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-04-21",
@@ -26116,6 +26326,7 @@
     {
         "id": "crate-4391",
         "name": "Leggende del PGL Krakow 2017 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_krakow2017_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al PGL Krakow 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
@@ -26235,6 +26446,7 @@
     {
         "id": "crate-4392",
         "name": "Sfidanti del PGL Krakow 2017 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_krakow2017_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante del PGL Krakow 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
@@ -26354,6 +26566,7 @@
     {
         "id": "crate-4393",
         "name": "Capsula con autografo | Sfidanti | PGL Krakow 2017",
+        "name_original": "crate_signature_pack_krakow2017_group_1",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre sfidanti al PGL Krakow 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-07-05",
@@ -27085,6 +27298,7 @@
     {
         "id": "crate-4394",
         "name": "Capsula con autografo | Leggende | PGL Krakow 2017",
+        "name_original": "crate_signature_pack_krakow2017_group_2",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie al PGL Krakow 2017.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-07-05",
@@ -27816,6 +28030,7 @@
     {
         "id": "crate-4396",
         "name": "Pacchetto di souvenir di Inferno di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -27869,6 +28084,7 @@
     {
         "id": "crate-4397",
         "name": "Pacchetto di souvenir di Mirage di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -27985,6 +28201,7 @@
     {
         "id": "crate-4398",
         "name": "Pacchetto di souvenir di Cobblestone di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28101,6 +28318,7 @@
     {
         "id": "crate-4399",
         "name": "Pacchetto di souvenir di Overpass di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28217,6 +28435,7 @@
     {
         "id": "crate-4400",
         "name": "Pacchetto di souvenir di Cache di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28319,6 +28538,7 @@
     {
         "id": "crate-4401",
         "name": "Pacchetto di souvenir di Train di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28435,6 +28655,7 @@
     {
         "id": "crate-4402",
         "name": "Pacchetto di souvenir di Nuke di Krakow 2017",
+        "name_original": "crate_krakow2017_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28509,6 +28730,7 @@
     {
         "id": "crate-4403",
         "name": "Cassa Spectrum 2",
+        "name_original": "crate_community_18",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-09-06",
@@ -29095,6 +29317,7 @@
     {
         "id": "crate-4404",
         "name": "Capsula di adesivi di Perfect World (1)",
+        "name_original": "crate_sticker_pack_illuminate_capsule_01",
         "description": "Questa capsula contiene una serie di adesivi di Perfect World per commemorare il rilascio di Counter-Strike: Global Offensive nella Cina continentale.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/09/15",
@@ -29196,6 +29419,7 @@
     {
         "id": "crate-4405",
         "name": "Capsula di adesivi di Perfect World (2)",
+        "name_original": "crate_sticker_pack_illuminate_capsule_02",
         "description": "Questa capsula contiene una serie di adesivi di Perfect World per commemorare il rilascio di Counter-Strike: Global Offensive nella Cina continentale.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/09/15",
@@ -29297,6 +29521,7 @@
     {
         "id": "crate-4456",
         "name": "Leggende della ELEAGUE di Boston 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_boston2018_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29416,6 +29641,7 @@
     {
         "id": "crate-4457",
         "name": "Sfidanti veterani della ELEAGUE di Boston 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_boston2018_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29535,6 +29761,7 @@
     {
         "id": "crate-4458",
         "name": "Sfidanti dei tornei Minor della ELEAGUE di Boston 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_boston2018_contenders",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29660,6 +29887,7 @@
     {
         "id": "crate-4459",
         "name": "Capsula con autografo | Leggende | Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_legends",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -30391,6 +30619,7 @@
     {
         "id": "crate-4460",
         "name": "Capsula con autografo | Sfidanti veterani | Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_challengers",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti veterani alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -31122,6 +31351,7 @@
     {
         "id": "crate-4461",
         "name": "Capsula con autografo | Sfidanti dei tornei Minor | Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_contenders",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre sfidanti dei tornei Minor alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -31859,6 +32089,7 @@
     {
         "id": "crate-4463",
         "name": "Pacchetto di souvenir di Inferno di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -31912,6 +32143,7 @@
     {
         "id": "crate-4464",
         "name": "Pacchetto di souvenir di Mirage di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32028,6 +32260,7 @@
     {
         "id": "crate-4465",
         "name": "Pacchetto di souvenir di Cobblestone di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32144,6 +32377,7 @@
     {
         "id": "crate-4466",
         "name": "Pacchetto di souvenir di Overpass di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32260,6 +32494,7 @@
     {
         "id": "crate-4467",
         "name": "Pacchetto di souvenir di Cache di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32362,6 +32597,7 @@
     {
         "id": "crate-4468",
         "name": "Pacchetto di souvenir di Train di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32478,6 +32714,7 @@
     {
         "id": "crate-4469",
         "name": "Pacchetto di souvenir di Nuke di Boston 2018",
+        "name_original": "crate_boston2018_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32552,6 +32789,7 @@
     {
         "id": "crate-4470",
         "name": "Capsula della Comunità 2018",
+        "name_original": "crate_sticker_pack_comm2018_01_capsule",
         "description": "Questa capsula contiene diversi adesivi del Workshop della Comunità.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/12/11",
@@ -32647,6 +32885,7 @@
     {
         "id": "crate-4471",
         "name": "Cassa degli Artigli",
+        "name_original": "crate_community_19",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-12-20",
@@ -32946,6 +33185,7 @@
     {
         "id": "crate-4474",
         "name": "Flash Gaming + Sfidanti dei tornei Minor della ELEAGUE di Boston 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_boston2018_contenders_flg",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, che apparirà via via più consumato, fino a rimuoverlo del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -33065,6 +33305,7 @@
     {
         "id": "crate-4475",
         "name": "Capsula con autografo | Sfidanti dei tornei Minor + Flash Gaming | Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_contenders_flg",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori di Flash Gaming o delle squadre sfidanti dei tornei Minor alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -33796,6 +34037,7 @@
     {
         "id": "crate-4477",
         "name": "Capsula dei polli",
+        "name_original": "crate_sticker_pack_chicken_capsule",
         "description": "Questa capsula contiene diversi adesivi creati dall'artista della comunità Slid3.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/06/10",
@@ -33909,6 +34151,7 @@
     {
         "id": "crate-4478",
         "name": "Leggende partecipanti della ELEAGUE di Boston 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_boston2018_legends_ntv",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -34016,6 +34259,7 @@
     {
         "id": "crate-4479",
         "name": "Capsula con autografo | Leggende partecipanti | Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_legends_ntv",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie alla ELEAGUE di Boston 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -34657,6 +34901,7 @@
     {
         "id": "crate-4481",
         "name": "Capsula di spille da collezione - Serie 3",
+        "name_original": "crate_pins_series_3",
         "description": "Questa capsula contiene una spilla da collezione della serie 3, che potrai sfoggiare sul tuo profilo di CS:GO.",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
@@ -34723,6 +34968,7 @@
     {
         "id": "crate-4482",
         "name": "Cassa Horizon",
+        "name_original": "crate_community_20",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-06-07",
@@ -35222,6 +35468,7 @@
     {
         "id": "crate-4533",
         "name": "Leggende di London 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_london2018_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35341,6 +35588,7 @@
     {
         "id": "crate-4534",
         "name": "Sfidanti veterani di London 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_london2018_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35460,6 +35708,7 @@
     {
         "id": "crate-4535",
         "name": "Sfidanti dei tornei Minor di London 2018 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_london2018_contenders",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35579,6 +35828,7 @@
     {
         "id": "crate-4536",
         "name": "Capsula con autografo | Leggende | London 2018",
+        "name_original": "crate_signature_pack_london2018_group_legends",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -36310,6 +36560,7 @@
     {
         "id": "crate-4537",
         "name": "Capsula con autografo | Sfidanti veterani | London 2018",
+        "name_original": "crate_signature_pack_london2018_group_challengers",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti veterani al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -37041,6 +37292,7 @@
     {
         "id": "crate-4538",
         "name": "Capsula con autografo | Sfidanti dei tornei Minor | London 2018",
+        "name_original": "crate_signature_pack_london2018_group_contenders",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre sfidanti dei tornei Minor al London 2018.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -37772,6 +38024,7 @@
     {
         "id": "crate-4540",
         "name": "Pacchetto di souvenir di Inferno di London 2018",
+        "name_original": "crate_london2018_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -37909,6 +38162,7 @@
     {
         "id": "crate-4541",
         "name": "Pacchetto di souvenir di Mirage di London 2018",
+        "name_original": "crate_london2018_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38025,6 +38279,7 @@
     {
         "id": "crate-4542",
         "name": "Pacchetto di souvenir di Dust II di London 2018",
+        "name_original": "crate_london2018_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38148,6 +38403,7 @@
     {
         "id": "crate-4543",
         "name": "Pacchetto di souvenir di Overpass di London 2018",
+        "name_original": "crate_london2018_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38264,6 +38520,7 @@
     {
         "id": "crate-4544",
         "name": "Pacchetto di souvenir di Cache di London 2018",
+        "name_original": "crate_london2018_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38366,6 +38623,7 @@
     {
         "id": "crate-4545",
         "name": "Pacchetto di souvenir di Train di London 2018",
+        "name_original": "crate_london2018_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38482,6 +38740,7 @@
     {
         "id": "crate-4546",
         "name": "Pacchetto di souvenir di Nuke di London 2018",
+        "name_original": "crate_london2018_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38619,6 +38878,7 @@
     {
         "id": "crate-4547",
         "name": "Capsula di adesivi del gruppo di abilità",
+        "name_original": "crate_sticker_pack_skillgroup_capsule",
         "description": "Questa capsula contiene diversi adesivi creati dall'artista della comunità daniDem.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018/11/15",
@@ -38738,6 +38998,7 @@
     {
         "id": "crate-4548",
         "name": "Cassa della Zona di pericolo",
+        "name_original": "crate_community_21",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-11-29",
@@ -39237,6 +39498,7 @@
     {
         "id": "crate-4584",
         "name": "Leggende di Katowice 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_katowice2019_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39356,6 +39618,7 @@
     {
         "id": "crate-4585",
         "name": "Sfidanti veterani di Katowice 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_katowice2019_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39451,6 +39714,7 @@
     {
         "id": "crate-4586",
         "name": "Sfidanti dei tornei Minor di Katowice 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_katowice2019_contenders",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39594,6 +39858,7 @@
     {
         "id": "crate-4587",
         "name": "Capsula con autografo | Leggende | Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_legends",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie di Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -40325,6 +40590,7 @@
     {
         "id": "crate-4588",
         "name": "Capsula con autografo | Sfidanti veterani | Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_challengers",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti veterani di Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -40876,6 +41142,7 @@
     {
         "id": "crate-4589",
         "name": "Capsula con autografo | Sfidanti dei tornei Minor | Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_contenders",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti dei tornei Minor di Katowice 2019.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -41787,6 +42054,7 @@
     {
         "id": "crate-4590",
         "name": "Pacchetto di souvenir di Inferno di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -41924,6 +42192,7 @@
     {
         "id": "crate-4591",
         "name": "Pacchetto di souvenir di Mirage di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42040,6 +42309,7 @@
     {
         "id": "crate-4592",
         "name": "Pacchetto di souvenir di Dust II di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42163,6 +42433,7 @@
     {
         "id": "crate-4593",
         "name": "Pacchetto di souvenir di Overpass di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42279,6 +42550,7 @@
     {
         "id": "crate-4594",
         "name": "Pacchetto di souvenir di Cache di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42381,6 +42653,7 @@
     {
         "id": "crate-4595",
         "name": "Pacchetto di souvenir di Train di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42497,6 +42770,7 @@
     {
         "id": "crate-4596",
         "name": "Pacchetto di souvenir di Nuke di Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42634,6 +42908,7 @@
     {
         "id": "crate-4597",
         "name": "Capsula Halo",
+        "name_original": "crate_sticker_pack_halo_capsule",
         "description": "Questa capsula contiene una serie di adesivi di 343 Industries.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/11/25",
@@ -42747,6 +43022,7 @@
     {
         "id": "crate-4598",
         "name": "Cassa Prisma",
+        "name_original": "crate_community_22",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-03-05",
@@ -43242,6 +43518,7 @@
     {
         "id": "crate-4599",
         "name": "Capsula dei predatori feroci",
+        "name_original": "crate_sticker_pack_feral_predators_capsule",
         "description": "Questa capsula contiene una serie di adesivi disegnati dagli artisti della comunità 2Minds, OniLolz e Zaphk.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/04/15",
@@ -43361,6 +43638,7 @@
     {
         "id": "crate-4600",
         "name": "Raccolta di adesivi Shattered Web",
+        "name_original": "crate_sticker_pack_shattered_web",
         "description": "Questa collezione include una serie di adesivi per celebrare l'Operazione Shattered Web.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
@@ -43426,6 +43704,7 @@
     {
         "id": "crate-4610",
         "name": "Pacchetto di toppe di CS:GO",
+        "name_original": "crate_patch_pack01",
         "description": "Questo pacchetto contiene una serie di toppe ricamate. Le toppe possono essere applicate su qualunque dei tuoi agenti.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
@@ -43563,6 +43842,7 @@
     {
         "id": "crate-4614",
         "name": "Collezione di toppe del gruppo di abilità Metallo",
+        "name_original": "crate_patch_pack02",
         "description": "Questa collezione di toppe contiene una serie di toppe ricamate. Le toppe possono essere applicate su tutti i tuoi agenti.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
@@ -43676,6 +43956,7 @@
     {
         "id": "crate-4615",
         "name": "Pacchetto di toppe di Half-Life: Alyx",
+        "name_original": "crate_patch_pack_hlalyx",
         "description": "Questo pacchetto contiene una serie di toppe ricamate commemorative di Half-Life: Alyx, il ritorno in VR di Valve alla serie Half-Life. Le toppe possono essere applicate su qualunque dei tuoi agenti.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/03/23",
@@ -43753,6 +44034,7 @@
     {
         "id": "crate-4616",
         "name": "Capsula di adesivi di Warhammer 40.000",
+        "name_original": "crate_sticker_pack_warhammer",
         "description": "Questa capsula contiene una serie di adesivi dalla serie di Warhammer 40.000.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/05/28",
@@ -43866,6 +44148,7 @@
     {
         "id": "crate-4620",
         "name": "Cassa Shattered Web",
+        "name_original": "crate_community_23",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-06-12",
@@ -44365,6 +44648,7 @@
     {
         "id": "crate-4654",
         "name": "Leggende di Berlino 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_berlin2019_legends",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44484,6 +44768,7 @@
     {
         "id": "crate-4655",
         "name": "Sfidanti veterani di Berlino 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_berlin2019_challengers",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44567,6 +44852,7 @@
     {
         "id": "crate-4656",
         "name": "Sfidanti dei tornei Minor di Berlino 2019 (Olografico/Foil)",
+        "name_original": "crate_sticker_pack_berlin2019_contenders",
         "description": "Questa capsula contiene un adesivo olografico o foil di un partecipante a Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44722,6 +45008,7 @@
     {
         "id": "crate-4657",
         "name": "Capsula con autografo | Leggende | Berlino 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_legends",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre leggendarie di Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per farlo apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -45453,6 +45740,7 @@
     {
         "id": "crate-4658",
         "name": "Capsula con autografo | Sfidanti veterani | Berlino 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_challengers",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti veterani di Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -45914,6 +46202,7 @@
     {
         "id": "crate-4659",
         "name": "Capsula con autografo | Sfidanti dei tornei Minor | Berlino 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_contenders",
         "description": "Questa capsula contiene un adesivo foil, dorato o di alta qualità autografato da uno dei giocatori delle squadre degli sfidanti dei tornei Minor di Berlino 2019.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiare più volte lo stesso adesivo, facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -46915,6 +47204,7 @@
     {
         "id": "crate-4660",
         "name": "Pacchetto di souvenir di Inferno di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47052,6 +47342,7 @@
     {
         "id": "crate-4661",
         "name": "Pacchetto di souvenir di Mirage di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47168,6 +47459,7 @@
     {
         "id": "crate-4662",
         "name": "Pacchetto di souvenir di Dust II di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47291,6 +47583,7 @@
     {
         "id": "crate-4663",
         "name": "Pacchetto di souvenir di Overpass di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47407,6 +47700,7 @@
     {
         "id": "crate-4664",
         "name": "Pacchetto di souvenir di Train di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47523,6 +47817,7 @@
     {
         "id": "crate-4665",
         "name": "Pacchetto di souvenir di Nuke di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47660,6 +47955,7 @@
     {
         "id": "crate-4666",
         "name": "Pacchetto di souvenir di Vertigo di Berlino 2019",
+        "name_original": "crate_berlin2019_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47713,6 +48009,7 @@
     {
         "id": "crate-4668",
         "name": "Pacchetto raggi X P250",
+        "name_original": "crate_xray_p250",
         "description": "Questo pacchetto contiene una P250 singola con vernice personalizzata che mostra le sue componenti interne come in una lastra. La P250 è una pistola a basso rinculo ed alta cadenza di tiro ed è una scelta relativamente poco costosa contro avversari dotati di giubbotto antiproiettile.",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -47731,6 +48028,7 @@
     {
         "id": "crate-4669",
         "name": "Cassa CS20",
+        "name_original": "crate_community_24",
         "description": "Per celebrare il ventesimo anniversario di Counter-Strike, questa cassa contiene una serie di rifiniture di armi create dal Workshop della Comunità di Steam e include il coltello classico come oggetto raro, un classico del mondo di Counter-Strike.",
         "type": "Case",
         "first_sale_date": "2019-10-14",
@@ -47954,6 +48252,7 @@
     {
         "id": "crate-4670",
         "name": "Capsula di adesivi CS20",
+        "name_original": "crate_sticker_pack_cs20_capsule",
         "description": "Per celebrare il ventesimo anniversario di Counter-Strike, questa capsula contiene una serie di adesivi creati dal Workshop della Comunità di Steam.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/16",
@@ -48085,6 +48384,7 @@
     {
         "id": "crate-4693",
         "name": "Capsula di spille da collezione - Half-Life: Alyx",
+        "name_original": "crate_pins_hlalyx",
         "description": "Questa capsula contiene una spilla da collezione commemorativa di Half-Life: Alyx, il ritorno in VR di Valve alla serie Half-Life. Puoi sfoggiarla sul tuo profilo di CS:GO.",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
@@ -48156,6 +48456,7 @@
     {
         "id": "crate-4694",
         "name": "Capsula di adesivi di Half-Life: Alyx",
+        "name_original": "crate_sticker_pack_hlalyx_capsule",
         "description": "Questa capsula contiene una serie di adevisi commemorativi di Half-Life: Alyx, il ritorno in VR di Valve alla serie Half-Life.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/03/23",
@@ -48245,6 +48546,7 @@
     {
         "id": "crate-4695",
         "name": "Cassa Prisma 2",
+        "name_original": "crate_community_25",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-03-24",
@@ -48740,6 +49042,7 @@
     {
         "id": "crate-4696",
         "name": "Scatola di temi musicali Masterminds",
+        "name_original": "crate_musickit_masterminds_capsule",
         "description": "Questa scatola contiene una serie di temi musicali realizzati da vari artisti.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
@@ -48786,6 +49089,7 @@
     {
         "id": "crate-4697",
         "name": "Scatola di temi musicali StatTrak™ Masterminds",
+        "name_original": "crate_musickit_masterminds_stattrak_capsule",
         "description": "Questa scatola contiene una serie di temi musicali StatTrak™ realizzati da vari artisti.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
@@ -48832,6 +49136,7 @@
     {
         "id": "crate-4698",
         "name": "Cassa Fracture",
+        "name_original": "crate_community_26",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-07-13",
@@ -49331,6 +49636,7 @@
     {
         "id": "crate-4717",
         "name": "Cassa dell'Operazione Broken Fang",
+        "name_original": "crate_community_27",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-10-14",
@@ -49630,6 +49936,7 @@
     {
         "id": "crate-4719",
         "name": "Raccolta di adesivi Rinculo",
+        "name_original": "crate_sticker_pack_recoil",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
@@ -49833,6 +50140,7 @@
     {
         "id": "crate-4729",
         "name": "Raccolta di adesivi Broken Fang",
+        "name_original": "crate_sticker_pack_broken_fang",
         "description": "Questa collezione include una serie di adesivi per celebrare l'Operazione Broken Fang.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/11/9",
@@ -49940,6 +50248,7 @@
     {
         "id": "crate-4743",
         "name": "Leggende del torneo RMR 2020",
+        "name_original": "crate_sticker_pack_rmr2020_legends",
         "description": "Questa capsula contiene un adesivo di carta, olografico, foil o oro di un partecipante al torneo RMR 2020.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50143,6 +50452,7 @@
     {
         "id": "crate-4744",
         "name": "Sfidanti del torneo RMR 2020",
+        "name_original": "crate_sticker_pack_rmr2020_challengers",
         "description": "Questa capsula contiene un adesivo di carta, olografico, foil o oro di un partecipante al torneo RMR 2020.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50346,6 +50656,7 @@
     {
         "id": "crate-4745",
         "name": "Contendenti del torneo RMR 2020",
+        "name_original": "crate_sticker_pack_rmr2020_contenders",
         "description": "Questa capsula contiene un adesivo di carta, olografico, foil o oro di un partecipante al torneo RMR 2020.\\n\\nIl 50% dei ricavi della vendita di questo adesivo andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50549,6 +50860,7 @@
     {
         "id": "crate-4746",
         "name": "Capsula Poorly Drawn",
+        "name_original": "crate_sticker_pack_poorly_drawn_capsule",
         "description": "Questa capsula contiene una serie di adesivi disegnati alla buona dagli artisti della comunità HH110011HH e Hoxton.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/02/14",
@@ -50680,6 +50992,7 @@
     {
         "id": "crate-4747",
         "name": "Cassa Snakebite",
+        "name_original": "crate_community_28",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-03-26",
@@ -50979,6 +51292,7 @@
     {
         "id": "crate-4754",
         "name": "Scatola di temi musicali Tacticians",
+        "name_original": "crate_musickit_tacticians_capsule",
         "description": "Questa scatola contiene una serie di temi musicali realizzati dagli artisti di \\\"Tacticians\\\".",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
@@ -51020,6 +51334,7 @@
     {
         "id": "crate-4755",
         "name": "Scatola dei temi musicali StatTrak™ di Tacticians",
+        "name_original": "crate_musickit_tacticians_stattrak_capsule",
         "description": "Questa scatola contiene una serie di temi musicali StatTrak™ realizzati dagli artisti di \\\"Tacticians\\\".",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
@@ -51061,6 +51376,7 @@
     {
         "id": "crate-4779",
         "name": "Raccolta di adesivi Riptide Surf Shop",
+        "name_original": "crate_sticker_pack_riptide_surfshop",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2021/08/01",
@@ -51504,6 +51820,7 @@
     {
         "id": "crate-4782",
         "name": "Capsula di adesivi della Comunità 2021",
+        "name_original": "crate_sticker_pack_community2021_capsule",
         "description": "Questa capsula contiene una serie di adesivi degli artisti del Workshop di Steam.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/02",
@@ -51641,6 +51958,7 @@
     {
         "id": "crate-4783",
         "name": "Collezione di adesivi dell'Operazione Riptide",
+        "name_original": "crate_sticker_pack_op_riptide_capsule",
         "description": "Questa collezione include una serie di adesivi per celebrare l'Operazione Riptide.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/21",
@@ -51736,6 +52054,7 @@
     {
         "id": "crate-4784",
         "name": "La capsula di adesivi della sala riunioni",
+        "name_original": "crate_sticker_pack_spring2022_capsule",
         "description": "Questa capsula contiene una serie di adesivi degli artisti del Workshop di Steam ed è stata rilasciata a febbraio 2022.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/02/20",
@@ -51879,6 +52198,7 @@
     {
         "id": "crate-4789",
         "name": "Capsula di adesivi Battlefield 2042",
+        "name_original": "crate_sticker_pack_bf2042_capsule",
         "description": "Questa capsula contiene una serie di adesivi di Electronic Arts.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/10/07",
@@ -51992,6 +52312,7 @@
     {
         "id": "crate-4790",
         "name": "Cassa dell'Operazione Riptide",
+        "name_original": "crate_community_29",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-09-08",
@@ -52498,6 +52819,7 @@
     {
         "id": "crate-4795",
         "name": "Collezione di toppe dell'Operazione Riptide",
+        "name_original": "crate_patch_pack03",
         "description": "Questa collezione di toppe contiene una serie di toppe ricamate in memoria dell'Operazione Riptide. Le toppe possono essere applicate su tutti i tuoi agenti.",
         "type": "Patch Capsule",
         "first_sale_date": "2021/09/01",
@@ -52587,6 +52909,7 @@
     {
         "id": "crate-4803",
         "name": "Capsula di adesivi delle leggende di Stoccolma 2021",
+        "name_original": "crate_sticker_pack_stockh2021_legends",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, foil o oro di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -52814,6 +53137,7 @@
     {
         "id": "crate-4804",
         "name": "Capsula di adesivi degli sfidanti di Stoccolma 2021",
+        "name_original": "crate_sticker_pack_stockh2021_challengers",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, foil o oro di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -53041,6 +53365,7 @@
     {
         "id": "crate-4805",
         "name": "Capsula di adesivi dei contendenti di Stoccolma 2021",
+        "name_original": "crate_sticker_pack_stockh2021_contenders",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, foil o oro di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -53268,6 +53593,7 @@
     {
         "id": "crate-4806",
         "name": "Pacchetto di toppe delle leggende di Stoccolma 2021",
+        "name_original": "crate_patch_pack_stockh2021_legends",
         "description": "Questo pacchetto contiene una toppa dorata o di alta qualità di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questo pacchetto andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nLe toppe possono essere applicate ad uno degli agenti in tuo possesso.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53387,6 +53713,7 @@
     {
         "id": "crate-4807",
         "name": "Pacchetto di toppe degli sfidanti di Stoccolma 2021",
+        "name_original": "crate_patch_pack_stockh2021_challengers",
         "description": "Questo pacchetto contiene una toppa dorata o di alta qualità di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questo pacchetto andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nLe toppe possono essere applicate ad uno degli agenti in tuo possesso.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53506,6 +53833,7 @@
     {
         "id": "crate-4808",
         "name": "Pacchetto di toppe dei contendenti di Stoccolma 2021",
+        "name_original": "crate_patch_pack_stockh2021_contenders",
         "description": "Questo pacchetto contiene una toppa dorata o di alta qualità di un partecipante al Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questo pacchetto andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nLe toppe possono essere applicate ad uno degli agenti in tuo possesso.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53625,6 +53953,7 @@
     {
         "id": "crate-4809",
         "name": "Pacchetto di souvenir di Inferno di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -53762,6 +54091,7 @@
     {
         "id": "crate-4810",
         "name": "Pacchetto di souvenir di Mirage di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -53906,6 +54236,7 @@
     {
         "id": "crate-4811",
         "name": "Pacchetto di souvenir di Dust II di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54050,6 +54381,7 @@
     {
         "id": "crate-4812",
         "name": "Pacchetto di souvenir di Overpass di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54166,6 +54498,7 @@
     {
         "id": "crate-4813",
         "name": "Pacchetto di souvenir di Ancient di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54310,6 +54643,7 @@
     {
         "id": "crate-4814",
         "name": "Pacchetto di souvenir di Nuke di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54447,6 +54781,7 @@
     {
         "id": "crate-4815",
         "name": "Pacchetto di souvenir di Vertigo di Stoccolma 2021",
+        "name_original": "crate_stockh2021_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54591,6 +54926,7 @@
     {
         "id": "crate-4816",
         "name": "Capsula di autografi dei campioni di Stoccolma 2021",
+        "name_original": "crate_signature_pack_stockh2021_group_champions",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico o oro autografato da uno dei campioni del Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2021-10-10",
@@ -54692,6 +55028,7 @@
     {
         "id": "crate-4817",
         "name": "Capsula di autografi dei finalisti di Stoccolma 2021",
+        "name_original": "crate_signature_pack_stockh2021_group_finalists",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico o oro autografato da uno dei campioni del Major di Stoccolma 2021.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": "2021-10-10",
@@ -55333,6 +55670,7 @@
     {
         "id": "crate-4818",
         "name": "Cassa Sogni e incubi",
+        "name_original": "crate_community_30",
         "description": "Quando l'arma attuale sta usando il massimo dello zoom, moltiplica l'input della mira per questo valore.",
         "type": "Case",
         "first_sale_date": "2021-11-17",
@@ -55839,6 +56177,7 @@
     {
         "id": "crate-4832",
         "name": "Capsula degli adesivi delle leggende di Anversa 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_legends",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, glitter o dorato di un partecipante al Major delle leggende di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56066,6 +56405,7 @@
     {
         "id": "crate-4833",
         "name": "Capsula degli adesivi degli sfidanti di Anversa 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_challengers",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, glitter o dorato di un partecipante al Major degli sfidanti di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56293,6 +56633,7 @@
     {
         "id": "crate-4834",
         "name": "Capsula degli adesivi dei contendenti di Anversa 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_contenders",
         "description": "Questa capsula contiene un adesivo di alta qualità, olografico, glitter o dorato di un partecipante al Major dei contendenti di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56520,6 +56861,7 @@
     {
         "id": "crate-4835",
         "name": "Pacchetto di souvenir di Inferno di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56657,6 +56999,7 @@
     {
         "id": "crate-4836",
         "name": "Pacchetto di souvenir di Mirage di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56801,6 +57144,7 @@
     {
         "id": "crate-4837",
         "name": "Pacchetto di souvenir di Dust II di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56945,6 +57289,7 @@
     {
         "id": "crate-4838",
         "name": "Pacchetto di souvenir di Overpass di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57061,6 +57406,7 @@
     {
         "id": "crate-4839",
         "name": "Pacchetto di souvenir di Ancient di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57205,6 +57551,7 @@
     {
         "id": "crate-4840",
         "name": "Pacchetto di souvenir di Nuke di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57342,6 +57689,7 @@
     {
         "id": "crate-4841",
         "name": "Pacchetto di souvenir di Vertigo di Anversa 2022",
+        "name_original": "crate_antwerp2022_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57486,6 +57834,7 @@
     {
         "id": "crate-4842",
         "name": "Capsula con autografo delle leggende di Anversa 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_legends",
         "description": "Questa capsula contiene un adesivo di alta qualità, glitter, olografico o dorato autografato da uno dei giocatori leggende del Major di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -58457,6 +58806,7 @@
     {
         "id": "crate-4843",
         "name": "Capsula con autografo degli sfidanti di Anversa 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_challengers",
         "description": "Questa capsula contiene un adesivo di alta qualità, glitter, olografico o dorato autografato da uno dei giocatori sfidanti del Major di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -59428,6 +59778,7 @@
     {
         "id": "crate-4844",
         "name": "Capsula con autografo dei contendenti di Anversa 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_contenders",
         "description": "Questa capsula contiene un adesivo di alta qualità, glitter, olografico o dorato autografato da uno dei giocatori contendenti del Major di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -60399,6 +60750,7 @@
     {
         "id": "crate-4845",
         "name": "Capsula con autografo dei campioni di Anversa 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_champions",
         "description": "Questa capsula contiene un adesivo di alta qualità, glitter, olografico o dorato autografato da uno dei campioni del Major di Anversa 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -60530,6 +60882,7 @@
     {
         "id": "crate-4846",
         "name": "Cassa Rinculo",
+        "name_original": "crate_community_31",
         "description": null,
         "type": "Case",
         "first_sale_date": "2022-05-30",
@@ -60829,6 +61182,7 @@
     {
         "id": "crate-4847",
         "name": "Capsula di adesivi per il decimo compleanno",
+        "name_original": "crate_sticker_pack_csgo10_capsule",
         "description": "Questa capsula contiene una serie di adesivi realizzati dagli artisti del Workshop di Steam per celebrare il decimo compleanno di CS:GO.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/06/15",
@@ -61230,6 +61584,7 @@
     {
         "id": "crate-4848",
         "name": "Scatola di temi musicali Initiators",
+        "name_original": "crate_musickit_initiators_capsule",
         "description": "Questa scatola contiene una serie di temi musicali realizzati dagli artisti di \\\"Initiators\\\".",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
@@ -61271,6 +61626,7 @@
     {
         "id": "crate-4849",
         "name": "Scatola dei temi musicali StatTrak™ di Initiators",
+        "name_original": "crate_musickit_initiators_stattrak_capsule",
         "description": "Questa scatola contiene una serie di temi musicali StatTrak™ realizzati dagli artisti di \\\"Initiators\\\".",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
@@ -61312,6 +61668,7 @@
     {
         "id": "crate-4857",
         "name": "Capsula degli adesivi delle leggende di Rio 2022",
+        "name_original": "crate_sticker_pack_rio2022_legends",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major delle Leggende di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61539,6 +61896,7 @@
     {
         "id": "crate-4858",
         "name": "Capsula degli adesivi degli sfidanti di Rio 2022",
+        "name_original": "crate_sticker_pack_rio2022_challengers",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major degli Sfidanti di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61766,6 +62124,7 @@
     {
         "id": "crate-4859",
         "name": "Capsula degli adesivi dei contendenti di Rio 2022",
+        "name_original": "crate_sticker_pack_rio2022_contenders",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major dei Contendenti di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61993,6 +62352,7 @@
     {
         "id": "crate-4860",
         "name": "Pacchetto di souvenir di Inferno di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62130,6 +62490,7 @@
     {
         "id": "crate-4861",
         "name": "Pacchetto di souvenir di Mirage di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62274,6 +62635,7 @@
     {
         "id": "crate-4862",
         "name": "Pacchetto di souvenir di Dust II di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62418,6 +62780,7 @@
     {
         "id": "crate-4863",
         "name": "Pacchetto di souvenir di Overpass di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62534,6 +62897,7 @@
     {
         "id": "crate-4864",
         "name": "Pacchetto di souvenir di Ancient di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62678,6 +63042,7 @@
     {
         "id": "crate-4865",
         "name": "Pacchetto di souvenir di Nuke di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62815,6 +63180,7 @@
     {
         "id": "crate-4866",
         "name": "Pacchetto di souvenir di Vertigo di Rio 2022",
+        "name_original": "crate_rio2022_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62959,6 +63325,7 @@
     {
         "id": "crate-4867",
         "name": "Capsula con autografo | Leggende | Rio 2022",
+        "name_original": "crate_signature_pack_rio2022_group_legends",
         "description": "Questa capsula contiene un adesivo di carta, glitterato, olografico o dorato autografato da uno dei giocatori Leggende del Major di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -63930,6 +64297,7 @@
     {
         "id": "crate-4868",
         "name": "Capsula con autografo | Sfidanti | Rio 2022",
+        "name_original": "crate_signature_pack_rio2022_group_challengers",
         "description": "Questa capsula contiene un adesivo di carta, glitterato, olografico o dorato autografato da uno dei giocatori Sfidanti del Major di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -64901,6 +65269,7 @@
     {
         "id": "crate-4869",
         "name": "Capsula con autografo | Contendenti | Rio 2022",
+        "name_original": "crate_signature_pack_rio2022_group_contenders",
         "description": "Questa capsula contiene un adesivo di carta glitterato, olografico o dorato autografato da uno dei giocatori Contendenti del Major di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -65872,6 +66241,7 @@
     {
         "id": "crate-4870",
         "name": "Capsula con autografo dei campioni di Rio 2022",
+        "name_original": "crate_signature_pack_rio2022_group_champions",
         "description": "Questa capsula contiene un adesivo di carta glitterato, olografico o dorato autografato da uno dei Campioni del Major di Rio 2022.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -66003,6 +66373,7 @@
     {
         "id": "crate-4871",
         "name": "Magazzino di Rio 2022 con adesivi di carta",
+        "name_original": "storageunit0_rio2022",
         "description": "Questo è un magazzino che include tutti gli adesivi di carta autografati dai giocatori e tutti gli adesivi di carta commemorativi del campionato Major IEM di CS:GO di Rio 2022\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà ai giocatori e alle organizzazioni coinvolte.",
         "type": null,
         "first_sale_date": null,
@@ -66884,6 +67255,7 @@
     {
         "id": "crate-4872",
         "name": "Magazzino di Rio 2022 con adesivi glitterati",
+        "name_original": "storageunit1_rio2022",
         "description": "Questo è un magazzino che include tutti gli adesivi glitterati autografati dai giocatori e tutti gli adesivi glitterati commemorativi del campionato Major IEM di CS:GO di Rio 2022\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà ai giocatori e alle organizzazioni coinvolte.",
         "type": null,
         "first_sale_date": null,
@@ -67765,6 +68137,7 @@
     {
         "id": "crate-4879",
         "name": "Capsula di adesivi Spionaggio",
+        "name_original": "crate_sticker_pack_community2022_capsule",
         "description": "Questa capsula contiene una serie di adesivi degli artisti del Workshop di Steam ed è stata rilasciata a febbraio 2023.",
         "type": "Sticker Capsule",
         "first_sale_date": "2023/01/05",
@@ -67902,6 +68275,7 @@
     {
         "id": "crate-4880",
         "name": "Cassa Rivoluzione",
+        "name_original": "crate_community_32",
         "description": null,
         "type": "Case",
         "first_sale_date": "2023-01-31",
@@ -68201,6 +68575,7 @@
     {
         "id": "crate-4882",
         "name": "Pacchetto collezione Anubis",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",
@@ -68345,6 +68720,7 @@
     {
         "id": "crate-4890",
         "name": "Capsula degli adesivi delle leggende di Parigi 2023",
+        "name_original": "crate_sticker_pack_paris2023_legends",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major delle leggende di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -68572,6 +68948,7 @@
     {
         "id": "crate-4891",
         "name": "Capsula degli adesivi degli sfidanti di Parigi 2023",
+        "name_original": "crate_sticker_pack_paris2023_challengers",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major degli sfidanti di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -68799,6 +69176,7 @@
     {
         "id": "crate-4892",
         "name": "Capsula degli adesivi dei contendenti di Parigi 2023",
+        "name_original": "crate_sticker_pack_paris2023_contenders",
         "description": "Questa capsula contiene un adesivo di carta, olografico, glitterato o dorato di un partecipante al Major dei contendenti di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -69026,6 +69404,7 @@
     {
         "id": "crate-4893",
         "name": "Pacchetto di souvenir di Inferno di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69163,6 +69542,7 @@
     {
         "id": "crate-4894",
         "name": "Pacchetto di souvenir di Mirage di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69307,6 +69687,7 @@
     {
         "id": "crate-4895",
         "name": "Pacchetto di souvenir di Anubis di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_anubis",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69451,6 +69832,7 @@
     {
         "id": "crate-4896",
         "name": "Pacchetto di souvenir di Overpass di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69567,6 +69949,7 @@
     {
         "id": "crate-4897",
         "name": "Pacchetto di souvenir di Ancient di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69711,6 +70094,7 @@
     {
         "id": "crate-4898",
         "name": "Pacchetto di souvenir di Nuke di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69848,6 +70232,7 @@
     {
         "id": "crate-4899",
         "name": "Pacchetto di souvenir di Vertigo di Parigi 2023",
+        "name_original": "crate_paris2023_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69992,6 +70377,7 @@
     {
         "id": "crate-4900",
         "name": "Capsula con autografo | Leggende | Parigi 2023",
+        "name_original": "crate_signature_pack_paris2023_group_legends",
         "description": "Questa capsula contiene un adesivo di carta, glitterato, olografico o dorato autografato da uno dei giocatori Leggende del Major di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -70963,6 +71349,7 @@
     {
         "id": "crate-4901",
         "name": "Capsula con autografo | Sfidanti | Parigi 2023",
+        "name_original": "crate_signature_pack_paris2023_group_challengers",
         "description": "Questa capsula contiene un adesivo di carta, glitterato, olografico o dorato autografato da uno dei giocatori Sfidanti del Major di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -71934,6 +72321,7 @@
     {
         "id": "crate-4902",
         "name": "Capsula con autografo | Contendenti | Parigi 2023",
+        "name_original": "crate_signature_pack_paris2023_group_contenders",
         "description": "Questa capsula contiene un adesivo di carta glitterato, olografico o dorato autografato da uno dei giocatori Contendenti del Major di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -72905,6 +73293,7 @@
     {
         "id": "crate-4903",
         "name": "Capsula con autografo | Campioni | Parigi 2023",
+        "name_original": "crate_signature_pack_paris2023_group_champions",
         "description": "Questa capsula contiene un adesivo di carta glitterato, olografico o dorato autografato da uno dei Campioni del Major di Parigi 2023.\\n\\nIl 50% dei ricavi della vendita di questa capsula andrà alle organizzazioni e ai giocatori coinvolti.\\n\\nQuesto adesivo può essere applicato a qualunque arma tu possieda e può essere raschiato per apparire più consumato. Puoi raschiarlo più volte facendolo apparire via via sempre più consumato, finché non lo rimuoverai del tutto dall'arma.",
         "type": "Autograph Capsule",
         "first_sale_date": null,

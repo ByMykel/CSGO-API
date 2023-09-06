@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Pacote de Presente",
+        "name_original": "Tool_Gift1Player",
         "description": "Quando usado, um jogador aleatório na sua partida receberá um item aleatório de presente.",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "Palete de Presentes",
+        "name_original": "Tool_Gift9Players",
         "description": "Quando usado, até outros 9 jogadores aleatórios na sua partida receberão um item aleatório de presente.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Pacote de Participação do Público",
+        "name_original": "Tool_Gift25Spectators",
         "description": "Quando usado, até 25 jogadores que estão assistindo à sua partida receberão um item aleatório de presente.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4668",
         "name": "Pacote da P250 Raio-X",
+        "name_original": "crate_xray_p250",
         "description": "Este pacote contém uma única P250 pintada como se estivesse sendo vista em um raio-X. A P250 é uma arma de fogo com alta taxa de disparo e pouco coice, uma escolha relativamente barata contra adversários bem protegidos.",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -50,6 +54,7 @@
     {
         "id": "crate-4871",
         "name": "Unidade de Armazenamento do Rio 2022 com Adesivos de Papel",
+        "name_original": "storageunit0_rio2022",
         "description": "Esta é uma unidade de armazenamento que contém os adesivos de papel de todas as equipes e jogadores em comemoração ao Campeonato Mundial de CS:GO Rio 2022 da IEM.\\n\\n50% da receita proveniente da venda desta unidade de armazenamento será destinada aos jogadores e organizações inclusas.",
         "type": null,
         "first_sale_date": null,
@@ -931,6 +936,7 @@
     {
         "id": "crate-4872",
         "name": "Unidade de Armazenamento do Rio 2022 com Adesivos Purpurinados",
+        "name_original": "storageunit1_rio2022",
         "description": "Esta é uma unidade de armazenamento que contém os adesivos purpurinados de todas as equipes e jogadores em comemoração ao Campeonato Mundial de CS:GO Rio 2022 da IEM.\\n\\n50% da receita proveniente da venda desta unidade de armazenamento será destinada aos jogadores e organizações inclusas.",
         "type": null,
         "first_sale_date": null,
@@ -1812,6 +1818,7 @@
     {
         "id": "crate-4882",
         "name": "Pacote da Coleção Anubis",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",

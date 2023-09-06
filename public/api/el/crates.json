@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Πακέτο δώρου",
+        "name_original": "Tool_Gift1Player",
         "description": "Όταν χρησιμοποιηθεί, ένας τυχαίος παίκτης στον αγώνα σας θα λάβει ένα τυχαίο αντικείμενο ως δώρο από εσάς.",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "Παλέτα δώρων",
+        "name_original": "Tool_Gift9Players",
         "description": "Όταν χρησιμοποιηθεί, έως 9 άλλοι παίκτες στον αγώνα σας θα λάβουν ένα τυχαίο αντικείμενο ως δώρο από εσάς.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Audience Participation Parcel",
+        "name_original": "Tool_Gift25Spectators",
         "description": "Όταν χρησιμοποιηθεί, έως 25 θεατές που παρακολουθούν το παιχνίδι σας θα λάβουν ένα τυχαίο αντικείμενο ως δώρο από εσάς.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4001",
         "name": "CS:GO Θήκη όπλων",
+        "name_original": "crate_valve_1",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -567,6 +571,7 @@
     {
         "id": "crate-4002",
         "name": "Θήκη eSports 2013",
+        "name_original": "crate_esports_2013",
         "description": "Ένα μέρος των εσόδων από το κλειδί που την ξεκλειδώνει θα βοηθήσει στην υποστήριξη των επάθλων επαγγελματικών διοργανώσεων CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -1102,6 +1107,7 @@
     {
         "id": "crate-4003",
         "name": "Θήκη επιχείρησης Bravo",
+        "name_original": "crate_operation_ii",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -1679,6 +1685,7 @@
     {
         "id": "crate-4004",
         "name": "CS:GO Θήκη όπλων 2",
+        "name_original": "crate_valve_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -2235,6 +2242,7 @@
     {
         "id": "crate-4005",
         "name": "Θήκη eSports 2013 Winter",
+        "name_original": "crate_esports_2013_winter",
         "description": "Ένα μέρος των εσόδων από το κλειδί που την ξεκλειδώνει θα βοηθήσει στην υποστήριξη των επάθλων επαγγελματικών διοργανώσεων CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -2791,6 +2799,7 @@
     {
         "id": "crate-4006",
         "name": "Πακέτο σουβενίρ DreamHack 2013",
+        "name_original": "crate_dhw13_promo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -2801,6 +2810,7 @@
     {
         "id": "crate-4007",
         "name": "Κάψουλα αυτοκόλλητων",
+        "name_original": "crate_sticker_pack01",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2014/01/29",
@@ -2902,6 +2912,7 @@
     {
         "id": "crate-4009",
         "name": "Winter Offensive Θήκη όπλων",
+        "name_original": "crate_community_1",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/12/18",
@@ -3465,6 +3476,7 @@
     {
         "id": "crate-4010",
         "name": "CS:GO Θήκη όπλων 3",
+        "name_original": "crate_valve_3",
         "description": null,
         "type": "Case",
         "first_sale_date": "2013/09/20",
@@ -4021,6 +4033,7 @@
     {
         "id": "crate-4011",
         "name": "Θήκη όπλων επιχείρησης Phoenix",
+        "name_original": "crate_community_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/2/19",
@@ -4584,6 +4597,7 @@
     {
         "id": "crate-4012",
         "name": "Κάψουλα αυτοκόλλητων 2",
+        "name_original": "crate_sticker_pack02",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2014/01/29",
@@ -4691,6 +4705,7 @@
     {
         "id": "crate-4013",
         "name": "Πακέτο σουβενίρ EMS One 2014",
+        "name_original": "crate_ems14_promo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -4701,6 +4716,7 @@
     {
         "id": "crate-4014",
         "name": "EMS Katowice 2014 Challengers",
+        "name_original": "crate_sticker_pack_kat2014_01",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο συμμετέχων EMS One Katowice 2014. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/03/02",
@@ -4814,6 +4830,7 @@
     {
         "id": "crate-4015",
         "name": "EMS Katowice 2014 Legends",
+        "name_original": "crate_sticker_pack_kat2014_02",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο συμμετέχων EMS One Katowice 2014. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/03/02",
@@ -4927,6 +4944,7 @@
     {
         "id": "crate-4016",
         "name": "Κάψουλα αυτοκόλλητων κοινότητας 1",
+        "name_original": "crate_sticker_pack_community01",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο δημιουργημένο από την κοινότητα. Ένα μέρος των εσόδων μοιράζεται εξίσου στους συμπεριλαμβανομένους δημιουργούς.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/06/11",
@@ -5040,6 +5058,7 @@
     {
         "id": "crate-4017",
         "name": "Θήκη όπλων Huntsman",
+        "name_original": "crate_community_3",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/11",
@@ -5255,6 +5274,7 @@
     {
         "id": "crate-4018",
         "name": "Θήκη όπλων επιχείρησης Breakout",
+        "name_original": "crate_community_4",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/06/23",
@@ -5457,6 +5477,7 @@
     {
         "id": "crate-4019",
         "name": "Καλοκαιρινή θήκη eSports 2014",
+        "name_original": "crate_esports_2014_summer",
         "description": "Ένα μέρος των εσόδων από το κλειδί που την ξεκλειδώνει θα βοηθήσει στην υποστήριξη των επάθλων επαγγελματικών διοργανώσεων CS:GO.",
         "type": "Case",
         "first_sale_date": "2014/07/09",
@@ -6048,6 +6069,7 @@
     {
         "id": "crate-4020",
         "name": "ESL Cologne 2014 Legends",
+        "name_original": "crate_sticker_pack_cologne2014_01",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο συμμετέχων ESL One Cologne 2014. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/08/01",
@@ -6149,6 +6171,7 @@
     {
         "id": "crate-4021",
         "name": "ESL One Cologne 2014 Challengers",
+        "name_original": "crate_sticker_pack_cologne2014_02",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο συμμετέχων ESL One Cologne 2014. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/08/01",
@@ -6274,6 +6297,7 @@
     {
         "id": "crate-4022",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Dust II",
+        "name_original": "crate_esl14_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6397,6 +6421,7 @@
     {
         "id": "crate-4023",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Inferno",
+        "name_original": "crate_esl14_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6450,6 +6475,7 @@
     {
         "id": "crate-4024",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Mirage",
+        "name_original": "crate_esl14_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6566,6 +6592,7 @@
     {
         "id": "crate-4025",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Nuke",
+        "name_original": "crate_esl14_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6640,6 +6667,7 @@
     {
         "id": "crate-4026",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Cache",
+        "name_original": "crate_esl14_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6742,6 +6770,7 @@
     {
         "id": "crate-4027",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Cobblestone",
+        "name_original": "crate_esl14_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6858,6 +6887,7 @@
     {
         "id": "crate-4028",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2014: Overpass",
+        "name_original": "crate_esl14_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -6974,6 +7004,7 @@
     {
         "id": "crate-4029",
         "name": "Θήκη όπλων επιχείρησης Vanguard",
+        "name_original": "crate_operation_vanguard",
         "description": null,
         "type": "Case",
         "first_sale_date": "2014/11/5",
@@ -7544,6 +7575,7 @@
     {
         "id": "crate-4030",
         "name": "DreamHack 2014 Legends (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_dhw2014_01",
         "description": "Αυτή η κάψουλα περιέχει ένα Holo ή σπάνιο αυτοκόλλητο συμμετέχων DreamHack 2014. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2014/11/20",
@@ -7633,6 +7665,7 @@
     {
         "id": "crate-4031",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Dust II",
+        "name_original": "crate_dhw14_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7756,6 +7789,7 @@
     {
         "id": "crate-4032",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Inferno",
+        "name_original": "crate_dhw14_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7809,6 +7843,7 @@
     {
         "id": "crate-4033",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Mirage",
+        "name_original": "crate_dhw14_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7925,6 +7960,7 @@
     {
         "id": "crate-4034",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Nuke",
+        "name_original": "crate_dhw14_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -7999,6 +8035,7 @@
     {
         "id": "crate-4035",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Cache",
+        "name_original": "crate_dhw14_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8101,6 +8138,7 @@
     {
         "id": "crate-4036",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Cobblestone",
+        "name_original": "crate_dhw14_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8217,6 +8255,7 @@
     {
         "id": "crate-4037",
         "name": "Πακέτο σουβενίρ DreamHack 2014 Overpass",
+        "name_original": "crate_dhw14_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -8333,6 +8372,7 @@
     {
         "id": "crate-4061",
         "name": "Θήκη Chroma",
+        "name_original": "crate_community_6",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/1/8",
@@ -8898,6 +8938,7 @@
     {
         "id": "crate-4079",
         "name": "Πακέτο Σουβενίρ Dust II ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9021,6 +9062,7 @@
     {
         "id": "crate-4080",
         "name": "Πακέτο Σουβενίρ Inferno ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9074,6 +9116,7 @@
     {
         "id": "crate-4081",
         "name": "Πακέτο Σουβενίρ Mirage ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9190,6 +9233,7 @@
     {
         "id": "crate-4082",
         "name": "Πακέτο Σουβενίρ Nuke ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9264,6 +9308,7 @@
     {
         "id": "crate-4083",
         "name": "Πακέτο Σουβενίρ ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9366,6 +9411,7 @@
     {
         "id": "crate-4084",
         "name": "Πακέτο Σουβενίρ Cobblestone ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9482,6 +9528,7 @@
     {
         "id": "crate-4085",
         "name": "Πακέτο Σουβενίρ Overpass ESL One Κατοβίτσε 2015",
+        "name_original": "crate_eslkatowice2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -9598,6 +9645,7 @@
     {
         "id": "crate-4086",
         "name": "ESL One Katowice 2015 Legends (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_eslkatowice2015_01",
         "description": "Αυτή η κάψουλα περιέχει ένα Holo ή σπάνιο αυτοκόλλητο συμμετέχων ESL One Katowice 2015. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/02/26",
@@ -9711,6 +9759,7 @@
     {
         "id": "crate-4087",
         "name": "ESL One Katowice 2015 Challengers (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_eslkatowice2015_02",
         "description": "Αυτή η κάψουλα περιέχει ένα Holo ή σπάνιο αυτοκόλλητο συμμετέχων ESL One Katowice 2015. Ένα μέρος των εσόδων θα μοιραστεί εξίσου μεταξύ των συμπεριλαμβανομένων οργανισμών.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/02/26",
@@ -9824,6 +9873,7 @@
     {
         "id": "crate-4089",
         "name": "Θήκη Chroma 2",
+        "name_original": "crate_community_7",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/4/15",
@@ -10396,6 +10446,7 @@
     {
         "id": "crate-4090",
         "name": "Κάψουλα αυτοκόλλητων Enfu",
+        "name_original": "crate_sticker_pack_enfu_capsule",
         "description": "Αυτή η κάψουλα περιέχει διάφορα αυτοκόλλητα από τον καλλιτέχνη κοινότητας ENFU.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/04/22",
@@ -10497,6 +10548,7 @@
     {
         "id": "crate-4091",
         "name": "Θήκη Falchion",
+        "name_original": "crate_community_8",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/4/15",
@@ -10713,6 +10765,7 @@
     {
         "id": "crate-4109",
         "name": "ESL One Κολωνία 2015 Θρύλοι (Σπάνιο)",
+        "name_original": "crate_sticker_pack_eslcologne2015_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο συμμετέχοντος ESL One Cologne 2015.\\n\\nΤο 50% των εσόδων από τις πωλήσεις αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί ώστε να μοιάζει πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το να φαίνεται όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/8/10",
@@ -10778,6 +10831,7 @@
     {
         "id": "crate-4110",
         "name": "ESL One Κολωνία 2015 Διεκδικητές (Σπάνιο)",
+        "name_original": "crate_sticker_pack_eslcologne2015_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο συμμετέχοντος ESL One Cologne 2015.\\n\\nΤο 50% των εσόδων από τις πωλήσεις αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί ώστε να μοιάζει πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το να φαίνεται όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/8/10",
@@ -10843,6 +10897,7 @@
     {
         "id": "crate-4111",
         "name": "Κάψουλα αυτογράφων | Όμιλος A (Σπάνιο) | Κολωνία 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_1",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο αλουμινόχαρτου με αυτόγραφο ενός από τους παίχτες των ομάδων του ομίλου Α στο ESL One Cologne 2015: τη Ninjas in Pyjamas, την Team SoloMid, τη Renegades, την Counter Logic Gaming.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -10974,6 +11029,7 @@
     {
         "id": "crate-4112",
         "name": "Κάψουλα αυτογράφων | Όμιλος B (Σπάνιο) | Κολωνία 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_2",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο αλουμινόχαρτου με αυτόγραφο ενός από τους παίχτες των ομάδων του ομίλου Β στο ESL One Cologne 2015: την Team EnVyUs, τη Luminosity Gaming, την Team Kinguin, τη Flipsid3 Tactics.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11105,6 +11161,7 @@
     {
         "id": "crate-4113",
         "name": "Κάψουλα αυτογράφων | Όμιλος C (Σπάνιο) | Κολωνία 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_3",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο αλουμινόχαρτου με αυτόγραφο ενός από τους παίχτες των ομάδων του ομίλου Γ στο ESL One Cologne 2015: τη Fnatic, τη Natus Vincere, την Titan, την Team eBettle.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11236,6 +11293,7 @@
     {
         "id": "crate-4114",
         "name": "Κάψουλα αυτογράφων | Όμιλος D (Σπάνιο) | Κολωνία 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_group_4",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο αλουμινόχαρτου με αυτόγραφο ενός από τους παίχτες των ομάδων του ομίλου Δ στο ESL One Cologne 2015: τη Virtus.Pro, τη mousesports, την Cloud9 G2A, την Team Immunity.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11367,6 +11425,7 @@
     {
         "id": "crate-4115",
         "name": "Κάψουλα αυτογράφων | Fnatic | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_fnatic",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Fnatic στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11408,6 +11467,7 @@
     {
         "id": "crate-4116",
         "name": "Κάψουλα αυτογράφων | Luminosity Gaming | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_luminositygaming",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Luminosity Gaming στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11449,6 +11509,7 @@
     {
         "id": "crate-4117",
         "name": "Κάψουλα αυτογράφων | Natus Vincere | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_navi",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Natus Vincere στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11490,6 +11551,7 @@
     {
         "id": "crate-4118",
         "name": "Κάψουλα αυτογράφων | Ninjas in Pyjamas | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_ninjasinpyjamas",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Ninjas in Pyjamas στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11531,6 +11593,7 @@
     {
         "id": "crate-4119",
         "name": "Κάψουλα αυτογράφων | Team EnVyUs | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_envyus",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team EnVyUs στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11572,6 +11635,7 @@
     {
         "id": "crate-4120",
         "name": "Κάψουλα αυτογράφων | Titan | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_titan",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Titan στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11613,6 +11677,7 @@
     {
         "id": "crate-4121",
         "name": "Κάψουλα αυτογράφων | Team SoloMid | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_solomid",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team SoloMid στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11654,6 +11719,7 @@
     {
         "id": "crate-4122",
         "name": "Κάψουλα αυτογράφων | Virtus.Pro | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_virtuspro",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Virtus.Pro στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11695,6 +11761,7 @@
     {
         "id": "crate-4123",
         "name": "Κάψουλα αυτογράφων | mousesports | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_mousesports",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας mousesports στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11736,6 +11803,7 @@
     {
         "id": "crate-4124",
         "name": "Κάψουλα αυτογράφων | Renegades | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_renegades",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Renegades στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11777,6 +11845,7 @@
     {
         "id": "crate-4125",
         "name": "Κάψουλα αυτογράφων | Team Immunity | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_teamimmunity",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Immunity στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11818,6 +11887,7 @@
     {
         "id": "crate-4126",
         "name": "Κάψουλα αυτογράφων | Team eBettle | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_ebettle",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team eBettle στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11859,6 +11929,7 @@
     {
         "id": "crate-4127",
         "name": "Κάψουλα αυτογράφων | Team Kinguin | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_kinguin",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Kinguin στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11900,6 +11971,7 @@
     {
         "id": "crate-4128",
         "name": "Κάψουλα αυτογράφων | Flipsid3 Tactics | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_flipside",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Flipsid3 Tactics στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11941,6 +12013,7 @@
     {
         "id": "crate-4129",
         "name": "Κάψουλα αυτογράφων | Counter Logic Gaming | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_clg",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Counter Logic Gaming στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -11982,6 +12055,7 @@
     {
         "id": "crate-4130",
         "name": "Κάψουλα αυτογράφων | Cloud9 G2A | Cologne 2015",
+        "name_original": "crate_signature_pack_eslcologne2015_cloud9",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Cloud9 G2A στο ESL One Cologne 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/8/10",
@@ -12023,6 +12097,7 @@
     {
         "id": "crate-4131",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Dust II",
+        "name_original": "crate_eslcologne2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12146,6 +12221,7 @@
     {
         "id": "crate-4132",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Mirage",
+        "name_original": "crate_eslcologne2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12262,6 +12338,7 @@
     {
         "id": "crate-4133",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Inferno",
+        "name_original": "crate_eslcologne2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12315,6 +12392,7 @@
     {
         "id": "crate-4134",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Cobblestone",
+        "name_original": "crate_eslcologne2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12431,6 +12509,7 @@
     {
         "id": "crate-4135",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Overpass",
+        "name_original": "crate_eslcologne2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12547,6 +12626,7 @@
     {
         "id": "crate-4136",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Cache",
+        "name_original": "crate_eslcologne2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12649,6 +12729,7 @@
     {
         "id": "crate-4137",
         "name": "Πακέτο σουβενίρ ESL One Cologne 2015 Train",
+        "name_original": "crate_eslcologne2015_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -12765,6 +12846,7 @@
     {
         "id": "crate-4138",
         "name": "Θήκη Shadow",
+        "name_original": "crate_community_9",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015/9/15",
@@ -12981,6 +13063,7 @@
     {
         "id": "crate-4156",
         "name": "Θρύλοι DreamHack Cluj-Napoca 2015 (Σπάνιο)",
+        "name_original": "crate_sticker_pack_cluj2015_legends",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα Σπάνιο αυτοκόλλητο συμμετοχής για το DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων παικτών και οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/10/20",
@@ -13046,6 +13129,7 @@
     {
         "id": "crate-4157",
         "name": "Διεκδικητές DreamHack Cluj-Napoca 2015 (Σπάνιο)",
+        "name_original": "crate_sticker_pack_cluj2015_challengers",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα Σπάνιο αυτοκόλλητο συμμετοχής για το DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/10/20",
@@ -13111,6 +13195,7 @@
     {
         "id": "crate-4158",
         "name": "Κάψουλα αυτογράφων | Challengers (Foil) | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_group_1",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα Σπάνιο αυτόγραφο αυτοκόλλητο ενός από τους παίκτες των ομάδων Διεκδικητών του DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων παικτών και οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13362,6 +13447,7 @@
     {
         "id": "crate-4159",
         "name": "Κάψουλα αυτογράφων | Legends (Σπάνιο) | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_group_2",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα Σπάνιο αυτόγραφο αυτοκόλλητο ενός από τους παίκτες των ομάδων Θρύλων του DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων παικτών και οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13613,6 +13699,7 @@
     {
         "id": "crate-4160",
         "name": "Κάψουλα αυτογράφων | Ninjas in Pyjamas | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_nip",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Ninjas in Pyjamas στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13654,6 +13741,7 @@
     {
         "id": "crate-4161",
         "name": "Κάψουλα αυτογράφων | Team Dignitas | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_dig",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Dignitas στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13695,6 +13783,7 @@
     {
         "id": "crate-4162",
         "name": "Κάψουλα αυτογράφων | Counter Logic Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_clg",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Counter Logic Gaming στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13736,6 +13825,7 @@
     {
         "id": "crate-4163",
         "name": "Κάψουλα αυτογράφων | Vexed Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_vex",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Vexed Gaming στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13777,6 +13867,7 @@
     {
         "id": "crate-4164",
         "name": "Κάψουλα αυτογράφων | Flipsid3 Tactics | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_flip",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Flipsid3 Tactics στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13818,6 +13909,7 @@
     {
         "id": "crate-4165",
         "name": "Κάψουλα αυτογράφων | Team Liquid | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_liq",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Liquid στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13859,6 +13951,7 @@
     {
         "id": "crate-4166",
         "name": "Κάψουλα αυτογράφων | mousesports | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_mss",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας mousesports στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13900,6 +13993,7 @@
     {
         "id": "crate-4167",
         "name": "Κάψουλα αυτογράφων | Natus Vincere | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_navi",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Natus Vincere στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13941,6 +14035,7 @@
     {
         "id": "crate-4168",
         "name": "Κάψουλα αυτογράφων | Virtus.Pro | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_vp",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Virtus.Pro στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -13982,6 +14077,7 @@
     {
         "id": "crate-4169",
         "name": "Κάψουλα αυτογράφων | Cloud9 | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_c9",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Cloud9 στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14023,6 +14119,7 @@
     {
         "id": "crate-4170",
         "name": "Κάψουλα αυτογράφων | G2 Esports | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_g2",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας G2 Esports στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14064,6 +14161,7 @@
     {
         "id": "crate-4171",
         "name": "Κάψουλα αυτογράφων | Titan | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_tit",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Titan στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14105,6 +14203,7 @@
     {
         "id": "crate-4172",
         "name": "Κάψουλα αυτογράφων | Team SoloMid | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_tsolo",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team SoloMid στο DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14146,6 +14245,7 @@
     {
         "id": "crate-4173",
         "name": "Κάψουλα αυτογράφων | Team EnVyUs | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_nv",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team EnVyUs στο Cluj-Napoca 2015.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14187,6 +14287,7 @@
     {
         "id": "crate-4174",
         "name": "Κάψουλα αυτογράφων | Fnatic | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_fntc",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα αυτόγραφο αυτοκόλλητο ενός από τους παίκτες της ομάδας Fnatic του DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων παικτών και οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14228,6 +14329,7 @@
     {
         "id": "crate-4175",
         "name": "Κάψουλα αυτογράφων | Luminosity Gaming | Cluj-Napoca 2015",
+        "name_original": "crate_signature_pack_cluj2015_lumi",
         "description": "Η συγκεκριμένη κάψουλα περιέχει ένα αυτόγραφο αυτοκόλλητο ενός από τους παίκτες της ομάδας Luminosity Gaming του DreamHack Cluj-Napoca 2015.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας διατίθενται για την υποστήριξη των συμπεριλαμβανομένων παικτών και οργανισμών.\\n\\nΜπορείτε να εφαρμόσετε αυτό το αυτοκόλλητο οποιοδήποτε όπλο διαθέτετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2015/10/20",
@@ -14269,6 +14371,7 @@
     {
         "id": "crate-4176",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Dust II",
+        "name_original": "crate_cluj2015_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14392,6 +14495,7 @@
     {
         "id": "crate-4177",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Mirage",
+        "name_original": "crate_cluj2015_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14508,6 +14612,7 @@
     {
         "id": "crate-4178",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Inferno",
+        "name_original": "crate_cluj2015_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14561,6 +14666,7 @@
     {
         "id": "crate-4179",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Cobblestone",
+        "name_original": "crate_cluj2015_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14677,6 +14783,7 @@
     {
         "id": "crate-4180",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Overpass",
+        "name_original": "crate_cluj2015_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14793,6 +14900,7 @@
     {
         "id": "crate-4181",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Cache",
+        "name_original": "crate_cluj2015_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -14895,6 +15003,7 @@
     {
         "id": "crate-4182",
         "name": "Πακέτο σουβενίρ DreamHack Cluj-Napoca 2015 Train",
+        "name_original": "crate_cluj2015_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -15011,6 +15120,7 @@
     {
         "id": "crate-4183",
         "name": "Κάψουλα Pinups",
+        "name_original": "crate_sticker_pack_pinups_capsule",
         "description": "Αυτή η κάψουλα περιέχει ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας ninjasia.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15094,6 +15204,7 @@
     {
         "id": "crate-4184",
         "name": "Κάψουλα Slid3",
+        "name_original": "crate_sticker_pack_slid3_capsule",
         "description": "Αυτή η κάψουλα περιέχει ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας Slid3.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15195,6 +15306,7 @@
     {
         "id": "crate-4185",
         "name": "Κάψουλα ρόλων ομάδας",
+        "name_original": "crate_sticker_pack_team_roles_capsule",
         "description": "Αυτή η κάψουλα περιέχει διάφορα αυτοκόλλητα από τον καλλιτέχνη κοινότητας ThePolymath.",
         "type": "Sticker Capsule",
         "first_sale_date": "2015/12/01",
@@ -15272,6 +15384,7 @@
     {
         "id": "crate-4186",
         "name": "Θήκη Revolver",
+        "name_original": "crate_community_10",
         "description": null,
         "type": "Case",
         "first_sale_date": "2015-11-30",
@@ -15863,6 +15976,7 @@
     {
         "id": "crate-4187",
         "name": "Θήκη επιχείρησης Wildfire",
+        "name_original": "crate_community_11",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-01-19",
@@ -16079,6 +16193,7 @@
     {
         "id": "crate-4205",
         "name": "Θρύλοι MLG Columbus 2016 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_columbus2016_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο ή Holo αυτοκόλλητο συμμετέχοντα στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας ενισχύει τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο σας ανήκει και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-03-10",
@@ -16198,6 +16313,7 @@
     {
         "id": "crate-4206",
         "name": "Διεκδικητές MLG Columbus 2016 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_columbus2016_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο ή Holo αυτοκόλλητο συμμετέχοντα στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας ενισχύει τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο σας ανήκει και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-03-10",
@@ -16317,6 +16433,7 @@
     {
         "id": "crate-4207",
         "name": "Κάψουλα αυτόγραφων | Challengers (Σπάνιο) | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_group_1",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο υπογεγραμμένο από έναν παίκτη των ομάδων διεκδικητών στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας ενισχύει τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο σας ανήκει και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16568,6 +16685,7 @@
     {
         "id": "crate-4208",
         "name": "Κάψουλα αυτόγραφων | Legends (Σπάνιο) | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_group_2",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο υπογεγραμμένο από έναν παίκτη των ομάδων θρύλων στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας ενισχύει τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο σας ανήκει και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντας το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16819,6 +16937,7 @@
     {
         "id": "crate-4209",
         "name": "Κάψουλα αυτόγραφων | Ninjas in Pyjamas | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_nip",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Ninjas in Pyjamas στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16860,6 +16979,7 @@
     {
         "id": "crate-4210",
         "name": "Κάψουλα αυτόγραφων | Splyce | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_splc",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Splyce στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16901,6 +17021,7 @@
     {
         "id": "crate-4211",
         "name": "Κάψουλα αυτόγραφων | Counter Logic Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_clg",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Counter Logic Gaming στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16942,6 +17063,7 @@
     {
         "id": "crate-4212",
         "name": "Κάψουλα αυτόγραφων | Gambit Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_gamb",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Gambit Gaming στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -16983,6 +17105,7 @@
     {
         "id": "crate-4213",
         "name": "Κάψουλα αυτόγραφων | Flipsid3 Tactics | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_flip",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Flipsid3 Tactics στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17024,6 +17147,7 @@
     {
         "id": "crate-4214",
         "name": "Κάψουλα αυτόγραφων | Team Liquid | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_liq",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Liquid στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17065,6 +17189,7 @@
     {
         "id": "crate-4215",
         "name": "Κάψουλα αυτόγραφων | mousesports | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_mss",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας mousesports στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17106,6 +17231,7 @@
     {
         "id": "crate-4216",
         "name": "Κάψουλα αυτόγραφων | Natus Vincere | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_navi",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Natus Vincere στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17147,6 +17273,7 @@
     {
         "id": "crate-4217",
         "name": "Κάψουλα αυτόγραφων | Virtus.Pro | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_vp",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Virtus.Pro στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17188,6 +17315,7 @@
     {
         "id": "crate-4218",
         "name": "Κάψουλα αυτόγραφων | Cloud9 | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_c9",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Cloud9 στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17229,6 +17357,7 @@
     {
         "id": "crate-4219",
         "name": "Κάψουλα αυτόγραφων | G2 Esports | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_g2",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας G2 Esports στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17270,6 +17399,7 @@
     {
         "id": "crate-4220",
         "name": "Κάψουλα αυτόγραφων | FaZe Clan | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_faze",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας FaZe Clan στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17311,6 +17441,7 @@
     {
         "id": "crate-4221",
         "name": "Κάψουλα αυτόγραφων | Astralis | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_astr",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Astralis στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17352,6 +17483,7 @@
     {
         "id": "crate-4222",
         "name": "Κάψουλα αυτόγραφων | Team EnVyUs | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_nv",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team EnVyUs στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17393,6 +17525,7 @@
     {
         "id": "crate-4223",
         "name": "Κάψουλα αυτόγραφων | Fnatic | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_fntc",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Fnatic στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17434,6 +17567,7 @@
     {
         "id": "crate-4224",
         "name": "Κάψουλα αυτόγραφων | Luminosity Gaming | MLG Columbus 2016",
+        "name_original": "crate_signature_pack_columbus2016_lumi",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Luminosity Gaming στο MLG Columbus 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-03-10",
@@ -17475,6 +17609,7 @@
     {
         "id": "crate-4225",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Dust II",
+        "name_original": "crate_columbus2016_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17598,6 +17733,7 @@
     {
         "id": "crate-4226",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Mirage",
+        "name_original": "crate_columbus2016_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17714,6 +17850,7 @@
     {
         "id": "crate-4227",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Inferno",
+        "name_original": "crate_columbus2016_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17767,6 +17904,7 @@
     {
         "id": "crate-4228",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Cobblestone",
+        "name_original": "crate_columbus2016_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17883,6 +18021,7 @@
     {
         "id": "crate-4229",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Overpass",
+        "name_original": "crate_columbus2016_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -17999,6 +18138,7 @@
     {
         "id": "crate-4230",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Cache",
+        "name_original": "crate_columbus2016_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18101,6 +18241,7 @@
     {
         "id": "crate-4231",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Train",
+        "name_original": "crate_columbus2016_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18217,6 +18358,7 @@
     {
         "id": "crate-4232",
         "name": "Πακέτο σουβενίρ MLG Columbus 2016 Nuke",
+        "name_original": "crate_columbus2016_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -18291,6 +18433,7 @@
     {
         "id": "crate-4233",
         "name": "Θήκη Chroma 3",
+        "name_original": "crate_community_12",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-04-19",
@@ -18877,6 +19020,7 @@
     {
         "id": "crate-4234",
         "name": "Κουτί γκράφιτι κοινότητας 1",
+        "name_original": "crate_sprays_community_1",
         "description": "Αυτό το κουτί περιέχει ένα αυτοκόλλητο δημιουργημένο από την κοινότητα. Ένα μέρος των εσόδων μοιράζεται εξίσου στους συμπεριλαμβανομένους δημιουργούς.",
         "type": "Graffiti",
         "first_sale_date": "2016/06/20",
@@ -18996,6 +19140,7 @@
     {
         "id": "crate-4235",
         "name": "Κάψουλα συλλεκτικών καρφιτσών σειράς 1",
+        "name_original": "crate_pins_series_1",
         "description": "Αυτή η κάψουλα περιέχει μια συλλεκτική καρφίτσα σειράς 1. Οι συλλεκτικές καρφίτσες μπορούν να προβάλλονται στο προφίλ CS:GO σας.",
         "type": "Pins",
         "first_sale_date": "2016/06/01",
@@ -19062,6 +19207,7 @@
     {
         "id": "crate-4236",
         "name": "Θήκη Gamma",
+        "name_original": "crate_community_13",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-06-10",
@@ -19568,6 +19714,7 @@
     {
         "id": "crate-4254",
         "name": "Θρύλοι Cologne 2016 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_cologne2016_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-06-24",
@@ -19687,6 +19834,7 @@
     {
         "id": "crate-4255",
         "name": "Διεκδικητές Cologne 2016 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_cologne2016_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016-06-24",
@@ -19806,6 +19954,7 @@
     {
         "id": "crate-4256",
         "name": "Κάψουλα αυτόγραφων | Challengers (Σπάνιο) | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_group_1",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες Διεκδικητών στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20057,6 +20206,7 @@
     {
         "id": "crate-4257",
         "name": "Κάψουλα αυτόγραφων | Legends (Σπάνιο) | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_group_2",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες Θρύλων στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20308,6 +20458,7 @@
     {
         "id": "crate-4258",
         "name": "Κάψουλα αυτόγραφων | Ninjas in Pyjamas | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_nip",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Ninjas in Pyjamas στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20349,6 +20500,7 @@
     {
         "id": "crate-4259",
         "name": "Κάψουλα αυτόγραφων | OpTic Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_optc",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των OpTic Gaming στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20390,6 +20542,7 @@
     {
         "id": "crate-4260",
         "name": "Κάψουλα αυτόγραφων | Counter Logic Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_clg",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Counter Logic Gaming στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20431,6 +20584,7 @@
     {
         "id": "crate-4261",
         "name": "Κάψουλα αυτόγραφων | Gambit Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_gamb",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Gambit Gaming στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20472,6 +20626,7 @@
     {
         "id": "crate-4262",
         "name": "Κάψουλα αυτόγραφων | Flipsid3 Tactics | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_flip",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Flipsid3 Tactics στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20513,6 +20668,7 @@
     {
         "id": "crate-4263",
         "name": "Κάψουλα αυτόγραφων | Team Liquid | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_liq",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Team Liquid στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20554,6 +20710,7 @@
     {
         "id": "crate-4264",
         "name": "Κάψουλα αυτόγραφων | mousesports | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_mss",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των mousesports στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20595,6 +20752,7 @@
     {
         "id": "crate-4265",
         "name": "Κάψουλα αυτόγραφων | Natus Vincere | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_navi",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Natus Vincere στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20636,6 +20794,7 @@
     {
         "id": "crate-4266",
         "name": "Κάψουλα αυτόγραφων | Virtus.Pro | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_vp",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Virtus.Pro στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20677,6 +20836,7 @@
     {
         "id": "crate-4267",
         "name": "Κάψουλα αυτόγραφων | SK Gaming | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_sk",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των SK Gaming στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20718,6 +20878,7 @@
     {
         "id": "crate-4268",
         "name": "Κάψουλα αυτόγραφων | G2 Esports | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_g2",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των G2 Esports στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20759,6 +20920,7 @@
     {
         "id": "crate-4269",
         "name": "Κάψουλα αυτόγραφων | FaZe Clan | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_faze",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των FaZe Clan στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20800,6 +20962,7 @@
     {
         "id": "crate-4270",
         "name": "Κάψουλα αυτόγραφων | Astralis | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_astr",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Astralis στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20841,6 +21004,7 @@
     {
         "id": "crate-4271",
         "name": "Κάψουλα αυτόγραφων | Team EnVyUs | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_nv",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Team EnVyUs στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20882,6 +21046,7 @@
     {
         "id": "crate-4272",
         "name": "Κάψουλα αυτόγραφων | Fnatic | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_fntc",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Fnatic στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20923,6 +21088,7 @@
     {
         "id": "crate-4273",
         "name": "Κάψουλα αυτόγραφων | Team Dignitas | Cologne 2016",
+        "name_original": "crate_signature_pack_cologne2016_dig",
         "description": "Αυτή η κάψουλα περιέχει ένα αυτοκόλλητο με αυτόγραφο ενός παίκτη των Team Dignitas στο Cologne 2016.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να τοποθετηθεί σε οποιοδήποτε όπλο έχετε και να ξυθεί ώστε να φαίνεται πιο φθαρμένο. Μπορείτε να το ξύσετε πολλές φορές, φθείροντάς το λίγο περισσότερο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2016-06-24",
@@ -20964,6 +21130,7 @@
     {
         "id": "crate-4274",
         "name": "Πακέτο σουβενίρ Dust II - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21087,6 +21254,7 @@
     {
         "id": "crate-4275",
         "name": "Πακέτο σουβενίρ Mirage - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21203,6 +21371,7 @@
     {
         "id": "crate-4276",
         "name": "Πακέτο σουβενίρ Cobblestone - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21319,6 +21488,7 @@
     {
         "id": "crate-4277",
         "name": "Πακέτο σουβενίρ Overpass - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21435,6 +21605,7 @@
     {
         "id": "crate-4278",
         "name": "Πακέτο σουβενίρ Cache - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21537,6 +21708,7 @@
     {
         "id": "crate-4279",
         "name": "Πακέτο σουβενίρ Train - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21653,6 +21825,7 @@
     {
         "id": "crate-4280",
         "name": "Πακέτο σουβενίρ Nuke - Cologne 2016",
+        "name_original": "crate_cologne2016_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -21727,6 +21900,7 @@
     {
         "id": "crate-4281",
         "name": "Θήκη Gamma 2",
+        "name_original": "crate_gamma_2",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-08-08",
@@ -22233,6 +22407,7 @@
     {
         "id": "crate-4282",
         "name": "Κάψουλα Sugarface",
+        "name_original": "crate_sticker_pack_sugarface_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας Guardian Gear.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016/08/16",
@@ -22328,6 +22503,7 @@
     {
         "id": "crate-4283",
         "name": "Κάψουλα Bestiary",
+        "name_original": "crate_sticker_pack_bestiary_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας apёl7.",
         "type": "Sticker Capsule",
         "first_sale_date": "2016/08/16",
@@ -22423,6 +22599,7 @@
     {
         "id": "crate-4284",
         "name": "Κάψουλα συλλεκτικών καρφιτσών σειράς 2",
+        "name_original": "crate_pins_series_2",
         "description": "Αυτή η κάψουλα περιέχει μια συλλεκτική καρφίτσα σειράς 2. Οι συλλεκτικές καρφίτσες μπορούν να προβάλλονται στο προφίλ CS:GO σας.",
         "type": "Pins",
         "first_sale_date": "2016/09/28",
@@ -22489,6 +22666,7 @@
     {
         "id": "crate-4285",
         "name": "Κουτί γκράφιτι CS:GO",
+        "name_original": "crate_sprays_vcap1",
         "description": null,
         "type": "Graffiti",
         "first_sale_date": "2016/08/24",
@@ -22608,6 +22786,7 @@
     {
         "id": "crate-4286",
         "name": "Κουτί γκράφιτι Perfect World",
+        "name_original": "crate_sprays_illuminate1",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία γκράφιτι από την Perfect World για να γιορτάσει την έλευση του Counter-Strike: Global Offensive στην ηπειρωτική Κίνα.",
         "type": "Graffiti",
         "first_sale_date": "2017/09/14",
@@ -22727,6 +22906,7 @@
     {
         "id": "crate-4287",
         "name": "Μουσικό κουτί StatTrak™ Radicals",
+        "name_original": "crate_musickit_radicals_stattrak_capsule",
         "description": "Αυτό το κουτί περιέχει μια ποικιλία μουσικών κουτιών StatTrak™ από «ριζοσπαστικούς» καλλιτέχνες.",
         "type": "Music Kit Box",
         "first_sale_date": "2016/08/16",
@@ -22773,6 +22953,7 @@
     {
         "id": "crate-4288",
         "name": "Θήκη γαντιών",
+        "name_original": "crate_community_15",
         "description": null,
         "type": "Case",
         "first_sale_date": "2016-11-02",
@@ -23072,6 +23253,7 @@
     {
         "id": "crate-4323",
         "name": "Atlanta 2017 Legends (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_atlanta2017_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυστεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-01-10",
@@ -23191,6 +23373,7 @@
     {
         "id": "crate-4324",
         "name": "Atlanta 2017 Challengers (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_atlanta2017_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυστεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-01-10",
@@ -23310,6 +23493,7 @@
     {
         "id": "crate-4325",
         "name": "Κάψουλα αυτογράφων | Challengers (Σπάνια) | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_group_1",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες από τις ομάδες Διεκδικητών στην Ατλάντα 2017.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23561,6 +23745,7 @@
     {
         "id": "crate-4326",
         "name": "Κάψουλα αυτογράφων | Legends (Σπάνια) | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_group_2",
         "description": "Αυτή η κάψουλα περιέχει ένα σπάνιο αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες από τις ομάδες Θρύλων στην Ατλάντα 2017.\\n\\nΤο 50% του κέρδους από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυστεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23812,6 +23997,7 @@
     {
         "id": "crate-4327",
         "name": "Κάψουλα αυτογράφων | Astralis | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_astr",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Astralis στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23853,6 +24039,7 @@
     {
         "id": "crate-4328",
         "name": "Κάψουλα αυτογράφων | Team EnVyUs | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_nv",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team EnVyUs στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23894,6 +24081,7 @@
     {
         "id": "crate-4329",
         "name": "Κάψουλα αυτογράφων | FaZe Clan | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_faze",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας FaZe Clan στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23935,6 +24123,7 @@
     {
         "id": "crate-4330",
         "name": "Κάψουλα αυτογράφων | Flipsid3 Tactics | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_flip",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Flipsid3 Tactics στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -23976,6 +24165,7 @@
     {
         "id": "crate-4331",
         "name": "Κάψουλα αυτογράφων | Fnatic | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_fntc",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Fnatic στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24017,6 +24207,7 @@
     {
         "id": "crate-4332",
         "name": "Κάψουλα αυτογράφων | G2 Esports | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_g2",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας G2 Esports στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24058,6 +24249,7 @@
     {
         "id": "crate-4333",
         "name": "Κάψουλα αυτογράφων | Gambit Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_gamb",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Gambit Gaming Esports στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24099,6 +24291,7 @@
     {
         "id": "crate-4334",
         "name": "Κάψουλα αυτογράφων | GODSENT | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_god",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας GODSENT στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24140,6 +24333,7 @@
     {
         "id": "crate-4335",
         "name": "Κάψουλα αυτογράφων | HellRaisers | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_hlr",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας HellRaisers στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24181,6 +24375,7 @@
     {
         "id": "crate-4336",
         "name": "Κάψουλα αυτογράφων | mousesports | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_mss",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας mousesports στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24222,6 +24417,7 @@
     {
         "id": "crate-4337",
         "name": "Κάψουλα αυτογράφων | Natus Vincere | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_navi",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Natus Vincere στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24263,6 +24459,7 @@
     {
         "id": "crate-4338",
         "name": "Κάψουλα αυτογράφων | North | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_nor",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας North στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24304,6 +24501,7 @@
     {
         "id": "crate-4339",
         "name": "Κάψουλα αυτογράφων | OpTic Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_optc",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας OpTic Gaming στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24345,6 +24543,7 @@
     {
         "id": "crate-4340",
         "name": "Κάψουλα αυτογράφων | SK Gaming | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_sk",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας SK Gaming στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24386,6 +24585,7 @@
     {
         "id": "crate-4341",
         "name": "Κάψουλα αυτογράφων | Team Liquid | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_liq",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Team Liquid στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24427,6 +24627,7 @@
     {
         "id": "crate-4342",
         "name": "Κάψουλα αυτογράφων | Virtus.Pro | Atlanta 2017",
+        "name_original": "crate_signature_pack_atlanta2017_vp",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό αυτοκόλλητο με αυτόγραφο ενός από τους παίκτες της ομάδας Virtus.Pro στην Ατλάντα 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανομένους παίκτες και οργανισμούς.\\n\\nΤο αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να γδαρθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να γδάρετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-01-10",
@@ -24468,6 +24669,7 @@
     {
         "id": "crate-4344",
         "name": "Πακέτο σουβενίρ Dust II - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24591,6 +24793,7 @@
     {
         "id": "crate-4345",
         "name": "Πακέτο σουβενίρ Mirage - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24707,6 +24910,7 @@
     {
         "id": "crate-4346",
         "name": "Πακέτο σουβενίρ Cobblestone - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24823,6 +25027,7 @@
     {
         "id": "crate-4347",
         "name": "Πακέτο σουβενίρ Overpass - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -24939,6 +25144,7 @@
     {
         "id": "crate-4348",
         "name": "Πακέτο σουβενίρ Cache - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25041,6 +25247,7 @@
     {
         "id": "crate-4349",
         "name": "Πακέτο σουβενίρ Train - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25157,6 +25364,7 @@
     {
         "id": "crate-4350",
         "name": "Πακέτο σουβενίρ Nuke - Ατλάντα 2017",
+        "name_original": "crate_atlanta2017_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -25231,6 +25439,7 @@
     {
         "id": "crate-4351",
         "name": "Θήκη Spectrum",
+        "name_original": "crate_community_16",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-03-01",
@@ -25817,6 +26026,7 @@
     {
         "id": "crate-4352",
         "name": "Θήκη επιχείρησης Hydra",
+        "name_original": "crate_community_17",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-04-21",
@@ -26116,6 +26326,7 @@
     {
         "id": "crate-4391",
         "name": "Θρύλοι Krakow 2017 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_krakow2017_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Krakow 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
@@ -26235,6 +26446,7 @@
     {
         "id": "crate-4392",
         "name": "Διεκδικητές Krakow 2017 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_krakow2017_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Krakow 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-07-05",
@@ -26354,6 +26566,7 @@
     {
         "id": "crate-4393",
         "name": "Κάψουλα αυτόγραφων διεκδικητών Krakow 2017",
+        "name_original": "crate_signature_pack_krakow2017_group_1",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις διεκδικήτριες ομάδες στο Krakow 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-07-05",
@@ -27085,6 +27298,7 @@
     {
         "id": "crate-4394",
         "name": "Κάψουλα αυτόγραφων θρύλων Krakow 2017",
+        "name_original": "crate_signature_pack_krakow2017_group_2",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες θρύλους στο Krakow 2017.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-07-05",
@@ -27816,6 +28030,7 @@
     {
         "id": "crate-4396",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Inferno",
+        "name_original": "crate_krakow2017_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -27869,6 +28084,7 @@
     {
         "id": "crate-4397",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Mirage",
+        "name_original": "crate_krakow2017_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -27985,6 +28201,7 @@
     {
         "id": "crate-4398",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Cobblestone",
+        "name_original": "crate_krakow2017_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28101,6 +28318,7 @@
     {
         "id": "crate-4399",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Overpass",
+        "name_original": "crate_krakow2017_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28217,6 +28435,7 @@
     {
         "id": "crate-4400",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Cache",
+        "name_original": "crate_krakow2017_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28319,6 +28538,7 @@
     {
         "id": "crate-4401",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Train",
+        "name_original": "crate_krakow2017_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28435,6 +28655,7 @@
     {
         "id": "crate-4402",
         "name": "Πακέτο σουβενίρ Krakow 2017 - Nuke",
+        "name_original": "crate_krakow2017_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -28509,6 +28730,7 @@
     {
         "id": "crate-4403",
         "name": "Θήκη Spectrum 2",
+        "name_original": "crate_community_18",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-09-06",
@@ -29095,6 +29317,7 @@
     {
         "id": "crate-4404",
         "name": "Κάψουλα αυτοκόλλητων Perfect World 1",
+        "name_original": "crate_sticker_pack_illuminate_capsule_01",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από την Perfect World για να γιορτάσει την έλευση του Counter-Strike: Global Offensive στην ηπειρωτική Κίνα.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/09/15",
@@ -29196,6 +29419,7 @@
     {
         "id": "crate-4405",
         "name": "Κάψουλα αυτοκόλλητων Perfect World 2",
+        "name_original": "crate_sticker_pack_illuminate_capsule_02",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από την Perfect World για να γιορτάσει την έλευση του Counter-Strike: Global Offensive στην ηπειρωτική Κίνα.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/09/15",
@@ -29297,6 +29521,7 @@
     {
         "id": "crate-4456",
         "name": "Θρύλοι Boston 2018 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_boston2018_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29416,6 +29641,7 @@
     {
         "id": "crate-4457",
         "name": "Επανερχόμενοι διεκδικητές στο Boston 2018 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_boston2018_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29535,6 +29761,7 @@
     {
         "id": "crate-4458",
         "name": "Μικροί διεκδικητές στο Boston 2018 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_boston2018_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -29660,6 +29887,7 @@
     {
         "id": "crate-4459",
         "name": "Κάψουλα αυτόγραφων θρύλων Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες θρύλους στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -30391,6 +30619,7 @@
     {
         "id": "crate-4460",
         "name": "Κάψουλα αυτόγραφων επανερχόμενων διεκδικητών στο Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες των επερχόμενων διεκδικητών στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -31122,6 +31351,7 @@
     {
         "id": "crate-4461",
         "name": "Κάψουλα αυτόγραφων μικρών διεκδικητών στο Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες των μικρών διεκδικητών στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -31859,6 +32089,7 @@
     {
         "id": "crate-4463",
         "name": "Πακέτο σουβενίρ Boston 2018 Inferno",
+        "name_original": "crate_boston2018_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -31912,6 +32143,7 @@
     {
         "id": "crate-4464",
         "name": "Πακέτο σουβενίρ Boston 2018 Mirage",
+        "name_original": "crate_boston2018_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32028,6 +32260,7 @@
     {
         "id": "crate-4465",
         "name": "Πακέτο σουβενίρ Boston 2018 Cobblestone",
+        "name_original": "crate_boston2018_promo_de_cbble",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32144,6 +32377,7 @@
     {
         "id": "crate-4466",
         "name": "Πακέτο σουβενίρ Boston 2018 Overpass",
+        "name_original": "crate_boston2018_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32260,6 +32494,7 @@
     {
         "id": "crate-4467",
         "name": "Πακέτο σουβενίρ Boston 2018 Cache",
+        "name_original": "crate_boston2018_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32362,6 +32597,7 @@
     {
         "id": "crate-4468",
         "name": "Πακέτο σουβενίρ Boston 2018 Train",
+        "name_original": "crate_boston2018_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32478,6 +32714,7 @@
     {
         "id": "crate-4469",
         "name": "Πακέτο σουβενίρ Boston 2018 Nuke",
+        "name_original": "crate_boston2018_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -32552,6 +32789,7 @@
     {
         "id": "crate-4470",
         "name": "Κάψουλα κοινότητας 2018",
+        "name_original": "crate_sticker_pack_comm2018_01_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τo εργαστήρι κοινότητας.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017/12/11",
@@ -32647,6 +32885,7 @@
     {
         "id": "crate-4471",
         "name": "Θήκη Clutch",
+        "name_original": "crate_community_19",
         "description": null,
         "type": "Case",
         "first_sale_date": "2017-12-20",
@@ -32946,6 +33185,7 @@
     {
         "id": "crate-4474",
         "name": "Μικροί διεκδικητές Boston 2018 και οι Flash Gaming (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_boston2018_contenders_flg",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -33065,6 +33305,7 @@
     {
         "id": "crate-4475",
         "name": "Κάψουλα αυτόγραφων μικρών διεκδικητών στο Boston 2018 με τους Flesh Gaming",
+        "name_original": "crate_signature_pack_boston2018_group_contenders_flg",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες των μικρών διεκδικητών με την ομάδα Flesh Gaming στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -33796,6 +34037,7 @@
     {
         "id": "crate-4477",
         "name": "Κοτοκάψουλα",
+        "name_original": "crate_sticker_pack_chicken_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας Slid3.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/06/10",
@@ -33909,6 +34151,7 @@
     {
         "id": "crate-4478",
         "name": "Boston 2018 Θρύλοι (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_boston2018_legends_ntv",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντα στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2017-12-18",
@@ -34016,6 +34259,7 @@
     {
         "id": "crate-4479",
         "name": "Κάψουλα αυτόγραφων παρευρισκόμενων θρύλων Boston 2018",
+        "name_original": "crate_signature_pack_boston2018_group_legends_ntv",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες θρύλους στο Boston 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -34657,6 +34901,7 @@
     {
         "id": "crate-4481",
         "name": "Κάψουλα συλλεκτικών καρφιτσών σειράς 3",
+        "name_original": "crate_pins_series_3",
         "description": "Αυτή η κάψουλα περιέχει μια συλλεκτική καρφίτσα σειράς 3. Οι συλλεκτικές καρφίτσες μπορούν να προβάλλονται στο προφίλ CS:GO σας.",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
@@ -34723,6 +34968,7 @@
     {
         "id": "crate-4482",
         "name": "Θήκη Horizon",
+        "name_original": "crate_community_20",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-06-07",
@@ -35222,6 +35468,7 @@
     {
         "id": "crate-4533",
         "name": "Θρύλοι London 2018 (Holo/Σπάνιο)",
+        "name_original": "crate_sticker_pack_london2018_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντος στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35341,6 +35588,7 @@
     {
         "id": "crate-4534",
         "name": "Επανερχόμενοι διεκδικητές London 2018 (Ολογ./Μεταλ.)",
+        "name_original": "crate_sticker_pack_london2018_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντος στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35460,6 +35708,7 @@
     {
         "id": "crate-4535",
         "name": "Μικροί διεκδικητές London 2018 (Ολογ./Μεταλ.)",
+        "name_original": "crate_sticker_pack_london2018_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή σπάνιο αυτοκόλλητο συμμετέχοντος στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018-09-04",
@@ -35579,6 +35828,7 @@
     {
         "id": "crate-4536",
         "name": "Κάψουλα αυτόγραφων θρύλων London 2018",
+        "name_original": "crate_signature_pack_london2018_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες Θρύλων στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -36310,6 +36560,7 @@
     {
         "id": "crate-4537",
         "name": "Κάψουλα αυτόγραφων επανερχόμενων διεκδικητών London 2018",
+        "name_original": "crate_signature_pack_london2018_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες επανερχόμενων διεκδικητών στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -37041,6 +37292,7 @@
     {
         "id": "crate-4538",
         "name": "Κάψουλα αυτόγραφων μικρών διεκδικητών London 2018",
+        "name_original": "crate_signature_pack_london2018_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, σπάνιο ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες μικρών διεκδικητών στο London 2018.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2018-09-04",
@@ -37772,6 +38024,7 @@
     {
         "id": "crate-4540",
         "name": "Πακέτο σουβενίρ Inferno - London 2018",
+        "name_original": "crate_london2018_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -37909,6 +38162,7 @@
     {
         "id": "crate-4541",
         "name": "Πακέτο σουβενίρ Mirage - London 2018",
+        "name_original": "crate_london2018_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38025,6 +38279,7 @@
     {
         "id": "crate-4542",
         "name": "Πακέτο σουβενίρ Dust II - London 2018",
+        "name_original": "crate_london2018_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38148,6 +38403,7 @@
     {
         "id": "crate-4543",
         "name": "Πακέτο σουβενίρ Overpass - London 2018",
+        "name_original": "crate_london2018_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38264,6 +38520,7 @@
     {
         "id": "crate-4544",
         "name": "Πακέτο σουβενίρ Cache - London 2018",
+        "name_original": "crate_london2018_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38366,6 +38623,7 @@
     {
         "id": "crate-4545",
         "name": "Πακέτο σουβενίρ Train - London 2018",
+        "name_original": "crate_london2018_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38482,6 +38740,7 @@
     {
         "id": "crate-4546",
         "name": "Πακέτο σουβενίρ Nuke - London 2018",
+        "name_original": "crate_london2018_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -38619,6 +38878,7 @@
     {
         "id": "crate-4547",
         "name": "Κάψουλα επιπέδων ικανότητας",
+        "name_original": "crate_sticker_pack_skillgroup_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τον καλλιτέχνη κοινότητας daniDem.",
         "type": "Sticker Capsule",
         "first_sale_date": "2018/11/15",
@@ -38738,6 +38998,7 @@
     {
         "id": "crate-4548",
         "name": "Θήκη Danger Zone",
+        "name_original": "crate_community_21",
         "description": null,
         "type": "Case",
         "first_sale_date": "2018-11-29",
@@ -39237,6 +39498,7 @@
     {
         "id": "crate-4584",
         "name": "Θρύλοι Katowice 2019 (Μεταλ./Ολογ.)",
+        "name_original": "crate_sticker_pack_katowice2019_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39356,6 +39618,7 @@
     {
         "id": "crate-4585",
         "name": "Επανερχόμενοι διεκδικητές Katowice 2019 (Μεταλ./Ολογ.)",
+        "name_original": "crate_sticker_pack_katowice2019_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39451,6 +39714,7 @@
     {
         "id": "crate-4586",
         "name": "Μικροί διεκδικητές Katowice 2019 (Μεταλ./Ολογ.)",
+        "name_original": "crate_sticker_pack_katowice2019_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-02-04",
@@ -39594,6 +39858,7 @@
     {
         "id": "crate-4587",
         "name": "Κάψουλα αυτόγραφων θρύλων Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες θρύλων στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -40325,6 +40590,7 @@
     {
         "id": "crate-4588",
         "name": "Κάψουλα αυτόγραφων επανερχόμενων διεκδικητών Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες επανερχόμενων διεκδικητών στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -40876,6 +41142,7 @@
     {
         "id": "crate-4589",
         "name": "Κάψουλα αυτόγραφων μικρών διεκδικητών Katowice 2019",
+        "name_original": "crate_signature_pack_katowice2019_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες μικρών διεκδικητών στο Katowice 2019.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμμετέχοντες παίκτες και οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-02-04",
@@ -41787,6 +42054,7 @@
     {
         "id": "crate-4590",
         "name": "Πακέτο σουβενίρ Inferno - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -41924,6 +42192,7 @@
     {
         "id": "crate-4591",
         "name": "Πακέτο σουβενίρ Mirage - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42040,6 +42309,7 @@
     {
         "id": "crate-4592",
         "name": "Πακέτο σουβενίρ Dust II - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42163,6 +42433,7 @@
     {
         "id": "crate-4593",
         "name": "Πακέτο σουβενίρ Overpass - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42279,6 +42550,7 @@
     {
         "id": "crate-4594",
         "name": "Πακέτο σουβενίρ Cache - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_cache",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42381,6 +42653,7 @@
     {
         "id": "crate-4595",
         "name": "Πακέτο σουβενίρ Train - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42497,6 +42770,7 @@
     {
         "id": "crate-4596",
         "name": "Πακέτο σουβενίρ Nuke - Katowice 2019",
+        "name_original": "crate_katowice2019_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -42634,6 +42908,7 @@
     {
         "id": "crate-4597",
         "name": "Κάψουλα Halo",
+        "name_original": "crate_sticker_pack_halo_capsule",
         "description": "Αυτή η συλλογή περιέχει μια ποικιλία αυτοκόλλητων από 343 Industries.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/11/25",
@@ -42747,6 +43022,7 @@
     {
         "id": "crate-4598",
         "name": "Θήκη Prisma",
+        "name_original": "crate_community_22",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-03-05",
@@ -43242,6 +43518,7 @@
     {
         "id": "crate-4599",
         "name": "Κάψουλα Feral Predators",
+        "name_original": "crate_sticker_pack_feral_predators_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τους καλλιτέχνες κοινότητας 2Minds, OniLolz και Zaphk.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/04/15",
@@ -43361,6 +43638,7 @@
     {
         "id": "crate-4600",
         "name": "Συλλογή αυτοκόλλητων Shattered Web",
+        "name_original": "crate_sticker_pack_shattered_web",
         "description": "Αυτή η συλλογή περιέχει μια ποικιλία αυτοκόλλητων προς εορτασμό της επιχείρησης Shattered Web.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
@@ -43426,6 +43704,7 @@
     {
         "id": "crate-4610",
         "name": "CS:GO Patch Pack",
+        "name_original": "crate_patch_pack01",
         "description": "Αυτό το πακέτο περιέχει μια ποικιλία κεντητών διακριτικών. Τα διακριτικά μπορούν να εφαρμοστούν σε όποιον πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
@@ -43563,6 +43842,7 @@
     {
         "id": "crate-4614",
         "name": "Συλλογή μεταλλικών διακριτικών επιπέδου ικανοτήτων",
+        "name_original": "crate_patch_pack02",
         "description": "Αυτή η συλλογή διακριτικών περιέχει μια ποικιλία κεντητών διακριτικών. Τα διακριτικά μπορούν να εφαρμοστούν σε οποιονδήποτε πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/02/24",
@@ -43676,6 +43956,7 @@
     {
         "id": "crate-4615",
         "name": "Πακέτο διακριτικών Half-Life: Alyx",
+        "name_original": "crate_patch_pack_hlalyx",
         "description": "Αυτό το πακέτο περιέχει μια ποικιλία κεντητών διακριτικών που τιμούν το Half-Life: Alyx, την VR επιστροφή της Valve στη σειρά του Half-Life. Τα διακριτικά μπορούν να εφαρμοστούν σε όποιον πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2020/03/23",
@@ -43753,6 +44034,7 @@
     {
         "id": "crate-4616",
         "name": "Κάψουλα αυτοκόλλητων Warhammer 40,000",
+        "name_original": "crate_sticker_pack_warhammer",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από τη σειρά Warhammer 40,000.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/05/28",
@@ -43866,6 +44148,7 @@
     {
         "id": "crate-4620",
         "name": "Θήκη Shattered Web",
+        "name_original": "crate_community_23",
         "description": null,
         "type": "Case",
         "first_sale_date": "2019-06-12",
@@ -44365,6 +44648,7 @@
     {
         "id": "crate-4654",
         "name": "Θρύλοι Βερολίνου 2019 (Ολογ./Μεταλ.)",
+        "name_original": "crate_sticker_pack_berlin2019_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44484,6 +44768,7 @@
     {
         "id": "crate-4655",
         "name": "Επιστρέφοντες διεκδικητές Βερολίνο 2019 (Ολογ./Μεταλ.)",
+        "name_original": "crate_sticker_pack_berlin2019_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44567,6 +44852,7 @@
     {
         "id": "crate-4656",
         "name": "Μικροί διεκδικητές Βερολίνο 2019 (Ολογ./Μεταλ.)",
+        "name_original": "crate_sticker_pack_berlin2019_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα ολογραφικό ή μεταλλικό αυτοκόλλητο συμμετέχοντος στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019-08-08",
@@ -44722,6 +45008,7 @@
     {
         "id": "crate-4657",
         "name": "Κάψουλα αυτόγραφων Θρύλων Βερολίνου 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες Θρύλων στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -45453,6 +45740,7 @@
     {
         "id": "crate-4658",
         "name": "Κάψουλα αυτόγραφων επιστρεφόμενων διεκδικητών Βερολίνου 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες επιστρεφόμενων διεκδικητών στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -45914,6 +46202,7 @@
     {
         "id": "crate-4659",
         "name": "Κάψουλα αυτόγραφων μικρών διεκδικητών Βερολίνου 2019",
+        "name_original": "crate_signature_pack_berlin2019_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα υψηλής ποιότητας, μεταλλικό ή χρυσό αυτοκόλλητο με αυτόγραφο ενός παίκτη από τις ομάδες μικρών διεκδικητών στο Βερολίνο 2019.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2019-08-08",
@@ -46915,6 +47204,7 @@
     {
         "id": "crate-4660",
         "name": "Πακέτο σουβενίρ Inferno - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47052,6 +47342,7 @@
     {
         "id": "crate-4661",
         "name": "Πακέτο σουβενίρ Mirage - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47168,6 +47459,7 @@
     {
         "id": "crate-4662",
         "name": "Πακέτο σουβενίρ Dust II - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47291,6 +47583,7 @@
     {
         "id": "crate-4663",
         "name": "Πακέτο σουβενίρ Overpass - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47407,6 +47700,7 @@
     {
         "id": "crate-4664",
         "name": "Πακέτο σουβενίρ Train - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_train",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47523,6 +47817,7 @@
     {
         "id": "crate-4665",
         "name": "Πακέτο σουβενίρ Nuke - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47660,6 +47955,7 @@
     {
         "id": "crate-4666",
         "name": "Πακέτο σουβενίρ Vertigo - Βερολίνο 2019",
+        "name_original": "crate_berlin2019_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -47713,6 +48009,7 @@
     {
         "id": "crate-4668",
         "name": "Πακέτο X-Ray P250",
+        "name_original": "crate_xray_p250",
         "description": "Αυτό το πακέτο περιέχει ένα ειδικά βαμμένο P250 που φαίνονται τα εσωτερικά του με ακτίνες-Χ. Το P250 είναι ένα πυροβόλο όπλο με μικρή ανάκρουση και μεγάλη ταχυβολία, το οποίο είναι μια σχετικά φθηνή επιλογή ενάντια σε θωρακισμένους εχθρούς.",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -47731,6 +48028,7 @@
     {
         "id": "crate-4669",
         "name": "Θήκη CS20",
+        "name_original": "crate_community_24",
         "description": "Εορτάζοντας την 20η Επέτειο του Counter-Strike, αυτή η θήκη όπλων περιλαμβάνει μια ποικιλία φινιρισμάτων όπλων από το εργαστήρι κοινότητας Steam και διαθέτει το κλασικό μαχαίρι ως ειδικό σπάνιο αντικείμενο, ένα κλασικό της σειράς Counter-Strike.",
         "type": "Case",
         "first_sale_date": "2019-10-14",
@@ -47954,6 +48252,7 @@
     {
         "id": "crate-4670",
         "name": "Κάψουλα αυτοκόλλητων CS20",
+        "name_original": "crate_sticker_pack_cs20_capsule",
         "description": "Εορτάζοντας την 20η Επέτειο του Counter-Strike, αυτή η κάψουλα περιλαμβάνει μια ποικιλία αυτοκόλλητων από το εργαστήρι κοινότητας Steam.",
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/16",
@@ -48085,6 +48384,7 @@
     {
         "id": "crate-4693",
         "name": "Κάψουλα συλλεκτικών καρφιτσών Half-Life: Alyx",
+        "name_original": "crate_pins_hlalyx",
         "description": "Αυτή η κάψουλα περιέχει μία συλλεκτική καρφίτσα προς τιμή του Half-Life: Alyx, της VR επιστροφής της Valve στη σειρά του Half-Life. Οι συλλεκτικές καρφίτσες μπορούν να προβληθούν στο προφίλ CS:GO σας.",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
@@ -48156,6 +48456,7 @@
     {
         "id": "crate-4694",
         "name": "Κάψουλα αυτοκόλλητων Half-Life: Alyx",
+        "name_original": "crate_sticker_pack_hlalyx_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία από αυτοκόλλητα προς τιμή του Half-Life: Alyx, της VR επιστροφής της Valve στη σειρά του Half-Life.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/03/23",
@@ -48245,6 +48546,7 @@
     {
         "id": "crate-4695",
         "name": "Θήκη Prisma 2",
+        "name_original": "crate_community_25",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-03-24",
@@ -48740,6 +49042,7 @@
     {
         "id": "crate-4696",
         "name": "Σύνολο μουσικών κουτιών Masterminds",
+        "name_original": "crate_musickit_masterminds_capsule",
         "description": "Αυτό το σύνολο περιέχει μια ποικιλία μουσικών κουτιών από διάφορους συνθέτες.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
@@ -48786,6 +49089,7 @@
     {
         "id": "crate-4697",
         "name": "Σύνολο StatTrak™ μουσικών κουτιών Masterminds",
+        "name_original": "crate_musickit_masterminds_stattrak_capsule",
         "description": "Αυτό το σύνολο περιέχει μια ποικιλία StatTrak™ μουσικών κουτιών από διάφορους συνθέτες.",
         "type": "Music Kit Box",
         "first_sale_date": "2020/04/22",
@@ -48832,6 +49136,7 @@
     {
         "id": "crate-4698",
         "name": "Θήκη Fracture",
+        "name_original": "crate_community_26",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-07-13",
@@ -49331,6 +49636,7 @@
     {
         "id": "crate-4717",
         "name": "Θήκη επιχείρησης Broken Fang",
+        "name_original": "crate_community_27",
         "description": null,
         "type": "Case",
         "first_sale_date": "2020-10-14",
@@ -49630,6 +49936,7 @@
     {
         "id": "crate-4719",
         "name": "Συλλογή αυτοκόλλητων Recoil",
+        "name_original": "crate_sticker_pack_recoil",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2019/10/1",
@@ -49833,6 +50140,7 @@
     {
         "id": "crate-4729",
         "name": "Συλλογή αυτοκόλλητων Broken Fang",
+        "name_original": "crate_sticker_pack_broken_fang",
         "description": "Αυτή η συλλογή περιέχει μια ποικιλία αυτοκόλλητων προς εορτασμό της επιχείρησης Broken Fang.",
         "type": "Sticker Capsule",
         "first_sale_date": "2020/11/9",
@@ -49940,6 +50248,7 @@
     {
         "id": "crate-4743",
         "name": "Θρύλοι 2020 RMR",
+        "name_original": "crate_sticker_pack_rmr2020_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό χάρτινο, ολογραφικό, σπάνιο ή χρυσό αυτοκόλλητο συμμετέχοντα στο RMR 2020.\\n\\n50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους οργανισμούς που περιλαμβάνονται.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο έχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το να φαίνεται λίγο πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50143,6 +50452,7 @@
     {
         "id": "crate-4744",
         "name": "Διεκδικητές 2020 RMR",
+        "name_original": "crate_sticker_pack_rmr2020_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό χάρτινο, ολογραφικό, σπάνιο ή χρυσό αυτοκόλλητο συμμετέχοντα στο RMR 2020.\\n\\n50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους οργανισμούς που περιλαμβάνονται.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο έχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το να φαίνεται λίγο πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50346,6 +50656,7 @@
     {
         "id": "crate-4745",
         "name": "Ανταγωνιστές 2020 RMR",
+        "name_original": "crate_sticker_pack_rmr2020_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα μονό χάρτινο, ολογραφικό, σπάνιο ή χρυσό αυτοκόλλητο συμμετέχοντα στο RMR 2020.\\n\\n50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους οργανισμούς που περιλαμβάνονται.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο έχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το να φαίνεται λίγο πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-01-19",
@@ -50549,6 +50860,7 @@
     {
         "id": "crate-4746",
         "name": "Κακοσχεδιασμένη Κάψουλα",
+        "name_original": "crate_sticker_pack_poorly_drawn_capsule",
         "description": "Αυτή η κάψουλα περιέχει μία ποικιλία κακοσχεδιασμένων αυτοκόλλητων από τους καλλιτέχνες της κοινότητας HH110011HH και Hoxton.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/02/14",
@@ -50680,6 +50992,7 @@
     {
         "id": "crate-4747",
         "name": "Θήκη Snakebite",
+        "name_original": "crate_community_28",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-03-26",
@@ -50979,6 +51292,7 @@
     {
         "id": "crate-4754",
         "name": "Πακέτο μουσικών κουτιών Tacticians",
+        "name_original": "crate_musickit_tacticians_capsule",
         "description": "Αυτό το πακέτο περιέχει ποικιλία μουσικών κουτιών από καλλιτέχνες «Tacticians».",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
@@ -51020,6 +51334,7 @@
     {
         "id": "crate-4755",
         "name": "Πακέτο μουσικών κουτιών StatTrak™ Tacticians",
+        "name_original": "crate_musickit_tacticians_stattrak_capsule",
         "description": "Αυτό το πακέτο περιέχει ποικιλία μουσικών κουτιών StatTrak™ από καλλιτέχνες «Tacticians».",
         "type": "Music Kit Box",
         "first_sale_date": "2021/07/20",
@@ -51061,6 +51376,7 @@
     {
         "id": "crate-4779",
         "name": "Συλλογή αυτοκόλλητων μαγαζιού σέρφινγκ Riptide",
+        "name_original": "crate_sticker_pack_riptide_surfshop",
         "description": null,
         "type": "Sticker Capsule",
         "first_sale_date": "2021/08/01",
@@ -51504,6 +51820,7 @@
     {
         "id": "crate-4782",
         "name": "Κάψουλα αυτοκόλλητων Κοινότητας 2021",
+        "name_original": "crate_sticker_pack_community2021_capsule",
         "description": "Αυτή η κάψουλα περιέχει μία ποικιλία αυτοκόλλητων από καλλιτέχνες Εργαστηρίου Steam.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/02",
@@ -51641,6 +51958,7 @@
     {
         "id": "crate-4783",
         "name": "Συλλογή αυτοκόλλητων Επιχείρησης Riptide",
+        "name_original": "crate_sticker_pack_op_riptide_capsule",
         "description": "Αυτή η συλλογή περιέχει μια ποικιλία αυτοκόλλητων προς εορτασμό της Επιχείρησης Riptide.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/09/21",
@@ -51736,6 +52054,7 @@
     {
         "id": "crate-4784",
         "name": "Η κάψουλα αυτοκόλλητων The Boardroom",
+        "name_original": "crate_sticker_pack_spring2022_capsule",
         "description": "Αυτή η κάψουλα περιέχει μία ποικιλία αυτοκόλλητων από καλλιτέχνες Εργαστηρίου Steam και κυκλοφόρησε τον Φεβρουάριο του 2022.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/02/20",
@@ -51879,6 +52198,7 @@
     {
         "id": "crate-4789",
         "name": "Κάψουλα Αυτοκόλλητων Battlefield 2042",
+        "name_original": "crate_sticker_pack_bf2042_capsule",
         "description": "Αυτή η κάψουλα περιέχει μια ποικιλία αυτοκόλλητων από την Electronic Arts.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021/10/07",
@@ -51992,6 +52312,7 @@
     {
         "id": "crate-4790",
         "name": "Θήκη Επιχείρησης Riptide",
+        "name_original": "crate_community_29",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-09-08",
@@ -52498,6 +52819,7 @@
     {
         "id": "crate-4795",
         "name": "Συλλογή διακριτικών Επιχείρησης Riptide",
+        "name_original": "crate_patch_pack03",
         "description": "Αυτή η συλλογή διακριτικών περιέχει μια ποικιλία κεντητών διακριτικών που τιμούν την Επιχείρηση Riptide. Τα διακριτικά μπορούν να εφαρμοστούν σε οποιονδήποτε πράκτορα έχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2021/09/01",
@@ -52587,6 +52909,7 @@
     {
         "id": "crate-4803",
         "name": "Κάψουλα Αυτοκόλλητων Θρύλων – Στοκχόλμη 2021",
+        "name_original": "crate_sticker_pack_stockh2021_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -52814,6 +53137,7 @@
     {
         "id": "crate-4804",
         "name": "Κάψουλα Αυτοκόλλητων Διεκδικητών – Στοκχόλμη 2021",
+        "name_original": "crate_sticker_pack_stockh2021_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -53041,6 +53365,7 @@
     {
         "id": "crate-4805",
         "name": "Κάψουλα Αυτοκόλλητων Ανταγωνιστών – Στοκχόλμη 2021",
+        "name_original": "crate_sticker_pack_stockh2021_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": "2021-10-10",
@@ -53268,6 +53593,7 @@
     {
         "id": "crate-4806",
         "name": "Πακέτο Διακριτικών Θρύλων – Στοκχόλμη 2021",
+        "name_original": "crate_patch_pack_stockh2021_legends",
         "description": "Αυτό το πακέτο περιέχει ένα Υψηλής Ποιότητας ή Χρυσό κεντητό Διακριτικό συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτού του πακέτου υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΤα διακριτικά μπορούν να εφαρμοστούν σε οποιονδήποτε πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53387,6 +53713,7 @@
     {
         "id": "crate-4807",
         "name": "Πακέτο Διακριτικών Διεκδικητών – Στοκχόλμη 2021",
+        "name_original": "crate_patch_pack_stockh2021_challengers",
         "description": "Αυτό το πακέτο περιέχει ένα Υψηλής Ποιότητας ή Χρυσό κεντητό Διακριτικό συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτού του πακέτου υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΤα διακριτικά μπορούν να εφαρμοστούν σε οποιονδήποτε πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53506,6 +53833,7 @@
     {
         "id": "crate-4808",
         "name": "Πακέτο Διακριτικών Ανταγωνιστών – Στοκχόλμη 2021",
+        "name_original": "crate_patch_pack_stockh2021_contenders",
         "description": "Αυτό το πακέτο περιέχει ένα Υψηλής Ποιότητας ή Χρυσό κεντητό Διακριτικό συμμετέχοντος στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτού του πακέτου υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΤα διακριτικά μπορούν να εφαρμοστούν σε οποιονδήποτε πράκτορα κατέχετε.",
         "type": "Patch Capsule",
         "first_sale_date": "2021-10-10",
@@ -53625,6 +53953,7 @@
     {
         "id": "crate-4809",
         "name": "Πακέτο Σουβενίρ Inferno – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -53762,6 +54091,7 @@
     {
         "id": "crate-4810",
         "name": "Πακέτο Σουβενίρ Mirage – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -53906,6 +54236,7 @@
     {
         "id": "crate-4811",
         "name": "Πακέτο Σουβενίρ Dust II – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54050,6 +54381,7 @@
     {
         "id": "crate-4812",
         "name": "Πακέτο Σουβενίρ Overpass – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54166,6 +54498,7 @@
     {
         "id": "crate-4813",
         "name": "Πακέτο Σουβενίρ Ancient – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54310,6 +54643,7 @@
     {
         "id": "crate-4814",
         "name": "Πακέτο Σουβενίρ Nuke – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54447,6 +54781,7 @@
     {
         "id": "crate-4815",
         "name": "Πακέτο Σουβενίρ Vertigo – Στοκχόλμη 2021",
+        "name_original": "crate_stockh2021_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -54591,6 +54926,7 @@
     {
         "id": "crate-4816",
         "name": "Κάψουλα αυτόγραφων Πρωταθλητών – Στοκχόλμη 2021",
+        "name_original": "crate_signature_pack_stockh2021_group_champions",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή από έναν από τους Πρωταθλητές παίκτες στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2021-10-10",
@@ -54692,6 +55028,7 @@
     {
         "id": "crate-4817",
         "name": "Κάψουλα Αυτόγραφων Φιναλίστ – Στοκχόλμη 2021",
+        "name_original": "crate_signature_pack_stockh2021_group_finalists",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή από έναν από τους Φιναλίστ παίκτες στο τουρνουά Στοκχόλμη 2021.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": "2021-10-10",
@@ -55333,6 +55670,7 @@
     {
         "id": "crate-4818",
         "name": "Θήκη «Όνειρα και Εφιάλτες»",
+        "name_original": "crate_community_30",
         "description": null,
         "type": "Case",
         "first_sale_date": "2021-11-17",
@@ -55839,6 +56177,7 @@
     {
         "id": "crate-4832",
         "name": "Κάψουλα Αυτοκόλλητων Θρύλων Αμβέρσα 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Ολογραφικό, Γκλίτερ, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Θρύλου στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56066,6 +56405,7 @@
     {
         "id": "crate-4833",
         "name": "Κάψουλα Αυτοκόλλητων Διεκδικητών Αμβέρσα 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Διεκδικητή στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56293,6 +56633,7 @@
     {
         "id": "crate-4834",
         "name": "Κάψουλα Αυτοκόλλητων Ανταγωνιστών Αμβέρσα 2022",
+        "name_original": "crate_sticker_pack_antwerp2022_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό, Μεταλλικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Ανταγωνιστή στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -56520,6 +56861,7 @@
     {
         "id": "crate-4835",
         "name": "Πακέτο Σουβενίρ Inferno – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56657,6 +56999,7 @@
     {
         "id": "crate-4836",
         "name": "Πακέτο Σουβενίρ Mirage – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56801,6 +57144,7 @@
     {
         "id": "crate-4837",
         "name": "Πακέτο Σουβενίρ Dust II – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -56945,6 +57289,7 @@
     {
         "id": "crate-4838",
         "name": "Πακέτο Σουβενίρ Overpass – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57061,6 +57406,7 @@
     {
         "id": "crate-4839",
         "name": "Πακέτο Σουβενίρ Ancient – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57205,6 +57551,7 @@
     {
         "id": "crate-4840",
         "name": "Πακέτο Σουβενίρ Nuke – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57342,6 +57689,7 @@
     {
         "id": "crate-4841",
         "name": "Πακέτο Σουβενίρ Vertigo – Αμβέρσα 2022",
+        "name_original": "crate_antwerp2022_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -57486,6 +57834,7 @@
     {
         "id": "crate-4842",
         "name": "Κάψουλα Αυτόγραφων Θρύλων Αμβέρσα 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Θρύλους παίκτες στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -58457,6 +58806,7 @@
     {
         "id": "crate-4843",
         "name": "Κάψουλα Αυτόγραφων Διεκδικητών Αμβέρσα 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Διεκδικητές παίκτες στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -59428,6 +59778,7 @@
     {
         "id": "crate-4844",
         "name": "Κάψουλα Αυτόγραφων Ανταγωνιστών Αμβέρσα 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Ανταγωνιστές παίκτες στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -60399,6 +60750,7 @@
     {
         "id": "crate-4845",
         "name": "Κάψουλα Αυτόγραφων Ανταγωνιστών Αμβέρσα 2022",
+        "name_original": "crate_signature_pack_antwerp2022_group_champions",
         "description": "Αυτή η κάψουλα περιέχει ένα Υψηλής Ποιότητας, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Πρωταθλητές παίκτες στο τουρνουά Αμβέρσα 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -60530,6 +60882,7 @@
     {
         "id": "crate-4846",
         "name": "Θήκη Recoil",
+        "name_original": "crate_community_31",
         "description": null,
         "type": "Case",
         "first_sale_date": "2022-05-30",
@@ -60829,6 +61182,7 @@
     {
         "id": "crate-4847",
         "name": "Κάψουλα αυτοκόλλητων «Γενέθλια 10 Χρόνων»",
+        "name_original": "crate_sticker_pack_csgo10_capsule",
         "description": "Αυτή η κάψουλα περιέχει μία ποικιλία αυτοκόλλητων από καλλιτέχνες Εργαστηρίου Steam που γιορτάζουν τα δέκατα γενέθλια του CS:GO.",
         "type": "Sticker Capsule",
         "first_sale_date": "2022/06/15",
@@ -61230,6 +61584,7 @@
     {
         "id": "crate-4848",
         "name": "Πακέτο μουσικών κουτιών Initiators",
+        "name_original": "crate_musickit_initiators_capsule",
         "description": "Αυτό το πακέτο περιέχει ποικιλία μουσικών κουτιών από καλλιτέχνες «Initiators».",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
@@ -61271,6 +61626,7 @@
     {
         "id": "crate-4849",
         "name": "Πακέτο μουσικών κουτιών StatTrak™ Initiators",
+        "name_original": "crate_musickit_initiators_stattrak_capsule",
         "description": "Αυτό το πακέτο περιέχει ποικιλία μουσικών κουτιών StatTrak™ από καλλιτέχνες «Initiators».",
         "type": "Music Kit Box",
         "first_sale_date": "2022/08/15",
@@ -61312,6 +61668,7 @@
     {
         "id": "crate-4857",
         "name": "Κάψουλα Αυτοκόλλητων Θρύλων Ρίο 2022",
+        "name_original": "crate_sticker_pack_rio2022_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Θρύλου στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61539,6 +61896,7 @@
     {
         "id": "crate-4858",
         "name": "Κάψουλα Αυτοκόλλητων Διεκδικητών Ρίο 2022",
+        "name_original": "crate_sticker_pack_rio2022_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Διεκδικητή στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61766,6 +62124,7 @@
     {
         "id": "crate-4859",
         "name": "Κάψουλα Αυτοκόλλητων Ανταγωνιστών Ρίο 2022",
+        "name_original": "crate_sticker_pack_rio2022_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Ανταγωνιστή στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -61993,6 +62352,7 @@
     {
         "id": "crate-4860",
         "name": "Πακέτο Σουβενίρ Inferno – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62130,6 +62490,7 @@
     {
         "id": "crate-4861",
         "name": "Πακέτο Σουβενίρ Mirage – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62274,6 +62635,7 @@
     {
         "id": "crate-4862",
         "name": "Πακέτο Σουβενίρ Dust II – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_dust2",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62418,6 +62780,7 @@
     {
         "id": "crate-4863",
         "name": "Πακέτο Σουβενίρ Overpass – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62534,6 +62897,7 @@
     {
         "id": "crate-4864",
         "name": "Πακέτο Σουβενίρ Ancient – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62678,6 +63042,7 @@
     {
         "id": "crate-4865",
         "name": "Πακέτο Σουβενίρ Nuke – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62815,6 +63180,7 @@
     {
         "id": "crate-4866",
         "name": "Πακέτο Σουβενίρ Vertigo – Ρίο 2022",
+        "name_original": "crate_rio2022_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -62959,6 +63325,7 @@
     {
         "id": "crate-4867",
         "name": "Κάψουλα Αυτόγραφων Θρύλων Ρίο 2022",
+        "name_original": "crate_signature_pack_rio2022_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Θρύλους παίκτες στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -63930,6 +64297,7 @@
     {
         "id": "crate-4868",
         "name": "Κάψουλα Αυτόγραφων Διεκδικητών Ρίο 2022",
+        "name_original": "crate_signature_pack_rio2022_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Διεκδικητές παίκτες στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -64901,6 +65269,7 @@
     {
         "id": "crate-4869",
         "name": "Κάψουλα Αυτόγραφων Ανταγωνιστών Ρίο 2022",
+        "name_original": "crate_signature_pack_rio2022_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Ανταγωνιστές παίκτες στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -65872,6 +66241,7 @@
     {
         "id": "crate-4870",
         "name": "Κάψουλα Αυτόγραφων Πρωταθλητών Ρίο 2022",
+        "name_original": "crate_signature_pack_rio2022_group_champions",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Πρωταθλητές παίκτες στο τουρνουά Ρίο 2022.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -66003,6 +66373,7 @@
     {
         "id": "crate-4871",
         "name": "Κιβώτια Αποθήκευσης Ρίο 2022 με Χάρτινα Αυτοκόλλητα",
+        "name_original": "storageunit0_rio2022",
         "description": "Αυτό είναι ένα Κιβώτιο Αποθήκευσης που περιέχει κάθε χάρτινο αυτόγραφο παίκτη και κάθε χάρτινο αυτοκόλλητο ομάδας και τιμά το Πρωτάθλημα Major IEM Ρίο 2022 του CS:GO.\\n\\nΤο 50% από τα έσοδα από την πώληση αυτής της κάψουλας υποστηρίζουν τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.",
         "type": null,
         "first_sale_date": null,
@@ -66884,6 +67255,7 @@
     {
         "id": "crate-4872",
         "name": "Κιβώτιο Αποθήκευσης Ρίο 2022 με γκλίτερ αυτοκόλλητα",
+        "name_original": "storageunit1_rio2022",
         "description": "Αυτό είναι ένα Κιβώτιο Αποθήκευσης που περιέχει κάθε γκλίτερ αυτόγραφο παίκτη και κάθε γκλίτερ αυτοκόλλητο ομάδας και τιμά το Πρωτάθλημα Major IEM Ρίο 2022 του CS:GO.\\n\\nΤο 50% από τα έσοδα από την πώληση αυτής της κάψουλας υποστηρίζουν τους συμπεριλαμβανόμενους παίκτες και οργανισμούς.",
         "type": null,
         "first_sale_date": null,
@@ -67765,6 +68137,7 @@
     {
         "id": "crate-4879",
         "name": "Κάψουλα αυτοκόλλητων Espionage",
+        "name_original": "crate_sticker_pack_community2022_capsule",
         "description": "Αυτή η κάψουλα περιέχει μία ποικιλία αυτοκόλλητων από καλλιτέχνες Εργαστηρίου Steam και κυκλοφόρησε τον Φεβρουάριο του 2023.",
         "type": "Sticker Capsule",
         "first_sale_date": "2023/01/05",
@@ -67902,6 +68275,7 @@
     {
         "id": "crate-4880",
         "name": "Θήκη Revolution",
+        "name_original": "crate_community_32",
         "description": null,
         "type": "Case",
         "first_sale_date": "2023-01-31",
@@ -68201,6 +68575,7 @@
     {
         "id": "crate-4882",
         "name": "Πακέτο συλλογής Anubis",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",
@@ -68345,6 +68720,7 @@
     {
         "id": "crate-4890",
         "name": "Κάψουλα Αυτοκόλλητων Θρύλων Παρίσι 2023",
+        "name_original": "crate_sticker_pack_paris2023_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Θρύλου στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -68572,6 +68948,7 @@
     {
         "id": "crate-4891",
         "name": "Κάψουλα Αυτοκόλλητων Διεκδικητών Παρίσι 2023",
+        "name_original": "crate_sticker_pack_paris2023_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Διεκδικητή στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -68799,6 +69176,7 @@
     {
         "id": "crate-4892",
         "name": "Κάψουλα Αυτοκόλλητων Ανταγωνιστών Παρίσι 2023",
+        "name_original": "crate_sticker_pack_paris2023_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο συμμετέχοντος Ανταγωνιστή στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Sticker Capsule",
         "first_sale_date": null,
@@ -69026,6 +69404,7 @@
     {
         "id": "crate-4893",
         "name": "Πακέτο Σουβενίρ Inferno – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_inferno",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69163,6 +69542,7 @@
     {
         "id": "crate-4894",
         "name": "Πακέτο Σουβενίρ Mirage – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_mirage",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69307,6 +69687,7 @@
     {
         "id": "crate-4895",
         "name": "Πακέτο Σουβενίρ Anubis – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_anubis",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69451,6 +69832,7 @@
     {
         "id": "crate-4896",
         "name": "Πακέτο Σουβενίρ Overpass – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_overpass",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69567,6 +69949,7 @@
     {
         "id": "crate-4897",
         "name": "Πακέτο Σουβενίρ Ancient – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_ancient",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69711,6 +70094,7 @@
     {
         "id": "crate-4898",
         "name": "Πακέτο Σουβενίρ Nuke – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_nuke",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69848,6 +70232,7 @@
     {
         "id": "crate-4899",
         "name": "Πακέτο Σουβενίρ Vertigo – Παρίσι 2023",
+        "name_original": "crate_paris2023_promo_de_vertigo",
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
@@ -69992,6 +70377,7 @@
     {
         "id": "crate-4900",
         "name": "Κάψουλα Αυτόγραφων Θρύλων Παρίσι 2023",
+        "name_original": "crate_signature_pack_paris2023_group_legends",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Θρύλους παίκτες στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -70963,6 +71349,7 @@
     {
         "id": "crate-4901",
         "name": "Κάψουλα Αυτόγραφων Διεκδικητών Παρίσι 2023",
+        "name_original": "crate_signature_pack_paris2023_group_challengers",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Διεκδικητές παίκτες στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -71934,6 +72321,7 @@
     {
         "id": "crate-4902",
         "name": "Κάψουλα Αυτόγραφων Ανταγωνιστών Παρίσι 2023",
+        "name_original": "crate_signature_pack_paris2023_group_contenders",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Ανταγωνιστές παίκτες στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -72905,6 +73293,7 @@
     {
         "id": "crate-4903",
         "name": "Κάψουλα Αυτόγραφων Πρωταθλητών Παρίσι 2023",
+        "name_original": "crate_signature_pack_paris2023_group_champions",
         "description": "Αυτή η κάψουλα περιέχει ένα Χάρτινο, Γκλίτερ, Ολογραφικό ή Χρυσό Αυτοκόλλητο με υπογραφή ενός από τους Πρωταθλητές παίκτες στο τουρνουά Παρίσι 2023.\\n\\nΤο 50% των εσόδων από την πώληση αυτής της κάψουλας υποστηρίζει τους συμπεριλαμβανόμενους οργανισμούς.\\n\\nΑυτό το αυτοκόλλητο μπορεί να εφαρμοστεί σε οποιοδήποτε όπλο κατέχετε και μπορεί να ξυθεί για να φαίνεται πιο φθαρμένο. Μπορείτε να ξύσετε το ίδιο αυτοκόλλητο πολλές φορές, κάνοντάς το όλο και πιο φθαρμένο κάθε φορά, μέχρι να αφαιρεθεί από το όπλο.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
