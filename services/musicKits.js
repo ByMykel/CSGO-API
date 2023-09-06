@@ -11,6 +11,7 @@ const parseItem = (item) => {
     return {
         id: `music_kit-${item.object_id}`,
         name: exclusive ? $t(item.loc_name) : $t(item.coupon_name),
+        name_original: item.name,
         description: $t(item.loc_description),
         rarity: $t("rarity_rare"),
         exclusive,
