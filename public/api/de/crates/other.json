@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Geschenkpaket",
+        "name_original": "Tool_Gift1Player",
         "description": "Bei Benutzung erhält ein zufälliger Spieler in Ihrem Spiel einen zufälligen Gegenstand als Geschenk von Ihnen.",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "Palette von Geschenken",
+        "name_original": "Tool_Gift9Players",
         "description": "Bei Benutzung erhalten bis zu 9 andere Spieler in Ihrem Spiel einen zufällig ausgewählten Gegenstand als Geschenk von Ihnen.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Publikumteilnahmepaket",
+        "name_original": "Tool_Gift25Spectators",
         "description": "Bei Benutzung erhalten bis zu 25 Zuschauer Ihres Spiels einen zufällig ausgewählten Gegenstand von Ihnen.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4668",
         "name": "Paket: P250 | Röntgen",
+        "name_original": "crate_xray_p250",
         "description": "Dieses Paket enthält eine P250, die mit einer Sonderlackierung versehen wurde, welche ihr Innenleben mit Röntgenstrahlen sichtbar macht. Die P250 ist eine Schusswaffe mit geringem Rückschlag und hoher Feuerrate, eine relativ günstige Wahl gegen Gegner mit Rüstung.",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -50,6 +54,7 @@
     {
         "id": "crate-4871",
         "name": "Rio 2022: Speichereinheit mit Papieraufklebern",
+        "name_original": "storageunit0_rio2022",
         "description": "Diese Speichereinheit enthält alle Papier-Spielerautogramme und Papieraufkleber für die CS:GO-Meisterschaft IEM Rio 2022.\\n\\nn50 % der Erlöse durch den Verkauf dieses Eventpakets unterstützen die beteiligten Spieler und Organisationen.",
         "type": null,
         "first_sale_date": null,
@@ -931,6 +936,7 @@
     {
         "id": "crate-4872",
         "name": "Rio 2022: Speichereinheit mit Glitzeraufklebern",
+        "name_original": "storageunit1_rio2022",
         "description": "Diese Speichereinheit enthält alle Glitzer-Spielerautogramme und Glitzeraufkleber für die CS:GO-Meisterschaft IEM Rio 2022.\\n\\nn50 % der Erlöse durch den Verkauf dieses Eventpakets unterstützen die beteiligten Spieler und Organisationen.",
         "type": null,
         "first_sale_date": null,
@@ -1812,6 +1818,7 @@
     {
         "id": "crate-4882",
         "name": "Paket: Kollektion „Anubis“",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",

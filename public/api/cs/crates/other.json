@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Gift Package",
+        "name_original": "Tool_Gift1Player",
         "description": "Použitím tohoto předmětu daruješ jednomu náhodnému hráči v zápase náhodný předmět.",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "Pallet of Presents",
+        "name_original": "Tool_Gift9Players",
         "description": "Použitím tohoto předmětu daruješ 9 hráčům v zápase náhodný předmět.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Audience Participation Parcel",
+        "name_original": "Tool_Gift25Spectators",
         "description": "Použitím tohoto předmětu daruješ 25 divákům v zápase náhodný předmět.",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4668",
         "name": "X-Ray P250 Package",
+        "name_original": "crate_xray_p250",
         "description": "Tato krabička obsahuje jednu kopii zbraně P250 nabarvenou obrázkem ukazujícím její vnitřnosti pod rentgenem. P250 je relativně levná pistole s malým zpětným rázem a vysokou rychlostí střelby, která se hodí i proti obrněným protivníkům.",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -50,6 +54,7 @@
     {
         "id": "crate-4871",
         "name": "Úložný kontejner s běžnými samolepkami | IEM Rio 2022",
+        "name_original": "storageunit0_rio2022",
         "description": "Tento úložný kontejner obsahuje všechny běžné samolepky hráčů, týmů a organizací podílejících se na šampionátu IEM Rio 2022.\\n\\nPolovina výtěžku z prodeje tohoto kontejneru bude použita na podporu zahrnutých týmů a organizací.",
         "type": null,
         "first_sale_date": null,
@@ -931,6 +936,7 @@
     {
         "id": "crate-4872",
         "name": "Úložný kontejner s třpytivými samolepkami | IEM Rio 2022",
+        "name_original": "storageunit1_rio2022",
         "description": "Tento úložný kontejner obsahuje všechny třpytivé samolepky hráčů, týmů a organizací podílejících se na šampionátu IEM Rio 2022.\\n\\nPolovina výtěžku z prodeje tohoto kontejneru bude použita na podporu zahrnutých týmů a organizací.",
         "type": null,
         "first_sale_date": null,
@@ -1812,6 +1818,7 @@
     {
         "id": "crate-4882",
         "name": "Anubis Collection Package",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",

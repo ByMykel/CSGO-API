@@ -2,6 +2,7 @@
     {
         "id": "crate-1210",
         "name": "แพ็กเกจของขวัญ",
+        "name_original": "Tool_Gift1Player",
         "description": "เมื่อใช้ ผู้เล่นคนใดคนหนึ่งในแมตช์ของคุณ จะได้รับไอเท็มโดยการสุ่มเป็นของขวัญจากคุณ",
         "type": null,
         "first_sale_date": "2013/12/17",
@@ -12,6 +13,7 @@
     {
         "id": "crate-1211",
         "name": "กองของขวัญ",
+        "name_original": "Tool_Gift9Players",
         "description": "เมื่อใช้ ผู้เล่นคนอื่นทั้ง 9 คนในแมตช์ของคุณ จะได้รับไอเท็มโดยการสุ่มเป็นของขวัญจากคุณ",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -22,6 +24,7 @@
     {
         "id": "crate-1215",
         "name": "Audience Participation Parcel",
+        "name_original": "Tool_Gift25Spectators",
         "description": "เมื่อใช้ ผู้ชม 25 คนที่กำลังเข้าชมแมตช์ของคุณอยู่ จะได้รับไอเท็มโดยการสุ่มเป็นของขวัญจากคุณ",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -32,6 +35,7 @@
     {
         "id": "crate-4668",
         "name": "แพ็กเกจ X-Ray P250",
+        "name_original": "crate_xray_p250",
         "description": "แพ็กเกจนี้ประกอบไปด้วย P250 ลงสีแบบกำหนดเองแสดงให้เห็นภายในของปืนด้วย X-Ray ปืน P250 เป็นอาวุธปืนแรงถีบต่ำพร้อมด้วยอัตราการยิงที่สูง ซึ่งเป็นตัวเลือกที่ราคาค่อนข้างถูกสำหรับการใช้กับศัตรูสวมชุดเกราะ",
         "type": null,
         "first_sale_date": "2019/10/02",
@@ -50,6 +54,7 @@
     {
         "id": "crate-4871",
         "name": "กล่องเก็บของ Rio 2022 พร้อมสติกเกอร์แบบธรรมดา",
+        "name_original": "storageunit0_rio2022",
         "description": "This is a Storage Unit containing every Paper player autograph and every Paper sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
         "type": null,
         "first_sale_date": null,
@@ -931,6 +936,7 @@
     {
         "id": "crate-4872",
         "name": "กล่องเก็บของ Rio 2022 พร้อมสติกเกอร์แบบระยิบระยับ",
+        "name_original": "storageunit1_rio2022",
         "description": "This is a Storage Unit containing every Glitter player autograph and every Glitter sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
         "type": null,
         "first_sale_date": null,
@@ -1812,6 +1818,7 @@
     {
         "id": "crate-4882",
         "name": "แพ็กเกจชุดสะสม Anubis",
+        "name_original": "set_anubis_storepromo",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",
