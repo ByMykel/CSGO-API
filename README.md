@@ -43,6 +43,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/skins.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">description</td>
     <td width="400">string</td>
   </tr>
@@ -131,6 +135,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/collections.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">image</td>
     <td width="400">string</td>
   </tr>
@@ -154,6 +162,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/crates.json
   </tr>
   <tr>
     <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name_original</td>
     <td width="400">string</td>
   </tr>
   <tr>
@@ -193,6 +205,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/keys.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">description</td>
     <td width="400">string or null</td>
   </tr>
@@ -218,6 +234,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/collectibles.json
   </tr>
   <tr>
     <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name_original</td>
     <td width="400">string</td>
   </tr>
   <tr>
@@ -257,6 +277,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/agents.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">description</td>
     <td width="400">string or null</td>
   </tr>
@@ -286,6 +310,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/patches.json
   </tr>
   <tr>
     <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name_original</td>
     <td width="400">string</td>
   </tr>
   <tr>
@@ -321,6 +349,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/graffiti.json
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">description</td>
     <td width="400">string or null</td>
   </tr>
@@ -350,6 +382,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/music_kits.json
   </tr>
   <tr>
     <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name_original</td>
     <td width="400">string</td>
   </tr>
   <tr>
