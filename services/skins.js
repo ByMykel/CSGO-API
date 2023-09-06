@@ -89,7 +89,7 @@ const parseItem = (item, items) => {
         wears: getWears(
             paintKits[pattern].wear_remap_min,
             paintKits[pattern].wear_remap_max
-        ).map($t),
+        ).map(wearKey => $t(wearKey)),
         collections:
             collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
                 ...i,

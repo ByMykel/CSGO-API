@@ -73,7 +73,7 @@ const parseItem = (item, items) => {
     const wears = getWears(
         paintKits[pattern].wear_remap_min,
         paintKits[pattern].wear_remap_max
-    ).map($t);
+    ).map(wearKey => $t(wearKey));
 
     return types.map((type) =>
         wears.map((wear, index) => ({
