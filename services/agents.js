@@ -13,6 +13,7 @@ const parseItem = (item) => {
     return {
         id: `agent-${item.object_id}`,
         name: $t(item.item_name),
+        name_original: item.name,
         description: $t(item.item_description),
         rarity: $t(`rarity_${item.item_rarity}_character`),
         collections: collectionsBySkins?.[`agent-${item.object_id}`]?.map(
