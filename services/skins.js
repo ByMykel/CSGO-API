@@ -123,6 +123,7 @@ export const getSkins = () => {
             name: $tc("rare_special_vanilla", {
                 item_name: $t(knife.item_name),
             }),
+            name_original: knife.name,
             description: $t(knife.item_description),
             weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
             category: $t("sfui_invpanel_filter_melee"),
@@ -130,6 +131,7 @@ export const getSkins = () => {
             min_float: null,
             max_float: null,
             rarity: $t(`rarity_ancient_weapon`),
+            rarity_original: 'rarity_ancient_weapon',
             stattrak: true,
             paint_index: null,
             crates:

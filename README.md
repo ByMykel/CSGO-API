@@ -52,27 +52,111 @@ GET https://bymykel.github.io/CSGO-API/api/en/skins.json
   </tr>
   <tr>
     <td width="400">weapon</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">category</td>
     <td width="400">string</td>
   </tr>
   <tr>
     <td width="400">pattern</td>
-    <td width="400">string</td>
+    <td width="400">string or null</td>
   </tr>
   <tr>
     <td width="400">min_float</td>
-    <td width="400">number</td>
+    <td width="400">number or null</td>
   </tr>
   <tr>
     <td width="400">max_float</td>
-    <td width="400">number</td>
+    <td width="400">number or null</td>
   </tr>
   <tr>
     <td width="400">rarity</td>
     <td width="400">string</td>
   </tr>
   <tr>
+    <td width="400">rarity_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
     <td width="400">stattrak</td>
     <td width="400">boolean</td>
+  </tr>
+  <tr>
+    <td width="400">souvenir</td>
+    <td width="400">boolean</td>
+  </tr>
+  <tr>
+    <td width="400">paint_index</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">wears</td>
+    <td width="400">array[string]</td>
+  </tr>
+  <tr>
+    <td width="400">collections</td>
+    <td width="400">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">crates</td>
+    <td width="400">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">image</td>
+    <td width="400">string</td>
+  </tr>
+</table>
+
+### List not grouped skins
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/skins_not_grouped.json
+```
+
+<table align="center">
+  <tr>
+    <td colspan="2" color="yellow">array[object]</td>
+  </tr>
+  <tr>
+    <td width="400">id</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">name_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">description</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">weapon</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">category</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">rarity</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">rarity_original</td>
+    <td width="400">string</td>
+  </tr>
+  <tr>
+    <td width="400">paint_index</td>
+    <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">market_hash_name</td>
+    <td width="400">string</td>
   </tr>
   <tr>
     <td width="400">image</td>
@@ -174,11 +258,11 @@ GET https://bymykel.github.io/CSGO-API/api/en/crates.json
   </tr>
   <tr>
     <td width="400">type</td>
-    <td width="400">string</td>
+    <td width="400">string or null</td>
   </tr>
   <tr>
     <td width="400">first_sale_date</td>
-    <td width="400">string</td>
+    <td width="400">string or null</td>
   </tr>
   <tr>
     <td width="400">image</td>
@@ -211,6 +295,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/keys.json
   <tr>
     <td width="400">description</td>
     <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">crates</td>
+    <td width="400">array[object]</td>
   </tr>
   <tr>
     <td width="400">image</td>
@@ -287,6 +375,10 @@ GET https://bymykel.github.io/CSGO-API/api/en/agents.json
   <tr>
     <td width="400">rarity</td>
     <td width="400">string or null</td>
+  </tr>
+  <tr>
+    <td width="400">collections</td>
+    <td width="400">array[object]</td>
   </tr>
   <tr>
     <td width="400">image</td>

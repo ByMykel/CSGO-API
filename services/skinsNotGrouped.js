@@ -5,6 +5,7 @@ import {
     getWears,
     getDopplerPhase,
     skinMarketHashName,
+    getCategory,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
@@ -40,6 +41,9 @@ const parseItem = (item, items) => {
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
+    const translatedDescription = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_description_prefab)
+        : $t(items[weapon].item_description);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -53,12 +57,12 @@ const parseItem = (item, items) => {
     const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
 
     const rarity = !isNotWeapon(weapon)
-        ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
+        ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
         : isKnife
-        ? // Knives are 'Covert'
-          $t(`rarity_ancient_weapon`)
-        : // Gloves are 'Extraordinary'
-          $t(`rarity_ancient`);
+            ? // Knives are 'Covert'
+            `rarity_ancient_weapon`
+            : // Gloves are 'Extraordinary'
+            `rarity_ancient`;
 
     const types = ["skin"];
 
@@ -101,10 +105,15 @@ const parseItem = (item, items) => {
                       pattern: $t(paintKits[pattern].description_tag),
                       wear,
                   }),
+            name_original: items[weapon].name,
+            description: translatedDescription,
             weapon: translatedName,
+            category: $t(getCategory(weapon)),
             pattern: $t(paintKits[pattern].description_tag),
             wear,
-            rarity,
+            rarity: $t(rarity),
+            rarity_original: rarity,
+            paint_index: paintKits[pattern].paint_index,
             ...(dopplerPhase && { phase: dopplerPhase }),
             market_hash_name: skinMarketHashName({
                 itemName: !isNotWeapon(weapon)
@@ -142,10 +151,15 @@ export const getSkinsNotGrouped = () => {
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
+                    name_original: knife.name,
+                    description: $t(knife.item_description),
                     weapon: $t(
                         `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
                     ),
+                    category: $t("sfui_invpanel_filter_melee"),
                     rarity: $t(`rarity_ancient_weapon`),
+                    rarity_original: 'rarity_ancient_weapon',
+                    paint_index: null,
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
                         pattern: null,
