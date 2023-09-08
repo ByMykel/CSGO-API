@@ -11,9 +11,11 @@ const parseItem = (item) => {
     return {
         id: `patch-${item.object_id}`,
         name: `${$t("csgo_tool_patch")} | ${$t(item.item_name)}`,
-        name_original: item.name,
         description: $t(item.description_string),
-        rarity: $t(`rarity_${item.item_rarity}`),
+        rarity: {
+            id: `rarity_${item.item_rarity}`,
+            name: $t(`rarity_${item.item_rarity}`),
+        },
         image,
     };
 };
