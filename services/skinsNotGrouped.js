@@ -79,6 +79,11 @@ const parseItem = (item, items) => {
         paintKits[pattern].wear_remap_max
     ).map(wearKey => $t(wearKey));
 
+    const wearsDefault = getWears(
+        paintKits[pattern].wear_remap_min,
+        paintKits[pattern].wear_remap_max
+    ).map(wearKey => $t(wearKey, true));
+
     return types.map((type) =>
         wears.map((wear, index) => ({
             id: `skin-${item.object_id}_${index}${
@@ -120,7 +125,7 @@ const parseItem = (item, items) => {
                     ? $t(items[weapon].item_name_prefab, true)
                     : $t(items[weapon].item_name, true),
                 pattern: $t(paintKits[pattern].description_tag, true),
-                wear: wear,
+                wear: wearsDefault[index],
                 isStatTrak: type === "skin_stattrak",
                 isSouvenir: type === "skin_souvenir",
                 isWeapon: !isNotWeapon(weapon),
