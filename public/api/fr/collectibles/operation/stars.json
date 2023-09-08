@@ -2,81 +2,99 @@
     {
         "id": "collectible-4671",
         "name": "1 étoile pour l'Opération Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars1",
         "description": "Cette amélioration payante vous accorde <b>1 étoile de l'Opération</b> quand elle est activée.\\n\\nCette amélioration est uniquement disponible pour les joueurs qui possèdent l'insigne de l'Opération.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars1_large.f51d184b258d5087dfe16993c945d20aaa0ce2b6.png"
     },
     {
         "id": "collectible-4672",
         "name": "10 étoiles pour l'Opération Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars10",
         "description": "Cette amélioration payante vous accorde <b>10 étoiles de l'Opération</b> quand elle est activée.\\n\\nCette amélioration est uniquement disponible pour les joueurs qui possèdent l'insigne de l'Opération.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars10_large.62009cee8e90e5db45b557189d0984542fa85369.png"
     },
     {
         "id": "collectible-4673",
         "name": "100 étoiles pour l'Opération Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars100",
         "description": "Cette amélioration payante vous accorde <b>100 étoiles de l'Opération</b> quand elle est activée.\\n\\nCette amélioration est uniquement disponible pour les joueurs qui possèdent l'insigne de l'Opération.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars100_large.8875736d46373218bdee2fa1d8071d73d877c83d.png"
     },
     {
         "id": "collectible-4704",
         "name": "Opération Broken Fang : 1 étoile",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars1",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>1 étoile de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars1_large.64bd00870a1e0595e63062c3da4adf4e1cbe7519.png"
     },
     {
         "id": "collectible-4705",
         "name": "Opération Broken Fang : 10 étoiles",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars10",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>10 étoiles de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars10_large.a0cd543bdeb15052377e88527eabadfe2a125a57.png"
     },
     {
         "id": "collectible-4706",
         "name": "Opération Broken Fang : 100 étoiles",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars100",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>100 étoiles de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars100_large.5b0ac9bbc809d742fc02c353ac2403e598c9aa4f.png"
     },
     {
         "id": "collectible-4763",
         "name": "Opération Riptide : 1 étoile",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars1",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>1 étoile de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars1_large.721d6a1b559240e5db934d7fd8cbe7adba370bb4.png"
     },
     {
         "id": "collectible-4764",
         "name": "Opération Riptide : 10 étoiles",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars10",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>10 étoiles de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars10_large.c28849501791a7c9f73d211870e212868e5e2559.png"
     },
     {
         "id": "collectible-4765",
         "name": "Opération Riptide : 100 étoiles",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars100",
         "description": "Achetez cette amélioration et activez-la pour recevoir <b>100 étoiles de l'Opération</b>.",
-        "rarity": "Qualité de base",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Qualité de base"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars100_large.ad3aaffed8ab2fbe1c222ff4a8120bd8d54e57f9.png"
     }

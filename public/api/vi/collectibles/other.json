@@ -2,36 +2,44 @@
     {
         "id": "collectible-874",
         "name": "Huy chương 5 năm kỳ cựu",
-        "name_original": "CollectibleCoin_FiveYearService",
         "description": "Đã là thành viên cộng đồng Counter-Strike được hơn 5 năm.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/5yearcoin_large.8f83517dbda53fc10805f00bf0e3f59d30ee5033.png"
     },
     {
         "id": "collectible-969",
         "name": "Huy chương 10 năm kỳ cựu",
-        "name_original": "CollectibleCoin_TenYearService",
         "description": "Đã là thành viên cộng đồng Counter-Strike được hơn 10 năm.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/10yearcoin_large.260e9a5c3a985930c43617436651a6e946313ae2.png"
     },
     {
         "id": "collectible-970",
         "name": "Huy hiệu trung kiên",
-        "name_original": "CollectibleCoin_FortiusQuoFidelius",
         "description": "Huy hiệu này vinh danh sự trung thành tận tụy của cộng đồng Counter-Strike trước bản cập nhật Danger Zone. <i>Lấy trung thành làm sức mạnh.</i>",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/prime_badge_large.f8144d0a79cf586c900a22f4c226410a0f307409.png"
     },
     {
         "id": "collectible-987",
         "name": "Huy chương kỷ niệm 10 năm",
-        "name_original": "CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
         "description": "Nhận được khi đã cùng cộng đồng tham gia mừng sinh nhật 10 tuổi của CS:GO.\\n\\n<i>Nâng bánh mừng mười năm của những pha headshot, những lần gánh tạ cùng những khoảnh khắc khó quên từ cộng đồng. Chúc mừng sinh nhật 10 tuổi nhé, CS:GO!</i>",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
     }

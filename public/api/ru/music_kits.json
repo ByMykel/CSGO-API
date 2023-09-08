@@ -2,603 +2,737 @@
     {
         "id": "music_kit-3",
         "name": "Набор музыки | Daniel Sadowski — Crimson Assault",
-        "name_original": "danielsadowski_01",
         "description": "Для создания этого пульсирующего и бодрящего набора музыки игровой композитор Дэниел Садовски смешал отрывистое звучание и НЕВЕРОЯТНО ЖИРНЫЕ биты.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_01.a2bf9e2640ea2dbbf5d0179b7669e09f5e7a7408.png"
     },
     {
         "id": "music_kit-4",
         "name": "Набор музыки | Noisia — Sharpened",
-        "name_original": "noisia_01",
         "description": "Голландское электронное трио Noisia придает игре сильное кинематографичное ощущение, смешивая традиционные мотивы и современные веяния.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/noisia_01.fe525cc5e29525708f4dc07c0a986a110075f796.png"
     },
     {
         "id": "music_kit-5",
         "name": "Набор музыки | Robert Allaire — Insurgency",
-        "name_original": "robertallaire_01",
         "description": "Музыка для сокрушения врагов. Пусть они бегут от вас под аккомпанемент от Роберта Аллэра.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/robertallaire_01.61aafd2711f5f4ad260390f546fea72d57929900.png"
     },
     {
         "id": "music_kit-6",
         "name": "Набор музыки | Sean Murray — A*D*8",
-        "name_original": "seanmurray_01",
         "description": "Композитор двух самых известных игр о войне предлагает звуковое сопровождение, которое отправит ваших врагов ко вратам ада!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/seanmurray_01.5e8de73cba9c875085372f52f70cbc3404e6dcc1.png"
     },
     {
         "id": "music_kit-7",
         "name": "Набор музыки | Feed Me — High Noon",
-        "name_original": "feedme_01",
         "description": "Известный музыкант в жанре электронной музыки Feed Me придает ковбойской перестрелке у корраля современное электронное звучание.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/feedme_01.8fcf645e3b3b2754bd9c478d1576b20cb3c18fa6.png"
     },
     {
         "id": "music_kit-8",
         "name": "Набор музыки | Dren — Death's Head Demolition",
-        "name_original": "dren_01",
         "description": "Игровой композитор Dren представляет этот кинематографический набор музыки в стиле супергеройского метала, который сделает любое убийство гораздо круче!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_01.fc2175fa289bd9953dcc7d6c672a75d9e42f6093.png"
     },
     {
         "id": "music_kit-9",
         "name": "Набор музыки | Austin Wintory — Desert Fire",
-        "name_original": "austinwintory_01",
         "description": "Номинированный на премию «Грэмми» композитор Остин Винтори спрашивает: «Зачем стрелять во врагов, когда их можно заманить в смертельное, поистине безумное танго?»",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_01.5e3be7d7bd2e123d76969e7d17617545804a6c6b.png"
     },
     {
         "id": "music_kit-10",
         "name": "Набор музыки | Sasha — LNOE",
-        "name_original": "sasha_01",
         "description": "Погрузитесь в этот кинематографичный саундтрек, полный надрывного звучания струнных инструментов, пульсирующих мелодий и неистовых барабанов, от всемирно известного диджея и музыкального продюсера Sasha.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sasha_01.8ad1c2aebd178df3dff09c4f190b7064d46d142e.png"
     },
     {
         "id": "music_kit-11",
         "name": "Набор музыки | Skog — Metal",
-        "name_original": "skog_01",
         "description": "Урок агрессии от металлиста Skog.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_01.4869cd4270b65135eff75d121012db094bbf4973.png"
     },
     {
         "id": "music_kit-12",
         "name": "Набор музыки | Midnight Riders — All I Want for Christmas",
-        "name_original": "midnightriders_01",
         "description": "«СЧАСТЛИВЫХ ПРАЗДНИКОВ, ***ЮДКИ!»\\n - Midnight Riders",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/midnightriders_01.22ad94b80a058ad3cb1373fcf0f69e6983491765.png"
     },
     {
         "id": "music_kit-13",
         "name": "Набор музыки | Matt Lange — IsoRhythm",
-        "name_original": "mattlange_01",
         "description": "Впустите в сердце коллекцию кинематографичных, тяжелых и волнующих ритмов от новатора электронной музыки Мэтта Ленджа.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlange_01.a5321f2db9fd84c93e384e28d6048784913af83a.png"
     },
     {
         "id": "music_kit-14",
         "name": "Набор музыки | Mateo Messina — For No Mankind",
-        "name_original": "mateomessina_01",
         "description": "Поставьте врагов на колени! Истинная энергетика от обладателя премии Грэмии, композитора Матео Мессина!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mateomessina_01.94e787b3d227841ea7a3cd48dfb911131a1bb1ef.png"
     },
     {
         "id": "music_kit-15",
         "name": "Набор музыки | Разные исполнители — Hotline Miami",
-        "name_original": "hotlinemiami_01",
         "description": "В этом потрясающем музыкальном наборе множество авторов электронной музыки предоставят вам зубодробительные мотивы из популярной игры «Hotline Miami».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hotlinemiami_01.df89086218adcaf00b86cffff78191f2f5bcb500.png"
     },
     {
         "id": "music_kit-16",
         "name": "Набор музыки | Daniel Sadowski — Total Domination",
-        "name_original": "danielsadowski_02",
         "description": "Композитор Дэниел Садовски изменит ваше представление о музыке агрессивными электромотивами, нестандартными звуковыми эффектами и заряжающей, футуристической энергетикой. «Внимание: Повышает уровень адреналина!»",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_02.5a250ef0a92cbe07b1fd5d26afd1fda52d10ee8d.png"
     },
     {
         "id": "music_kit-17",
         "name": "Набор музыки | Damjan Mravunac — The Talos Principle",
-        "name_original": "damjanmravunac_01",
         "description": "В этом музыкальном наборе из великолепной «The Talos Principle», разработанной студией Croteam, композитор Дамьян Мравунац смешивает потрясающие энергетические мотивы с эпическим хором.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/damjanmravunac_01.538b68f26daddde3c83f6ae44de9947ab7e8c2d0.png"
     },
     {
         "id": "music_kit-18",
         "name": "Набор музыки | Proxy — Battlepack",
-        "name_original": "proxy_01",
         "description": "Русский композитор тяжелой электронной музыки PROXY вместе со своей уникальной тяжелой артиллерией теперь и в Counter-Strike. Гибридное аудиовооружение и лучшая студийная техника делают этот набор единственным в своем роде.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/proxy_01.12796e09ff47c1dd25757cff0761bf7b880dfb3b.png"
     },
     {
         "id": "music_kit-19",
         "name": "Набор музыки | Ki:Theory — MOLOTOV",
-        "name_original": "kitheory_01",
         "description": "Ki:Theory (музыкант, выступавший на турнире The International 4) взрывает мозг этим жгучим набором в стиле «агрессивный электроник-рок».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kitheory_01.00e97bde40259873dfe52ffe809c0a05418d11ff.png"
     },
     {
         "id": "music_kit-20",
         "name": "Набор музыки | Troels Folmann — Uber Blasto Phone",
-        "name_original": "troelsfolmann_01",
         "description": "В этом взрывном собрании мелодий от отмеченного множеством наград композитора Троэльса Фольманна бластофоны сочетаются с современным сверхпульсом.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/troelsfolmann_01.62c19e1f4ed3c30ec238d088ddc036671e574972.png"
     },
     {
         "id": "music_kit-21",
         "name": "Набор музыки | Kelly Bailey — Hazardous Environments",
-        "name_original": "kellybailey_01",
         "description": "Келли Бэйли, композитор серии игр Half-Life, создал целый арсенал новой апокалиптической музыки, вдохновленной тёмной стороной вселенной Half-Life.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kellybailey_01.5f62031bbb9d6859db2f1f8a575a6dcd1079c928.png"
     },
     {
         "id": "music_kit-22",
         "name": "Набор музыки | Skog — II-Headshot",
-        "name_original": "skog_02",
         "description": "Композитор и продюсер музыки Джок Ског возвращается в новом жестком наборе жанра «метал», после которого остальная музыка в CS:GO кажется нежной и успокаивающей. Скорее становитесь самым ценным игроком, чтобы все услышали, насколько вы восхитительны!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_02.eeb9ddb340f8a0b530b097f6a7f37cd922334f53.png"
     },
     {
         "id": "music_kit-23",
         "name": "Набор музыки | Daniel Sadowski — The 8-Bit Kit",
-        "name_original": "danielsadowski_03",
         "description": "Дэниэл Садовски представляет первый восьмибитный набор музыки для Counter-Strike с правдоподобным звучанием.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_03.23f670f86d302907e1965780bf0fc145ab334235.png"
     },
     {
         "id": "music_kit-24",
         "name": "Набор музыки | AWOLNATION — I Am",
-        "name_original": "awolnation_01",
         "description": "AWOLNATION, исполнитель альтернативного рока, представляет набор музыки на века. Он под завязку набит разнообразными мелодиями, и в него входят фрагменты из сингла «I Am» и мультиплатинового хита «Sail».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/awolnation_01.2ffc1650abdea909957237a616b8a85f8ca686e4.png"
     },
     {
         "id": "music_kit-25",
         "name": "Набор музыки | Mord Fustang — Diamonds",
-        "name_original": "mordfustang_01",
         "description": "Бриллианты. Они навсегда. Почувствуйте ритм арпеджио Морда Фустанга в этом свежем наборе мотивов и веяний.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mordfustang_01.19b15e98c183e4cf11f06ee9d59a890d91513a8b.png"
     },
     {
         "id": "music_kit-26",
         "name": "Набор музыки | Michael Bross — Invasion!",
-        "name_original": "michaelbross_01",
         "description": "Майкл Бросс написал эпичный и кинематографичный техно-гранж, под который вы почувствуете себя невероятным воином.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/michaelbross_01.adff3cdea10bca94a92025cc1fd052b5a2327a8d.png"
     },
     {
         "id": "music_kit-27",
         "name": "Набор музыки | Ian Hultquist — Lion's Mouth",
-        "name_original": "ianhultquist_01",
         "description": "Приготовьтесь к сражению под громогласное звуковое сопровождение под авторством композитора Яна Хультквиста, соединяющее пульс струн и клавиш с боевыми барабанами.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/ianhultquist_01.3157f761e847ba428bbf82fbfa7f07c792a5d626.png"
     },
     {
         "id": "music_kit-28",
         "name": "Набор музыки | New Beat Fund — Sponge Fingerz",
-        "name_original": "newbeatfund_01",
         "description": "Солнечный серф-рок с элементами хип-хопа, панка и гараж-попа. Будьте проще и сносите головы.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/newbeatfund_01.f711bcd037c0ccc121b3ef4d0d45b7646ba3ccce.png"
     },
     {
         "id": "music_kit-29",
         "name": "Набор музыки | Beartooth — Disgusting",
-        "name_original": "beartooth_01",
         "description": "Beartooth представляет агрессивный классический хардкор-бит, под который толпы прыгают и разносят всё в хлам. Идеальное сопровождение для отстрела чужих бошек без прицела. Жги до смерти.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_01.7c8272a14a47916ceb4b59bc18b1f2d0036b5523.png"
     },
     {
         "id": "music_kit-30",
         "name": "Набор музыки | Lennie Moore — Java Havana Funkaloo",
-        "name_original": "lenniemoore_01",
         "description": "Композитор музыки для игр Ленни Мур заправляет пикантную смесь джаза и фанка. Это блюдо, которое надо подавать холодным. Холодным, как тела ваших врагов.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/lenniemoore_01.85efce33bf5d30452a8e84e4a55c78c9b44775d3.png"
     },
     {
         "id": "music_kit-31",
         "name": "Набор музыки | Darude — Moments CS:GO",
-        "name_original": "darude_01",
         "description": "Рассекайте звуковые волны знакомых мотивов финского продюсера Darude. Обогатитесь тяжелым сплавом высоких прогрессивных тонов и тонкой структуры мелодии из запасов одного из самых известных первопроходцев в жанре танцевальной музыки.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/darude_01.7c92a500270301ab6883f6a144f59cc28571521d.png"
     },
     {
         "id": "music_kit-32",
         "name": "Набор музыки | Beartooth — Aggressive",
-        "name_original": "beartooth_02",
         "description": "Beartooth возвращается в бой. Этот набор музыки гораздо жестче и агрессивнее предыдущего. Также мы сделали мелодию лучшего игрока крайне тяжелой, чтобы ваши враги страдали после каждого поражения.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_02.6ec3c958567128d94455f7c3459b22ad2061a12c.png"
     },
     {
         "id": "music_kit-33",
         "name": "Набор музыки | Blitz Kids — The Good Youth",
-        "name_original": "blitzkids_01",
         "description": "Британская поп-панк-группа Blitz Kids предлагает вам превосходную музыку, чтобы при скоростном выходе на B вы прониклись воспоминаниями. Помните, как будучи студентом вы катались ночью по городу? Этот набор для тех, у кого быстрые ноги и молодая душа.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/blitzkids_01.5f0480468f7b46a838bb761dfdfa0788469e3e17.png"
     },
     {
         "id": "music_kit-34",
         "name": "Набор музыки | Hundredth — FREE",
-        "name_original": "hundredth_01",
         "description": "Hundredth покажет миру настоящую тяжесть своим уникальный подходом к музыке в жанре «мелодик-хардкор». Познайте свободу или вернитесь на карту Dust под эти мелодии, идеальные для разноса неугодных.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hundredth_01.f6032850a26e9b1fdc9e8435a574282b27792747.png"
     },
     {
         "id": "music_kit-35",
         "name": "Набор музыки | Neck Deep — Life's Not Out To Get You",
-        "name_original": "neckdeep_01",
         "description": "Иногда всё, что нужно для хорошего настроения, — немного поп-панка. Этот альбом от Neck Deep не только не даст забыть, что враги подстерегают за каждым углом и жаждут остановить твою гигантскую серию убийств, но и напомнит, что жизнь не на их стороне.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_01.f2b26359736f263c519fb5bffbaf590c5cbdcd17.png"
     },
     {
         "id": "music_kit-36",
         "name": "Набор музыки | Roam — Backbone",
-        "name_original": "roam_01",
         "description": "Roam предлагает быстрый и простой поп-панк-набор Backbone, который заводит и слушателей, и игроков. Покажите свою непробиваемость, перебив под эти мелодии всех врагов до единого, прежде чем они осознают свою кончину.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/roam_01.de919629f1df756d298d81cdb24e658eacf7090c.png"
     },
     {
         "id": "music_kit-37",
         "name": "Набор музыки | Twin Atlantic — GLA",
-        "name_original": "twinatlantic_01",
         "description": "Тяжелые, злые и громкие как никогда — Twin Atlantic пришли в CS:GO, чтобы помочь вам расправиться с неприятелем силой шотландского рока.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/twinatlantic_01.a3e60569d052721275943b7fa0a563e59dd2f105.png"
     },
     {
         "id": "music_kit-38",
         "name": "Набор музыки | Skog — III-Arena",
-        "name_original": "skog_03",
         "description": "Skog возвращается в третьем сокрушительном наборе музыки. В этот раз звучание электрооргана вплетено в сочетание густых гитарных риффов, мощных басов и бурдона.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_03.2a6b65fe2443cd27414c8ea48614c4b9386c377a.png"
     },
     {
         "id": "music_kit-39",
         "name": "Набор музыки | The Verkkars — EZ4ENCE",
-        "name_original": "theverkkars_01",
         "description": "The Verkkars поднялись по финским чартам благодаря волнующей сердца песне, посвящённой команде ENCE. Неужели для них всё и вправду EZ?",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_01.c76969d8c14a9a74c71f0d5efce6453f7b70bf43.png"
     },
     {
         "id": "music_kit-40",
         "name": "Halo — The Master Chief Collection",
-        "name_original": "halo_01",
         "description": "Легендарно преобразите звуковые ощущения от Counter Strike с помощью этого набора музыки, включающего культовые музыкальные моменты из вселенной Halo. © 2019 343 Industries. Все права защищены. Используется с разрешения 343 Industries. Halo: The Master Chief Collection и логотип Halo являются товарными знаками группы компаний Microsoft.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png"
     },
     {
         "id": "music_kit-41",
         "name": "Набор музыки | Scarlxrd — King, Scar",
-        "name_original": "scarlxrd_01",
         "description": "Scarlxrd сочетает в своих работах тяжёлые биты трэпа с уникальным флоу и подачей, создающими свой поджанр. Эта невероятная смесь завораживает всех, кому доведётся побывать на его концертах.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_01.f1deaed73c132260c8354198bc2f23e939b139b3.png"
     },
     {
         "id": "music_kit-42",
         "name": "Half-Life: Alyx — Anti-Citizen",
-        "name_original": "halflife_alyx_01",
         "description": "Этот набор музыки выпущен в честь Half-Life: Alyx, возвращения Valve во вселенную Half-Life в виртуальной реальности. Вы — единственный шанс человечества на спасение, и ваше полноценное взаимодействие с окружающим миром продолжается в Counter-Strike: Global Offensive.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png"
     },
     {
         "id": "music_kit-43",
         "name": "Набор музыки | Austin Wintory — Bachram",
-        "name_original": "austinwintory_02",
         "description": "В этом не признающем жанры наборе музыки Остин Уинтори сочетает кельтское фэнтези с шипучей электроникой, и ему щедро помогает вокал Питера Холленса.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_02.c8fb789fab88586d69b2bc822332a7a86afb83ed.png"
     },
     {
         "id": "music_kit-44",
         "name": "Набор музыки | Dren — Gunman Taco Truck",
-        "name_original": "dren_02",
         "description": "Апокалиптический мариачи-саундтрек из популярной инди-игры Gunman Taco Truck приходит в CS:GO: вас ждут такие пылкие мексиканские мотивы, как Pollo Diablo и Persecución de Helltain!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_02.63647ccdee069255f19589d7ce2d5b7de591aa6b.png"
     },
     {
         "id": "music_kit-45",
         "name": "Набор музыки | Daniel Sadowski — Eye of the Dragon",
-        "name_original": "danielsadowski_04",
         "description": "Набор музыки от автора Total Domination, The 8-Bit Kit и Crimson Assault. Ниндзя + пушки + хип-хоп + техно — вот как композитор Дэниел Садовски создаёт свой заряженный экшеном набор музыки. <i>Ниндзя известны своими быстрыми и точными ударами, и при этом они могут оставаться невидимыми для врага.</i>",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_04.6be221622292eabfe4da40d166fa75a6d0dcec55.png"
     },
     {
         "id": "music_kit-46",
         "name": "Набор музыки | Tree Adams and Ben Bromfield — M.U.D.D. FORCE",
-        "name_original": "treeadams_benbromfield_01",
         "description": "Композиторы Три Адамс и Бен Бромфилд — алхимики мощного хаоса под названием M.U.D.D. FORCE — сковали эпичные боевые мотивы и зубодробительные синтезаторы в Мальстрём тотального разрушения.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/treeadams_benbromfield_01.08ca88c8f650b524f709a3e2e05e3160579771c3.png"
     },
     {
         "id": "music_kit-47",
         "name": "Набор музыки | Tim Huling — Neo Noir",
-        "name_original": "timhuling_01",
         "description": "Композитор Тим Халинг представляет музыку в стиле классических нуарных фильмов в сочетании с современным грувом и битами.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/timhuling_01.518aa6b46cec0d809e1e984041c66fd00f22b005.png"
     },
     {
         "id": "music_kit-48",
         "name": "Набор музыки | Sam Marshall — Bodacious",
-        "name_original": "sammarshall_01",
         "description": "Вдохновившись причудливой музыкой видеоигр из девяностых, композитор Сэм Маршалл подаёт ностальгию по классическим играм под острым соусом современности.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sammarshall_01.05adc292af4abcfe6cd6b2d76a6020ab80122ada.png"
     },
     {
         "id": "music_kit-49",
         "name": "Набор музыки | Matt Levine — Drifter",
-        "name_original": "mattlevine_01",
         "description": "Композитор Мэтт Левин выдаёт чистое нахальство в этой суровой дани уважения спагетти-вестернам. Как же приятно сказать: «Давай. Порадуй меня».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlevine_01.974b450e606547a138e15a540597164bcd70a8e8.png"
     },
     {
         "id": "music_kit-50",
         "name": "Набор музыки | Amon Tobin — All for Dust",
-        "name_original": "amontobin_01",
         "description": "Легендарный продюсер Амон Тобин одолжил CS:GO свою уникальную эстетику — на этот раз с помощью ламповых усилителей.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/amontobin_01.2cf4f8b98a111fc847576bb6a8feb3364a2cfa1b.png"
     },
     {
         "id": "music_kit-51",
         "name": "Darren Korb — Hades",
-        "name_original": "hades_01",
         "description": "Конечно, промахи случаются у каждого, но только не у этого забойного набора музыки прямиком из подземного мира Hades — экшен-рогалика от Supergiant Games.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hades_01.41336135661d422039fe700e0bf4c8176886194e.png"
     },
     {
         "id": "music_kit-52",
         "name": "Набор музыки | Neck Deep — The Lowlife Pack",
-        "name_original": "neckdeep_02",
         "description": "Докажите, что вы сечёте фишку (и что вы лучше всех на карте) с новым набором музыки от группы Neck Deep, включающим песни из альбома All Distortions Are Intentional.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_02.d00e38b24d5ca285fd34411afc34b874ab80cd1b.png"
     },
     {
         "id": "music_kit-53",
         "name": "Набор музыки | Scarlxrd — CHAIN$AW.LXADXUT.",
-        "name_original": "scarlxrd_02",
         "description": "SCARLXRD ПОКАЗЫВАЕТ, НА ЧТО ОН СПОСОБЕН, В НАБОРЕ МУЗЫКИ CHAIN$AW: ЖЁСТКИЙ ФЛОУ СОЧЕТАЕТСЯ С ТЯЖЁЛЫМ ИНСТРУМЕНТАЛОМ.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_02.9d630d5c49841c359e6def0bc2e4e24b62b2f233.png"
     },
     {
         "id": "music_kit-54",
         "name": "Набор музыки | Austin Wintory — Mocha Petal",
-        "name_original": "austinwintory_03",
         "description": "Остин Уинтори отвечает на вопрос, веками терзавший человечество: что будет, если смешать аккордеонную польку из биргартена с грязным хеви-металом?",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_03.18f6213b11eccdb12237547a78c2cb70fb54d829.png"
     },
     {
         "id": "music_kit-55",
         "name": "Набор музыки | Chipzel — ~Yellow Magic~",
-        "name_original": "chipzel_01",
         "description": "Композитор видеоигр и легенда чиптюна Chipzel предлагает гибридную смесь стилей с задорным и забойным звучанием, применяя глитчевые генераторы речи.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/chipzel_01.5f4d9f5a440a9b66807b3a1ca40bfe61bddc483c.png"
     },
     {
         "id": "music_kit-56",
         "name": "Набор музыки | Freaky DNA — Vici",
-        "name_original": "freakydna_01",
         "description": "Опера. Восьмибитные звуки. Аналоговые синтезаторы. Как это может не полюбиться? Чиптюн-спец Freaky DNA и сопрано-певица Лиэнн Кох объединились, чтобы хорошо провести время под мощные биты!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/freakydna_01.96afa403f5a9e023408e88496369361b4f557f44.png"
     },
     {
         "id": "music_kit-57",
         "name": "Набор музыки | Jesse Harlin — Astro Bellum",
-        "name_original": "jesseharlin_01",
         "description": "Композитор Джесси Харлин представляет пафосную космическую оперу, вдохновлённую классической научной фантастикой семидесятых, восьмидесятых и не только.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/jesseharlin_01.8698a32cdebbee16225c231bad5b422256a4dfe2.png"
     },
     {
         "id": "music_kit-58",
         "name": "Набор музыки | Laura Shigihara — Work Hard, Play Hard",
-        "name_original": "laurashigihara_01",
         "description": "Композитор видеоигр и разработчица Лаура Шигихара поможет вам гордо и громко заявить о своём первенстве. Вас порадует это уникальное сочетание танцевальной музыки девяностых и видеоигровых ретро-синтезаторов, приправленное щепоткой Plants vs. Zombies.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/laurashigihara_01.6ccd2d1904530773115ba88c2cbb389d3da46df3.png"
     },
     {
         "id": "music_kit-59",
         "name": "Набор музыки | Sarah Schachner — KOLIBRI",
-        "name_original": "sarahschachner_01",
         "description": "В этом антиутопическом наборе музыки от Сары Шахнер готический хор скандинавских роботов, обрётших самосознание, принимает решение: человечество должно быть уничтожено.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sarahschachner_01.5a5bef300a44f8f54ba3d817245cb32f66d1c85f.png"
     },
     {
         "id": "music_kit-60",
         "name": "Набор музыки | bbno$ — u mad!",
-        "name_original": "bbnos_01",
         "description": "bbno$ вырабатывает фирменный гимн токсичного геймера — u mad! Злишься? ЛОЛ, научись играть. Исследования показывают, что при игре с этим набором музыки ваше звание немедленно поднимается с «Серебра» до «Всемирной элиты».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/bbnos_01.41bea5be0ec1c11d2f9c58cc24d175ab62870b74.png"
     },
     {
         "id": "music_kit-61",
         "name": "Набор музыки | The Verkkars & n0thing — Flashbang Dance",
-        "name_original": "theverkkars_02",
         "description": "nothing, легенда Counter-Strike из солнечной Калифорнии, и The Verkkars из морозной Лапландии объединяются в хитовой песне — Flashbang Dance! Три, два, раз — искры из глаз!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_02.329034c68612e8f00f0f18e20d7a84f7d2b68627.png"
     },
     {
         "id": "music_kit-62",
         "name": "Набор музыки | 3kliksphilip — Heading for the Source",
-        "name_original": "3kliksphilip_01",
         "description": "Вы стремитесь забраться на вершину профессиональной игры или невольно скатываетесь вниз? Пусть звуки синтезатора из восьмидесятых и убаюкивающие мелодии из этого набора музыки вернут вас назад. Назад, назад, назад... в старые добрые деньки.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/3kliksphilip_01.376011867dada400b17c357748d344c1491a2881.png"
     },
     {
         "id": "music_kit-63",
         "name": "Набор музыки | Humanity's Last Breath — Void",
-        "name_original": "hlb_01",
         "description": "Набор музыки Void от шведской группы Humanity's Last Breath не щадит нежного слушателя. Гремящие барабаны и грандиозные гитарные риффы создают такую атмосферу, что по спине бегут мурашки.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlb_01.0b08df9d78b230f26b9e7eb4f8dca11f298b30ef.png"
     },
     {
         "id": "music_kit-64",
         "name": "Набор музыки | Juelz — Shooters",
-        "name_original": "juelz_01",
         "description": "Синтезаторы в стиле нео-трэп, грубые 808-е ударные, эпические риффы на пианино и целая гора звуков выстрелов. Трэп-гимн «Shooters» от Juelz — по-настоящему элитный набор музыки. Только для самых ценных игроков.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/juelz_01.0d590b3dd6c58dba054ee00f52a8165966beb310.png"
     },
     {
         "id": "music_kit-65",
         "name": "Набор музыки | Knock2 — dashstar*",
-        "name_original": "knock2_01",
         "description": "dashstar*, культовая композиция от Knock2 в жанре бейс-хаус, зарядит вас нескончаемой энергией, которая заставит вас следовать главному правилу молодого музыканта из Сан-Диего — «никаких границ».",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/knock2_01.b7cf197447a161b82c11c8e2d460d510ea58acb4.png"
     },
     {
         "id": "music_kit-66",
         "name": "Набор музыки | Meechy Darko — Gothic Luxury",
-        "name_original": "meechydarko_01",
         "description": "Хватайте Glock, включайте этот набор музыки, и вперёд, в гущу ньюйоркского хип-хоп-андеграунда.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/meechydarko_01.5dbe99ff8a2ef9922d84ac61beb9cd685746b886.png"
     },
     {
         "id": "music_kit-67",
         "name": "Набор музыки | Sullivan King — Lock Me Up",
-        "name_original": "sullivanking_01",
         "description": "Любите погони? Любите охоту? В саундтреке от Sullivan King хард-рок, метал и дабстеп образовали дикую смесь. С такой музыкой вас не остановить.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sullivanking_01.770772c90c1acf349d26cacbbad1a966a825243c.png"
     },
     {
         "id": "music_kit-68",
         "name": "Набор музыки | Perfect World, 中脸 Hua Lian — Painted Face",
-        "name_original": "perfectworld_01",
         "description": "Отпразднуйте пятилетие CS:GO в Китае уникальным музыкальным набором Painted Face («Раскрашенное лицо») от 花脸 Hua Lian. В этом наборе тесно сплетены народная опера циньцян (самый ранний рок-н-ролл в китайском стиле) и современный рок-н-ролл. Окутаны ли вы дымом или ослеплены светошумовой гранатой — не теряйтесь!",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/perfectworld_01.4e4e580548f5d81f30640b2b4cdfa9ba8eec09e0.png"
     },
     {
         "id": "music_kit-69",
         "name": "Набор музыки | Denzel Curry — ULTIMATE",
-        "name_original": "denzelcurry_01",
         "description": "Дензел Карри привносит в CS:GO свою характерную энергетику, сочетая трэп, джаз и драм-н-бейс. Этот набор включает в себя такие хиты, как Walkin, ULTIMATE и не только, так что хватайте свои покрытые никелем хромовые Беретты и отрывайтесь по полной с этим УЛЬТИМАТИВНЫМ набором музыки.",
-        "rarity": "высшего класса",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "высшего класса"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
     }

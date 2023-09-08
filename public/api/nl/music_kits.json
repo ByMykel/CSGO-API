@@ -2,603 +2,737 @@
     {
         "id": "music_kit-3",
         "name": "Muziekset | Daniel Sadowski, Crimson Assault",
-        "name_original": "danielsadowski_01",
         "description": "Videogamecomponist Daniel Sadowski laat gekke Edgy Action gemixt met CRAZY FAT-beats horen in deze pulserende, opwindende muziekset.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_01.a2bf9e2640ea2dbbf5d0179b7669e09f5e7a7408.png"
     },
     {
         "id": "music_kit-4",
         "name": "Muziekset | Noisia, Sharpened",
-        "name_original": "noisia_01",
         "description": "Het Nederlandse elektronische trio Noisia geeft een stoer, filmisch gevoel met een unieke mix van traditie en progressie.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/noisia_01.fe525cc5e29525708f4dc07c0a986a110075f796.png"
     },
     {
         "id": "music_kit-5",
         "name": "Muziekset | Robert Allaire, Insurgency",
-        "name_original": "robertallaire_01",
         "description": "Muziek om je tegenstanders te vermorzelen. Van bekroonde componist Robert Allaire.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/robertallaire_01.61aafd2711f5f4ad260390f546fea72d57929900.png"
     },
     {
         "id": "music_kit-6",
         "name": "Muziekset | Sean Murray, A*D*8",
-        "name_original": "seanmurray_01",
         "description": "Van de componist van twee van 's werelds grootste oorlogsspellen komt nu een sonische uitrusting die je vijanden naar de poorten van de hel brengt!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/seanmurray_01.5e8de73cba9c875085372f52f70cbc3404e6dcc1.png"
     },
     {
         "id": "music_kit-7",
         "name": "Muziekset | Feed Me, High Noon",
-        "name_original": "feedme_01",
         "description": "Gerenommeerd elektronisch muzikant Feed Me zet een corral-showdown uit het Wilde Westen in een moderne elektronische ruimte.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/feedme_01.8fcf645e3b3b2754bd9c478d1576b20cb3c18fa6.png"
     },
     {
         "id": "music_kit-8",
         "name": "Muziekset | Dren, Death's Head Demolition",
-        "name_original": "dren_01",
         "description": "Dit cinematische muziekpakket van spelmuziekcomponist Dren McDonald is geïnspireerd op superheld-metal en zet de 'ill' op de KILL!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_01.fc2175fa289bd9953dcc7d6c672a75d9e42f6093.png"
     },
     {
         "id": "music_kit-9",
         "name": "Muziekset | Austin Wintory, Desert Fire",
-        "name_original": "austinwintory_01",
         "description": "De voor Grammy's genomineerde spelcomponist Austin Wintory vraagt zich af​ waarom je zou jagen op je vijanden als je ze kunt lokken met een dodelijke, weliswaar krankzinnige tango?",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_01.5e3be7d7bd2e123d76969e7d17617545804a6c6b.png"
     },
     {
         "id": "music_kit-10",
         "name": "Muziekset | Sasha, LNOE",
-        "name_original": "sasha_01",
         "description": "Dompel jezelf onder in deze filmische soundtrack vol stijgende strijkers, pulserende melodieën en drijvende drums van de wereldberoemde DJ en producer Sasha.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sasha_01.8ad1c2aebd178df3dff09c4f190b7064d46d142e.png"
     },
     {
         "id": "music_kit-11",
         "name": "Muziekset | Skog, Metal",
-        "name_original": "skog_01",
         "description": "Een les in agressie van metal-producent Skog.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_01.4869cd4270b65135eff75d121012db094bbf4973.png"
     },
     {
         "id": "music_kit-12",
         "name": "Muziekset | Midnight Riders, All I Want for Christmas",
-        "name_original": "midnightriders_01",
         "description": "\\\"FIJNE FEESTDAGEN, **KELS!\\\"\\n -Midnight Riders",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/midnightriders_01.22ad94b80a058ad3cb1373fcf0f69e6983491765.png"
     },
     {
         "id": "music_kit-13",
         "name": "Muziekset | Matt Lange, IsoRhythm",
-        "name_original": "mattlange_01",
         "description": "Verwen je auditieve zintuigen met een verzameling van filmische, glitchy sferen en harde, kloppende ritmes van innovator en producent van elektronische muziek Matt Lange.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlange_01.a5321f2db9fd84c93e384e28d6048784913af83a.png"
     },
     {
         "id": "music_kit-14",
         "name": "Muziekset | Mateo Messina, For No Mankind",
-        "name_original": "mateomessina_01",
         "description": "Overheers je vijanden. Pure intensiteit door Grammy-winnaar en componist Mateo Messina.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mateomessina_01.94e787b3d227841ea7a3cd48dfb911131a1bb1ef.png"
     },
     {
         "id": "music_kit-15",
         "name": "Muziekset | Verschillende artiesten, Hotline Miami",
-        "name_original": "hotlinemiami_01",
         "description": "Een heleboel elektronische kunstenaars leveren brute beats in dit opwindende muziekpakket van het iconische Hotline Miami.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hotlinemiami_01.df89086218adcaf00b86cffff78191f2f5bcb500.png"
     },
     {
         "id": "music_kit-16",
         "name": "Muziekset | Daniel Sadowski, Total Domination",
-        "name_original": "danielsadowski_02",
         "description": "Componist Daniel Sadowski legt de lat een stukje hoger met agressieve elektronische beats, creatieve geluidseffecten en een opwindende, opzwepende, futuristische vibe. \\\"Waarschuwing: zal leiden tot een stijging van de adrenaline!\\\"",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_02.5a250ef0a92cbe07b1fd5d26afd1fda52d10ee8d.png"
     },
     {
         "id": "music_kit-17",
         "name": "Muziekset | Damjan Mravunac, The Talos Principle",
-        "name_original": "damjanmravunac_01",
         "description": "Componist Damjan Mravunac combineert energieke filmische grooves met epische koren in dit muziekpakket met muziek van Croteams veelgeprezen titel \\\"The Talos Principle\\\".",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/damjanmravunac_01.538b68f26daddde3c83f6ae44de9947ab7e8c2d0.png"
     },
     {
         "id": "music_kit-18",
         "name": "Muziekset | Proxy, Battlepack",
-        "name_original": "proxy_01",
         "description": "Russische heavy electronica-artiest PROXY brengt zijn eigen unieke zware artillerie naar Counter-Strike. Hybride audiobewapening samengevoegd met de beste studiotechnologie maakt deze muziekset uniek.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/proxy_01.12796e09ff47c1dd25757cff0761bf7b880dfb3b.png"
     },
     {
         "id": "music_kit-19",
         "name": "Muziekset | Ki:Theory, MOLOTOV",
-        "name_original": "kitheory_01",
         "description": "Artiest en DOTA TI4-performer Ki:Theory dropt BOMMEN met deze verschroeiende set van vlijmscherpe dark electronic rock.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kitheory_01.00e97bde40259873dfe52ffe809c0a05418d11ff.png"
     },
     {
         "id": "music_kit-20",
         "name": "Muziekset | Troels Folmann, Uber Blasto Phone",
-        "name_original": "troelsfolmann_01",
         "description": "Triomfantelijke blastophones combineren met hedendaagse Uberpulse in deze explosieve collectie door ultrabekroonde componist Troels Folmann.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/troelsfolmann_01.62c19e1f4ed3c30ec238d088ddc036671e574972.png"
     },
     {
         "id": "music_kit-21",
         "name": "Muziekset | Kelly Bailey, Hazardous Environments",
-        "name_original": "kellybailey_01",
         "description": "Kelly Bailey, componist van Valve's Half-Life-serie, maakt een arsenaal aan apocalyptische muziek geïnspireerd door de donkere kant van het Half-Life-universum.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kellybailey_01.5f62031bbb9d6859db2f1f8a575a6dcd1079c928.png"
     },
     {
         "id": "music_kit-22",
         "name": "Muziekset | Skog, II-Headshot",
-        "name_original": "skog_02",
         "description": "Metal-componist en producer Jocke Skog keert terug met een geheel nieuwe, keiharde metal-kit, waardoor de rest van de CS:GO-muzieksets schattig, warm en pluizig klinken. Ga nu, en word MVP zodat iedereen kan horen hoe geweldig je bent!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_02.eeb9ddb340f8a0b530b097f6a7f37cd922334f53.png"
     },
     {
         "id": "music_kit-23",
         "name": "Muziekset | Daniel Sadowski, The 8-Bit Kit",
-        "name_original": "danielsadowski_03",
         "description": "Daniel Sadowski maakt de eerste 8-bitmuziekset ooit voor Counter-Strike, volledig met authentieke 8-bitgeluiden.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_03.23f670f86d302907e1965780bf0fc145ab334235.png"
     },
     {
         "id": "music_kit-24",
         "name": "Muziekset | AWOLNATION, I Am",
-        "name_original": "awolnation_01",
         "description": "AWOLNATION Alternatieve rocker AWOLNATION brengt je een muziekset die de tijd doorstaat. Dit pakket zit boordevol met een eclectische mix van liedjes en bevat delen uit singles 'I Am' en multi-platina hit 'Sail'.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/awolnation_01.2ffc1650abdea909957237a616b8a85f8ca686e4.png"
     },
     {
         "id": "music_kit-25",
         "name": "Muziekset | Mord Fustang, Diamonds",
-        "name_original": "mordfustang_01",
         "description": "Diamanten. Zijn voor altijd. Duik in de arpeggiotron van Mord Fustang met deze verse set grooves en sferen.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mordfustang_01.19b15e98c183e4cf11f06ee9d59a890d91513a8b.png"
     },
     {
         "id": "music_kit-26",
         "name": "Muziekset | Michael Bross, Invasion!",
-        "name_original": "michaelbross_01",
         "description": "Michael Bross tovert epische / cinematische techno-grunge om je een echte baas te laten voelen in de strijd.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/michaelbross_01.adff3cdea10bca94a92025cc1fd052b5a2327a8d.png"
     },
     {
         "id": "music_kit-27",
         "name": "Muziekset | Ian Hultquist, Lion's Mouth",
-        "name_original": "ianhultquist_01",
         "description": "Menging van pulserende strijkers en synths met beukende oorlogsdrums; bereid je voor op de strijd met deze donderende soundtrack van componist Ian Hultquist.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/ianhultquist_01.3157f761e847ba428bbf82fbfa7f07c792a5d626.png"
     },
     {
         "id": "music_kit-28",
         "name": "Muziekset | New Beat Fund, Sponge Fingerz",
-        "name_original": "newbeatfund_01",
         "description": "Zonnige surfrock met elementen van hip-hop, punk en garage-pop. Blijf trouw aan jezelf en behaal hoofdschoten.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/newbeatfund_01.f711bcd037c0ccc121b3ef4d0d45b7646ba3ccce.png"
     },
     {
         "id": "music_kit-29",
         "name": "Muziekset | Beartooth, Disgusting",
-        "name_original": "beartooth_01",
         "description": "Beartooth brengt een agressieve back-to-basics hardcore stomp die menigten aan het bewegen krijgt en spullen laat breken. Een perfecte soundtrack voor je no-scope scout frags. Rock tot je dood bent.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_01.7c8272a14a47916ceb4b59bc18b1f2d0036b5523.png"
     },
     {
         "id": "music_kit-30",
         "name": "Muziekset | Lennie Moore, Java Havana Funkaloo",
-        "name_original": "lenniemoore_01",
         "description": "Spelcomponist Lennie Moore serveert een aromatisch, pikant mengsel van Jazzy Funk. Heerlijk als het koud wordt geserveerd, net zoals de lijken van je vijanden als je met ze klaar bent.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/lenniemoore_01.85efce33bf5d30452a8e84e4a55c78c9b44775d3.png"
     },
     {
         "id": "music_kit-31",
         "name": "Muziekset | Darude, Moments CS:GO",
-        "name_original": "darude_01",
         "description": "Ga op in het bekende geluid van de Finse producer Darudes bekende muzikale smaken en tonen. Verrijk jezelf met toegang tot een zware mix van progressieve boventonen en scores van tintelende melodische structuur van de geluidsbanken van een van de meest gerenommeerde pioniers van de dancemuziek.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/darude_01.7c92a500270301ab6883f6a144f59cc28571521d.png"
     },
     {
         "id": "music_kit-32",
         "name": "Muziekset | Beartooth, Aggressive",
-        "name_original": "beartooth_02",
         "description": "Beartooth is terug voor ronde twee. Deze nieuwe muziekset is nog harder en agressiever. We hebben het liedje voor de beste speler extra hevig gemaakt, zodat je tegenstanders zich heel slecht voelen wanneer ze van je verliezen.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_02.6ec3c958567128d94455f7c3459b22ad2061a12c.png"
     },
     {
         "id": "music_kit-33",
         "name": "Muziekset | Blitz Kids, The Good Youth",
-        "name_original": "blitzkids_01",
         "description": "De Britse pop-/punkband Blitz Kids brengt je de perfecte muziekset voor het bestormen van B terwijl je terugdenkt aan die nachtritjes die je op de middelbare school met je vrienden maakte. Met deze set voel je je snel en jong.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/blitzkids_01.5f0480468f7b46a838bb761dfdfa0788469e3e17.png"
     },
     {
         "id": "music_kit-34",
         "name": "Muziekset | Hundredth, FREE",
-        "name_original": "hundredth_01",
         "description": "Hundredth brengt heavy naar de wereld met hun unieke draai aan melodic hardcore. Breek los van je ketenen of keer terug naar Dust met deze perfecte soundtrack om de onwaardigen omver te schieten.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hundredth_01.f6032850a26e9b1fdc9e8435a574282b27792747.png"
     },
     {
         "id": "music_kit-35",
         "name": "Muziekset | Neck Deep, Life's Not Out To Get You",
-        "name_original": "neckdeep_01",
         "description": "Soms heb je wat punkpop nodig om je door de dag heen te helpen. Of je nou met campers afrekent of een enorme killstreak verliest, Neck Deep is er om te bewijzen dat \\\"Life's Not Out To Get You\\\". Het andere team wel.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_01.f2b26359736f263c519fb5bffbaf590c5cbdcd17.png"
     },
     {
         "id": "music_kit-36",
         "name": "Muziekset | Roam, Backbone",
-        "name_original": "roam_01",
         "description": "Roam levert snelle, vanzelfsprekende punkpop die zowel het publiek als spelers in beweging krijgt. Bewijs dat je een ruggegraat hebt met deze soundtrack, die perfect is voor snelle aanvallen waarmee je het andere team uitschakelt voordat ze weten wat ze overkomt.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/roam_01.de919629f1df756d298d81cdb24e658eacf7090c.png"
     },
     {
         "id": "music_kit-37",
         "name": "Muziekset | Twin Atlantic, GLA",
-        "name_original": "twinatlantic_01",
         "description": "Heviger, lawaaieriger en luider dan ooit. Twin Atlantic komt naar CS:GO om je te helpen gezichten eraf te knallen met de vuurkracht van Schotse rock.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/twinatlantic_01.a3e60569d052721275943b7fa0a563e59dd2f105.png"
     },
     {
         "id": "music_kit-38",
         "name": "Muziekset | Skog, III-Arena",
-        "name_original": "skog_03",
         "description": "Skog is terug met een derde verpletterende metalset. Deze keer heeft de muziek een electro-organische twist, waarbij het grote gitaarriffs met net zo grote drops, loops en drones combineert.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_03.2a6b65fe2443cd27414c8ea48614c4b9386c377a.png"
     },
     {
         "id": "music_kit-39",
         "name": "Muziekset | The Verkkars, EZ4ENCE",
-        "name_original": "theverkkars_01",
         "description": "The Verkkars rise through the Finnish charts with a heart-pounding tribute to ENCE. Can it really be so EZ?",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_01.c76969d8c14a9a74c71f0d5efce6453f7b70bf43.png"
     },
     {
         "id": "music_kit-40",
         "name": "Halo, The Master Chief Collection",
-        "name_original": "halo_01",
         "description": "Give your Counter Strike auditory experience a legendary makeover with the Master Chief Collection Music Pack, featuring iconic musical moments from the Halo universe. © 2019 343 Industries. All rights reserved. Used with permission from 343 Industries. Halo: The Master Chief Collection and the Halo logo are trademarks of the Microsoft group of companies.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png"
     },
     {
         "id": "music_kit-41",
         "name": "Muziekset | Scarlxrd: King, Scar",
-        "name_original": "scarlxrd_01",
         "description": "Scarlxrd blends heavy trap beats with a flow and delivery that creates his own unique subgenre. With this exciting blend his live shows capture the attention of everyone in the crowd.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_01.f1deaed73c132260c8354198bc2f23e939b139b3.png"
     },
     {
         "id": "music_kit-42",
         "name": "Half-Life: Alyx, Anti-Citizen",
-        "name_original": "halflife_alyx_01",
         "description": "Deze muziekset herdenkt Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Jij bent voor de mens de enige kans op overleving en je meeslepende omgevingsinteracties gaan verder in Counter-Strike: Global Offensive.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png"
     },
     {
         "id": "music_kit-43",
         "name": "Muziekset | Austin Wintory, Bachram",
-        "name_original": "austinwintory_02",
         "description": "Austin Wintory mixt Keltische fantasy met sissende elektronica en een overvloedige ondersteuning van Peter Hollens' stemgeluid in deze genre-overstijgende muziekset.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_02.c8fb789fab88586d69b2bc822332a7a86afb83ed.png"
     },
     {
         "id": "music_kit-44",
         "name": "Muziekset | Dren, Gunman Taco Truck",
-        "name_original": "dren_02",
         "description": "De apocalyptische mariachisoundtrack van het populaire indiespel Gunman Taco Truck is er nu voor CS:GO met intense Mexicaans gekruide deuntjes zoals Pollo Diablo en Persecución de Helltain!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_02.63647ccdee069255f19589d7ce2d5b7de591aa6b.png"
     },
     {
         "id": "music_kit-45",
         "name": "Muziekset | Daniel Sadowski, Eye of the Dragon",
-        "name_original": "danielsadowski_04",
         "description": "Van de componist die je 'Total Domination', 'The 8-Bit Kit' en 'Crimson Assault' bracht, verschijnt nu 'Eye Of The Dragon'. Componist Daniel Sadowski mixt ninja's plus geweren plus hiphop plus techno om zo een muziekset vol actie te creëren. <i>Ninja's staan erom bekend snel en met precisie toe te kunnen slaan, doch zijn zij onzichtbaar voor hun vijanden.</i>",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_04.6be221622292eabfe4da40d166fa75a6d0dcec55.png"
     },
     {
         "id": "music_kit-46",
         "name": "Muziekset | Tree Adams en Ben Bromfield, M.U.D.D. FORCE",
-        "name_original": "treeadams_benbromfield_01",
         "description": "Alchemists of a powerful chaos that is M.U.D.D. FORCE - composers Tree Adams and Ben Bromfield weld epic battle motifs and grinding synths into a Maelstrom of full throttle destruction.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/treeadams_benbromfield_01.08ca88c8f650b524f709a3e2e05e3160579771c3.png"
     },
     {
         "id": "music_kit-47",
         "name": "Muziekset | Tim Huling, Neo Noir",
-        "name_original": "timhuling_01",
         "description": "Componist Tim Huling levert tracks in een klassieke film-noirstijl gemengd met hedendaagse grooves en beats.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/timhuling_01.518aa6b46cec0d809e1e984041c66fd00f22b005.png"
     },
     {
         "id": "music_kit-48",
         "name": "Muziekset | Sam Marshall, Bodacious",
-        "name_original": "sammarshall_01",
         "description": "Geïnspireerd door de funky videogamemuziek van de vroege jaren 90 heeft componist Sam Marshall wat klassieke videospelnostalgie afgetopt met een pittig modern sausje.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sammarshall_01.05adc292af4abcfe6cd6b2d76a6020ab80122ada.png"
     },
     {
         "id": "music_kit-49",
         "name": "Muziekset | Matt Levine, Drifter",
-        "name_original": "mattlevine_01",
         "description": "Componist Matt Levine levert een ruwe stijl in deze groezelige hommage aan de spaghettiwestern. Er is nog nooit een beter moment geweest om \\\"go ahead, make my day...\\\" te zeggen.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlevine_01.974b450e606547a138e15a540597164bcd70a8e8.png"
     },
     {
         "id": "music_kit-50",
         "name": "Muziekset | Amon Tobin, All for Dust",
-        "name_original": "amontobin_01",
         "description": "De legendarische muziekproducent Amon Tobin leent zijn unieke esthetiek uit aan CS:GO. Ditmaal met behulp van buizenversterkers.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/amontobin_01.2cf4f8b98a111fc847576bb6a8feb3364a2cfa1b.png"
     },
     {
         "id": "music_kit-51",
         "name": "Darren Korb, Hades",
-        "name_original": "hades_01",
         "description": "Natuurlijk, iedereen mist zo nu en dan wel eens een schot, maar wat nooit mis is, is deze muziekset die het bloed doet laten stromen en rechtstreeks afkomstig is uit de onderwereld van Hades, de schurkachtige dungeon-crawler van Supergiant.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hades_01.41336135661d422039fe700e0bf4c8176886194e.png"
     },
     {
         "id": "music_kit-52",
         "name": "Muziekset | Neck Deep, The Lowlife Pack",
-        "name_original": "neckdeep_02",
         "description": "Prove you are not a normie (and better than everyone else on the map) with Neck Deep's new music kit, which includes songs from the band's album All Distortions Are Intentional.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_02.d00e38b24d5ca285fd34411afc34b874ab80cd1b.png"
     },
     {
         "id": "music_kit-53",
         "name": "Muziekset | Scarlxrd, CHAIN$AW.LXADXUT.",
-        "name_original": "scarlxrd_02",
         "description": "CHAIN$AW BRINGS SCARLXRD AT HIS UNPRECENDENTED BEST WITH A RAW FLOW AND A HEAVY TRACK TO MATCH.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_02.9d630d5c49841c359e6def0bc2e4e24b62b2f233.png"
     },
     {
         "id": "music_kit-54",
         "name": "Music Kit | Austin Wintory, Mocha Petal",
-        "name_original": "austinwintory_03",
         "description": "Austin Wintory answers the question humanity has asked for ages: what happens if you merge beer garden accordion polka music with grungy heavy metal?",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_03.18f6213b11eccdb12237547a78c2cb70fb54d829.png"
     },
     {
         "id": "music_kit-55",
         "name": "Music Kit | Chipzel, ~Yellow Magic~",
-        "name_original": "chipzel_01",
         "description": "Video game composer and chiptune legend Chipzel brings a glitchy Speak & Spell inspired mashup of hybrid styles packed with fun, funk and flavour.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/chipzel_01.5f4d9f5a440a9b66807b3a1ca40bfe61bddc483c.png"
     },
     {
         "id": "music_kit-56",
         "name": "Music Kit | Freaky DNA, Vici",
-        "name_original": "freakydna_01",
         "description": "Opera. 8-bit sounds. Analogue synths. What's not to love? Chiptune specialist Freaky DNA and soprano Leanne Koch team up for some heavy beats and good times!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/freakydna_01.96afa403f5a9e023408e88496369361b4f557f44.png"
     },
     {
         "id": "music_kit-57",
         "name": "Music Kit | Jesse Harlin, Astro Bellum",
-        "name_original": "jesseharlin_01",
         "description": "Composer Jesse Harlin delivers bombastic space opera drama inspired by classic sci-fi of the 70s, 80s, and beyond.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/jesseharlin_01.8698a32cdebbee16225c231bad5b422256a4dfe2.png"
     },
     {
         "id": "music_kit-58",
         "name": "Music Kit | Laura Shigihara: Work Hard, Play Hard",
-        "name_original": "laurashigihara_01",
         "description": "Video game composer and developer Laura Shigihara will help you tell everyone loudly and proudly that you're the MVP. Have fun with this unique blend of 90s dance, retro video game synth, and just a hint of Plants vs. Zombies.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/laurashigihara_01.6ccd2d1904530773115ba88c2cbb389d3da46df3.png"
     },
     {
         "id": "music_kit-59",
         "name": "Music Kit | Sarah Schachner, KOLIBRI",
-        "name_original": "sarahschachner_01",
         "description": "Brought to you by Sarah Schachner, a dystopian goth choir of self-aware, Scandinavian robots decide that humanity must be eliminated.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sarahschachner_01.5a5bef300a44f8f54ba3d817245cb32f66d1c85f.png"
     },
     {
         "id": "music_kit-60",
         "name": "Music Kit | bbno$, u mad!",
-        "name_original": "bbnos_01",
         "description": "bbno$ formulates 'the' toxic gamer anthem, u mad! Are u mad? LOL get good scrub. Research shows if you play with this Music Kit equipped you'll immediately go from Silver to Global.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/bbnos_01.41bea5be0ec1c11d2f9c58cc24d175ab62870b74.png"
     },
     {
         "id": "music_kit-61",
         "name": "Muziekset | The Verkkars & n0thing, Flashbang Dance",
-        "name_original": "theverkkars_02",
         "description": "Counter-Strike-legendes n0thing en The Verkkars hebben hun krachten gebundeld om een keiharde knaller te maken, van zonnig Californië tot ijskoud Lapland: Flashbang Dance! 3, 2, 1, wie niet weg is kan niets meer zien!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_02.329034c68612e8f00f0f18e20d7a84f7d2b68627.png"
     },
     {
         "id": "music_kit-62",
         "name": "Music Kit | 3kliksphilip, Heading for the Source",
-        "name_original": "3kliksphilip_01",
         "description": "On a quest to go pro, or unintentionally going low? Let this kit’s 80’s synths and dreamy melodies take you back. Back, back, back... to the good old days.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/3kliksphilip_01.376011867dada400b17c357748d344c1491a2881.png"
     },
     {
         "id": "music_kit-63",
         "name": "Music Kit | Humanity's Last Breath, Void",
-        "name_original": "hlb_01",
         "description": "Swedish Band Humanity's Last Breath drops in heavy with their Void Music Kit. Pounding drums, colossal riffs and an atmosphere to send shivers up your spine.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlb_01.0b08df9d78b230f26b9e7eb4f8dca11f298b30ef.png"
     },
     {
         "id": "music_kit-64",
         "name": "Music Kit | Juelz, Shooters",
-        "name_original": "juelz_01",
         "description": "Neo trap synths, gritty 808s, an epic piano riff, and a plethora of gunfire sound effects. The OG trap anthem \\\"Shooters\\\" by Juelz makes for a truly elite Music Kit. Suitable for MVPs only.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/juelz_01.0d590b3dd6c58dba054ee00f52a8165966beb310.png"
     },
     {
         "id": "music_kit-65",
         "name": "Music Kit | Knock2, dashstar*",
-        "name_original": "knock2_01",
         "description": "dashstar*, the iconic bass house anthem from Knock2, provides non-stop energy that captures the young San Diego native’s mantra, \\\"no limit\\\".",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/knock2_01.b7cf197447a161b82c11c8e2d460d510ea58acb4.png"
     },
     {
         "id": "music_kit-66",
         "name": "Music Kit | Meechy Darko, Gothic Luxury",
-        "name_original": "meechydarko_01",
         "description": "Grab a Glock and equip this music kit to be transported to the center of New York's underground hip-hop scene.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/meechydarko_01.5dbe99ff8a2ef9922d84ac61beb9cd685746b886.png"
     },
     {
         "id": "music_kit-67",
         "name": "Music Kit | Sullivan King, Lock Me Up",
-        "name_original": "sullivanking_01",
         "description": "Love the chase? Love the hunt? Hard rock, metal, and dubstep collide in Sullivan King's soundtrack for becoming unstoppable.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sullivanking_01.770772c90c1acf349d26cacbbad1a966a825243c.png"
     },
     {
         "id": "music_kit-68",
         "name": "Music Kit | Perfect World, 花脸 Hua Lian (Painted Face)",
-        "name_original": "perfectworld_01",
         "description": "Celebrate the 5th anniversary of CS:GO's release in China with a one of a kind music kit, 花脸 Hua Lian (Painted Face). This kit combines folk Qinqiang opera (the earliest Chinese style Rock 'n' Roll) and modern Rock 'n' Roll. Whether you are engulfed in smoke or blinded by a flashbang, don't get lost!",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/perfectworld_01.4e4e580548f5d81f30640b2b4cdfa9ba8eec09e0.png"
     },
     {
         "id": "music_kit-69",
         "name": "Music Kit | Denzel Curry, ULTIMATE",
-        "name_original": "denzelcurry_01",
         "description": "Denzel brings his signature energy to CS:GO as he traverses trap, jazz, and drum and bass beats. This kit features Denzel's hits \\\"Walkin\\\", \\\"ULTIMATE\\\", and more, so break out the nickel-plated chrome Berettas and crank up the intensity with the ULTIMATE music kit.",
-        "rarity": "Hoge rang",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Hoge rang"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
     }

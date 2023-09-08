@@ -2,684 +2,836 @@
     {
         "id": "collectible-875",
         "name": "Vítěz šampionátu DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu DreamHack SteelSeries 2013.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_champion_large.a71dc37ea50a3c5a441922acc9b0596fa2b51a1d.png"
     },
     {
         "id": "collectible-876",
         "name": "Finalista šampionátu DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu DreamHack SteelSeries 2013.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_finalist_large.dc4dced76778dfb4b7abb779b49dd07be8169bb8.png"
     },
     {
         "id": "collectible-877",
         "name": "Semifinalista šampionátu DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu DreamHack SteelSeries 2013.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_semifinalist_large.9cabb8b8e44611b4b709c56f074a259ad2487eef.png"
     },
     {
         "id": "collectible-878",
         "name": "Čtvrtfinalista šampionátu DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu DreamHack SteelSeries 2013.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_quarterfinalist_large.28b0d7ef982ef674148f77c5729be4d5221c0e49.png"
     },
     {
         "id": "collectible-879",
         "name": "Vítěz šampionátu EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu EMS One Katowice 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_champion_large.bf565f6085cb4a3fa366e3167f7b873090176623.png"
     },
     {
         "id": "collectible-880",
         "name": "Finalista šampionátu EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu EMS One Katowice 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_finalist_large.a96fab9b692e4e55cb310682df0deb8dba8f3a89.png"
     },
     {
         "id": "collectible-881",
         "name": "Semifinalista šampionátu EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu EMS One Katowice 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_semifinalist_large.85046d0d4b5748572859cb638c8e1f502825955d.png"
     },
     {
         "id": "collectible-882",
         "name": "Čtvrtfinalista šampionátu EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu EMS One Katowice 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_quarterfinalist_large.54910e582990bd76a5058312f6ae85c3a5dec30c.png"
     },
     {
         "id": "collectible-883",
         "name": "Vítěz šampionátu ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ESL One Cologne 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_champion_large.321d0168210c645327273a0a108670a2d8f3b71d.png"
     },
     {
         "id": "collectible-884",
         "name": "Finalista šampionátu ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ESL One Cologne 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_finalist_large.bc5075600a1b9b6d36e3f2fc4ddea54a0154f8b6.png"
     },
     {
         "id": "collectible-885",
         "name": "Semifinalista šampionátu ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ESL One Cologne 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_semifinalist_large.424db65bc9a21a4e837cf27d26a2f5bb55ab821e.png"
     },
     {
         "id": "collectible-886",
         "name": "Čtvrtfinalista šampionátu ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ESL One Cologne 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_quarterfinalist_large.fc4034c97f63afe33acc1f677535069949a7fa4d.png"
     },
     {
         "id": "collectible-890",
         "name": "Vítěz šampionátu DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu DreamHack Winter 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_champion_large.00b52cf3cab0182fcc466cfad2f8c560812d8a5a.png"
     },
     {
         "id": "collectible-891",
         "name": "Finalista šampionátu DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu DreamHack Winter 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_finalist_large.5dd601bef4b79c3e1623898773cb22b12e1ff4cb.png"
     },
     {
         "id": "collectible-892",
         "name": "Semifinalista šampionátu DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu DreamHack Winter 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_semifinalist_large.be9e9fd274a887c4a742d42aa01bfdb97b53c969.png"
     },
     {
         "id": "collectible-893",
         "name": "Čtvrtfinalista šampionátu DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu DreamHack Winter 2014.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_quarterfinalist_large.431337841f75ff3c3dd1ef980a571d204433d50d.png"
     },
     {
         "id": "collectible-897",
         "name": "Vítěz šampionátu ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ESL One Katowice 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_champion_large.0dd8522828b82ebf52efc6940ac7613d6b3428c1.png"
     },
     {
         "id": "collectible-898",
         "name": "Finalista šampionátu ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ESL One Katowice 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_finalist_large.a4210eda1b48bc84b7fc496a8ebe3bab6dde553e.png"
     },
     {
         "id": "collectible-899",
         "name": "Semifinalista šampionátu ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ESL One Katowice 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_semifinalist_large.5d4acb38d67d95c2e395d58e91952572fabad669.png"
     },
     {
         "id": "collectible-900",
         "name": "Čtvrtfinalista šampionátu ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ESL One Katowice 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_quarterfinalist_large.707a47abca3a99776574ce056643ee339b41e25d.png"
     },
     {
         "id": "collectible-904",
         "name": "Vítěz šampionátu ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ESL One Cologne 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_champion_large.8bc88fbd2f73f61c9a0afbb5b6221542793ada5d.png"
     },
     {
         "id": "collectible-905",
         "name": "Finalista šampionátu ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ESL One Cologne 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_finalist_large.507c4440ad457da4802ebc4eccd01b854f3781ee.png"
     },
     {
         "id": "collectible-906",
         "name": "Semifinalista šampionátu ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_SemiFinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ESL One Cologne 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_semifinalist_large.5e434d8956fa32b7d597aad5d28bab52cecd8dfe.png"
     },
     {
         "id": "collectible-907",
         "name": "Čtvrtfinalista šampionátu ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_QuarterFinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ESL One Cologne 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_quarterfinalist_large.e97caa5038e0deacc8604acb1632e86115b6dcd2.png"
     },
     {
         "id": "collectible-917",
         "name": "Vítěz šampionátu DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu DreamHack Cluj-Napoca 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-918",
         "name": "Finalista šampionátu DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu DreamHack Cluj-Napoca 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-919",
         "name": "Semifinalista šampionátu DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu DreamHack Cluj-Napoca 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-920",
         "name": "Čtvrtfinalista šampionátu DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu DreamHack Cluj-Napoca 2015.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-927",
         "name": "Vítěz šampionátu MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu MLG Columbus 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-928",
         "name": "Finalista šampionátu MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu MLG Columbus 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-929",
         "name": "Semifinalista šampionátu MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu MLG Columbus 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-930",
         "name": "Čtvrtfinalista šampionátu MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu MLG Columbus 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-931",
         "name": "Vítěz šampionátu ESL Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ESL Cologne 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-932",
         "name": "Finalista šampionátu ESL Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ESL Cologne 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-933",
         "name": "Semifinalista šampionátu ESL Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ESL Cologne 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-934",
         "name": "Čtvrtfinalista šampionátu ESL Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ESL Cologne 2016.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-941",
         "name": "Vítěz šampionátu ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ELEAGUE Atlanta 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-942",
         "name": "Finalista šampionátu ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ELEAGUE Atlanta 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-943",
         "name": "Semifinalista šampionátu ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ELEAGUE Atlanta 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-944",
         "name": "Čtvrtfinalista šampionátu ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ELEAGUE Atlanta 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-948",
         "name": "Vítěz šampionátu PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu PGL Krakow 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-949",
         "name": "Finalista šampionátu PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu PGL Krakow 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-950",
         "name": "Semifinalista šampionátu PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu PGL Krakow 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-951",
         "name": "Čtvrtfinalista šampionátu PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu PGL Krakow 2017.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-955",
         "name": "Vítěz šampionátu ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu ELEAGUE Boston 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-956",
         "name": "Finalista šampionátu ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu ELEAGUE Boston 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-957",
         "name": "Semifinalista šampionátu ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu ELEAGUE Boston 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-958",
         "name": "Čtvrtfinalista šampionátu ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu ELEAGUE Boston 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-962",
         "name": "Vítěz šampionátu FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu FACEIT London 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-963",
         "name": "Finalista šampionátu FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu FACEIT London 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-964",
         "name": "Semifinalista šampionátu FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu FACEIT London 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-965",
         "name": "Čtvrtfinalista šampionátu FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu FACEIT London 2018.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-971",
         "name": "Vítěz šampionátu IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu IEM Katowice 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-972",
         "name": "Finalista šampionátu IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu IEM Katowice 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-973",
         "name": "Semifinalista šampionátu IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu IEM Katowice 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-974",
         "name": "Čtvrtfinalista šampionátu IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu IEM Katowice 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-975",
         "name": "Vítěz šampionátu StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu StarLadder Berlin 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-976",
         "name": "Finalista šampionátu StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu StarLadder Berlin 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-977",
         "name": "Semifinalista šampionátu StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu StarLadder Berlin 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-978",
         "name": "Čtvrtfinalista šampionátu StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu StarLadder Berlin 2019.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-979",
         "name": "Vítěz šampionátu PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu PGL Stockholm 2021.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-980",
         "name": "Finalista šampionátu PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu PGL Stockholm 2021.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-981",
         "name": "Semifinalista šampionátu PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu PGL Stockholm 2021.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-982",
         "name": "Čtvrtfinalista šampionátu PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu PGL Stockholm 2021.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-983",
         "name": "Vítěz šampionátu PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu PGL Antwerp 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-984",
         "name": "Finalista šampionátu PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu PGL Antwerp 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-985",
         "name": "Semifinalista šampionátu PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu PGL Antwerp 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-986",
         "name": "Čtvrtfinalista šampionátu PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu PGL Antwerp 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-988",
         "name": "Vítěz šampionátu IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu IEM Rio 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-989",
         "name": "Finalista šampionátu IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu IEM Rio 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-990",
         "name": "Semifinalista šampionátu IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu IEM Rio 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-991",
         "name": "Čtvrtfinalista šampionátu IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu IEM Rio 2022.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-992",
         "name": "Vítěz šampionátu BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Champion",
         "description": "Tato trofej byla udělena vítězi šampionátu BLAST.tv Paris 2023.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-993",
         "name": "Finalista šampionátu BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Finalist",
         "description": "Tato trofej byla udělena finalistovi šampionátu BLAST.tv Paris 2023.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-994",
         "name": "Semifinalista šampionátu BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Semifinalist",
         "description": "Tato trofej byla udělena semifinalistovi šampionátu BLAST.tv Paris 2023.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-995",
         "name": "Čtvrtfinalista šampionátu BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Quarterfinalist",
         "description": "Tato trofej byla udělena čtvrtfinalistovi šampionátu BLAST.tv Paris 2023.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     }

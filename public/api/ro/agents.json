@@ -2,9 +2,11 @@
     {
         "id": "agent-4613",
         "name": "Bloody Darryl The Strapped | The Professionals",
-        "name_original": "customplayer_tm_professional_varf5",
         "description": "Înainte de a fi liderul bandei de spărgători „Profesioniștii”, Sir Bloody Darryl era cunoscut doar ca Bloody Darryl. A rămas același psihopat prietenos din vecini în sensul adevărat al cuvântului. Nu e chiar australian, după cum zic australienii. \\n\\n<i>O să le dau un pic de țaca-paca.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -17,9 +19,11 @@
     {
         "id": "agent-4619",
         "name": "„Blueberries” Buckshot | NSWC SEAL",
-        "name_original": "customplayer_ctm_st6_variantj",
         "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\\n\\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \\n\\n<i>They talk to me. The guns. They have feelings.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -32,9 +36,11 @@
     {
         "id": "agent-4680",
         "name": "„Two Times” McCoy | TACP Cavalry",
-        "name_original": "customplayer_ctm_st6_variantl",
         "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike.\\n\\nHis yellow scarf is a tribute to his time with 1st Cavalry Division.\\n\\n<i>Yep. Still here.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -47,9 +53,11 @@
     {
         "id": "agent-4711",
         "name": "Cmdr. Mae „Dead Cold” Jamison | SWAT",
-        "name_original": "customplayer_ctm_swat_variante",
         "description": "Cmdr. 'Dead Cold' Jamison has just about seen it all. Skeptical and wry in the midst of deadly combat, others could mistake her for being nonchalant about the chaos at hand. They would be wrong. Nothing gets past Dead Cold, not bad guys with AK-47s, junior officers that call her 'Ma'am,' or an opportunity to make elite officers smirk under pressure.\\n\\n<i>You're gonna find out.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -62,9 +70,11 @@
     {
         "id": "agent-4712",
         "name": "1st Lieutenant Farlow | SWAT",
-        "name_original": "customplayer_ctm_swat_variantf",
         "description": "Smart as a whip and relentlessly polite, 1st Lieutenant Farlow is one of the most beloved and respected officers in SWAT. A master tactician in hostage and barricade situations, Farlow quickly climbed the SWAT ranks. Don't be fooled by her overwhelmingly cheerful nature--she can dispatch bad guys in the blink of an eye and not think twice about it.\\n\\n<i>What are they doing over there? Drinking milkshakes?</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -77,9 +87,11 @@
     {
         "id": "agent-4713",
         "name": "John „Van Healen” Kask | SWAT",
-        "name_original": "customplayer_ctm_swat_variantg",
         "description": "John 'Van Healen' Kask is one of SWATs best tactical defence units and on-site military paramedics. He also shreds a mean guitar—sometimes mid-operation. He says it helps get his teammates' blood pumping just as effectively as an AED, which he keeps ready in case of emergency. \\n\\n<i>I can bring you back to life, but I can't make you live.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -92,9 +104,11 @@
     {
         "id": "agent-4714",
         "name": "Bio-Haz Specialist | SWAT",
-        "name_original": "customplayer_ctm_swat_varianth",
         "description": "The SWAT's Biological Hazard Specialists are trained to handle worst case bio warfare situations. Terrorists planning to unleash a bio hazard attack upon unsuspecting civilians do not want to deal with these guys.\\n\\n<i>Tacita Sed Mortiferum.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -107,9 +121,11 @@
     {
         "id": "agent-4715",
         "name": "Sergeant Bombson | SWAT",
-        "name_original": "customplayer_ctm_swat_varianti",
         "description": "Tyler Bobson earned his moniker after becoming SWAT's go-to officer for efficient Explosive Ordnance Disposal. With his uncanny ability to locate even the most well hidden IEDs, Bombson's keen hearing is outclassed only by the noble Greater Wax Moth.\\n\\n<i>Yeah, I heard that.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -122,9 +138,11 @@
     {
         "id": "agent-4716",
         "name": "Chem-Haz Specialist | SWAT",
-        "name_original": "customplayer_ctm_swat_variantj",
         "description": "The SWAT Chemical Hazard Specialists are able to survive and succeed in toxic environment operations for hours at a time. Where others run away, they run in.\\n\\n<i>Feels like home.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -137,9 +155,11 @@
     {
         "id": "agent-4718",
         "name": "Rezan the Redshirt | Sabre",
-        "name_original": "customplayer_tm_balkan_variantk",
         "description": "An expert grenadier and the once-celebrated author of The Joy of Preparedness, Rezan the Redshirt is Sabre's self-appointed Head of Operations.\\n\\nOver time, Rezan has learned to control his fiery temper—now he wears his explosive rage on his sleeves.\\n\\n<i>I take great pride in my work.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -152,9 +172,11 @@
     {
         "id": "agent-4726",
         "name": "Sir Bloody Miami Darryl | The Professionals",
-        "name_original": "customplayer_tm_professional_varf",
         "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis white hockey mask and floral shirt were popular choices during his Vice phase. \\n\\n<i>Got my hair combed back and my sunglasses on.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -167,9 +189,11 @@
     {
         "id": "agent-4727",
         "name": "Safecracker Voltzmann | The Professionals",
-        "name_original": "customplayer_tm_professional_varg",
         "description": "Weird, quirky, unhinged; a few words that describe The Professionals' safecracker and technical mastermind. When she is not mumbling to herself about the flawed assumptions inherent within the profit maximization paradox, Safecracker serves as a morally questionable but highly efficient 'fundraising expert.' She enjoys short walks on pavement, the sound of cable ties being fastened, and testing explosive prototypes under immense pressure.\\n\\n<i>Don't blow it. DO blow the bomb though, okay? We do want that.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -182,9 +206,11 @@
     {
         "id": "agent-4728",
         "name": "Little Kev | The Professionals",
-        "name_original": "customplayer_tm_professional_varh",
         "description": "The Professional who makes heavy weapons look weightless, Little Kev is the soft spoken 'little' brother of Sir Bloody Darryl. His older brother's bodyguard since age 5, Little Kev developed a knack for quelling 'people problems' before they arise. Sir Darryl assigned him Human Resources Manager for the entire Professionals organization.  \\n\\n<i>We're getting this done either way.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -197,9 +223,11 @@
     {
         "id": "agent-4730",
         "name": "Getaway Sally | The Professionals",
-        "name_original": "customplayer_tm_professional_varj",
         "description": "Small enough to hide in plain sight but loud enough to frighten the biggest enemies, Getaway Sally is The Professionals' first pick for tight quarter Wealth Acquisition Projects.  A talented weaver of controlled chaos, Getaway Sally has the improvisational skills to turn the tables on any dire heist and hostage situations. \\n\\n<i>Now you don't see me, and now you still don't.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -212,9 +240,11 @@
     {
         "id": "agent-4732",
         "name": "Number K | The Professionals",
-        "name_original": "customplayer_tm_professional_vari",
         "description": "In his 'Wealth Acquisition Specialist' application form, Number K wrote the letter 'K' in every number field, but his talent with handguns made him more than qualified for the position. Number K keeps the details of his life private—none of his colleagues have seen his face—making him one of The Professionals' most feared heist managers.\\n\\n<i>Don't count us down. Just say go.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -227,9 +257,11 @@
     {
         "id": "agent-4733",
         "name": "Sir Bloody Silent Darryl | The Professionals",
-        "name_original": "customplayer_tm_professional_varf1",
         "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis 'Vow of Silence' mask was Darryl's response to organizational complaints about his logorrhea. \\n\\n<i>...</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -242,9 +274,11 @@
     {
         "id": "agent-4734",
         "name": "Sir Bloody Skullhead Darryl | The Professionals",
-        "name_original": "customplayer_tm_professional_varf2",
         "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis black mask has been painted with a white skull, a useful bit of intimidation back when The Professionals were just getting started. \\n\\n<i>Are we gonna bloody finish this thing or what?!</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -257,9 +291,11 @@
     {
         "id": "agent-4735",
         "name": "Sir Bloody Darryl Royale | The Professionals",
-        "name_original": "customplayer_tm_professional_varf3",
         "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis gold mask with a crown stencil commemorates The Professionals' first visit to Monaco. \\n\\n<i>Do you know what they call a cheeseburger in Monaco?</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -272,9 +308,11 @@
     {
         "id": "agent-4736",
         "name": "Sir Bloody Loudmouth Darryl | The Professionals",
-        "name_original": "customplayer_tm_professional_varf4",
         "description": "The leader of 'The Professionals' can be described as cocky, wisecracking, and scarily indifferent with regards to the suffering of others. He would say he's just a bloke—a bloke that likes to have a bit of fun on the weekend with the local armed tax collectors. He downplays the severity of any heavy situations that come his way, even if he's the last man standing, riddled with bullets, with only seconds left to blow the safe.\\n\\nThis mask has been painted with clown makeup, perfect for taking candy from rich spoiled babies. \\n\\n<i>...The crying on the inside kind, I guess.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -287,9 +325,11 @@
     {
         "id": "agent-4749",
         "name": "Sous-Lieutenant Medic | Gendarmerie Nationale",
-        "name_original": "customplayer_ctm_gendarmerie_varianta",
         "description": "Medicii din Jandarmeria Națională Franceză au dobândit o reputație binemeritată pentru abilitățile de a salva vieți folosind orice le stă la îndemână. De la defibrilatoare improvizate la medicina specifică junglelor sau tirurile de acoperire, medicii jandarmi îți asigură spatele indiferent de situație. \\n\\n<i> E mai bine să previi decât să tratezi.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -302,9 +342,11 @@
     {
         "id": "agent-4750",
         "name": "Chem-Haz Capitaine | Gendarmerie Nationale",
-        "name_original": "customplayer_ctm_gendarmerie_variantb",
         "description": "Aflat în fruntea operațiunilor de combatere a riscurilor chimice și biologice din zonele locuite, căpitanul Chem-Haz din Jandarmeria Națională Franceză joacă un rol cheie în cadrul organizației. Recunoscut pentru punerea în practică a unei operațiuni reușite de evacuare a tuturor civililor dintr-un aeroport național în atacul infam cu gaz sarin din 1997, căpitanul Chem-Haz reprezintă simbolul vigilenței și al calmului. \\n\\n<i>Nu uita să respiri.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -317,9 +359,11 @@
     {
         "id": "agent-4751",
         "name": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
-        "name_original": "customplayer_ctm_gendarmerie_variantc",
         "description": "Născută în sânul unei familii aristocrate, Rouchard s-a înrolat în Jandarmeria Națională Franceză cu prima ocazie pentru a evita înmatricularea într-un pension pentru fete faimos din Elveția. Ca aspirantă, Rouchard și-a impresionat rapid superiorii, excelând la strategiile ofensive și negocierile pentru eliberarea ostaticilor, dar mai ales la luptele cu arme albe. După câteva promovări, a ajuns să fie cunoscută drept „Le Couteau” („Cuțitul”), deși unii ar putea spune că acest lucru se datorează faptului că uneori dă replici tăioase. Azi, Rouchard este chemată atunci când situația este fără ieșire. \\n\\n<i>E doar o zgârietură.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -332,9 +376,11 @@
     {
         "id": "agent-4752",
         "name": "Aspirant | Gendarmerie Nationale",
-        "name_original": "customplayer_ctm_gendarmerie_variantd",
         "description": "Aspiranții jandarmeriei sunt cadeți bine antrenați din poliția militară care au sarcina de a oferi asistență pentru operațiunile de luptă din mediul rural. Majoritatea sunt mai mult decât dornici să aibă parte de acțiune pe teren. \\n\\n<i>C'est la vie.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -347,9 +393,11 @@
     {
         "id": "agent-4753",
         "name": "Officer Jacques Beltram | Gendarmerie Nationale",
-        "name_original": "customplayer_ctm_gendarmerie_variante",
         "description": "Ofițer cu multe distincții în cadrul Jandarmeriei, Beltram a primit Legiunea de Onoare pentru că a luat locul unui ostatic și a combătut amenințările teroriste în mod repetat. Beltram este un erou, un tată celibatar și un iubitor de ciocolată pe pâine la orice oră a zilei. \\n\\n<i>Ne facem meseria.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -362,9 +410,11 @@
     {
         "id": "agent-4756",
         "name": "Lieutenant „Tree Hugger” Farlow | SWAT",
-        "name_original": "customplayer_ctm_swat_variantk",
         "description": "Nimeni nu știe mai bine ca Farlow cum să aprecieze operațiunile de luptă care necesită protecție solară, loțiuni contra țânțarilor și arme de asalt M4A4. \\n\\n<i>Nu-i grozav să stai la căldurică?</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -377,9 +427,11 @@
     {
         "id": "agent-4757",
         "name": "Cmdr. Davida „Goggles” Fernandez | SEAL Frogman",
-        "name_original": "customplayer_ctm_diver_varianta",
         "description": "Posesoare a unei capacități de scufundare demne de un mamifer marin, Cmdr. Fernandez își poate încetini bătăile inimii până la un nivel nedetectabil și se poate strecura printre sistemele de apărare aflate în întuneric, în ape înghețate sau la adâncime. Și-a perfecționat potențialul acvatic alături de abilitățile militare și de trăgător de elită. I s-a spus „Ochelari” după ce un glonț a lovit-o în ochiul stâng, sau ar fi putut-o face, dacă „Șoseta umedă” nu i-ar fi adus aminte „pentru ultima oară” să-și ia echipamentul de protecție. În ciuda faptului că uneori e cam uitucă, Cmdr. Fernandez este unul dintre cei doi scafandri SEAL de elită care au fost decorați cu Crucea Marinei pentru operațiuni subacvatice secrete. \\n\\n<i>Liniștește-te, inimă.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -392,9 +444,11 @@
     {
         "id": "agent-4771",
         "name": "Cmdr. Frank „Wet Sox” Baroud | SEAL Frogman",
-        "name_original": "customplayer_ctm_diver_variantb",
         "description": "Mereu primul pe punte și ultimul care o părăsește, Cmdr. Frank Baroud face parte din a treia generație SEAL și este al doilea scufundător de luptă care a primit medalia Crucea Marinei; „Ochelari” a fost prima. Te poți baza pe Baroud să rezolve cele mai complicate conflicte subacvatice și de la sol, așa cum a făcut-o atunci când a dezamorsat câteva mine amplasate într-o rețea de peșteri inundate de sub o ambasadă a SUA. Baroud atribuie meritele realizărilor sale atenției minuțioase la detalii de care dă dovadă. Atunci când viața ta depinde de echipamentul pe care-l porți, o simplă greșeală poate fi fatală. Datorită atenției la detalii a fost supranumit „Șosetă umedă”.\\n\\n<i>Verifică de două ori. Apoi și a treia oară. Și mai verifică încă o dată.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -407,9 +461,11 @@
     {
         "id": "agent-4772",
         "name": "Lieutenant Rex Krikey | SEAL Frogman",
-        "name_original": "customplayer_ctm_diver_variantc",
         "description": "Locotenentul Krikey este omul ideal pentru operațiunile de luptă din junglă și zonele mlăștinoase. Acest lucru nu este de mirare, întrucât experiența sa cu reptilele de mici și mari dimensiuni l-a ajutat de nenumărate ori să scape cu viață împreună cu camarazii săi scafandri de luptă.\\n\\n<i>Sunt doar un superprădător căruia îi place să întâlnească alți superprădători.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -422,9 +478,11 @@
     {
         "id": "agent-4773",
         "name": "Elite Trapper Solman | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_varianta",
         "description": "În timp ce se relaxa într-o vacanță scurtă, dar scumpă, pe o insulă izolată din Marea Caraibilor, Solman a fost luat ostatic într-o zi toridă de vară de către infamul Război de Gherilă (GW). Auzindu-și răpitorii discutând despre împărțeala banilor aferenți răscumpărării, Solman și-a negociat propria eliberare în schimbul altor trei ostatici aduși în decurs de 24 de ore. Așa a și făcut, înarmat numai cu bani, șarm și un talent de orator rezervat doar celor mai cumpliți lideri sectanți de pe planetă. Șocați de lipsa sa de empatie față de ceilalți turiști și de abilitatea sa de a furniza constant „unități pentru răscumpărare” (adică oameni), GW i-au oferit lui Solman un loc în rândul lor. Primind cel mai mare procent din banii de răscumpărare dintre toți membrii GW, Solman a câștigat jocul înainte ca acesta să fi început măcar.\\n\\n<i>Ai nevoie doar de trei lucruri pentru a ieși dintr-o încurcătură: bani, șarm și o armă încărcată.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -437,9 +495,11 @@
     {
         "id": "agent-4774",
         "name": "Crasswater The Forgotten | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantb",
         "description": "Fostul căpitan Navy Seal, Crasswater, a fost luat prizonier de teroriștii din Războiul de Gherilă (Guerrilla Warfare – GW) în timp ce se afla la datorie în Orientul Mijlociu în anii ’90. După o încercare eșuată de salvare efectuată de ST6 și mușamalizarea ulterioară a cazului de către armată, Forțele Navale ale SUA l-au declarat decedat pe Crasswater. De-a lungul anilor de detenție, patriotismul său și mantra „nimeni nu este lăsat în urmă” au fost date uitării, ajungând să urască amarnic tot ceea ce avea legătură cu SUA. Din cauza unui sindrom Stockholm sever nou apărut, Crasswater a început să-i antreneze pe luptătorii din GW. După o serie de atacuri asupra unor ambasade occidentale care au avut ca scop consolidarea încrederii, Crasswater a devenit cea mai valoroasă resursă a GW, aducând disciplina și organizarea militară într-o grupare de rebeli haotici. În ultimii anii, Crasswater a dezvoltat noi celule GW într-o serie de locații secrete din America Centrală. \\n\\n<i>Doar încă o floare de nu-mă-uita.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -452,9 +512,11 @@
     {
         "id": "agent-4775",
         "name": "Arno The Overgrown | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantc",
         "description": "Fost campion de box la categoria grea, Arno The Overgrown a fost descoperit în peștera unde locuia de către trupele de ambuscadă ale Războiului de Gherliă (GW). De-a lungul anilor, Arno a devenit expert în supraviețuire și vânător de animale mari, fiind capabil să supraviețuiască în sălbăticie pentru o perioadă nedeterminată, dispunând numai de o suliță cu vârf de piatră și un cuțit de vânătoare bine ascuțit. Zvonurile cu privire la prezența sa s-au răspândit prin satele din jur, atrăgând atenția trupelor de gherilă. Dornici să profite de abilitățile inegalabile ale lui Arno în materie de vânătoare și luptă, GW a încercat, în van, să-l scoată pe Arno din habitatul lui. Asta până când l-au amenințat că nu-i vor mai aduce plăcinte cu brânză abia scoase din cuptor în fiecare lună. \\n\\n<i>Nu singurătatea te omoară, ci lipsa plăcintelor cu brânză.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -467,9 +529,11 @@
     {
         "id": "agent-4776",
         "name": "Col. Mangos Dabisi | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantd",
         "description": "Chiar din tinerețe, Col. Mangos Dabisi s-a format și a promovat în armata ugandeză. Și-a încheiat cariera militară după ce a fost lăsat la vatră pentru o abatere disciplinară rară, deoarece își intimida subordonații cerându-le să-l plătească pentru a-i lăsa să doarmă noaptea. S-a dovedit că un somn bun noaptea reprezenta de fapt lipsa unor răni provocate intenționat de Dabisi însuși. Statura impozantă și abilitățile militare ale lui Dabisi au determinat trupele Războiului de Gherilă (GW) să-l recruteze. Făcând mereu abuz de forță și trebuind să fie ținut în frâu, Dabisi își merită reputația de o adevărată forță în cadrul GW. \\n\\n<i>Banii sau viața. Tu alegi.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -482,9 +546,11 @@
     {
         "id": "agent-4777",
         "name": "Vypa Sista of the Revolution | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variante",
         "description": "Rebelă notorie, Vypa stăpânește la perfecțiune arta improvizării. S-a născut în sărăcie și, împreună cu cele unsprezece surori ale sale, a trebuit să se descurce singură de la vârsta de șapte ani. Atacurile efectuate de Vypa de una singură împotriva dictaturii militare din țara sa au fost așa de devastatoare, încât armata a considerat că are de-a face cu o mică grupare. Într-unul dintre atacuri, Vypa a confundat o tabără de antrenament pentru trupele Războiului de Gherilă (GW) cu un avanpost guvernamental. La puțin timp de la efectuarea manevrei sale celebre „Lovește și fugi” și-a dat seama de greșeala făcută, dar nu înainte de a-l lega de un copac pe Căpitanul Crasswater, amenințându-l cu un cuțit. Impresionat și un pic înspăimântat, Crasswater a recrutat-o pe Vypa și pe surorile sale în Războiul de Gherilă. Ele sunt acum responsabile pentru toate misiunile din junglă ale GW și de campaniile de „sensibilizare la adresa guvernului”.  \\n\\n<i>Nu-ți fie frică, sunt doar eu.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -497,9 +563,11 @@
     {
         "id": "agent-4778",
         "name": "Trapper Aggressor | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantf",
         "description": "Abili și experimentați, membrii trupelor de ambuscadă și agresiune fac dovada unei eficacități redutabile în ceea ce privește capturarea și sechestrarea turiștilor. Acești specialiști în tactici de gherilă în junglă și zone mlăștinoase nu dau nicio speranță echipelor de salvare care îi caută.\\n\\n<i>Promite-le aer condiționat și ceai rece. Merge de fiecare dată.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -512,9 +580,11 @@
     {
         "id": "agent-4780",
         "name": "„Medium Rare” Crasswater | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantb2",
         "description": "Fostul căpitan Navy Seal, Crasswater, a fost luat prizonier de teroriștii din Războiul de Gherilă (Guerrilla Warfare – GW) în timp ce se afla la datorie în Orientul Mijlociu în anii ’90. După o încercare eșuată de salvare efectuată de ST6 și mușamalizarea ulterioară a cazului de către armată, Forțele Navale ale SUA l-au declarat decedat pe Crasswater. De-a lungul anilor de detenție, patriotismul său și mantra „nimeni nu este lăsat în urmă” au fost date uitării, ajungând să urască amarnic tot ceea ce avea legătură cu SUA. Din cauza unui sindrom Stockholm sever nou apărut, Crasswater a început să-i antreneze pe luptătorii din GW. După o serie de atacuri asupra unor ambasade occidentale care au avut ca scop consolidarea încrederii, Crasswater a devenit cea mai valoroasă resursă a GW, aducând disciplina și organizarea militară într-o grupare de rebeli haotici. În ultimii anii, Crasswater a dezvoltat noi celule GW într-o serie de locații secrete din America Centrală. \\n\\n<i>Doar încă o floare de nu-mă-uita.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -527,9 +597,11 @@
     {
         "id": "agent-4781",
         "name": "Trapper | Guerrilla Warfare",
-        "name_original": "customplayer_tm_jungle_raider_variantf2",
         "description": "Ageri și nevăzuți, reprezentând spaima oricărei armate organizate, membrii trupelor de ambuscadă sunt rareori văzuți înainte de a-și face simțită prezența.\\n\\n<i>Te vânăm.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -542,9 +614,11 @@
     {
         "id": "agent-5105",
         "name": "Ground Rebel | Elite Crew",
-        "name_original": "customplayer_tm_leet_variantg",
         "description": "An expert in local knowledge for Elite Crew's urban operations, Ground Rebels are known for keeping an ear to the ground.\\n\\n<i>That's the signal.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -557,9 +631,11 @@
     {
         "id": "agent-5106",
         "name": "Osiris | Elite Crew",
-        "name_original": "customplayer_tm_leet_varianth",
         "description": "Osiris earned his nickname from passing judgement, often too quickly, on his marks. His reasoning is simple: \\\"When your time is as valuable as mine, why make small talk?\\\" \\n\\nConfident, skilled, and quick to act, Osiris takes pleasure in dispatching targets with unrivaled efficiency.\\n\\n<i>Any objections?</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -572,9 +648,11 @@
     {
         "id": "agent-5107",
         "name": "Prof. Shahmat | Elite Crew",
-        "name_original": "customplayer_tm_leet_varianti",
         "description": "After graduating Magna Cum Laude, Prof. Shahmat began teaching to impart knowledge. With every class Shahmat realized his pupils didn't have the same revolutionary desires that he did. \\n\\nRecognizing that his mind was beginning to dull, he decided to seek a new challenge—mastering the art of war.\\n\\n<i>Watch and learn.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -587,9 +665,11 @@
     {
         "id": "agent-5108",
         "name": "The Elite Mr. Muhlik | Elite Crew",
-        "name_original": "customplayer_tm_leet_variantf",
         "description": "Fiind la început un „consultant de achiziții” pentru magnații din industria armelor, Dl. Muhlik și-a făcut rapid apariția pe listele cu cei mai căutați infractori din întreaga lume. Conform unor zvonuri neconfirmate, acesta ar fi ultimul moștenitor în viață al unui monarh din Orientul Mijlociu recent decedat.\\n\\nAvând în vedere pregătirea sa militară de elită, studiile realizate la instituții internaționale private și numeroasele conturi bancare internaționale, se crede că Dl. Muhlik trage sforile pentru reclădirea puterii sale suverane pe teritoriile care au aparținut cândva familiei sale.\\n\\n<i>Presiune și răbdare.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -602,9 +682,11 @@
     {
         "id": "agent-5109",
         "name": "Jungle Rebel | Elite Crew",
-        "name_original": "customplayer_tm_leet_variantj",
         "description": "Un rebel deosebit de periculos din unitatea de elită pentru zone mlăștinoase și junglă. Mortal din umbră. \\n\\n<i>Niciodată fără ochelari de soare, chiar și pe întuneric.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -617,9 +699,11 @@
     {
         "id": "agent-5205",
         "name": "Soldier | Phoenix",
-        "name_original": "customplayer_tm_phoenix_varianth",
         "description": "A capable shooter recruited by Phoenix to assist with Territory Reclamation Campaigns. Soldiers are extremely deadly alone, and even more so in numbers.\\n\\n<i>When do we shoot?</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -632,9 +716,11 @@
     {
         "id": "agent-5206",
         "name": "Enforcer | Phoenix",
-        "name_original": "customplayer_tm_phoenix_variantf",
         "description": "A multidisciplinary contract hitman for the Phoenix Connexion. Enforcers don't take all assignments, just the ones they find interesting.\\n\\n<i>Time is money.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -647,9 +733,11 @@
     {
         "id": "agent-5207",
         "name": "Slingshot | Phoenix",
-        "name_original": "customplayer_tm_phoenix_variantg",
         "description": "Slingshot is a critical component of Phoenix Connexion's dominance in close-range combat.\\n\\nTightly wound and capable of devastating results with little resources, Slingshot earned his nickname after retaking the Phoenix compound with only an M9 Bayonet and recovered weapons.\\n\\n<i>If I can knife, I knife.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -662,9 +750,11 @@
     {
         "id": "agent-5208",
         "name": "Street Soldier | Phoenix",
-        "name_original": "customplayer_tm_phoenix_varianti",
         "description": "A Phoenix ground force gang with expertise in high density urban environments. Their knowledge of back roads and alleyways are only surpassed by local taxi drivers, which are rumored to make up a significant portion of their numbers.\\n\\n<i>I know a shortcut.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -677,9 +767,11 @@
     {
         "id": "agent-5305",
         "name": "Operator | FBI SWAT",
-        "name_original": "customplayer_ctm_fbi_variantf",
         "description": "Members of the FBI's SWAT team are deployed in high-risk situations. Counterterrorism, hostage rescue, and bomb defusals are a few of the many disciplines FBI SWAT agents specialize in.\\n\\n<i>Fidelity, Bravery, Integrity.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -692,9 +784,11 @@
     {
         "id": "agent-5306",
         "name": "Markus Delrow | FBI HRT",
-        "name_original": "customplayer_ctm_fbi_variantg",
         "description": "There's no detail too small for Markus Delrow. Equipment, battle plans, oppositional tactics—you name it—and he's already thought of it twice. \\n\\nBeing two steps ahead is what he does best, and Delrow takes pride in being the brains of the operation.\\n\\n<i>All that's left is to execute.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -707,9 +801,11 @@
     {
         "id": "agent-5307",
         "name": "Michael Syfers | FBI Sniper",
-        "name_original": "customplayer_ctm_fbi_varianth",
         "description": "An ex-Division I athlete, Syfers was recruited by the FBI after a catastrophic knee injury ended his sports career early. Yet even in adversity he remained positive. \\n\\nIt's rare to find someone whose desire to succeed is matched by their desire to do good, but Syfers checks both boxes.\\n\\n<i>Naturally, I finished my reps.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -722,9 +818,11 @@
     {
         "id": "agent-5308",
         "name": "Special Agent Ava | FBI",
-        "name_original": "customplayer_ctm_fbi_variantb",
         "description": "Initially underestimated, Special Agent Ava soon became her team's ultimate secret weapon. \\n\\nDespite receiving three out of five possible FBI Honorary Medals, Ava is surprisingly indifferent to her accomplishments. The way she sees it, it's nothing compared to growing up with four older brothers in urban New Jersey. \\n\\nSpecial Agent Ava takes pleasure from the simple things: clean wins, cold beer, and turning bad guys into thin crust pizza pie. \\n\\n<i>They see me. They're confused. And then they're dead.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -737,9 +835,11 @@
     {
         "id": "agent-5400",
         "name": "3rd Commando Company | KSK",
-        "name_original": "customplayer_ctm_st6_variantk",
         "description": "An elite soldier from Germany's Kommando Spezialkräfte, members of 3rd Commando Company are hand-picked to be part of KSK's Operational Forces.\\n\\n<i>This is not relevant to the task at hand.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -752,9 +852,11 @@
     {
         "id": "agent-5401",
         "name": "Seal Team 6 Soldier | NSWC SEAL",
-        "name_original": "customplayer_ctm_st6_variante",
         "description": "Combat-ready and hungry for wins, SEAL Team 6 soldiers know how to get the job done.\\n\\n<i>I'm just happy to be here.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -767,9 +869,11 @@
     {
         "id": "agent-5402",
         "name": "Buckshot | NSWC SEAL",
-        "name_original": "customplayer_ctm_st6_variantg",
         "description": "Known as SEAL Team's \\\"Weapons Sommelier\\\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations—but in the interest of time, they strenuously avoid casual conversation on the topic.\\n\\n<i>They talk to me. The guns. They have feelings.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -782,9 +886,11 @@
     {
         "id": "agent-5403",
         "name": "„Two Times” McCoy | USAF TACP",
-        "name_original": "customplayer_ctm_st6_variantm",
         "description": "'Two Times' McCoy earned his nickname by completing TACP's field training twice. Official records mark this up to a scheduling mix-up, but his teammates report restraining him from completing the trifecta.\\n\\nWith inhuman reserves of physical and mental stamina, McCoy often finds himself the last person standing at the end of any conflict—physical and verbal alike. \\n\\n<i>Yep. Still here.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -797,9 +903,11 @@
     {
         "id": "agent-5404",
         "name": "Lt. Commander Ricksaw | NSWC SEAL",
-        "name_original": "customplayer_ctm_st6_varianti",
         "description": "Lt. Commander Ricksaw's comically laissez-faire attitude toward heavy combat keeps his SEAL team calm and deadly in the most dire situations. \\n\\nHaving lead more special ops than any other SEAL to date, Ricksaw knows life is short, and encourages his team to make the most of the time they have—including cheerfully serving up bullets and frag grenades to high- value targets at any and all occasions.\\n\\n<i>Hotdogs, hellcats and hand grenades. Hooya!</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -812,9 +920,11 @@
     {
         "id": "agent-5405",
         "name": "Primeiro Tenente | Brazilian 1st Battalion",
-        "name_original": "customplayer_ctm_st6_variantn",
         "description": "Specializați în lupta de supraviețuire în operațiuni în junglă, soldații din batalionul brazilian nr. 1 își ascut cuțitele pe malul atotputernicului Amazon. \\n\\n<i>Iubim surprizele.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",
@@ -827,9 +937,11 @@
     {
         "id": "agent-5500",
         "name": "Dragomir | Sabre",
-        "name_original": "customplayer_tm_balkan_variantf",
         "description": "A man of few words, Dragomir is disturbingly patient. Known for holding position for days at a time, some say he's one of Sabre's best marksman. Others say he's napping. No one really knows. No one left alive, anyway.\\n\\n<i>...I wait.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -842,9 +954,11 @@
     {
         "id": "agent-5501",
         "name": "Maximus | Sabre",
-        "name_original": "customplayer_tm_balkan_varianti",
         "description": "Motivated by a simmering inner rage and a lifelong obsession with vengeance for transgressions large, small, and seemingly insignificant, Maximus is Sabre's first choice for close quarter mission support. No grudge is too small to be repaid in blood.\\n\\n<i>No, YOU overreacted.</i>",
-        "rarity": "Excepțional",
+        "rarity": {
+            "id": "rarity_mythical_character",
+            "name": "Excepțional"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -857,9 +971,11 @@
     {
         "id": "agent-5502",
         "name": "Rezan The Ready | Sabre",
-        "name_original": "customplayer_tm_balkan_variantg",
         "description": "An expert grenadier and the once-celebrated author of The Joy of Preparedness, Rezan The Ready is Sabre's self-appointed Head of Operations.\\n\\nHis fiery temper when things get out of hand has earned him the alternative nickname Rezan the Red—but never to his face.\\n\\n<i>I take great pride in my work.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -872,9 +988,11 @@
     {
         "id": "agent-5503",
         "name": "Blackwolf | Sabre",
-        "name_original": "customplayer_tm_balkan_variantj",
         "description": "Blackwolf stalks Sabre's enemies with preternatural determination and focus. Raised deep within the bitter forests of Eastern Europe, he can sense human presence with exceptional accuracy—and he knows what to do when he's sensed it. \\n\\n<i>I don't need to see them to kill them.</i>",
-        "rarity": "Superior",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -887,9 +1005,11 @@
     {
         "id": "agent-5504",
         "name": "„The Doctor” Romanov | Sabre",
-        "name_original": "customplayer_tm_balkan_varianth",
         "description": "After expertly smuggling pharmaceuticals across disputed borders for over 30 years, the 'doctor' now leads Sabre's Utility Disruption Operations. Rumoured to be responsible for the synchronized destruction of several UN power facilities, Romanov is known by his enemies to be calculating, deliberate, and frighteningly precise. Of course, his mother says he's just mixed up with the wrong crowd.\\n\\n<i>It's simple. We make a plan and the plan is to win.</i>",
-        "rarity": "Maestru",
+        "rarity": {
+            "id": "rarity_ancient_character",
+            "name": "Maestru"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -902,9 +1022,11 @@
     {
         "id": "agent-5505",
         "name": "Dragomir | Sabre Footsoldier",
-        "name_original": "customplayer_tm_balkan_variantl",
         "description": "Sabre has noticed that enemies seem to die quite frequently around Dragomir, even though they've never actually seen him shoot his gun. They're happy to keep him around... for now. \\n\\n<i>...I wait.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op10-characters",
@@ -917,9 +1039,11 @@
     {
         "id": "agent-5601",
         "name": "B Squadron Officer | SAS",
-        "name_original": "customplayer_ctm_sas_variantf",
         "description": "Extrem de periculoși și acționând extrem de secret, ofițerii SAS petrec mulți ani perfecționându-și abilitățile în misiunile de infiltrare, eliberare de ostatici și – STRICT SECRET – misiuni care nu pot fi divulgate publicului.\\n\\n<i>Cine îndrăznește, câștigă.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op9-characters",
@@ -932,9 +1056,11 @@
     {
         "id": "agent-5602",
         "name": "D Squadron Officer | NZSAS",
-        "name_original": "customplayer_ctm_sas_variantg",
         "description": "Extrem de periculoși și acționând extrem de secret, ofițerii SAS petrec mulți ani perfecționându-și abilitățile în misiunile de infiltrare, eliberare de ostatici și – STRICT SECRET – misiuni care nu pot fi divulgate publicului.\\n\\n<i>Cine îndrăznește, câștigă.</i>",
-        "rarity": "Prestigiu",
+        "rarity": {
+            "id": "rarity_rare_character",
+            "name": "Prestigiu"
+        },
         "collections": [
             {
                 "id": "collection-set-op11-characters",

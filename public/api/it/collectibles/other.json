@@ -2,36 +2,44 @@
     {
         "id": "collectible-874",
         "name": "Gettone da veterano quinquennale",
-        "name_original": "CollectibleCoin_FiveYearService",
         "description": "È stato un membro della comunità di Counter-Strike per oltre 5 anni.",
-        "rarity": "Straordinario",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Straordinario"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/5yearcoin_large.8f83517dbda53fc10805f00bf0e3f59d30ee5033.png"
     },
     {
         "id": "collectible-969",
         "name": "Gettone da veterano decennale",
-        "name_original": "CollectibleCoin_TenYearService",
         "description": "È stato un membro della comunità di Counter-Strike per oltre 10 anni.",
-        "rarity": "Straordinario",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Straordinario"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/10yearcoin_large.260e9a5c3a985930c43617436651a6e946313ae2.png"
     },
     {
         "id": "collectible-970",
         "name": "Medaglia di lealtà",
-        "name_original": "CollectibleCoin_FortiusQuoFidelius",
         "description": "Questa medaglia viene assegnata in commemorazione della fedele partecipazione alla comunità di Counter-Strike prima dell'aggiornamento Zona di pericolo. <i>Forza tramite fedeltà.</i>",
-        "rarity": "Straordinario",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Straordinario"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/prime_badge_large.f8144d0a79cf586c900a22f4c226410a0f307409.png"
     },
     {
         "id": "collectible-987",
         "name": "Gettone per il decimo compleanno",
-        "name_original": "CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
         "description": "Per aver festeggiato il decimo compleanno di CS:GO con tutta la fantastica comunità di CS:GO.\\n\\n<i>Per celebrare dieci anni di colpi alla testa, clutch e l'intera comunità. Buon compleanno, CS:GO!</i>",
-        "rarity": "Straordinario",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Straordinario"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
     }

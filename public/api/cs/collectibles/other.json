@@ -2,36 +2,44 @@
     {
         "id": "collectible-874",
         "name": "Veteránská mince (5 let)",
-        "name_original": "CollectibleCoin_FiveYearService",
         "description": "Je členem komunity Counter-Strike více než 5 let.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/5yearcoin_large.8f83517dbda53fc10805f00bf0e3f59d30ee5033.png"
     },
     {
         "id": "collectible-969",
         "name": "Veteránská mince (10 let)",
-        "name_original": "CollectibleCoin_TenYearService",
         "description": "Je členem komunity Counter-Strike více než 10 let.",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/10yearcoin_large.260e9a5c3a985930c43617436651a6e946313ae2.png"
     },
     {
         "id": "collectible-970",
         "name": "Odznak Za věrnost",
-        "name_original": "CollectibleCoin_FortiusQuoFidelius",
         "description": "Tento odznak byl udělen věrným členům komunity hry Counter-Strike, kteří narukovali před vydáním aktualizace Zóna smrti. <i>Věrnost značí sílu</i>",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/prime_badge_large.f8144d0a79cf586c900a22f4c226410a0f307409.png"
     },
     {
         "id": "collectible-987",
         "name": "Narozeninová mince (10 let)",
-        "name_original": "CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
         "description": "Mince udělená za účast na oslavách 10. narozenin hry CS:GO.\\n\\n<i>Všechno nejlepší, CS:GO! Těšíme se na dalších deset let headshotů, vítězství a skvělé komunity!</i>",
-        "rarity": "Mimořádná",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Mimořádná"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
     }

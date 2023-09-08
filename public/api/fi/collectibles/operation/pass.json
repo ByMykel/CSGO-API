@@ -2,243 +2,297 @@
     {
         "id": "collectible-1000",
         "name": "Operaatio Vastaisku -passi",
-        "name_original": "Ticket_CommunitySeasonOneSpring2013",
         "description": "Operaatio Vastaisku järjestettiin 25.4. - 2.9.2013. Yhteisön kartantekijöitä palkittiin sen kautta yli 180 000 Yhdysvaltain dollarilla. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Vastaisku -kolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass.b17a35da019f3256833ea4089c7df6c2ece80274.png"
     },
     {
         "id": "collectible-1012",
         "name": "Operaatio Bravo -passi",
-        "name_original": "Ticket_CommunitySeasonTwoAutumn2013",
         "description": "Operaatio Bravo järjestettiin 19.9.2013–5.2.2014. Passilla ei voi enää käyttää operaatiota, mutta sillä voi lunastaa Operaatio Bravo -muistokolikon.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_pass.d8cb196619345c8b5883f515bdb46c5b3de4e995.png"
     },
     {
         "id": "collectible-1023",
         "name": "Operaatio Feeniks -passi",
-        "name_original": "Ticket_CommunitySeasonThreeSpring2014",
         "description": "Operaatio Feeniks järjestettiin 20.2.2014 - 11.6.2014. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Feeniks -haastekolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_pass.ef3b4180e52d2d4a4cbb9fbe2df440b1ee8f0dca.png"
     },
     {
         "id": "collectible-1027",
         "name": "Operaatio Läpimurron täyden pääsyn passi",
-        "name_original": "Ticket_CommunitySeasonFourSummer2014",
         "description": "Operaatio Läpimurto järjestettiin 2.7.-2.10.2014. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Läpimurto -kolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_pass.2c84f278eec59611affd866a64e255d6f64b8a44.png"
     },
     {
         "id": "collectible-1315",
         "name": "Operaatio Eturintama -pääsypassi",
-        "name_original": "Ticket_CommunitySeasonFiveSummer2014",
         "description": "Operaatio Eturintama järjestettiin 11.11.2014 - 31.3.2015. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Eturintama -haastekolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_pass.4dbf27f27c32be69ae74f13f6aaa20da52ae8126.png"
     },
     {
         "id": "collectible-1326",
         "name": "Operaatio Verikoira -pääsypassi",
-        "name_original": "Ticket_CommunitySeasonSix2015",
         "description": "Operaatio Verikoira järjestettiin 26.5.2015 - 1.10.2015. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Verikoira -kolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_pass.6c266208675ae8c4ad41b9ecd09502f7bf0fd97e.png"
     },
     {
         "id": "collectible-1335",
         "name": "Operaatio Maastopalo -pääsypassi",
-        "name_original": "Ticket_CommunitySeasonSeven2016",
         "description": "Operaatio Maastopalo järjestettiin 17.2. - 13.7.2016. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Maastopalo -haastekolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_pass.b32f61c6e309f3a7e65af16b69b247909fcd0c0b.png"
     },
     {
         "id": "collectible-1352",
         "name": "Operaatio Hydra -pääsypassi",
-        "name_original": "Ticket_CommunitySeasonEight2017",
         "description": "Operaatio Hydra oli käynnissä 23.5.–14.11.2017. Tällä passilla ei enää pääse mukaan operaatioon, mutta sitä voidaan käyttää Operaatio Hydra -muistokolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_pass.618082f7f809d4e09d021d535bc2aac25c58cffd.png"
     },
     {
         "id": "collectible-4549",
         "name": "Operaatio Pirstaleisen verkon Premium-passi",
-        "name_original": "Ticket_CommunitySeasonNine2019",
         "description": "Operaatio Pirstalainen verkko oli käynnissä 18.11.2019–31.3.2020. Tällä passilla ei enää pääse mukaan operaatioon, mutta sitä voidaan käyttää Operaatio Pirstaleinen verkko -muistokolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_pass.d5d295b3cc8f44e27d007be7adff692bee8f0e0d.png"
     },
     {
         "id": "collectible-4554",
         "name": "Katowice 2019 -katsojapassi",
-        "name_original": "TournamentPass_katowice2019",
         "description": "Saammeko esitellä sinetöidyn 2019 Katowicen CS:GO Major -turnauksen katsojapassin? Avaamalla passin saat Katowice 2019 -kolikon, jolla seuraat edistystäsi kisoissa. Passi sisältää pääsyn Katowice 2019 Pick'Em -haasteeseen, tuliaispaketteihin ja Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää Katowice 2019 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispaketin.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_pickem_2019_pass_large.781a7032e3991b233a3c8312ed6addb63b1d0dca.png"
     },
     {
         "id": "collectible-4622",
         "name": "Berliini 2019 -katsojapassi",
-        "name_original": "TournamentPass_berlin2019",
         "description": "Tämä on sinetöity StarLadder 2019 Berliinin CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Berliini 2019 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Berliini 2019 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Berliini 2019 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_large.0fb237032a1b434d0c5aa0e6653948d187336568.png"
     },
     {
         "id": "collectible-4627",
         "name": "Berliini 2019 -katsojapassi + 3 tuliaispolettia",
-        "name_original": "TournamentPass_berlin2019_pack",
         "description": "Tämä on sinetöity StarLadder 2019 Berliinin CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Berliini 2019 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Berliini 2019 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Berliini 2019 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\nTämä katsojapassi aktivoi Berliini 2019 -kolikkosi kolmella tuliaispoletilla.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_pack_large.2d3fa17c8ce411f22ddfe18fd27afd18b8645a37.png"
     },
     {
         "id": "collectible-4628",
         "name": "Berliini 2019 -tuliaispoletti",
-        "name_original": "TournamentPass_berlin2019_charge",
         "description": "Tämä on sinetöity StarLadder 2019 Berliinin CS:GO Major -turnauksen tuliaispoletti. Kun poletin sinetti on avattu, se lisää poletin Berliini 2019 -kolikkoosi ja antaa mahdollisuuden lunastaa tuliaispaketin.\\n\\nPoletteja voi käyttää ainoastaan olemassaolevaan Berliini 2019 -kolikkoosi.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/starladder_pickem_2019_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
     },
     {
         "id": "collectible-4699",
         "name": "Operaatio Katkenneen torahampaan Premium-passi",
-        "name_original": "Ticket_CommunitySeasonTen2020",
         "description": "Operaatio Katkennut torahammas järjestettiin 3.12.2020–30.4.2021. Tällä passilla ei voi enää käyttää operaatiota, mutta sen voi käyttää Operaatio Katkennut torahammas -haastekolikon lunastamiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_pass.01c15c3af790fac8b2e3834f9cc6b4bb18805e8d.png"
     },
     {
         "id": "collectible-4758",
         "name": "Operaatio Ristiaallokon Premium-passi",
-        "name_original": "Ticket_CommunitySeasonEleven2021",
         "description": "Saat Operaatio Ristiaallokon Premium-passilla saa päivitettävän Operaatio Ristiaallokko -muistokolikon, viikoittaisia tehtäviä ja pääsyn Operaation kaupan ainutlaatuisiin esineisiin.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_pass.2f9518117457d2500452254f1971dcc00771e1df.png"
     },
     {
         "id": "collectible-4796",
         "name": "Tukholma 2021 -katsojapassi",
-        "name_original": "TournamentPass_stockh2021",
         "description": "Tämä on sinetöity PGL 2021 Tukholman CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Tukholma 2021 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Tukholma 2021 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää Tukholma 2021 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\n50 % myyntituloista käytetään mukana olleiden järjestöjen tukemiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2021_pass_large.c75a3588ea64f775407bdebb9bf4aa2638fbf6ec.png"
     },
     {
         "id": "collectible-4801",
         "name": "Tukholma 2021 -katsojapassi + 3 tuliaispolettia",
-        "name_original": "TournamentPass_stockh2021_pack",
         "description": "Tämä on sinetöity PGL 2021 Tukholman CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Tukholma 2021 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Tukholma 2021 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää Tukholma 2021 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\nTämä katsojapassi aktivoi Tukholma 2021 -kolikkosi kolmella tuliaispoletilla.\\n\\n50 % myyntituloista käytetään mukana olleiden järjestöjen tukemiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2021_pass_pack_large.2485979c8bff16544b45356a5b24aa970f24c593.png"
     },
     {
         "id": "collectible-4802",
         "name": "Tukholma 2021 -tuliaispoletti",
-        "name_original": "TournamentPass_stockh2021_charge",
         "description": "Tämä on sinetöity PGL 2021 Tukholman CS:GO Major -turnauksen tuliaispoletti. Kun poletin sinetti on avattu, poletti lisätään Tukholma 2021 -kolikkoosi, ja voit lunastaa tuliaispaketin.\\n\\nPoletteja voi käyttää ainoastaan olemassaolevaan Tuhkolma 2021 -kolikkoosi.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2021_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
     },
     {
         "id": "collectible-4825",
         "name": "Antwerpen 2022 -katsojapassi",
-        "name_original": "TournamentPass_antwerp2022",
         "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Antwerp 2022 Coin tracking your progress throughout the event, full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2022_pass_large.1a83bb154dad72832132e99658db0e816cd09cdb.png"
     },
     {
         "id": "collectible-4830",
         "name": "Antwerp 2022 Viewer Pass + 3 Souvenir Tokens",
-        "name_original": "TournamentPass_antwerp2022_pack",
         "description": "Tämä on sinetöity PGL 2022 Antwerpenin CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Antwerpen 2022 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Antwerpen 2022 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit nostaa Antwerpen 2022 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\\n\\nKatsojapassi aktivoi Antwerpen 2022 -kolikkosi ja saat samalla kolme tuliaispolettia.\\n\\n50 % myyntituotosta käytetään tapahtumaan osallistuvien järjestöjen tukemiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2022_pass_pack_large.cc1894fc1fafb6b159346764f92e5b6b0ff9e2c8.png"
     },
     {
         "id": "collectible-4831",
         "name": "Antwerpen 2022 -tuliaispoletti",
-        "name_original": "TournamentPass_antwerp2022_charge",
         "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Antwerp 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Antwerp 2022 Coin.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/pgl_pickem_2022_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
     },
     {
         "id": "collectible-4850",
         "name": "Rio 2022 -katsojapassi",
-        "name_original": "TournamentPass_rio2022",
         "description": "Tämä on sinetöity IEM Rio 2022 CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Rio 2022 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Rio 2022 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää Rio 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\nPuolet myyntituloista käytetään mukana olevien järjestöjen tukemiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/iem_pickem_2022_pass_large.05a9c387addff7eb89b2d1f6acfd22943fb3c4d4.png"
     },
     {
         "id": "collectible-4855",
         "name": "Rio 2022 -katsojapassi + 3 tuliaispolettia",
-        "name_original": "TournamentPass_rio2022_pack",
         "description": "Tämä on sinetöity IEM Rio 2022 CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Rio 2022 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Rio 2022 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit nostaa Rio 2022 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\\n\\nKatsojapassi aktivoi Rio 2022 -kolikkosi ja saat samalla kolme tuliaispolettia.\\n\\n50 % myyntituotosta käytetään tapahtumaan osallistuvien järjestöjen tukemiseen.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/iem_pickem_2022_pass_pack_large.2a52ecc96936c635ae83da165a1c27e43e1ebf5f.png"
     },
     {
         "id": "collectible-4856",
         "name": "Rio 2022 -tuliaispoletti",
-        "name_original": "TournamentPass_rio2022_charge",
         "description": "Tämä on sinetöity IEM Rio 2022 CS:GO Major -turnauksen tuliaispoletti. Kun poletin sinetti on avattu, se lisää poletin Rio 2022 -kolikkoosi ja antaa mahdollisuuden lunastaa tuliaispaketin.\\n\\nPoletteja voi käyttää ainoastaan olemassa olevaan Rio 2022 -kolikkoon.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/iem_pickem_2022_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
     },
     {
         "id": "collectible-4883",
         "name": "Paris 2023 -katsojapassi",
-        "name_original": "TournamentPass_paris2023",
         "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin katsojapassi. Passin avaamalla saat Paris 2023 -kolikon, jolla voit seurata edistymistäsi tapahtuman ajan, täyden pääsyn Paris 2023 Pick'Em -haasteeseen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\nPäivitä Paris 2023 -kolikkosi suorittamalla kolikkohaasteet. Jokaisesta päivityksestä saa tuliaispoletin.\\n\\n\\n50 % passin myyntituloista menee tapahtumaan osallistujille.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/blast_pickem_2023_pass_large.a21a17e60f07716f77232a477881d2542b367620.png"
     },
     {
         "id": "collectible-4888",
         "name": "Paris 2023 -katsojapassi + 3 tuliaispolettia",
-        "name_original": "TournamentPass_paris2023_pack",
         "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin katsojapassi. Passin avaamalla saat Paris 2023 -kolikon, jolla voit seurata edistymistäsi tapahtuman ajan, täyden pääsyn Paris 2023 Pick'Em -haasteeseen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\nPäivitä Paris 2023 -kolikkosi suorittamalla kolikkohaasteet. Jokaisesta päivityksestä saa tuliaispoletin.\\n\\nKatsojapassi aktivoi Paris 2023 -kolikon valmiiksi kolmella tuliaispoletilla.\\n\\n\\n50 % passin myyntituloista menee tapahtumaan osallistujille.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/blast_pickem_2023_pass_pack_large.6c0da68571816c2403cb60f147187d97e44bf9af.png"
     },
     {
         "id": "collectible-4889",
         "name": "Paris 2023 -tuliaispoletti",
-        "name_original": "TournamentPass_paris2023_charge",
         "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin tuliaispoletti. Poletin avaaminen lisää sen Paris 2023 -kolikkoosi ja voit lunastaa tuliaispaketin.\\n\\nPoletteja voi lisätä vain olemassa olevaan Paris 2023 -kolikkoon.",
-        "rarity": "Perustason",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Perustason"
+        },
         "type": "Pass",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/blast_pickem_2023_pass_charge_large.767dda9572f597e6ce4af1f73073e844eb6aae2b.png"
     }

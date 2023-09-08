@@ -2,36 +2,44 @@
     {
         "id": "collectible-874",
         "name": "5 年老兵硬币",
-        "name_original": "CollectibleCoin_FiveYearService",
         "description": "已在《反恐精英》社区服役超过 5 年。",
-        "rarity": "非凡",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "非凡"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/5yearcoin_large.8f83517dbda53fc10805f00bf0e3f59d30ee5033.png"
     },
     {
         "id": "collectible-969",
         "name": "10 年老兵硬币",
-        "name_original": "CollectibleCoin_TenYearService",
         "description": "已在《反恐精英》社区服役超过 10 年。",
-        "rarity": "非凡",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "非凡"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/10yearcoin_large.260e9a5c3a985930c43617436651a6e946313ae2.png"
     },
     {
         "id": "collectible-970",
         "name": "忠诚徽章",
-        "name_original": "CollectibleCoin_FortiusQuoFidelius",
         "description": "此徽章旨在纪念《头号特训》更新前您已在反恐精英社区拥有的忠实会员资格。<i>忠诚的力量。</i>",
-        "rarity": "非凡",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "非凡"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/prime_badge_large.f8144d0a79cf586c900a22f4c226410a0f307409.png"
     },
     {
         "id": "collectible-987",
         "name": "CS:GO 10周年生日硬币",
-        "name_original": "CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
         "description": "和CS:GO社区一起庆祝CS:GO十周年生日。\\n\\n<i>纪念十年以来的爆头、残局以及社区时光。十周年生日快乐，CS:GO！</i>",
-        "rarity": "非凡",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "非凡"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
     }

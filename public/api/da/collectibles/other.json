@@ -2,36 +2,44 @@
     {
         "id": "collectible-874",
         "name": "5-års veteranmønt",
-        "name_original": "CollectibleCoin_FiveYearService",
         "description": "Har været medlem af Counter-Strike-fællesskabet i over 5 år.",
-        "rarity": "Ekstraordinær",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Ekstraordinær"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/5yearcoin_large.8f83517dbda53fc10805f00bf0e3f59d30ee5033.png"
     },
     {
         "id": "collectible-969",
         "name": "10-års veteranmønt",
-        "name_original": "CollectibleCoin_TenYearService",
         "description": "Har været medlem af Counter-Strike-fællesskabet i over 10 år.",
-        "rarity": "Ekstraordinær",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Ekstraordinær"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/10yearcoin_large.260e9a5c3a985930c43617436651a6e946313ae2.png"
     },
     {
         "id": "collectible-970",
         "name": "Loyalitetsemblem",
-        "name_original": "CollectibleCoin_FortiusQuoFidelius",
         "description": "Dette emblem fejrer loyalt medlemskab i Counter-Strike-fællesskabet forud for Battle Royale-opdateringen. <i>Styrke gennem loyalitet.</i>",
-        "rarity": "Ekstraordinær",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Ekstraordinær"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/prime_badge_large.f8144d0a79cf586c900a22f4c226410a0f307409.png"
     },
     {
         "id": "collectible-987",
         "name": "10-års fødselsdagsmønt",
-        "name_original": "CollectibleCoin_CsgoTenYearAnniversaryMemorabilia",
         "description": "Fejrede CS:GO's 10-års fødselsdag med CS:GO-fællesskabet.\\n\\n<i>En fejring af 10 år med hovedskud, clutches og fællesskab. Tillykke med 10-årsdagen, CS:GO!</i>",
-        "rarity": "Ekstraordinær",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Ekstraordinær"
+        },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
     }

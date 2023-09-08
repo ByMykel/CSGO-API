@@ -2,333 +2,407 @@
     {
         "id": "collectible-1001",
         "name": "Huy chương thử thách chiến dịch Payback",
-        "name_original": "Collectible_CommunitySeasonOneSpring2013_Coin1",
         "description": "Đã tham gia chiến dịch Payback để hỗ trợ các tác giả làm bản đồ cộng đồng.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass_coin1_large.bff9cd331dd659a64080d98e7705b76c024db56b.png"
     },
     {
         "id": "collectible-1002",
         "name": "Huy chương bạc chiến dịch Payback",
-        "name_original": "Collectible_CommunitySeasonOneSpring2013_Coin2",
         "description": "Đã tham gia chiến dịch Payback trong 10 giờ để hỗ trợ các tác giả làm bản đồ cộng đồng.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass_coin2_large.bc786108abf26dbe30a13fc81d15719f495b0560.png"
     },
     {
         "id": "collectible-1003",
         "name": "Huy chương vàng chiến dịch Payback",
-        "name_original": "Collectible_CommunitySeasonOneSpring2013_Coin3",
         "description": "Đã tham gia chiến dịch Payback trong 50 giờ để hỗ trợ các tác giả làm bản đồ cộng đồng.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/community_support_pass_coin3_large.c3afe0cfbd929f85fca1a63ec1815e8336dcfe7d.png"
     },
     {
         "id": "collectible-1013",
         "name": "Huy chương thử thách chiến dịch Bravo",
-        "name_original": "Collectible_CommunitySeasonTwoAutumn2013_Coin1",
         "description": "Đã tham gia chiến dịch Bravo.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_bronze_large.2542494a3a070356b8ba5f11dc0e38c95e1e624f.png"
     },
     {
         "id": "collectible-1014",
         "name": "Huy chương bạc chiến dịch Bravo",
-        "name_original": "Collectible_CommunitySeasonTwoAutumn2013_Coin2",
         "description": "Đã tham gia chiến dịch Bravo.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_silver_large.3f176a6b2c91c8b91747afc432c755c0b7e6fca7.png"
     },
     {
         "id": "collectible-1015",
         "name": "Huy chương vàng chiến dịch Bravo",
-        "name_original": "Collectible_CommunitySeasonTwoAutumn2013_Coin3",
         "description": "Đã tham gia chiến dịch Bravo.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_bravo_gold_large.d6be46887a064db399a7155c3e88ae321e2d3eba.png"
     },
     {
         "id": "collectible-1024",
         "name": "Huy chương thử thách chiến dịch Phoenix",
-        "name_original": "Collectible_CommunitySeasonThreeSpring2014_Coin1",
         "description": "Đã tham gia chiến dịch Phoenix.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_bronze_large.a370356824b271e2691ec6495e91e66e89567ceb.png"
     },
     {
         "id": "collectible-1025",
         "name": "Huy chương bạc chiến dịch Phoenix",
-        "name_original": "Collectible_CommunitySeasonThreeSpring2014_Coin2",
         "description": "Đã tham gia chiến dịch Phoenix.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_silver_large.0340dbf0af85f9f4c4bf36b3c605c273d9f80a26.png"
     },
     {
         "id": "collectible-1026",
         "name": "Huy chương vàng chiến dịch Phoenix",
-        "name_original": "Collectible_CommunitySeasonThreeSpring2014_Coin3",
         "description": "Đã tham gia chiến dịch Phoenix.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_phoenix_gold_large.7d5441fcfab0ce9df406b6e36a16ef1d5b884cf0.png"
     },
     {
         "id": "collectible-1028",
         "name": "Huy chương thử thách chiến dịch Breakout",
-        "name_original": "Collectible_CommunitySeasonFourSummer2014_Coin1",
         "description": "Đã tham gia chiến dịch Breakout.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_bronze_large.e829dba96adb71e711ed2d8f4628a67f31cfe56d.png"
     },
     {
         "id": "collectible-1029",
         "name": "Huy chương bạc chiến dịch Breakout",
-        "name_original": "Collectible_CommunitySeasonFourSummer2014_Coin2",
         "description": "Đã tham gia chiến dịch Breakout.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_silver_large.8e1574f62b67d6994ca2a2be962b274d72c24e72.png"
     },
     {
         "id": "collectible-1030",
         "name": "Huy chương vàng chiến dịch Breakout",
-        "name_original": "Collectible_CommunitySeasonFourSummer2014_Coin3",
         "description": "Đã tham gia chiến dịch Breakout.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_breakout_gold_large.3344fe7583c6b875072c240d98857c0aff2c3ea7.png"
     },
     {
         "id": "collectible-1316",
         "name": "Huy chương thử thách chiến dịch Vanguard",
-        "name_original": "Collectible_CommunitySeasonFiveSummer2014_Coin1",
         "description": "Đã tham gia chiến dịch Vanguard.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_bronze_large.49c23321be1477a5b2a20e96fceb539b95d55c0e.png"
     },
     {
         "id": "collectible-1317",
         "name": "Huy chương bạc chiến dịch Vanguard",
-        "name_original": "Collectible_CommunitySeasonFiveSummer2014_Coin2",
         "description": "Đã tham gia chiến dịch Vanguard.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_silver_large.3eeb504060cfc460a866435070f9a83772bd66f5.png"
     },
     {
         "id": "collectible-1318",
         "name": "Huy chương vàng chiến dịch Vanguard",
-        "name_original": "Collectible_CommunitySeasonFiveSummer2014_Coin3",
         "description": "Đã tham gia chiến dịch Vanguard.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_vanguard_gold_large.9fdda1c72855253c40d838658828b75b27a4dfaa.png"
     },
     {
         "id": "collectible-1327",
         "name": "Huy chương thử thách chiến dịch Bloodhound",
-        "name_original": "Collectible_CommunitySeasonSix2015_Coin1",
         "description": "Đã tham gia chiến dịch Bloodhound.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_bronze_large.c8ad11b3ca16d8f261febe8f80834fe8f3788f4a.png"
     },
     {
         "id": "collectible-1328",
         "name": "Huy chương bạc chiến dịch Bloodhound",
-        "name_original": "Collectible_CommunitySeasonSix2015_Coin2",
         "description": "Đã tham gia chiến dịch Bloodhound.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_silver_large.42451df217bac9066549ca4f113065c4d281d086.png"
     },
     {
         "id": "collectible-1329",
         "name": "Huy chương vàng chiến dịch Bloodhound",
-        "name_original": "Collectible_CommunitySeasonSix2015_Coin3",
         "description": "Đã tham gia chiến dịch Bloodhound.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_6_gold_large.5d677e66b4a7d3d15d9b5d82cc5496f537756836.png"
     },
     {
         "id": "collectible-1336",
         "name": "Huy chương thử thách chiến dịch Wildfire",
-        "name_original": "Collectible_CommunitySeasonSeven2016_Coin1",
         "description": "Đã tham gia chiến dịch Wildfire.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_bronze_large.51ae9b04cb166973332b33c6e059d78df30e99c4.png"
     },
     {
         "id": "collectible-1337",
         "name": "Huy chương bạc chiến dịch Wildfire",
-        "name_original": "Collectible_CommunitySeasonSeven2016_Coin2",
         "description": "Đã tham gia chiến dịch Wildfire.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_silver_large.cdcaefceda56aac0f72634df357627169ade3ce7.png"
     },
     {
         "id": "collectible-1338",
         "name": "Huy chương vàng chiến dịch Wildfire",
-        "name_original": "Collectible_CommunitySeasonSeven2016_Coin3",
         "description": "Đã tham gia chiến dịch Wildfire.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_7_gold_large.f1e8938c5782c84cd0dde19cbcce05536b6d9d90.png"
     },
     {
         "id": "collectible-4353",
         "name": "Huy chương thử thách chiến dịch Hydra",
-        "name_original": "Collectible_CommunitySeasonEight2017_Coin1",
         "description": "Đã tham gia chiến dịch Hydra.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_bronze_large.48b39774867299771186e907b52d07627231d56a.png"
     },
     {
         "id": "collectible-4354",
         "name": "Huy chương bạc chiến dịch Hydra",
-        "name_original": "Collectible_CommunitySeasonEight2017_Coin2",
         "description": "Đã tham gia chiến dịch Hydra.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_silver_large.0745a5448eef484c8a63b568f586d578e3a0a28e.png"
     },
     {
         "id": "collectible-4355",
         "name": "Huy chương vàng chiến dịch Hydra",
-        "name_original": "Collectible_CommunitySeasonEight2017_Coin3",
         "description": "Đã tham gia chiến dịch Hydra.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_gold_large.3fc3df385dd5404ef56f6468fda45a96a24c7b33.png"
     },
     {
         "id": "collectible-4356",
         "name": "Huy chương kim cương chiến dịch Hydra",
-        "name_original": "Collectible_CommunitySeasonEight2017_Coin4",
         "description": "Đã hoàn thành chiến dịch Hydra.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_8_platinum_large.bc4e1c9cc18c999b6e73b99bb4724854f7200565.png"
     },
     {
         "id": "collectible-4550",
         "name": "Huy hiệu thử thách Chiến dịch Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_Coin1",
         "description": "Đã tham gia chiến dịch Shattered Web.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_bronze_large.c62562775579ad9295e967d3e98144d2786348af.png"
     },
     {
         "id": "collectible-4551",
         "name": "Huy hiệu bạc chiến dịch Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_Coin2",
         "description": "Đã tham gia chiến dịch Shattered Web.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_silver_large.4697e21f351569768d9930e757b956fefaf28947.png"
     },
     {
         "id": "collectible-4552",
         "name": "Huy hiệu vàng chiến dịch Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_Coin3",
         "description": "Đã tham gia chiến dịch Shattered Web.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_gold_large.900ac40f49a1780494f22be4237e39093d6715a8.png"
     },
     {
         "id": "collectible-4553",
         "name": "Huy hiệu kim cương chiến dịch Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_Coin4",
         "description": "Đã hoàn thành chiến dịch Shattered Web.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_platinum_large.e94a99cdf778bb1c9cd14a0ca3f5a318bd04f3a9.png"
     },
     {
         "id": "collectible-4700",
         "name": "Huy chương thử thách chiến dịch Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_Coin1",
         "description": "Đã tham gia chiến dịch Broken Fang.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_bronze_large.6e9645fee1d758866103311a04dabd1b48ab90ce.png"
     },
     {
         "id": "collectible-4701",
         "name": "Huy chương bạc chiến dịch Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_Coin2",
         "description": "Đã tham gia chiến dịch Broken Fang.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_silver_large.55dfdab97e6e1972f409096f564958603c172926.png"
     },
     {
         "id": "collectible-4702",
         "name": "Huy chương vàng chiến dịch Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_Coin3",
         "description": "Đã tham gia chiến dịch Broken Fang.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_gold_large.03161e837bc3ce0e3332dd83de4746014804d88a.png"
     },
     {
         "id": "collectible-4703",
         "name": "Huy chương kim cương chiến dịch Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_Coin4",
         "description": "Đã hoàn thành chiến dịch Broken Fang.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_platinum_large.8e94472998756c6cd0a08307cadefa18e78d0068.png"
     },
     {
         "id": "collectible-4759",
         "name": "Huy chương thử thách chiến dịch Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_Coin1",
         "description": "Đã tham dự chiến dịch Riptide.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_bronze_large.756dfe794ff517efbc4e91956c4875247ca5b30e.png"
     },
     {
         "id": "collectible-4760",
         "name": "Huy chương bạc chiến dịch Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_Coin2",
         "description": "Đã tham dự chiến dịch Riptide.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_silver_large.46709592ccec382480b28fe5565d28e22cae68ba.png"
     },
     {
         "id": "collectible-4761",
         "name": "Huy chương vàng chiến dịch Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_Coin3",
         "description": "Đã tham dự chiến dịch Riptide.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_gold_large.8dff9bcd488cc62457e5beb2daedf4e4d89dc868.png"
     },
     {
         "id": "collectible-4762",
         "name": "Huy chương kim cương chiến dịch Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_Coin4",
         "description": "Hoàn thành chiến dịch Riptide.",
-        "rarity": "Phi thường",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Phi thường"
+        },
         "type": "Operation Coin",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_platinum_large.bf2cee2dcfab4b2df45bb0fc222e628c7c3e8612.png"
     }

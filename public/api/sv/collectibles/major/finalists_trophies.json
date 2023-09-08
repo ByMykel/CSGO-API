@@ -2,684 +2,836 @@
     {
         "id": "collectible-875",
         "name": "Vinnare av DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_Champion",
         "description": "Denna mästerskapstrofé delades ut till vinnaren av The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_champion_large.a71dc37ea50a3c5a441922acc9b0596fa2b51a1d.png"
     },
     {
         "id": "collectible-876",
         "name": "Finalist på DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_Finalist",
         "description": "Denna mästerskapstrofé delades ut till finalisten i The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_finalist_large.dc4dced76778dfb4b7abb779b49dd07be8169bb8.png"
     },
     {
         "id": "collectible-877",
         "name": "Semifinalist på DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_SemiFinalist",
         "description": "Denna mästerskapstrofé delades ut till semifinalisten i The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_semifinalist_large.9cabb8b8e44611b4b709c56f074a259ad2487eef.png"
     },
     {
         "id": "collectible-878",
         "name": "Kvartsfinalist på DreamHack 2013",
-        "name_original": "CollectibleCoin_DH2013_QuarterFinalist",
         "description": "Denna mästerskapstrofé delades ut till kvartsfinalisterna i The 2013 DreamHack SteelSeries CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dreamhack_2013_quarterfinalist_large.28b0d7ef982ef674148f77c5729be4d5221c0e49.png"
     },
     {
         "id": "collectible-879",
         "name": "Vinnare av EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_Champion",
         "description": "Denna mästerskapstrofé delades ut till vinnaren av The 2014 EMS One Katowice CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_champion_large.bf565f6085cb4a3fa366e3167f7b873090176623.png"
     },
     {
         "id": "collectible-880",
         "name": "Finalist i EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_Finalist",
         "description": "Denna mästerskapstrofé delades ut till finalisten i The 2014 EMS One Katowice CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_finalist_large.a96fab9b692e4e55cb310682df0deb8dba8f3a89.png"
     },
     {
         "id": "collectible-881",
         "name": "Semifinalist i EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_SemiFinalist",
         "description": "Denna mästerskapstrofé delades ut till semifinalisten i The 2014 EMS One Katowice CS:GO Championship.\n",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_semifinalist_large.85046d0d4b5748572859cb638c8e1f502825955d.png"
     },
     {
         "id": "collectible-882",
         "name": "Kvartsfinalist i EMS One Katowice 2014",
-        "name_original": "CollectibleCoin_Kat2014_QuarterFinalist",
         "description": "Denna mästerskapstrofé delades ut till kvartsfinalisten i The 2014 EMS One Katowice CS:GO Championship.\n",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/katowice_2014_quarterfinalist_large.54910e582990bd76a5058312f6ae85c3a5dec30c.png"
     },
     {
         "id": "collectible-883",
         "name": "Vinnare av ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_Champion",
         "description": "Denna mästerskapstrofé delades ut till vinnaren av The ESL One Cologne 2014 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_champion_large.321d0168210c645327273a0a108670a2d8f3b71d.png"
     },
     {
         "id": "collectible-884",
         "name": "Finalist på ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_Finalist",
         "description": "Denna mästerskapstrofé delades ut till finalisten i The ESL One Cologne 2014 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_finalist_large.bc5075600a1b9b6d36e3f2fc4ddea54a0154f8b6.png"
     },
     {
         "id": "collectible-885",
         "name": "Semifinalist på ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_SemiFinalist",
         "description": "Denna mästerskapstrofé delades ut till semifinalisten i The ESL One Cologne 2014 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_semifinalist_large.424db65bc9a21a4e837cf27d26a2f5bb55ab821e.png"
     },
     {
         "id": "collectible-886",
         "name": "Kvartsfinalist på ESL One Cologne 2014",
-        "name_original": "CollectibleCoin_Cologne2014_QuarterFinalist",
         "description": "Denna mästerskapstrofé delades ut till kvartsfinalisten i The ESL One Cologne 2014 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cologne_trophy_quarterfinalist_large.fc4034c97f63afe33acc1f677535069949a7fa4d.png"
     },
     {
         "id": "collectible-890",
         "name": "Segrare av DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_Champion",
         "description": "Denna mästerskapstrofé tilldelades segraren av CS:GO-mästerskapet på DreamHack Winter 2014.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_champion_large.00b52cf3cab0182fcc466cfad2f8c560812d8a5a.png"
     },
     {
         "id": "collectible-891",
         "name": "Finalist på DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisten i CS:GO-mästerskapet på DreamHack Winter 2014.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_finalist_large.5dd601bef4b79c3e1623898773cb22b12e1ff4cb.png"
     },
     {
         "id": "collectible-892",
         "name": "Semifinalist i DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_SemiFinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisten i CS:GO-mästerskapet på DreamHack Winter 2014.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_semifinalist_large.be9e9fd274a887c4a742d42aa01bfdb97b53c969.png"
     },
     {
         "id": "collectible-893",
         "name": "Kvartsfinalist i DreamHack Winter 2014",
-        "name_original": "CollectibleCoin_DHW2014_QuarterFinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisten i CS:GO-mästerskapet på DreamHack Winter 2014.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/dhw_2014_quarterfinalist_large.431337841f75ff3c3dd1ef980a571d204433d50d.png"
     },
     {
         "id": "collectible-897",
         "name": "Vinnare av ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_Champion",
         "description": "Denna mästerskapstrofé blev tilldelad till vinnaren av ESL One Katowice 2015 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_champion_large.0dd8522828b82ebf52efc6940ac7613d6b3428c1.png"
     },
     {
         "id": "collectible-898",
         "name": "Finalist i ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_Finalist",
         "description": "Denna mästerskapstrofé blev tilldelad till finalisten av ESL One Katowice 2015 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_finalist_large.a4210eda1b48bc84b7fc496a8ebe3bab6dde553e.png"
     },
     {
         "id": "collectible-899",
         "name": "Semifinalist i ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_SemiFinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till semifinalisterna av ESL One Katowice 2015 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_semifinalist_large.5d4acb38d67d95c2e395d58e91952572fabad669.png"
     },
     {
         "id": "collectible-900",
         "name": "Kvartsfinalist i ESL One Katowice 2015",
-        "name_original": "CollectibleCoin_Kat2015_QuarterFinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till kvartsfinalisterna av ESL One Katowice 2015 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/kat_2015_quarterfinalist_large.707a47abca3a99776574ce056643ee339b41e25d.png"
     },
     {
         "id": "collectible-904",
         "name": "Mästare vid ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_Champion",
         "description": "Denna mästerskapstrofé blev tilldelad till mästaren vid ESL One Cologne 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_champion_large.8bc88fbd2f73f61c9a0afbb5b6221542793ada5d.png"
     },
     {
         "id": "collectible-905",
         "name": "Finalist vid ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_Finalist",
         "description": "Denna mästerskapstrofé blev tilldelad till finalisterna vid ESL One Cologne 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_finalist_large.507c4440ad457da4802ebc4eccd01b854f3781ee.png"
     },
     {
         "id": "collectible-906",
         "name": "Semifinalist vid ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_SemiFinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till semifinalisterna vid ESL One Cologne 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_semifinalist_large.5e434d8956fa32b7d597aad5d28bab52cecd8dfe.png"
     },
     {
         "id": "collectible-907",
         "name": "Kvartsfinalist vid ESL One Cologne 2015",
-        "name_original": "CollectibleCoin_Cologne2015_QuarterFinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till kvartsfinalisterna vid ESL One Cologne 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/col_2015_quarterfinalist_large.e97caa5038e0deacc8604acb1632e86115b6dcd2.png"
     },
     {
         "id": "collectible-917",
         "name": "Mästare vid DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Champion",
         "description": "Denna mästerskapstrofé blev tilldelad till mästaren vid DreamHack Cluj-Napoca 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-918",
         "name": "Finalist vid DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Finalist",
         "description": "Denna mästerskapstrofé blev tilldelad till finalisterna vid DreamHack Cluj-Napoca 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-919",
         "name": "Semifinalist vid DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Semifinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till semifinalisterna vid DreamHack Cluj-Napoca 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-920",
         "name": "Kvartsfinalist vid DreamHack Cluj-Napoca 2015",
-        "name_original": "CollectibleCoin_Cluj2015_Quarterfinalist",
         "description": "Denna mästerskapstrofé blev tilldelad till kvartsfinalisterna vid DreamHack Cluj-Napoca 2015 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-927",
         "name": "Mästare vid MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Champion",
         "description": "Denna mästerskapstrofé delades ut till mästaren av MLG Columbus 2016 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-928",
         "name": "Finalist vid MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Finalist",
         "description": "Denna mästerskapstrofé delades ut till finalisterna av MLG Columbus 2016 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-929",
         "name": "Semifinalist vid MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Semifinalist",
         "description": "Denna mästerskapstrofé delades ut till semifinalisterna av MLG Columbus 2016 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-930",
         "name": "Kvartsfinalist vid MLG Columbus 2016",
-        "name_original": "CollectibleCoin_Columbus2016_Quarterfinalist",
         "description": "Denna mästerskapstrofé delades ut till kvartsfinalisterna av MLG Columbus 2016 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-931",
         "name": "Mästare vid ESL One Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Champion",
         "description": "Denna mästerskapstrofé delades ut till mästaren av ESL One Cologne 2016 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-932",
         "name": "Finalist vid ESL One Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Finalist",
         "description": "Denna mästerskapstrofé delades ut till finalisten av ESL One Cologne 2016 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-933",
         "name": "Semifinalist vid ESL One Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Semifinalist",
         "description": "Denna mästerskapstrofé delades ut till semifinalisterna av ESL One Cologne 2016 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-934",
         "name": "Kvartsfinalist vid ESL One Cologne 2016",
-        "name_original": "CollectibleCoin_Cologne2016_Quarterfinalist",
         "description": "Denna mästerskapstrofé delades ut till kvartsfinalisterna av ESL One Cologne 2016 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-941",
         "name": "Vinnare av ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Champion",
         "description": "Denna mästerskapstrofé tilldelades vinnaren av ELEAGUE Atlanta 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-942",
         "name": "Finalist på ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisten i ELEAGUE Atlanta 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-943",
         "name": "Semifinalist på ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Semifinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisten i ELEAGUE Atlanta 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-944",
         "name": "Kvartsfinalist på ELEAGUE Atlanta 2017",
-        "name_original": "CollectibleCoin_Atlanta2017_Quarterfinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisten i ELEAGUE Atlanta 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-948",
         "name": "Mästare vid PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Champion",
         "description": "Denna mästerskapstrofé tilldelades vinnaren av PGL Krakow 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-949",
         "name": "Finalist vid PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisten i PGL Krakow 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-950",
         "name": "Semifinalist vid PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Semifinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisten i PGL Krakow 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-951",
         "name": "Kvartsfinalist vid PGL Krakow 2017",
-        "name_original": "CollectibleCoin_Krakow2017_Quarterfinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisten i PGL Krakow 2017 CS:GO-mästerskapet.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-955",
         "name": "Mästare vid ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Champion",
         "description": "Denna mästerskapstrofé tilldelades vinnarna av CS:GO-mästerskapet ELEAGUE Boston 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-956",
         "name": "Finalist vid ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisterna av CS:GO-mästerskapet ELEAGUE Boston 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-957",
         "name": "Semifinalist vid ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Semifinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisterna av CS:GO-mästerskapet ELEAGUE Boston 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-958",
         "name": "Kvartsfinalist vid ELEAGUE Boston 2018",
-        "name_original": "CollectibleCoin_Boston2018_Quarterfinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisterna av CS:GO-mästerskapet ELEAGUE Boston 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-962",
         "name": "Vinnare av FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Champion",
         "description": "Denna mästerskapstrofé tilldelades vinnarna i CS:GO-mästerskapet FACEIT London 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-963",
         "name": "Finalist i FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisterna i CS:GO-mästerskapet FACEIT London 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-964",
         "name": "Semifinalist i FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Semifinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisterna i CS:GO-mästerskapet FACEIT London 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-965",
         "name": "Kvartsfinalist i FACEIT London 2018",
-        "name_original": "CollectibleCoin_London2018_Quarterfinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisterna i CS:GO-mästerskapet FACEIT London 2018.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-971",
         "name": "Mästare i IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Champion",
         "description": "Mästaren i CS:GO-mästerskapet IEM Katowice 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-972",
         "name": "Finalist i IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Finalist",
         "description": "Finalisten i CS:GO-mästerskapet IEM Katowice 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-973",
         "name": "Semifinalist i IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Semifinalist",
         "description": "Semifinalisten i CS:GO-mästerskapet IEM Katowice 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-974",
         "name": "Kvartsfinalist i IEM Katowice 2019",
-        "name_original": "CollectibleCoin_Katowice2019_Quarterfinalist",
         "description": "Kvartsfinalisten i CS:GO-mästerskapet IEM Katowice 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-975",
         "name": "Segrare av StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Champion",
         "description": "Mästaren i CS:GO-mästerskapet StarLadder Berlin 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-976",
         "name": "Finalist i StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Finalist",
         "description": "Finalisten i CS:GO-mästerskapet StarLadder Berlin 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-977",
         "name": "Semifinalist i StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Semifinalist",
         "description": "Semifinalisten i CS:GO-mästerskapet StarLadder Berlin 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-978",
         "name": "Kvartsfinalist i StarLadder Berlin 2019",
-        "name_original": "CollectibleCoin_Berlin2019_Quarterfinalist",
         "description": "Kvartsfinalisten i CS:GO-mästerskapet StarLadder Berlin 2019 tilldelades denna mästerskapstrofé.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-979",
         "name": "Mästare av PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Champion",
         "description": "Denna mästerskapstrofé tilldelades mästaren av PGL Stockholm 2021 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-980",
         "name": "Finalist i PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Finalist",
         "description": "Denna mästerskapstrofé tilldelades finalisten i PGL Stockholm 2021 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-981",
         "name": "Semifinalist i PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Semifinalist",
         "description": "Denna mästerskapstrofé tilldelades semifinalisten i PGL Stockholm 2021 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-982",
         "name": "Kvartsfinalist i PGL Stockholm 2021",
-        "name_original": "CollectibleCoin_Stockh2021_Quarterfinalist",
         "description": "Denna mästerskapstrofé tilldelades kvartsfinalisten i PGL Stockholm 2021 CS:GO Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-983",
         "name": "Champion at PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Champion",
         "description": "This championship trophy was awarded to the Champion at the PGL Antwerp 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-984",
         "name": "Finalist at PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Finalist",
         "description": "This championship trophy was awarded to the Finalist at the PGL Antwerp 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-985",
         "name": "Semifinalist at PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Semifinalist",
         "description": "This championship trophy was awarded to the Semifinalist at the PGL Antwerp 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-986",
         "name": "Quarterfinalist at PGL Antwerp 2022",
-        "name_original": "CollectibleCoin_Antwerp2022_Quarterfinalist",
         "description": "This championship trophy was awarded to the Quarterfinalist at the PGL Antwerp 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-988",
         "name": "Champion at IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Champion",
         "description": "This championship trophy was awarded to the Champion at the IEM Rio 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-989",
         "name": "Finalist at IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Finalist",
         "description": "This championship trophy was awarded to the Finalist at the IEM Rio 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-990",
         "name": "Semifinalist at IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Semifinalist",
         "description": "This championship trophy was awarded to the Semifinalist at the IEM Rio 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-991",
         "name": "Quarterfinalist at IEM Rio 2022",
-        "name_original": "CollectibleCoin_Rio2022_Quarterfinalist",
         "description": "This championship trophy was awarded to the Quarterfinalist at the IEM Rio 2022 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-992",
         "name": "Champion at BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Champion",
         "description": "This championship trophy was awarded to the Champion at the BLAST.tv Paris 2023 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_large.8a7e1053459660c0ba57dcc2dc95c02cbaf4125b.png"
     },
     {
         "id": "collectible-993",
         "name": "Finalist at BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Finalist",
         "description": "This championship trophy was awarded to the Finalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-994",
         "name": "Semifinalist at BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Semifinalist",
         "description": "This championship trophy was awarded to the Semifinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
         "id": "collectible-995",
         "name": "Quarterfinalist at BLAST.tv Paris 2023",
-        "name_original": "CollectibleCoin_Paris2023_Quarterfinalist",
         "description": "This championship trophy was awarded to the Quarterfinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
-        "rarity": "Extraordinär",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinär"
+        },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     }

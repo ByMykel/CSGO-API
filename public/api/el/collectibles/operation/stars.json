@@ -2,81 +2,99 @@
     {
         "id": "collectible-4671",
         "name": "1 Αστέρι για Επιχείρηση Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars1",
         "description": "Αυτή η αγοράσιμη αναβάθμιση Αστεριού Επιχείρησης παρέχει <b>1 Αστέρι Επιχείρησης</b> όταν ενεργοποιηθεί.\\n\\nΑυτή η αναβάθμιση Αστεριού Επιχείρησης είναι διαθέσιμη μόνο σε παίκτες που κατέχουν το νόμισμα Επιχείρησης.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars1_large.f51d184b258d5087dfe16993c945d20aaa0ce2b6.png"
     },
     {
         "id": "collectible-4672",
         "name": "10 Αστέρια για Επιχείρηση Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars10",
         "description": "Αυτή η αγοράσιμη αναβάθμιση Αστεριού Επιχείρησης παρέχει <b>10 Αστέρια Επιχείρησης</b> όταν ενεργοποιηθεί.\\n\\nΑυτή η αναβάθμιση Αστεριού Επιχείρησης είναι διαθέσιμη μόνο σε παίκτες που κατέχουν το νόμισμα Επιχείρησης.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars10_large.62009cee8e90e5db45b557189d0984542fa85369.png"
     },
     {
         "id": "collectible-4673",
         "name": "100 Αστέρια για την Επιχείρηση Shattered Web",
-        "name_original": "Collectible_CommunitySeasonNine2019_PlusStars100",
         "description": "Αυτή η αγοράσιμη αναβάθμιση Αστεριού Επιχείρησης παρέχει <b>100 Αστέρια Επιχείρησης</b> όταν ενεργοποιηθεί.\\n\\nΑυτή η αναβάθμιση Αστεριού Επιχείρησης είναι διαθέσιμη μόνο σε παίκτες που κατέχουν το νόμισμα Επιχείρησης.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_9_plusstars100_large.8875736d46373218bdee2fa1d8071d73d877c83d.png"
     },
     {
         "id": "collectible-4704",
         "name": "1 αστέρι για επιχείρηση Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars1",
         "description": "Αυτή η αγοράσιμη αναβάθμιση αστεριών επιχείρησης παρέχει <b>1 αστέρι επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars1_large.64bd00870a1e0595e63062c3da4adf4e1cbe7519.png"
     },
     {
         "id": "collectible-4705",
         "name": "10 αστέρια για επιχείρηση Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars10",
         "description": "Αυτή η αγοράσιμη αναβάθμιση αστεριών επιχείρησης παρέχει <b>10 αστέρια επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars10_large.a0cd543bdeb15052377e88527eabadfe2a125a57.png"
     },
     {
         "id": "collectible-4706",
         "name": "100 αστέρια για επιχείρηση Broken Fang",
-        "name_original": "Collectible_CommunitySeasonTen2020_PlusStars100",
         "description": "Αυτή η αγοράσιμη αναβάθμιση αστεριών επιχείρησης παρέχει <b>100 αστέρια επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_10_plusstars100_large.5b0ac9bbc809d742fc02c353ac2403e598c9aa4f.png"
     },
     {
         "id": "collectible-4763",
         "name": "1 Αστέρι για την Επιχείρηση Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars1",
         "description": "Αυτή η αναβάθμιση αστεριών Επιχείρησης, που μπορεί να αγοραστεί, παρέχει <b>1 αστέρι Επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars1_large.721d6a1b559240e5db934d7fd8cbe7adba370bb4.png"
     },
     {
         "id": "collectible-4764",
         "name": "10 Αστέρια για την Επιχείρηση Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars10",
         "description": "Αυτή η αναβάθμιση αστεριών Επιχείρησης, που μπορεί να αγοραστεί, παρέχει <b>10 αστέρια Επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars10_large.c28849501791a7c9f73d211870e212868e5e2559.png"
     },
     {
         "id": "collectible-4765",
         "name": "100 Αστέρια για την Επιχείρηση Riptide",
-        "name_original": "Collectible_CommunitySeasonEleven2021_PlusStars100",
         "description": "Αυτή η αναβάθμιση αστεριών Επιχείρησης, που μπορεί να αγοραστεί, παρέχει <b>100 αστέρια Επιχείρησης</b> όταν ενεργοποιηθεί.",
-        "rarity": "Base Grade",
+        "rarity": {
+            "id": "rarity_common",
+            "name": "Base Grade"
+        },
         "type": "Stars for Operation",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/operation_11_plusstars100_large.ad3aaffed8ab2fbe1c222ff4a8120bd8d54e57f9.png"
     }

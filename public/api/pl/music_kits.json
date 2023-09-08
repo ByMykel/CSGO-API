@@ -2,603 +2,737 @@
     {
         "id": "music_kit-3",
         "name": "Zestaw utworów | Daniel Sadowski, Crimson Assault",
-        "name_original": "danielsadowski_01",
         "description": "Kompozytor muzyki do gier wideo Daniel Sadowski przedstawia pakiet pełen dynamicznej muzyki, łączącej w sobie radość i pulsujące GRUBE BITY.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_01.a2bf9e2640ea2dbbf5d0179b7669e09f5e7a7408.png"
     },
     {
         "id": "music_kit-4",
         "name": "Zestaw utworów | Noisia, Sharpened",
-        "name_original": "noisia_01",
         "description": "Holenderskie elektroniczne trio Noisia stworzyło ciężkie, iście filmowe kompozycje, w których łączy tradycyjne i postępowe brzmienia.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/noisia_01.fe525cc5e29525708f4dc07c0a986a110075f796.png"
     },
     {
         "id": "music_kit-5",
         "name": "Zestaw utworów | Robert Allaire, Insurgency",
-        "name_original": "robertallaire_01",
         "description": "Muzyka przy której zmiażdżysz swojego wroga i rzucisz go na kolana stworzona przez wielokrotnie nagradzanego kompozytora Roberta Allaire'a.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/robertallaire_01.61aafd2711f5f4ad260390f546fea72d57929900.png"
     },
     {
         "id": "music_kit-6",
         "name": "Zestaw utworów | Sean Murray, A*D*8",
-        "name_original": "seanmurray_01",
         "description": "Kompozytor dwóch najbardziej znanych gier wojennych na świecie stworzył akustyczny ładunek, który pośle twoich przeciwników do samych bram piekieł!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/seanmurray_01.5e8de73cba9c875085372f52f70cbc3404e6dcc1.png"
     },
     {
         "id": "music_kit-7",
         "name": "Zestaw utworów | Feed Me, High Noon",
-        "name_original": "feedme_01",
         "description": "Znany muzyk elektroniczny Feed Me przenosi westernowe strzelaniny w świat elektronicznych brzmień.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/feedme_01.8fcf645e3b3b2754bd9c478d1576b20cb3c18fa6.png"
     },
     {
         "id": "music_kit-8",
         "name": "Zestaw utworów | Dren, Death's Head Demolition",
-        "name_original": "dren_01",
         "description": "Ten inspirowany muzyką filmową i metalem pakiet autorstwa kompozytora muzyki do gier, Drena sprawi, że poczujesz się niczym superbohater.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_01.fc2175fa289bd9953dcc7d6c672a75d9e42f6093.png"
     },
     {
         "id": "music_kit-9",
         "name": "Zestaw utworów | Austin Wintory, Desert Fire",
-        "name_original": "austinwintory_01",
         "description": "Nominowany do nagrody Grammy kompozytor muzyki do gier Austin Wintory zadał sobie pytanie, po co polować na wrogów, jak można ich wciągnąć w pułapkę śmiercionośnym tangiem?",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_01.5e3be7d7bd2e123d76969e7d17617545804a6c6b.png"
     },
     {
         "id": "music_kit-10",
         "name": "Zestaw utworów | Sasha, LNOE",
-        "name_original": "sasha_01",
         "description": "Zanurz się w tej filmowej ścieżce dźwiękowej pełnej pulsujących melodii, wznoszącego się dźwięku smyczków i potężnych bębnów stworzonej przez światowej sławy DJa/producenta muzycznego, Sashę.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sasha_01.8ad1c2aebd178df3dff09c4f190b7064d46d142e.png"
     },
     {
         "id": "music_kit-11",
         "name": "Zestaw utworów | Skog, Metal",
-        "name_original": "skog_01",
         "description": "Lekcja agresji od producenta Metal, Skoga.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_01.4869cd4270b65135eff75d121012db094bbf4973.png"
     },
     {
         "id": "music_kit-12",
         "name": "Zestaw utworów | Midnight Riders, All I Want for Christmas",
-        "name_original": "midnightriders_01",
         "description": "„WESOŁYCH ŚWIĄT, S*****SYNY!”\\n - Midnight Riders",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/midnightriders_01.22ad94b80a058ad3cb1373fcf0f69e6983491765.png"
     },
     {
         "id": "music_kit-13",
         "name": "Zestaw utworów | Matt Lange, IsoRhythm",
-        "name_original": "mattlange_01",
         "description": "Oddaj swój zmysł słuchu w kolekcji kinowej muzyki w stylu glitch i ciężkich, pulsujących rytmach od producenta i innowatora muzyki elektronicznej, Matta Lange'a.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlange_01.a5321f2db9fd84c93e384e28d6048784913af83a.png"
     },
     {
         "id": "music_kit-14",
         "name": "Zestaw utworów | Mateo Messina, For No Mankind",
-        "name_original": "mateomessina_01",
         "description": "Zniszcz swoich przeciwników. Czysta intensywność od zdobywcy nagrody Grammy, Mateo Messiny.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mateomessina_01.94e787b3d227841ea7a3cd48dfb911131a1bb1ef.png"
     },
     {
         "id": "music_kit-15",
         "name": "Zestaw utworów | Różni twórcy, Hotline Miami",
-        "name_original": "hotlinemiami_01",
         "description": "Wielu elektronicznych artystów dostarcza morderczych bitów w tym prześwietnym zestawie utworów z ikonicznego Hotline Miami.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hotlinemiami_01.df89086218adcaf00b86cffff78191f2f5bcb500.png"
     },
     {
         "id": "music_kit-16",
         "name": "Zestaw utworów | Daniel Sadowski, Total Domination",
-        "name_original": "danielsadowski_02",
         "description": "Kompozytor Daniel Sadowski podnosi poprzeczkę, tworząc agresywne elektroniczne beaty oraz kreatywne efekty dźwiękowe, a wszystko to w porywającym futurystycznym klimacie. „Uwaga: Powoduje wzrost adrenaliny we krwi!”",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_02.5a250ef0a92cbe07b1fd5d26afd1fda52d10ee8d.png"
     },
     {
         "id": "music_kit-17",
         "name": "Zestaw utworów | Damjan Mravunac, The Talos Principle",
-        "name_original": "damjanmravunac_01",
         "description": "Kompozytor Damjan Mravunac miesza energetyczne, kinowe rytmy z chórami epickiego formatu w tym zestawie utworów zawierającym muzykę z uznanej gry „The Talos Principle” od Croteam.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/damjanmravunac_01.538b68f26daddde3c83f6ae44de9947ab7e8c2d0.png"
     },
     {
         "id": "music_kit-18",
         "name": "Zestaw utworów | Proxy, Battlepack",
-        "name_original": "proxy_01",
         "description": "Rosyjski artysta gatunku heavy electronica o imieniu PROXY wytacza swoją własną ciężką artylerię do Counter-Strike'a. Połączenie odgłosów broni wraz z najlepszą technologią studyjną czyni ten zestaw unikalnym.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/proxy_01.12796e09ff47c1dd25757cff0761bf7b880dfb3b.png"
     },
     {
         "id": "music_kit-19",
         "name": "Zestaw utworów | Ki:Theory, MOLOTOV",
-        "name_original": "kitheory_01",
         "description": "Artysta nagraniowy i gracz na turnieju TI4 w Dota 2, Ki:Theory, zrzuca bomby dzięki temu przeszywającemu zestawowi ostrych jak brzytwa mrocznych, elektronicznych rockowych utworów.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kitheory_01.00e97bde40259873dfe52ffe809c0a05418d11ff.png"
     },
     {
         "id": "music_kit-20",
         "name": "Zestaw utworów | Troels Folmann, Uber Blasto Phone",
-        "name_original": "troelsfolmann_01",
         "description": "Triumphant Blastophones łączy się ze współczesnym Uberpulse w tej wybuchowej kolekcji od zwycięzcy wielu nagród - kompozytora Troelsa Folmanna.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/troelsfolmann_01.62c19e1f4ed3c30ec238d088ddc036671e574972.png"
     },
     {
         "id": "music_kit-21",
         "name": "Zestaw utworów | Kelly Bailey, Hazardous Environments",
-        "name_original": "kellybailey_01",
         "description": "Kelly Bailey, kompozytor muzyki do serii Half-Life studia Valve, tworzy arsenał nowej apokaliptycznej muzyki, inspirowaną mroczną stroną uniwersum gier.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kellybailey_01.5f62031bbb9d6859db2f1f8a575a6dcd1079c928.png"
     },
     {
         "id": "music_kit-22",
         "name": "Zestaw utworów | Skog, II-Headshot",
-        "name_original": "skog_02",
         "description": "Producent i kompozytor muzyki metalowej Jocke Skog powraca z całkowicie nowym, mocno brzmiącym zestawem utworów, zmieniając inne zestawy w grze w coś niemęsko milusińskiego i puszystego. Nie ma bata, idź i bądź MVP, żeby wszyscy mogli usłyszeć twoją zajebistość!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_02.eeb9ddb340f8a0b530b097f6a7f37cd922334f53.png"
     },
     {
         "id": "music_kit-23",
         "name": "Zestaw utworów | Daniel Sadowski, The 8-Bit Kit",
-        "name_original": "danielsadowski_03",
         "description": "Daniel Sadowski tworzy pierwszy w historii 8-bitowy zestaw utworów dla Counter-Strike, wypełniony autentycznymi 8-bitowymi dźwiękami.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_03.23f670f86d302907e1965780bf0fc145ab334235.png"
     },
     {
         "id": "music_kit-24",
         "name": "Zestaw utworów | AWOLNATION, I Am",
-        "name_original": "awolnation_01",
         "description": "Zespół alternatywnego rocka AWOLNATION dostarcza pamiętny zestaw utworów. Ten zestaw jest przeładowany eklektyczną kolekcją utworów i zawiera wstawki z singli „I am” oraz platynowy hit „Sail”.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/awolnation_01.2ffc1650abdea909957237a616b8a85f8ca686e4.png"
     },
     {
         "id": "music_kit-25",
         "name": "Zestaw utworów | Mord Fustang, Diamonds",
-        "name_original": "mordfustang_01",
         "description": "Diamenty. One są wieczne. Zagłęb się w arpeggiotron Morda Fustanga z tym świeżym zestawem brzmień groove i atmosfer.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mordfustang_01.19b15e98c183e4cf11f06ee9d59a890d91513a8b.png"
     },
     {
         "id": "music_kit-26",
         "name": "Zestaw utworów | Michael Bross, Invasion!",
-        "name_original": "michaelbross_01",
         "description": "Michael Bross przywołuje filmowo-epickie techno-grunge, by pozwolić ci w walce poczuć się niczym prawdziwy kozak.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/michaelbross_01.adff3cdea10bca94a92025cc1fd052b5a2327a8d.png"
     },
     {
         "id": "music_kit-27",
         "name": "Zestaw utworów | Ian Hultquist, Lion's Mouth",
-        "name_original": "ianhultquist_01",
         "description": "Miks tętniących instrumentów smyczkowych, syntezatorów i dudniących bębnów wojennych - przygotuj się do walki wraz z tą piorunującą ścieżką dźwiękową od kompozytowa Iana Hultquista.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/ianhultquist_01.3157f761e847ba428bbf82fbfa7f07c792a5d626.png"
     },
     {
         "id": "music_kit-28",
         "name": "Zestaw utworów | New Beat Fund, Sponge Fingerz",
-        "name_original": "newbeatfund_01",
         "description": "Plażowy rock z elementami hip-hopu, punku i garażowego popu. Bądź sobą i wal po łbach.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/newbeatfund_01.f711bcd037c0ccc121b3ef4d0d45b7646ba3ccce.png"
     },
     {
         "id": "music_kit-29",
         "name": "Zestaw utworów | Beartooth, Disgusting",
-        "name_original": "beartooth_01",
         "description": "Beartooth wraz ze swym agresywnym, staroszkolnym, hardcore'owym uderzeniem wprawia publikę w ruch i demolkę otoczenia. Idealna ścieżka dźwiękowa dla waszych fragów ze Skauta bez przycelowania. Rock aż do śmierci.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_01.7c8272a14a47916ceb4b59bc18b1f2d0036b5523.png"
     },
     {
         "id": "music_kit-30",
         "name": "Zestaw utworów | Lennie Moore, Java Havana Funkaloo",
-        "name_original": "lenniemoore_01",
         "description": "Kompozytor Lennie Moore serwuje aromatyczną, pikantną mieszankę Jazzu z Funkiem. Wyśmienita, gdy podana na zimno, niczym truchła twoich wrogów jak już się nimi zajmiesz.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/lenniemoore_01.85efce33bf5d30452a8e84e4a55c78c9b44775d3.png"
     },
     {
         "id": "music_kit-31",
         "name": "Zestaw utworów | Darude, Moments CS:GO",
-        "name_original": "darude_01",
         "description": "Poddaj swój umysł znanym muzycznym brzmieniom i tonom fińskiego producenta muzycznego Darude. Zanurz się w ciężkim połączeniu progresywnych wysokich tonów i dźwięcznej strukturze melodycznej z banku dźwięków jednego z najsłynniejszych pionierów muzyki dance.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/darude_01.7c92a500270301ab6883f6a144f59cc28571521d.png"
     },
     {
         "id": "music_kit-32",
         "name": "Zestaw utworów | Beartooth, Aggressive",
-        "name_original": "beartooth_02",
         "description": "Beartooth powraca. Ten nowy zestaw utworów uderza jeszcze agresywniej. Wzmocniliśmy hymn MVP, tak aby twoi przeciwnicy naprawdę poczuli smak porażki.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_02.6ec3c958567128d94455f7c3459b22ad2061a12c.png"
     },
     {
         "id": "music_kit-33",
         "name": "Zestaw utworów | Blitz Kids, The Good Youth",
-        "name_original": "blitzkids_01",
         "description": "Brytyjska grupa Blitz Kids grająca mieszankę popu i punku przekazuje na twe ręce zestaw utworów idealny do szturmowania B oraz przypomni ci stare dobre czasy spędzone ze znajomymi. Z tym zestawem poczujesz się naprawdę młodo.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/blitzkids_01.5f0480468f7b46a838bb761dfdfa0788469e3e17.png"
     },
     {
         "id": "music_kit-34",
         "name": "Zestaw utworów | Hundredth, FREE",
-        "name_original": "hundredth_01",
         "description": "Hundredth stawia na heavy metal w tej unikalnej próbie stworzenia melodycznego hardcore'u. Uwolnij się lub powróć na Dust dzięki tej unikalnej ścieżce dźwiękowej, przez którą będziesz fragować niegodnych.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hundredth_01.f6032850a26e9b1fdc9e8435a574282b27792747.png"
     },
     {
         "id": "music_kit-35",
         "name": "Zestaw utworów | Neck Deep, Life's Not Out To Get You",
-        "name_original": "neckdeep_01",
         "description": "Czasami potrzebujesz trochę pop punku, by przetrwać dzień. Czy to rozprawianie się z camperami, czy utracenie długiej serii zabójstw, Neck Deep przybywa, by udowodnić, że życie nie chce cię skrzywdzić, ale drużyna przeciwna już tak.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_01.f2b26359736f263c519fb5bffbaf590c5cbdcd17.png"
     },
     {
         "id": "music_kit-36",
         "name": "Zestaw utworów | Roam, Backbone",
-        "name_original": "roam_01",
         "description": "Roam dostarcza szybkiego, prostego pop punku, który rozrusza zarówno całe tłumy, jak i pojedynczych graczy. Udowodnij swoją siłę charakteru dzięki tej ścieżce dźwiękowej, która jest wręcz idealna do szturmu oraz totalnego zniszczenia drużyny przeciwnej, zanim zorientuje się, że jest już martwa.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/roam_01.de919629f1df756d298d81cdb24e658eacf7090c.png"
     },
     {
         "id": "music_kit-37",
         "name": "Zestaw utworów | Twin Atlantic, GLA",
-        "name_original": "twinatlantic_01",
         "description": "Ciężsi i głośniejsi jak nigdy wcześniej, Twin Atlantic przybyli do CS:GO i pomogą ci rozgnieść wrogów szkocką muzyką rockową.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/twinatlantic_01.a3e60569d052721275943b7fa0a563e59dd2f105.png"
     },
     {
         "id": "music_kit-38",
         "name": "Zestaw utworów | Skog, III-Arena",
-        "name_original": "skog_03",
         "description": "Skog powraca po raz trzeci z kolejnym zestawem metalowych utworów. Tym razem łączy ciężkie gitarowe riffy z równie ciężkimi dropami, loopami, burdonami oraz własną, elektro-organiczną nutą.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_03.2a6b65fe2443cd27414c8ea48614c4b9386c377a.png"
     },
     {
         "id": "music_kit-39",
         "name": "Zestaw utworów | The Verkkars, EZ4ENCE",
-        "name_original": "theverkkars_01",
         "description": "The Verkkars pną się przez fińskie listy przebojów z zapierającym dech hołdzie dla ENCE. Czy to naprawdę będzie takie EZ?",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_01.c76969d8c14a9a74c71f0d5efce6453f7b70bf43.png"
     },
     {
         "id": "music_kit-40",
         "name": "Halo, The Master Chief Collection",
-        "name_original": "halo_01",
         "description": "Całkowicie odmień swoje doświadczenia słuchowe z gry Counter-Strike dzięki pakietowi utworów The Master Chief Collection, który zawiera kultowe utwory z uniwersum Halo. © 2019 343 Industries. Wszelkie prawa zastrzeżone. Użyto za zgodą studia 343 Industries. Halo: The Master Chief Collection oraz logo Halo są znakami towarowymi grupy kapitałowej Microsoft.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png"
     },
     {
         "id": "music_kit-41",
         "name": "Zestaw utworów | Scarlxrd: King, Scar",
-        "name_original": "scarlxrd_01",
         "description": "Scarlxrd łączy ciężkie bity trapowe z flowem i stylistyką, które razem tworzą swój własny, unikatowy podgatunek. Dzięki tej ekscytującej mieszance jego pokazy na żywo zwracają na siebie uwagę całego tłumu.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_01.f1deaed73c132260c8354198bc2f23e939b139b3.png"
     },
     {
         "id": "music_kit-42",
         "name": "Half-Life: Alyx, Anti-Citizen",
-        "name_original": "halflife_alyx_01",
         "description": "Ten zestaw utworów upamiętnia Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Jesteś jedyną szansą na ocalenie ludzkości, a twoje immersywne interakcje z otoczeniem mają swoją kontynuację w Counter-Strike: Global Offensive.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png"
     },
     {
         "id": "music_kit-43",
         "name": "Zestaw utworów | Austin Wintory, Bachram",
-        "name_original": "austinwintory_02",
         "description": "Austin Wintory łączy celtyckie fantasy ze skwierczącą elektroniką i hojną pomocą wokalu Petera Hollensa w tym zestawie utworów przekraczającym granice gatunków.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_02.c8fb789fab88586d69b2bc822332a7a86afb83ed.png"
     },
     {
         "id": "music_kit-44",
         "name": "Zestaw utworów | Dren, Gunman Taco Truck",
-        "name_original": "dren_02",
         "description": "Apokaliptyczna ścieżka dźwiękowa w stylu mariachi z bestsellerowej gry niezależnej „Gunman Taco Truck” trafia do CS:GO wraz z utworami w stylu meksykańskim takimi jak Pollo Diablo i Persecución de Helltain!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_02.63647ccdee069255f19589d7ce2d5b7de591aa6b.png"
     },
     {
         "id": "music_kit-45",
         "name": "Zestaw utworów | Daniel Sadowski, Eye of the Dragon",
-        "name_original": "danielsadowski_04",
         "description": "Osoba stojąca za „Total Domination”, „The 8-Bit Kit” oraz „Crimson Assault” przedstawia „Eye of The Dragon”. Kompozytor Daniel Sadowski łączy ninja, bronie, hip-hop oraz techno, aby stworzyć pełen akcji zestaw utworów. <i>Ninja są znani ze swoich szybkich i precyzyjnych ataków, ale mimo tego wciąż pozostają niewidzialni dla swoich przeciwników.</i>",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_04.6be221622292eabfe4da40d166fa75a6d0dcec55.png"
     },
     {
         "id": "music_kit-46",
         "name": "Zestaw utworów | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
-        "name_original": "treeadams_benbromfield_01",
         "description": "Alchemicy potężnego chaosu, czyli M.U.D.D. FORCE – kompozytorzy Tree Adams i Ben Bromfield łączą dające kopa motywy bitewne i dudnienia syntezatorów w wirze totalnej destrukcji twoich bębenków usznych.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/treeadams_benbromfield_01.08ca88c8f650b524f709a3e2e05e3160579771c3.png"
     },
     {
         "id": "music_kit-47",
         "name": "Zestaw utworów | Tim Huling, Neo Noir",
-        "name_original": "timhuling_01",
         "description": "Kompozytor Tim Huling prezentuje utwory w stylu klasycznego kina noir połączonego z bardziej współczesnymi brzmieniami.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/timhuling_01.518aa6b46cec0d809e1e984041c66fd00f22b005.png"
     },
     {
         "id": "music_kit-48",
         "name": "Zestaw utworów | Sam Marshall, Bodacious",
-        "name_original": "sammarshall_01",
         "description": "Zainspirowany funkową muzyką z gier wideo z początku lat 90. kompozytor Sam Marshall pichci klasyczną, grową nostalgią z dodatkiem nowoczesnej pikanterii.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sammarshall_01.05adc292af4abcfe6cd6b2d76a6020ab80122ada.png"
     },
     {
         "id": "music_kit-49",
         "name": "Zestaw utworów | Matt Levine, Drifter",
-        "name_original": "mattlevine_01",
         "description": "Kompozytor Matt Levine prezentuje czysto buńczuczne brzmienia w tym brutalnym hołdzie dla spaghetti westernów. Nigdy wcześniej powiedzenie „No dalej, zrób mi tę przyjemność...” nie brzmiało tak dobrze.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlevine_01.974b450e606547a138e15a540597164bcd70a8e8.png"
     },
     {
         "id": "music_kit-50",
         "name": "Zestaw utworów | Amon Tobin, All for Dust",
-        "name_original": "amontobin_01",
         "description": "Legendarny producent Amon użycza CS:GO swojej unikalnej estetyki, tym razem przez wzmacniacze lampowe.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/amontobin_01.2cf4f8b98a111fc847576bb6a8feb3364a2cfa1b.png"
     },
     {
         "id": "music_kit-51",
         "name": "Darren Korb, Hades Music Kit",
-        "name_original": "hades_01",
         "description": "Pewnie, każdemu zdarza się chybić od czasu do czasu, ale ten zestaw utworów prosto z podziemi Hadesu, dungeon crawlera z gatunku rogue-like od studia Supergiant Games, niechybnie sprawi, że krew będzie szybciej pulsować w twoich żyłach.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hades_01.41336135661d422039fe700e0bf4c8176886194e.png"
     },
     {
         "id": "music_kit-52",
         "name": "Zestaw utworów | Neck Deep, The Lowlife Pack",
-        "name_original": "neckdeep_02",
         "description": "Udowodnij, że nie jesteś normikiem (oraz że jesteś lepszy od reszty na mapie) dzięki nowemu zestawowi utworów od Neck Deep, który zawiera kawałki z albumu „All Distortions Are Intentional”.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_02.d00e38b24d5ca285fd34411afc34b874ab80cd1b.png"
     },
     {
         "id": "music_kit-53",
         "name": "Zestaw utworów | Scarlxrd, CHAIN$AW.LXADXUT.",
-        "name_original": "scarlxrd_02",
         "description": "CHAIN$AW SPRAWIA, ŻE SCARLXRD PRZEKRACZA WŁASNE GRANICE, MIESZAJĄC ZE SOBĄ DZIKI FLOW I CIĘŻKIE BRZMIENIE.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_02.9d630d5c49841c359e6def0bc2e4e24b62b2f233.png"
     },
     {
         "id": "music_kit-54",
         "name": "Zestaw utworów | Austin Wintory, Mocha Petal",
-        "name_original": "austinwintory_03",
         "description": "Austin Wintory odpowiada na pytanie, które ludzkość zadawała sobie od wieków: co się stanie, gdy połączymy polkę na akordeonie z grunge'owym heavy metalem?",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_03.18f6213b11eccdb12237547a78c2cb70fb54d829.png"
     },
     {
         "id": "music_kit-55",
         "name": "Zestaw utworów | Chipzel, ~Yellow Magic~",
-        "name_original": "chipzel_01",
         "description": "Kompozytorka gier wideo i legenda gatunku chiptune Chipzel przedstawia zglitchowaną i inspirowaną albumem „Speak & Spell” mieszankę hybrydowych stylów przepełnioną zabawą, funkiem i smakiem.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/chipzel_01.5f4d9f5a440a9b66807b3a1ca40bfe61bddc483c.png"
     },
     {
         "id": "music_kit-56",
         "name": "Zestaw utworów | Freaky DNA, Vici",
-        "name_original": "freakydna_01",
         "description": "Opera. 8-bitowe dźwięki. Syntezatory analogowe. Czego tu nie kochać? Specjalista gatunku chiptune Freaky DNA i sopranistka Leanne Koch łączą siły, tworząc ciężkie brzmienia i dobrze się bawiąc!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/freakydna_01.96afa403f5a9e023408e88496369361b4f557f44.png"
     },
     {
         "id": "music_kit-57",
         "name": "Zestaw utworów | Jesse Harlin, Astro Bellum",
-        "name_original": "jesseharlin_01",
         "description": "Kompozytor Jesse Harlin przedstawia pompatyczną muzykę rodem z oper kosmicznych inspirowaną klasykami science fiction z lat 70., 80, i późniejszych.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/jesseharlin_01.8698a32cdebbee16225c231bad5b422256a4dfe2.png"
     },
     {
         "id": "music_kit-58",
         "name": "Zestaw utworów | Laura Shigihara: Work Hard, Play Hard",
-        "name_original": "laurashigihara_01",
         "description": "Kompozytorka i producentka gier wideo Laura Shigihara pomoże ci przekazać wszystkim głośno i wyraźnie, że jesteś MVP. Baw się dobrze wraz z tą unikalną mieszanką taneczną lat 90., muzyki syntezatorowej z gier wideo, a także delikatnej nuty Plants vs. Zombies.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/laurashigihara_01.6ccd2d1904530773115ba88c2cbb389d3da46df3.png"
     },
     {
         "id": "music_kit-59",
         "name": "Zestaw utworów | Sarah Schachner, KOLIBRI",
-        "name_original": "sarahschachner_01",
         "description": "Sarah Schachner przedstawia dystopijny, gotycki chór samoświadomych, skandynawskich robotów, które decydują, że ludzkość musi zostać unicestwiona.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sarahschachner_01.5a5bef300a44f8f54ba3d817245cb32f66d1c85f.png"
     },
     {
         "id": "music_kit-60",
         "name": "Zestaw utworów | bbno$, u mad!",
-        "name_original": "bbnos_01",
         "description": "bbno$ komponuje jedyny w swoim rodzaju hymn toksycznych graczy o nazwie „u mad!”. Popłakałeś się? LOL naucz się grać, noobie. Badania wykazały, że jeżeli grasz z tym zestawem utworów, to natychmiast przechodzisz ze srebra do globala.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/bbnos_01.41bea5be0ec1c11d2f9c58cc24d175ab62870b74.png"
     },
     {
         "id": "music_kit-61",
         "name": "Zestaw utworów | The Verkkars & n0thing, Flashbang Dance",
-        "name_original": "theverkkars_02",
         "description": "Ze słonecznej Kalifornii do lodowatej Laponii! Legenda Counter-Strike, n0thing, łączy siły z grupą The Verkkars, by nagrać kasowy hit – Flashbang Dance! 3, 2, 1 i już nie widzisz nic!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_02.329034c68612e8f00f0f18e20d7a84f7d2b68627.png"
     },
     {
         "id": "music_kit-62",
         "name": "Zestaw utworów | 3kliksphilip, Heading for the Source",
-        "name_original": "3kliksphilip_01",
         "description": "Chcesz zostać profesjonalistą? A może nieumyślnie schodzisz na dół? Pozwól, by ten zestaw z syntezatorami z lat 80. i sennymi melodiami zabrał cię w przeszłość. Dawno, dawno, dawno temu... do starych, dobrych czasów.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/3kliksphilip_01.376011867dada400b17c357748d344c1491a2881.png"
     },
     {
         "id": "music_kit-63",
         "name": "Zestaw utworów | Humanity's Last Breath, Void",
-        "name_original": "hlb_01",
         "description": "Szwedzki zespół Humanity's Last Breath wjeżdża z ciężkim zestawem muzycznym „Void”. Dudniące bębny, potężne riffy i klimat, który sprawi, że ciarki przejdą ci po kręgosłupie.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlb_01.0b08df9d78b230f26b9e7eb4f8dca11f298b30ef.png"
     },
     {
         "id": "music_kit-64",
         "name": "Zestaw utworów | Juelz, Shooters",
-        "name_original": "juelz_01",
         "description": "Neotrapowe syntezatory, ostre 808, pełen rozmachu riff fortepianowy i mnóstwo efektów dźwiękowych związanych z wystrzałami. „Shooters” od Juelza, hymn trapu dla prawdziwych gangsterów, stanowi naprawdę elitarny zestaw muzyczny. Odpowiedni wyłącznie dla MVP.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/juelz_01.0d590b3dd6c58dba054ee00f52a8165966beb310.png"
     },
     {
         "id": "music_kit-65",
         "name": "Zestaw utworów | Knock2, dashstar*",
-        "name_original": "knock2_01",
         "description": "dashstar*, ikoniczny hymn bass house'u autorstwa Knock2, nieprzerwalnie dostarcza energii oddającej mantrę młodego mieszkańca San Diego – „żadnych ograniczeń”.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/knock2_01.b7cf197447a161b82c11c8e2d460d510ea58acb4.png"
     },
     {
         "id": "music_kit-66",
         "name": "Zestaw utworów | Meechy Darko, Gothic Luxury",
-        "name_original": "meechydarko_01",
         "description": "Chwyć za glocka i wyposaż się w ten zestaw muzyczny, by przenieść się do centrum podziemnej sceny hip-hopowej Nowego Jorku.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/meechydarko_01.5dbe99ff8a2ef9922d84ac61beb9cd685746b886.png"
     },
     {
         "id": "music_kit-67",
         "name": "Zestaw utworów | Sullivan King, Lock Me Up",
-        "name_original": "sullivanking_01",
         "description": "Kochasz pościgi? Kochasz polować? Hard rock, metal oraz dubstep zderzają się ze sobą w nowej ścieżce dźwiękowej Sullivana Kinga, która uczyni cię niepowstrzymanym.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sullivanking_01.770772c90c1acf349d26cacbbad1a966a825243c.png"
     },
     {
         "id": "music_kit-68",
         "name": "Zestaw utworów | Perfect World, 花脸 Hua Lian (Painted Face)",
-        "name_original": "perfectworld_01",
         "description": "Świętujcie 5. rocznicę wydania CS:GO w Chinach z jedynym w swoim rodzaju zestawem utworów 花脸 Hua Lian (Painted Face). Zestaw ten łączy operę ludową qinqiang (najwcześniejszy rock and roll w stylu chińskim) z nowoczesnym rock and rollem. Nieważne, czy spowije was dym, czy też oślepi granat błyskowy, nie zgubcie się!",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/perfectworld_01.4e4e580548f5d81f30640b2b4cdfa9ba8eec09e0.png"
     },
     {
         "id": "music_kit-69",
         "name": "Zestaw utworów | Denzel Curry, ULTIMATE",
-        "name_original": "denzelcurry_01",
         "description": "Denzel wkracza do CS:GO wraz z charakterystycznymi dla niego trapowymi, jazzowymi oraz drum n' bassowymi bitami. Ten zestaw zawiera hity Denzela takie jak „Walkin”, „ULTIMATE” i wiele więcej, a więc śmiało wyciągnij okute niklem chromowane Beretty i zwiększ intensywność rozgrywki wraz z zestawem utworów ULTIMATE.",
-        "rarity": "wysokiej jakości",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "wysokiej jakości"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
     }

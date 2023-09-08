@@ -2,603 +2,737 @@
     {
         "id": "music_kit-3",
         "name": "음악 장비 | Daniel Sadowski, Crimson Assault",
-        "name_original": "danielsadowski_01",
         "description": "비디오게임 작곡가 다니엘 사도스키가 작곡한 이 요동치는 음악에서 넘칠 듯한 박자와 흥겨운 액션을 느껴보세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_01.a2bf9e2640ea2dbbf5d0179b7669e09f5e7a7408.png"
     },
     {
         "id": "music_kit-4",
         "name": "음악 장비 | Noisia, Sharpened",
-        "name_original": "noisia_01",
         "description": "네덜란드의 일렉트로닉 음악 3인조 Noisia가 과거와 미래의 특이한 조합을 통해 거칠고 영화같은 느낌을 선사합니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/noisia_01.fe525cc5e29525708f4dc07c0a986a110075f796.png"
     },
     {
         "id": "music_kit-5",
         "name": "음악 장비 | Robert Allaire, Insurgency",
-        "name_original": "robertallaire_01",
         "description": "수상경력의 작곡가 Robert Allaire가 전하는, 자신의 앞으로 이끌려 오는 적들을 보며 적을 깨부수는 음악입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/robertallaire_01.61aafd2711f5f4ad260390f546fea72d57929900.png"
     },
     {
         "id": "music_kit-6",
         "name": "음악 장비 | Sean Murray, A*D*8",
-        "name_original": "seanmurray_01",
         "description": "전쟁을 테마로 한 세계 최고의 게임들 중 두개의 음악을 담당한 작곡가가 적들을 지옥문으로 날려버릴 음악을 선사합니다!!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/seanmurray_01.5e8de73cba9c875085372f52f70cbc3404e6dcc1.png"
     },
     {
         "id": "music_kit-7",
         "name": "음악 장비 | Feed Me, High Noon",
-        "name_original": "feedme_01",
         "description": "유명한 전자 음악가 Feed Me가 현대적인 디지털 공간에서 서부 목장의 총격전을 재현해 냈습니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/feedme_01.8fcf645e3b3b2754bd9c478d1576b20cb3c18fa6.png"
     },
     {
         "id": "music_kit-8",
         "name": "음악 장비 | Dren, Death's Head Demolition",
-        "name_original": "dren_01",
         "description": "게임 음악 전문 작곡가 Dren의 극적이고 영웅심리 가득한 작품. 적군을 처치하는데 적당한 음악 선곡!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_01.fc2175fa289bd9953dcc7d6c672a75d9e42f6093.png"
     },
     {
         "id": "music_kit-9",
         "name": "음악 장비 | Austin Wintory, Desert Fire",
-        "name_original": "austinwintory_01",
         "description": "그래미 상 후보 게임 작곡가 오스틴 윈토리가 여러분에게 묻습니다: 치명적일 정도로 미친 듯한 탱고로 적들을 유인할 수 있는데 왜 굳이 나가서 위험을 무릅쓰려 합니까?",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_01.5e3be7d7bd2e123d76969e7d17617545804a6c6b.png"
     },
     {
         "id": "music_kit-10",
         "name": "음악 장비 | Sasha, LNOE",
-        "name_original": "sasha_01",
         "description": "세계적으로 유명한 DJ이자 프로듀서인 Sasha의 치솟는 현음과 고동치는 선율, 막을 수 없는 드럼으로 가득한 영화같은 사운드트랙에 푹 빠져보세요",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sasha_01.8ad1c2aebd178df3dff09c4f190b7064d46d142e.png"
     },
     {
         "id": "music_kit-11",
         "name": "음악 장비 | Skog, Metal",
-        "name_original": "skog_01",
         "description": "메탈 음악가 Skog에게서 공격성이 무엇인지 느껴 보십시오.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_01.4869cd4270b65135eff75d121012db094bbf4973.png"
     },
     {
         "id": "music_kit-12",
         "name": "음악 장비 | Midnight Riders, All I Want for Christmas",
-        "name_original": "midnightriders_01",
         "description": "\\\"HAPPY HOLIDAYS, ****ERS!\\\"\\n -Midnight Riders",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/midnightriders_01.22ad94b80a058ad3cb1373fcf0f69e6983491765.png"
     },
     {
         "id": "music_kit-13",
         "name": "음악 장비 | Matt Lange, IsoRhythm",
-        "name_original": "mattlange_01",
         "description": "일렉트로닉 음악 작곡가이자 혁신가인 Matt Lange가 웅장하며 글리치 팝 분위기와 고동치는 리듬으로 우리의 청각을 만족시킵니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlange_01.a5321f2db9fd84c93e384e28d6048784913af83a.png"
     },
     {
         "id": "music_kit-14",
         "name": "음악 장비 | Mateo Messina, For No Mankind",
-        "name_original": "mateomessina_01",
         "description": "자신의 적을 함락하십시오. 그래미 수상에 빛나는 Mateo Messina가 전하는 순수한 열정입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mateomessina_01.94e787b3d227841ea7a3cd48dfb911131a1bb1ef.png"
     },
     {
         "id": "music_kit-15",
         "name": "음악 장비 | Various Artists, Hotline Miami",
-        "name_original": "hotlinemiami_01",
         "description": "다수의 일렉트로닉 예술가들이 전설적인 게임 Hotline Miami에서 잔혹한 박동을 전합니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hotlinemiami_01.df89086218adcaf00b86cffff78191f2f5bcb500.png"
     },
     {
         "id": "music_kit-16",
         "name": "음악 장비 | Daniel Sadowski, Total Domination",
-        "name_original": "danielsadowski_02",
         "description": "작곡가 Daniel Sadowski는 공격적인 일렉트로닉 비트와 창의적인 효과음, 신명나고 흥겨운 미래의 분위기로 격을 높입니다. \\\"경고: 아드레날린 수치의 상승을 유발합니다!\\\"",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_02.5a250ef0a92cbe07b1fd5d26afd1fda52d10ee8d.png"
     },
     {
         "id": "music_kit-17",
         "name": "음악 장비 | Damjan Mravunac, The Talos Principle",
-        "name_original": "damjanmravunac_01",
         "description": "작곡가 Damjan Mravunac은 활기찬 영화 리듬을 서사적 합창단을 혼합한 이 음악팩은 Croteam의 비평가들의 극찬을 받은 타이틀인 \\\"The Talos Principle\\\"의 음악을 선보입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/damjanmravunac_01.538b68f26daddde3c83f6ae44de9947ab7e8c2d0.png"
     },
     {
         "id": "music_kit-18",
         "name": "음악 장비 | Proxy, Battlepack",
-        "name_original": "proxy_01",
         "description": "러시아 헤비 일렉트로니카 아티스트 PROXY가 Counter Strike에 독특한 중포를 가져왔습니다. 하이브리드 무기류 오디오를 최첨단 스튜디오 기술을 융합시켜 만들어진 독특한 장비입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/proxy_01.12796e09ff47c1dd25757cff0761bf7b880dfb3b.png"
     },
     {
         "id": "music_kit-19",
         "name": "음악 장비 | Ki:Theory, MOLOTOV",
-        "name_original": "kitheory_01",
         "description": "가수이자 DOTA TI4 공연자인 Ki:Theory가 여러 곡의 어둡고 날카로운 일렉트로닉 락으로 '폭격' 을 가합니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kitheory_01.00e97bde40259873dfe52ffe809c0a05418d11ff.png"
     },
     {
         "id": "music_kit-20",
         "name": "음악 장비 | Troels Folmann, Uber Blasto Phone",
-        "name_original": "troelsfolmann_01",
         "description": "Triumphant Blastophones는 현대식 우버 펄스를 가미한 곡으로 수상 경력이 화려한 작곡가 Troels Folmann의 폭발적인 곡들의 모음 중 하나 입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/troelsfolmann_01.62c19e1f4ed3c30ec238d088ddc036671e574972.png"
     },
     {
         "id": "music_kit-21",
         "name": "음악 장비 | Kelly Bailey, Hazardous Environments",
-        "name_original": "kellybailey_01",
         "description": "Valve에서 제작한 하프 라이프의 작곡가인 Kelly Bailey는 하프 라이프 세계의 어두운 면에서 영감을 얻어 종말을 알리는 새로운 음악을 만들었습니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/kellybailey_01.5f62031bbb9d6859db2f1f8a575a6dcd1079c928.png"
     },
     {
         "id": "music_kit-22",
         "name": "음악 장비 | Skog, II-Headshot",
-        "name_original": "skog_02",
         "description": "메탈 음악의 작곡가이자 제작가인 Jocke Skog가 다른 CS:GO 음악 장비들을 무언가 귀엽고, 따뜻하고, 알쏭달쏭한 것으로 만들어 버릴 정도로 완전히 새롭고 매우 신랄한 메탈 장비를 가지고 돌아왔습니다. 이제 MVP가 되어 모두에게 자신이 대단하다는 것을 들려주세요!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_02.eeb9ddb340f8a0b530b097f6a7f37cd922334f53.png"
     },
     {
         "id": "music_kit-23",
         "name": "음악 장비 | Daniel Sadowski, The 8-Bit Kit",
-        "name_original": "danielsadowski_03",
         "description": "Daniel Sadowski가 실감 나는 8비트 사운드와 함께 생전 처음으로 Counter-Strike를 위한 8비트 음악 장비를 만듭니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_03.23f670f86d302907e1965780bf0fc145ab334235.png"
     },
     {
         "id": "music_kit-24",
         "name": "음악 장비 | AWOLNATION, I Am",
-        "name_original": "awolnation_01",
         "description": "AWOLNATION 얼터너티브 로커 AWOLNATION가 세기의 음악 장비를 가져왔습니다. 이 장비는 선별된 전자음과 싱글 앨범 'I Am'과 다수의 플래티넘을 수상한 'Sail'에 있는 곡들로 꽉 차있습니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/awolnation_01.2ffc1650abdea909957237a616b8a85f8ca686e4.png"
     },
     {
         "id": "music_kit-25",
         "name": "음악 장비 | Mord Fustang, Diamonds",
-        "name_original": "mordfustang_01",
         "description": "다이아몬드. 그것은 영원합니다. 신선한 흥겨움과 분위기로 Mord Fustang의 아르페지오트론을 깊이 느끼세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mordfustang_01.19b15e98c183e4cf11f06ee9d59a890d91513a8b.png"
     },
     {
         "id": "music_kit-26",
         "name": "음악 장비 | Michael Bross, Invasion!",
-        "name_original": "michaelbross_01",
         "description": "Michael Bross가 창조해 낸 서사적이고 극적인 테크노-그런지. 전쟁터에서 만큼은 나쁜 남자.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/michaelbross_01.adff3cdea10bca94a92025cc1fd052b5a2327a8d.png"
     },
     {
         "id": "music_kit-27",
         "name": "음악 장비 | Ian Hultquist, Lion's Mouth",
-        "name_original": "ianhultquist_01",
         "description": "고동치는 현악기와 쿵쾅거리는 전쟁 드럼과 더불어 합성 장치를 혼합한 작곡가 Ian Hultquist의 우레와 같은 사운드트랙과의 전투를 준비하십시오.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/ianhultquist_01.3157f761e847ba428bbf82fbfa7f07c792a5d626.png"
     },
     {
         "id": "music_kit-28",
         "name": "음악 장비 | New Beat Fund, Sponge Fingerz",
-        "name_original": "newbeatfund_01",
         "description": "화창한 서프 락은 힙합, 펑크 및 차고 팝의 요소가 있습니다. 자연스럽게 행동하고 헤드샷 하십시오.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/newbeatfund_01.f711bcd037c0ccc121b3ef4d0d45b7646ba3ccce.png"
     },
     {
         "id": "music_kit-29",
         "name": "음악 장비 | Beartooth, Disgusting",
-        "name_original": "beartooth_01",
         "description": "Beartooth는 공격적인 기본으로 돌아가는 하드코어 발 구름으로 대중에게 물건을 움직이고 부수게 합니다. 귀하의 조준경 없는 스카웃 프래그를 위한 완벽한 사운드트랙입니다. 죽을 때까지 흔드세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_01.7c8272a14a47916ceb4b59bc18b1f2d0036b5523.png"
     },
     {
         "id": "music_kit-30",
         "name": "음악 장비 | Lennie Moore, Java Havana Funkaloo",
-        "name_original": "lenniemoore_01",
         "description": "게임 작곡가 Lennie Moore의 향기로우면서도 자극적인 재즈 펑크. 처치한 적군의 모습처럼 차가운 음악.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/lenniemoore_01.85efce33bf5d30452a8e84e4a55c78c9b44775d3.png"
     },
     {
         "id": "music_kit-31",
         "name": "음악 장비 | Darude, Moments CS:GO",
-        "name_original": "darude_01",
         "description": "핀란드 제작사 Darude의 익숙한 음악적 정취와 음색을 음악적 풍경 속에서 자유롭게 즐기십시오. 진보적인 배음의 헤비 퓨전과 댄스 음악계의 가장 칭송받는 선구자 중 하나의 사운드 제방에서 다수의 짜릿한 멜로디 구조를 액세스해서 풍요로운 음악을 즐기십시오.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/darude_01.7c92a500270301ab6883f6a144f59cc28571521d.png"
     },
     {
         "id": "music_kit-32",
         "name": "음악 장비 | Beartooth, Aggressive",
-        "name_original": "beartooth_02",
         "description": "Beartooth is back for round two. This new music kit hits harder and is even more aggressive. We've also made the MVP anthem extra heavy so your opponents feel really bad after they've lost to you.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/beartooth_02.6ec3c958567128d94455f7c3459b22ad2061a12c.png"
     },
     {
         "id": "music_kit-33",
         "name": "음악 장비 | Blitz Kids, The Good Youth",
-        "name_original": "blitzkids_01",
         "description": "영국 팝/펑크 밴드 Blitz Kids의 음악으로 폭파 지점 B를 습격할 때 듣기 딱 좋은 음악입니다. 고등학교 때 친구들과 함께 밤길을 몰려다니던 기억이 나실 겁니다. 이 장비는 템포가 빠르고 젊은 혈기를 느끼게 해 줍니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/blitzkids_01.5f0480468f7b46a838bb761dfdfa0788469e3e17.png"
     },
     {
         "id": "music_kit-34",
         "name": "음악 장비 | Hundredth, FREE",
-        "name_original": "hundredth_01",
         "description": "Hundredth가 독특한 멜로딕 하드코어 음악을 세상에 선사합니다. 하찮은 적을 처치할 때 듣기 딱 좋은 이 사운드트랙으로 자유를 찾거나(Break Free) 흙으로 돌아가세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hundredth_01.f6032850a26e9b1fdc9e8435a574282b27792747.png"
     },
     {
         "id": "music_kit-35",
         "name": "음악 장비 | Neck Deep, Life's Not Out To Get You",
-        "name_original": "neckdeep_01",
         "description": "가끔 하루를 견뎌내려면 팝펑크가 필요할 때가 있습니다. 복병을 상대하는 일이든 파죽지세로 당하든 Neck Deep에 따르면 삶은 나를 노리고 있지 않습니다(Life's Not Out To Get You). 하지만 상대팀은 나를 노리고 있겠네요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_01.f2b26359736f263c519fb5bffbaf590c5cbdcd17.png"
     },
     {
         "id": "music_kit-36",
         "name": "음악 장비 | Roam, Backbone",
-        "name_original": "roam_01",
         "description": "Roam이 빠르고 직설적인 팝펑크를 선사합니다. 이 음악을 들으면 관중과 플레이어가 모두 빠르게 움직이게 될 겁니다. 자기가 이미 죽은 목숨이라는 걸 알아차리기도 전에 상대팀을 습격하고 흔적도 없이 처치할 때 듣기 딱 좋은 음악입니다. 당신이 기개(Backbone)가 있는 사람이라는 걸 증명하세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/roam_01.de919629f1df756d298d81cdb24e658eacf7090c.png"
     },
     {
         "id": "music_kit-37",
         "name": "음악 장비 | Twin Atlantic, GLA",
-        "name_original": "twinatlantic_01",
         "description": "한층 더 헤비하고 거칠고 시끄러워진 Twin Atlantic이 CS:GO를 찾아왔습니다. 스코틀랜드 록 음악의 위력으로 적을 날려 버리세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/twinatlantic_01.a3e60569d052721275943b7fa0a563e59dd2f105.png"
     },
     {
         "id": "music_kit-38",
         "name": "음악 장비 | Skog, III-Arena",
-        "name_original": "skog_03",
         "description": "Skog가 세 번째 강력한 메탈 장비를 가지고 돌아왔습니다. 이번에는 뭔가 전자 유기적인 변화를 준 음악으로, 위력적인 기타 리프와 동일하게 위력적인 드롭, 루프 요소와 저음부를 결합했습니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/skog_03.2a6b65fe2443cd27414c8ea48614c4b9386c377a.png"
     },
     {
         "id": "music_kit-39",
         "name": "Music Kit | The Verkkars, EZ4ENCE",
-        "name_original": "theverkkars_01",
         "description": "The Verkkars가 Counter-Strike 프로 팀인 ENCE를 찬사하기 위해 작업한 이 곡은 핀란드에서 큰 인기를 얻었습니다. 다음 경기도 'EZ'할까요?",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_01.c76969d8c14a9a74c71f0d5efce6453f7b70bf43.png"
     },
     {
         "id": "music_kit-40",
         "name": "Halo, The Master Chief Collection",
-        "name_original": "halo_01",
         "description": "Halo 세계의 상징적인 음악적 순간을 담은 마스터 치프 컬렉션 음악 팩으로 Counter-Strike의 청각적 경험을 전설적으로 바꿔보세요. © 2019 343 Industries. 모든 권리 보유. 343 Industries의 허가를 받아 사용했습니다. Halo: Master Chief Collection 및 Halo 로고는 Microsoft 계열사의 상표입니다.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/halo_01.a49952f4e059871c05f6d829f6f29a1a2ccbddc2.png"
     },
     {
         "id": "music_kit-41",
         "name": "Music Kit | Scarlxrd: King, Scar",
-        "name_original": "scarlxrd_01",
         "description": "Scarlxrd blends heavy trap beats with a flow and delivery that creates his own unique subgenre. With this exciting blend his live shows capture the attention of everyone in the crowd.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_01.f1deaed73c132260c8354198bc2f23e939b139b3.png"
     },
     {
         "id": "music_kit-42",
         "name": "Half-Life: Alyx, Anti-Citizen",
-        "name_original": "halflife_alyx_01",
         "description": "이 음악 키트는 Valve의 Half-Life 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념합니다. 인류의 유일한 희망이자, 몰입감 있는 환경 상호 작용을 Counter-Strike: Global Offensive에서 느껴보세요.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlalyx_01.695e0b07f37980650d408fd3260737df825d1f91.png"
     },
     {
         "id": "music_kit-43",
         "name": "Music Kit | Austin Wintory, Bachram",
-        "name_original": "austinwintory_02",
         "description": "Austin Wintory mixes Celtic fantasy with sizzling electronics and a generous helping of Peter Hollens' vocals in this genre-bending Music Kit.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_02.c8fb789fab88586d69b2bc822332a7a86afb83ed.png"
     },
     {
         "id": "music_kit-44",
         "name": "Music Kit | Dren, Gunman Taco Truck",
-        "name_original": "dren_02",
         "description": "The apocalyptic mariachi soundtrack from the indie game hit, Gunman Taco Truck, comes to CS:GO with intense Mexican flavored tunes like Pollo Diablo and Persecución de Helltain!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/dren_02.63647ccdee069255f19589d7ce2d5b7de591aa6b.png"
     },
     {
         "id": "music_kit-45",
         "name": "Music Kit | Daniel Sadowski, Eye of the Dragon",
-        "name_original": "danielsadowski_04",
         "description": "From the composer who brought you \\\"Total Domination\\\", \\\"The 8-Bit Kit\\\" and \\\"Crimson Assault\\\", comes \\\"Eye Of The Dragon\\\". Music composer Daniel Sadowski mixes Ninjas + Guns + Hip-Hop + Techno to create an action-packed Music Kit. <i>Ninjas are known for their fast and precise attacks, yet they can be invisible to their enemy.</i>",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/danielsadowski_04.6be221622292eabfe4da40d166fa75a6d0dcec55.png"
     },
     {
         "id": "music_kit-46",
         "name": "Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE",
-        "name_original": "treeadams_benbromfield_01",
         "description": "Alchemists of a powerful chaos that is M.U.D.D. FORCE - composers Tree Adams and Ben Bromfield weld epic battle motifs and grinding synths into a Maelstrom of full throttle destruction.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/treeadams_benbromfield_01.08ca88c8f650b524f709a3e2e05e3160579771c3.png"
     },
     {
         "id": "music_kit-47",
         "name": "Music Kit | Tim Huling, Neo Noir",
-        "name_original": "timhuling_01",
         "description": "Composer Tim Huling delivers classic film-noir style tracks blended with contemporary grooves and beats.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/timhuling_01.518aa6b46cec0d809e1e984041c66fd00f22b005.png"
     },
     {
         "id": "music_kit-48",
         "name": "Music Kit | Sam Marshall, Bodacious",
-        "name_original": "sammarshall_01",
         "description": "Inspired by the funky video game music of the early 90s, composer Sam Marshall cooks up some classic game nostalgia with a spicy modern sauce.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sammarshall_01.05adc292af4abcfe6cd6b2d76a6020ab80122ada.png"
     },
     {
         "id": "music_kit-49",
         "name": "Music Kit | Matt Levine, Drifter",
-        "name_original": "mattlevine_01",
         "description": "Composer Matt Levine delivers raw swagger in this gritty homage to the Spaghetti Western. It has never felt better to say, \\\"go ahead, make my day...\\\"",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/mattlevine_01.974b450e606547a138e15a540597164bcd70a8e8.png"
     },
     {
         "id": "music_kit-50",
         "name": "Music Kit | Amon Tobin, All for Dust",
-        "name_original": "amontobin_01",
         "description": "Legendary producer Amon Tobin lends his unique aesthetic to CS:GO. This time through tube amplifiers.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/amontobin_01.2cf4f8b98a111fc847576bb6a8feb3364a2cfa1b.png"
     },
     {
         "id": "music_kit-51",
         "name": "Darren Korb, Hades Music Kit",
-        "name_original": "hades_01",
         "description": "Sure, you might miss a shot from time to time, but what never misses is this blood-pumping Music Kit straight from the Underworld of Hades, Supergiant's rogue-like dungeon crawler.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": true,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hades_01.41336135661d422039fe700e0bf4c8176886194e.png"
     },
     {
         "id": "music_kit-52",
         "name": "Music Kit | Neck Deep, The Lowlife Pack",
-        "name_original": "neckdeep_02",
         "description": "Prove you are not a normie (and better than everyone else on the map) with Neck Deep's new music kit, which includes songs from the band's album All Distortions Are Intentional.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/neckdeep_02.d00e38b24d5ca285fd34411afc34b874ab80cd1b.png"
     },
     {
         "id": "music_kit-53",
         "name": "Music Kit | Scarlxrd, CHAIN$AW.LXADXUT.",
-        "name_original": "scarlxrd_02",
         "description": "CHAIN$AW BRINGS SCARLXRD AT HIS UNPRECENDENTED BEST WITH A RAW FLOW AND A HEAVY TRACK TO MATCH.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/scarlxrd_02.9d630d5c49841c359e6def0bc2e4e24b62b2f233.png"
     },
     {
         "id": "music_kit-54",
         "name": "Music Kit | Austin Wintory, Mocha Petal",
-        "name_original": "austinwintory_03",
         "description": "Austin Wintory answers the question humanity has asked for ages: what happens if you merge beer garden accordion polka music with grungy heavy metal?",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/austinwintory_03.18f6213b11eccdb12237547a78c2cb70fb54d829.png"
     },
     {
         "id": "music_kit-55",
         "name": "Music Kit | Chipzel, ~Yellow Magic~",
-        "name_original": "chipzel_01",
         "description": "Video game composer and chiptune legend Chipzel brings a glitchy Speak & Spell inspired mashup of hybrid styles packed with fun, funk and flavour.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/chipzel_01.5f4d9f5a440a9b66807b3a1ca40bfe61bddc483c.png"
     },
     {
         "id": "music_kit-56",
         "name": "Music Kit | Freaky DNA, Vici",
-        "name_original": "freakydna_01",
         "description": "Opera. 8-bit sounds. Analogue synths. What's not to love? Chiptune specialist Freaky DNA and soprano Leanne Koch team up for some heavy beats and good times!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/freakydna_01.96afa403f5a9e023408e88496369361b4f557f44.png"
     },
     {
         "id": "music_kit-57",
         "name": "Music Kit | Jesse Harlin, Astro Bellum",
-        "name_original": "jesseharlin_01",
         "description": "Composer Jesse Harlin delivers bombastic space opera drama inspired by classic sci-fi of the 70s, 80s, and beyond.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/jesseharlin_01.8698a32cdebbee16225c231bad5b422256a4dfe2.png"
     },
     {
         "id": "music_kit-58",
         "name": "Music Kit | Laura Shigihara: Work Hard, Play Hard",
-        "name_original": "laurashigihara_01",
         "description": "Video game composer and developer Laura Shigihara will help you tell everyone loudly and proudly that you're the MVP. Have fun with this unique blend of 90s dance, retro video game synth, and just a hint of Plants vs. Zombies.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/laurashigihara_01.6ccd2d1904530773115ba88c2cbb389d3da46df3.png"
     },
     {
         "id": "music_kit-59",
         "name": "Music Kit | Sarah Schachner, KOLIBRI",
-        "name_original": "sarahschachner_01",
         "description": "Brought to you by Sarah Schachner, a dystopian goth choir of self-aware, Scandinavian robots decide that humanity must be eliminated.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sarahschachner_01.5a5bef300a44f8f54ba3d817245cb32f66d1c85f.png"
     },
     {
         "id": "music_kit-60",
         "name": "Music Kit | bbno$, u mad!",
-        "name_original": "bbnos_01",
         "description": "bbno$ formulates 'the' toxic gamer anthem, u mad! Are u mad? LOL get good scrub. Research shows if you play with this Music Kit equipped you'll immediately go from Silver to Global.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/bbnos_01.41bea5be0ec1c11d2f9c58cc24d175ab62870b74.png"
     },
     {
         "id": "music_kit-61",
         "name": "Music Kit | The Verkkars & n0thing, Flashbang Dance",
-        "name_original": "theverkkars_02",
         "description": "따뜻한 캘리포니아로부터 추운 라플랜드까지, Counter-Strike의 전설인 n0thing과 The Verkkars가 만났습니다. 하나, 둘, 셋! Flashbang Dance!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/theverkkars_02.329034c68612e8f00f0f18e20d7a84f7d2b68627.png"
     },
     {
         "id": "music_kit-62",
         "name": "Music Kit | 3kliksphilip, Heading for the Source",
-        "name_original": "3kliksphilip_01",
         "description": "On a quest to go pro, or unintentionally going low? Let this kit’s 80’s synths and dreamy melodies take you back. Back, back, back... to the good old days.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/3kliksphilip_01.376011867dada400b17c357748d344c1491a2881.png"
     },
     {
         "id": "music_kit-63",
         "name": "Music Kit | Humanity's Last Breath, Void",
-        "name_original": "hlb_01",
         "description": "Swedish Band Humanity's Last Breath drops in heavy with their Void Music Kit. Pounding drums, colossal riffs and an atmosphere to send shivers up your spine.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/hlb_01.0b08df9d78b230f26b9e7eb4f8dca11f298b30ef.png"
     },
     {
         "id": "music_kit-64",
         "name": "Music Kit | Juelz, Shooters",
-        "name_original": "juelz_01",
         "description": "Neo trap synths, gritty 808s, an epic piano riff, and a plethora of gunfire sound effects. The OG trap anthem \\\"Shooters\\\" by Juelz makes for a truly elite Music Kit. Suitable for MVPs only.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/juelz_01.0d590b3dd6c58dba054ee00f52a8165966beb310.png"
     },
     {
         "id": "music_kit-65",
         "name": "Music Kit | Knock2, dashstar*",
-        "name_original": "knock2_01",
         "description": "dashstar*, the iconic bass house anthem from Knock2, provides non-stop energy that captures the young San Diego native’s mantra, \\\"no limit\\\".",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/knock2_01.b7cf197447a161b82c11c8e2d460d510ea58acb4.png"
     },
     {
         "id": "music_kit-66",
         "name": "Music Kit | Meechy Darko, Gothic Luxury",
-        "name_original": "meechydarko_01",
         "description": "Grab a Glock and equip this music kit to be transported to the center of New York's underground hip-hop scene.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/meechydarko_01.5dbe99ff8a2ef9922d84ac61beb9cd685746b886.png"
     },
     {
         "id": "music_kit-67",
         "name": "Music Kit | Sullivan King, Lock Me Up",
-        "name_original": "sullivanking_01",
         "description": "Love the chase? Love the hunt? Hard rock, metal, and dubstep collide in Sullivan King's soundtrack for becoming unstoppable.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/sullivanking_01.770772c90c1acf349d26cacbbad1a966a825243c.png"
     },
     {
         "id": "music_kit-68",
         "name": "Music Kit | Perfect World, 花脸 Hua Lian (Painted Face)",
-        "name_original": "perfectworld_01",
         "description": "CS:GO의 중국 출시 5주년을 花脸 Hua Lian (Painted Face) 음악 장비화 함께 축하해주세요. 이 음악 장비는 중국 민속 문화인 친창극(초기 중국식 로큰롤)과 현대적 로큰롤을 결합했습니다. 새롭게 출시된 음악 장비와 함께 즐거운 게임플레이 하시길 바랍니다!",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/perfectworld_01.4e4e580548f5d81f30640b2b4cdfa9ba8eec09e0.png"
     },
     {
         "id": "music_kit-69",
         "name": "Music Kit | Denzel Curry, ULTIMATE",
-        "name_original": "denzelcurry_01",
         "description": "Denzel brings his signature energy to CS:GO as he traverses trap, jazz, and drum and bass beats. This kit features Denzel's hits \\\"Walkin\\\", \\\"ULTIMATE\\\", and more, so break out the nickel-plated chrome Berettas and crank up the intensity with the ULTIMATE music kit.",
-        "rarity": "고급",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "고급"
+        },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
     }
