@@ -76,22 +76,32 @@ const parseItem = (item, items) => {
                   pattern: $t(paintKits[pattern].description_tag),
               })
             : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
-        name_original: items[weapon].name,
         description: translatedDescription,
-        weapon: translatedName,
-        category: $t(getCategory(weapon)),
-        pattern: $t(paintKits[pattern].description_tag),
+        weapon: {
+            id: weapon,
+            name: translatedName,
+        },
+        category: {
+            id: getCategory(weapon),
+            name: $t(getCategory(weapon)),
+        },
+        pattern: {
+            id: pattern,
+            name: $t(paintKits[pattern].description_tag),
+        },
         min_float: paintKits[pattern].wear_remap_min,
         max_float: paintKits[pattern].wear_remap_max,
-        rarity: $t(rarity),
-        rarity_original: rarity,
+        rarity: {
+            id: rarity,
+            name: $t(rarity),
+        },
         stattrak: isStatTrak,
         souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
         paint_index: paintKits[pattern].paint_index,
         wears: getWears(
             paintKits[pattern].wear_remap_min,
             paintKits[pattern].wear_remap_max
-        ).map(wearKey => $t(wearKey)),
+        ).map((wearKey) => ({ id: wearKey, name: $t(wearKey) })),
         collections:
             collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
                 ...i,
@@ -124,12 +134,21 @@ export const getSkins = () => {
                 item_name: $t(knife.item_name),
             }),
             description: $t(knife.item_description),
-            weapon: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
-            category: $t("sfui_invpanel_filter_melee"),
+            weapon: {
+                id: `sfui_wpnhud_${knife.name.replace("weapon_", "")}`,
+                name: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
+            },
+            category: {
+                id: "sfui_invpanel_filter_melee",
+                name: $t("sfui_invpanel_filter_melee"),
+            },
             pattern: null,
             min_float: null,
             max_float: null,
-            rarity: $t(`rarity_ancient_weapon`),
+            rarity: {
+                id: `rarity_ancient_weapon`,
+                name: $t(`rarity_ancient_weapon`),
+            },
             stattrak: true,
             paint_index: null,
             crates:
