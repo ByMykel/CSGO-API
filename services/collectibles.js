@@ -96,6 +96,10 @@ const parseItem = (item) => {
         ? cdn[`${item.image_inventory}`]
         : cdn[`${item.image_inventory}_large`];
 
+    const rarity = item.item_rarity
+        ? `rarity_${item.item_rarity}`
+        : getCollectibleRarity(item?.prefab);
+
     return {
         id: `collectible-${item.object_id}`,
         name: isAttendance
@@ -104,15 +108,15 @@ const parseItem = (item) => {
                   item_name: $t(item.item_name),
               })
             : $t(item.item_name),
-        name_original: item.item_name.replace("#CSGO_", ""),
         description: item.item_description
             ? $t(item.item_description)
             : item.item_description_prefab
             ? $t(item.item_description_prefab)
             : null,
-        rarity: item.item_rarity
-            ? $t(`rarity_${item.item_rarity}`)
-            : $t(getCollectibleRarity(item?.prefab)),
+        rarity: {
+            id: rarity,
+            name: $t(rarity),
+        },
         type: getType(item),
         image,
     };
