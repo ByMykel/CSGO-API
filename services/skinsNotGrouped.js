@@ -5,6 +5,7 @@ import {
     getWears,
     getDopplerPhase,
     skinMarketHashName,
+    getCategory,
 } from "../utils/weapon.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
@@ -53,12 +54,12 @@ const parseItem = (item, items) => {
     const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
 
     const rarity = !isNotWeapon(weapon)
-        ? $t(`rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`)
+        ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
         : isKnife
         ? // Knives are 'Covert'
-          $t(`rarity_ancient_weapon`)
+          `rarity_ancient_weapon`
         : // Gloves are 'Extraordinary'
-          $t(`rarity_ancient`);
+          `rarity_ancient`;
 
     const types = ["skin"];
 
@@ -73,7 +74,7 @@ const parseItem = (item, items) => {
     const wears = getWears(
         paintKits[pattern].wear_remap_min,
         paintKits[pattern].wear_remap_max
-    ).map(wearKey => $t(wearKey));
+    );
 
     return types.map((type) =>
         wears.map((wear, index) => ({
@@ -93,25 +94,41 @@ const parseItem = (item, items) => {
                       {
                           item_name: translatedName,
                           pattern: $t(paintKits[pattern].description_tag),
-                          wear,
+                          wear: $t(wear),
                       }
                   )
                 : $tc(type, {
                       item_name: translatedName,
                       pattern: $t(paintKits[pattern].description_tag),
-                      wear,
+                      wear: $t(wear),
                   }),
-            weapon: translatedName,
-            pattern: $t(paintKits[pattern].description_tag),
-            wear,
-            rarity,
+            weapon: {
+                id: weapon,
+                name: translatedName,
+            },
+            category: {
+                id: getCategory(weapon),
+                name: $t(getCategory(weapon)),
+            },
+            pattern: {
+                id: pattern,
+                name: $t(paintKits[pattern].description_tag),
+            },
+            wear: {
+                id: wear,
+                name: $t(wear),
+            },
+            rarity: {
+                id: rarity,
+                name: $t(rarity),
+            },
             ...(dopplerPhase && { phase: dopplerPhase }),
             market_hash_name: skinMarketHashName({
                 itemName: !isNotWeapon(weapon)
                     ? $t(items[weapon].item_name_prefab, true)
                     : $t(items[weapon].item_name, true),
                 pattern: $t(paintKits[pattern].description_tag, true),
-                wear: wear,
+                wear: $t(wear, true),
                 isStatTrak: type === "skin_stattrak",
                 isSouvenir: type === "skin_souvenir",
                 isWeapon: !isNotWeapon(weapon),
@@ -124,7 +141,7 @@ const parseItem = (item, items) => {
 
 export const getSkinsNotGrouped = () => {
     const { itemsGame, items } = state;
-    const { language, folder } = languageData;
+    const { folder } = languageData;
 
     const types = ["rare_special_vanilla", "rare_special_vanilla_stattrak"];
 
@@ -142,10 +159,20 @@ export const getSkinsNotGrouped = () => {
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
-                    weapon: $t(
-                        `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
-                    ),
-                    rarity: $t(`rarity_ancient_weapon`),
+                    weapon: {
+                        id: `sfui_wpnhud_${knife.name.replace("weapon_", "")}`,
+                        name: $t(
+                            `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
+                        ),
+                    },
+                    category: {
+                        id: "sfui_invpanel_filter_melee",
+                        name: $t("sfui_invpanel_filter_melee"),
+                    },
+                    rarity: {
+                        id: `rarity_ancient_weapon`,
+                        name: $t(`rarity_ancient_weapon`),
+                    },
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
                         pattern: null,
