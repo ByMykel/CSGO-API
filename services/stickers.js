@@ -25,6 +25,8 @@ const isSticker = (item) => {
 };
 
 const parseItem = (item) => {
+    const { cratesBySkins } = state
+
     const image =
         cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
@@ -37,6 +39,11 @@ const parseItem = (item) => {
             name: $t(`rarity_${item.item_rarity}`),
         },
         special_notes: specialNotes?.[`sticker-${item.object_id}`],
+        crates:
+            cratesBySkins?.[`sticker-${item.object_id}`]?.map((i) => ({
+                ...i,
+                name: $t(i.name),
+            })) ?? [],
         image,
     };
 };
