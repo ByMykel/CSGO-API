@@ -66,7 +66,6 @@ const parseItemSelfOpening = (item) => {
     return {
         id: `collection-${item.object_id}`,
         name: $t(item.item_name),
-        // TODO: https://github.com/ByMykel/CSGO-API/issues/51
         contains: [],
         image,
     };

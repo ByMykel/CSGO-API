@@ -21,6 +21,7 @@ const isGraffiti = (item) => {
 };
 
 const parseItemSealedGraffiti = (item) => {
+    const { cratesBySkins } = state;
     const image = cdn[`econ/stickers/${item.sticker_material}_large`];
 
     return {
@@ -36,6 +37,11 @@ const parseItemSealedGraffiti = (item) => {
             name: $t(`rarity_${item.item_rarity}`),
         },
         special_notes: specialNotes?.[`graffiti-${item.object_id}`],
+        crates:
+            cratesBySkins?.[`graffiti-${item.object_id}`]?.map((i) => ({
+                ...i,
+                name: $t(i.name),
+            })) ?? [],
         image,
     };
 };
