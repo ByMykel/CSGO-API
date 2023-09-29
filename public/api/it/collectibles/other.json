@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Gettone da veterano quinquennale",
-        "description": "È stato un membro della comunità di Counter-Strike per oltre 5 anni.",
+        "description": "È membro della Comunità di Counter-Strike da oltre 5 anni.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Straordinario"
@@ -13,7 +13,7 @@
     {
         "id": "collectible-969",
         "name": "Gettone da veterano decennale",
-        "description": "È stato un membro della comunità di Counter-Strike per oltre 10 anni.",
+        "description": "È membro della Comunità di Counter-Strike da oltre 10 anni.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Straordinario"
@@ -24,7 +24,7 @@
     {
         "id": "collectible-970",
         "name": "Medaglia di lealtà",
-        "description": "Questa medaglia viene assegnata in commemorazione della fedele partecipazione alla comunità di Counter-Strike prima dell'aggiornamento Zona di pericolo. <i>Forza tramite fedeltà.</i>",
+        "description": "Questa medaglia viene assegnata in commemorazione della fedele partecipazione alla Comunità di Counter-Strike prima dell'aggiornamento Zona di pericolo.\\n\\n<i>Forza tramite fedeltà.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Straordinario"
@@ -35,12 +35,23 @@
     {
         "id": "collectible-987",
         "name": "Gettone per il decimo compleanno",
-        "description": "Per aver festeggiato il decimo compleanno di CS:GO con tutta la fantastica comunità di CS:GO.\\n\\n<i>Per celebrare dieci anni di colpi alla testa, clutch e l'intera comunità. Buon compleanno, CS:GO!</i>",
+        "description": "Per aver festeggiato il decimo compleanno di CS:GO con tutta la fantastica Comunità di CS:GO.\\n\\n<i>Per celebrare dieci anni di colpi alla testa, clutch e l'intera Comunità. Buon compleanno, CS:GO!</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Straordinario"
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Medaglia Global Offensive",
+        "description": "Questa medaglia viene assegnata in commemorazione della fedele partecipazione alla Comunità di Counter-Strike: Global Offensive prima del rilascio di Counter-Strike 2. \\n\\n<i>Le leggende non muoiono mai.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Straordinario"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

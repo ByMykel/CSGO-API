@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Monedă de veteran - 5 ani",
-        "description": "Este un membru al comunității de Counter-Strike de peste 5 ani.",
+        "description": "Membru al comunității Counter-Strike de mai bine de 5 ani.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "Monedă de veteran - 10 ani",
-        "description": "Este un membru al comunității de Counter-Strike de peste 10 ani.",
+        "description": "Membru al comunității Counter-Strike de mai bine de 10 ani.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Insignă de loialitate",
-        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update. <i>Strength through loyalty.</i>",
+        "description": "Această insignă comemorează apartenența loială la comunitatea Counter-Strike înainte de actualizarea Danger Zone.\\n\\n<i>Forță prin loialitate.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -1342,8 +1342,19 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
+        "id": "collectible-996",
+        "name": "Global Offensive - Insignă",
+        "description": "Această insignă comemorează apartenența loială la comunitatea Counter-Strike: Global Offensive înainte de lansarea jocului Counter-Strike 2.\\n\\n<i>Legendele nu mor niciodată.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinar(ă)"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
+    },
+    {
         "id": "collectible-1000",
-        "name": "Bilet pentru Operațiunea Payback",
+        "name": "Bilet pentru operațiunea Payback",
         "description": "Operațiunea Payback s-a desfășurat în perioada 25 aprilie 2013 - 2 septembrie 2013 și a răsplătit creatorii de hărți comunitare cu peste 180.000 USD. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Payback.",
         "rarity": {
             "id": "rarity_common",
@@ -1629,7 +1640,7 @@
     },
     {
         "id": "collectible-1027",
-        "name": "Bilet cu acces complet pentru Operațiunea Breakout",
+        "name": "Bilet cu acces complet pentru operațiunea Breakout",
         "description": "Operațiunea Breakout s-a desfășurat în perioada 2 iulie 2014 - 2 octombrie 2014. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Breakout.",
         "rarity": {
             "id": "rarity_common",
@@ -2322,7 +2333,7 @@
     },
     {
         "id": "collectible-1315",
-        "name": "Bilet cu acces complet pentru Operațiunea Vanguard",
+        "name": "Bilet de acces pentru operațiunea Vanguard",
         "description": "Operațiunea Vanguard s-a desfășurat în perioada 11 noiembrie 2014 - 31 martie 2015. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Vanguard.",
         "rarity": {
             "id": "rarity_common",
@@ -2366,7 +2377,7 @@
     },
     {
         "id": "collectible-1326",
-        "name": "Bilet de acces pentru Operațiunea Bloodhound",
+        "name": "Bilet de acces pentru operațiunea Bloodhound",
         "description": "Operațiunea Bloodhound s-a desfășurat în perioada 26 mai 2015 - 1 octombrie 2015. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Bloodhound.",
         "rarity": {
             "id": "rarity_common",
@@ -2432,7 +2443,7 @@
     },
     {
         "id": "collectible-1335",
-        "name": "Bilet de acces pentru Operațiunea Wildfire",
+        "name": "Bilet de acces pentru operațiunea Wildfire",
         "description": "Operațiunea Wildfire s-a desfășurat în perioada 17 februarie 2016 - 13 iulie 2016. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Wildfire.",
         "rarity": {
             "id": "rarity_common",
@@ -2542,7 +2553,7 @@
     },
     {
         "id": "collectible-1352",
-        "name": "Bilet de acces pentru Operațiunea Hydra",
+        "name": "Bilet de acces pentru operațiunea Hydra",
         "description": "Operațiunea Hydra s-a desfășurat în perioada 23 mai 2017 - 14 noiembrie 2017. Acest bilet nu mai oferă acces la o operațiune, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Hydra.",
         "rarity": {
             "id": "rarity_common",
@@ -2806,7 +2817,7 @@
     },
     {
         "id": "collectible-4549",
-        "name": "Operațiunea Shattered Web – Bilet premium",
+        "name": "Bilet premium pentru operațiunea Shattered Web",
         "description": "Operațiunea Shattered Web s-a desfășurat în perioada 18 noiembrie 2019 - 31 martie 2020. Acest bilet nu mai oferă acces la o operațiunea, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Shattered Web.",
         "rarity": {
             "id": "rarity_common",
@@ -2862,7 +2873,7 @@
     {
         "id": "collectible-4554",
         "name": "Katowice 2019 - Bilet de spectator",
-        "description": "Acesta este un bilet de spectator sigilat pentru Campionatul Major de CS:GO IEM Katowice 2019. Odată desigilat, acesta îți va oferi moneda Katowice 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Acesta este un bilet de spectator sigilat pentru campionatul major de CS:GO IEM Katowice 2019. Odată desigilat, acesta îți va oferi moneda Katowice 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_common",
             "name": "Calitate de bază"
@@ -2873,7 +2884,7 @@
     {
         "id": "collectible-4555",
         "name": "Moneda Katowice 2019",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2884,7 +2895,7 @@
     {
         "id": "collectible-4556",
         "name": "Katowice 2019 - Monedă de argint",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2895,7 +2906,7 @@
     {
         "id": "collectible-4557",
         "name": "Katowice 2019 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2906,7 +2917,7 @@
     {
         "id": "collectible-4558",
         "name": "Katowice 2019 - Monedă de diamant",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO IEM Katowice 2019, care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Katowice 2019, acces exclusiv la pachetele cu suveniruri, emblemele echipelor pentru chatul Steam.tv și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Katowice 2019 finalizând provocări. Poți revendica un pachet cu suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2917,7 +2928,7 @@
     {
         "id": "collectible-4622",
         "name": "Berlin 2019 - Bilet de spectator",
-        "description": "Acesta este un bilet de spectator sigilat pentru Campionatul Major de CS:GO StarLadder Berlin 2019. Odată desigilat, acesta îți va oferi moneda Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎmbunătățește-ți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Acesta este un bilet de spectator sigilat pentru campionatul major de CS:GO StarLadder Berlin 2019. Odată desigilat, acesta îți va oferi moneda Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎmbunătățește-ți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_common",
             "name": "Calitate de bază"
@@ -2928,7 +2939,7 @@
     {
         "id": "collectible-4623",
         "name": "Moneda Berlin 2019",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2939,7 +2950,7 @@
     {
         "id": "collectible-4624",
         "name": "Berlin 2019 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2950,7 +2961,7 @@
     {
         "id": "collectible-4625",
         "name": "Berlin 2019 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2961,7 +2972,7 @@
     {
         "id": "collectible-4626",
         "name": "Berlin 2019 - Monedă de diamant",
-        "description": "Aceasta este o monedă comemorativă pentru Campionatul Major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO StarLadder Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -2972,7 +2983,7 @@
     {
         "id": "collectible-4627",
         "name": "Berlin 2019 - Bilet de spectator + 3 jetoane de suvenir",
-        "description": "Acesta este un bilet de spectator sigilat pentru Campionatul Major de CS:GO StarLadder Berlin 2019. Odată desigilat, acesta îți va oferi moneda Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎmbunătățește-ți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.\\n\\nAcest bilet de spectator îți va preactiva moneda ta Berlin 2019 cu 3 jetoane de suvenir.",
+        "description": "Acesta este un bilet de spectator sigilat pentru campionatul major de CS:GO StarLadder Berlin 2019. Odată desigilat, acesta îți va oferi moneda Berlin 2019 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, acces complet la provocarea Pick'Em Berlin 2019, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎmbunătățește-ți moneda Berlin 2019 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.\\n\\nAcest bilet de spectator îți va preactiva moneda ta Berlin 2019 cu 3 jetoane de suvenir.",
         "rarity": {
             "id": "rarity_common",
             "name": "Calitate de bază"
@@ -3092,8 +3103,8 @@
     },
     {
         "id": "collectible-4682",
-        "name": "Insignă Protection Pin",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "name": "Insignă Civil Protection",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Insignă Sustenance!",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Insignă Vortigaunt",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Insignă Headcrab Glyph",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Insignă Health",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Insignă Lambda",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Insignă Copper Lambda",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "Insignă CMB",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Insignă Black Mesa",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Insignă Combine Helmet",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Insignă City 17",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3213,7 +3224,7 @@
     },
     {
         "id": "collectible-4699",
-        "name": "Operațiunea Broken Fang – Bilet premium",
+        "name": "Bilet premium pentru operațiunea Broken Fang",
         "description": "Operațiunea Broken Fang s-a desfășurat în perioada 3 decembrie 2020 - 30 aprilie 2021. Acest bilet nu mai oferă acces la o operațiunea, dar poate fi activat pentru a obține o monedă comemorativă a operațiunii Broken Fang.",
         "rarity": {
             "id": "rarity_common",
@@ -3367,7 +3378,7 @@
     },
     {
         "id": "collectible-4758",
-        "name": "Operațiunea Riptide – Bilet premium",
+        "name": "Bilet premium pentru operațiunea Riptide",
         "description": "Biletul premium al operațiunii Riptide îți oferă o monedă comemorativă a operațiunii Riptide care poate fi îmbunătățită, misiuni săptămânale și acces la obiectele exclusive din magazinul operațiunii.",
         "rarity": {
             "id": "rarity_common",
@@ -3467,7 +3478,7 @@
     {
         "id": "collectible-4797",
         "name": "Moneda Stockholm 2021",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Stockholm 2021 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3478,7 +3489,7 @@
     {
         "id": "collectible-4798",
         "name": "Stockholm 2021 - Monedă de argint",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Stockholm 2021 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3489,7 +3500,7 @@
     {
         "id": "collectible-4799",
         "name": "Stockholm 2021 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Stockholm 2021 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3500,7 +3511,7 @@
     {
         "id": "collectible-4800",
         "name": "Stockholm 2021 - Monedă de diamant",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Stockholm 2021 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Stockholm 2021, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Stockholm 2021 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3610,7 +3621,7 @@
     {
         "id": "collectible-4826",
         "name": "Moneda Antwerp 2022",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3621,7 +3632,7 @@
     {
         "id": "collectible-4827",
         "name": "Antwerp 2022 - Monedă de argint",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3632,7 +3643,7 @@
     {
         "id": "collectible-4828",
         "name": "Antwerp 2022 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3643,7 +3654,7 @@
     {
         "id": "collectible-4829",
         "name": "Antwerp 2022 - Monedă de diamant",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO PGL Antwerp 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Antwerp 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Antwerp 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3687,7 +3698,7 @@
     {
         "id": "collectible-4851",
         "name": "Moneda Rio 2022",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3698,7 +3709,7 @@
     {
         "id": "collectible-4852",
         "name": "Rio 2022 - Monedă de argint",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3709,7 +3720,7 @@
     {
         "id": "collectible-4853",
         "name": "Rio 2022 - Monedă de aur",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3720,7 +3731,7 @@
     {
         "id": "collectible-4854",
         "name": "Rio 2022 - Monedă de diamant",
-        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
+        "description": "Aceasta este o monedă comemorativă pentru campionatul major de CS:GO IEM Rio 2022 care înregistrează progresul tău de pe întreaga perioadă a evenimentului, îți oferă acces complet la provocarea Pick'Em Rio 2022, emblemele echipelor pentru chatul Steam.tv, provocări pentru monedă și utilizări nelimitate pentru orice graffiti al echipelor pentru întreaga perioadă a evenimentului.\\n\\nÎți poți îmbunătăți moneda Rio 2022 finalizând provocările monedei. Obține un jeton de suvenir de fiecare dată când îți îmbunătățești moneda.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Insignă Dust II (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Insignă Guardian Elite (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Insignă Mirage (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Insignă Inferno (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Insignă Italy (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Insignă Victory (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Insignă Militia (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Insignă Nuke (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Insignă Train (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Insignă Guardian (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Insignă Tactics (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Insignă Guardian 2 (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Insignă Bravo (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Insignă Baggage (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Insignă Phoenix (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Insignă Office (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Insignă Cobblestone (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Insignă Overpass (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Insignă Bloodhound (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Insignă Cache (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Insignă Valeria Phoenix (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Insignă Chroma (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Insignă Guardian 3 (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Insignă Canals (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Insignă Welcome to the Clutch (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Insignă Death Sentence (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Insignă Inferno 2 (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Insignă Wildfire (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Insignă Easy Peasy (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Insignă Aces High (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Insignă Hydra (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Insignă Howl (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Insignă Brigadier General (Autentic)",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Insignă Alyx (Autentic)",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Insignă Dust II",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Insignă Guardian Elite",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Insignă Mirage",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Insignă Inferno",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Insignă Italy",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Insignă Victory",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Insignă Militia",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Insignă Nuke",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Insignă Train",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Insignă Guardian",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Insignă Tactics",
-        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 1. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Insignă Guardian 2",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Insignă Bravo",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Insignă Baggage",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Insignă Phoenix",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Insignă Office",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Insignă Cobblestone",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Insignă Overpass",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Insignă Bloodhound",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Insignă Cache",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Insignă Valeria Phoenix",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Insignă Chroma",
-        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 2. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Insignă Guardian 3",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Insignă Canals",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Insignă Welcome to the Clutch",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Insignă Death Sentence",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Calitate ridicată"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Insignă Inferno 2",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Insignă Wildfire",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Insignă Easy Peasy",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarcabil(ă)"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Insignă Aces High",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Insignă Hydra",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic(ă)"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Insignă Howl",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Insignă Brigadier General",
-        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Acesta este o insignă de colecție din seria 3. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Insignă Alyx",
-        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău CS:GO.",
+        "description": "Aceasta este o insignă de colecție care comemorează lansarea lui Half-Life: Alyx și revenirea lui Valve la seria Half-Life în RV. Poate fi afișată pe profilul tău.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinar(ă)"

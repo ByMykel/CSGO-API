@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Νόμισμα βετεράνου 5 χρόνων",
-        "description": "Είναι μέλος της κοινότητας Counter-Strike για περισσότερο από 5 χρόνια.",
+        "description": "Είναι μέλος της κοινότητας Counter-Strike για πάνω από 5 χρόνια.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -13,7 +13,7 @@
     {
         "id": "collectible-969",
         "name": "Νόμισμα βετεράνου 10 χρόνων",
-        "description": "Είναι μέλος της κοινότητας Counter-Strike για περισσότερο από 10 χρόνια.",
+        "description": "Είναι μέλος της κοινότητας Counter-Strike για πάνω από 10 χρόνια.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -24,7 +24,7 @@
     {
         "id": "collectible-970",
         "name": "Έμβλημα Αφοσίωσης",
-        "description": "Αυτό το έμβλημα τιμάει την πιστή αφοσίωση των μελών της κοινότητας του Counter-Strike πριν την ενημέρωση Ζώνης κινδύνου. <i>Δύναμη μέσω αφοσίωσης.</i>",
+        "description": "Αυτό το έμβλημα τιμά την πιστή αφοσίωση των μελών της κοινότητας του Counter-Strike πριν την ενημέρωση Ζώνης Κινδύνου. \\n\\n<i>Δύναμη μέσω αφοσίωσης.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -42,5 +42,16 @@
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Έμβλημα Global Offensive",
+        "description": "Αυτό το έμβλημα τιμά την πιστή αφοσίωση στην κοινότητα του Counter-Strike: Global Offensive πριν την κυκλοφορία του Counter-Strike 2.\\n\\n<i>Οι θρύλοι είναι αθάνατοι.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinary"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

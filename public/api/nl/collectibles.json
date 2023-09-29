@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Loyaliteitsbadge",
-        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update. <i>Strength through loyalty.</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Buitengewoon"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Civil Protection-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Sustenance!-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Vortigaunt-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Headcrab Glyph-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Health-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Lambda-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Copper Lambda-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "CMB-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Black Mesa-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Combine Helmet-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "City 17-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3752,8 +3763,8 @@
     },
     {
         "id": "collectible-4873",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3763,8 +3774,8 @@
     },
     {
         "id": "collectible-4874",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3774,8 +3785,8 @@
     },
     {
         "id": "collectible-4875",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3785,8 +3796,8 @@
     },
     {
         "id": "collectible-4876",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3796,8 +3807,8 @@
     },
     {
         "id": "collectible-4877",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3807,8 +3818,8 @@
     },
     {
         "id": "collectible-4878",
-        "name": "2023 Service Medal",
-        "description": "Awarded for outstanding service and achievement in 2023.",
+        "name": "Dienstmedaille 2023",
+        "description": "Uitgereikt voor uitstekende diensten en prestaties in 2023.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Authentiek Dust II-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Authentiek Guardian Elite-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Authentiek Mirage-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Authentiek Inferno-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Authentiek Italy-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Authentiek Victory-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Authentiek Militia-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Authentiek Nuke-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Authentiek Train-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Authentiek Guardian-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Authentiek Tactics-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Authentiek Guardian 2-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Authentiek Bravo-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Authentiek Baggage-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Authentiek Phoenix-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Authentiek Office-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Authentiek Cobblestone-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Authentiek Overpass-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Authentiek Bloodhound-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Authentiek Cache-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Authentiek Valeria Phoenix-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Authentiek Chroma-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Authentiek Guardian 3-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Authentiek Canals-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Authentiek Welcome to the Clutch-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Authentiek Death Sentence-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Authentiek Inferno 2-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Authentiek Wildfire-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Authentiek Easy Peasy-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Authentiek Aces High-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Authentiek Hydra-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Authentiek Howl-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Authentiek Brigadier General-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Authentiek Alyx-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Dust II-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Guardian Elite-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Mirage-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Inferno-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Italy-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Victory-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Militia-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Nuke-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Train-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Guardian-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Tactics-speld",
-        "description": "Dit is een verzamelspeld van Serie 1. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 1. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Guardian 2-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Bravo-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Baggage-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Phoenix-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Office-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Cobblestone-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Overpass-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Bloodhound-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Cache-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Valeria Phoenix-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Chroma-speld",
-        "description": "Dit is een verzamelspeld van Serie 2. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 2. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Guardian 3-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Canals-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Welcome to the Clutch-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Death Sentence-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Hoge rang"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Inferno 2-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Wildfire-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Easy Peasy-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Opmerkelijk"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Aces High-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Hydra-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotisch"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Howl-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Brigadier General-speld",
-        "description": "Dit is een verzamelspeld van Serie 3. Het kan worden getoond op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld van Serie 3. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Alyx-speld",
-        "description": "Dit is een verzamelspeld als souvenir aan Half-Life: Alyx, Valves terugkeer naar de Half-Life-serie in VR. Ze kan getoond worden op je CS:GO-profiel.",
+        "description": "Dit is een verzamelspeld ter herinnering aan Half-Life: Alyx, waarmee Valve in VR terugkeert naar de Half-Life-serie. Deze kan op je profiel worden weergegeven.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Buitengewoon"

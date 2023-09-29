@@ -24,7 +24,7 @@
     {
         "id": "collectible-970",
         "name": "Sadakat Rozeti",
-        "description": "Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır. <i>Kuvvet sadakatten doğar.</i>",
+        "description": "Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Kuvvet sadakatten doğar.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -42,5 +42,16 @@
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Rozeti",
+        "description": "Bu rozet, Counter-Strike 2'nin yayınlanmasından önce Counter-Strike: Global Offensive topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Efsaneler asla ölmez.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Olağandışı"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

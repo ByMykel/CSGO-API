@@ -23,8 +23,8 @@
     },
     {
         "id": "collectible-970",
-        "name": "Медаль за верность",
-        "description": "Выдаётся преданным членам сообщества Counter-Strike, вступившим в него до выхода обновления «Запретная зона». <i>Сила в преданности.</i>",
+        "name": "Медаль за преданность",
+        "description": "Выдаётся преданным членам сообщества Counter-Strike, вступившим в него до выхода обновления «Запретная зона».\\n\\n<i>Сила в преданности.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "экстраординарного типа"
@@ -42,5 +42,16 @@
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Медаль Global Offensive",
+        "description": "Выдаётся преданным членам сообщества Counter-Strike: Global Offensive, вступившим в него до выхода Counter-Strike 2.\\n\\n<i>Легенды не умирают.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "экстраординарного типа"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

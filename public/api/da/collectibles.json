@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Loyalitetsemblem",
-        "description": "Dette emblem fejrer loyalt medlemskab i Counter-Strike-fællesskabet forud for Battle Royale-opdateringen. <i>Styrke gennem loyalitet.</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -1255,7 +1255,7 @@
     },
     {
         "id": "collectible-988",
-        "name": "Champion at IEM Rio 2022",
+        "name": "Vinder af IEM Rio 2022",
         "description": "Dette mesterskabstrofæ blev overrakt til vinderen af IEM Rio 2022 CS:GO-majormesterskabet.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1299,8 +1299,8 @@
     },
     {
         "id": "collectible-992",
-        "name": "Champion at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Champion at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "Vinder af BLAST.tv Paris 2023",
+        "description": "Dette mesterskabstrofæ blev overrakt til vinderen af BLAST.tv Paris 2023 CS:GO-majormesterskabet.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -1310,8 +1310,8 @@
     },
     {
         "id": "collectible-993",
-        "name": "Finalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Finalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "Finalist ved Blast.tv Paris 2023",
+        "description": "Dette mesterskabstrofæ blev overrakt til finalisten ved BLAST.tv Paris 2023 CS:GO-majormesterskabet.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -1321,8 +1321,8 @@
     },
     {
         "id": "collectible-994",
-        "name": "Semifinalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Semifinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "Semifinalist ved Blast.tv Paris 2023",
+        "description": "Dette mesterskabstrofæ blev overrakt til semifinalisten ved BLAST.tv Paris 2023 CS:GO-majormesterskabet.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -1332,14 +1332,25 @@
     },
     {
         "id": "collectible-995",
-        "name": "Quarterfinalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Quarterfinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "Kvartfinalist ved Blast.tv Paris 2023",
+        "description": "Dette mesterskabstrofæ blev overrakt til kvartfinalisten ved BLAST.tv Paris 2023 CS:GO-majormesterskabet.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Ekstraordinær"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -2862,7 +2873,7 @@
     {
         "id": "collectible-4554",
         "name": "Katowice 2019-seerpas",
-        "description": "This is a sealed IEM 2019 Katowice CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Katowice 2019 Coin tracking your progress throughout the event, full access to the Katowice 2019 Pick'Em Challenge, exclusive access to Souvenir Packages, Steam.tv chat flair, and unlimited team graffiti for the duration of the event.\\n\\nYou can upgrade your Katowice 2019 Coin by completing challenges. You can redeem a Souvenir Package every time you upgrade your Coin.",
+        "description": "Dette er et forseglet seerpas fra IEM 2019 Katowice CS:GO Major-mesterskabet. Når forseglingen er brudt, modtager du en Katowice 2019-mønt, som sporer dine fremskridt under begivenheden og giver fuld adgang til Katowice 2019 Pick'Em-udfordringen, eksklusiv adgang til souvenirpakker, chatemblemer på Steam.tv og ubegrænset holdgraffiti under hele begivenheden.\\n\\nDu kan opgradere din Katowice 2019-mønt ved at gennemføre udfordringer. Du kan indløse en souvenirpakke, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Civil Protection-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Sustenance!-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Vortigaunt-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Headcrab Glyph-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Health-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Lambda-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Copper Lambda-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "CMB-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Black Mesa-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Combine Helmet-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "City 17-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3456,7 +3467,7 @@
     {
         "id": "collectible-4796",
         "name": "Stockholm 2021 – Seerpas",
-        "description": "This is a sealed PGL 2021 Stockholm CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Stockholm 2021 Coin tracking your progress throughout the event, full access to the Stockholm 2021 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Stockholm 2021 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Dette er et forseglet seerpas til PGL Stockholm CS:GO Major-mesterskabet 2021. Når du åbner dette pas, modtager du Stockholm 2021-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Stockholm 2021 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nOpgrader din Stockholm 2021-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3511,7 +3522,7 @@
     {
         "id": "collectible-4801",
         "name": "Stockholm 2021 – Seerpas + 3 souvenirpoletter",
-        "description": "This is a sealed PGL 2021 Stockholm CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Stockholm 2021 Coin tracking your progress throughout the event, full access to the Stockholm 2021 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Stockholm 2021 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Stockholm 2021 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Dette er et forseglet seerpas til PGL Stockholm CS:GO Major-mesterskabet 2021. Når du åbner dette pas, modtager du Stockholm 2021-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Stockholm 2021 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nDu opgraderer din Stockholm 2021-mønt ved at gennemføre møntudfordringerne. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\nDette seerpas forudaktiverer din Stockholm 2021-mønt med 3 souvenirpoletter.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3522,7 +3533,7 @@
     {
         "id": "collectible-4802",
         "name": "Stockholm 2021-souvenirpolet",
-        "description": "This is a sealed PGL 2021 Stockholm CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Stockholm 2021 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Stockholm 2021 Coin.",
+        "description": "Dette er en forseglet souvenirpolet fra PGL Stockholm CS:GO Major-mesterskabet 2021. Når denne polet åbnes, føjes der en polet til din Stockholm 2021-mønt, som du kan bruge til at indløse en souvenirpakke.\\n\\nPoletter kan kun føjes til din nuværende Stockholm-mønt.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3610,7 +3621,7 @@
     {
         "id": "collectible-4826",
         "name": "Mønt: Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra PGL 2022 Antwerp CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Antwerp 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Antwerp 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3621,7 +3632,7 @@
     {
         "id": "collectible-4827",
         "name": "Sølvmønt: Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra PGL 2022 Antwerp CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Antwerp 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Antwerp 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3632,7 +3643,7 @@
     {
         "id": "collectible-4828",
         "name": "Guldmønt: Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra PGL 2022 Antwerp CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Antwerp 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Antwerp 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3643,7 +3654,7 @@
     {
         "id": "collectible-4829",
         "name": "Diamantmønt: Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra PGL 2022 Antwerp CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Antwerp 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Antwerp 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3676,7 +3687,7 @@
     {
         "id": "collectible-4850",
         "name": "Rio 2022 – Seerpas",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Rio 2022 Coin tracking your progress throughout the event, full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Dette er et forseglet seerpas til IEM Rio CS:GO Major-mesterskabet 2022. Når du åbner dette pas, modtager du Rio 2022-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Rio 2022 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nOpgrader din Rio 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3687,7 +3698,7 @@
     {
         "id": "collectible-4851",
         "name": "Mønt: Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra IEM 2022 Rio CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Rio 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Rio 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3698,7 +3709,7 @@
     {
         "id": "collectible-4852",
         "name": "Sølvmønt: Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra IEM 2022 Rio CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Rio 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Rio 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3709,7 +3720,7 @@
     {
         "id": "collectible-4853",
         "name": "Guldmønt: Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra IEM 2022 Rio CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Rio 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Rio 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3720,7 +3731,7 @@
     {
         "id": "collectible-4854",
         "name": "Diamantmønt: Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Dette er en mindemønt fra IEM 2022 Rio CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Rio 2022 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Rio 2022-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3731,7 +3742,7 @@
     {
         "id": "collectible-4855",
         "name": "Rio 2022-seerpas + 3 souvenirpoletter",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Rio 2022 Coin tracking your progress throughout the event, full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Rio 2022 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Rio 2022 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Dette er et forseglet seerpas til IEM Rio CS:GO Major-mesterskabet 2022. Når du åbner dette pas, modtager du Rio 2022-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Rio 2022 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nDu opgraderer din Rio 2022-mønt ved at gennemføre møntudfordringerne. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\nDette seerpas forudaktiverer din Rio 2022-mønt med 3 souvenirpoletter.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3741,8 +3752,8 @@
     },
     {
         "id": "collectible-4856",
-        "name": "Rio 2022 Souvenir Token",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Rio 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Rio 2022 Coin.",
+        "name": "Rio 2022-souvenirpolet",
+        "description": "Dette er en forseglet souvenirpolet fra IEM 2022 Rio CS:GO Major-mesterskabet. Når denne polet åbnes, lægges der en polet til din Rio 2022-mønt, og du kan indløse en souvenirpakke.\\n\\nPoletter kan kun anvendes til din nuværende Rio 2022-mønt.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3818,8 +3829,8 @@
     },
     {
         "id": "collectible-4883",
-        "name": "Paris 2023 Viewer Pass",
-        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Paris 2023 Coin tracking your progress throughout the event, full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "name": "Paris 2023 – Seerpas",
+        "description": "Dette er et forseglet seerpas til BLAST.tv Paris CS:GO Major-mesterskabet 2023. Når du åbner dette pas, modtager du Paris 2023-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Paris 2023 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nDu opgraderer din Paris 2023-mønt ved at gennemføre møntudfordringerne. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3829,8 +3840,8 @@
     },
     {
         "id": "collectible-4884",
-        "name": "Paris 2023 Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Mønt: Paris 2023",
+        "description": "Dette er en mindemønt fra BLAST.tv Paris 2023 CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Paris 2023 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Paris 2023-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3840,8 +3851,8 @@
     },
     {
         "id": "collectible-4885",
-        "name": "Paris 2023 Silver Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Sølvmønt: Paris 2023",
+        "description": "Dette er en mindemønt fra BLAST.tv Paris 2023 CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Paris 2023 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Paris 2023-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3851,8 +3862,8 @@
     },
     {
         "id": "collectible-4886",
-        "name": "Paris 2023 Gold Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Guldmønt: Paris 2023",
+        "description": "Dette er en mindemønt fra BLAST.tv Paris 2023 CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Paris 2023 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Paris 2023-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3862,8 +3873,8 @@
     },
     {
         "id": "collectible-4887",
-        "name": "Paris 2023 Diamond Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Diamantmønt: Paris 2023",
+        "description": "Dette er en mindemønt fra BLAST.tv Paris 2023 CS:GO Major-mesterskabet, som sporer dine fremskridt under begivenheden og giver fuld adgang til Paris 2023 Pick'Em-udfordringen, chatemblemer på Steam.tv, møntudfordringer og mulighed for ubegrænset graffiti under hele begivenheden.\\n\\nOpgrader din Paris 2023-mønt ved at gennemføre møntudfordringer. Optjen en souvenirpolet, hver gang du opgraderer din mønt.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3873,8 +3884,8 @@
     },
     {
         "id": "collectible-4888",
-        "name": "Paris 2023 Viewer Pass + 3 Souvenir Tokens",
-        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Paris 2023 Coin tracking your progress throughout the event, full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Paris 2023 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Paris 2023 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "name": "Paris 2023-seerpas + 3 souvenirpoletter",
+        "description": "Dette er et forseglet seerpas til BLAST.tv Paris CS:GO Major-mesterskabet 2023. Når du åbner dette pas, modtager du Paris 2023-mønten, der sporer dine fremskridt gennem hele begivenheden, fuld adgang til Paris 2023 Pick'Em-udfordringen, Steam.tv-chatudsmykning, møntudfordringer og ubegrænsede graffitimuligheder i spillet under begivenheden.\\n\\nDu opgraderer din Paris 2023-mønt ved at gennemføre møntudfordringerne. Optjen en souvenirpolet, hver gang du opgraderer mønten.\\n\\nDette seerpas forudaktiverer din Paris 2023-mønt med 3 souvenirpoletter.\\n\\n50% af indtægterne fra salget af dette pas støtter de deltagende organisationer.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3884,8 +3895,8 @@
     },
     {
         "id": "collectible-4889",
-        "name": "Paris 2023 Souvenir Token",
-        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Paris 2023 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Paris 2023 Coin.",
+        "name": "Paris 2023-souvenirpolet",
+        "description": "Dette er en forseglet souvenirpolet fra BLAST.tv Paris 2023 CS:GO Major-mesterskabet. Når denne polet åbnes, lægges der en polet til din Paris 2023-mønt, og du kan indløse en souvenirpakke.\\n\\nPoletter kan kun anvendes til din nuværende Paris 2023-mønt.",
         "rarity": {
             "id": "rarity_common",
             "name": "Basiskvalitet"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Dust II-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Guardian Elite-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Mirage-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Inferno-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Italy-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Victory-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Militia-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Nuke-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Train-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Guardian-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Tactics-knappenål (Ægte)",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Guardian 2-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Bravo-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Baggage-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Phoenix-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Office-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Cobblestone-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Overpass-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Bloodhound-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Cache-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Valeria Phoenix-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Chroma-knappenål (Ægte)",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Guardian 3-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Canals-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Welcome to the Clutch-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Death Sentence-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Inferno 2-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Wildfire-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Easy Peasy-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Aces High-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Hydra-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Howl-knappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Brigadegeneralsknappenål (Ægte)",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Alyx-knappenål (Ægte)",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Dust II-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Guardian Elite-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Mirage-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Inferno-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Italy-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Victory-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Militia-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Nuke-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Train-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Guardian-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Tactics-knappenål",
-        "description": "Dette er en Serie 1-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 1-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Guardian 2-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Bravo-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Baggage-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Phoenix-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Office-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Cobblestone-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Overpass-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Bloodhound-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Cache-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Valeria Phoenix-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Chroma-knappenål",
-        "description": "Dette er en Serie 2-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 2-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Guardian 3-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Canals-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Welcome to the Clutch-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Death Sentence-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Højkvalitet"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Inferno 2-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Wildfire-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Easy Peasy-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Bemærkelsesværdig"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Aces High-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Hydra-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksotisk"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Howl-knappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Brigadegeneralsknappenål",
-        "description": "Dette er en Serie 3-samlingsknappenål. Den kan fremvises på din CS:GO-profil.",
+        "description": "Dette er en Serie 3-samlerknappenål. Den kan fremvises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Alyx-knappenål",
-        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din CS:GO-profil.",
+        "description": "Dette er en samlerknappenål til minde om Half-Life: Alyx, Valves tilbagevenden til Half-Life-serien i VR. Den kan vises på din profil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Ekstraordinær"

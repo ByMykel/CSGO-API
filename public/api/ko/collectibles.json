@@ -1342,6 +1342,17 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "비범한"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
+    },
+    {
         "id": "collectible-1000",
         "name": "보상 작전 참가권",
         "description": "2013년 4월 25일부터 9월 2일까지 총 131일 동안 진행된 보상 작전을 통해 커뮤니티 맵 제작자들에게 18만 달러 이상을 지급했습니다. 이제는 이 참가권을 통해 작전에 참여할 수 없게 되었지만, 여전히 기념 코인을 받을 수 있습니다.",
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "진품 Guardian 3 Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "진품 Canals Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "진품 Welcome to the Clutch Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "진품 Death Sentence Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "진품 Inferno 2 Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "진품 Wildfire Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "진품 Easy Peasy Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "진품 Aces High Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "이국적인"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "진품 Hydra Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "이국적인"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "진품 Howl Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "비범한"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "진품 Brigadier General Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "비범한"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Guardian 3 Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Canals Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Welcome to the Clutch Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Death Sentence Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_rare",
             "name": "고급"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Inferno 2 Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Wildfire Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Easy Peasy Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "눈에 띄는"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Aces High Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "이국적인"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Hydra Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "이국적인"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Howl Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "비범한"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Brigadier General Pin",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "description": "This is a Series 3 collectible pin. It can be displayed on your profile.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "비범한"

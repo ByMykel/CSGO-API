@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Moneda de 5 años de veteranía",
-        "description": "Miembro de la comunidad de Counter-Strike durante más de 5 años.",
+        "description": "Miembro de la comunidad de Counter‑Strike durante más de 5 años.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "Moneda de 10 años de veteranía",
-        "description": "Miembro de la comunidad de Counter-Strike durante más de 10 años.",
+        "description": "Miembro de la comunidad de Counter‑Strike durante más de 10 años.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Insignia de lealtad",
-        "description": "Esta insignia conmemora la membresía leal en la comunidad de Counter-Strike antes de la actualización de Danger Zone. <i>Fuerza a través de la lealtad.</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "de aspecto extraordinario"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Pin de Protección Civil",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Pin de ¡sustento!",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Pin de Vortigaunt",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Pin de glifo de cangrejo",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Pin de salud",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Pin de Lambda",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Pin de Lambda de cobre",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "Pin de la Alianza",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Pin de Black Mesa",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Pin de casco de la Alianza",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Pin de Ciudad 17",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Pin de Dust II de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Pin del guardián de élite de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Pin de Mirage de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Pin de Inferno de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Pin de Italy de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Pin de la victoria de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Pin de Militia de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Pin de Nuke de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Pin de Train de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Pin del guardián de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Pin de tácticas de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Pin del guardián 2 de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Pin de Bravo de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Pin de Baggage de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Pin de Phoenix de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Pin de Office de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Pin de Cobblestone de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Pin de Overpass de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Pin de Bloodhound de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Pin de Cache de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Pin de Valeria de Phoenix de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Pin de Croma de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Pin del guardián 3 de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Pin de Canals de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Pin de Welcome to the Clutch de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Pin de Sentencia de Muerte de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Pin de Inferno 2 de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Pin de Wildfire de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Pin de Easy Peasy de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Pin de Ases del cielo de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Pin de Hydra de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Pin de Aullido de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Pin de General de brigada de aspecto genuino",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Pin de Alyx de aspecto genuino",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Pin de Dust II",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Pin del guardián de élite",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Pin de Mirage",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Pin de Inferno",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Pin de Italy",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Pin de la victoria",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Pin de Militia",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Pin de Nuke",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Pin de Train",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Pin del guardián",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Pin de tácticas",
-        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 1. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Pin del guardián 2",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Pin de Bravo",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Pin de Baggage",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Pin de Phoenix",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Pin de Office",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Pin de Cobblestone",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Pin de Overpass",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Pin de Bloodhound",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Pin de Cache",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Pin de Valeria de Phoenix",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Pin de Croma",
-        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 2. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Pin del guardián 3",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Pin de Canals",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Pin de Welcome to the Clutch",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Pin de Sentencia de Muerte",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "de grado alto"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Pin de Inferno 2",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Pin de Wildfire",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Pin de Easy Peasy",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "singular"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Pin de Ases del cielo",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Pin de Hydra",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "de aspecto exótico"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Pin de Aullido",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Pin de General de brigada",
-        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable de Serie 3. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Pin de Alyx",
-        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil de CS:GO.",
+        "description": "Esto es un pin coleccionable que conmemora Half-Life: Alyx, el regreso de Valve en realidad virtual a la serie Half-Life. Puede mostrarse en tu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "de aspecto extraordinario"

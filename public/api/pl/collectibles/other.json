@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Żeton 5-letniego weterana",
-        "description": "Członek społeczności Counter-Strike od ponad 5 lat.",
+        "description": "Członek społeczności Counter-Strike od ponad 5 lat.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -13,7 +13,7 @@
     {
         "id": "collectible-969",
         "name": "Żeton 10-letniego weterana",
-        "description": "Członek społeczności Counter-Strike od ponad 10 lat.",
+        "description": "Członek społeczności Counter-Strike od ponad 10 lat.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -24,7 +24,7 @@
     {
         "id": "collectible-970",
         "name": "Odznaka Lojalności",
-        "description": "Ta odznaka upamiętnia lojalne członkostwo w społeczności CS:GO przed aktualizacją Strefa zagrożenia. <i>Siła poprzez lojalność.</i>",
+        "description": "Ta odznaka upamiętnia lojalne członkostwo w społeczności Counter-Strike przed aktualizacją „Strefa zagrożenia”.\\n\\n<i>Siła poprzez lojalność.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -42,5 +42,16 @@
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Odznaka Global Offensive",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "wyjątkowej jakości"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Moeda dos 5 Anos de Serviço",
-        "description": "Membro da comunidade do Counter-Strike por mais de 5 anos.",
+        "description": "Membro da comunidade do Counter-Strike por mais de cinco anos.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "Moeda dos 10 Anos de Serviço",
-        "description": "Membro da comunidade do Counter-Strike por mais de 10 anos.",
+        "description": "Membro da comunidade do Counter-Strike por mais de dez anos.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Insígnia de Lealdade",
-        "description": "Comemora a sua lealdade à comunidade do Counter-Strike antes do lançamento do modo de jogo Zona de Perigo. <i>Da lealdade vem a força.</i>",
+        "description": "Comemora a sua lealdade à comunidade do Counter-Strike antes do lançamento do modo de jogo Zona de Perigo.\\n\\n<i>Da lealdade vem a força.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -1342,9 +1342,20 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
     },
     {
+        "id": "collectible-996",
+        "name": "Insígnia da Ofensiva Global",
+        "description": "Comemora a sua lealdade à comunidade do Counter-Strike: Global Offensive antes do lançamento do Counter-Strike 2.\\n\\n<i>Lendas nunca morrem.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinário"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
+    },
+    {
         "id": "collectible-1000",
         "name": "Passe da Operação Acerto de Contas",
-        "description": "A Operação Acerto de Contas começou em 25 de abril de 2013 e acabou em 2 de setembro e rendeu a criadores de mapas da comunidade mais de 180 mil dólares. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Acerto de Contas.",
+        "description": "A Operação Acerto de Contas ocorreu entre os dias 25 de abril e 2 de setembro de 2013, e rendeu a criadores de mapas da comunidade mais de 180 mil dólares. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Acerto de Contas.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -1365,7 +1376,7 @@
     },
     {
         "id": "collectible-1002",
-        "name": "Moeda Prateada da Op. Acerto de Contas",
+        "name": "Moeda de Prata da Op. Acerto de Contas",
         "description": "Participou da Operação Acerto de Contas por dez horas para apoiar criadores de mapas comunitários.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1376,7 +1387,7 @@
     },
     {
         "id": "collectible-1003",
-        "name": "Moeda Dourada da Op. Acerto de Contas",
+        "name": "Moeda de Ouro da Op. Acerto de Contas",
         "description": "Participou da Operação Acerto de Contas por 50 horas para apoiar criadores de mapas comunitários.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1465,7 +1476,7 @@
     {
         "id": "collectible-1012",
         "name": "Passe da Operação Bravo",
-        "description": "A Operação Bravo começou em 19 de setembro de 2013 e acabou em 5 de fevereiro de 2014. Este passe não concede mais acesso a uma Operação, mas pode ser resgatado em troca de uma Moeda da Operação Bravo.",
+        "description": "A Operação Bravo ocorreu entre os dias 19 de setembro de 2013 e 5 de fevereiro de 2014. Este passe não concede mais acesso a uma Operação, mas pode ser resgatado em troca de uma Moeda da Operação Bravo.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -1486,7 +1497,7 @@
     },
     {
         "id": "collectible-1014",
-        "name": "Moeda Prateada da Op. Bravo",
+        "name": "Moeda de Prata da Op. Bravo",
         "description": "Participou da Operação Bravo.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1497,7 +1508,7 @@
     },
     {
         "id": "collectible-1015",
-        "name": "Moeda Dourada da Op. Bravo",
+        "name": "Moeda de Ouro da Op. Bravo",
         "description": "Participou da Operação Bravo.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1586,7 +1597,7 @@
     {
         "id": "collectible-1023",
         "name": "Passe da Operação Fênix",
-        "description": "A Operação Fênix começou em 20 de fevereiro de 2014 e acabou em 2 de junho. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Fênix.",
+        "description": "A Operação Fênix ocorreu entre os dias 20 de fevereiro e 2 de junho de 2014. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Fênix.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -1607,7 +1618,7 @@
     },
     {
         "id": "collectible-1025",
-        "name": "Moeda Prateada da Op. Fênix",
+        "name": "Moeda de Prata da Op. Fênix",
         "description": "Participou da Operação Fênix.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1618,7 +1629,7 @@
     },
     {
         "id": "collectible-1026",
-        "name": "Moeda Dourada da Op. Fênix",
+        "name": "Moeda de Ouro da Op. Fênix",
         "description": "Participou da Operação Fênix.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1630,7 +1641,7 @@
     {
         "id": "collectible-1027",
         "name": "Passe Livre da Operação Libertação",
-        "description": "A Operação Libertação começou em 2 de julho de 2014 e acabou em 2 de outubro. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Libertação.",
+        "description": "A Operação Libertação ocorreu entre os dias 2 de julho e 2 de outubro de 2014. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Libertação.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -1651,7 +1662,7 @@
     },
     {
         "id": "collectible-1029",
-        "name": "Moeda Prateada da Op. Libertação",
+        "name": "Moeda de Prata da Op. Libertação",
         "description": "Participou da Operação Libertação.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1662,7 +1673,7 @@
     },
     {
         "id": "collectible-1030",
-        "name": "Moeda Dourada da Op. Libertação",
+        "name": "Moeda de Ouro da Op. Libertação",
         "description": "Participou da Operação Libertação.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2323,7 +2334,7 @@
     {
         "id": "collectible-1315",
         "name": "Passe da Operação Vanguarda",
-        "description": "A Operação Vanguarda começou em 11 de novembro de 2014 e acabou em 31 de março de 2015. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Vanguarda.",
+        "description": "A Operação Vanguarda ocorreu entre os dias 11 de novembro de 2014 e 31 de março de 2015. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Vanguarda.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -2344,7 +2355,7 @@
     },
     {
         "id": "collectible-1317",
-        "name": "Moeda Prateada da Op. Vanguarda",
+        "name": "Moeda de Prata da Op. Vanguarda",
         "description": "Participou da Operação Vanguarda.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2355,7 +2366,7 @@
     },
     {
         "id": "collectible-1318",
-        "name": "Moeda Dourada da Op. Vanguarda",
+        "name": "Moeda de Ouro da Op. Vanguarda",
         "description": "Participou da Operação Vanguarda.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2367,7 +2378,7 @@
     {
         "id": "collectible-1326",
         "name": "Passe da Operação Cão de Caça",
-        "description": "A Operação Cão de Caça começou em 26 de maio de 2015 e acabou em 1º de outubro. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Cão de Caça.",
+        "description": "A Operação Cão de Caça ocorreu entre os dias 26 de maio e 1º de outubro de 2015. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Cão de Caça.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -2388,7 +2399,7 @@
     },
     {
         "id": "collectible-1328",
-        "name": "Moeda Prateada da Op. Cão de Caça",
+        "name": "Moeda de Prata da Op. Cão de Caça",
         "description": "Participou da Operação Cão de Caça.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2399,7 +2410,7 @@
     },
     {
         "id": "collectible-1329",
-        "name": "Moeda Dourada da Op. Cão de Caça",
+        "name": "Moeda de Ouro da Op. Cão de Caça",
         "description": "Participou da Operação Cão de Caça.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2433,7 +2444,7 @@
     {
         "id": "collectible-1335",
         "name": "Passe da Operação Fogo Selvagem",
-        "description": "A Operação Fogo Selvagem começou em 17 de fevereiro de 2016 e acabou em 13 de julho. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Fogo Selvagem.",
+        "description": "A Operação Fogo Selvagem ocorreu entre os dias 17 de fevereiro e 13 de julho de 2016. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Fogo Selvagem.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -2454,7 +2465,7 @@
     },
     {
         "id": "collectible-1337",
-        "name": "Moeda Prateada da Op. Fogo Selvagem",
+        "name": "Moeda de Prata da Op. Fogo Selvagem",
         "description": "Participou da Operação Fogo Selvagem.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2465,7 +2476,7 @@
     },
     {
         "id": "collectible-1338",
-        "name": "Moeda Dourada da Op. Fogo Selvagem",
+        "name": "Moeda de Ouro da Op. Fogo Selvagem",
         "description": "Participou da Operação Fogo Selvagem.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2543,7 +2554,7 @@
     {
         "id": "collectible-1352",
         "name": "Passe da Operação Hidra",
-        "description": "A Operação Hidra começou em 23 de maio de 2017 e acabou em 14 de novembro. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Hidra.",
+        "description": "A Operação Hidra ocorreu entre os dias 23 de maio e 14 de novembro de 2017. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Hidra.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -2773,7 +2784,7 @@
     },
     {
         "id": "collectible-4354",
-        "name": "Moeda Prateada da Op. Hidra",
+        "name": "Moeda de Prata da Op. Hidra",
         "description": "Participou da Operação Hidra.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2784,7 +2795,7 @@
     },
     {
         "id": "collectible-4355",
-        "name": "Moeda Dourada da Op. Hidra",
+        "name": "Moeda de Ouro da Op. Hidra",
         "description": "Participou da Operação Hidra.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2807,7 +2818,7 @@
     {
         "id": "collectible-4549",
         "name": "Passe Premium da Operação Teia Fragmentada",
-        "description": "A Operação Teia Fragmentada começou em 18 de novembro de 2019 e acabou em 31 de março de 2020. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Teia Fragmentada.",
+        "description": "A Operação Teia Fragmentada ocorreu entre os dias 18 de novembro de 2019 e 31 de março de 2020. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Teia Fragmentada.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -2828,7 +2839,7 @@
     },
     {
         "id": "collectible-4551",
-        "name": "Moeda Prateada da Op. Teia Fragmentada",
+        "name": "Moeda de Prata da Op. Teia Fragmentada",
         "description": "Participou da Operação Teia Fragmentada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2839,7 +2850,7 @@
     },
     {
         "id": "collectible-4552",
-        "name": "Moeda Dourada da Op. Teia Fragmentada",
+        "name": "Moeda de Ouro da Op. Teia Fragmentada",
         "description": "Participou da Operação Teia Fragmentada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2883,7 +2894,7 @@
     },
     {
         "id": "collectible-4556",
-        "name": "Moeda Prateada do Katowice 2019",
+        "name": "Moeda de Prata do Katowice 2019",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial IEM Katowice de CS:GO de 2019, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, acesso exclusivo aos pacotes de lembranças, ícones de torcedor na Steam.tv e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Você pode resgatar um pacote de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2894,7 +2905,7 @@
     },
     {
         "id": "collectible-4557",
-        "name": "Moeda Dourada do Katowice 2019",
+        "name": "Moeda de Ouro do Katowice 2019",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial IEM Katowice de CS:GO de 2019, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, acesso exclusivo aos pacotes de lembranças, ícones de torcedor na Steam.tv e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Você pode resgatar um pacote de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2938,7 +2949,7 @@
     },
     {
         "id": "collectible-4624",
-        "name": "Moeda Prateada do Berlim 2019",
+        "name": "Moeda de Prata do Berlim 2019",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial StarLadder Berlim de CS:GO de 2019, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -2949,7 +2960,7 @@
     },
     {
         "id": "collectible-4625",
-        "name": "Moeda Dourada do Berlim 2019",
+        "name": "Moeda de Ouro do Berlim 2019",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial StarLadder Berlim de CS:GO de 2019, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Broche | Proteção Civil",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Broche | Sustento!",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Broche | Vortilético",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Broche | Glifo do Chupa-crânio",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Broche | Vida",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Broche | Lambda",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Broche | Lambda (Cobre)",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "Broche | CMB",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Broche | Black Mesa",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Broche | Capacete da Combine",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Broche | Cidade 17",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3214,7 +3225,7 @@
     {
         "id": "collectible-4699",
         "name": "Passe Premium da Operação Presa Quebrada",
-        "description": "A Operação Presa Quebrada começou em 3 de dezembro de 2020 e acabou em 30 de abril de 2021. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Presa Quebrada.",
+        "description": "A Operação Presa Quebrada ocorreu entre os dias 3 de dezembro de 2020 e 30 de abril de 2021. Este passe não concede mais acesso a uma operação, mas pode ser resgatado em troca de uma Moeda da Operação Presa Quebrada.",
         "rarity": {
             "id": "rarity_common",
             "name": "Nível Básico"
@@ -3235,7 +3246,7 @@
     },
     {
         "id": "collectible-4701",
-        "name": "Moeda Prateada da Op. Presa Quebrada",
+        "name": "Moeda de Prata da Op. Presa Quebrada",
         "description": "Participou da Operação Presa Quebrada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3246,7 +3257,7 @@
     },
     {
         "id": "collectible-4702",
-        "name": "Moeda Dourada da Op. Presa Quebrada",
+        "name": "Moeda de Ouro da Op. Presa Quebrada",
         "description": "Participou da Operação Presa Quebrada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3257,7 +3268,7 @@
     },
     {
         "id": "collectible-4703",
-        "name": "Moeda de Diamante da Op. Presa Quebrada\n",
+        "name": "Moeda de Diamante da Op. Presa Quebrada",
         "description": "Concluiu a Operação Presa Quebrada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3389,7 +3400,7 @@
     },
     {
         "id": "collectible-4760",
-        "name": "Moeda Prateada da Op. Correnteza",
+        "name": "Moeda de Prata da Op. Correnteza",
         "description": "Participou da Operação Correnteza.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3400,7 +3411,7 @@
     },
     {
         "id": "collectible-4761",
-        "name": "Moeda Dourada da Op. Correnteza",
+        "name": "Moeda de Ouro da Op. Correnteza",
         "description": "Participou da Operação Correnteza.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3477,7 +3488,7 @@
     },
     {
         "id": "collectible-4798",
-        "name": "Moeda Prateada do Estocolmo 2021",
+        "name": "Moeda de Prata do Estocolmo 2021",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial PGL Estocolmo 2021 de CS:GO, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3488,7 +3499,7 @@
     },
     {
         "id": "collectible-4799",
-        "name": "Moeda Dourada do Estocolmo 2021",
+        "name": "Moeda de Ouro do Estocolmo 2021",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial PGL Estocolmo 2021 de CS:GO, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3620,7 +3631,7 @@
     },
     {
         "id": "collectible-4827",
-        "name": "Moeda Prateada do Antuérpia 2022",
+        "name": "Moeda de Prata do Antuérpia 2022",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial de CS:GO Antuérpia 2022 da PGL, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3631,7 +3642,7 @@
     },
     {
         "id": "collectible-4828",
-        "name": "Moeda Dourada do Antuérpia 2022",
+        "name": "Moeda de Ouro do Antuérpia 2022",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial de CS:GO Antuérpia 2022 da PGL, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3697,7 +3708,7 @@
     },
     {
         "id": "collectible-4852",
-        "name": "Moeda Prateada do Rio 2022",
+        "name": "Moeda de Prata do Rio 2022",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial de CS:GO Rio 2022 da IEM, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3708,7 +3719,7 @@
     },
     {
         "id": "collectible-4853",
-        "name": "Moeda Dourada do Rio 2022",
+        "name": "Moeda de Ouro do Rio 2022",
         "description": "Esta é uma moeda comemorativa do Campeonato Mundial de CS:GO Rio 2022 da IEM, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.",
         "rarity": {
             "id": "rarity_ancient",
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Broche | Dust II Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Broche | Guardião de Elite Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Broche | Mirage Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Broche | Inferno Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Broche | Italy Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Broche | Vitória Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Broche | Militia Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Broche | Nuke Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Broche | Train Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Broche | Guardião Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Broche | Táticas Genuíno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Broche | Guardião II Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Broche | Bravo Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Broche | Baggage Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Broche | Fênix Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Broche | Office Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Broche | Cobblestone Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Broche | Overpass Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Broche | Cão de Caça Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Broche | Cache Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Broche | Fênix da Valeria Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Broche | Cromático Genuíno",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Broche | Guardião III Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Broche | Canals Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Broche | Welcome to the Clutch Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Broche | Pena de Morte Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Broche | Inferno II Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Broche | Fogo Selvagem Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Broche | Limonada Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Broche | Ás de Espadas Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Broche | Hidra Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Broche | Uivo Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Broche | Coronel Genuíno",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Broche | Alyx Genuíno",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Broche | Dust II",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Broche | Guardião de Elite",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Broche | Mirage",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Broche | Inferno",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Broche | Italy",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Broche | Vitória",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Broche | Militia",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Broche | Nuke",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Broche | Train",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Broche | Guardião",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Broche | Táticas",
-        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 1 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Broche | Guardião II",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Broche | Bravo",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Broche | Baggage",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Broche | Fênix",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Broche | Office",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Broche | Cobblestone",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Broche | Overpass",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Broche | Cão de Caça",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Broche | Cache",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Broche | Fênix da Valeria",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Broche | Cromático",
-        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 2 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Broche | Guardião III",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Broche | Canals",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Broche | Welcome to the Clutch",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Broche | Pena de Morte",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Alta Qualidade"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Broche | Inferno II",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Broche | Fogo Selvagem",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Broche | Limonada",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Notável"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Broche | Ás de Espadas",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Broche | Hidra",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exótico"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Broche | Uivo",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Broche | Coronel",
-        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável da Série 3 que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Broche | Alyx",
-        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil do CS:GO.",
+        "description": "Este é um broche colecionável comemorativo do jogo Half-Life: Alyx, marcando a volta da Valve à série Half-Life em realidade virtual, que pode ser usado para decorar o seu perfil.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinário"

@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "5 年老兵硬币",
-        "description": "已在《反恐精英》社区服役超过 5 年。",
+        "description": "已在 反恐精英 社区服役超过 5 年。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "10 年老兵硬币",
-        "description": "已在《反恐精英》社区服役超过 10 年。",
+        "description": "已在 反恐精英 社区服役超过 10 年。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "忠诚徽章",
-        "description": "此徽章旨在纪念《头号特训》更新前您已在反恐精英社区拥有的忠实会员资格。<i>忠诚的力量。</i>",
+        "description": "此徽章旨在纪念“头号特训”更新前您已在 反恐精英 社区拥有的忠实会员资格。\\n\\n<i>忠诚的力量。</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -1245,7 +1245,7 @@
     {
         "id": "collectible-987",
         "name": "CS:GO 10周年生日硬币",
-        "description": "和CS:GO社区一起庆祝CS:GO十周年生日。\\n\\n<i>纪念十年以来的爆头、残局以及社区时光。十周年生日快乐，CS:GO！</i>",
+        "description": "和CS:GO社区一起庆祝CS:GO十周年生日。\\n\\n<i>纪念十年以来的精准打击、残局以及社区时光。十周年生日快乐，CS:GO！</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "全球攻势徽章",
+        "description": "此徽章旨在纪念游戏更新前您已在《反恐精英：全球攻势》社区拥有的忠实会员资格。\\n\\n<i>传奇永不消逝。</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "非凡"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "国民护卫队胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "养料！胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "弗地岗人胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "猎头蟹符文胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "生命值胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "λ 胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "铜质 λ 胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "联合军胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "黑山基地胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "联合军头盔胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "17号城市胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "炙热沙城 II 胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "精英守护者胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "荒漠迷城胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "炼狱小镇胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "意大利小镇胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "胜利胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "佣兵训练营胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "核子危机胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "列车停放站胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "守护者胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "战术胸章（纯正）",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "守护者 2 号胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "英勇胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "行李仓库胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "凤凰胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "办公室胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "古堡激战胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "死亡游乐园胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "血猎胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "死城之谜胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "瓦莱里娅凤凰胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "幻彩胸章（纯正）",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "守护者 3 号胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "运河水城胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "欢迎翻盘胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "死刑胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "炼狱小镇 2 号胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "野火胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "柠檬汁胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "黑桃 A 胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "九头蛇胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "咆哮胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "准将胸章（纯正）",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "爱莉克斯胸章（纯正）",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "炙热沙城 II 胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "精英守护者胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "荒漠迷城胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "炼狱小镇胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "意大利小镇胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "胜利胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "佣兵训练营胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "核子危机胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "列车停放站胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "守护者胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "战术胸章",
-        "description": "这是一枚系列 1 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "守护者 2 号胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "英勇胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "行李仓库胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "凤凰胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "办公室胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "古堡激战胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "死亡游乐园胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "血猎胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "死城之谜胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "瓦莱里娅凤凰胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "幻彩胸章",
-        "description": "这是一枚系列 2 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 2 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "守护者 3 号胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "运河水城胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "欢迎翻盘胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "死刑胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_rare",
             "name": "高级"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "炼狱小镇 2 号胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "野火胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "柠檬汁胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "卓越"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "黑桃 A 胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "九头蛇胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "奇异"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "咆哮胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "准将胸章",
-        "description": "这是一枚系列 3 的收藏胸章。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚系列 3 的收藏胸章。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "爱莉克斯胸章",
-        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在CS:GO个人资料上展示此胸章。",
+        "description": "这是一枚用于纪念《半衰期：爱莉克斯》的收藏品胸针，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。您可以在个人资料上展示此胸章。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "非凡"

@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Значка за лоялност",
-        "description": "Тази значка ознаменува лоялното членство в Counter-Strike общността, предхождащо обновлението „Опасната зона“. <i>Сила посредством лоялност.</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Необикновен тип"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Значка „Гражданска защита“",
-        "description": "<b><font color='#F2A93E'>Civil Protection Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Civil Protection Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Значка „Препитание!“",
-        "description": "<b><font color='#F2A93E'>Sustenance! Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Sustenance! Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Значка „Вортигонт“",
-        "description": "<b><font color='#F2A93E'>Vortigaunt Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Vortigaunt Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Значка „Глиф на главорак“",
-        "description": "<b><font color='#F2A93E'>Headcrab Glyph Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Headcrab Glyph Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Значка „Здраве“",
-        "description": "<b><font color='#F2A93E'>Health Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Health Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Значка „Ламбда“",
-        "description": "<b><font color='#F2A93E'>Lambda Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Lambda Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Значка „Медна ламбда“",
-        "description": "<b><font color='#F2A93E'>Copper Lambda Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Copper Lambda Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "Значка „ИНТЕГРАТОР“",
-        "description": "<b><font color='#F2A93E'>CMB Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>CMB Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Значка „Блек Меса“",
-        "description": "<b><font color='#F2A93E'>Black Mesa Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Black Mesa Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Значка „Шлем на интегратор“",
-        "description": "<b><font color='#F2A93E'>Combine Helmet Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Combine Helmet Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Значка „Град 17“",
-        "description": "<b><font color='#F2A93E'>City 17 Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>City 17 Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Автентичен Значка за Dust II",
-        "description": "<b><font color='#F2A93E'>Dust II Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Dust II Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Автентичен Значка „Елитен пазител“",
-        "description": "<b><font color='#F2A93E'>Guardian Elite Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian Elite Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Автентичен Значка за Mirage",
-        "description": "<b><font color='#F2A93E'>Mirage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Mirage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Автентичен Значка за Inferno",
-        "description": "<b><font color='#F2A93E'>Inferno Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Inferno Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Автентичен Значка за Italy",
-        "description": "<b><font color='#F2A93E'>Italy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Italy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Автентичен Значка „Победа“",
-        "description": "<b><font color='#F2A93E'>Victory Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Victory Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Автентичен Значка за Militia",
-        "description": "<b><font color='#F2A93E'>Militia Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Militia Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Автентичен Значка за Nuke",
-        "description": "<b><font color='#F2A93E'>Nuke Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Nuke Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Автентичен Значка за Train",
-        "description": "<b><font color='#F2A93E'>Train Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Train Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Автентичен Значка „Пазител“",
-        "description": "<b><font color='#F2A93E'>Guardian Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Автентичен Значка „Тактики“",
-        "description": "<b><font color='#F2A93E'>Tactics Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Tactics Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Автентичен Значка „Пазител 2“",
-        "description": "<b><font color='#F2A93E'>Guardian 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Автентичен Значка „Браво“",
-        "description": "<b><font color='#F2A93E'>Bravo Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Bravo Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Автентичен Значка за Baggage",
-        "description": "<b><font color='#F2A93E'>Baggage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Baggage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Автентичен Значка „Феникс“",
-        "description": "<b><font color='#F2A93E'>Phoenix Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Phoenix Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Автентичен Значка за Office",
-        "description": "<b><font color='#F2A93E'>Office Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Office Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Автентичен Значка за Cobblestone",
-        "description": "<b><font color='#F2A93E'>Cobblestone Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Cobblestone Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Автентичен Значка за Overpass",
-        "description": "<b><font color='#F2A93E'>Overpass Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Overpass Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Автентичен Значка „Хрътка“",
-        "description": "<b><font color='#F2A93E'>Bloodhound Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Bloodhound Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Автентичен Значка за Cache",
-        "description": "<b><font color='#F2A93E'>Cache Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Cache Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Автентичен Значка „Валерия Феникс“",
-        "description": "<b><font color='#F2A93E'>Valeria Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Valeria Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Автентичен Значка „Обагряне“",
-        "description": "<b><font color='#F2A93E'>Chroma Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Chroma Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Автентичен Значка „Пазител 3“",
-        "description": "<b><font color='#F2A93E'>Guardian 3 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian 3 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Автентичен Значка „Canals“",
-        "description": "<b><font color='#F2A93E'>Canals Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Canals Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Автентичен Значка „Добре дошли в критичната схватка“",
-        "description": "<b><font color='#F2A93E'>Welcome to the Clutch Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Welcome to the Clutch Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Автентичен Значка „Смъртна присъда“",
-        "description": "<b><font color='#F2A93E'>Death Sentence Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Death Sentence Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Автентичен Значка „Inferno 2“",
-        "description": "<b><font color='#F2A93E'>Inferno 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Inferno 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Автентичен Значка „Опустошителен огън“",
-        "description": "<b><font color='#F2A93E'>Wildfire Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Wildfire Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Автентичен Значка „Фасулска работа“",
-        "description": "<b><font color='#F2A93E'>Easy Peasy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Easy Peasy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Автентичен Значка „Всичко коз“",
-        "description": "<b><font color='#F2A93E'>Aces High Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Aces High Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Автентичен Значка „Хидра“",
-        "description": "<b><font color='#F2A93E'>Hydra Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Hydra Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Автентичен Значка „Вой“",
-        "description": "<b><font color='#F2A93E'>Howl Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Howl Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Автентичен Значка „Бригаден генерал“",
-        "description": "<b><font color='#F2A93E'>Brigadier General Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Brigadier General Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Автентичен Значка „Аликс“",
-        "description": "<b><font color='#F2A93E'>Alyx Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Alyx Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Значка за Dust II",
-        "description": "<b><font color='#F2A93E'>Dust II Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Dust II Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Значка „Елитен пазител“",
-        "description": "<b><font color='#F2A93E'>Guardian Elite Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian Elite Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Значка за Mirage",
-        "description": "<b><font color='#F2A93E'>Mirage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Mirage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Значка за Inferno",
-        "description": "<b><font color='#F2A93E'>Inferno Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Inferno Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Значка за Italy",
-        "description": "<b><font color='#F2A93E'>Italy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Italy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Значка „Победа“",
-        "description": "<b><font color='#F2A93E'>Victory Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Victory Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Значка за Militia",
-        "description": "<b><font color='#F2A93E'>Militia Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Militia Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Значка за Nuke",
-        "description": "<b><font color='#F2A93E'>Nuke Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Nuke Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Значка за Train",
-        "description": "<b><font color='#F2A93E'>Train Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Train Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Значка „Пазител“",
-        "description": "<b><font color='#F2A93E'>Guardian Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Значка „Тактики“",
-        "description": "<b><font color='#F2A93E'>Tactics Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Tactics Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 1“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Значка „Пазител 2“",
-        "description": "<b><font color='#F2A93E'>Guardian 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Значка „Браво“",
-        "description": "<b><font color='#F2A93E'>Bravo Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Bravo Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Значка за Baggage",
-        "description": "<b><font color='#F2A93E'>Baggage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Baggage Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Значка „Феникс“",
-        "description": "<b><font color='#F2A93E'>Phoenix Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Phoenix Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Значка за Office",
-        "description": "<b><font color='#F2A93E'>Office Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Office Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Значка за Cobblestone",
-        "description": "<b><font color='#F2A93E'>Cobblestone Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Cobblestone Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Значка за Overpass",
-        "description": "<b><font color='#F2A93E'>Overpass Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Overpass Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Значка „Хрътка“",
-        "description": "<b><font color='#F2A93E'>Bloodhound Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Bloodhound Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Значка за Cache",
-        "description": "<b><font color='#F2A93E'>Cache Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Cache Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Значка „Валерия Феникс“",
-        "description": "<b><font color='#F2A93E'>Valeria Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Valeria Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Значка „Обагряне“",
-        "description": "<b><font color='#F2A93E'>Chroma Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Chroma Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 2“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Значка „Пазител 3“",
-        "description": "<b><font color='#F2A93E'>Guardian 3 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Guardian 3 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Значка „Canals“",
-        "description": "<b><font color='#F2A93E'>Canals Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Canals Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Значка „Добре дошли в критичната схватка“",
-        "description": "<b><font color='#F2A93E'>Welcome to the Clutch Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Welcome to the Clutch Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Значка „Смъртна присъда“",
-        "description": "<b><font color='#F2A93E'>Death Sentence Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Death Sentence Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Висок клас"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Значка „Inferno 2“",
-        "description": "<b><font color='#F2A93E'>Inferno 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Inferno 2 Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Значка „Опустошителен огън“",
-        "description": "<b><font color='#F2A93E'>Wildfire Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Wildfire Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Значка „Фасулска работа“",
-        "description": "<b><font color='#F2A93E'>Easy Peasy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Easy Peasy Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Забележителен тип"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Значка „Всичко коз“",
-        "description": "<b><font color='#F2A93E'>Aces High Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Aces High Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Значка „Хидра“",
-        "description": "<b><font color='#F2A93E'>Hydra Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Hydra Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Екзотичен тип"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Значка „Вой“",
-        "description": "<b><font color='#F2A93E'>Howl Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Howl Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Значка „Бригаден генерал“",
-        "description": "<b><font color='#F2A93E'>Brigadier General Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Brigadier General Pin</font></b>\\n \\nТова е колекционерска значка от „Серия 3“. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Значка „Аликс“",
-        "description": "<b><font color='#F2A93E'>Alyx Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в CS:GO профила Ви.",
+        "description": "<b><font color='#F2A93E'>Alyx Pin</font></b>\\n \\nТова е колекционерска значка, ознаменуваща Half-Life: Alyx. ВР завръщането на Valve към Half-Life поредицата. Тя може да бъде изложена в профила Ви.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Необикновен тип"

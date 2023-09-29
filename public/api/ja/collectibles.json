@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "5年ベテランコイン",
-        "description": "5年以上 Counter-Strike のコミュニティのメンバーだった。",
+        "description": "Counter-Strike のコミュニティメンバー歴が 5 年以上。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "10年ベテランコイン",
-        "description": "Has been a member of the Counter-Strike community for over 10 years.",
+        "description": "Counter-Strike のコミュニティメンバー歴が 10 年以上。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "ロイヤルティバッジ",
-        "description": "これは Danger Zone アップデート以前から Counter-Strike コミュニティのメンバーだったプレイヤーの忠誠を記念するバッジです。<i>強靭さは忠誠から。</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "桁外れ"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -1948,7 +1959,7 @@
     },
     {
         "id": "collectible-1056",
-        "name": "Abbey マップコイン",
+        "name": "Abbey Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -1959,7 +1970,7 @@
     },
     {
         "id": "collectible-1057",
-        "name": "Ruby マップコイン",
+        "name": "Ruby Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -1970,7 +1981,7 @@
     },
     {
         "id": "collectible-1058",
-        "name": "Breach マップコイン",
+        "name": "Breach Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -1981,7 +1992,7 @@
     },
     {
         "id": "collectible-1059",
-        "name": "Studio マップコイン",
+        "name": "Studio Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -1992,7 +2003,7 @@
     },
     {
         "id": "collectible-1060",
-        "name": "Jungle マップコイン",
+        "name": "Jungle Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2003,7 +2014,7 @@
     },
     {
         "id": "collectible-1061",
-        "name": "Anubis マップコイン",
+        "name": "Anubis Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2014,7 +2025,7 @@
     },
     {
         "id": "collectible-1062",
-        "name": "Chlorine マップコイン",
+        "name": "Chlorine Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2025,7 +2036,7 @@
     },
     {
         "id": "collectible-1063",
-        "name": "Mutiny マップコイン",
+        "name": "Mutiny Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2036,7 +2047,7 @@
     },
     {
         "id": "collectible-1064",
-        "name": "Swamp マップコイン",
+        "name": "Swamp Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2047,7 +2058,7 @@
     },
     {
         "id": "collectible-1065",
-        "name": "Frostbite マップコイン",
+        "name": "Frostbite Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2058,7 +2069,7 @@
     },
     {
         "id": "collectible-1066",
-        "name": "Engage マップコイン",
+        "name": "Engage Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2069,7 +2080,7 @@
     },
     {
         "id": "collectible-1067",
-        "name": "Apollo マップコイン",
+        "name": "Apollo Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2102,7 +2113,7 @@
     },
     {
         "id": "collectible-1070",
-        "name": "Grind マップコイン",
+        "name": "Grind Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2113,7 +2124,7 @@
     },
     {
         "id": "collectible-1071",
-        "name": "Mocha マップコイン",
+        "name": "Mocha Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2124,7 +2135,7 @@
     },
     {
         "id": "collectible-1072",
-        "name": "Calavera マップコイン",
+        "name": "Calavera Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2135,7 +2146,7 @@
     },
     {
         "id": "collectible-1073",
-        "name": "Pitstop マップコイン",
+        "name": "Pitstop Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2146,7 +2157,7 @@
     },
     {
         "id": "collectible-1074",
-        "name": "Basalt マップコイン",
+        "name": "Basalt Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2157,7 +2168,7 @@
     },
     {
         "id": "collectible-1075",
-        "name": "Insertion II マップコイン",
+        "name": "Insertion II Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2168,7 +2179,7 @@
     },
     {
         "id": "collectible-1076",
-        "name": "Ravine マップコイン",
+        "name": "Ravine Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2179,7 +2190,7 @@
     },
     {
         "id": "collectible-1077",
-        "name": "Extraction マップコイン",
+        "name": "Extraction Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2190,7 +2201,7 @@
     },
     {
         "id": "collectible-1078",
-        "name": "County マップコイン",
+        "name": "County Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2201,7 +2212,7 @@
     },
     {
         "id": "collectible-1079",
-        "name": "Iris マップコイン",
+        "name": "Iris Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2212,7 +2223,7 @@
     },
     {
         "id": "collectible-1080",
-        "name": "Climb マップコイン",
+        "name": "Climb Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2223,7 +2234,7 @@
     },
     {
         "id": "collectible-1081",
-        "name": "Crete マップコイン",
+        "name": "Crete Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2234,7 +2245,7 @@
     },
     {
         "id": "collectible-1082",
-        "name": "Hive マップコイン",
+        "name": "Hive Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2245,7 +2256,7 @@
     },
     {
         "id": "collectible-1083",
-        "name": "Vineyard マップコイン",
+        "name": "Vineyard Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2256,7 +2267,7 @@
     },
     {
         "id": "collectible-1084",
-        "name": "Ember マップコイン",
+        "name": "Ember Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2267,7 +2278,7 @@
     },
     {
         "id": "collectible-1085",
-        "name": "Tuscan マップコイン",
+        "name": "Tuscan Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2278,7 +2289,7 @@
     },
     {
         "id": "collectible-1086",
-        "name": "Cascade マップコイン",
+        "name": "Cascade Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2289,7 +2300,7 @@
     },
     {
         "id": "collectible-1087",
-        "name": "Blagai マップコイン",
+        "name": "Blagai Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2300,7 +2311,7 @@
     },
     {
         "id": "collectible-1088",
-        "name": "Boyard マップコイン",
+        "name": "Boyard Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -2311,7 +2322,7 @@
     },
     {
         "id": "collectible-1089",
-        "name": "Chalice マップコイン",
+        "name": "Chalice Map Coin",
         "description": null,
         "rarity": {
             "id": "rarity_ancient",
@@ -3092,8 +3103,8 @@
     },
     {
         "id": "collectible-4682",
-        "name": "Civil Protection ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Civil Protection Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -3103,8 +3114,8 @@
     },
     {
         "id": "collectible-4683",
-        "name": "Sustenance! ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Sustenance! Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -3114,8 +3125,8 @@
     },
     {
         "id": "collectible-4684",
-        "name": "Vortigaunt ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Vortigaunt Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -3125,8 +3136,8 @@
     },
     {
         "id": "collectible-4685",
-        "name": "Headcrab Glyph ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Headcrab Glyph Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3136,8 +3147,8 @@
     },
     {
         "id": "collectible-4686",
-        "name": "Health ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Health Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3147,8 +3158,8 @@
     },
     {
         "id": "collectible-4687",
-        "name": "Lambda ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Lambda Pin",
+        "description": "Valveの「Half-Life」シリーズがVRで帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3158,8 +3169,8 @@
     },
     {
         "id": "collectible-4688",
-        "name": "Copper Lambda ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Copper Lambda Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3169,8 +3180,8 @@
     },
     {
         "id": "collectible-4689",
-        "name": "CMB ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "CMB Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3180,8 +3191,8 @@
     },
     {
         "id": "collectible-4690",
-        "name": "Black Mesa ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Black Mesa Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3191,8 +3202,8 @@
     },
     {
         "id": "collectible-4691",
-        "name": "Combine Helmet ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Combine Helmet Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3202,8 +3213,8 @@
     },
     {
         "id": "collectible-4692",
-        "name": "City 17 ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "City 17 Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "ジェニュイン Dust II ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "ジェニュイン Guardian Elite ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "ジェニュイン Mirage ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "ジェニュイン Inferno ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "ジェニュイン Italy ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "ジェニュイン Victory ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "ジェニュイン Militia ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "ジェニュイン Nuke ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "ジェニュイン Train ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "ジェニュイン Guardian ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "ジェニュイン Tactics ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4016,8 +4027,8 @@
     },
     {
         "id": "collectible-6012",
-        "name": "ジェニュイン Guardian 2 ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Guardian 2 Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4027,8 +4038,8 @@
     },
     {
         "id": "collectible-6013",
-        "name": "ジェニュイン Bravo ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Bravo Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4038,8 +4049,8 @@
     },
     {
         "id": "collectible-6014",
-        "name": "ジェニュイン Baggage ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Baggage Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4049,8 +4060,8 @@
     },
     {
         "id": "collectible-6015",
-        "name": "ジェニュイン Phoenix ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Phoenix Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4060,8 +4071,8 @@
     },
     {
         "id": "collectible-6016",
-        "name": "ジェニュイン Office ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Office Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4071,8 +4082,8 @@
     },
     {
         "id": "collectible-6017",
-        "name": "ジェニュイン Cobblestone ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Cobblestone Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4082,8 +4093,8 @@
     },
     {
         "id": "collectible-6018",
-        "name": "ジェニュイン Overpass ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Overpass Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4093,8 +4104,8 @@
     },
     {
         "id": "collectible-6019",
-        "name": "ジェニュイン Bloodhound ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Bloodhound Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4104,8 +4115,8 @@
     },
     {
         "id": "collectible-6020",
-        "name": "ジェニュイン Cache ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Cache Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4115,8 +4126,8 @@
     },
     {
         "id": "collectible-6021",
-        "name": "ジェニュイン Valeria Phoenix ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Valeria Phoenix Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4126,8 +4137,8 @@
     },
     {
         "id": "collectible-6022",
-        "name": "ジェニュイン Chroma ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Chroma Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4137,8 +4148,8 @@
     },
     {
         "id": "collectible-6023",
-        "name": "ジェニュイン Guardian 3 ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Guardian 3 Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4148,8 +4159,8 @@
     },
     {
         "id": "collectible-6024",
-        "name": "ジェニュイン Canals ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Canals Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4159,8 +4170,8 @@
     },
     {
         "id": "collectible-6025",
-        "name": "ジェニュイン Welcome to the Clutch ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Welcome to the Clutch Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4170,8 +4181,8 @@
     },
     {
         "id": "collectible-6026",
-        "name": "ジェニュイン Death Sentence ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Death Sentence Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4181,8 +4192,8 @@
     },
     {
         "id": "collectible-6027",
-        "name": "ジェニュイン Inferno 2 ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Inferno 2 Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4192,8 +4203,8 @@
     },
     {
         "id": "collectible-6028",
-        "name": "ジェニュイン Wildfire ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Wildfire Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4203,8 +4214,8 @@
     },
     {
         "id": "collectible-6029",
-        "name": "ジェニュイン Easy Peasy ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Easy Peasy Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4214,8 +4225,8 @@
     },
     {
         "id": "collectible-6030",
-        "name": "ジェニュイン Aces High ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Aces High Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4225,8 +4236,8 @@
     },
     {
         "id": "collectible-6031",
-        "name": "ジェニュイン Hydra ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Hydra Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4236,8 +4247,8 @@
     },
     {
         "id": "collectible-6032",
-        "name": "ジェニュイン Howl ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Howl Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4247,8 +4258,8 @@
     },
     {
         "id": "collectible-6033",
-        "name": "ジェニュイン Brigadier General ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Brigadier General Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4258,8 +4269,8 @@
     },
     {
         "id": "collectible-6034",
-        "name": "ジェニュイン Alyx ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "ジェニュイン Alyx Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Dust II ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Guardian Elite ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Mirage ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Inferno ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Italy ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Victory ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Militia ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Nuke ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Train ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Guardian ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Tactics ピン",
-        "description": "これはシリーズ 1 のコレクションピンです。あなたの CS:GO プロフィールに表示されます。",
+        "description": "これはシリーズ 1 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4390,8 +4401,8 @@
     },
     {
         "id": "collectible-6112",
-        "name": "Guardian 2 ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Guardian 2 Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4401,8 +4412,8 @@
     },
     {
         "id": "collectible-6113",
-        "name": "Bravo ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Bravo Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4412,8 +4423,8 @@
     },
     {
         "id": "collectible-6114",
-        "name": "Baggage ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Baggage Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4423,8 +4434,8 @@
     },
     {
         "id": "collectible-6115",
-        "name": "Phoenix ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Phoenix Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4434,8 +4445,8 @@
     },
     {
         "id": "collectible-6116",
-        "name": "Office ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Office Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4445,8 +4456,8 @@
     },
     {
         "id": "collectible-6117",
-        "name": "Cobblestone ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Cobblestone Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4456,8 +4467,8 @@
     },
     {
         "id": "collectible-6118",
-        "name": "Overpass ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Overpass Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4467,8 +4478,8 @@
     },
     {
         "id": "collectible-6119",
-        "name": "Bloodhound ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Bloodhound Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4478,8 +4489,8 @@
     },
     {
         "id": "collectible-6120",
-        "name": "Cache ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Cache Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4489,8 +4500,8 @@
     },
     {
         "id": "collectible-6121",
-        "name": "Valeria Phoenix ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Valeria Phoenix Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4500,8 +4511,8 @@
     },
     {
         "id": "collectible-6122",
-        "name": "Chroma ピン",
-        "description": "This is a Series 2 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Chroma Pin",
+        "description": "これはシリーズ 2 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4511,8 +4522,8 @@
     },
     {
         "id": "collectible-6123",
-        "name": "Guardian 3 ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Guardian 3 Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4522,8 +4533,8 @@
     },
     {
         "id": "collectible-6124",
-        "name": "Canals ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Canals Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4533,8 +4544,8 @@
     },
     {
         "id": "collectible-6125",
-        "name": "Welcome to the Clutch ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Welcome to the Clutch Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4544,8 +4555,8 @@
     },
     {
         "id": "collectible-6126",
-        "name": "Death Sentence ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Death Sentence Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_rare",
             "name": "ハイグレード"
@@ -4555,8 +4566,8 @@
     },
     {
         "id": "collectible-6127",
-        "name": "Inferno 2 ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Inferno 2 Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4566,8 +4577,8 @@
     },
     {
         "id": "collectible-6128",
-        "name": "Wildfire ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Wildfire Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4577,8 +4588,8 @@
     },
     {
         "id": "collectible-6129",
-        "name": "Easy Peasy ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Easy Peasy Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_mythical",
             "name": "非凡"
@@ -4588,8 +4599,8 @@
     },
     {
         "id": "collectible-6130",
-        "name": "Aces High ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Aces High Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4599,8 +4610,8 @@
     },
     {
         "id": "collectible-6131",
-        "name": "Hydra ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Hydra Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_legendary",
             "name": "エキゾチックな"
@@ -4610,8 +4621,8 @@
     },
     {
         "id": "collectible-6132",
-        "name": "Howl ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Howl Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4621,8 +4632,8 @@
     },
     {
         "id": "collectible-6133",
-        "name": "Brigadier General ピン",
-        "description": "This is a Series 3 collectible pin. It can be displayed on your CS:GO profile.",
+        "name": "Brigadier General Pin",
+        "description": "これはシリーズ 3 のコレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"
@@ -4632,8 +4643,8 @@
     },
     {
         "id": "collectible-6134",
-        "name": "Alyx ピン",
-        "description": "This is a collectible pin commemorating Half-Life: Alyx, Valve's VR return to the Half-Life series. It can be displayed on your CS:GO profile.",
+        "name": "Alyx Pin",
+        "description": "Valve の「Half-Life」シリーズが VR で帰ってきたことを記念した『Half-Life: Alyx』の記念コレクティブルピンです。プロフィールに表示できます。",
         "rarity": {
             "id": "rarity_ancient",
             "name": "桁外れ"

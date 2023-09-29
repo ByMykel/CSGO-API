@@ -1,8 +1,8 @@
 [
     {
         "id": "collectible-874",
-        "name": "5 vuoden veteraanimitali",
-        "description": "On ollut Counter-Strike-yhteisön jäsen yli 5 vuotta.",
+        "name": "Viiden vuoden veteraanikolikko",
+        "description": "On ollut Counter-Strike-yhteisön jäsen yli viisi vuotta.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -1046,7 +1046,7 @@
     },
     {
         "id": "collectible-969",
-        "name": "10 vuoden veteraanimitali",
+        "name": "Kymmenen vuoden veteraanikolikko",
         "description": "On ollut Counter-Strike-yhteisön jäsen yli 10 vuotta.",
         "rarity": {
             "id": "rarity_ancient",
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Uskollisuusmerkki",
-        "description": "Tällä merkillä muistetaan ennen niitä Counter-Strike-yhteisön uskollisia jäseniä, jotka olivat yhteisössä jo ennen Vaaravyöhyke-päivitystä. <i>Vahvuus tulee uskollisuuden kautta.</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -1299,8 +1299,8 @@
     },
     {
         "id": "collectible-992",
-        "name": "BLAST.tv Paris 2023 -mestari",
-        "description": "Tämä mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Major -mestaruusturnauksen mestarille.",
+        "name": "Champion at BLAST.tv Paris 2023",
+        "description": "This championship trophy was awarded to the Champion at the BLAST.tv Paris 2023 CS:GO Major Championship.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -1310,8 +1310,8 @@
     },
     {
         "id": "collectible-993",
-        "name": "BLAST.tv Paris 2023 -finalisti",
-        "description": "Tämä mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Major -mestaruusturnauksen finalistille.",
+        "name": "Finalist at BLAST.tv Paris 2023",
+        "description": "This championship trophy was awarded to the Finalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -1321,8 +1321,8 @@
     },
     {
         "id": "collectible-994",
-        "name": "BLAST.tv Paris 2023 -semifinalisti",
-        "description": "Tämä mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Major -mestaruusturnauksen semifinalistille.",
+        "name": "Semifinalist at BLAST.tv Paris 2023",
+        "description": "This championship trophy was awarded to the Semifinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -1332,14 +1332,25 @@
     },
     {
         "id": "collectible-995",
-        "name": "BLAST.tv Paris 2023 -neljännesfinalisti",
-        "description": "Tämä mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Major -mestaruusturnauksen neljännesfinalistille.",
+        "name": "Quarterfinalist at BLAST.tv Paris 2023",
+        "description": "This championship trophy was awarded to the Quarterfinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Badge",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Merkillinen"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Suojelupalvelu-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Sapuskaa-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Vortigaunt-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Päärapusymboli-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Terveyspinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Lambda-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Kuparinen lambda-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "CMB-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Black Mesa -pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Combine-kypäräpinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Kaupunki 17 -pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3599,7 +3610,7 @@
     {
         "id": "collectible-4825",
         "name": "Antwerpen 2022 -katsojapassi",
-        "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Antwerp 2022 Coin tracking your progress throughout the event, full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Tämä on sinetöity PGL 2022 Antwerpenin CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Antwerpen 2022 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Antwerpen 2022 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää Antwerpen 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\n50 % myyntituloista käytetään mukana olleiden järjestöjen tukemiseen.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason"
@@ -3610,7 +3621,7 @@
     {
         "id": "collectible-4826",
         "name": "Antwerpen 2022 -kolikko",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Tämä on PGL 2022 Antwerpenin CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Antwerpen 2022 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Antwerpen 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3621,7 +3632,7 @@
     {
         "id": "collectible-4827",
         "name": "Antwerpen 2022 -hopeakolikko",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Tämä on PGL 2022 Antwerpenin CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Antwerpen 2022 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Antwerpen 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3632,7 +3643,7 @@
     {
         "id": "collectible-4828",
         "name": "Antwerpen 2022 -kultakolikko",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Tämä on PGL 2022 Antwerpenin CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Antwerpen 2022 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Antwerpen 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3643,7 +3654,7 @@
     {
         "id": "collectible-4829",
         "name": "Antwerpen 2022 -timanttikolikko",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "Tämä on PGL 2022 Antwerpenin CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Antwerpen 2022 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Antwerpen 2022 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3653,7 +3664,7 @@
     },
     {
         "id": "collectible-4830",
-        "name": "Antwerp 2022 Viewer Pass + 3 Souvenir Tokens",
+        "name": "Antwerpen 2022 -katsojapassi + 3 tuliaispolettia",
         "description": "Tämä on sinetöity PGL 2022 Antwerpenin CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Antwerpen 2022 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Antwerpen 2022 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin, kolikkohaasteisiin ja rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit nostaa Antwerpen 2022 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\\n\\nKatsojapassi aktivoi Antwerpen 2022 -kolikkosi ja saat samalla kolme tuliaispolettia.\\n\\n50 % myyntituotosta käytetään tapahtumaan osallistuvien järjestöjen tukemiseen.",
         "rarity": {
             "id": "rarity_common",
@@ -3665,7 +3676,7 @@
     {
         "id": "collectible-4831",
         "name": "Antwerpen 2022 -tuliaispoletti",
-        "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Antwerp 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Antwerp 2022 Coin.",
+        "description": "Tämä on sinetöity PGL Antwerpen 2022 CS:GO Major -turnauksen tuliaispoletti. Avaamalla poletin se lisätään Antwerpen 2022 -kolikkoosi ja saat mahdollisuuden lunastaa tuliaispaketin.\\n\\nPoletteja voi lisätä ainoastaan olemassaolevaan Antwerpen 2022 -kolikkoon.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason"
@@ -3819,7 +3830,7 @@
     {
         "id": "collectible-4883",
         "name": "Paris 2023 -katsojapassi",
-        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin katsojapassi. Passin avaamalla saat Paris 2023 -kolikon, jolla voit seurata edistymistäsi tapahtuman ajan, täyden pääsyn Paris 2023 Pick'Em -haasteeseen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\nPäivitä Paris 2023 -kolikkosi suorittamalla kolikkohaasteet. Jokaisesta päivityksestä saa tuliaispoletin.\\n\\n\\n50 % passin myyntituloista menee tapahtumaan osallistujille.",
+        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Paris 2023 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Paris 2023 Pick'Em-haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit päivittää  Paris 2023 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.\\n\\nPuolet myyntituloista käytetään mukana olevien järjestöjen tukemiseen.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason"
@@ -3829,8 +3840,8 @@
     },
     {
         "id": "collectible-4884",
-        "name": "Paris 2023 -kolikko",
-        "description": "Tämä on BLAST.tv Paris 2023 CS:GO -majorin muistokolikko, joka seuraa edistymistäsi tapahtuman ajan, tarjoaa täyden pääsyn Paris 2023 Pick'Em -haasteeseeen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\n\\nPäivitä Paris 2023 -kolikkoasi suorittamalla kolikkohaasteet. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
+        "name": "Paris 2023 Coin",
+        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3840,8 +3851,8 @@
     },
     {
         "id": "collectible-4885",
-        "name": "Paris 2023 -hopeakolikko",
-        "description": "Tämä on BLAST.tv Paris 2023 CS:GO -majorin muistokolikko, joka seuraa edistymistäsi tapahtuman ajan, tarjoaa täyden pääsyn Paris 2023 Pick'Em -haasteeseeen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\n\\nPäivitä Paris 2023 -kolikkoasi suorittamalla kolikkohaasteet. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
+        "name": "Paris 2023 Silver Coin",
+        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3851,8 +3862,8 @@
     },
     {
         "id": "collectible-4886",
-        "name": "Paris 2023 -kultakolikko",
-        "description": "Tämä on BLAST.tv Paris 2023 CS:GO -majorin muistokolikko, joka seuraa edistymistäsi tapahtuman ajan, tarjoaa täyden pääsyn Paris 2023 Pick'Em -haasteeseeen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\n\\nPäivitä Paris 2023 -kolikkoasi suorittamalla kolikkohaasteet. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
+        "name": "Paris 2023 Gold Coin",
+        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3862,8 +3873,8 @@
     },
     {
         "id": "collectible-4887",
-        "name": "Paris 2023 -timanttikolikko",
-        "description": "Tämä on BLAST.tv Paris 2023 CS:GO -majorin muistokolikko, joka seuraa edistymistäsi tapahtuman ajan, tarjoaa täyden pääsyn Paris 2023 Pick'Em -haasteeseeen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\n\\nPäivitä Paris 2023 -kolikkoasi suorittamalla kolikkohaasteet. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
+        "name": "Paris 2023 Diamond Coin",
+        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3874,7 +3885,7 @@
     {
         "id": "collectible-4888",
         "name": "Paris 2023 -katsojapassi + 3 tuliaispolettia",
-        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin katsojapassi. Passin avaamalla saat Paris 2023 -kolikon, jolla voit seurata edistymistäsi tapahtuman ajan, täyden pääsyn Paris 2023 Pick'Em -haasteeseen, Steam.tv-kannustuslogoihin, kolikkohaasteisiin ja rajattomasti graffitimahdollisuuksia pelissä tapahtuman ajan.\\n\\nPäivitä Paris 2023 -kolikkosi suorittamalla kolikkohaasteet. Jokaisesta päivityksestä saa tuliaispoletin.\\n\\nKatsojapassi aktivoi Paris 2023 -kolikon valmiiksi kolmella tuliaispoletilla.\\n\\n\\n50 % passin myyntituloista menee tapahtumaan osallistujille.",
+        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Paris 2023 Coin tracking your progress throughout the event, full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Paris 2023 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Paris 2023 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason"
@@ -3885,7 +3896,7 @@
     {
         "id": "collectible-4889",
         "name": "Paris 2023 -tuliaispoletti",
-        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO -majorin tuliaispoletti. Poletin avaaminen lisää sen Paris 2023 -kolikkoosi ja voit lunastaa tuliaispaketin.\\n\\nPoletteja voi lisätä vain olemassa olevaan Paris 2023 -kolikkoon.",
+        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Paris 2023 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Paris 2023 Coin.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Aito Dust II -pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Aito Suojelijaeliitin pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Aito Mirage-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Aito Inferno-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Aito Italy-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Aito Voittopinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Aito Militia-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Aito Nuke-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Aito Train-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Aito Vartijapinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Aito Taktiikat-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Aito Vartija 2 -pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Aito Bravo-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Aito Baggage-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Aito Feenix-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Aito Office-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Aito Cobblestone-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Aito Overpass-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Aito Verikoira-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Aito Cache-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Aito Valeria Feenix -pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Aito Kirjo-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Aito Vartija 3 -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Aito Canals-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Aito Viimeinen elossa -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Aito Kuolemantuomio-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Aito Inferno 2 -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Aito Maastopalo-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Aito Lastenleikkiä-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Aito Korttitemppu-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Aito Hydra-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Aito Ulvonta-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Aito Prikaatikenraali-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Aito Alyx-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Dust II -pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Suojelijaeliitin pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Mirage-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Inferno-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Italy-pinssi",
-        "description": "Tämä on sarjan 1 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Voittopinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Militia-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Nuke-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Train-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Vartijapinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Taktiikat-pinssi",
-        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 1 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Vartija 2 -pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Bravo-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Baggage-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Feenix-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Office-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Cobblestone-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Overpass-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Verikoira-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Cache-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Valeria Feenix -pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Kirjo-pinssi",
-        "description": "Tämä on sarjan 2 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 2 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Vartija 3 -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Canals-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Viimeinen elossa -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Kuolemantuomio-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Korkean tason"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Inferno 2 -pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Maastopalo-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Lastenleikkiä-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Huomattava"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Korttitemppu-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Hydra-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Eksoottinen"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Ulvonta-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Prikaatikenraali-pinssi",
-        "description": "Tämä on sarjan 3 pinssi. Voit esitellä sitä CS:GO-profiilissasi.",
+        "description": "Tämä on sarjan 3 keräilymerkki. Voit esitellä sitä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Alyx-pinssi",
-        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life -sarjaan. Voit esitellä pinssiä CS:GO-profiilissasi.",
+        "description": "Half-Life: Alyx -keräilypinssi juhlistaa Valven VR-peliä ja paluuta Half-Life-sarjaan. Voit esitellä pinssiä profiilissasi.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen"

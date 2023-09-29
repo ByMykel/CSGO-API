@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Insigne des 5 années de service",
-        "description": "Est membre de la communauté de Counter-Strike depuis au moins 5 ans.",
+        "description": "Item décerné pour avoir été membre de la communauté de Counter-Strike depuis au moins 5 ans.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinaire"
@@ -13,7 +13,7 @@
     {
         "id": "collectible-969",
         "name": "Insigne des 10 années de service",
-        "description": "Est membre de la communauté de Counter-Strike depuis au moins 10 ans.",
+        "description": "Item décerné pour avoir été membre de la communauté de Counter-Strike depuis au moins 10 ans.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinaire"
@@ -24,7 +24,7 @@
     {
         "id": "collectible-970",
         "name": "Badge de loyauté",
-        "description": "Ce badge commémore l'appartenance loyale à la communauté de Counter-Strike avant la mise à jour Zone de danger. <i>Force et loyauté.</i>",
+        "description": "Ce badge commémore l'appartenance loyale à la communauté de Counter-Strike avant la mise à jour Zone de danger.\\n\\n<i>Force et loyauté.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinaire"
@@ -42,5 +42,16 @@
         },
         "type": null,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/cupcake_10_year_large.6bf0b2033f0d0e50ded1c491bc1c6330ac5d63f7.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Badge Global Offensive",
+        "description": "Ce badge commémore l'appartenance loyale à la communauté de Counter-Strike: Global Offensive avant la sortie de Counter-Strike 2.\\n\\n<i>Les légendes ne meurent jamais.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinaire"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     }
 ]

@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Sadakat Rozeti",
-        "description": "Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır. <i>Kuvvet sadakatten doğar.</i>",
+        "description": "Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Kuvvet sadakatten doğar.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Global Offensive Rozeti",
+        "description": "Bu rozet, Counter-Strike 2'nin yayınlanmasından önce Counter-Strike: Global Offensive topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Efsaneler asla ölmez.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Olağandışı"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Milis Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Yiyecek! Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "Vortigaunt Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "Kafayengeci Glifi Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Sağlık Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Lambda Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Bakır Lambda Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "CMB Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Black Mesa Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "İttifak Miğferi Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Şehir 17 Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Hakiki Dust II Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Hakiki Seçkin Muhafız Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Hakiki Mirage Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Hakiki Inferno Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Hakiki Italy Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Hakiki Zafer Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Hakiki Militia Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Hakiki Nuke Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Hakiki Train Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Hakiki Muhafız Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Hakiki Taktik Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Hakiki Muhafız 2 Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Hakiki Bravo Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Hakiki Baggage Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Hakiki Anka Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Hakiki Office Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Hakiki Cobblestone Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Hakiki Overpass Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Hakiki Kan Tazısı Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Hakiki Cache Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Hakiki Valeria Phoenix Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Hakiki Kroma Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Hakiki Muhafız 3 Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Hakiki Canals Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Hakiki Clutch'a Hoş Geldiniz Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Hakiki Ölüm Cezası Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Hakiki Inferno 2 Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Hakiki Yaban Ateşi Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Hakiki Çocuk Oyuncağı Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Hakiki Maça Ası Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Hakiki Hydra Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Hakiki Uluma Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Hakiki Tuğgeneral Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Hakiki Alyx Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Dust II Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Seçkin Muhafız Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Mirage Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Inferno Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Italy Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Zafer Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Militia Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Nuke Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Train Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Muhafız Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Taktik Broşu",
-        "description": "Bu, Seri 1 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 1 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Muhafız 2 Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Bravo Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Baggage Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Anka Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Office Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Cobblestone Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Overpass Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Kan Tazısı Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Cache Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Valeria Phoenix Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Kroma Broşu",
-        "description": "Bu, Seri 2 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 2 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Muhafız 3 Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Canals Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Clutch'a Hoş Geldiniz Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Ölüm Cezası Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_rare",
             "name": "Yüksek Sınıf"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Inferno 2 Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Yaban Ateşi Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Çocuk Oyuncağı Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Dikkat Çekici"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Maça Ası Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Hydra Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Egzotik"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Uluma Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Tuğgeneral Broşu",
-        "description": "Bu, Seri 3 koleksiyon broşudur. CS:GO profilinde sergilenebilir.",
+        "description": "Bu, Seri 3 koleksiyon broşudur. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Alyx Broşu",
-        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. CS:GO profilinde sergilenebilir.",
+        "description": "Bu koleksiyon broşu, Valve'ın Half-Life serisine VR ile döndüğü son oyunu olan Half-Life: Alyx'in anısınadır. Profilinde sergilenebilir.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Olağandışı"

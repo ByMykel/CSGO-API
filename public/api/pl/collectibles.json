@@ -2,7 +2,7 @@
     {
         "id": "collectible-874",
         "name": "Żeton 5-letniego weterana",
-        "description": "Członek społeczności Counter-Strike od ponad 5 lat.",
+        "description": "Członek społeczności Counter-Strike od ponad 5 lat.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -1047,7 +1047,7 @@
     {
         "id": "collectible-969",
         "name": "Żeton 10-letniego weterana",
-        "description": "Członek społeczności Counter-Strike od ponad 10 lat.",
+        "description": "Członek społeczności Counter-Strike od ponad 10 lat.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "Odznaka Lojalności",
-        "description": "Ta odznaka upamiętnia lojalne członkostwo w społeczności CS:GO przed aktualizacją Strefa zagrożenia. <i>Siła poprzez lojalność.</i>",
+        "description": "Ta odznaka upamiętnia lojalne członkostwo w społeczności Counter-Strike przed aktualizacją „Strefa zagrożenia”.\\n\\n<i>Siła poprzez lojalność.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "Odznaka Global Offensive",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "wyjątkowej jakości"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "Odznaka Ochrony Cywilnej",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "Odznaka pożywienia",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -3114,8 +3125,8 @@
     },
     {
         "id": "collectible-4684",
-        "name": "Odznaka wortygonta",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "name": "Odznaka vortigaunta",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -3125,8 +3136,8 @@
     },
     {
         "id": "collectible-4685",
-        "name": "Odznaka piktogramu głowokraba",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "name": "Odznaka piktogramu headcraba",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "Odznaka zdrowia",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "Odznaka lambdy",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "Odznaka miedzianej lambdy",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "Odznaka CMB",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "Odznaka Black Mesa",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "Odznaka hełmu Kombinatu",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "Odznaka City 17",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "Odznaka Dust II (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "Odznaka elitarnego obrońcy (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "Odznaka Mirage (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "Odznaka Inferno (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "Odznaka Italy (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "Odznaka zwycięstwa (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "Odznaka Militia (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "Odznaka Nuke (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "Odznaka Train (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "Odznaka obrońcy (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "Odznaka taktyka (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "Odznaka obrońcy 2 (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "Odznaka Bravo (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "Odznaka Baggage (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "Odznaka Phoenix (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "Odznaka Office (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "Odznaka Cobblestone (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "Odznaka Overpass (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "Odznaka Bloodhound (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "Odznaka Cache (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "Odznaka Valerii z Phoenix (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "Odznaka Chroma (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "Odznaka obrońcy 3 (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "Odznaka Canals (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "Odznaka Welcome to the Clutch (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "Odznaka wyroku śmierci (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "Odznaka Inferno 2 (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "Odznaka Wildfire (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "Odznaka łatwizny (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "Odznaka asa pik (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "Odznaka Hydra (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "Odznaka ryku (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "Odznaka generała brygady (oryginał)",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "Odznaka Alyx (oryginał)",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "Odznaka Dust II",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "Odznaka elitarnego obrońcy",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "Odznaka Mirage",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "Odznaka Inferno",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "Odznaka Italy",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "Odznaka zwycięstwa",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "Odznaka Militia",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "Odznaka Nuke",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "Odznaka Train",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "Odznaka obrońcy",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "Odznaka taktyka",
-        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 1. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "Odznaka obrońcy 2",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "Odznaka Bravo",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "Odznaka Baggage",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "Odznaka Phoenix",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "Odznaka Office",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "Odznaka Cobblestone",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "Odznaka Overpass",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "Odznaka Bloodhound",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "Odznaka Cache",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "Odznaka Valerii z Phoenix",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "Odznaka Chroma",
-        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 2. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "Odznaka obrońcy 3",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "Odznaka Canals",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "Odznaka Welcome to the Clutch",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "Odznaka wyroku śmierci",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_rare",
             "name": "wysokiej jakości"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "Odznaka Inferno 2",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "Odznaka Wildfire",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "Odznaka łatwizny",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_mythical",
             "name": "nadzwyczajnej rzadkości"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "Odznaka asa pik",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "Odznaka Hydra",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_legendary",
             "name": "egzotycznego pochodzenia"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "Odznaka ryku",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "Odznaka generała brygady",
-        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska serii 3. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "Odznaka Alyx",
-        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu CS:GO.",
+        "description": "Odznaka kolekcjonerska upamiętniająca Half-Life: Alyx, powrót Valve do serii Half-Life dzięki technologii VR. Można ją wyświetlić na twoim profilu.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "wyjątkowej jakości"

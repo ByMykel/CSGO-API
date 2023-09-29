@@ -1058,7 +1058,7 @@
     {
         "id": "collectible-970",
         "name": "เหรียญตราผู้ภักดี",
-        "description": "เหรียญตรานี้เป็นอนุสรณ์สำหรับสมาชิกผู้ภักดีในชุมชน Counter-Strike ช่วงอัปเดตโหมดโซนอันตราย <i>สร้างความแข็งเเกร่งด้วยความจงรักภักดี</i>",
+        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -1256,7 +1256,7 @@
     {
         "id": "collectible-988",
         "name": "ผู้ชนะเลิศที่ IEM Rio 2022",
-        "description": "This championship trophy was awarded to the Champion at the IEM Rio 2022 CS:GO Major Championship.",
+        "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้ชนะเลิศที่การแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -1267,7 +1267,7 @@
     {
         "id": "collectible-989",
         "name": "ผู้เข้ารอบชิงชนะเลิศที่ IEM Rio 2022",
-        "description": "This championship trophy was awarded to the Finalist at the IEM Rio 2022 CS:GO Major Championship.",
+        "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้เข้ารอบชิงชนะเลิศที่การแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -1278,7 +1278,7 @@
     {
         "id": "collectible-990",
         "name": "ผู้เข้ารอบรองชนะเลิศที่ IEM Rio 2022",
-        "description": "This championship trophy was awarded to the Semifinalist at the IEM Rio 2022 CS:GO Major Championship.",
+        "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้เข้ารอบรองชนะเลิศที่การแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -1289,7 +1289,7 @@
     {
         "id": "collectible-991",
         "name": "ผู้เข้ารอบก่อนรองชนะเลิศที่ IEM Rio 2022",
-        "description": "This championship trophy was awarded to the Quarterfinalist at the IEM Rio 2022 CS:GO Major Championship.",
+        "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้เข้ารอบก่อนรองชนะเลิศที่การแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -1299,7 +1299,7 @@
     },
     {
         "id": "collectible-992",
-        "name": "Champion at BLAST.tv Paris 2023",
+        "name": "ผู้ชนะเลิศที่ BLAST.tv Paris 2023",
         "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้ชนะเลิศที่การแข่งขันชิงแชมป์เมเจอร์ CS:GO BLAST.tv Paris 2023",
         "rarity": {
             "id": "rarity_ancient",
@@ -1310,7 +1310,7 @@
     },
     {
         "id": "collectible-993",
-        "name": "Finalist at BLAST.tv Paris 2023",
+        "name": "ผู้เข้ารอบชิงชนะเลิศที่ BLAST.tv Paris 2023",
         "description": "ถ้วยรางวัลการแข่งขันชิงแชมป์นี้ได้ถูกมอบให้เป็นรางวัลแก่ผู้ที่เข้ารอบสุดท้ายที่การแข่งขันชิงแชมป์ CS:GO BLAST.tv Paris 2023",
         "rarity": {
             "id": "rarity_ancient",
@@ -1340,6 +1340,17 @@
         },
         "type": "Tournament Finalist Trophy",
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/status_icons/trophy_majors_finalists_large.147cd1c9a33d73316a4a676066a1ede9cd1636a9.png"
+    },
+    {
+        "id": "collectible-996",
+        "name": "เหรียญตรา Global Offensive",
+        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinary"
+        },
+        "type": null,
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9Q1LO5kNoBhSQl-fROuk2fDQQFp7GghWpL2gZV9khaCRJW1Eu9nkwNaJxKSlMO-Bz29Xv5x32uiU992sjgDkrkc_YG7tZNjC0wxc9ok"
     },
     {
         "id": "collectible-1000",
@@ -3093,7 +3104,7 @@
     {
         "id": "collectible-4682",
         "name": "เข็มกลัด Civil Protection",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3104,7 +3115,7 @@
     {
         "id": "collectible-4683",
         "name": "เข็มกลัด Sustenance!",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -3115,7 +3126,7 @@
     {
         "id": "collectible-4684",
         "name": "เข็มกลัด Vortigaunt",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -3126,7 +3137,7 @@
     {
         "id": "collectible-4685",
         "name": "เข็มกลัด Headcrab Glyph",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3137,7 +3148,7 @@
     {
         "id": "collectible-4686",
         "name": "เข็มกลัด Health",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3148,7 +3159,7 @@
     {
         "id": "collectible-4687",
         "name": "เข็มกลัด Lambda",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3159,7 +3170,7 @@
     {
         "id": "collectible-4688",
         "name": "เข็มกลัด Copper Lambda",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3170,7 +3181,7 @@
     {
         "id": "collectible-4689",
         "name": "เข็มกลัด CMB",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3181,7 +3192,7 @@
     {
         "id": "collectible-4690",
         "name": "เข็มกลัด Black Mesa",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3192,7 +3203,7 @@
     {
         "id": "collectible-4691",
         "name": "เข็มกลัด Combine Helmet",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3203,7 +3214,7 @@
     {
         "id": "collectible-4692",
         "name": "เข็มกลัด City 17",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3599,7 +3610,7 @@
     {
         "id": "collectible-4825",
         "name": "บัตรผ่านผู้เข้าชม Antwerp 2022",
-        "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Antwerp 2022 Coin tracking your progress throughout the event, full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "นี่เป็นบัตรผ่านผู้เข้าชมการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 แบบปิดผนึก เมื่อเปิดผนึกบัตรผ่านนี้แล้ว คุณจะได้รับเหรียญ Antwerp 2022 ซึ่งติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม, สิทธิในการเข้าถึงการท้าทาย Pick'Em Antwerp 2022 เต็มรูปแบบ, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย พร้อมทั้งมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nอัปเกรดเหรียญ Antwerp 2022 ของคุณโดยทำการท้าทายให้เสร็จสมบูรณ์ คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่อัปเกรดเหรียญของคุณ\\n\\nรายได้ 50% จากการขายบัตรผ่านนี้จะนำไปสนับสนุนองค์กรที่เข้าร่วม",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3610,7 +3621,7 @@
     {
         "id": "collectible-4826",
         "name": "เหรียญ Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Antwerp 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Antwerp 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3621,7 +3632,7 @@
     {
         "id": "collectible-4827",
         "name": "เหรียญเงิน Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Antwerp 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Antwerp 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3632,7 +3643,7 @@
     {
         "id": "collectible-4828",
         "name": "เหรียญทอง Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Antwerp 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Antwerp 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3643,7 +3654,7 @@
     {
         "id": "collectible-4829",
         "name": "เหรียญเพชร Antwerp 2022",
-        "description": "This is a commemorative PGL 2022 Antwerp CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Antwerp 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Antwerp 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Antwerp 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3654,7 +3665,7 @@
     {
         "id": "collectible-4830",
         "name": "บัตรผ่านผู้เข้าชม Antwerp 2022 + โทเค็นของที่ระลึก 3 โทเค็น",
-        "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Antwerp 2022 Coin tracking your progress throughout the event, full access to the Antwerp 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Antwerp 2022 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Antwerp 2022 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "นี่เป็นบัตรผ่านผู้เข้าชมการแข่งขันชิงแชมป์เมเจอร์ CS:GO PGL Antwerp 2022 แบบปิดผนึก เมื่อเปิดผนึกบัตรผ่านนี้แล้ว คุณจะได้รับเหรียญ Antwerp 2022 ซึ่งติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม, สิทธิในการเข้าถึงการท้าทาย Pick'Em Antwerp 2022 เต็มรูปแบบ, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย พร้อมทั้งมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณจะอัปเกรดเหรียญ Antwerp 2022 ของคุณได้โดยทำการท้าทายเพื่อรับเหรียญให้เสร็จสมบูรณ์ คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่อัปเกรดเหรียญของคุณ\\n\\nบัตรผ่านผู้เข้าชมนี้จะเปิดใช้งานเหรียญ Antwerp 2022 ของคุณล่วงหน้าพร้อม 3 โทเค็นของที่ระลึก\\n\\nรายได้ 50% จากการขายบัตรผ่านนี้จะนำไปสนับสนุนองค์กรที่เข้าร่วม",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3665,7 +3676,7 @@
     {
         "id": "collectible-4831",
         "name": "โทเค็นของที่ระลึก Antwerp 2022",
-        "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Antwerp 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Antwerp 2022 Coin.",
+        "description": "นี่เป็นโทเค็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO Antwerp Antwerp 2022 แบบปิดผนึก เมื่อโทเค็นถูกเปิดผนึกแล้ว โทเค็นของที่ระลึกจะถูกเพิ่มไปยังเหรียญ Antwerp 2022 ของคุณและทำให้คุณรับแพ็กเกจของที่ระลึกได้\\n\\nโทเค็นนี้สามารถใช้ได้กับเหรียญ Antwerp 2022 ของคุณที่มีอยู่เท่านั้น",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3676,7 +3687,7 @@
     {
         "id": "collectible-4850",
         "name": "บัตรผ่านผู้เข้าชม Rio 2022",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Rio 2022 Coin tracking your progress throughout the event, full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "นี่เป็นบัตรผ่านผู้เข้าชมการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 แบบปิดผนึก เมื่อเปิดผนึกบัตรผ่านนี้แล้ว คุณจะได้รับเหรียญ Rio 2022 ซึ่งติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม, สิทธิในการเข้าถึงการท้าทาย Pick'Em Rio 2022 เต็มรูปแบบ, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย พร้อมทั้งมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nอัปเกรดเหรียญ Rio 2022 ของคุณโดยทำการท้าทายให้เสร็จสมบูรณ์ คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่อัปเกรดเหรียญของคุณ\\n\\nรายได้ 50% จากการขายบัตรผ่านนี้จะนำไปสนับสนุนองค์กรที่เข้าร่วม",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3687,7 +3698,7 @@
     {
         "id": "collectible-4851",
         "name": "เหรียญ Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Rio 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Rio 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3698,7 +3709,7 @@
     {
         "id": "collectible-4852",
         "name": "เหรียญเงิน Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Rio 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Rio 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3709,7 +3720,7 @@
     {
         "id": "collectible-4853",
         "name": "เหรียญทอง Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Rio 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Rio 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3720,7 +3731,7 @@
     {
         "id": "collectible-4854",
         "name": "เหรียญเพชร Rio 2022",
-        "description": "This is a commemorative IEM Rio 2022 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Rio 2022 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "description": "นี่เป็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 เหรียญจะติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม มอบสิทธิ์การเข้าถึงการท้าทาย Pick'Em Rio 2022 ทั้งหมด, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย และมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณสามารถอัปเกรดเหรียญ Rio 2022 ของคุณได้โดยการสำเร็จการท้าทาย คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่คุณอัปเกรดเหรียญของคุณ",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3731,7 +3742,7 @@
     {
         "id": "collectible-4855",
         "name": "บัตรผ่านผู้เข้าชม Rio 2022 + 3 โทเค็นของที่ระลึก",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Rio 2022 Coin tracking your progress throughout the event, full access to the Rio 2022 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Rio 2022 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Rio 2022 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "นี่เป็นบัตรผ่านผู้เข้าชมการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 แบบปิดผนึก เมื่อเปิดผนึกบัตรผ่านนี้แล้ว คุณจะได้รับเหรียญ Rio 2022 ซึ่งติดตามความคืบหน้าของคุณตลอดช่วงกิจกรรม, สิทธิในการเข้าถึงการท้าทาย Pick'Em Rio 2022 เต็มรูปแบบ, แฟลร์แช็ต Steam.tv, เหรียญการท้าทาย พร้อมทั้งมีโอกาสใช้กราฟฟิตี้แบบไม่จำกัดภายในเกมตลอดระยะเวลาของกิจกรรม\\n\\nคุณจะอัปเกรดเหรียญ Rio 2022 ของคุณได้โดยทำการท้าทายเพื่อรับเหรียญให้เสร็จสมบูรณ์ คุณสามารถรับโทเค็นของที่ระลึกได้ทุกครั้งที่อัปเกรดเหรียญของคุณ\\n\\nบัตรผ่านผู้เข้าชมนี้จะเปิดใช้งานเหรียญ Rio 2022 ของคุณล่วงหน้าพร้อม 3 โทเค็นของที่ระลึก\\n\\nรายได้ 50% จากการขายบัตรผ่านนี้จะนำไปสนับสนุนองค์กรที่เข้าร่วม",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3742,7 +3753,7 @@
     {
         "id": "collectible-4856",
         "name": "โทเค็นของที่ระลึก Rio 2022",
-        "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Rio 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Rio 2022 Coin.",
+        "description": "นี่เป็นโทเค็นของที่ระลึกการแข่งขันชิงแชมป์เมเจอร์ CS:GO IEM Rio 2022 แบบปิดผนึก เมื่อโทเค็นถูกเปิดผนึกแล้ว โทเค็นของที่ระลึกจะถูกเพิ่มไปยังเหรียญ Rio 2022 ของคุณและทำให้คุณรับแพ็กเกจของที่ระลึกได้\\n\\nโทเค็นนี้สามารถใช้ได้กับเหรียญ Rio 2022 ของคุณที่มีอยู่เท่านั้น",
         "rarity": {
             "id": "rarity_common",
             "name": "เกรดพื้นฐาน"
@@ -3896,7 +3907,7 @@
     {
         "id": "collectible-6001",
         "name": "เข็มกลัด Dust II (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3907,7 +3918,7 @@
     {
         "id": "collectible-6002",
         "name": "เข็มกลัด Guardian Elite (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 มันสามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณ",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -3918,7 +3929,7 @@
     {
         "id": "collectible-6003",
         "name": "เข็มกลัด Mirage (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -3929,7 +3940,7 @@
     {
         "id": "collectible-6004",
         "name": "เข็มกลัด Inferno (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -3940,7 +3951,7 @@
     {
         "id": "collectible-6005",
         "name": "เข็มกลัด Italy (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3951,7 +3962,7 @@
     {
         "id": "collectible-6006",
         "name": "เข็มกลัด Victory (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3962,7 +3973,7 @@
     {
         "id": "collectible-6007",
         "name": "เข็มกลัด Militia (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -3973,7 +3984,7 @@
     {
         "id": "collectible-6008",
         "name": "เข็มกลัด Nuke (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3984,7 +3995,7 @@
     {
         "id": "collectible-6009",
         "name": "เข็มกลัด Train (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -3995,7 +4006,7 @@
     {
         "id": "collectible-6010",
         "name": "เข็มกลัด Guardian (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4006,7 +4017,7 @@
     {
         "id": "collectible-6011",
         "name": "เข็มกลัด Tactics (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4017,7 +4028,7 @@
     {
         "id": "collectible-6012",
         "name": "เข็มกลัด Guardian 2 (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4028,7 +4039,7 @@
     {
         "id": "collectible-6013",
         "name": "เข็มกลัด Bravo (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4039,7 +4050,7 @@
     {
         "id": "collectible-6014",
         "name": "เข็มกลัด Baggage (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4050,7 +4061,7 @@
     {
         "id": "collectible-6015",
         "name": "เข็มกลัด Phoenix (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4061,7 +4072,7 @@
     {
         "id": "collectible-6016",
         "name": "เข็มกลัด Office (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4072,7 +4083,7 @@
     {
         "id": "collectible-6017",
         "name": "เข็มกลัด Cobblestone (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4083,7 +4094,7 @@
     {
         "id": "collectible-6018",
         "name": "เข็มกลัด Overpass (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4094,7 +4105,7 @@
     {
         "id": "collectible-6019",
         "name": "เข็มกลัด Bloodhound (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4105,7 +4116,7 @@
     {
         "id": "collectible-6020",
         "name": "เข็มกลัด Cache (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4116,7 +4127,7 @@
     {
         "id": "collectible-6021",
         "name": "เข็มกลัด Valeria Phoenix (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4127,7 +4138,7 @@
     {
         "id": "collectible-6022",
         "name": "เข็มกลัด Chroma (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4138,7 +4149,7 @@
     {
         "id": "collectible-6023",
         "name": "เข็มกลัด Guardian 3 (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4149,7 +4160,7 @@
     {
         "id": "collectible-6024",
         "name": "เข็มกลัด Canals (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4160,7 +4171,7 @@
     {
         "id": "collectible-6025",
         "name": "เข็มกลัด Welcome to the Clutch (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4171,7 +4182,7 @@
     {
         "id": "collectible-6026",
         "name": "เข็มกลัด Death Sentence (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4182,7 +4193,7 @@
     {
         "id": "collectible-6027",
         "name": "เข็มกลัด Inferno 2 (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4193,7 +4204,7 @@
     {
         "id": "collectible-6028",
         "name": "เข็มกลัด Wildfire (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4204,7 +4215,7 @@
     {
         "id": "collectible-6029",
         "name": "เข็มกลัด Easy Peasy (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4215,7 +4226,7 @@
     {
         "id": "collectible-6030",
         "name": "เข็มกลัด Aces High (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4226,7 +4237,7 @@
     {
         "id": "collectible-6031",
         "name": "เข็มกลัด Hydra (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4237,7 +4248,7 @@
     {
         "id": "collectible-6032",
         "name": "เข็มกลัด Howl (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4248,7 +4259,7 @@
     {
         "id": "collectible-6033",
         "name": "เข็มกลัด Brigadier General (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4259,7 +4270,7 @@
     {
         "id": "collectible-6034",
         "name": "เข็มกลัด Alyx (Genuine)",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4270,7 +4281,7 @@
     {
         "id": "collectible-6101",
         "name": "เข็มกลัด Dust II",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4281,7 +4292,7 @@
     {
         "id": "collectible-6102",
         "name": "เข็มกลัด Guardian Elite",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 มันสามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณ",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4292,7 +4303,7 @@
     {
         "id": "collectible-6103",
         "name": "เข็มกลัด Mirage",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4303,7 +4314,7 @@
     {
         "id": "collectible-6104",
         "name": "เข็มกลัด Inferno",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4314,7 +4325,7 @@
     {
         "id": "collectible-6105",
         "name": "เข็มกลัด Italy",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4325,7 +4336,7 @@
     {
         "id": "collectible-6106",
         "name": "เข็มกลัด Victory",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4336,7 +4347,7 @@
     {
         "id": "collectible-6107",
         "name": "เข็มกลัด Militia",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4347,7 +4358,7 @@
     {
         "id": "collectible-6108",
         "name": "เข็มกลัด Nuke",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4358,7 +4369,7 @@
     {
         "id": "collectible-6109",
         "name": "เข็มกลัด Train",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4369,7 +4380,7 @@
     {
         "id": "collectible-6110",
         "name": "เข็มกลัด Guardian",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4380,7 +4391,7 @@
     {
         "id": "collectible-6111",
         "name": "เข็มกลัด Tactics",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 1 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4391,7 +4402,7 @@
     {
         "id": "collectible-6112",
         "name": "เข็มกลัด Guardian 2",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4402,7 +4413,7 @@
     {
         "id": "collectible-6113",
         "name": "เข็มกลัด Bravo",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4413,7 +4424,7 @@
     {
         "id": "collectible-6114",
         "name": "เข็มกลัด Baggage",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4424,7 +4435,7 @@
     {
         "id": "collectible-6115",
         "name": "เข็มกลัด Phoenix",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4435,7 +4446,7 @@
     {
         "id": "collectible-6116",
         "name": "เข็มกลัด Office",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4446,7 +4457,7 @@
     {
         "id": "collectible-6117",
         "name": "เข็มกลัด Cobblestone",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4457,7 +4468,7 @@
     {
         "id": "collectible-6118",
         "name": "เข็มกลัด Overpass",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4468,7 +4479,7 @@
     {
         "id": "collectible-6119",
         "name": "เข็มกลัด Bloodhound",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4479,7 +4490,7 @@
     {
         "id": "collectible-6120",
         "name": "เข็มกลัด Cache",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4490,7 +4501,7 @@
     {
         "id": "collectible-6121",
         "name": "เข็มกลัด Valeria Phoenix",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4501,7 +4512,7 @@
     {
         "id": "collectible-6122",
         "name": "เข็มกลัด Chroma",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 2 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4512,7 +4523,7 @@
     {
         "id": "collectible-6123",
         "name": "เข็มกลัด Guardian 3",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4523,7 +4534,7 @@
     {
         "id": "collectible-6124",
         "name": "เข็มกลัด Canals",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4534,7 +4545,7 @@
     {
         "id": "collectible-6125",
         "name": "เข็มกลัด Welcome to the Clutch",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4545,7 +4556,7 @@
     {
         "id": "collectible-6126",
         "name": "เข็มกลัด Death Sentence",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_rare",
             "name": "เกรดสูง"
@@ -4556,7 +4567,7 @@
     {
         "id": "collectible-6127",
         "name": "เข็มกลัด Inferno 2",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4567,7 +4578,7 @@
     {
         "id": "collectible-6128",
         "name": "เข็มกลัด Wildfire",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4578,7 +4589,7 @@
     {
         "id": "collectible-6129",
         "name": "เข็มกลัด Easy Peasy",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_mythical",
             "name": "Remarkable"
@@ -4589,7 +4600,7 @@
     {
         "id": "collectible-6130",
         "name": "เข็มกลัด Aces High",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4600,7 +4611,7 @@
     {
         "id": "collectible-6131",
         "name": "เข็มกลัด Hydra",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_legendary",
             "name": "Exotic"
@@ -4611,7 +4622,7 @@
     {
         "id": "collectible-6132",
         "name": "เข็มกลัด Howl",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4622,7 +4633,7 @@
     {
         "id": "collectible-6133",
         "name": "เข็มกลัด Brigadier General",
-        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมชุดที่ 3 เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"
@@ -4633,7 +4644,7 @@
     {
         "id": "collectible-6134",
         "name": "เข็มกลัด Alyx",
-        "description": "นี่คือเข็มกลัดสะสมของที่ระลึกจาก Half-Life: Alyx เกม VR ของ Valve ได้มาสู่ซีรีส์ Half-Life แล้ว เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ CS:GO ของคุณได้",
+        "description": "นี่คือเข็มกลัดสะสมเพื่อระลึกถึง Half-Life: Alyx ซึ่งเป็นเกม VR ที่ Valve สร้างสรรค์ขึ้นเพื่อหวนคืนสู่ซีรีส์ Half-Life เข็มกลัดนี้สามารถนำไปแสดงบนโปรไฟล์ของคุณได้",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Extraordinary"

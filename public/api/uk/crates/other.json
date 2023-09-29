@@ -2,7 +2,7 @@
     {
         "id": "crate-1210",
         "name": "Пакунок з подарунком",
-        "description": "<font color='#F2A93E'>Gift Package</font>\\nПісля використання випадковий гравець у вашому матчі отримає випадковий предмет як дарунок від вас.",
+        "description": "Після використання випадковий гравець у вашому матчі отримає випадковий предмет як дарунок від вас.",
         "type": null,
         "first_sale_date": "2013/12/17",
         "contains": [],
@@ -31,14 +31,14 @@
     },
     {
         "id": "crate-4668",
-        "name": "Набір «Рентген P250»",
-        "description": "<b><font color='#F2A93E'>X-Ray</font></b>. Цей пакунок містить один P250 із нанесеним рентген-зображенням його нутрощів. Швидкострільний пістолет P250 має низьку віддачу і є відносно недорогим вибором проти захищених бронежилетами опонентів.",
+        "name": "Набір «Рентген П250»",
+        "description": "Цей пакунок містить один П250 із нанесеним рентген-зображенням його нутрощів. Швидкострільний пістолет П250 має низьку віддачу і є відносно недорогим вибором проти захищених бронежилетами опонентів.",
         "type": null,
         "first_sale_date": "2019/10/02",
         "contains": [
             {
                 "id": "skin-2359796",
-                "name": "P250 | Рентген",
+                "name": "П250 | Рентген",
                 "rarity": "зброя спецслужб",
                 "paint_index": "125",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_cu_xray_p250_light_large.4b9f603e1a1dd4de2d64e05bf21168bc8b070bf2.png"
@@ -1818,70 +1818,70 @@
         "contains": [
             {
                 "id": "skin-4199252",
-                "name": "Револьвер R8 | Інкрустація",
+                "name": "Револьвер Р8 | Інкрустація",
                 "rarity": "роздрібного ґатунку",
                 "paint_index": "1237",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_light_large.3d652732f4082f2af2acce48c2343d2fd73bdcae.png"
             },
             {
                 "id": "skin-922472",
-                "name": "M249 | Занурення",
+                "name": "М249 | Занурення",
                 "rarity": "роздрібного ґатунку",
                 "paint_index": "1242",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m249_cu_m249_scarab_light_large.6dc1dc25afc1a3a22fff064c85c8f2d3d88aeac7.png"
             },
             {
                 "id": "skin-1643416",
-                "name": "XM1014 | Ієрогліф",
+                "name": "М1014 | Ієрогліф",
                 "rarity": "роздрібного ґатунку",
                 "paint_index": "1254",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_pharaoh_light_large.dd51bfb65f740dd4145fb548ef9be0a353f82766.png"
             },
             {
                 "id": "skin-2167672",
-                "name": "MP7 | Поцілунок сонця",
+                "name": "МП7 | Поцілунок сонця",
                 "rarity": "роздрібного ґатунку",
                 "paint_index": "1246",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_gs_mp7_strone_light_large.38c65124a7edf35fa2223c37e97c5ac803c24207.png"
             },
             {
                 "id": "skin-529284",
-                "name": "AUG | Зміїна яма",
+                "name": "АУГ | Зміїна яма",
                 "rarity": "роздрібного ґатунку",
                 "paint_index": "1249",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_hy_dune_trap_light_large.61e49e32c50c4a984fec89ec01defd789ae42376.png"
             },
             {
                 "id": "skin-3937132",
-                "name": "M4A1-S | Грязьова специфікація",
+                "name": "М4А1-С | Грязьова специфікація",
                 "rarity": "промислового ґатунку",
                 "paint_index": "1243",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_milspec_light_large.abf3dbeb994944b3182cc60c50d3a729f47c1979.png"
             },
             {
                 "id": "skin-2626444",
-                "name": "SSG 08 | Лазурний гліф",
+                "name": "ССГ 08 | Лазурний гліф",
                 "rarity": "промислового ґатунку",
                 "paint_index": "1251",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_light_large.6e654fe6456fb019d4507f750d113f67ca0a879f.png"
             },
             {
                 "id": "skin-4002708",
-                "name": "USP-S | Пустельна тактика",
+                "name": "УСП-С | Пустельна тактика",
                 "rarity": "промислового ґатунку",
                 "paint_index": "1253",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_light_large.ff54560941a8f50919ea6be8126490aff54ae810.png"
             },
             {
                 "id": "skin-1119088",
-                "name": "MAC-10 | Відлуння пісків",
+                "name": "МАК-10 | Відлуння пісків",
                 "rarity": "промислового ґатунку",
                 "paint_index": "1244",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_scarab_light_large.3dce90df4da34a30c0437a51e90fc77d08bbe2f3.png"
             },
             {
                 "id": "skin-1971088",
-                "name": "Tec-9 | Гниль мумії",
+                "name": "ТЕК-9 | Гниль мумії",
                 "rarity": "армійського ґатунку",
                 "paint_index": "1252",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_cu_tec9_mummy_light_large.b70be5ec031a0538fe3e7b42d0a21d1cebe869e1.png"
@@ -1895,56 +1895,56 @@
             },
             {
                 "id": "skin-594780",
-                "name": "AWP | Чорний Ніл",
+                "name": "АВП | Чорний Ніл",
                 "rarity": "армійського ґатунку",
                 "paint_index": "1239",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_strone_light_large.f6a8a693f8bcdd89436549db6079bb5f102c9616.png"
             },
             {
                 "id": "skin-1774452",
-                "name": "MAG-7 | Мідне покриття",
+                "name": "МАГ-7 | Мідне покриття",
                 "rarity": "армійського ґатунку",
                 "paint_index": "1245",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_goold_light_large.293c06a3f62ce9dfb177f79462fbb7b31bd5eb9f.png"
             },
             {
                 "id": "skin-267104",
-                "name": "Glock-18 | Володіння Рамзеса",
+                "name": "Ґлок-18 | Володіння Рамзеса",
                 "rarity": "зброя спецслужб",
                 "paint_index": "1240",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_ramzes_light_large.86da273a88db7c8d0231e03a45cd94929efeb1ff.png"
             },
             {
                 "id": "skin-2298748",
-                "name": "Nova | Укус Собека",
+                "name": "Нова | Укус Собека",
                 "rarity": "зброя спецслужб",
                 "paint_index": "1247",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_gs_nova_sobek_light_large.53046ae2482691e0c1ba90de50698f875294a737.png"
             },
             {
                 "id": "skin-1250184",
-                "name": "P90 | Атака скарабея",
+                "name": "П90 | Атака скарабея",
                 "rarity": "зброя спецслужб",
                 "paint_index": "1250",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_scarab_of_wisdom_light_large.54f85e60f71185083323768b79e699da762e09e6.png"
             },
             {
                 "id": "skin-660324",
-                "name": "FAMAS | Води Нефтиди",
+                "name": "ФАМАС | Води Нефтиди",
                 "rarity": "секретна зброя",
                 "paint_index": "1241",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_cu_famas_holo_ocean_light_large.e9efee74629f50aab0110ae3fc6a07aabac679e0.png"
             },
             {
                 "id": "skin-2364288",
-                "name": "P250 | Прокляття Апепа",
+                "name": "П250 | Прокляття Апепа",
                 "rarity": "секретна зброя",
                 "paint_index": "1248",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_apep_light_large.39613b6ade6f204aaaed995e47d0a9fa42963b45.png"
             },
             {
                 "id": "skin-1053596",
-                "name": "M4A4 | Око Гора",
+                "name": "М4А4 | Око Гора",
                 "rarity": "надсекретна зброя",
                 "paint_index": "1255",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_ra_light_large.7531ec73ee20dac93f068342616599e4808fb850.png"
