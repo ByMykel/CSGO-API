@@ -37,7 +37,7 @@ const getSkinInfo = (iconPath) => {
 const parseItem = (item, items) => {
     const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdn[`${item.icon_path.toLowerCase()}_large`];
+    const image = cdn[`${item.icon_path.toLowerCase()}_test`] ? cdn[`${item.icon_path.toLowerCase()}_test`] : cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
