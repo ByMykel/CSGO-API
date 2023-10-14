@@ -552,7 +552,9 @@ const getItemFromKey = (key) => {
                 phase = getDopplerPhase(
                     paintKits[name.toLowerCase()].paint_index
                 );
-                image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
+                image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`] 
+                    ? cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`] 
+                    : cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
             }
 
             return {
