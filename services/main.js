@@ -240,6 +240,26 @@ export const loadSkinsByCrates = () => {
 
     state.skinsByCrates = {
         ...Object.values(revolvingLootLists).reduce((items, item) => {
+            if (item === 'crate_dhw13_promo') {
+                // Source: https://counterstrike.fandom.com/wiki/DreamHack_2013_Souvenir_Package
+                items[item] = ['set_dust_2', 'set_safehouse', 'set_italy', 'set_lake', 'set_train', 'set_mirage'].flatMap(set => 
+                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
+                )
+
+                items[item].push(getItemFromKey('[sp_tape]weapon_revolver'))
+
+                return items
+            }
+
+            if (item === 'crate_ems14_promo') {
+                // I assume the drops are the same as "DreamHack 2013" but the "R8 Revolver | Bone Mask"
+                items[item] = ['set_dust_2', 'set_safehouse', 'set_italy', 'set_lake', 'set_train', 'set_mirage'].flatMap(set => 
+                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
+                )
+
+                return items
+            }
+
             items[item] = Object.keys(extractItems(item, clientLootLists)).map(
                 getItemFromKey
             );
@@ -315,15 +335,7 @@ export const loadyCratesBySkins = () => {
 export const loadSkinsByCollections = () => {
     state.skinsByCollections = Object.entries(state.itemsGame.item_sets).reduce(
         (items, [key, value]) => {
-            items[key] = Object.keys(value.items).map((item) => {
-                const ftt = getItemFromKey(item);
-
-                if (ftt == null) {
-                    console.log(item);
-                }
-
-                return ftt;
-            });
+            items[key] = Object.keys(value.items).map((item) => getItemFromKey(item));
             return items;
         },
         {}
