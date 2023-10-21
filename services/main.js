@@ -122,7 +122,9 @@ export const loadMusicDefinitions = () => {
     state.musicDefinitions = Object.entries(state.itemsGame.music_definitions)
         .filter(
             ([key, item]) =>
-                !["valve_csgo_01", "valve_csgo_02", "valve_cs2_01"].includes(item.name)
+                !["valve_csgo_01", "valve_csgo_02", "valve_cs2_01"].includes(
+                    item.name
+                )
         )
         .map(([key, item]) => ({
             ...item,
@@ -240,24 +242,42 @@ export const loadSkinsByCrates = () => {
 
     state.skinsByCrates = {
         ...Object.values(revolvingLootLists).reduce((items, item) => {
-            if (item === 'crate_dhw13_promo') {
+            if (item === "crate_dhw13_promo") {
                 // Source: https://counterstrike.fandom.com/wiki/DreamHack_2013_Souvenir_Package
-                items[item] = ['set_dust_2', 'set_safehouse', 'set_italy', 'set_lake', 'set_train', 'set_mirage'].flatMap(set => 
-                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
-                )
+                items[item] = [
+                    "set_dust_2",
+                    "set_safehouse",
+                    "set_italy",
+                    "set_lake",
+                    "set_train",
+                    "set_mirage",
+                ].flatMap((set) =>
+                    Object.keys(extractItems(set, clientLootLists)).map(
+                        getItemFromKey
+                    )
+                );
 
-                items[item].push(getItemFromKey('[sp_tape]weapon_revolver'))
+                items[item].push(getItemFromKey("[sp_tape]weapon_revolver"));
 
-                return items
+                return items;
             }
 
-            if (item === 'crate_ems14_promo') {
+            if (item === "crate_ems14_promo") {
                 // I assume the drops are the same as "DreamHack 2013" but the "R8 Revolver | Bone Mask"
-                items[item] = ['set_dust_2', 'set_safehouse', 'set_italy', 'set_lake', 'set_train', 'set_mirage'].flatMap(set => 
-                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
-                )
+                items[item] = [
+                    "set_dust_2",
+                    "set_safehouse",
+                    "set_italy",
+                    "set_lake",
+                    "set_train",
+                    "set_mirage",
+                ].flatMap((set) =>
+                    Object.keys(extractItems(set, clientLootLists)).map(
+                        getItemFromKey
+                    )
+                );
 
-                return items
+                return items;
             }
 
             items[item] = Object.keys(extractItems(item, clientLootLists)).map(
@@ -335,7 +355,9 @@ export const loadyCratesBySkins = () => {
 export const loadSkinsByCollections = () => {
     state.skinsByCollections = Object.entries(state.itemsGame.item_sets).reduce(
         (items, [key, value]) => {
-            items[key] = Object.keys(value.items).map((item) => getItemFromKey(item));
+            items[key] = Object.keys(value.items).map((item) =>
+                getItemFromKey(item)
+            );
             return items;
         },
         {}
@@ -377,27 +399,31 @@ export const loadCollectionsBySkins = () => {
 };
 
 export const loadSouvenirSkins = () => {
-    state.souvenirSkins = Object.values(state.items)
-        .filter((item) => {
-            return item.prefab === "weapon_case_souvenirpkg";
-        })
-        .map((item) => {
-            const lootListName = item?.loot_list_name ?? null;
-            const attributeValue =
-                item.attributes?.["set supply crate series"]?.value ?? null;
-            const keyLootList =
-                lootListName ??
-                state.revolvingLootLists[attributeValue] ??
-                null;
+    state.souvenirSkins = {
+        ...Object.values(state.items)
+            .filter((item) => {
+                return item.prefab === "weapon_case_souvenirpkg";
+            })
+            .map((item) => {
+                const lootListName = item?.loot_list_name ?? null;
+                const attributeValue =
+                    item.attributes?.["set supply crate series"]?.value ?? null;
+                const keyLootList =
+                    lootListName ??
+                    state.revolvingLootLists[attributeValue] ??
+                    null;
 
-            return (
-                state.skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
-                state.skinsByCrates?.[keyLootList] ??
-                []
-            );
-        })
-        .flatMap((level1) => level1)
-        .reduce((acc, item) => ({ ...acc, [item.id]: true }), {});
+                return (
+                    state.skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
+                    state.skinsByCrates?.[keyLootList] ??
+                    []
+                );
+            })
+            .flatMap((level1) => level1)
+            .reduce((acc, item) => ({ ...acc, [item.id]: true }), {}),
+
+        'skin-1510528': true, // MP5-SD | Lab Rats
+    };
 };
 
 export const loadStattrakSkins = () => {
@@ -416,7 +442,7 @@ export const loadStattrakSkins = () => {
     });
 
     const result = {
-        cu_m4a1_howling: true
+        cu_m4a1_howling: true,
     };
 
     itemSets.forEach((item) => {
@@ -467,7 +493,7 @@ const getItemFromKey = (key) => {
             id: `agent-${agent.object_id}`,
             name: agent.item_name,
             rarity: `rarity_${agent.item_rarity}_character`,
-            image: cdn[`econ/characters/${agent.name.toLocaleLowerCase()}`]
+            image: cdn[`econ/characters/${agent.name.toLocaleLowerCase()}`],
         };
     }
 
@@ -566,8 +592,8 @@ const getItemFromKey = (key) => {
                 phase = getDopplerPhase(
                     paintKits[name.toLowerCase()].paint_index
                 );
-                image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`] 
-                    ? cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`] 
+                image = cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`]
+                    ? cdn[`${weaponIcons[1].icon_path.toLowerCase()}_test`]
                     : cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
             }
 
