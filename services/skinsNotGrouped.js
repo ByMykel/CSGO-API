@@ -37,7 +37,9 @@ const getSkinInfo = (iconPath) => {
 const parseItem = (item, items) => {
     const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdn[`${item.icon_path.toLowerCase()}_test`] ? cdn[`${item.icon_path.toLowerCase()}_test`] : cdn[`${item.icon_path.toLowerCase()}_large`];
+    const image = cdn[`${item.icon_path.toLowerCase()}_test`]
+        ? cdn[`${item.icon_path.toLowerCase()}_test`]
+        : cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -61,7 +63,8 @@ const parseItem = (item, items) => {
         : // Gloves are 'Extraordinary'
           `rarity_ancient`;
 
-    const types = ["skin"];
+    // Some skins only exist as souvenir like "MP5-SD | Lab Rats"
+    const types = ["hy_labrat_mp5"].includes(pattern) ? [] : ["skin"];
 
     if (isStatTrak) {
         types.push("skin_stattrak");
