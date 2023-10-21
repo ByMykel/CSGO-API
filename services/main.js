@@ -403,7 +403,9 @@ export const loadStattrakSkins = () => {
         }
     });
 
-    const result = {};
+    const result = {
+        cu_m4a1_howling: true
+    };
 
     itemSets.forEach((item) => {
         if (item.is_collection) {
