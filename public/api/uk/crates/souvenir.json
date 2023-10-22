@@ -5,7 +5,652 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "Г3-СГ1 | Піщана буря",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "П250 | Піщана дюна",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "СКАР-20 | Піщана сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "П90 | Піщана аерографія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "МП9 | Штриховані піски",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Нова | Хижак",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Обріз | Зміїний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "АК-47 | Сітка сафарі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-seveN | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "МАК-10 | Пальма",
+                "rarity": "промислового ґатунку",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "ТЕК-9 | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "ПП «Бізон» | Латунь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "М4А1-С | Змішаний камуфляж",
+                "rarity": "армійського ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "СГ 553 | Дамаська сталь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "П2000 | Бурштиновий градієнт",
+                "rarity": "зброя спецслужб",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "Револьвер Р8 | Бурштиновий градієнт",
+                "rarity": "секретна зброя",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Подвійні «Беретти» | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "СКАР-20 | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "ССГ 08 | Синя хвоя",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "ТЕК-9 | Армійська сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "МП7 | Армійська розвідка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "УСП-С | Лісове листя",
+                "rarity": "промислового ґатунку",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "АУГ | Обгорілий",
+                "rarity": "промислового ґатунку",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "МП9 | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "Г3-СГ1 | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Ґаліл | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "М249 | Крокодилова сітка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "ФАМАС | Розрив",
+                "rarity": "армійського ґатунку",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-seveN | Срібний кварц",
+                "rarity": "армійського ґатунку",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "ССГ 08 | Кислотний градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "М4А1-С | Нітро",
+                "rarity": "зброя спецслужб",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "ТЕК-9 | Ґрунтові води",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "АУГ | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "ФАМАС | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Нова | Піщана дюна",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "ПП «Бізон» | Штриховані піски",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Нова | Карамельне яблуко",
+                "rarity": "промислового ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "УМП-45 | Пороховий дим",
+                "rarity": "промислового ґатунку",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "П2000 | Мармуровий граніт",
+                "rarity": "промислового ґатунку",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Подвійні «Беретти» | Наліт іржі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "М4А1-С | Тундра",
+                "rarity": "промислового ґатунку",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "М1014 | Каліфорнійський камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Ґлок-18 | Карамельне яблуко",
+                "rarity": "армійського ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "МП7 | Анодована синява",
+                "rarity": "армійського ґатунку",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Обріз | Крапка",
+                "rarity": "армійського ґатунку",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "АВП | Гримуча змія",
+                "rarity": "зброя спецслужб",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "П250 | Тундра",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "М1014 | Синя хвоя",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "АУГ | Шторм",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Ґаліл | Димчаста аерографія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "СГ 553 | Перфоровані хвилі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "Г3-СГ1 | Штриховані джунглі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "М1014 | Блакитна сталь",
+                "rarity": "промислового ґатунку",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "АВП | Сітка сафарі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Пустельний орел | Бруд",
+                "rarity": "промислового ґатунку",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "ФАМАС | Блакитні бризки",
+                "rarity": "промислового ґатунку",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "ПП «Бізон» | Нічні операції",
+                "rarity": "промислового ґатунку",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "СГ 553 | Анодована синява",
+                "rarity": "армійського ґатунку",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "УСП-С | Нічні операції",
+                "rarity": "армійського ґатунку",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "П90 | Розрив",
+                "rarity": "армійського ґатунку",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Подвійні «Беретти» | Синій кварц",
+                "rarity": "зброя спецслужб",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "УМП-45 | Пікс. камуфляж «Місто»",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Подвійні «Беретти» | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "Г3-СГ1 | Полярний камуфляж",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-seveN | Лісова ніч",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Нова | Полярна сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "ПП «Бізон» | Міське штрихування",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "МАК-10 | Карамельне яблуко",
+                "rarity": "промислового ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "М4А4 | Пікс. камуфляж «Місто»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "МАГ-7 | Пікс. камуфляж «Металічний»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "П250 | Пікс. камуфляж «Металічний»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "СКАР-20 | Вуглепластик",
+                "rarity": "промислового ґатунку",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "П90 | Ясен",
+                "rarity": "промислового ґатунку",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Пустельний орел | Міський щебінь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Обріз | Бурштиновий градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "ТЕК-9 | Червоний кварц",
+                "rarity": "зброя спецслужб",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "П250 | Кістяна маска",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-seveN | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "АУГ | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "Г3-СГ1 | Сітка сафарі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "П90 | Випалення",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Ґаліл | Полювання наосліп",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Ґлок-18 | Ґрунтові води",
+                "rarity": "промислового ґатунку",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "МП7 | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "ССГ 08 | Тропічний шторм",
+                "rarity": "промислового ґатунку",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Неґев | Каліфорнійський камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "СГ 553 | Крокодилова сітка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "МП9 | Хот-род",
+                "rarity": "армійського ґатунку",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "УМП-45 | Полум’я",
+                "rarity": "армійського ґатунку",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "МАК-10 | Бурштиновий градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "МАГ-7 | Бульдозер",
+                "rarity": "зброя спецслужб",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            },
+            {
+                "id": "skin-4194412",
+                "name": "Револьвер Р8 | Кістяна маска",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_sp_tape_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_dhw13_promo.e2fdfaae196be9b45cd67086e99269f61dc0ca8d.png"
     },
@@ -15,7 +660,645 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "Г3-СГ1 | Піщана буря",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "П250 | Піщана дюна",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "СКАР-20 | Піщана сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "П90 | Піщана аерографія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "МП9 | Штриховані піски",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Нова | Хижак",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Обріз | Зміїний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "АК-47 | Сітка сафарі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-seveN | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "МАК-10 | Пальма",
+                "rarity": "промислового ґатунку",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "ТЕК-9 | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "ПП «Бізон» | Латунь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "М4А1-С | Змішаний камуфляж",
+                "rarity": "армійського ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "СГ 553 | Дамаська сталь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "П2000 | Бурштиновий градієнт",
+                "rarity": "зброя спецслужб",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "Револьвер Р8 | Бурштиновий градієнт",
+                "rarity": "секретна зброя",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Подвійні «Беретти» | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "СКАР-20 | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "ССГ 08 | Синя хвоя",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "ТЕК-9 | Армійська сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "МП7 | Армійська розвідка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "УСП-С | Лісове листя",
+                "rarity": "промислового ґатунку",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "АУГ | Обгорілий",
+                "rarity": "промислового ґатунку",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "МП9 | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "Г3-СГ1 | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Ґаліл | Змішаний камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "М249 | Крокодилова сітка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "ФАМАС | Розрив",
+                "rarity": "армійського ґатунку",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-seveN | Срібний кварц",
+                "rarity": "армійського ґатунку",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "ССГ 08 | Кислотний градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "М4А1-С | Нітро",
+                "rarity": "зброя спецслужб",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "ТЕК-9 | Ґрунтові води",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "АУГ | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "ФАМАС | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Нова | Піщана дюна",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "ПП «Бізон» | Штриховані піски",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Нова | Карамельне яблуко",
+                "rarity": "промислового ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "УМП-45 | Пороховий дим",
+                "rarity": "промислового ґатунку",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "П2000 | Мармуровий граніт",
+                "rarity": "промислового ґатунку",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Подвійні «Беретти» | Наліт іржі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "М4А1-С | Тундра",
+                "rarity": "промислового ґатунку",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "М1014 | Каліфорнійський камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Ґлок-18 | Карамельне яблуко",
+                "rarity": "армійського ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "МП7 | Анодована синява",
+                "rarity": "армійського ґатунку",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Обріз | Крапка",
+                "rarity": "армійського ґатунку",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "АВП | Гримуча змія",
+                "rarity": "зброя спецслужб",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "П250 | Тундра",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "М1014 | Синя хвоя",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "АУГ | Шторм",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Ґаліл | Димчаста аерографія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "СГ 553 | Перфоровані хвилі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "Г3-СГ1 | Штриховані джунглі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "М1014 | Блакитна сталь",
+                "rarity": "промислового ґатунку",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "АВП | Сітка сафарі",
+                "rarity": "промислового ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Пустельний орел | Бруд",
+                "rarity": "промислового ґатунку",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "ФАМАС | Блакитні бризки",
+                "rarity": "промислового ґатунку",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "ПП «Бізон» | Нічні операції",
+                "rarity": "промислового ґатунку",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "СГ 553 | Анодована синява",
+                "rarity": "армійського ґатунку",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "УСП-С | Нічні операції",
+                "rarity": "армійського ґатунку",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "П90 | Розрив",
+                "rarity": "армійського ґатунку",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Подвійні «Беретти» | Синій кварц",
+                "rarity": "зброя спецслужб",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "УМП-45 | Пікс. камуфляж «Місто»",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Подвійні «Беретти» | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "Г3-СГ1 | Полярний камуфляж",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-seveN | Лісова ніч",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Нова | Полярна сітка",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "ПП «Бізон» | Міське штрихування",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "МАК-10 | Карамельне яблуко",
+                "rarity": "промислового ґатунку",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "М4А4 | Пікс. камуфляж «Місто»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "МАГ-7 | Пікс. камуфляж «Металічний»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "П250 | Пікс. камуфляж «Металічний»",
+                "rarity": "промислового ґатунку",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "СКАР-20 | Вуглепластик",
+                "rarity": "промислового ґатунку",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "П90 | Ясен",
+                "rarity": "промислового ґатунку",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Пустельний орел | Міський щебінь",
+                "rarity": "армійського ґатунку",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Обріз | Бурштиновий градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "ТЕК-9 | Червоний кварц",
+                "rarity": "зброя спецслужб",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "П250 | Кістяна маска",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-seveN | Найманець",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "АУГ | Колонія",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "Г3-СГ1 | Сітка сафарі",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "П90 | Випалення",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Ґаліл | Полювання наосліп",
+                "rarity": "роздрібного ґатунку",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Ґлок-18 | Ґрунтові води",
+                "rarity": "промислового ґатунку",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "МП7 | Помаранчева шкірка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "ССГ 08 | Тропічний шторм",
+                "rarity": "промислового ґатунку",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Неґев | Каліфорнійський камуфляж",
+                "rarity": "промислового ґатунку",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "СГ 553 | Крокодилова сітка",
+                "rarity": "промислового ґатунку",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "МП9 | Хот-род",
+                "rarity": "армійського ґатунку",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "УМП-45 | Полум’я",
+                "rarity": "армійського ґатунку",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "МАК-10 | Бурштиновий градієнт",
+                "rarity": "армійського ґатунку",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "МАГ-7 | Бульдозер",
+                "rarity": "зброя спецслужб",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_ems14_promo.a2c1d0b7aae61d8bd734d7dd3f391fa42bfee643.png"
     },

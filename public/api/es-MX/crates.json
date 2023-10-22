@@ -2794,7 +2794,652 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | Tormenta del desierto",
+                "rarity": "de grado de consumidor",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | Duna de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | Malla de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | Aerosol de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | Arena punteada",
+                "rarity": "de grado de consumidor",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Nova | Depredador",
+                "rarity": "de grado de consumidor",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Recortada | Camuflaje serpentino",
+                "rarity": "de grado industrial",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | Malla de safari",
+                "rarity": "de grado industrial",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-SeveN | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | Palmera",
+                "rarity": "de grado industrial",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-Bizon | Latón",
+                "rarity": "de grado militar",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1-S | Camuflaje variado",
+                "rarity": "de grado militar",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | Acero de damasco",
+                "rarity": "de grado militar",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | Ámbar desteñido",
+                "rarity": "de tipo restringido",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "Revólver R8 | Ámbar desteñido",
+                "rarity": "de tipo clasificado",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Berettas dobles | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | Pícea azul",
+                "rarity": "de grado de consumidor",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | Malla militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | Camuflaje Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP-S | Hojas del bosque",
+                "rarity": "de grado industrial",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | Condena",
+                "rarity": "de grado industrial",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Galil AR | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | Malla de caimán",
+                "rarity": "de grado industrial",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "FAMAS | Azulgrana",
+                "rarity": "de grado militar",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-SeveN | Cuarzo plateado",
+                "rarity": "de grado militar",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | Ácido desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1-S | Nitro",
+                "rarity": "de tipo restringido",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | Agua subterránea",
+                "rarity": "de grado de consumidor",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "FAMAS | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Nova | Duna de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-Bizon | Arena punteada",
+                "rarity": "de grado de consumidor",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Nova | Manzana caramelizada",
+                "rarity": "de grado industrial",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | Ley del revólver",
+                "rarity": "de grado industrial",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | Granito marmóreo",
+                "rarity": "de grado industrial",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Berettas dobles | Manchado",
+                "rarity": "de grado industrial",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1-S | Bosque boreal",
+                "rarity": "de grado industrial",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | Camuflaje desértico",
+                "rarity": "de grado industrial",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Glock-18 | Manzana caramelizada",
+                "rarity": "de grado militar",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | Azul marino anodizado",
+                "rarity": "de grado militar",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Recortada | Arresto total",
+                "rarity": "de grado militar",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | Crótalo",
+                "rarity": "de tipo restringido",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | Bosque boreal",
+                "rarity": "de grado de consumidor",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | Pícea azul",
+                "rarity": "de grado de consumidor",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | Tormenta",
+                "rarity": "de grado de consumidor",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Galil AR | Aerosol de salvia",
+                "rarity": "de grado de consumidor",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | Olas perforadas",
+                "rarity": "de grado de consumidor",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | Punteado de jungla",
+                "rarity": "de grado de consumidor",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | Azul metalizado",
+                "rarity": "de grado industrial",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | Malla de safari",
+                "rarity": "de grado industrial",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Desert Eagle | Embarrada",
+                "rarity": "de grado industrial",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "FAMAS | Azul cerúleo",
+                "rarity": "de grado industrial",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-Bizon | Operaciones nocturnas",
+                "rarity": "de grado industrial",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | Azul marino anodizado",
+                "rarity": "de grado militar",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP-S | Operaciones nocturnas",
+                "rarity": "de grado militar",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | Azulgrana",
+                "rarity": "de grado militar",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Berettas dobles | Cuarzo cobalto",
+                "rarity": "de tipo restringido",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | DDPAT urbano",
+                "rarity": "de grado de consumidor",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Berettas dobles | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | Camuflaje Polar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-SeveN | Bosque nocturno",
+                "rarity": "de grado de consumidor",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Nova | Malla polar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-Bizon | Punteado urbano",
+                "rarity": "de grado de consumidor",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | Manzana caramelizada",
+                "rarity": "de grado industrial",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | DDPAT urbano",
+                "rarity": "de grado industrial",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | DDPAT metálico",
+                "rarity": "de grado industrial",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | DDPAT metálico",
+                "rarity": "de grado industrial",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | Fibra de carbono",
+                "rarity": "de grado industrial",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | Madera de fresno",
+                "rarity": "de grado industrial",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Desert Eagle | Camuflaje urbano",
+                "rarity": "de grado militar",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Recortada | Ámbar desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | Cuarzo rojo",
+                "rarity": "de tipo restringido",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | Máscara ósea",
+                "rarity": "de grado de consumidor",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-SeveN | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | Malla de safari",
+                "rarity": "de grado de consumidor",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | Chamuscado",
+                "rarity": "de grado de consumidor",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Galil AR | Puesto de caza",
+                "rarity": "de grado de consumidor",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Glock-18 | Agua subterránea",
+                "rarity": "de grado industrial",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | Tormenta tropical",
+                "rarity": "de grado industrial",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Negev | Camuflaje desértico",
+                "rarity": "de grado industrial",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | Malla de caimán",
+                "rarity": "de grado industrial",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | Hot rod",
+                "rarity": "de grado militar",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | Llamarada",
+                "rarity": "de grado militar",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | Ámbar desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | Buldócer",
+                "rarity": "de tipo restringido",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            },
+            {
+                "id": "skin-4194412",
+                "name": "Revólver R8 | Máscara ósea",
+                "rarity": "de grado de consumidor",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_sp_tape_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_dhw13_promo.e2fdfaae196be9b45cd67086e99269f61dc0ca8d.png"
     },
@@ -4694,7 +5339,645 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | Tormenta del desierto",
+                "rarity": "de grado de consumidor",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | Duna de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | Malla de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | Aerosol de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | Arena punteada",
+                "rarity": "de grado de consumidor",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Nova | Depredador",
+                "rarity": "de grado de consumidor",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Recortada | Camuflaje serpentino",
+                "rarity": "de grado industrial",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | Malla de safari",
+                "rarity": "de grado industrial",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-SeveN | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | Palmera",
+                "rarity": "de grado industrial",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-Bizon | Latón",
+                "rarity": "de grado militar",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1-S | Camuflaje variado",
+                "rarity": "de grado militar",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | Acero de damasco",
+                "rarity": "de grado militar",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | Ámbar desteñido",
+                "rarity": "de tipo restringido",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "Revólver R8 | Ámbar desteñido",
+                "rarity": "de tipo clasificado",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Berettas dobles | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | Pícea azul",
+                "rarity": "de grado de consumidor",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | Malla militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | Camuflaje Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP-S | Hojas del bosque",
+                "rarity": "de grado industrial",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | Condena",
+                "rarity": "de grado industrial",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Galil AR | Camuflaje variado",
+                "rarity": "de grado industrial",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | Malla de caimán",
+                "rarity": "de grado industrial",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "FAMAS | Azulgrana",
+                "rarity": "de grado militar",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-SeveN | Cuarzo plateado",
+                "rarity": "de grado militar",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | Ácido desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1-S | Nitro",
+                "rarity": "de tipo restringido",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | Agua subterránea",
+                "rarity": "de grado de consumidor",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "FAMAS | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Nova | Duna de arena",
+                "rarity": "de grado de consumidor",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-Bizon | Arena punteada",
+                "rarity": "de grado de consumidor",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Nova | Manzana caramelizada",
+                "rarity": "de grado industrial",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | Ley del revólver",
+                "rarity": "de grado industrial",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | Granito marmóreo",
+                "rarity": "de grado industrial",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Berettas dobles | Manchado",
+                "rarity": "de grado industrial",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1-S | Bosque boreal",
+                "rarity": "de grado industrial",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | Camuflaje desértico",
+                "rarity": "de grado industrial",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Glock-18 | Manzana caramelizada",
+                "rarity": "de grado militar",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | Azul marino anodizado",
+                "rarity": "de grado militar",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Recortada | Arresto total",
+                "rarity": "de grado militar",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | Crótalo",
+                "rarity": "de tipo restringido",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | Bosque boreal",
+                "rarity": "de grado de consumidor",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | Pícea azul",
+                "rarity": "de grado de consumidor",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | Tormenta",
+                "rarity": "de grado de consumidor",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Galil AR | Aerosol de salvia",
+                "rarity": "de grado de consumidor",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | Olas perforadas",
+                "rarity": "de grado de consumidor",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | Punteado de jungla",
+                "rarity": "de grado de consumidor",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | Azul metalizado",
+                "rarity": "de grado industrial",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | Malla de safari",
+                "rarity": "de grado industrial",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Desert Eagle | Embarrada",
+                "rarity": "de grado industrial",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "FAMAS | Azul cerúleo",
+                "rarity": "de grado industrial",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-Bizon | Operaciones nocturnas",
+                "rarity": "de grado industrial",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | Azul marino anodizado",
+                "rarity": "de grado militar",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP-S | Operaciones nocturnas",
+                "rarity": "de grado militar",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | Azulgrana",
+                "rarity": "de grado militar",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Berettas dobles | Cuarzo cobalto",
+                "rarity": "de tipo restringido",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | DDPAT urbano",
+                "rarity": "de grado de consumidor",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Berettas dobles | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | Camuflaje Polar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-SeveN | Bosque nocturno",
+                "rarity": "de grado de consumidor",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Nova | Malla polar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-Bizon | Punteado urbano",
+                "rarity": "de grado de consumidor",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | Manzana caramelizada",
+                "rarity": "de grado industrial",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | DDPAT urbano",
+                "rarity": "de grado industrial",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | DDPAT metálico",
+                "rarity": "de grado industrial",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | DDPAT metálico",
+                "rarity": "de grado industrial",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | Fibra de carbono",
+                "rarity": "de grado industrial",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | Madera de fresno",
+                "rarity": "de grado industrial",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Desert Eagle | Camuflaje urbano",
+                "rarity": "de grado militar",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Recortada | Ámbar desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | Cuarzo rojo",
+                "rarity": "de tipo restringido",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | Máscara ósea",
+                "rarity": "de grado de consumidor",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-SeveN | Contratista",
+                "rarity": "de grado de consumidor",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | Militar",
+                "rarity": "de grado de consumidor",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | Malla de safari",
+                "rarity": "de grado de consumidor",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | Chamuscado",
+                "rarity": "de grado de consumidor",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Galil AR | Puesto de caza",
+                "rarity": "de grado de consumidor",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Glock-18 | Agua subterránea",
+                "rarity": "de grado industrial",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | Piel de naranja",
+                "rarity": "de grado industrial",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | Tormenta tropical",
+                "rarity": "de grado industrial",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Negev | Camuflaje desértico",
+                "rarity": "de grado industrial",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | Malla de caimán",
+                "rarity": "de grado industrial",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | Hot rod",
+                "rarity": "de grado militar",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | Llamarada",
+                "rarity": "de grado militar",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | Ámbar desteñido",
+                "rarity": "de grado militar",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | Buldócer",
+                "rarity": "de tipo restringido",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_ems14_promo.a2c1d0b7aae61d8bd734d7dd3f391fa42bfee643.png"
     },

@@ -5,7 +5,652 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | 沙漠风暴",
+                "rarity": "消费级",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | 沙丘之黄",
+                "rarity": "消费级",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | 沙漠网格",
+                "rarity": "消费级",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | 沙漠涂装",
+                "rarity": "消费级",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | 沙漠虚线",
+                "rarity": "消费级",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "新星 | 捕食者",
+                "rarity": "消费级",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "截短霰弹枪 | 蝮蛇迷彩",
+                "rarity": "工业级",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | 狩猎网格",
+                "rarity": "工业级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "FN57 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | 棕榈色",
+                "rarity": "工业级",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-野牛 | 黄铜",
+                "rarity": "军规级",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1 消音型 | 多变迷彩",
+                "rarity": "军规级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | 大马士革钢",
+                "rarity": "军规级",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | 渐变琥珀",
+                "rarity": "受限",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "R8 左轮手枪 | 渐变琥珀",
+                "rarity": "保密",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "双持贝瑞塔 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | 蓝色云杉",
+                "rarity": "消费级",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | 陆军网格",
+                "rarity": "消费级",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | 陆军斥候",
+                "rarity": "消费级",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP 消音版 | 森林之叶",
+                "rarity": "工业级",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | 众枪之的",
+                "rarity": "工业级",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "加利尔 AR | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | 鳄鱼网格",
+                "rarity": "工业级",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "法玛斯 | 摧枯拉朽",
+                "rarity": "军规级",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "FN57 | 银白石英",
+                "rarity": "军规级",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | 渐变强酸",
+                "rarity": "军规级",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1 消音型 | 氮化处理",
+                "rarity": "受限",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | 地下水",
+                "rarity": "消费级",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "法玛斯 | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "新星 | 沙丘之黄",
+                "rarity": "消费级",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-野牛 | 沙漠虚线",
+                "rarity": "消费级",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "新星 | 红苹果",
+                "rarity": "工业级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | 硝烟",
+                "rarity": "工业级",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | 坚毅大理石纹",
+                "rarity": "工业级",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "双持贝瑞塔 | 人工染色",
+                "rarity": "工业级",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1 消音型 | 北方森林",
+                "rarity": "工业级",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | 加州迷彩",
+                "rarity": "工业级",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "格洛克 18 型 | 红苹果",
+                "rarity": "军规级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | 深蓝电镀处理",
+                "rarity": "军规级",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "截短霰弹枪 | 逮捕者",
+                "rarity": "军规级",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | 响尾蛇",
+                "rarity": "受限",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | 北方森林",
+                "rarity": "消费级",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | 蓝色云杉",
+                "rarity": "消费级",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | 暴风呼啸",
+                "rarity": "消费级",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "加利尔 AR | 贤者涂装",
+                "rarity": "消费级",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | 浪花穿孔",
+                "rarity": "消费级",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | 丛林虚线",
+                "rarity": "消费级",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | 蓝钢",
+                "rarity": "工业级",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | 狩猎网格",
+                "rarity": "工业级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "沙漠之鹰 | 泥地杀手",
+                "rarity": "工业级",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "法玛斯 | 湖蓝涂装",
+                "rarity": "工业级",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-野牛 | 午夜行动",
+                "rarity": "工业级",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | 深蓝电镀处理",
+                "rarity": "军规级",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP 消音版 | 午夜行动",
+                "rarity": "军规级",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | 摧枯拉朽",
+                "rarity": "军规级",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "双持贝瑞塔 | 钴蓝石英",
+                "rarity": "受限",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | 都市 DDPAT",
+                "rarity": "消费级",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "双持贝瑞塔 | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | 极地迷彩",
+                "rarity": "消费级",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "FN57 | 暮色森林",
+                "rarity": "消费级",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "新星 | 极地网格",
+                "rarity": "消费级",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-野牛 | 都市虚线",
+                "rarity": "消费级",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | 红苹果",
+                "rarity": "工业级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | 都市 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | 金属 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | 金属 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | 碳素纤维",
+                "rarity": "工业级",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | 白蜡木",
+                "rarity": "工业级",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "沙漠之鹰 | 都市瓦砾",
+                "rarity": "军规级",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "截短霰弹枪 | 渐变琥珀",
+                "rarity": "军规级",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | 晶红石英",
+                "rarity": "受限",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | 骸骨外罩",
+                "rarity": "消费级",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "FN57 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | 狩猎网格",
+                "rarity": "消费级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | 枯焦之色",
+                "rarity": "消费级",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "加利尔 AR | 隐蔽猎手",
+                "rarity": "消费级",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "格洛克 18 型 | 地下水",
+                "rarity": "工业级",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | 热带风暴",
+                "rarity": "工业级",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "内格夫 | 加州迷彩",
+                "rarity": "工业级",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | 鳄鱼网格",
+                "rarity": "工业级",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | 赤红新星",
+                "rarity": "军规级",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | 炽烈之炎",
+                "rarity": "军规级",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | 渐变琥珀",
+                "rarity": "军规级",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | 威吓者",
+                "rarity": "受限",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            },
+            {
+                "id": "skin-4194412",
+                "name": "R8 左轮手枪 | 骸骨外罩",
+                "rarity": "消费级",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_sp_tape_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_dhw13_promo.e2fdfaae196be9b45cd67086e99269f61dc0ca8d.png"
     },
@@ -15,7 +660,645 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | 沙漠风暴",
+                "rarity": "消费级",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | 沙丘之黄",
+                "rarity": "消费级",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | 沙漠网格",
+                "rarity": "消费级",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | 沙漠涂装",
+                "rarity": "消费级",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | 沙漠虚线",
+                "rarity": "消费级",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "新星 | 捕食者",
+                "rarity": "消费级",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "截短霰弹枪 | 蝮蛇迷彩",
+                "rarity": "工业级",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | 狩猎网格",
+                "rarity": "工业级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "FN57 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | 棕榈色",
+                "rarity": "工业级",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-野牛 | 黄铜",
+                "rarity": "军规级",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1 消音型 | 多变迷彩",
+                "rarity": "军规级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | 大马士革钢",
+                "rarity": "军规级",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | 渐变琥珀",
+                "rarity": "受限",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "R8 左轮手枪 | 渐变琥珀",
+                "rarity": "保密",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "双持贝瑞塔 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | 蓝色云杉",
+                "rarity": "消费级",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | 陆军网格",
+                "rarity": "消费级",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | 陆军斥候",
+                "rarity": "消费级",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP 消音版 | 森林之叶",
+                "rarity": "工业级",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | 众枪之的",
+                "rarity": "工业级",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "加利尔 AR | 多变迷彩",
+                "rarity": "工业级",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | 鳄鱼网格",
+                "rarity": "工业级",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "法玛斯 | 摧枯拉朽",
+                "rarity": "军规级",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "FN57 | 银白石英",
+                "rarity": "军规级",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | 渐变强酸",
+                "rarity": "军规级",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1 消音型 | 氮化处理",
+                "rarity": "受限",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | 地下水",
+                "rarity": "消费级",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "法玛斯 | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "新星 | 沙丘之黄",
+                "rarity": "消费级",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-野牛 | 沙漠虚线",
+                "rarity": "消费级",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "新星 | 红苹果",
+                "rarity": "工业级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | 硝烟",
+                "rarity": "工业级",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | 坚毅大理石纹",
+                "rarity": "工业级",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "双持贝瑞塔 | 人工染色",
+                "rarity": "工业级",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1 消音型 | 北方森林",
+                "rarity": "工业级",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | 加州迷彩",
+                "rarity": "工业级",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "格洛克 18 型 | 红苹果",
+                "rarity": "军规级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | 深蓝电镀处理",
+                "rarity": "军规级",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "截短霰弹枪 | 逮捕者",
+                "rarity": "军规级",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | 响尾蛇",
+                "rarity": "受限",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | 北方森林",
+                "rarity": "消费级",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | 蓝色云杉",
+                "rarity": "消费级",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | 暴风呼啸",
+                "rarity": "消费级",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "加利尔 AR | 贤者涂装",
+                "rarity": "消费级",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | 浪花穿孔",
+                "rarity": "消费级",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | 丛林虚线",
+                "rarity": "消费级",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | 蓝钢",
+                "rarity": "工业级",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | 狩猎网格",
+                "rarity": "工业级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "沙漠之鹰 | 泥地杀手",
+                "rarity": "工业级",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "法玛斯 | 湖蓝涂装",
+                "rarity": "工业级",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-野牛 | 午夜行动",
+                "rarity": "工业级",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | 深蓝电镀处理",
+                "rarity": "军规级",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP 消音版 | 午夜行动",
+                "rarity": "军规级",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | 摧枯拉朽",
+                "rarity": "军规级",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "双持贝瑞塔 | 钴蓝石英",
+                "rarity": "受限",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | 都市 DDPAT",
+                "rarity": "消费级",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "双持贝瑞塔 | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | 极地迷彩",
+                "rarity": "消费级",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "FN57 | 暮色森林",
+                "rarity": "消费级",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "新星 | 极地网格",
+                "rarity": "消费级",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-野牛 | 都市虚线",
+                "rarity": "消费级",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | 红苹果",
+                "rarity": "工业级",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | 都市 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | 金属 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | 金属 DDPAT",
+                "rarity": "工业级",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | 碳素纤维",
+                "rarity": "工业级",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | 白蜡木",
+                "rarity": "工业级",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "沙漠之鹰 | 都市瓦砾",
+                "rarity": "军规级",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "截短霰弹枪 | 渐变琥珀",
+                "rarity": "军规级",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | 晶红石英",
+                "rarity": "受限",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | 骸骨外罩",
+                "rarity": "消费级",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "FN57 | 雇佣兵",
+                "rarity": "消费级",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | 殖民侵略者",
+                "rarity": "消费级",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | 狩猎网格",
+                "rarity": "消费级",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | 枯焦之色",
+                "rarity": "消费级",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "加利尔 AR | 隐蔽猎手",
+                "rarity": "消费级",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "格洛克 18 型 | 地下水",
+                "rarity": "工业级",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | 橘皮涂装",
+                "rarity": "工业级",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | 热带风暴",
+                "rarity": "工业级",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "内格夫 | 加州迷彩",
+                "rarity": "工业级",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | 鳄鱼网格",
+                "rarity": "工业级",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | 赤红新星",
+                "rarity": "军规级",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | 炽烈之炎",
+                "rarity": "军规级",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | 渐变琥珀",
+                "rarity": "军规级",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | 威吓者",
+                "rarity": "受限",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_ems14_promo.a2c1d0b7aae61d8bd734d7dd3f391fa42bfee643.png"
     },

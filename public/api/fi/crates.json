@@ -2794,7 +2794,652 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | Hiekkamyrsky",
+                "rarity": "Kuluttajatason",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | Hiekkadyyni",
+                "rarity": "Kuluttajatason",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | Hiekkaverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | Hiekkasumute",
+                "rarity": "Kuluttajatason",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | Hiekkaraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Nova | Saalistaja",
+                "rarity": "Kuluttajatason",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Katkaistu haulikko | Käärmekuviointi",
+                "rarity": "Teollistason",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | Safariverkko",
+                "rarity": "Teollistason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-SeveN | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | Palmu",
+                "rarity": "Teollistason",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-Bizon | Messinki",
+                "rarity": "Armeijatason",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1-S | VariCamo",
+                "rarity": "Armeijatason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | Damaskiteräs",
+                "rarity": "Armeijatason",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | Himmeä meripihka",
+                "rarity": "Rajoitettu",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "R8-revolveri | Himmeä meripihka",
+                "rarity": "Luottamuksellinen",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Tupla-Berettat | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | Sinikuusi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | Armeijaverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | Tiedustelija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP-S | Metsän lehdet",
+                "rarity": "Teollistason",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | Saastunut",
+                "rarity": "Teollistason",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Galil AR | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | Alligattoriverkko",
+                "rarity": "Teollistason",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "FAMAS | Hajotus",
+                "rarity": "Armeijatason",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-SeveN | Hopeakvartsi",
+                "rarity": "Armeijatason",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | Haihdehappo",
+                "rarity": "Armeijatason",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1-S | Nitro",
+                "rarity": "Rajoitettu",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | Pohjavesi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "FAMAS | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Nova | Hiekkadyyni",
+                "rarity": "Kuluttajatason",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-Bizon | Hiekkaraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Nova | Karamelliomena",
+                "rarity": "Teollistason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | Savu",
+                "rarity": "Teollistason",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | Marmoroitu graniitti",
+                "rarity": "Teollistason",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Tupla-Berettat | Värjäytynyt",
+                "rarity": "Teollistason",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1-S | Pohjoismetsä",
+                "rarity": "Teollistason",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | CaliCamo",
+                "rarity": "Teollistason",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Glock-18 | Karamelliomena",
+                "rarity": "Armeijatason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | Anodisoitu laivastonsininen",
+                "rarity": "Armeijatason",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Katkaistu haulikko | Stoppi",
+                "rarity": "Armeijatason",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | Kuoppakyy",
+                "rarity": "Rajoitettu",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | Pohjoismetsä",
+                "rarity": "Kuluttajatason",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | Sinikuusi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | Myrsky",
+                "rarity": "Kuluttajatason",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Galil AR | Mustavalkospray",
+                "rarity": "Kuluttajatason",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | Puhjenneet aallot",
+                "rarity": "Kuluttajatason",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | Viidakkoraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | Sininen teräs",
+                "rarity": "Teollistason",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | Safariverkko",
+                "rarity": "Teollistason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Desert Eagle | Muta",
+                "rarity": "Teollistason",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "FAMAS | Syaani roiske",
+                "rarity": "Teollistason",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-Bizon | Yöllinen operaatio",
+                "rarity": "Teollistason",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | Anodisoitu laivastonsininen",
+                "rarity": "Armeijatason",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP-S | Yöllinen operaatio",
+                "rarity": "Armeijatason",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | Hajotus",
+                "rarity": "Armeijatason",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Tupla-Berettat | Kobolttikvartsi",
+                "rarity": "Rajoitettu",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | Urbaani DDPAT",
+                "rarity": "Kuluttajatason",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Tupla-Berettat | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | Arktinen suojaväri",
+                "rarity": "Kuluttajatason",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-SeveN | Metsän yö",
+                "rarity": "Kuluttajatason",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Nova | Arktinen verkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-Bizon | Kaupunkikuvio",
+                "rarity": "Kuluttajatason",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | Karamelliomena",
+                "rarity": "Teollistason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | Urbaani DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | Metallinen DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | Metallinen DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | Hiilikuitu",
+                "rarity": "Teollistason",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | Tuhkapuu",
+                "rarity": "Teollistason",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Desert Eagle | Kaupungin rauniot",
+                "rarity": "Armeijatason",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Katkaistu haulikko | Himmeä meripihka",
+                "rarity": "Armeijatason",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | Punakvartsi",
+                "rarity": "Rajoitettu",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | Luumaski",
+                "rarity": "Kuluttajatason",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-SeveN | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | Safariverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | Korventunut",
+                "rarity": "Kuluttajatason",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Galil AR | Sokkoammuntaa",
+                "rarity": "Kuluttajatason",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Glock-18 | Pohjavesi",
+                "rarity": "Teollistason",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | Trooppinen myrsky",
+                "rarity": "Teollistason",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Negev | CaliCamo",
+                "rarity": "Teollistason",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | Alligattoriverkko",
+                "rarity": "Teollistason",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | Kuumakalle",
+                "rarity": "Armeijatason",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | Roihu",
+                "rarity": "Armeijatason",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | Himmeä meripihka",
+                "rarity": "Armeijatason",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | Puskutraktori",
+                "rarity": "Rajoitettu",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            },
+            {
+                "id": "skin-4194412",
+                "name": "R8-revolveri | Luumaski",
+                "rarity": "Kuluttajatason",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_sp_tape_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_dhw13_promo.e2fdfaae196be9b45cd67086e99269f61dc0ca8d.png"
     },
@@ -4694,7 +5339,645 @@
         "description": null,
         "type": "Souvenir",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "skin-720928",
+                "name": "G3SG1 | Hiekkamyrsky",
+                "rarity": "Kuluttajatason",
+                "paint_index": "8",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_desert_light.png"
+            },
+            {
+                "id": "skin-2359692",
+                "name": "P250 | Hiekkadyyni",
+                "rarity": "Kuluttajatason",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_so_sand_light.png"
+            },
+            {
+                "id": "skin-2490832",
+                "name": "SCAR-20 | Hiekkaverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "116",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_sp_mesh_sand_light.png"
+            },
+            {
+                "id": "skin-1245680",
+                "name": "P90 | Hiekkasumute",
+                "rarity": "Kuluttajatason",
+                "paint_index": "124",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_spray_sand_light.png"
+            },
+            {
+                "id": "skin-2228816",
+                "name": "MP9 | Hiekkaraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2294440",
+                "name": "Nova | Saalistaja",
+                "rarity": "Kuluttajatason",
+                "paint_index": "170",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_zebracam_light.png"
+            },
+            {
+                "id": "skin-1900664",
+                "name": "Katkaistu haulikko | Käärmekuviointi",
+                "rarity": "Teollistason",
+                "paint_index": "30",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_sp_snake_light.png"
+            },
+            {
+                "id": "skin-459040",
+                "name": "AK-47 | Safariverkko",
+                "rarity": "Teollistason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ak47_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-197172",
+                "name": "Five-SeveN | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-1114740",
+                "name": "MAC-10 | Palmu",
+                "rarity": "Teollistason",
+                "paint_index": "157",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_sp_palm_light.png"
+            },
+            {
+                "id": "skin-1967020",
+                "name": "Tec-9 | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-1704572",
+                "name": "PP-Bizon | Messinki",
+                "rarity": "Armeijatason",
+                "paint_index": "159",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_aq_brass_light.png"
+            },
+            {
+                "id": "skin-3933100",
+                "name": "M4A1-S | VariCamo",
+                "rarity": "Armeijatason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-2556892",
+                "name": "SG 553 | Damaskiteräs",
+                "rarity": "Armeijatason",
+                "paint_index": "247",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_aq_damascus_sg553_light.png"
+            },
+            {
+                "id": "skin-2098136",
+                "name": "P2000 | Himmeä meripihka",
+                "rarity": "Rajoitettu",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-4196396",
+                "name": "R8-revolveri | Himmeä meripihka",
+                "rarity": "Luottamuksellinen",
+                "paint_index": "523",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_revolver_aa_fade_metallic_revolver_light.png"
+            },
+            {
+                "id": "skin-131256",
+                "name": "Tupla-Berettat | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2490552",
+                "name": "SCAR-20 | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_so_pmc_light.png"
+            },
+            {
+                "id": "skin-2621824",
+                "name": "SSG 08 | Sinikuusi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_so_moss_light.png"
+            },
+            {
+                "id": "skin-1967048",
+                "name": "Tec-9 | Armeijaverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "242",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_sp_mesh_army_light.png"
+            },
+            {
+                "id": "skin-2163668",
+                "name": "MP7 | Tiedustelija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "245",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_spray_army_light.png"
+            },
+            {
+                "id": "skin-3997796",
+                "name": "USP-S | Metsän lehdet",
+                "rarity": "Teollistason",
+                "paint_index": "25",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_sp_leaves_light.png"
+            },
+            {
+                "id": "skin-524728",
+                "name": "AUG | Saastunut",
+                "rarity": "Teollistason",
+                "paint_index": "110",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_sp_mesh_forest_fire_light.png"
+            },
+            {
+                "id": "skin-2228788",
+                "name": "MP9 | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-721836",
+                "name": "G3SG1 | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-852908",
+                "name": "Galil AR | VariCamo",
+                "rarity": "Teollistason",
+                "paint_index": "235",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_hy_varicamo_light.png"
+            },
+            {
+                "id": "skin-918476",
+                "name": "M249 | Alligattoriverkko",
+                "rarity": "Teollistason",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m249_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-656336",
+                "name": "FAMAS | Hajotus",
+                "rarity": "Armeijatason",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-197616",
+                "name": "Five-SeveN | Hopeakvartsi",
+                "rarity": "Armeijatason",
+                "paint_index": "252",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_am_crystallized_silver_light.png"
+            },
+            {
+                "id": "skin-2622452",
+                "name": "SSG 08 | Haihdehappo",
+                "rarity": "Armeijatason",
+                "paint_index": "253",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_aa_fade_grassland_light.png"
+            },
+            {
+                "id": "skin-3933176",
+                "name": "M4A1-S | Nitro",
+                "rarity": "Rajoitettu",
+                "paint_index": "254",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_so_orange_accents_light.png"
+            },
+            {
+                "id": "skin-1966088",
+                "name": "Tec-9 | Pohjavesi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_so_olive_light.png"
+            },
+            {
+                "id": "skin-524472",
+                "name": "AUG | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_pmc_light.png"
+            },
+            {
+                "id": "skin-655548",
+                "name": "FAMAS | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-2294156",
+                "name": "Nova | Hiekkadyyni",
+                "rarity": "Kuluttajatason",
+                "paint_index": "99",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_sand_light.png"
+            },
+            {
+                "id": "skin-1704528",
+                "name": "PP-Bizon | Hiekkaraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "148",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_sand_light.png"
+            },
+            {
+                "id": "skin-2293772",
+                "name": "Nova | Karamelliomena",
+                "rarity": "Teollistason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_so_red_light.png"
+            },
+            {
+                "id": "skin-1572924",
+                "name": "UMP-45 | Savu",
+                "rarity": "Teollistason",
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_gelpen_light.png"
+            },
+            {
+                "id": "skin-2097236",
+                "name": "P2000 | Marmoroitu graniitti",
+                "rarity": "Teollistason",
+                "paint_index": "21",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_hkp2000_hy_granite_light.png"
+            },
+            {
+                "id": "skin-131244",
+                "name": "Tupla-Berettat | Värjäytynyt",
+                "rarity": "Teollistason",
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_aq_forced_light.png"
+            },
+            {
+                "id": "skin-3932468",
+                "name": "M4A1-S | Pohjoismetsä",
+                "rarity": "Teollistason",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_silencer_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1639360",
+                "name": "XM1014 | CaliCamo",
+                "rarity": "Teollistason",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-262156",
+                "name": "Glock-18 | Karamelliomena",
+                "rarity": "Armeijatason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_red_light.png"
+            },
+            {
+                "id": "skin-2162800",
+                "name": "MP7 | Anodisoitu laivastonsininen",
+                "rarity": "Armeijatason",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_an_navy_light.png"
+            },
+            {
+                "id": "skin-1901544",
+                "name": "Katkaistu haulikko | Stoppi",
+                "rarity": "Armeijatason",
+                "paint_index": "250",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_hy_varicamo_red_light.png"
+            },
+            {
+                "id": "skin-590828",
+                "name": "AWP | Kuoppakyy",
+                "rarity": "Rajoitettu",
+                "paint_index": "251",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_hy_snakeskin_light.png"
+            },
+            {
+                "id": "skin-2359604",
+                "name": "P250 | Pohjoismetsä",
+                "rarity": "Kuluttajatason",
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-1638784",
+                "name": "XM1014 | Sinikuusi",
+                "rarity": "Kuluttajatason",
+                "paint_index": "96",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_so_moss_light.png"
+            },
+            {
+                "id": "skin-524688",
+                "name": "AUG | Myrsky",
+                "rarity": "Kuluttajatason",
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_stormfront_light.png"
+            },
+            {
+                "id": "skin-852444",
+                "name": "Galil AR | Mustavalkospray",
+                "rarity": "Kuluttajatason",
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_spray_desert_sage_light.png"
+            },
+            {
+                "id": "skin-2556448",
+                "name": "SG 553 | Puhjenneet aallot",
+                "rarity": "Kuluttajatason",
+                "paint_index": "136",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_tape_dots_waves_light.png"
+            },
+            {
+                "id": "skin-721484",
+                "name": "G3SG1 | Viidakkoraidat",
+                "rarity": "Kuluttajatason",
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_tape_short_jungle_light.png"
+            },
+            {
+                "id": "skin-1638568",
+                "name": "XM1014 | Sininen teräs",
+                "rarity": "Teollistason",
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_xm1014_aq_blued_light.png"
+            },
+            {
+                "id": "skin-590112",
+                "name": "AWP | Safariverkko",
+                "rarity": "Teollistason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_awp_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-65896",
+                "name": "Desert Eagle | Muta",
+                "rarity": "Teollistason",
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_mottled_sand_light.png"
+            },
+            {
+                "id": "skin-655728",
+                "name": "FAMAS | Syaani roiske",
+                "rarity": "Teollistason",
+                "paint_index": "92",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_famas_hy_reef_light.png"
+            },
+            {
+                "id": "skin-1704880",
+                "name": "PP-Bizon | Yöllinen operaatio",
+                "rarity": "Teollistason",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-2556016",
+                "name": "SG 553 | Anodisoitu laivastonsininen",
+                "rarity": "Armeijatason",
+                "paint_index": "28",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_an_navy_light.png"
+            },
+            {
+                "id": "skin-3998640",
+                "name": "USP-S | Yöllinen operaatio",
+                "rarity": "Armeijatason",
+                "paint_index": "236",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_usp_silencer_hy_varicamo_night_light.png"
+            },
+            {
+                "id": "skin-1246160",
+                "name": "P90 | Hajotus",
+                "rarity": "Armeijatason",
+                "paint_index": "244",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_mesh_hot_and_cold_light.png"
+            },
+            {
+                "id": "skin-132068",
+                "name": "Tupla-Berettat | Kobolttikvartsi",
+                "rarity": "Rajoitettu",
+                "paint_index": "249",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_am_crystallized_blue_light.png"
+            },
+            {
+                "id": "skin-1572932",
+                "name": "UMP-45 | Urbaani DDPAT",
+                "rarity": "Kuluttajatason",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-131260",
+                "name": "Tupla-Berettat | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_elite_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721192",
+                "name": "G3SG1 | Arktinen suojaväri",
+                "rarity": "Kuluttajatason",
+                "paint_index": "74",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_hy_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-196920",
+                "name": "Five-SeveN | Metsän yö",
+                "rarity": "Kuluttajatason",
+                "paint_index": "78",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_hy_forest_night_light.png"
+            },
+            {
+                "id": "skin-2294188",
+                "name": "Nova | Arktinen verkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "107",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_nova_sp_mesh_arctic_contrast_light.png"
+            },
+            {
+                "id": "skin-1704532",
+                "name": "PP-Bizon | Kaupunkikuvio",
+                "rarity": "Kuluttajatason",
+                "paint_index": "149",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_bizon_sp_tape_short_urban_light.png"
+            },
+            {
+                "id": "skin-1114124",
+                "name": "MAC-10 | Karamelliomena",
+                "rarity": "Teollistason",
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_so_red_light.png"
+            },
+            {
+                "id": "skin-1048644",
+                "name": "M4A4 | Urbaani DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_m4a1_hy_ddpat_urb_light.png"
+            },
+            {
+                "id": "skin-1769608",
+                "name": "MAG-7 | Metallinen DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_am_urban_light.png"
+            },
+            {
+                "id": "skin-2359432",
+                "name": "P250 | Metallinen DDPAT",
+                "rarity": "Teollistason",
+                "paint_index": "34",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_am_urban_light.png"
+            },
+            {
+                "id": "skin-2490648",
+                "name": "SCAR-20 | Hiilikuitu",
+                "rarity": "Teollistason",
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_scar20_am_carbon_fiber_light.png"
+            },
+            {
+                "id": "skin-1246120",
+                "name": "P90 | Tuhkapuu",
+                "rarity": "Teollistason",
+                "paint_index": "234",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_twigs_light.png"
+            },
+            {
+                "id": "skin-66484",
+                "name": "Desert Eagle | Kaupungin rauniot",
+                "rarity": "Armeijatason",
+                "paint_index": "237",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_deagle_hy_varicamo_urban_light.png"
+            },
+            {
+                "id": "skin-1901528",
+                "name": "Katkaistu haulikko | Himmeä meripihka",
+                "rarity": "Armeijatason",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sawedoff_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1967072",
+                "name": "Tec-9 | Punakvartsi",
+                "rarity": "Rajoitettu",
+                "paint_index": "248",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_tec9_am_crystallized_light.png"
+            },
+            {
+                "id": "skin-2359404",
+                "name": "P250 | Luumaski",
+                "rarity": "Kuluttajatason",
+                "paint_index": "27",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p250_sp_tape_light.png"
+            },
+            {
+                "id": "skin-196792",
+                "name": "Five-SeveN | Urakoitsija",
+                "rarity": "Kuluttajatason",
+                "paint_index": "46",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_fiveseven_so_pmc_light.png"
+            },
+            {
+                "id": "skin-524476",
+                "name": "AUG | Kolonia",
+                "rarity": "Kuluttajatason",
+                "paint_index": "47",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_aug_so_space_marine_light.png"
+            },
+            {
+                "id": "skin-721184",
+                "name": "G3SG1 | Safariverkko",
+                "rarity": "Kuluttajatason",
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_g3sg1_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-1245884",
+                "name": "P90 | Korventunut",
+                "rarity": "Kuluttajatason",
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_p90_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-852932",
+                "name": "Galil AR | Sokkoammuntaa",
+                "rarity": "Kuluttajatason",
+                "paint_index": "241",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_galilar_sp_mesh_slashes_light.png"
+            },
+            {
+                "id": "skin-262152",
+                "name": "Glock-18 | Pohjavesi",
+                "rarity": "Teollistason",
+                "paint_index": "2",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_glock_so_olive_light.png"
+            },
+            {
+                "id": "skin-2163252",
+                "name": "MP7 | Appelsiininkuori",
+                "rarity": "Teollistason",
+                "paint_index": "141",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp7_sp_tape_orange_light.png"
+            },
+            {
+                "id": "skin-2622372",
+                "name": "SSG 08 | Trooppinen myrsky",
+                "rarity": "Teollistason",
+                "paint_index": "233",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ssg08_sp_palm_shadow_light.png"
+            },
+            {
+                "id": "skin-1835968",
+                "name": "Negev | CaliCamo",
+                "rarity": "Teollistason",
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_negev_hy_varicamo_desert_light.png"
+            },
+            {
+                "id": "skin-2556876",
+                "name": "SG 553 | Alligattoriverkko",
+                "rarity": "Teollistason",
+                "paint_index": "243",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_sg556_sp_mesh_python_light.png"
+            },
+            {
+                "id": "skin-2228356",
+                "name": "MP9 | Kuumakalle",
+                "rarity": "Armeijatason",
+                "paint_index": "33",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mp9_an_red_light.png"
+            },
+            {
+                "id": "skin-1573012",
+                "name": "UMP-45 | Roihu",
+                "rarity": "Armeijatason",
+                "paint_index": "37",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_ump45_aa_flames_light.png"
+            },
+            {
+                "id": "skin-1115096",
+                "name": "MAC-10 | Himmeä meripihka",
+                "rarity": "Armeijatason",
+                "paint_index": "246",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mac10_aa_fade_metallic_light.png"
+            },
+            {
+                "id": "skin-1769628",
+                "name": "MAG-7 | Puskutraktori",
+                "rarity": "Rajoitettu",
+                "paint_index": "39",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/4fdf048a2b6c21494df4fe915f5fdea5accc6a61/public/images/econ/default_generated/weapon_mag7_so_yellow_light.png"
+            }
+        ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_ems14_promo.a2c1d0b7aae61d8bd734d7dd3f391fa42bfee643.png"
     },
@@ -68561,7 +69844,7 @@
             },
             {
                 "id": "sticker-6707",
-                "name": "BLAST.tv (Gold) | Paris 2023",
+                "name": "BLAST.tv (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/blst_gold_large.4a6299646bf7014768ce23991780771604994751.png"
             }
@@ -68668,13 +69951,13 @@
             },
             {
                 "id": "sticker-6665",
-                "name": "Apeks (Glitter) | Paris 2023",
+                "name": "Apeks (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/apex_glitter_large.6246dac49f676342be1f4cd507e20840725882c6.png"
             },
             {
                 "id": "sticker-6669",
-                "name": "Monte (Glitter) | Paris 2023",
+                "name": "Monte (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/mont_glitter_large.19fbb4bd8b4b6ceb3af29e8e73ef2343fbe04bec.png"
             },
@@ -68722,7 +70005,7 @@
             },
             {
                 "id": "sticker-6666",
-                "name": "Apeks (Holo) | Paris 2023",
+                "name": "Apeks (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/apex_holo_large.697123d61c27282e4be2e6d63fc13e7900f8bb49.png"
             },
@@ -68770,25 +70053,25 @@
             },
             {
                 "id": "sticker-6663",
-                "name": "GamerLegion (Gold) | Paris 2023",
+                "name": "GamerLegion (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/gl_gold_large.0f5562e07f8e2d9263871a17f2c94753d483c4ab.png"
             },
             {
                 "id": "sticker-6667",
-                "name": "Apeks (Gold) | Paris 2023",
+                "name": "Apeks (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/apex_gold_large.b9d0050ee610fef43e39ecedd057fbea2dd8dfe2.png"
             },
             {
                 "id": "sticker-6671",
-                "name": "Monte (Gold) | Paris 2023",
+                "name": "Monte (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/mont_gold_large.ff8145e05af6a093cc68f99c95ed06a735e2c52b.png"
             },
             {
                 "id": "sticker-6707",
-                "name": "BLAST.tv (Gold) | Paris 2023",
+                "name": "BLAST.tv (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/blst_gold_large.4a6299646bf7014768ce23991780771604994751.png"
             }
@@ -68859,13 +70142,13 @@
             },
             {
                 "id": "sticker-6673",
-                "name": "Team Liquid (Glitter) | Paris 2023",
+                "name": "Team Liquid (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/liq_glitter_large.adbb51f514aae3e00260dcd71ac25b181526afde.png"
             },
             {
                 "id": "sticker-6677",
-                "name": "FaZe Clan (Glitter) | Paris 2023",
+                "name": "FaZe Clan (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/faze_glitter_large.57086c587848764ee6415ffafab58f741e2b40ab.png"
             },
@@ -68967,55 +70250,55 @@
             },
             {
                 "id": "sticker-6675",
-                "name": "Team Liquid (Gold) | Paris 2023",
+                "name": "Team Liquid (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/liq_gold_large.b341780ce467a84c575bb3c50f4b7d003e3b9f6a.png"
             },
             {
                 "id": "sticker-6679",
-                "name": "FaZe Clan (Gold) | Paris 2023",
+                "name": "FaZe Clan (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/faze_gold_large.7103f1dafc0839eb0f19b8973a071c331aef29d7.png"
             },
             {
                 "id": "sticker-6683",
-                "name": "ENCE (Gold) | Paris 2023",
+                "name": "ENCE (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/ence_gold_large.eb54f5515b04da709033fd828104de0f0ae468d6.png"
             },
             {
                 "id": "sticker-6687",
-                "name": "Grayhound Gaming (Gold) | Paris 2023",
+                "name": "Grayhound Gaming (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/gray_gold_large.cd6a14edd62e3556c16e8139b10e3aea1b5a1eb8.png"
             },
             {
                 "id": "sticker-6691",
-                "name": "MOUZ (Gold) | Paris 2023",
+                "name": "MOUZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/mouz_gold_large.a98dc65607f58b2ada47381eeca20ce8057c4669.png"
             },
             {
                 "id": "sticker-6695",
-                "name": "Complexity Gaming (Gold) | Paris 2023",
+                "name": "Complexity Gaming (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/cplx_gold_large.a82538e7ffeead35ad9768bdb0bbcc99e3d10f18.png"
             },
             {
                 "id": "sticker-6699",
-                "name": "Fluxo (Gold) | Paris 2023",
+                "name": "Fluxo (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/flux_gold_large.a602f525f05bbb9d3a591d9d26c886e568d3741e.png"
             },
             {
                 "id": "sticker-6703",
-                "name": "The MongolZ (Gold) | Paris 2023",
+                "name": "The MongolZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/mngz_gold_large.e89812082819eb11f8357889ff97293c609d3925.png"
             },
             {
                 "id": "sticker-6707",
-                "name": "BLAST.tv (Gold) | Paris 2023",
+                "name": "BLAST.tv (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/blst_gold_large.4a6299646bf7014768ce23991780771604994751.png"
             }
@@ -70376,43 +71659,43 @@
             },
             {
                 "id": "sticker-6826",
-                "name": "stavn (Glitter) | Paris 2023",
+                "name": "stavn (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_stavn_glitter_large.164cbd204b318b60f5d5b4c06a2858a8b81baefc.png"
             },
             {
                 "id": "sticker-6830",
-                "name": "TeSeS (Glitter) | Paris 2023",
+                "name": "TeSeS (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_teses_glitter_large.ee1616f4aac02410dc0b71cddb11a061a539ecfa.png"
             },
             {
                 "id": "sticker-6834",
-                "name": "gxx- (Glitter) | Paris 2023",
+                "name": "gxx- (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_gxx_glitter_large.db88bef974760cba4af745d09c9909b18bc41094.png"
             },
             {
                 "id": "sticker-6838",
-                "name": "juanflatroo (Glitter) | Paris 2023",
+                "name": "juanflatroo (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_juanflatroo_glitter_large.4fc089e292e059f1a3e3b254572266363b9253b7.png"
             },
             {
                 "id": "sticker-6842",
-                "name": "rigoN (Glitter) | Paris 2023",
+                "name": "rigoN (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rigon_glitter_large.1b1bb300fd81929632f96f910a77cd783fc34998.png"
             },
             {
                 "id": "sticker-6846",
-                "name": "SENER1 (Glitter) | Paris 2023",
+                "name": "SENER1 (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sener1_glitter_large.70a5ed0435c39ba9c2bab6557d1445c9093ab032.png"
             },
             {
                 "id": "sticker-6850",
-                "name": "sinnopsyy (Glitter) | Paris 2023",
+                "name": "sinnopsyy (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sinnopsyy_glitter_large.406ff455a0ec895303bb1ed2bdd998ac04a81680.png"
             },
@@ -70616,43 +71899,43 @@
             },
             {
                 "id": "sticker-6827",
-                "name": "stavn (Holo) | Paris 2023",
+                "name": "stavn (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_stavn_holo_large.5f491dffb10889edfbed92cd95bb708fbff5c92f.png"
             },
             {
                 "id": "sticker-6831",
-                "name": "TeSeS (Holo) | Paris 2023",
+                "name": "TeSeS (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_teses_holo_large.c0c489b2864673d356dae30ba7c85b699c613197.png"
             },
             {
                 "id": "sticker-6835",
-                "name": "gxx- (Holo) | Paris 2023",
+                "name": "gxx- (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_gxx_holo_large.4055ac94de6456800ce4a5f9eed16f189b70ab22.png"
             },
             {
                 "id": "sticker-6839",
-                "name": "juanflatroo (Holo) | Paris 2023",
+                "name": "juanflatroo (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_juanflatroo_holo_large.715f5d6ec7ff6c9ea1500df8464ca0bde74971d3.png"
             },
             {
                 "id": "sticker-6843",
-                "name": "rigoN (Holo) | Paris 2023",
+                "name": "rigoN (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rigon_holo_large.0c9b50f58c17d0291f93dd2502743b1203bf1412.png"
             },
             {
                 "id": "sticker-6847",
-                "name": "SENER1 (Holo) | Paris 2023",
+                "name": "SENER1 (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sener1_holo_large.34928ff43d109b660a630af266ee938d6fbdbdd4.png"
             },
             {
                 "id": "sticker-6851",
-                "name": "sinnopsyy (Holo) | Paris 2023",
+                "name": "sinnopsyy (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sinnopsyy_holo_large.f78378f4721c7a57e724d70b4f959baf417750be.png"
             },
@@ -70718,37 +72001,37 @@
             },
             {
                 "id": "sticker-6736",
-                "name": "FASHR (Gold) | Paris 2023",
+                "name": "FASHR (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_fashr_gold_large.97adf03c962762e7f2da46108cff219728976d85.png"
             },
             {
                 "id": "sticker-6740",
-                "name": "KRIMZ (Gold) | Paris 2023",
+                "name": "KRIMZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_krimz_gold_large.c57ed20844095c2c04d9fc54b164375e45333b0c.png"
             },
             {
                 "id": "sticker-6744",
-                "name": "mezii (Gold) | Paris 2023",
+                "name": "mezii (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_mezii_gold_large.bdb447d1f772ee2b3dbf41daf991cd45600bf9ea.png"
             },
             {
                 "id": "sticker-6748",
-                "name": "nicoodoz (Gold) | Paris 2023",
+                "name": "nicoodoz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nicoodoz_gold_large.ae30b90682a06f7a33e530c76d8eab38ea160fd1.png"
             },
             {
                 "id": "sticker-6752",
-                "name": "roeJ (Gold) | Paris 2023",
+                "name": "roeJ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_roej_gold_large.94203d5dd106965d4f950ec4e74e4a01a4d8a008.png"
             },
             {
                 "id": "sticker-6756",
-                "name": "b1t (Gold) | Paris 2023",
+                "name": "b1t (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_b1t_gold_large.13a361692509366bc1ee53b68722409a2a6c455b.png"
             },
@@ -70820,139 +72103,139 @@
             },
             {
                 "id": "sticker-6804",
-                "name": "Magisk (Gold) | Paris 2023",
+                "name": "Magisk (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_magisk_gold_large.65bcfb28ed5201d5f0b8459d5d726fa04bdd5f87.png"
             },
             {
                 "id": "sticker-6808",
-                "name": "Spinx (Gold) | Paris 2023",
+                "name": "Spinx (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_spinx_gold_large.9f439bc9d2de098aef4cd6aec6562b6644cb8b51.png"
             },
             {
                 "id": "sticker-6812",
-                "name": "ZywOo (Gold) | Paris 2023",
+                "name": "ZywOo (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zywoo_gold_large.5abc7ba85237cd0bf90a6e58d5b3a0033ce4a761.png"
             },
             {
                 "id": "sticker-6816",
-                "name": "cadiaN (Gold) | Paris 2023",
+                "name": "cadiaN (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_cadian_gold_large.7ecc0d9ee5d85d7ddaac8dc4db16ee18e322a24d.png"
             },
             {
                 "id": "sticker-6820",
-                "name": "jabbi (Gold) | Paris 2023",
+                "name": "jabbi (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jabbi_gold_large.29b379267f974326a02f48c5e3fb68233cdb2bc4.png"
             },
             {
                 "id": "sticker-6824",
-                "name": "sjuush (Gold) | Paris 2023",
+                "name": "sjuush (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sjuush_gold_large.943dbba04e9c7f30b3b10031ec49e4a78dd1108d.png"
             },
             {
                 "id": "sticker-6828",
-                "name": "stavn (Gold) | Paris 2023",
+                "name": "stavn (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_stavn_gold_large.e14cd8643a6c45267b86571c8c8ae8a2fb72cf0b.png"
             },
             {
                 "id": "sticker-6832",
-                "name": "TeSeS (Gold) | Paris 2023",
+                "name": "TeSeS (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_teses_gold_large.48b59451ad7a5e719ccfdb61057d576bc4be7ffe.png"
             },
             {
                 "id": "sticker-6836",
-                "name": "gxx- (Gold) | Paris 2023",
+                "name": "gxx- (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_gxx_gold_large.029bf984fc3a04abd3d80ad39349ced30809f561.png"
             },
             {
                 "id": "sticker-6840",
-                "name": "juanflatroo (Gold) | Paris 2023",
+                "name": "juanflatroo (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_juanflatroo_gold_large.82afb05654fe7f9afdc20450df3d902a29107349.png"
             },
             {
                 "id": "sticker-6844",
-                "name": "rigoN (Gold) | Paris 2023",
+                "name": "rigoN (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rigon_gold_large.594cf96ef5fe0baa14bd9625613e26a37c3f9b46.png"
             },
             {
                 "id": "sticker-6848",
-                "name": "SENER1 (Gold) | Paris 2023",
+                "name": "SENER1 (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sener1_gold_large.e2af2aaab76f6d8986899f28c7b6fba45b04023e.png"
             },
             {
                 "id": "sticker-6852",
-                "name": "sinnopsyy (Gold) | Paris 2023",
+                "name": "sinnopsyy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sinnopsyy_gold_large.998fbcfc7c6883ae03035d000268382af9aa091f.png"
             },
             {
                 "id": "sticker-6856",
-                "name": "CRUC1AL (Gold) | Paris 2023",
+                "name": "CRUC1AL (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_cruc1al_gold_large.d7d40e788a288232fb42ebca8f00607638f28946.png"
             },
             {
                 "id": "sticker-6860",
-                "name": "Cypher (Gold) | Paris 2023",
+                "name": "Cypher (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_cypher_gold_large.1bce54de4afa3608757766333ea063c30e23fd5b.png"
             },
             {
                 "id": "sticker-6864",
-                "name": "rallen (Gold) | Paris 2023",
+                "name": "rallen (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rallen_gold_large.21f091b5d82cb80aa7589335390a7e3660cf897d.png"
             },
             {
                 "id": "sticker-6868",
-                "name": "Thomas (Gold) | Paris 2023",
+                "name": "Thomas (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_thomas_gold_large.269362a2fcb59fb8bf4cd6c3253442680b731753.png"
             },
             {
                 "id": "sticker-6872",
-                "name": "volt (Gold) | Paris 2023",
+                "name": "volt (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_volt_gold_large.7495eaef06c6a1134e270ebbcb2966b773b0f9d7.png"
             },
             {
                 "id": "sticker-6876",
-                "name": "Goofy (Gold) | Paris 2023",
+                "name": "Goofy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_goofy_gold_large.fe839972ec7b08ce2867d1eefb91bc5246e1227e.png"
             },
             {
                 "id": "sticker-6880",
-                "name": "hades (Gold) | Paris 2023",
+                "name": "hades (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_hades_gold_large.221d404db0ae3e071fe5d7229a19dbb7961f2b67.png"
             },
             {
                 "id": "sticker-6884",
-                "name": "KEi (Gold) | Paris 2023",
+                "name": "KEi (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_kei_gold_large.aac880240724f3aff944dc90143d3632b37ecc41.png"
             },
             {
                 "id": "sticker-6888",
-                "name": "Kylar (Gold) | Paris 2023",
+                "name": "Kylar (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_kylar_gold_large.3aa0955057d533f2599e9e44a6e1cef832320753.png"
             },
             {
                 "id": "sticker-6892",
-                "name": "mynio (Gold) | Paris 2023",
+                "name": "mynio (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_mynio_gold_large.9062859da6dc68d31ec85d808eb70fc0b9620d4e.png"
             }
@@ -71281,25 +72564,25 @@
             },
             {
                 "id": "sticker-6942",
-                "name": "r3salt (Glitter) | Paris 2023",
+                "name": "r3salt (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_r3salt_glitter_large.11c6892783c53fa5813b5a856520638201eeec7e.png"
             },
             {
                 "id": "sticker-6946",
-                "name": "shalfey (Glitter) | Paris 2023",
+                "name": "shalfey (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_shalfey_glitter_large.649471109b48703295a1327d211b9d0ebc8b8328.png"
             },
             {
                 "id": "sticker-6950",
-                "name": "zorte (Glitter) | Paris 2023",
+                "name": "zorte (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zorte_glitter_large.f9ccc52f0cd74dc62866b32b92cdd9530e672e7c.png"
             },
             {
                 "id": "sticker-6954",
-                "name": "degster (Glitter) | Paris 2023",
+                "name": "degster (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_degster_glitter_large.18ffa9117318ea3449626b8473affae11028e5f8.png"
             },
@@ -71377,7 +72660,7 @@
             },
             {
                 "id": "sticker-7006",
-                "name": "Keoz (Glitter) | Paris 2023",
+                "name": "Keoz (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_keoz_glitter_large.a448fcbe18364cb2ed4dfcbc62707fb2aa7dc1cc.png"
             },
@@ -71521,13 +72804,13 @@
             },
             {
                 "id": "sticker-6943",
-                "name": "r3salt (Holo) | Paris 2023",
+                "name": "r3salt (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_r3salt_holo_large.73dd849bc6453e615234ec8d45e5e06d8bc064bc.png"
             },
             {
                 "id": "sticker-6947",
-                "name": "shalfey (Holo) | Paris 2023",
+                "name": "shalfey (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_shalfey_holo_large.3fcf363a26170d4b35c5404f7686efbd95e7794a.png"
             },
@@ -71617,7 +72900,7 @@
             },
             {
                 "id": "sticker-7007",
-                "name": "Keoz (Holo) | Paris 2023",
+                "name": "Keoz (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_keoz_holo_large.e15dfd2cf3370f3ee88e70bb1c297e48f7f6a5ef.png"
             },
@@ -71689,13 +72972,13 @@
             },
             {
                 "id": "sticker-6896",
-                "name": "Aleksib (Gold) | Paris 2023",
+                "name": "Aleksib (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_aleksib_gold_large.36673122ec4a6585dca1d6d46ce8e2efc1c1fd35.png"
             },
             {
                 "id": "sticker-6900",
-                "name": "Brollan (Gold) | Paris 2023",
+                "name": "Brollan (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_brollan_gold_large.fb95a689c2bc91643865bbca45fb40869ad3c653.png"
             },
@@ -71707,223 +72990,223 @@
             },
             {
                 "id": "sticker-6908",
-                "name": "k0nfig (Gold) | Paris 2023",
+                "name": "k0nfig (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_k0nfig_gold_large.6cad0691ae74b09e886728823912e49afb409281.png"
             },
             {
                 "id": "sticker-6912",
-                "name": "REZ (Gold) | Paris 2023",
+                "name": "REZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rez_gold_large.96b01b5e030d5fbff31051d601215df5b4a4a761.png"
             },
             {
                 "id": "sticker-6916",
-                "name": "HooXi (Gold) | Paris 2023",
+                "name": "HooXi (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_hooxi_gold_large.3c6fcdfdd368e8f0f025eaf216be5baf84a7a675.png"
             },
             {
                 "id": "sticker-6920",
-                "name": "huNter- (Gold) | Paris 2023",
+                "name": "huNter- (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_hunter_gold_large.efd3657404ee1b8b618268edf9cdeb19c180ee6c.png"
             },
             {
                 "id": "sticker-6924",
-                "name": "jks (Gold) | Paris 2023",
+                "name": "jks (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jks_gold_large.b4e13a3e677f7f1dec34b64879ae4ebcd94d1ac2.png"
             },
             {
                 "id": "sticker-6928",
-                "name": "m0NESY (Gold) | Paris 2023",
+                "name": "m0NESY (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_m0nesy_gold_large.45948c001499e887d77ba57f2695534bd5c9ca78.png"
             },
             {
                 "id": "sticker-6932",
-                "name": "NiKo (Gold) | Paris 2023",
+                "name": "NiKo (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_niko_gold_large.4adc44932ef4af59b9b97b37fc9186977d75ad6d.png"
             },
             {
                 "id": "sticker-6936",
-                "name": "Jerry (Gold) | Paris 2023",
+                "name": "Jerry (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jerry_gold_large.f368facc0b344c38b03e8526f55901400ed70f31.png"
             },
             {
                 "id": "sticker-6940",
-                "name": "Krad (Gold) | Paris 2023",
+                "name": "Krad (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_krad_gold_large.de27f5d91f9381b2ca1f39f9358b669e63a5414a.png"
             },
             {
                 "id": "sticker-6944",
-                "name": "r3salt (Gold) | Paris 2023",
+                "name": "r3salt (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_r3salt_gold_large.1fcb0ddbdf541757b4b06f12cbdabf72fbf60450.png"
             },
             {
                 "id": "sticker-6948",
-                "name": "shalfey (Gold) | Paris 2023",
+                "name": "shalfey (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_shalfey_gold_large.e11ffb4fea896978e7b2b6b68bb81bd35178facc.png"
             },
             {
                 "id": "sticker-6952",
-                "name": "zorte (Gold) | Paris 2023",
+                "name": "zorte (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zorte_gold_large.215119311786ca9f6ef8d708614aec2cc0d13ac2.png"
             },
             {
                 "id": "sticker-6956",
-                "name": "degster (Gold) | Paris 2023",
+                "name": "degster (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_degster_gold_large.3fff2c9251f9ebda795d75423f74adf86603aaee.png"
             },
             {
                 "id": "sticker-6960",
-                "name": "F1KU (Gold) | Paris 2023",
+                "name": "F1KU (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_f1ku_gold_large.89099166209596b8b7278953c43c4a8af2f6177a.png"
             },
             {
                 "id": "sticker-6964",
-                "name": "FlameZ (Gold) | Paris 2023",
+                "name": "FlameZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_flamez_gold_large.d61b5a00b0d765bdb00eba037e28435db42baf4f.png"
             },
             {
                 "id": "sticker-6968",
-                "name": "NEOFRAG (Gold) | Paris 2023",
+                "name": "NEOFRAG (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_neofrag_gold_large.44b7e26b9d05c8f272bfcb4ac9ef6d6d75046060.png"
             },
             {
                 "id": "sticker-6972",
-                "name": "niko (Gold)  | Paris 2023",
+                "name": "niko (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nikodk_gold_large.17cd7d089276581c74700ab0cfb3cf10d659e81e.png"
             },
             {
                 "id": "sticker-6976",
-                "name": "biguzera (Gold) | Paris 2023",
+                "name": "biguzera (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_biguzera_gold_large.f6ecd7620cb1b9dfaa84e4a5947dfc0a40a8087e.png"
             },
             {
                 "id": "sticker-6980",
-                "name": "hardzao (Gold) | Paris 2023",
+                "name": "hardzao (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_hardzao_gold_large.eb0b4479eb74da1d3f4336f4d0bcdf574ded3755.png"
             },
             {
                 "id": "sticker-6984",
-                "name": "NEKiZ (Gold) | Paris 2023",
+                "name": "NEKiZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nekiz_gold_large.27da9e4046975c26ec6500c1d9965e40f7c9cbcd.png"
             },
             {
                 "id": "sticker-6988",
-                "name": "skullz (Gold) | Paris 2023",
+                "name": "skullz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_skullz_gold_large.e2b566db14bccc097abdc47f2b89f2b82ae28c27.png"
             },
             {
                 "id": "sticker-6992",
-                "name": "zevy (Gold) | Paris 2023",
+                "name": "zevy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zevy_gold_large.59f8187681e3fea1de9b5785db95902a776ff567.png"
             },
             {
                 "id": "sticker-6996",
-                "name": "acoR (Gold) | Paris 2023",
+                "name": "acoR (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_acor_gold_large.38c92a0fbeff7d97c4da3d5f0735df1832c029c3.png"
             },
             {
                 "id": "sticker-7000",
-                "name": "iM (Gold) | Paris 2023",
+                "name": "iM (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_im_gold_large.406f91e32e8faeb40da34a802ff42d9ecae9f89f.png"
             },
             {
                 "id": "sticker-7004",
-                "name": "isak (Gold) | Paris 2023",
+                "name": "isak (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_isak_gold_large.780d5796265cdd9b708d4ba718adeb6619cdff1a.png"
             },
             {
                 "id": "sticker-7008",
-                "name": "Keoz (Gold) | Paris 2023",
+                "name": "Keoz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_keoz_gold_large.ebf185aa618924a0493f84a64141ad136314ad88.png"
             },
             {
                 "id": "sticker-7012",
-                "name": "siuhy (Gold) | Paris 2023",
+                "name": "siuhy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_siuhy_gold_large.1938e7205dc399615786c0a5d41776bdabbc579b.png"
             },
             {
                 "id": "sticker-7016",
-                "name": "jkaem (Gold) | Paris 2023",
+                "name": "jkaem (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jkaem_gold_large.3471212bebb5ce9d1619fa89bd0e344e3472ec83.png"
             },
             {
                 "id": "sticker-7020",
-                "name": "jL (Gold) | Paris 2023",
+                "name": "jL (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jl_gold_large.74308b0203248757183a534871e3c3a48d5021a4.png"
             },
             {
                 "id": "sticker-7024",
-                "name": "kyxsan (Gold) | Paris 2023",
+                "name": "kyxsan (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_kyxsan_gold_large.ee883e8bd1347e58fcaf40e7043d243045b07842.png"
             },
             {
                 "id": "sticker-7028",
-                "name": "nawwk (Gold) | Paris 2023",
+                "name": "nawwk (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nawwk_gold_large.4cbaf7076211188250b8e9e438d6a56fa5a9c279.png"
             },
             {
                 "id": "sticker-7032",
-                "name": "STYKO (Gold) | Paris 2023",
+                "name": "STYKO (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_styko_gold_large.3792247bafce91b752e451d46cdf8695bcc1f94c.png"
             },
             {
                 "id": "sticker-7036",
-                "name": "BOROS (Gold) | Paris 2023",
+                "name": "BOROS (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_boros_gold_large.e1c3998aff25c5d603167843ea16434d49f1dfef.png"
             },
             {
                 "id": "sticker-7040",
-                "name": "DemQQ (Gold) | Paris 2023",
+                "name": "DemQQ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_demqq_gold_large.1ca63f6d94eae160550df64d75014372b8732a3d.png"
             },
             {
                 "id": "sticker-7044",
-                "name": "kRaSnaL (Gold) | Paris 2023",
+                "name": "kRaSnaL (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_krasnal_gold_large.5ca7fdc7af2759c51d936f230999405dc6d9f3c0.png"
             },
             {
                 "id": "sticker-7048",
-                "name": "sdy (Gold) | Paris 2023",
+                "name": "sdy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sdy_gold_large.aea54b4d33c84a95de27fa2d23c9339ccb1690f6.png"
             },
             {
                 "id": "sticker-7052",
-                "name": "Woro2k (Gold) | Paris 2023",
+                "name": "Woro2k (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_woro2k_gold_large.bbb02f433c9ec64602ed7d0c23b8873b3740aab4.png"
             }
@@ -72246,43 +73529,43 @@
             },
             {
                 "id": "sticker-7098",
-                "name": "maden (Glitter) | Paris 2023",
+                "name": "maden (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_maden_glitter_large.3953740f0b158cb858796eba5d88ba4f1a13227b.png"
             },
             {
                 "id": "sticker-7102",
-                "name": "NertZ (Glitter) | Paris 2023",
+                "name": "NertZ (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nertz_glitter_large.825fe58ade99ebe173e62b29fe43e628773df84e.png"
             },
             {
                 "id": "sticker-7106",
-                "name": "Snappi (Glitter) | Paris 2023",
+                "name": "Snappi (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_snappi_glitter_large.2f19191e09ff18f495702be79c0403c397fff488.png"
             },
             {
                 "id": "sticker-7110",
-                "name": "SunPayus (Glitter) | Paris 2023",
+                "name": "SunPayus (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sunpayus_glitter_large.e612e21ee0a84beddd3430f966e0a96d0a9267b4.png"
             },
             {
                 "id": "sticker-7114",
-                "name": "aliStair (Glitter) | Paris 2023",
+                "name": "aliStair (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_alistair_glitter_large.641265c880d6b146c63f9ce3fd1a7e380d8806c6.png"
             },
             {
                 "id": "sticker-7118",
-                "name": "INS (Glitter) | Paris 2023",
+                "name": "INS (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_ins_glitter_large.9b5a967281169f3e8ef6e1c372bb22d1d9543d1c.png"
             },
             {
                 "id": "sticker-7122",
-                "name": "Liazz (Glitter) | Paris 2023",
+                "name": "Liazz (hile) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_liazz_glitter_large.9f0db7a855b0078feac8e9e70cfc9d7ace5f3533.png"
             },
@@ -72486,43 +73769,43 @@
             },
             {
                 "id": "sticker-7099",
-                "name": "maden (Holo) | Paris 2023",
+                "name": "maden (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_maden_holo_large.325edee4b2a5db7d14ddeb6887140d8ef317d7ee.png"
             },
             {
                 "id": "sticker-7103",
-                "name": "NertZ (Holo) | Paris 2023",
+                "name": "NertZ (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nertz_holo_large.8141690793e945011c9c85ad781cdaf3a5e219ab.png"
             },
             {
                 "id": "sticker-7107",
-                "name": "Snappi (Holo) | Paris 2023",
+                "name": "Snappi (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_snappi_holo_large.f4fb658d293a20f024b3915bd8f5fa9bac94d871.png"
             },
             {
                 "id": "sticker-7111",
-                "name": "SunPayus (Holo) | Paris 2023",
+                "name": "SunPayus (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sunpayus_holo_large.1e229e7838f7e440eec2dd8ef9a53a243871c4f7.png"
             },
             {
                 "id": "sticker-7115",
-                "name": "aliStair (Holo) | Paris 2023",
+                "name": "aliStair (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_alistair_holo_large.3331d2c96831f2c57cbf0b1c289851a151d4f051.png"
             },
             {
                 "id": "sticker-7119",
-                "name": "INS (Holo) | Paris 2023",
+                "name": "INS (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_ins_holo_large.6407c8752f365acac3f9f0cf6c7ba037651c6ceb.png"
             },
             {
                 "id": "sticker-7123",
-                "name": "Liazz (Holo) | Paris 2023",
+                "name": "Liazz (holo) | Paris 2023",
                 "rarity": "Eksoottinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_liazz_holo_large.a01363012deac1fad7ca5f96dd201eb78a0744a0.png"
             },
@@ -72660,241 +73943,241 @@
             },
             {
                 "id": "sticker-7056",
-                "name": "EliGE (Gold) | Paris 2023",
+                "name": "EliGE (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_elige_gold_large.4698c7add3320d6f92af71fcc89b6e437bd139ee.png"
             },
             {
                 "id": "sticker-7060",
-                "name": "NAF (Gold) | Paris 2023",
+                "name": "NAF (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_naf_gold_large.e237c0e635db25f5bb0ab882f5345433b2fb6bd5.png"
             },
             {
                 "id": "sticker-7064",
-                "name": "nitr0 (Gold) | Paris 2023",
+                "name": "nitr0 (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nitro_gold_large.9fbef6c589c457d24a5582c451bf55941432acad.png"
             },
             {
                 "id": "sticker-7068",
-                "name": "oSee (Gold) | Paris 2023",
+                "name": "oSee (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_osee_gold_large.776554b257d4bc830693e979dd40677bbb648854.png"
             },
             {
                 "id": "sticker-7072",
-                "name": "YEKINDAR (Gold) | Paris 2023",
+                "name": "YEKINDAR (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_yekindar_gold_large.dc8a299684765bbc002ad209c781b2734931acb9.png"
             },
             {
                 "id": "sticker-7076",
-                "name": "broky (Gold) | Paris 2023",
+                "name": "broky (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_broky_gold_large.db648793ea1858af46d8300e47e73ec36291bbe9.png"
             },
             {
                 "id": "sticker-7080",
-                "name": "karrigan (Gold) | Paris 2023",
+                "name": "karrigan (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_karrigan_gold_large.430151bd1d8499738fa37b30b94c7ece0ec3e61e.png"
             },
             {
                 "id": "sticker-7084",
-                "name": "rain (Gold) | Paris 2023",
+                "name": "rain (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_rain_gold_large.93e43f9dc209d0b8045b447d7b7c0d19335fc056.png"
             },
             {
                 "id": "sticker-7088",
-                "name": "ropz (Gold) | Paris 2023",
+                "name": "ropz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_ropz_gold_large.366b3f53c2b6be65790834f045bee1d4e9a08565.png"
             },
             {
                 "id": "sticker-7092",
-                "name": "Twistzz (Gold) | Paris 2023",
+                "name": "Twistzz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_twistzz_gold_large.1f67cbe33f8b56d98778ed30daa41b8ed1ae9099.png"
             },
             {
                 "id": "sticker-7096",
-                "name": "Dycha (Gold) | Paris 2023",
+                "name": "Dycha (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_dycha_gold_large.13644b5ccc5b98b48af3792ce233ac92ae3e603c.png"
             },
             {
                 "id": "sticker-7100",
-                "name": "maden (Gold) | Paris 2023",
+                "name": "maden (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_maden_gold_large.d52ace4cb82ff76870d2c4b026531acd8d9a12ff.png"
             },
             {
                 "id": "sticker-7104",
-                "name": "NertZ (Gold) | Paris 2023",
+                "name": "NertZ (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_nertz_gold_large.abe704fbf215b59f31f9a59baa5a5daaddd933f7.png"
             },
             {
                 "id": "sticker-7108",
-                "name": "Snappi (Gold) | Paris 2023",
+                "name": "Snappi (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_snappi_gold_large.b030669dd6b9f26ed3a4c6aac2ed55952d4a314c.png"
             },
             {
                 "id": "sticker-7112",
-                "name": "SunPayus (Gold) | Paris 2023",
+                "name": "SunPayus (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sunpayus_gold_large.2703d16e7fe3742c8bbbc31d9e49f2c7a205fc47.png"
             },
             {
                 "id": "sticker-7116",
-                "name": "aliStair (Gold) | Paris 2023",
+                "name": "aliStair (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_alistair_gold_large.a1dbe528f35c5dddca5d96f16002ae912f0dc2f9.png"
             },
             {
                 "id": "sticker-7120",
-                "name": "INS (Gold) | Paris 2023",
+                "name": "INS (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_ins_gold_large.c878730bbb165ba2d575b1d748d2e97fb0591744.png"
             },
             {
                 "id": "sticker-7124",
-                "name": "Liazz (Gold) | Paris 2023",
+                "name": "Liazz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_liazz_gold_large.6571f14e274cc628a737e4168cdfb1f060096514.png"
             },
             {
                 "id": "sticker-7128",
-                "name": "Sico (Gold) | Paris 2023",
+                "name": "Sico (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sico_gold_large.78391f71865923ddf917f627dcad8dad24d2c7d0.png"
             },
             {
                 "id": "sticker-7132",
-                "name": "vexite (Gold) | Paris 2023",
+                "name": "vexite (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_vexite_gold_large.196f1385c3ea06b3c3c405ec54b8cb993c653394.png"
             },
             {
                 "id": "sticker-7136",
-                "name": "dexter (Gold) | Paris 2023",
+                "name": "dexter (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_dexter_gold_large.1b0d25694c5c901cd136a6321253ba68ecb333d1.png"
             },
             {
                 "id": "sticker-7140",
-                "name": "frozen (Gold) | Paris 2023",
+                "name": "frozen (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_frozen_gold_large.bb294651f00d795864df7e2259e6c78b22ad398f.png"
             },
             {
                 "id": "sticker-7144",
-                "name": "JDC (Gold) | Paris 2023",
+                "name": "JDC (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jdc_gold_large.b11b714f2b8766db314295c14d1ae81ad27541e9.png"
             },
             {
                 "id": "sticker-7148",
-                "name": "torzsi (Gold) | Paris 2023",
+                "name": "torzsi (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_torzsi_gold_large.d2ca91c85cd49e1f9478ccd707944fee97b5d99c.png"
             },
             {
                 "id": "sticker-7152",
-                "name": "xertioN (Gold) | Paris 2023",
+                "name": "xertioN (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_xertion_gold_large.1088e3614af6411597162dd3f4256745977709d5.png"
             },
             {
                 "id": "sticker-7156",
-                "name": "FaNg (Gold) | Paris 2023",
+                "name": "FaNg (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_fang_gold_large.a5d905b4946beadac3f2d1db798fbbfed218076e.png"
             },
             {
                 "id": "sticker-7160",
-                "name": "floppy (Gold) | Paris 2023",
+                "name": "floppy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_floppy_gold_large.7b8420101b2ce54124a0b582db3c98bb9097b146.png"
             },
             {
                 "id": "sticker-7164",
-                "name": "Grim (Gold) | Paris 2023",
+                "name": "Grim (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_grim_gold_large.b6ab651584816c9051a606239e8bffa9da58bef7.png"
             },
             {
                 "id": "sticker-7168",
-                "name": "hallzerk (Gold) | Paris 2023",
+                "name": "hallzerk (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_hallzerk_gold_large.b4e80420552222a35f0ef0aa6c43bf917b9c9178.png"
             },
             {
                 "id": "sticker-7172",
-                "name": "JT (Gold) | Paris 2023",
+                "name": "JT (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jt_gold_large.227c3492345425e1c3166ef2bd9e27b2710841ca.png"
             },
             {
                 "id": "sticker-7176",
-                "name": "felps (Gold) | Paris 2023",
+                "name": "felps (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_felps_gold_large.684324a3d77d490fe0c6c34b2d144a77c3588a02.png"
             },
             {
                 "id": "sticker-7180",
-                "name": "History (Gold) | Paris 2023",
+                "name": "History (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_history_gold_large.9b88a58ad448d45041c017de160dbac1a1ce9c8b.png"
             },
             {
                 "id": "sticker-7184",
-                "name": "Lucaozy (Gold) | Paris 2023",
+                "name": "Lucaozy (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_lucaozy_gold_large.d743cd082503ea0b8b0d2af1adc60e25cb959012.png"
             },
             {
                 "id": "sticker-7188",
-                "name": "v$m (Gold) | Paris 2023",
+                "name": "v$m (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_vsm_gold_large.daa0a12722092e97cb422a9583d70a7c30c2ac79.png"
             },
             {
                 "id": "sticker-7192",
-                "name": "WOOD7 (Gold) | Paris 2023",
+                "name": "WOOD7 (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_wood7_gold_large.dfefa358e32d70b2a3b6d30c9ab226a1f94d4b45.png"
             },
             {
                 "id": "sticker-7196",
-                "name": "ANNIHILATION (Gold) | Paris 2023",
+                "name": "ANNIHILATION (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_annihilation_gold_large.612e28ebe81079b94b073fcf7bb6a4f2f564cc17.png"
             },
             {
                 "id": "sticker-7200",
-                "name": "Bart4k (Gold) | Paris 2023",
+                "name": "Bart4k (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_bart4k_gold_large.bbd7248b3406b8b0a63cc61234bee0c62230c38e.png"
             },
             {
                 "id": "sticker-7204",
-                "name": "bLitz (Gold) | Paris 2023",
+                "name": "bLitz (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_blitz_gold_large.16acc51054d09b8dd8e16a9aad6f6944e79e3876.png"
             },
             {
                 "id": "sticker-7208",
-                "name": "sk0R (Gold) | Paris 2023",
+                "name": "sk0R (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sk0r_gold_large.5603314541c3034f4b173765a025b491869b326a.png"
             },
             {
                 "id": "sticker-7212",
-                "name": "Techno4K (Gold) | Paris 2023",
+                "name": "Techno4K (kulta) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_techno4k_gold_large.465800a15f12f5d44be9de6adf917f4ae26fa8a4.png"
             }
@@ -72947,25 +74230,25 @@
             },
             {
                 "id": "sticker-7218",
-                "name": "dupreeh (Glitter, Champion) | Paris 2023",
+                "name": "dupreeh (hile, mestari) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_dupreeh_glitter_champion_large.dbc1081f561134f924df4a6fedefc087797bd3a2.png"
             },
             {
                 "id": "sticker-7222",
-                "name": "Magisk (Glitter, Champion) | Paris 2023",
+                "name": "Magisk (hile, mestari) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_magisk_glitter_champion_large.e50fff79e72868e96012e270ae8383abe987cc7a.png"
             },
             {
                 "id": "sticker-7226",
-                "name": "Spinx (Glitter, Champion) | Paris 2023",
+                "name": "Spinx (hile, mestari) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_spinx_glitter_champion_large.34dd97b0f2017d9d06d3adb9c0f04fb9da920340.png"
             },
             {
                 "id": "sticker-7230",
-                "name": "ZywOo (Glitter, Champion) | Paris 2023",
+                "name": "ZywOo (hile, mestari) | Paris 2023",
                 "rarity": "Huomattava",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zywoo_glitter_champion_large.88cd68debe535c2c51c737774baf1cebdb9e2a9f.png"
             },
@@ -73001,31 +74284,31 @@
             },
             {
                 "id": "sticker-7216",
-                "name": "apEX (Gold, Champion) | Paris 2023",
+                "name": "apEX (kulta, mestari) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_apex_gold_champion_large.498c6abd440ac84ea1d5b4e820002b3d863f17be.png"
             },
             {
                 "id": "sticker-7220",
-                "name": "dupreeh (Gold, Champion) | Paris 2023",
+                "name": "dupreeh (kulta, mestari) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_dupreeh_gold_champion_large.a412cc056be09798a75eb8e22a4f0c3586c2e28e.png"
             },
             {
                 "id": "sticker-7224",
-                "name": "Magisk (Gold, Champion) | Paris 2023",
+                "name": "Magisk (kulta, mestari) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_magisk_gold_champion_large.d8bb1da18f53934bccefd19d26c5e6683a60700e.png"
             },
             {
                 "id": "sticker-7228",
-                "name": "Spinx (Gold, Champion) | Paris 2023",
+                "name": "Spinx (kulta, mestari) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_spinx_gold_champion_large.0ae7f75db777f620472d9e3c52265c9208320be5.png"
             },
             {
                 "id": "sticker-7232",
-                "name": "ZywOo (Gold, Champion) | Paris 2023",
+                "name": "ZywOo (kulta, mestari) | Paris 2023",
                 "rarity": "Merkillinen",
                 "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_zywoo_gold_champion_large.7be09229b6d1ce5182c91d95beccb4c6a5164ace.png"
             }
