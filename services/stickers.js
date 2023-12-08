@@ -25,10 +25,15 @@ const isSticker = (item) => {
 };
 
 const parseItem = (item) => {
-    const { cratesBySkins } = state
+    const { cratesBySkins } = state;
 
     const image =
         cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
+
+    // items_game.txt is named as dignitas but in translation as teamdignitas.
+    if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {
+        item.item_name = "#StickerKit_dhw2014_teamdignitas_gold";
+    }
 
     return {
         id: `sticker-${item.object_id}`,
