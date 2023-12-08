@@ -52,6 +52,7 @@ export const weaponsNames = [
     "weapon_knife_stiletto",
     "weapon_knife_widowmaker",
     "weapon_knife_skeleton",
+    "weapon_knife_kukri",
     "studded_bloodhound_gloves",
     "studded_brokenfang_gloves",
     "sporty_gloves",
