@@ -158,7 +158,7 @@ export const getSkins = () => {
                 })) ?? [],
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
         })),
-    ];
+    ].filter((skin) => !skin.name.includes('null'));
 
     saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };

@@ -80,7 +80,7 @@ export const getCollections = () => {
         ...Object.values(items)
             .filter(isSelfOpeningCollection)
             .map(parseItemSelfOpening),
-    ];
+    ].filter((collection) => collection.name);
 
     saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };

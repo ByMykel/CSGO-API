@@ -141,7 +141,8 @@ export const getCollectibles = () => {
 
     const collectibles = Object.values(items)
         .filter(isCollectible)
-        .map(parseItem);
+        .map(parseItem)
+        .filter((collectible) => collectible.name);
 
     saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
 
