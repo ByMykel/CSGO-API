@@ -522,6 +522,17 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
     },
     {
+        "id": "key-4904",
+        "name": null,
+        "description": "이 열쇠는 Valve 시리즈 무기 상자를 여는 데 쓰입니다. 그 이외의 상자들(예를 들어 eSports 상자)을 열기 위해서는 상자 시리즈에 맞는 열쇠가 필요합니다.",
+        "crates": [
+            {
+                "id": "crate-4905",
+                "name": null
+            }
+        ]
+    },
+    {
         "id": "key-7000",
         "name": "들불 작전 상자 열쇠",
         "description": "이 열쇠는 들불 작전 상자만 열 수 있습니다.",

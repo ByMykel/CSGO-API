@@ -522,6 +522,17 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
     },
     {
+        "id": "key-4904",
+        "name": null,
+        "description": "Denne nøkkelen vil åpne alle våpenkasser i Valve-serien. Kasser utenom Valve-serien (f.eks. eSports-kasser) krever egne nøkler for å åpne.",
+        "crates": [
+            {
+                "id": "crate-4905",
+                "name": null
+            }
+        ]
+    },
+    {
         "id": "key-7000",
         "name": "Operasjon Wildfire-kassenøkkel",
         "description": "Denne nøkkelen åpner bare Operasjon Wildfire-våpenkasser",

@@ -522,6 +522,17 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
     },
     {
+        "id": "key-4904",
+        "name": null,
+        "description": "Esta llave abrirá cualquier caja de armas de Valve. Las que no son de Valve (por ejemplo, el maletín eSports) necesitan su propia llave para abrirlas.",
+        "crates": [
+            {
+                "id": "crate-4905",
+                "name": null
+            }
+        ]
+    },
+    {
         "id": "key-7000",
         "name": "Llave de caja de la Operación Wildfire",
         "description": "Esta llave solo abre cajas de la Operación Wildfire.",

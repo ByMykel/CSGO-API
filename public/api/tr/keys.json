@@ -522,6 +522,17 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
     },
     {
+        "id": "key-4904",
+        "name": null,
+        "description": "Bu anahtar herhangi bir Valve Serisi Silah Kasasını açar. Valve Serisinden olmayan kasaları açmak için (örn. eSports Kasası) kasanın kendi anahtarı gereklidir.",
+        "crates": [
+            {
+                "id": "crate-4905",
+                "name": null
+            }
+        ]
+    },
+    {
         "id": "key-7000",
         "name": "Yaban Ateşi Operasyonu Kasası Anahtarı",
         "description": "Bu anahtar sadece Yaban Ateşi Operasyonu Kasalarını açar",
