@@ -135,8 +135,8 @@ export const getSkins = () => {
             }),
             description: $t(knife.item_description),
             weapon: {
-                id: `sfui_wpnhud_${knife.name.replace("weapon_", "")}`,
-                name: $t(`sfui_wpnhud_${knife.name.replace("weapon_", "")}`),
+                id: knife.item_name,
+                name: $t(knife.item_name),
             },
             category: {
                 id: "sfui_invpanel_filter_melee",

@@ -163,10 +163,8 @@ export const getSkinsNotGrouped = () => {
                         item_name: $t(knife.item_name),
                     }),
                     weapon: {
-                        id: `sfui_wpnhud_${knife.name.replace("weapon_", "")}`,
-                        name: $t(
-                            `sfui_wpnhud_${knife.name.replace("weapon_", "")}`
-                        ),
+                        id: knife.item_name,
+                        name: $t(knife.item_name),
                     },
                     category: {
                         id: "sfui_invpanel_filter_melee",
@@ -189,7 +187,7 @@ export const getSkinsNotGrouped = () => {
                 }))
             )
             .flatMap((level1) => level1),
-    ];
+    ].filter((skin) => !skin.name.includes('null'));;
 
     saveDataJson(`./public/api/${folder}/skins_not_grouped.json`, skins);
 };
