@@ -2,6 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getRarityColor } from "../utils/index.js";
 
 const isAgent = (item) => item.prefab === "customplayertradable";
 
@@ -17,6 +18,7 @@ const parseItem = (item) => {
         rarity: {
             id: `rarity_${item.item_rarity}_character`,
             name: $t(`rarity_${item.item_rarity}_character`),
+            color: getRarityColor(`rarity_${item.item_rarity}_character`),
         },
         collections: collectionsBySkins?.[`agent-${item.object_id}`]?.map(
             (i) => ({

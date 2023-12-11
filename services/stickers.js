@@ -3,6 +3,7 @@ import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import { getRarityColor } from "../utils/index.js";
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -39,10 +40,17 @@ const parseItem = (item) => {
         id: `sticker-${item.object_id}`,
         name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
         description: $t(item.description_string),
-        rarity: {
-            id: `rarity_${item.item_rarity}`,
-            name: $t(`rarity_${item.item_rarity}`),
-        },
+        rarity: item.item_rarity
+            ? {
+                  id: `rarity_${item.item_rarity}`,
+                  name: $t(`rarity_${item.item_rarity}`),
+                  color: getRarityColor(`rarity_${item.item_rarity}`),
+              }
+            : {
+                  id: "rarity_default",
+                  name: $t("rarity_default"),
+                  color: getRarityColor("rarity_default"),
+              },
         special_notes: specialNotes?.[`sticker-${item.object_id}`],
         crates:
             cratesBySkins?.[`sticker-${item.object_id}`]?.map((i) => ({
