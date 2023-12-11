@@ -392,3 +392,37 @@ export const getCollectibleRarity = (prefab) => {
 
     return null;
 };
+
+export const getRarityColor = (id) => {
+    id = id.toLowerCase();
+
+    switch (id) {
+        case "rarity_default":
+            return "#ded6cc";
+        case "rarity_legendary_character":
+        case "rarity_legendary_weapon":
+        case "rarity_legendary":
+            return "#d32ce6";
+        case "rarity_ancient_character":
+        case "rarity_ancient_weapon":
+        case "rarity_ancient":
+            return "#eb4b4b";
+        case "rarity_mythical_character":
+        case "rarity_mythical_weapon":
+        case "rarity_mythical":
+            return "#8847ff";
+        case "rarity_rare_character":
+        case "rarity_rare_weapon":
+        case "rarity_rare":
+            return "#4b69ff";
+        case "rarity_common_weapon":
+        case "rarity_common":
+            return "#b0c3d9";
+        case "rarity_uncommon_weapon":
+            return "#5e98d9";
+        case "rarity_contraband_weapon":
+            return "#e4ae39";
+        default:
+            return null;
+    }
+};
