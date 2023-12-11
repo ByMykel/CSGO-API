@@ -3,6 +3,7 @@ import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import { getRarityColor } from "../utils/index.js";
 
 const isGraffiti = (item) => {
     if (item.item_name.startsWith("#SprayKit_")) {
@@ -35,6 +36,7 @@ const parseItemSealedGraffiti = (item) => {
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
+            color: getRarityColor(`rarity_${item.item_rarity}`),
         },
         special_notes: specialNotes?.[`graffiti-${item.object_id}`],
         crates:
