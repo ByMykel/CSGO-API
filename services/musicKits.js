@@ -2,7 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
-import { isExclusive } from "../utils/weapon.js";
+import { getRarityColor, isExclusive } from "../utils/index.js";
 
 const parseItem = (item) => {
     const image = cdn[`${item.image_inventory.toLowerCase()}`];
@@ -15,6 +15,7 @@ const parseItem = (item) => {
         rarity: {
             id: "rarity_rare",
             name: $t("rarity_rare"),
+            color: getRarityColor(`rarity_rare`),
         },
         exclusive,
         image,
@@ -28,6 +29,7 @@ const parseItem = (item) => {
             rarity: {
                 id: "rarity_rare",
                 name: $t("rarity_rare"),
+                color: getRarityColor(`rarity_rare`),
             },
             exclusive: false,
             image,

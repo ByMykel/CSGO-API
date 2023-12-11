@@ -3,6 +3,7 @@ import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import { getRarityColor } from "../utils/index.js";
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
@@ -164,7 +165,11 @@ const parseItem = (item, prefabs) => {
                 i.name instanceof Object
                     ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
                     : $t(i.name),
-            rarity: $t(i.rarity),
+            rarity: {
+                id: i.rarity,
+                name: $t(i.rarity),
+                color: getRarityColor(i.rarity),
+            },
         })),
         contains_rare: (skinsByCrates?.[`rare--${keyLootList}`] ?? []).map(
             (i) => ({
@@ -173,7 +178,11 @@ const parseItem = (item, prefabs) => {
                     item_name: $t(i.name.weapon),
                     pattern: $t(i.name.pattern),
                 }),
-                rarity: $t(i.rarity),
+                rarity: {
+                    id: i.rarity,
+                    name: $t(i.rarity),
+                    color: getRarityColor(i.rarity),
+                },
             })
         ),
         special_notes: specialNotes?.[`crate-${item.object_id}`],

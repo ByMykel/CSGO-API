@@ -5,7 +5,8 @@ import {
     getCategory,
     getWears,
     getDopplerPhase,
-} from "../utils/weapon.js";
+    getRarityColor,
+} from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
@@ -42,7 +43,9 @@ const parseItem = (item, items) => {
         collectionsBySkins,
     } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdn[`${item.icon_path.toLowerCase()}_test`] ? cdn[`${item.icon_path.toLowerCase()}_test`] : cdn[`${item.icon_path.toLowerCase()}_large`];
+    const image = cdn[`${item.icon_path.toLowerCase()}_test`]
+        ? cdn[`${item.icon_path.toLowerCase()}_test`]
+        : cdn[`${item.icon_path.toLowerCase()}_large`];
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -94,6 +97,7 @@ const parseItem = (item, items) => {
         rarity: {
             id: rarity,
             name: $t(rarity),
+            color: getRarityColor(rarity),
         },
         stattrak: isStatTrak,
         souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
@@ -148,6 +152,7 @@ export const getSkins = () => {
             rarity: {
                 id: `rarity_ancient_weapon`,
                 name: $t(`rarity_ancient_weapon`),
+                color: getRarityColor("rarity_ancient_weapon"),
             },
             stattrak: true,
             paint_index: null,
@@ -158,7 +163,7 @@ export const getSkins = () => {
                 })) ?? [],
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
         })),
-    ].filter((skin) => !skin.name.includes('null'));
+    ].filter((skin) => !skin.name.includes("null"));
 
     saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };

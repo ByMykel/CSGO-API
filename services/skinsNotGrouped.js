@@ -6,7 +6,8 @@ import {
     getDopplerPhase,
     skinMarketHashName,
     getCategory,
-} from "../utils/weapon.js";
+    getRarityColor,
+} from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
@@ -124,6 +125,7 @@ const parseItem = (item, items) => {
             rarity: {
                 id: rarity,
                 name: $t(rarity),
+                color: getRarityColor(rarity),
             },
             ...(dopplerPhase && { phase: dopplerPhase }),
             market_hash_name: skinMarketHashName({
@@ -173,6 +175,7 @@ export const getSkinsNotGrouped = () => {
                     rarity: {
                         id: `rarity_ancient_weapon`,
                         name: $t(`rarity_ancient_weapon`),
+                        color: getRarityColor(`rarity_ancient_weapon`),
                     },
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
@@ -187,7 +190,7 @@ export const getSkinsNotGrouped = () => {
                 }))
             )
             .flatMap((level1) => level1),
-    ].filter((skin) => !skin.name.includes('null'));;
+    ].filter((skin) => !skin.name.includes("null"));
 
     saveDataJson(`./public/api/${folder}/skins_not_grouped.json`, skins);
 };
