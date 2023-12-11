@@ -12,6 +12,7 @@ import { getSkins } from "./services/skins.js";
 import { LANGUAGES_URL } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
+import { getTools } from "./services/tools.js";
 
 await loadData();
 
@@ -32,6 +33,7 @@ for (const language of LANGUAGES_URL) {
         getSkins();
         getSkinsNotGrouped();
         getStickers();
+        getTools();
     } catch (error) {
         console.log(error);
     }
