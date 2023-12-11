@@ -13,6 +13,7 @@ const inputFilePathsTemplate = [
     "./public/api/{lang}/patches.json",
     "./public/api/{lang}/skins_not_grouped.json",
     "./public/api/{lang}/stickers.json",
+    "./public/api/{lang}/tools.json",
 ];
 
 for (let langObj of LANGUAGES_URL) {
