@@ -2,7 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
-import { getCollectibleRarity } from "../utils/weapon.js";
+import { getCollectibleRarity, getRarityColor } from "../utils/index.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -116,6 +116,7 @@ const parseItem = (item) => {
         rarity: {
             id: rarity,
             name: $t(rarity),
+            color: getRarityColor(rarity),
         },
         type: getType(item),
         image,

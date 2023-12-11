@@ -3,6 +3,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getRarityColor } from "../utils/index.js";
 
 const isCollection = (item) => item.is_collection !== undefined;
 
@@ -53,7 +54,11 @@ const parseItem = (item) => {
                     i.name instanceof Object
                         ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
                         : $t(i.name),
-                rarity: $t(i.rarity),
+                rarity: {
+                    id: i.rarity,
+                    name: $t(i.rarity),
+                    color: getRarityColor(i.rarity),
+                },
             })
         ),
         image,

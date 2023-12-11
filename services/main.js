@@ -5,7 +5,7 @@ import {
     isExclusive,
     isNotWeapon,
     knives,
-} from "../utils/weapon.js";
+} from "../utils/index.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
@@ -422,7 +422,7 @@ export const loadSouvenirSkins = () => {
             .flatMap((level1) => level1)
             .reduce((acc, item) => ({ ...acc, [item.id]: true }), {}),
 
-        'skin-1510528': true, // MP5-SD | Lab Rats
+        "skin-1510528": true, // MP5-SD | Lab Rats
     };
 };
 
