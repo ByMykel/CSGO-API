@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Guardian-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Taktikpin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Segerpin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Guardian Elite-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Guardian 2-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Bravo-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Phoenix-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Bloodhound-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Chroma-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Valeria Phoenix-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Guardian 3-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Welcome to the Clutch-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Death Sentence-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Wildfire-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Easy Peasy-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Aces High-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Hydra-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Howl-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Brigadier General-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Combine Helmet-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Black Mesa-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Lambda-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "City 17-pin",
-                "rarity": "Högkvalitet"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Högkvalitet",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Headcrab Glyph-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Copper Lambda-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Health-pin",
-                "rarity": "Enastående"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Enastående",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Sustenance!-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Vortigaunt-pin",
-                "rarity": "Exotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Alyx-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Civil Protection-pin",
-                "rarity": "Extraordinär"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinär",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

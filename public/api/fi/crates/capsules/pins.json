@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Vartijapinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Taktiikat-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Voittopinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II -pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Suojelijaeliitin pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Vartija 2 -pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Bravo-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Feenix-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Verikoira-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Kirjo-pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Valeria Feenix -pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Vartija 3 -pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Viimeinen elossa -pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Kuolemantuomio-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2 -pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Maastopalo-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Lastenleikkiä-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Korttitemppu-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Hydra-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Ulvonta-pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Prikaatikenraali-pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Combine-kypäräpinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Black Mesa -pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Lambda-pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Kaupunki 17 -pinssi",
-                "rarity": "Korkean tason"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Päärapusymboli-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Kuparinen lambda-pinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Terveyspinssi",
-                "rarity": "Huomattava"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Huomattava",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Sapuskaa-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Vortigaunt-pinssi",
-                "rarity": "Eksoottinen"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksoottinen",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Alyx-pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Suojelupalvelu-pinssi",
-                "rarity": "Merkillinen"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Merkillinen",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

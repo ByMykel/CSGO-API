@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Insignă Guardian",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Insignă Tactics",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Insignă Nuke",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Insignă Train",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Insignă Victory",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Insignă Militia",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Insignă Italy",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Insignă Mirage",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Insignă Inferno",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Insignă Dust II",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Insignă Guardian Elite",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Insignă Guardian 2",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Insignă Bravo",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Insignă Baggage",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Insignă Phoenix",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Insignă Office",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Insignă Cobblestone",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Insignă Overpass",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Insignă Bloodhound",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Insignă Cache",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Insignă Chroma",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Insignă Valeria Phoenix",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Insignă Guardian 3",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Insignă Canals",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Insignă Welcome to the Clutch",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Insignă Death Sentence",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Insignă Inferno 2",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Insignă Wildfire",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Insignă Easy Peasy",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Insignă Aces High",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Insignă Hydra",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Insignă Howl",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Insignă Brigadier General",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Insignă Combine Helmet",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Insignă Black Mesa",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "Insignă CMB",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Insignă Lambda",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Insignă City 17",
-                "rarity": "Calitate ridicată"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Insignă Headcrab Glyph",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Insignă Copper Lambda",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Insignă Health",
-                "rarity": "Remarcabil(ă)"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Insignă Sustenance!",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Insignă Vortigaunt",
-                "rarity": "Exotic(ă)"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Insignă Alyx",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Insignă Civil Protection",
-                "rarity": "Extraordinar(ă)"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

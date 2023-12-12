@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Védelmező kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Taktika kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Győzelem kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Elit Védelmező kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Védelmező 2 kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Bravo kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Phoenix kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Bloodhound kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Színözön kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Valeria Phoenix kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Védelmező 3 kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Üdv a Szólóklubban kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Halálos Ítélet kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2 kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Wildfire kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Kifacsarlak, elhajítlak kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Magas Ász kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Hydra kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Üvöltés kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Dandártábornok kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Társulási Sisak kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Black Mesa kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Lambda kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "17-es Város kitűző",
-                "rarity": "Magas fokozatú"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Magas fokozatú",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Fejrágó Rajzolat kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Réz Lambda kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Egészség kitűző",
-                "rarity": "Figyelemre méltó"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Figyelemre méltó",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Táplálék! kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Villámujjú kitűző",
-                "rarity": "Egzotikus"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotikus",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Alyx kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Polgárvédelem kitűző",
-                "rarity": "Rendkívüli"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Rendkívüli",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

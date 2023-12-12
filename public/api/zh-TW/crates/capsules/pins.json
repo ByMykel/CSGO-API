@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "守護者徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "戰術徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "勝利徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage 徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno 徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II 徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "菁英守衛者徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "守護者 2 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "英勇徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "鳳凰徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "獵犬徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache 徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "炫彩徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "維勒芮亞鳳凰徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "守護者 3 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "歡迎來倒胃徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "死亡判決徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2 徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "野火徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "擠檸檬般簡單徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "高調王牌徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "九頭蛇徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "咆嚎徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "准將徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "合成人頭盔徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "黑色高地徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB 徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "λ 符號徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "17 號城徽章",
-                "rarity": "高級"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "高級",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "食腦蟲圖像字符徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "銅 λ 符號徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "生命值徽章",
-                "rarity": "神話"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "神話",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "營養品！徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "弗地崗人徽章",
-                "rarity": "特製"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "特製",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "艾莉克絲徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "城市保安局徽章",
-                "rarity": "超絕"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "超絕",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

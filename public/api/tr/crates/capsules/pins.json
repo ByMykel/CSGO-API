@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Muhafız Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Taktik Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Zafer Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Seçkin Muhafız Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Muhafız 2 Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Bravo Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Anka Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Kan Tazısı Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Kroma Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Valeria Phoenix Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Muhafız 3 Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Clutch'a Hoş Geldiniz Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Ölüm Cezası Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2 Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Yaban Ateşi Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Çocuk Oyuncağı Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Maça Ası Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Hydra Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Uluma Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Tuğgeneral Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "İttifak Miğferi Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Black Mesa Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Lambda Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Şehir 17 Broşu",
-                "rarity": "Yüksek Sınıf"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Yüksek Sınıf",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Kafayengeci Glifi Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Bakır Lambda Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Sağlık Broşu",
-                "rarity": "Dikkat Çekici"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Dikkat Çekici",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Yiyecek! Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Vortigaunt Broşu",
-                "rarity": "Egzotik"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Egzotik",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Alyx Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Milis Broşu",
-                "rarity": "Olağandışı"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Olağandışı",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

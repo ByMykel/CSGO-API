@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Значка „Пазител“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Значка „Тактики“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Значка за Nuke",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Значка за Train",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Значка „Победа“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Значка за Militia",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Значка за Italy",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Значка за Mirage",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Значка за Inferno",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Значка за Dust II",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Значка „Елитен пазител“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Значка „Пазител 2“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Значка „Браво“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Значка за Baggage",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Значка „Феникс“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Значка за Office",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Значка за Cobblestone",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Значка за Overpass",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Значка „Хрътка“",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Значка за Cache",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Значка „Обагряне“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Значка „Валерия Феникс“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Значка „Пазител 3“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Значка „Canals“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Значка „Добре дошли в критичната схватка“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Значка „Смъртна присъда“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Значка „Inferno 2“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Значка „Опустошителен огън“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Значка „Фасулска работа“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Значка „Всичко коз“",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Значка „Хидра“",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Значка „Вой“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Значка „Бригаден генерал“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Значка „Шлем на интегратор“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Значка „Блек Меса“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "Значка „ИНТЕГРАТОР“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Значка „Ламбда“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Значка „Град 17“",
-                "rarity": "Висок клас"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Висок клас",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Значка „Глиф на главорак“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Значка „Медна ламбда“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Значка „Здраве“",
-                "rarity": "Забележителен тип"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Забележителен тип",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Значка „Препитание!“",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Значка „Вортигонт“",
-                "rarity": "Екзотичен тип"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Екзотичен тип",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Значка „Аликс“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Значка „Гражданска защита“",
-                "rarity": "Необикновен тип"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Необикновен тип",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

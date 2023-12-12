@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Pins – Guardian",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Pins – Tactics",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Pins – Nuke",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Pins – Train",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Pins – Victory",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Pins – Militia",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Pins – Italy",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Pins – Mirage",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Pins – Inferno",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Pins – Dust II",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Pins – Guardian Elite",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Pins – Guardian 2",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Pins – Bravo",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Pins – Baggage",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Pins – Phoenix",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Pins – Office",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Pins – Cobblestone",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Pins – Overpass",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Pins – Bloodhound",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Pins – Cache",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Pins – Chroma",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Pins – Valeria Phoenix",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Pins – Guardian 3",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Pins – Canals",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Pins – Welcome to the Clutch",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Pins – Death Sentence",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Pins – Inferno 2",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Pins – Wildfire",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Pins – Easy Peasy",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Pins – Aces High",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Pins – Hydra",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Pins – Howl",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Pins – Brigadier General",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Pins – Combine Helmet",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Pins – Black Mesa",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "Pins – CMB",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Pins – Lambda",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Pins – City 17",
-                "rarity": "Høy klasse"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Høy klasse",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Pins – Headcrab Glyph",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Pins – Copper Lambda",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Pins – Health",
-                "rarity": "Spesielt"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Spesielt",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Pins – Sustenance!",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Pins – Vortigaunt",
-                "rarity": "Eksotisk"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Pins – Alyx",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Pins – Civil Protection",
-                "rarity": "Ekstraordinær"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

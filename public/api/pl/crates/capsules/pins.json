@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Odznaka obrońcy",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Odznaka taktyka",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Odznaka Nuke",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Odznaka Train",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Odznaka zwycięstwa",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Odznaka Militia",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Odznaka Italy",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Odznaka Mirage",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Odznaka Inferno",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Odznaka Dust II",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Odznaka elitarnego obrońcy",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Odznaka obrońcy 2",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Odznaka Bravo",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Odznaka Baggage",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Odznaka Phoenix",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Odznaka Office",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Odznaka Cobblestone",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Odznaka Overpass",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Odznaka Bloodhound",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Odznaka Cache",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Odznaka Chroma",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Odznaka Valerii z Phoenix",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Odznaka obrońcy 3",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Odznaka Canals",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Odznaka Welcome to the Clutch",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Odznaka wyroku śmierci",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Odznaka Inferno 2",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Odznaka Wildfire",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Odznaka łatwizny",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Odznaka asa pik",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Odznaka Hydra",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Odznaka ryku",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Odznaka generała brygady",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Odznaka hełmu Kombinatu",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Odznaka Black Mesa",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "Odznaka CMB",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Odznaka lambdy",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "Odznaka City 17",
-                "rarity": "wysokiej jakości"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "wysokiej jakości",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Odznaka piktogramu headcraba",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Odznaka miedzianej lambdy",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Odznaka zdrowia",
-                "rarity": "nadzwyczajnej rzadkości"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "nadzwyczajnej rzadkości",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Odznaka pożywienia",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Odznaka vortigaunta",
-                "rarity": "egzotycznego pochodzenia"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "egzotycznego pochodzenia",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Odznaka Alyx",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Odznaka Ochrony Cywilnej",
-                "rarity": "wyjątkowej jakości"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "wyjątkowej jakości",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],

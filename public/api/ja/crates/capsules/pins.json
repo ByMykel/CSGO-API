@@ -9,57 +9,101 @@
             {
                 "id": "collection-6110",
                 "name": "Guardian ピン",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6111",
                 "name": "Tactics ピン",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6108",
                 "name": "Nuke ピン",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6109",
                 "name": "Train ピン",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6106",
                 "name": "Victory ピン",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6107",
                 "name": "Militia ピン",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6105",
                 "name": "Italy ピン",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6103",
                 "name": "Mirage ピン",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6104",
                 "name": "Inferno ピン",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6101",
                 "name": "Dust II ピン",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6102",
                 "name": "Guardian Elite ピン",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -75,57 +119,101 @@
             {
                 "id": "collection-6112",
                 "name": "Guardian 2 Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6113",
                 "name": "Bravo Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6114",
                 "name": "Baggage Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6115",
                 "name": "Phoenix Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6116",
                 "name": "Office Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6117",
                 "name": "Cobblestone Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6118",
                 "name": "Overpass Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6119",
                 "name": "Bloodhound Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6120",
                 "name": "Cache Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6122",
                 "name": "Chroma Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6121",
                 "name": "Valeria Phoenix Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -141,57 +229,101 @@
             {
                 "id": "collection-6123",
                 "name": "Guardian 3 Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6124",
                 "name": "Canals Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6125",
                 "name": "Welcome to the Clutch Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6126",
                 "name": "Death Sentence Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-6127",
                 "name": "Inferno 2 Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6128",
                 "name": "Wildfire Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6129",
                 "name": "Easy Peasy Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-6130",
                 "name": "Aces High Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6131",
                 "name": "Hydra Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6132",
                 "name": "Howl Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-6133",
                 "name": "Brigadier General Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
@@ -207,62 +339,110 @@
             {
                 "id": "collection-4691",
                 "name": "Combine Helmet Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4690",
                 "name": "Black Mesa Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4689",
                 "name": "CMB Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4687",
                 "name": "Lambda Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4692",
                 "name": "City 17 Pin",
-                "rarity": "ハイグレード"
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "ハイグレード",
+                    "color": "#4b69ff"
+                }
             },
             {
                 "id": "collection-4685",
                 "name": "Headcrab Glyph Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4688",
                 "name": "Copper Lambda Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4686",
                 "name": "Health Pin",
-                "rarity": "非凡"
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "非凡",
+                    "color": "#8847ff"
+                }
             },
             {
                 "id": "collection-4683",
                 "name": "Sustenance! Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-4684",
                 "name": "Vortigaunt Pin",
-                "rarity": "エキゾチックな"
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "エキゾチックな",
+                    "color": "#d32ce6"
+                }
             },
             {
                 "id": "collection-6134",
                 "name": "Alyx Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             },
             {
                 "id": "collection-4682",
                 "name": "Civil Protection Pin",
-                "rarity": "桁外れ"
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "桁外れ",
+                    "color": "#eb4b4b"
+                }
             }
         ],
         "contains_rare": [],
