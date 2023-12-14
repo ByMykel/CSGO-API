@@ -80,6 +80,12 @@ const parseItem = (item, items) => {
         paintKits[pattern].wear_remap_max
     );
 
+    const team =
+        !items[weapon].used_by_classes ||
+        Object.keys(items[weapon].used_by_classes).length === 2
+            ? "both"
+            : Object.keys(items[weapon].used_by_classes)[0];
+
     return types.map((type) =>
         wears.map((wear, index) => ({
             id: `skin-${item.object_id}_${index}${
@@ -139,6 +145,15 @@ const parseItem = (item, items) => {
                 isWeapon: !isNotWeapon(weapon),
                 isVanilla: false,
             }),
+            team: {
+                id: team,
+                name:
+                    team === "both"
+                        ? $t("inv_filter_both_teams")
+                        : team === "counter-terrorists"
+                        ? $t("inv_filter_ct")
+                        : $t("inv_filter_t"),
+            },
             image,
         }))
     );
@@ -186,6 +201,10 @@ export const getSkinsNotGrouped = () => {
                         isWeapon: false,
                         isVanilla: true,
                     }),
+                    team: {
+                        id: "both",
+                        name: $t("inv_filter_both_teams"),
+                    },
                     image: cdn[`econ/weapons/base_weapons/${knife.name}`],
                 }))
             )
