@@ -538,6 +538,7 @@ const getItemFromKey = (key) => {
                 id: `music_kit-${kit.object_id}`,
                 name: exclusive ? kit.loc_name : kit.coupon_name,
                 rarity: "rarity_rare",
+                image: cdn[kit.image_inventory],
             };
         // The rest are skins
         default:

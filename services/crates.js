@@ -139,7 +139,7 @@ const getFirstSaleDate = (item, prefabs) => {
 };
 
 const parseItem = (item, prefabs) => {
-    const { skinsByCrates, skinsByCratesSpecial, revolvingLootLists } = state;
+    const { skinsByCrates, revolvingLootLists } = state;
 
     const image = cdn[item.image_inventory.toLowerCase()];
     const lootListName = item?.loot_list_name ?? null;
