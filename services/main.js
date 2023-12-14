@@ -73,6 +73,9 @@ export const loadItems = () => {
                 item_name_prefab: state.prefabs[value.prefab]?.item_name,
                 item_description_prefab:
                     state.prefabs[value.prefab]?.item_description,
+                used_by_classes:
+                    value?.used_by_classes ??
+                    state.prefabs[value.prefab]?.used_by_classes,
             };
             return acc;
         },
@@ -94,6 +97,7 @@ export const loadPrefabs = () => {
                     innerPrefab?.first_sale_date ??
                     null,
                 prefab: value.prefab ?? innerPrefab?.prefab,
+                used_by_classes: value.used_by_classes,
             };
             return acc;
         },

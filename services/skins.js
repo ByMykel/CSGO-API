@@ -71,6 +71,12 @@ const parseItem = (item, items) => {
         : // Gloves are 'Extraordinary'
           `rarity_ancient`;
 
+    const team =
+        !items[weapon].used_by_classes ||
+        Object.keys(items[weapon].used_by_classes).length === 2
+            ? "both"
+            : Object.keys(items[weapon].used_by_classes)[0];
+
     return {
         id: `skin-${item.object_id}`,
         name: isNotWeapon(weapon)
@@ -118,6 +124,15 @@ const parseItem = (item, items) => {
             })) ?? [],
         ...(dopplerPhase && { phase: dopplerPhase }),
         special_notes: specialNotes?.[`skin-${item.object_id}`],
+        team: {
+            id: team,
+            name:
+                team === "both"
+                    ? $t("inv_filter_both_teams")
+                    : team === "counter-terrorists"
+                    ? $t("inv_filter_ct")
+                    : $t("inv_filter_t"),
+        },
         image,
     };
 };
@@ -161,6 +176,10 @@ export const getSkins = () => {
                     ...i,
                     name: $t(i.name),
                 })) ?? [],
+            team: {
+                id: "both",
+                name: $t("inv_filter_both_teams"),
+            },
             image: cdn[`econ/weapons/base_weapons/${knife.name}`],
         })),
     ].filter((skin) => !skin.name.includes("null"));
