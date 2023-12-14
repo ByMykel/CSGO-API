@@ -196,7 +196,8 @@ export const getCrates = () => {
 
     const crates = Object.values(items)
         .filter(isCrate)
-        .map((item) => parseItem(item, prefabs));
+        .map((item) => parseItem(item, prefabs))
+        .filter((crate) => crate.name);
 
     saveDataJson(`./public/api/${folder}/crates.json`, crates);
 
