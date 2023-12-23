@@ -96,6 +96,43 @@
                 .language-code {
                     @apply bg-slate-800 text-slate-50 rounded-xl px-2 py-0.5 text-sm;
                 }
+
+                .section-heading {
+                    @apply text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4;
+                }
+
+                .request-info {
+                    @apply bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center;
+                }
+
+                .request-method {
+                    @apply text-pink-400;
+                }
+
+                .request-icon {
+                    @apply w-5 h-5 text-slate-400 hover:text-slate-300;
+                }
+
+                .details {
+                    @apply bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden;
+                }
+
+                .schema-type {
+                    @apply schema py-1 px-2;
+                }
+
+                .schema-property:nth-child(odd) {
+                    @apply grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1;
+                }
+
+                .schema-property:nth-child(even) {
+                    @apply grid grid-cols-2 px-8 py-1
+                }
+
+                .schema-value {
+                    @apply schema;
+                }
+
             }
         </style>
     </head>
@@ -570,11 +607,7 @@
             <div class="lg:pl-[15rem] xl:pl-[7rem]">
                 <div class="pb-12 mt-4">
                     <div id="introduction">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            Introduction
-                        </h1>
+                        <h1 class="section-heading">Introduction</h1>
 
                         <p
                             class="mt-2 text-base md:text-lg text-slate-700 mb-4"
@@ -637,8 +670,7 @@
                         <p
                             class="mt-4 text-base md:text-lg text-slate-700 mb-4"
                         >
-                            <span class="font-bold">language</span> can be one
-                            of the following:
+                            <span>{language}</span> can be one of the following:
                             <span class="language-code">bg</span>
                             <span class="language-code">cs</span>
                             <span class="language-code">da</span>
@@ -672,96 +704,92 @@
 
                     <hr />
 
-                    <div id="list-skins">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List skins
-                        </h1>
+                    <div id="list-skins" class="mb-8">
+                        <h1 class="section-heading">List Skins</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /skins.json
                             </div>
-                            <div>
-                                <a
-                                    href="https://bymykel.github.io/CSGO-API/api/en/skins.json"
-                                    target="_blank"
+                            <a
+                                href="https://bymykel.github.io/CSGO-API/api/en/skins.json"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="request-icon"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
                                 >
-                                    <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        ></path>
-                                    </svg>
-                                </a>
-                            </div>
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    ></path>
+                                </svg>
+                            </a>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
-                                    array[object]
+                        <div class="details">
+                            <div class="schema-type array-object">
+                                array[object]
+                            </div>
+                            <div>
+                                <div class="schema-property">
+                                    <div>id</div>
+                                    <div class="schema-value string">
+                                        string
+                                    </div>
                                 </div>
-                                <div>
-                                    <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
-                                    >
-                                        <div>id</div>
-                                        <div class="schema string">string</div>
+                                <div class="schema-property">
+                                    <div>name</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>name</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>description</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
-                                    <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
-                                    >
-                                        <div>description</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>weapon</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>weapon</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>pattern</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
-                                    <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
-                                    >
-                                        <div>pattern</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>min_float</div>
+                                    <div class="schema-value number">
+                                        number
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>min_float</div>
-                                        <div class="schema number">number</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>max_float</div>
+                                    <div class="schema-value number">
+                                        number
                                     </div>
-                                    <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
-                                    >
-                                        <div>max_float</div>
-                                        <div class="schema number">number</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>rarity</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>rarity</div>
-                                        <div class="schema string">string</div>
-                                    </div>
-                                    <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
-                                    >
-                                        <div>image</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>image</div>
+                                    <div class="schema-value string">
+                                        string
                                     </div>
                                 </div>
                             </div>
@@ -770,18 +798,12 @@
 
                     <hr />
 
-                    <div id="list-stickers">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List stickers
-                        </h1>
+                    <div id="list-stickers" class="mb-8">
+                        <h1 class="section-heading">List stickers</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /stickers.json
                             </div>
                             <div>
@@ -790,7 +812,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -807,56 +829,48 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
-                                    array[object]
+                        <div class="details">
+                            <div class="schema-type array-object">
+                                array[object]
+                            </div>
+                            <div>
+                                <div
+                                    class="schema-property"
+                                >
+                                    <div>id</div>
+                                    <div class="schema string">string</div>
                                 </div>
-                                <div>
-                                    <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
-                                    >
-                                        <div>id</div>
-                                        <div class="schema string">string</div>
+                                <div class="schema-property">
+                                    <div>name</div>
+                                    <div class="schema string">string</div>
+                                </div>
+                                <div
+                                    class="schema-property"
+                                >
+                                    <div>description</div>
+                                    <div class="text-slate-400">
+                                        <span class="schema string"
+                                            >string</span
+                                        >
+                                        or
+                                        <span class="schema null">null</span>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>name</div>
-                                        <div class="schema string">string</div>
+                                </div>
+                                <div class="schema-property">
+                                    <div>rarity</div>
+                                    <div class="text-slate-400">
+                                        <span class="schema string"
+                                            >string</span
+                                        >
+                                        or
+                                        <span class="schema null">null</span>
                                     </div>
-                                    <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
-                                    >
-                                        <div>description</div>
-                                        <div class="text-slate-400">
-                                            <span class="schema string"
-                                                >string</span
-                                            >
-                                            or
-                                            <span class="schema null"
-                                                >null</span
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
-                                        <div>rarity</div>
-                                        <div class="text-slate-400">
-                                            <span class="schema string"
-                                                >string</span
-                                            >
-                                            or
-                                            <span class="schema null"
-                                                >null</span
-                                            >
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
-                                    >
-                                        <div>image</div>
-                                        <div class="schema string">string</div>
-                                    </div>
+                                </div>
+                                <div
+                                    class="schema-property"
+                                >
+                                    <div>image</div>
+                                    <div class="schema string">string</div>
                                 </div>
                             </div>
                         </div>
@@ -865,17 +879,11 @@
                     <hr />
 
                     <div id="list-collections">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List collections
-                        </h1>
+                        <h1 class="section-heading">List collections</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collections.json
                             </div>
                             <div>
@@ -884,7 +892,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -901,26 +909,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                        class="schema-property"
                                     >
                                         <div>image</div>
                                         <div class="schema string">string</div>
@@ -946,11 +952,9 @@
                             music kit boxes and souvenir packages.
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates.json
                             </div>
                             <div>
@@ -959,7 +963,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -976,16 +980,14 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
@@ -997,7 +999,7 @@
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -1010,7 +1012,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>type</div>
                                         <div class="text-slate-400">
                                             <span class="schema string"
@@ -1023,7 +1025,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>first_sale_date</div>
                                         <div class="text-slate-400">
@@ -1037,7 +1039,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>image</div>
                                         <div class="schema string">string</div>
@@ -1059,11 +1061,9 @@
                             Capsules with patches
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/capsules/patches.json
                             </div>
                             <div>
@@ -1072,7 +1072,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1096,11 +1096,9 @@
                             Capsules with pins
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/capsules/pins.json
                             </div>
                             <div>
@@ -1109,7 +1107,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1133,11 +1131,9 @@
                             Cases
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/cases.json
                             </div>
                             <div>
@@ -1146,7 +1142,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1170,11 +1166,9 @@
                             Graffiti boxes
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/graffiti.json
                             </div>
                             <div>
@@ -1183,7 +1177,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1207,11 +1201,9 @@
                             Music kit boxes
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/music_kit_boxes.json
                             </div>
                             <div>
@@ -1220,7 +1212,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1244,11 +1236,9 @@
                             Souvenir packages
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/souvenir.json
                             </div>
                             <div>
@@ -1257,7 +1247,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1281,11 +1271,9 @@
                             Rest of crates that don't fit in any type
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /crates/other.json
                             </div>
                             <div>
@@ -1294,7 +1282,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1315,17 +1303,11 @@
                     <hr />
 
                     <div id="list-keys">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List keys
-                        </h1>
+                        <h1 class="section-heading">List keys</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /keys.json
                             </div>
                             <div>
@@ -1334,7 +1316,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1351,26 +1333,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 bg-slate-700 bg-opacity-30 px-8 py-1"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 py-1 px-8">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -1383,7 +1363,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>image</div>
                                         <div class="schema string">string</div>
                                     </div>
@@ -1395,17 +1375,11 @@
                     <hr />
 
                     <div id="list-collectibles">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List collectibles
-                        </h1>
+                        <h1 class="section-heading">List collectibles</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles.json
                             </div>
                             <div>
@@ -1414,7 +1388,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1431,26 +1405,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -1463,7 +1435,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>rarity</div>
                                         <div class="text-slate-400">
                                             <span class="schema string"
@@ -1476,7 +1448,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>type</div>
                                         <div class="text-slate-400">
@@ -1489,7 +1461,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>image</div>
                                         <div class="schema string">string</div>
                                     </div>
@@ -1510,11 +1482,9 @@
                             Major fantasy team trophies
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/major/fantasy_trophies.json
                             </div>
                             <div>
@@ -1523,7 +1493,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1547,11 +1517,9 @@
                             Major finalists trophies
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/major/finalists_trophies.json
                             </div>
                             <div>
@@ -1560,7 +1528,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1584,11 +1552,9 @@
                             Major pickem coins
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/major/pickem_coins.json
                             </div>
                             <div>
@@ -1597,7 +1563,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1621,11 +1587,9 @@
                             Major old pickem trophy
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/major/pickem_old.json
                             </div>
                             <div>
@@ -1634,7 +1598,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1658,11 +1622,9 @@
                             Operation coins
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/operation/coins.json
                             </div>
                             <div>
@@ -1671,7 +1633,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1695,11 +1657,9 @@
                             Operation stars
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/operation/stars.json
                             </div>
                             <div>
@@ -1708,7 +1668,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1732,11 +1692,9 @@
                             Map Contributor Coins
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/map_coins.json
                             </div>
                             <div>
@@ -1745,7 +1703,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1769,11 +1727,9 @@
                             Pins
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/pins.json
                             </div>
                             <div>
@@ -1782,7 +1738,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1806,11 +1762,9 @@
                             Service medals
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/service_medals.json
                             </div>
                             <div>
@@ -1819,7 +1773,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1842,11 +1796,9 @@
                             Rest of collectibles that don't fit in any type
                         </p>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /collectibles/other.json
                             </div>
                             <div>
@@ -1855,7 +1807,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1876,17 +1828,11 @@
                     <hr />
 
                     <div id="list-agents">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List agents
-                        </h1>
+                        <h1 class="section-heading">List agents</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /agents.json
                             </div>
                             <div>
@@ -1895,7 +1841,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1912,36 +1858,34 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>rarity</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>image</div>
                                         <div class="schema string">string</div>
@@ -1954,17 +1898,11 @@
                     <hr />
 
                     <div id="list-patches">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List patches
-                        </h1>
+                        <h1 class="section-heading">List patches</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /patches.json
                             </div>
                             <div>
@@ -1973,7 +1911,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -1990,26 +1928,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -2022,12 +1958,12 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>rarity</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>image</div>
                                         <div class="schema string">string</div>
@@ -2040,17 +1976,11 @@
                     <hr />
 
                     <div id="list-graffiti">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List graffiti
-                        </h1>
+                        <h1 class="section-heading">List graffiti</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /graffiti.json
                             </div>
                             <div>
@@ -2059,7 +1989,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -2076,26 +2006,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -2108,7 +2036,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>rarity</div>
                                         <div class="text-slate-400">
                                             <span class="schema string"
@@ -2121,7 +2049,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>image</div>
                                         <div class="schema string">string</div>
@@ -2134,17 +2062,11 @@
                     <hr />
 
                     <div id="list-music-kits">
-                        <h1
-                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4"
-                        >
-                            List music kits
-                        </h1>
+                        <h1 class="section-heading">List music kits</h1>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center"
-                        >
+                        <div class="request-info">
                             <div>
-                                <span class="text-pink-400">GET</span>
+                                <span class="request-method">GET</span>
                                 /music_kits.json
                             </div>
                             <div>
@@ -2153,7 +2075,7 @@
                                     target="_blank"
                                 >
                                     <svg
-                                        class="w-5 h-5 text-slate-400 hover:text-slate-300"
+                                        class="request-icon"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -2170,26 +2092,24 @@
                             </div>
                         </div>
 
-                        <div
-                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden"
-                        >
-                            <div class="schema-data">
-                                <div class="px-3 py-1 schema array-object">
+                        <div class="details">
+                            <div class="">
+                                <div class="schema-type array-object">
                                     array[object]
                                 </div>
                                 <div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>id</div>
                                         <div class="schema string">string</div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>name</div>
                                         <div class="schema string">string</div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>description</div>
                                         <div class="text-slate-400">
@@ -2198,7 +2118,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>rarity</div>
                                         <div class="text-slate-400">
                                             <span class="schema string"
@@ -2207,7 +2127,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="grid grid-cols-2 px-8 py-1 bg-slate-700 bg-opacity-30"
+                                        class="schema-property"
                                     >
                                         <div>exclusive</div>
                                         <div class="text-slate-400">
@@ -2216,7 +2136,7 @@
                                             >
                                         </div>
                                     </div>
-                                    <div class="grid grid-cols-2 px-8 py-1">
+                                    <div class="schema-property">
                                         <div>image</div>
                                         <div class="schema string">string</div>
                                     </div>
