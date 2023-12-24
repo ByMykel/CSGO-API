@@ -585,6 +585,15 @@ const getItemFromKey = (key) => {
                         value.icon_path.includes(type)
                 );
 
+                // TODO: Remove this in the future.
+                // Added because of a problem loading `Revolution Case` skin's images.
+                if (weaponIcons[1].icon_path.includes("_newcs2")) {
+                    weaponIcons[1].icon_path = weaponIcons[1].icon_path.replace(
+                        "_newcs2",
+                        ""
+                    );
+                }
+
                 id = `skin-${weaponIcons[0]}`;
                 itemName = {
                     ...(isNotWeapon(type) && { tKey: "rare_special" }),
