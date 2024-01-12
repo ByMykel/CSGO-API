@@ -10,17 +10,15 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v1
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
               with:
-                  node-version: "16"
+                  node-version: 18
             - run: npm install
             - run: npm run group-data
             - run: |
                   git config user.name ByMykel
                   git config user.email bymykel5@gmail.com
                   git add .
-
                   git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Group JSON API"
-
                   git push origin main

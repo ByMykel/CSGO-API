@@ -2,8 +2,6 @@ name: Deploy to GitHub pages
 
 on:
     workflow_dispatch:
-    # push:
-    #   branches: [main]
     schedule:
         - cron: "0 9 * * *"
 
@@ -12,19 +10,15 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v2
-
-            - name: Commit generated files inside public folder
-              run: |
+            - uses: actions/checkout@v4
+            - run: |
                   git init
                   git add -A
                   git config --local user.email "action@github.com"
                   git config --local user.name "GitHub Action"
                   git commit -m 'deploy'
               working-directory: ./public
-
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4.3.3
+            - uses: JamesIves/github-pages-deploy-action@v4.3.3
               with:
                   branch: gh-pages
                   folder: public
