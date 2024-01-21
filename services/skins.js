@@ -18,6 +18,10 @@ const getPatternName = (weapon, string) => {
 };
 
 const isSkin = (iconPath) => {
+    if (iconPath.includes("newcs2")) {
+        return false;
+    }
+
     const regexSkinId = /econ\/default_generated\/(.*?)_light$/i;
 
     return regexSkinId.test(iconPath.toLowerCase());
