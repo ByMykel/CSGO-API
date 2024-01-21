@@ -61,7 +61,19 @@ export const getKeys = () => {
     const { items } = state;
     const { folder } = languageData;
 
-    const keys = Object.values(items).filter(isKey).map(parseItem);
+    const keys = [
+        // Hardcoded generic valve key that I can't find in `items`.
+        {
+            object_id: "generic_valve_key",
+            item_name: "#CSGO_Tool_WeaponCase_Key",
+            item_description: "#CSGO_Tool_WeaponCase_Key_Desc",
+            image_inventory: "econ/tools/weapon_case_key",
+            tool: {
+                restriction: "generic_valve_key",
+            },
+        },
+        ...Object.values(items).filter(isKey),
+    ].map(parseItem);
 
     saveDataJson(`./public/api/${folder}/keys.json`, keys);
 };
