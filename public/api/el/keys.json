@@ -1,5 +1,33 @@
 [
     {
+        "id": "key-generic_valve_key",
+        "name": "Κλειδί θήκης CS:GO",
+        "description": "Αυτό το κλειδί ανοίγει οποιαδήποτε θήκη όπλων σειράς Valve. Θήκες που δεν είναι ανήκουν στη σειρά Valve (π.χ. η θήκη όπλων eSports) απαιτούν το δικό τους κλειδί για να ανοίξουν.",
+        "crates": [
+            {
+                "id": "crate-4001",
+                "name": "CS:GO Θήκη όπλων",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_1.23c783d005b446a1004c97057cfb5ac2d8dae186.png"
+            },
+            {
+                "id": "crate-4003",
+                "name": "Θήκη επιχείρησης Bravo",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_operation_ii.5e5104a6291741c5693a1e78bd6ecc9560b51f0a.png"
+            },
+            {
+                "id": "crate-4004",
+                "name": "CS:GO Θήκη όπλων 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_2.912031176f2320d2d39f449ab3e27c41f5ec7faa.png"
+            },
+            {
+                "id": "crate-4010",
+                "name": "CS:GO Θήκη όπλων 3",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_3.b49dc22a06991946e849c7b364b7d5876534ef61.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/weapon_case_key.9da9cda11754311c016099d05c3dd3309ffd7cd6.png"
+    },
+    {
         "id": "key-1204",
         "name": "Κλειδί eSports",
         "description": "Αυτό το κλειδί ανοίγει οποιαδήποτε θήκη eSports.\\n\\nΈνα μέρος των εσόδων από τις πωλήσεις αυτού του κλειδιού διατίθεται σε κάποια από τις καθιερωμένες διοργανώσεις CS:GO της κοινότητας. Μείνετε συντονισμένοι για περαιτέρω ανακοινώσεις.",

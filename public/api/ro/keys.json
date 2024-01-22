@@ -1,5 +1,33 @@
 [
     {
+        "id": "key-generic_valve_key",
+        "name": "Cheie pentru cutia CS:GO",
+        "description": "Această cheie va deschide orice cutie din seriile create de Valve. Cutiile din celelalte serii (de exemplu: cutia eSports) au nevoie de chei specifice.",
+        "crates": [
+            {
+                "id": "crate-4001",
+                "name": "Cutie cu armă CS:GO",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_1.23c783d005b446a1004c97057cfb5ac2d8dae186.png"
+            },
+            {
+                "id": "crate-4003",
+                "name": "Cutie operațiunea Bravo",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_operation_ii.5e5104a6291741c5693a1e78bd6ecc9560b51f0a.png"
+            },
+            {
+                "id": "crate-4004",
+                "name": "Cutie cu armă CS:GO #2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_2.912031176f2320d2d39f449ab3e27c41f5ec7faa.png"
+            },
+            {
+                "id": "crate-4010",
+                "name": "Cutie cu armă CS:GO #3",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_3.b49dc22a06991946e849c7b364b7d5876534ef61.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/weapon_case_key.9da9cda11754311c016099d05c3dd3309ffd7cd6.png"
+    },
+    {
         "id": "key-1204",
         "name": "Cheie eSports",
         "description": "Această cheie deschide Cutia eSports.\\n\\nO parte din veniturile obținute din vânzări va fi oferită unuia dintre turneele importante din comunitatea de CS:GO. Mai multe informații vor fi dezvăluite în curând.",

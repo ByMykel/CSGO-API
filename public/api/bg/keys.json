@@ -1,5 +1,33 @@
 [
     {
+        "id": "key-generic_valve_key",
+        "name": "CS:GO ключ за сандък",
+        "description": "Този ключ ще отвори всеки оръжеен сандък от Valve сериите. Сандъци от други серии (напр. eSports) изискват собствен ключ, за да бъдат отворени.",
+        "crates": [
+            {
+                "id": "crate-4001",
+                "name": "CS:GO оръжеен сандък",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_1.23c783d005b446a1004c97057cfb5ac2d8dae186.png"
+            },
+            {
+                "id": "crate-4003",
+                "name": "Сандък от операция „Браво“",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_operation_ii.5e5104a6291741c5693a1e78bd6ecc9560b51f0a.png"
+            },
+            {
+                "id": "crate-4004",
+                "name": "CS:GO оръжеен сандък 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_2.912031176f2320d2d39f449ab3e27c41f5ec7faa.png"
+            },
+            {
+                "id": "crate-4010",
+                "name": "CS:GO оръжеен сандък 3",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_3.b49dc22a06991946e849c7b364b7d5876534ef61.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/weapon_case_key.9da9cda11754311c016099d05c3dd3309ffd7cd6.png"
+    },
+    {
         "id": "key-1204",
         "name": "Ключ за eSports",
         "description": "<b><font color='#F2A93E'>eSports Key</font></b>\\n \\nТози ключ отваря всеки eSports оръжеен сандък.\\n\\nЧаст от приходите при продажбата на този ключ ще се използват в подкрепа на някой утвърден турнир, ръководен от CS:GO общността. Очаквайте по-нататъшни анонси.",

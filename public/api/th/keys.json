@@ -1,5 +1,33 @@
 [
     {
+        "id": "key-generic_valve_key",
+        "name": "กุญแจเปิดกล่อง CS:GO",
+        "description": "กุญแจนี้จะเปิดกล่องอาวุธชุด Valve ใดก็ได้ ส่วนกล่องที่ไม่ใช่ชุด Valve (เช่น กล่อง eSports) จำเป็นต้องใช้กุญแจของของกล่องนั้นเองในการเปิด",
+        "crates": [
+            {
+                "id": "crate-4001",
+                "name": "กล่องอาวุธ CS:GO",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_1.23c783d005b446a1004c97057cfb5ac2d8dae186.png"
+            },
+            {
+                "id": "crate-4003",
+                "name": "กล่องปฏิบัติการ Bravo",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_operation_ii.5e5104a6291741c5693a1e78bd6ecc9560b51f0a.png"
+            },
+            {
+                "id": "crate-4004",
+                "name": "กล่องอาวุธ CS:GO ชุด 2",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_2.912031176f2320d2d39f449ab3e27c41f5ec7faa.png"
+            },
+            {
+                "id": "crate-4010",
+                "name": "กล่องอาวุธ CS:GO ชุด 3",
+                "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_valve_3.b49dc22a06991946e849c7b364b7d5876534ef61.png"
+            }
+        ],
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/weapon_case_key.9da9cda11754311c016099d05c3dd3309ffd7cd6.png"
+    },
+    {
         "id": "key-1204",
         "name": "กุญแจ eSports",
         "description": "สามารถใช้กุญแจนี้เพื่อเปิดกล่อง eSports Case ใดก็ได้\\n\\nส่วนหนึ่งของรายได้จากการขายกุญแจนี้นำไปมอบให้ชุมชนที่จัดตั้งดำเนินการทัวร์นาเมนต์ CS:GO โปรดติดตามสำหรับการประกาศเพิ่มเติม",
