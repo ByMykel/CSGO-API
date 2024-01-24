@@ -582,7 +582,10 @@ const getItemFromKey = (key) => {
                 ).find(
                     ([, value]) =>
                         value.icon_path.includes(name) &&
-                        value.icon_path.includes(type)
+                        value.icon_path.includes(type) &&
+                        (name.includes("newcs2")
+                            ? true
+                            : !value.icon_path.includes("newcs2"))
                 );
 
                 // TODO: Remove this in the future.
