@@ -264,7 +264,7 @@ export const getWears = (minFloat, maxFloat) => {
 
     return wears
         .filter((range) => {
-            return range.min <= maxFloat && range.max >= minFloat;
+            return range.min < maxFloat && range.max >= minFloat;
         })
         .map((range) => range.wear);
 };
