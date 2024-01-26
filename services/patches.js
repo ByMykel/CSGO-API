@@ -4,7 +4,18 @@ import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 
-const isPatch = (item) => !(item.patch_material === undefined);
+const isPatch = (item) => {
+    if (
+        [
+            "case_skillgroups/patch_dmg",
+            "case_skillgroups/patch_legendaryeagle",
+        ].includes(item.patch_material)
+    ) {
+        return false;
+    }
+
+    return !(item.patch_material === undefined);
+};
 
 const parseItem = (item) => {
     const image = cdn[`econ/patches/${item.patch_material}_large`];
