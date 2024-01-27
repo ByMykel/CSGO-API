@@ -60,7 +60,7 @@ const parseItem = (item, items) => {
     const isStatTrak =
         weapon.includes("knife") ||
         weapon.includes("bayonet") ||
-        state.stattTrakSkins[pattern] !== undefined;
+        state.stattTrakSkins[`[${pattern}]${weapon}`] !== undefined;
 
     const isKnife =
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
