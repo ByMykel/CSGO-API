@@ -477,7 +477,7 @@ const getItemFromKey = (key) => {
     if (key.includes("Commodity Pin")) {
         const pin = items[key];
         return {
-            id: `collection-${pin.object_id}`,
+            id: `collectible-${pin.object_id}`,
             name: pin.item_name,
             rarity: `rarity_${pin.item_rarity}`,
         };
