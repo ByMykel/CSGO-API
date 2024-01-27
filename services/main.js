@@ -446,22 +446,14 @@ export const loadStattrakSkins = () => {
     });
 
     const result = {
-        cu_m4a1_howling: true,
+        "[cu_m4a1_howling]weapon_m4a1": true,
     };
 
+    const skipCollections = ["#CSGO_set_dust_2_2021"];
+
     itemSets.forEach((item) => {
-        if (item.is_collection) {
-            const keys = Object.keys(item.items).map((item) => {
-                const pattern = item.match(/\[(.*?)\]/i);
-
-                if (pattern) {
-                    return pattern[1];
-                }
-
-                return item;
-            });
-
-            keys.forEach((key) => {
+        if (item.is_collection && !skipCollections.includes(item.name)) {
+            Object.keys(item.items).forEach((key) => {
                 if (crates[item.name.replace("#CSGO_", "")] !== undefined) {
                     result[key.toLocaleLowerCase()] = true;
                 }

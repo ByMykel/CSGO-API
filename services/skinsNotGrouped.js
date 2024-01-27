@@ -52,7 +52,7 @@ const parseItem = (item, items) => {
     const isStatTrak =
         weapon.includes("knife") ||
         weapon.includes("bayonet") ||
-        stattTrakSkins[pattern] !== undefined;
+        stattTrakSkins[`[${pattern}]${weapon}`] !== undefined;
     const isSouvenir = souvenirSkins?.[`skin-${item.object_id}`] ?? false;
 
     const isKnife =
