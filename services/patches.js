@@ -6,10 +6,7 @@ import { getRarityColor } from "../utils/index.js";
 
 const isPatch = (item) => {
     if (
-        [
-            "case_skillgroups/patch_dmg",
-            "case_skillgroups/patch_legendaryeagle",
-        ].includes(item.patch_material)
+        ["case_skillgroups/patch_legendaryeagle"].includes(item.patch_material)
     ) {
         return false;
     }
