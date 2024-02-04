@@ -34,7 +34,7 @@ const parseItem = (item) => {
     let description = $t("CSGO_Tool_Sticker_Desc")
     let desc_translate = $t(item.description_string);
     if (desc_translate && desc_translate.length > 0 && item.description_string !== `#${desc_translate}`) {
-        description = `${description} ${desc_translate}`;
+        description = `${description}\\n\\n${desc_translate}`;
     }
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.

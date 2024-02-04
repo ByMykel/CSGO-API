@@ -17,10 +17,16 @@ const isPatch = (item) => {
 const parseItem = (item) => {
     const image = cdn[`econ/patches/${item.patch_material}_large`];
 
+    let description = $t("CSGO_Tool_Patch_Desc")
+    let desc_translate = $t(item.description_string);
+    if (desc_translate && desc_translate.length > 0) {
+        description = `${description}\\n\\n${desc_translate}`;
+    }
+
     return {
         id: `patch-${item.object_id}`,
         name: `${$t("csgo_tool_patch")} | ${$t(item.item_name)}`,
-        description: $t(item.description_string),
+        description,
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
