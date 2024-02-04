@@ -53,9 +53,19 @@ const parseItem = (item, items) => {
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
-    const translatedDescription = !isNotWeapon(weapon)
+    let translatedDescription = !isNotWeapon(weapon)
         ? $t(items[weapon].item_description_prefab)
         : $t(items[weapon].item_description);
+
+    // Add paint kit description
+    if (pattern.includes('_')) {
+        const split = pattern.split('_');
+        const paint_kit = `#PaintKit_${split[0]}_${split[1]}`;
+        const desc = $t(paint_kit);
+        if (desc && desc.length > 0) {
+            translatedDescription = `${translatedDescription}\\n\\n${desc}`;
+        }
+    }
 
     const isStatTrak =
         weapon.includes("knife") ||

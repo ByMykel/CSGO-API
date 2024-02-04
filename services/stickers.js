@@ -31,6 +31,12 @@ const parseItem = (item) => {
     const image =
         cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
+    let description = $t("CSGO_Tool_Sticker_Desc")
+    let description_translate = $t(item.description_string);
+    if (description_translate && description_translate.length > 0 && item.description_string !== `#${description_translate}`) {
+        description = `${description}\\n\\n${description_translate}`;
+    }
+
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {
         item.item_name = "#StickerKit_dhw2014_teamdignitas_gold";
@@ -39,7 +45,7 @@ const parseItem = (item) => {
     return {
         id: `sticker-${item.object_id}`,
         name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
-        description: $t(item.description_string),
+        description,
         rarity: item.item_rarity
             ? {
                   id: `rarity_${item.item_rarity}`,
