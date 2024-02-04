@@ -8,7 +8,7 @@ import {
     getRarityColor,
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $t, $tc, languageData } from "./translations.js";
+import { $t, $tTag, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
@@ -57,13 +57,23 @@ const parseItem = (item, items) => {
         ? $t(items[weapon].item_description_prefab)
         : $t(items[weapon].item_description);
 
-    // Add paint kit description
-    if (pattern.includes('_')) {
-        const split = pattern.split('_');
-        const paint_kit = `#PaintKit_${split[0]}_${split[1]}`;
-        const desc = $t(paint_kit);
+    // Add paint kit description (pattern, tag, idx)
+    const paint_kit = `#PaintKit_${pattern}`;
+    const desc = $t(paint_kit);
+    if (desc && desc.length > 0) {
+        translatedDescription = `${translatedDescription} ${desc}`;
+    } else {
+        const tag = paintKits[pattern].description_tag
+            .replace('_Tag', '')
+            .replace('_tag', '');
+        const desc = $t(tag);
         if (desc && desc.length > 0) {
-            translatedDescription = `${translatedDescription}\\n\\n${desc}`;
+            translatedDescription = `${translatedDescription} ${desc}`;
+        } else {
+            const desc = $tTag(paintKits[pattern].description_tag);
+            if (desc && desc.length > 0) {
+                translatedDescription = `${translatedDescription} ${desc}`;
+            }
         }
     }
 

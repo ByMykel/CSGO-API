@@ -5,7 +5,9 @@ import customTranslations from "../utils/translations.json" assert { type: "json
 export let languageData = null;
 const translations = {
     default: null,
+    default_idx: [],
     selected: null,
+    selected_idx: [],
 };
 
 export const $t = (key, useDefault = false) => {
@@ -16,6 +18,21 @@ export const $t = (key, useDefault = false) => {
     }
 
     return translations.selected[key] || translations.default[key] || null;
+};
+
+export const $tTag = (key, useDefault = false) => {
+    key = key?.replace("#", "").toLowerCase();
+    const target = useDefault ? translations.default : translations.selected;
+    const targetIdx = useDefault ? translations.default_idx : translations.selected_idx;
+    const search = targetIdx.indexOf(key);
+    if (search !== -1) {
+        for (let i = search; i >= 0; i--) {
+            if (!targetIdx[i].toLowerCase().includes("_tag")) {
+                return target[targetIdx[i]];
+            }
+        }
+    }
+    return null;
 };
 
 export const $tc = (key, data = {}) => {
@@ -56,14 +73,20 @@ const getTranslations = async (url) => {
         ])
     );
 
-    return lowerCaseKeys;
+    const lowerCaseKeysIdx = [];
+    for (const key in lowerCaseKeys) {
+        lowerCaseKeysIdx.push(key);
+    }
+
+    return {lowerCaseKeys, lowerCaseKeysIdx};
 };
 
 export const loadTranslations = async ({ language, url, folder }) => {
     if (translations.default == null) {
         await getTranslations(CSGO_ENGLISH_URL)
             .then((data) => {
-                translations.default = data;
+                translations.default = data.lowerCaseKeys;
+                translations.default_idx = data.lowerCaseKeysIdx;
             })
             .catch(() => {
                 throw new Error(
@@ -75,7 +98,8 @@ export const loadTranslations = async ({ language, url, folder }) => {
     await getTranslations(url)
         .then((data) => {
             languageData = { language, folder };
-            translations.selected = data;
+            translations.selected = data.lowerCaseKeys;
+            translations.selected_idx = data.lowerCaseKeysIdx;
         })
         .catch(() => {
             throw new Error(`Error loading translations from ${url}`);

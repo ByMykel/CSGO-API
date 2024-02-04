@@ -32,9 +32,9 @@ const parseItem = (item) => {
         cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
     let description = $t("CSGO_Tool_Sticker_Desc")
-    let description_translate = $t(item.description_string);
-    if (description_translate && description_translate.length > 0 && item.description_string !== `#${description_translate}`) {
-        description = `${description}\\n\\n${description_translate}`;
+    let desc_translate = $t(item.description_string);
+    if (desc_translate && desc_translate.length > 0 && item.description_string !== `#${desc_translate}`) {
+        description = `${description} ${desc_translate}`;
     }
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
