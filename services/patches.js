@@ -20,7 +20,7 @@ const parseItem = (item) => {
     let description = $t("CSGO_Tool_Patch_Desc")
     let desc_translate = $t(item.description_string);
     if (desc_translate && desc_translate.length > 0) {
-        description = `${description}\\n\\n${desc_translate}`;
+        description = `${description}<br><br>${desc_translate}`;
     }
 
     return {
