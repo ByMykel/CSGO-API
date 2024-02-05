@@ -21,6 +21,15 @@ const isGraffiti = (item) => {
     return false;
 };
 
+const getDescription = (item) => {
+    let msg = $t("csgo_tool_spray_desc");
+    let desc = $t(item.description_string);
+    if (desc && desc.length > 0) {
+        msg = `${msg}<br><br>${desc}`;
+    }
+    return msg;
+}
+
 const parseItemSealedGraffiti = (item) => {
     const { cratesBySkins } = state;
     const image = cdn[`econ/stickers/${item.sticker_material}_large`];
@@ -28,11 +37,7 @@ const parseItemSealedGraffiti = (item) => {
     return {
         id: `graffiti-${item.object_id}`,
         name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
-        description:
-            item.description_string.includes("SprayKit_desc_") ||
-            item.description_string.includes("StickerKit_")
-                ? $t("csgo_tool_spray_desc")
-                : $t(item.description_string),
+        description: getDescription(item),
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
