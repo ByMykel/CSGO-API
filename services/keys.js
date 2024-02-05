@@ -75,5 +75,8 @@ export const getKeys = () => {
         ...Object.values(items).filter(isKey),
     ].map(parseItem);
 
-    saveDataJson(`./public/api/${folder}/keys.json`, keys);
+    // remove "key-4904" from keys.
+    const filteredKeys = keys.filter((key) => key.id !== "key-4904");
+
+    saveDataJson(`./public/api/${folder}/keys.json`, filteredKeys);
 };
