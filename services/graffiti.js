@@ -28,7 +28,7 @@ const getDescription = (item) => {
         msg = `${msg}<br><br>${desc}`;
     }
     return msg;
-}
+};
 
 const parseItemSealedGraffiti = (item) => {
     const { cratesBySkins } = state;
