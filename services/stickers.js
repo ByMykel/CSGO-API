@@ -25,6 +25,17 @@ const isSticker = (item) => {
     return true;
 };
 
+const getDescription = (item) => {
+    let msg = $t("CSGO_Tool_Sticker_Desc")
+    let desc = $t(item.description_string);
+    if (desc && desc.length > 0 &&
+        item.description_string !== `#${desc}`
+    ) {
+        msg = `${msg}<br><br>${desc}`;
+    }
+    return msg;
+};
+
 const parseItem = (item) => {
     const { cratesBySkins } = state;
 
@@ -39,7 +50,7 @@ const parseItem = (item) => {
     return {
         id: `sticker-${item.object_id}`,
         name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
-        description: $t(item.description_string),
+        description: getDescription(item),
         rarity: item.item_rarity
             ? {
                   id: `rarity_${item.item_rarity}`,

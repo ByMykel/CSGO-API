@@ -73,7 +73,9 @@ export const getKeys = () => {
             },
         },
         ...Object.values(items).filter(isKey),
-    ].map(parseItem);
+    ]
+        .map(parseItem)
+        .filter(({ name }) => name);
 
     saveDataJson(`./public/api/${folder}/keys.json`, keys);
 };
