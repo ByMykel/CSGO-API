@@ -1154,7 +1154,7 @@
     {
         "id": "collectible-970",
         "name": "Uskollisuusmerkki",
-        "description": "This badge commemorates loyal membership in the Counter-Strike community prior to the Danger Zone update.\\n\\n<i>Strength through loyalty.</i>",
+        "description": "Merkki juhlistaa Counter-Strike-yhteisön uskollisia jäseniä, jotka olivat mukana jo ennen Vaaravyöhyke-päivitystä.\\n\\n <i>Vahvuus tulee uskollisuuden kautta.</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -1417,8 +1417,8 @@
     },
     {
         "id": "collectible-992",
-        "name": "Champion at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Champion at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "BLAST.tv Paris 2023 -mestari",
+        "description": "Mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Majorin mestarille.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -1429,8 +1429,8 @@
     },
     {
         "id": "collectible-993",
-        "name": "Finalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Finalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "BLAST.tv Paris 2023 -finalisti",
+        "description": "Mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Majorin finalistille.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -1441,8 +1441,8 @@
     },
     {
         "id": "collectible-994",
-        "name": "Semifinalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Semifinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "BLAST.tv Paris 2023 -semifinalisti",
+        "description": "Mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Majorin semifinalistille.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -1453,8 +1453,8 @@
     },
     {
         "id": "collectible-995",
-        "name": "Quarterfinalist at BLAST.tv Paris 2023",
-        "description": "This championship trophy was awarded to the Quarterfinalist at the BLAST.tv Paris 2023 CS:GO Major Championship.",
+        "name": "BLAST.tv Paris 2023 -neljännesfinalisti",
+        "description": "Mestaruuspalkinto myönnettiin BLAST.tv Paris 2023 CS:GO Majorin neljännesfinalistille.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -1465,8 +1465,8 @@
     },
     {
         "id": "collectible-996",
-        "name": "Global Offensive Badge",
-        "description": "This badge commemorates loyal membership in the Counter-Strike: Global Offensive community prior to the release of Counter-Strike 2. \\n\\n<i>Legends never die.</i>",
+        "name": "Global Offensive -merkki",
+        "description": "Merkki on kunnianosoitus Counter-Strike: Global Offensive -yhteisön uskollisesta jäsenyydestä ennen Counter-Strike 2:n julkaisua. \\n\\n<i>Legendat eivät koskaan kuole</i>",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -4189,8 +4189,8 @@
     },
     {
         "id": "collectible-4884",
-        "name": "Paris 2023 Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Paris 2023 -kolikko",
+        "description": "Tämä on BLAST.tv Paris 2023 CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Paris 2023 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Paris 2023 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -4201,8 +4201,8 @@
     },
     {
         "id": "collectible-4885",
-        "name": "Paris 2023 Silver Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Paris 2023 -hopeakolikko",
+        "description": "Tämä on BLAST.tv Paris 2023 CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Paris 2023 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Paris 2023 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -4213,8 +4213,8 @@
     },
     {
         "id": "collectible-4886",
-        "name": "Paris 2023 Gold Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Paris 2023 -kultakolikko",
+        "description": "Tämä on BLAST.tv Paris 2023 CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Paris 2023 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Paris 2023 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -4225,8 +4225,8 @@
     },
     {
         "id": "collectible-4887",
-        "name": "Paris 2023 Diamond Coin",
-        "description": "This is a commemorative BLAST.tv Paris 2023 CS:GO Major Championship Coin which tracks your progress throughout the event, provides full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and unlimited graffiti opportunities in-game for the duration of the event.\\n\\nUpgrade your Paris 2023 Coin by completing coin challenges. Earn a Souvenir Token every time you upgrade your coin.",
+        "name": "Paris 2023 -timanttikolikko",
+        "description": "Tämä on BLAST.tv Paris 2023 CS:GO Major -turnauksen mestaruuskolikko, jolla seuraat edistystäsi kisoissa. Se sisältää pääsyn Paris 2023 Pick'Em -haasteeseen, kolikkohaasteisiin, Steam.tv-chatin kannustuslogoihin ja joukkuegraffitin käyttöön tapahtuman aikana.\\n\\nVoit päivittää Paris 2023 -kolikkoa suorittamalla tehtäviä. Jokaisesta kolikon päivityksestä saa tuliaispoletin.",
         "rarity": {
             "id": "rarity_ancient",
             "name": "Merkillinen",
@@ -4238,7 +4238,7 @@
     {
         "id": "collectible-4888",
         "name": "Paris 2023 -katsojapassi + 3 tuliaispolettia",
-        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship viewer pass. Once this pass is unsealed, it will provide you with the Paris 2023 Coin tracking your progress throughout the event, full access to the Paris 2023 Pick'Em Challenge, Steam.tv chat flairs, coin challenges, and with unlimited graffiti opportunities in-game for the duration of the event.\\n\\nYou will upgrade your Paris 2023 Coin by completing the coin challenges. Earn a Souvenir Token every time you upgrade your Coin.\\n\\nThis viewer pass will pre-activate your Paris 2023 Coin with 3 Souvenir Tokens.\\n\\n50% of the proceeds from the sale of this pass support the participating organizations.",
+        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO Major -turnauksen katsojapassi. Avaamalla passin saat Paris 2023 -kolikon, jolla seuraat edistystäsi tapahtuman ajan. Passi sisältää myös pääsyn Paris 2023 Pick'Em -haasteeseen, Steam.tv-chatin kannustuslogoihin ja kolikkohaasteisiin sekä rajoittamattoman joukkuegraffitin käytön tapahtuman aikana.\\n\\nVoit nostaa Paris 2023 -kolikkosi tasoa suorittamalla tehtäviä. Jokaisesta kolikon tason korotuksesta ansaitset tuliaispoletin.\\n\\nKatsojapassi aktivoi Paris 2023 -kolikkosi, ja saat samalla kolme tuliaispolettia.\\n\\nPuolet myyntituotoista käytetään tapahtumaan osallistuvien järjestöjen tukemiseen.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason",
@@ -4250,7 +4250,7 @@
     {
         "id": "collectible-4889",
         "name": "Paris 2023 -tuliaispoletti",
-        "description": "This is a sealed BLAST.tv Paris 2023 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Paris 2023 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Paris 2023 Coin.",
+        "description": "Tämä on sinetöity BLAST.tv Paris 2023 CS:GO Major -turnauksen tuliaispoletti. Kun poletin sinetti on avattu, se lisää poletin Paris 2023 -kolikkoosi ja antaa mahdollisuuden lunastaa tuliaispaketin.\\n\\nPoletteja voi käyttää ainoastaan olemassa olevaan Paris 2023 -kolikkoon.",
         "rarity": {
             "id": "rarity_common",
             "name": "Perustason",

@@ -1570,5 +1570,149 @@
         },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
+    },
+    {
+        "id": "music_kit-71",
+        "name": "Musiksæt | DRYDEN, Feel The Power",
+        "description": "Behøver vi sige mere? Mærk kraften. Lad energien fra den elektroniske musik i dette sæt fylde dig.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-71_st",
+        "name": "StatTrak™-musiksæt | DRYDEN, Feel The Power",
+        "description": "Behøver vi sige mere? Mærk kraften. Lad energien fra den elektroniske musik i dette sæt fylde dig.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-72",
+        "name": "Musiksæt | ISOxo, inhuman",
+        "description": "Lavet specielt til de kampe, hvor du føler dig... <i>anderledes</i>. Plag dine fjender runde efter runde med det umenneskelige musiksæt fra ISOxo.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-72_st",
+        "name": "StatTrak™-musiksæt | ISOxo, inhuman",
+        "description": "Lavet specielt til de kampe, hvor du føler dig... <i>anderledes</i>. Plag dine fjender runde efter runde med det umenneskelige musiksæt fra ISOxo.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-73",
+        "name": "Musiksæt | KILL SCRIPT, All Night",
+        "description": "Er du en elsker eller en kriger? Måske begge dele? Fortæl det til hele lobbyen med musiksættet \\\"All Night\\\" fra KILL SCRIPT.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-73_st",
+        "name": "StatTrak™-musiksæt | KILL SCRIPT, All Night",
+        "description": "Er du en elsker eller en kriger? Måske begge dele? Fortæl det til hele lobbyen med musiksættet \\\"All Night\\\" fra KILL SCRIPT.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-74",
+        "name": "Musiksæt | Knock2, Make U SWEAT!",
+        "description": "For spillere, som behandler hver kamp, som om det er en majorfinale, også når der kun er nogle få hundrede niveaupoint på spil. Bring energi og sejre med Knock2's andet musiksæt, \\\"Make U SWEAT!\\\".",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-74_st",
+        "name": "StatTrak™-musiksæt | Knock2, Make U SWEAT!",
+        "description": "For spillere, som behandler hver kamp, som om det er en majorfinale, også når der kun er nogle få hundrede niveaupoint på spil. Bring energi og sejre med Knock2's andet musiksæt, \\\"Make U SWEAT!\\\".",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-75",
+        "name": "Musiksæt | Rad Cat, Reason",
+        "description": "Nogle gange er det nok at demontere bomben for at blive rundens MVP. Fejr hvert eneste øjeblik – stort eller lille – med musiksættet \\\"Reason\\\" fra Rad Cat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-75_st",
+        "name": "StatTrak™-musiksæt | Rad Cat, Reason",
+        "description": "Nogle gange er det nok at demontere bomben for at blive rundens MVP. Fejr hvert eneste øjeblik – stort eller lille – med musiksættet \\\"Reason\\\" fra Rad Cat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-76",
+        "name": "Musiksæt | TWERL, Ekko & Sidetrack, Under Bright Lights",
+        "description": "Den bedste tid at komme til live er i rampelyset. Lad tromme- og basrytmerne i \\\"Under Bright Lights\\\" af TWERL og Ekko & Sidetrack løfte dig og dit hold til nye højder.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+    },
+    {
+        "id": "music_kit-76_st",
+        "name": "StatTrak™-musiksæt | TWERL og Ekko & Sidetrack, Under Bright Lights",
+        "description": "Den bedste tid at komme til live er i rampelyset. Lad tromme- og basrytmerne i \\\"Under Bright Lights\\\" af TWERL og Ekko & Sidetrack løfte dig og dit hold til nye højder.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Højkvalitet",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
     }
 ]

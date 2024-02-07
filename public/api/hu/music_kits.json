@@ -1549,7 +1549,7 @@
     },
     {
         "id": "music_kit-69",
-        "name": "Zenekészlet | Denzel Curry, ULTIMATE",
+        "name": "Zenekészlet | Denzel Curry - ULTIMATE",
         "description": "Denzel elhozza jellegzetes energiáját a CS:GO-ba trap, jazz és drum and bass ritmusaival. E készletben megtalálhatók Denzel olyan sikerei, mint a „Walkin”, az „ULTIMATE” és mások, hát kapd elő a nikkelezett króm Berettákat és tekerd fel az intenzitást az ULTIMATE zenekészlettel.",
         "rarity": {
             "id": "rarity_rare",
@@ -1561,7 +1561,7 @@
     },
     {
         "id": "music_kit-69_st",
-        "name": "StatTrak™ Zenekészlet | Denzel Curry, ULTIMATE",
+        "name": "StatTrak™ Zenekészlet | Denzel Curry - ULTIMATE",
         "description": "Denzel elhozza jellegzetes energiáját a CS:GO-ba trap, jazz és drum and bass ritmusaival. E készletben megtalálhatók Denzel olyan sikerei, mint a „Walkin”, az „ULTIMATE” és mások, hát kapd elő a nikkelezett króm Berettákat és tekerd fel az intenzitást az ULTIMATE zenekészlettel.",
         "rarity": {
             "id": "rarity_rare",
@@ -1570,5 +1570,149 @@
         },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
+    },
+    {
+        "id": "music_kit-71",
+        "name": "Zenekészlet | DRYDEN - Feel The Power",
+        "description": "Mit mondhatnánk még? Feel The Power. Kapcsolódj be DRYDEN energikus elektronikus zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-71_st",
+        "name": "StatTrak™ Zenekészlet | DRYDEN - Feel The Power",
+        "description": "Mit mondhatnánk még? Feel The Power. Kapcsolódj be DRYDEN energikus elektronikus zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-72",
+        "name": "Zenekészlet | ISOxo - inhuman",
+        "description": "Kifejezetten azokhoz a játékokhoz készült, amikor... <i>másnak</i> érzed magad. Kísértsd ellenségeidet körről körre ISOxo „inhuman” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-72_st",
+        "name": "StatTrak™ Zenekészlet | ISOxo - inhuman",
+        "description": "Kifejezetten azokhoz a játékokhoz készült, amikor... <i>másnak</i> érzed magad. Kísértsd ellenségeidet körről körre ISOxo „inhuman” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-73",
+        "name": "Zenekészlet | KILL SCRIPT - All Night",
+        "description": "Kedves vagy, vagy harcos? Talán mindkettő? Tudasd az egész váróval KILL SCRIPT „All Night” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-73_st",
+        "name": "StatTrak™ Zenekészlet | KILL SCRIPT - All Night",
+        "description": "Kedves vagy, vagy harcos? Talán mindkettő? Tudasd az egész váróval KILL SCRIPT „All Night” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-74",
+        "name": "Zenekészlet | Knock2 - Make U SWEAT!",
+        "description": "Azoknak a játékosoknak, akik minden játékot úgy kezelnek, mintha egy Major döntője volna, még ha csak némi CS besorolás forog is kockán. Jöjjön az energia és a győzelmek Knock2 második zenekészletével, a „Make U SWEAT!”-tel.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-74_st",
+        "name": "StatTrak™ Zenekészlet | Knock2 - Make U SWEAT!",
+        "description": "Azoknak a játékosoknak, akik minden játékot úgy kezelnek, mintha egy Major döntője volna, még ha csak némi CS besorolás forog is kockán. Jöjjön az energia és a győzelmek Knock2 második zenekészletével, a „Make U SWEAT!”-tel.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-75",
+        "name": "Zenekészlet | Rad Cat - Reason",
+        "description": "Néha a bomba hatástalanítása is elég, hogy a kör MVP-je legyél. Ünnepelj minden pillanatot, kicsit és nagyot, Rad Cat „Reason” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-75_st",
+        "name": "StatTrak™ Zenekészlet | Rad Cat - Reason",
+        "description": "Néha a bomba hatástalanítása is elég, hogy a kör MVP-je legyél. Ünnepelj minden pillanatot, kicsit és nagyot, Rad Cat „Reason” zenekészletével.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-76",
+        "name": "Zenekészlet | TWERL és Ekko & Sidetrack - Under Bright Lights",
+        "description": "Nincs jobb alkalom belelendülni, mint amikor reflektorfényben vagy. Engedd, hogy TWERL és Ekko & Sidetrack „Under Bright Lights” című drum and bass himnusza új magasságokba vigyen téged és csapatodat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+    },
+    {
+        "id": "music_kit-76_st",
+        "name": "StatTrak™ Zenekészlet | TWERL és Ekko & Sidetrack - Under Bright Lights",
+        "description": "Nincs jobb alkalom belelendülni, mint amikor reflektorfényben vagy. Engedd, hogy TWERL és Ekko & Sidetrack „Under Bright Lights” című drum and bass himnusza új magasságokba vigyen téged és csapatodat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "Magas fokozatú",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
     }
 ]

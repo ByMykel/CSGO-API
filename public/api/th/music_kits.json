@@ -1570,5 +1570,149 @@
         },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
+    },
+    {
+        "id": "music_kit-71",
+        "name": "ชุดอุปกรณ์เพลง | DRYDEN, Feel The Power",
+        "description": "ต้องให้พูดอะไรอีก? จงรู้สึกถึงพลัง และเพลินไปกับชุดอุปกรณ์เพลงอิเล็กทรอนิกส์พลังแรงสูงจาก DRYDEN",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-71_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | DRYDEN, Feel The Power",
+        "description": "ต้องให้พูดอะไรอีก? จงรู้สึกถึงพลัง และเพลินไปกับชุดอุปกรณ์เพลงอิเล็กทรอนิกส์พลังแรงสูงจาก DRYDEN",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-72",
+        "name": "ชุดอุปกรณ์เพลง | ISOxo, inhuman",
+        "description": "จัดทำขึ้นมาโดยเฉพาะให้สำหรับเหล่าเกมที่คุณรู้สึกว่า... <i>แตกต่าง</i> จงหลอกหลอนศัตรูของคุณรอบแล้ว รอบเล่าด้วยชุดอุปกรณ์เพลง \\\"inhuman\\\" จาก ISOxo",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-72_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | ISOxo, inhuman",
+        "description": "จัดทำขึ้นมาโดยเฉพาะให้สำหรับเหล่าเกมที่คุณรู้สึกว่า... <i>แตกต่าง</i> จงหลอกหลอนศัตรูของคุณรอบแล้ว รอบเล่าด้วยชุดอุปกรณ์เพลง \\\"inhuman\\\" จาก ISOxo",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-73",
+        "name": "ชุดอุปกรณ์เพลง | KILL SCRIPT, All Night",
+        "description": "คุณเป็นนักรักหรือนักสู้? หรือเป็นทั้งสองอย่าง? มาให้ทั้งล็อบบี้รับรู้ไปด้วยกันกับชุดอุปกรณ์เพลง \\\"All Night\\\" จาก KILL SCRIPT",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-73_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | KILL SCRIPT, All Night",
+        "description": "คุณเป็นนักรักหรือนักสู้? หรือเป็นทั้งสองอย่าง? มาให้ทั้งล็อบบี้รับรู้ไปด้วยกันกับชุดอุปกรณ์เพลง \\\"All Night\\\" จาก KILL SCRIPT",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-74",
+        "name": "ชุดอุปกรณ์เพลง | Knock2, Make U SWEAT!",
+        "description": "สำหรับผู้เล่นที่เล่นทุกเกมเหมือนแข่งในงานเมเจอร์รอบชิงชนะเลิศ แม้ว่าจะมี CSR เพียงไม่กี่ร้อยในอันดับก็ตาม จงใช้พลังและนำชัยชนะมาให้ได้ด้วยชุดอุปกรณ์เพลงชุดที่สองของ Knock2 - \\\"Make U SWEAT!\\\"",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-74_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | Knock2, Make U SWEAT!",
+        "description": "สำหรับผู้เล่นที่เล่นทุกเกมเหมือนแข่งในงานเมเจอร์รอบชิงชนะเลิศ แม้ว่าจะมี CSR เพียงไม่กี่ร้อยในอันดับก็ตาม จงใช้พลังและนำชัยชนะมาให้ได้ด้วยชุดอุปกรณ์เพลงชุดที่สองของ Knock2 - \\\"Make U SWEAT!\\\"",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-75",
+        "name": "ชุดอุปกรณ์เพลง | Rad Cat, Reason",
+        "description": "บางครั้งการปลดชนวนระเบิดอาจไม่เพียงพอให้ได้เป็น MVP ของรอบนั้น ดังนั้นมาฉลองให้กับทุกช่วงเวลาไม่ว่าจะเล็กหรือใหญ่แค่ไหนก็ตาม ด้วยชุดอุปกรณ์เพลง \\\"Reason\\\" จาก Rad Cat",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-75_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | Rad Cat, Reason",
+        "description": "บางครั้งการปลดชนวนระเบิดอาจไม่เพียงพอให้ได้เป็น MVP ของรอบนั้น ดังนั้นมาฉลองให้กับทุกช่วงเวลาไม่ว่าจะเล็กหรือใหญ่แค่ไหนก็ตาม ด้วยชุดอุปกรณ์เพลง \\\"Reason\\\" จาก Rad Cat",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-76",
+        "name": "ชุดอุปกรณ์เพลง | TWERL, Ekko & Sidetrack, Under Bright Lights",
+        "description": "ไม่มีช่วงเวลาไหนจะดีไปกว่าการได้มีชีวิตชีวาตอนเป็นดาวเด่น มาให้ทำนองเพลงกลองและเบส \\\"Under Bright Lights\\\" โดย TWERL และ Ekko & Sidetrack แบกคุณและทีมไปสู่จุดสูงสุดใหม่",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+    },
+    {
+        "id": "music_kit-76_st",
+        "name": "ชุดอุปกรณ์เพลง StatTrak™ | TWERL, Ekko & Sidetrack, Under Bright Lights",
+        "description": "ไม่มีช่วงเวลาไหนจะดีไปกว่าการได้มีชีวิตชีวาตอนเป็นดาวเด่น มาให้ทำนองเพลงกลองและเบส \\\"Under Bright Lights\\\" โดย TWERL และ Ekko & Sidetrack แบกคุณและทีมไปสู่จุดสูงสุดใหม่",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "เกรดสูง",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
     }
 ]

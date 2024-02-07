@@ -550,6 +550,18 @@
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/crate_key_community_32.fa9b42c1eefd4304b2860014584fa42309675505.png"
     },
     {
+        "id": "key-1394",
+        "name": "Chìa khóa hòm Kilowatt",
+        "description": "Chìa khóa này chỉ mở hòm Kilowatt",
+        "crates": [
+            {
+                "id": "crate-4904",
+                "name": "Hòm Kilowatt"
+            }
+        ],
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/tools/crate_key_community_33.png"
+    },
+    {
         "id": "key-7000",
         "name": "Chìa khóa hòm chiến dịch Wildfire",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Wildfire",

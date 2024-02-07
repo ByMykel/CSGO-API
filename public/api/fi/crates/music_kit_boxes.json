@@ -525,5 +525,147 @@
         ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_musickit_initiators_stattrak_capsule.d20d2c4030e8c41199e11cec8617f70f1c6f36b0.png"
+    },
+    {
+        "id": "crate-4914",
+        "name": "NIGHTMODE-musiikkipakkauslaatikko",
+        "description": "Laatikko sisältää musiikkipakkauksia NIGHTMODE-artisteilta.",
+        "type": "Music Kit Box",
+        "first_sale_date": "2024/01/24",
+        "contains": [
+            {
+                "id": "music_kit-71",
+                "name": "Musiikkipakkaus | DRYDEN: Feel The Power",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+            },
+            {
+                "id": "music_kit-72",
+                "name": "Musiikkipakkaus | ISOxo: inhuman",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+            },
+            {
+                "id": "music_kit-73",
+                "name": "Musiikkipakkaus | KILL SCRIPT: All Night",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+            },
+            {
+                "id": "music_kit-74",
+                "name": "Musiikkipakkaus | Knock2: Make U SWEAT!",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+            },
+            {
+                "id": "music_kit-75",
+                "name": "Musiikkipakkaus | Rad Cat: Reason",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+            },
+            {
+                "id": "music_kit-76",
+                "name": "Musiikkipakkaus | TWERL, Ekko & Sidetrack: Under Bright Lights",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/weapon_cases/crate_musickit_nightmode_capsule.png"
+    },
+    {
+        "id": "crate-4915",
+        "name": "StatTrak™ NIGHTMODE -musiikkipakkauslaatikko",
+        "description": "Laatikko sisältää StatTrak™-musiikkipakkauksia NIGHTMODE-artisteilta.",
+        "type": "Music Kit Box",
+        "first_sale_date": "2024/01/24",
+        "contains": [
+            {
+                "id": "music_kit-71",
+                "name": "Musiikkipakkaus | DRYDEN: Feel The Power",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+            },
+            {
+                "id": "music_kit-72",
+                "name": "Musiikkipakkaus | ISOxo: inhuman",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+            },
+            {
+                "id": "music_kit-73",
+                "name": "Musiikkipakkaus | KILL SCRIPT: All Night",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+            },
+            {
+                "id": "music_kit-74",
+                "name": "Musiikkipakkaus | Knock2: Make U SWEAT!",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+            },
+            {
+                "id": "music_kit-75",
+                "name": "Musiikkipakkaus | Rad Cat: Reason",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+            },
+            {
+                "id": "music_kit-76",
+                "name": "Musiikkipakkaus | TWERL, Ekko & Sidetrack: Under Bright Lights",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Korkean tason",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/weapon_cases/crate_musickit_nightmode_stattrak_capsule.png"
     }
 ]

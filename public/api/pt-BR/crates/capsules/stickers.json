@@ -17612,5 +17612,226 @@
         ],
         "contains_rare": [],
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack_paris2023_contenders.f97f940b7aa86ead15cf5c8d39f81912c2a3d539.png"
+    },
+    {
+        "id": "crate-4905",
+        "name": "Cápsula de Adesivos da Emboscada",
+        "description": "Esta cápsula contém uma variedade de adesivos feitos por artistas da Oficina Steam e foi lançada em fevereiro de 2024.",
+        "type": "Sticker Capsule",
+        "first_sale_date": "2024/01/25",
+        "contains": [
+            {
+                "id": "sticker-7236",
+                "name": "Está Tudo Bem (Galinha)",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_this_is_fine_chicken.png"
+            },
+            {
+                "id": "sticker-7235",
+                "name": "Zeus Retrô",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_retro_zeus.png"
+            },
+            {
+                "id": "sticker-7237",
+                "name": "Por Favor, Devolver",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_please_return.png"
+            },
+            {
+                "id": "sticker-7238",
+                "name": "Espiadinha Sinistra",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_peek_a_boo.png"
+            },
+            {
+                "id": "sticker-7239",
+                "name": "AKickflip-47",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_kickflip_47.png"
+            },
+            {
+                "id": "sticker-7240",
+                "name": "Fácil para Ricksaw",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_easy_for_ricksaw.png"
+            },
+            {
+                "id": "sticker-7241",
+                "name": "Fumaça Fracassada",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_bum_a_smoke.png"
+            },
+            {
+                "id": "sticker-7242",
+                "name": "Terrorista Raivoso",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Alta Qualidade",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/paper_angry_t.png"
+            },
+            {
+                "id": "sticker-7251",
+                "name": "Lótus (Purpurinado)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/glitter_lotus.png"
+            },
+            {
+                "id": "sticker-7250",
+                "name": "Avanço Esfumaçado (Purpurinado)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/glitter_pushing_smokes.png"
+            },
+            {
+                "id": "sticker-7249",
+                "name": "Cedar Creek (Holográfico)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/holo_cedar_creek.png"
+            },
+            {
+                "id": "sticker-7248",
+                "name": "Lit (Holográfico)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/holo_lit.png"
+            },
+            {
+                "id": "sticker-7246",
+                "name": "Olhos Apaixonantes (Holográfico)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/holo_loving_eyes.png"
+            },
+            {
+                "id": "sticker-7247",
+                "name": "Com Vigor (Holográfico)",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Notável",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/holo_try_hard.png"
+            },
+            {
+                "id": "sticker-7234",
+                "name": "Perdidos na Fumaça (Brilhante)",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exótico",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/foil_lost_in_smoke.png"
+            },
+            {
+                "id": "sticker-7253",
+                "name": "Reciclando (Brilhante)",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exótico",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/foil_on_eco.png"
+            },
+            {
+                "id": "sticker-7233",
+                "name": "Curativo (Brilhante)",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exótico",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/foil_ouchie.png"
+            },
+            {
+                "id": "sticker-7252",
+                "name": "Lacrado de Fábrica (Brilhante)",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exótico",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/foil_sealed.png"
+            },
+            {
+                "id": "sticker-7245",
+                "name": "Olhar Distópico (Lenticular)",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinário",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/lenticular_dystopian_gaze.png"
+            },
+            {
+                "id": "sticker-7244",
+                "name": "Econômetro (Lenticular)",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinário",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/lenticular_econometer.png"
+            },
+            {
+                "id": "sticker-7243",
+                "name": "Das Antigas (Lenticular)",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinário",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/lenticular_old_school.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/weapon_cases/crate_sticker_pack_community_2024_capsule.png"
     }
 ]

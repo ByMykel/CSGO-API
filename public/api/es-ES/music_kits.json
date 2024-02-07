@@ -1141,7 +1141,7 @@
     },
     {
         "id": "music_kit-52",
-        "name": "Kit de música | Neck Deep, The Lowlife Lote",
+        "name": "Kit de música | Neck Deep, The Lowlife Pack",
         "description": "Demuestra que no eres simple (y, por ende, mejor que nadie en este mapa) con el nuevo kit de música de Neck Deep, que incluye canciones del álbum All Distortions Are Intentional.",
         "rarity": {
             "id": "rarity_rare",
@@ -1153,7 +1153,7 @@
     },
     {
         "id": "music_kit-52_st",
-        "name": "Kit de música con StatTrak™ | Neck Deep, The Lowlife Lote",
+        "name": "Kit de música de StatTrak™ | Neck Deep, The Lowlife Pack",
         "description": "Demuestra que no eres simple (y, por ende, mejor que nadie en este mapa) con el nuevo kit de música de Neck Deep, que incluye canciones del álbum All Distortions Are Intentional.",
         "rarity": {
             "id": "rarity_rare",
@@ -1561,7 +1561,7 @@
     },
     {
         "id": "music_kit-69_st",
-        "name": "Kit de música StatTrak™ | Denzel Curry, ULTIMATE",
+        "name": "Kit de música de StatTrak™ | Denzel Curry, ULTIMATE",
         "description": "Denzel brinda su enérgica firma a Counter‑Strike mientras atraviesa ritmos de trap, jazz y drum and bass. Este kit ofrece los éxitos «Walkin» y «ULTIMATE», entre muchos otros de Denzel, así que «Rompe las Berettas cromadas niqueladas» y sube la intensidad con el kit de música ULTIMATE.",
         "rarity": {
             "id": "rarity_rare",
@@ -1570,5 +1570,149 @@
         },
         "exclusive": false,
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/music_kits/denzelcurry_01.c6308be51b40c63c0addb512fff5d2c9713aceca.png"
+    },
+    {
+        "id": "music_kit-71",
+        "name": "Kit de música | DRYDEN, Feel The Power",
+        "description": "¿Qué más se puede decir? Siente el poder. Abstráete con este kit de música electrónica llena de energía de DRYDEN.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-71_st",
+        "name": "Kit de música de StatTrak™ | DRYDEN, Feel The Power",
+        "description": "¿Qué más se puede decir? Siente el poder. Abstráete con este kit de música electrónica llena de energía de DRYDEN.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/dryden_01.png"
+    },
+    {
+        "id": "music_kit-72",
+        "name": "Kit de música | ISOxo, inhuman",
+        "description": "Ideal para esas partidas en las que te sientes... <i>diferente</i>. Persigue a tus enemigos ronda tras ronda con el kit de música «inhuman» de ISOxo.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-72_st",
+        "name": "Kit de música de StatTrak™ | ISOxo, inhuman",
+        "description": "Ideal para esas partidas en las que te sientes... <i>diferente</i>. Persigue a tus enemigos ronda tras ronda con el kit de música «inhuman» de ISOxo.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/isoxo_01.png"
+    },
+    {
+        "id": "music_kit-73",
+        "name": "Kit de música | KILL SCRIPT, All Night",
+        "description": "¿Te mueve el amor o la violencia? ¿Tal vez ambas cosas? Házselo saber a toda la sala con el kit de música «All Night» de KILL SCRIPT.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-73_st",
+        "name": "Kit de música de StatTrak™ | KILL SCRIPT, All Night",
+        "description": "¿Te mueve el amor o la violencia? ¿Tal vez ambas cosas? Házselo saber a toda la sala con el kit de música «All Night» de KILL SCRIPT.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/killscript_01.png"
+    },
+    {
+        "id": "music_kit-74",
+        "name": "Kit de música | Knock2, Make U SWEAT!",
+        "description": "Para los jugadores que viven cada partida como si fuera una gran final del Major, incluso con solo unos cientos de calificación de CS en juego. Cárgate de energía y alcanza la victoria con «Make U SWEAT!», el segundo kit de música de Knock2.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-74_st",
+        "name": "Kit de música de StatTrak™ | Knock2, Make U SWEAT!",
+        "description": "Para los jugadores que viven cada partida como si fuera una gran final del Major, incluso con solo unos cientos de calificación de CS en juego. Cárgate de energía y alcanza la victoria con «Make U SWEAT!», el segundo kit de música de Knock2.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/knock2_02.png"
+    },
+    {
+        "id": "music_kit-75",
+        "name": "Kit de música | Rad Cat, Reason",
+        "description": "A veces basta con desactivar la bomba para ser el JMV de la ronda. Celebra cada momento, grande o pequeño, con el kit de música «Reason» de Rad Cat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-75_st",
+        "name": "Kit de música de StatTrak™ | Rad Cat, Reason",
+        "description": "A veces basta con desactivar la bomba para ser el JMV de la ronda. Celebra cada momento, grande o pequeño, con el kit de música «Reason» de Rad Cat.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/radcat_01.png"
+    },
+    {
+        "id": "music_kit-76",
+        "name": "Kit de música | TWERL y Ekko & Sidetrack, Under Bright Lights",
+        "description": "No hay mejor momento para cobrar vida que cuando se está bajo los focos. Deja que el himno drum and bass «Under Bright Lights» de TWERL y Ekko & Sidetrack os lleve a ti y a tu equipo a lo más alto.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
+    },
+    {
+        "id": "music_kit-76_st",
+        "name": "Kit de música de StatTrak™ | TWERL y Ekko & Sidetrack, Under Bright Lights",
+        "description": "No hay mejor momento para cobrar vida que cuando se está bajo los focos. Deja que el himno drum and bass «Under Bright Lights» de TWERL y Ekko & Sidetrack os lleve a ti y a tu equipo a lo más alto.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "de grado alto",
+            "color": "#4b69ff"
+        },
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/music_kits/twerl_01.png"
     }
 ]
