@@ -27157,7 +27157,152 @@
                 "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_ak47_ak_porcelain_light.png"
             }
         ],
-        "contains_rare": [],
+        "contains_rare": [
+            {
+                "id": "skin-vanilla-weapon_knife_kukri",
+                "name": "★ 反曲刀",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": null,
+                "phase": null,
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/d1b63f5216045f84d73eb0e20f5a17b668a18322/public/images/econ/weapons/base_weapons/weapon_knife_kukri.png"
+            },
+            {
+                "id": "skin-34472088",
+                "name": "★ 反曲刀 | 漸層彩虹",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "38",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_aa_fade_light.png"
+            },
+            {
+                "id": "skin-34472172",
+                "name": "★ 反曲刀 | 屠夫",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "59",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_am_zebra_light.png"
+            },
+            {
+                "id": "skin-34472104",
+                "name": "★ 反曲刀 | 藍鋼",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "42",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_aq_blued_light.png"
+            },
+            {
+                "id": "skin-34472108",
+                "name": "★ 反曲刀 | 髒亂",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "43",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_aq_forced_light.png"
+            },
+            {
+                "id": "skin-34472112",
+                "name": "★ 反曲刀 | 外殼硬化",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "44",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_aq_oiled_light.png"
+            },
+            {
+                "id": "skin-34471956",
+                "name": "★ 反曲刀 | 數位森林",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "5",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_hy_ddpat_light.png"
+            },
+            {
+                "id": "skin-34472244",
+                "name": "★ 反曲刀 | 北寒帶林",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "77",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_hy_forest_boreal_light.png"
+            },
+            {
+                "id": "skin-34471984",
+                "name": "★ 反曲刀 | 赤紅之網",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "12",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_hy_webs_light.png"
+            },
+            {
+                "id": "skin-34472636",
+                "name": "★ 反曲刀 | 熾灼",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_sp_dapple_light.png"
+            },
+            {
+                "id": "skin-34472224",
+                "name": "★ 反曲刀 | 狩獵網格",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "72",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_sp_mesh_tan_light.png"
+            },
+            {
+                "id": "skin-34474876",
+                "name": "★ 反曲刀 | 夜色斑紋",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "735",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_sp_nightstripe_light.png"
+            },
+            {
+                "id": "skin-34472508",
+                "name": "★ 反曲刀 | 都市偽裝",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隱蔽",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "143",
+                "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/default_generated/weapon_knife_kukri_sp_tape_urban_light.png"
+            }
+        ],
         "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/weapon_cases/crate_community_33.png"
     }
 ]
