@@ -26,11 +26,9 @@ const isSticker = (item) => {
 };
 
 const getDescription = (item) => {
-    let msg = $t("CSGO_Tool_Sticker_Desc")
+    let msg = $t("CSGO_Tool_Sticker_Desc");
     let desc = $t(item.description_string);
-    if (desc && desc.length > 0 &&
-        item.description_string !== `#${desc}`
-    ) {
+    if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
         msg = `${msg}<br><br>${desc}`;
     }
     return msg;
@@ -40,6 +38,7 @@ const parseItem = (item) => {
     const { cratesBySkins } = state;
 
     const image =
+        cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_test`] ??
         cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.

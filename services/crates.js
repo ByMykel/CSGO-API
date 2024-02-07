@@ -141,7 +141,9 @@ const getFirstSaleDate = (item, prefabs) => {
 const parseItem = (item, prefabs) => {
     const { skinsByCrates, revolvingLootLists } = state;
 
-    const image = cdn[item.image_inventory.toLowerCase()];
+    const image =
+        cdn[`${item.image_inventory.toLowerCase()}_test`] ??
+        cdn[item.image_inventory.toLowerCase()];
     const lootListName = item?.loot_list_name ?? null;
     const attributeValue =
         item.attributes?.["set supply crate series"]?.value ?? null;
