@@ -42,7 +42,9 @@ const parseItem = (item) => {
     const { skinsByCollections } = state;
 
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-    const image = cdn[`econ/set_icons/${fileName}`];
+    const image =
+        cdn[`econ/set_icons/${fileName}_test`] ??
+        cdn[`econ/set_icons/${fileName}`];
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
