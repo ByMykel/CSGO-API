@@ -342,9 +342,11 @@ export const loadyCratesBySkins = () => {
                         acc[item.id].push({
                             id: `crate-${crateItem.object_id}`,
                             name: crateItem.item_name,
-                            image: cdn[
-                                crateItem?.image_inventory?.toLowerCase()
-                            ],
+                            image:
+                                cdn[
+                                    `${crateItem?.image_inventory?.toLowerCase()}_test`
+                                ] ??
+                                cdn[crateItem?.image_inventory?.toLowerCase()],
                         });
                     }
                 });
