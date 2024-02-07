@@ -573,7 +573,9 @@ const getItemFromKey = (key) => {
                     tKey: "rare_special_vanilla",
                     weapon: knife.item_name,
                 };
-                image = cdn[`econ/weapons/base_weapons/${knife.name}`];
+                image =
+                    cdn[`econ/weapons/base_weapons/${knife.name}_test`] ??
+                    cdn[`econ/weapons/base_weapons/${knife.name}`];
             } else {
                 const weaponIcons = Object.entries(
                     itemsGame.alternate_icons2.weapon_icons

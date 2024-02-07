@@ -160,6 +160,11 @@ export const knives = [
         item_name: "sfui_wpnhud_knife_skeleton",
         item_description: "csgo_item_desc_knife_skeleton",
     },
+    {
+        name: "weapon_knife_kukri",
+        item_name: "sfui_wpnhud_knife_kukri",
+        item_description: "csgo_item_desc_knife_kukri",
+    },
 ];
 
 export const getWeaponName = (string) => {
