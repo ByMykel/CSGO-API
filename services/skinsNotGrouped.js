@@ -209,7 +209,9 @@ export const getSkinsNotGrouped = () => {
                         id: "both",
                         name: $t("inv_filter_both_teams"),
                     },
-                    image: cdn[`econ/weapons/base_weapons/${knife.name}`],
+                    image:
+                        cdn[`econ/weapons/base_weapons/${knife.name}_test`] ??
+                        cdn[`econ/weapons/base_weapons/${knife.name}`],
                 }))
             )
             .flatMap((level1) => level1),
