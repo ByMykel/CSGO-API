@@ -5,7 +5,9 @@ import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import { getRarityColor, isExclusive } from "../utils/index.js";
 
 const parseItem = (item) => {
-    const image = cdn[`${item.image_inventory.toLowerCase()}`];
+    const image =
+        cdn[`${item.image_inventory.toLowerCase()}_test`] ??
+        cdn[`${item.image_inventory.toLowerCase()}`];
     const exclusive = isExclusive(item.name);
 
     const normalMusicKit = {

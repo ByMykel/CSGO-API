@@ -507,9 +507,13 @@ const getItemFromKey = (key) => {
                 id: `${type}-${sticker.object_id}`,
                 name: sticker.item_name,
                 rarity: `rarity_${sticker.item_rarity}`,
-                image: cdn[
-                    `econ/stickers/${sticker.sticker_material.toLowerCase()}_large`
-                ],
+                image:
+                    cdn[
+                        `econ/stickers/${sticker.sticker_material.toLowerCase()}_test`
+                    ] ??
+                    cdn[
+                        `econ/stickers/${sticker.sticker_material.toLowerCase()}_large`
+                    ],
             };
         case "patch":
             const patch = stickerKitsObj[name];
@@ -534,7 +538,9 @@ const getItemFromKey = (key) => {
                 id: `music_kit-${kit.object_id}`,
                 name: exclusive ? kit.loc_name : kit.coupon_name,
                 rarity: "rarity_rare",
-                image: cdn[kit.image_inventory],
+                image:
+                    cdn[`${kit.image_inventory}_test`] ??
+                    cdn[kit.image_inventory],
             };
         // The rest are skins
         default:

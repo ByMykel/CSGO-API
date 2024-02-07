@@ -34,7 +34,9 @@ const isKey = (item) => {
 const parseItem = (item) => {
     const { items } = state;
 
-    const image = cdn[item.image_inventory.toLowerCase()];
+    const image =
+        cdn[`${item.image_inventory.toLowerCase()}_test`] ??
+        cdn[item.image_inventory.toLowerCase()];
     const crates = Object.values(items)
         .filter(
             (crate) =>

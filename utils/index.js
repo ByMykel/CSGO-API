@@ -1,4 +1,5 @@
 export const weaponsNames = [
+    "weapon_taser",
     "weapon_deagle",
     "weapon_elite",
     "weapon_fiveseven",
