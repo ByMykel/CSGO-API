@@ -14,11 +14,14 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: 18
-            - run: npm install
-            - run: npm run group-data
-            - run: |
-                  git config user.name ByMykel
-                  git config user.email bymykel5@gmail.com
-                  git add .
-                  git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Group JSON API"
-                  git push origin main
+            - name: Generate new data
+              run: npm install && npm run group-data
+            - name: Read manifestIdGroup.txt
+              id: manifestId
+              uses: juliangruber/read-file-action@v1
+              with:
+                  path: ./manifestIdGroup.txt
+            - name: Commit & push changes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: "[bot::group] manifest ${{ steps.manifestId.outputs.content }}"

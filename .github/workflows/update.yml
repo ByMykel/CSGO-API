@@ -14,11 +14,14 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: 18
-            - run: npm install
-            - run: npm run update-data
-            - run: |
-                  git config user.name 'github-actions[bot]'
-                  git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-                  git add .
-                  git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update JSON API"
-                  git push origin main
+            - name: Generate new data
+              run: npm install && npm run update-data
+            - name: Read manifestIdUpdate.txt
+              id: manifestId
+              uses: juliangruber/read-file-action@v1
+              with:
+                  path: ./manifestIdUpdate.txt
+            - name: Commit & push changes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
