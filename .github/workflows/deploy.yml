@@ -3,7 +3,7 @@ name: Deploy to GitHub pages
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 9 * * *"
+        - cron: "0/15 * * * *"
 
 jobs:
     build:

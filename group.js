@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { LANGUAGES_URL } from "./constants.js";
+import { getManifestId } from "./services/main.js";
 
 const inputFilePathsTemplate = [
     "./public/api/{lang}/agents.json",
@@ -15,6 +16,26 @@ const inputFilePathsTemplate = [
     "./public/api/{lang}/stickers.json",
     "./public/api/{lang}/tools.json",
 ];
+
+let existingManifestId = "";
+const latestManifestId = await getManifestId();
+
+try {
+    existingManifestId = fs.readFileSync("./manifestIdGroup.txt");
+} catch (err) {
+    if (err.code != "ENOENT") {
+        throw err;
+    }
+}
+
+if (existingManifestId == latestManifestId) {
+    console.log("Latest manifest Id matches existing manifest Id, exiting");
+    process.exit(0);
+} else {
+    console.log(
+        "Latest manifest Id does not match existing manifest Id, generating new data."
+    );
+}
 
 for (let langObj of LANGUAGES_URL) {
     const lang = langObj.folder;
@@ -44,4 +65,10 @@ for (let langObj of LANGUAGES_URL) {
     fs.writeFileSync(outputFilePath, JSON.stringify(allData, null, 4));
 
     console.log(`all.json for ${lang} has been generated.`);
+}
+
+try {
+    fs.writeFileSync("./manifestIdGroup.txt", latestManifestId.toString());
+} catch (err) {
+    throw err;
 }
