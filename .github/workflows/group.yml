@@ -17,8 +17,8 @@ jobs:
             - run: npm install
             - run: npm run group-data
             - run: |
-                  git config user.name 'github-actions[bot]'
-                  git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+                  git config user.name ByMykel
+                  git config user.email bymykel5@gmail.com
                   git add .
                   git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Group JSON API"
                   git push origin main
