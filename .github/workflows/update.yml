@@ -22,6 +22,9 @@ jobs:
               with:
                   path: ./manifestIdUpdate.txt
             - name: Commit & push changes
-              uses: stefanzweifel/git-auto-commit-action@v4
-              with:
-                  commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
+              run: |
+                  git config user.name ByMykel
+                  git config user.email bymykel5@gmail.com
+                  git add .
+                  git diff --quiet && git diff --staged --quiet || git commit -m "[bot::update] manifest ${{ steps.manifestId.outputs.content }}" --author="github-actions[bot] <action@github.com>"
+                  git push origin main
