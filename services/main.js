@@ -635,17 +635,6 @@ const getItemFromKey = (key) => {
     }
 };
 
-export const getManifestId = async () => {
-    return axios
-        .get(
-            "https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt"
-        )
-        .then((data) => data.data)
-        .catch(() => {
-            throw new Error(`Error loading latest manifest Id`);
-        });
-};
-
 export const loadData = async () => {
     await loadItemsGame();
     loadPrefabs();
