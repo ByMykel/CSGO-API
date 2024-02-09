@@ -16,15 +16,10 @@ jobs:
                   node-version: 18
             - name: Generate new data
               run: npm install && npm run group-data
-            - name: Read manifestIdGroup.txt
-              id: manifestId
-              uses: juliangruber/read-file-action@v1
-              with:
-                  path: ./manifestIdGroup.txt
             - name: Commit & push changes
               run: |
-                  git config user.name ByMykel
-                  git config user.email bymykel5@gmail.com
+                  git config user.name 'github-actions[bot]'
+                  git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
                   git add .
-                  git diff --quiet && git diff --staged --quiet || git commit -m "[bot::group] manifest ${{ steps.manifestId.outputs.content }}" --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+                  git diff --quiet && git diff --staged --quiet || git commit -m "group data"
                   git push origin main
