@@ -14,8 +14,8 @@ jobs:
             - run: |
                   git init
                   git add -A
-                  git config --local user.email "action@github.com"
-                  git config --local user.name "github-actions[bot]"
+                  git config --local user.email "github-actions[bot]"
+                  git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
                   git commit -m 'deploy'
               working-directory: ./public
             - uses: JamesIves/github-pages-deploy-action@v4.3.3
