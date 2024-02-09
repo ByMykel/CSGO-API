@@ -14,8 +14,10 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: 18
+            - name: Install
+              run: npm install
             - name: Generate new data
-              run: npm install && npm run group-data
+              run: npm run group-data
             - name: Commit & push changes
               run: |
                   git config user.name 'github-actions[bot]'
