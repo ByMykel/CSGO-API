@@ -3,18 +3,18 @@
         "id": "tool-1",
         "name": "名称标签",
         "description": "这件物品能重命名一把武器。一个自定义的刻铭牌将被应用到武器上，并可在游戏中显示。",
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/tag_large.d3594703dfdcce8d5d00b5b90a6e78c286c8574e.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
     },
     {
         "id": "tool-2",
         "name": "库存存储组件",
         "description": "库存存储组件允许您存储超过库存容量限制（1000件）的物品。在任何时候您都可以从库存中把物品移动到库存存储组件中，或者从中取回到库存，或者您可以用它来管理您的收藏品。",
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/casket_large.3a6ace91832fd61d4599f1884dd99a328abfd2a8.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
     },
     {
         "id": "tool-3",
         "name": "StatTrak™ 数据互换器",
         "description": "该物品可以将两种相同物品类型的 StatTrak™ 数据互换。",
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/tools/stattrak_swap_tool.e5bf9223e6ffb0681c53f451badd9d8a17032905.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
     }
 ]
