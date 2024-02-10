@@ -1,7 +1,7 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getImageUrl } from "../constants.js";
 
 const isKey = (item) => {
     if (item.item_name === undefined) {
@@ -34,9 +34,7 @@ const isKey = (item) => {
 const parseItem = (item) => {
     const { items } = state;
 
-    const image =
-        cdn[`${item.image_inventory.toLowerCase()}_test`] ??
-        cdn[item.image_inventory.toLowerCase()];
+    const image = getImageUrl(item.image_inventory.toLowerCase());
     const crates = Object.values(items)
         .filter(
             (crate) =>
@@ -46,7 +44,7 @@ const parseItem = (item) => {
         .map((crate) => ({
             id: `crate-${crate.object_id}`,
             name: $t(crate.item_name),
-            image: cdn[crate.image_inventory.toLowerCase()],
+            image: getImageUrl(crate.image_inventory.toLowerCase()),
         }));
 
     return {

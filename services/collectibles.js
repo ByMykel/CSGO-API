@@ -1,8 +1,8 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import { getCollectibleRarity, getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isCollectible = (item) => {
     if (item.item_name === undefined) return false;
@@ -92,9 +92,7 @@ const getFileNameByType = (type) => {
 
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
-    const image = item.item_name.startsWith("#CSGO_Ticket_")
-        ? cdn[`${item.image_inventory}`]
-        : cdn[`${item.image_inventory}_large`];
+    const image = getImageUrl(item.image_inventory);
 
     const rarity = item.item_rarity
         ? `rarity_${item.item_rarity}`

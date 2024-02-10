@@ -1,9 +1,9 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isSticker = (item) => {
     if (item.sticker_material === undefined) {
@@ -37,9 +37,9 @@ const getDescription = (item) => {
 const parseItem = (item) => {
     const { cratesBySkins } = state;
 
-    const image =
-        cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_test`] ??
-        cdn[`econ/stickers/${item.sticker_material.toLowerCase()}_large`];
+    const image = getImageUrl(
+        `econ/stickers/${item.sticker_material.toLowerCase()}`
+    );
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {

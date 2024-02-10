@@ -10,8 +10,8 @@ import {
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tTag, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import { getImageUrl } from "../constants.js";
 
 const getPatternName = (weapon, string) => {
     return string.replace(`${weapon}_`, "").toLowerCase();
@@ -41,12 +41,12 @@ const getSkinInfo = (iconPath) => {
 const getDescription = (desc, paintKits, pattern) => {
     const pattern_desc = $t(`#PaintKit_${pattern}`);
     if (pattern_desc && pattern_desc.length > 0) {
-        return `${desc} ${pattern_desc}`
+        return `${desc} ${pattern_desc}`;
     }
 
     const tag = paintKits[pattern].description_tag
         .toLowerCase()
-        .replace('_tag', '');
+        .replace("_tag", "");
     const tag_desc = $t(tag);
     if (tag_desc && tag_desc.length > 0) {
         return `${desc} ${tag_desc}`;
@@ -69,9 +69,7 @@ const parseItem = (item, items) => {
         collectionsBySkins,
     } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdn[`${item.icon_path.toLowerCase()}_test`]
-        ? cdn[`${item.icon_path.toLowerCase()}_test`]
-        : cdn[`${item.icon_path.toLowerCase()}_large`];
+    const image = getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -206,7 +204,7 @@ export const getSkins = () => {
                 id: "both",
                 name: $t("inv_filter_both_teams"),
             },
-            image: cdn[`econ/weapons/base_weapons/${knife.name}`],
+            image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
         })),
     ].filter((skin) => !skin.name.includes("null"));
 
