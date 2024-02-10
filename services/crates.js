@@ -1,9 +1,9 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isCrate = (item) => {
     if (item.item_name === undefined) return false;
@@ -141,9 +141,7 @@ const getFirstSaleDate = (item, prefabs) => {
 const parseItem = (item, prefabs) => {
     const { skinsByCrates, revolvingLootLists } = state;
 
-    const image =
-        cdn[`${item.image_inventory.toLowerCase()}_test`] ??
-        cdn[item.image_inventory.toLowerCase()];
+    const image = getImageUrl(item.image_inventory.toLowerCase());
     const lootListName = item?.loot_list_name ?? null;
     const attributeValue =
         item.attributes?.["set supply crate series"]?.value ?? null;

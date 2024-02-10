@@ -11,8 +11,7 @@ import {
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getImageUrl } from "../constants.js";
 
 const getPatternName = (weapon, string) => {
     return string.replace(`${weapon}_`, "").toLowerCase();
@@ -42,9 +41,7 @@ const getSkinInfo = (iconPath) => {
 const parseItem = (item, items) => {
     const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdn[`${item.icon_path.toLowerCase()}_test`]
-        ? cdn[`${item.icon_path.toLowerCase()}_test`]
-        : cdn[`${item.icon_path.toLowerCase()}_large`];
+    const image = getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -209,9 +206,9 @@ export const getSkinsNotGrouped = () => {
                         id: "both",
                         name: $t("inv_filter_both_teams"),
                     },
-                    image:
-                        cdn[`econ/weapons/base_weapons/${knife.name}_test`] ??
-                        cdn[`econ/weapons/base_weapons/${knife.name}`],
+                    image: getImageUrl(
+                        `econ/weapons/base_weapons/${knife.name}`
+                    ),
                 }))
             )
             .flatMap((level1) => level1),

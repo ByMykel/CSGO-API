@@ -1,9 +1,9 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isGraffiti = (item) => {
     if (item.item_name.startsWith("#SprayKit_")) {
@@ -32,7 +32,7 @@ const getDescription = (item) => {
 
 const parseItemSealedGraffiti = (item) => {
     const { cratesBySkins } = state;
-    const image = cdn[`econ/stickers/${item.sticker_material}_large`];
+    const image = getImageUrl(`econ/stickers/${item.sticker_material}`);
 
     return {
         id: `graffiti-${item.object_id}`,

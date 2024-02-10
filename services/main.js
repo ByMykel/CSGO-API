@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ITEMS_GAME_URL } from "../constants.js";
+import { ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import {
     getDopplerPhase,
     isExclusive,
@@ -7,7 +7,6 @@ import {
     knives,
 } from "../utils/index.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 
 export const state = {
     itemsGame: null,
@@ -342,11 +341,9 @@ export const loadyCratesBySkins = () => {
                         acc[item.id].push({
                             id: `crate-${crateItem.object_id}`,
                             name: crateItem.item_name,
-                            image:
-                                cdn[
-                                    `${crateItem?.image_inventory?.toLowerCase()}_test`
-                                ] ??
-                                cdn[crateItem?.image_inventory?.toLowerCase()],
+                            image: getImageUrl(
+                                crateItem?.image_inventory?.toLowerCase()
+                            ),
                         });
                     }
                 });
@@ -388,12 +385,12 @@ export const loadCollectionsBySkins = () => {
                             .replace("#CSGO_", "")
                             .replace(/_/g, "-")}`,
                         name: crateItem.name,
-                        image: cdn[
+                        image: getImageUrl(
                             `econ/set_icons/${crateItem.name.replace(
                                 "#CSGO_",
                                 ""
                             )}`
-                        ],
+                        ),
                     });
                 }
             });
@@ -491,7 +488,9 @@ const getItemFromKey = (key) => {
             id: `agent-${agent.object_id}`,
             name: agent.item_name,
             rarity: `rarity_${agent.item_rarity}_character`,
-            image: cdn[`econ/characters/${agent.name.toLocaleLowerCase()}`],
+            image: getImageUrl(
+                `econ/characters/${agent.name.toLocaleLowerCase()}`
+            ),
         };
     }
 
@@ -509,13 +508,9 @@ const getItemFromKey = (key) => {
                 id: `${type}-${sticker.object_id}`,
                 name: sticker.item_name,
                 rarity: `rarity_${sticker.item_rarity}`,
-                image:
-                    cdn[
-                        `econ/stickers/${sticker.sticker_material.toLowerCase()}_test`
-                    ] ??
-                    cdn[
-                        `econ/stickers/${sticker.sticker_material.toLowerCase()}_large`
-                    ],
+                image: getImageUrl(
+                    `econ/stickers/${sticker.sticker_material.toLowerCase()}`
+                ),
             };
         case "patch":
             const patch = stickerKitsObj[name];
@@ -523,7 +518,7 @@ const getItemFromKey = (key) => {
                 id: `${type}-${patch.object_id}`,
                 name: patch.item_name,
                 rarity: `rarity_${patch.item_rarity}`,
-                image: cdn[`econ/patches/${patch.patch_material}_large`],
+                image: getImageUrl(`econ/patches/${patch.patch_material}`),
             };
         case "spray":
             const graffiti = stickerKitsObj[name];
@@ -531,7 +526,9 @@ const getItemFromKey = (key) => {
                 id: `graffiti-${graffiti.object_id}`,
                 name: graffiti.item_name,
                 rarity: `rarity_${graffiti.item_rarity}`,
-                image: cdn[`econ/stickers/${graffiti.sticker_material}_large`],
+                image: getImageUrl(
+                    `econ/stickers/${graffiti.sticker_material}`
+                ),
             };
         case "musickit":
             const kit = musicDefinitionsObj[name];
@@ -540,9 +537,7 @@ const getItemFromKey = (key) => {
                 id: `music_kit-${kit.object_id}`,
                 name: exclusive ? kit.loc_name : kit.coupon_name,
                 rarity: "rarity_rare",
-                image:
-                    cdn[`${kit.image_inventory}_test`] ??
-                    cdn[kit.image_inventory],
+                image: getImageUrl(kit.image_inventory),
             };
         // The rest are skins
         default:
@@ -575,9 +570,7 @@ const getItemFromKey = (key) => {
                     tKey: "rare_special_vanilla",
                     weapon: knife.item_name,
                 };
-                image =
-                    cdn[`econ/weapons/base_weapons/${knife.name}_test`] ??
-                    cdn[`econ/weapons/base_weapons/${knife.name}`];
+                image = getImageUrl(`econ/weapons/base_weapons/${knife.name}`);
             } else {
                 const weaponIcons = Object.entries(
                     itemsGame.alternate_icons2.weapon_icons
@@ -611,17 +604,9 @@ const getItemFromKey = (key) => {
                 phase = getDopplerPhase(
                     paintKits[name.toLowerCase()].paint_index
                 );
-                image = cdn[
-                    `${weaponIcons[1].icon_path
-                        .toLowerCase()
-                        .replace("_newcs2", "")}_test`
-                ]
-                    ? cdn[
-                          `${weaponIcons[1].icon_path
-                              .toLowerCase()
-                              .replace("_newcs2", "")}_test`
-                      ]
-                    : cdn[`${weaponIcons[1].icon_path.toLowerCase()}_large`];
+                image = getImageUrl(
+                    `${weaponIcons[1].icon_path.toLowerCase()}`
+                );
             }
 
             return {

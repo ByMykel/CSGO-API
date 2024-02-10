@@ -1,6 +1,6 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
+import { getImageUrl } from "../constants.js";
 
 export const getTools = () => {
     const { folder } = languageData;
@@ -10,19 +10,19 @@ export const getTools = () => {
             id: "tool-1",
             name: $t("csgo_tool_name_tag"),
             description: $t("csgo_tool_name_tag_desc"),
-            image: cdn["econ/tools/tag_large"],
+            image: getImageUrl("econ/tools/tag"),
         },
         {
             id: "tool-2",
             name: $t("csgo_tool_casket_tag"),
             description: $t("csgo_tool_casket_tag_desc"),
-            image: cdn["econ/tools/casket_large"],
+            image: getImageUrl("econ/tools/casket"),
         },
         {
             id: "tool-3",
             name: $t("csgo_tool_stattrak_swap"),
             description: $t("csgo_tool_stattrak_swap_desc"),
-            image: cdn["econ/tools/stattrak_swap_tool"],
+            image: getImageUrl("econ/tools/stattrak_swap_tool"),
         },
     ];
 

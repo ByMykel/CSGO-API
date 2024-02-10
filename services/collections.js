@@ -1,9 +1,8 @@
-import { IMAGES_BASE_URL } from "../constants.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isCollection = (item) => item.is_collection !== undefined;
 
@@ -42,9 +41,7 @@ const parseItem = (item) => {
     const { skinsByCollections } = state;
 
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-    const image =
-        cdn[`econ/set_icons/${fileName}_test`] ??
-        cdn[`econ/set_icons/${fileName}`];
+    const image = getImageUrl(`econ/set_icons/${fileName}`);
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
@@ -68,7 +65,7 @@ const parseItem = (item) => {
 };
 
 const parseItemSelfOpening = (item) => {
-    const image = `${IMAGES_BASE_URL}${item.image_inventory.toLowerCase()}.png`;
+    const image = getImageUrl(item.image_inventory.toLowerCase());
 
     return {
         id: `collection-${item.object_id}`,

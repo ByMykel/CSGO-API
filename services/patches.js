@@ -1,8 +1,8 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
-import cdn from "../public/api/cdn_images.json" assert { type: "json" };
 import { getRarityColor } from "../utils/index.js";
+import { getImageUrl } from "../constants.js";
 
 const isPatch = (item) => {
     if (
@@ -15,7 +15,7 @@ const isPatch = (item) => {
 };
 
 const getDescription = (item) => {
-    let msg = $t("CSGO_Tool_Patch_Desc")
+    let msg = $t("CSGO_Tool_Patch_Desc");
     let desc = $t(item.description_string);
     if (desc && desc.length > 0) {
         msg = `${msg}<br><br>${desc}`;
@@ -24,7 +24,7 @@ const getDescription = (item) => {
 };
 
 const parseItem = (item) => {
-    const image = cdn[`econ/patches/${item.patch_material}_large`];
+    const image = getImageUrl(`econ/patches/${item.patch_material}`);
 
     return {
         id: `patch-${item.object_id}`,
