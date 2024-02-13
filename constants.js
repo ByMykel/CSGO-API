@@ -84,7 +84,7 @@ export const LANGUAGES_URL = [
     {
         language: "korean",
         folder: "ko",
-        url: getLanguageUrl("korean"),
+        url: getLanguageUrl("koreana"),
     },
     // {
     // language: "koreana",
