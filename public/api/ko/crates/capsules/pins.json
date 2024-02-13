@@ -2,7 +2,7 @@
     {
         "id": "crate-4235",
         "name": "수집 가능한 핀 캡슐 시리즈 1",
-        "description": "이 캡슐에는 제 1 시리즈 수집 핀 중 하나가 들어 있습니다.  수집 핀으로 자신의 CS:GO 프로필을 치장할 수 있습니다.",
+        "description": "이 캡슐에는 제1시리즈의 수집 가능한 핀 중 하나가 들어 있습니다. 수집 가능한 핀은 프로필에 전시할 수 있습니다.",
         "type": "Pins",
         "first_sale_date": "2016/06/01",
         "contains": [
@@ -26,7 +26,7 @@
             },
             {
                 "id": "collectible-6108",
-                "name": "핵시설 핀",
+                "name": "핵 시설 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -47,7 +47,7 @@
                 "name": "승리 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -56,7 +56,7 @@
                 "name": "민병대 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -65,7 +65,7 @@
                 "name": "이탈리아 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -74,7 +74,7 @@
                 "name": "신기루 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
@@ -83,7 +83,7 @@
                 "name": "인페르노 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
@@ -92,7 +92,7 @@
                 "name": "더스트 II 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             },
@@ -101,18 +101,18 @@
                 "name": "수호 대장 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             }
         ],
         "contains_rare": [],
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_1.d43d773dc49e91152169d79cfca70a76a7ef7c06.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_pins_series_1_png.png"
     },
     {
         "id": "crate-4284",
         "name": "수집 가능한 핀 캡슐 시리즈 2",
-        "description": "이 캡슐에는 제 2 시리즈 수집 핀 중 하나가 들어 있습니다. 수집 핀으로 자신의 CS:GO 프로필을 꾸밀 수 있습니다.",
+        "description": "이 캡슐에는 제2시리즈의 수집 가능한 핀 중 하나가 들어 있습니다. 수집 가능한 핀은 프로필에 전시할 수 있습니다.",
         "type": "Pins",
         "first_sale_date": "2016/09/28",
         "contains": [
@@ -145,7 +145,7 @@
             },
             {
                 "id": "collectible-6115",
-                "name": "불사조 핀",
+                "name": "피닉스 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -157,7 +157,7 @@
                 "name": "사무실 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -166,7 +166,7 @@
                 "name": "자갈돌 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -175,7 +175,7 @@
                 "name": "고가도로 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -184,16 +184,16 @@
                 "name": "블러드하운드 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6120",
-                "name": "무기창고 핀",
+                "name": "무기 창고 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
@@ -202,33 +202,33 @@
                 "name": "크로마 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-6121",
-                "name": "발레리아 불사조단 핀",
+                "name": "발레리아 피닉스 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             }
         ],
         "contains_rare": [],
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_2.96ecd6ea95f24366ca9b41f185cd2bff3a00ab00.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_pins_series_2_png.png"
     },
     {
         "id": "crate-4481",
-        "name": "Collectible Pins Capsule Series 3",
-        "description": "This capsule contains a single Series 3 collectible pin. Collectible pins can be displayed on your profile.",
+        "name": "수집 가능한 핀 캡슐 시리즈 3",
+        "description": "이 캡슐에는 제3시리즈의 수집 가능한 핀 중 하나가 들어 있습니다. 수집 가능한 핀은 프로필에 전시할 수 있습니다.",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
         "contains": [
             {
                 "id": "collectible-6123",
-                "name": "Guardian 3 Pin",
+                "name": "수호자 3 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -237,7 +237,7 @@
             },
             {
                 "id": "collectible-6124",
-                "name": "Canals Pin",
+                "name": "운하 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -246,7 +246,7 @@
             },
             {
                 "id": "collectible-6125",
-                "name": "Welcome to the Clutch Pin",
+                "name": "어서 와 클러치는 처음이지",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -255,7 +255,7 @@
             },
             {
                 "id": "collectible-6126",
-                "name": "Death Sentence Pin",
+                "name": "사형 선고 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -264,81 +264,81 @@
             },
             {
                 "id": "collectible-6127",
-                "name": "Inferno 2 Pin",
+                "name": "인페르노 2 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6128",
-                "name": "Wildfire Pin",
+                "name": "들불 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6129",
-                "name": "Easy Peasy Pin",
+                "name": "식은 죽 먹기 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6130",
-                "name": "Aces High Pin",
+                "name": "에이스 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6131",
-                "name": "Hydra Pin",
+                "name": "히드라 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6132",
-                "name": "Howl Pin",
+                "name": "아우성 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-6133",
-                "name": "Brigadier General Pin",
+                "name": "준장 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             }
         ],
         "contains_rare": [],
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_series_3.2c42778f1c923b58c5c96012846fbeca39a29625.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_pins_series_3_png.png"
     },
     {
         "id": "crate-4693",
         "name": "Half-Life: Alyx 수집 가능한 핀 캡슐",
-        "description": "이 캡슐에는 Valve의 Half-Life 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념하는 수집 가능한 핀 한 개가 들어있습니다. 수집 가능한 핀은 CS:GO 프로필에 전시할 수 있습니다.",
+        "description": "이 캡슐에는 Valve의 하프 라이프 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념하는 수집 가능한 핀 1개가 들어있습니다. 수집 가능한 핀은 프로필에 전시할 수 있습니다.",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
         "contains": [
             {
                 "id": "collectible-4691",
-                "name": "Combine Helmet Pin",
+                "name": "콤바인 헬멧 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -347,7 +347,7 @@
             },
             {
                 "id": "collectible-4690",
-                "name": "Black Mesa Pin",
+                "name": "블랙 메사 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -356,7 +356,7 @@
             },
             {
                 "id": "collectible-4689",
-                "name": "CMB Pin",
+                "name": "콤바인 핀",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "고급",
@@ -386,7 +386,7 @@
                 "name": "헤드크랩 문양 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
@@ -395,34 +395,34 @@
                 "name": "구리 람다 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-4686",
-                "name": "Health Pin",
+                "name": "체력 핀",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "눈에 띄는",
+                    "name": "최고급",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-4683",
-                "name": "Sustenance! Pin",
+                "name": "자양물이오! 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-4684",
-                "name": "Vortigaunt Pin",
+                "name": "보르티곤트 핀",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "이국적인",
+                    "name": "특급",
                     "color": "#d32ce6"
                 }
             },
@@ -431,21 +431,21 @@
                 "name": "알릭스 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-4682",
-                "name": "Civil Protection Pin",
+                "name": "시민 보호 기동대 핀",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "비범한",
+                    "name": "희귀",
                     "color": "#eb4b4b"
                 }
             }
         ],
         "contains_rare": [],
-        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_pins_hlalyx.eb16a18634b793404efe1002106906ac64e1c3f2.png"
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_pins_hlalyx_png.png"
     }
 ]
