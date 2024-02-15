@@ -551,12 +551,12 @@
     },
     {
         "id": "key-1394",
-        "name": "Kilowatt Case Key",
-        "description": "This key only opens Kilowatt cases",
+        "name": "킬로와트 상자 열쇠",
+        "description": "이 열쇠는 킬로와트 상자만 열 수 있습니다.",
         "crates": [
             {
                 "id": "crate-4904",
-                "name": "Kilowatt Case",
+                "name": "킬로와트 상자",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
             }
         ],
