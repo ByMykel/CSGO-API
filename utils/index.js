@@ -244,6 +244,7 @@ export const getCategory = (weapon) => {
         case "weapon_knife_stiletto":
         case "weapon_knife_widowmaker":
         case "weapon_knife_skeleton":
+        case "weapon_knife_kukri":
             return "sfui_invpanel_filter_melee";
         case "studded_bloodhound_gloves":
         case "studded_brokenfang_gloves":
