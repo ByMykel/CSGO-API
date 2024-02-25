@@ -9,6 +9,7 @@ import {
     getRarityColor,
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
+import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { getImageUrl } from "../constants.js";
@@ -39,7 +40,14 @@ const getSkinInfo = (iconPath) => {
 };
 
 const parseItem = (item, items) => {
-    const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
+    const {
+        rarities,
+        paintKits,
+        souvenirSkins,
+        stattTrakSkins,
+        cratesBySkins,
+        collectionsBySkins,
+    } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
@@ -125,16 +133,31 @@ const parseItem = (item, items) => {
                 id: pattern,
                 name: $t(paintKits[pattern].description_tag),
             },
+            min_float: paintKits[pattern].wear_remap_min,
+            max_float: paintKits[pattern].wear_remap_max,
             wear: {
                 id: wear,
                 name: $t(wear),
             },
+            stattrak: type === "skin_stattrak",
+            souvenir: type === "skin_souvenir",
+            paint_index: paintKits[pattern].paint_index,
             rarity: {
                 id: rarity,
                 name: $t(rarity),
                 color: getRarityColor(rarity),
             },
             ...(dopplerPhase && { phase: dopplerPhase }),
+            collections:
+                collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
+                    ...i,
+                    name: $t(i.name),
+                })) ?? [],
+            crates:
+                cratesBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
+                    ...i,
+                    name: $t(i.name),
+                })) ?? [],
             market_hash_name: skinMarketHashName({
                 itemName: !isNotWeapon(weapon)
                     ? $t(items[weapon].item_name_prefab, true)
@@ -146,6 +169,7 @@ const parseItem = (item, items) => {
                 isWeapon: !isNotWeapon(weapon),
                 isVanilla: false,
             }),
+            special_notes: specialNotes?.[`skin-${item.object_id}`],
             team: {
                 id: team,
                 name:
@@ -193,6 +217,7 @@ export const getSkinsNotGrouped = () => {
                         name: $t(`rarity_ancient_weapon`),
                         color: getRarityColor(`rarity_ancient_weapon`),
                     },
+                    stattrak: type === "rare_special_vanilla_stattrak",
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
                         pattern: null,
