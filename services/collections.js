@@ -46,12 +46,12 @@ const parseItem = (item) => {
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: $t(item.name),
-        crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(
-            (i) => ({
-                ...i,
-                name: $t(i.name),
-            })
-        ),
+        crates: (
+            cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []
+        ).map((i) => ({
+            ...i,
+            name: $t(i.name),
+        })),
         contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(
             (i) => ({
                 ...i,
@@ -71,12 +71,23 @@ const parseItem = (item) => {
 };
 
 const parseItemSelfOpening = (item) => {
+    const { skinsByCollections } = state;
+
     const image = getImageUrl(item.image_inventory.toLowerCase());
 
     return {
         id: `collection-${item.object_id}`,
         name: $t(item.item_name),
-        contains: [],
+        crates: [],
+        contains: (skinsByCollections?.[item.name] ?? []).map((i) => ({
+            ...i,
+            name: $t(i.name),
+            rarity: {
+                id: i.rarity,
+                name: $t(i.rarity),
+                color: getRarityColor(i.rarity),
+            },
+        })),
         image,
     };
 };
