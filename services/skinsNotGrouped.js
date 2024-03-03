@@ -10,7 +10,7 @@ import {
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
-import { $t, $tc, languageData } from "./translations.js";
+import { $t, $tc, $tTag, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { getImageUrl } from "../constants.js";
 
@@ -39,6 +39,28 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
+const getDescription = (desc, paintKits, pattern) => {
+    const pattern_desc = $t(`#PaintKit_${pattern}`);
+    if (pattern_desc && pattern_desc.length > 0) {
+        return `${desc} ${pattern_desc}`;
+    }
+
+    const tag = paintKits[pattern].description_tag
+        .toLowerCase()
+        .replace("_tag", "");
+    const tag_desc = $t(tag);
+    if (tag_desc && tag_desc.length > 0) {
+        return `${desc} ${tag_desc}`;
+    }
+
+    const idx_desc = $tTag(paintKits[pattern].description_tag);
+    if (idx_desc && idx_desc.length > 0) {
+        return `${desc} ${idx_desc}`;
+    }
+
+    return desc;
+};
+
 const parseItem = (item, items) => {
     const {
         rarities,
@@ -53,6 +75,9 @@ const parseItem = (item, items) => {
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
+    const translatedDescription = !isNotWeapon(weapon)
+        ? $t(items[weapon].item_description_prefab)
+        : $t(items[weapon].item_description);
 
     const isStatTrak =
         weapon.includes("knife") ||
@@ -121,6 +146,11 @@ const parseItem = (item, items) => {
                       pattern: $t(paintKits[pattern].description_tag),
                       wear: $t(wear),
                   }),
+            description: getDescription(
+                translatedDescription,
+                paintKits,
+                pattern
+            ),
             weapon: {
                 id: weapon,
                 name: translatedName,
