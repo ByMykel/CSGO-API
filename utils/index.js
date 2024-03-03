@@ -433,3 +433,14 @@ export const getRarityColor = (id) => {
             return null;
     }
 };
+
+export const filterUniqueByAttribute = (items, attribute) => {
+    const uniqueValues = new Set();
+    return items.filter((item) => {
+        if (!uniqueValues.has(item[attribute])) {
+            uniqueValues.add(item[attribute]);
+            return true;
+        }
+        return false;
+    });
+};

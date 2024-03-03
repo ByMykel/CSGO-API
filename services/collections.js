@@ -38,7 +38,7 @@ const isSelfOpeningCollection = (item) => {
 };
 
 const parseItem = (item) => {
-    const { skinsByCollections } = state;
+    const { skinsByCollections, cratesByCollections } = state;
 
     const fileName = `${item.name.replace("#CSGO_", "")}`;
     const image = getImageUrl(`econ/set_icons/${fileName}`);
@@ -46,6 +46,12 @@ const parseItem = (item) => {
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: $t(item.name),
+        crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(
+            (i) => ({
+                ...i,
+                name: $t(i.name),
+            })
+        ),
         contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(
             (i) => ({
                 ...i,

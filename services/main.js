@@ -1,6 +1,7 @@
 import axios from "axios";
 import { ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import {
+    filterUniqueByAttribute,
     getDopplerPhase,
     isExclusive,
     isNotWeapon,
@@ -8,26 +9,7 @@ import {
 } from "../utils/index.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
 
-export const state = {
-    itemsGame: null,
-    prefabs: null,
-    items: null,
-    itemSets: null,
-    stickerKits: null,
-    stickerKitsObj: null,
-    paintKits: null,
-    paintKitsRarity: null,
-    musicDefinitions: null,
-    musicDefinitionsObj: null,
-    clientLootLists: null,
-    revolvingLootLists: null,
-    skinsByCrates: null,
-    skinsByCratesSpecial: null,
-    skinsByCollections: null,
-    collectionsBySkins: null,
-    souvenirSkins: null,
-    stattTrakSkins: null,
-};
+export const state = {};
 
 export const loadItemsGame = async () => {
     await axios
@@ -367,6 +349,21 @@ export const loadSkinsByCollections = () => {
     );
 };
 
+export const loadCratesByCollections = () => {
+    state.cratesByCollections = Object.entries(state.skinsByCollections).reduce(
+        (acc, [collection, items]) => {
+            const itemsId = [...new Set(items.map(({ id }) => id))];
+            const crates = itemsId.flatMap(
+                (id) => state.cratesBySkins[id] ?? []
+            );
+
+            acc[collection] = filterUniqueByAttribute(crates, "id");
+
+            return acc;
+        }
+    );
+};
+
 export const loadCollectionsBySkins = () => {
     state.collectionsBySkins = Object.entries(state.skinsByCollections).reduce(
         (acc, [crateKey, itemsList]) => {
@@ -645,6 +642,7 @@ export const loadData = async () => {
     loadSkinsByCrates();
     loadyCratesBySkins();
     loadSkinsByCollections();
+    loadCratesByCollections();
     loadCollectionsBySkins();
     loadSouvenirSkins();
     loadStattrakSkins();
