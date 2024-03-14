@@ -22757,5 +22757,1479 @@
         ],
         "contains_rare": [],
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_paris2023_promo_de_vertigo_png.png"
+    },
+    {
+        "id": "crate-4926",
+        "name": "Copenhagen 2024 Inferno Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-1573224",
+                "name": "UMP-45 | 泥地杀手",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "90",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_hy_mottled_sand_light_png.png"
+            },
+            {
+                "id": "skin-1510340",
+                "name": "MP5-SD | 越野",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "753",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_sp_tape_short_rally_light_png.png"
+            },
+            {
+                "id": "skin-2231244",
+                "name": "MP9 | 滑移",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "755",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_hy_splatter3_light_png.png"
+            },
+            {
+                "id": "skin-527464",
+                "name": "AUG | 扫频仪",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "794",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_sp_mesh_safetyblack_light_png.png"
+            },
+            {
+                "id": "skin-1772488",
+                "name": "MAG-7 | 外表生锈",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "754",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_aq_steel_inferno_light_png.png"
+            },
+            {
+                "id": "skin-1703948",
+                "name": "PP-野牛 | 红苹果",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "3",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_so_red_light_png.png"
+            },
+            {
+                "id": "skin-1117104",
+                "name": "MAC-10 | 小牛皮",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "748",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_gs_mac10_checker_light_png.png"
+            },
+            {
+                "id": "skin-4197496",
+                "name": "R8 左轮手枪 | 氮化处理",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "798",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_so_orange_accents3_light_png.png"
+            },
+            {
+                "id": "skin-265340",
+                "name": "格洛克 18 型 | 远光灯",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "799",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_aa_vertigo_blue_light_png.png"
+            },
+            {
+                "id": "skin-2624444",
+                "name": "SSG 08 | 手刹",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "751",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_checker_light_png.png"
+            },
+            {
+                "id": "skin-1051748",
+                "name": "M4A4 | 变频器",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "793",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_hy_red_hex_light_png.png"
+            },
+            {
+                "id": "skin-4000880",
+                "name": "USP 消音版 | 引擎故障灯",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "796",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_sp_mesh_safetyred_light_png.png"
+            },
+            {
+                "id": "skin-1903732",
+                "name": "截短霰弹枪 | 刹车灯",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "797",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_aa_vertigo_red_light_png.png"
+            },
+            {
+                "id": "skin-2362292",
+                "name": "P250 | 葡萄酒",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "749",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_gs_p250_checker_light_png.png"
+            },
+            {
+                "id": "skin-2165696",
+                "name": "MP7 | 渐变之色",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "752",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_aa_fade_mp7_light_png.png"
+            },
+            {
+                "id": "skin-461932",
+                "name": "AK-47 | 安全网",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "795",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_hy_mesh_safetyorange_light_png.png"
+            },
+            {
+                "id": "skin-134060",
+                "name": "双持贝瑞塔 | 双涡轮",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "747",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_cu_dual_elites_rally_light_png.png"
+            },
+            {
+                "id": "skin-2558904",
+                "name": "SG 553 | 意式拉力",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "750",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_cu_sg553_rally_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_inferno_png.png"
+    },
+    {
+        "id": "crate-4927",
+        "name": "Copenhagen 2024 Mirage Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-2362596",
+                "name": "P250 | 天旱",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "825",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_sp_desert_skulls_dawn_light_png.png"
+            },
+            {
+                "id": "skin-1707252",
+                "name": "PP-野牛 | 安乐蜥",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "829",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_hy_lizard_skin_light_png.png"
+            },
+            {
+                "id": "skin-1772760",
+                "name": "MAG-7 | 海军之辉",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "822",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_am_navy_shine_light_png.png"
+            },
+            {
+                "id": "skin-1117416",
+                "name": "MAC-10 | 赭色大马士革",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "826",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_sp_mirage_flowers_tan_light_png.png"
+            },
+            {
+                "id": "skin-2625180",
+                "name": "SSG 08 | 掠夺者",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "935",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_sp_zebracam_red_light_png.png"
+            },
+            {
+                "id": "skin-134368",
+                "name": "双持贝瑞塔 | 浮木",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "824",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_sp_dry_wood_light_png.png"
+            },
+            {
+                "id": "skin-656320",
+                "name": "法玛斯 | 加州迷彩",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "240",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_hy_varicamo_desert_light_png.png"
+            },
+            {
+                "id": "skin-4132500",
+                "name": "CZ75 | 夜半棕榈",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "933",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_sp_palm_night_light_png.png"
+            },
+            {
+                "id": "skin-1248496",
+                "name": "P90 | 碧绿升藤",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "828",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_sp_moro_textile_green_vine_light_png.png"
+            },
+            {
+                "id": "skin-4000968",
+                "name": "USP 消音版 | 紫色 DDPAT",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "818",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_am_ddpat_purple_light_png.png"
+            },
+            {
+                "id": "skin-2231504",
+                "name": "MP9 | 八音盒",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "820",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_am_mirage_flowers_metalic_light_png.png"
+            },
+            {
+                "id": "skin-920812",
+                "name": "M249 | 雪茄盒",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "827",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_sp_moro_carving_burnt_light_png.png"
+            },
+            {
+                "id": "skin-2558964",
+                "name": "SG 553 | 沙漠之花",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "765",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_aa_desert_bloom_bright_light_png.png"
+            },
+            {
+                "id": "skin-1641684",
+                "name": "XM1014 | 雅藤如嫣",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "821",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_am_moro_textile_bright_light_png.png"
+            },
+            {
+                "id": "skin-262480",
+                "name": "格洛克 18 型 | 粉红 DDPAT",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "84",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_hy_ddpat_pink_light_png.png"
+            },
+            {
+                "id": "skin-527580",
+                "name": "AUG | 夜空沙暴",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "823",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_gs_aug_sand_storm_light_png.png"
+            },
+            {
+                "id": "skin-1511020",
+                "name": "MP5-SD | 幻化绿洲",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "923",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_gs_mp5_neon_flektarn_light_png.png"
+            },
+            {
+                "id": "skin-68592",
+                "name": "沙漠之鹰 | 沙漠之狐",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "764",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_gs_deagle_fennec_light_png.png"
+            },
+            {
+                "id": "skin-593100",
+                "name": "AWP | 九头金蛇",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隐秘",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "819",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_gs_awp_hydra_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_mirage_png.png"
+    },
+    {
+        "id": "crate-4928",
+        "name": "Copenhagen 2024 Anubis Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-4199252",
+                "name": "R8 左轮手枪 | 镶嵌装饰",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1237",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_gs_revolver_acanthus_bronze_light_png.png"
+            },
+            {
+                "id": "skin-922472",
+                "name": "M249 | 淹没",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1242",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_cu_m249_scarab_light_png.png"
+            },
+            {
+                "id": "skin-1643416",
+                "name": "XM1014 | 象形文字",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1254",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_cu_xm1014_pharaoh_light_png.png"
+            },
+            {
+                "id": "skin-2167672",
+                "name": "MP7 | 赤地",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1246",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_gs_mp7_strone_light_png.png"
+            },
+            {
+                "id": "skin-529284",
+                "name": "AUG | 蛇窟",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1249",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_hy_dune_trap_light_png.png"
+            },
+            {
+                "id": "skin-3937132",
+                "name": "M4A1 消音型 | 泥斑迷彩",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1243",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_milspec_light_png.png"
+            },
+            {
+                "id": "skin-2626444",
+                "name": "SSG 08 | 碧蓝雕文",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1251",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_gs_ssg08_anubis_light_png.png"
+            },
+            {
+                "id": "skin-4002708",
+                "name": "USP 消音版 | 沙漠战术",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1253",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_gs_usps_tactical_camo_light_png.png"
+            },
+            {
+                "id": "skin-1119088",
+                "name": "MAC-10 | 鸣沙",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1244",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_cu_mac10_scarab_light_png.png"
+            },
+            {
+                "id": "skin-1971088",
+                "name": "Tec-9 | 腐朽木乃伊",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1252",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_cu_tec9_mummy_light_png.png"
+            },
+            {
+                "id": "skin-463704",
+                "name": "AK-47 | 钢铁三角洲",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1238",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_gs_ak47_strone_light_png.png"
+            },
+            {
+                "id": "skin-594780",
+                "name": "AWP | 尼罗河沃土",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1239",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_gs_awp_strone_light_png.png"
+            },
+            {
+                "id": "skin-1774452",
+                "name": "MAG-7 | 鎏铜",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1245",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_gs_mag7_goold_light_png.png"
+            },
+            {
+                "id": "skin-267104",
+                "name": "格洛克 18 型 | 拉美西斯之触",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1240",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_cu_glock_ramzes_light_png.png"
+            },
+            {
+                "id": "skin-2298748",
+                "name": "新星 | 索贝克之噬",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1247",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_gs_nova_sobek_light_png.png"
+            },
+            {
+                "id": "skin-1250184",
+                "name": "P90 | 疾袭圣甲虫",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1250",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_cu_p90_scarab_of_wisdom_light_png.png"
+            },
+            {
+                "id": "skin-660324",
+                "name": "法玛斯 | 奈芙蒂斯之河",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1241",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_cu_famas_holo_ocean_light_png.png"
+            },
+            {
+                "id": "skin-2364288",
+                "name": "P250 | 阿佩普之咒",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1248",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_gs_p250_apep_light_png.png"
+            },
+            {
+                "id": "skin-1053596",
+                "name": "M4A4 | 荷鲁斯之眼",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隐秘",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "1255",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_gs_m4a4_ra_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_anubis_png.png"
+    },
+    {
+        "id": "crate-4929",
+        "name": "Copenhagen 2024 Overpass Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-917592",
+                "name": "M249 | 对比涂装",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "22",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_sp_spray_light_png.png"
+            },
+            {
+                "id": "skin-1769872",
+                "name": "MAG-7 | 暴风呼啸",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_so_stormfront_light_png.png"
+            },
+            {
+                "id": "skin-2228624",
+                "name": "MP9 | 暴风呼啸",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "100",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_so_stormfront_light_png.png"
+            },
+            {
+                "id": "skin-1901020",
+                "name": "截短霰弹枪 | 贤者涂装",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "119",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_sp_spray_desert_sage_light_png.png"
+            },
+            {
+                "id": "skin-1573564",
+                "name": "UMP-45 | 枯焦之色",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "175",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_sp_dapple_light_png.png"
+            },
+            {
+                "id": "skin-2162748",
+                "name": "MP7 | 硝烟",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "15",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_hy_gelpen_light_png.png"
+            },
+            {
+                "id": "skin-65604",
+                "name": "沙漠之鹰 | 都市 DDPAT",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "17",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png"
+            },
+            {
+                "id": "skin-262304",
+                "name": "格洛克 18 型 | 噩梦之夜",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "40",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_so_night_light_png.png"
+            },
+            {
+                "id": "skin-2097532",
+                "name": "P2000 | 工业牧草",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "95",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_hkp2000_so_grassland_light_png.png"
+            },
+            {
+                "id": "skin-1639352",
+                "name": "XM1014 | 蔚蓝多变迷彩",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "238",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_hy_varicamo_blue_light_png.png"
+            },
+            {
+                "id": "skin-2622716",
+                "name": "SSG 08 | 迂回路线",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "319",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_hy_ssg08_marker_light_png.png"
+            },
+            {
+                "id": "skin-4130056",
+                "name": "CZ75 | 氮化处理",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "322",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_so_orange_accents2_light_png.png"
+            },
+            {
+                "id": "skin-590160",
+                "name": "AWP | 粉红 DDPAT",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "84",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_hy_ddpat_pink_light_png.png"
+            },
+            {
+                "id": "skin-3998968",
+                "name": "USP 消音版 | 公路杀手",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "318",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_cu_usp_sandpapered_light_png.png"
+            },
+            {
+                "id": "skin-3933444",
+                "name": "M4A1 消音型 | 神来之作",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "321",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1-s_silence_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_overpass_png.png"
+    },
+    {
+        "id": "crate-4930",
+        "name": "Copenhagen 2024 Ancient Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-1249264",
+                "name": "P90 | 古老星球",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1020",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_aa_ancient_brown_light_png.png"
+            },
+            {
+                "id": "skin-2559992",
+                "name": "SG 553 | 废墟丛生",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1022",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_aa_ruins_green_light_png.png"
+            },
+            {
+                "id": "skin-2294952",
+                "name": "新星 | 军队之辉",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "298",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_am_army_shine_light_png.png"
+            },
+            {
+                "id": "skin-2622028",
+                "name": "SSG 08 | 丛林虚线",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "147",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_sp_tape_short_jungle_light_png.png"
+            },
+            {
+                "id": "skin-4194464",
+                "name": "R8 左轮手枪 | 噩梦之夜",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "40",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_so_night_light_png.png"
+            },
+            {
+                "id": "skin-2101228",
+                "name": "P2000 | 豹纹迷彩",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1019",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_hkp2000_am_black_panther_light_png.png"
+            },
+            {
+                "id": "skin-2166780",
+                "name": "MP7 | 绿野迷踪",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1023",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_hy_drywood_green_light_png.png"
+            },
+            {
+                "id": "skin-725032",
+                "name": "G3SG1 | 远古仪式",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1034",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_g3sg1_am_ancient_wine_light_png.png"
+            },
+            {
+                "id": "skin-4128896",
+                "name": "CZ75 | 银质",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "32",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_an_silver_light_png.png"
+            },
+            {
+                "id": "skin-1970176",
+                "name": "Tec-9 | 上古图腾",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1024",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_hy_ancient_tiles_peach_light_png.png"
+            },
+            {
+                "id": "skin-528420",
+                "name": "AUG | 璞玉",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1033",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_am_jade_light_png.png"
+            },
+            {
+                "id": "skin-856096",
+                "name": "加利尔 AR | 废墟黄昏",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1032",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_hy_ruins_red_light_png.png"
+            },
+            {
+                "id": "skin-655600",
+                "name": "法玛斯 | 黑水",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "60",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_am_zebra_dark_light_png.png"
+            },
+            {
+                "id": "skin-1642484",
+                "name": "XM1014 | 太古传说",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1021",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_am_ancient_warm_light_png.png"
+            },
+            {
+                "id": "skin-1118212",
+                "name": "MAC-10 | 金砖",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1025",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_am_gold_brick_light_png.png"
+            },
+            {
+                "id": "skin-4001820",
+                "name": "USP 消音版 | 远古幻想",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1031",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_sp_ancient_bright_light_png.png"
+            },
+            {
+                "id": "skin-1249184",
+                "name": "P90 | 豹走",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1000",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_cu_jaguar_p90_light_png.png"
+            },
+            {
+                "id": "skin-462824",
+                "name": "AK-47 | 美洲豹",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1018",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_ak_jaguar_light_png.png"
+            },
+            {
+                "id": "skin-3936164",
+                "name": "M4A1 消音型 | 冒险家乐园",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隐秘",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "1001",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_snake_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_ancient_png.png"
+    },
+    {
+        "id": "crate-4931",
+        "name": "Copenhagen 2024 Nuke Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-1707036",
+                "name": "PP-野牛 | 设施系列·速写图",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "775",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_hy_blueprint_white_light_png.png"
+            },
+            {
+                "id": "skin-2362404",
+                "name": "P250 | 设施系列·草图",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "777",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_hy_blueprint_red_light_png.png"
+            },
+            {
+                "id": "skin-1575976",
+                "name": "UMP-45 | 设施系列·深色图",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "778",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_hy_blueprint_bluered_light_png.png"
+            },
+            {
+                "id": "skin-199744",
+                "name": "FN57 | 冷却剂",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "784",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_hy_ducts_green_light_png.png"
+            },
+            {
+                "id": "skin-2296900",
+                "name": "新星 | 芯轴",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "785",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_hy_ducts_grey_light_png.png"
+            },
+            {
+                "id": "skin-1051696",
+                "name": "M4A4 | 主机",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "780",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_am_circuitboard_silver_light_png.png"
+            },
+            {
+                "id": "skin-2165816",
+                "name": "MP7 | 主板",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "782",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_am_circuitboard_green_light_png.png"
+            },
+            {
+                "id": "skin-1838140",
+                "name": "内格夫 | 舱壁",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "783",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_negev_hy_ducts_yellow_light_png.png"
+            },
+            {
+                "id": "skin-855128",
+                "name": "加利尔 AR | 冰核聚变",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "790",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_hy_nuclear_skulls_aqua_light_png.png"
+            },
+            {
+                "id": "skin-1248288",
+                "name": "P90 | 设施系列·底片图",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "776",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_hy_blueprint_aqua_light_png.png"
+            },
+            {
+                "id": "skin-1510452",
+                "name": "MP5-SD | 协处理器",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "781",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_am_circuitboard_aqua_light_png.png"
+            },
+            {
+                "id": "skin-2362440",
+                "name": "P250 | 交换机",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "786",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_hy_ducts_blue_light_png.png"
+            },
+            {
+                "id": "skin-592976",
+                "name": "AWP | 冥界之河",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "788",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_hy_nuclear_skulls_redblue_light_png.png"
+            },
+            {
+                "id": "skin-527404",
+                "name": "AUG | 随机存取",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "779",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_am_circuitboard_orange_light_png.png"
+            },
+            {
+                "id": "skin-1772620",
+                "name": "MAG-7 | 核芯破裂",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "787",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_hy_nuclear_hotorange_light_png.png"
+            },
+            {
+                "id": "skin-265300",
+                "name": "格洛克 18 型 | 核子花园",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "789",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_am_nuclear_skulls_green_light_png.png"
+            },
+            {
+                "id": "skin-1969244",
+                "name": "Tec-9 | 遥控",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "791",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_gs_tec9_envoy_light_png.png"
+            },
+            {
+                "id": "skin-3935328",
+                "name": "M4A1 消音型 | 控制台",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "792",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1s_operator_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_nuke_png.png"
+    },
+    {
+        "id": "crate-4932",
+        "name": "Copenhagen 2024 Vertigo Souvenir Package",
+        "description": null,
+        "type": "Souvenir",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "skin-1118412",
+                "name": "MAC-10 | 策略",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1075",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_hy_vertigospray_blue_light_png.png"
+            },
+            {
+                "id": "skin-659624",
+                "name": "法玛斯 | 线路故障",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1066",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_aa_wiring_yellow_light_png.png"
+            },
+            {
+                "id": "skin-1642712",
+                "name": "XM1014 | 蓝色轮胎",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1078",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_sp_tire_tread_blue_light_png.png"
+            },
+            {
+                "id": "skin-4133072",
+                "name": "CZ75 | 幻光构架",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1076",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_hy_vertigoillusion_light_png.png"
+            },
+            {
+                "id": "skin-135416",
+                "name": "双持贝瑞塔 | 更换机油",
+                "rarity": {
+                    "id": "rarity_common_weapon",
+                    "name": "消费级",
+                    "color": "#b0c3d9"
+                },
+                "paint_index": "1086",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_sp_engine_dirty_light_png.png"
+            },
+            {
+                "id": "skin-266460",
+                "name": "格洛克 18 型 | 红色轮胎",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1079",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_sp_tire_tread_red_light_png.png"
+            },
+            {
+                "id": "skin-1577204",
+                "name": "UMP-45 | 机械装置",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1085",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_aa_engine_performance_light_png.png"
+            },
+            {
+                "id": "skin-2621720",
+                "name": "SSG 08 | 碳素纤维",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "70",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_am_carbon_fiber_light_png.png"
+            },
+            {
+                "id": "skin-1708268",
+                "name": "PP-野牛 | 开关箱",
+                "rarity": {
+                    "id": "rarity_uncommon_weapon",
+                    "name": "工业级",
+                    "color": "#5e98d9"
+                },
+                "paint_index": "1083",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_aa_wiring_light_png.png"
+            },
+            {
+                "id": "skin-463032",
+                "name": "AK-47 | 绿色层压板",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1070",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_hy_ak47lam_green_light_png.png"
+            },
+            {
+                "id": "skin-1249480",
+                "name": "P90 | 解视图",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1074",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_hy_vertigogeo_light_png.png"
+            },
+            {
+                "id": "skin-2298068",
+                "name": "新星 | 致幻时刻",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1077",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_hy_vertigoillusion_yellow_light_png.png"
+            },
+            {
+                "id": "skin-1839328",
+                "name": "内格夫 | 基础建设",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "军规级",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1080",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_negev_hy_vertigospray_light_png.png"
+            },
+            {
+                "id": "skin-856252",
+                "name": "加利尔 AR | 警告！",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1071",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_sp_galil_caution_light_png.png"
+            },
+            {
+                "id": "skin-1773760",
+                "name": "MAG-7 | 棱彩阶梯",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1072",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_hy_geometric_steps_pearl_light_png.png"
+            },
+            {
+                "id": "skin-2363620",
+                "name": "P250 | 数字架构师",
+                "rarity": {
+                    "id": "rarity_mythical_weapon",
+                    "name": "受限",
+                    "color": "#8847ff"
+                },
+                "paint_index": "1081",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_aa_vertigogeo_neon_light_png.png"
+            },
+            {
+                "id": "skin-200936",
+                "name": "FN57 | 坠落危险",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1082",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_cu_vertigo_fiveseven_light_png.png"
+            },
+            {
+                "id": "skin-2560240",
+                "name": "SG 553 | 玩命职场",
+                "rarity": {
+                    "id": "rarity_legendary_weapon",
+                    "name": "保密",
+                    "color": "#d32ce6"
+                },
+                "paint_index": "1084",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_cu_sg553_caution_light_png.png"
+            },
+            {
+                "id": "skin-3936452",
+                "name": "M4A1 消音型 | 紧迫危机",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "隐秘",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": "1073",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_vertigo_light_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_cph2024_promo_de_vertigo_png.png"
     }
 ]

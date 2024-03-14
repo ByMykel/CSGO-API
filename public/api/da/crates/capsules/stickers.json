@@ -17618,7 +17618,7 @@
         "name": "Ambush-klistermærkekapsel",
         "description": "Denne kapsel indeholder en række forskellige klistermærker fra Steam-værkstedets kunstnere og blev udgivet i februar 2024.",
         "type": "Sticker Capsule",
-        "first_sale_date": "2024/01/25",
+        "first_sale_date": "2024-01-25",
         "contains": [
             {
                 "id": "sticker-7236",
@@ -17833,5 +17833,1118 @@
         ],
         "contains_rare": [],
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community_2024_capsule_png.png"
+    },
+    {
+        "id": "crate-4923",
+        "name": "Copenhagen 2024 Legends Sticker Capsule",
+        "description": "This capsule contains a single Copenhagen 2024 Legends participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-7254",
+                "name": "Natus Vincere | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_png.png"
+            },
+            {
+                "id": "sticker-7258",
+                "name": "Virtus.pro | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_png.png"
+            },
+            {
+                "id": "sticker-7262",
+                "name": "G2 Esports | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_png.png"
+            },
+            {
+                "id": "sticker-7266",
+                "name": "FaZe Clan | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_png.png"
+            },
+            {
+                "id": "sticker-7270",
+                "name": "Team Spirit | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_png.png"
+            },
+            {
+                "id": "sticker-7274",
+                "name": "Vitality | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_png.png"
+            },
+            {
+                "id": "sticker-7278",
+                "name": "MOUZ | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_png.png"
+            },
+            {
+                "id": "sticker-7282",
+                "name": "Complexity Gaming | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_png.png"
+            },
+            {
+                "id": "sticker-7350",
+                "name": "PGL | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_png.png"
+            },
+            {
+                "id": "sticker-7255",
+                "name": "Natus Vincere (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_glitter_png.png"
+            },
+            {
+                "id": "sticker-7259",
+                "name": "Virtus.pro (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_glitter_png.png"
+            },
+            {
+                "id": "sticker-7263",
+                "name": "G2 Esports (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_glitter_png.png"
+            },
+            {
+                "id": "sticker-7267",
+                "name": "FaZe Clan (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_glitter_png.png"
+            },
+            {
+                "id": "sticker-7271",
+                "name": "Team Spirit (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_glitter_png.png"
+            },
+            {
+                "id": "sticker-7275",
+                "name": "Vitality (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_glitter_png.png"
+            },
+            {
+                "id": "sticker-7279",
+                "name": "MOUZ (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_glitter_png.png"
+            },
+            {
+                "id": "sticker-7283",
+                "name": "Complexity Gaming (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_glitter_png.png"
+            },
+            {
+                "id": "sticker-7351",
+                "name": "PGL (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_glitter_png.png"
+            },
+            {
+                "id": "sticker-7256",
+                "name": "Natus Vincere (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_holo_png.png"
+            },
+            {
+                "id": "sticker-7260",
+                "name": "Virtus.pro (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_holo_png.png"
+            },
+            {
+                "id": "sticker-7264",
+                "name": "G2 Esports (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_holo_png.png"
+            },
+            {
+                "id": "sticker-7268",
+                "name": "FaZe Clan (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_holo_png.png"
+            },
+            {
+                "id": "sticker-7272",
+                "name": "Team Spirit (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_holo_png.png"
+            },
+            {
+                "id": "sticker-7276",
+                "name": "Vitality (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_holo_png.png"
+            },
+            {
+                "id": "sticker-7280",
+                "name": "MOUZ (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_holo_png.png"
+            },
+            {
+                "id": "sticker-7284",
+                "name": "Complexity Gaming (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_holo_png.png"
+            },
+            {
+                "id": "sticker-7352",
+                "name": "PGL (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_holo_png.png"
+            },
+            {
+                "id": "sticker-7257",
+                "name": "Natus Vincere (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_gold_png.png"
+            },
+            {
+                "id": "sticker-7261",
+                "name": "Virtus.pro (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_gold_png.png"
+            },
+            {
+                "id": "sticker-7265",
+                "name": "G2 Esports (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_gold_png.png"
+            },
+            {
+                "id": "sticker-7269",
+                "name": "FaZe Clan (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_gold_png.png"
+            },
+            {
+                "id": "sticker-7273",
+                "name": "Team Spirit (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_gold_png.png"
+            },
+            {
+                "id": "sticker-7277",
+                "name": "Vitality (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_gold_png.png"
+            },
+            {
+                "id": "sticker-7281",
+                "name": "MOUZ (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_gold_png.png"
+            },
+            {
+                "id": "sticker-7285",
+                "name": "Complexity Gaming (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_gold_png.png"
+            },
+            {
+                "id": "sticker-7353",
+                "name": "PGL (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_gold_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_legends_png.png"
+    },
+    {
+        "id": "crate-4924",
+        "name": "Copenhagen 2024 Challengers Sticker Capsule",
+        "description": "This capsule contains a single Copenhagen 2024 Challengers participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-7286",
+                "name": "Cloud9 | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_png.png"
+            },
+            {
+                "id": "sticker-7290",
+                "name": "ENCE | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_png.png"
+            },
+            {
+                "id": "sticker-7294",
+                "name": "FURIA | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_png.png"
+            },
+            {
+                "id": "sticker-7298",
+                "name": "Heroic | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_png.png"
+            },
+            {
+                "id": "sticker-7302",
+                "name": "Eternal Fire | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_png.png"
+            },
+            {
+                "id": "sticker-7306",
+                "name": "Apeks | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_png.png"
+            },
+            {
+                "id": "sticker-7310",
+                "name": "9Pandas | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pand_png.png"
+            },
+            {
+                "id": "sticker-7314",
+                "name": "SAW | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_png.png"
+            },
+            {
+                "id": "sticker-7350",
+                "name": "PGL | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_png.png"
+            },
+            {
+                "id": "sticker-7287",
+                "name": "Cloud9 (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_glitter_png.png"
+            },
+            {
+                "id": "sticker-7291",
+                "name": "ENCE (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_glitter_png.png"
+            },
+            {
+                "id": "sticker-7295",
+                "name": "FURIA (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_glitter_png.png"
+            },
+            {
+                "id": "sticker-7299",
+                "name": "Heroic (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_glitter_png.png"
+            },
+            {
+                "id": "sticker-7303",
+                "name": "Eternal Fire (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_glitter_png.png"
+            },
+            {
+                "id": "sticker-7307",
+                "name": "Apeks (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_glitter_png.png"
+            },
+            {
+                "id": "sticker-7311",
+                "name": "9Pandas (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pand_glitter_png.png"
+            },
+            {
+                "id": "sticker-7315",
+                "name": "SAW (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_glitter_png.png"
+            },
+            {
+                "id": "sticker-7351",
+                "name": "PGL (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_glitter_png.png"
+            },
+            {
+                "id": "sticker-7288",
+                "name": "Cloud9 (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_holo_png.png"
+            },
+            {
+                "id": "sticker-7292",
+                "name": "ENCE (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_holo_png.png"
+            },
+            {
+                "id": "sticker-7296",
+                "name": "FURIA (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_holo_png.png"
+            },
+            {
+                "id": "sticker-7300",
+                "name": "Heroic (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_holo_png.png"
+            },
+            {
+                "id": "sticker-7304",
+                "name": "Eternal Fire (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_holo_png.png"
+            },
+            {
+                "id": "sticker-7308",
+                "name": "Apeks (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_holo_png.png"
+            },
+            {
+                "id": "sticker-7312",
+                "name": "9Pandas (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pand_holo_png.png"
+            },
+            {
+                "id": "sticker-7316",
+                "name": "SAW (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_holo_png.png"
+            },
+            {
+                "id": "sticker-7352",
+                "name": "PGL (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_holo_png.png"
+            },
+            {
+                "id": "sticker-7289",
+                "name": "Cloud9 (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_gold_png.png"
+            },
+            {
+                "id": "sticker-7293",
+                "name": "ENCE (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_gold_png.png"
+            },
+            {
+                "id": "sticker-7297",
+                "name": "FURIA (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_gold_png.png"
+            },
+            {
+                "id": "sticker-7301",
+                "name": "Heroic (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_gold_png.png"
+            },
+            {
+                "id": "sticker-7305",
+                "name": "Eternal Fire (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_gold_png.png"
+            },
+            {
+                "id": "sticker-7309",
+                "name": "Apeks (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_gold_png.png"
+            },
+            {
+                "id": "sticker-7313",
+                "name": "9Pandas (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pand_gold_png.png"
+            },
+            {
+                "id": "sticker-7317",
+                "name": "SAW (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_gold_png.png"
+            },
+            {
+                "id": "sticker-7353",
+                "name": "PGL (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_gold_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_challengers_png.png"
+    },
+    {
+        "id": "crate-4925",
+        "name": "Copenhagen 2024 Contenders Sticker Capsule",
+        "description": "This capsule contains a single Copenhagen 2024 Contenders participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        "type": "Sticker Capsule",
+        "first_sale_date": null,
+        "contains": [
+            {
+                "id": "sticker-7318",
+                "name": "paiN Gaming | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_png.png"
+            },
+            {
+                "id": "sticker-7322",
+                "name": "Imperial Esports | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_png.png"
+            },
+            {
+                "id": "sticker-7326",
+                "name": "The MongolZ | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_png.png"
+            },
+            {
+                "id": "sticker-7330",
+                "name": "AMKAL ESPORTS | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_png.png"
+            },
+            {
+                "id": "sticker-7334",
+                "name": "ECSTATIC | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_png.png"
+            },
+            {
+                "id": "sticker-7338",
+                "name": "KOI | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_png.png"
+            },
+            {
+                "id": "sticker-7342",
+                "name": "Legacy | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_png.png"
+            },
+            {
+                "id": "sticker-7346",
+                "name": "Lynn Vision | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_png.png"
+            },
+            {
+                "id": "sticker-7350",
+                "name": "PGL | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Højkvalitet",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_png.png"
+            },
+            {
+                "id": "sticker-7319",
+                "name": "paiN Gaming (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_glitter_png.png"
+            },
+            {
+                "id": "sticker-7323",
+                "name": "Imperial Esports (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_glitter_png.png"
+            },
+            {
+                "id": "sticker-7327",
+                "name": "The MongolZ (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_glitter_png.png"
+            },
+            {
+                "id": "sticker-7331",
+                "name": "AMKAL ESPORTS (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_glitter_png.png"
+            },
+            {
+                "id": "sticker-7335",
+                "name": "ECSTATIC (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_glitter_png.png"
+            },
+            {
+                "id": "sticker-7339",
+                "name": "KOI (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_glitter_png.png"
+            },
+            {
+                "id": "sticker-7343",
+                "name": "Legacy (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_glitter_png.png"
+            },
+            {
+                "id": "sticker-7347",
+                "name": "Lynn Vision (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_glitter_png.png"
+            },
+            {
+                "id": "sticker-7351",
+                "name": "PGL (Glitter) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Bemærkelsesværdig",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_glitter_png.png"
+            },
+            {
+                "id": "sticker-7320",
+                "name": "paiN Gaming (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_holo_png.png"
+            },
+            {
+                "id": "sticker-7324",
+                "name": "Imperial Esports (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_holo_png.png"
+            },
+            {
+                "id": "sticker-7328",
+                "name": "The MongolZ (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_holo_png.png"
+            },
+            {
+                "id": "sticker-7332",
+                "name": "AMKAL ESPORTS (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_holo_png.png"
+            },
+            {
+                "id": "sticker-7336",
+                "name": "ECSTATIC (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_holo_png.png"
+            },
+            {
+                "id": "sticker-7340",
+                "name": "KOI (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_holo_png.png"
+            },
+            {
+                "id": "sticker-7344",
+                "name": "Legacy (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_holo_png.png"
+            },
+            {
+                "id": "sticker-7348",
+                "name": "Lynn Vision (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_holo_png.png"
+            },
+            {
+                "id": "sticker-7352",
+                "name": "PGL (Holo) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Eksotisk",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_holo_png.png"
+            },
+            {
+                "id": "sticker-7321",
+                "name": "paiN Gaming (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_gold_png.png"
+            },
+            {
+                "id": "sticker-7325",
+                "name": "Imperial Esports (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_gold_png.png"
+            },
+            {
+                "id": "sticker-7329",
+                "name": "The MongolZ (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_gold_png.png"
+            },
+            {
+                "id": "sticker-7333",
+                "name": "AMKAL ESPORTS (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_gold_png.png"
+            },
+            {
+                "id": "sticker-7337",
+                "name": "ECSTATIC (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_gold_png.png"
+            },
+            {
+                "id": "sticker-7341",
+                "name": "KOI (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_gold_png.png"
+            },
+            {
+                "id": "sticker-7345",
+                "name": "Legacy (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_gold_png.png"
+            },
+            {
+                "id": "sticker-7349",
+                "name": "Lynn Vision (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_gold_png.png"
+            },
+            {
+                "id": "sticker-7353",
+                "name": "PGL (Gold) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Ekstraordinær",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_gold_png.png"
+            }
+        ],
+        "contains_rare": [],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_contenders_png.png"
     }
 ]
