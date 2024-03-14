@@ -401,7 +401,7 @@ export const getCollectibleRarity = (prefab) => {
 };
 
 export const getRarityColor = (id) => {
-    id = id.toLowerCase();
+    id = id?.toLowerCase() ?? "";
 
     switch (id) {
         case "rarity_default":
