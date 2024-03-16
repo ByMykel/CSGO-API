@@ -21,7 +21,7 @@
     },
     {
         "id": "crate-1215",
-        "name": "視聴者参加型小包",
+        "name": "観戦者向け小包",
         "description": "使用すると、マッチを観戦中の最大25人の観戦者が、あなたからのギフトとしてランダムなアイテムを受け取ります。",
         "type": null,
         "first_sale_date": "2013/12/16",
@@ -31,8 +31,8 @@
     },
     {
         "id": "crate-4668",
-        "name": "X-Ray P250 Package",
-        "description": "This package contains a single custom painted P250 showing its internals with an X-Ray. P250 is a low-recoil firearm with a high rate of fire, which is a relatively inexpensive choice against armored opponents.",
+        "name": "X-Ray P250 パッケージ",
+        "description": "このパッケージには X 線の透過イメージがカスタムペイントされた P250 が1つ含まれます。P250 は低反動で連射速度の高い銃で、アーマーを着用した敵への対抗手段としては比較的安価です。",
         "type": null,
         "first_sale_date": "2019/10/02",
         "contains": [
@@ -53,8 +53,8 @@
     },
     {
         "id": "crate-4871",
-        "name": "Rio 2022 Storage Unit with Paper Stickers",
-        "description": "This is a Storage Unit containing every Paper player autograph and every Paper sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
+        "name": "Rio 2022 ペーパーステッカー付きストレージユニット",
+        "description": "これは IEM Rio 2022 CS:GO Major Championship の全選手のサインならびに全チームのペーパーステッカーが入った記念ストレージユニットです。\\n\\nこのカプセルの販売による収入の半分は参加選手や関連組織に分配されます。",
         "type": null,
         "first_sale_date": null,
         "contains": [
@@ -1514,1457 +1514,1457 @@
     },
     {
         "id": "crate-4872",
-        "name": "Rio 2022 Storage Unit with Glitter Stickers",
-        "description": "This is a Storage Unit containing every Glitter player autograph and every Glitter sticker commemorating IEM Rio 2022 CS:GO Major Championship.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.",
+        "name": "Rio 2022 グリッターステッカー付きストレージユニット",
+        "description": "これは IEM Rio 2022 CS:GO Major Championship の全選手のサインならびに全チームのグリッターステッカーが入った記念ストレージユニットです。\\n\\nこのカプセルの販売による収入の半分は参加選手や関連組織に分配されます。",
         "type": null,
         "first_sale_date": null,
         "contains": [
             {
                 "id": "sticker-6087",
-                "name": "Snappi (Glitter) | Rio 2022",
+                "name": "Snappi (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_snappi_glitter_png.png"
             },
             {
                 "id": "sticker-6091",
-                "name": "Dycha (Glitter) | Rio 2022",
+                "name": "Dycha (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dycha_glitter_png.png"
             },
             {
                 "id": "sticker-6095",
-                "name": "maden (Glitter) | Rio 2022",
+                "name": "maden (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_maden_glitter_png.png"
             },
             {
                 "id": "sticker-6099",
-                "name": "v4lde (Glitter) | Rio 2022",
+                "name": "v4lde (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_v4lde_glitter_png.png"
             },
             {
                 "id": "sticker-6103",
-                "name": "SunPayus (Glitter) | Rio 2022",
+                "name": "SunPayus (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sunpayus_glitter_png.png"
             },
             {
                 "id": "sticker-6107",
-                "name": "karrigan (Glitter) | Rio 2022",
+                "name": "karrigan (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_karrigan_glitter_png.png"
             },
             {
                 "id": "sticker-6111",
-                "name": "rain (Glitter) | Rio 2022",
+                "name": "rain (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_rain_glitter_png.png"
             },
             {
                 "id": "sticker-6115",
-                "name": "Twistzz (Glitter) | Rio 2022",
+                "name": "Twistzz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_twistzz_glitter_png.png"
             },
             {
                 "id": "sticker-6119",
-                "name": "ropz (Glitter) | Rio 2022",
+                "name": "ropz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_ropz_glitter_png.png"
             },
             {
                 "id": "sticker-6123",
-                "name": "broky (Glitter) | Rio 2022",
+                "name": "broky (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_broky_glitter_png.png"
             },
             {
                 "id": "sticker-6127",
-                "name": "cadiaN (Glitter) | Rio 2022",
+                "name": "cadiaN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_cadian_glitter_png.png"
             },
             {
                 "id": "sticker-6131",
-                "name": "TeSeS (Glitter) | Rio 2022",
+                "name": "TeSeS (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_teses_glitter_png.png"
             },
             {
                 "id": "sticker-6135",
-                "name": "sjuush (Glitter) | Rio 2022",
+                "name": "sjuush (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sjuush_glitter_png.png"
             },
             {
                 "id": "sticker-6139",
-                "name": "jabbi (Glitter) | Rio 2022",
+                "name": "jabbi (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_jabbi_glitter_png.png"
             },
             {
                 "id": "sticker-6143",
-                "name": "stavn (Glitter) | Rio 2022",
+                "name": "stavn (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_stavn_glitter_png.png"
             },
             {
                 "id": "sticker-6147",
-                "name": "b1t (Glitter) | Rio 2022",
+                "name": "b1t (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_b1t_glitter_png.png"
             },
             {
                 "id": "sticker-6151",
-                "name": "electronic (Glitter) | Rio 2022",
+                "name": "electronic (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_electronic_glitter_png.png"
             },
             {
                 "id": "sticker-6155",
-                "name": "sdy (Glitter) | Rio 2022",
+                "name": "sdy (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sdy_glitter_png.png"
             },
             {
                 "id": "sticker-6159",
-                "name": "Perfecto (Glitter) | Rio 2022",
+                "name": "Perfecto (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_perfecto_glitter_png.png"
             },
             {
                 "id": "sticker-6163",
-                "name": "s1mple (Glitter) | Rio 2022",
+                "name": "s1mple (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_s1mple_glitter_png.png"
             },
             {
                 "id": "sticker-6167",
-                "name": "es3tag (Glitter) | Rio 2022",
+                "name": "es3tag (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_es3tag_glitter_png.png"
             },
             {
                 "id": "sticker-6171",
-                "name": "Aleksib (Glitter) | Rio 2022",
+                "name": "Aleksib (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_aleksib_glitter_png.png"
             },
             {
                 "id": "sticker-6175",
-                "name": "REZ (Glitter) | Rio 2022",
+                "name": "REZ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_rez_glitter_png.png"
             },
             {
                 "id": "sticker-6179",
-                "name": "hampus (Glitter) | Rio 2022",
+                "name": "hampus (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_hampus_glitter_png.png"
             },
             {
                 "id": "sticker-6183",
-                "name": "Brollan (Glitter) | Rio 2022",
+                "name": "Brollan (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_brollan_glitter_png.png"
             },
             {
                 "id": "sticker-6187",
-                "name": "slaxz- (Glitter) | Rio 2022",
+                "name": "slaxz- (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_slaxz_glitter_png.png"
             },
             {
                 "id": "sticker-6191",
-                "name": "lauNX (Glitter) | Rio 2022",
+                "name": "lauNX (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_launx_glitter_png.png"
             },
             {
                 "id": "sticker-6195",
-                "name": "refrezh (Glitter) | Rio 2022",
+                "name": "refrezh (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_refrezh_glitter_png.png"
             },
             {
                 "id": "sticker-6199",
-                "name": "Staehr (Glitter) | Rio 2022",
+                "name": "Staehr (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_staehr_glitter_png.png"
             },
             {
                 "id": "sticker-6203",
-                "name": "Zyphon (Glitter) | Rio 2022",
+                "name": "Zyphon (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_zyphon_glitter_png.png"
             },
             {
                 "id": "sticker-6207",
-                "name": "YEKINDAR (Glitter) | Rio 2022",
+                "name": "YEKINDAR (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_yekindar_glitter_png.png"
             },
             {
                 "id": "sticker-6211",
-                "name": "oSee (Glitter) | Rio 2022",
+                "name": "oSee (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_osee_glitter_png.png"
             },
             {
                 "id": "sticker-6215",
-                "name": "nitr0 (Glitter) | Rio 2022",
+                "name": "nitr0 (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nitro_glitter_png.png"
             },
             {
                 "id": "sticker-6219",
-                "name": "NAF (Glitter) | Rio 2022",
+                "name": "NAF (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_naf_glitter_png.png"
             },
             {
                 "id": "sticker-6223",
-                "name": "EliGE (Glitter) | Rio 2022",
+                "name": "EliGE (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_elige_glitter_png.png"
             },
             {
                 "id": "sticker-6227",
-                "name": "chopper (Glitter) | Rio 2022",
+                "name": "chopper (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_chopper_glitter_png.png"
             },
             {
                 "id": "sticker-6231",
-                "name": "magixx (Glitter) | Rio 2022",
+                "name": "magixx (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_magixx_glitter_png.png"
             },
             {
                 "id": "sticker-6235",
-                "name": "Patsi (Glitter) | Rio 2022",
+                "name": "Patsi (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_patsi_glitter_png.png"
             },
             {
                 "id": "sticker-6239",
-                "name": "S1ren (Glitter) | Rio 2022",
+                "name": "S1ren (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_s1ren_glitter_png.png"
             },
             {
                 "id": "sticker-6243",
-                "name": "w0nderful (Glitter) | Rio 2022",
+                "name": "w0nderful (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_w0nderful_glitter_png.png"
             },
             {
                 "id": "sticker-6247",
-                "name": "NQZ (Glitter) | Rio 2022",
+                "name": "NQZ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nqz_glitter_png.png"
             },
             {
                 "id": "sticker-6251",
-                "name": "dav1deuS (Glitter) | Rio 2022",
+                "name": "dav1deuS (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dav1deus_glitter_png.png"
             },
             {
                 "id": "sticker-6255",
-                "name": "max (Glitter) | Rio 2022",
+                "name": "max (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_max_glitter_png.png"
             },
             {
                 "id": "sticker-6259",
-                "name": "dgt (Glitter) | Rio 2022",
+                "name": "dgt (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dgt_glitter_png.png"
             },
             {
                 "id": "sticker-6263",
-                "name": "BUDA (Glitter) | Rio 2022",
+                "name": "BUDA (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_buda_glitter_png.png"
             },
             {
                 "id": "sticker-6267",
-                "name": "gxx- (Glitter) | Rio 2022",
+                "name": "gxx- (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_gxx_glitter_png.png"
             },
             {
                 "id": "sticker-6271",
-                "name": "SENER1 (Glitter) | Rio 2022",
+                "name": "SENER1 (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sener1_glitter_png.png"
             },
             {
                 "id": "sticker-6275",
-                "name": "juanflatroo (Glitter) | Rio 2022",
+                "name": "juanflatroo (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_juanflatroo_glitter_png.png"
             },
             {
                 "id": "sticker-6279",
-                "name": "rigoN (Glitter) | Rio 2022",
+                "name": "rigoN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_rigon_glitter_png.png"
             },
             {
                 "id": "sticker-6283",
-                "name": "sinnopsyy (Glitter) | Rio 2022",
+                "name": "sinnopsyy (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sinnopsyy_glitter_png.png"
             },
             {
                 "id": "sticker-6287",
-                "name": "faveN (Glitter) | Rio 2022",
+                "name": "faveN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_faven_glitter_png.png"
             },
             {
                 "id": "sticker-6291",
-                "name": "Krimbo (Glitter) | Rio 2022",
+                "name": "Krimbo (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_krimbo_glitter_png.png"
             },
             {
                 "id": "sticker-6295",
-                "name": "k1to (Glitter) | Rio 2022",
+                "name": "k1to (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_k1to_glitter_png.png"
             },
             {
                 "id": "sticker-6299",
-                "name": "tabseN (Glitter) | Rio 2022",
+                "name": "tabseN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_tabsen_glitter_png.png"
             },
             {
                 "id": "sticker-6303",
-                "name": "syrsoN (Glitter) | Rio 2022",
+                "name": "syrsoN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_syrson_glitter_png.png"
             },
             {
                 "id": "sticker-6307",
-                "name": "sh1ro (Glitter) | Rio 2022",
+                "name": "sh1ro (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sh1ro_glitter_png.png"
             },
             {
                 "id": "sticker-6311",
-                "name": "nafany (Glitter) | Rio 2022",
+                "name": "nafany (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nafany_glitter_png.png"
             },
             {
                 "id": "sticker-6315",
-                "name": "Ax1Le (Glitter) | Rio 2022",
+                "name": "Ax1Le (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_ax1le_glitter_png.png"
             },
             {
                 "id": "sticker-6319",
-                "name": "interz (Glitter) | Rio 2022",
+                "name": "interz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_interz_glitter_png.png"
             },
             {
                 "id": "sticker-6323",
-                "name": "Hobbit (Glitter) | Rio 2022",
+                "name": "Hobbit (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_hobbit_glitter_png.png"
             },
             {
                 "id": "sticker-6327",
-                "name": "autimatic (Glitter) | Rio 2022",
+                "name": "autimatic (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_autimatic_glitter_png.png"
             },
             {
                 "id": "sticker-6331",
-                "name": "neaLaN (Glitter) | Rio 2022",
+                "name": "neaLaN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nealan_glitter_png.png"
             },
             {
                 "id": "sticker-6335",
-                "name": "Brehze (Glitter) | Rio 2022",
+                "name": "Brehze (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_brehze_glitter_png.png"
             },
             {
                 "id": "sticker-6339",
-                "name": "HexT (Glitter) | Rio 2022",
+                "name": "HexT (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_hext_glitter_png.png"
             },
             {
                 "id": "sticker-6343",
-                "name": "CeRq (Glitter) | Rio 2022",
+                "name": "CeRq (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_cerq_glitter_png.png"
             },
             {
                 "id": "sticker-6347",
-                "name": "frozen (Glitter) | Rio 2022",
+                "name": "frozen (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_frozen_glitter_png.png"
             },
             {
                 "id": "sticker-6351",
-                "name": "dexter (Glitter) | Rio 2022",
+                "name": "dexter (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dexter_glitter_png.png"
             },
             {
                 "id": "sticker-6355",
-                "name": "JDC (Glitter) | Rio 2022",
+                "name": "JDC (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_jdc_glitter_png.png"
             },
             {
                 "id": "sticker-6359",
-                "name": "torzsi (Glitter) | Rio 2022",
+                "name": "torzsi (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_torzsi_glitter_png.png"
             },
             {
                 "id": "sticker-6363",
-                "name": "xertioN (Glitter) | Rio 2022",
+                "name": "xertioN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_xertion_glitter_png.png"
             },
             {
                 "id": "sticker-6367",
-                "name": "nexa (Glitter) | Rio 2022",
+                "name": "nexa (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nexa_glitter_png.png"
             },
             {
                 "id": "sticker-6371",
-                "name": "NEOFRAG (Glitter) | Rio 2022",
+                "name": "NEOFRAG (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_neofrag_glitter_png.png"
             },
             {
                 "id": "sticker-6375",
-                "name": "FlameZ (Glitter) | Rio 2022",
+                "name": "FlameZ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_flamez_glitter_png.png"
             },
             {
                 "id": "sticker-6379",
-                "name": "degster (Glitter) | Rio 2022",
+                "name": "degster (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_degster_glitter_png.png"
             },
             {
                 "id": "sticker-6383",
-                "name": "F1KU (Glitter) | Rio 2022",
+                "name": "F1KU (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_f1ku_glitter_png.png"
             },
             {
                 "id": "sticker-6387",
-                "name": "dupreeh (Glitter) | Rio 2022",
+                "name": "dupreeh (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dupreeh_glitter_png.png"
             },
             {
                 "id": "sticker-6391",
-                "name": "Magisk (Glitter) | Rio 2022",
+                "name": "Magisk (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_magisk_glitter_png.png"
             },
             {
                 "id": "sticker-6395",
-                "name": "apEX (Glitter) | Rio 2022",
+                "name": "apEX (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_apex_glitter_png.png"
             },
             {
                 "id": "sticker-6399",
-                "name": "Spinx (Glitter) | Rio 2022",
+                "name": "Spinx (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_spinx_glitter_png.png"
             },
             {
                 "id": "sticker-6403",
-                "name": "ZywOo (Glitter) | Rio 2022",
+                "name": "ZywOo (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_zywoo_glitter_png.png"
             },
             {
                 "id": "sticker-6407",
-                "name": "TACO (Glitter) | Rio 2022",
+                "name": "TACO (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_taco_glitter_png.png"
             },
             {
                 "id": "sticker-6411",
-                "name": "coldzera (Glitter) | Rio 2022",
+                "name": "coldzera (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_coldzera_glitter_png.png"
             },
             {
                 "id": "sticker-6415",
-                "name": "TRY (Glitter) | Rio 2022",
+                "name": "TRY (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_try_glitter_png.png"
             },
             {
                 "id": "sticker-6419",
-                "name": "latto (Glitter) | Rio 2022",
+                "name": "latto (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_latto_glitter_png.png"
             },
             {
                 "id": "sticker-6423",
-                "name": "dumau (Glitter) | Rio 2022",
+                "name": "dumau (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_dumau_glitter_png.png"
             },
             {
                 "id": "sticker-6427",
-                "name": "KRIMZ (Glitter) | Rio 2022",
+                "name": "KRIMZ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_krimz_glitter_png.png"
             },
             {
                 "id": "sticker-6431",
-                "name": "mezii (Glitter) | Rio 2022",
+                "name": "mezii (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_mezii_glitter_png.png"
             },
             {
                 "id": "sticker-6435",
-                "name": "FASHR (Glitter) | Rio 2022",
+                "name": "FASHR (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_fashr_glitter_png.png"
             },
             {
                 "id": "sticker-6439",
-                "name": "roeJ (Glitter) | Rio 2022",
+                "name": "roeJ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_roej_glitter_png.png"
             },
             {
                 "id": "sticker-6443",
-                "name": "nicoodoz (Glitter) | Rio 2022",
+                "name": "nicoodoz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_nicoodoz_glitter_png.png"
             },
             {
                 "id": "sticker-6447",
-                "name": "KSCERATO (Glitter) | Rio 2022",
+                "name": "KSCERATO (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_kscerato_glitter_png.png"
             },
             {
                 "id": "sticker-6451",
-                "name": "yuurih (Glitter) | Rio 2022",
+                "name": "yuurih (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_yuurih_glitter_png.png"
             },
             {
                 "id": "sticker-6455",
-                "name": "drop (Glitter) | Rio 2022",
+                "name": "drop (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_drop_glitter_png.png"
             },
             {
                 "id": "sticker-6459",
-                "name": "saffee (Glitter) | Rio 2022",
+                "name": "saffee (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_saffee_glitter_png.png"
             },
             {
                 "id": "sticker-6463",
-                "name": "arT (Glitter) | Rio 2022",
+                "name": "arT (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_art_glitter_png.png"
             },
             {
                 "id": "sticker-6467",
-                "name": "acoR (Glitter) | Rio 2022",
+                "name": "acoR (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_acor_glitter_png.png"
             },
             {
                 "id": "sticker-6471",
-                "name": "iM (Glitter) | Rio 2022",
+                "name": "iM (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_im_glitter_png.png"
             },
             {
                 "id": "sticker-6475",
-                "name": "siuhy (Glitter) | Rio 2022",
+                "name": "siuhy (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_siuhy_glitter_png.png"
             },
             {
                 "id": "sticker-6479",
-                "name": "Keoz (Glitter) | Rio 2022",
+                "name": "Keoz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_keoz_glitter_png.png"
             },
             {
                 "id": "sticker-6483",
-                "name": "isak (Glitter) | Rio 2022",
+                "name": "isak (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_isak_glitter_png.png"
             },
             {
                 "id": "sticker-6487",
-                "name": "INS (Glitter) | Rio 2022",
+                "name": "INS (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_ins_glitter_png.png"
             },
             {
                 "id": "sticker-6491",
-                "name": "vexite (Glitter) | Rio 2022",
+                "name": "vexite (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_vexite_glitter_png.png"
             },
             {
                 "id": "sticker-6495",
-                "name": "Sico (Glitter) | Rio 2022",
+                "name": "Sico (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sico_glitter_png.png"
             },
             {
                 "id": "sticker-6499",
-                "name": "Liazz (Glitter) | Rio 2022",
+                "name": "Liazz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_liazz_glitter_png.png"
             },
             {
                 "id": "sticker-6503",
-                "name": "aliStair (Glitter) | Rio 2022",
+                "name": "aliStair (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_alistair_glitter_png.png"
             },
             {
                 "id": "sticker-6507",
-                "name": "sk0R (Glitter) | Rio 2022",
+                "name": "sk0R (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_sk0r_glitter_png.png"
             },
             {
                 "id": "sticker-6511",
-                "name": "Techno4K (Glitter) | Rio 2022",
+                "name": "Techno4K (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_techno4k_glitter_png.png"
             },
             {
                 "id": "sticker-6515",
-                "name": "kabal (Glitter) | Rio 2022",
+                "name": "kabal (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_kabal_glitter_png.png"
             },
             {
                 "id": "sticker-6519",
-                "name": "bLitz (Glitter) | Rio 2022",
+                "name": "bLitz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_blitz_glitter_png.png"
             },
             {
                 "id": "sticker-6523",
-                "name": "ANNIHILATION (Glitter) | Rio 2022",
+                "name": "ANNIHILATION (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_annihilation_glitter_png.png"
             },
             {
                 "id": "sticker-6527",
-                "name": "FalleN (Glitter) | Rio 2022",
+                "name": "FalleN (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_fallen_glitter_png.png"
             },
             {
                 "id": "sticker-6531",
-                "name": "fer (Glitter) | Rio 2022",
+                "name": "fer (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_fer_glitter_png.png"
             },
             {
                 "id": "sticker-6535",
-                "name": "boltz (Glitter) | Rio 2022",
+                "name": "boltz (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_boltz_glitter_png.png"
             },
             {
                 "id": "sticker-6539",
-                "name": "VINI (Glitter) | Rio 2022",
+                "name": "VINI (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_vini_glitter_png.png"
             },
             {
                 "id": "sticker-6543",
-                "name": "chelo (Glitter) | Rio 2022",
+                "name": "chelo (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_chelo_glitter_png.png"
             },
             {
                 "id": "sticker-6547",
-                "name": "FL1T (Glitter) | Rio 2022",
+                "name": "FL1T (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_fl1t_glitter_png.png"
             },
             {
                 "id": "sticker-6551",
-                "name": "n0rb3r7 (Glitter) | Rio 2022",
+                "name": "n0rb3r7 (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_n0rb3r7_glitter_png.png"
             },
             {
                 "id": "sticker-6555",
-                "name": "Jame (Glitter) | Rio 2022",
+                "name": "Jame (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_jame_glitter_png.png"
             },
             {
                 "id": "sticker-6559",
-                "name": "qikert (Glitter) | Rio 2022",
+                "name": "qikert (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_qikert_glitter_png.png"
             },
             {
                 "id": "sticker-6563",
-                "name": "fame (Glitter) | Rio 2022",
+                "name": "fame (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/sig_fame_glitter_png.png"
             },
             {
                 "id": "sticker-5962",
-                "name": "ENCE (Glitter) | Rio 2022",
+                "name": "ENCE (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/ence_glitter_png.png"
             },
             {
                 "id": "sticker-5966",
-                "name": "FaZe Clan (Glitter) | Rio 2022",
+                "name": "FaZe Clan (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/faze_glitter_png.png"
             },
             {
                 "id": "sticker-5970",
-                "name": "Heroic (Glitter) | Rio 2022",
+                "name": "Heroic (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/hero_glitter_png.png"
             },
             {
                 "id": "sticker-5974",
-                "name": "Natus Vincere (Glitter) | Rio 2022",
+                "name": "Natus Vincere (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/navi_glitter_png.png"
             },
             {
                 "id": "sticker-5978",
-                "name": "Ninjas in Pyjamas (Glitter) | Rio 2022",
+                "name": "Ninjas in Pyjamas (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/nip_glitter_png.png"
             },
             {
                 "id": "sticker-5982",
-                "name": "Sprout Esports (Glitter) | Rio 2022",
+                "name": "Sprout Esports (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/spr_glitter_png.png"
             },
             {
                 "id": "sticker-5986",
-                "name": "Team Liquid (Glitter) | Rio 2022",
+                "name": "Team Liquid (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/liq_glitter_png.png"
             },
             {
                 "id": "sticker-5990",
-                "name": "Team Spirit (Glitter) | Rio 2022",
+                "name": "Team Spirit (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/spir_glitter_png.png"
             },
             {
                 "id": "sticker-5994",
-                "name": "9z Team (Glitter) | Rio 2022",
+                "name": "9z Team (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/nine_glitter_png.png"
             },
             {
                 "id": "sticker-5998",
-                "name": "Bad News Eagles (Glitter) | Rio 2022",
+                "name": "Bad News Eagles (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/bne_glitter_png.png"
             },
             {
                 "id": "sticker-6002",
-                "name": "BIG (Glitter) | Rio 2022",
+                "name": "BIG (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/big_glitter_png.png"
             },
             {
                 "id": "sticker-6006",
-                "name": "Cloud9 (Glitter) | Rio 2022",
+                "name": "Cloud9 (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/c9_glitter_png.png"
             },
             {
                 "id": "sticker-6010",
-                "name": "Evil Geniuses (Glitter) | Rio 2022",
+                "name": "Evil Geniuses (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/evl_glitter_png.png"
             },
             {
                 "id": "sticker-6014",
-                "name": "MOUZ (Glitter) | Rio 2022",
+                "name": "MOUZ (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/mouz_glitter_png.png"
             },
             {
                 "id": "sticker-6018",
-                "name": "OG (Glitter) | Rio 2022",
+                "name": "OG (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/og_glitter_png.png"
             },
             {
                 "id": "sticker-6022",
-                "name": "Vitality (Glitter) | Rio 2022",
+                "name": "Vitality (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/vita_glitter_png.png"
             },
             {
                 "id": "sticker-6026",
-                "name": "00 Nation (Glitter) | Rio 2022",
+                "name": "00 Nation (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/zzn_glitter_png.png"
             },
             {
                 "id": "sticker-6030",
-                "name": "Fnatic (Glitter) | Rio 2022",
+                "name": "Fnatic (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/fntc_glitter_png.png"
             },
             {
                 "id": "sticker-6034",
-                "name": "FURIA (Glitter) | Rio 2022",
+                "name": "FURIA (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/furi_glitter_png.png"
             },
             {
                 "id": "sticker-6038",
-                "name": "GamerLegion (Glitter) | Rio 2022",
+                "name": "GamerLegion (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/gl_glitter_png.png"
             },
             {
                 "id": "sticker-6042",
-                "name": "Grayhound Gaming (Glitter) | Rio 2022",
+                "name": "Grayhound Gaming (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/gray_glitter_png.png"
             },
             {
                 "id": "sticker-6046",
-                "name": "IHC Esports (Glitter) | Rio 2022",
+                "name": "IHC Esports (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/ihc_glitter_png.png"
             },
             {
                 "id": "sticker-6050",
-                "name": "Imperial Esports (Glitter) | Rio 2022",
+                "name": "Imperial Esports (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/imp_glitter_png.png"
             },
             {
                 "id": "sticker-6054",
-                "name": "Outsiders (Glitter) | Rio 2022",
+                "name": "Outsiders (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/out_glitter_png.png"
             },
             {
                 "id": "sticker-6058",
-                "name": "IEM (Glitter) | Rio 2022",
+                "name": "IEM (グリッター) | Rio 2022",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 },
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/rio2022/iem_glitter_png.png"
@@ -2975,7 +2975,7 @@
     },
     {
         "id": "crate-4882",
-        "name": "Anubis Collection Package",
+        "name": "Anubis コレクションパッケージ",
         "description": null,
         "type": null,
         "first_sale_date": "2023/04/24",
@@ -2985,7 +2985,7 @@
                 "name": "R8 Revolver | Inlay",
                 "rarity": {
                     "id": "rarity_common_weapon",
-                    "name": "コンシューマーグレードの",
+                    "name": "コンシューマーグレード",
                     "color": "#b0c3d9"
                 },
                 "paint_index": "1237",
@@ -2996,7 +2996,7 @@
                 "name": "M249 | Submerged",
                 "rarity": {
                     "id": "rarity_common_weapon",
-                    "name": "コンシューマーグレードの",
+                    "name": "コンシューマーグレード",
                     "color": "#b0c3d9"
                 },
                 "paint_index": "1242",
@@ -3007,7 +3007,7 @@
                 "name": "XM1014 | Hieroglyph",
                 "rarity": {
                     "id": "rarity_common_weapon",
-                    "name": "コンシューマーグレードの",
+                    "name": "コンシューマーグレード",
                     "color": "#b0c3d9"
                 },
                 "paint_index": "1254",
@@ -3018,7 +3018,7 @@
                 "name": "MP7 | Sunbaked",
                 "rarity": {
                     "id": "rarity_common_weapon",
-                    "name": "コンシューマーグレードの",
+                    "name": "コンシューマーグレード",
                     "color": "#b0c3d9"
                 },
                 "paint_index": "1246",
@@ -3029,7 +3029,7 @@
                 "name": "AUG | Snake Pit",
                 "rarity": {
                     "id": "rarity_common_weapon",
-                    "name": "コンシューマーグレードの",
+                    "name": "コンシューマーグレード",
                     "color": "#b0c3d9"
                 },
                 "paint_index": "1249",
@@ -3084,7 +3084,7 @@
                 "name": "Tec-9 | Mummy's Rot",
                 "rarity": {
                     "id": "rarity_rare_weapon",
-                    "name": "MIL仕様グレード",
+                    "name": "MIL規格",
                     "color": "#4b69ff"
                 },
                 "paint_index": "1252",
@@ -3095,7 +3095,7 @@
                 "name": "AK-47 | Steel Delta",
                 "rarity": {
                     "id": "rarity_rare_weapon",
-                    "name": "MIL仕様グレード",
+                    "name": "MIL規格",
                     "color": "#4b69ff"
                 },
                 "paint_index": "1238",
@@ -3106,7 +3106,7 @@
                 "name": "AWP | Black Nile",
                 "rarity": {
                     "id": "rarity_rare_weapon",
-                    "name": "MIL仕様グレード",
+                    "name": "MIL規格",
                     "color": "#4b69ff"
                 },
                 "paint_index": "1239",
@@ -3117,7 +3117,7 @@
                 "name": "MAG-7 | Copper Coated",
                 "rarity": {
                     "id": "rarity_rare_weapon",
-                    "name": "MIL仕様グレード",
+                    "name": "MIL規格",
                     "color": "#4b69ff"
                 },
                 "paint_index": "1245",

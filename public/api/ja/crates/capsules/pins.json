@@ -1,7 +1,7 @@
 [
     {
         "id": "crate-4235",
-        "name": "Collectible Pins Capsule Series 1",
+        "name": "コレクティブルピン・カプセルシリーズ 1",
         "description": "このカプセルにはシリーズ 1 コレクティブルピンが 1 個含まれています。コレクティブルピンはプロフィールに表示できます。",
         "type": "Pins",
         "first_sale_date": "2016/06/01",
@@ -47,7 +47,7 @@
                 "name": "Victory ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
@@ -56,7 +56,7 @@
                 "name": "Militia ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
@@ -65,7 +65,7 @@
                 "name": "Italy ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
@@ -74,7 +74,7 @@
                 "name": "Mirage ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
@@ -83,7 +83,7 @@
                 "name": "Inferno ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
@@ -92,7 +92,7 @@
                 "name": "Dust II ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             },
@@ -101,7 +101,7 @@
                 "name": "Guardian Elite ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             }
@@ -111,14 +111,14 @@
     },
     {
         "id": "crate-4284",
-        "name": "Collectible Pins Capsule Series 2",
+        "name": "コレクティブルピン・カプセルシリーズ 2",
         "description": "このカプセルにはシリーズ 2 コレクティブルピンが 1 個含まれています。コレクティブルピンはプロフィールに表示できます。",
         "type": "Pins",
         "first_sale_date": "2016/09/28",
         "contains": [
             {
                 "id": "collectible-6112",
-                "name": "Guardian 2 Pin",
+                "name": "Guardian 2 ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -127,7 +127,7 @@
             },
             {
                 "id": "collectible-6113",
-                "name": "Bravo Pin",
+                "name": "Bravo ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -136,7 +136,7 @@
             },
             {
                 "id": "collectible-6114",
-                "name": "Baggage Pin",
+                "name": "Baggage ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -145,7 +145,7 @@
             },
             {
                 "id": "collectible-6115",
-                "name": "Phoenix Pin",
+                "name": "Phoenix ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -154,64 +154,64 @@
             },
             {
                 "id": "collectible-6116",
-                "name": "Office Pin",
+                "name": "Office ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6117",
-                "name": "Cobblestone Pin",
+                "name": "Cobblestone ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6118",
-                "name": "Overpass Pin",
+                "name": "Overpass ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6119",
-                "name": "Bloodhound Pin",
+                "name": "Bloodhound ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6120",
-                "name": "Cache Pin",
+                "name": "Cache ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6122",
-                "name": "Chroma Pin",
+                "name": "Chroma ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-6121",
-                "name": "Valeria Phoenix Pin",
+                "name": "Valeria Phoenix ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             }
@@ -221,14 +221,14 @@
     },
     {
         "id": "crate-4481",
-        "name": "Collectible Pins Capsule Series 3",
+        "name": "コレクティブルピン・カプセルシリーズ 3",
         "description": "このカプセルにはシリーズ 3 コレクティブルピンが 1 個含まれています。コレクティブルピンはプロフィールに表示できます。",
         "type": "Pins",
         "first_sale_date": "2018/03/01",
         "contains": [
             {
                 "id": "collectible-6123",
-                "name": "Guardian 3 Pin",
+                "name": "Guardian 3 ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -237,7 +237,7 @@
             },
             {
                 "id": "collectible-6124",
-                "name": "Canals Pin",
+                "name": "Canals ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -246,7 +246,7 @@
             },
             {
                 "id": "collectible-6125",
-                "name": "Welcome to the Clutch Pin",
+                "name": "Welcome to the Clutch ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -255,7 +255,7 @@
             },
             {
                 "id": "collectible-6126",
-                "name": "Death Sentence Pin",
+                "name": "Death Sentence ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -264,64 +264,64 @@
             },
             {
                 "id": "collectible-6127",
-                "name": "Inferno 2 Pin",
+                "name": "Inferno 2 ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6128",
-                "name": "Wildfire Pin",
+                "name": "Wildfire ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6129",
-                "name": "Easy Peasy Pin",
+                "name": "Easy Peasy ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-6130",
-                "name": "Aces High Pin",
+                "name": "Aces High ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6131",
-                "name": "Hydra Pin",
+                "name": "Hydra ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6132",
-                "name": "Howl Pin",
+                "name": "Howl ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-6133",
-                "name": "Brigadier General Pin",
+                "name": "Brigadier General ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             }
@@ -331,14 +331,14 @@
     },
     {
         "id": "crate-4693",
-        "name": "Half-Life: Alyx Collectible Pins Capsule",
+        "name": "Half-Life: Alyx コレクティブルピンカプセル",
         "description": "このカプセルには「Half-Life」シリーズに VR で帰ってきた『Half-Life: Alyx』を記念するコレクティブルピンが 1 個含まれています。コレクティブルピンはプロフィールに表示できます。",
         "type": "Pins",
         "first_sale_date": "2020/03/23",
         "contains": [
             {
                 "id": "collectible-4691",
-                "name": "Combine Helmet Pin",
+                "name": "Combine Helmet ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -347,7 +347,7 @@
             },
             {
                 "id": "collectible-4690",
-                "name": "Black Mesa Pin",
+                "name": "Black Mesa ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -356,7 +356,7 @@
             },
             {
                 "id": "collectible-4689",
-                "name": "CMB Pin",
+                "name": "CMB ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -365,7 +365,7 @@
             },
             {
                 "id": "collectible-4687",
-                "name": "Lambda Pin",
+                "name": "Lambda ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -374,7 +374,7 @@
             },
             {
                 "id": "collectible-4692",
-                "name": "City 17 Pin",
+                "name": "City 17 ピン",
                 "rarity": {
                     "id": "rarity_rare",
                     "name": "ハイグレード",
@@ -383,64 +383,64 @@
             },
             {
                 "id": "collectible-4685",
-                "name": "Headcrab Glyph Pin",
+                "name": "Headcrab Glyph ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-4688",
-                "name": "Copper Lambda Pin",
+                "name": "Copper Lambda ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-4686",
-                "name": "Health Pin",
+                "name": "Health ピン",
                 "rarity": {
                     "id": "rarity_mythical",
-                    "name": "非凡",
+                    "name": "リマーカブル",
                     "color": "#8847ff"
                 }
             },
             {
                 "id": "collectible-4683",
-                "name": "Sustenance! Pin",
+                "name": "Sustenance! ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-4684",
-                "name": "Vortigaunt Pin",
+                "name": "Vortigaunt ピン",
                 "rarity": {
                     "id": "rarity_legendary",
-                    "name": "エキゾチックな",
+                    "name": "エキゾチック",
                     "color": "#d32ce6"
                 }
             },
             {
                 "id": "collectible-6134",
-                "name": "Alyx Pin",
+                "name": "Alyx ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             },
             {
                 "id": "collectible-4682",
-                "name": "Civil Protection Pin",
+                "name": "Civil Protection ピン",
                 "rarity": {
                     "id": "rarity_ancient",
-                    "name": "桁外れ",
+                    "name": "レア",
                     "color": "#eb4b4b"
                 }
             }

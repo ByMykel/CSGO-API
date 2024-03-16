@@ -2,7 +2,7 @@
     {
         "id": "key-generic_valve_key",
         "name": "CS:GO ケースの鍵",
-        "description": "この鍵は あらゆる Valve シリーズの武器ケースを開きます。非 Valve シリーズのケース(例:eSports Case)を開くには専用の鍵が必要です。",
+        "description": "この鍵は あらゆる Valve シリーズの武器ケースを開きます。Valve シリーズ以外のケース (例:eSports Case) を開くには専用の鍵が必要です。",
         "crates": [
             {
                 "id": "crate-4001",
@@ -205,7 +205,7 @@
         "crates": [
             {
                 "id": "crate-4029",
-                "name": "Operation Vanguard Weapon Case",
+                "name": "Operation Vanguard 武器ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"
             }
         ],
@@ -305,7 +305,7 @@
     {
         "id": "key-1351",
         "name": "Gamma 2 ケースの鍵",
-        "description": "This key only opens Gamma 2 cases",
+        "description": "この鍵は Gamma 2 ケースしか開けません。",
         "crates": [
             {
                 "id": "crate-4281",
@@ -396,11 +396,11 @@
     {
         "id": "key-1375",
         "name": "Danger Zone ケースの鍵",
-        "description": "This key only opens Danger Zone cases",
+        "description": "この鍵は Danger Zone ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4548",
-                "name": "Danger Zone Case",
+                "name": "Danger Zone ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"
             }
         ],
@@ -408,12 +408,12 @@
     },
     {
         "id": "key-1383",
-        "name": "Prisma Case Key",
-        "description": "This key only opens Prisma cases",
+        "name": "Prisma ケースの鍵",
+        "description": "この鍵は Prisma ケースしか開けません。",
         "crates": [
             {
                 "id": "crate-4598",
-                "name": "Prisma Case",
+                "name": "Prisma ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"
             }
         ],
@@ -421,12 +421,12 @@
     },
     {
         "id": "key-1384",
-        "name": "Shattered Web Case Key",
-        "description": "This key only opens Shattered Web cases",
+        "name": "Shattered Web ケースの鍵",
+        "description": "この鍵は Shattered Web ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4620",
-                "name": "Shattered Web Case",
+                "name": "Shattered Web ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"
             }
         ],
@@ -434,12 +434,12 @@
     },
     {
         "id": "key-1385",
-        "name": "CS20 Case Key",
-        "description": "This key only opens CS20 cases",
+        "name": "CS20 ケースの鍵",
+        "description": "この鍵は CS20 ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4669",
-                "name": "CS20 Case",
+                "name": "CS20 ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"
             }
         ],
@@ -447,12 +447,12 @@
     },
     {
         "id": "key-1386",
-        "name": "Prisma 2 Case Key",
-        "description": "This key only opens Prisma 2 cases",
+        "name": "Prisma 2 ケースの鍵",
+        "description": "この鍵は Prisma 2 ケースしか開けません。",
         "crates": [
             {
                 "id": "crate-4695",
-                "name": "Prisma 2 Case",
+                "name": "Prisma 2 ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"
             }
         ],
@@ -460,12 +460,12 @@
     },
     {
         "id": "key-1387",
-        "name": "Fracture Case Key",
-        "description": "This key only opens Fracture cases",
+        "name": "Fracture ケースの鍵",
+        "description": "この鍵は Fracture ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4698",
-                "name": "Fracture Case",
+                "name": "Fracture ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"
             }
         ],
@@ -473,12 +473,12 @@
     },
     {
         "id": "key-1388",
-        "name": "Operation Broken Fang Case Key",
-        "description": "This key only opens Operation Broken Fang cases",
+        "name": "Operation Broken Fang ケースの鍵",
+        "description": "この鍵は Operation Broken Fang のケースしか開けません。",
         "crates": [
             {
                 "id": "crate-4717",
-                "name": "Operation Broken Fang Case",
+                "name": "Operation Broken Fang ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"
             }
         ],
@@ -486,12 +486,12 @@
     },
     {
         "id": "key-1389",
-        "name": "Snakebite Case Key",
-        "description": "This key only opens Snakebite cases",
+        "name": "Snakebite ケースの鍵",
+        "description": "この鍵は Snakebite ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4747",
-                "name": "Snakebite Case",
+                "name": "Snakebite ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"
             }
         ],
@@ -499,12 +499,12 @@
     },
     {
         "id": "key-1390",
-        "name": "Operation Riptide Case Key",
-        "description": "This key only opens Operation Riptide cases",
+        "name": "Operation Riptide ケースの鍵",
+        "description": "この鍵は Operation Riptide ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4790",
-                "name": "Operation Riptide Case",
+                "name": "Operation Riptide ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"
             }
         ],
@@ -512,12 +512,12 @@
     },
     {
         "id": "key-1391",
-        "name": "Dreams & Nightmares Case Key",
-        "description": "This key only opens Dreams & Nightmares cases",
+        "name": "Dreams & Nightmares ケースの鍵",
+        "description": "この鍵は Dreams & Nightmares ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4818",
-                "name": "Dreams & Nightmares Case",
+                "name": "Dreams & Nightmares ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"
             }
         ],
@@ -525,12 +525,12 @@
     },
     {
         "id": "key-1392",
-        "name": "Recoil Case Key",
-        "description": "This key only opens Recoil cases",
+        "name": "Recoil ケースの鍵",
+        "description": "この鍵は Recoil ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4846",
-                "name": "Recoil Case",
+                "name": "Recoil ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"
             }
         ],
@@ -538,12 +538,12 @@
     },
     {
         "id": "key-1393",
-        "name": "Revolution Case Key",
-        "description": "This key only opens Revolution cases",
+        "name": "Revolution ケースの鍵",
+        "description": "この鍵は Revolution ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4880",
-                "name": "Revolution Case",
+                "name": "Revolution ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"
             }
         ],
@@ -551,12 +551,12 @@
     },
     {
         "id": "key-1394",
-        "name": "Kilowatt Case Key",
-        "description": "This key only opens Kilowatt cases",
+        "name": "Kilowatt ケースの鍵",
+        "description": "この鍵は Kilowatt ケースしか開けることができません",
         "crates": [
             {
                 "id": "crate-4904",
-                "name": "Kilowatt Case",
+                "name": "Kilowatt ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
             }
         ],
@@ -569,7 +569,7 @@
         "crates": [
             {
                 "id": "crate-4187",
-                "name": "Operation Wildfire Case",
+                "name": "Operation Wildfire ケース",
                 "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"
             }
         ],
