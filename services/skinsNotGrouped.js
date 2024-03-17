@@ -179,16 +179,17 @@ const parseItem = (item, items) => {
                 color: getRarityColor(rarity),
             },
             ...(dopplerPhase && { phase: dopplerPhase }),
-            collections:
-                collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
-                    ...i,
-                    name: $t(i.name),
-                })) ?? [],
-            crates:
-                cratesBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
-                    ...i,
-                    name: $t(i.name),
-                })) ?? [],
+            // Comment this because it makes JSON file too big.
+            // collections:
+            //     collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
+            //         ...i,
+            //         name: $t(i.name),
+            //     })) ?? [],
+            // crates:
+            //     cratesBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
+            //         ...i,
+            //         name: $t(i.name),
+            //     })) ?? [],
             market_hash_name: skinMarketHashName({
                 itemName: !isNotWeapon(weapon)
                     ? $t(items[weapon].item_name_prefab, true)
