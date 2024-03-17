@@ -444,3 +444,21 @@ export const filterUniqueByAttribute = (items, attribute) => {
         return false;
     });
 };
+
+export const formatSkinImage = (url, wear) => {
+    if (
+        [
+            "SFUI_InvTooltip_Wear_Amount_2",
+            "SFUI_InvTooltip_Wear_Amount_3",
+        ].includes(wear)
+    ) {
+        url = url.replace("_light_", "_medium_");
+    }
+
+    if (["SFUI_InvTooltip_Wear_Amount_4"].includes(wear)) {
+        url = url.replace("_light_", "_heavy_");
+    }
+
+    // Return the image as it is with _light_
+    return url;
+};

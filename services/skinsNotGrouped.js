@@ -7,6 +7,7 @@ import {
     skinMarketHashName,
     getCategory,
     getRarityColor,
+    formatSkinImage,
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
@@ -209,7 +210,7 @@ const parseItem = (item, items) => {
                         ? $t("inv_filter_ct")
                         : $t("inv_filter_t"),
             },
-            image,
+            image: formatSkinImage(image, wear),
         }))
     );
 };
