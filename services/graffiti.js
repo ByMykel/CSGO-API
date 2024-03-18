@@ -2,7 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
-import { getRarityColor } from "../utils/index.js";
+import { getGraffitiVariations, getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
 const isGraffiti = (item) => {
@@ -34,6 +34,39 @@ const parseItemSealedGraffiti = (item) => {
     const { cratesBySkins } = state;
     const image = getImageUrl(`econ/stickers/${item.sticker_material}`);
 
+    // TODO: work in progress
+    const variations = getGraffitiVariations(item.sticker_material);
+    if (variations.length > 0) {
+        if (variations[0] === "attrib_spraytintvalue_0") {
+            return Array.from({ length: 19 }, (_, index) => {
+                const colorKey = `attrib_spraytintvalue_${index + 1}`;
+                return {
+                    id: `graffiti-${item.object_id}_${index + 1}`,
+                    name: `${$t("csgo_tool_spray")} | ${$t(
+                        item.item_name
+                    )} (${$t(colorKey)})`,
+                    description: getDescription(item),
+                    rarity: {
+                        id: `rarity_${item.item_rarity}`,
+                        name: $t(`rarity_${item.item_rarity}`),
+                        color: getRarityColor(`rarity_${item.item_rarity}`),
+                    },
+                    special_notes: specialNotes?.[`graffiti-${item.object_id}`],
+                    crates:
+                        cratesBySkins?.[`graffiti-${item.object_id}`]?.map(
+                            (i) => ({
+                                ...i,
+                                name: $t(i.name),
+                            })
+                        ) ?? [],
+                    image: getImageUrl(
+                        `econ/stickers/${item.sticker_material}_${index + 1}`
+                    ),
+                };
+            });
+        }
+    }
+
     return {
         id: `graffiti-${item.object_id}`,
         name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
@@ -59,7 +92,8 @@ export const getGraffiti = () => {
 
     const graffiti = stickerKits
         .filter(isGraffiti)
-        .map(parseItemSealedGraffiti);
+        .map(parseItemSealedGraffiti)
+        .flatMap((level1) => level1);
 
     saveDataJson(`./public/api/${folder}/graffiti.json`, graffiti);
 };
