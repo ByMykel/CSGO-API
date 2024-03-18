@@ -378,6 +378,7 @@ export const getCollectibleRarity = (prefab) => {
             case "rio2022_tournament_journal_prefab":
             case "stockh2021_tournament_journal_prefab":
             case "paris2023_tournament_journal_prefab":
+            case "cph2024_tournament_journal_prefab":
             case "collectible_untradable_coin":
             case "majors_trophy":
             case "map_token":
