@@ -61,6 +61,7 @@ export const getKeys = () => {
     const { items } = state;
     const { folder } = languageData;
 
+    const seen = {};
     const keys = [
         // Hardcoded generic valve key that I can't find in `items`.
         {
@@ -75,7 +76,15 @@ export const getKeys = () => {
         ...Object.values(items).filter(isKey),
     ]
         .map(parseItem)
-        .filter(({ name }) => name);
+        .filter(({ name, image }) => {
+            // Filter repeted keys
+            // https://github.com/ByMykel/CSGO-API/issues/107
+            if (seen[image]) {
+                return false;
+            }
+            seen[image] = true;
+            return name;
+        });
 
     saveDataJson(`./public/api/${folder}/keys.json`, keys);
 };
