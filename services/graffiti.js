@@ -35,7 +35,7 @@ const parseItemSealedGraffiti = (item) => {
     const image = getImageUrl(`econ/stickers/${item.sticker_material}`);
 
     // TODO: work in progress
-    const variations = getGraffitiVariations(item.sticker_material);
+    const variations = getGraffitiVariations(item.name);
     if (variations.length > 0) {
         if (variations[0] === "attrib_spraytintvalue_0") {
             return Array.from({ length: 19 }, (_, index) => {

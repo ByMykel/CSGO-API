@@ -467,7 +467,7 @@ export const formatSkinImage = (url, wear) => {
 
 export const getGraffitiVariations = (material) => {
     return {
-        "default2019/1g": ["attrib_spraytintvalue_0"],
-        "default2019/200iq": ["attrib_spraytintvalue_0"],
+        "spray_std2_1g": ["attrib_spraytintvalue_0"],
+        "spray_std2_200iq": ["attrib_spraytintvalue_0"],
     }[material] ?? [];
 };

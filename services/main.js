@@ -3,6 +3,7 @@ import { ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import {
     filterUniqueByAttribute,
     getDopplerPhase,
+    getGraffitiVariations,
     isExclusive,
     isNotWeapon,
     knives,
@@ -368,8 +369,8 @@ export const loadSkinsByCollections = () => {
                 getItemFromKey("[spray_std2_thoughtfull]spray"),
             ],
             selfopeningitem_crate_spray_std2_2: [
-                getItemFromKey("[spray_std2_1g]spray"),
-                getItemFromKey("[spray_std2_200iq]spray"),
+                ...getItemFromKey("[spray_std2_1g]spray"),
+                ...getItemFromKey("[spray_std2_200iq]spray"),
                 getItemFromKey("[spray_std2_bubble_denied]spray"),
                 getItemFromKey("[spray_std2_bubble_question]spray"),
                 getItemFromKey("[spray_std2_choke]spray"),
@@ -578,6 +579,49 @@ const getItemFromKey = (key) => {
             };
         case "spray":
             const graffiti = stickerKitsObj[name];
+            const variations = getGraffitiVariations(name);
+
+            if (variations.length > 0) {
+                if (variations[0] === "attrib_spraytintvalue_0") {
+                    return Array.from({ length: 19 }, (_, index) => {
+
+                        return {
+                            id: `graffiti-${graffiti.object_id}_${index + 1}`,
+                            name: graffiti.item_name,
+                            rarity: `rarity_${graffiti.item_rarity}`,
+                            image: getImageUrl(
+                                `econ/stickers/${graffiti.sticker_material}_${index + 1}`
+                            ),
+                        }
+
+                        // const colorKey = `attrib_spraytintvalue_${index + 1}`;
+                        // return {
+                        //     id: `graffiti-${item.object_id}_${index + 1}`,
+                        //     name: `${$t("csgo_tool_spray")} | ${$t(
+                        //         item.item_name
+                        //     )} (${$t(colorKey)})`,
+                        //     description: getDescription(item),
+                        //     rarity: {
+                        //         id: `rarity_${item.item_rarity}`,
+                        //         name: $t(`rarity_${item.item_rarity}`),
+                        //         color: getRarityColor(`rarity_${item.item_rarity}`),
+                        //     },
+                        //     special_notes: specialNotes?.[`graffiti-${item.object_id}`],
+                        //     crates:
+                        //         cratesBySkins?.[`graffiti-${item.object_id}`]?.map(
+                        //             (i) => ({
+                        //                 ...i,
+                        //                 name: $t(i.name),
+                        //             })
+                        //         ) ?? [],
+                        //     image: getImageUrl(
+                        //         `econ/stickers/${item.sticker_material}_${index + 1}`
+                        //     ),
+                        // };
+                    });
+                }
+            }
+
             return {
                 id: `graffiti-${graffiti.object_id}`,
                 name: graffiti.item_name,
