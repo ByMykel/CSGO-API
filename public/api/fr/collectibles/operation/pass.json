@@ -328,9 +328,9 @@
         "name": "Copenhagen 2024 Viewer Pass",
         "description": "Ce passe du public du tournoi majeur de Copenhague 2024 (organisé par PGL) est scellé. Une fois descellé, ce passe vous donne un insigne de Copenhague 2024 qui suit votre progression au cours de l'évènement, un accès complet au challenge Prono'Stick de Copenhague 2024, un badge sur Steam.tv, des défis pour faire progresser votre insigne et un nombre illimité de graffitis d'équipes utilisables tout au long de l'évènement.\\n\\nAméliorez votre insigne de Copenhague 2024 en accomplissant des défis et recevez un jeton souvenir chaque fois que le niveau de votre insigne augmente.\\n\\nLa moitié des recettes de ces stickers est directement reversée aux organisations participantes pour les soutenir.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualité de base",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_png.png"
@@ -340,9 +340,9 @@
         "name": "Copenhagen 2024 Viewer Pass + 3 Souvenir Tokens",
         "description": "Ce passe du public du tournoi majeur de Copenhague 2024 (organisé par PGL) est scellé. Une fois descellé, ce passe vous donne un insigne de Copenhague 2024 qui suit votre progression au cours de l'évènement, un accès complet au challenge Prono'Stick de Copenhague 2024, un badge sur Steam.tv, des défis pour faire progresser votre insigne et un nombre illimité de graffitis d'équipes utilisables tout au long de l'évènement.\\n\\nAméliorez votre insigne de Copenhague 2024 en accomplissant des défis et recevez un jeton souvenir chaque fois que le niveau de votre insigne augmente.\\n\\nCe passe du public vous permet de commencer avec 3 jetons souvenirs.\\n\\nLa moitié des recettes de ces stickers est directement reversée aux organisations participantes pour les soutenir.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualité de base",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_pack_png.png"
@@ -352,9 +352,9 @@
         "name": "Copenhagen 2024 Souvenir Package",
         "description": "This is a sealed PGL Copenhagen 2024 CS2 Major Championship Souvenir Package.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualité de base",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_charge_png.png"

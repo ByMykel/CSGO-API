@@ -328,9 +328,9 @@
         "name": "Passe de Espectador do Copenhague 2024",
         "description": "Este é um passe de espectador lacrado do Campeonato Mundial de CS2 Copenhague 2024 da PGL. Uma vez aberto, você receberá uma moeda do Copenhague 2024, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.\\n\\n50% da receita obtida com a venda desse passe será destinada às organizações participantes.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Nível Básico",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_png.png"
@@ -340,9 +340,9 @@
         "name": "Passe de Espectador do Copenhague 2024 + 3 Fichas de Lembrança",
         "description": "Este é um passe de espectador lacrado do Campeonato Mundial de CS2 Copenhague 2024 da PGL. Uma vez aberto, você receberá uma moeda do Copenhague 2024, que acompanha o seu progresso durante o evento e concede acesso irrestrito ao Bolão, ícones de torcedor na Steam.tv, desafios exclusivos e grafites das equipes ilimitados durante o evento.\\n\\nAprimore a moeda ao cumprir desafios. Receba uma ficha de lembrança sempre que a moeda for aprimorada.\\n\\nEste passe ativa a sua moeda com 3 fichas de lembrança.\\n\\n50% da receita obtida com a venda desse passe será destinada às organizações participantes.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Nível Básico",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_pack_png.png"
@@ -352,9 +352,9 @@
         "name": "Pacote de Lembrança do Copenhague 2024",
         "description": "Este é um Pacote de Lembrança lacrado do Campeonato Mundial de CS2 Copenhague 2024 da PGL.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Nível Básico",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_charge_png.png"

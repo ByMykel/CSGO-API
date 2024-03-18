@@ -328,9 +328,9 @@
         "name": "Passe de Espectador de Copenhaga 2024",
         "description": "Este é um passe selado de espectador do Major de CS2 de Copenhaga 2024 da PGL. Assim que o passe for aberto, irás ganhar a Moeda de Copenhaga 2024, que não só regista o teu progresso ao longo do evento, como também te dá acesso completo ao Desafio Pick'Em de Copenhaga 2024, ícones das equipas ao lado do teu nome na Steam.tv, desafios exclusivos e usos ilimitados de grafítis de equipas durante o evento.\\n\\nSobe o nível da tua Moeda de Copenhaga 2024 ao completares desafios da moeda. Podes obter uma ficha de brinde sempre que subires o nível da tua moeda.\\n\\n50% dos lucros das vendas destinam‑se às organizações participantes.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualidade Básica",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_png.png"
@@ -340,9 +340,9 @@
         "name": "Passe de Espectador de Copenhaga 2024 + 3 Fichas de Brinde",
         "description": "Este é um passe selado de espectador do Major de CS2 de Copenhaga 2024 da PGL. Assim que o passe for aberto, irás ganhar a Moeda de Copenhaga 2024, que não só regista o teu progresso ao longo do evento, como também te dá acesso completo ao Desafio Pick'Em de Copenhaga 2024, ícones das equipas ao lado do teu nome na Steam.tv, desafios exclusivos e usos ilimitados de grafítis de equipas durante o evento.\\n\\nSobe o nível da tua Moeda de Copenhaga 2024 ao completares desafios da moeda. Podes obter uma ficha de brinde sempre que subires o nível da tua moeda.\\n\\nEste passe de espectador irá pré‑ativar a tua Moeda de Copenhaga 2024 com três fichas de brinde.\\n\\n50% dos lucros das vendas destinam‑se às organizações participantes.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualidade Básica",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_pack_png.png"
@@ -352,9 +352,9 @@
         "name": "Brinde de Copenhaga 2024",
         "description": "Este é um brinde do Major de CS2 de Copenhaga 2024 da PGL.",
         "rarity": {
-            "id": null,
-            "name": null,
-            "color": null
+            "id": "rarity_common",
+            "name": "Qualidade Básica",
+            "color": "#b0c3d9"
         },
         "type": "Pass",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/pgl_pickem_2024_pass_charge_png.png"
