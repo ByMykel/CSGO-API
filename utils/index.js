@@ -469,5 +469,12 @@ export const getGraffitiVariations = (material) => {
     return {
         "spray_std2_1g": ["attrib_spraytintvalue_0"],
         "spray_std2_200iq": ["attrib_spraytintvalue_0"],
+        "spray_std2_applause": ["attrib_spraytintvalue_0"],
+        "spray_std2_beep": ["attrib_spraytintvalue_0"],
+        "spray_std2_boom": ["attrib_spraytintvalue_0"],
+        "spray_std2_brightstar": ["attrib_spraytintvalue_0"],
+        "spray_std2_brokenheart": ["attrib_spraytintvalue_0"],
+        "spray_std2_bubble_denied": ["attrib_spraytintvalue_0"],
+        "spray_std2_bubble_question": ["attrib_spraytintvalue_0"],
     }[material] ?? [];
 };

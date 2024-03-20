@@ -348,11 +348,11 @@ export const loadSkinsByCollections = () => {
         },
         {
             selfopeningitem_crate_spray_std2_1: [
-                getItemFromKey("[spray_std2_applause]spray"),
-                getItemFromKey("[spray_std2_beep]spray"),
-                getItemFromKey("[spray_std2_boom]spray"),
-                getItemFromKey("[spray_std2_brightstar]spray"),
-                getItemFromKey("[spray_std2_brokenheart]spray"),
+                ...getItemFromKey("[spray_std2_applause]spray"),
+                ...getItemFromKey("[spray_std2_beep]spray"),
+                ...getItemFromKey("[spray_std2_boom]spray"),
+                ...getItemFromKey("[spray_std2_brightstar]spray"),
+                ...getItemFromKey("[spray_std2_brokenheart]spray"),
                 getItemFromKey("[spray_std2_chef_kiss]spray"),
                 getItemFromKey("[spray_std2_chick]spray"),
                 getItemFromKey("[spray_std2_chunkychicken]spray"),
@@ -371,8 +371,8 @@ export const loadSkinsByCollections = () => {
             selfopeningitem_crate_spray_std2_2: [
                 ...getItemFromKey("[spray_std2_1g]spray"),
                 ...getItemFromKey("[spray_std2_200iq]spray"),
-                getItemFromKey("[spray_std2_bubble_denied]spray"),
-                getItemFromKey("[spray_std2_bubble_question]spray"),
+                ...getItemFromKey("[spray_std2_bubble_denied]spray"),
+                ...getItemFromKey("[spray_std2_bubble_question]spray"),
                 getItemFromKey("[spray_std2_choke]spray"),
                 getItemFromKey("[spray_std2_dead_now]spray"),
                 getItemFromKey("[spray_std2_fart]spray"),
