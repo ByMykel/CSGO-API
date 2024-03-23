@@ -42,6 +42,15 @@ export const loadStickerKits = () => {
     state.stickerKitsObj = Object.fromEntries(
         state.stickerKits.map((item) => [item.name, item])
     );
+
+    // Load also players
+    state.players = Object.entries(state.itemsGame.pro_players).reduce(
+        (acc, [id, player]) => {
+            acc[id] = player.name;
+            return acc;
+        },
+        {}
+    );
 };
 
 export const loadItems = () => {
@@ -584,15 +593,16 @@ const getItemFromKey = (key) => {
             if (variations.length > 0) {
                 if (variations[0] === "attrib_spraytintvalue_0") {
                     return Array.from({ length: 19 }, (_, index) => {
-
                         return {
                             id: `graffiti-${graffiti.object_id}_${index + 1}`,
                             name: graffiti.item_name,
                             rarity: `rarity_${graffiti.item_rarity}`,
                             image: getImageUrl(
-                                `econ/stickers/${graffiti.sticker_material}_${index + 1}`
+                                `econ/stickers/${graffiti.sticker_material}_${
+                                    index + 1
+                                }`
                             ),
-                        }
+                        };
 
                         // const colorKey = `attrib_spraytintvalue_${index + 1}`;
                         // return {
