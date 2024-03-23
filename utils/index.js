@@ -454,11 +454,11 @@ export const formatSkinImage = (url, wear) => {
             "SFUI_InvTooltip_Wear_Amount_3",
         ].includes(wear)
     ) {
-        url = url.replace("_light_", "_medium_");
+        url = url.replace("_light_png", "_medium_png");
     }
 
     if (["SFUI_InvTooltip_Wear_Amount_4"].includes(wear)) {
-        url = url.replace("_light_", "_heavy_");
+        url = url.replace("_light_png", "_heavy_png");
     }
 
     // Return the image as it is with _light_
