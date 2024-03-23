@@ -34,6 +34,22 @@ const getDescription = (item) => {
     return msg;
 };
 
+const getType = (item) => {
+    if (item.tournament_player_id) {
+        return "Autograph";
+    }
+
+    if (item.tournament_team_id) {
+        return "Team";
+    }
+
+    if (item.tournament_event_id) {
+        return "Event";
+    }
+
+    return "Other";
+};
+
 const parseItem = (item) => {
     const { cratesBySkins } = state;
 
@@ -67,6 +83,18 @@ const parseItem = (item) => {
                 ...i,
                 name: $t(i.name),
             })) ?? [],
+        tournament_event:
+            $t(`csgo_watch_cat_tournament_${item.tournament_event_id}`) ??
+            undefined,
+        tournament_team:
+            $t(`csgo_teamid_${item.tournament_team_id}`) ?? undefined,
+        tournament_player:
+            state.players[item.tournament_player_id] ?? undefined,
+        type: getType(item),
+        market_hash_name: `${$t("csgo_tool_sticker", true)} | ${$t(
+            item.item_name,
+            true
+        )}`,
         image,
     };
 };
