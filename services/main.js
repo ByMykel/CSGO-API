@@ -512,6 +512,7 @@ export const loadStattrakSkins = () => {
 
     const result = {
         "[cu_m4a1_howling]weapon_m4a1": true,
+        "[cu_xray_p250]weapon_p250": true,
     };
 
     const skipCollections = ["#CSGO_set_dust_2_2021"];
