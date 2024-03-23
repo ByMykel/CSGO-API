@@ -50,6 +50,26 @@ const getType = (item) => {
     return "Other";
 };
 
+const getEffect = (item) => {
+    if ($t(item.item_name, true).includes("(Holo)")) {
+        return "Holo";
+    }
+
+    if ($t(item.item_name, true).includes("(Foil)")) {
+        return "Foil";
+    }
+
+    if ($t(item.item_name, true).includes("(Lenticular)")) {
+        return "Lenticular";
+    }
+
+    if ($t(item.item_name, true).includes("(Glitter)")) {
+        return "Glitter";
+    }
+
+    return "Other";
+};
+
 const parseItem = (item) => {
     const { cratesBySkins } = state;
 
@@ -95,6 +115,7 @@ const parseItem = (item) => {
             item.item_name,
             true
         )}`,
+        effect: getEffect(item),
         image,
     };
 };
