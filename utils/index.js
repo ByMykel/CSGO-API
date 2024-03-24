@@ -478,9 +478,7 @@ export const getGraffitiVariations = (material) => {
             spray_std_emo_angry: [0],
             spray_std_emo_brainless: [0],
             spray_std_emo_despair: [0],
-            spray_std_emo_happy: [
-                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19,
-            ],
+            spray_std_emo_happy: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18],
             spray_std_emo_ninja: [0],
             spray_std_emo_worry: [0],
             spray_std_evil_eye: [0],
