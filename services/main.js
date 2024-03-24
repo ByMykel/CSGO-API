@@ -362,57 +362,57 @@ export const loadSkinsByCollections = () => {
                 ...getItemFromKey("[spray_std2_boom]spray"),
                 ...getItemFromKey("[spray_std2_brightstar]spray"),
                 ...getItemFromKey("[spray_std2_brokenheart]spray"),
-                getItemFromKey("[spray_std2_chef_kiss]spray"),
-                getItemFromKey("[spray_std2_chick]spray"),
-                getItemFromKey("[spray_std2_chunkychicken]spray"),
-                getItemFromKey("[spray_std2_goofy]spray"),
-                getItemFromKey("[spray_std2_grimace]spray"),
-                getItemFromKey("[spray_std2_happy_cat]spray"),
-                getItemFromKey("[spray_std2_hop]spray"),
-                getItemFromKey("[spray_std2_kiss]spray"),
-                getItemFromKey("[spray_std2_lightbulb]spray"),
-                getItemFromKey("[spray_std2_little_crown]spray"),
-                getItemFromKey("[spray_std2_omg]spray"),
-                getItemFromKey("[spray_std2_silverbullet]spray"),
-                getItemFromKey("[spray_std2_smirk]spray"),
-                getItemFromKey("[spray_std2_thoughtfull]spray"),
+                ...getItemFromKey("[spray_std2_chef_kiss]spray"),
+                ...getItemFromKey("[spray_std2_chick]spray"),
+                ...getItemFromKey("[spray_std2_chunkychicken]spray"),
+                ...getItemFromKey("[spray_std2_goofy]spray"),
+                ...getItemFromKey("[spray_std2_grimace]spray"),
+                ...getItemFromKey("[spray_std2_happy_cat]spray"),
+                ...getItemFromKey("[spray_std2_hop]spray"),
+                ...getItemFromKey("[spray_std2_kiss]spray"),
+                ...getItemFromKey("[spray_std2_lightbulb]spray"),
+                ...getItemFromKey("[spray_std2_little_crown]spray"),
+                ...getItemFromKey("[spray_std2_omg]spray"),
+                ...getItemFromKey("[spray_std2_silverbullet]spray"),
+                ...getItemFromKey("[spray_std2_smirk]spray"),
+                ...getItemFromKey("[spray_std2_thoughtfull]spray"),
             ],
             selfopeningitem_crate_spray_std2_2: [
                 ...getItemFromKey("[spray_std2_1g]spray"),
                 ...getItemFromKey("[spray_std2_200iq]spray"),
                 ...getItemFromKey("[spray_std2_bubble_denied]spray"),
                 ...getItemFromKey("[spray_std2_bubble_question]spray"),
-                getItemFromKey("[spray_std2_choke]spray"),
-                getItemFromKey("[spray_std2_dead_now]spray"),
-                getItemFromKey("[spray_std2_fart]spray"),
-                getItemFromKey("[spray_std2_little_ez]spray"),
-                getItemFromKey("[spray_std2_littlebirds]spray"),
-                getItemFromKey("[spray_std2_nt]spray"),
-                getItemFromKey("[spray_std2_okay]spray"),
-                getItemFromKey("[spray_std2_oops]spray"),
-                getItemFromKey("[spray_std2_puke]spray"),
-                getItemFromKey("[spray_std2_rly]spray"),
-                getItemFromKey("[spray_std2_smarm]spray"),
-                getItemFromKey("[spray_std2_smooch]spray"),
-                getItemFromKey("[spray_std2_uhoh]spray"),
+                ...getItemFromKey("[spray_std2_choke]spray"),
+                ...getItemFromKey("[spray_std2_dead_now]spray"),
+                ...getItemFromKey("[spray_std2_fart]spray"),
+                ...getItemFromKey("[spray_std2_little_ez]spray"),
+                ...getItemFromKey("[spray_std2_littlebirds]spray"),
+                ...getItemFromKey("[spray_std2_nt]spray"),
+                ...getItemFromKey("[spray_std2_okay]spray"),
+                ...getItemFromKey("[spray_std2_oops]spray"),
+                ...getItemFromKey("[spray_std2_puke]spray"),
+                ...getItemFromKey("[spray_std2_rly]spray"),
+                ...getItemFromKey("[spray_std2_smarm]spray"),
+                ...getItemFromKey("[spray_std2_smooch]spray"),
+                ...getItemFromKey("[spray_std2_uhoh]spray"),
             ],
             selfopeningitem_crate_spray_std3: [
-                getItemFromKey("[spray_std3_ak47]spray"),
-                getItemFromKey("[spray_std3_aug]spray"),
-                getItemFromKey("[spray_std3_awp]spray"),
-                getItemFromKey("[spray_std3_bizon]spray"),
-                getItemFromKey("[spray_std3_cz]spray"),
-                getItemFromKey("[spray_std3_famas]spray"),
-                getItemFromKey("[spray_std3_galil]spray"),
-                getItemFromKey("[spray_std3_m4a1]spray"),
-                getItemFromKey("[spray_std3_m4a4]spray"),
-                getItemFromKey("[spray_std3_mac10]spray"),
-                getItemFromKey("[spray_std3_mp7]spray"),
-                getItemFromKey("[spray_std3_mp9]spray"),
-                getItemFromKey("[spray_std3_p90]spray"),
-                getItemFromKey("[spray_std3_sg553]spray"),
-                getItemFromKey("[spray_std3_ump]spray"),
-                getItemFromKey("[spray_std3_xm1014]spray"),
+                ...getItemFromKey("[spray_std3_ak47]spray"),
+                ...getItemFromKey("[spray_std3_aug]spray"),
+                ...getItemFromKey("[spray_std3_awp]spray"),
+                ...getItemFromKey("[spray_std3_bizon]spray"),
+                ...getItemFromKey("[spray_std3_cz]spray"),
+                ...getItemFromKey("[spray_std3_famas]spray"),
+                ...getItemFromKey("[spray_std3_galil]spray"),
+                ...getItemFromKey("[spray_std3_m4a1]spray"),
+                ...getItemFromKey("[spray_std3_m4a4]spray"),
+                ...getItemFromKey("[spray_std3_mac10]spray"),
+                ...getItemFromKey("[spray_std3_mp7]spray"),
+                ...getItemFromKey("[spray_std3_mp9]spray"),
+                ...getItemFromKey("[spray_std3_p90]spray"),
+                ...getItemFromKey("[spray_std3_sg553]spray"),
+                ...getItemFromKey("[spray_std3_ump]spray"),
+                ...getItemFromKey("[spray_std3_xm1014]spray"),
             ],
         }
     );
@@ -590,47 +590,20 @@ const getItemFromKey = (key) => {
         case "spray":
             const graffiti = stickerKitsObj[name];
             const variations = getGraffitiVariations(name);
+            const variationsIndex =
+                variations[0] === 0 ? Array.from({ length: 19 }) : variations;
 
-            if (variations.length > 0) {
-                if (variations[0] === "attrib_spraytintvalue_0") {
-                    return Array.from({ length: 19 }, (_, index) => {
-                        return {
-                            id: `graffiti-${graffiti.object_id}_${index + 1}`,
-                            name: graffiti.item_name,
-                            rarity: `rarity_${graffiti.item_rarity}`,
-                            image: getImageUrl(
-                                `econ/stickers/${graffiti.sticker_material}_${
-                                    index + 1
-                                }`
-                            ),
-                        };
-
-                        // const colorKey = `attrib_spraytintvalue_${index + 1}`;
-                        // return {
-                        //     id: `graffiti-${item.object_id}_${index + 1}`,
-                        //     name: `${$t("csgo_tool_spray")} | ${$t(
-                        //         item.item_name
-                        //     )} (${$t(colorKey)})`,
-                        //     description: getDescription(item),
-                        //     rarity: {
-                        //         id: `rarity_${item.item_rarity}`,
-                        //         name: $t(`rarity_${item.item_rarity}`),
-                        //         color: getRarityColor(`rarity_${item.item_rarity}`),
-                        //     },
-                        //     special_notes: specialNotes?.[`graffiti-${item.object_id}`],
-                        //     crates:
-                        //         cratesBySkins?.[`graffiti-${item.object_id}`]?.map(
-                        //             (i) => ({
-                        //                 ...i,
-                        //                 name: $t(i.name),
-                        //             })
-                        //         ) ?? [],
-                        //     image: getImageUrl(
-                        //         `econ/stickers/${item.sticker_material}_${index + 1}`
-                        //     ),
-                        // };
-                    });
-                }
+            if (variationsIndex.length > 0) {
+                return variationsIndex.map((index) => ({
+                    id: `graffiti-${graffiti.object_id}_${index + 1}`,
+                    name: graffiti.item_name,
+                    rarity: `rarity_${graffiti.item_rarity}`,
+                    image: getImageUrl(
+                        `econ/stickers/${graffiti.sticker_material}_${
+                            index + 1
+                        }`
+                    ),
+                }));
             }
 
             return {
