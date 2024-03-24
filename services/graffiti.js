@@ -37,13 +37,13 @@ const parseItemSealedGraffiti = (item) => {
     // TODO: work in progress
     const variations = getGraffitiVariations(item.name);
     const variationsIndex =
-        variations[0] === 0 ? Array.from({length: 19}, (_, index) => index) : variations;
+        variations[0] === 0 ? Array.from({length: 19}, (_, index) => index + 1) : variations;
 
     if (variationsIndex.length > 0) {
         return variationsIndex.map((index) => {
-            const colorKey = `attrib_spraytintvalue_${index + 1}`;
+            const colorKey = `attrib_spraytintvalue_${index}`;
             return {
-                id: `graffiti-${item.object_id}_${index + 1}`,
+                id: `graffiti-${item.object_id}_${index}`,
                 name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)} (${$t(
                     colorKey
                 )})`,
@@ -60,7 +60,7 @@ const parseItemSealedGraffiti = (item) => {
                         name: $t(i.name),
                     })) ?? [],
                 image: getImageUrl(
-                    `econ/stickers/${item.sticker_material}_${index + 1}`
+                    `econ/stickers/${item.sticker_material}_${index}`
                 ),
             };
         });

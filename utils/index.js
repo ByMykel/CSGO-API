@@ -468,6 +468,48 @@ export const formatSkinImage = (url, wear) => {
 export const getGraffitiVariations = (material) => {
     return (
         {
+            spray_std_axes_crossed: [0],
+            spray_std_bubble_dead: [0],
+            spray_std_chess_king: [0],
+            spray_std_crown: [0],
+            spray_std_dollar: [0],
+            spray_std_double_kill: [0],
+            spray_std_eco_pistol: [0],
+            spray_std_emo_angry: [0],
+            spray_std_emo_brainless: [0],
+            spray_std_emo_despair: [0],
+            spray_std_emo_happy: [0],
+            spray_std_emo_ninja: [0],
+            spray_std_emo_worry: [0],
+            spray_std_evil_eye: [0],
+            spray_std_eyeball: [0],
+            spray_std_gg_01: [0],
+            spray_std_gg_02: [0],
+            spray_std_glhf: [0],
+            spray_std_gunsmoke: [0],
+            spray_std_hand_butterfly: [0],
+            spray_std_hand_loser: [0],
+            spray_std_hat_sherif: [0],
+            spray_std_headstone_rip: [0],
+            spray_std_heart: [0],
+            spray_std_hl_eightball: [0],
+            spray_std_hl_lambda: [0],
+            spray_std_hl_smiley: [0],
+            spray_std_jump_shot: [0],
+            spray_std_karambit: [0],
+            spray_std_knives_crossed: [0],
+            spray_std_moly: [0],
+            spray_std_necklace_dollar: [0],
+            spray_std_no_scope: [0],
+            spray_std_piggles: [0],
+            spray_std_popdog: [0],
+            spray_std_rooster: [0],
+            spray_std_salty: [0],
+            spray_std_sorry: [0],
+            spray_std_tongue: [0],
+            spray_std_wings: [0],
+            spray_std_gtg: [0],
+
             // selfopeningitem_crate_spray_std2_1
             spray_std2_applause: [0],
             spray_std2_beep: [0],
@@ -488,6 +530,7 @@ export const getGraffitiVariations = (material) => {
             spray_std2_silverbullet: [0],
             spray_std2_smirk: [0],
             spray_std2_thoughtfull: [0],
+
             // selfopeningitem_crate_spray_std2_2
             spray_std2_1g: [0],
             spray_std2_200iq: [0],
@@ -506,6 +549,7 @@ export const getGraffitiVariations = (material) => {
             spray_std2_smarm: [0],
             spray_std2_smooch: [0],
             spray_std2_uhoh: [0],
+
             // selfopeningitem_crate_spray_std3
             spray_std3_ak47: [
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19,

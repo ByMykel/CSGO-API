@@ -591,17 +591,17 @@ const getItemFromKey = (key) => {
             const graffiti = stickerKitsObj[name];
             const variations = getGraffitiVariations(name);
             const variationsIndex =
-                variations[0] === 0 ? Array.from({length: 19}, (_, index) => index) : variations;
+                variations[0] === 0
+                    ? Array.from({ length: 19 }, (_, index) => index + 1)
+                    : variations;
 
             if (variationsIndex.length > 0) {
                 return variationsIndex.map((index) => ({
-                    id: `graffiti-${graffiti.object_id}_${index + 1}`,
+                    id: `graffiti-${graffiti.object_id}_${index}`,
                     name: graffiti.item_name,
                     rarity: `rarity_${graffiti.item_rarity}`,
                     image: getImageUrl(
-                        `econ/stickers/${graffiti.sticker_material}_${
-                            index + 1
-                        }`
+                        `econ/stickers/${graffiti.sticker_material}_${index}`
                     ),
                 }));
             }
