@@ -37,7 +37,7 @@ const parseItemSealedGraffiti = (item) => {
     // TODO: work in progress
     const variations = getGraffitiVariations(item.name);
     const variationsIndex =
-        variations[0] === 0 ? Array.from({ length: 19 }) : variations;
+        variations[0] === 0 ? Array.from({length: 19}, (_, index) => index) : variations;
 
     if (variationsIndex.length > 0) {
         return variationsIndex.map((index) => {
