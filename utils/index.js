@@ -466,15 +466,80 @@ export const formatSkinImage = (url, wear) => {
 };
 
 export const getGraffitiVariations = (material) => {
-    return {
-        "spray_std2_1g": ["attrib_spraytintvalue_0"],
-        "spray_std2_200iq": ["attrib_spraytintvalue_0"],
-        "spray_std2_applause": ["attrib_spraytintvalue_0"],
-        "spray_std2_beep": ["attrib_spraytintvalue_0"],
-        "spray_std2_boom": ["attrib_spraytintvalue_0"],
-        "spray_std2_brightstar": ["attrib_spraytintvalue_0"],
-        "spray_std2_brokenheart": ["attrib_spraytintvalue_0"],
-        "spray_std2_bubble_denied": ["attrib_spraytintvalue_0"],
-        "spray_std2_bubble_question": ["attrib_spraytintvalue_0"],
-    }[material] ?? [];
+    return (
+        {
+            // selfopeningitem_crate_spray_std2_1
+            spray_std2_applause: [0],
+            spray_std2_beep: [0],
+            spray_std2_boom: [0],
+            spray_std2_brightstar: [0],
+            spray_std2_brokenheart: [0],
+            spray_std2_chef_kiss: [0],
+            spray_std2_chick: [0],
+            spray_std2_chunkychicken: [0],
+            spray_std2_goofy: [0],
+            spray_std2_grimace: [0],
+            spray_std2_happy_cat: [0],
+            spray_std2_hop: [0],
+            spray_std2_kiss: [0],
+            spray_std2_lightbulb: [6, 19],
+            spray_std2_little_crown: [0],
+            spray_std2_omg: [0],
+            spray_std2_silverbullet: [0],
+            spray_std2_smirk: [0],
+            spray_std2_thoughtfull: [0],
+            // selfopeningitem_crate_spray_std2_2
+            spray_std2_1g: [0],
+            spray_std2_200iq: [0],
+            spray_std2_bubble_denied: [0],
+            spray_std2_bubble_question: [0],
+            spray_std2_choke: [0],
+            spray_std2_dead_now: [0],
+            spray_std2_fart: [0],
+            spray_std2_little_ez: [0],
+            spray_std2_littlebirds: [0],
+            spray_std2_nt: [0],
+            spray_std2_okay: [0],
+            spray_std2_oops: [0],
+            spray_std2_puke: [0],
+            spray_std2_rly: [0],
+            spray_std2_smarm: [0],
+            spray_std2_smooch: [0],
+            spray_std2_uhoh: [0],
+            // selfopeningitem_crate_spray_std3
+            spray_std3_ak47: [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19,
+            ],
+            spray_std3_aug: [1, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19],
+            spray_std3_awp: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 19],
+            spray_std3_bizon: [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19,
+            ],
+            spray_std3_cz: [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 14, 15, 16, 18, 19],
+            spray_std3_famas: [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+                19,
+            ],
+            spray_std3_galil: [3, 4, 5, 6, 7, 10, 12, 15, 16, 17, 19],
+            spray_std3_m4a1: [0],
+            spray_std3_m4a4: [
+                1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19,
+            ],
+            spray_std3_mac10: [
+                1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 19,
+            ],
+            spray_std3_mp7: [1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 15, 17, 18],
+            spray_std3_mp9: [2, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 19],
+            spray_std3_p90: [1, 2, 3, 8, 9, 10, 13, 14, 15, 16, 17],
+            spray_std3_sg553: [
+                1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19,
+            ],
+            spray_std3_ump: [
+                1, 2, 4, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19,
+            ],
+            spray_std3_xm1014: [
+                1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+            ],
+        }[material] ?? []
+    );
 };

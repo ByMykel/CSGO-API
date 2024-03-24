@@ -36,35 +36,34 @@ const parseItemSealedGraffiti = (item) => {
 
     // TODO: work in progress
     const variations = getGraffitiVariations(item.name);
-    if (variations.length > 0) {
-        if (variations[0] === "attrib_spraytintvalue_0") {
-            return Array.from({ length: 19 }, (_, index) => {
-                const colorKey = `attrib_spraytintvalue_${index + 1}`;
-                return {
-                    id: `graffiti-${item.object_id}_${index + 1}`,
-                    name: `${$t("csgo_tool_spray")} | ${$t(
-                        item.item_name
-                    )} (${$t(colorKey)})`,
-                    description: getDescription(item),
-                    rarity: {
-                        id: `rarity_${item.item_rarity}`,
-                        name: $t(`rarity_${item.item_rarity}`),
-                        color: getRarityColor(`rarity_${item.item_rarity}`),
-                    },
-                    special_notes: specialNotes?.[`graffiti-${item.object_id}`],
-                    crates:
-                        cratesBySkins?.[`graffiti-${item.object_id}`]?.map(
-                            (i) => ({
-                                ...i,
-                                name: $t(i.name),
-                            })
-                        ) ?? [],
-                    image: getImageUrl(
-                        `econ/stickers/${item.sticker_material}_${index + 1}`
-                    ),
-                };
-            });
-        }
+    const variationsIndex =
+        variations[0] === 0 ? Array.from({ length: 19 }) : variations;
+
+    if (variationsIndex.length > 0) {
+        return variationsIndex.map((index) => {
+            const colorKey = `attrib_spraytintvalue_${index + 1}`;
+            return {
+                id: `graffiti-${item.object_id}_${index + 1}`,
+                name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)} (${$t(
+                    colorKey
+                )})`,
+                description: getDescription(item),
+                rarity: {
+                    id: `rarity_${item.item_rarity}`,
+                    name: $t(`rarity_${item.item_rarity}`),
+                    color: getRarityColor(`rarity_${item.item_rarity}`),
+                },
+                special_notes: specialNotes?.[`graffiti-${item.object_id}`],
+                crates:
+                    cratesBySkins?.[`graffiti-${item.object_id}`]?.map((i) => ({
+                        ...i,
+                        name: $t(i.name),
+                    })) ?? [],
+                image: getImageUrl(
+                    `econ/stickers/${item.sticker_material}_${index + 1}`
+                ),
+            };
+        });
     }
 
     return {
