@@ -37,7 +37,9 @@ const parseItemSealedGraffiti = (item) => {
     // TODO: work in progress
     const variations = getGraffitiVariations(item.name);
     const variationsIndex =
-        variations[0] === 0 ? Array.from({length: 19}, (_, index) => index + 1) : variations;
+        variations[0] === 0
+            ? Array.from({ length: 19 }, (_, index) => index + 1)
+            : variations;
 
     if (variationsIndex.length > 0) {
         return variationsIndex.map((index) => {
@@ -59,6 +61,10 @@ const parseItemSealedGraffiti = (item) => {
                         ...i,
                         name: $t(i.name),
                     })) ?? [],
+                market_hash_name: `${$t("csgo_tool_spray", true)} | ${$t(
+                    item.item_name,
+                    true
+                )} (${$t(colorKey, true)})`,
                 image: getImageUrl(
                     `econ/stickers/${item.sticker_material}_${index}`
                 ),
@@ -81,6 +87,10 @@ const parseItemSealedGraffiti = (item) => {
                 ...i,
                 name: $t(i.name),
             })) ?? [],
+        market_hash_name: `${$t("csgo_tool_spray", true)} | ${$t(
+            item.item_name,
+            true
+        )}`,
         image,
     };
 };

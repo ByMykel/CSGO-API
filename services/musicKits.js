@@ -31,6 +31,7 @@ const parseItem = (item) => {
                 name: $t("rarity_rare"),
                 color: getRarityColor(`rarity_rare`),
             },
+            market_hash_name: $t(`${item.coupon_name}_stattrak`, true),
             exclusive: false,
             image,
         };

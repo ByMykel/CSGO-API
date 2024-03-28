@@ -35,6 +35,7 @@ const parseItem = (item) => {
                     ? $t("inv_filter_ct")
                     : $t("inv_filter_t"),
         },
+        market_hash_name: $t(item.item_name, true),
         image,
     };
 };

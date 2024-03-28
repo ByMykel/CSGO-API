@@ -52,6 +52,7 @@ const parseItem = (item) => {
         name: $t(item.item_name),
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
+        market_hash_name: $t(item.item_name, true),
         crates,
         image,
     };

@@ -186,6 +186,7 @@ const parseItem = (item, prefabs) => {
             })
         ),
         special_notes: specialNotes?.[`crate-${item.object_id}`],
+        market_hash_name: $t(item.item_name, true),
         image,
     };
 };

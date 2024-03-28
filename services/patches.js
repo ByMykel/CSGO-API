@@ -35,6 +35,10 @@ const parseItem = (item) => {
             name: $t(`rarity_${item.item_rarity}`),
             color: getRarityColor(`rarity_${item.item_rarity}`),
         },
+        market_hash_name: `${$t("csgo_tool_patch", true)} | ${$t(
+            item.item_name,
+            true
+        )}`,
         image,
     };
 };
