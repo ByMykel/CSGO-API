@@ -3,6 +3,7 @@
         "id": "key-generic_valve_key",
         "name": "CS2-aselaatikon avain",
         "description": "Tällä avaimella voi avata minkä tahansa Valve-sarjan aselaatikon. Muut kuin Valve-sarjan laatikot (kuten eSports-aselaatikko) vaativat oman avaimen.",
+        "market_hash_name": "CS:GO Case Key",
         "crates": [
             {
                 "id": "crate-4001",
@@ -31,6 +32,7 @@
         "id": "key-1204",
         "name": "eSports-avain",
         "description": "Tämä avain avaa eSports-aselaatikon.\\n\\nOsa sen myyntituloista menee yhteisön järjestämille CS2-turnauksille. Lisätietoja tulee myöhemmin.",
+        "market_hash_name": "eSports Key",
         "crates": [
             {
                 "id": "crate-4002",
@@ -54,6 +56,7 @@
         "id": "key-1212",
         "name": "CS2-kapselin avain",
         "description": "Tämä avain avaa minkä tahansa Valve-sarjan kapselin.",
+        "market_hash_name": "CS:GO Capsule Key",
         "crates": [
             {
                 "id": "crate-4007",
@@ -72,6 +75,7 @@
         "id": "key-1214",
         "name": "Winter Offensive -aselaatikon avain",
         "description": "Tämä avain avaa vain Winter Offensive -aselaatikoita",
+        "market_hash_name": "Winter Offensive Case Key",
         "crates": [
             {
                 "id": "crate-4009",
@@ -85,6 +89,7 @@
         "id": "key-1303",
         "name": "Operaatio Feeniks -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Feeniks -aselaatikoita.",
+        "market_hash_name": "Operation Phoenix Case Key",
         "crates": [
             {
                 "id": "crate-4011",
@@ -98,6 +103,7 @@
         "id": "key-1304",
         "name": "Yhteisön tarrakapseli 1 -avain",
         "description": "Tämä avain avaa yhteisön 1. tarrakapselin.\\n\\nOsa avaimien tuottamista rahoista menee tarrojen tekijöille.",
+        "market_hash_name": "Community Sticker Capsule 1 Key",
         "crates": [
             {
                 "id": "crate-4016",
@@ -111,6 +117,7 @@
         "id": "key-1305",
         "name": "Metsämies-aselaatikon avain",
         "description": "Tämä avain avaa vain Metsämies-aselaatikoita",
+        "market_hash_name": "Huntsman Case Key",
         "crates": [
             {
                 "id": "crate-4017",
@@ -124,6 +131,7 @@
         "id": "key-1309",
         "name": "Operaatio Läpimurto -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Läpimurto -aselaatikoita",
+        "market_hash_name": "Operation Breakout Case Key",
         "crates": [
             {
                 "id": "crate-4018",
@@ -137,6 +145,7 @@
         "id": "key-1322",
         "name": "Operaatio Eturintama -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Eturintama -aselaatikon",
+        "market_hash_name": "Operation Vanguard Case Key",
         "crates": [
             {
                 "id": "crate-4029",
@@ -150,6 +159,7 @@
         "id": "key-1323",
         "name": "Kirjo-aselaatikon avain",
         "description": "Tämä avain avaa vain Kirjo-aselaatikoita",
+        "market_hash_name": "Chroma Case Key",
         "crates": [
             {
                 "id": "crate-4061",
@@ -163,6 +173,7 @@
         "id": "key-1325",
         "name": "Kirjo 2 -aselaatikon avain",
         "description": "Tämä avain avaa vain Kirjo 2 -aselaatikoita",
+        "market_hash_name": "Chroma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4089",
@@ -176,6 +187,7 @@
         "id": "key-1330",
         "name": "Falchion-aselaatikon avain",
         "description": "Tämä avain avaa vain Falchion-aselaatikoita",
+        "market_hash_name": "Falchion Case Key",
         "crates": [
             {
                 "id": "crate-4091",
@@ -189,6 +201,7 @@
         "id": "key-1333",
         "name": "Varjo-aselaatikon avain",
         "description": "Tämä avain avaa vain Varjo-aselaatikoita",
+        "market_hash_name": "Shadow Case Key",
         "crates": [
             {
                 "id": "crate-4138",
@@ -202,6 +215,7 @@
         "id": "key-1334",
         "name": "Revolverilaatikon avain",
         "description": "Tämä avain avaa vain revolverilaatikoita",
+        "market_hash_name": "Revolver Case Key",
         "crates": [
             {
                 "id": "crate-4186",
@@ -215,6 +229,7 @@
         "id": "key-1347",
         "name": "Kirjo 3 -aselaatikon avain",
         "description": "Tämä avain avaa vain Kirjo 3 -aselaatikoita",
+        "market_hash_name": "Chroma 3 Case Key",
         "crates": [
             {
                 "id": "crate-4233",
@@ -228,6 +243,7 @@
         "id": "key-1350",
         "name": "Gamma-aselaatikon avain",
         "description": "Tämä avain avaa vain Gamma-aselaatikoita",
+        "market_hash_name": "Gamma Case Key",
         "crates": [
             {
                 "id": "crate-4236",
@@ -241,6 +257,7 @@
         "id": "key-1351",
         "name": "Gamma 2 -aselaatikon avain",
         "description": "Tämä avain avaa vain Gamma 2 -aselaatikoita",
+        "market_hash_name": "Gamma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4281",
@@ -254,6 +271,7 @@
         "id": "key-1356",
         "name": "Hanska-aselaatikon avain",
         "description": "Tämä avain avaa vain Hanska-aselaatikoita",
+        "market_hash_name": "Glove Case Key",
         "crates": [
             {
                 "id": "crate-4288",
@@ -267,6 +285,7 @@
         "id": "key-1364",
         "name": "Spektri-aselaatikon avain",
         "description": "Tämä avain avaa vain Spektri-aselaatikoita",
+        "market_hash_name": "Spectrum Case Key",
         "crates": [
             {
                 "id": "crate-4351",
@@ -280,6 +299,7 @@
         "id": "key-1365",
         "name": "Operaatio Hydra -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Hydran aselaatikoita",
+        "market_hash_name": "Operation Hydra Case Key",
         "crates": [
             {
                 "id": "crate-4352",
@@ -293,6 +313,7 @@
         "id": "key-1366",
         "name": "Spektri 2 -aselaatikon avain",
         "description": "Tämä avain avaa vain Spektri 2 -aselaatikoita",
+        "market_hash_name": "Spectrum 2 Case Key",
         "crates": [
             {
                 "id": "crate-4403",
@@ -306,6 +327,7 @@
         "id": "key-1373",
         "name": "Clutch-aselaatikon avain",
         "description": "Tällä tunnuksella ainoastaan avataan Clutch-salkkuja.",
+        "market_hash_name": "Clutch Case Key",
         "crates": [
             {
                 "id": "crate-4471",
@@ -319,6 +341,7 @@
         "id": "key-1374",
         "name": "Horisontti-aselaatikon avain",
         "description": "Tämä avain avaa vain Horisontti-aselaatikoita",
+        "market_hash_name": "Horizon Case Key",
         "crates": [
             {
                 "id": "crate-4482",
@@ -332,6 +355,7 @@
         "id": "key-1375",
         "name": "Vaaravyöhyke-aselaatikon avain",
         "description": "Tällä avaimella saa auki vain Vaaravyöhyke-aselaukkuja",
+        "market_hash_name": "Danger Zone Case Key",
         "crates": [
             {
                 "id": "crate-4548",
@@ -345,6 +369,7 @@
         "id": "key-1383",
         "name": "Prisma-aselaatikon avain",
         "description": "Tämä avain käy vain Prisma-aselaatikoihin.",
+        "market_hash_name": "Prisma Case Key",
         "crates": [
             {
                 "id": "crate-4598",
@@ -358,6 +383,7 @@
         "id": "key-1384",
         "name": "Pirstaleinen verkko -aselaatikon avain",
         "description": "Tämä avain avaa vain Pirstaleinen verkko -aselaatikoita",
+        "market_hash_name": "Shattered Web Case Key",
         "crates": [
             {
                 "id": "crate-4620",
@@ -371,6 +397,7 @@
         "id": "key-1385",
         "name": "CS20-aselaatikon avain",
         "description": "Tällä avaimella saa auki vain CS20-aselaatikoita",
+        "market_hash_name": "CS20 Case Key",
         "crates": [
             {
                 "id": "crate-4669",
@@ -384,6 +411,7 @@
         "id": "key-1386",
         "name": "Prisma 2 -aselaatikon avain",
         "description": "Tämä avain käy vain Prisma 2 -aselaatikoihin.",
+        "market_hash_name": "Prisma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4695",
@@ -397,6 +425,7 @@
         "id": "key-1387",
         "name": "Sirpaleisen laatikon avain",
         "description": "Tämä avain avaa ainoastaan Sirpaleisia laatikoita",
+        "market_hash_name": "Fracture Case Key",
         "crates": [
             {
                 "id": "crate-4698",
@@ -410,6 +439,7 @@
         "id": "key-1388",
         "name": "Operaatio Katkennut torahammas -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Katkenneen torahampaan aselaatikoita",
+        "market_hash_name": "Operation Broken Fang Case Key",
         "crates": [
             {
                 "id": "crate-4717",
@@ -423,6 +453,7 @@
         "id": "key-1389",
         "name": "Käärmeenpisto-aselaatikon avain",
         "description": "Avain avaa ainoastaan Käärmeenpisto-aselaatikoita",
+        "market_hash_name": "Snakebite Case Key",
         "crates": [
             {
                 "id": "crate-4747",
@@ -436,6 +467,7 @@
         "id": "key-1390",
         "name": "Operaatio Ristiaallokko -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Ristiaallokon aselaatikoita",
+        "market_hash_name": "Operation Riptide Case Key",
         "crates": [
             {
                 "id": "crate-4790",
@@ -449,6 +481,7 @@
         "id": "key-1391",
         "name": "Unelmia ja painajaisia -aselaatikon avain",
         "description": "Tämä avain avaa vain Unelmia ja painajaisia -aselaatikoita",
+        "market_hash_name": "Dreams & Nightmares Case Key",
         "crates": [
             {
                 "id": "crate-4818",
@@ -462,6 +495,7 @@
         "id": "key-1392",
         "name": "Rekyyli-arkun avain",
         "description": "Tämä avain avaa vain Rekyyli-aselaatikoita",
+        "market_hash_name": "Recoil Case Key",
         "crates": [
             {
                 "id": "crate-4846",
@@ -475,6 +509,7 @@
         "id": "key-1393",
         "name": "Revolution-aselaatikon avain",
         "description": "Avain käy vain Revolution-aselaatikoihin",
+        "market_hash_name": "Revolution Case Key",
         "crates": [
             {
                 "id": "crate-4880",
@@ -488,6 +523,7 @@
         "id": "key-1394",
         "name": "Kilowatt-aselaatikon avain",
         "description": "Tämä avain avaa vain Kilowatt-aselaatikoita.",
+        "market_hash_name": "Kilowatt Case Key",
         "crates": [
             {
                 "id": "crate-4904",
@@ -501,6 +537,7 @@
         "id": "key-7000",
         "name": "Operaatio Maastopalo -aselaatikon avain",
         "description": "Tämä avain avaa vain Operaatio Maastopalo -aselaatikoita",
+        "market_hash_name": "Operation Wildfire Case Key",
         "crates": [
             {
                 "id": "crate-4187",

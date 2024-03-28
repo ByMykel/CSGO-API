@@ -3,6 +3,7 @@
         "id": "key-generic_valve_key",
         "name": "กุญแจเปิดกล่อง CS:GO",
         "description": "กุญแจนี้จะเปิดกล่องอาวุธชุด Valve ใดก็ได้ ส่วนกล่องที่ไม่ใช่ชุด Valve (เช่น กล่อง eSports) จำเป็นต้องใช้กุญแจของของกล่องนั้นเองในการเปิด",
+        "market_hash_name": "CS:GO Case Key",
         "crates": [
             {
                 "id": "crate-4001",
@@ -31,6 +32,7 @@
         "id": "key-1204",
         "name": "กุญแจ eSports",
         "description": "สามารถใช้กุญแจนี้เพื่อเปิดกล่อง eSports Case ใดก็ได้\\n\\nส่วนหนึ่งของรายได้จากการขายกุญแจนี้นำไปมอบให้ชุมชนที่จัดตั้งดำเนินการทัวร์นาเมนต์ CS:GO โปรดติดตามสำหรับการประกาศเพิ่มเติม",
+        "market_hash_name": "eSports Key",
         "crates": [
             {
                 "id": "crate-4002",
@@ -54,6 +56,7 @@
         "id": "key-1212",
         "name": "กุญแจแคปซูล CS:GO",
         "description": "กุญแจนี้จะเปิดแคปซูลชุด Valve ใดก็ได้",
+        "market_hash_name": "CS:GO Capsule Key",
         "crates": [
             {
                 "id": "crate-4007",
@@ -72,6 +75,7 @@
         "id": "key-1214",
         "name": "กุญแจกล่อง Winter Offensive",
         "description": "กุญแจนี้ใช้เปิดกล่อง Winter Offensive เท่านั้น",
+        "market_hash_name": "Winter Offensive Case Key",
         "crates": [
             {
                 "id": "crate-4009",
@@ -85,6 +89,7 @@
         "id": "key-1303",
         "name": "กุญแจกล่องปฏิบัติการ Phoenix",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Phoenix เท่านั้น",
+        "market_hash_name": "Operation Phoenix Case Key",
         "crates": [
             {
                 "id": "crate-4011",
@@ -98,6 +103,7 @@
         "id": "key-1304",
         "name": "กุญแจแคปซูลสติกเกอร์ชุมชน 1",
         "description": "สามารถใช้กุญแจนี้เพื่อเปิดแคปซูลสติกเกอร์ชุมชน 1\\n\\nส่วนหนึ่งของรายได้จากการขายกุญแจนี้จะนำไปมอบให้กับผู้สร้างสติกเกอร์",
+        "market_hash_name": "Community Sticker Capsule 1 Key",
         "crates": [
             {
                 "id": "crate-4016",
@@ -111,6 +117,7 @@
         "id": "key-1305",
         "name": "กุญแจกล่อง Huntsman",
         "description": "กุญแจนี้ใช้เปิดกล่อง Huntsman เท่านั้น",
+        "market_hash_name": "Huntsman Case Key",
         "crates": [
             {
                 "id": "crate-4017",
@@ -124,6 +131,7 @@
         "id": "key-1309",
         "name": "กุญแจกล่องปฏิบัติการ Breakout",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Breakout เท่านั้น",
+        "market_hash_name": "Operation Breakout Case Key",
         "crates": [
             {
                 "id": "crate-4018",
@@ -137,6 +145,7 @@
         "id": "key-1322",
         "name": "กุญแจกล่องปฏิบัติการ Vanguard",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Vanguard เท่านั้น",
+        "market_hash_name": "Operation Vanguard Case Key",
         "crates": [
             {
                 "id": "crate-4029",
@@ -150,6 +159,7 @@
         "id": "key-1323",
         "name": "กุญแจกล่อง Chroma",
         "description": "กุญแจนี้ใช้เปิดกล่อง Chroma เท่านั้น",
+        "market_hash_name": "Chroma Case Key",
         "crates": [
             {
                 "id": "crate-4061",
@@ -163,6 +173,7 @@
         "id": "key-1325",
         "name": "กุญแจกล่อง Chroma 2",
         "description": "กุญแจนี้ใช้เปิดกล่อง Chroma 2 เท่านั้น",
+        "market_hash_name": "Chroma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4089",
@@ -176,6 +187,7 @@
         "id": "key-1330",
         "name": "กุญแจกล่อง Falchion",
         "description": "กุญแจนี้ใช้เปิดกล่อง Falchion เท่านั้น",
+        "market_hash_name": "Falchion Case Key",
         "crates": [
             {
                 "id": "crate-4091",
@@ -189,6 +201,7 @@
         "id": "key-1333",
         "name": "กุญแจกล่อง Shadow",
         "description": "กุญแจนี้ใช้เปิดกล่อง Shadow เท่านั้น",
+        "market_hash_name": "Shadow Case Key",
         "crates": [
             {
                 "id": "crate-4138",
@@ -202,6 +215,7 @@
         "id": "key-1334",
         "name": "กุญแจกล่อง Revolver",
         "description": "กุญแจนี้ใช้เปิดกล่อง Revolver เท่านั้น",
+        "market_hash_name": "Revolver Case Key",
         "crates": [
             {
                 "id": "crate-4186",
@@ -215,6 +229,7 @@
         "id": "key-1347",
         "name": "กุญแจกล่อง Chroma 3",
         "description": "กุญแจนี้ใช้เปิดกล่อง Chroma 3 เท่านั้น",
+        "market_hash_name": "Chroma 3 Case Key",
         "crates": [
             {
                 "id": "crate-4233",
@@ -228,6 +243,7 @@
         "id": "key-1350",
         "name": "กุญแจกล่อง Gamma",
         "description": "กุญแจนี้ใช้เปิดกล่อง Gamma เท่านั้น",
+        "market_hash_name": "Gamma Case Key",
         "crates": [
             {
                 "id": "crate-4236",
@@ -241,6 +257,7 @@
         "id": "key-1351",
         "name": "กุญแจกล่อง Gamma 2",
         "description": "กุญแจนี้ใช้เปิดกล่อง Gamma 2 เท่านั้น",
+        "market_hash_name": "Gamma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4281",
@@ -254,6 +271,7 @@
         "id": "key-1356",
         "name": "กุญแจกล่องถุงมือ",
         "description": "กุญแจนี้ใช้เปิดกล่องถุงมือเท่านั้น",
+        "market_hash_name": "Glove Case Key",
         "crates": [
             {
                 "id": "crate-4288",
@@ -267,6 +285,7 @@
         "id": "key-1364",
         "name": "กุญแจกล่อง Spectrum",
         "description": "กุญแจนี้ใช้เปิดกล่อง Spectrum เท่านั้น",
+        "market_hash_name": "Spectrum Case Key",
         "crates": [
             {
                 "id": "crate-4351",
@@ -280,6 +299,7 @@
         "id": "key-1365",
         "name": "กุญแจกล่องปฏิบัติการ Hydra",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Hydra เท่านั้น",
+        "market_hash_name": "Operation Hydra Case Key",
         "crates": [
             {
                 "id": "crate-4352",
@@ -293,6 +313,7 @@
         "id": "key-1366",
         "name": "กุญแจกล่อง Spectrum 2",
         "description": "กุญแจนี้ใช้เปิดกล่อง Spectrum 2 เท่านั้น",
+        "market_hash_name": "Spectrum 2 Case Key",
         "crates": [
             {
                 "id": "crate-4403",
@@ -306,6 +327,7 @@
         "id": "key-1373",
         "name": "กุญแจกล่อง Clutch",
         "description": "กุญแจนี้ใช้เปิดกล่อง Clutch เท่านั้น",
+        "market_hash_name": "Clutch Case Key",
         "crates": [
             {
                 "id": "crate-4471",
@@ -319,6 +341,7 @@
         "id": "key-1374",
         "name": "กุญแจกล่อง Horizon",
         "description": "กุญแจนี้ใช้เปิดกล่อง Horizon เท่านั้น",
+        "market_hash_name": "Horizon Case Key",
         "crates": [
             {
                 "id": "crate-4482",
@@ -332,6 +355,7 @@
         "id": "key-1375",
         "name": "กุญแจกล่อง Danger Zone",
         "description": "กุญแจนี้ใช้เปิดกล่อง Danger Zone เท่านั้น",
+        "market_hash_name": "Danger Zone Case Key",
         "crates": [
             {
                 "id": "crate-4548",
@@ -345,6 +369,7 @@
         "id": "key-1383",
         "name": "กุญแจกล่อง Prisma",
         "description": "กุญแจนี้ใช้เปิดกล่อง Prisma เท่านั้น",
+        "market_hash_name": "Prisma Case Key",
         "crates": [
             {
                 "id": "crate-4598",
@@ -358,6 +383,7 @@
         "id": "key-1384",
         "name": "กุญแจกล่อง Shattered Web",
         "description": "กุญแจนี้ใช้เปิดกล่อง Shattered Web เท่านั้น",
+        "market_hash_name": "Shattered Web Case Key",
         "crates": [
             {
                 "id": "crate-4620",
@@ -371,6 +397,7 @@
         "id": "key-1385",
         "name": "กุญแจกล่อง CS20",
         "description": "กุญแจนี้ใช้เปิดกล่อง CS20 เท่านั้น",
+        "market_hash_name": "CS20 Case Key",
         "crates": [
             {
                 "id": "crate-4669",
@@ -384,6 +411,7 @@
         "id": "key-1386",
         "name": "กุญแจกล่อง Prisma 2",
         "description": "กุญแจนี้ใช้เปิดกล่อง Prisma 2 เท่านั้น",
+        "market_hash_name": "Prisma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4695",
@@ -397,6 +425,7 @@
         "id": "key-1387",
         "name": "กุญแจกล่อง Fracture",
         "description": "กุญแจนี้ใช้เปิดกล่อง Fracture เท่านั้น",
+        "market_hash_name": "Fracture Case Key",
         "crates": [
             {
                 "id": "crate-4698",
@@ -410,6 +439,7 @@
         "id": "key-1388",
         "name": "กุญแจกล่องปฏิบัติการ Broken Fang",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Broken Fang เท่านั้น",
+        "market_hash_name": "Operation Broken Fang Case Key",
         "crates": [
             {
                 "id": "crate-4717",
@@ -423,6 +453,7 @@
         "id": "key-1389",
         "name": "กุญแจกล่อง Snakebite",
         "description": "กุญแจนี้ใช้เปิดกล่อง Snakebite เท่านั้น",
+        "market_hash_name": "Snakebite Case Key",
         "crates": [
             {
                 "id": "crate-4747",
@@ -436,6 +467,7 @@
         "id": "key-1390",
         "name": "กุญแจกล่องปฏิบัติการ Riptide",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Riptide เท่านั้น",
+        "market_hash_name": "Operation Riptide Case Key",
         "crates": [
             {
                 "id": "crate-4790",
@@ -449,6 +481,7 @@
         "id": "key-1391",
         "name": "กุญแจกล่อง Dreams & Nightmares",
         "description": "กุญแจนี้ใช้เปิดเฉพาะกล่อง Dreams & Nightmares เท่านั้น",
+        "market_hash_name": "Dreams & Nightmares Case Key",
         "crates": [
             {
                 "id": "crate-4818",
@@ -462,6 +495,7 @@
         "id": "key-1392",
         "name": "กุญแจกล่อง Recoil",
         "description": "กุญแจนี้ใช้เปิดกล่อง Recoil เท่านั้น",
+        "market_hash_name": "Recoil Case Key",
         "crates": [
             {
                 "id": "crate-4846",
@@ -475,6 +509,7 @@
         "id": "key-1393",
         "name": "กุญแจกล่อง Revolution",
         "description": "กุญแจนี้ใช้เปิดกล่อง Revolution เท่านั้น",
+        "market_hash_name": "Revolution Case Key",
         "crates": [
             {
                 "id": "crate-4880",
@@ -488,6 +523,7 @@
         "id": "key-1394",
         "name": "กุญแจกล่อง Kilowatt",
         "description": "กุญแจนี้ใช้เปิดกล่อง Kilowatt เท่านั้น",
+        "market_hash_name": "Kilowatt Case Key",
         "crates": [
             {
                 "id": "crate-4904",
@@ -501,6 +537,7 @@
         "id": "key-7000",
         "name": "กุญแจกล่องปฏิบัติการ Wildfire",
         "description": "กุญแจนี้ใช้เปิดกล่องปฏิบัติการ Wildfire เท่านั้น",
+        "market_hash_name": "Operation Wildfire Case Key",
         "crates": [
             {
                 "id": "crate-4187",

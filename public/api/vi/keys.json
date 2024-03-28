@@ -3,6 +3,7 @@
         "id": "key-generic_valve_key",
         "name": "Chìa khóa hòm CS:GO",
         "description": "Chìa khóa này mở bất cứ hòm vũ khí nào của Valve. Hòm không do Valve tạo (v.d. hòm vũ khí eSports) cần dùng chìa khóa riêng.",
+        "market_hash_name": "CS:GO Case Key",
         "crates": [
             {
                 "id": "crate-4001",
@@ -31,6 +32,7 @@
         "id": "key-1204",
         "name": "Chìa khóa eSports",
         "description": "Chìa khóa này mở bất kì hòm eSports nào.\\n\\nMột phần doanh thu của chìa khóa này sẽ được tích vào một trong những giải đấu có uy tín của cộng đồng CS:GO. Hãy theo dõi những thông báo sau này.",
+        "market_hash_name": "eSports Key",
         "crates": [
             {
                 "id": "crate-4002",
@@ -54,6 +56,7 @@
         "id": "key-1212",
         "name": "Chìa khóa gói CS:GO",
         "description": "Chìa khóa này sẽ mở bất kỳ gói Valve Series nào.",
+        "market_hash_name": "CS:GO Capsule Key",
         "crates": [
             {
                 "id": "crate-4007",
@@ -72,6 +75,7 @@
         "id": "key-1214",
         "name": "Chìa khóa hòm Winter Offensive",
         "description": "Chìa khóa này chỉ mở hòm Winter Offensive",
+        "market_hash_name": "Winter Offensive Case Key",
         "crates": [
             {
                 "id": "crate-4009",
@@ -85,6 +89,7 @@
         "id": "key-1303",
         "name": "Chìa khóa hòm chiến dịch Phoenix",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Phoenix",
+        "market_hash_name": "Operation Phoenix Case Key",
         "crates": [
             {
                 "id": "crate-4011",
@@ -98,6 +103,7 @@
         "id": "key-1304",
         "name": "Chìa khóa gói hình dán cộng đồng 1",
         "description": "Chìa khóa này có thể mở gói hình dán cộng đồng 1.\\n\\nMột phần doanh thu từ chìa khóa này sẽ được gửi đến các tác giả của hình dán.",
+        "market_hash_name": "Community Sticker Capsule 1 Key",
         "crates": [
             {
                 "id": "crate-4016",
@@ -111,6 +117,7 @@
         "id": "key-1305",
         "name": "Chìa khóa hòm Huntsman",
         "description": "Chìa khóa này chỉ mở hòm Huntsman",
+        "market_hash_name": "Huntsman Case Key",
         "crates": [
             {
                 "id": "crate-4017",
@@ -124,6 +131,7 @@
         "id": "key-1309",
         "name": "Chìa khóa hòm chiến dịch Breakout",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+        "market_hash_name": "Operation Breakout Case Key",
         "crates": [
             {
                 "id": "crate-4018",
@@ -137,6 +145,7 @@
         "id": "key-1322",
         "name": "Chìa khóa chiến dịch Vanguard",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Vanguard",
+        "market_hash_name": "Operation Vanguard Case Key",
         "crates": [
             {
                 "id": "crate-4029",
@@ -150,6 +159,7 @@
         "id": "key-1323",
         "name": "Chìa khóa hòm Chroma",
         "description": "Chìa khóa này chỉ mở hòm Chroma",
+        "market_hash_name": "Chroma Case Key",
         "crates": [
             {
                 "id": "crate-4061",
@@ -163,6 +173,7 @@
         "id": "key-1325",
         "name": "Chìa khóa hòm Chroma 2",
         "description": "Chìa khóa này chỉ mở hòm Chroma 2",
+        "market_hash_name": "Chroma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4089",
@@ -176,6 +187,7 @@
         "id": "key-1330",
         "name": "Chìa khóa hòm Falchion",
         "description": "Chìa khóa này chỉ mở hòm Falchion",
+        "market_hash_name": "Falchion Case Key",
         "crates": [
             {
                 "id": "crate-4091",
@@ -189,6 +201,7 @@
         "id": "key-1333",
         "name": "Chìa khóa hòm Shadow",
         "description": "Chìa khóa này chỉ mở hòm Shadow",
+        "market_hash_name": "Shadow Case Key",
         "crates": [
             {
                 "id": "crate-4138",
@@ -202,6 +215,7 @@
         "id": "key-1334",
         "name": "Chìa khóa hòm Revolver",
         "description": "Chìa khóa này chỉ mở hòm Revolver",
+        "market_hash_name": "Revolver Case Key",
         "crates": [
             {
                 "id": "crate-4186",
@@ -215,6 +229,7 @@
         "id": "key-1347",
         "name": "Chìa khóa hòm Chroma 3",
         "description": "Chìa khóa này chỉ mở hòm Chroma 3",
+        "market_hash_name": "Chroma 3 Case Key",
         "crates": [
             {
                 "id": "crate-4233",
@@ -228,6 +243,7 @@
         "id": "key-1350",
         "name": "Chìa khóa hòm Gamma",
         "description": "Chìa khóa này chỉ mở hòm Gamma",
+        "market_hash_name": "Gamma Case Key",
         "crates": [
             {
                 "id": "crate-4236",
@@ -241,6 +257,7 @@
         "id": "key-1351",
         "name": "Chìa khóa hòm Gamma 2",
         "description": "Chìa khóa này chỉ mở hòm Gamma 2",
+        "market_hash_name": "Gamma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4281",
@@ -254,6 +271,7 @@
         "id": "key-1356",
         "name": "Chìa khóa hòm Glove",
         "description": "Chìa khóa này chỉ mở hòm Glove",
+        "market_hash_name": "Glove Case Key",
         "crates": [
             {
                 "id": "crate-4288",
@@ -267,6 +285,7 @@
         "id": "key-1364",
         "name": "Chìa khóa hòm Spectrum",
         "description": "Chìa khóa này chỉ mở hòm Spectrum",
+        "market_hash_name": "Spectrum Case Key",
         "crates": [
             {
                 "id": "crate-4351",
@@ -280,6 +299,7 @@
         "id": "key-1365",
         "name": "Chìa khóa hòm chiến dịch Hydra",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Hydra",
+        "market_hash_name": "Operation Hydra Case Key",
         "crates": [
             {
                 "id": "crate-4352",
@@ -293,6 +313,7 @@
         "id": "key-1366",
         "name": "Chìa khóa hòm Spectrum 2",
         "description": "Chìa khóa này chỉ mở hòm Spectrum 2",
+        "market_hash_name": "Spectrum 2 Case Key",
         "crates": [
             {
                 "id": "crate-4403",
@@ -306,6 +327,7 @@
         "id": "key-1373",
         "name": "Chìa khóa hòm Clutch",
         "description": "Chìa khóa này chỉ mở hòm Clutch",
+        "market_hash_name": "Clutch Case Key",
         "crates": [
             {
                 "id": "crate-4471",
@@ -319,6 +341,7 @@
         "id": "key-1374",
         "name": "Chìa khóa hòm Horizon",
         "description": "Chìa khóa này chỉ mở hòm Horizon",
+        "market_hash_name": "Horizon Case Key",
         "crates": [
             {
                 "id": "crate-4482",
@@ -332,6 +355,7 @@
         "id": "key-1375",
         "name": "Chìa khóa hòm Danger Zone",
         "description": "Chìa khóa này chỉ mở hòm Danger Zone",
+        "market_hash_name": "Danger Zone Case Key",
         "crates": [
             {
                 "id": "crate-4548",
@@ -345,6 +369,7 @@
         "id": "key-1383",
         "name": "Chìa khóa hòm Prisma",
         "description": "Chìa khóa này chỉ mở hòm Prisma",
+        "market_hash_name": "Prisma Case Key",
         "crates": [
             {
                 "id": "crate-4598",
@@ -358,6 +383,7 @@
         "id": "key-1384",
         "name": "Chìa khóa hòm Shattered Web",
         "description": "Chìa khóa này chỉ mở hòm Shattered Web",
+        "market_hash_name": "Shattered Web Case Key",
         "crates": [
             {
                 "id": "crate-4620",
@@ -371,6 +397,7 @@
         "id": "key-1385",
         "name": "Chìa khoá hòm CS20",
         "description": "Chìa khoá này chỉ mở hòm CS20",
+        "market_hash_name": "CS20 Case Key",
         "crates": [
             {
                 "id": "crate-4669",
@@ -384,6 +411,7 @@
         "id": "key-1386",
         "name": "Chìa khóa hòm Prisma 2",
         "description": "Chìa khóa này chỉ mở hòm Prisma 2",
+        "market_hash_name": "Prisma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4695",
@@ -397,6 +425,7 @@
         "id": "key-1387",
         "name": "Chìa khóa hòm Fracture",
         "description": "Chìa khóa này chỉ mở hòm Fracture",
+        "market_hash_name": "Fracture Case Key",
         "crates": [
             {
                 "id": "crate-4698",
@@ -410,6 +439,7 @@
         "id": "key-1388",
         "name": "Chìa khóa hòm chiến dịch Broken Fang",
         "description": "Chìa khóa này chỉ mở chiến dịch Broken Fang",
+        "market_hash_name": "Operation Broken Fang Case Key",
         "crates": [
             {
                 "id": "crate-4717",
@@ -423,6 +453,7 @@
         "id": "key-1389",
         "name": "Chìa khóa hòm Snakebite",
         "description": "Chìa khóa này chỉ mở hòm Snakebite",
+        "market_hash_name": "Snakebite Case Key",
         "crates": [
             {
                 "id": "crate-4747",
@@ -436,6 +467,7 @@
         "id": "key-1390",
         "name": "Chìa khóa hòm chiến dịch Riptide",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Riptide",
+        "market_hash_name": "Operation Riptide Case Key",
         "crates": [
             {
                 "id": "crate-4790",
@@ -449,6 +481,7 @@
         "id": "key-1391",
         "name": "Chìa khóa hòm Dreams & Nightmares",
         "description": "Chìa khóa này chỉ mở hòm Dreams & Nightmares",
+        "market_hash_name": "Dreams & Nightmares Case Key",
         "crates": [
             {
                 "id": "crate-4818",
@@ -462,6 +495,7 @@
         "id": "key-1392",
         "name": "Chìa khóa hòm Recoil",
         "description": "Chìa khóa này chỉ mở hòm Recoil",
+        "market_hash_name": "Recoil Case Key",
         "crates": [
             {
                 "id": "crate-4846",
@@ -475,6 +509,7 @@
         "id": "key-1393",
         "name": "Chìa khóa hòm Revolution",
         "description": "Chìa khóa này chỉ mở hòm Revolution",
+        "market_hash_name": "Revolution Case Key",
         "crates": [
             {
                 "id": "crate-4880",
@@ -488,6 +523,7 @@
         "id": "key-1394",
         "name": "Chìa khóa hòm Kilowatt",
         "description": "Chìa khóa này chỉ mở hòm Kilowatt",
+        "market_hash_name": "Kilowatt Case Key",
         "crates": [
             {
                 "id": "crate-4904",
@@ -501,6 +537,7 @@
         "id": "key-7000",
         "name": "Chìa khóa hòm chiến dịch Wildfire",
         "description": "Chìa khóa này chỉ mở hòm chiến dịch Wildfire",
+        "market_hash_name": "Operation Wildfire Case Key",
         "crates": [
             {
                 "id": "crate-4187",

@@ -3,6 +3,7 @@
         "id": "key-generic_valve_key",
         "name": "CS:GO 武器箱鑰匙",
         "description": "這把鑰匙能打開任何 Valve 系列的武器箱。不屬於 Valve 系列的武器箱（例如電子競技箱）會需要使用專門的鑰匙來打開。",
+        "market_hash_name": "CS:GO Case Key",
         "crates": [
             {
                 "id": "crate-4001",
@@ -31,6 +32,7 @@
         "id": "key-1204",
         "name": "電子競技鑰匙",
         "description": "此鑰匙用於開啟電子競技箱。\\n\\n這鑰匙的部分所得金額將會用於贊助由既定社群舉辦的其中一場《CS：GO》錦標賽。請密切留意後續的公告！",
+        "market_hash_name": "eSports Key",
         "crates": [
             {
                 "id": "crate-4002",
@@ -54,6 +56,7 @@
         "id": "key-1212",
         "name": "《絕對武力：全球攻勢》轉蛋鑰匙",
         "description": "此鑰匙將會開啟任何 Valve 系列的轉蛋。",
+        "market_hash_name": "CS:GO Capsule Key",
         "crates": [
             {
                 "id": "crate-4007",
@@ -72,6 +75,7 @@
         "id": "key-1214",
         "name": "冬季攻勢箱鑰匙",
         "description": "這把鑰匙只能打開冬季攻勢武器箱",
+        "market_hash_name": "Winter Offensive Case Key",
         "crates": [
             {
                 "id": "crate-4009",
@@ -85,6 +89,7 @@
         "id": "key-1303",
         "name": "《鳳凰行動》武器箱鑰匙",
         "description": "這鑰匙只能打開《鳳凰行動》武器箱",
+        "market_hash_name": "Operation Phoenix Case Key",
         "crates": [
             {
                 "id": "crate-4011",
@@ -98,6 +103,7 @@
         "id": "key-1304",
         "name": "「社群貼紙轉蛋 1」鑰匙",
         "description": "此鑰匙可用來打開「社群轉蛋貼紙 1」。\\n\\n這鑰匙的部分所得金額將會用於贊助貼紙作者們。",
+        "market_hash_name": "Community Sticker Capsule 1 Key",
         "crates": [
             {
                 "id": "crate-4016",
@@ -111,6 +117,7 @@
         "id": "key-1305",
         "name": "「獵人箱」鑰匙",
         "description": "這把鑰匙只能打開獵人武器箱",
+        "market_hash_name": "Huntsman Case Key",
         "crates": [
             {
                 "id": "crate-4017",
@@ -124,6 +131,7 @@
         "id": "key-1309",
         "name": "《突圍行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《突圍行動》武器箱",
+        "market_hash_name": "Operation Breakout Case Key",
         "crates": [
             {
                 "id": "crate-4018",
@@ -137,6 +145,7 @@
         "id": "key-1322",
         "name": "先鋒行動箱鑰匙",
         "description": "這把鑰匙只能打開《先鋒行動》武器箱",
+        "market_hash_name": "Operation Vanguard Case Key",
         "crates": [
             {
                 "id": "crate-4029",
@@ -150,6 +159,7 @@
         "id": "key-1323",
         "name": "炫彩武器箱鑰匙",
         "description": "這把鑰匙只能打開炫彩武器箱",
+        "market_hash_name": "Chroma Case Key",
         "crates": [
             {
                 "id": "crate-4061",
@@ -163,6 +173,7 @@
         "id": "key-1325",
         "name": "炫彩武器箱 2 鑰匙",
         "description": "這把鑰匙只能打開炫彩武器箱 2",
+        "market_hash_name": "Chroma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4089",
@@ -176,6 +187,7 @@
         "id": "key-1330",
         "name": "大彎刀武器箱鑰匙",
         "description": "這把鑰匙只能打開大彎刀武器箱",
+        "market_hash_name": "Falchion Case Key",
         "crates": [
             {
                 "id": "crate-4091",
@@ -189,6 +201,7 @@
         "id": "key-1333",
         "name": "暗影武器箱鑰匙",
         "description": "這把鑰匙只能打開暗影武器箱",
+        "market_hash_name": "Shadow Case Key",
         "crates": [
             {
                 "id": "crate-4138",
@@ -202,6 +215,7 @@
         "id": "key-1334",
         "name": "左輪武器箱鑰匙",
         "description": "這把鑰匙只能打開左輪武器箱",
+        "market_hash_name": "Revolver Case Key",
         "crates": [
             {
                 "id": "crate-4186",
@@ -215,6 +229,7 @@
         "id": "key-1347",
         "name": "炫彩武器箱 3 鑰匙",
         "description": "這把鑰匙只能打開炫彩武器箱 3",
+        "market_hash_name": "Chroma 3 Case Key",
         "crates": [
             {
                 "id": "crate-4233",
@@ -228,6 +243,7 @@
         "id": "key-1350",
         "name": "伽傌武器箱鑰匙",
         "description": "這把鑰匙只能打開伽傌武器箱",
+        "market_hash_name": "Gamma Case Key",
         "crates": [
             {
                 "id": "crate-4236",
@@ -241,6 +257,7 @@
         "id": "key-1351",
         "name": "伽傌武器箱 2 鑰匙",
         "description": "這把鑰匙只能打開伽傌武器箱 2",
+        "market_hash_name": "Gamma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4281",
@@ -254,6 +271,7 @@
         "id": "key-1356",
         "name": "手套箱鑰匙",
         "description": "這把鑰匙只能打開手套箱",
+        "market_hash_name": "Glove Case Key",
         "crates": [
             {
                 "id": "crate-4288",
@@ -267,6 +285,7 @@
         "id": "key-1364",
         "name": "光譜武器箱鑰匙",
         "description": "這把鑰匙只能打開光譜武器箱",
+        "market_hash_name": "Spectrum Case Key",
         "crates": [
             {
                 "id": "crate-4351",
@@ -280,6 +299,7 @@
         "id": "key-1365",
         "name": "《九頭蛇行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《九頭蛇行動》武器箱",
+        "market_hash_name": "Operation Hydra Case Key",
         "crates": [
             {
                 "id": "crate-4352",
@@ -293,6 +313,7 @@
         "id": "key-1366",
         "name": "光譜武器箱 2 鑰匙",
         "description": "這把鑰匙只能打開光譜武器箱 2",
+        "market_hash_name": "Spectrum 2 Case Key",
         "crates": [
             {
                 "id": "crate-4403",
@@ -306,6 +327,7 @@
         "id": "key-1373",
         "name": "鷹爪武器箱鑰匙",
         "description": "這把鑰匙只能打開鷹爪武器箱",
+        "market_hash_name": "Clutch Case Key",
         "crates": [
             {
                 "id": "crate-4471",
@@ -319,6 +341,7 @@
         "id": "key-1374",
         "name": "天涯武器箱鑰匙",
         "description": "這把鑰匙只能打開天涯武器箱",
+        "market_hash_name": "Horizon Case Key",
         "crates": [
             {
                 "id": "crate-4482",
@@ -332,6 +355,7 @@
         "id": "key-1375",
         "name": "危險區域武器箱",
         "description": "這把鑰匙只能打開危險區域武器箱",
+        "market_hash_name": "Danger Zone Case Key",
         "crates": [
             {
                 "id": "crate-4548",
@@ -345,6 +369,7 @@
         "id": "key-1383",
         "name": "棱鏡武器箱鑰匙",
         "description": "這把鑰匙只能打開棱鏡武器箱",
+        "market_hash_name": "Prisma Case Key",
         "crates": [
             {
                 "id": "crate-4598",
@@ -358,6 +383,7 @@
         "id": "key-1384",
         "name": "《裂網行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《裂網行動》武器箱",
+        "market_hash_name": "Shattered Web Case Key",
         "crates": [
             {
                 "id": "crate-4620",
@@ -371,6 +397,7 @@
         "id": "key-1385",
         "name": "CS20 武器箱鑰匙",
         "description": "這把鑰匙只能打開 CS20 武器箱",
+        "market_hash_name": "CS20 Case Key",
         "crates": [
             {
                 "id": "crate-4669",
@@ -384,6 +411,7 @@
         "id": "key-1386",
         "name": "棱鏡武器箱 2 鑰匙",
         "description": "這把鑰匙只能打開棱鏡武器箱 2",
+        "market_hash_name": "Prisma 2 Case Key",
         "crates": [
             {
                 "id": "crate-4695",
@@ -397,6 +425,7 @@
         "id": "key-1387",
         "name": "裂片武器箱鑰匙",
         "description": "這把鑰匙只能打開裂片武器箱",
+        "market_hash_name": "Fracture Case Key",
         "crates": [
             {
                 "id": "crate-4698",
@@ -410,6 +439,7 @@
         "id": "key-1388",
         "name": "《狂牙行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《狂牙行動》武器箱",
+        "market_hash_name": "Operation Broken Fang Case Key",
         "crates": [
             {
                 "id": "crate-4717",
@@ -423,6 +453,7 @@
         "id": "key-1389",
         "name": "蛇吻武器箱鑰匙",
         "description": "這把鑰匙只能打開蛇吻武器箱",
+        "market_hash_name": "Snakebite Case Key",
         "crates": [
             {
                 "id": "crate-4747",
@@ -436,6 +467,7 @@
         "id": "key-1390",
         "name": "《猛潮行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《猛潮行動》武器箱",
+        "market_hash_name": "Operation Riptide Case Key",
         "crates": [
             {
                 "id": "crate-4790",
@@ -449,6 +481,7 @@
         "id": "key-1391",
         "name": "夢境與夢魘武器箱鑰匙",
         "description": "這個鑰匙只能用來開啟夢境與夢魘武器箱",
+        "market_hash_name": "Dreams & Nightmares Case Key",
         "crates": [
             {
                 "id": "crate-4818",
@@ -462,6 +495,7 @@
         "id": "key-1392",
         "name": "迅猛反擊武器箱鑰匙",
         "description": "這把鑰匙只能打開迅猛反擊武器箱",
+        "market_hash_name": "Recoil Case Key",
         "crates": [
             {
                 "id": "crate-4846",
@@ -475,6 +509,7 @@
         "id": "key-1393",
         "name": "革命武器箱鑰匙",
         "description": "這把鑰匙只能打開革命武器箱",
+        "market_hash_name": "Revolution Case Key",
         "crates": [
             {
                 "id": "crate-4880",
@@ -488,6 +523,7 @@
         "id": "key-1394",
         "name": "千瓦武器箱鑰匙",
         "description": "這把鑰匙只能打開千瓦武器箱",
+        "market_hash_name": "Kilowatt Case Key",
         "crates": [
             {
                 "id": "crate-4904",
@@ -501,6 +537,7 @@
         "id": "key-7000",
         "name": "《野火行動》武器箱鑰匙",
         "description": "這把鑰匙只能打開《野火行動》武器箱",
+        "market_hash_name": "Operation Wildfire Case Key",
         "crates": [
             {
                 "id": "crate-4187",
