@@ -233,6 +233,7 @@ export const getSkinsNotGrouped = () => {
                     id: `skin-vanilla-${knife.name}${
                         type === "rare_special_vanilla_stattrak" ? "_st" : ""
                     }`,
+                    skin_id: `skin-vanilla-${knife.name}`,
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
