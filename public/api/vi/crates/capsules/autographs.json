@@ -11529,7 +11529,7 @@
     },
     {
         "id": "crate-4459",
-        "name": "Vỏ nhộng chữ ký huyền thoại Boston 2018",
+        "name": "Gói chữ ký huyền thoại | Boston 2018",
         "description": "Gói này chứa một hình dán hạng cao, vàng, hoặc cao cấp ký bởi một trong những người chơi của các đội Legends tại Boston 2018.\\n\\n50% doanh số từ gói này sẽ được chia cho những người chơi và tổ chức tương ứng.\\n\\nHình dán đó có thể được dùng lên bất cứ vũ khí nào bạn sở hữu, và có thể cạo để trông mòn hơn. Bạn có thể cạo một hình dán nhiều lần, khiến nó càng mòn thêm, cho tới khi biến mất khỏi vũ khí.",
         "type": "Autograph Capsule",
         "first_sale_date": "2017-12-18",
@@ -39673,7 +39673,7 @@
     },
     {
         "id": "crate-4900",
-        "name": "Gói hình dán chữ ký tuyển thủ huyền thoại Paris 2023",
+        "name": "Gói hình dán chữ ký huyền thoại | Paris 2023",
         "description": "Gói hình dán này chứa một hình dán giấy, kim tuyến, ảnh toàn ký hoặc vàng được ký bởi một trong những người chơi tham dự vòng huyền thoại của Paris 2023.\\n\\n50% doanh thu từ gói hình dán này sẽ được chia cho những người chơi và tổ chức tương ứng.\\n\\nHình dán đó có thể được dùng lên bất cứ vũ khí nào bạn sở hữu, và có thể cạo để trông mòn hơn. Bạn có thể cạo một hình dán nhiều lần, khiến nó càng mòn thêm, cho tới khi biến mất khỏi vũ khí.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
@@ -49561,7 +49561,208 @@
         "description": "Gói hình dán này chứa một hình dán giấy, kim tuyến, ảnh toàn ký hoặc vàng được ký bởi một trong những tuyển thủ thuộc đội vô địch Copenhagen 2024.\\n\\n50% doanh thu từ gói hình dán này sẽ được chia cho tuyển thủ và tổ chức tương ứng.\\n\\nHình dán đó có thể được dùng lên bất cứ vũ khí nào bạn sở hữu, và có thể cạo để trông mòn hơn. Bạn có thể cạo một hình dán nhiều lần, khiến nó càng mòn thêm, cho tới khi tróc khỏi vũ khí.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "sticker-7859",
+                "name": "jL (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Hạng cao cấp",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_champion_png.png"
+            },
+            {
+                "id": "sticker-7863",
+                "name": "Aleksib (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Hạng cao cấp",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_champion_png.png"
+            },
+            {
+                "id": "sticker-7867",
+                "name": "b1t (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Hạng cao cấp",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_champion_png.png"
+            },
+            {
+                "id": "sticker-7871",
+                "name": "iM (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Hạng cao cấp",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_champion_png.png"
+            },
+            {
+                "id": "sticker-7875",
+                "name": "w0nderful (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Hạng cao cấp",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_champion_png.png"
+            },
+            {
+                "id": "sticker-7860",
+                "name": "jL (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Ấn tượng",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7864",
+                "name": "Aleksib (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Ấn tượng",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7868",
+                "name": "b1t (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Ấn tượng",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7872",
+                "name": "iM (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Ấn tượng",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7876",
+                "name": "w0nderful (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Ấn tượng",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7861",
+                "name": "jL (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Ngoại nhập",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7865",
+                "name": "Aleksib (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Ngoại nhập",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7869",
+                "name": "b1t (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Ngoại nhập",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7873",
+                "name": "iM (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Ngoại nhập",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7877",
+                "name": "w0nderful (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Ngoại nhập",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7862",
+                "name": "jL (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Phi thường",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7866",
+                "name": "Aleksib (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Phi thường",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7870",
+                "name": "b1t (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Phi thường",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7874",
+                "name": "iM (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Phi thường",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7878",
+                "name": "w0nderful (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Phi thường",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_gold_champion_png.png"
+            }
+        ],
         "contains_rare": [],
         "market_hash_name": "Copenhagen 2024 Champions Autograph Capsule",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_group_champions_png.png"

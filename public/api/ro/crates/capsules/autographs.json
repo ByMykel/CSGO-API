@@ -49561,7 +49561,208 @@
         "description": "Această capsulă conține un singur abțibild de hârtie, sclipitor, holo sau auriu, semnat de unul dintre jucătorii echipei campioane de la Copenhagen 2024.\\n\\nJucătorii și organizațiile participante vor primi 50% din veniturile obținute în urma vânzării acestei capsule.\\n\\nAcel abțibild poate fi aplicat pe orice armă pe care o deții și poate fi răzuit pentru a-i oferi un aspect mai uzat. Poți răzui același abțibild de mai multe ori, mărindu-i puțin câte puțin gradul de uzură de fiecare dată, până când este eliminat de pe armă.",
         "type": "Autograph Capsule",
         "first_sale_date": null,
-        "contains": [],
+        "contains": [
+            {
+                "id": "sticker-7859",
+                "name": "jL (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_champion_png.png"
+            },
+            {
+                "id": "sticker-7863",
+                "name": "Aleksib (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_champion_png.png"
+            },
+            {
+                "id": "sticker-7867",
+                "name": "b1t (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_champion_png.png"
+            },
+            {
+                "id": "sticker-7871",
+                "name": "iM (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_champion_png.png"
+            },
+            {
+                "id": "sticker-7875",
+                "name": "w0nderful (Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_rare",
+                    "name": "Calitate ridicată",
+                    "color": "#4b69ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_champion_png.png"
+            },
+            {
+                "id": "sticker-7860",
+                "name": "jL (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7864",
+                "name": "Aleksib (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7868",
+                "name": "b1t (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7872",
+                "name": "iM (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7876",
+                "name": "w0nderful (Glitter, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_mythical",
+                    "name": "Remarcabil(ă)",
+                    "color": "#8847ff"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_glitter_champion_png.png"
+            },
+            {
+                "id": "sticker-7861",
+                "name": "jL (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7865",
+                "name": "Aleksib (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7869",
+                "name": "b1t (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7873",
+                "name": "iM (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7877",
+                "name": "w0nderful (Holo, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_legendary",
+                    "name": "Exotic(ă)",
+                    "color": "#d32ce6"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_holo_champion_png.png"
+            },
+            {
+                "id": "sticker-7862",
+                "name": "jL (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7866",
+                "name": "Aleksib (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7870",
+                "name": "b1t (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7874",
+                "name": "iM (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_gold_champion_png.png"
+            },
+            {
+                "id": "sticker-7878",
+                "name": "w0nderful (Gold, Champion) | Copenhagen 2024",
+                "rarity": {
+                    "id": "rarity_ancient",
+                    "name": "Extraordinar(ă)",
+                    "color": "#eb4b4b"
+                },
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_gold_champion_png.png"
+            }
+        ],
         "contains_rare": [],
         "market_hash_name": "Copenhagen 2024 Champions Autograph Capsule",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_group_champions_png.png"
