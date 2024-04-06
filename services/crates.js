@@ -186,7 +186,10 @@ const parseItem = (item, prefabs) => {
             })
         ),
         special_notes: specialNotes?.[`crate-${item.object_id}`],
-        market_hash_name: $t(item.item_name, true),
+        market_hash_name: $t(item.item_name, true).replace(
+            "Holo/Foil",
+            "Holo-Foil"
+        ),
         image,
     };
 };
