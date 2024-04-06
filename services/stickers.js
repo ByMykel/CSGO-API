@@ -51,7 +51,10 @@ const getType = (item) => {
 };
 
 const getEffect = (item) => {
-    if ($t(item.item_name, true).includes("(Holo)")) {
+    if (
+        $t(item.item_name, true).includes("(Holo)") ||
+        $t(item.item_name, true).includes("(Holo, ")
+    ) {
         return "Holo";
     }
 
@@ -63,11 +66,56 @@ const getEffect = (item) => {
         return "Lenticular";
     }
 
-    if ($t(item.item_name, true).includes("(Glitter)")) {
+    if (
+        $t(item.item_name, true).includes("(Glitter)") ||
+        $t(item.item_name, true).includes("(Glitter, ")
+    ) {
         return "Glitter";
     }
 
+    if (
+        $t(item.item_name, true).includes("(Gold)") ||
+        $t(item.item_name, true).includes("(Gold, ")
+    ) {
+        return "Gold";
+    }
+
     return "Other";
+};
+
+const getMarketHashName = (item) => {
+    const events = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+    const eventsTeamNotMarketable = [14, 15, 16];
+
+    if ([1].includes(item.tournament_event_id)) {
+        return null;
+    }
+
+    // Team logos were not marketable. But players marketable.
+    if (
+        eventsTeamNotMarketable.includes(item.tournament_event_id) &&
+        item.item_rarity === "legendary" &&
+        item.tournament_player_id == null
+    ) {
+        return null;
+    }
+
+    // Marketable both teams and players.
+    if (
+        events.includes(item.tournament_event_id) &&
+        item.item_rarity === "legendary"
+    ) {
+        return null;
+    }
+
+    if (
+        item.sticker_material.startsWith("tournament_assets/") ||
+        item.sticker_material.startsWith("danger_zone/")
+    ) {
+        return null;
+    }
+
+    return `${$t("csgo_tool_sticker", true)} | ${$t(item.item_name, true)}`;
 };
 
 const parseItem = (item) => {
@@ -111,10 +159,7 @@ const parseItem = (item) => {
         tournament_player:
             state.players[item.tournament_player_id] ?? undefined,
         type: getType(item),
-        market_hash_name: `${$t("csgo_tool_sticker", true)} | ${$t(
-            item.item_name,
-            true
-        )}`,
+        market_hash_name: getMarketHashName(item),
         effect: getEffect(item),
         image,
     };
