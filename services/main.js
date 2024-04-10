@@ -546,6 +546,7 @@ const getItemFromKey = (key) => {
             id: `collectible-${pin.object_id}`,
             name: pin.item_name,
             rarity: `rarity_${pin.item_rarity}`,
+            image: getImageUrl(pin.image_inventory),
         };
     }
 
