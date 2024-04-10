@@ -117,6 +117,11 @@ const parseItem = (item) => {
             color: getRarityColor(rarity),
         },
         type: getType(item),
+        genuine: isAttendance,
+        market_hash_name:
+            ["Pass", "Pin"].includes(getType(item)) && !isAttendance
+                ? $t(item.item_name, true)
+                : null,
         image,
     };
 };
