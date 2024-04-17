@@ -1,1 +1,72 @@
-[{"id":"collectible-874","name":"5-Jahre-Veteranenmünze","description":"Ist seit über 5 Jahren Mitglied der Counter-Strike-Community.","rarity":{"id":"rarity_ancient","name":"Außerordentlich","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"},{"id":"collectible-969","name":"10-Jahre-Veteranenmünze","description":"Ist seit über 10 Jahren Mitglied der Counter-Strike-Community.","rarity":{"id":"rarity_ancient","name":"Außerordentlich","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"},{"id":"collectible-970","name":"Loyalitätsabzeichen","description":"Dieses Abzeichen ist ein Andenken für loyale Mitglieder in der Counter-Strike-Community vor der Veröffentlichung des Gefahrenzonen-Updates.\\n\\n<i>Stärke durch Loyalität.</i>","rarity":{"id":"rarity_ancient","name":"Außerordentlich","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"},{"id":"collectible-987","name":"Münze zum 10. Geburtstag","description":"Feiern Sie den 10. Geburtstag von CS:GO mit der CS:GO-Community.\\n\\n<i>Herzlichen Glückwunsch an CS:GO für zehn Jahre Kopfschüsse, Clutch-Abschüsse und die Community!</i>","rarity":{"id":"rarity_ancient","name":"Außerordentlich","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"},{"id":"collectible-996","name":"Global-Offensive-Abzeichen","description":"Dieses Abzeichen ist ein Andenken für loyale Communitymitglieder von Counter-Strike: Global Offensive vor der Veröffentlichung von Counter-Strike 2.\\n\\n<i>Legenden sterben nie.</i>","rarity":{"id":"rarity_ancient","name":"Außerordentlich","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"}]
+[
+  {
+    "id": "collectible-874",
+    "name": "5-Jahre-Veteranenmünze",
+    "description": "Ist seit über 5 Jahren Mitglied der Counter-Strike-Community.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Außerordentlich",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"
+  },
+  {
+    "id": "collectible-969",
+    "name": "10-Jahre-Veteranenmünze",
+    "description": "Ist seit über 10 Jahren Mitglied der Counter-Strike-Community.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Außerordentlich",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"
+  },
+  {
+    "id": "collectible-970",
+    "name": "Loyalitätsabzeichen",
+    "description": "Dieses Abzeichen ist ein Andenken für loyale Mitglieder in der Counter-Strike-Community vor der Veröffentlichung des Gefahrenzonen-Updates.\\n\\n<i>Stärke durch Loyalität.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Außerordentlich",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"
+  },
+  {
+    "id": "collectible-987",
+    "name": "Münze zum 10. Geburtstag",
+    "description": "Feiern Sie den 10. Geburtstag von CS:GO mit der CS:GO-Community.\\n\\n<i>Herzlichen Glückwunsch an CS:GO für zehn Jahre Kopfschüsse, Clutch-Abschüsse und die Community!</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Außerordentlich",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"
+  },
+  {
+    "id": "collectible-996",
+    "name": "Global-Offensive-Abzeichen",
+    "description": "Dieses Abzeichen ist ein Andenken für loyale Communitymitglieder von Counter-Strike: Global Offensive vor der Veröffentlichung von Counter-Strike 2.\\n\\n<i>Legenden sterben nie.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Außerordentlich",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"
+  }
+]

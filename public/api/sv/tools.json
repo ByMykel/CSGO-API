@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Namnplåt","description":"Det här föremålet kommer döpa om ett vapen. En anpassad graverad namnplatta som syns i spelet kommer att läggas till på vapnet.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Lagringsenhet","description":"Lagringsenheten låter dig lagra upp till 1 000 av dina överskottsföremål som annars skulle överskrida utrymmet i ditt förråd. Du kan närsomhelst flytta föremål från ditt förråd till lagringsenheten, hämta tillbaka föremål till ditt förråd, eller helt enkelt använda den till att organisera dina samlarobjekt.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™-bytesverktyg","description":"Detta föremål byter StatTrak™-värden mellan två likadana föremålstyper.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Namnplåt",
+    "description": "Det här föremålet kommer döpa om ett vapen. En anpassad graverad namnplatta som syns i spelet kommer att läggas till på vapnet.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Lagringsenhet",
+    "description": "Lagringsenheten låter dig lagra upp till 1 000 av dina överskottsföremål som annars skulle överskrida utrymmet i ditt förråd. Du kan närsomhelst flytta föremål från ditt förråd till lagringsenheten, hämta tillbaka föremål till ditt förråd, eller helt enkelt använda den till att organisera dina samlarobjekt.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™-bytesverktyg",
+    "description": "Detta föremål byter StatTrak™-värden mellan två likadana föremålstyper.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

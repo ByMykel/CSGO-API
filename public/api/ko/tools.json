@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"이름표","description":"이 아이템은 총기에 이름을 새로 지을 수 있습니다. 이름이 바뀐 총기에는 새 이름이 새겨진 이름판이 부착되며 게임 내에서 볼 수 있습니다.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"저장 컨테이너","description":"저장 컨테이너에는 아이템을 추가로 최대 1,000개까지 보관할 수 있습니다. 언제든지 아이템을 인벤토리에서 저장 컨테이너로 이동할 수 있으며 저장 컨테이너에 보관한 아이템을 인벤토리로 다시 가져올 수도 있습니다. 또한 수집품을 정리하는 데 사용할 수도 있습니다.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™ 교환 도구","description":"이 아이템으로 유형이 같은 두 아이템의 StatTrak™ 점수를 맞바꿀 수 있습니다.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "이름표",
+    "description": "이 아이템은 총기에 이름을 새로 지을 수 있습니다. 이름이 바뀐 총기에는 새 이름이 새겨진 이름판이 부착되며 게임 내에서 볼 수 있습니다.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "저장 컨테이너",
+    "description": "저장 컨테이너에는 아이템을 추가로 최대 1,000개까지 보관할 수 있습니다. 언제든지 아이템을 인벤토리에서 저장 컨테이너로 이동할 수 있으며 저장 컨테이너에 보관한 아이템을 인벤토리로 다시 가져올 수도 있습니다. 또한 수집품을 정리하는 데 사용할 수도 있습니다.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™ 교환 도구",
+    "description": "이 아이템으로 유형이 같은 두 아이템의 StatTrak™ 점수를 맞바꿀 수 있습니다.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

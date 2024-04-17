@@ -1,1 +1,72 @@
-[{"id":"collectible-874","name":"5 Yıllık Tecrübe Jetonu","description":"5 yıldan fazla bir süredir Counter-Strike topluluğu üyesi.","rarity":{"id":"rarity_ancient","name":"Olağandışı","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"},{"id":"collectible-969","name":"10 Yıllık Tecrübe Jetonu","description":"10 yıldan fazla bir süredir Counter-Strike topluluğu üyesi.","rarity":{"id":"rarity_ancient","name":"Olağandışı","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"},{"id":"collectible-970","name":"Sadakat Rozeti","description":"Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Kuvvet sadakatten doğar.</i>","rarity":{"id":"rarity_ancient","name":"Olağandışı","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"},{"id":"collectible-987","name":"10. Yaş Günü Jetonu","description":"CS:GO topluluğuyla birlikte oyunun 10. yaş gününü kutladık.\\n\\n<i>On yıla sığan sayısız kafadan vuruşu, clutch'ı ve CS:GO topluluğuyla kurulan bağları kutluyoruz. Nice yıllara, CS:GO!</i>","rarity":{"id":"rarity_ancient","name":"Olağandışı","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"},{"id":"collectible-996","name":"Global Offensive Rozeti","description":"Bu rozet, Counter-Strike 2'nin yayınlanmasından önce Counter-Strike: Global Offensive topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Efsaneler asla ölmez.</i>","rarity":{"id":"rarity_ancient","name":"Olağandışı","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"}]
+[
+  {
+    "id": "collectible-874",
+    "name": "5 Yıllık Tecrübe Jetonu",
+    "description": "5 yıldan fazla bir süredir Counter-Strike topluluğu üyesi.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Olağandışı",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"
+  },
+  {
+    "id": "collectible-969",
+    "name": "10 Yıllık Tecrübe Jetonu",
+    "description": "10 yıldan fazla bir süredir Counter-Strike topluluğu üyesi.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Olağandışı",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"
+  },
+  {
+    "id": "collectible-970",
+    "name": "Sadakat Rozeti",
+    "description": "Bu rozet, Tehlikeli Bölge güncellemesinden önce Counter-Strike topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Kuvvet sadakatten doğar.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Olağandışı",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"
+  },
+  {
+    "id": "collectible-987",
+    "name": "10. Yaş Günü Jetonu",
+    "description": "CS:GO topluluğuyla birlikte oyunun 10. yaş gününü kutladık.\\n\\n<i>On yıla sığan sayısız kafadan vuruşu, clutch'ı ve CS:GO topluluğuyla kurulan bağları kutluyoruz. Nice yıllara, CS:GO!</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Olağandışı",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"
+  },
+  {
+    "id": "collectible-996",
+    "name": "Global Offensive Rozeti",
+    "description": "Bu rozet, Counter-Strike 2'nin yayınlanmasından önce Counter-Strike: Global Offensive topluluğuna gösterdiğin sadakatin anısınadır.\\n\\n<i>Efsaneler asla ölmez.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Olağandışı",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"
+  }
+]

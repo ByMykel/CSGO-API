@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Etiqueta de Nome","description":"Este item renomeará uma arma, que receberá uma placa com o nome personalizado visível durante o jogo.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Unidade de Armazenamento","description":"A unidade de armazenamento permite armazenar até 1.000 itens além da capacidade do seu inventário. A qualquer momento, é possível mover itens do seu inventário para a unidade, retirá-los dela ou usá-la para organizar as suas coleções.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"Ferramenta de Troca StatTrak™","description":"Este item troca as contagens StatTrak™ de dois itens do mesmo tipo.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Etiqueta de Nome",
+    "description": "Este item renomeará uma arma, que receberá uma placa com o nome personalizado visível durante o jogo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Unidade de Armazenamento",
+    "description": "A unidade de armazenamento permite armazenar até 1.000 itens além da capacidade do seu inventário. A qualquer momento, é possível mover itens do seu inventário para a unidade, retirá-los dela ou usá-la para organizar as suas coleções.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "Ferramenta de Troca StatTrak™",
+    "description": "Este item troca as contagens StatTrak™ de dois itens do mesmo tipo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

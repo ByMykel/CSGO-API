@@ -1,1 +1,72 @@
-[{"id":"collectible-874","name":"5 年老兵硬币","description":"已在 反恐精英 社区服役超过 5 年。","rarity":{"id":"rarity_ancient","name":"非凡","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"},{"id":"collectible-969","name":"10 年老兵硬币","description":"已在 反恐精英 社区服役超过 10 年。","rarity":{"id":"rarity_ancient","name":"非凡","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"},{"id":"collectible-970","name":"忠诚徽章","description":"此徽章旨在纪念“头号特训”更新前您已在 反恐精英 社区拥有的忠实会员资格。\\n\\n<i>忠诚的力量。</i>","rarity":{"id":"rarity_ancient","name":"非凡","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"},{"id":"collectible-987","name":"CS:GO 10周年生日硬币","description":"和CS:GO社区一起庆祝CS:GO十周年生日。\\n\\n<i>纪念十年以来的精准打击、残局以及社区时光。十周年生日快乐，CS:GO！</i>","rarity":{"id":"rarity_ancient","name":"非凡","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"},{"id":"collectible-996","name":"全球攻势徽章","description":"此徽章旨在纪念游戏更新前您已在《反恐精英：全球攻势》社区拥有的忠实会员资格。\\n\\n<i>传奇永不消逝。</i>","rarity":{"id":"rarity_ancient","name":"非凡","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"}]
+[
+  {
+    "id": "collectible-874",
+    "name": "5 年老兵硬币",
+    "description": "已在 反恐精英 社区服役超过 5 年。",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "非凡",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"
+  },
+  {
+    "id": "collectible-969",
+    "name": "10 年老兵硬币",
+    "description": "已在 反恐精英 社区服役超过 10 年。",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "非凡",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"
+  },
+  {
+    "id": "collectible-970",
+    "name": "忠诚徽章",
+    "description": "此徽章旨在纪念“头号特训”更新前您已在 反恐精英 社区拥有的忠实会员资格。\\n\\n<i>忠诚的力量。</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "非凡",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"
+  },
+  {
+    "id": "collectible-987",
+    "name": "CS:GO 10周年生日硬币",
+    "description": "和CS:GO社区一起庆祝CS:GO十周年生日。\\n\\n<i>纪念十年以来的精准打击、残局以及社区时光。十周年生日快乐，CS:GO！</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "非凡",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"
+  },
+  {
+    "id": "collectible-996",
+    "name": "全球攻势徽章",
+    "description": "此徽章旨在纪念游戏更新前您已在《反恐精英：全球攻势》社区拥有的忠实会员资格。\\n\\n<i>传奇永不消逝。</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "非凡",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"
+  }
+]

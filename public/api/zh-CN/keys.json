@@ -1,1 +1,550 @@
-[{"id":"key-generic_valve_key","name":"反恐精英武器箱钥匙","description":"这把钥匙可以打开任一 Valve 系列武器箱。非 Valve 系列的武器箱（如电竞武器箱）需要它们自己专属的钥匙来打开。","market_hash_name":"CS:GO Case Key","crates":[{"id":"crate-4001","name":"反恐精英武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"},{"id":"crate-4003","name":"“英勇大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"},{"id":"crate-4004","name":"反恐精英 2 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"},{"id":"crate-4010","name":"反恐精英 3 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"},{"id":"key-1204","name":"电竞钥匙","description":"此钥匙可以打开任一电竞武器箱。\\n\\n销售此钥匙的所得部分款项将用于支持既定的社区举行的CS:GO锦标赛。请持续关注后续公告。","market_hash_name":"eSports Key","crates":[{"id":"crate-4002","name":"电竞 2013 武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"},{"id":"crate-4005","name":"电竞 2013 冬季武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"},{"id":"crate-4019","name":"电竞 2014 夏季武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"},{"id":"key-1212","name":"反恐精英印花胶囊钥匙","description":"这把钥匙可以打开任一 Valve 系列印花胶囊。","market_hash_name":"CS:GO Capsule Key","crates":[{"id":"crate-4007","name":"1 号印花胶囊","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"},{"id":"crate-4012","name":"2 号印花胶囊","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"},{"id":"key-1214","name":"冬季攻势武器箱钥匙","description":"该钥匙只能打开冬季攻势武器箱","market_hash_name":"Winter Offensive Case Key","crates":[{"id":"crate-4009","name":"冬季攻势武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"},{"id":"key-1303","name":"“凤凰大行动”武器箱钥匙","description":"该钥匙只能打开“凤凰大行动”武器箱","market_hash_name":"Operation Phoenix Case Key","crates":[{"id":"crate-4011","name":"“凤凰大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"},{"id":"key-1304","name":"1 号社区印花胶囊钥匙","description":"此钥匙可以打开 1 号社区印花胶囊。\\n\\n销售此钥匙的所得部分款项将用于支持印花作者。","market_hash_name":"Community Sticker Capsule 1 Key","crates":[{"id":"crate-4016","name":"1 号社区印花胶囊","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"},{"id":"key-1305","name":"猎杀者武器箱钥匙","description":"该钥匙只能打开猎杀者武器箱","market_hash_name":"Huntsman Case Key","crates":[{"id":"crate-4017","name":"猎杀者武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"},{"id":"key-1309","name":"“突围大行动”武器箱钥匙","description":"该钥匙只能打开“突围大行动”武器箱","market_hash_name":"Operation Breakout Case Key","crates":[{"id":"crate-4018","name":"“突围大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"},{"id":"key-1322","name":"“先锋大行动”武器箱钥匙","description":"该钥匙只能打开“先锋大行动”武器箱","market_hash_name":"Operation Vanguard Case Key","crates":[{"id":"crate-4029","name":"“先锋大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"},{"id":"key-1323","name":"幻彩武器箱钥匙","description":"该钥匙只能打开幻彩武器箱","market_hash_name":"Chroma Case Key","crates":[{"id":"crate-4061","name":"幻彩武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"},{"id":"key-1325","name":"幻彩 2 号武器箱钥匙","description":"该钥匙只能打开幻彩 2 号武器箱","market_hash_name":"Chroma 2 Case Key","crates":[{"id":"crate-4089","name":"幻彩 2 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"},{"id":"key-1330","name":"弯曲猎手武器箱钥匙","description":"该钥匙只能打开弯曲猎手武器箱","market_hash_name":"Falchion Case Key","crates":[{"id":"crate-4091","name":"弯曲猎手武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"},{"id":"key-1333","name":"暗影武器箱钥匙","description":"该钥匙只能打开暗影武器箱","market_hash_name":"Shadow Case Key","crates":[{"id":"crate-4138","name":"暗影武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"},{"id":"key-1334","name":"左轮武器箱钥匙","description":"该钥匙只能打开左轮武器箱","market_hash_name":"Revolver Case Key","crates":[{"id":"crate-4186","name":"左轮武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"},{"id":"key-1347","name":"幻彩 3 号武器箱钥匙","description":"该钥匙只能打开幻彩 3 号武器箱","market_hash_name":"Chroma 3 Case Key","crates":[{"id":"crate-4233","name":"幻彩 3 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"},{"id":"key-1350","name":"伽玛武器箱钥匙","description":"该钥匙只能打开伽玛武器箱","market_hash_name":"Gamma Case Key","crates":[{"id":"crate-4236","name":"伽玛武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"},{"id":"key-1351","name":"伽玛 2 号武器箱钥匙","description":"该钥匙只能打开伽玛 2 号武器箱","market_hash_name":"Gamma 2 Case Key","crates":[{"id":"crate-4281","name":"伽玛 2 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"},{"id":"key-1356","name":"手套武器箱钥匙","description":"该钥匙只能打开手套武器箱","market_hash_name":"Glove Case Key","crates":[{"id":"crate-4288","name":"手套武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"},{"id":"key-1364","name":"光谱武器箱钥匙","description":"该钥匙只能打开光谱武器箱","market_hash_name":"Spectrum Case Key","crates":[{"id":"crate-4351","name":"光谱武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"},{"id":"key-1365","name":"“九头蛇大行动”武器箱钥匙","description":"该钥匙只能打开“九头蛇大行动”武器箱","market_hash_name":"Operation Hydra Case Key","crates":[{"id":"crate-4352","name":"“九头蛇大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"},{"id":"key-1366","name":"光谱 2 号武器箱钥匙","description":"该钥匙只能打开光谱 2 号武器箱","market_hash_name":"Spectrum 2 Case Key","crates":[{"id":"crate-4403","name":"光谱 2 号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"},{"id":"key-1373","name":"命悬一线武器箱钥匙","description":"该钥匙只能打开命悬一线武器箱","market_hash_name":"Clutch Case Key","crates":[{"id":"crate-4471","name":"命悬一线武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"},{"id":"key-1374","name":"地平线武器箱钥匙","description":"该钥匙只能打开地平线武器箱","market_hash_name":"Horizon Case Key","crates":[{"id":"crate-4482","name":"地平线武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"},{"id":"key-1375","name":"“头号特训”武器箱钥匙","description":"该钥匙只能打开“头号特训”武器箱","market_hash_name":"Danger Zone Case Key","crates":[{"id":"crate-4548","name":"“头号特训”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"},{"id":"key-1383","name":"棱彩武器箱钥匙","description":"该钥匙只能打开棱彩武器箱","market_hash_name":"Prisma Case Key","crates":[{"id":"crate-4598","name":"棱彩武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"},{"id":"key-1384","name":"“裂网大行动”武器箱钥匙","description":"这把钥匙仅可开启“裂网大行动”武器箱","market_hash_name":"Shattered Web Case Key","crates":[{"id":"crate-4620","name":"“裂网大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"},{"id":"key-1385","name":"反恐精英20周年武器箱钥匙","description":"该钥匙只能打开反恐精英20周年武器箱","market_hash_name":"CS20 Case Key","crates":[{"id":"crate-4669","name":"反恐精英20周年武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"},{"id":"key-1386","name":"棱彩2号武器箱钥匙","description":"该钥匙只能打开棱彩2号武器箱","market_hash_name":"Prisma 2 Case Key","crates":[{"id":"crate-4695","name":"棱彩2号武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"},{"id":"key-1387","name":"裂空武器箱钥匙","description":"这把钥匙仅可用于打开裂空武器箱","market_hash_name":"Fracture Case Key","crates":[{"id":"crate-4698","name":"裂空武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"},{"id":"key-1388","name":"“狂牙大行动”武器箱钥匙","description":"该钥匙只能打开“狂牙大行动”武器箱","market_hash_name":"Operation Broken Fang Case Key","crates":[{"id":"crate-4717","name":"“狂牙大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"},{"id":"key-1389","name":"蛇噬武器箱钥匙","description":"该钥匙只能打开蛇噬武器箱","market_hash_name":"Snakebite Case Key","crates":[{"id":"crate-4747","name":"蛇噬武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"},{"id":"key-1390","name":"“激流大行动”武器箱钥匙","description":"该钥匙只能打开“激流大行动”武器箱","market_hash_name":"Operation Riptide Case Key","crates":[{"id":"crate-4790","name":"“激流大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"},{"id":"key-1391","name":"梦魇武器箱钥匙","description":"该钥匙只能打开梦魇武器箱","market_hash_name":"Dreams & Nightmares Case Key","crates":[{"id":"crate-4818","name":"梦魇武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"},{"id":"key-1392","name":"反冲武器箱钥匙","description":"该钥匙只能打开反冲武器箱","market_hash_name":"Recoil Case Key","crates":[{"id":"crate-4846","name":"反冲武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"},{"id":"key-1393","name":"变革武器箱钥匙","description":"该钥匙只能打开变革武器箱","market_hash_name":"Revolution Case Key","crates":[{"id":"crate-4880","name":"变革武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"},{"id":"key-1394","name":"千瓦武器箱钥匙","description":"这把钥匙只能开启千瓦武器箱","market_hash_name":"Kilowatt Case Key","crates":[{"id":"crate-4904","name":"千瓦武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"},{"id":"key-7000","name":"“野火大行动”武器箱钥匙","description":"该钥匙只能打开“野火大行动”武器箱","market_hash_name":"Operation Wildfire Case Key","crates":[{"id":"crate-4187","name":"“野火大行动”武器箱","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"}]
+[
+  {
+    "id": "key-generic_valve_key",
+    "name": "反恐精英武器箱钥匙",
+    "description": "这把钥匙可以打开任一 Valve 系列武器箱。非 Valve 系列的武器箱（如电竞武器箱）需要它们自己专属的钥匙来打开。",
+    "market_hash_name": "CS:GO Case Key",
+    "crates": [
+      {
+        "id": "crate-4001",
+        "name": "反恐精英武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"
+      },
+      {
+        "id": "crate-4003",
+        "name": "“英勇大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"
+      },
+      {
+        "id": "crate-4004",
+        "name": "反恐精英 2 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"
+      },
+      {
+        "id": "crate-4010",
+        "name": "反恐精英 3 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"
+  },
+  {
+    "id": "key-1204",
+    "name": "电竞钥匙",
+    "description": "此钥匙可以打开任一电竞武器箱。\\n\\n销售此钥匙的所得部分款项将用于支持既定的社区举行的CS:GO锦标赛。请持续关注后续公告。",
+    "market_hash_name": "eSports Key",
+    "crates": [
+      {
+        "id": "crate-4002",
+        "name": "电竞 2013 武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"
+      },
+      {
+        "id": "crate-4005",
+        "name": "电竞 2013 冬季武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"
+      },
+      {
+        "id": "crate-4019",
+        "name": "电竞 2014 夏季武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"
+  },
+  {
+    "id": "key-1212",
+    "name": "反恐精英印花胶囊钥匙",
+    "description": "这把钥匙可以打开任一 Valve 系列印花胶囊。",
+    "market_hash_name": "CS:GO Capsule Key",
+    "crates": [
+      {
+        "id": "crate-4007",
+        "name": "1 号印花胶囊",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"
+      },
+      {
+        "id": "crate-4012",
+        "name": "2 号印花胶囊",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"
+  },
+  {
+    "id": "key-1214",
+    "name": "冬季攻势武器箱钥匙",
+    "description": "该钥匙只能打开冬季攻势武器箱",
+    "market_hash_name": "Winter Offensive Case Key",
+    "crates": [
+      {
+        "id": "crate-4009",
+        "name": "冬季攻势武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"
+  },
+  {
+    "id": "key-1303",
+    "name": "“凤凰大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“凤凰大行动”武器箱",
+    "market_hash_name": "Operation Phoenix Case Key",
+    "crates": [
+      {
+        "id": "crate-4011",
+        "name": "“凤凰大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"
+  },
+  {
+    "id": "key-1304",
+    "name": "1 号社区印花胶囊钥匙",
+    "description": "此钥匙可以打开 1 号社区印花胶囊。\\n\\n销售此钥匙的所得部分款项将用于支持印花作者。",
+    "market_hash_name": "Community Sticker Capsule 1 Key",
+    "crates": [
+      {
+        "id": "crate-4016",
+        "name": "1 号社区印花胶囊",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"
+  },
+  {
+    "id": "key-1305",
+    "name": "猎杀者武器箱钥匙",
+    "description": "该钥匙只能打开猎杀者武器箱",
+    "market_hash_name": "Huntsman Case Key",
+    "crates": [
+      {
+        "id": "crate-4017",
+        "name": "猎杀者武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"
+  },
+  {
+    "id": "key-1309",
+    "name": "“突围大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“突围大行动”武器箱",
+    "market_hash_name": "Operation Breakout Case Key",
+    "crates": [
+      {
+        "id": "crate-4018",
+        "name": "“突围大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"
+  },
+  {
+    "id": "key-1322",
+    "name": "“先锋大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“先锋大行动”武器箱",
+    "market_hash_name": "Operation Vanguard Case Key",
+    "crates": [
+      {
+        "id": "crate-4029",
+        "name": "“先锋大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"
+  },
+  {
+    "id": "key-1323",
+    "name": "幻彩武器箱钥匙",
+    "description": "该钥匙只能打开幻彩武器箱",
+    "market_hash_name": "Chroma Case Key",
+    "crates": [
+      {
+        "id": "crate-4061",
+        "name": "幻彩武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"
+  },
+  {
+    "id": "key-1325",
+    "name": "幻彩 2 号武器箱钥匙",
+    "description": "该钥匙只能打开幻彩 2 号武器箱",
+    "market_hash_name": "Chroma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4089",
+        "name": "幻彩 2 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"
+  },
+  {
+    "id": "key-1330",
+    "name": "弯曲猎手武器箱钥匙",
+    "description": "该钥匙只能打开弯曲猎手武器箱",
+    "market_hash_name": "Falchion Case Key",
+    "crates": [
+      {
+        "id": "crate-4091",
+        "name": "弯曲猎手武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"
+  },
+  {
+    "id": "key-1333",
+    "name": "暗影武器箱钥匙",
+    "description": "该钥匙只能打开暗影武器箱",
+    "market_hash_name": "Shadow Case Key",
+    "crates": [
+      {
+        "id": "crate-4138",
+        "name": "暗影武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"
+  },
+  {
+    "id": "key-1334",
+    "name": "左轮武器箱钥匙",
+    "description": "该钥匙只能打开左轮武器箱",
+    "market_hash_name": "Revolver Case Key",
+    "crates": [
+      {
+        "id": "crate-4186",
+        "name": "左轮武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"
+  },
+  {
+    "id": "key-1347",
+    "name": "幻彩 3 号武器箱钥匙",
+    "description": "该钥匙只能打开幻彩 3 号武器箱",
+    "market_hash_name": "Chroma 3 Case Key",
+    "crates": [
+      {
+        "id": "crate-4233",
+        "name": "幻彩 3 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"
+  },
+  {
+    "id": "key-1350",
+    "name": "伽玛武器箱钥匙",
+    "description": "该钥匙只能打开伽玛武器箱",
+    "market_hash_name": "Gamma Case Key",
+    "crates": [
+      {
+        "id": "crate-4236",
+        "name": "伽玛武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"
+  },
+  {
+    "id": "key-1351",
+    "name": "伽玛 2 号武器箱钥匙",
+    "description": "该钥匙只能打开伽玛 2 号武器箱",
+    "market_hash_name": "Gamma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4281",
+        "name": "伽玛 2 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"
+  },
+  {
+    "id": "key-1356",
+    "name": "手套武器箱钥匙",
+    "description": "该钥匙只能打开手套武器箱",
+    "market_hash_name": "Glove Case Key",
+    "crates": [
+      {
+        "id": "crate-4288",
+        "name": "手套武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"
+  },
+  {
+    "id": "key-1364",
+    "name": "光谱武器箱钥匙",
+    "description": "该钥匙只能打开光谱武器箱",
+    "market_hash_name": "Spectrum Case Key",
+    "crates": [
+      {
+        "id": "crate-4351",
+        "name": "光谱武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"
+  },
+  {
+    "id": "key-1365",
+    "name": "“九头蛇大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“九头蛇大行动”武器箱",
+    "market_hash_name": "Operation Hydra Case Key",
+    "crates": [
+      {
+        "id": "crate-4352",
+        "name": "“九头蛇大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"
+  },
+  {
+    "id": "key-1366",
+    "name": "光谱 2 号武器箱钥匙",
+    "description": "该钥匙只能打开光谱 2 号武器箱",
+    "market_hash_name": "Spectrum 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4403",
+        "name": "光谱 2 号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"
+  },
+  {
+    "id": "key-1373",
+    "name": "命悬一线武器箱钥匙",
+    "description": "该钥匙只能打开命悬一线武器箱",
+    "market_hash_name": "Clutch Case Key",
+    "crates": [
+      {
+        "id": "crate-4471",
+        "name": "命悬一线武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"
+  },
+  {
+    "id": "key-1374",
+    "name": "地平线武器箱钥匙",
+    "description": "该钥匙只能打开地平线武器箱",
+    "market_hash_name": "Horizon Case Key",
+    "crates": [
+      {
+        "id": "crate-4482",
+        "name": "地平线武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"
+  },
+  {
+    "id": "key-1375",
+    "name": "“头号特训”武器箱钥匙",
+    "description": "该钥匙只能打开“头号特训”武器箱",
+    "market_hash_name": "Danger Zone Case Key",
+    "crates": [
+      {
+        "id": "crate-4548",
+        "name": "“头号特训”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"
+  },
+  {
+    "id": "key-1383",
+    "name": "棱彩武器箱钥匙",
+    "description": "该钥匙只能打开棱彩武器箱",
+    "market_hash_name": "Prisma Case Key",
+    "crates": [
+      {
+        "id": "crate-4598",
+        "name": "棱彩武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"
+  },
+  {
+    "id": "key-1384",
+    "name": "“裂网大行动”武器箱钥匙",
+    "description": "这把钥匙仅可开启“裂网大行动”武器箱",
+    "market_hash_name": "Shattered Web Case Key",
+    "crates": [
+      {
+        "id": "crate-4620",
+        "name": "“裂网大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"
+  },
+  {
+    "id": "key-1385",
+    "name": "反恐精英20周年武器箱钥匙",
+    "description": "该钥匙只能打开反恐精英20周年武器箱",
+    "market_hash_name": "CS20 Case Key",
+    "crates": [
+      {
+        "id": "crate-4669",
+        "name": "反恐精英20周年武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"
+  },
+  {
+    "id": "key-1386",
+    "name": "棱彩2号武器箱钥匙",
+    "description": "该钥匙只能打开棱彩2号武器箱",
+    "market_hash_name": "Prisma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4695",
+        "name": "棱彩2号武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"
+  },
+  {
+    "id": "key-1387",
+    "name": "裂空武器箱钥匙",
+    "description": "这把钥匙仅可用于打开裂空武器箱",
+    "market_hash_name": "Fracture Case Key",
+    "crates": [
+      {
+        "id": "crate-4698",
+        "name": "裂空武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"
+  },
+  {
+    "id": "key-1388",
+    "name": "“狂牙大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“狂牙大行动”武器箱",
+    "market_hash_name": "Operation Broken Fang Case Key",
+    "crates": [
+      {
+        "id": "crate-4717",
+        "name": "“狂牙大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"
+  },
+  {
+    "id": "key-1389",
+    "name": "蛇噬武器箱钥匙",
+    "description": "该钥匙只能打开蛇噬武器箱",
+    "market_hash_name": "Snakebite Case Key",
+    "crates": [
+      {
+        "id": "crate-4747",
+        "name": "蛇噬武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"
+  },
+  {
+    "id": "key-1390",
+    "name": "“激流大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“激流大行动”武器箱",
+    "market_hash_name": "Operation Riptide Case Key",
+    "crates": [
+      {
+        "id": "crate-4790",
+        "name": "“激流大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"
+  },
+  {
+    "id": "key-1391",
+    "name": "梦魇武器箱钥匙",
+    "description": "该钥匙只能打开梦魇武器箱",
+    "market_hash_name": "Dreams & Nightmares Case Key",
+    "crates": [
+      {
+        "id": "crate-4818",
+        "name": "梦魇武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"
+  },
+  {
+    "id": "key-1392",
+    "name": "反冲武器箱钥匙",
+    "description": "该钥匙只能打开反冲武器箱",
+    "market_hash_name": "Recoil Case Key",
+    "crates": [
+      {
+        "id": "crate-4846",
+        "name": "反冲武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"
+  },
+  {
+    "id": "key-1393",
+    "name": "变革武器箱钥匙",
+    "description": "该钥匙只能打开变革武器箱",
+    "market_hash_name": "Revolution Case Key",
+    "crates": [
+      {
+        "id": "crate-4880",
+        "name": "变革武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"
+  },
+  {
+    "id": "key-1394",
+    "name": "千瓦武器箱钥匙",
+    "description": "这把钥匙只能开启千瓦武器箱",
+    "market_hash_name": "Kilowatt Case Key",
+    "crates": [
+      {
+        "id": "crate-4904",
+        "name": "千瓦武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"
+  },
+  {
+    "id": "key-7000",
+    "name": "“野火大行动”武器箱钥匙",
+    "description": "该钥匙只能打开“野火大行动”武器箱",
+    "market_hash_name": "Operation Wildfire Case Key",
+    "crates": [
+      {
+        "id": "crate-4187",
+        "name": "“野火大行动”武器箱",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"
+  }
+]

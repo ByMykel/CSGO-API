@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Navneskilt","description":"Denne genstand omdøber et våben. Et brugerdefineret indgraveret navneskilt bliver anvendt på våbnet og kan ses i spillet.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Lagercontainer","description":"Med en lagercontainer kan du lagre op til 1.000 ekstra genstande, som ellers ville bringe dig over inventargrænsen. Du kan når som helst flytte genstande fra dit inventar til lagercontaineren, hente genstande til dit inventar igen, eller du kan bare bruge det til at organisere dine samleobjekter.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™-bytteværktøj","description":"Denne genstand bytter StatTrak™-værdier mellem to af den samme genstandstype.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Navneskilt",
+    "description": "Denne genstand omdøber et våben. Et brugerdefineret indgraveret navneskilt bliver anvendt på våbnet og kan ses i spillet.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Lagercontainer",
+    "description": "Med en lagercontainer kan du lagre op til 1.000 ekstra genstande, som ellers ville bringe dig over inventargrænsen. Du kan når som helst flytte genstande fra dit inventar til lagercontaineren, hente genstande til dit inventar igen, eller du kan bare bruge det til at organisere dine samleobjekter.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™-bytteværktøj",
+    "description": "Denne genstand bytter StatTrak™-værdier mellem to af den samme genstandstype.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

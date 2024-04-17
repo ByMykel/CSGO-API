@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Etiqueta de nombre","description":"Este objeto renombrará un arma. Se aplicará una placa personalizada al arma con el nombre establecido, la cual se puede ver durante la partida.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Unidad de almacenamiento","description":"La unidad de almacenamiento te permite guardar hasta 1000 artículos excedentes que de otro modo superarían el límite del inventario. En cualquier momento, puedes transferir artículos del inventario a la unidad, devolverlos al inventario o simplemente utilizarla para organizar tus colecciones.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"Herramienta de intercambio de StatTrak™","description":"Este objeto intercambia los valores StatTrak™ entre dos objetos del mismo tipo.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Etiqueta de nombre",
+    "description": "Este objeto renombrará un arma. Se aplicará una placa personalizada al arma con el nombre establecido, la cual se puede ver durante la partida.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Unidad de almacenamiento",
+    "description": "La unidad de almacenamiento te permite guardar hasta 1000 artículos excedentes que de otro modo superarían el límite del inventario. En cualquier momento, puedes transferir artículos del inventario a la unidad, devolverlos al inventario o simplemente utilizarla para organizar tus colecciones.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "Herramienta de intercambio de StatTrak™",
+    "description": "Este objeto intercambia los valores StatTrak™ entre dos objetos del mismo tipo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

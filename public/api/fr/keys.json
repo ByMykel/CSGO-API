@@ -1,1 +1,550 @@
-[{"id":"key-generic_valve_key","name":"Clé de caisse CS:GO","description":"Cette clé ouvre n'importe quelle Caisse d'arme de Valve. Les caisses d'arme non Valve (par exemple les Caisses eSports) nécessitent leur propre clé.","market_hash_name":"CS:GO Case Key","crates":[{"id":"crate-4001","name":"Caisse d'arme CS:GO","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"},{"id":"crate-4003","name":"Caisse de l'Opération Bravo","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"},{"id":"crate-4004","name":"Caisse d'arme CS:GO N°2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"},{"id":"crate-4010","name":"Caisse d'arme CS:GO N°3","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"},{"id":"key-1204","name":"Clé eSports","description":"Cette clé ouvre n'importe quelle Caisse eSports.\\n\\nUne partie des recettes provenant de la vente de cette clé ira vers l'un des tournois gérés par la communauté CS:GO. Restez à l'affût des nouvelles annonces.","market_hash_name":"eSports Key","crates":[{"id":"crate-4002","name":"Caisse eSports 2013","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"},{"id":"crate-4005","name":"Caisse hivernale eSports 2013","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"},{"id":"crate-4019","name":"Caisse estivale eSports 2014","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"},{"id":"key-1212","name":"Clé de capsule CS:GO","description":"Cette clé ouvre n'importe quelle Capsule de Valve.","market_hash_name":"CS:GO Capsule Key","crates":[{"id":"crate-4007","name":"Capsule à sticker","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"},{"id":"crate-4012","name":"Capsule à sticker N°2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"},{"id":"key-1214","name":"Clé de caisse Winter Offensive","description":"Cette clé ouvre seulement les Caisses d'arme Winter Offensive","market_hash_name":"Winter Offensive Case Key","crates":[{"id":"crate-4009","name":"Caisse d'arme Winter Offensive","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"},{"id":"key-1303","name":"Clé de l'Opération Phoenix","description":"Cette clé ouvre seulement les Caisses d'arme de l'Opération Phoenix","market_hash_name":"Operation Phoenix Case Key","crates":[{"id":"crate-4011","name":"Caisse d'arme de l'Opération Phoenix","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"},{"id":"key-1304","name":"Clé de Capsule communautaire N°1","description":"Cette clé ouvre n'importe quelle Capsule à sticker communautaire N°1.\\n\\nUne partie des recettes provenant de la vente de cette clé ira aux créateurs des stickers.","market_hash_name":"Community Sticker Capsule 1 Key","crates":[{"id":"crate-4016","name":"Capsule à sticker communautaire N°1","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"},{"id":"key-1305","name":"Clé de caisse Chasseur","description":"Cette clé ouvre seulement les Caisses d'arme Chasseur","market_hash_name":"Huntsman Case Key","crates":[{"id":"crate-4017","name":"Caisse d'arme Chasseur","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"},{"id":"key-1309","name":"Clé de l'Opération Breakout","description":"Cette clé ouvre seulement les Caisses d'arme de l'Opération Breakout","market_hash_name":"Operation Breakout Case Key","crates":[{"id":"crate-4018","name":"Caisse d'arme de l'Opération Breakout","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"},{"id":"key-1322","name":"Clé de l'Opération Vanguard","description":"Cette clé ouvre seulement les Caisses d'arme de l'Opération Vanguard","market_hash_name":"Operation Vanguard Case Key","crates":[{"id":"crate-4029","name":"Caisse d'arme de l'Opération Vanguard","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"},{"id":"key-1323","name":"Clé de caisse Saturation","description":"Cette clé ouvre seulement les Caisses d'arme Saturation","market_hash_name":"Chroma Case Key","crates":[{"id":"crate-4061","name":"Caisse d'arme Saturation","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"},{"id":"key-1325","name":"Clé de caisse Saturation N°2","description":"Cette clé ouvre seulement les Caisses d'arme Saturation N°2","market_hash_name":"Chroma 2 Case Key","crates":[{"id":"crate-4089","name":"Caisse d'arme Saturation N°2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"},{"id":"key-1330","name":"Clé de caisse Fauchon","description":"Cette clé ouvre seulement les Caisses d'arme Fauchon","market_hash_name":"Falchion Case Key","crates":[{"id":"crate-4091","name":"Caisse d'arme Fauchon","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"},{"id":"key-1333","name":"Clé de caisse Sombre","description":"Cette clé ouvre seulement les Caisses d'arme Sombre","market_hash_name":"Shadow Case Key","crates":[{"id":"crate-4138","name":"Caisse d'arme Sombre","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"},{"id":"key-1334","name":"Clé de caisse Revolver","description":"Cette clé ouvre seulement les Caisses d'arme Revolver","market_hash_name":"Revolver Case Key","crates":[{"id":"crate-4186","name":"Caisse d'arme Revolver","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"},{"id":"key-1347","name":"Clé de caisse Saturation N°3","description":"Cette clé ouvre seulement les Caisses d'arme Saturation N°3","market_hash_name":"Chroma 3 Case Key","crates":[{"id":"crate-4233","name":"Caisse d'arme Saturation N°3","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"},{"id":"key-1350","name":"Clé de caisse Gamma","description":"Cette clé ouvre seulement les Caisses d'arme Gamma","market_hash_name":"Gamma Case Key","crates":[{"id":"crate-4236","name":"Caisse d'arme Gamma","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"},{"id":"key-1351","name":"Clé de caisse Gamma N°2","description":"Cette clé ouvre seulement les Caisses d'arme Gamma N°2","market_hash_name":"Gamma 2 Case Key","crates":[{"id":"crate-4281","name":"Caisse d'arme Gamma N°2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"},{"id":"key-1356","name":"Clé de caisse de gants","description":"Cette clé ouvre seulement les Caisses de gants","market_hash_name":"Glove Case Key","crates":[{"id":"crate-4288","name":"Caisse de gants","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"},{"id":"key-1364","name":"Clé de caisse spectrale","description":"Cette clé ouvre seulement les Caisses d'arme spectrales","market_hash_name":"Spectrum Case Key","crates":[{"id":"crate-4351","name":"Caisse spectrale","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"},{"id":"key-1365","name":"Clé de caisse Hydra","description":"Cette clé ouvre seulement les Caisses d'arme Hydra","market_hash_name":"Operation Hydra Case Key","crates":[{"id":"crate-4352","name":"Caisse de l'Opération Hydra","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"},{"id":"key-1366","name":"Clé de caisse spectrale N°2","description":"Cette clé ouvre seulement les Caisses d'arme spectrales N°2","market_hash_name":"Spectrum 2 Case Key","crates":[{"id":"crate-4403","name":"Caisse spectrale N°2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"},{"id":"key-1373","name":"Clé de caisse du dernier survivant","description":"Cette clé ouvre seulement les Caisses du dernier survivant","market_hash_name":"Clutch Case Key","crates":[{"id":"crate-4471","name":"Caisse du dernier survivant","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"},{"id":"key-1374","name":"Clé de caisse Horizon","description":"Cette clé ouvre seulement les Caisses d'arme Horizon","market_hash_name":"Horizon Case Key","crates":[{"id":"crate-4482","name":"Caisse Horizon","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"},{"id":"key-1375","name":"Clé de caisse Zone de danger","description":"Cette clé ouvre seulement les caisses Zone de danger","market_hash_name":"Danger Zone Case Key","crates":[{"id":"crate-4548","name":"Caisse d'armes Zone de danger","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"},{"id":"key-1383","name":"Clé de caisse Prisma","description":"Cette clé ouvre seulement les caisses d'arme Prisma","market_hash_name":"Prisma Case Key","crates":[{"id":"crate-4598","name":"Caisse Prisma","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"},{"id":"key-1384","name":"Clé de caisse Shattered Web","description":"Cette clé ouvre uniquement les caisses Shattered Web","market_hash_name":"Shattered Web Case Key","crates":[{"id":"crate-4620","name":"Caisse Shattered Web","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"},{"id":"key-1385","name":"Clé de caisse CS20","description":"Cette clé ouvre seulement les caisses d'arme CS20","market_hash_name":"CS20 Case Key","crates":[{"id":"crate-4669","name":"Caisse CS20","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"},{"id":"key-1386","name":"Clé de caisse Prisma 2","description":"Cette clé ouvre seulement les caisses d'armes Prisma 2","market_hash_name":"Prisma 2 Case Key","crates":[{"id":"crate-4695","name":"Caisse Prisma 2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"},{"id":"key-1387","name":"Clé de caisse Fracture","description":"Cette clé ouvre seulement les caisses d'armes Fracture","market_hash_name":"Fracture Case Key","crates":[{"id":"crate-4698","name":"Caisse Fracture","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"},{"id":"key-1388","name":"Clé de caisse de l'Opération Broken Fang","description":"Cette clé ouvre uniquement les caisses d'arme de l'Opération Broken Fang","market_hash_name":"Operation Broken Fang Case Key","crates":[{"id":"crate-4717","name":"Caisse de l'Opération Broken Fang","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"},{"id":"key-1389","name":"Clé de caisse envenimée","description":"Cette clé ouvre seulement les caisses d'armes envenimées","market_hash_name":"Snakebite Case Key","crates":[{"id":"crate-4747","name":"Caisse d'armes envenimée","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"},{"id":"key-1390","name":"Clé de caisse de l'Opération Riptide","description":"Cette clé ouvre uniquement les caisses de l'Opération Riptide","market_hash_name":"Operation Riptide Case Key","crates":[{"id":"crate-4790","name":"Caisse de l'Opération Riptide","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"},{"id":"key-1391","name":"Clé de caisse Rêves et cauchemars","description":"Cette clé ouvre seulement les caisses d'armes Rêves et cauchemars","market_hash_name":"Dreams & Nightmares Case Key","crates":[{"id":"crate-4818","name":"Caisse Rêves et cauchemars","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"},{"id":"key-1392","name":"Clé de caisse Recul du serpent","description":"Cette clé ouvre seulement les caisses Recul du serpent","market_hash_name":"Recoil Case Key","crates":[{"id":"crate-4846","name":"Caisse Recul du serpent","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"},{"id":"key-1393","name":"Clé de caisse Révolution","description":"Cette clé ouvre seulement les caisses Révolution.","market_hash_name":"Revolution Case Key","crates":[{"id":"crate-4880","name":"Caisse Révolution","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"},{"id":"key-1394","name":"Clé de caisse Kilowatt","description":"Cette clé ouvre seulement les caisses Kilowatt","market_hash_name":"Kilowatt Case Key","crates":[{"id":"crate-4904","name":"Caisse Kilowatt","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"},{"id":"key-7000","name":"Clé de caisse Wildfire","description":"Cette clé ouvre seulement les Caisses d'arme Wildfire","market_hash_name":"Operation Wildfire Case Key","crates":[{"id":"crate-4187","name":"Caisse d'arme Wildfire","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"}]
+[
+  {
+    "id": "key-generic_valve_key",
+    "name": "Clé de caisse CS:GO",
+    "description": "Cette clé ouvre n'importe quelle Caisse d'arme de Valve. Les caisses d'arme non Valve (par exemple les Caisses eSports) nécessitent leur propre clé.",
+    "market_hash_name": "CS:GO Case Key",
+    "crates": [
+      {
+        "id": "crate-4001",
+        "name": "Caisse d'arme CS:GO",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"
+      },
+      {
+        "id": "crate-4003",
+        "name": "Caisse de l'Opération Bravo",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"
+      },
+      {
+        "id": "crate-4004",
+        "name": "Caisse d'arme CS:GO N°2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"
+      },
+      {
+        "id": "crate-4010",
+        "name": "Caisse d'arme CS:GO N°3",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"
+  },
+  {
+    "id": "key-1204",
+    "name": "Clé eSports",
+    "description": "Cette clé ouvre n'importe quelle Caisse eSports.\\n\\nUne partie des recettes provenant de la vente de cette clé ira vers l'un des tournois gérés par la communauté CS:GO. Restez à l'affût des nouvelles annonces.",
+    "market_hash_name": "eSports Key",
+    "crates": [
+      {
+        "id": "crate-4002",
+        "name": "Caisse eSports 2013",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"
+      },
+      {
+        "id": "crate-4005",
+        "name": "Caisse hivernale eSports 2013",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"
+      },
+      {
+        "id": "crate-4019",
+        "name": "Caisse estivale eSports 2014",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"
+  },
+  {
+    "id": "key-1212",
+    "name": "Clé de capsule CS:GO",
+    "description": "Cette clé ouvre n'importe quelle Capsule de Valve.",
+    "market_hash_name": "CS:GO Capsule Key",
+    "crates": [
+      {
+        "id": "crate-4007",
+        "name": "Capsule à sticker",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"
+      },
+      {
+        "id": "crate-4012",
+        "name": "Capsule à sticker N°2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"
+  },
+  {
+    "id": "key-1214",
+    "name": "Clé de caisse Winter Offensive",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Winter Offensive",
+    "market_hash_name": "Winter Offensive Case Key",
+    "crates": [
+      {
+        "id": "crate-4009",
+        "name": "Caisse d'arme Winter Offensive",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"
+  },
+  {
+    "id": "key-1303",
+    "name": "Clé de l'Opération Phoenix",
+    "description": "Cette clé ouvre seulement les Caisses d'arme de l'Opération Phoenix",
+    "market_hash_name": "Operation Phoenix Case Key",
+    "crates": [
+      {
+        "id": "crate-4011",
+        "name": "Caisse d'arme de l'Opération Phoenix",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"
+  },
+  {
+    "id": "key-1304",
+    "name": "Clé de Capsule communautaire N°1",
+    "description": "Cette clé ouvre n'importe quelle Capsule à sticker communautaire N°1.\\n\\nUne partie des recettes provenant de la vente de cette clé ira aux créateurs des stickers.",
+    "market_hash_name": "Community Sticker Capsule 1 Key",
+    "crates": [
+      {
+        "id": "crate-4016",
+        "name": "Capsule à sticker communautaire N°1",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"
+  },
+  {
+    "id": "key-1305",
+    "name": "Clé de caisse Chasseur",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Chasseur",
+    "market_hash_name": "Huntsman Case Key",
+    "crates": [
+      {
+        "id": "crate-4017",
+        "name": "Caisse d'arme Chasseur",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"
+  },
+  {
+    "id": "key-1309",
+    "name": "Clé de l'Opération Breakout",
+    "description": "Cette clé ouvre seulement les Caisses d'arme de l'Opération Breakout",
+    "market_hash_name": "Operation Breakout Case Key",
+    "crates": [
+      {
+        "id": "crate-4018",
+        "name": "Caisse d'arme de l'Opération Breakout",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"
+  },
+  {
+    "id": "key-1322",
+    "name": "Clé de l'Opération Vanguard",
+    "description": "Cette clé ouvre seulement les Caisses d'arme de l'Opération Vanguard",
+    "market_hash_name": "Operation Vanguard Case Key",
+    "crates": [
+      {
+        "id": "crate-4029",
+        "name": "Caisse d'arme de l'Opération Vanguard",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"
+  },
+  {
+    "id": "key-1323",
+    "name": "Clé de caisse Saturation",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Saturation",
+    "market_hash_name": "Chroma Case Key",
+    "crates": [
+      {
+        "id": "crate-4061",
+        "name": "Caisse d'arme Saturation",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"
+  },
+  {
+    "id": "key-1325",
+    "name": "Clé de caisse Saturation N°2",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Saturation N°2",
+    "market_hash_name": "Chroma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4089",
+        "name": "Caisse d'arme Saturation N°2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"
+  },
+  {
+    "id": "key-1330",
+    "name": "Clé de caisse Fauchon",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Fauchon",
+    "market_hash_name": "Falchion Case Key",
+    "crates": [
+      {
+        "id": "crate-4091",
+        "name": "Caisse d'arme Fauchon",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"
+  },
+  {
+    "id": "key-1333",
+    "name": "Clé de caisse Sombre",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Sombre",
+    "market_hash_name": "Shadow Case Key",
+    "crates": [
+      {
+        "id": "crate-4138",
+        "name": "Caisse d'arme Sombre",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"
+  },
+  {
+    "id": "key-1334",
+    "name": "Clé de caisse Revolver",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Revolver",
+    "market_hash_name": "Revolver Case Key",
+    "crates": [
+      {
+        "id": "crate-4186",
+        "name": "Caisse d'arme Revolver",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"
+  },
+  {
+    "id": "key-1347",
+    "name": "Clé de caisse Saturation N°3",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Saturation N°3",
+    "market_hash_name": "Chroma 3 Case Key",
+    "crates": [
+      {
+        "id": "crate-4233",
+        "name": "Caisse d'arme Saturation N°3",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"
+  },
+  {
+    "id": "key-1350",
+    "name": "Clé de caisse Gamma",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Gamma",
+    "market_hash_name": "Gamma Case Key",
+    "crates": [
+      {
+        "id": "crate-4236",
+        "name": "Caisse d'arme Gamma",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"
+  },
+  {
+    "id": "key-1351",
+    "name": "Clé de caisse Gamma N°2",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Gamma N°2",
+    "market_hash_name": "Gamma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4281",
+        "name": "Caisse d'arme Gamma N°2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"
+  },
+  {
+    "id": "key-1356",
+    "name": "Clé de caisse de gants",
+    "description": "Cette clé ouvre seulement les Caisses de gants",
+    "market_hash_name": "Glove Case Key",
+    "crates": [
+      {
+        "id": "crate-4288",
+        "name": "Caisse de gants",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"
+  },
+  {
+    "id": "key-1364",
+    "name": "Clé de caisse spectrale",
+    "description": "Cette clé ouvre seulement les Caisses d'arme spectrales",
+    "market_hash_name": "Spectrum Case Key",
+    "crates": [
+      {
+        "id": "crate-4351",
+        "name": "Caisse spectrale",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"
+  },
+  {
+    "id": "key-1365",
+    "name": "Clé de caisse Hydra",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Hydra",
+    "market_hash_name": "Operation Hydra Case Key",
+    "crates": [
+      {
+        "id": "crate-4352",
+        "name": "Caisse de l'Opération Hydra",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"
+  },
+  {
+    "id": "key-1366",
+    "name": "Clé de caisse spectrale N°2",
+    "description": "Cette clé ouvre seulement les Caisses d'arme spectrales N°2",
+    "market_hash_name": "Spectrum 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4403",
+        "name": "Caisse spectrale N°2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"
+  },
+  {
+    "id": "key-1373",
+    "name": "Clé de caisse du dernier survivant",
+    "description": "Cette clé ouvre seulement les Caisses du dernier survivant",
+    "market_hash_name": "Clutch Case Key",
+    "crates": [
+      {
+        "id": "crate-4471",
+        "name": "Caisse du dernier survivant",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"
+  },
+  {
+    "id": "key-1374",
+    "name": "Clé de caisse Horizon",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Horizon",
+    "market_hash_name": "Horizon Case Key",
+    "crates": [
+      {
+        "id": "crate-4482",
+        "name": "Caisse Horizon",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"
+  },
+  {
+    "id": "key-1375",
+    "name": "Clé de caisse Zone de danger",
+    "description": "Cette clé ouvre seulement les caisses Zone de danger",
+    "market_hash_name": "Danger Zone Case Key",
+    "crates": [
+      {
+        "id": "crate-4548",
+        "name": "Caisse d'armes Zone de danger",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"
+  },
+  {
+    "id": "key-1383",
+    "name": "Clé de caisse Prisma",
+    "description": "Cette clé ouvre seulement les caisses d'arme Prisma",
+    "market_hash_name": "Prisma Case Key",
+    "crates": [
+      {
+        "id": "crate-4598",
+        "name": "Caisse Prisma",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"
+  },
+  {
+    "id": "key-1384",
+    "name": "Clé de caisse Shattered Web",
+    "description": "Cette clé ouvre uniquement les caisses Shattered Web",
+    "market_hash_name": "Shattered Web Case Key",
+    "crates": [
+      {
+        "id": "crate-4620",
+        "name": "Caisse Shattered Web",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"
+  },
+  {
+    "id": "key-1385",
+    "name": "Clé de caisse CS20",
+    "description": "Cette clé ouvre seulement les caisses d'arme CS20",
+    "market_hash_name": "CS20 Case Key",
+    "crates": [
+      {
+        "id": "crate-4669",
+        "name": "Caisse CS20",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"
+  },
+  {
+    "id": "key-1386",
+    "name": "Clé de caisse Prisma 2",
+    "description": "Cette clé ouvre seulement les caisses d'armes Prisma 2",
+    "market_hash_name": "Prisma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4695",
+        "name": "Caisse Prisma 2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"
+  },
+  {
+    "id": "key-1387",
+    "name": "Clé de caisse Fracture",
+    "description": "Cette clé ouvre seulement les caisses d'armes Fracture",
+    "market_hash_name": "Fracture Case Key",
+    "crates": [
+      {
+        "id": "crate-4698",
+        "name": "Caisse Fracture",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"
+  },
+  {
+    "id": "key-1388",
+    "name": "Clé de caisse de l'Opération Broken Fang",
+    "description": "Cette clé ouvre uniquement les caisses d'arme de l'Opération Broken Fang",
+    "market_hash_name": "Operation Broken Fang Case Key",
+    "crates": [
+      {
+        "id": "crate-4717",
+        "name": "Caisse de l'Opération Broken Fang",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"
+  },
+  {
+    "id": "key-1389",
+    "name": "Clé de caisse envenimée",
+    "description": "Cette clé ouvre seulement les caisses d'armes envenimées",
+    "market_hash_name": "Snakebite Case Key",
+    "crates": [
+      {
+        "id": "crate-4747",
+        "name": "Caisse d'armes envenimée",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"
+  },
+  {
+    "id": "key-1390",
+    "name": "Clé de caisse de l'Opération Riptide",
+    "description": "Cette clé ouvre uniquement les caisses de l'Opération Riptide",
+    "market_hash_name": "Operation Riptide Case Key",
+    "crates": [
+      {
+        "id": "crate-4790",
+        "name": "Caisse de l'Opération Riptide",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"
+  },
+  {
+    "id": "key-1391",
+    "name": "Clé de caisse Rêves et cauchemars",
+    "description": "Cette clé ouvre seulement les caisses d'armes Rêves et cauchemars",
+    "market_hash_name": "Dreams & Nightmares Case Key",
+    "crates": [
+      {
+        "id": "crate-4818",
+        "name": "Caisse Rêves et cauchemars",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"
+  },
+  {
+    "id": "key-1392",
+    "name": "Clé de caisse Recul du serpent",
+    "description": "Cette clé ouvre seulement les caisses Recul du serpent",
+    "market_hash_name": "Recoil Case Key",
+    "crates": [
+      {
+        "id": "crate-4846",
+        "name": "Caisse Recul du serpent",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"
+  },
+  {
+    "id": "key-1393",
+    "name": "Clé de caisse Révolution",
+    "description": "Cette clé ouvre seulement les caisses Révolution.",
+    "market_hash_name": "Revolution Case Key",
+    "crates": [
+      {
+        "id": "crate-4880",
+        "name": "Caisse Révolution",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"
+  },
+  {
+    "id": "key-1394",
+    "name": "Clé de caisse Kilowatt",
+    "description": "Cette clé ouvre seulement les caisses Kilowatt",
+    "market_hash_name": "Kilowatt Case Key",
+    "crates": [
+      {
+        "id": "crate-4904",
+        "name": "Caisse Kilowatt",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"
+  },
+  {
+    "id": "key-7000",
+    "name": "Clé de caisse Wildfire",
+    "description": "Cette clé ouvre seulement les Caisses d'arme Wildfire",
+    "market_hash_name": "Operation Wildfire Case Key",
+    "crates": [
+      {
+        "id": "crate-4187",
+        "name": "Caisse d'arme Wildfire",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"
+  }
+]

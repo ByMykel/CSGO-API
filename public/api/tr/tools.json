@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"İsim Etiketi","description":"Bu eşya silahı yeniden adlandırmak içindir. Kullanılan isim etiketi silaha uygulanır ve oyun içinde görünür.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Depo","description":"Depo sayesinde envanter limitini aşabilecek 1000'e kadar fazlalık eşyayı saklayabilirsin. Eşyaları istediğin zaman normal envanter ve depo arasında transfer edebilir ya da topladığın eşyaları düzenlemek için kullanabilirsin.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™ Değiştirme Aracı","description":"Bu eşya aynı iki eşya arasındaki StatTrak™ değerlerini değiştirir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "İsim Etiketi",
+    "description": "Bu eşya silahı yeniden adlandırmak içindir. Kullanılan isim etiketi silaha uygulanır ve oyun içinde görünür.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Depo",
+    "description": "Depo sayesinde envanter limitini aşabilecek 1000'e kadar fazlalık eşyayı saklayabilirsin. Eşyaları istediğin zaman normal envanter ve depo arasında transfer edebilir ya da topladığın eşyaları düzenlemek için kullanabilirsin.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™ Değiştirme Aracı",
+    "description": "Bu eşya aynı iki eşya arasındaki StatTrak™ değerlerini değiştirir.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

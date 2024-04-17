@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Navnelapp","description":"Denne gjenstanden vil gi et våpen et nytt navn. En egendefinert, gravert navneplate vil bli påført våpenet. Denne blir synlig inne i spillet.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Lagerenhet","description":"Lagerenheten lar deg oppbevare opptil 1000 ekstra gjenstander som ellers ville overstige lagergrensen. Du kan når som helst flytte gjenstander fra lageret til lagerenheten, hente gjenstander tilbake til lageret eller bare bruke den til å organisere samleobjektene.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™-bytteverktøy","description":"Denne gjenstanden bytter StatTrak™-verdier mellom to gjenstander av samme type.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Navnelapp",
+    "description": "Denne gjenstanden vil gi et våpen et nytt navn. En egendefinert, gravert navneplate vil bli påført våpenet. Denne blir synlig inne i spillet.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Lagerenhet",
+    "description": "Lagerenheten lar deg oppbevare opptil 1000 ekstra gjenstander som ellers ville overstige lagergrensen. Du kan når som helst flytte gjenstander fra lageret til lagerenheten, hente gjenstander tilbake til lageret eller bare bruke den til å organisere samleobjektene.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™-bytteverktøy",
+    "description": "Denne gjenstanden bytter StatTrak™-verdier mellom to gjenstander av samme type.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

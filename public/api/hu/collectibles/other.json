@@ -1,1 +1,72 @@
-[{"id":"collectible-874","name":"5 Éves Veterán Érem","description":"Több, mint 5 éve tagja a Counter-Strike közösségnek.","rarity":{"id":"rarity_ancient","name":"Rendkívüli","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"},{"id":"collectible-969","name":"10 Éves Veterán Érem","description":"Több, mint 10 éve tagja a Counter-Strike közösségnek.","rarity":{"id":"rarity_ancient","name":"Rendkívüli","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"},{"id":"collectible-970","name":"Hűség kitűző","description":"Ez a kitűző a Counter-Strike közösség hű tagjainak állít emléket a Veszélyzóna frissítés előtti időkből.\\n\\n<i>Hűségben az erő.</i>","rarity":{"id":"rarity_ancient","name":"Rendkívüli","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"},{"id":"collectible-987","name":"10. Születésnapi Érem","description":"Együtt ünnepelte a CS:GO 10. születésnapját a közösséggel.\\n\\n<i>Tíz évnyi fejlövés, szóló győzelem és a közösség ünneplése. Boldog 10. születésnapot, CS:GO!</i>","rarity":{"id":"rarity_ancient","name":"Rendkívüli","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"},{"id":"collectible-996","name":"Global Offensive Érem","description":"Ez az érem a Counter-Strike: Global Offensive közösség hű tagjainak állít emléket a Counter-Strike 2 megjelenése előtti időkből.\\n\\n<i>A legendák örökké élnek.</i>","rarity":{"id":"rarity_ancient","name":"Rendkívüli","color":"#eb4b4b"},"type":null,"genuine":false,"market_hash_name":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"}]
+[
+  {
+    "id": "collectible-874",
+    "name": "5 Éves Veterán Érem",
+    "description": "Több, mint 5 éve tagja a Counter-Strike közösségnek.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Rendkívüli",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"
+  },
+  {
+    "id": "collectible-969",
+    "name": "10 Éves Veterán Érem",
+    "description": "Több, mint 10 éve tagja a Counter-Strike közösségnek.",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Rendkívüli",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/10yearcoin_png.png"
+  },
+  {
+    "id": "collectible-970",
+    "name": "Hűség kitűző",
+    "description": "Ez a kitűző a Counter-Strike közösség hű tagjainak állít emléket a Veszélyzóna frissítés előtti időkből.\\n\\n<i>Hűségben az erő.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Rendkívüli",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/prime_badge_png.png"
+  },
+  {
+    "id": "collectible-987",
+    "name": "10. Születésnapi Érem",
+    "description": "Együtt ünnepelte a CS:GO 10. születésnapját a közösséggel.\\n\\n<i>Tíz évnyi fejlövés, szóló győzelem és a közösség ünneplése. Boldog 10. születésnapot, CS:GO!</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Rendkívüli",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/cupcake_10_year_png.png"
+  },
+  {
+    "id": "collectible-996",
+    "name": "Global Offensive Érem",
+    "description": "Ez az érem a Counter-Strike: Global Offensive közösség hű tagjainak állít emléket a Counter-Strike 2 megjelenése előtti időkből.\\n\\n<i>A legendák örökké élnek.</i>",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "Rendkívüli",
+      "color": "#eb4b4b"
+    },
+    "type": null,
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/coin_csgo_png.png"
+  }
+]

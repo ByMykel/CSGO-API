@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"名稱標籤","description":"這個物品將重新命名一樣武器。一個自訂刻印的名牌將被套用在武器上且可於遊戲內檢視。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"儲存單元","description":"儲存單元能儲存您超過物品庫限制（1,000 項）的物品。您可以隨時將任何物品存入儲存單元或從中取回，亦或是只用其管理您的收藏品。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™ 交換工具","description":"此物品能夠交換兩項相同物品類型的 StatTrak™ 數值。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "名稱標籤",
+    "description": "這個物品將重新命名一樣武器。一個自訂刻印的名牌將被套用在武器上且可於遊戲內檢視。",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "儲存單元",
+    "description": "儲存單元能儲存您超過物品庫限制（1,000 項）的物品。您可以隨時將任何物品存入儲存單元或從中取回，亦或是只用其管理您的收藏品。",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™ 交換工具",
+    "description": "此物品能夠交換兩項相同物品類型的 StatTrak™ 數值。",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

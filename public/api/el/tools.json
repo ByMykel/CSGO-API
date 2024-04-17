@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Ετικέτα ονόματος","description":"Αυτό το αντικείμενο θα μετονομάσει ένα όπλο. Μια προσαρμοσμένη χαραγμένη πινακίδα θα εφαρμοστεί σε αυτό το όπλο και θα μπορεί να προβληθεί εντός του παιχνιδιού.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Κιβώτιο αποθήκευσης","description":"Το κιβώτιο αποθήκευσης σας επιτρέπει να φυλάξετε έως 1.000 από τα επιπλέον αντικείμενα σας που θα ξεπερνούσαν αλλιώς το όριο της λίστας αντικειμένων σας. Οποιαδήποτε στιγμή μπορείτε να μετακινήσετε αντικείμενα από τη λίστα αντικειμένων σας στο κιβώτιο, να επιστρέψετε αντικείμενα πίσω στη λίστα αντικειμένων σας ή απλά να το χρησιμοποιήσετε για να οργανώσετε τα συλλεκτικά σας.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"Εργαλείο εναλλαγής StatTrak™","description":"Αυτό το αντικείμενο εναλλάσσει τις τιμές StatTrak™ μεταξύ δύο αντικειμένων ίδιου τύπου.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Ετικέτα ονόματος",
+    "description": "Αυτό το αντικείμενο θα μετονομάσει ένα όπλο. Μια προσαρμοσμένη χαραγμένη πινακίδα θα εφαρμοστεί σε αυτό το όπλο και θα μπορεί να προβληθεί εντός του παιχνιδιού.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Κιβώτιο αποθήκευσης",
+    "description": "Το κιβώτιο αποθήκευσης σας επιτρέπει να φυλάξετε έως 1.000 από τα επιπλέον αντικείμενα σας που θα ξεπερνούσαν αλλιώς το όριο της λίστας αντικειμένων σας. Οποιαδήποτε στιγμή μπορείτε να μετακινήσετε αντικείμενα από τη λίστα αντικειμένων σας στο κιβώτιο, να επιστρέψετε αντικείμενα πίσω στη λίστα αντικειμένων σας ή απλά να το χρησιμοποιήσετε για να οργανώσετε τα συλλεκτικά σας.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "Εργαλείο εναλλαγής StatTrak™",
+    "description": "Αυτό το αντικείμενο εναλλάσσει τις τιμές StatTrak™ μεταξύ δύο αντικειμένων ίδιου τύπου.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

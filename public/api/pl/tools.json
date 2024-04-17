@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Tabliczka z nazwą","description":"Ten przedmiot zmieni nazwę broni. Wygrawerowana tabliczka zostanie doczepiona do broni i będzie można ją obejrzeć w grze.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Schowek","description":"Schowek pozwala ci na przechowanie do 1000 nadmiarowych przedmiotów, które w przeciwnym wypadku spowodowałyby przekroczenie twojego limitu ekwipunku. Możesz przenieść przedmioty do lub z niego lub po prostu użyć go do uporządkowania twoich zdobyczy w dowolnej chwili.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"Narzędzie zamiany StatTrak™","description":"Ten przedmiot zamienia wartości liczników StatTrak™ między przedmiotami tego samego rodzaju.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Tabliczka z nazwą",
+    "description": "Ten przedmiot zmieni nazwę broni. Wygrawerowana tabliczka zostanie doczepiona do broni i będzie można ją obejrzeć w grze.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Schowek",
+    "description": "Schowek pozwala ci na przechowanie do 1000 nadmiarowych przedmiotów, które w przeciwnym wypadku spowodowałyby przekroczenie twojego limitu ekwipunku. Możesz przenieść przedmioty do lub z niego lub po prostu użyć go do uporządkowania twoich zdobyczy w dowolnej chwili.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "Narzędzie zamiany StatTrak™",
+    "description": "Ten przedmiot zamienia wartości liczników StatTrak™ między przedmiotami tego samego rodzaju.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]

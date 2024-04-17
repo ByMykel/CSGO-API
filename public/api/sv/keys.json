@@ -1,1 +1,550 @@
-[{"id":"key-generic_valve_key","name":"CS:GO-nyckel","description":"Den här nyckeln kan öppna en vapenlåda från Valve-serien. Lådor som inte är från Valve-serien (t.ex. en eSports-låda) kräver sin egen nyckel för att öppnas.","market_hash_name":"CS:GO Case Key","crates":[{"id":"crate-4001","name":"CS:GO-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"},{"id":"crate-4003","name":"Operation Bravo-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"},{"id":"crate-4004","name":"CS:GO-låda 2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"},{"id":"crate-4010","name":"CS:GO-låda 3","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"},{"id":"key-1204","name":"eSports-nyckel","description":"Den här nyckeln öppnar en eSports-låda.\\n\\nEn del av intäkterna från försäljningen av den här nyckeln går till en av de etablerade gemenskapsdrivna CS:GO-turneringarna. Håll utkik efter framtida tillkännagivanden.","market_hash_name":"eSports Key","crates":[{"id":"crate-4002","name":"eSports 2013-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"},{"id":"crate-4005","name":"eSports 2013 Winter-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"},{"id":"crate-4019","name":"eSports 2014 Summer-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"},{"id":"key-1212","name":"CS:GO-kapselnyckel","description":"Denna nyckel öppnar kapslar från Valve.","market_hash_name":"CS:GO Capsule Key","crates":[{"id":"crate-4007","name":"Klistermärkeskapsel","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"},{"id":"crate-4012","name":"Klistermärkeskapsel 2","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"},{"id":"key-1214","name":"Winter Offensive-nyckel","description":"Den här nyckeln öppnar endast Winter Offensive-lådor","market_hash_name":"Winter Offensive Case Key","crates":[{"id":"crate-4009","name":"Winter Offensive-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"},{"id":"key-1303","name":"Operation Phoenix-nyckel","description":"Den här nyckeln öppnar endast Operation Phoenix-lådor","market_hash_name":"Operation Phoenix Case Key","crates":[{"id":"crate-4011","name":"Operation Phoenix-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"},{"id":"key-1304","name":"Gemenskapskapsel 1-nyckel","description":"Denna nyckel öppnar Gemenskapskapsel 1.\\n\\nEn del av intäkterna från försäljningen av denna nyckel går till klistermärkenas skapare.","market_hash_name":"Community Sticker Capsule 1 Key","crates":[{"id":"crate-4016","name":"Gemenskapskapsel 1","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"},{"id":"key-1305","name":"Huntsman-nyckel","description":"Den här nyckeln öppnar endast Huntsman-lådor","market_hash_name":"Huntsman Case Key","crates":[{"id":"crate-4017","name":"Huntsman-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"},{"id":"key-1309","name":"Operation Breakout-nyckel","description":"Den här nyckeln öppnar endast Operation Breakout-lådor","market_hash_name":"Operation Breakout Case Key","crates":[{"id":"crate-4018","name":"Operation Breakout-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"},{"id":"key-1322","name":"Operation Vanguard-nyckel","description":"Denna nyckel öppnar enbart Operation Vanguard-lådor","market_hash_name":"Operation Vanguard Case Key","crates":[{"id":"crate-4029","name":"Operation Vanguard-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"},{"id":"key-1323","name":"Chroma-nyckel","description":"Denna nyckel öppnar endast Chroma-lådor","market_hash_name":"Chroma Case Key","crates":[{"id":"crate-4061","name":"Chroma-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"},{"id":"key-1325","name":"Chroma 2-nyckel","description":"Denna nyckel öppnar endast Chroma 2-lådor","market_hash_name":"Chroma 2 Case Key","crates":[{"id":"crate-4089","name":"Chroma 2-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"},{"id":"key-1330","name":"Falchion-nyckel","description":"Denna nyckel öppnar endast Falchion-lådor","market_hash_name":"Falchion Case Key","crates":[{"id":"crate-4091","name":"Falchion-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"},{"id":"key-1333","name":"Shadow-nyckel","description":"Denna nyckel öppnar endast Shadow-lådor","market_hash_name":"Shadow Case Key","crates":[{"id":"crate-4138","name":"Shadow-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"},{"id":"key-1334","name":"Revolver-nyckel","description":"Denna nyckel öppnar endast Revolver-lådor","market_hash_name":"Revolver Case Key","crates":[{"id":"crate-4186","name":"Revolver-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"},{"id":"key-1347","name":"Chroma 3-nyckel","description":"Denna nyckel kan endast öppna Chroma 3-lådor","market_hash_name":"Chroma 3 Case Key","crates":[{"id":"crate-4233","name":"Chroma 3-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"},{"id":"key-1350","name":"Gamma-nyckel","description":"Denna nyckel öppnar endast Gamma-lådor","market_hash_name":"Gamma Case Key","crates":[{"id":"crate-4236","name":"Gamma-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"},{"id":"key-1351","name":"Gamma 2-nyckel","description":"Denna nyckel öppnar endast Gamma 2-lådor","market_hash_name":"Gamma 2 Case Key","crates":[{"id":"crate-4281","name":"Gamma 2-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"},{"id":"key-1356","name":"Glove-nyckel","description":"Denna nyckel öppnar endast Glove-lådor","market_hash_name":"Glove Case Key","crates":[{"id":"crate-4288","name":"Glove-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"},{"id":"key-1364","name":"Spectrum-nyckel","description":"Denna nyckel öppnar endast Spectrum-lådor","market_hash_name":"Spectrum Case Key","crates":[{"id":"crate-4351","name":"Spectrum-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"},{"id":"key-1365","name":"Operation Hydra-nyckel","description":"Denna nyckel öppnar endast Operation Hydra-lådor","market_hash_name":"Operation Hydra Case Key","crates":[{"id":"crate-4352","name":"Operation Hydra-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"},{"id":"key-1366","name":"Spectrum 2-nyckel","description":"Denna nyckel öppnar endast Spectrum 2-lådor","market_hash_name":"Spectrum 2 Case Key","crates":[{"id":"crate-4403","name":"Spectrum 2-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"},{"id":"key-1373","name":"Clutch-nyckel","description":"Denna nyckel öppnar endast Clutch-lådor","market_hash_name":"Clutch Case Key","crates":[{"id":"crate-4471","name":"Clutch-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"},{"id":"key-1374","name":"Horizon-nyckel","description":"Denna nyckel öppnar endast Horizon-lådor","market_hash_name":"Horizon Case Key","crates":[{"id":"crate-4482","name":"Horizon-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"},{"id":"key-1375","name":"Danger Zone-nyckel","description":"Denna nyckel öppnar endast Danger Zone-lådor","market_hash_name":"Danger Zone Case Key","crates":[{"id":"crate-4548","name":"Danger Zone-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"},{"id":"key-1383","name":"Prisma-nyckel","description":"Denna nyckel kan endast öppna Prisma-lådor","market_hash_name":"Prisma Case Key","crates":[{"id":"crate-4598","name":"Prisma-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"},{"id":"key-1384","name":"Shattered Web-nyckel","description":"Denna nyckel kan endast öppna Shattered Web-lådor","market_hash_name":"Shattered Web Case Key","crates":[{"id":"crate-4620","name":"Shattered Web-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"},{"id":"key-1385","name":"CS20-nyckel","description":"Denna nyckel kan endast öppna CS20-lådor","market_hash_name":"CS20 Case Key","crates":[{"id":"crate-4669","name":"CS20-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"},{"id":"key-1386","name":"Prisma 2-nyckel","description":"Denna nyckel kan endast öppna Prisma 2-lådor","market_hash_name":"Prisma 2 Case Key","crates":[{"id":"crate-4695","name":"Prisma 2-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"},{"id":"key-1387","name":"Fracture-nyckel","description":"Denna nyckel kan endast öppna Fracture-lådor","market_hash_name":"Fracture Case Key","crates":[{"id":"crate-4698","name":"Fracture-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"},{"id":"key-1388","name":"Operation Broken Fang-nyckel","description":"Denna nyckel öppnar endast Operation Broken Fang-lådor","market_hash_name":"Operation Broken Fang Case Key","crates":[{"id":"crate-4717","name":"Operation Broken Fang-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"},{"id":"key-1389","name":"Lådnyckel: Snakebite","description":"Denna nyckel öppnar endast Snakebite-lådor","market_hash_name":"Snakebite Case Key","crates":[{"id":"crate-4747","name":"Snakebite-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"},{"id":"key-1390","name":"Operation Riptide-nyckel","description":"Denna nyckel öppnar endast Operation Riptide-lådor","market_hash_name":"Operation Riptide Case Key","crates":[{"id":"crate-4790","name":"Operation Riptide-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"},{"id":"key-1391","name":"Dreams & Nightmares-nyckel","description":"Denna nyckel öppnar endast Dreams & Nightmares-lådor","market_hash_name":"Dreams & Nightmares Case Key","crates":[{"id":"crate-4818","name":"Dreams & Nightmares-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"},{"id":"key-1392","name":"Nyckel till Recoil-låda","description":"Denna nyckel öppnar endast Recoil-lådor","market_hash_name":"Recoil Case Key","crates":[{"id":"crate-4846","name":"Recoil-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"},{"id":"key-1393","name":"Revolution-nyckel","description":"Denna nyckel öppnar endast Revolution-lådor","market_hash_name":"Revolution Case Key","crates":[{"id":"crate-4880","name":"Revolution-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"},{"id":"key-1394","name":"Kilowatt-nyckel","description":"Lådan öppnar endast Kilowatt-lådor","market_hash_name":"Kilowatt Case Key","crates":[{"id":"crate-4904","name":"Kilowatt-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"},{"id":"key-7000","name":"Operation Wildfire-nyckel","description":"Denna nyckel öppnar endast Operation Wildfire-lådor","market_hash_name":"Operation Wildfire Case Key","crates":[{"id":"crate-4187","name":"Operation Wildfire-låda","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"}],"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"}]
+[
+  {
+    "id": "key-generic_valve_key",
+    "name": "CS:GO-nyckel",
+    "description": "Den här nyckeln kan öppna en vapenlåda från Valve-serien. Lådor som inte är från Valve-serien (t.ex. en eSports-låda) kräver sin egen nyckel för att öppnas.",
+    "market_hash_name": "CS:GO Case Key",
+    "crates": [
+      {
+        "id": "crate-4001",
+        "name": "CS:GO-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"
+      },
+      {
+        "id": "crate-4003",
+        "name": "Operation Bravo-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_operation_ii_png.png"
+      },
+      {
+        "id": "crate-4004",
+        "name": "CS:GO-låda 2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_2_png.png"
+      },
+      {
+        "id": "crate-4010",
+        "name": "CS:GO-låda 3",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"
+  },
+  {
+    "id": "key-1204",
+    "name": "eSports-nyckel",
+    "description": "Den här nyckeln öppnar en eSports-låda.\\n\\nEn del av intäkterna från försäljningen av den här nyckeln går till en av de etablerade gemenskapsdrivna CS:GO-turneringarna. Håll utkik efter framtida tillkännagivanden.",
+    "market_hash_name": "eSports Key",
+    "crates": [
+      {
+        "id": "crate-4002",
+        "name": "eSports 2013-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_png.png"
+      },
+      {
+        "id": "crate-4005",
+        "name": "eSports 2013 Winter-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2013_14_png.png"
+      },
+      {
+        "id": "crate-4019",
+        "name": "eSports 2014 Summer-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esports_2014_summer_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_special_1_png.png"
+  },
+  {
+    "id": "key-1212",
+    "name": "CS:GO-kapselnyckel",
+    "description": "Denna nyckel öppnar kapslar från Valve.",
+    "market_hash_name": "CS:GO Capsule Key",
+    "crates": [
+      {
+        "id": "crate-4007",
+        "name": "Klistermärkeskapsel",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack01_png.png"
+      },
+      {
+        "id": "crate-4012",
+        "name": "Klistermärkeskapsel 2",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack02_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_png.png"
+  },
+  {
+    "id": "key-1214",
+    "name": "Winter Offensive-nyckel",
+    "description": "Den här nyckeln öppnar endast Winter Offensive-lådor",
+    "market_hash_name": "Winter Offensive Case Key",
+    "crates": [
+      {
+        "id": "crate-4009",
+        "name": "Winter Offensive-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_1_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_1_png.png"
+  },
+  {
+    "id": "key-1303",
+    "name": "Operation Phoenix-nyckel",
+    "description": "Den här nyckeln öppnar endast Operation Phoenix-lådor",
+    "market_hash_name": "Operation Phoenix Case Key",
+    "crates": [
+      {
+        "id": "crate-4011",
+        "name": "Operation Phoenix-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_2_png.png"
+  },
+  {
+    "id": "key-1304",
+    "name": "Gemenskapskapsel 1-nyckel",
+    "description": "Denna nyckel öppnar Gemenskapskapsel 1.\\n\\nEn del av intäkterna från försäljningen av denna nyckel går till klistermärkenas skapare.",
+    "market_hash_name": "Community Sticker Capsule 1 Key",
+    "crates": [
+      {
+        "id": "crate-4016",
+        "name": "Gemenskapskapsel 1",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_community01_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/sticker_crate_key_community01_png.png"
+  },
+  {
+    "id": "key-1305",
+    "name": "Huntsman-nyckel",
+    "description": "Den här nyckeln öppnar endast Huntsman-lådor",
+    "market_hash_name": "Huntsman Case Key",
+    "crates": [
+      {
+        "id": "crate-4017",
+        "name": "Huntsman-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_3_png.png"
+  },
+  {
+    "id": "key-1309",
+    "name": "Operation Breakout-nyckel",
+    "description": "Den här nyckeln öppnar endast Operation Breakout-lådor",
+    "market_hash_name": "Operation Breakout Case Key",
+    "crates": [
+      {
+        "id": "crate-4018",
+        "name": "Operation Breakout-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_4_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_4_png.png"
+  },
+  {
+    "id": "key-1322",
+    "name": "Operation Vanguard-nyckel",
+    "description": "Denna nyckel öppnar enbart Operation Vanguard-lådor",
+    "market_hash_name": "Operation Vanguard Case Key",
+    "crates": [
+      {
+        "id": "crate-4029",
+        "name": "Operation Vanguard-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_5_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_5_png.png"
+  },
+  {
+    "id": "key-1323",
+    "name": "Chroma-nyckel",
+    "description": "Denna nyckel öppnar endast Chroma-lådor",
+    "market_hash_name": "Chroma Case Key",
+    "crates": [
+      {
+        "id": "crate-4061",
+        "name": "Chroma-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_6_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_6_png.png"
+  },
+  {
+    "id": "key-1325",
+    "name": "Chroma 2-nyckel",
+    "description": "Denna nyckel öppnar endast Chroma 2-lådor",
+    "market_hash_name": "Chroma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4089",
+        "name": "Chroma 2-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_7_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_7_png.png"
+  },
+  {
+    "id": "key-1330",
+    "name": "Falchion-nyckel",
+    "description": "Denna nyckel öppnar endast Falchion-lådor",
+    "market_hash_name": "Falchion Case Key",
+    "crates": [
+      {
+        "id": "crate-4091",
+        "name": "Falchion-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_8_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_8_png.png"
+  },
+  {
+    "id": "key-1333",
+    "name": "Shadow-nyckel",
+    "description": "Denna nyckel öppnar endast Shadow-lådor",
+    "market_hash_name": "Shadow Case Key",
+    "crates": [
+      {
+        "id": "crate-4138",
+        "name": "Shadow-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_9_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_9_png.png"
+  },
+  {
+    "id": "key-1334",
+    "name": "Revolver-nyckel",
+    "description": "Denna nyckel öppnar endast Revolver-lådor",
+    "market_hash_name": "Revolver Case Key",
+    "crates": [
+      {
+        "id": "crate-4186",
+        "name": "Revolver-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_10_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_10_png.png"
+  },
+  {
+    "id": "key-1347",
+    "name": "Chroma 3-nyckel",
+    "description": "Denna nyckel kan endast öppna Chroma 3-lådor",
+    "market_hash_name": "Chroma 3 Case Key",
+    "crates": [
+      {
+        "id": "crate-4233",
+        "name": "Chroma 3-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_12_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_12_png.png"
+  },
+  {
+    "id": "key-1350",
+    "name": "Gamma-nyckel",
+    "description": "Denna nyckel öppnar endast Gamma-lådor",
+    "market_hash_name": "Gamma Case Key",
+    "crates": [
+      {
+        "id": "crate-4236",
+        "name": "Gamma-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_13_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_13_png.png"
+  },
+  {
+    "id": "key-1351",
+    "name": "Gamma 2-nyckel",
+    "description": "Denna nyckel öppnar endast Gamma 2-lådor",
+    "market_hash_name": "Gamma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4281",
+        "name": "Gamma 2-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_gamma_2_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_gamma_2_png.png"
+  },
+  {
+    "id": "key-1356",
+    "name": "Glove-nyckel",
+    "description": "Denna nyckel öppnar endast Glove-lådor",
+    "market_hash_name": "Glove Case Key",
+    "crates": [
+      {
+        "id": "crate-4288",
+        "name": "Glove-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_15_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_15_png.png"
+  },
+  {
+    "id": "key-1364",
+    "name": "Spectrum-nyckel",
+    "description": "Denna nyckel öppnar endast Spectrum-lådor",
+    "market_hash_name": "Spectrum Case Key",
+    "crates": [
+      {
+        "id": "crate-4351",
+        "name": "Spectrum-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_16_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_16_png.png"
+  },
+  {
+    "id": "key-1365",
+    "name": "Operation Hydra-nyckel",
+    "description": "Denna nyckel öppnar endast Operation Hydra-lådor",
+    "market_hash_name": "Operation Hydra Case Key",
+    "crates": [
+      {
+        "id": "crate-4352",
+        "name": "Operation Hydra-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_17_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_17_png.png"
+  },
+  {
+    "id": "key-1366",
+    "name": "Spectrum 2-nyckel",
+    "description": "Denna nyckel öppnar endast Spectrum 2-lådor",
+    "market_hash_name": "Spectrum 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4403",
+        "name": "Spectrum 2-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_18_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_18_png.png"
+  },
+  {
+    "id": "key-1373",
+    "name": "Clutch-nyckel",
+    "description": "Denna nyckel öppnar endast Clutch-lådor",
+    "market_hash_name": "Clutch Case Key",
+    "crates": [
+      {
+        "id": "crate-4471",
+        "name": "Clutch-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_19_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_19_png.png"
+  },
+  {
+    "id": "key-1374",
+    "name": "Horizon-nyckel",
+    "description": "Denna nyckel öppnar endast Horizon-lådor",
+    "market_hash_name": "Horizon Case Key",
+    "crates": [
+      {
+        "id": "crate-4482",
+        "name": "Horizon-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_20_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_20_png.png"
+  },
+  {
+    "id": "key-1375",
+    "name": "Danger Zone-nyckel",
+    "description": "Denna nyckel öppnar endast Danger Zone-lådor",
+    "market_hash_name": "Danger Zone Case Key",
+    "crates": [
+      {
+        "id": "crate-4548",
+        "name": "Danger Zone-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_21_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_21_png.png"
+  },
+  {
+    "id": "key-1383",
+    "name": "Prisma-nyckel",
+    "description": "Denna nyckel kan endast öppna Prisma-lådor",
+    "market_hash_name": "Prisma Case Key",
+    "crates": [
+      {
+        "id": "crate-4598",
+        "name": "Prisma-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_22_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_22_png.png"
+  },
+  {
+    "id": "key-1384",
+    "name": "Shattered Web-nyckel",
+    "description": "Denna nyckel kan endast öppna Shattered Web-lådor",
+    "market_hash_name": "Shattered Web Case Key",
+    "crates": [
+      {
+        "id": "crate-4620",
+        "name": "Shattered Web-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_23_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_23_png.png"
+  },
+  {
+    "id": "key-1385",
+    "name": "CS20-nyckel",
+    "description": "Denna nyckel kan endast öppna CS20-lådor",
+    "market_hash_name": "CS20 Case Key",
+    "crates": [
+      {
+        "id": "crate-4669",
+        "name": "CS20-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_24_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_24_png.png"
+  },
+  {
+    "id": "key-1386",
+    "name": "Prisma 2-nyckel",
+    "description": "Denna nyckel kan endast öppna Prisma 2-lådor",
+    "market_hash_name": "Prisma 2 Case Key",
+    "crates": [
+      {
+        "id": "crate-4695",
+        "name": "Prisma 2-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_25_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_25_png.png"
+  },
+  {
+    "id": "key-1387",
+    "name": "Fracture-nyckel",
+    "description": "Denna nyckel kan endast öppna Fracture-lådor",
+    "market_hash_name": "Fracture Case Key",
+    "crates": [
+      {
+        "id": "crate-4698",
+        "name": "Fracture-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_26_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_26_png.png"
+  },
+  {
+    "id": "key-1388",
+    "name": "Operation Broken Fang-nyckel",
+    "description": "Denna nyckel öppnar endast Operation Broken Fang-lådor",
+    "market_hash_name": "Operation Broken Fang Case Key",
+    "crates": [
+      {
+        "id": "crate-4717",
+        "name": "Operation Broken Fang-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_27_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_27_png.png"
+  },
+  {
+    "id": "key-1389",
+    "name": "Lådnyckel: Snakebite",
+    "description": "Denna nyckel öppnar endast Snakebite-lådor",
+    "market_hash_name": "Snakebite Case Key",
+    "crates": [
+      {
+        "id": "crate-4747",
+        "name": "Snakebite-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_28_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_28_png.png"
+  },
+  {
+    "id": "key-1390",
+    "name": "Operation Riptide-nyckel",
+    "description": "Denna nyckel öppnar endast Operation Riptide-lådor",
+    "market_hash_name": "Operation Riptide Case Key",
+    "crates": [
+      {
+        "id": "crate-4790",
+        "name": "Operation Riptide-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_29_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_29_png.png"
+  },
+  {
+    "id": "key-1391",
+    "name": "Dreams & Nightmares-nyckel",
+    "description": "Denna nyckel öppnar endast Dreams & Nightmares-lådor",
+    "market_hash_name": "Dreams & Nightmares Case Key",
+    "crates": [
+      {
+        "id": "crate-4818",
+        "name": "Dreams & Nightmares-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_30_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_30_png.png"
+  },
+  {
+    "id": "key-1392",
+    "name": "Nyckel till Recoil-låda",
+    "description": "Denna nyckel öppnar endast Recoil-lådor",
+    "market_hash_name": "Recoil Case Key",
+    "crates": [
+      {
+        "id": "crate-4846",
+        "name": "Recoil-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_31_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_31_png.png"
+  },
+  {
+    "id": "key-1393",
+    "name": "Revolution-nyckel",
+    "description": "Denna nyckel öppnar endast Revolution-lådor",
+    "market_hash_name": "Revolution Case Key",
+    "crates": [
+      {
+        "id": "crate-4880",
+        "name": "Revolution-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_32_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_32_png.png"
+  },
+  {
+    "id": "key-1394",
+    "name": "Kilowatt-nyckel",
+    "description": "Lådan öppnar endast Kilowatt-lådor",
+    "market_hash_name": "Kilowatt Case Key",
+    "crates": [
+      {
+        "id": "crate-4904",
+        "name": "Kilowatt-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_33_png.png"
+  },
+  {
+    "id": "key-7000",
+    "name": "Operation Wildfire-nyckel",
+    "description": "Denna nyckel öppnar endast Operation Wildfire-lådor",
+    "market_hash_name": "Operation Wildfire Case Key",
+    "crates": [
+      {
+        "id": "crate-4187",
+        "name": "Operation Wildfire-låda",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_11_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"
+  }
+]

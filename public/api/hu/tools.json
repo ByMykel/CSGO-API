@@ -1,1 +1,20 @@
-[{"id":"tool-1","name":"Névcédula","description":"Ez a tárgy átnevez egy fegyvert. Egyedi gravírozott névtábla kerül a fegyverre, mely látható lesz a játékban.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"},{"id":"tool-2","name":"Raktárhelyiség","description":"A Raktárhelyiség lehetővé teszi legfeljebb 1000 elfekvő tárgyad tárolását, amelyek egyébként meghaladnák a raktárkorlátot. Bármikor mozgathatsz tárgyakat a raktáradból a raktárhelyiségbe, visszatehetsz belőle a raktáradba, vagy használhatod egyszerűen csak gyűjteményed rendszerezéséhez.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"},{"id":"tool-3","name":"StatTrak™ Cserélő Szerszám","description":"Ez a tárgy StatTrak™ értékeket cserél két ugyanolyan típusú tárgy között.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"}]
+[
+  {
+    "id": "tool-1",
+    "name": "Névcédula",
+    "description": "Ez a tárgy átnevez egy fegyvert. Egyedi gravírozott névtábla kerül a fegyverre, mely látható lesz a játékban.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/tag_png.png"
+  },
+  {
+    "id": "tool-2",
+    "name": "Raktárhelyiség",
+    "description": "A Raktárhelyiség lehetővé teszi legfeljebb 1000 elfekvő tárgyad tárolását, amelyek egyébként meghaladnák a raktárkorlátot. Bármikor mozgathatsz tárgyakat a raktáradból a raktárhelyiségbe, visszatehetsz belőle a raktáradba, vagy használhatod egyszerűen csak gyűjteményed rendszerezéséhez.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/casket_png.png"
+  },
+  {
+    "id": "tool-3",
+    "name": "StatTrak™ Cserélő Szerszám",
+    "description": "Ez a tárgy StatTrak™ értékeket cserél két ugyanolyan típusú tárgy között.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/stattrak_swap_tool_png.png"
+  }
+]
