@@ -85,25 +85,26 @@ const getEffect = (item) => {
 
 const getMarketHashName = (item) => {
     // 1 - DreamHack 2013
-    if (item.tournament_event_id === 3) {
+    if (item.tournament_event_id === 1) {
         return null;
     }
 
-    // The major with id 2 is called "Valve Test"
-
     // 3 - Katowice 2014
     if (item.tournament_event_id === 3) {
-        if (item.item_rarity === "legendary" && getType(item) !== "Event") {
+        if (
+            (getType(item) === "Event" &&
+                item.sticker_material.includes("gold_foil")) ||
+            (getEffect(item) === "Foil" && getType(item) === "Team")
+        ) {
             return null;
         }
     }
 
     // 4 - Cologne 2014
-    if (item.tournament_event_id === 3) {
+    if (item.tournament_event_id === 4) {
         if (
-            item.item_rarity === "legendary" &&
-            getType(item) !== "Event" &&
-            item.sticker_material !== "cologne2014/esl_c"
+            getEffect(item) === "Foil" ||
+            item.sticker_material === "cologne2014/esl_c"
         ) {
             return null;
         }
