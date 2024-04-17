@@ -84,28 +84,51 @@ const getEffect = (item) => {
 };
 
 const getMarketHashName = (item) => {
-    const events = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-    const eventsTeamNotMarketable = [14, 15, 16];
-
-    if ([1].includes(item.tournament_event_id)) {
+    // 1 - DreamHack 2013
+    if (item.tournament_event_id === 3) {
         return null;
     }
 
-    // Team logos were not marketable. But players marketable.
-    if (
-        eventsTeamNotMarketable.includes(item.tournament_event_id) &&
-        item.item_rarity === "legendary" &&
-        item.tournament_player_id == null
-    ) {
-        return null;
+    // The major with id 2 is called "Valve Test"
+
+    // 3 - Katowice 2014
+    if (item.tournament_event_id === 3) {
+        if (item.item_rarity === "legendary" && getType(item) !== "Event") {
+            return null;
+        }
     }
 
-    // Marketable both teams and players.
+    // 4 - Cologne 2014
+    if (item.tournament_event_id === 3) {
+        if (
+            item.item_rarity === "legendary" &&
+            getType(item) !== "Event" &&
+            item.sticker_material !== "cologne2014/esl_c"
+        ) {
+            return null;
+        }
+    }
+
+    // 5 - DreamHack 2014,
+    // 6 - Katowice 2015,
+    // 7 - Cologne 2015,
+    // 8 - Cluj-Napoca 2015
+    // 9 - Columbus 2016
+    // 10 - Cologne 2016
+    // 11 - Atlanta 2017
+    // 12 - Krakow 2017
+    // 13 - Boston 2018
+    // 14 - London 2018
+    // 15 - Katowice 2019
+    // 16 - Berlin 2019
     if (
-        events.includes(item.tournament_event_id) &&
-        item.item_rarity === "legendary"
+        [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].includes(
+            item.tournament_event_id
+        )
     ) {
-        return null;
+        if (item.item_rarity === "legendary" && getEffect(item) === "Gold") {
+            return null;
+        }
     }
 
     if (
@@ -153,6 +176,7 @@ const parseItem = (item) => {
             })) ?? [],
         tournament_event:
             $t(`csgo_watch_cat_tournament_${item.tournament_event_id}`) ??
+            $t(`csgo_tournament_event_location_${item.tournament_event_id}`) ??
             undefined,
         tournament_team:
             $t(`csgo_teamid_${item.tournament_team_id}`) ?? undefined,
