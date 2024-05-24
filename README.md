@@ -301,6 +301,7 @@ Example response:
         // ... 
     ],
     "market_hash_name": "Kilowatt Case",
+    "rental": true,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
   }
   // ... 
