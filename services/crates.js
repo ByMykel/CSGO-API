@@ -190,6 +190,7 @@ const parseItem = (item, prefabs) => {
             "Holo/Foil",
             "Holo-Foil"
         ),
+        rental: !!item.attributes["can open for rental"],
         image,
     };
 };
