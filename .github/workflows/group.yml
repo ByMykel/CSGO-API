@@ -3,7 +3,7 @@ name: Group JSON API
 on:
     workflow_dispatch:
     schedule:
-        - cron: "7 0 * * *"
+        - cron: "0 9 * * *"
 
 jobs:
     build:
