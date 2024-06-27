@@ -2017,7 +2017,7 @@
   },
   {
     "id": "collectible-1022",
-    "name": "공성 맵 주화",
+    "name": "시즈 맵 주화",
     "description": null,
     "rarity": {
       "id": "rarity_ancient",
@@ -2619,7 +2619,7 @@
   },
   {
     "id": "collectible-1065",
-    "name": "동상 맵 주화",
+    "name": "프로스트바이트 맵 주화",
     "description": null,
     "rarity": {
       "id": "rarity_ancient",
@@ -2661,7 +2661,7 @@
   },
   {
     "id": "collectible-1068",
-    "name": "경비 맵 주화",
+    "name": "가드 맵 주화",
     "description": null,
     "rarity": {
       "id": "rarity_ancient",
@@ -2941,7 +2941,7 @@
   },
   {
     "id": "collectible-1088",
-    "name": "귀족 맵 주화",
+    "name": "보야르 맵 주화",
     "description": null,
     "rarity": {
       "id": "rarity_ancient",
@@ -5208,6 +5208,76 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/trophy_majors_finalists_png.png"
   },
   {
+    "id": "collectible-4941",
+    "name": "Thera Map Coin",
+    "description": "Commemorates authorship of the CS2 Map 'Thera'",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "희귀",
+      "color": "#eb4b4b"
+    },
+    "type": "Map Contributor Coin",
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_thera_png.png"
+  },
+  {
+    "id": "collectible-4942",
+    "name": "Mills Map Coin",
+    "description": "Commemorates authorship of the CS2 Map 'Mills'",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "희귀",
+      "color": "#eb4b4b"
+    },
+    "type": "Map Contributor Coin",
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_mills_png.png"
+  },
+  {
+    "id": "collectible-4943",
+    "name": "Assembly Map Coin",
+    "description": "Commemorates authorship of the CS2 Map 'Assembly'",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "희귀",
+      "color": "#eb4b4b"
+    },
+    "type": "Map Contributor Coin",
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_assembly_png.png"
+  },
+  {
+    "id": "collectible-4944",
+    "name": "Memento Map Coin",
+    "description": "Commemorates authorship of the CS2 Map 'Memento'",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "희귀",
+      "color": "#eb4b4b"
+    },
+    "type": "Map Contributor Coin",
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_memento_png.png"
+  },
+  {
+    "id": "collectible-4945",
+    "name": "Pool Day Map Coin",
+    "description": "Commemorates authorship of the CS2 Map 'Pool Day'",
+    "rarity": {
+      "id": "rarity_ancient",
+      "name": "희귀",
+      "color": "#eb4b4b"
+    },
+    "type": "Map Contributor Coin",
+    "genuine": false,
+    "market_hash_name": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_poolday_png.png"
+  },
+  {
     "id": "collectible-6001",
     "name": "진품 더스트 2 핀",
     "description": "프로필에 전시할 수 있는 제1시리즈 수집 가능한 핀입니다.",
@@ -5545,7 +5615,7 @@
   },
   {
     "id": "collectible-6025",
-    "name": "진품 어서 와 클러치는 처음이지",
+    "name": "진품 어서 와 클러치는 처음이지 핀",
     "description": "프로필에 전시할 수 있는 제3시리즈 수집 가능한 핀입니다.",
     "rarity": {
       "id": "rarity_rare",
@@ -5643,7 +5713,7 @@
   },
   {
     "id": "collectible-6032",
-    "name": "진품 아우성 핀",
+    "name": "진품 포효 핀",
     "description": "프로필에 전시할 수 있는 제3시리즈 수집 가능한 핀입니다.",
     "rarity": {
       "id": "rarity_ancient",
@@ -6021,7 +6091,7 @@
   },
   {
     "id": "collectible-6125",
-    "name": "어서 와 클러치는 처음이지",
+    "name": "어서 와 클러치는 처음이지 핀",
     "description": "프로필에 전시할 수 있는 제3시리즈 수집 가능한 핀입니다.",
     "rarity": {
       "id": "rarity_rare",
@@ -6119,7 +6189,7 @@
   },
   {
     "id": "collectible-6132",
-    "name": "아우성 핀",
+    "name": "포효 핀",
     "description": "프로필에 전시할 수 있는 제3시리즈 수집 가능한 핀입니다.",
     "rarity": {
       "id": "rarity_ancient",
