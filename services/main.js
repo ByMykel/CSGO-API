@@ -46,7 +46,7 @@ export const loadStickerKits = () => {
     // Load also players
     state.players = Object.entries(state.itemsGame.pro_players).reduce(
         (acc, [id, player]) => {
-            acc[id] = player.name;
+            acc[id] = (player.name).toString();
             return acc;
         },
         {}
