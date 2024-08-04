@@ -471,7 +471,10 @@ export const getGraffitiVariations = (material) => {
             spray_std_axes_crossed: [0],
             spray_std_bubble_dead: [0],
             spray_std_chess_king: [0],
-            spray_std_crown: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+            spray_std_crown: [
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+                19,
+            ],
             spray_std_dollar: [7, 8, 9, 10],
             spray_std_double_kill: [0],
             spray_std_eco_pistol: [0],
