@@ -46,7 +46,7 @@ export const loadStickerKits = () => {
     // Load also players
     state.players = Object.entries(state.itemsGame.pro_players).reduce(
         (acc, [id, player]) => {
-            acc[id] = (player.name).toString();
+            acc[id] = player.name.toString();
             return acc;
         },
         {}
@@ -706,9 +706,10 @@ const getItemFromKey = (key) => {
 };
 
 export const getManifestId = async () => {
+    const timestamp = new Date().getTime();
     return axios
         .get(
-            "https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt"
+            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt?t=${timestamp}`
         )
         .then((data) => data.data)
         .catch(() => {
