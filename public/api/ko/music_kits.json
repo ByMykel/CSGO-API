@@ -1,5 +1,18 @@
 [
   {
+    "id": "music_kit-2",
+    "name": null,
+    "description": null,
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "고급",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "음악 키트 | Daniel Sadowski, Crimson Assault",
     "description": "비디오게임 작곡가 다니엘 사도스키가 작곡한 이 요동치는 음악에서 넘칠 듯한 박자와 흥겨운 액션을 느껴보세요.",
@@ -1002,7 +1015,7 @@
   },
   {
     "id": "music_kit-42",
-    "name": "Half-Life: Alyx, Anti-Citizen",
+    "name": null,
     "description": "이 음악 키트는 Valve의 하프 라이프 시리즈 중 VR로 출시된 Half-Life: Alyx를 기념합니다. 인류의 유일한 희망이자, 몰입감 있는 환경 상호 작용을 Counter-Strike: Global Offensive에서 느껴보세요.",
     "rarity": {
       "id": "rarity_rare",
@@ -1010,7 +1023,7 @@
       "color": "#4b69ff"
     },
     "market_hash_name": null,
-    "exclusive": true,
+    "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hlalyx_01_png.png"
   },
   {
@@ -1701,6 +1714,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": null,
+    "description": "CS:GO 기본 음악 키트로 2012년 CS:GO 출시와 함께 소개되었습니다.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "고급",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",
