@@ -1,5 +1,18 @@
 [
   {
+    "id": "music_kit-2",
+    "name": null,
+    "description": null,
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Висок клас",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Музикален комплект | Daniel Sadowski — Crimson Assault",
     "description": "<b><font color='#F2A93E'>Daniel Sadowski, Crimson Assault</font></b>\\n \\nКомпозиторът на музика за видеоигри Даниел Садовски предоставя разчупено действие, смесено с ИЗОБИЛИЕ ОТ ЩУРИ ритми в този пулсиращ и освежаващ музикален пакет.",
@@ -1002,7 +1015,7 @@
   },
   {
     "id": "music_kit-42",
-    "name": "Half-Life: Alyx — Anti-Citizen",
+    "name": null,
     "description": "<b><font color='#F2A93E'>Half-Life: Alyx, Anti-Citizen</font></b>\\n \\nТози музикален пакет ознаменува „Half-Life: Alyx“. ВР завръщането на Valve към Half-Life поредицата. Вие сте единствения шанс за оцеляване на човечеството. А завладяващите ВИ взаимодействия с обкръжението ще продължат в Counter-Strike: Global Offensive.",
     "rarity": {
       "id": "rarity_rare",
@@ -1010,7 +1023,7 @@
       "color": "#4b69ff"
     },
     "market_hash_name": null,
-    "exclusive": true,
+    "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hlalyx_01_png.png"
   },
   {
@@ -1701,6 +1714,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": null,
+    "description": "<b><font color='#F2A93E'>Valve, CS:GO</font></b>\\n \\nМузикалният комплект на CS:GO по подразбиране, представен с излизането на CS:GO през 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Висок клас",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

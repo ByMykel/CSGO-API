@@ -1,5 +1,18 @@
 [
   {
+    "id": "music_kit-2",
+    "name": null,
+    "description": null,
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Høy klasse",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Musikksett | Daniel Sadowski – Crimson Assault",
     "description": "Videospillkomponisten Daniel Sadowski leverer \\\"edgy action\\\" mikset med SYKT FETE rytmer i denne pulserende og forfriskende musikkpakken.",
@@ -1002,7 +1015,7 @@
   },
   {
     "id": "music_kit-42",
-    "name": "Half-Life: Alyx – Anti-Citizen",
+    "name": null,
     "description": "Dette musikksettet feirer Half-Life: Alyx, Valves VR-tilbakekomst til Half-Life-serien. Du er menneskehetens eneste sjanse til å overleve, og dine oppslukende interaksjoner fortsetter i Counter-Strike: Global Offensive.",
     "rarity": {
       "id": "rarity_rare",
@@ -1010,7 +1023,7 @@
       "color": "#4b69ff"
     },
     "market_hash_name": null,
-    "exclusive": true,
+    "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hlalyx_01_png.png"
   },
   {
@@ -1701,6 +1714,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": null,
+    "description": "Det vanlige musikksettet i CS:GO, først introdusert gjennom utgivelsen av CS:GO i 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Høy klasse",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

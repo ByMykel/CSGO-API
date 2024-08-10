@@ -1,5 +1,18 @@
 [
   {
+    "id": "music_kit-2",
+    "name": null,
+    "description": null,
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "高级",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "音乐盒 | Daniel Sadowski - 深红突击",
     "description": "在这个充满节奏感且令人振奋的音乐包中，电子游戏作曲家 Daniel Sadowski 将结合极度疯狂的打击感，带来激情四射的演奏。",
@@ -1002,7 +1015,7 @@
   },
   {
     "id": "music_kit-42",
-    "name": "《半衰期：爱莉克斯》，反叛者",
+    "name": null,
     "description": "这是纪念《半衰期：爱莉克斯》的音乐盒，代表了Valve利用虚拟现实技术让《半衰期》系列得以回归。你是人类生存的唯一机会, 并且你的沉浸式环境互动会在《反恐精英：全球攻势》中得以延续。",
     "rarity": {
       "id": "rarity_rare",
@@ -1010,7 +1023,7 @@
       "color": "#4b69ff"
     },
     "market_hash_name": null,
-    "exclusive": true,
+    "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hlalyx_01_png.png"
   },
   {
@@ -1701,6 +1714,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": null,
+    "description": "默认的《反恐精英：全球攻势》音乐盒，随 2012 年《反恐精英：全球攻势》发布而推出。",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "高级",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",
