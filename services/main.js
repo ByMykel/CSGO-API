@@ -117,7 +117,7 @@ export const loadMusicDefinitions = () => {
     state.musicDefinitions = Object.entries(state.itemsGame.music_definitions)
         .filter(
             ([key, item]) =>
-                !["valve_csgo_01", "valve_csgo_02", "valve_cs2_01"].includes(
+                !["valve_01", "valve_02", "valve_cs2_01"].includes(
                     item.name
                 )
         )
