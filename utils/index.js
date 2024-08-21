@@ -317,7 +317,7 @@ export const getDopplerPhase = (paintIndex) => {
 };
 
 export const isExclusive = (name) => {
-    return ["halo_01", "halflife_alyx_01", "hades_01"].includes(name);
+    return ["halo_01", "hlalyx_01", "hades_01"].includes(name);
 };
 
 export const skinMarketHashName = ({
