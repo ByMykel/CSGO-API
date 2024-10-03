@@ -10,6 +10,7 @@ import { loadTranslations } from "./services/translations.js";
 import { getGraffiti } from "./services/graffiti.js";
 import { getPatches } from "./services/patches.js";
 import { getStickers } from "./services/stickers.js";
+import { getKeychains } from "./services/keychains.js";
 import { getSkins } from "./services/skins.js";
 import { LANGUAGES_URL } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
@@ -55,6 +56,7 @@ for (const language of LANGUAGES_URL) {
         getSkins();
         getSkinsNotGrouped();
         getStickers();
+        getKeychains();
         getTools();
     } catch (error) {
         console.log(error);
