@@ -53,6 +53,19 @@ export const loadStickerKits = () => {
     );
 };
 
+export const loadKeychainDefinitions = () => {
+    state.keychainDefinitions = Object.entries(state.itemsGame.keychain_definitions).map(
+        ([key, item]) => ({
+            ...item,
+            object_id: key,
+        })
+    )
+
+    state.keychainDefinitionsObj = Object.fromEntries(
+        state.keychainDefinitions.map((item) => [item.name, item])
+    );
+};
+
 export const loadItems = () => {
     state.items = Object.entries(state.itemsGame.items).reduce(
         (acc, [key, value]) => {
@@ -723,6 +736,7 @@ export const loadData = async () => {
     loadItems();
     loadItemSets();
     loadStickerKits();
+    loadKeychainDefinitions();
     loadPaintKits();
     loadMusicDefinitions();
     loadClientLootLists();
