@@ -15025,6 +15025,778 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_33_png.png"
   },
   {
+    "id": "collection-set-community-34",
+    "name": "Колекція «Галерея»",
+    "crates": [
+      {
+        "id": "crate-7003",
+        "name": "Футляр «Галерея»",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_34_png.png"
+      }
+    ],
+    "contains": [
+      {
+        "id": "skin-3998156",
+        "name": "УСП-С | 27",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "115",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usp_field_snake_light_png.png"
+      },
+      {
+        "id": "skin-65992",
+        "name": "Пустельний орел | Каліграфіті",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "114",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_calligraff_light_png.png"
+      },
+      {
+        "id": "skin-1512048",
+        "name": "МП5-СД | Статика",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "1180",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_mp5_statics_blue_light_png.png"
+      },
+      {
+        "id": "skin-524772",
+        "name": "АУГ | Розкіш",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "121",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_puffer_light_png.png"
+      },
+      {
+        "id": "skin-917984",
+        "name": "М249 | Гіпноз",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "120",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_m249_hypnosis_light_png.png"
+      },
+      {
+        "id": "skin-4194796",
+        "name": "Револьвер Р8 | Танго",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "123",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_r8_roses_and_guns_light_png.png"
+      },
+      {
+        "id": "skin-2490836",
+        "name": "СКАР-20 | Піонер",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "117",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar20_fury_topo_light_png.png"
+      },
+      {
+        "id": "skin-1049048",
+        "name": "М4А4 | Турбіна",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "118",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_fusion_light_png.png"
+      },
+      {
+        "id": "skin-131520",
+        "name": "Подвійні «Беретти» | Гідроудар",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "112",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_elite_hydro_strike_light_png.png"
+      },
+      {
+        "id": "skin-1114616",
+        "name": "МАК-10 | Сайба Оні",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "126",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_ozaki_light_png.png"
+      },
+      {
+        "id": "skin-1245692",
+        "name": "П90 | Стрімкий Ренді",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "127",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_p90_randy_rush_light_png.png"
+      },
+      {
+        "id": "skin-2621952",
+        "name": "ССГ 08 | Швидкісний транспорт",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "128",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_ssg08_transit_white_light_png.png"
+      },
+      {
+        "id": "skin-459204",
+        "name": "АК-47 | Вигнанці",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "113",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_t_bus_light_png.png"
+      },
+      {
+        "id": "skin-2359816",
+        "name": "П250 | Епіцентр",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "130",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_impact_light_png.png"
+      },
+      {
+        "id": "skin-1573388",
+        "name": "УМП-45 | Нео-нуар",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "131",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_ump45_neo_noir_light_png.png"
+      },
+      {
+        "id": "skin-262660",
+        "name": "Ґлок-18 | Золотий зуб",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "надсекретна зброя",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "129",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_chomper_light_png.png"
+      },
+      {
+        "id": "skin-3932584",
+        "name": "М4А1-С | Вейпорвейв",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "надсекретна зброя",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "106",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_m4a1s_vaporwave_light_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_34_png.png"
+  },
+  {
+    "id": "collection-set-graphic-design",
+    "name": "Колекція «Графічний дизайн»",
+    "crates": [],
+    "contains": [
+      {
+        "id": "skin-921004",
+        "name": "М249 | Спектрограма",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "875",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_ht_peaks_rainbow_light_png.png"
+      },
+      {
+        "id": "skin-2624948",
+        "name": "ССГ 08 | Півтоновий вихор",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "877",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_ht_swirl_ssg08_light_png.png"
+      },
+      {
+        "id": "skin-658888",
+        "name": "ФАМАС | Півтонова хвиля",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "882",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_ht_splash_famas_light_png.png"
+      },
+      {
+        "id": "skin-2166448",
+        "name": "МП7 | Астролябія",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "940",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_gs_constellation_dark_mp7_light_png.png"
+      },
+      {
+        "id": "skin-855724",
+        "name": "Ґаліл | НВ",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "939",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_cu_poly_green_galil_light_png.png"
+      },
+      {
+        "id": "skin-2100664",
+        "name": "П2000 | Кораловий півтон",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "878",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_hkp2000_ht_facet_p2000_light_png.png"
+      },
+      {
+        "id": "skin-2493900",
+        "name": "СКАР-20 | Дика ягода",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "883",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_cu_chevron_scar20_light_png.png"
+      },
+      {
+        "id": "skin-2559508",
+        "name": "СГ 553 | Лакована ягода",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "901",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sg556_gs_happy_red_sg556_light_png.png"
+      },
+      {
+        "id": "skin-462400",
+        "name": "АК-47 | Перетинання",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "912",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_graphic_overlay_ak47_light_png.png"
+      },
+      {
+        "id": "skin-1641736",
+        "name": "М1014 | Півтонове зміщення",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "834",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_ht_shapes_xm1014_light_png.png"
+      },
+      {
+        "id": "skin-4132516",
+        "name": "ЧЗ-75 авто | Слалом",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "937",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_cu_abstract_white_cz_light_png.png"
+      },
+      {
+        "id": "skin-1248928",
+        "name": "П90 | Вектор атаки",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "936",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_cu_poly_violet_p90_light_png.png"
+      },
+      {
+        "id": "skin-1052072",
+        "name": "М4А4 | Полісуп",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "874",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_soo_polysoup_m4a4_light_png.png"
+      },
+      {
+        "id": "skin-69288",
+        "name": "Пустельний орел | Зоряна аркада",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "938",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_cu_glitter_deagle_light_png.png"
+      },
+      {
+        "id": "skin-524980",
+        "name": "АУГ | Свинка",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "173",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_gs_lilpig_aug_light_png.png"
+      },
+      {
+        "id": "skin-590476",
+        "name": "АВП | Чотири кольори",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "надсекретна зброя",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "163",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_gs_independe_awp_light_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_graphic_design_png.png"
+  },
+  {
+    "id": "collection-set-overpass-2024",
+    "name": "Колекція «Overpass 2024»",
+    "crates": [],
+    "contains": [
+      {
+        "id": "skin-200856",
+        "name": "Five-seveN | Опівнічна розмальовка",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "1062",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_hy_overpass_paintover_teal_light_png.png"
+      },
+      {
+        "id": "skin-1245716",
+        "name": "П90 | Помийте мене",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "133",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_sp_overpass_doodle_plum_light_png.png"
+      },
+      {
+        "id": "skin-1507972",
+        "name": "МП5-СД | Неонові написи",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "161",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_sp_overpass_paint_pen_neon_light_png.png"
+      },
+      {
+        "id": "skin-3932800",
+        "name": "М4А1-С | Помийте мене, будь ласка",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "160",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_hy_overpass_doodle_m4a1s_light_png.png"
+      },
+      {
+        "id": "skin-66088",
+        "name": "Пустельний орел | Невдоволений",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "138",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_cu_overpass_aqua_deagle_light_png.png"
+      },
+      {
+        "id": "skin-1835584",
+        "name": "Неґев | Крізь стіну",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "144",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_negev_cu_overpass_graf_negev_light_png.png"
+      },
+      {
+        "id": "skin-852924",
+        "name": "Ґаліл | Металеві написи",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "239",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_sp_overpass_paint_pen_metal_light_png.png"
+      },
+      {
+        "id": "skin-1114672",
+        "name": "МАК-10 | Пискавка",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "140",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_cu_overpass_squeak_mac10_light_png.png"
+      },
+      {
+        "id": "skin-2294340",
+        "name": "Нова | Сосискове пекло",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "145",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_cu_overpass_wurst_nova_light_png.png"
+      },
+      {
+        "id": "skin-262752",
+        "name": "Ґлок-18 | Бірюзове графіті",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "152",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_hy_overpass_tagged_teal_light_png.png"
+      },
+      {
+        "id": "skin-131628",
+        "name": "Подвійні «Беретти» | Маленькі янголятка",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "139",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_cu_overpass_baby_dualies_light_png.png"
+      },
+      {
+        "id": "skin-1638984",
+        "name": "М1014 | Сплав монстрів",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "146",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_cu_overpass_monsters_xm_light_png.png"
+      },
+      {
+        "id": "skin-524824",
+        "name": "АУГ | Око Запемса",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "134",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_cu_overpass_graf_aug_light_png.png"
+      },
+      {
+        "id": "skin-590372",
+        "name": "АВП | Краков!",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "137",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_cu_overpass_crakow_awp_light_png.png"
+      },
+      {
+        "id": "skin-2032784",
+        "name": "Зевс 27 | Хропіння дракона",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "292",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_taser_cu_overpass_dragon_zeus_light_png.png"
+      },
+      {
+        "id": "skin-459320",
+        "name": "АК-47 | Монстри з тунелю",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "надсекретна зброя",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "142",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_cu_overpass_monster_ak47_light_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_2024_png.png"
+  },
+  {
+    "id": "collection-set-realism-camo",
+    "name": "Спортивна колекція",
+    "crates": [],
+    "contains": [
+      {
+        "id": "skin-1510400",
+        "name": "МП5-СД | Савановий півтон",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "768",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_ht_blur_camo_mp5sd_light_png.png"
+      },
+      {
+        "id": "skin-1969144",
+        "name": "ТЕК-9 | Тигровий трафарет",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "766",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_soch_tiger_stencil_tec9_light_png.png"
+      },
+      {
+        "id": "skin-657204",
+        "name": "ФАМАС | Короткий рукав",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "461",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_gs_gamebred_famas_light_png.png"
+      },
+      {
+        "id": "skin-463468",
+        "name": "АК-47 | Оливковий полікамуфляж",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "1179",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ht_poly_camo_ak47_light_png.png"
+      },
+      {
+        "id": "skin-1707016",
+        "name": "ПП «Бізон» | Холодні клітини",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "770",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_sp_wax_rub_bizon_light_png.png"
+      },
+      {
+        "id": "skin-1772564",
+        "name": "МАГ-7 | Дикий ліс",
+        "rarity": {
+          "id": "rarity_uncommon_weapon",
+          "name": "промислового ґатунку",
+          "color": "#5e98d9"
+        },
+        "paint_index": "773",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_soch_wildwood_mag7_light_png.png"
+      },
+      {
+        "id": "skin-2623492",
+        "name": "ССГ 08 | Зено",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "513",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_gsch_zeno_ssg08_light_png.png"
+      },
+      {
+        "id": "skin-2362392",
+        "name": "П250 | Маленька дичина",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "774",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_soch_hunter_blaze_p250_light_png.png"
+      },
+      {
+        "id": "skin-2295056",
+        "name": "Нова | Йоркшир",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "324",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_gs_ripple_nova_light_png.png"
+      },
+      {
+        "id": "skin-4001016",
+        "name": "УСП-С | Альпійський камуфляж",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "армійського ґатунку",
+          "color": "#4b69ff"
+        },
+        "paint_index": "830",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_gsch_bright_camo_usp_light_png.png"
+      },
+      {
+        "id": "skin-199932",
+        "name": "Five-seveN | Термічна обробка",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "831",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_aq_case_hardened_fiveseven_light_png.png"
+      },
+      {
+        "id": "skin-2229548",
+        "name": "МП9 | Арктичні кольори",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "331",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_gs_arctic_mp9_light_png.png"
+      },
+      {
+        "id": "skin-1574512",
+        "name": "УМП-45 | Кривавий лиск",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "зброя спецслужб",
+          "color": "#8847ff"
+        },
+        "paint_index": "412",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_gsch_sport_ump45_light_png.png"
+      },
+      {
+        "id": "skin-856680",
+        "name": "Ґаліл | Райдужний",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "1178",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_aq_titanium_rainbow_galilar_light_png.png"
+      },
+      {
+        "id": "skin-265472",
+        "name": "Ґлок-18 | АКСІА",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "832",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_gsch_axia_glock_light_png.png"
+      },
+      {
+        "id": "skin-3936868",
+        "name": "М4А1-С | Градієнт",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "надсекретна зброя",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "1177",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_aa_fade_m4a1s_light_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_realism_camo_png.png"
+  },
+  {
+    "id": "collection-set-xpshop-wpn-01",
+    "name": "Лімітована версія предмета",
+    "crates": [],
+    "contains": [
+      {
+        "id": "skin-69752",
+        "name": "Пустельний орел | Термічна обробка",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "секретна зброя",
+          "color": "#d32ce6"
+        },
+        "paint_index": "1054",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_aq_deagle_case_hardened_2_light_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_xpshop_wpn_01_png.png"
+  },
+  {
     "id": "collection-4617",
     "name": "Колекція графіті CS:GO #3",
     "crates": [],

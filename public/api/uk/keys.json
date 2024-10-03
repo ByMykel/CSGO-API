@@ -546,5 +546,19 @@
       }
     ],
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_11_png.png"
+  },
+  {
+    "id": "key-7002",
+    "name": "Ключ від футляра «Галерея»",
+    "description": "Цей ключ відкриває лише футляри «Галерея».",
+    "market_hash_name": "Gallery Case Key",
+    "crates": [
+      {
+        "id": "crate-7003",
+        "name": "Футляр «Галерея»",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_34_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/crate_key_community_34_png.png"
   }
 ]

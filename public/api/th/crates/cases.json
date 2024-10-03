@@ -27384,5 +27384,350 @@
     "market_hash_name": "Kilowatt Case",
     "rental": true,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png"
+  },
+  {
+    "id": "crate-7003",
+    "name": "กล่อง Gallery",
+    "description": null,
+    "type": "Case",
+    "first_sale_date": "2024-07-01",
+    "contains": [
+      {
+        "id": "skin-3998156",
+        "name": "USP-S | 27",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "115",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usp_field_snake_light_png.png"
+      },
+      {
+        "id": "skin-65992",
+        "name": "Desert Eagle | Calligraffiti",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "114",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_calligraff_light_png.png"
+      },
+      {
+        "id": "skin-1512048",
+        "name": "MP5-SD | Statics",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "1180",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_mp5_statics_blue_light_png.png"
+      },
+      {
+        "id": "skin-524772",
+        "name": "AUG | Luxe Trim",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "121",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_puffer_light_png.png"
+      },
+      {
+        "id": "skin-917984",
+        "name": "M249 | Hypnosis",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "120",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_m249_hypnosis_light_png.png"
+      },
+      {
+        "id": "skin-4194796",
+        "name": "ปืนลูกโม่ R8 | Tango",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "123",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_r8_roses_and_guns_light_png.png"
+      },
+      {
+        "id": "skin-2490836",
+        "name": "SCAR-20 | Trail Blazer",
+        "rarity": {
+          "id": "rarity_rare_weapon",
+          "name": "เกรดมาตรฐานทางทหาร",
+          "color": "#4b69ff"
+        },
+        "paint_index": "117",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar20_fury_topo_light_png.png"
+      },
+      {
+        "id": "skin-1049048",
+        "name": "M4A4 | Turbine",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "หวงห้าม",
+          "color": "#8847ff"
+        },
+        "paint_index": "118",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_fusion_light_png.png"
+      },
+      {
+        "id": "skin-131520",
+        "name": "Dual Berettas | Hydro Strike",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "หวงห้าม",
+          "color": "#8847ff"
+        },
+        "paint_index": "112",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_elite_hydro_strike_light_png.png"
+      },
+      {
+        "id": "skin-1114616",
+        "name": "MAC-10 | Saibā Oni",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "หวงห้าม",
+          "color": "#8847ff"
+        },
+        "paint_index": "126",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_ozaki_light_png.png"
+      },
+      {
+        "id": "skin-1245692",
+        "name": "P90 | Randy Rush",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "หวงห้าม",
+          "color": "#8847ff"
+        },
+        "paint_index": "127",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_p90_randy_rush_light_png.png"
+      },
+      {
+        "id": "skin-2621952",
+        "name": "SSG 08 | Rapid Transit",
+        "rarity": {
+          "id": "rarity_mythical_weapon",
+          "name": "หวงห้าม",
+          "color": "#8847ff"
+        },
+        "paint_index": "128",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ssg08_ssg08_transit_white_light_png.png"
+      },
+      {
+        "id": "skin-459204",
+        "name": "AK-47 | The Outsiders",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "ปกปิด",
+          "color": "#d32ce6"
+        },
+        "paint_index": "113",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_t_bus_light_png.png"
+      },
+      {
+        "id": "skin-2359816",
+        "name": "P250 | Epicenter",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "ปกปิด",
+          "color": "#d32ce6"
+        },
+        "paint_index": "130",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_impact_light_png.png"
+      },
+      {
+        "id": "skin-1573388",
+        "name": "UMP-45 | Neo-Noir",
+        "rarity": {
+          "id": "rarity_legendary_weapon",
+          "name": "ปกปิด",
+          "color": "#d32ce6"
+        },
+        "paint_index": "131",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_ump45_neo_noir_light_png.png"
+      },
+      {
+        "id": "skin-262660",
+        "name": "Glock-18 | Gold Toof",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "129",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_chomper_light_png.png"
+      },
+      {
+        "id": "skin-3932584",
+        "name": "M4A1-S | Vaporwave",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "106",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_m4a1s_vaporwave_light_png.png"
+      }
+    ],
+    "contains_rare": [
+      {
+        "id": "skin-vanilla-weapon_knife_kukri",
+        "name": "มีดคูครี (★)",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": null,
+        "phase": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"
+      },
+      {
+        "id": "skin-34472088",
+        "name": "มีดคูครี (★) | Fade",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "38",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_aa_fade_light_png.png"
+      },
+      {
+        "id": "skin-34472172",
+        "name": "มีดคูครี (★) | Slaughter",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "59",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_am_zebra_light_png.png"
+      },
+      {
+        "id": "skin-34472104",
+        "name": "มีดคูครี (★) | Blue Steel",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "42",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_aq_blued_light_png.png"
+      },
+      {
+        "id": "skin-34472108",
+        "name": "มีดคูครี (★) | Stained",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "43",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_aq_forced_light_png.png"
+      },
+      {
+        "id": "skin-34472112",
+        "name": "มีดคูครี (★) | Case Hardened",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "44",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_aq_oiled_light_png.png"
+      },
+      {
+        "id": "skin-34471956",
+        "name": "มีดคูครี (★) | Forest DDPAT",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "5",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_hy_ddpat_light_png.png"
+      },
+      {
+        "id": "skin-34472244",
+        "name": "มีดคูครี (★) | Boreal Forest",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "77",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_hy_forest_boreal_light_png.png"
+      },
+      {
+        "id": "skin-34471984",
+        "name": "มีดคูครี (★) | Crimson Web",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "12",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_hy_webs_light_png.png"
+      },
+      {
+        "id": "skin-34472636",
+        "name": "มีดคูครี (★) | Scorched",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "175",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_sp_dapple_light_png.png"
+      },
+      {
+        "id": "skin-34472224",
+        "name": "มีดคูครี (★) | Safari Mesh",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "72",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_sp_mesh_tan_light_png.png"
+      },
+      {
+        "id": "skin-34474876",
+        "name": "มีดคูครี (★) | Night Stripe",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "735",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_sp_nightstripe_light_png.png"
+      },
+      {
+        "id": "skin-34472508",
+        "name": "มีดคูครี (★) | Urban Masked",
+        "rarity": {
+          "id": "rarity_ancient_weapon",
+          "name": "ลึกลับ",
+          "color": "#eb4b4b"
+        },
+        "paint_index": "143",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_knife_kukri_sp_tape_urban_light_png.png"
+      }
+    ],
+    "market_hash_name": "Gallery Case",
+    "rental": true,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_34_png.png"
   }
 ]
