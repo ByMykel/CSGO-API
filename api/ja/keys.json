@@ -549,13 +549,13 @@
   },
   {
     "id": "key-7002",
-    "name": "Gallery Case Key",
-    "description": "This key only opens Gallery cases",
+    "name": "Gallery ケースの鍵",
+    "description": "この鍵は Gallery ケースしか開けることができません",
     "market_hash_name": "Gallery Case Key",
     "crates": [
       {
         "id": "crate-7003",
-        "name": "Gallery Case",
+        "name": "Gallery ケース",
         "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_34_png.png"
       }
     ],
