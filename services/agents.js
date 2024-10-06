@@ -37,6 +37,7 @@ const parseItem = (item) => {
         },
         market_hash_name: $t(item.item_name, true),
         image,
+        model_player: item.model_player ?? null
     };
 };
 

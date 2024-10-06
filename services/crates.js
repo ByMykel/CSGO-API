@@ -192,6 +192,7 @@ const parseItem = (item, prefabs) => {
         ),
         rental: !!item.attributes["can open for rental"],
         image,
+        model_player: item.model_player ?? null
     };
 };
 
