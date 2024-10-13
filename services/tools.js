@@ -24,6 +24,12 @@ export const getTools = () => {
             description: $t("csgo_tool_stattrak_swap_desc"),
             image: getImageUrl("econ/tools/stattrak_swap_tool"),
         },
+        {
+            id: "tool-4",
+            name: $t("csgo_removekeychainTool_title"),
+            description: $t("csgo_removekeychaintool_desc"),
+            image: getImageUrl("econ/tools/keychain_remove_tool"),
+        },
     ];
 
     saveDataJson(`./public/api/${folder}/tools.json`, tools);
