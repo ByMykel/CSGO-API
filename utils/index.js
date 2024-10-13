@@ -429,6 +429,7 @@ export const getRarityColor = (id) => {
             return "#b0c3d9";
         case "rarity_uncommon_weapon":
             return "#5e98d9";
+        case "rarity_contraband":
         case "rarity_contraband_weapon":
             return "#e4ae39";
         default:

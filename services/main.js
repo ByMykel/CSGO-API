@@ -32,6 +32,10 @@ export const loadItemSets = () => {
 export const loadStickerKits = () => {
     state.stickerKits = Object.entries(state.itemsGame.sticker_kits).map(
         ([key, item]) => {
+            if (item.name === "comm01_howling_dawn") {
+                item.item_rarity = "contraband"
+            }
+
             return {
                 ...item,
                 object_id: key,
