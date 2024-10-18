@@ -213,6 +213,32 @@ Example response:
 ]
 ```
 
+### List keychains (charms)
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/keychains.json
+```
+
+Example response:
+
+```js
+[
+  {
+    "id": "keychain-1",
+    "name": "Charm | Lil' Ava",
+    "description": "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "High Grade",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": "Charm | Lil' Ava",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png"
+  }
+  // ... 
+]
+```
+
 ### List collections
 
 ```http
