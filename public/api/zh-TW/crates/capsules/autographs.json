@@ -50018,5 +50018,4860 @@
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_group_champions_png.png",
     "model_player": null
+  },
+  {
+    "id": "crate-4978",
+    "name": "Shanghai 2024 Legends Autograph Capsule",
+    "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Legends players at Shanghai 2024.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Autograph Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-8053",
+        "name": "Snax | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_png.png"
+      },
+      {
+        "id": "sticker-8057",
+        "name": "huNter- | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_png.png"
+      },
+      {
+        "id": "sticker-8061",
+        "name": "malbsMd | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_png.png"
+      },
+      {
+        "id": "sticker-8065",
+        "name": "m0NESY | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_png.png"
+      },
+      {
+        "id": "sticker-8069",
+        "name": "NiKo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_png.png"
+      },
+      {
+        "id": "sticker-8073",
+        "name": "w0nderful | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_png.png"
+      },
+      {
+        "id": "sticker-8077",
+        "name": "Aleksib | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_png.png"
+      },
+      {
+        "id": "sticker-8081",
+        "name": "jL | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_png.png"
+      },
+      {
+        "id": "sticker-8085",
+        "name": "b1t | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_png.png"
+      },
+      {
+        "id": "sticker-8089",
+        "name": "iM | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_png.png"
+      },
+      {
+        "id": "sticker-8093",
+        "name": "ZywOo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_png.png"
+      },
+      {
+        "id": "sticker-8097",
+        "name": "apEX | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_png.png"
+      },
+      {
+        "id": "sticker-8101",
+        "name": "mezii | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_png.png"
+      },
+      {
+        "id": "sticker-8105",
+        "name": "FlameZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_png.png"
+      },
+      {
+        "id": "sticker-8109",
+        "name": "Spinx | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_png.png"
+      },
+      {
+        "id": "sticker-8113",
+        "name": "chopper | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_png.png"
+      },
+      {
+        "id": "sticker-8117",
+        "name": "magixx | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_png.png"
+      },
+      {
+        "id": "sticker-8121",
+        "name": "donk | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_png.png"
+      },
+      {
+        "id": "sticker-8125",
+        "name": "sh1ro | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_png.png"
+      },
+      {
+        "id": "sticker-8129",
+        "name": "zont1x | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_png.png"
+      },
+      {
+        "id": "sticker-8133",
+        "name": "torzsi | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_png.png"
+      },
+      {
+        "id": "sticker-8137",
+        "name": "xertioN | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_png.png"
+      },
+      {
+        "id": "sticker-8141",
+        "name": "Brollan | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_png.png"
+      },
+      {
+        "id": "sticker-8145",
+        "name": "Jimpphat | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_png.png"
+      },
+      {
+        "id": "sticker-8149",
+        "name": "siuhy | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_png.png"
+      },
+      {
+        "id": "sticker-8153",
+        "name": "karrigan | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_png.png"
+      },
+      {
+        "id": "sticker-8157",
+        "name": "rain | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_png.png"
+      },
+      {
+        "id": "sticker-8161",
+        "name": "ropz | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_png.png"
+      },
+      {
+        "id": "sticker-8165",
+        "name": "broky | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_png.png"
+      },
+      {
+        "id": "sticker-8169",
+        "name": "frozen | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_png.png"
+      },
+      {
+        "id": "sticker-8173",
+        "name": "TeSeS | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_png.png"
+      },
+      {
+        "id": "sticker-8177",
+        "name": "sjuush | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_png.png"
+      },
+      {
+        "id": "sticker-8181",
+        "name": "kyxsan | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_png.png"
+      },
+      {
+        "id": "sticker-8185",
+        "name": "NertZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_png.png"
+      },
+      {
+        "id": "sticker-8189",
+        "name": "degster | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_png.png"
+      },
+      {
+        "id": "sticker-8193",
+        "name": "Ex3rcice | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_png.png"
+      },
+      {
+        "id": "sticker-8197",
+        "name": "Djoko | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_png.png"
+      },
+      {
+        "id": "sticker-8201",
+        "name": "Maka | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_png.png"
+      },
+      {
+        "id": "sticker-8205",
+        "name": "Lucky | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_png.png"
+      },
+      {
+        "id": "sticker-8209",
+        "name": "Graviti | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_png.png"
+      },
+      {
+        "id": "sticker-8054",
+        "name": "Snax (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_glitter_png.png"
+      },
+      {
+        "id": "sticker-8058",
+        "name": "huNter- (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_glitter_png.png"
+      },
+      {
+        "id": "sticker-8062",
+        "name": "malbsMd (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_glitter_png.png"
+      },
+      {
+        "id": "sticker-8066",
+        "name": "m0NESY (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8070",
+        "name": "NiKo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_glitter_png.png"
+      },
+      {
+        "id": "sticker-8074",
+        "name": "w0nderful (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_glitter_png.png"
+      },
+      {
+        "id": "sticker-8078",
+        "name": "Aleksib (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_glitter_png.png"
+      },
+      {
+        "id": "sticker-8082",
+        "name": "jL (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_glitter_png.png"
+      },
+      {
+        "id": "sticker-8086",
+        "name": "b1t (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_glitter_png.png"
+      },
+      {
+        "id": "sticker-8090",
+        "name": "iM (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_glitter_png.png"
+      },
+      {
+        "id": "sticker-8094",
+        "name": "ZywOo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_glitter_png.png"
+      },
+      {
+        "id": "sticker-8098",
+        "name": "apEX (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_glitter_png.png"
+      },
+      {
+        "id": "sticker-8102",
+        "name": "mezii (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_glitter_png.png"
+      },
+      {
+        "id": "sticker-8106",
+        "name": "FlameZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_glitter_png.png"
+      },
+      {
+        "id": "sticker-8110",
+        "name": "Spinx (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_glitter_png.png"
+      },
+      {
+        "id": "sticker-8114",
+        "name": "chopper (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_glitter_png.png"
+      },
+      {
+        "id": "sticker-8118",
+        "name": "magixx (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_glitter_png.png"
+      },
+      {
+        "id": "sticker-8122",
+        "name": "donk (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_glitter_png.png"
+      },
+      {
+        "id": "sticker-8126",
+        "name": "sh1ro (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_glitter_png.png"
+      },
+      {
+        "id": "sticker-8130",
+        "name": "zont1x (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_glitter_png.png"
+      },
+      {
+        "id": "sticker-8134",
+        "name": "torzsi (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_glitter_png.png"
+      },
+      {
+        "id": "sticker-8138",
+        "name": "xertioN (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8142",
+        "name": "Brollan (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_glitter_png.png"
+      },
+      {
+        "id": "sticker-8146",
+        "name": "Jimpphat (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_glitter_png.png"
+      },
+      {
+        "id": "sticker-8150",
+        "name": "siuhy (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8154",
+        "name": "karrigan (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_glitter_png.png"
+      },
+      {
+        "id": "sticker-8158",
+        "name": "rain (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_glitter_png.png"
+      },
+      {
+        "id": "sticker-8162",
+        "name": "ropz (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8166",
+        "name": "broky (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_glitter_png.png"
+      },
+      {
+        "id": "sticker-8170",
+        "name": "frozen (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_glitter_png.png"
+      },
+      {
+        "id": "sticker-8174",
+        "name": "TeSeS (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_glitter_png.png"
+      },
+      {
+        "id": "sticker-8178",
+        "name": "sjuush (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_glitter_png.png"
+      },
+      {
+        "id": "sticker-8182",
+        "name": "kyxsan (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_glitter_png.png"
+      },
+      {
+        "id": "sticker-8186",
+        "name": "NertZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8190",
+        "name": "degster (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_glitter_png.png"
+      },
+      {
+        "id": "sticker-8194",
+        "name": "Ex3rcice (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_glitter_png.png"
+      },
+      {
+        "id": "sticker-8198",
+        "name": "Djoko (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_glitter_png.png"
+      },
+      {
+        "id": "sticker-8202",
+        "name": "Maka (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_glitter_png.png"
+      },
+      {
+        "id": "sticker-8206",
+        "name": "Lucky (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_glitter_png.png"
+      },
+      {
+        "id": "sticker-8210",
+        "name": "Graviti (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_glitter_png.png"
+      },
+      {
+        "id": "sticker-8055",
+        "name": "Snax (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_holo_png.png"
+      },
+      {
+        "id": "sticker-8059",
+        "name": "huNter- (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_holo_png.png"
+      },
+      {
+        "id": "sticker-8063",
+        "name": "malbsMd (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_holo_png.png"
+      },
+      {
+        "id": "sticker-8067",
+        "name": "m0NESY (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_holo_png.png"
+      },
+      {
+        "id": "sticker-8071",
+        "name": "NiKo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_holo_png.png"
+      },
+      {
+        "id": "sticker-8075",
+        "name": "w0nderful (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_holo_png.png"
+      },
+      {
+        "id": "sticker-8079",
+        "name": "Aleksib (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_holo_png.png"
+      },
+      {
+        "id": "sticker-8083",
+        "name": "jL (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_holo_png.png"
+      },
+      {
+        "id": "sticker-8087",
+        "name": "b1t (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_holo_png.png"
+      },
+      {
+        "id": "sticker-8091",
+        "name": "iM (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_holo_png.png"
+      },
+      {
+        "id": "sticker-8095",
+        "name": "ZywOo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_holo_png.png"
+      },
+      {
+        "id": "sticker-8099",
+        "name": "apEX (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_holo_png.png"
+      },
+      {
+        "id": "sticker-8103",
+        "name": "mezii (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_holo_png.png"
+      },
+      {
+        "id": "sticker-8107",
+        "name": "FlameZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_holo_png.png"
+      },
+      {
+        "id": "sticker-8111",
+        "name": "Spinx (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_holo_png.png"
+      },
+      {
+        "id": "sticker-8115",
+        "name": "chopper (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_holo_png.png"
+      },
+      {
+        "id": "sticker-8119",
+        "name": "magixx (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_holo_png.png"
+      },
+      {
+        "id": "sticker-8123",
+        "name": "donk (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_holo_png.png"
+      },
+      {
+        "id": "sticker-8127",
+        "name": "sh1ro (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_holo_png.png"
+      },
+      {
+        "id": "sticker-8131",
+        "name": "zont1x (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_holo_png.png"
+      },
+      {
+        "id": "sticker-8135",
+        "name": "torzsi (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_holo_png.png"
+      },
+      {
+        "id": "sticker-8139",
+        "name": "xertioN (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_holo_png.png"
+      },
+      {
+        "id": "sticker-8143",
+        "name": "Brollan (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_holo_png.png"
+      },
+      {
+        "id": "sticker-8147",
+        "name": "Jimpphat (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_holo_png.png"
+      },
+      {
+        "id": "sticker-8151",
+        "name": "siuhy (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_holo_png.png"
+      },
+      {
+        "id": "sticker-8155",
+        "name": "karrigan (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_holo_png.png"
+      },
+      {
+        "id": "sticker-8159",
+        "name": "rain (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_holo_png.png"
+      },
+      {
+        "id": "sticker-8163",
+        "name": "ropz (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_holo_png.png"
+      },
+      {
+        "id": "sticker-8167",
+        "name": "broky (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_holo_png.png"
+      },
+      {
+        "id": "sticker-8171",
+        "name": "frozen (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_holo_png.png"
+      },
+      {
+        "id": "sticker-8175",
+        "name": "TeSeS (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_holo_png.png"
+      },
+      {
+        "id": "sticker-8179",
+        "name": "sjuush (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_holo_png.png"
+      },
+      {
+        "id": "sticker-8183",
+        "name": "kyxsan (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_holo_png.png"
+      },
+      {
+        "id": "sticker-8187",
+        "name": "NertZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_holo_png.png"
+      },
+      {
+        "id": "sticker-8191",
+        "name": "degster (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_holo_png.png"
+      },
+      {
+        "id": "sticker-8195",
+        "name": "Ex3rcice (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_holo_png.png"
+      },
+      {
+        "id": "sticker-8199",
+        "name": "Djoko (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_holo_png.png"
+      },
+      {
+        "id": "sticker-8203",
+        "name": "Maka (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_holo_png.png"
+      },
+      {
+        "id": "sticker-8207",
+        "name": "Lucky (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_holo_png.png"
+      },
+      {
+        "id": "sticker-8211",
+        "name": "Graviti (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_holo_png.png"
+      },
+      {
+        "id": "sticker-8056",
+        "name": "Snax (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_gold_png.png"
+      },
+      {
+        "id": "sticker-8060",
+        "name": "huNter- (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_gold_png.png"
+      },
+      {
+        "id": "sticker-8064",
+        "name": "malbsMd (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_gold_png.png"
+      },
+      {
+        "id": "sticker-8068",
+        "name": "m0NESY (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_gold_png.png"
+      },
+      {
+        "id": "sticker-8072",
+        "name": "NiKo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_gold_png.png"
+      },
+      {
+        "id": "sticker-8076",
+        "name": "w0nderful (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_gold_png.png"
+      },
+      {
+        "id": "sticker-8080",
+        "name": "Aleksib (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_gold_png.png"
+      },
+      {
+        "id": "sticker-8084",
+        "name": "jL (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_gold_png.png"
+      },
+      {
+        "id": "sticker-8088",
+        "name": "b1t (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_gold_png.png"
+      },
+      {
+        "id": "sticker-8092",
+        "name": "iM (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_gold_png.png"
+      },
+      {
+        "id": "sticker-8096",
+        "name": "ZywOo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_gold_png.png"
+      },
+      {
+        "id": "sticker-8100",
+        "name": "apEX (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_gold_png.png"
+      },
+      {
+        "id": "sticker-8104",
+        "name": "mezii (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_gold_png.png"
+      },
+      {
+        "id": "sticker-8108",
+        "name": "FlameZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_gold_png.png"
+      },
+      {
+        "id": "sticker-8112",
+        "name": "Spinx (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_gold_png.png"
+      },
+      {
+        "id": "sticker-8116",
+        "name": "chopper (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_gold_png.png"
+      },
+      {
+        "id": "sticker-8120",
+        "name": "magixx (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_gold_png.png"
+      },
+      {
+        "id": "sticker-8124",
+        "name": "donk (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_gold_png.png"
+      },
+      {
+        "id": "sticker-8128",
+        "name": "sh1ro (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_gold_png.png"
+      },
+      {
+        "id": "sticker-8132",
+        "name": "zont1x (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_gold_png.png"
+      },
+      {
+        "id": "sticker-8136",
+        "name": "torzsi (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_gold_png.png"
+      },
+      {
+        "id": "sticker-8140",
+        "name": "xertioN (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_gold_png.png"
+      },
+      {
+        "id": "sticker-8144",
+        "name": "Brollan (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_gold_png.png"
+      },
+      {
+        "id": "sticker-8148",
+        "name": "Jimpphat (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_gold_png.png"
+      },
+      {
+        "id": "sticker-8152",
+        "name": "siuhy (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_gold_png.png"
+      },
+      {
+        "id": "sticker-8156",
+        "name": "karrigan (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_gold_png.png"
+      },
+      {
+        "id": "sticker-8160",
+        "name": "rain (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_gold_png.png"
+      },
+      {
+        "id": "sticker-8164",
+        "name": "ropz (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_gold_png.png"
+      },
+      {
+        "id": "sticker-8168",
+        "name": "broky (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_gold_png.png"
+      },
+      {
+        "id": "sticker-8172",
+        "name": "frozen (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_gold_png.png"
+      },
+      {
+        "id": "sticker-8176",
+        "name": "TeSeS (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_gold_png.png"
+      },
+      {
+        "id": "sticker-8180",
+        "name": "sjuush (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_gold_png.png"
+      },
+      {
+        "id": "sticker-8184",
+        "name": "kyxsan (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_gold_png.png"
+      },
+      {
+        "id": "sticker-8188",
+        "name": "NertZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_gold_png.png"
+      },
+      {
+        "id": "sticker-8192",
+        "name": "degster (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_gold_png.png"
+      },
+      {
+        "id": "sticker-8196",
+        "name": "Ex3rcice (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_gold_png.png"
+      },
+      {
+        "id": "sticker-8200",
+        "name": "Djoko (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_gold_png.png"
+      },
+      {
+        "id": "sticker-8204",
+        "name": "Maka (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_gold_png.png"
+      },
+      {
+        "id": "sticker-8208",
+        "name": "Lucky (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_gold_png.png"
+      },
+      {
+        "id": "sticker-8212",
+        "name": "Graviti (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Legends Autograph Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_group_legends_png.png",
+    "model_player": null
+  },
+  {
+    "id": "crate-4979",
+    "name": "Shanghai 2024 Challengers Autograph Capsule",
+    "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Challengers players at Shanghai 2024.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Autograph Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-8213",
+        "name": "FalleN | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_png.png"
+      },
+      {
+        "id": "sticker-8217",
+        "name": "chelo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_png.png"
+      },
+      {
+        "id": "sticker-8221",
+        "name": "yuurih | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_png.png"
+      },
+      {
+        "id": "sticker-8225",
+        "name": "KSCERATO | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_png.png"
+      },
+      {
+        "id": "sticker-8229",
+        "name": "skullz | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_png.png"
+      },
+      {
+        "id": "sticker-8233",
+        "name": "FL1T | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_png.png"
+      },
+      {
+        "id": "sticker-8237",
+        "name": "Jame | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_png.png"
+      },
+      {
+        "id": "sticker-8241",
+        "name": "fame | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_png.png"
+      },
+      {
+        "id": "sticker-8245",
+        "name": "n0rb3r7 | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_png.png"
+      },
+      {
+        "id": "sticker-8249",
+        "name": "electronic | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_png.png"
+      },
+      {
+        "id": "sticker-8253",
+        "name": "Twistzz | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_png.png"
+      },
+      {
+        "id": "sticker-8257",
+        "name": "ultimate | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_png.png"
+      },
+      {
+        "id": "sticker-8261",
+        "name": "YEKINDAR | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_png.png"
+      },
+      {
+        "id": "sticker-8265",
+        "name": "jks | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_png.png"
+      },
+      {
+        "id": "sticker-8269",
+        "name": "NAF | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_png.png"
+      },
+      {
+        "id": "sticker-8273",
+        "name": "EliGE | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_png.png"
+      },
+      {
+        "id": "sticker-8277",
+        "name": "floppy | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_png.png"
+      },
+      {
+        "id": "sticker-8281",
+        "name": "Grim | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_png.png"
+      },
+      {
+        "id": "sticker-8285",
+        "name": "hallzerk | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_png.png"
+      },
+      {
+        "id": "sticker-8289",
+        "name": "JT | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_png.png"
+      },
+      {
+        "id": "sticker-8293",
+        "name": "tabseN | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_png.png"
+      },
+      {
+        "id": "sticker-8297",
+        "name": "Krimbo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_png.png"
+      },
+      {
+        "id": "sticker-8301",
+        "name": "JDC | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_png.png"
+      },
+      {
+        "id": "sticker-8305",
+        "name": "syrsoN | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_png.png"
+      },
+      {
+        "id": "sticker-8309",
+        "name": "rigoN | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_png.png"
+      },
+      {
+        "id": "sticker-8313",
+        "name": "KRIMZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_png.png"
+      },
+      {
+        "id": "sticker-8317",
+        "name": "bodyy | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_png.png"
+      },
+      {
+        "id": "sticker-8321",
+        "name": "MATYS | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_png.png"
+      },
+      {
+        "id": "sticker-8325",
+        "name": "blameF | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_png.png"
+      },
+      {
+        "id": "sticker-8329",
+        "name": "afro | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_png.png"
+      },
+      {
+        "id": "sticker-8333",
+        "name": "bLitz | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_png.png"
+      },
+      {
+        "id": "sticker-8337",
+        "name": "910 | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_png.png"
+      },
+      {
+        "id": "sticker-8341",
+        "name": "Techno4K | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_png.png"
+      },
+      {
+        "id": "sticker-8345",
+        "name": "Senzu | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_png.png"
+      },
+      {
+        "id": "sticker-8349",
+        "name": "mzinho | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_png.png"
+      },
+      {
+        "id": "sticker-8353",
+        "name": "biguzera | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_png.png"
+      },
+      {
+        "id": "sticker-8357",
+        "name": "lux | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_png.png"
+      },
+      {
+        "id": "sticker-8361",
+        "name": "kauez | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_png.png"
+      },
+      {
+        "id": "sticker-8365",
+        "name": "NQZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_png.png"
+      },
+      {
+        "id": "sticker-8369",
+        "name": "snow | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_png.png"
+      },
+      {
+        "id": "sticker-8214",
+        "name": "FalleN (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_glitter_png.png"
+      },
+      {
+        "id": "sticker-8218",
+        "name": "chelo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_glitter_png.png"
+      },
+      {
+        "id": "sticker-8222",
+        "name": "yuurih (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_glitter_png.png"
+      },
+      {
+        "id": "sticker-8226",
+        "name": "KSCERATO (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_glitter_png.png"
+      },
+      {
+        "id": "sticker-8230",
+        "name": "skullz (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8234",
+        "name": "FL1T (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_glitter_png.png"
+      },
+      {
+        "id": "sticker-8238",
+        "name": "Jame (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_glitter_png.png"
+      },
+      {
+        "id": "sticker-8242",
+        "name": "fame (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_glitter_png.png"
+      },
+      {
+        "id": "sticker-8246",
+        "name": "n0rb3r7 (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_glitter_png.png"
+      },
+      {
+        "id": "sticker-8250",
+        "name": "electronic (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_glitter_png.png"
+      },
+      {
+        "id": "sticker-8254",
+        "name": "Twistzz (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8258",
+        "name": "ultimate (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_glitter_png.png"
+      },
+      {
+        "id": "sticker-8262",
+        "name": "YEKINDAR (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_glitter_png.png"
+      },
+      {
+        "id": "sticker-8266",
+        "name": "jks (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_glitter_png.png"
+      },
+      {
+        "id": "sticker-8270",
+        "name": "NAF (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_glitter_png.png"
+      },
+      {
+        "id": "sticker-8274",
+        "name": "EliGE (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_glitter_png.png"
+      },
+      {
+        "id": "sticker-8278",
+        "name": "floppy (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8282",
+        "name": "Grim (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_glitter_png.png"
+      },
+      {
+        "id": "sticker-8286",
+        "name": "hallzerk (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_glitter_png.png"
+      },
+      {
+        "id": "sticker-8290",
+        "name": "JT (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_glitter_png.png"
+      },
+      {
+        "id": "sticker-8294",
+        "name": "tabseN (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_glitter_png.png"
+      },
+      {
+        "id": "sticker-8298",
+        "name": "Krimbo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_glitter_png.png"
+      },
+      {
+        "id": "sticker-8302",
+        "name": "JDC (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_glitter_png.png"
+      },
+      {
+        "id": "sticker-8306",
+        "name": "syrsoN (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_glitter_png.png"
+      },
+      {
+        "id": "sticker-8310",
+        "name": "rigoN (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_glitter_png.png"
+      },
+      {
+        "id": "sticker-8314",
+        "name": "KRIMZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8318",
+        "name": "bodyy (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8322",
+        "name": "MATYS (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_glitter_png.png"
+      },
+      {
+        "id": "sticker-8326",
+        "name": "blameF (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_glitter_png.png"
+      },
+      {
+        "id": "sticker-8330",
+        "name": "afro (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_glitter_png.png"
+      },
+      {
+        "id": "sticker-8334",
+        "name": "bLitz (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8338",
+        "name": "910 (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_glitter_png.png"
+      },
+      {
+        "id": "sticker-8342",
+        "name": "Techno4K (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_glitter_png.png"
+      },
+      {
+        "id": "sticker-8346",
+        "name": "Senzu (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_glitter_png.png"
+      },
+      {
+        "id": "sticker-8350",
+        "name": "mzinho (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_glitter_png.png"
+      },
+      {
+        "id": "sticker-8354",
+        "name": "biguzera (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_glitter_png.png"
+      },
+      {
+        "id": "sticker-8358",
+        "name": "lux (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_glitter_png.png"
+      },
+      {
+        "id": "sticker-8362",
+        "name": "kauez (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_glitter_png.png"
+      },
+      {
+        "id": "sticker-8366",
+        "name": "NQZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8370",
+        "name": "snow (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_glitter_png.png"
+      },
+      {
+        "id": "sticker-8215",
+        "name": "FalleN (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_holo_png.png"
+      },
+      {
+        "id": "sticker-8219",
+        "name": "chelo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_holo_png.png"
+      },
+      {
+        "id": "sticker-8223",
+        "name": "yuurih (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_holo_png.png"
+      },
+      {
+        "id": "sticker-8227",
+        "name": "KSCERATO (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_holo_png.png"
+      },
+      {
+        "id": "sticker-8231",
+        "name": "skullz (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_holo_png.png"
+      },
+      {
+        "id": "sticker-8235",
+        "name": "FL1T (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_holo_png.png"
+      },
+      {
+        "id": "sticker-8239",
+        "name": "Jame (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_holo_png.png"
+      },
+      {
+        "id": "sticker-8243",
+        "name": "fame (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_holo_png.png"
+      },
+      {
+        "id": "sticker-8247",
+        "name": "n0rb3r7 (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_holo_png.png"
+      },
+      {
+        "id": "sticker-8251",
+        "name": "electronic (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_holo_png.png"
+      },
+      {
+        "id": "sticker-8255",
+        "name": "Twistzz (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_holo_png.png"
+      },
+      {
+        "id": "sticker-8259",
+        "name": "ultimate (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_holo_png.png"
+      },
+      {
+        "id": "sticker-8263",
+        "name": "YEKINDAR (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_holo_png.png"
+      },
+      {
+        "id": "sticker-8267",
+        "name": "jks (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_holo_png.png"
+      },
+      {
+        "id": "sticker-8271",
+        "name": "NAF (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_holo_png.png"
+      },
+      {
+        "id": "sticker-8275",
+        "name": "EliGE (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_holo_png.png"
+      },
+      {
+        "id": "sticker-8279",
+        "name": "floppy (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_holo_png.png"
+      },
+      {
+        "id": "sticker-8283",
+        "name": "Grim (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_holo_png.png"
+      },
+      {
+        "id": "sticker-8287",
+        "name": "hallzerk (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_holo_png.png"
+      },
+      {
+        "id": "sticker-8291",
+        "name": "JT (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_holo_png.png"
+      },
+      {
+        "id": "sticker-8295",
+        "name": "tabseN (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_holo_png.png"
+      },
+      {
+        "id": "sticker-8299",
+        "name": "Krimbo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_holo_png.png"
+      },
+      {
+        "id": "sticker-8303",
+        "name": "JDC (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_holo_png.png"
+      },
+      {
+        "id": "sticker-8307",
+        "name": "syrsoN (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_holo_png.png"
+      },
+      {
+        "id": "sticker-8311",
+        "name": "rigoN (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_holo_png.png"
+      },
+      {
+        "id": "sticker-8315",
+        "name": "KRIMZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_holo_png.png"
+      },
+      {
+        "id": "sticker-8319",
+        "name": "bodyy (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_holo_png.png"
+      },
+      {
+        "id": "sticker-8323",
+        "name": "MATYS (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_holo_png.png"
+      },
+      {
+        "id": "sticker-8327",
+        "name": "blameF (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_holo_png.png"
+      },
+      {
+        "id": "sticker-8331",
+        "name": "afro (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_holo_png.png"
+      },
+      {
+        "id": "sticker-8335",
+        "name": "bLitz (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_holo_png.png"
+      },
+      {
+        "id": "sticker-8339",
+        "name": "910 (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_holo_png.png"
+      },
+      {
+        "id": "sticker-8343",
+        "name": "Techno4K (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_holo_png.png"
+      },
+      {
+        "id": "sticker-8347",
+        "name": "Senzu (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_holo_png.png"
+      },
+      {
+        "id": "sticker-8351",
+        "name": "mzinho (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_holo_png.png"
+      },
+      {
+        "id": "sticker-8355",
+        "name": "biguzera (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_holo_png.png"
+      },
+      {
+        "id": "sticker-8359",
+        "name": "lux (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_holo_png.png"
+      },
+      {
+        "id": "sticker-8363",
+        "name": "kauez (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_holo_png.png"
+      },
+      {
+        "id": "sticker-8367",
+        "name": "NQZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_holo_png.png"
+      },
+      {
+        "id": "sticker-8371",
+        "name": "snow (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_holo_png.png"
+      },
+      {
+        "id": "sticker-8216",
+        "name": "FalleN (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_gold_png.png"
+      },
+      {
+        "id": "sticker-8220",
+        "name": "chelo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_gold_png.png"
+      },
+      {
+        "id": "sticker-8224",
+        "name": "yuurih (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_gold_png.png"
+      },
+      {
+        "id": "sticker-8228",
+        "name": "KSCERATO (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_gold_png.png"
+      },
+      {
+        "id": "sticker-8232",
+        "name": "skullz (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_gold_png.png"
+      },
+      {
+        "id": "sticker-8236",
+        "name": "FL1T (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_gold_png.png"
+      },
+      {
+        "id": "sticker-8240",
+        "name": "Jame (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_gold_png.png"
+      },
+      {
+        "id": "sticker-8244",
+        "name": "fame (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_gold_png.png"
+      },
+      {
+        "id": "sticker-8248",
+        "name": "n0rb3r7 (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_gold_png.png"
+      },
+      {
+        "id": "sticker-8252",
+        "name": "electronic (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_gold_png.png"
+      },
+      {
+        "id": "sticker-8256",
+        "name": "Twistzz (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_gold_png.png"
+      },
+      {
+        "id": "sticker-8260",
+        "name": "ultimate (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_gold_png.png"
+      },
+      {
+        "id": "sticker-8264",
+        "name": "YEKINDAR (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_gold_png.png"
+      },
+      {
+        "id": "sticker-8268",
+        "name": "jks (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_gold_png.png"
+      },
+      {
+        "id": "sticker-8272",
+        "name": "NAF (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_gold_png.png"
+      },
+      {
+        "id": "sticker-8276",
+        "name": "EliGE (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_gold_png.png"
+      },
+      {
+        "id": "sticker-8280",
+        "name": "floppy (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_gold_png.png"
+      },
+      {
+        "id": "sticker-8284",
+        "name": "Grim (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_gold_png.png"
+      },
+      {
+        "id": "sticker-8288",
+        "name": "hallzerk (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_gold_png.png"
+      },
+      {
+        "id": "sticker-8292",
+        "name": "JT (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_gold_png.png"
+      },
+      {
+        "id": "sticker-8296",
+        "name": "tabseN (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_gold_png.png"
+      },
+      {
+        "id": "sticker-8300",
+        "name": "Krimbo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_gold_png.png"
+      },
+      {
+        "id": "sticker-8304",
+        "name": "JDC (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_gold_png.png"
+      },
+      {
+        "id": "sticker-8308",
+        "name": "syrsoN (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_gold_png.png"
+      },
+      {
+        "id": "sticker-8312",
+        "name": "rigoN (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_gold_png.png"
+      },
+      {
+        "id": "sticker-8316",
+        "name": "KRIMZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_gold_png.png"
+      },
+      {
+        "id": "sticker-8320",
+        "name": "bodyy (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_gold_png.png"
+      },
+      {
+        "id": "sticker-8324",
+        "name": "MATYS (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_gold_png.png"
+      },
+      {
+        "id": "sticker-8328",
+        "name": "blameF (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_gold_png.png"
+      },
+      {
+        "id": "sticker-8332",
+        "name": "afro (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_gold_png.png"
+      },
+      {
+        "id": "sticker-8336",
+        "name": "bLitz (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_gold_png.png"
+      },
+      {
+        "id": "sticker-8340",
+        "name": "910 (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_gold_png.png"
+      },
+      {
+        "id": "sticker-8344",
+        "name": "Techno4K (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_gold_png.png"
+      },
+      {
+        "id": "sticker-8348",
+        "name": "Senzu (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_gold_png.png"
+      },
+      {
+        "id": "sticker-8352",
+        "name": "mzinho (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_gold_png.png"
+      },
+      {
+        "id": "sticker-8356",
+        "name": "biguzera (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_gold_png.png"
+      },
+      {
+        "id": "sticker-8360",
+        "name": "lux (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_gold_png.png"
+      },
+      {
+        "id": "sticker-8364",
+        "name": "kauez (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_gold_png.png"
+      },
+      {
+        "id": "sticker-8368",
+        "name": "NQZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_gold_png.png"
+      },
+      {
+        "id": "sticker-8372",
+        "name": "snow (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Challengers Autograph Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_group_challengers_png.png",
+    "model_player": null
+  },
+  {
+    "id": "crate-4980",
+    "name": "Shanghai 2024 Contenders Autograph Capsule",
+    "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Contenders players at Shanghai 2024.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Autograph Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-8373",
+        "name": "ztr | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_png.png"
+      },
+      {
+        "id": "sticker-8377",
+        "name": "sl3nd | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_png.png"
+      },
+      {
+        "id": "sticker-8381",
+        "name": "Volt | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_png.png"
+      },
+      {
+        "id": "sticker-8385",
+        "name": "FL4MUS | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_png.png"
+      },
+      {
+        "id": "sticker-8389",
+        "name": "aNdu | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_png.png"
+      },
+      {
+        "id": "sticker-8393",
+        "name": "drop | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_png.png"
+      },
+      {
+        "id": "sticker-8397",
+        "name": "saffee | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_png.png"
+      },
+      {
+        "id": "sticker-8401",
+        "name": "insani | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_png.png"
+      },
+      {
+        "id": "sticker-8405",
+        "name": "Lucaozy | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_png.png"
+      },
+      {
+        "id": "sticker-8409",
+        "name": "exit | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_png.png"
+      },
+      {
+        "id": "sticker-8413",
+        "name": "Boombl4 | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_png.png"
+      },
+      {
+        "id": "sticker-8417",
+        "name": "Ax1Le | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_png.png"
+      },
+      {
+        "id": "sticker-8421",
+        "name": "Heavygod | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_png.png"
+      },
+      {
+        "id": "sticker-8425",
+        "name": "ICY | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_png.png"
+      },
+      {
+        "id": "sticker-8429",
+        "name": "Perfecto | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_png.png"
+      },
+      {
+        "id": "sticker-8433",
+        "name": "dexter | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_png.png"
+      },
+      {
+        "id": "sticker-8437",
+        "name": "Liazz | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_png.png"
+      },
+      {
+        "id": "sticker-8441",
+        "name": "aliStair | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_png.png"
+      },
+      {
+        "id": "sticker-8445",
+        "name": "INS | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_png.png"
+      },
+      {
+        "id": "sticker-8449",
+        "name": "vexite | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_png.png"
+      },
+      {
+        "id": "sticker-8453",
+        "name": "fEAR | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_png.png"
+      },
+      {
+        "id": "sticker-8457",
+        "name": "jambo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_png.png"
+      },
+      {
+        "id": "sticker-8461",
+        "name": "jackasmo | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_png.png"
+      },
+      {
+        "id": "sticker-8465",
+        "name": "s-chilla | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_png.png"
+      },
+      {
+        "id": "sticker-8469",
+        "name": "zeRRoFIX | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_png.png"
+      },
+      {
+        "id": "sticker-8473",
+        "name": "stanislaw | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_png.png"
+      },
+      {
+        "id": "sticker-8477",
+        "name": "Sonic | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_png.png"
+      },
+      {
+        "id": "sticker-8481",
+        "name": "JBa | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_png.png"
+      },
+      {
+        "id": "sticker-8485",
+        "name": "phzy | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_png.png"
+      },
+      {
+        "id": "sticker-8489",
+        "name": "susp | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_png.png"
+      },
+      {
+        "id": "sticker-8493",
+        "name": "Summer | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_png.png"
+      },
+      {
+        "id": "sticker-8497",
+        "name": "ChildKing | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_png.png"
+      },
+      {
+        "id": "sticker-8501",
+        "name": "somebody | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_png.png"
+      },
+      {
+        "id": "sticker-8505",
+        "name": "L1haNg | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_png.png"
+      },
+      {
+        "id": "sticker-8509",
+        "name": "Kaze | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_png.png"
+      },
+      {
+        "id": "sticker-8513",
+        "name": "VINI | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_png.png"
+      },
+      {
+        "id": "sticker-8517",
+        "name": "felps | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_png.png"
+      },
+      {
+        "id": "sticker-8521",
+        "name": "TRY | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_png.png"
+      },
+      {
+        "id": "sticker-8525",
+        "name": "decenty | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_png.png"
+      },
+      {
+        "id": "sticker-8529",
+        "name": "noway | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "高級",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_png.png"
+      },
+      {
+        "id": "sticker-8374",
+        "name": "ztr (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_glitter_png.png"
+      },
+      {
+        "id": "sticker-8378",
+        "name": "sl3nd (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_glitter_png.png"
+      },
+      {
+        "id": "sticker-8382",
+        "name": "Volt (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_glitter_png.png"
+      },
+      {
+        "id": "sticker-8386",
+        "name": "FL4MUS (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_glitter_png.png"
+      },
+      {
+        "id": "sticker-8390",
+        "name": "aNdu (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_glitter_png.png"
+      },
+      {
+        "id": "sticker-8394",
+        "name": "drop (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_glitter_png.png"
+      },
+      {
+        "id": "sticker-8398",
+        "name": "saffee (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_glitter_png.png"
+      },
+      {
+        "id": "sticker-8402",
+        "name": "insani (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_glitter_png.png"
+      },
+      {
+        "id": "sticker-8406",
+        "name": "Lucaozy (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8410",
+        "name": "exit (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_glitter_png.png"
+      },
+      {
+        "id": "sticker-8414",
+        "name": "Boombl4 (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_glitter_png.png"
+      },
+      {
+        "id": "sticker-8418",
+        "name": "Ax1Le (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_glitter_png.png"
+      },
+      {
+        "id": "sticker-8422",
+        "name": "Heavygod (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_glitter_png.png"
+      },
+      {
+        "id": "sticker-8426",
+        "name": "ICY (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8430",
+        "name": "Perfecto (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_glitter_png.png"
+      },
+      {
+        "id": "sticker-8434",
+        "name": "dexter (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_glitter_png.png"
+      },
+      {
+        "id": "sticker-8438",
+        "name": "Liazz (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_glitter_png.png"
+      },
+      {
+        "id": "sticker-8442",
+        "name": "aliStair (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_glitter_png.png"
+      },
+      {
+        "id": "sticker-8446",
+        "name": "INS (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_glitter_png.png"
+      },
+      {
+        "id": "sticker-8450",
+        "name": "vexite (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_glitter_png.png"
+      },
+      {
+        "id": "sticker-8454",
+        "name": "fEAR (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_glitter_png.png"
+      },
+      {
+        "id": "sticker-8458",
+        "name": "jambo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_glitter_png.png"
+      },
+      {
+        "id": "sticker-8462",
+        "name": "jackasmo (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_glitter_png.png"
+      },
+      {
+        "id": "sticker-8466",
+        "name": "s-chilla (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_glitter_png.png"
+      },
+      {
+        "id": "sticker-8470",
+        "name": "zeRRoFIX (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_glitter_png.png"
+      },
+      {
+        "id": "sticker-8474",
+        "name": "stanislaw (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_glitter_png.png"
+      },
+      {
+        "id": "sticker-8478",
+        "name": "Sonic (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_glitter_png.png"
+      },
+      {
+        "id": "sticker-8482",
+        "name": "JBa (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_glitter_png.png"
+      },
+      {
+        "id": "sticker-8486",
+        "name": "phzy (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_glitter_png.png"
+      },
+      {
+        "id": "sticker-8490",
+        "name": "susp (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_glitter_png.png"
+      },
+      {
+        "id": "sticker-8494",
+        "name": "Summer (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_glitter_png.png"
+      },
+      {
+        "id": "sticker-8498",
+        "name": "ChildKing (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_glitter_png.png"
+      },
+      {
+        "id": "sticker-8502",
+        "name": "somebody (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_glitter_png.png"
+      },
+      {
+        "id": "sticker-8506",
+        "name": "L1haNg (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_glitter_png.png"
+      },
+      {
+        "id": "sticker-8510",
+        "name": "Kaze (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_glitter_png.png"
+      },
+      {
+        "id": "sticker-8514",
+        "name": "VINI (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_glitter_png.png"
+      },
+      {
+        "id": "sticker-8518",
+        "name": "felps (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_glitter_png.png"
+      },
+      {
+        "id": "sticker-8522",
+        "name": "TRY (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_glitter_png.png"
+      },
+      {
+        "id": "sticker-8526",
+        "name": "decenty (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_glitter_png.png"
+      },
+      {
+        "id": "sticker-8530",
+        "name": "noway (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "神話",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_glitter_png.png"
+      },
+      {
+        "id": "sticker-8375",
+        "name": "ztr (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_holo_png.png"
+      },
+      {
+        "id": "sticker-8379",
+        "name": "sl3nd (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_holo_png.png"
+      },
+      {
+        "id": "sticker-8383",
+        "name": "Volt (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_holo_png.png"
+      },
+      {
+        "id": "sticker-8387",
+        "name": "FL4MUS (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_holo_png.png"
+      },
+      {
+        "id": "sticker-8391",
+        "name": "aNdu (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_holo_png.png"
+      },
+      {
+        "id": "sticker-8395",
+        "name": "drop (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_holo_png.png"
+      },
+      {
+        "id": "sticker-8399",
+        "name": "saffee (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_holo_png.png"
+      },
+      {
+        "id": "sticker-8403",
+        "name": "insani (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_holo_png.png"
+      },
+      {
+        "id": "sticker-8407",
+        "name": "Lucaozy (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_holo_png.png"
+      },
+      {
+        "id": "sticker-8411",
+        "name": "exit (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_holo_png.png"
+      },
+      {
+        "id": "sticker-8415",
+        "name": "Boombl4 (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_holo_png.png"
+      },
+      {
+        "id": "sticker-8419",
+        "name": "Ax1Le (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_holo_png.png"
+      },
+      {
+        "id": "sticker-8423",
+        "name": "Heavygod (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_holo_png.png"
+      },
+      {
+        "id": "sticker-8427",
+        "name": "ICY (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_holo_png.png"
+      },
+      {
+        "id": "sticker-8431",
+        "name": "Perfecto (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_holo_png.png"
+      },
+      {
+        "id": "sticker-8435",
+        "name": "dexter (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_holo_png.png"
+      },
+      {
+        "id": "sticker-8439",
+        "name": "Liazz (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_holo_png.png"
+      },
+      {
+        "id": "sticker-8443",
+        "name": "aliStair (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_holo_png.png"
+      },
+      {
+        "id": "sticker-8447",
+        "name": "INS (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_holo_png.png"
+      },
+      {
+        "id": "sticker-8451",
+        "name": "vexite (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_holo_png.png"
+      },
+      {
+        "id": "sticker-8455",
+        "name": "fEAR (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_holo_png.png"
+      },
+      {
+        "id": "sticker-8459",
+        "name": "jambo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_holo_png.png"
+      },
+      {
+        "id": "sticker-8463",
+        "name": "jackasmo (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_holo_png.png"
+      },
+      {
+        "id": "sticker-8467",
+        "name": "s-chilla (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_holo_png.png"
+      },
+      {
+        "id": "sticker-8471",
+        "name": "zeRRoFIX (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_holo_png.png"
+      },
+      {
+        "id": "sticker-8475",
+        "name": "stanislaw (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_holo_png.png"
+      },
+      {
+        "id": "sticker-8479",
+        "name": "Sonic (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_holo_png.png"
+      },
+      {
+        "id": "sticker-8483",
+        "name": "JBa (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_holo_png.png"
+      },
+      {
+        "id": "sticker-8487",
+        "name": "phzy (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_holo_png.png"
+      },
+      {
+        "id": "sticker-8491",
+        "name": "susp (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_holo_png.png"
+      },
+      {
+        "id": "sticker-8495",
+        "name": "Summer (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_holo_png.png"
+      },
+      {
+        "id": "sticker-8499",
+        "name": "ChildKing (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_holo_png.png"
+      },
+      {
+        "id": "sticker-8503",
+        "name": "somebody (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_holo_png.png"
+      },
+      {
+        "id": "sticker-8507",
+        "name": "L1haNg (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_holo_png.png"
+      },
+      {
+        "id": "sticker-8511",
+        "name": "Kaze (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_holo_png.png"
+      },
+      {
+        "id": "sticker-8515",
+        "name": "VINI (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_holo_png.png"
+      },
+      {
+        "id": "sticker-8519",
+        "name": "felps (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_holo_png.png"
+      },
+      {
+        "id": "sticker-8523",
+        "name": "TRY (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_holo_png.png"
+      },
+      {
+        "id": "sticker-8527",
+        "name": "decenty (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_holo_png.png"
+      },
+      {
+        "id": "sticker-8531",
+        "name": "noway (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "特製",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_holo_png.png"
+      },
+      {
+        "id": "sticker-8376",
+        "name": "ztr (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_gold_png.png"
+      },
+      {
+        "id": "sticker-8380",
+        "name": "sl3nd (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_gold_png.png"
+      },
+      {
+        "id": "sticker-8384",
+        "name": "Volt (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_gold_png.png"
+      },
+      {
+        "id": "sticker-8388",
+        "name": "FL4MUS (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_gold_png.png"
+      },
+      {
+        "id": "sticker-8392",
+        "name": "aNdu (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_gold_png.png"
+      },
+      {
+        "id": "sticker-8396",
+        "name": "drop (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_gold_png.png"
+      },
+      {
+        "id": "sticker-8400",
+        "name": "saffee (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_gold_png.png"
+      },
+      {
+        "id": "sticker-8404",
+        "name": "insani (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_gold_png.png"
+      },
+      {
+        "id": "sticker-8408",
+        "name": "Lucaozy (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_gold_png.png"
+      },
+      {
+        "id": "sticker-8412",
+        "name": "exit (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_gold_png.png"
+      },
+      {
+        "id": "sticker-8416",
+        "name": "Boombl4 (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_gold_png.png"
+      },
+      {
+        "id": "sticker-8420",
+        "name": "Ax1Le (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_gold_png.png"
+      },
+      {
+        "id": "sticker-8424",
+        "name": "Heavygod (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_gold_png.png"
+      },
+      {
+        "id": "sticker-8428",
+        "name": "ICY (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_gold_png.png"
+      },
+      {
+        "id": "sticker-8432",
+        "name": "Perfecto (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_gold_png.png"
+      },
+      {
+        "id": "sticker-8436",
+        "name": "dexter (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_gold_png.png"
+      },
+      {
+        "id": "sticker-8440",
+        "name": "Liazz (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_gold_png.png"
+      },
+      {
+        "id": "sticker-8444",
+        "name": "aliStair (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_gold_png.png"
+      },
+      {
+        "id": "sticker-8448",
+        "name": "INS (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_gold_png.png"
+      },
+      {
+        "id": "sticker-8452",
+        "name": "vexite (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_gold_png.png"
+      },
+      {
+        "id": "sticker-8456",
+        "name": "fEAR (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_gold_png.png"
+      },
+      {
+        "id": "sticker-8460",
+        "name": "jambo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_gold_png.png"
+      },
+      {
+        "id": "sticker-8464",
+        "name": "jackasmo (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_gold_png.png"
+      },
+      {
+        "id": "sticker-8468",
+        "name": "s-chilla (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_gold_png.png"
+      },
+      {
+        "id": "sticker-8472",
+        "name": "zeRRoFIX (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_gold_png.png"
+      },
+      {
+        "id": "sticker-8476",
+        "name": "stanislaw (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_gold_png.png"
+      },
+      {
+        "id": "sticker-8480",
+        "name": "Sonic (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_gold_png.png"
+      },
+      {
+        "id": "sticker-8484",
+        "name": "JBa (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_gold_png.png"
+      },
+      {
+        "id": "sticker-8488",
+        "name": "phzy (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_gold_png.png"
+      },
+      {
+        "id": "sticker-8492",
+        "name": "susp (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_gold_png.png"
+      },
+      {
+        "id": "sticker-8496",
+        "name": "Summer (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_gold_png.png"
+      },
+      {
+        "id": "sticker-8500",
+        "name": "ChildKing (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_gold_png.png"
+      },
+      {
+        "id": "sticker-8504",
+        "name": "somebody (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_gold_png.png"
+      },
+      {
+        "id": "sticker-8508",
+        "name": "L1haNg (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_gold_png.png"
+      },
+      {
+        "id": "sticker-8512",
+        "name": "Kaze (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_gold_png.png"
+      },
+      {
+        "id": "sticker-8516",
+        "name": "VINI (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_gold_png.png"
+      },
+      {
+        "id": "sticker-8520",
+        "name": "felps (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_gold_png.png"
+      },
+      {
+        "id": "sticker-8524",
+        "name": "TRY (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_gold_png.png"
+      },
+      {
+        "id": "sticker-8528",
+        "name": "decenty (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_gold_png.png"
+      },
+      {
+        "id": "sticker-8532",
+        "name": "noway (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "超絕",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Contenders Autograph Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_group_contenders_png.png",
+    "model_player": null
+  },
+  {
+    "id": "crate-4981",
+    "name": "Shanghai 2024 Champions Autograph Capsule",
+    "description": "This capsule contains a single Paper, Glitter, Holo, or Gold sticker autographed by one of the Champions players at Shanghai 2024.\\n\\n50% of the proceeds from the sale of this capsule support the included players and organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Autograph Capsule",
+    "first_sale_date": null,
+    "contains": [],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Champions Autograph Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_group_champions_png.png",
+    "model_player": null
   }
 ]

@@ -19192,5 +19192,1127 @@
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_cph2024_contenders_png.png",
     "model_player": null
+  },
+  {
+    "id": "crate-4964",
+    "name": "Shanghai 2024 Legends Sticker Capsule",
+    "description": "This capsule contains a single Shanghai 2024 Legends participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Sticker Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-7928",
+        "name": "G2 Esports | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_png.png"
+      },
+      {
+        "id": "sticker-7932",
+        "name": "Natus Vincere | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_png.png"
+      },
+      {
+        "id": "sticker-7936",
+        "name": "Vitality | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_png.png"
+      },
+      {
+        "id": "sticker-7940",
+        "name": "Team Spirit | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_png.png"
+      },
+      {
+        "id": "sticker-7944",
+        "name": "MOUZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_png.png"
+      },
+      {
+        "id": "sticker-7948",
+        "name": "FaZe Clan | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_png.png"
+      },
+      {
+        "id": "sticker-7952",
+        "name": "HEROIC | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_png.png"
+      },
+      {
+        "id": "sticker-7956",
+        "name": "3DMAX | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_png.png"
+      },
+      {
+        "id": "sticker-8024",
+        "name": "Perfect World | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_png.png"
+      },
+      {
+        "id": "sticker-7929",
+        "name": "G2 Esports (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_glitter_png.png"
+      },
+      {
+        "id": "sticker-7933",
+        "name": "Natus Vincere (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_glitter_png.png"
+      },
+      {
+        "id": "sticker-7937",
+        "name": "Vitality (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_glitter_png.png"
+      },
+      {
+        "id": "sticker-7941",
+        "name": "Team Spirit (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_glitter_png.png"
+      },
+      {
+        "id": "sticker-7945",
+        "name": "MOUZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_glitter_png.png"
+      },
+      {
+        "id": "sticker-7949",
+        "name": "FaZe Clan (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_glitter_png.png"
+      },
+      {
+        "id": "sticker-7953",
+        "name": "HEROIC (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_glitter_png.png"
+      },
+      {
+        "id": "sticker-7957",
+        "name": "3DMAX (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_glitter_png.png"
+      },
+      {
+        "id": "sticker-8025",
+        "name": "Perfect World (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_glitter_png.png"
+      },
+      {
+        "id": "sticker-7930",
+        "name": "G2 Esports (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_holo_png.png"
+      },
+      {
+        "id": "sticker-7934",
+        "name": "Natus Vincere (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_holo_png.png"
+      },
+      {
+        "id": "sticker-7938",
+        "name": "Vitality (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_holo_png.png"
+      },
+      {
+        "id": "sticker-7942",
+        "name": "Team Spirit (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_holo_png.png"
+      },
+      {
+        "id": "sticker-7946",
+        "name": "MOUZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_holo_png.png"
+      },
+      {
+        "id": "sticker-7950",
+        "name": "FaZe Clan (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_holo_png.png"
+      },
+      {
+        "id": "sticker-7954",
+        "name": "HEROIC (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_holo_png.png"
+      },
+      {
+        "id": "sticker-7958",
+        "name": "3DMAX (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_holo_png.png"
+      },
+      {
+        "id": "sticker-8026",
+        "name": "Perfect World (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_holo_png.png"
+      },
+      {
+        "id": "sticker-7931",
+        "name": "G2 Esports (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_gold_png.png"
+      },
+      {
+        "id": "sticker-7935",
+        "name": "Natus Vincere (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_gold_png.png"
+      },
+      {
+        "id": "sticker-7939",
+        "name": "Vitality (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_gold_png.png"
+      },
+      {
+        "id": "sticker-7943",
+        "name": "Team Spirit (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_gold_png.png"
+      },
+      {
+        "id": "sticker-7947",
+        "name": "MOUZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_gold_png.png"
+      },
+      {
+        "id": "sticker-7951",
+        "name": "FaZe Clan (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_gold_png.png"
+      },
+      {
+        "id": "sticker-7955",
+        "name": "HEROIC (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_gold_png.png"
+      },
+      {
+        "id": "sticker-7959",
+        "name": "3DMAX (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_gold_png.png"
+      },
+      {
+        "id": "sticker-8027",
+        "name": "Perfect World (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Legends Sticker Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_legends_png.png",
+    "model_player": null
+  },
+  {
+    "id": "crate-4965",
+    "name": "Shanghai 2024 Challengers Sticker Capsule",
+    "description": "This capsule contains a single Shanghai 2024 Challengers participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Sticker Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-7960",
+        "name": "FURIA | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_png.png"
+      },
+      {
+        "id": "sticker-7964",
+        "name": "Virtus.pro | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_png.png"
+      },
+      {
+        "id": "sticker-7968",
+        "name": "Team Liquid | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_png.png"
+      },
+      {
+        "id": "sticker-7972",
+        "name": "Complexity Gaming | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_png.png"
+      },
+      {
+        "id": "sticker-7976",
+        "name": "BIG | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_png.png"
+      },
+      {
+        "id": "sticker-7980",
+        "name": "Fnatic | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_png.png"
+      },
+      {
+        "id": "sticker-7984",
+        "name": "The MongolZ | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_png.png"
+      },
+      {
+        "id": "sticker-7988",
+        "name": "paiN Gaming | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_png.png"
+      },
+      {
+        "id": "sticker-8024",
+        "name": "Perfect World | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_png.png"
+      },
+      {
+        "id": "sticker-7961",
+        "name": "FURIA (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_glitter_png.png"
+      },
+      {
+        "id": "sticker-7965",
+        "name": "Virtus.pro (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_glitter_png.png"
+      },
+      {
+        "id": "sticker-7969",
+        "name": "Team Liquid (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_glitter_png.png"
+      },
+      {
+        "id": "sticker-7973",
+        "name": "Complexity Gaming (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_glitter_png.png"
+      },
+      {
+        "id": "sticker-7977",
+        "name": "BIG (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_glitter_png.png"
+      },
+      {
+        "id": "sticker-7981",
+        "name": "Fnatic (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_glitter_png.png"
+      },
+      {
+        "id": "sticker-7985",
+        "name": "The MongolZ (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_glitter_png.png"
+      },
+      {
+        "id": "sticker-7989",
+        "name": "paiN Gaming (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_glitter_png.png"
+      },
+      {
+        "id": "sticker-8025",
+        "name": "Perfect World (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_glitter_png.png"
+      },
+      {
+        "id": "sticker-7962",
+        "name": "FURIA (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_holo_png.png"
+      },
+      {
+        "id": "sticker-7966",
+        "name": "Virtus.pro (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_holo_png.png"
+      },
+      {
+        "id": "sticker-7970",
+        "name": "Team Liquid (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_holo_png.png"
+      },
+      {
+        "id": "sticker-7974",
+        "name": "Complexity Gaming (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_holo_png.png"
+      },
+      {
+        "id": "sticker-7978",
+        "name": "BIG (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_holo_png.png"
+      },
+      {
+        "id": "sticker-7982",
+        "name": "Fnatic (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_holo_png.png"
+      },
+      {
+        "id": "sticker-7986",
+        "name": "The MongolZ (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_holo_png.png"
+      },
+      {
+        "id": "sticker-7990",
+        "name": "paiN Gaming (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_holo_png.png"
+      },
+      {
+        "id": "sticker-8026",
+        "name": "Perfect World (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_holo_png.png"
+      },
+      {
+        "id": "sticker-7963",
+        "name": "FURIA (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_gold_png.png"
+      },
+      {
+        "id": "sticker-7967",
+        "name": "Virtus.pro (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_gold_png.png"
+      },
+      {
+        "id": "sticker-7971",
+        "name": "Team Liquid (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_gold_png.png"
+      },
+      {
+        "id": "sticker-7975",
+        "name": "Complexity Gaming (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_gold_png.png"
+      },
+      {
+        "id": "sticker-7979",
+        "name": "BIG (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_gold_png.png"
+      },
+      {
+        "id": "sticker-7983",
+        "name": "Fnatic (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_gold_png.png"
+      },
+      {
+        "id": "sticker-7987",
+        "name": "The MongolZ (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_gold_png.png"
+      },
+      {
+        "id": "sticker-7991",
+        "name": "paiN Gaming (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_gold_png.png"
+      },
+      {
+        "id": "sticker-8027",
+        "name": "Perfect World (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Challengers Sticker Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_challengers_png.png",
+    "model_player": null
+  },
+  {
+    "id": "crate-4966",
+    "name": "Shanghai 2024 Contenders Sticker Capsule",
+    "description": "This capsule contains a single Shanghai 2024 Contenders participant Paper, Glitter, Holo, or Gold sticker.\\n\\n50% of the proceeds from the sale of this capsule support the included organizations.\\n\\nThat sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+    "type": "Sticker Capsule",
+    "first_sale_date": null,
+    "contains": [
+      {
+        "id": "sticker-7992",
+        "name": "GamerLegion | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_png.png"
+      },
+      {
+        "id": "sticker-7996",
+        "name": "MIBR | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_png.png"
+      },
+      {
+        "id": "sticker-8000",
+        "name": "Cloud9 | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_png.png"
+      },
+      {
+        "id": "sticker-8004",
+        "name": "FlyQuest | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_png.png"
+      },
+      {
+        "id": "sticker-8008",
+        "name": "Passion UA | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_png.png"
+      },
+      {
+        "id": "sticker-8012",
+        "name": "Wildcard | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_png.png"
+      },
+      {
+        "id": "sticker-8016",
+        "name": "Rare Atom | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_png.png"
+      },
+      {
+        "id": "sticker-8020",
+        "name": "Imperial Esports | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_png.png"
+      },
+      {
+        "id": "sticker-8024",
+        "name": "Perfect World | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Højkvalitet",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_png.png"
+      },
+      {
+        "id": "sticker-7993",
+        "name": "GamerLegion (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_glitter_png.png"
+      },
+      {
+        "id": "sticker-7997",
+        "name": "MIBR (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_glitter_png.png"
+      },
+      {
+        "id": "sticker-8001",
+        "name": "Cloud9 (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_glitter_png.png"
+      },
+      {
+        "id": "sticker-8005",
+        "name": "FlyQuest (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_glitter_png.png"
+      },
+      {
+        "id": "sticker-8009",
+        "name": "Passion UA (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_glitter_png.png"
+      },
+      {
+        "id": "sticker-8013",
+        "name": "Wildcard (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_glitter_png.png"
+      },
+      {
+        "id": "sticker-8017",
+        "name": "Rare Atom (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_glitter_png.png"
+      },
+      {
+        "id": "sticker-8021",
+        "name": "Imperial Esports (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_glitter_png.png"
+      },
+      {
+        "id": "sticker-8025",
+        "name": "Perfect World (Glitter) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Bemærkelsesværdig",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_glitter_png.png"
+      },
+      {
+        "id": "sticker-7994",
+        "name": "GamerLegion (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_holo_png.png"
+      },
+      {
+        "id": "sticker-7998",
+        "name": "MIBR (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_holo_png.png"
+      },
+      {
+        "id": "sticker-8002",
+        "name": "Cloud9 (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_holo_png.png"
+      },
+      {
+        "id": "sticker-8006",
+        "name": "FlyQuest (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_holo_png.png"
+      },
+      {
+        "id": "sticker-8010",
+        "name": "Passion UA (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_holo_png.png"
+      },
+      {
+        "id": "sticker-8014",
+        "name": "Wildcard (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_holo_png.png"
+      },
+      {
+        "id": "sticker-8018",
+        "name": "Rare Atom (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_holo_png.png"
+      },
+      {
+        "id": "sticker-8022",
+        "name": "Imperial Esports (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_holo_png.png"
+      },
+      {
+        "id": "sticker-8026",
+        "name": "Perfect World (Holo) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Eksotisk",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_holo_png.png"
+      },
+      {
+        "id": "sticker-7995",
+        "name": "GamerLegion (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_gold_png.png"
+      },
+      {
+        "id": "sticker-7999",
+        "name": "MIBR (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_gold_png.png"
+      },
+      {
+        "id": "sticker-8003",
+        "name": "Cloud9 (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_gold_png.png"
+      },
+      {
+        "id": "sticker-8007",
+        "name": "FlyQuest (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_gold_png.png"
+      },
+      {
+        "id": "sticker-8011",
+        "name": "Passion UA (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_gold_png.png"
+      },
+      {
+        "id": "sticker-8015",
+        "name": "Wildcard (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_gold_png.png"
+      },
+      {
+        "id": "sticker-8019",
+        "name": "Rare Atom (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_gold_png.png"
+      },
+      {
+        "id": "sticker-8023",
+        "name": "Imperial Esports (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_gold_png.png"
+      },
+      {
+        "id": "sticker-8027",
+        "name": "Perfect World (Gold) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Ekstraordinær",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_gold_png.png"
+      }
+    ],
+    "contains_rare": [],
+    "market_hash_name": "Shanghai 2024 Contenders Sticker Capsule",
+    "rental": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tournaments/sha2024/crate_sticker_pack_sha2024_contenders_png.png",
+    "model_player": null
   }
 ]
