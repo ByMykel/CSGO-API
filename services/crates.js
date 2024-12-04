@@ -64,7 +64,7 @@ const getCrateType = (item) => {
         return "Case";
     }
 
-    if (item.prefab === "weapon_case_souvenirpkg") {
+    if (item.prefab === "weapon_case_souvenirpkg" || item.prefab.includes('souvenir_crate')) {
         return "Souvenir";
     }
 
