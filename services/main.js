@@ -122,6 +122,8 @@ export const loadPaintKits = () => {
                     wear_remap_min: item.wear_remap_min ?? 0.06,
                     wear_remap_max: item.wear_remap_max ?? 0.8,
                     paint_index: key,
+                    style_id: item.style,
+                    style_name: `SFUI_ItemInfo_FinishStyle_${item.style}`
                 };
             }
             return acc;

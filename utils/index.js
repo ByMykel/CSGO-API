@@ -595,3 +595,38 @@ export const getGraffitiVariations = (material) => {
         }[material] ?? []
     );
 };
+
+export function getFinishStyleLink(id) {
+    switch (id) {
+        // "SFUI_ItemInfo_FinishStyle_1": "Solid Color",
+        case 1:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#solidcolorstyle"
+        // "SFUI_ItemInfo_FinishStyle_2": "Hydrographic",
+        case 2:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#hydrographic"
+        // "SFUI_ItemInfo_FinishStyle_3": "Spray-Paint",
+        case 3:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#spraypaint"
+        // "SFUI_ItemInfo_FinishStyle_4": "Anodized",
+        case 4:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#anodized"
+        // "SFUI_ItemInfo_FinishStyle_5": "Anodized Multicolored",
+        case 5:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#anodizedmulticolored"
+        // "SFUI_ItemInfo_FinishStyle_6": "Anodized Airbrushed",
+        case 6:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#anodizedairbrushed"
+        // "SFUI_ItemInfo_FinishStyle_7": "Custom Paint Job",
+        case 7:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#custompaint"
+        // "SFUI_ItemInfo_FinishStyle_8": "Patina",
+        // "SFUI_ItemInfo_FinishStyle_10": "Case Hardening",
+        case 8:
+        case 10:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#patina"
+        // "SFUI_ItemInfo_FinishStyle_9": "Gunsmith",
+        case 9:
+            return "https://www.counter-strike.net/workshop/workshopfinishes#gunsmith"
+    }
+    return null
+}

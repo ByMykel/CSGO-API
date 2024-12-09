@@ -8,6 +8,7 @@ import {
     getCategory,
     getRarityColor,
     formatSkinImage,
+    getFinishStyleLink
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
@@ -94,10 +95,10 @@ const parseItem = (item, items) => {
     const rarity = !isNotWeapon(weapon)
         ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
         : isKnife
-        ? // Knives are 'Covert'
-          `rarity_ancient_weapon`
-        : // Gloves are 'Extraordinary'
-          `rarity_ancient`;
+            ? // Knives are 'Covert'
+            `rarity_ancient_weapon`
+            : // Gloves are 'Extraordinary'
+            `rarity_ancient`;
 
     // Some skins only exist as souvenir like "MP5-SD | Lab Rats"
     const types = ["hy_labrat_mp5"].includes(pattern) ? [] : ["skin"];
@@ -117,36 +118,35 @@ const parseItem = (item, items) => {
 
     const team =
         !items[weapon].used_by_classes ||
-        Object.keys(items[weapon].used_by_classes).length === 2
+            Object.keys(items[weapon].used_by_classes).length === 2
             ? "both"
             : Object.keys(items[weapon].used_by_classes)[0];
 
     return types.map((type) =>
         wears.map((wear, index) => ({
-            id: `skin-${item.object_id}_${index}${
-                type === "skin_stattrak"
-                    ? "_st"
-                    : type === "skin_souvenir"
+            id: `skin-${item.object_id}_${index}${type === "skin_stattrak"
+                ? "_st"
+                : type === "skin_souvenir"
                     ? "_so"
                     : ""
-            }`,
+                }`,
             skin_id: `skin-${item.object_id}`,
             name: isNotWeapon(weapon)
                 ? $tc(
-                      type === "skin_stattrak"
-                          ? "rare_special_with_wear_stattrak"
-                          : "rare_special_with_wear",
-                      {
-                          item_name: translatedName,
-                          pattern: $t(paintKits[pattern].description_tag),
-                          wear: $t(wear),
-                      }
-                  )
+                    type === "skin_stattrak"
+                        ? "rare_special_with_wear_stattrak"
+                        : "rare_special_with_wear",
+                    {
+                        item_name: translatedName,
+                        pattern: $t(paintKits[pattern].description_tag),
+                        wear: $t(wear),
+                    }
+                )
                 : $tc(type, {
-                      item_name: translatedName,
-                      pattern: $t(paintKits[pattern].description_tag),
-                      wear: $t(wear),
-                  }),
+                    item_name: translatedName,
+                    pattern: $t(paintKits[pattern].description_tag),
+                    wear: $t(wear),
+                }),
             description: getDescription(
                 translatedDescription,
                 paintKits,
@@ -208,8 +208,13 @@ const parseItem = (item, items) => {
                     team === "both"
                         ? $t("inv_filter_both_teams")
                         : team === "counter-terrorists"
-                        ? $t("inv_filter_ct")
-                        : $t("inv_filter_t"),
+                            ? $t("inv_filter_ct")
+                            : $t("inv_filter_t"),
+            },
+            style: {
+                id: paintKits[pattern].style_id,
+                name: $t(paintKits[pattern].style_name),
+                url: getFinishStyleLink(paintKits[pattern].style_id)
             },
             image: formatSkinImage(image, wear),
         }))
@@ -263,6 +268,11 @@ export const getSkinsNotGrouped = () => {
                     team: {
                         id: "both",
                         name: $t("inv_filter_both_teams"),
+                    },
+                    style: {
+                        id: 0,
+                        name: $t(`SFUI_ItemInfo_FinishStyle_0`),
+                        url: getFinishStyleLink(0)
                     },
                     image: getImageUrl(
                         `econ/weapons/base_weapons/${knife.name}`
