@@ -17,7 +17,7 @@ const parseItem = (item) => {
             name: $t("rarity_rare"),
             color: getRarityColor(`rarity_rare`),
         },
-        market_hash_name: exclusive ? null : $t(item.coupon_name, true),
+        market_hash_name: exclusive ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
         exclusive,
         image,
     };
