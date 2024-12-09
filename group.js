@@ -3,6 +3,9 @@ import path from "path";
 import { LANGUAGES_URL } from "./constants.js";
 import { getManifestId } from "./services/main.js";
 
+const args = process.argv.slice(2);
+const isForce = args.includes('--force');
+
 const inputFilePathsTemplate = [
     "./public/api/{lang}/agents.json",
     "./public/api/{lang}/collectibles.json",
@@ -29,13 +32,17 @@ try {
     }
 }
 
-if (existingManifestId == latestManifestId) {
-    console.log("Latest manifest Id matches existing manifest Id, exiting");
-    process.exit(0);
+if (isForce) {
+    console.log("Force flag detected, generating new data regardless of manifest Ids")
 } else {
-    console.log(
-        "Latest manifest Id does not match existing manifest Id, generating new data."
-    );
+    if (existingManifestId == latestManifestId) {
+        console.log("Latest manifest Id matches existing manifest Id, exiting");
+        process.exit(0);
+    } else {
+        console.log(
+            "Latest manifest Id does not match existing manifest Id, generating new data."
+        );
+    }
 }
 
 for (let langObj of LANGUAGES_URL) {

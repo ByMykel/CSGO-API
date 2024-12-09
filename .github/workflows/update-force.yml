@@ -1,0 +1,27 @@
+name: Update JSON API
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 8 * * *"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 18
+            - name: Generate new data
+              run: npm install && npm run update-force-data
+            - name: Read manifestIdUpdate.txt
+              id: manifestId
+              uses: juliangruber/read-file-action@v1
+              with:
+                  path: ./manifestIdUpdate.txt
+            - name: Commit & push changes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: "[bot::update-force] manifest ${{ steps.manifestId.outputs.content }}"

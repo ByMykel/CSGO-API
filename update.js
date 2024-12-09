@@ -17,6 +17,9 @@ import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
 
+const args = process.argv.slice(2);
+const isForce = args.includes('--force');
+
 let existingManifestId = "";
 const latestManifestId = await getManifestId();
 
@@ -28,13 +31,17 @@ try {
     }
 }
 
-if (existingManifestId == latestManifestId) {
-    console.log("Latest manifest Id matches existing manifest Id, exiting");
-    process.exit(0);
+if (isForce) {
+    console.log("Force flag detected, generating new data regardless of manifest Ids")
 } else {
-    console.log(
-        "Latest manifest Id does not match existing manifest Id, generating new data."
-    );
+    if (existingManifestId == latestManifestId) {
+        console.log("Latest manifest Id matches existing manifest Id, exiting");
+        process.exit(0);
+    } else {
+        console.log(
+            "Latest manifest Id does not match existing manifest Id, generating new data."
+        );
+    }
 }
 
 await loadData();
