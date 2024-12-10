@@ -749,22 +749,9 @@
       "name": "ハイグレード",
       "color": "#4b69ff"
     },
-    "market_hash_name": "StatTrak™ Music Kit | Darude, Moments CS:GO",
+    "market_hash_name": "StatTrak™ Music Kit | Darude, Moments CSGO",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/darude_01_png.png"
-  },
-  {
-    "id": "music_kit-32",
-    "name": "ミュージックキット | Beartooth, Aggressive",
-    "description": "Beartooth によるミュージックキット第2弾。よりハードに、アグレッシブに仕上がった今作のなかでも、MVP 祝歌は特にヘビーなものになっている。敵の傷口に塩を塗りこんでやれ。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Beartooth, Aggressive",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/beartooth_02_png.png"
   },
   {
     "id": "music_kit-32_st",
@@ -780,19 +767,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/beartooth_02_png.png"
   },
   {
-    "id": "music_kit-33",
-    "name": "ミュージックキット | Blitz Kids, The Good Youth",
-    "description": "イギリスのポップ/パンクバンドの Blitz Kids による、高校時代に仲間とつるんだ思い出を反芻しながら B 地点にラッシュするときにピッタリのBGM。若さと疾走感に満ちたミュージックキット。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Blitz Kids, The Good Youth",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/blitzkids_01_png.png"
-  },
-  {
     "id": "music_kit-33_st",
     "name": "StatTrak™ ミュージックキット | Blitz Kids, The Good Youth",
     "description": "イギリスのポップ/パンクバンドの Blitz Kids による、高校時代に仲間とつるんだ思い出を反芻しながら B 地点にラッシュするときにピッタリのBGM。若さと疾走感に満ちたミュージックキット。",
@@ -804,19 +778,6 @@
     "market_hash_name": "StatTrak™ Music Kit | Blitz Kids, The Good Youth",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/blitzkids_01_png.png"
-  },
-  {
-    "id": "music_kit-34",
-    "name": "ミュージックキット | Hundredth, FREE",
-    "description": "自由を得るか塵に還るか、Hundredth が送り出すヘビーでユニークなメロコア。根性のない連中を狩るときのBGMにもってこいだ。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Hundredth, FREE",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hundredth_01_png.png"
   },
   {
     "id": "music_kit-34_st",
@@ -832,19 +793,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hundredth_01_png.png"
   },
   {
-    "id": "music_kit-35",
-    "name": "ミュージックキット | Neck Deep, Life's Not Out To Get You",
-    "description": "長大なキルストリークを妨害されたり、しつこい芋野郎に悩まされたり、やりきれないときはポップパンクを聴こう。Neck Deep は「Life's Not Out To Get You/人生は敵じゃない」と教えてくれる。敵チームの嫌がらせは続くが。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Neck Deep, Life's Not Out To Get You",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/neckdeep_01_png.png"
-  },
-  {
     "id": "music_kit-35_st",
     "name": "StatTrak™ ミュージックキット | Neck Deep, Life's Not Out To Get You",
     "description": "長大なキルストリークを妨害されたり、しつこい芋野郎に悩まされたり、やりきれないときはポップパンクを聴こう。Neck Deep は「Life's Not Out To Get You/人生は敵じゃない」と教えてくれる。敵チームの嫌がらせは続くが。",
@@ -856,19 +804,6 @@
     "market_hash_name": "StatTrak™ Music Kit | Neck Deep, Life's Not Out To Get You",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/neckdeep_01_png.png"
-  },
-  {
-    "id": "music_kit-36",
-    "name": "ミュージックキット | Roam, Backbone",
-    "description": "観客もプレイヤーも思わず体が動き出す、Roam のド直球ポップファンク。このサントラを聴きながら敵チームを急襲し、戸惑う隙すら与えずに殲滅して「Backbone/気骨」を示せ。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Roam, Backbone",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/roam_01_png.png"
   },
   {
     "id": "music_kit-36_st",
@@ -884,19 +819,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/roam_01_png.png"
   },
   {
-    "id": "music_kit-37",
-    "name": "ミュージックキット | Twin Atlantic, GLA",
-    "description": "スコティッシュロックの雄 Twin Atlantic が CS:GO のために用意したヘビーでラフでラウドなミュージックキットで敵を圧倒しろ。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Twin Atlantic, GLA",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/twinatlantic_01_png.png"
-  },
-  {
     "id": "music_kit-37_st",
     "name": "StatTrak™ ミュージックキット | Twin Atlantic, GLA",
     "description": "スコティッシュロックの雄 Twin Atlantic が CS:GO のために用意したヘビーでラフでラウドなミュージックキットで敵を圧倒しろ。",
@@ -908,19 +830,6 @@
     "market_hash_name": "StatTrak™ Music Kit | Twin Atlantic, GLA",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/twinatlantic_01_png.png"
-  },
-  {
-    "id": "music_kit-38",
-    "name": "ミュージックキット | Skog, III-Arena",
-    "description": "Skog のメタルミュージックキット第3弾。今回は派手なギターリフとドロップ、ループ、そしてドローン音が盛り込まれ、エレクトロ・オーガニックなひねりが利いている。",
-    "rarity": {
-      "id": "rarity_rare",
-      "name": "ハイグレード",
-      "color": "#4b69ff"
-    },
-    "market_hash_name": "Music Kit | Skog, III-Arena",
-    "exclusive": false,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/skog_03_png.png"
   },
   {
     "id": "music_kit-38_st",
@@ -1880,7 +1789,7 @@
       "name": "ハイグレード",
       "color": "#4b69ff"
     },
-    "market_hash_name": "StatTrak™ Music Kit | Austin Wintory, The Devil Went Clubbing In Georgia",
+    "market_hash_name": "StatTrak™ Music Kit | Austin Wintory, The Devil Went Clubbing in Georgia",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/austinwintory_04_png.png"
   },
