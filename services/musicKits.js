@@ -8,19 +8,35 @@ const parseItem = (item) => {
     const image = getImageUrl(item.image_inventory.toLowerCase());
     const exclusive = isExclusive(item.name);
 
-    const normalMusicKit = {
-        id: `music_kit-${item.object_id}`,
-        name: exclusive ? $t(item.loc_name) : $t(item.coupon_name),
-        description: $t(item.loc_description),
-        rarity: {
-            id: "rarity_rare",
-            name: $t("rarity_rare"),
-            color: getRarityColor(`rarity_rare`),
-        },
-        market_hash_name: exclusive ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
-        exclusive,
-        image,
-    };
+    const kitsOnlyStattrak = [
+        'beartooth_02',
+        'blitzkids_01',
+        'hundredth_01',
+        'neckdeep_01',
+        'roam_01',
+        'twinatlantic_01',
+        'skog_03'
+    ]
+
+    let kits = []
+
+    if (!kitsOnlyStattrak.includes(item.name)) {
+        const normalMusicKit = {
+            id: `music_kit-${item.object_id}`,
+            name: exclusive ? $t(item.loc_name) : $t(item.coupon_name),
+            description: $t(item.loc_description),
+            rarity: {
+                id: "rarity_rare",
+                name: $t("rarity_rare"),
+                color: getRarityColor(`rarity_rare`),
+            },
+            market_hash_name: exclusive ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
+            exclusive,
+            image,
+        };
+
+        kits.push(normalMusicKit)
+    }
 
     if ($t(`${item.coupon_name}_stattrak`)) {
         const stattrakMusicKit = {
@@ -32,15 +48,15 @@ const parseItem = (item) => {
                 name: $t("rarity_rare"),
                 color: getRarityColor(`rarity_rare`),
             },
-            market_hash_name: $t(`${item.coupon_name}_stattrak`, true),
+            market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
             image,
         };
 
-        return [normalMusicKit, stattrakMusicKit];
+        kits.push(stattrakMusicKit)
     }
 
-    return [normalMusicKit];
+    return kits;
 };
 
 export const getMusicKits = () => {
