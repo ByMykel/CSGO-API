@@ -53736,7 +53736,7 @@
       },
       {
         "id": "sticker-8406",
-        "name": "brnz4n (Glitter) | Shanghai 2024",
+        "name": "brnz4n (グリッター) | Shanghai 2024",
         "rarity": {
           "id": "rarity_mythical",
           "name": "リマーカブル",
@@ -54136,7 +54136,7 @@
       },
       {
         "id": "sticker-8407",
-        "name": "brnz4n (Holo) | Shanghai 2024",
+        "name": "brnz4n (ホログラム) | Shanghai 2024",
         "rarity": {
           "id": "rarity_legendary",
           "name": "エキゾチック",
@@ -54536,7 +54536,7 @@
       },
       {
         "id": "sticker-8408",
-        "name": "brnz4n (Gold) | Shanghai 2024",
+        "name": "brnz4n (ゴールド) | Shanghai 2024",
         "rarity": {
           "id": "rarity_ancient",
           "name": "レア",
@@ -54867,7 +54867,208 @@
     "description": "このカプセルには、Shanghai 2024 Champions 選手の 1 人がサインしたステッカー（ペーパー、グリッター、ホログラムまたはゴールド）が 1 つ入っています。\\n\\nこのカプセルの販売による収入の半分は参加選手や関連組織に分配されます。\\n\\nステッカーは所有しているどの武器にも貼り付けることができ、より擦り切れて見えるように削ることもできます。同じステッカーを何度も削ることができますが、毎回少しずつ擦り切れていき、最終的には武器から剥がれ落ちます。",
     "type": "Autograph Capsule",
     "first_sale_date": null,
-    "contains": [],
+    "contains": [
+      {
+        "id": "sticker-8533",
+        "name": "chopper (Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "ハイグレード",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_champion_png.png"
+      },
+      {
+        "id": "sticker-8537",
+        "name": "magixx (Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "ハイグレード",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_champion_png.png"
+      },
+      {
+        "id": "sticker-8541",
+        "name": "donk (Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "ハイグレード",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_champion_png.png"
+      },
+      {
+        "id": "sticker-8545",
+        "name": "sh1ro (Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "ハイグレード",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_champion_png.png"
+      },
+      {
+        "id": "sticker-8549",
+        "name": "zont1x (Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "ハイグレード",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_champion_png.png"
+      },
+      {
+        "id": "sticker-8534",
+        "name": "chopper (Glitter, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "リマーカブル",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_champion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8538",
+        "name": "magixx (Glitter, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "リマーカブル",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_champion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8542",
+        "name": "donk (Glitter, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "リマーカブル",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_champion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8546",
+        "name": "sh1ro (Glitter, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "リマーカブル",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_champion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8550",
+        "name": "zont1x (Glitter, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "リマーカブル",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_champion_glitter_png.png"
+      },
+      {
+        "id": "sticker-8535",
+        "name": "chopper (Holo, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "エキゾチック",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_champion_holo_png.png"
+      },
+      {
+        "id": "sticker-8539",
+        "name": "magixx (Holo, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "エキゾチック",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_champion_holo_png.png"
+      },
+      {
+        "id": "sticker-8543",
+        "name": "donk (Holo, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "エキゾチック",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_champion_holo_png.png"
+      },
+      {
+        "id": "sticker-8547",
+        "name": "sh1ro (Holo, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "エキゾチック",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_champion_holo_png.png"
+      },
+      {
+        "id": "sticker-8551",
+        "name": "zont1x (Holo, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "エキゾチック",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_champion_holo_png.png"
+      },
+      {
+        "id": "sticker-8536",
+        "name": "chopper (Gold, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "レア",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_champion_gold_png.png"
+      },
+      {
+        "id": "sticker-8540",
+        "name": "magixx (Gold, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "レア",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_champion_gold_png.png"
+      },
+      {
+        "id": "sticker-8544",
+        "name": "donk (Gold, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "レア",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_champion_gold_png.png"
+      },
+      {
+        "id": "sticker-8548",
+        "name": "sh1ro (Gold, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "レア",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_champion_gold_png.png"
+      },
+      {
+        "id": "sticker-8552",
+        "name": "zont1x (Gold, Champion) | Shanghai 2024",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "レア",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_champion_gold_png.png"
+      }
+    ],
     "contains_rare": [],
     "market_hash_name": "Shanghai 2024 Champions Autograph Capsule",
     "rental": false,
