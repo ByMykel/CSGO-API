@@ -246,6 +246,7 @@ export const getSkinsNotGrouped = () => {
                     }),
                     weapon: {
                         id: knife.item_name,
+                        weapon_id: weaponIDMapping[weapon],
                         name: $t(knife.item_name),
                     },
                     category: {
