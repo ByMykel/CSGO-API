@@ -181,6 +181,7 @@ export const getSkins = () => {
             description: $t(knife.item_description),
             weapon: {
                 id: knife.item_name,
+                weapon_id: weaponIDMapping[weapon],
                 name: $t(knife.item_name),
             },
             category: {
