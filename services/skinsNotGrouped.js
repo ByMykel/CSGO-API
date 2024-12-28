@@ -8,7 +8,8 @@ import {
     getCategory,
     getRarityColor,
     formatSkinImage,
-    getFinishStyleLink
+    getFinishStyleLink,
+    weaponIDMapping
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
@@ -154,6 +155,7 @@ const parseItem = (item, items) => {
             ),
             weapon: {
                 id: weapon,
+                weapon_id: weaponIDMapping[weapon],
                 name: translatedName,
             },
             category: {

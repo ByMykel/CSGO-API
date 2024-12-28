@@ -228,10 +228,10 @@ export const knives = [
 export const getWeaponName = (string) => {
     for (const weapon of weaponsNames) {
         if (string.includes(weapon)) {
-            const weaponId = weaponIDMapping[weapon];
-            return { name: weapon, id: weaponId };
+            return weapon;
         }
     }
+
     return false;
 };
 

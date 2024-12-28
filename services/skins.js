@@ -6,6 +6,7 @@ import {
     getWears,
     getDopplerPhase,
     getRarityColor,
+    weaponIDMapping,
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tTag, $tc, languageData } from "./translations.js";
@@ -112,6 +113,7 @@ const parseItem = (item, items) => {
         description: getDescription(translatedDescription, paintKits, pattern),
         weapon: {
             id: weapon,
+            weapon_id: weaponIDMapping[weapon],
             name: translatedName,
         },
         category: {
