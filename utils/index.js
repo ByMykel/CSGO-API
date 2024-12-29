@@ -313,6 +313,8 @@ export const getCategory = (weapon) => {
         case "specialist_gloves":
         case "studded_hydra_gloves":
             return "sfui_invpanel_filter_gloves";
+        case "weapon_taser":
+            return "loadoutslot_equipment";
     }
 
     return null;
