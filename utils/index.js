@@ -120,6 +120,14 @@ export const weaponIDMapping = {
     "weapon_knife_widowmaker": 523,
     "weapon_knife_skeleton": 525,
     "weapon_knife_kukri": 526,
+    "studded_bloodhound_gloves": 5027,
+    "studded_brokenfang_gloves": 4725,
+    "sporty_gloves": 5030,
+    "slick_gloves": 5031,
+    "leather_handwraps": 5032,
+    "motorcycle_gloves": 5033,
+    "specialist_gloves": 5034,
+    "studded_hydra_gloves": 5035
 };
 
 export const knives = [
