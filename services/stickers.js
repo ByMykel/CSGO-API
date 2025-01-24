@@ -33,7 +33,7 @@ const getDescription = (item) => {
     if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
         msg = `${commemoratesText}${msg}<br><br>${desc}`;
     }
-    return msg;
+    return `${commemoratesText}${msg}`;
 };
 
 const getType = (item) => {
