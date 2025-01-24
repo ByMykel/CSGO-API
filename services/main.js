@@ -123,7 +123,8 @@ export const loadPaintKits = () => {
                     wear_remap_max: item.wear_remap_max ?? 0.8,
                     paint_index: key,
                     style_id: item.style ?? 0,
-                    style_name: `SFUI_ItemInfo_FinishStyle_${item.style ?? 0}`
+                    style_name: `SFUI_ItemInfo_FinishStyle_${item.style ?? 0}`,
+                    legacy_model: !!item.use_legacy_model ?? false
                 };
             }
             return acc;
