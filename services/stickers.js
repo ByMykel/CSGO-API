@@ -26,10 +26,12 @@ const isSticker = (item) => {
 };
 
 const getDescription = (item) => {
+    const commemoratesText = item.tournament_event_id ? `<span style='color:#ffd700;'>${$t(`csgo_event_desc`).replace('%s1', $t(`csgo_tournament_event_name_${item.tournament_event_id}`))}</span><br/><br/> ` : '';
+    
     let msg = $t("CSGO_Tool_Sticker_Desc");
     let desc = $t(item.description_string);
     if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
-        msg = `${msg}<br><br>${desc}`;
+        msg = `${commemoratesText}${msg}<br><br>${desc}`;
     }
     return msg;
 };
@@ -160,15 +162,15 @@ const parseItem = (item) => {
         description: getDescription(item),
         rarity: item.item_rarity
             ? {
-                  id: `rarity_${item.item_rarity}`,
-                  name: $t(`rarity_${item.item_rarity}`),
-                  color: getRarityColor(`rarity_${item.item_rarity}`),
-              }
+                id: `rarity_${item.item_rarity}`,
+                name: $t(`rarity_${item.item_rarity}`),
+                color: getRarityColor(`rarity_${item.item_rarity}`),
+            }
             : {
-                  id: "rarity_default",
-                  name: $t("rarity_default"),
-                  color: getRarityColor("rarity_default"),
-              },
+                id: "rarity_default",
+                name: $t("rarity_default"),
+                color: getRarityColor("rarity_default"),
+            },
         special_notes: specialNotes?.[`sticker-${item.object_id}`],
         crates:
             cratesBySkins?.[`sticker-${item.object_id}`]?.map((i) => ({
