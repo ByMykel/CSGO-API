@@ -299,6 +299,10 @@ export const loadSkinsByCrates = () => {
                 getItemFromKey
             );
 
+            if (item.includes('_stattrak_') && item.includes('musickit')) {
+                items[item] = items[item].map(item => ({ ...item, id: `${item.id}_st`, name: `${item.name}_stattrak` }));
+            }
+
             return items;
         }, {}),
 
@@ -662,10 +666,10 @@ const getItemFromKey = (key) => {
             const rarity = !isNotWeapon(type)
                 ? `rarity_${rarities[key.toLocaleLowerCase()].rarity}_weapon`
                 : isKnife
-                ? // Knives are 'Covert'
-                  `rarity_ancient_weapon`
-                : // Gloves are 'Extraordinary'
-                  `rarity_ancient`;
+                    ? // Knives are 'Covert'
+                    `rarity_ancient_weapon`
+                    : // Gloves are 'Extraordinary'
+                    `rarity_ancient`;
 
             // Not the best way to add vanilla knives.
             if (name === "vanilla") {
