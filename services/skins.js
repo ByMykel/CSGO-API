@@ -159,6 +159,7 @@ const parseItem = (item, items) => {
                     ? $t("inv_filter_ct")
                     : $t("inv_filter_t"),
         },
+        legacy_model: paintKits[pattern].legacy_model,
         image,
     };
 };
@@ -207,6 +208,7 @@ export const getSkins = () => {
                 id: "both",
                 name: $t("inv_filter_both_teams"),
             },
+            legacy_model: true,
             image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
         })),
     ].filter((skin) => !skin.name.includes("null"));

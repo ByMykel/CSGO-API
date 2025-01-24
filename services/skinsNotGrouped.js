@@ -218,6 +218,7 @@ const parseItem = (item, items) => {
                 name: $t(paintKits[pattern].style_name),
                 url: getFinishStyleLink(paintKits[pattern].style_id)
             },
+            legacy_model: paintKits[pattern].legacy_model,
             image: formatSkinImage(image, wear),
         }))
     );
@@ -277,6 +278,7 @@ export const getSkinsNotGrouped = () => {
                         name: $t(`SFUI_ItemInfo_FinishStyle_0`),
                         url: getFinishStyleLink(0)
                     },
+                    legacy_model: true,
                     image: getImageUrl(
                         `econ/weapons/base_weapons/${knife.name}`
                     ),
