@@ -42,10 +42,12 @@ const getSkinInfo = (iconPath) => {
     return [weapon, pattern];
 };
 
-const getDescription = (desc, paintKits, pattern) => {
+const getDescription = (desc, paintKits, pattern, isStatTrak) => {
+    const stattrakText = isStatTrak ? `<span style='color:#99ccff;'>${$t("attrib_killeater")}</span><br/><br/><span style='color:#cf6a32;'>${$t("killeaterdescriptionnotice_kills")}</span><br/><br/> ` : "";
+
     const pattern_desc = $t(`#PaintKit_${pattern}`);
     if (pattern_desc && pattern_desc.length > 0) {
-        return `${desc} ${pattern_desc}`;
+        return `${stattrakText}${desc} ${pattern_desc}`;
     }
 
     const tag = paintKits[pattern].description_tag
@@ -53,15 +55,21 @@ const getDescription = (desc, paintKits, pattern) => {
         .replace("_tag", "");
     const tag_desc = $t(tag);
     if (tag_desc && tag_desc.length > 0) {
-        return `${desc} ${tag_desc}`;
+        return `${stattrakText}${desc} ${tag_desc}`;
     }
 
     const idx_desc = $tTag(paintKits[pattern].description_tag);
     if (idx_desc && idx_desc.length > 0) {
-        return `${desc} ${idx_desc}`;
+        return `${stattrakText}${desc} ${idx_desc}`;
     }
 
     return desc;
+};
+
+const getVanillaDescription = (desc, isStatTrak) => {
+    const stattrakText = isStatTrak ? `<span style='color:#99ccff;'>${$t("attrib_killeater")}</span><br/><br/><span style='color:#cf6a32;'>${$t("killeaterdescriptionnotice_kills")}</span><br/><br/> ` : "";
+
+    return `${stattrakText}${desc}`;
 };
 
 const parseItem = (item, items) => {
@@ -70,8 +78,6 @@ const parseItem = (item, items) => {
         paintKits,
         souvenirSkins,
         stattTrakSkins,
-        cratesBySkins,
-        collectionsBySkins,
     } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const image = getImageUrl(item.icon_path.toLowerCase());
@@ -151,7 +157,8 @@ const parseItem = (item, items) => {
             description: getDescription(
                 translatedDescription,
                 paintKits,
-                pattern
+                pattern,
+                type === "skin_stattrak",
             ),
             weapon: {
                 id: weapon,
@@ -245,6 +252,7 @@ export const getSkinsNotGrouped = () => {
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
+                    description: getVanillaDescription($t(knife.item_description), type === "rare_special_vanilla_stattrak"),
                     weapon: {
                         id: knife.item_name,
                         weapon_id: weaponIDMapping[knife.name],
