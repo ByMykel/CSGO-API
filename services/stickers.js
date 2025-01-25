@@ -31,7 +31,7 @@ const getDescription = (item) => {
     let msg = $t("CSGO_Tool_Sticker_Desc");
     let desc = $t(item.description_string);
     if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
-        msg = `${commemoratesText}${msg}<br><br>${desc}`;
+        return `${commemoratesText}${msg}<br><br>${desc}`;
     }
     return `${commemoratesText}${msg}`;
 };
