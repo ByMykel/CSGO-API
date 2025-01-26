@@ -17,11 +17,125 @@ export const loadItemsGame = async () => {
         .get(ITEMS_GAME_URL)
         .then((data) => {
             state.itemsGame = data.data.items_game;
+            // Had to hardcode this because it's easier.
+            state.itemsGame.item_sets["set_kc_missinglink"] = {
+                name: "#CSGO_set_kc_missinglink",
+                name_force: "#CSGO_crate_keychain_pack_kc_missinglink_capsule",
+                set_description:
+                    "#CSGO_crate_keychain_pack_kc_missinglink_capsule_desc",
+                is_collection: 1,
+                items: {
+                    "[kc_missinglink_ava]keychain": 1,
+                    "[kc_missinglink_ava]keychain": 1,
+                    "[kc_missinglink_sam_salty]keychain": 1,
+                    "[kc_missinglink_sam_catchup]keychain": 1,
+                    "[kc_missinglink_sas]keychain": 1,
+                    "[kc_missinglink_guerilla]keychain": 1,
+                    "[kc_missinglink_kev]keychain": 1,
+                    "[kc_missinglink_chicken]keychain": 1,
+                    "[kc_missinglink_banana]keychain": 1,
+                    "[kc_missinglink_cat]keychain": 1,
+                    "[kc_missinglink_catbeach]keychain": 1,
+                    "[kc_missinglink_bigfoot]keychain": 1,
+                    "[kc_missinglink_sam_toile]keychain": 1,
+                    "[kc_missinglink_monster]keychain": 1,
+                    "[kc_missinglink_sam_diamond]keychain": 1,
+                    "[kc_missinglink_sam_shape]keychain": 1,
+                    "[kc_missinglink_howl]keychain": 1,
+                    "[kc_missinglink_wurst]keychain": 1,
+                },
+            };
+            state.itemsGame.item_sets["set_kc_weapon_01"] = {
+                name: "#CSGO_set_kc_weapon_01",
+                name_force: "#CSGO_crate_keychain_pack_kc_weapon_01_capsule",
+                is_collection: 1,
+                items: {
+                    "[kc_wpn_ak_base]keychain": 1,
+                    "[kc_wpn_usp_yarn]keychain": 1,
+                    "[kc_wpn_tec9_cap]keychain": 1,
+                    "[kc_wpn_awp_plastic]keychain": 1,
+                    "[kc_wpn_mac10_tile]keychain": 1,
+                    "[kc_wpn_ctknife_wood]keychain": 1,
+                    "[kc_wpn_m4a1s_comic]keychain": 1,
+                    "[kc_wpn_usp_jewel]keychain": 1,
+                    "[kc_wpn_ak_jelly]keychain": 1,
+                    "[kc_wpn_mac10_glitter]keychain": 1,
+                    "[kc_wpn_tec9_magma]keychain": 1,
+                    "[kc_wpn_awp_spoon]keychain": 1,
+                    "[kc_wpn_m4a1s_ss]keychain": 1,
+                    "[kc_wpn_tknife_crystal]keychain": 1,
+                    "[kc_wpn_ctknife_gold]keychain": 1,
+                    "[kc_wpn_tknife_gold]keychain": 1,
+                },
+            };
+            state.itemsGame.item_sets["set_stkr_craft_01"] = {
+                name: "#CSGO_set_stkr_craft_01",
+                name_force: "#CSGO_crate_sticker_pack_stkr_craft_01_capsule",
+                is_collection: 1,
+                items: {
+                    "[paper_lightning_two]sticker": 1,
+                    "[paper_lightning_three]sticker": 1,
+                    "[paper_lightning_one]sticker": 1,
+                    "[paper_flames_two]sticker": 1,
+                    "[paper_flames]sticker": 1,
+                    "[paper_fire_one]sticker": 1,
+                    "[paper_fire_two]sticker": 1,
+                    "[paper_fire_three]sticker": 1,
+                    "[paper_explosion_two]sticker": 1,
+                    "[paper_explosion_three]sticker": 1,
+                    "[paper_explosion_one]sticker": 1,
+                    "[paper_explosion_four]sticker": 1,
+                    "[paper_water_one]sticker": 1,
+                    "[paper_water_two]sticker": 1,
+                    "[paper_water_three]sticker": 1,
+                    "[holo_rainbow_trail]sticker": 1,
+                    "[glitter_explosion_two]sticker": 1,
+                    "[glitter_explosion_three]sticker": 1,
+                    "[glitter_explosion_one]sticker": 1,
+                    "[glitter_explosion_four]sticker": 1,
+                    "[foil_lightning_two]sticker": 1,
+                    "[foil_lightning_three]sticker": 1,
+                    "[foil_lightning_one]sticker": 1,
+                    "[foil_fire_three]sticker": 1,
+                    "[lenticular_blood_one]sticker": 1,
+                    "[lenticular_blood_two]sticker": 1,
+                },
+            };
+            state.itemsGame.item_sets["set_stkr_craft_02"] = {
+                name: "#CSGO_set_stkr_craft_02",
+                name_force: "#CSGO_crate_sticker_pack_stkr_craft_02_capsule",
+                is_collection: 1,
+                items: {
+                    "[paper_arm_flex]sticker": 1,
+                    "[paper_clown_nose]sticker": 1,
+                    "[paper_clown_wig]sticker": 1,
+                    "[paper_ct_left_hand]sticker": 1,
+                    "[paper_eye]sticker": 1,
+                    "[paper_googly_eye_small]sticker": 1,
+                    "[paper_male_anime_face]sticker": 1,
+                    "[paper_mouth]sticker": 1,
+                    "[paper_ribbon]sticker": 1,
+                    "[paper_shark_mouth]sticker": 1,
+                    "[paper_t_left_hand]sticker": 1,
+                    "[paper_tentacle]sticker": 1,
+                    "[paper_tongue]sticker": 1,
+                    "[paper_wings]sticker": 1,
+                    "[paper_winky_eyes]sticker": 1,
+                    "[glitter_kawaii_eyes]sticker": 1,
+                    "[glitter_tentacle]sticker": 1,
+                    "[holo_mouth]sticker": 1,
+                    "[holo_tongue]sticker": 1,
+                    "[lenticular_angry_eyes]sticker": 1,
+                    "[foil_mustache]sticker": 1,
+                    "[foil_sunglasses]sticker": 1,
+                    "[foil_mouth]sticker": 1,
+                    "[lenticular_cheeky_eyes]sticker": 1,
+                    "[lenticular_googly_eye]sticker": 1
+                },
+            };
         })
         .catch(() => {
-            throw new Error(
-                `Error loading items_game.txt from ${ITEMS_GAME_URL}`
-            );
+            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
         });
 };
 
@@ -33,7 +147,7 @@ export const loadStickerKits = () => {
     state.stickerKits = Object.entries(state.itemsGame.sticker_kits).map(
         ([key, item]) => {
             if (item.name === "comm01_howling_dawn") {
-                item.item_rarity = "contraband"
+                item.item_rarity = "contraband";
             }
 
             return {
@@ -58,12 +172,12 @@ export const loadStickerKits = () => {
 };
 
 export const loadKeychainDefinitions = () => {
-    state.keychainDefinitions = Object.entries(state.itemsGame.keychain_definitions).map(
-        ([key, item]) => ({
-            ...item,
-            object_id: key,
-        })
-    )
+    state.keychainDefinitions = Object.entries(
+        state.itemsGame.keychain_definitions
+    ).map(([key, item]) => ({
+        ...item,
+        object_id: key,
+    }));
 
     state.keychainDefinitionsObj = Object.fromEntries(
         state.keychainDefinitions.map((item) => [item.name, item])
@@ -79,8 +193,7 @@ export const loadItems = () => {
                 item_name: value.item_name,
                 item_description: value.item_description,
                 item_name_prefab: state.prefabs[value.prefab]?.item_name,
-                item_description_prefab:
-                    state.prefabs[value.prefab]?.item_description,
+                item_description_prefab: state.prefabs[value.prefab]?.item_description,
                 used_by_classes:
                     value?.used_by_classes ??
                     state.prefabs[value.prefab]?.used_by_classes,
@@ -101,9 +214,7 @@ export const loadPrefabs = () => {
                 item_description:
                     value.item_description ?? innerPrefab?.item_description,
                 first_sale_date:
-                    value.first_sale_date ??
-                    innerPrefab?.first_sale_date ??
-                    null,
+                    value.first_sale_date ?? innerPrefab?.first_sale_date ?? null,
                 prefab: value.prefab ?? innerPrefab?.prefab,
                 used_by_classes: value.used_by_classes,
             };
@@ -124,7 +235,7 @@ export const loadPaintKits = () => {
                     paint_index: key,
                     style_id: item.style ?? 0,
                     style_name: `SFUI_ItemInfo_FinishStyle_${item.style ?? 0}`,
-                    legacy_model: !!item.use_legacy_model ?? false
+                    legacy_model: !!item.use_legacy_model ?? false,
                 };
             }
             return acc;
@@ -137,9 +248,7 @@ export const loadMusicDefinitions = () => {
     state.musicDefinitions = Object.entries(state.itemsGame.music_definitions)
         .filter(
             ([key, item]) =>
-                !["valve_01", "valve_02", "valve_cs2_01"].includes(
-                    item.name
-                )
+                !["valve_01", "valve_02", "valve_cs2_01"].includes(item.name)
         )
         .map(([key, item]) => ({
             ...item,
@@ -267,9 +376,7 @@ export const loadSkinsByCrates = () => {
                     "set_train",
                     "set_mirage",
                 ].flatMap((set) =>
-                    Object.keys(extractItems(set, clientLootLists)).map(
-                        getItemFromKey
-                    )
+                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
                 );
 
                 items[item].push(getItemFromKey("[sp_tape]weapon_revolver"));
@@ -287,9 +394,7 @@ export const loadSkinsByCrates = () => {
                     "set_train",
                     "set_mirage",
                 ].flatMap((set) =>
-                    Object.keys(extractItems(set, clientLootLists)).map(
-                        getItemFromKey
-                    )
+                    Object.keys(extractItems(set, clientLootLists)).map(getItemFromKey)
                 );
 
                 return items;
@@ -299,8 +404,12 @@ export const loadSkinsByCrates = () => {
                 getItemFromKey
             );
 
-            if (item.includes('_stattrak_') && item.includes('musickit')) {
-                items[item] = items[item].map(item => ({ ...item, id: `${item.id}_st`, name: `${item.name}_stattrak` }));
+            if (item.includes("_stattrak_") && item.includes("musickit")) {
+                items[item] = items[item].map((item) => ({
+                    ...item,
+                    id: `${item.id}_st`,
+                    name: `${item.name}_stattrak`,
+                }));
             }
 
             return items;
@@ -311,10 +420,9 @@ export const loadSkinsByCrates = () => {
 
         // Rare special
         ...Object.values(revolvingLootLists).reduce((items, item) => {
-            items[`rare--${item}`] = extractRareItems(
-                item,
-                clientLootLists
-            ).map(getItemFromKey);
+            items[`rare--${item}`] = extractRareItems(item, clientLootLists).map(
+                getItemFromKey
+            );
 
             return items;
         }, {}),
@@ -340,26 +448,24 @@ export const loadyCratesBySkins = () => {
                         acc[item.id] = [];
                     }
 
-                    const lootList = Object.entries(
-                        state.revolvingLootLists
-                    ).find(([id, item]) => item === crateKey);
+                    const lootList = Object.entries(state.revolvingLootLists).find(
+                        ([id, item]) => item === crateKey
+                    );
 
                     const crateItem =
                         hardCodedCrates[crateKey] ||
                         state.items[crateKey] ||
                         Object.values(state.items).find(
                             (i) =>
-                                i.attributes?.["set supply crate series"]
-                                    ?.value == lootList?.[0]
+                                i.attributes?.["set supply crate series"]?.value ==
+                                lootList?.[0]
                         );
 
                     if (crateItem != null) {
                         acc[item.id].push({
                             id: `crate-${crateItem.object_id}`,
                             name: crateItem.item_name,
-                            image: getImageUrl(
-                                crateItem?.image_inventory?.toLowerCase()
-                            ),
+                            image: getImageUrl(crateItem?.image_inventory?.toLowerCase()),
                         });
                     }
                 });
@@ -374,9 +480,7 @@ export const loadyCratesBySkins = () => {
 export const loadSkinsByCollections = () => {
     state.skinsByCollections = Object.entries(state.itemsGame.item_sets).reduce(
         (items, [key, value]) => {
-            items[key] = Object.keys(value.items).map((item) =>
-                getItemFromKey(item)
-            );
+            items[key] = Object.keys(value.items).map((item) => getItemFromKey(item));
             return items;
         },
         {
@@ -446,9 +550,7 @@ export const loadCratesByCollections = () => {
     state.cratesByCollections = Object.entries(state.skinsByCollections).reduce(
         (acc, [collection, items]) => {
             const itemsId = [...new Set(items.map(({ id }) => id))];
-            const crates = itemsId.flatMap(
-                (id) => state.cratesBySkins[id] ?? []
-            );
+            const crates = itemsId.flatMap((id) => state.cratesBySkins[id] ?? []);
 
             acc[collection] = filterUniqueByAttribute(crates, "id");
 
@@ -474,12 +576,9 @@ export const loadCollectionsBySkins = () => {
                         id: `collection-${crateItem.name
                             .replace("#CSGO_", "")
                             .replace(/_/g, "-")}`,
-                        name: crateItem.name,
+                        name: crateItem.name_force ?? crateItem.name,
                         image: getImageUrl(
-                            `econ/set_icons/${crateItem.name.replace(
-                                "#CSGO_",
-                                ""
-                            )}`
+                            `econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`
                         ),
                     });
                 }
@@ -502,9 +601,7 @@ export const loadSouvenirSkins = () => {
                 const attributeValue =
                     item.attributes?.["set supply crate series"]?.value ?? null;
                 const keyLootList =
-                    lootListName ??
-                    state.revolvingLootLists[attributeValue] ??
-                    null;
+                    lootListName ?? state.revolvingLootLists[attributeValue] ?? null;
 
                 return (
                     state.skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
@@ -562,6 +659,7 @@ const getItemFromKey = (key) => {
         paintKits,
         stickerKitsObj,
         musicDefinitionsObj,
+        keychainDefinitionsObj,
     } = state;
 
     if (key.includes("Commodity Pin")) {
@@ -580,9 +678,7 @@ const getItemFromKey = (key) => {
             id: `agent-${agent.object_id}`,
             name: agent.item_name,
             rarity: `rarity_${agent.item_rarity}_character`,
-            image: getImageUrl(
-                `econ/characters/${agent.name.toLocaleLowerCase()}`
-            ),
+            image: getImageUrl(`econ/characters/${agent.name.toLocaleLowerCase()}`),
         };
     }
 
@@ -593,140 +689,159 @@ const getItemFromKey = (key) => {
     }
     const { name, type } = match.groups;
 
-    switch (type) {
-        case "sticker":
-            const sticker = stickerKitsObj[name];
-            return {
-                id: `${type}-${sticker.object_id}`,
-                name: sticker.item_name,
-                rarity: `rarity_${sticker.item_rarity}`,
-                image: getImageUrl(
-                    `econ/stickers/${sticker.sticker_material.toLowerCase()}`
-                ),
-            };
-        case "patch":
-            const patch = stickerKitsObj[name];
-            return {
-                id: `${type}-${patch.object_id}`,
-                name: patch.item_name,
-                rarity: `rarity_${patch.item_rarity}`,
-                image: getImageUrl(`econ/patches/${patch.patch_material}`),
-            };
-        case "spray":
-            const graffiti = stickerKitsObj[name];
-            const variations = getGraffitiVariations(name);
-            const variationsIndex =
-                variations[0] === 0
-                    ? Array.from({ length: 19 }, (_, index) => index + 1)
-                    : variations;
+    if (type === "sticker") {
+        const sticker = stickerKitsObj[name];
+        return {
+            id: `${type}-${sticker.object_id}`,
+            name: sticker.item_name,
+            rarity: `rarity_${sticker.item_rarity}`,
+            image: getImageUrl(
+                `econ/stickers/${sticker.sticker_material.toLowerCase()}`
+            ),
+        };
+    }
 
-            if (variationsIndex.length > 0) {
-                return variationsIndex.map((index) => ({
-                    id: `graffiti-${graffiti.object_id}_${index}`,
-                    name: graffiti.item_name,
-                    rarity: `rarity_${graffiti.item_rarity}`,
-                    image: getImageUrl(
-                        `econ/stickers/${graffiti.sticker_material}_${index}`
-                    ),
-                }));
-            }
+    if (type === "patch") {
+        const patch = stickerKitsObj[name];
+        return {
+            id: `${type}-${patch.object_id}`,
+            name: patch.item_name,
+            rarity: `rarity_${patch.item_rarity}`,
+            image: getImageUrl(`econ/patches/${patch.patch_material}`),
+        };
+    }
 
-            return {
-                id: `graffiti-${graffiti.object_id}`,
+    if (type === "spray") {
+        const graffiti = stickerKitsObj[name];
+        const variations = getGraffitiVariations(name);
+        const variationsIndex =
+            variations[0] === 0
+                ? Array.from({ length: 19 }, (_, index) => index + 1)
+                : variations;
+
+        if (variationsIndex.length > 0) {
+            return variationsIndex.map((index) => ({
+                id: `graffiti-${graffiti.object_id}_${index}`,
                 name: graffiti.item_name,
                 rarity: `rarity_${graffiti.item_rarity}`,
                 image: getImageUrl(
-                    `econ/stickers/${graffiti.sticker_material}`
+                    `econ/stickers/${graffiti.sticker_material}_${index}`
                 ),
-            };
-        case "musickit":
-            const kit = musicDefinitionsObj[name];
-            const exclusive = isExclusive(kit.name);
-            return {
-                id: `music_kit-${kit.object_id}`,
-                name: exclusive ? kit.loc_name : kit.coupon_name,
-                rarity: "rarity_rare",
-                image: getImageUrl(kit.image_inventory),
-            };
-        // The rest are skins
-        default:
-            let id = "";
-            let itemName = "";
-            let paint_index = null;
-            let phase = null;
-            let image = null;
-            const translatedName = !isNotWeapon(type)
-                ? items[type].item_name_prefab
-                : items[type]?.item_name;
+            }));
+        }
 
-            const isKnife =
-                type.includes("weapon_knife") ||
-                type.includes("weapon_bayonet");
-
-            const rarity = !isNotWeapon(type)
-                ? `rarity_${rarities[key.toLocaleLowerCase()].rarity}_weapon`
-                : isKnife
-                    ? // Knives are 'Covert'
-                    `rarity_ancient_weapon`
-                    : // Gloves are 'Extraordinary'
-                    `rarity_ancient`;
-
-            // Not the best way to add vanilla knives.
-            if (name === "vanilla") {
-                const knife = knives.find((k) => k.name == type);
-                id = `skin-vanilla-${type}`;
-                itemName = {
-                    tKey: "rare_special_vanilla",
-                    weapon: knife.item_name,
-                };
-                image = getImageUrl(`econ/weapons/base_weapons/${knife.name}`);
-            } else {
-                const weaponIcons = Object.entries(
-                    itemsGame.alternate_icons2.weapon_icons
-                ).find(
-                    ([, value]) =>
-                        value.icon_path.includes(name) &&
-                        value.icon_path.includes(type) &&
-                        (name.includes("newcs2")
-                            ? true
-                            : !value.icon_path.includes("newcs2"))
-                );
-
-                // TODO: Remove this in the future.
-                // Added because of a problem loading `Revolution Case` skin's images.
-                // if (weaponIcons[1].icon_path.includes("_newcs2")) {
-                // weaponIcons[1].icon_path = weaponIcons[1].icon_path.replace(
-                //     "_newcs2",
-                //     ""
-                // );
-                // }
-
-                id = `skin-${weaponIcons[0]}`;
-                itemName = {
-                    ...(isNotWeapon(type) && { tKey: "rare_special" }),
-                    weapon: translatedName.replace("#", ""),
-                    pattern: paintKits[
-                        name.toLowerCase()
-                    ].description_tag.replace("#", ""),
-                };
-                paint_index = paintKits[name.toLowerCase()]?.paint_index;
-                phase = getDopplerPhase(
-                    paintKits[name.toLowerCase()].paint_index
-                );
-                image = getImageUrl(
-                    `${weaponIcons[1].icon_path.toLowerCase()}`
-                );
-            }
-
-            return {
-                id,
-                name: itemName,
-                rarity,
-                paint_index,
-                phase,
-                image,
-            };
+        return {
+            id: `graffiti-${graffiti.object_id}`,
+            name: graffiti.item_name,
+            rarity: `rarity_${graffiti.item_rarity}`,
+            image: getImageUrl(`econ/stickers/${graffiti.sticker_material}`),
+        };
     }
+
+    if (type === "musickit") {
+        const kit = musicDefinitionsObj[name];
+        const exclusive = isExclusive(kit.name);
+        return {
+            id: `music_kit-${kit.object_id}`,
+            name: exclusive ? kit.loc_name : kit.coupon_name,
+            rarity: "rarity_rare",
+            image: getImageUrl(kit.image_inventory),
+        };
+    }
+
+    if (type === "keychain") {
+        const keychain = keychainDefinitionsObj[name];
+        return {
+            id: `keychain-${keychain.object_id}`,
+            name: keychain.loc_name,
+            rarity: `rarity_${keychain.item_rarity}`,
+            image: getImageUrl(keychain.image_inventory.toLowerCase()),
+        };
+    }
+
+    if (
+        type.includes("weapon_") ||
+        [
+            "studded_bloodhound_gloves",
+            "slick_gloves",
+            "leather_handwraps",
+            "motorcycle_gloves",
+            "specialist_gloves",
+            "sporty_gloves",
+            "studded_hydra_gloves",
+            "studded_brokenfang_gloves",
+        ].includes(type)
+    ) {
+        let id = "";
+        let itemName = "";
+        let paint_index = null;
+        let phase = null;
+        let image = null;
+        const translatedName = !isNotWeapon(type)
+            ? items[type].item_name_prefab
+            : items[type]?.item_name;
+
+        const isKnife =
+            type.includes("weapon_knife") || type.includes("weapon_bayonet");
+
+        const rarity = !isNotWeapon(type)
+            ? `rarity_${rarities[key.toLocaleLowerCase()].rarity}_weapon`
+            : isKnife
+                ? // Knives are 'Covert'
+                `rarity_ancient_weapon`
+                : // Gloves are 'Extraordinary'
+                `rarity_ancient`;
+
+        // Not the best way to add vanilla knives.
+        if (name === "vanilla") {
+            const knife = knives.find((k) => k.name == type);
+            id = `skin-vanilla-${type}`;
+            itemName = {
+                tKey: "rare_special_vanilla",
+                weapon: knife.item_name,
+            };
+            image = getImageUrl(`econ/weapons/base_weapons/${knife.name}`);
+        } else {
+            const weaponIcons = Object.entries(
+                itemsGame.alternate_icons2.weapon_icons
+            ).find(
+                ([, value]) =>
+                    value.icon_path.includes(name) &&
+                    value.icon_path.includes(type) &&
+                    (name.includes("newcs2") ? true : !value.icon_path.includes("newcs2"))
+            );
+
+            // TODO: Remove this in the future.
+            // Added because of a problem loading `Revolution Case` skin's images.
+            // if (weaponIcons[1].icon_path.includes("_newcs2")) {
+            // weaponIcons[1].icon_path = weaponIcons[1].icon_path.replace(
+            //     "_newcs2",
+            //     ""
+            // );
+            // }
+
+            id = `skin-${weaponIcons[0]}`;
+            itemName = {
+                ...(isNotWeapon(type) && { tKey: "rare_special" }),
+                weapon: translatedName.replace("#", ""),
+                pattern: paintKits[name.toLowerCase()].description_tag.replace("#", ""),
+            };
+            paint_index = paintKits[name.toLowerCase()]?.paint_index;
+            phase = getDopplerPhase(paintKits[name.toLowerCase()].paint_index);
+            image = getImageUrl(`${weaponIcons[1].icon_path.toLowerCase()}`);
+        }
+
+        return {
+            id,
+            name: itemName,
+            rarity,
+            paint_index,
+            phase,
+            image,
+        };
+    }
+
+    console.error(`Unknown item type: ${type}`);
 };
 
 export const getManifestId = async () => {
