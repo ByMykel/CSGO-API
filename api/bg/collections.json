@@ -15832,6 +15832,878 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_xpshop_wpn_01_png.png"
   },
   {
+    "id": "collection-set-kc-missinglink",
+    "name": "Колекцията с джунджурии „Липсващото звено“",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-1",
+        "name": "Мъничка Ава",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png"
+      },
+      {
+        "id": "keychain-12",
+        "name": "Щипка сол",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_salty_png.png"
+      },
+      {
+        "id": "keychain-10",
+        "name": "Пикантен сос",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_catchup_png.png"
+      },
+      {
+        "id": "keychain-15",
+        "name": "Мъничък САС",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sas_png.png"
+      },
+      {
+        "id": "keychain-6",
+        "name": "Мъничък Красуотър",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_guerilla_png.png"
+      },
+      {
+        "id": "keychain-8",
+        "name": "„Големият“ Кев",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_kev_png.png"
+      },
+      {
+        "id": "keychain-5",
+        "name": "Мъничко пиленце",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_chicken_png.png"
+      },
+      {
+        "id": "keychain-2",
+        "name": "Това е банан",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_banana_png.png"
+      },
+      {
+        "id": "keychain-3",
+        "name": "Мъничък Мустакатко",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_cat_png.png"
+      },
+      {
+        "id": "keychain-4",
+        "name": "Мъничък Пясъчко",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_catbeach_png.png"
+      },
+      {
+        "id": "keychain-33",
+        "name": "Мъничък Саскуоч",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_bigfoot_png.png"
+      },
+      {
+        "id": "keychain-14",
+        "name": "Мъничка чашка за чай",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_toile_png.png"
+      },
+      {
+        "id": "keychain-9",
+        "name": "Мъничко чудовище",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_monster_png.png"
+      },
+      {
+        "id": "keychain-11",
+        "name": "Диамантен колбас",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_diamond_png.png"
+      },
+      {
+        "id": "keychain-13",
+        "name": "Кучешка радост",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_shape_png.png"
+      },
+      {
+        "id": "keychain-7",
+        "name": "Жарък вой",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_howl_png.png"
+      },
+      {
+        "id": "keychain-16",
+        "name": "Гореща наденица",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_wurst_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
+  },
+  {
+    "id": "collection-set-kc-weapon-01",
+    "name": "Колекцията с джунджурии „Малокалибрени оръжия“",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-17",
+        "name": "Бебешко AK47",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_base_png.png"
+      },
+      {
+        "id": "keychain-32",
+        "name": "Зареден шев",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_yarn_png.png"
+      },
+      {
+        "id": "keychain-27",
+        "name": "Мъничко капсово оръжие",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_cap_png.png"
+      },
+      {
+        "id": "keychain-19",
+        "name": "Джобно AWP",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_plastic_png.png"
+      },
+      {
+        "id": "keychain-26",
+        "name": "Обратни пръски",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_tile_png.png"
+      },
+      {
+        "id": "keychain-22",
+        "name": "Издялкана ножка",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_wood_png.png"
+      },
+      {
+        "id": "keychain-23",
+        "name": "ПОП арт",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_comic_png.png"
+      },
+      {
+        "id": "keychain-31",
+        "name": "Обаятелен изстрел",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_jewel_png.png"
+      },
+      {
+        "id": "keychain-18",
+        "name": "Отлят под налягане AK47",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_jelly_png.png"
+      },
+      {
+        "id": "keychain-25",
+        "name": "Диско MAC-10",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_glitter_png.png"
+      },
+      {
+        "id": "keychain-28",
+        "name": "Горещи ръце",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_magma_png.png"
+      },
+      {
+        "id": "keychain-20",
+        "name": "Мъничко титаниево AWP",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_spoon_png.png"
+      },
+      {
+        "id": "keychain-24",
+        "name": "Мъничка пръскачка",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_ss_png.png"
+      },
+      {
+        "id": "keychain-29",
+        "name": "Полускъпоценно",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_crystal_png.png"
+      },
+      {
+        "id": "keychain-21",
+        "name": "Бебешки карат (КТ)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_gold_png.png"
+      },
+      {
+        "id": "keychain-30",
+        "name": "Бебешки карат (Т)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_gold_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-01",
+    "name": "Пакет със Стикери „Стихийно творчество“",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7882",
+        "name": "Попадение на мълния",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7883",
+        "name": "Мълниеносен заряд",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7884",
+        "name": "Енергийна мълния",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7885",
+        "name": "Силна жега",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_two_png.png"
+      },
+      {
+        "id": "sticker-7886",
+        "name": "Нажежен хот род",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_png.png"
+      },
+      {
+        "id": "sticker-7891",
+        "name": "Обгорен лупинг",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_one_png.png"
+      },
+      {
+        "id": "sticker-7887",
+        "name": "Обгорен лупинг (наопъки)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_two_png.png"
+      },
+      {
+        "id": "sticker-7888",
+        "name": "Криволичещо обгаряне",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7892",
+        "name": "Бумтяща детонация",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7893",
+        "name": "Епицентър на бумтежа",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7894",
+        "name": "Бумтящ взрив",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7895",
+        "name": "Бумтяща диря",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7924",
+        "name": "Хидро вълна",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_one_png.png"
+      },
+      {
+        "id": "sticker-7922",
+        "name": "Хидро гейзер",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_two_png.png"
+      },
+      {
+        "id": "sticker-7923",
+        "name": "Хидро поток",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_three_png.png"
+      },
+      {
+        "id": "sticker-7896",
+        "name": "Дъгов маршрут (холограмен)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/holo_rainbow_trail_png.png"
+      },
+      {
+        "id": "sticker-7897",
+        "name": "Бумтяща детонация (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7898",
+        "name": "Епицентър на бумтежа (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7899",
+        "name": "Бумтящ взрив (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7900",
+        "name": "Бумтяща диря (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7901",
+        "name": "Попадение на мълния (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7902",
+        "name": "Мълниеносен заряд (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7903",
+        "name": "Енергийна мълния (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7904",
+        "name": "Криволичещо обгаряне (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7925",
+        "name": "Рубинен поток (лещовиден)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_one_png.png"
+      },
+      {
+        "id": "sticker-7926",
+        "name": "Рубинена вълна (лещовиден)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_two_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-02",
+    "name": "Пакет със стикери „Характерно творчество“",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7905",
+        "name": "Стягане на мускул",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_arm_flex_png.png"
+      },
+      {
+        "id": "sticker-7906",
+        "name": "Клоунски нос",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_nose_png.png"
+      },
+      {
+        "id": "sticker-7907",
+        "name": "Клоунска перука",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_wig_png.png"
+      },
+      {
+        "id": "sticker-4698",
+        "name": "Левичар (КТ)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ct_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4648",
+        "name": "Свиреп поглед",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_eye_png.png"
+      },
+      {
+        "id": "sticker-7909",
+        "name": "Бързо надникване",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_googly_eye_small_png.png"
+      },
+      {
+        "id": "sticker-7927",
+        "name": "Позиране",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_male_anime_face_png.png"
+      },
+      {
+        "id": "sticker-7910",
+        "name": "XD",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_mouth_png.png"
+      },
+      {
+        "id": "sticker-7911",
+        "name": "Завързана панделка",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ribbon_png.png"
+      },
+      {
+        "id": "sticker-4580",
+        "name": "Хапльото",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_shark_mouth_png.png"
+      },
+      {
+        "id": "sticker-7879",
+        "name": "Левичар (Т)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_t_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4647",
+        "name": "От дълбините",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7912",
+        "name": "Вкусова луковица",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tongue_png.png"
+      },
+      {
+        "id": "sticker-4590",
+        "name": "Летете високо",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_wings_png.png"
+      },
+      {
+        "id": "sticker-4577",
+        "name": "Премигващ",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Висок клас",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_winky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7913",
+        "name": "Очарователни очички (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_kawaii_eyes_png.png"
+      },
+      {
+        "id": "sticker-7914",
+        "name": "От дълбините (блестящ)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7915",
+        "name": "Кажете „сирене“ (холограмен)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_mouth_png.png"
+      },
+      {
+        "id": "sticker-7916",
+        "name": "Вкусова дружка (холограмен)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_tongue_png.png"
+      },
+      {
+        "id": "sticker-7921",
+        "name": "Хипнотични очи (холограмен)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Забележителен тип",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_angry_eyes_png.png"
+      },
+      {
+        "id": "sticker-7881",
+        "name": "Мустачко (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mustache_png.png"
+      },
+      {
+        "id": "sticker-7880",
+        "name": "Червени нюанси (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_sunglasses_png.png"
+      },
+      {
+        "id": "sticker-7917",
+        "name": "Златни жъбки (ламиниран)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Екзотичен тип",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mouth_png.png"
+      },
+      {
+        "id": "sticker-7918",
+        "name": "Поглед изкосо (лещовиден)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_cheeky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7919",
+        "name": "Шаващо око (лещовиден)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Необикновен тип",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_googly_eye_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_02_png.png"
+  },
+  {
     "id": "collection-4617",
     "name": "Колекция CS:GO графити № 3",
     "crates": [],
