@@ -45,7 +45,7 @@ const parseItem = (item) => {
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
-        name: $t(item.name),
+        name: item.name_force ? $t(item.name_force) : $t(item.name),
         crates: (
             cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []
         ).map((i) => ({

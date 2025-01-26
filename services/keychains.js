@@ -12,20 +12,12 @@ const isKeychain = (item) => {
     return true;
 };
 
-const getDescription = (item) => {
-    let msg = $t("CSGO_Tool_Keychain_Desc");
-    let desc = $t(item.loc_description);
-    if (desc && desc.length > 0 && item.loc_description !== `#${desc}`) {
-        msg = `${msg}<br><br>${desc}`;
-    }
-    return msg;
-};
-
 const getMarketHashName = (item) => {
     return `${$t("CSGO_Tool_Keychain", true)} | ${$t(item.loc_name, true)}`;
 };
 
 const parseItem = (item) => {
+    const { collectionsBySkins } = state;
     const image = getImageUrl(
         `${item.image_inventory.toLowerCase()}`
     );
@@ -33,18 +25,17 @@ const parseItem = (item) => {
     return {
         id: `keychain-${item.object_id}`,
         name: `${$t("CSGO_Tool_Keychain")} | ${$t(item.loc_name)}`,
-        description: getDescription(item),
-        rarity: item.item_rarity
-        ? {
-              id: `rarity_${item.item_rarity}`,
-              name: $t(`rarity_${item.item_rarity}`),
-              color: getRarityColor(`rarity_${item.item_rarity}`),
-          }
-        : {
-              id: "rarity_default",
-              name: $t("rarity_default"),
-              color: getRarityColor("rarity_default"),
-          },
+        description: $t("csgo_tool_keychain_desc"),
+        rarity: {
+            id: `rarity_${item.item_rarity}`,
+            name: $t(`rarity_${item.item_rarity}`),
+            color: getRarityColor(`rarity_${item.item_rarity}`),
+        },
+        collections:
+            collectionsBySkins?.[`keychain-${item.object_id}`]?.map((i) => ({
+                ...i,
+                name: $t(i.name),
+            })) ?? [],
         market_hash_name: getMarketHashName(item),
         image,
     };
