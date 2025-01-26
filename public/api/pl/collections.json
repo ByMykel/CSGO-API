@@ -15832,6 +15832,878 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_xpshop_wpn_01_png.png"
   },
   {
+    "id": "collection-set-kc-missinglink",
+    "name": "Kolekcja przywieszek Brakującego pęta",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-1",
+        "name": "Mała Ava",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png"
+      },
+      {
+        "id": "keychain-12",
+        "name": "Szczypta soli",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_salty_png.png"
+      },
+      {
+        "id": "keychain-10",
+        "name": "Ostry sos",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_catchup_png.png"
+      },
+      {
+        "id": "keychain-15",
+        "name": "Mały SAS",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sas_png.png"
+      },
+      {
+        "id": "keychain-6",
+        "name": "Mały Crass",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_guerilla_png.png"
+      },
+      {
+        "id": "keychain-8",
+        "name": "Duży Kev",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_kev_png.png"
+      },
+      {
+        "id": "keychain-5",
+        "name": "Kurczaczek",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_chicken_png.png"
+      },
+      {
+        "id": "keychain-2",
+        "name": "Zwariowany banan",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_banana_png.png"
+      },
+      {
+        "id": "keychain-3",
+        "name": "Mały mruczek",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_cat_png.png"
+      },
+      {
+        "id": "keychain-4",
+        "name": "Plażowy kotek",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_catbeach_png.png"
+      },
+      {
+        "id": "keychain-33",
+        "name": "Mały yeti",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_bigfoot_png.png"
+      },
+      {
+        "id": "keychain-14",
+        "name": "Filiżaneczka",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_toile_png.png"
+      },
+      {
+        "id": "keychain-9",
+        "name": "Potworek",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_monster_png.png"
+      },
+      {
+        "id": "keychain-11",
+        "name": "Diamentowa parówa",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_diamond_png.png"
+      },
+      {
+        "id": "keychain-13",
+        "name": "Barowa parówa",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_shape_png.png"
+      },
+      {
+        "id": "keychain-7",
+        "name": "Psalceson pikantny",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_howl_png.png"
+      },
+      {
+        "id": "keychain-16",
+        "name": "Przegrzana kiełba",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_wurst_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
+  },
+  {
+    "id": "collection-set-kc-weapon-01",
+    "name": "Kolekcja przywieszek Miniaturowej broni",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-17",
+        "name": "Kałaszek",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_base_png.png"
+      },
+      {
+        "id": "keychain-32",
+        "name": "Broń dziergana",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_yarn_png.png"
+      },
+      {
+        "id": "keychain-27",
+        "name": "Kapiszonowiec",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_cap_png.png"
+      },
+      {
+        "id": "keychain-19",
+        "name": "Kieszonkowe AWP",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_plastic_png.png"
+      },
+      {
+        "id": "keychain-26",
+        "name": "Glazura",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_tile_png.png"
+      },
+      {
+        "id": "keychain-22",
+        "name": "Strugany nóż",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_wood_png.png"
+      },
+      {
+        "id": "keychain-23",
+        "name": "POP Art",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_comic_png.png"
+      },
+      {
+        "id": "keychain-31",
+        "name": "Cenny strzał",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_jewel_png.png"
+      },
+      {
+        "id": "keychain-18",
+        "name": "Odlewane AK",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_jelly_png.png"
+      },
+      {
+        "id": "keychain-25",
+        "name": "Dyskotekowy MAC",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_glitter_png.png"
+      },
+      {
+        "id": "keychain-28",
+        "name": "Żaroręki",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_magma_png.png"
+      },
+      {
+        "id": "keychain-20",
+        "name": "Tycianowa AWP",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_spoon_png.png"
+      },
+      {
+        "id": "keychain-24",
+        "name": "Psikawka",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_ss_png.png"
+      },
+      {
+        "id": "keychain-29",
+        "name": "Półszlachetny",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_crystal_png.png"
+      },
+      {
+        "id": "keychain-21",
+        "name": "Malusieńki karat antyterrorystów",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_gold_png.png"
+      },
+      {
+        "id": "keychain-30",
+        "name": "Malusieńki karat terrorystów",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_gold_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-01",
+    "name": "Paczka z naklejką żywiołowego rzemiosła",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7882",
+        "name": "Piorunujące uderzenie",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7883",
+        "name": "Piorunujący ładunek",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7884",
+        "name": "Piorunująca energia",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7885",
+        "name": "Mocny ogień",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_two_png.png"
+      },
+      {
+        "id": "sticker-7886",
+        "name": "Tuningowy płomień",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_png.png"
+      },
+      {
+        "id": "sticker-7891",
+        "name": "Żarzysta pętla",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_one_png.png"
+      },
+      {
+        "id": "sticker-7887",
+        "name": "Żarzysta pętla (odwrócona)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_two_png.png"
+      },
+      {
+        "id": "sticker-7888",
+        "name": "Żarzysty zawijas",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7892",
+        "name": "Detonacja",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7893",
+        "name": "Epicentrum wybuchu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7894",
+        "name": "Fala wybuchu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7895",
+        "name": "Ślad wybuchu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7924",
+        "name": "Hydrofala",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_one_png.png"
+      },
+      {
+        "id": "sticker-7922",
+        "name": "Hydrogejzer",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_two_png.png"
+      },
+      {
+        "id": "sticker-7923",
+        "name": "Hydrostrumień",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_three_png.png"
+      },
+      {
+        "id": "sticker-7896",
+        "name": "Tęczowa ścieżka (hologramowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/holo_rainbow_trail_png.png"
+      },
+      {
+        "id": "sticker-7897",
+        "name": "Detonacja (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7898",
+        "name": "Epicentrum wybuchu (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7899",
+        "name": "Fala wybuchu (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7900",
+        "name": "Ślad wybuchu (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7901",
+        "name": "Piorunujące uderzenie (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7902",
+        "name": "Piorunujący ładunek (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7903",
+        "name": "Piorunująca energia (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7904",
+        "name": "Żarzysty zawijas (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7925",
+        "name": "Rubinowy strumień (soczewkowa)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_one_png.png"
+      },
+      {
+        "id": "sticker-7926",
+        "name": "Rubinowa fala (soczewkowa)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_two_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-02",
+    "name": "Paczka z naklejką charakternego rzemiosła",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7905",
+        "name": "Napinka",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_arm_flex_png.png"
+      },
+      {
+        "id": "sticker-7906",
+        "name": "Nos klauna",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_nose_png.png"
+      },
+      {
+        "id": "sticker-7907",
+        "name": "Peruka klauna",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_wig_png.png"
+      },
+      {
+        "id": "sticker-4698",
+        "name": "Leworęczny (AT)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ct_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4648",
+        "name": "Spojrzenie spod byka",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_eye_png.png"
+      },
+      {
+        "id": "sticker-7909",
+        "name": "Rzut oka",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_googly_eye_small_png.png"
+      },
+      {
+        "id": "sticker-7927",
+        "name": "Przyjmij pozę",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_male_anime_face_png.png"
+      },
+      {
+        "id": "sticker-7910",
+        "name": "XD",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_mouth_png.png"
+      },
+      {
+        "id": "sticker-7911",
+        "name": "Kokardka",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ribbon_png.png"
+      },
+      {
+        "id": "sticker-4580",
+        "name": "Zębiska",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_shark_mouth_png.png"
+      },
+      {
+        "id": "sticker-7879",
+        "name": "Leworęczny (T)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_t_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4647",
+        "name": "Rodem z głębin",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7912",
+        "name": "Kubek smakowy",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tongue_png.png"
+      },
+      {
+        "id": "sticker-4590",
+        "name": "Szerokich wiatrów",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_wings_png.png"
+      },
+      {
+        "id": "sticker-4577",
+        "name": "Mrug",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "wysokiej jakości",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_winky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7913",
+        "name": "Kawaii oczka (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_kawaii_eyes_png.png"
+      },
+      {
+        "id": "sticker-7914",
+        "name": "Rodem z głębin (brokatowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7915",
+        "name": "Od ucha do ucha (hologramowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_mouth_png.png"
+      },
+      {
+        "id": "sticker-7916",
+        "name": "Kubeczek smakowy (hologramowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_tongue_png.png"
+      },
+      {
+        "id": "sticker-7921",
+        "name": "Hipnooczy (hologramowa)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "nadzwyczajnej rzadkości",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_angry_eyes_png.png"
+      },
+      {
+        "id": "sticker-7881",
+        "name": "Wąsacz (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mustache_png.png"
+      },
+      {
+        "id": "sticker-7880",
+        "name": "Czerwone oksy (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_sunglasses_png.png"
+      },
+      {
+        "id": "sticker-7917",
+        "name": "Złote zębiska (foliowana)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "egzotycznego pochodzenia",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mouth_png.png"
+      },
+      {
+        "id": "sticker-7918",
+        "name": "Łyp z ukosa (soczewkowa)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_cheeky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7919",
+        "name": "Wyłupiaste oko (soczewkowa)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "wyjątkowej jakości",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_googly_eye_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_02_png.png"
+  },
+  {
     "id": "collection-4617",
     "name": "Kolekcja graffiti CS:GO nr 3",
     "crates": [],

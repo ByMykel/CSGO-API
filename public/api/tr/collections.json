@@ -15832,6 +15832,878 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_xpshop_wpn_01_png.png"
   },
   {
+    "id": "collection-set-kc-missinglink",
+    "name": "Sosisli Süsler Koleksiyonu",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-1",
+        "name": "Minik Ava",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png"
+      },
+      {
+        "id": "keychain-12",
+        "name": "Tuzluk Kafa",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_salty_png.png"
+      },
+      {
+        "id": "keychain-10",
+        "name": "Acı Sos",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_catchup_png.png"
+      },
+      {
+        "id": "keychain-15",
+        "name": "Minik SAS",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sas_png.png"
+      },
+      {
+        "id": "keychain-6",
+        "name": "Minik Serseri",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_guerilla_png.png"
+      },
+      {
+        "id": "keychain-8",
+        "name": "Büyük Kev",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_kev_png.png"
+      },
+      {
+        "id": "keychain-5",
+        "name": "Minik Tavuk",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_chicken_png.png"
+      },
+      {
+        "id": "keychain-2",
+        "name": "Muz Kafa",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_banana_png.png"
+      },
+      {
+        "id": "keychain-3",
+        "name": "Tüylü Ufaklık",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_cat_png.png"
+      },
+      {
+        "id": "keychain-4",
+        "name": "Kumlu Ufaklık",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_catbeach_png.png"
+      },
+      {
+        "id": "keychain-33",
+        "name": "Minik Ayak",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_bigfoot_png.png"
+      },
+      {
+        "id": "keychain-14",
+        "name": "Minik Fincan",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_toile_png.png"
+      },
+      {
+        "id": "keychain-9",
+        "name": "Minik Canavar",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_monster_png.png"
+      },
+      {
+        "id": "keychain-11",
+        "name": "Elmas Sosisli",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_diamond_png.png"
+      },
+      {
+        "id": "keychain-13",
+        "name": "Renkli Sosisli",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_sam_shape_png.png"
+      },
+      {
+        "id": "keychain-7",
+        "name": "Uluyan Sosis",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_howl_png.png"
+      },
+      {
+        "id": "keychain-16",
+        "name": "Sıcak Sosis",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_wurst_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png"
+  },
+  {
+    "id": "collection-set-kc-weapon-01",
+    "name": "Küçük Silahlar Süs Koleksiyonu",
+    "crates": [],
+    "contains": [
+      {
+        "id": "keychain-17",
+        "name": "Mini AK",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_base_png.png"
+      },
+      {
+        "id": "keychain-32",
+        "name": "Örgülü Silah",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_yarn_png.png"
+      },
+      {
+        "id": "keychain-27",
+        "name": "Minik Oyuncak Silah",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_cap_png.png"
+      },
+      {
+        "id": "keychain-19",
+        "name": "Mini AWP",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_plastic_png.png"
+      },
+      {
+        "id": "keychain-26",
+        "name": "Geri Tepici",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_tile_png.png"
+      },
+      {
+        "id": "keychain-22",
+        "name": "Yontma Bıçak",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_wood_png.png"
+      },
+      {
+        "id": "keychain-23",
+        "name": "POP Sanatı",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_comic_png.png"
+      },
+      {
+        "id": "keychain-31",
+        "name": "Göz Alıcı Atış",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_usp_jewel_png.png"
+      },
+      {
+        "id": "keychain-18",
+        "name": "Kalıp Döküm AK",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ak_jelly_png.png"
+      },
+      {
+        "id": "keychain-25",
+        "name": "Disko MAC",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_mac10_glitter_png.png"
+      },
+      {
+        "id": "keychain-28",
+        "name": "Yanık Eller",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tec9_magma_png.png"
+      },
+      {
+        "id": "keychain-20",
+        "name": "Titanyum AWP",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_awp_spoon_png.png"
+      },
+      {
+        "id": "keychain-24",
+        "name": "Minik Su Tüfeği",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_m4a1s_ss_png.png"
+      },
+      {
+        "id": "keychain-29",
+        "name": "Yarı Değerli",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_crystal_png.png"
+      },
+      {
+        "id": "keychain-21",
+        "name": "Mini Karat (AT)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_ctknife_gold_png.png"
+      },
+      {
+        "id": "keychain-30",
+        "name": "Mini Karat (T)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/weapon_1/kc_wpn_tknife_gold_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_weapon_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-01",
+    "name": "Doğal Tasarım Çıkartma Paketi",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7882",
+        "name": "Yıldırım Çarpması",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7883",
+        "name": "Şimşek Akımı",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7884",
+        "name": "Şimşek Enerjisi",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7885",
+        "name": "Yüksek Isı",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_two_png.png"
+      },
+      {
+        "id": "sticker-7886",
+        "name": "Yarış Alevi",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_flames_png.png"
+      },
+      {
+        "id": "sticker-7891",
+        "name": "Kavurucu Döngü",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_one_png.png"
+      },
+      {
+        "id": "sticker-7887",
+        "name": "Kavurucu Döngü (Ters)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_two_png.png"
+      },
+      {
+        "id": "sticker-7888",
+        "name": "Sarmal Alev",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7892",
+        "name": "İnfilak",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7893",
+        "name": "Patlama Merkezi",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7894",
+        "name": "Patlama Etkisi",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7895",
+        "name": "Patlama Yolu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7924",
+        "name": "Hidro Dalga",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_one_png.png"
+      },
+      {
+        "id": "sticker-7922",
+        "name": "Hidro Gayzer",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_two_png.png"
+      },
+      {
+        "id": "sticker-7923",
+        "name": "Hidro Akış",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_three_png.png"
+      },
+      {
+        "id": "sticker-7896",
+        "name": "Gökkuşağı Yolu (Holo)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/holo_rainbow_trail_png.png"
+      },
+      {
+        "id": "sticker-7897",
+        "name": "İnfilak (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_two_png.png"
+      },
+      {
+        "id": "sticker-7898",
+        "name": "Patlama Merkezi (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_three_png.png"
+      },
+      {
+        "id": "sticker-7899",
+        "name": "Patlama Etkisi (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_one_png.png"
+      },
+      {
+        "id": "sticker-7900",
+        "name": "Patlama Yolu (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_four_png.png"
+      },
+      {
+        "id": "sticker-7901",
+        "name": "Yıldırım Çarpması (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_two_png.png"
+      },
+      {
+        "id": "sticker-7902",
+        "name": "Şimşek Akımı (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_three_png.png"
+      },
+      {
+        "id": "sticker-7903",
+        "name": "Şimşek Enerjisi (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_one_png.png"
+      },
+      {
+        "id": "sticker-7904",
+        "name": "Sarmal Alev (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_fire_three_png.png"
+      },
+      {
+        "id": "sticker-7925",
+        "name": "Kızıl Akış (Merceksi)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_one_png.png"
+      },
+      {
+        "id": "sticker-7926",
+        "name": "Kızıl Dalga (Merceksi)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_two_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_01_png.png"
+  },
+  {
+    "id": "collection-set-stkr-craft-02",
+    "name": "Karakter Tasarımı Çıkartma Paketi",
+    "crates": [],
+    "contains": [
+      {
+        "id": "sticker-7905",
+        "name": "Kaslı",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_arm_flex_png.png"
+      },
+      {
+        "id": "sticker-7906",
+        "name": "Palyaço Burnu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_nose_png.png"
+      },
+      {
+        "id": "sticker-7907",
+        "name": "Palyaço Peruğu",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_wig_png.png"
+      },
+      {
+        "id": "sticker-4698",
+        "name": "Solak (AT)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ct_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4648",
+        "name": "Ters Bakış",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_eye_png.png"
+      },
+      {
+        "id": "sticker-7909",
+        "name": "Hızlı Bakış",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_googly_eye_small_png.png"
+      },
+      {
+        "id": "sticker-7927",
+        "name": "Poz Ver",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_male_anime_face_png.png"
+      },
+      {
+        "id": "sticker-7910",
+        "name": "XD",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_mouth_png.png"
+      },
+      {
+        "id": "sticker-7911",
+        "name": "Kurdele",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ribbon_png.png"
+      },
+      {
+        "id": "sticker-4580",
+        "name": "Sivri Dişler",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_shark_mouth_png.png"
+      },
+      {
+        "id": "sticker-7879",
+        "name": "Solak (T)",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_t_left_hand_png.png"
+      },
+      {
+        "id": "sticker-4647",
+        "name": "Derin Sulardan",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7912",
+        "name": "Tatlı Dil",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tongue_png.png"
+      },
+      {
+        "id": "sticker-4590",
+        "name": "Yüksekten Uçan",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_wings_png.png"
+      },
+      {
+        "id": "sticker-4577",
+        "name": "Kısık Gözler",
+        "rarity": {
+          "id": "rarity_rare",
+          "name": "Yüksek Sınıf",
+          "color": "#4b69ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_winky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7913",
+        "name": "Kawaii Gözler (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_kawaii_eyes_png.png"
+      },
+      {
+        "id": "sticker-7914",
+        "name": "Derin Sulardan (Parıltılı)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_tentacle_png.png"
+      },
+      {
+        "id": "sticker-7915",
+        "name": "Gülümse (Holo)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_mouth_png.png"
+      },
+      {
+        "id": "sticker-7916",
+        "name": "Renkli Dil (Holo)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_tongue_png.png"
+      },
+      {
+        "id": "sticker-7921",
+        "name": "Hipnotize Gözler (Holo)",
+        "rarity": {
+          "id": "rarity_mythical",
+          "name": "Dikkat Çekici",
+          "color": "#8847ff"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_angry_eyes_png.png"
+      },
+      {
+        "id": "sticker-7881",
+        "name": "Bıyık (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mustache_png.png"
+      },
+      {
+        "id": "sticker-7880",
+        "name": "Kırmızı Gözlük (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_sunglasses_png.png"
+      },
+      {
+        "id": "sticker-7917",
+        "name": "Altın Dişler (Parlak)",
+        "rarity": {
+          "id": "rarity_legendary",
+          "name": "Egzotik",
+          "color": "#d32ce6"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mouth_png.png"
+      },
+      {
+        "id": "sticker-7918",
+        "name": "Yan Bakış (Merceksi)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_cheeky_eyes_png.png"
+      },
+      {
+        "id": "sticker-7919",
+        "name": "Oynar Göz (Merceksi)",
+        "rarity": {
+          "id": "rarity_ancient",
+          "name": "Olağandışı",
+          "color": "#eb4b4b"
+        },
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_googly_eye_png.png"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_stkr_craft_02_png.png"
+  },
+  {
     "id": "collection-4617",
     "name": "CS:GO Grafiti Koleksiyonu 3",
     "crates": [],
