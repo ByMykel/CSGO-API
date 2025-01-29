@@ -465,6 +465,7 @@ export const getCollectibleRarity = (prefab) => {
             case "season7_coin":
             case "season8_coin":
             case "season9_coin":
+            case "premier_season_coin":
                 return "rarity_ancient";
         }
     }
