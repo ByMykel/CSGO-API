@@ -155,6 +155,13 @@
                             </div>
                             <div class="mb-1.5">
                                 <a
+                                    href="#list-all"
+                                    class="text-slate-900 hover:underline"
+                                    >List all</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
                                     href="#list-skins"
                                     class="text-slate-900 hover:underline"
                                     >List skins</a
@@ -162,9 +169,23 @@
                             </div>
                             <div class="mb-1.5">
                                 <a
+                                    href="#list-skins-not-grouped"
+                                    class="text-slate-900 hover:underline"
+                                    >List skins not grouped</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
                                     href="#list-stickers"
                                     class="text-slate-900 hover:underline"
                                     >List stickers</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-keychain"
+                                    class="text-slate-900 hover:underline"
+                                    >List keychains</a
                                 >
                             </div>
                             <div class="mb-1.5">
@@ -231,7 +252,7 @@
             <div
                 class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[16rem] pb-10 px-6 overflow-y-auto"
             >
-                <div class="sticky top-4">
+                <div class="sticky top-4 nav-desktop">
                     <div>
                         <h1
                             class="text-lg tracking-tight font-extrabold text-slate-900 mb-3"
@@ -242,84 +263,105 @@
                     <div class="mb-1.5">
                         <a
                             href="#introduction"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >Introduction</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
+                            href="#list-all"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List all</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
                             href="#list-skins"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List skins</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
+                            href="#list-skins-not-grouped"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List skins not grouped</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
                             href="#list-stickers"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List stickers</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
+                            href="#list-keychain"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List keychains</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
                             href="#list-collections"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List collections</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-crates"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List crates</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-keys"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List keys</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-collectibles"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List collectibles</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-agents"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List agents</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-patches"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List patches</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-graffiti"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List graffiti</a
                         >
                     </div>
                     <div class="mb-1.5">
                         <a
                             href="#list-music-kits"
-                            class="text-slate-900 hover:underline"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
                             >List music kits</a
                         >
                     </div>
                 </div>
             </div>
 
-            <div class="lg:pl-[10rem] xl:pl-[2rem]">
+            <div class="lg:pl-[11rem] xl:pl-[2rem] endpoints">
                 <div class="pb-12 mt-4">
                     <div id="introduction">
                         <h1 class="section-heading">Introduction</h1>
@@ -407,8 +449,44 @@
 
                     <hr />
 
+                    <div id="list-all" class="mb-8">
+                        <h1 class="section-heading">List all</h1>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            Object with all items accessible by their id.
+                        </p>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /all.json
+                            </div>
+                            <a
+                                href="https://bymykel.github.io/CSGO-API/api/en/all.json"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="request-icon"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
                     <div id="list-skins" class="mb-8">
-                        <h1 class="section-heading">List Skins</h1>
+                        <h1 class="section-heading">List skins</h1>
 
                         <div class="request-info">
                             <div>
@@ -442,67 +520,73 @@
                             >
 [
     {
-        "id": "skin-65604",
-        "name": "Desert Eagle | Urban DDPAT",
-        "description": "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\n\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
-        "weapon": {
-            "id": "weapon_deagle",
-            "name": "Desert Eagle"
+        id: "skin-65604",
+        name: "Desert Eagle | Urban DDPAT",
+        description:
+            "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\\n\\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
+        weapon: {
+            id: "weapon_deagle",
+            weapon_id: 1,
+            name: "Desert Eagle",
         },
-        "category": {
-            "id": "csgo_inventory_weapon_category_pistols",
-            "name": "Pistols"
+        category: {
+            id: "csgo_inventory_weapon_category_pistols",
+            name: "Pistols",
         },
-        "pattern": {
-            "id": "hy_ddpat_urb",
-            "name": "Urban DDPAT"
+        pattern: {
+            id: "hy_ddpat_urb",
+            name: "Urban DDPAT",
         },
-        "min_float": 0.06,
-        "max_float": 0.8,
-        "rarity": {
-            "id": "rarity_uncommon_weapon",
-            "name": "Industrial Grade",
-            "color": "#5e98d9"
+        min_float: 0.06,
+        max_float: 0.8,
+        rarity: {
+            id: "rarity_uncommon_weapon",
+            name: "Industrial Grade",
+            color: "#5e98d9",
         },
-        "stattrak": false,
-        "souvenir": true,
-        "paint_index": "17",
-        "wears": [
-            {"id": "SFUI_InvTooltip_Wear_Amount_0", "name": "Factory New"},
-            {"id": "SFUI_InvTooltip_Wear_Amount_1", "name": "Minimal Wear"},
-            {"id": "SFUI_InvTooltip_Wear_Amount_2", "name": "Field-Tested"},
-            {"id": "SFUI_InvTooltip_Wear_Amount_3", "name": "Well-Worn"},
-            {"id": "SFUI_InvTooltip_Wear_Amount_4", "name": "Battle-Scarred"}
-        ],
-        "collections": [
+        stattrak: false,
+        souvenir: true,
+        paint_index: "17",
+        wears: [
             {
-                "id": "collection-set-overpass",
-                "name": "The Overpass Collection",
-                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png"
-            }
+            id: "SFUI_InvTooltip_Wear_Amount_0",
+            name: "Factory New",
+            },
+            // ...
         ],
-        "crates": [
+        collections: [
             {
-                "id": "crate-4028",
-                "name": "ESL One Cologne 2014 Overpass Souvenir Package",
-                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esl14_promo_de_overpass_png.png"
-            }
-            // ... 
+            id: "collection-set-overpass",
+            name: "The Overpass Collection",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png",
+            },
         ],
-        "team": {
-            "id": "both",
-            "name": "Both Teams"
+        crates: [
+            {
+            id: "crate-4028",
+            name: "ESL One Cologne 2014 Overpass Souvenir Package",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esl14_promo_de_overpass_png.png",
+            },
+            // ...
+        ],
+        team: {
+            id: "both",
+            name: "Both Teams",
         },
-        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png"
-    }
-    // ... 
+        legacy_model: true,
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+    },
+    // ...
 ]
                             </pre>
                         </div>
                     </div>
 
-                    <div id="list-skins" class="mb-8">
-                        <h1 class="section-heading">List Skins not grouped</h1>
+                    <div id="list-skins-not-grouped" class="mb-8">
+                        <h1 class="section-heading">List skins not grouped</h1>
 
                         <div class="request-info">
                             <div>
@@ -536,44 +620,53 @@
                             >
 [
     {
-        "id": "skin-65604_0",
-        "skin_id": "skin-65604",
-        "name": "Desert Eagle | Urban DDPAT (Factory New)",
-        "description": "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (ddpat) hydrographic.\\n\\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
-        "weapon": {
-            "id": "weapon_deagle",
-            "name": "Desert Eagle"
+        id: "skin-65604_0",
+        skin_id: "skin-65604",
+        name: "Desert Eagle | Urban DDPAT (Factory New)",
+        description:
+            "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\\n\\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
+        weapon: {
+            id: "weapon_deagle",
+            weapon_id: 1,
+            name: "Desert Eagle",
         },
-        "category": {
-            "id": "csgo_inventory_weapon_category_pistols",
-            "name": "Pistols"
+        category: {
+            id: "csgo_inventory_weapon_category_pistols",
+            name: "Pistols",
         },
-        "pattern": {
-            "id": "hy_ddpat_urb",
-            "name": "Urban DDPAT"
+        pattern: {
+            id: "hy_ddpat_urb",
+            name: "Urban DDPAT",
         },
-        "min_float": 0.06,
-        "max_float": 0.8,
-        "wear": {
-            "id": "SFUI_InvTooltip_Wear_Amount_0",
-            "name": "Factory New"
+        min_float: 0.06,
+        max_float: 0.8,
+        wear: {
+            id: "SFUI_InvTooltip_Wear_Amount_0",
+            name: "Factory New",
         },
-        "stattrak": false,
-        "souvenir": false,
-        "paint_index": "17",
-        "rarity": {
-            "id": "rarity_uncommon_weapon",
-            "name": "Industrial Grade",
-            "color": "#5e98d9"
+        stattrak: false,
+        souvenir: false,
+        paint_index: "17",
+        rarity: {
+            id: "rarity_uncommon_weapon",
+            name: "Industrial Grade",
+            color: "#5e98d9",
         },
-        "market_hash_name": "Desert Eagle | Urban DDPAT (Factory New)",
-        "team": {
-            "id": "both",
-            "name": "Both Teams"
+        market_hash_name: "Desert Eagle | Urban DDPAT (Factory New)",
+        team: {
+            id: "both",
+            name: "Both Teams",
         },
-        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png"
-    }
-    // ... 
+        style: {
+            id: 2,
+            name: "Hydrographic",
+            url: "https://www.counter-strike.net/workshop/workshopfinishes#hydrographic",
+        },
+        legacy_model: true,
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+        },
+        // ...
 ]
                             </pre>
                         </div>
@@ -618,29 +711,96 @@
                             >
 [
     {
-        "id": "sticker-75",
-        "name": "Sticker | Titan | Katowice 2014",
-        "description": "This sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
-        "rarity": {
-            "id": "rarity_rare",
-            "name": "High Grade",
-            "color": "#4b69ff"
+        id: "sticker-75",
+        name: "Sticker | Titan | Katowice 2014",
+        description:
+            "This item commemorates the The 2014 EMS One Katowice CS:GO Championship.This sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        rarity: {
+            id: "rarity_rare",
+            name: "High Grade",
+            color: "#4b69ff",
         },
-        "crates": [
+        crates: [
             {
-                "id": "crate-4015",
-                "name": "EMS Katowice 2014 Legends",
-                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_kat2014_02_png.png"
-            }
+            id: "crate-4015",
+            name: "EMS Katowice 2014 Legends",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_kat2014_02_png.png",
+            },
         ],
-        "tournament_event": "Katowice 2014",
-        "tournament_team": "Titan",
-        "type": "Team",
-        "market_hash_name": "Sticker | Titan | Katowice 2014",
-        "effect": "Other",
-        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png"
-    }
-    // ... 
+        tournament_event: "Katowice 2014",
+        tournament_team: "Titan",
+        type: "Team",
+        market_hash_name: "Sticker | Titan | Katowice 2014",
+        effect: "Other",
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png",
+    },
+    // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div id="list-keychain" class="mb-8">
+                        <h1 class="section-heading">List keychains</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /keychains.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://bymykel.github.io/CSGO-API/api/en/keychains.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "keychain-1",
+        name: "Charm | Lil' Ava",
+        description:
+            "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+        rarity: {
+            id: "rarity_rare",
+            name: "High Grade",
+            color: "#4b69ff",
+        },
+        collections: [
+            {
+            id: "collection-set-kc-missinglink",
+            name: "Missing Link Charm Collection",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png",
+            },
+        ],
+        market_hash_name: "Charm | Lil' Ava",
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png",
+    },
+    // ...
 ]
                             </pre>
                         </div>
@@ -1210,6 +1370,34 @@
                             });
                     });
                 });
+
+                document.addEventListener("scroll", () => {
+                    let sections = document.querySelectorAll(".endpoints div[id]");
+                    let currentSection = null;
+
+                    sections.forEach((section) => {
+                        const rect = section.getBoundingClientRect();
+                        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+                            currentSection = section;
+                        }
+                    });
+
+                    if (currentSection) {
+                        history.replaceState(null, null, `#${currentSection.id}`);
+
+                        // Remove the border class from all links inside .nav-desktop
+                        document.querySelectorAll(".nav-desktop a").forEach((link) => {
+                            link.classList.remove("border-sky-500/60");
+                        });
+
+                        // Find the corresponding <a> inside .nav-desktop and add the border class
+                        let navLink = document.querySelector(`.nav-desktop a[href='#${currentSection.id}']`);
+                        if (navLink) {
+                            navLink.classList.add("border-sky-500/60");
+                        }
+                    }
+                });
+
             })();
         </script>
     </body>
