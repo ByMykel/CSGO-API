@@ -62,7 +62,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/skins.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "skin-65604",
@@ -138,7 +138,7 @@ Similar to the previous but in this case is not grouped by wear (Factory New, Fi
 
 Example response:
 
-```json
+```js
 [
   {
     id: "skin-65604_0",
@@ -199,7 +199,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "sticker-75",
@@ -239,7 +239,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/keychains.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "keychain-1",
@@ -275,7 +275,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/collections.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "collection-set-community-3",
@@ -320,7 +320,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/crates.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "crate-4904",
@@ -377,7 +377,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/keys.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "key-generic_valve_key",
@@ -409,7 +409,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/collectibles.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "collectible-874",
@@ -439,7 +439,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/agents.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "agent-4613",
@@ -479,7 +479,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/patches.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "patch-5126",
@@ -507,7 +507,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/graffiti.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "graffiti-1654",
@@ -543,7 +543,7 @@ GET https://bymykel.github.io/CSGO-API/api/en/music_kits.json
 
 Example response:
 
-```json
+```js
 [
   {
     id: "music_kit-39",
