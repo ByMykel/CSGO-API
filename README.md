@@ -125,7 +125,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List skins not grouped
@@ -188,7 +188,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List stickers
@@ -228,7 +228,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List keychains (charms)
@@ -264,7 +264,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List collections
@@ -307,7 +307,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_3_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List crates
@@ -366,7 +366,7 @@ Example response:
     model_player: "models/props/crates/csgo_drop_crate_community_33.vmdl",
   },
   // ...
-];
+]
 ```
 
 ### List keys
@@ -398,7 +398,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List collectibles
@@ -428,7 +428,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List agents
@@ -468,7 +468,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/characters/customplayer_tm_professional_varf5_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List patches
@@ -496,7 +496,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/patches/stockh2021/patch_faze_gold_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List graffiti
@@ -532,7 +532,7 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community_mix01/chicken_png.png",
   },
   // ...
-];
+]
 ```
 
 ### List music kits
@@ -561,5 +561,5 @@ Example response:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/theverkkars_01_png.png",
   },
   // ...
-];
+]
 ```
