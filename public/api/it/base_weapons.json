@@ -1,0 +1,470 @@
+[
+  {
+    "id": "base_weapon-ct_gloves",
+    "name": "Guanti AT predefiniti",
+    "description": "Guanti multiuso tattici da combattimento progettati per personale militare o di sicurezza.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+  },
+  {
+    "id": "base_weapon-t_gloves",
+    "name": "Guanti T predefiniti",
+    "description": "<i>Non avere mai paura di sporcarti le mani. – Valeria Jenner, rivoluzionaria</i>",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_ak47",
+    "name": "AK-47",
+    "description": "Potente ed affidabile, l'AK-47 è uno dei fucili d'assalto più popolari del mondo. È più letale in raffiche di fuoco brevi e controllate.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_aug",
+    "name": "AUG",
+    "description": "Potente e preciso, l'AUG, dotato di mirino di precisione, compensa i suoi lunghi tempi di ricarica con una dispersione ridotta ed un'alta cadenza di tiro.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_awp",
+    "name": "AWP",
+    "description": "Il famigerato AWP, rischioso da usare ma molto utile, è riconoscibile per il suo tratto distintivo: un colpo, un morto.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_axe",
+    "name": "Ascia",
+    "description": "Pesante e sempre disponibile, l'ascia ha una faccia affilata e una smussata. Falla roteare per sferrare un attacco primario a danno contenuto oppure lanciala per sferrare un attacco secondario a danno elevato. Quanta legna è capace di tagliare una marmotta?",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_bayonet",
+    "name": "Baionetta",
+    "description": "Pressoché invariata rispetto alla sua versione della seconda guerra mondiale, la baionetta conserva ancora un ruolo nelle strategie militari moderne. Le cariche di baionetta hanno mantenuto la loro efficacia anche più recentemente, nella guerra del Golfo e nella guerra in Afghanistan.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_bizon",
+    "name": "PP-Bizon",
+    "description": "Il mitra Bizon ha una limitata potenza di fuoco, ma offre un caricatore a tamburo ad alta capacità espressamente progettato che si ricarica rapidamente.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_breachcharge",
+    "name": "Carica esplosiva",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_bumpmine",
+    "name": "Mina da salto",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_c4",
+    "name": "Esplosivo C4",
+    "description": "Stabile e resistente alla maggior parte degli shock fisici, questo esplosivo plastico improvvisato ha una velocità di detonazione di oltre 8000 metri al secondo quando viene innescato.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_c4_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_cz75a",
+    "name": "CZ75-Auto",
+    "description": "La CZ75-Auto, una variante completamente automatica della CZ75, è un'altra scelta economica contro gli avversari provvisti di giubbotto antiproiettile. Dato che ha poche munizioni, dovrai far valere al meglio ogni colpo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_deagle",
+    "name": "Desert Eagle",
+    "description": "Tanto costosa quanto potente, la Desert Eagle è una pistola famosa che è difficile da padroneggiare ma incredibilmente precisa a lunga gittata.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_decoy",
+    "name": "Granata diversiva",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_elite",
+    "name": "Doppia Beretta",
+    "description": "Sparare contemporaneamente due Beretta con caricatori maggiorati ridurrà la precisione e aumenterà i tempi di ricarica. Dal lato positivo, potrai sparare contemporaneamente con due Beretta dotate di caricatori maggiorati.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_elite_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_famas",
+    "name": "FAMAS",
+    "description": "Una scelta economica per i giocatori rimasti a tasche vuote, il FAMAS colma lo spazio che si trova tra i fucili più costosi e i mitra meno efficaci.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_fists",
+    "name": "Mani nude",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_fiveseven",
+    "name": "Five-SeveN",
+    "description": "Estremamente precisa e utile contro i giubbotti antiproiettile, la costosa Five-Seven è un'arma lenta da ricaricare, compensata da un caricatore da 20 colpi e da un rinculo modesto.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_flashbang",
+    "name": "Granata flashbang",
+    "description": "Questa granata flashbang non letale acceca chiunque rimanga esposto alla luce dell'esplosione, l'ideale per stanare i nemici in ambienti chiusi. Inoltre, il suo suono assordante maschera temporaneamente il rumore dei passi.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_g3sg1",
+    "name": "G3SG1",
+    "description": "Il costoso G3SG1 riduce la velocità di movimento considerevolmente ma compensa con una cadenza di tiro più alta rispetto a ogni altro fucile di precisione.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_galilar",
+    "name": "Galil AR",
+    "description": "Una scelta meno costosa tra i fucili esclusivi ai Terroristi, il Galil AR è un'arma utile nel combattimento a distanza medio-lunga.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_galilar_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_glock",
+    "name": "Glock-18",
+    "description": "La Glock 18 è un'utile pistola per il primo round che si dimostra più efficace contro avversari senza giubbotto antiproiettile ed è capace di sparare in raffiche da 3 colpi.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_hammer",
+    "name": "Martello",
+    "description": "Il martello serve per riparare cose e per rompere cose. Fallo roteare per sferrare un attacco primario a danno contenuto oppure lancialo per sferrare un attacco secondario a danno elevato. Se tutto ciò che hai è un martello, tutto quanto ti sembrerà un chiodo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_healthshot",
+    "name": "Iniezione medica",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_hegrenade",
+    "name": "Granata ad alto esplosivo",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_hkp2000",
+    "name": "P2000",
+    "description": "Precisa e controllabile, la P2000, di fabbricazione tedesca, è un'utile pistola per il primo round che si dimostra efficace contro gli avversari senza giubbotto antiproiettile.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_incgrenade",
+    "name": "Granata incendiaria",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_butterfly",
+    "name": "Coltello a farfalla",
+    "description": "Questo è un balisong di fattura personalizzata, conosciuto comunemente con il nome di coltello a farfalla. La caratteristica distintiva di quest'arma è il sistema di apertura a ventaglio della lama a perno libero, che le consente di venire estratta o celata molto rapidamente. Per questo motivo, i coltelli a farfalla sono vietati in quasi tutto il mondo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_canis",
+    "name": "Coltello da sopravvivenza",
+    "description": "Questo coltello tattico multiuso è dotato di un bordo seghettato per tagliare materiali ruvidi come ossa o fibre, oltre a un gancio affilato per eviscerare. Il manico in materiale composito è fissato alla lama con viti esagonali.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_cord",
+    "name": "Coltello Paracord",
+    "description": "Questo coltello da sopravvivenza a lama fissa è progettato per essere utilizzato come arma o come utensile, ad esempio per preparare trappole, cacciare animali o tagliare rami. Il manico è rivestito da un cavo da paracadute multiuso.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_css",
+    "name": null,
+    "description": "Un classico della serie di Counter-Strike: la lama è realizzata meticolosamente in Stellite e titanio. Il manico è realizzato in avorio di mastodonte fossilizzato e rinforzato in fibra di carbonio.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_falchion",
+    "name": "Coltello falchion",
+    "description": "Un omaggio all'antico falchion in chiave moderna, questa lama uncinata ha il filo curvo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_flip",
+    "name": "Coltello ricurvo",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_gut",
+    "name": "Coltello da sventramento",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_gypsy_jackknife",
+    "name": "Coltello Navaja",
+    "description": "Questo coltello ricurvo con manico smaltato in marmo nasconde una lama piccola ma affilata per uccidere.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_karambit",
+    "name": "Karambit",
+    "description": "Con la sua lama ricurva a mo' di artiglio di tigre, il karambit fu sviluppato come parte integrante della disciplina silat di arti marziali asiatiche di Sud-Est. Il coltello è tipicamente impugnato a rovescio, facendo passare l'indice nell'apposito anello.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_kukri",
+    "name": "Coltello Kukri",
+    "description": "Utilizzato nei rituali tradizionali, come matrimoni o accoltellamenti.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_m9_bayonet",
+    "name": "Baionetta M9",
+    "description": "Questa è la baionetta M-9. Originariamente pensata per essere montata sul fucile, rimane comunque ben adatta agli scontri ravvicinati.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_outdoor",
+    "name": "Coltello Nomade",
+    "description": "Questo coltello tattico da caccia a lama pieghevole include inserti in materiale composito sull'impugnatura ergonomica e una lama larga e robusta, utile per tagliare e affettare materiali.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife",
+    "name": "Coltello",
+    "description": "Silenzioso e sempre disponibile, il coltello ha un attacco primario rapido a danno contenuto, e uno secondario lento a danno elevato. Una pugnalata alle spalle ricompenserà i giocatori furtivi con un'uccisione istantanea.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_push",
+    "name": "Fendi ombra",
+    "description": "Progettati per una meticolosa brutalità, utilizzare questi pugnali è semplice come tirare un pugno o due.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_skeleton",
+    "name": "Coltello Scheletro",
+    "description": "Su questo coltello a tema scheletrico è stato applicato del nastro per una presa più ferma. Il buco permette di inserire un dito per avere più sicurezza e stabilità.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_stiletto",
+    "name": "Stiletto",
+    "description": "Da sempre al centro di dibattiti e regolamentazioni, questo coltello a serramanico dal design a stiletto in stile italiano è dotato di una lama caricata a molla che può essere rilasciata in modo quasi istantaneo rilasciando la sicura.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_survival_bowie",
+    "name": "Coltello Bowie",
+    "description": "Questo affilato coltello Bowie dalla lama parzialmente nascosta è stato progettato per un utilizzo intensivo in situazioni brutali di sopravvivenza.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_survival_bowie_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_t",
+    "name": "Coltello",
+    "description": "Silenzioso e sempre disponibile, il coltello ha un attacco primario rapido a danno contenuto, e uno secondario lento a danno elevato. Una pugnalata alle spalle ricompenserà i giocatori furtivi con un'uccisione istantanea.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_tactical",
+    "name": "Coltello da cacciatore",
+    "description": "Un coltello realizzato per usi tattici moderni, la lama è utilizzabile sia per il combattimento che per scopi generici. La caratteristica lama a punta Tanto permette la massima penetrazione anche nelle superfici più resistenti.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_ursus",
+    "name": "Coltello Ursus",
+    "description": "Questo coltello da sopravvivenza in pieno stile tantō è dotato di una lama piatta e un codolo pieno con tanto di impugnatura da impatto. Niente fronzoli, niente parti mobili, solo una lama affidabile pronta all'uso.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_ursus_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_knife_widowmaker",
+    "name": "Coltello Talon",
+    "description": "Questo karambit con il manico di avorio è caratterizzato da rivetti di ottone ed estremità dentate, in modo tale da tagliare quando entra dentro e lacerare quando esce fuori.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_m249",
+    "name": "M249",
+    "description": "Una potente mitragliatrice da campo aperto, l'M249 è la scelta perfetta per i giocatori che desiderano rinunciare ad un'alta cadenza di tiro per una precisione maggiore e una grande capacità di munizioni.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m249_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_m4a1",
+    "name": "M4A4",
+    "description": "Più preciso ma dotato di una potenza di fuoco inferiore rispetto al corrispettivo AK-47, l'M4A4 è il fucile d'assalto d'ordinanza completamente automatico per gli AT.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_m4a1_silencer",
+    "name": "M4A1-S",
+    "description": "Meno costoso e dotato di un caricatore di capacità inferiore rispetto alla sua versione normale, l'M4A1 silenziato garantisce colpi più difficili da udire, un rinculo ridotto ed una maggior precisione.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_silencer_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_mac10",
+    "name": "MAC-10",
+    "description": "Fondamentalmente, una scatoletta da cui escono fuori i proiettili, il MAC-10 fa vanto di una cadenza di tiro rapida, a discapito di una dispersione dei colpi poco precisa e di un alto rinculo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_mag7",
+    "name": "MAG-7",
+    "description": "Il Mag-7, esclusivo per gli AT, è in grado di infliggere una notevole quantità di danni a distanza ravvicinata. Il suo caratteristico caricatore rapido lo rende una scelta tattica molto interessante.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_molotov",
+    "name": "Molotov",
+    "description": "La molotov è un'arma potente e imprevedibile adatta a negare l'accesso ad un'area, che scoppia in un tappeto di fiamme quando viene scagliata a terra, ferendo qualunque giocatore si trovi nel suo raggio d'azione.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_mp5sd",
+    "name": "MP5-SD",
+    "description": "Spesso imitato, ma mai eguagliato, l'emblematico MP5 è forse il mitra più versatile e popolare del mondo. La variante SD di quest'arma già formidabile presenta un silenziatore integrato, che la rende silenziosa come un sussurro.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_mp7",
+    "name": "MP7",
+    "description": "Versatile ma costoso, l'MP7 di fabbricazione tedesca è un mitra perfetto per il combattimento a distanza ravvicinata ad alto impatto.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp7_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_mp9",
+    "name": "MP9",
+    "description": "Fabbricato in Svizzera, l'innovativo mitra MP9 è un'arma ergonomica in polimeri prediletta dalle aziende di sicurezza private.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_negev",
+    "name": "Negev",
+    "description": "Il Negev è un'arma molto potente, in grado di tenere il nemico a distanza grazie al suo fuoco di soppressione, sempre che tu ti possa permettere il tempo per riuscire a controllarlo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_negev_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_nova",
+    "name": "Nova",
+    "description": "Il misero prezzo del Nova lo rende un'arma ottima per le imboscate per una squadra rimasta al verde.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_p250",
+    "name": "P250",
+    "description": "La P250, una pistola a basso rinculo ed alta cadenza di tiro, è una scelta relativamente poco costosa contro avversari dotati di giubbotto antiproiettile.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p250_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_p90",
+    "name": "P90",
+    "description": "Facilmente riconoscibile per la sua configurazione bullpup, la P90 è un'arma ottima per sparare in movimento grazie al caricatore ad alta capacità e al basso rinculo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p90_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_revolver",
+    "name": "Revolver R8",
+    "description": "Il Revolver R8 spara un colpo molto preciso e potente a discapito della lentezza del grilletto. Quando è necessaria la potenza di fuoco a bruciapelo, la migliore opzione potrebbe essere quella di sparare rapidamente sventolando il cane della pistola.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_revolver_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_sawedoff",
+    "name": "Fucile a canne mozze",
+    "description": "Il classico fucile a canne mozze infligge gravissimi danni a distanza ravvicinata, ma con la sua bassa precisione, la sua rosa ampia e i suoi lunghi tempi tra un colpo e il successivo, ti converrà mirare bene e assicurarti di uccidere.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_scar20",
+    "name": "SCAR-20",
+    "description": "Lo SCAR-20 è un fucile di precisione semiautomatico che offre un'alta cadenza di tiro e una grande potenza di fuoco a lunga gittata al prezzo di un ingombro notevole e di un costo impressionante.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_sg556",
+    "name": "SG 553",
+    "description": "L'SG553, esclusivo per i Terroristi, è una versione maggiorata dell'AK-47 dotata di un mirino di precisione, efficace negli scontri a lungo raggio.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_shield",
+    "name": "Scudo antisommossa",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_smokegrenade",
+    "name": "Granata fumogena",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_snowball",
+    "name": "Palla di neve",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_snowball_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_spanner",
+    "name": "Chiave inglese",
+    "description": "Anche se viene generalmente utilizzata per stringere dadi e bulloni, con una chiave inglese puoi sferrare un attacco primario colpendo qualunque cosa e infliggendo un danno contenuto, oppure lanciarla in un attacco secondario a danno elevato. Utilizzare una chiave inglese in uno scontro a fuoco significa mettersi in guai seri.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_ssg08",
+    "name": "SSG 08",
+    "description": "L'SSG08 a otturatore girevole-scorrevole è un fucile di precisione a bassa potenza di fuoco ma molto efficace per il suo prezzo, che lo rende una scelta appetibile per il tiro a lunga distanza nei primi round.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_tablet",
+    "name": "Tablet",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_tagrenade",
+    "name": "Granata di rilevamento tattica",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_taser",
+    "name": "Zeus x27",
+    "description": "Perfetto per le imboscate a corta distanza e per gli scontri ravvicinati, lo Zeus x27 è in grado di rendere inoffensivo un nemico in un solo colpo.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_taser_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_tec9",
+    "name": "Tec-9",
+    "description": "Ideale per le sparatorie in corsa, questa pistola per i Terroristi è letale negli scontri ravvicinati e dispone di un caricatore molto capiente.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_tripwirefire",
+    "name": "Trappola di fuoco",
+    "description": null,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_ump45",
+    "name": "UMP-45",
+    "description": "Figlio incompreso di mezzo nella famiglia dei mitra, l'UMP45 è dotato di un caricatore piccolo, unico neo di un'arma automatica altrimenti versatile che eccelle in scontri ravvicinati.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ump45_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_usp_silencer",
+    "name": "USP-S",
+    "description": "Un'arma amata dai fan di Counter-Strike: Source, la pistola silenziata USP è dotata di un silenziatore smontabile che fornisce un rinculo minore e contemporaneamente evita che il rumore dello sparo attiri troppo l'attenzione.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.png"
+  },
+  {
+    "id": "base_weapon-weapon_xm1014",
+    "name": "XM1014",
+    "description": "L'XM1014 è un potente fucile a pompa automatico che giustifica il suo prezzo un po' alto con la capacità di riverniciare una stanza di piombo in pochi istanti.",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+  }
+]
