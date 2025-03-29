@@ -563,3 +563,23 @@ Example response:
   // ...
 ]
 ```
+
+### List base weapons
+
+```http
+GET https://bymykel.github.io/CSGO-API/api/en/base_weapons.json
+```
+
+Example response:
+
+```js
+[
+  {
+    id: "base_weapon-ct_gloves",
+    name: "Default CT Gloves",
+    description: "General-purpose tactical combat gloves designed for military or security personnel.",
+    image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+  },
+  // ...
+]
+```
