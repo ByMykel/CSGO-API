@@ -16,6 +16,7 @@ import { LANGUAGES_URL } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
+import { getBaseWeapons } from "./services/baseWeapons.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes('--force');
@@ -65,6 +66,7 @@ for (const language of LANGUAGES_URL) {
         getStickers();
         getKeychains();
         getTools();
+        getBaseWeapons();
     } catch (error) {
         console.log(error);
     }
