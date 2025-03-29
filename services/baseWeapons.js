@@ -188,7 +188,7 @@ export const getBaseWeapons = () => {
         },
         {
             "id": "base_weapon-weapon_knife_css",
-            "name": $t(`sfui_wpnhud_knife_css`),
+            "name": $t(`sfui_wpnhud_knifecss`),
             "description": $t(`csgo_item_desc_knife_css`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_knife_css`)
         },
@@ -407,12 +407,6 @@ export const getBaseWeapons = () => {
             "name": $t(`sfui_wpnhud_smokegrenade`),
             "description": $t(`csgo_item_desc_smokegrenade`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_smokegrenade`)
-        },
-        {
-            "id": "base_weapon-weapon_snowball",
-            "name": $t(`sfui_wpnhud_snowball`),
-            "description": $t(`csgo_item_desc_snowball`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_snowball`)
         },
         {
             "id": "base_weapon-weapon_spanner",
