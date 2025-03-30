@@ -3,17 +3,32 @@ import path from "path";
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { languageData } from "./translations.js";
 
-const formatInventoryData = (skins) => {
-    return skins.reduce((acc, skin) => {
-        if (!acc['skins']) acc['skins'] = {};
-        if (!acc['skins'][skin.weapon.weapon_id]) acc['skins'][skin.weapon.weapon_id] = {};
+const formatInventoryData = ({ skins, crates }) => {
+    const items = {}
+
+    skins.forEach((skin) => {
+        if (!items['skins']) items['skins'] = {};
+        if (!items['skins'][skin.weapon.weapon_id]) items['skins'][skin.weapon.weapon_id] = {};
         
-        acc['skins'][skin.weapon.weapon_id][skin.paint_index] = {
+        items['skins'][skin.weapon.weapon_id][skin.paint_index] = {
             name: skin.name,
+            market_hash_name: skin.market_hash_name,
             image: skin.image,
         };
-        return acc;
-    }, {});
+    });
+
+    crates.forEach((crate) => {
+        if (!items['crates']) items['crates'] = {};
+        if (!items['crates'][crate.id.replace('crate-', '')]) items['crates'][crate.id.replace('crate-', '')] = {};
+
+        items['crates'][crate.id.replace('crate-', '')] = {
+            name: crate.name,
+            market_hash_name: crate.market_hash_name,
+            image: crate.image,
+        };
+    });
+
+    return items;
 };
 
 const waitForFile = async (filePath, maxRetries = 5, retryDelay = 2000) => {
@@ -28,11 +43,13 @@ const waitForFile = async (filePath, maxRetries = 5, retryDelay = 2000) => {
 
 export const getInventory = async () => {
     const { folder } = languageData;
-    const filePath = path.join(process.cwd(), `./public/api/${folder}/skins.json`);
-    
+    const skinsFilePath = path.join(process.cwd(), `./public/api/${folder}/skins.json`);
+    const cratesFilePath = path.join(process.cwd(), `./public/api/${folder}/crates.json`);
+
     try {
-        const skins = await waitForFile(filePath);
-        const inventory = formatInventoryData(skins);
+        const skins = await waitForFile(skinsFilePath);
+        const crates = await waitForFile(cratesFilePath);
+        const inventory = formatInventoryData({ skins, crates });
         saveDataJson(`./public/api/${folder}/inventory.json`, inventory);
     } catch (error) {
         console.error(error.message);
