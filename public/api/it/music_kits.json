@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve, Counter-Strike 2",
+    "description": "Il tema musicale ufficiale di Counter-Strike 2.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Qualità elevata",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve, CS:GO",
+    "description": "Il tema musicale predefinito di CS:GO, introdotto al lancio del gioco, nel 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Qualità elevata",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Tema musicale | Daniel Sadowski, Crimson Assault",
     "description": "Il compositore per videogiochi Daniel Sadowski ci propone questo tema al fulmicotone con una base ritmica pesante in un pacchetto musicale vivace e coinvolgente.",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve, CS:GO",
+    "description": "Il tema musicale predefinito di CS:GO, introdotto al lancio del gioco, nel 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Qualità elevata",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

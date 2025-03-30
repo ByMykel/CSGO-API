@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve，《反恐精英：全球攻势》",
+    "description": "反恐精英 官方音乐盒。",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "高级",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve，《反恐精英：全球攻势》",
+    "description": "默认的《反恐精英：全球攻势》音乐盒，随 2012 年《反恐精英：全球攻势》发布而推出。",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "高级",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "音乐盒 | Daniel Sadowski - 深红突击",
     "description": "在这个充满节奏感且令人振奋的音乐包中，电子游戏作曲家 Daniel Sadowski 将结合极度疯狂的打击感，带来激情四射的演奏。",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve，《反恐精英：全球攻势》",
+    "description": "默认的《反恐精英：全球攻势》音乐盒，随 2012 年《反恐精英：全球攻势》发布而推出。",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "高级",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

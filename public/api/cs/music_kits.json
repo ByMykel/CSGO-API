@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve – Counter-Strike 2",
+    "description": "Výchozí hudba hry Counter-Strike 2.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Vyšší třída",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve – CS:GO",
+    "description": "Výchozí hudba hry CS:GO představená společně s jejím vydáním v roce 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Vyšší třída",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Hudební balíček | Daniel Sadowski – Crimson Assault",
     "description": "Skladatel herní hudby Daniel Sadowski v tomto vzrušujícím a nezastavitelném balíčku přináší akční hudbu zkombinovanou s poctivými beaty.",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve – CS:GO",
+    "description": "Výchozí hudba hry CS:GO představená společně s jejím vydáním v roce 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Vyšší třída",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

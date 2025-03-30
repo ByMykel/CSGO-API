@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve – Counter-Strike 2",
+    "description": "Det offisielle musikksettet i Counter-Strike 2.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Høy klasse",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve – CS:GO",
+    "description": "Det vanlige musikksettet i CS:GO, først introdusert gjennom utgivelsen av CS:GO i 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Høy klasse",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Musikksett | Daniel Sadowski – Crimson Assault",
     "description": "Videospillkomponisten Daniel Sadowski leverer \\\"edgy action\\\" mikset med SYKT FETE rytmer i denne pulserende og forfriskende musikkpakken.",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve – CS:GO",
+    "description": "Det vanlige musikksettet i CS:GO, først introdusert gjennom utgivelsen av CS:GO i 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Høy klasse",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

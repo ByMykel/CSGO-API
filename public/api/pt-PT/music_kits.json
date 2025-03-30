@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve, Counter-Strike 2",
+    "description": "O kit de música oficial do Counter-Strike 2.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Alta Qualidade",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve, CS:GO",
+    "description": "A música predefinida do CS:GO, lançada com o jogo em 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Alta Qualidade",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Kit de Música | Daniel Sadowski, Crimson Assault",
     "description": "O compositor de música para videojogos Daniel Sadowski oferece-nos uma mistura de ação com um ritmo fantástico através deste kit de música pulsante.",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve, CS:GO",
+    "description": "A música predefinida do CS:GO, lançada com o jogo em 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "Alta Qualidade",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",

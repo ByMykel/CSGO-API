@@ -1,5 +1,31 @@
 [
   {
+    "id": "music_kit-1",
+    "name": "Valve – Counter-Strike 2",
+    "description": "Oficjalny zestaw utworów z Counter-Strike 2",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "wysokiej jakości",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png"
+  },
+  {
+    "id": "music_kit-2",
+    "name": "Valve – CS:GO",
+    "description": "Domyślny zestaw utworów z CS:GO wprowadzony wraz z premierą gry w 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "wysokiej jakości",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png"
+  },
+  {
     "id": "music_kit-3",
     "name": "Zestaw utworów | Daniel Sadowski, Crimson Assault",
     "description": "Kompozytor muzyki do gier wideo Daniel Sadowski przedstawia pakiet pełen dynamicznej muzyki, łączącej w sobie radość i pulsujące GRUBE BITY.",
@@ -1610,6 +1636,19 @@
     "market_hash_name": "StatTrak™ Music Kit | Denzel Curry, ULTIMATE",
     "exclusive": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/denzelcurry_01_png.png"
+  },
+  {
+    "id": "music_kit-70",
+    "name": "Valve – CS:GO",
+    "description": "Domyślny zestaw utworów z CS:GO wprowadzony wraz z premierą gry w 2012.",
+    "rarity": {
+      "id": "rarity_rare",
+      "name": "wysokiej jakości",
+      "color": "#4b69ff"
+    },
+    "market_hash_name": null,
+    "exclusive": false,
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png"
   },
   {
     "id": "music_kit-71",
