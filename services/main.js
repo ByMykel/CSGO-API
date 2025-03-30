@@ -246,10 +246,6 @@ export const loadPaintKits = () => {
 
 export const loadMusicDefinitions = () => {
     state.musicDefinitions = Object.entries(state.itemsGame.music_definitions)
-        .filter(
-            ([key, item]) =>
-                !["valve_01", "valve_02", "valve_cs2_01"].includes(item.name)
-        )
         .map(([key, item]) => ({
             ...item,
             object_id: key,

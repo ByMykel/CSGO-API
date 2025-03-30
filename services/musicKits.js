@@ -7,6 +7,15 @@ import { getImageUrl } from "../constants.js";
 const parseItem = (item) => {
     const image = getImageUrl(item.image_inventory.toLowerCase());
     const exclusive = isExclusive(item.name);
+    const valve = ["valve_01", "valve_02", "valve_cs2_01"].includes(item.name);
+
+    // If I'm not mistaken, these are the same based on these pictures:
+    // https://counterstrike.fandom.com/wiki/Music_Kit/Valve,_CS_GO
+    if (item.name === "valve_02") {
+        item.name = "valve_01";
+        item.loc_name = "#musickit_valve_csgo_01";
+        item.loc_description = "#musickit_valve_csgo_01_desc";
+    }
 
     const kitsOnlyStattrak = [
         'beartooth_02',
@@ -23,14 +32,14 @@ const parseItem = (item) => {
     if (!kitsOnlyStattrak.includes(item.name)) {
         const normalMusicKit = {
             id: `music_kit-${item.object_id}`,
-            name: exclusive ? $t(item.loc_name) : $t(item.coupon_name),
+            name: (exclusive || valve) ? $t(item.loc_name) : $t(item.coupon_name),
             description: $t(item.loc_description),
             rarity: {
                 id: "rarity_rare",
                 name: $t("rarity_rare"),
                 color: getRarityColor(`rarity_rare`),
             },
-            market_hash_name: exclusive ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
+            market_hash_name: (exclusive || valve) ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive,
             image,
         };
