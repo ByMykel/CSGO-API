@@ -150,7 +150,7 @@ export const loadItemsGame = async () => {
                 return true
             }).reduce((acc, item) => {
                 const name = item.replace("_png.png", "")
-                acc[sha1(name)] = {
+                acc[sha1(name).slice(0, 8)] = {
                     icon_path: `econ/default_generated/${name}`,
                 };
                 return acc;
