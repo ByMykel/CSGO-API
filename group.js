@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { LANGUAGES_URL } from "./constants.js";
-import { getManifestId } from "./services/main.js";
+import { getManifestId, getManifestIdFromImageTracker } from "./services/main.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes('--force');
@@ -23,6 +23,7 @@ const inputFilePathsTemplate = [
 
 let existingManifestId = "";
 const latestManifestId = await getManifestId();
+const latestManifestIdInImageTracker = await getManifestIdFromImageTracker();
 
 try {
     existingManifestId = fs.readFileSync("./manifestIdGroup.txt");
@@ -35,7 +36,9 @@ try {
 if (isForce) {
     console.log("Force flag detected, generating new data regardless of manifest Ids")
 } else {
-    if (existingManifestId == latestManifestId) {
+    // TODO: Need to check if default_generated.json from counter-strike-image-tracker repo has changed,
+    // since we now pull data from there too.
+    if (existingManifestId == latestManifestId && existingManifestId == latestManifestIdInImageTracker) {
         console.log("Latest manifest Id matches existing manifest Id, exiting");
         process.exit(0);
     } else {

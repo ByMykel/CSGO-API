@@ -1,4 +1,5 @@
 import axios from "axios";
+import sha1 from "sha1";
 import { ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import {
     filterUniqueByAttribute,
@@ -136,6 +137,27 @@ export const loadItemsGame = async () => {
         })
         .catch(() => {
             throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
+        });
+
+    await axios
+        .get("https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/default_generated.json")
+        .then((data) => {
+            state.itemsGame.alternate_icons2.weapon_icons = data.data.filter(item => {
+                // We have heavy, light and medium
+                if (!item.includes('light_png.png')) return false
+                // Chickens
+                if (item.includes('pet_hen_1_hen')) return false
+                return true
+            }).reduce((acc, item) => {
+                const name = item.replace("_png.png", "")
+                acc[sha1(name)] = {
+                    icon_path: `econ/default_generated/${name}`,
+                };
+                return acc;
+            }, {});
+        })
+        .catch(() => {
+            throw new Error(`Error formatting alternate_icons2.weapon_icons`);
         });
 };
 
@@ -683,7 +705,11 @@ const getItemFromKey = (key) => {
     if (!match) {
         return;
     }
-    const { name, type } = match.groups;
+    let { name, type } = match.groups;
+
+    if (name === 'cu_bizon_Curse') {
+        name = name.toLowerCase()
+    }
 
     if (type === "sticker") {
         const sticker = stickerKitsObj[name];
@@ -841,10 +867,20 @@ const getItemFromKey = (key) => {
 };
 
 export const getManifestId = async () => {
-    const timestamp = new Date().getTime();
     return axios
         .get(
-            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt?t=${timestamp}`
+            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt`
+        )
+        .then((data) => data.data)
+        .catch(() => {
+            throw new Error(`Error loading latest manifest Id`);
+        });
+};
+
+export const getManifestIdFromImageTracker = async () => {
+    return axios
+        .get(
+            `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/manifestId.txt`
         )
         .then((data) => data.data)
         .catch(() => {

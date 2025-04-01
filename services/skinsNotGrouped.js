@@ -97,15 +97,18 @@ const parseItem = (item, items) => {
     const isKnife =
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
 
-    const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
+    const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
 
-    const rarity = !isNotWeapon(weapon)
-        ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
-        : isKnife
-            ? // Knives are 'Covert'
-            `rarity_ancient_weapon`
-            : // Gloves are 'Extraordinary'
-            `rarity_ancient`;
+    let rarity = null
+    if (rarities[`[${pattern}]${weapon}`]) {
+        rarity = !isNotWeapon(weapon)
+            ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
+            : isKnife
+                ? // Knives are 'Covert'
+                `rarity_ancient_weapon`
+                : // Gloves are 'Extraordinary'
+                `rarity_ancient`;
+    }
 
     // Some skins only exist as souvenir like "MP5-SD | Lab Rats"
     const types = ["hy_labrat_mp5"].includes(pattern) ? [] : ["skin"];
@@ -119,8 +122,8 @@ const parseItem = (item, items) => {
     }
 
     const wears = getWears(
-        paintKits[pattern].wear_remap_min,
-        paintKits[pattern].wear_remap_max
+        paintKits[pattern]?.wear_remap_min,
+        paintKits[pattern]?.wear_remap_max
     );
 
     const team =
@@ -145,13 +148,13 @@ const parseItem = (item, items) => {
                         : "rare_special_with_wear",
                     {
                         item_name: translatedName,
-                        pattern: $t(paintKits[pattern].description_tag),
+                        pattern: $t(paintKits[pattern]?.description_tag),
                         wear: $t(wear),
                     }
                 )
                 : $tc(type, {
                     item_name: translatedName,
-                    pattern: $t(paintKits[pattern].description_tag),
+                    pattern: $t(paintKits[pattern]?.description_tag),
                     wear: $t(wear),
                 }),
             description: getDescription(
@@ -171,17 +174,17 @@ const parseItem = (item, items) => {
             },
             pattern: {
                 id: pattern,
-                name: $t(paintKits[pattern].description_tag),
+                name: $t(paintKits[pattern]?.description_tag),
             },
-            min_float: paintKits[pattern].wear_remap_min,
-            max_float: paintKits[pattern].wear_remap_max,
+            min_float: paintKits[pattern]?.wear_remap_min,
+            max_float: paintKits[pattern]?.wear_remap_max,
             wear: {
                 id: wear,
                 name: $t(wear),
             },
             stattrak: type === "skin_stattrak",
             souvenir: type === "skin_souvenir",
-            paint_index: paintKits[pattern].paint_index,
+            paint_index: paintKits[pattern]?.paint_index,
             rarity: {
                 id: rarity,
                 name: $t(rarity),
@@ -203,7 +206,7 @@ const parseItem = (item, items) => {
                 itemName: !isNotWeapon(weapon)
                     ? $t(items[weapon].item_name_prefab, true)
                     : $t(items[weapon].item_name, true),
-                pattern: $t(paintKits[pattern].description_tag, true),
+                pattern: $t(paintKits[pattern]?.description_tag, true),
                 wear: $t(wear, true),
                 isStatTrak: type === "skin_stattrak",
                 isSouvenir: type === "skin_souvenir",
@@ -221,11 +224,11 @@ const parseItem = (item, items) => {
                             : $t("inv_filter_t"),
             },
             style: {
-                id: paintKits[pattern].style_id,
-                name: $t(paintKits[pattern].style_name),
-                url: getFinishStyleLink(paintKits[pattern].style_id)
+                id: paintKits[pattern]?.style_id,
+                name: $t(paintKits[pattern]?.style_name),
+                url: getFinishStyleLink(paintKits[pattern]?.style_id)
             },
-            legacy_model: paintKits[pattern].legacy_model,
+            legacy_model: paintKits[pattern]?.legacy_model,
             image: formatSkinImage(image, wear),
         }))
     );
