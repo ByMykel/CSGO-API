@@ -221,7 +221,8 @@
     "market_hash_name": "CS:GO Patch Pack",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack01_png.png",
-    "model_player": "models/props/crates/patch_envelope.vmdl"
+    "model_player": "models/props/crates/patch_envelope.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4614",
@@ -405,7 +406,8 @@
     "market_hash_name": "Metal Skill Group Patch Collection",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack02_png.png",
-    "model_player": "models/props/crates/patch_envelope02.vmdl"
+    "model_player": "models/props/crates/patch_envelope02.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4615",
@@ -529,7 +531,8 @@
     "market_hash_name": "Half-Life: Alyx Patch Pack",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack_hlalyx_png.png",
-    "model_player": "models/props/crates/patch_envelope_hlalyx.vmdl"
+    "model_player": "models/props/crates/patch_envelope_hlalyx.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4795",
@@ -673,7 +676,8 @@
     "market_hash_name": "Operation Riptide Patch Collection",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack03_png.png",
-    "model_player": "models/props/crates/patch_envelope03.vmdl"
+    "model_player": "models/props/crates/patch_envelope03.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4806",
@@ -867,7 +871,8 @@
     "market_hash_name": "Stockholm 2021 Legends Patch Pack",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack_stockh2021_legends_png.png",
-    "model_player": "models/props/crates/patch_envelope_stockh2021_legends.vmdl"
+    "model_player": "models/props/crates/patch_envelope_stockh2021_legends.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4807",
@@ -1061,7 +1066,8 @@
     "market_hash_name": "Stockholm 2021 Challengers Patch Pack",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack_stockh2021_challengers_png.png",
-    "model_player": "models/props/crates/patch_envelope_stockh2021_challengers.vmdl"
+    "model_player": "models/props/crates/patch_envelope_stockh2021_challengers.vmdl",
+    "loot_list": null
   },
   {
     "id": "crate-4808",
@@ -1255,6 +1261,7 @@
     "market_hash_name": "Stockholm 2021 Contenders Patch Pack",
     "rental": false,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_patch_pack_stockh2021_contenders_png.png",
-    "model_player": "models/props/crates/patch_envelope_stockh2021_contenders.vmdl"
+    "model_player": "models/props/crates/patch_envelope_stockh2021_contenders.vmdl",
+    "loot_list": null
   }
 ]
