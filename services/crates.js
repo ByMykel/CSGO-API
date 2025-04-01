@@ -192,7 +192,15 @@ const parseItem = (item, prefabs) => {
         ),
         rental: !!item.attributes["can open for rental"],
         image,
-        model_player: item.model_player ?? null
+        model_player: item.model_player ?? null,
+        loot_list: item.loot_list_rare_item_name ? {
+            name: $t(item.loot_list_rare_item_name),
+            footer: $t(item.loot_list_rare_item_footer),
+            // The crates without image_unusual_item are the ones with gloves, this might not work in the future
+            image: item.image_unusual_item
+                ? getImageUrl(item.image_unusual_item)
+                : getImageUrl('econ/weapon_cases/crate_community_15_rare_item'),
+        } : null
     };
 };
 
