@@ -149,9 +149,8 @@ export const loadItemsGame = async () => {
                 if (item.includes('pet_hen_1_hen')) return false
                 return true
             }).reduce((acc, item) => {
-                const name = item.replace("_png.png", "")
-                acc[sha1(name).slice(0, 8)] = {
-                    icon_path: `econ/default_generated/${name}`,
+                acc[sha1(item.replace("_light_png.png", "")).slice(0, 12)] = {
+                    icon_path: `econ/default_generated/${item.replace("_png.png", "")}`,
                 };
                 return acc;
             }, {});
