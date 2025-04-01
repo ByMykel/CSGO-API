@@ -364,6 +364,11 @@ Example response:
     image:
       "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png",
     model_player: "models/props/crates/csgo_drop_crate_community_33.vmdl",
+    loot_list: {
+      name: "★ Kukri Knife ★",
+      footer: "or an Exceedingly Rare Kukri Knife!",
+      image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_rare_item_png.png"
+    }
   },
   // ...
 ]

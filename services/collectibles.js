@@ -69,6 +69,10 @@ const getType = (collectible) => {
         return "Tournament Finalist Trophy";
     }
 
+    if (collectible.prefab === "premier_season_coin") {
+        return "Premier Season Coin";
+    }
+
     return null;
 };
 
@@ -85,6 +89,7 @@ const getFileNameByType = (type) => {
         "Map Contributor Coin": "map_coins.json",
         "Service Medal": "service_medals.json",
         Pin: "pins.json",
+        "Premier Season Coin": "premier_season_coin.json",
     };
 
     return files[type] ?? "other.json";
