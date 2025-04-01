@@ -1,7 +1,8 @@
 {
   "type": "module",
   "dependencies": {
-    "axios": "^1.8.4"
+    "axios": "^1.8.4",
+    "sha1": "^1.1.1"
   },
   "scripts": {
     "update-data": "node update.js",

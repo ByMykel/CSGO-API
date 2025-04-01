@@ -45,7 +45,7 @@ const getDescription = (desc, paintKits, pattern) => {
         return `${desc} ${pattern_desc}`;
     }
 
-    const tag = paintKits[pattern].description_tag
+    const tag = paintKits[pattern]?.description_tag
         .toLowerCase()
         .replace("_tag", "");
     const tag_desc = $t(tag);
@@ -53,7 +53,7 @@ const getDescription = (desc, paintKits, pattern) => {
         return `${desc} ${tag_desc}`;
     }
 
-    const idx_desc = $tTag(paintKits[pattern].description_tag);
+    const idx_desc = $tTag(paintKits[pattern]?.description_tag);
     if (idx_desc && idx_desc.length > 0) {
         return `${desc} ${idx_desc}`;
     }
@@ -86,15 +86,18 @@ const parseItem = (item, items) => {
     const isKnife =
         weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
 
-    const dopplerPhase = getDopplerPhase(paintKits[pattern].paint_index);
+    const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
 
-    const rarity = !isNotWeapon(weapon)
-        ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
-        : isKnife
-        ? // Knives are 'Covert'
-          `rarity_ancient_weapon`
-        : // Gloves are 'Extraordinary'
-          `rarity_ancient`;
+    let rarity = null
+    if (rarities[`[${pattern}]${weapon}`]) {
+        rarity = !isNotWeapon(weapon)
+            ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
+            : isKnife
+            ? // Knives are 'Covert'
+              `rarity_ancient_weapon`
+            : // Gloves are 'Extraordinary'
+              `rarity_ancient`;
+    }
 
     const team =
         !items[weapon].used_by_classes ||
@@ -107,9 +110,9 @@ const parseItem = (item, items) => {
         name: isNotWeapon(weapon)
             ? $tc("rare_special", {
                   item_name: translatedName,
-                  pattern: $t(paintKits[pattern].description_tag),
+                  pattern: $t(paintKits[pattern]?.description_tag),
               })
-            : `${translatedName} | ${$t(paintKits[pattern].description_tag)}`,
+            : `${translatedName} | ${$t(paintKits[pattern]?.description_tag)}`,
         description: getDescription(translatedDescription, paintKits, pattern),
         weapon: {
             id: weapon,
@@ -122,10 +125,10 @@ const parseItem = (item, items) => {
         },
         pattern: {
             id: pattern,
-            name: $t(paintKits[pattern].description_tag),
+            name: $t(paintKits[pattern]?.description_tag),
         },
-        min_float: paintKits[pattern].wear_remap_min,
-        max_float: paintKits[pattern].wear_remap_max,
+        min_float: paintKits[pattern]?.wear_remap_min,
+        max_float: paintKits[pattern]?.wear_remap_max,
         rarity: {
             id: rarity,
             name: $t(rarity),
@@ -133,10 +136,10 @@ const parseItem = (item, items) => {
         },
         stattrak: isStatTrak,
         souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
-        paint_index: paintKits[pattern].paint_index,
+        paint_index: paintKits[pattern]?.paint_index,
         wears: getWears(
-            paintKits[pattern].wear_remap_min,
-            paintKits[pattern].wear_remap_max
+            paintKits[pattern]?.wear_remap_min,
+            paintKits[pattern]?.wear_remap_max
         ).map((wearKey) => ({ id: wearKey, name: $t(wearKey) })),
         collections:
             collectionsBySkins?.[`skin-${item.object_id}`]?.map((i) => ({
@@ -159,7 +162,7 @@ const parseItem = (item, items) => {
                     ? $t("inv_filter_ct")
                     : $t("inv_filter_t"),
         },
-        legacy_model: paintKits[pattern].legacy_model,
+        legacy_model: paintKits[pattern]?.legacy_model,
         image,
     };
 };
