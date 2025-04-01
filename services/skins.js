@@ -88,16 +88,13 @@ const parseItem = (item, items) => {
 
     const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
 
-    let rarity = null
-    if (rarities[`[${pattern}]${weapon}`]) {
-        rarity = !isNotWeapon(weapon)
-            ? `rarity_${rarities[`[${pattern}]${weapon}`].rarity}_weapon`
-            : isKnife
-            ? // Knives are 'Covert'
-              `rarity_ancient_weapon`
-            : // Gloves are 'Extraordinary'
-              `rarity_ancient`;
-    }
+    const rarity = !isNotWeapon(weapon)
+        ? `rarity_${rarities[`[${pattern}]${weapon}`]?.rarity}_weapon`
+        : isKnife
+        ? // Knives are 'Covert'
+          `rarity_ancient_weapon`
+        : // Gloves are 'Extraordinary'
+          `rarity_ancient`;
 
     const team =
         !items[weapon].used_by_classes ||
