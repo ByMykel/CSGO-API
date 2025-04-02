@@ -629,7 +629,7 @@ export const loadSouvenirSkins = () => {
             .flatMap((level1) => level1)
             .reduce((acc, item) => ({ ...acc, [item.id]: true }), {}),
 
-        "skin-1510528": true, // MP5-SD | Lab Rats
+        "skin-e73d6e7e9004": true, // MP5-SD | Lab Rats
     };
 };
 

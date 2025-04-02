@@ -199,7 +199,7 @@ const parseItem = (item, prefabs) => {
             // The crates without image_unusual_item are the ones with gloves, this might not work in the future
             image: item.image_unusual_item
                 ? getImageUrl(item.image_unusual_item)
-                : getImageUrl('econ/weapon_cases/crate_community_15_rare_item'),
+                : getImageUrl('econ/weapon_cases/default_rare_item'),
         } : null
     };
 };
