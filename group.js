@@ -73,7 +73,7 @@ for (let langObj of LANGUAGES_URL) {
     }
 
     const outputFilePath = `./public/api/${lang}/all.json`;
-    fs.writeFileSync(outputFilePath, JSON.stringify(allData, null, 2));
+    fs.writeFileSync(outputFilePath, JSON.stringify(allData));
 
     console.log(`all.json for ${lang} has been generated.`);
 }
