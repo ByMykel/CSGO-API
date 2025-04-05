@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Hache",
-    "description": "Lourde et toujours à portée, la hache a un côté tranchant et un côté émoussé. Attaque principale : infligez de faibles dégâts au corps à corps. Attaque secondaire : lancez la hache dans une direction et infligez de lourds dégâts. Qui hache un chou cache un chat.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Baïonnette",
     "description": "Relativement inchangée dans sa conception depuis la Seconde Guerre mondiale, la baïonnette conserve toujours sa place dans la stratégie militaire moderne. Les charges à la baïonnette ont continué à être très efficaces comme lors de la guerre du Golfe et d'Afghanistan.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "Le pistolet mitrailleur Bizon inflige de faible dégâts, mais offre un chargeur hélicoïdal haute capacité de conception unique qui permet de recharger rapidement.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Charge explosive",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Mine propulsive",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Mains nues",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Très précis et perforant, le Five-Seven est un pistolet assez onéreux se rechargeant lentement, mais qui a en contrepartie un généreux chargeur de 20 cartouches et un recul correct.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "Le Glock 18 est un bon pistolet de première manche, très efficace contre des adversaires sans protection et qui peut tirer des rafales de trois coups.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Marteau",
-    "description": "Le marteau est un outil ambivalent : il répare autant qu'il casse. Attaque principale : infligez de faibles dégâts au corps à corps. Attaque secondaire : lancez le marteau dans une direction et infligez de lourds dégâts. Pour qui dispose d'un marteau, tous les problèmes sont des clous.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Bouclier antiémeute",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Grenade fumigène",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Clé à molette",
-    "description": "La clé à molette est généralement utilisée pour entrainer un mouvement de rotation à un objet. Attaque principale : infligez de faibles dégâts au corps à corps. Attaque secondaire : lancez la clé à molette dans une direction et infligez de lourds dégâts. Avec un tel outil, vous allez pouvoir serrer la vis à vos adversaires.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "Le SSG08 à verrou inflige de faibles dégâts, mais est un excellent fusil de précision en matière de cout-efficacité, ce qui en fait un choix judicieux en début de partie pour les spécialistes du tir embusqué.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Tablette",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Grenade tactique de repérage",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "Un pistolet idéal pour les Terroristes sur le mouvement, le Tec-9 est mortel en combat rapproché et dispose d'un chargeur grande capacité.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Nid-à-feu",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

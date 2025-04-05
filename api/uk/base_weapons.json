@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Сокира",
-    "description": "Сильна й завжди доступна сокира має як гостру, так і тупу сторону. Ви можете змахнути нею й завдати малої шкоди, або ж кинути й завдати великої шкоди. Якщо не знайдете деревини для рубання, вороги підійдуть також.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Штик-ніж",
     "description": "Його дизайн суттєво не змінювався з часів Другої світової війни, але штик-ніж усе ще зберігає місце в сучасній військовій стратегії. Він лишався ефективним у нещодавніх війнах у Перській затоці та Афганістані.",
@@ -46,18 +40,6 @@
     "name": "ПП «Бізон»",
     "description": "Пістолет-кулемет «Бізон» завдає малих пошкоджень, але його особливістю є унікальний місткий барабанний магазин, що швидко перезаряджається.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Пробивний заряд",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Відштовхувальна міна",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Кулаки",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-seveN",
     "description": "Високоточний та бронебійний, дорогий Five-seveN заряджається повільно, однак це компенсується щедрим магазином на 20 патронів та несильною віддачею.",
@@ -130,12 +106,6 @@
     "name": "Ґлок-18",
     "description": "Пістолет «Ґлок-18» підійде для першого раунду. Він може стріляти серіями з трьох пострілів і буде найбільш ефективним проти суперників без бронежилета.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Молоток",
-    "description": "Молотком можна як лагодити, так і руйнувати речі. Ви можете бити ним і завдавати невеликої шкоди, або ж кинути й завдати великої шкоди. Якщо ви маєте лише молоток, то все навколо здаватиметься цвяхами.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Штурмовий щит",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Димова граната",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Гайковий ключ",
-    "description": "Гайковий ключ зазвичай використовується для закручування чи відкручування предметів. Однак ви можете бити ним і завдавати невеликої шкоди, або ж кинути й завдати великої шкоди. Хочете зганьбитися — принесіть гайковий ключ на перестрілку.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "ССГ 08",
     "description": "ССГ 08 — це снайперська гвинтівка з рухомим затвором, котра не завдає великих ушкоджень, однак має прийнятну ціну. Вона є гарним вибором у перших раундах для влучного вогню з далекої дистанції.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Планшет",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Відстежувальна граната",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "ТЕК-9",
     "description": "ТЕК-9 ідеально пасує терористам, які активно пересуваються. Він смертоносний у ближньому бою і має місткий магазин.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Граната-пастка",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

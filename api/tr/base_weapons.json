@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Balta",
-    "description": "Ağır ve her zaman kullanılabilen baltanın keskin ve kör bir tarafı vardır. Düşük hasarlı birincil saldırı için savur veya yüksek hasarlı ikincil saldırı için fırlat. Bir balta diğer bir baltaya gel beraber baltalayım demiş.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Bayonet",
     "description": "İkinci Dünya Savaşı'ndan bu yana tasarımı çok fazla değişmeyen Bayonet'in modern askeri stratejide hâlâ yeri bulunmaktadır. Bayonet hücumları, son dönemlerdeki Afganistan Savaşı ve İkinci Körfez Savaşı'nda görüldüğü üzere etkili olmaya devam etmektedir.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "Bizon hafif makinelisi düşük hasar verir, ama seri değiştirilebilmesi için özel tasarlanmış yüksek kapasiteli bir şarjör sunar.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Yıkım Bombası",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Fırlatma Mayınları",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Yumruklar",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Yüksek isabet oranı ve zırh delme kabiliyetine sahip pahalı bir tabanca olan Five-SeveN şarjörü yavaş doldurur, ama 20 mermilik cömert şarjörü ve geri tepme oranı bunu telafi eder.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "Glock-18 zırhsız düşmanlara karşı kullanışlı bir ilk raunt tabancasıdır ve üçlü atış yapabilir.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Çekiç",
-    "description": "Çekiç, bir şeyleri onarmak veya kırmak için kullanılabilir. Düşük hasarlı birincil saldırı için savur veya yüksek hasarlı ikincil saldırı için fırlat. Elinde sadece çekiç varsa her şey çivi olur.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Polis Kalkanı",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Sis Bombası",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "İngiliz Anahtarı",
-    "description": "İngilliz anahtarı genellikle bir şeyleri sıkarken tork uygulamak için kullanılır, ancak herhangi bir şeye vurarak düşük hasarlı birincil saldırısını veya fırlatarak yüksek hasarlı ikincil saldırısını kullanabilirsin. Yalnız, nasıl ki silahlı çatışmaya bıçakla gitmiyorsan, İngiliz anahtarıyla da gitmemelisin.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "SSG 08'in az hasar veren ancak fiyatına göre çok etkili bir keskin nişancı silahı olması, ilk rauntlarda onu uzun menzilli nişancılık için akıllı bir tercih haline getirmektedir.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Tablet",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Taktiksel Farkındalık Bombası",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "Hareket halindeki Teröristler için ideal bir tabanca olan Tec-9, yakın mesafeli çatışmalarda ölümcüldür ve yüksek kapasiteli bir şarjör sunar.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Ateş Tuzağı",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

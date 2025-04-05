@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Брадва",
-    "description": "<b><font color='#F2A93E'>Axe</font></b>\\n \\nТежка и винаги достъпна, брадвата има остра и тъпа страна. Замахвайте с нея за първична атака с малко щети или я хвърлете за вторична, която нанася повече. Колко дърва би могъл да насече дърварят?",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Щик",
     "description": "<b><font color='#F2A93E'>Bayonet</font></b>\\n \\nСъс сравнително непроменен дизайна от Втората световна война насам, щикът е запазил мястото си в съвременната военна стратегия. Щурмовете с щикове продължават да бъдат ефективни до неотдавнашни войни като втората в Залива и тази в Афганистан.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "SMG Bizon нанася малко щети, но предлага уникално проектирани цилиндрични пълнители с голям капацитет, които се презареждат бързо.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Пробивен заряд",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Отблъскваща мина",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Голи ръце",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Изключително точен и бронебоен, скъпият Five-Seven се зарежда бавно, но компенсира щедро с 20 патрона в пълнителя и умерен откат.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "Glock 18 е функционален пистолет през първия кръг, който работи най-добре срещу опоненти без бронежилетки и е способен да изстрелва откоси от по три изстрела.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Чук",
-    "description": "<b><font color='#F2A93E'>Hammer</font></b>\\n \\nЧукът е достъпен за поправяне и чупене на разни неща. Замахвайте с него за първична атака с малко щети или го хвърлете за вторична, която нанася повече. Ако имате само чук, ще Ви се струва, че всичко е гвоздей.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Щит за борба с размирици",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Димна граната",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Гаечен ключ",
-    "description": "<b><font color='#F2A93E'>Wrench</font></b>\\n \\nГаечният ключ обикновено се използва за прилагане на усукване при завъртане на предмети, но с него можете да ударите всичко за първична атака с малко щети или да го хвърлите за вторична, която нанася повече. Носенето на гаечен ключ в престрелка е рецепта за прецакване.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "SSG08 нанася малко щети, но е много рентабилна снайперистка винтовка с подвижен затвор, което я прави добър избор за точна стрелба на далечни разстояния през началните кръгове.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Таблет",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Граната за тактическа осведоменост",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "Идеален пистолет за подвижния терорист, Tec-9 е смъртоносен отблизо и разполага с високо капацитетен пълнител.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Огнен капан",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",
