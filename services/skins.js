@@ -89,7 +89,7 @@ const parseItem = (item, items) => {
     const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
 
     const rarity = !isNotWeapon(weapon)
-        ? `rarity_${rarities[`[${pattern}]${weapon}`]?.rarity}_weapon`
+        ? (rarities[`[${pattern}]${weapon}`]?.rarity ? `rarity_${rarities[`[${pattern}]${weapon}`]?.rarity}_weapon` : null)
         : isKnife
         ? // Knives are 'Covert'
           `rarity_ancient_weapon`
@@ -211,7 +211,7 @@ export const getSkins = () => {
             legacy_model: true,
             image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
         })),
-    ].filter((skin) => !skin.name.includes("null"));
+    ].filter((skin) => !skin.name.includes("null") && skin.rarity.id);
 
     saveDataJson(`./public/api/${folder}/skins.json`, skins);
 };
