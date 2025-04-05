@@ -13,7 +13,7 @@ jobs:
               with:
                   node-version: 18
             - name: Generate new data
-              run: npm install && npm run update-force-data
+              run: npm install && npm run update-data-force
             - name: Read manifestIdUpdate.txt
               id: manifestId
               uses: juliangruber/read-file-action@v1

@@ -76,25 +76,6 @@ const getType = (collectible) => {
     return null;
 };
 
-const getFileNameByType = (type) => {
-    const files = {
-        other: "other.json",
-        "Tournament Finalist Trophy": "major/finalists_trophies.json",
-        "Old Pick'Em Trophy": "major/pickem_old.json",
-        "Pick'Em Coin": "major/pickem_coins.json",
-        "Fantasy Trophy": "major/fantasy_trophies.json",
-        "Operation Coin": "operation/coins.json",
-        "Stars for Operation": "operation/stars.json",
-        Pass: "operation/pass.json",
-        "Map Contributor Coin": "map_coins.json",
-        "Service Medal": "service_medals.json",
-        Pin: "pins.json",
-        "Premier Season Coin": "premier_season_coin.json",
-    };
-
-    return files[type] ?? "other.json";
-};
-
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = getImageUrl(item.image_inventory);
@@ -131,19 +112,6 @@ const parseItem = (item) => {
     };
 };
 
-const groupByType = (collectibles) => {
-    return collectibles.reduce(
-        (items, item) => ({
-            ...items,
-            [item.type ?? "other"]: [
-                ...(items[item.type ?? "other"] || []),
-                item,
-            ],
-        }),
-        {}
-    );
-};
-
 export const getCollectibles = () => {
     const { items } = state;
     const { folder } = languageData;
@@ -154,13 +122,4 @@ export const getCollectibles = () => {
         .filter((collectible) => collectible.name);
 
     saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
-
-    const collectiblesByTypes = groupByType(collectibles);
-
-    Object.entries(collectiblesByTypes).forEach(([type, values]) => {
-        saveDataJson(
-            `./public/api/${folder}/collectibles/${getFileNameByType(type)}`,
-            values
-        );
-    });
 };
