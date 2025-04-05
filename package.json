@@ -7,7 +7,7 @@
   "scripts": {
     "update-data": "node update.js",
     "group-data": "node group.js",
-    "update-force-data": "node update.js --force",
-    "group-force-data": "node group.js --force"
+    "update-data-force": "node update.js --force",
+    "group-data-force": "node group.js --force"
   }
 }
