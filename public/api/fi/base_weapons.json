@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Kirves",
-    "description": "Raskas ja aina saatavilla. Kirveessä on terävä ja tylsä puoli. Heilauta sitä päähyökkäyaseena ja tee vähän vahinkoa tai tee kakkoshyökkäys heittämällä ja tekemällä paljon vahinkoa. Tämän aseen kanssa et jää puun ja kuoren väliin!",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Pistin",
     "description": "Pistin ei ole juuri muuttunut sitten toisen maailmansodan, mutta sillä on silti paikkansa nykypäivän taistelutaktiikoissa. Pistinrynnäköt ovat pysyneet tehokkaina viime aikoinakin, kuten Persianlahden ja Afganistanin sodissa.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "Bizon-konepistooli ei tarjoa suurta tulivoimaa, mutta siinä on ainutlaatuinen, tilava rumpulipas, joka lataa nopeasti.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Murtopanos",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Pomppumiina",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Nyrkit",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Tarkka ja panssarin läpäisevä Five-SeveN on kallis, hitaasti lataava pistooli, joka tarjoaa vastapainona 20 panoksen lippaan ja pehmeän rekyylin.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "Glock 18 on hyödyllinen ensimmäisen kierroksen pistooli, joka pystyy ampumaan kolmen ammuksen sarjoja ja tehoaa parhaiten vihollisiin, joilla ei ole Kevlar-liiviä.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Vasara",
-    "description": "Vasara on oiva ase asioiden korjaamiseen tai rikkomiseen. Heilauta sitä päähyökkäysaseena ja tee vähän vahinkoa tai tee kakkoshyökkäys heittämällä ja tekemällä paljon vahinkoa. Jos käytössä on vain vasara, kaikki näyttää nauloilta.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Mellakkakilpi",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Savukranaatti",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Jakoavain",
-    "description": "Jakoavain antaa yleensä esimerkiksi muttereiden kiristykseen vääntövoimaa, mutta päähyökkäysaseena sillä voi lyödä ja tehdä vähän vahinkoa tai sillä voi tehdä kakkoshyökkäyksen ja paljon vahinkoa. Jakoavain on kuin vahinko: sen voi laittaa kiertämään.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "SSG08-pulttilukkokivääri tekee vähäistä vahinkoa halpaan hintaan, joten se sopii hyvin alkuerien pitkän matkan tarkkuusammuntaan.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Tabletti",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Taktinen tiedustelukranaatti",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "Ihanteellinen pistooli liikkuvalle terroristille. Tec-9 tappaa lähitaistelussa ja tarjoaa suuren lippaan.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Ansalanka",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

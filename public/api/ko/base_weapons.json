@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "도끼",
-    "description": "내구성이 뛰어나며 어느 상황에서나 사용할 수 있는 도끼는 날카로운 면과 둔한 면이 있습니다. 도끼를 휘둘러서 적은 피해를 주거나 던져서 큰 피해를 줄 수 있습니다. 나무 갈갈이는 얼마나 많은 나무를 갈가리 갈 수 있을까요?",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "총검",
     "description": "제2차 세계대전 이후로도 비교적 변한 게 없는 총검은 현대의 군사 전략에도 여전히 사용되며 착검 돌격이 포함된 전술은 과거부터 2차 걸프전과 아프가니스탄의 전쟁과 같은 최근의 경우에서도 그 효율성을 재차 입증했습니다.",
@@ -46,18 +40,6 @@
     "name": "PP 비존",
     "description": "비존 기관단총은 피해력이 낮지만 재장전이 빠른, 특수 제작한 고용량 드럼 탄창을 사용합니다.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "돌파용 폭약",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "범프 지뢰",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "주먹",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "파이브 세븐",
     "description": "명중률이 뛰어나고 철갑탄을 사용하는 파이브 세븐은 비싸고 재장전 속도가 느리지만 20발의 대용량 탄창과 낮은 반동이 이를 보완해줍니다.",
@@ -130,12 +106,6 @@
     "name": "글록 18",
     "description": "기본적으로 지급되는 글록 18은 방탄복을 착용하지 않은 적을 상대할 때 가장 좋은 권총으로, 3점사가 가능합니다.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "망치",
-    "description": "망치는 물건을 고치거나 부수는 데 사용할 수 있습니다. 망치를 휘둘러서 적은 피해를 주거나 던져서 큰 피해를 줄 수 있습니다. 망치만 있으면 모든 것이 못처럼 보일겁니다.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "진압 방패",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "연막탄",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "렌치",
-    "description": "렌치는 일반적으로 물체를 돌릴 때 회전력을 적용하는 용도로 사용되지만, 렌치를내리쳐서 적은 피해를 주거나 보조 공격으로 사용해 던져서 큰 피해를 줄 수 있습니다. 단, 총격전에 렌치를 가져가는 것 만큼 최악의 전술은 없을 겁니다.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "SSG08는 수동식 노리쇠 방식으로, 위력이 낮지만 가격 대 성능비가 좋은 무기로써 초반 장거리 저격에 적합한 선택입니다.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "태블릿",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "전략적 인식 수류탄",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "이동을 자주 하는 테러리스트 플레이어를 위한 권총인 Tec-9은 근접전에서 치명적이며 장탄수가 많습니다.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "부비트랩",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

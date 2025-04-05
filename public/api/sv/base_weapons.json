@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Yxa",
-    "description": "Yxan är tung och alltid nära till hands med både en skarp sida och en trubbig sida. Svinga den för en primär attack med låg skada eller kasta den för en sekundär attack med hög skada. Goddag yxskaft!",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Bajonett",
     "description": "Bajonettens design har förändrats relativt lite sedan andra världskriget, och har fortfarande en plats i modern militärstrategi. Bajonettanfall har fortsatt varit effektiva så sent som i Kuwaitkriget och kriget i Afghanistan.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "Bizon SMG gör lite skada, men har ett unikt designat trummagasin med hög kapacitet och kan laddas om fort.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Sprängladdning",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Studsmina",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Knytnävar",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Mycket träffsäker och pansarbrytande. Den dyra Five-Seven laddar om långsamt men kompenserar med ett generöst magasin på 20 rundor och förlåtande rekyl.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "Glock 18 är en funktionsduglig pistol som fungerar bäst mot opansrade fiender och kan avfyra tre skottsalvor.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Hammare",
-    "description": "Hammaren finns till hands för att fixa och ha sönder saker. Sväng den för primär attack med låg skada eller kasta den för en sekundär attack med hög skada. När man bara har en hammare så ser alla problem ut som en spik.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Kravallsköld",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Rökgranat",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Skiftnyckel",
-    "description": "En skiftnyckel används vanligtvis till att skruva på saker men du kan slå vad som helst med den för en primär attack med låg skada eller kasta den för en sekundär attack med hög skada. Du är ur gängorna om du tar med en skiftnyckel till en eldstrid.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "SSG08 är ett prickskyttegevär som utdelar låg skada men är mycket kostnadseffektivt, vilket gör den till ett smart val för tidiga långdistansstrider.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Platta",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Taktisk medvetenhetsgranat",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "En ideal pistol för terrorister på resande fot, Tec-9 är dödlig på nära håll och har hög magasinskapacitet.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Eldfälla",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

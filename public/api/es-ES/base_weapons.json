@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Hacha",
-    "description": "El hacha, pesada y siempre disponible, tiene un lado afilado y otro romo. Blándela para realizar un ataque principal de daño reducido o lánzala para realizar un ataque secundario de daño elevado. ¿Cuántos robles roería un roedor...?",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Bayoneta",
     "description": "Relativamente idéntica al diseño de la Segunda Guerra Mundial, la bayoneta aún conserva su lugar en la estrategia militar moderna. El uso de la bayoneta ha seguido siendo efectivo en conflictos actuales como la Guerra del Golfo y la de Afganistán.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "El subfusil PP-Bizon no causa mucho daño, pero ofrece un cargador cilíndrico de alta capacidad y diseño único que se recarga rápidamente.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Carga de demolición",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Eyector",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Puños",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-seveN",
     "description": "Muy precisa y perforante, la cara Five-seveN es lenta de recargar, pero lo compensa con un generoso cargador de 20 balas y un bajo retroceso.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "La Glock 18 es una práctica pistola de primera ronda que funciona mejor contra oponentes sin protección y cuenta con un modo ráfaga de tres balas.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Martillo",
-    "description": "El martillo puede usarse para arreglar cosas y para romper cosas. Blándelo para realizar un ataque principal de daño reducido o lánzalo para realizar un ataque secundario de daño elevado. Si solo tienes un martillo, todo parece un clavo.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Escudo antidisturbios",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Granada de humo",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Llave inglesa",
-    "description": "Una llave inglesa normalmente se utiliza para aplicar torsión al girar objetos, pero puedes golpear con ella lo que sea para realizar un ataque principal de daño reducido o lanzarla para realizar un ataque secundario de daño elevado. Llevar una llave inglesa a un tiroteo es una excelente manera de cagarla.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "El SSG08 de cerrojo es un rifle de francotirador que no causa mucho daño pero es bastante rentable, considerándose una sabia elección para los enfrentamientos a larga distancia durante las primeras rondas.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Tableta",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Granada de reconocimiento táctico",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "Como pistola ideal para el terrorista en movimiento, la Tec-9 es letal en espacios cerrados y cuenta con una generosa capacidad en el cargador.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "Fuego de cable trampa",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",

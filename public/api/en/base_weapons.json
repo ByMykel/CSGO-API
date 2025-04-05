@@ -30,12 +30,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
   },
   {
-    "id": "base_weapon-weapon_axe",
-    "name": "Axe",
-    "description": "Heavy and always available, the axe has a sharp side and a dull side. Swing it for low-damage primary attack or throw it for a high-damage secondary attack. How much wood would a woodchuck chuck?",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_axe_png.png"
-  },
-  {
     "id": "base_weapon-weapon_bayonet",
     "name": "Bayonet",
     "description": "Relatively unchanged in its design since World War II, the bayonet still retains a place in modern military strategy. Bayonet charges have continued to be effective as recently as the second Gulf War and the war in Afghanistan.",
@@ -46,18 +40,6 @@
     "name": "PP-Bizon",
     "description": "The Bizon SMG is low-damage, but offers a uniquely designed high-capacity drum magazine that reloads quickly.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_breachcharge",
-    "name": "Breach Charge",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_breachcharge_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_bumpmine",
-    "name": "Bump Mine",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bumpmine_png.png"
   },
   {
     "id": "base_weapon-weapon_c4",
@@ -96,12 +78,6 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
   },
   {
-    "id": "base_weapon-weapon_fists",
-    "name": "Bare Hands",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fists_png.png"
-  },
-  {
     "id": "base_weapon-weapon_fiveseven",
     "name": "Five-SeveN",
     "description": "Highly accurate and armor-piercing, the pricy Five-Seven is a slow-loader that compensates with a generous 20-round magazine and forgiving recoil.",
@@ -130,12 +106,6 @@
     "name": "Glock-18",
     "description": "The Glock 18 is a serviceable first-round pistol that works best against unarmored opponents and is capable of firing three-round bursts.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_hammer",
-    "name": "Hammer",
-    "description": "The hammer is available for fixing things and breaking things. Swing it for low-damage primary attack or throw it for a high-damage secondary attack. If all you have is a hammer, everything looks like a nail.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hammer_png.png"
   },
   {
     "id": "base_weapon-weapon_healthshot",
@@ -390,40 +360,16 @@
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
   },
   {
-    "id": "base_weapon-weapon_shield",
-    "name": "Riot Shield",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_shield_png.png"
-  },
-  {
     "id": "base_weapon-weapon_smokegrenade",
     "name": "Smoke Grenade",
     "description": null,
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
   },
   {
-    "id": "base_weapon-weapon_spanner",
-    "name": "Wrench",
-    "description": "A wrench is typically used to apply torque when turning objects, but you can hit anything with it for low-damage primary attack or throw it for a high-damage secondary attack. Bringing a wrench to a firefight is a recipe for screwing up.",
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_spanner_png.png"
-  },
-  {
     "id": "base_weapon-weapon_ssg08",
     "name": "SSG 08",
     "description": "The SSG08 bolt-action is a low-damage but very cost-effective sniper rifle, making it a smart choice for early-round long-range marksmanship.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tablet",
-    "name": "Tablet",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tablet_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tagrenade",
-    "name": "Tactical Awareness Grenade",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tagrenade_png.png"
   },
   {
     "id": "base_weapon-weapon_taser",
@@ -436,12 +382,6 @@
     "name": "Tec-9",
     "description": "An ideal pistol for the Terrorist on the move, the Tec-9 is lethal in close quarters and features a high magazine capacity.",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
-  },
-  {
-    "id": "base_weapon-weapon_tripwirefire",
-    "name": "TrapFire",
-    "description": null,
-    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tripwirefire_png.png"
   },
   {
     "id": "base_weapon-weapon_ump45",
