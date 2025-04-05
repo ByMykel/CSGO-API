@@ -37,12 +37,6 @@ export const getBaseWeapons = () => {
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_awp`)
         },
         {
-            "id": "base_weapon-weapon_axe",
-            "name": $t(`sfui_wpnhud_axe`),
-            "description": $t(`csgo_item_desc_axe`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_axe`)
-        },
-        {
             "id": "base_weapon-weapon_bayonet",
             "name": $t(`sfui_wpnhud_knifebayonet`),
             "description": $t(`csgo_item_desc_knife_bayonet`),
@@ -53,18 +47,6 @@ export const getBaseWeapons = () => {
             "name": $t(`sfui_wpnhud_bizon`),
             "description": $t(`csgo_item_desc_bizon`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_bizon`)
-        },
-        {
-            "id": "base_weapon-weapon_breachcharge",
-            "name": $t(`sfui_wpnhud_breachcharge`),
-            "description": $t(`csgo_item_desc_breachcharge`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_breachcharge`)
-        },
-        {
-            "id": "base_weapon-weapon_bumpmine",
-            "name": $t(`sfui_wpnhud_bumpmine`),
-            "description": $t(`csgo_item_desc_bumpmine`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_bumpmine`)
         },
         {
             "id": "base_weapon-weapon_c4",
@@ -103,12 +85,6 @@ export const getBaseWeapons = () => {
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_famas`)
         },
         {
-            "id": "base_weapon-weapon_fists",
-            "name": $t(`sfui_wpnhud_fists`),
-            "description": $t(`csgo_item_desc_fists`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_fists`)
-        },
-        {
             "id": "base_weapon-weapon_fiveseven",
             "name": $t(`sfui_wpnhud_fiveseven`),
             "description": $t(`csgo_item_desc_fiveseven`),
@@ -137,12 +113,6 @@ export const getBaseWeapons = () => {
             "name": $t(`sfui_wpnhud_glock18`),
             "description": $t(`csgo_item_desc_glock18`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_glock`)
-        },
-        {
-            "id": "base_weapon-weapon_hammer",
-            "name": $t(`sfui_wpnhud_hammer`),
-            "description": $t(`csgo_item_desc_hammer`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_hammer`)
         },
         {
             "id": "base_weapon-weapon_healthshot",
@@ -397,40 +367,16 @@ export const getBaseWeapons = () => {
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_sg556`)
         },
         {
-            "id": "base_weapon-weapon_shield",
-            "name": $t(`sfui_wpnhud_shield`),
-            "description": $t(`csgo_item_desc_shield`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_shield`)
-        },
-        {
             "id": "base_weapon-weapon_smokegrenade",
             "name": $t(`sfui_wpnhud_smokegrenade`),
             "description": $t(`csgo_item_desc_smokegrenade`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_smokegrenade`)
         },
         {
-            "id": "base_weapon-weapon_spanner",
-            "name": $t(`sfui_wpnhud_spanner`),
-            "description": $t(`csgo_item_desc_spanner`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_spanner`)
-        },
-        {
             "id": "base_weapon-weapon_ssg08",
             "name": $t(`sfui_wpnhud_ssg08`),
             "description": $t(`csgo_item_desc_ssg08`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_ssg08`)
-        },
-        {
-            "id": "base_weapon-weapon_tablet",
-            "name": $t(`sfui_wpnhud_tablet`),
-            "description": $t(`csgo_item_desc_tablet`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_tablet`)
-        },
-        {
-            "id": "base_weapon-weapon_tagrenade",
-            "name": $t(`sfui_wpnhud_tagrenade`),
-            "description": $t(`csgo_item_desc_tagrenade`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_tagrenade`)
         },
         {
             "id": "base_weapon-weapon_taser",
@@ -443,12 +389,6 @@ export const getBaseWeapons = () => {
             "name": $t(`sfui_wpnhud_tec9`),
             "description": $t(`csgo_item_desc_tec9`),
             "image": getImageUrl(`econ/weapons/base_weapons/weapon_tec9`)
-        },
-        {
-            "id": "base_weapon-weapon_tripwirefire",
-            "name": $t(`sfui_wpnhud_tripwirefire`),
-            "description": $t(`csgo_item_desc_tripwirefire`),
-            "image": getImageUrl(`econ/weapons/base_weapons/weapon_tripwirefire`)
         },
         {
             "id": "base_weapon-weapon_ump45",
