@@ -9,7 +9,7 @@ Data are sourced from files maintained at [this repository](https://github.com/B
 This API supports over 20 languages. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/{language}
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
 ```
 
 Supported Languages:
@@ -49,7 +49,7 @@ Supported Languages:
 ### All items
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/all.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/all.json
 ```
 
 Object with all items accessible by their id.
@@ -57,7 +57,7 @@ Object with all items accessible by their id.
 ### List skins
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/skins.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins.json
 ```
 
 Example response:
@@ -131,7 +131,7 @@ Example response:
 ### List skins not grouped
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/skins_not_grouped.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins_not_grouped.json
 ```
 
 Similar to the previous but in this case is not grouped by wear (Factory New, Field-Tested, etc) and state (normal, stattrak, souvenir).
@@ -194,7 +194,7 @@ Example response:
 ### List stickers
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/stickers.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers.json
 ```
 
 Example response:
@@ -234,7 +234,7 @@ Example response:
 ### List keychains (charms)
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/keychains.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keychains.json
 ```
 
 Example response:
@@ -270,7 +270,7 @@ Example response:
 ### List collections
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/collections.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collections.json
 ```
 
 Example response:
@@ -315,7 +315,7 @@ Example response:
 This list includes cases, capsules, graffiti boxes, music kit boxes and souvenir packages.
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/crates.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/crates.json
 ```
 
 Example response:
@@ -377,7 +377,7 @@ Example response:
 ### List keys
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/keys.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keys.json
 ```
 
 Example response:
@@ -409,7 +409,7 @@ Example response:
 ### List collectibles
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/collectibles.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collectibles.json
 ```
 
 Example response:
@@ -439,7 +439,7 @@ Example response:
 ### List agents
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/agents.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/agents.json
 ```
 
 Example response:
@@ -479,7 +479,7 @@ Example response:
 ### List patches
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/patches.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/patches.json
 ```
 
 Example response:
@@ -507,7 +507,7 @@ Example response:
 ### List graffiti
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/graffiti.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/graffiti.json
 ```
 
 Example response:
@@ -543,7 +543,7 @@ Example response:
 ### List music kits
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/music_kits.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/music_kits.json
 ```
 
 Example response:
@@ -572,7 +572,7 @@ Example response:
 ### List base weapons
 
 ```http
-GET https://bymykel.github.io/CSGO-API/api/en/base_weapons.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/base_weapons.json
 ```
 
 Example response:
