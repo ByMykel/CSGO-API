@@ -43,22 +43,6 @@ const isCrate = (item) => {
     return true;
 };
 
-const getFileNameByType = (type) => {
-    const files = {
-        other: "other.json",
-        Case: "cases.json",
-        Souvenir: "souvenir.json",
-        "Sticker Capsule": "capsules/stickers.json",
-        "Autograph Capsule": "capsules/autographs.json",
-        "Patch Capsule": "capsules/patches.json",
-        Pins: "capsules/pins.json",
-        "Music Kit Box": "music_kit_boxes.json",
-        Graffiti: "graffiti.json",
-    };
-
-    return files[type] ?? "other.json";
-};
-
 const getCrateType = (item) => {
     if (item.prefab === "weapon_case") {
         return "Case";
@@ -105,19 +89,6 @@ const getCrateType = (item) => {
     }
 
     return null;
-};
-
-const groupByType = (crates) => {
-    return crates.reduce(
-        (items, item) => ({
-            ...items,
-            [item.type ?? "other"]: [
-                ...(items[item.type ?? "other"] || []),
-                item,
-            ],
-        }),
-        {}
-    );
 };
 
 const getFirstSaleDate = (item, prefabs) => {
@@ -214,13 +185,4 @@ export const getCrates = () => {
         .filter((crate) => crate.name);
 
     saveDataJson(`./public/api/${folder}/crates.json`, crates);
-
-    const cratesByTypes = groupByType(crates);
-
-    Object.entries(cratesByTypes).forEach(([type, values]) => {
-        saveDataJson(
-            `./public/api/${folder}/crates/${getFileNameByType(type)}`,
-            values
-        );
-    });
 };

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 export const saveDataJson = (file, data) => {
-    const json = JSON.stringify(data, null, 2);
+    const json = JSON.stringify(data);
 
     const folders = file
         .replace(/\.\/public\/api\/(.*)\/(.*)\.json/, "$1")
