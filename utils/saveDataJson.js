@@ -1,6 +1,7 @@
 import * as fs from "fs";
 
 export const saveDataJson = (file, data) => {
+    // I beautify the JSON data because it's easier for me see the changes
     const json = JSON.stringify(data, null, 1);
 
     const folders = file
