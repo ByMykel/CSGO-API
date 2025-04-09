@@ -827,20 +827,8 @@ const getItemFromKey = (key) => {
             const weaponIcons = Object.entries(
                 itemsGame.alternate_icons2.weapon_icons
             ).find(
-                ([, value]) =>
-                    value.icon_path.includes(name) &&
-                    value.icon_path.includes(type) &&
-                    (name.includes("newcs2") ? true : !value.icon_path.includes("newcs2"))
+                ([, value]) => value.icon_path.includes(`${type}_${name}_light`)
             );
-
-            // TODO: Remove this in the future.
-            // Added because of a problem loading `Revolution Case` skin's images.
-            // if (weaponIcons[1].icon_path.includes("_newcs2")) {
-            // weaponIcons[1].icon_path = weaponIcons[1].icon_path.replace(
-            //     "_newcs2",
-            //     ""
-            // );
-            // }
 
             id = `skin-${weaponIcons[0]}`;
             itemName = {
