@@ -1,1 +1,404 @@
-[{"id":"base_weapon-ct_gloves","name":"Varsayılan CT Eldivenleri","description":"Askeri personel veya güvenlik personeli için tasarlanmış genel kullanıma uygun harekat eldivenleri.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"},{"id":"base_weapon-t_gloves","name":"Varsayılan T Eldivenleri","description":"<i>Ellerinize kan bulaşmasından asla korkmayın. – Valeria Jenner, Devrimci</i>","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"},{"id":"base_weapon-weapon_ak47","name":"AK-47","description":"Güçlü ve güvenilir, AK-47 dünyanın en popüler saldırı tüfeklerinden biridir. Kontrollü atış gücü ile yakın mesafede ölümcüldür.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png"},{"id":"base_weapon-weapon_aug","name":"AUG","description":"Güçlü ve isabetli olan dürbünlü AUG silahının şarjörünü doldurmak uzun sürer, ama mermileri fazla dağıtmaması ve yüksek bir atış hızına sahip olması bunu telafi eder.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png"},{"id":"base_weapon-weapon_awp","name":"AWP","description":"Büyük risk ve büyük ödül. Ünlü AWP silahı, bir atışta bir leş sözü ile de hatırlanabilir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"},{"id":"base_weapon-weapon_bayonet","name":"Bayonet","description":"İkinci Dünya Savaşı'ndan bu yana tasarımı çok fazla değişmeyen Bayonet'in modern askeri stratejide hâlâ yeri bulunmaktadır. Bayonet hücumları, son dönemlerdeki Afganistan Savaşı ve İkinci Körfez Savaşı'nda görüldüğü üzere etkili olmaya devam etmektedir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"},{"id":"base_weapon-weapon_bizon","name":"PP-Bizon","description":"Bizon hafif makinelisi düşük hasar verir, ama seri değiştirilebilmesi için özel tasarlanmış yüksek kapasiteli bir şarjör sunar.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"},{"id":"base_weapon-weapon_c4","name":"C4 Patlayıcı","description":"Çoğu fiziksel sarsıntıya karşı sağlam ve dirençli olan bu el yapımı plastik patlayıcı, ateşlendiğinde saniyede 8.000 metreden fazla bir patlama hızına sahiptir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_c4_png.png"},{"id":"base_weapon-weapon_cz75a","name":"CZ75-Otomatik","description":"CZ75'in tam otomatik bir türü olan CZ75-Otomatik, rakibinin silahını alarak durumu kendi lehine çevirmek için kısa vadeli ideal bir seçenektir. Fakat çok az bir cephaneye sahip olduğu için, güçlü bir tetik disiplini gerektirir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.png"},{"id":"base_weapon-weapon_deagle","name":"Desert Eagle","description":"Güçlü olduğu kadar pahalı ve artık ikonlaşmış bir tabanca olan Desert Eagle ustalaşması zor bir silahtır. Ayrıca şaşırtıcı bir şekilde uzak mesafelerde de isabetlidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png"},{"id":"base_weapon-weapon_decoy","name":"Yanıltıcı Bomba","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"},{"id":"base_weapon-weapon_elite","name":"Çift Beretta","description":"İki büyük şarjöre sahip olan Çift Beretta ile ateş ettiğinizde isabet oranınız azalacak ve şarjörü doldurmanız uzun sürecektir. Ama işin iyi tarafına bakacak olursak, iki tane büyük şarjörü olan Çift Beretta ile ateş etmiş olacaksınız.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_elite_png.png"},{"id":"base_weapon-weapon_famas","name":"FAMAS","description":"Nakitte sıkıntı çeken oyuncular için ucuz bir seçenek olan FAMAS, daha pahalı tüfekler ve daha az etkili hafif makineliler arasındaki boşluğu etkin biçimde dolduruyor.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"},{"id":"base_weapon-weapon_fiveseven","name":"Five-SeveN","description":"Yüksek isabet oranı ve zırh delme kabiliyetine sahip pahalı bir tabanca olan Five-SeveN şarjörü yavaş doldurur, ama 20 mermilik cömert şarjörü ve geri tepme oranı bunu telafi eder.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.png"},{"id":"base_weapon-weapon_flashbang","name":"Flaş Bombası","description":"Öldürücü olmayan flaş bombası, sarsıntılı patlamanın içerisindeki birini geçici olarak kör eder ve kapalı alanlara baskını mükemmel hale getirir. Ayrıca yüksek sesle patlaması da ayak seslerini maskeler.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"},{"id":"base_weapon-weapon_g3sg1","name":"G3SG1","description":"Pahalı bir silah olan G3SG1 hareket hızını ciddi derecede azaltır ama diğer dürbünlü tüfeklere göre daha yüksek bir atış hızına sahip olması bunu telafi eder.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"},{"id":"base_weapon-weapon_galilar","name":"Galil AR","description":"Terörist saldırı tüfekleri arasında daha ucuz bir seçenek, Galil AR orta ve uzak mesafe çatışmada kullanışlı bir silahtır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_galilar_png.png"},{"id":"base_weapon-weapon_glock","name":"Glock-18","description":"Glock-18 zırhsız düşmanlara karşı kullanışlı bir ilk raunt tabancasıdır ve üçlü atış yapabilir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"},{"id":"base_weapon-weapon_healthshot","name":"Sağlık Aşısı","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"},{"id":"base_weapon-weapon_hegrenade","name":"El Bombası","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"},{"id":"base_weapon-weapon_hkp2000","name":"P2000","description":"İsabetli ve kontrol edilebilir, Alman yapımı P2000 zırhsız düşmanlara karşı en iyi ilk raunt tabancasıdır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.png"},{"id":"base_weapon-weapon_incgrenade","name":"Yanıcı Bomba","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"},{"id":"base_weapon-weapon_knife_butterfly","name":"Kelebek Bıçak","description":"Bu özel dizayn edilmiş bir balisong bıçağı, halk arasında kelebek olarak da bilinir. Daha çok elde çevrilmesiyle tanınır. Hızlıca gizlenebilmesi ve çıkarılabilmesi artı yönlerindendir. Çoğu ülkede kelebek bıçaklar yasaklanmıştır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.png"},{"id":"base_weapon-weapon_knife_canis","name":"Hayatta Kalma Bıçağı","description":"Bu çok amaçlı taktisel bıçakta kemik ya da lif gibi kalın malzemelerin içinden doğrudan geçmesine olanak tanıyan testere dişli bir bıçak ve bu bıçağın ucunda da deşme kancası yer alıyor. Kompozit bir malzemeden imal edilen sapı, bıçağa altıgen somunlar kullanılarak cıvatalarla tutturulmuştur.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.png"},{"id":"base_weapon-weapon_knife_cord","name":"Paraşüt Kordonu Saplı Bıçak","description":"Bu sabit hayatta kalma bıçağı tuzak kurulumu, hayvan avı ya da ot kesme gibi durumlar ortaya çıktığında hem silah hem de bir araç olarak kullanılması için tasarlanmıştır. Bıçağın sapı boydan boya çok amaçlı paraşüt kordonuyla sarılıdır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.png"},{"id":"base_weapon-weapon_knife_css","name":"Klasik Bıçak","description":"Counter-Strike serisinin bir klasiği olan bu bıçağın köşeleri, bıçağın yanaklarında ve sırtında bulunan titanyum sayesinde keskin ve kusursuz bir şekilde yerine oturtulmuştur. Kabzası, fosilleşmiş mastadon dişi ve karbon fiber ile birlikte tutturulmuştur.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.png"},{"id":"base_weapon-weapon_knife_falchion","name":"Pala Bıçağı","description":"Palaya modern bir saygı gösterisi olan bu ucu eğik bıçağın kenarları da kavislidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.png"},{"id":"base_weapon-weapon_knife_flip","name":"Sustalı Bıçak","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"},{"id":"base_weapon-weapon_knife_gut","name":"Kancalı Bıçak","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"},{"id":"base_weapon-weapon_knife_gypsy_jackknife","name":"Navaja Bıçağı","description":"Mermer emayeli kabzaya sahip bu açılır bıçakta küçük ama vahşi şekilde efektif konik uçlu bir bıçak saklıdır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.png"},{"id":"base_weapon-weapon_knife_karambit","name":"Karambit","description":"Kıvrık bıçağıyla bir kaplanın pençesini andıran Karambit, güneydoğu Asya silat dövüş disiplininin bir parçası olarak geliştirilmiştir. Bıçak genelde, üzerindeki halkadan işaret parmağı geçirilerek ters bir kavrayış ile kullanılır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"},{"id":"base_weapon-weapon_knife_kukri","name":"Kukri Bıçağı","description":"Düğünler ve bıçaklama gibi geleneksel ritüellerde kullanılır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"},{"id":"base_weapon-weapon_knife_m9_bayonet","name":"M9 Bayonet","description":"Bu, M9 Bayonet. Asıl olarak bir tüfeğe takılmak için tasarlanmıştır, ayrıca yakın mesafeli çatışmalar için de çok uygundur.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"},{"id":"base_weapon-weapon_knife_outdoor","name":"Göçebe Bıçağı","description":"Açılır ve kilit mekanizmasına sahip olan bu ergonomik taktiksel avcı bıçağı, ayrıca kompozit saplara ve bir şeyleri kesmek ya da kanırtmak için kullanılabilecek güçlü bir bıçağa sahiptir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.png"},{"id":"base_weapon-weapon_knife","name":"Bıçak","description":"Sessiz ve her zaman erişilebilir, bıçağın ilk vuruşu hızlı ve düşük hasarlıdır, ikinci vuruşu yavaş fakat daha yüksek hasarlıdır. Arkadan bıçaklama ise sessiz oyunculara ani öldürüşü sağlar.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_png.png"},{"id":"base_weapon-weapon_knife_push","name":"Gölge Hançerler","description":"Etkili darbeler için tasarlanan bu hançerleri kullanmak, bir iki yumruk atmak kadar kolaydır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.png"},{"id":"base_weapon-weapon_knife_skeleton","name":"İskelet Bıçak","description":"Bu iskelete benzetilen bıçağın kabzası daha iyi bir kavrama için bantla kaplanmış. Kabzasındaki deliğe parmak sokularak daha güvenilir ve kararlı bir kullanım tecrübesi sağlıyor.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.png"},{"id":"base_weapon-weapon_knife_stiletto","name":"Stiletto Bıçak","description":"Geçmişten bu yana tartışmalara, hatta düzenlemelere konu olmuş İtalyan tarzı bu stiletto bıçağın normalde gizli duran bıçak kısmı yaylı mekanizması sayesinde tek bir dokunuşla anında ortaya çıkartılabilir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.png"},{"id":"base_weapon-weapon_knife_survival_bowie","name":"Bowie Bıçağı","description":"Arkası testereli bu Eğri Av Bıçağı, ciddi hayatta kalma mücadelelerinde kullanmak üzere tasarlanmıştır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_survival_bowie_png.png"},{"id":"base_weapon-weapon_knife_t","name":"Bıçak","description":"Sessiz ve her zaman ulaşılabilir, bıçağın hızlı, düşük hasarlı ana saldırısı ve yavaş, ağır hasarlı ikincil saldırısı vardır. Sırttan bıçaklama sessiz oyunculara anında bir öldürme kazandırır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.png"},{"id":"base_weapon-weapon_knife_tactical","name":"Avcı Bıçağı","description":"Modern taktiksel kullanımlar için dizayn edilmiş bu bıçak, yakın mücadele ve faydalı kullanım gibi alanların her ikisi için de uygundur. Eşsiz Tanto noktası en sert yüzeylerde bile maksimum delmeyi sağlar.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.png"},{"id":"base_weapon-weapon_knife_ursus","name":"Ursus Bıçağı","description":"Bu tanto tipi hayatta kalma bıçağında çok boyutlu bir bıçak ağzına, hafif eğimli bir baş kısmına ve darbe emici kabzaya sahiptir. Hareket eden parçası yoktur. Tam anlamıyla işe koyulabileceğin dört dörtlük güvenilir bir bıçaktır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_ursus_png.png"},{"id":"base_weapon-weapon_knife_widowmaker","name":"Talon Bıçağı","description":"Fildişi kabzalı bu karambitte pirinç cıvatalar kullanılmıştır, saplarken rahat bir şekilde girebilmesi ve çıkarken de parçalayabilmesi için testere ağzına sahip bir kısmı vardır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.png"},{"id":"base_weapon-weapon_m249","name":"M249","description":"Güçlü bir açık alan ağır silahı olan M249, artırılmış isabet ve yüksek cephane kapasitesi için yavaş atış hızını göze alan oyuncular için mükemmel seçimdir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m249_png.png"},{"id":"base_weapon-weapon_m4a1","name":"M4A4","description":"Muadili AK-47'den daha isabetli fakat daha az zarar veren bir silah olan olan M4A4, AT'ler için tam otomatik taarruz tüfeği seçeneğidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png"},{"id":"base_weapon-weapon_m4a1_silencer","name":"M4A1-S","description":"Susturuculu M4A1, susturucu çıkarılmış haline nazaran daha küçük bir şarjör haznesine sahip olmakla beraber daha az geri tepme ve daha iyi kesinlik ile daha sessiz atışlar sağlar.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_silencer_png.png"},{"id":"base_weapon-weapon_mac10","name":"MAC-10","description":"Basitçe içinden mermiler çıkan bir kutu olan MAC-10 hafif makinelisi, yüksek bir atış hızına sahiptir ancak fazla geri teper ve isabet oranı düşüktür.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"},{"id":"base_weapon-weapon_mag7","name":"MAG-7","description":"AT'ye özel Mag-7 yakın mesafede yok edici etkiye sahiptir. Hızlı şarjör değiştirmesi onu mükemmel bir taktiksel seçenek hâline getirir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"},{"id":"base_weapon-weapon_molotov","name":"Molotof","description":"Molotof oldukça güçlü ve bir bölgeye attığınızda orada beklenmedik bir alan engellemesi oluşturabilen bir silahtır. Düştüğü yer yanmaya başlar ve o alan içinde bulunan oyuncular zarar görür.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"},{"id":"base_weapon-weapon_mp5sd","name":"MP5-SD","description":"Çok sık taklit edilen ancak eşi benzeri olmayan MP5, dünyadaki hafif makineli silahlar arasından belki de en çok yönlü ve popüler olanlardan biridir. Ölümcül MP5'ın bu SD versiyonu sahip olduğu entegre susturucusu sayesinde fısıltı sessizliğinde çalışır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"},{"id":"base_weapon-weapon_mp7","name":"MP7","description":"Çok yönlü fakat pahalı. Alman yapımı MP7 hafif makinelisi yakın çatışmalarda etkili olmak için mükemmel bir seçimdir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp7_png.png"},{"id":"base_weapon-weapon_mp9","name":"MP9","description":"İsviçre'de üretilmiş son teknoloji ürünü olan MP9 hafif makinelisi, özel güvenlik firmaları tarafından tercih edilen ergonomik polimer bir silahtır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png"},{"id":"base_weapon-weapon_negev","name":"Negev","description":"Eğer kontrol altında tutabilecek zaman lüksüne sahipseniz Negev, oldukça isabetli bastırma ateşi ile düşmanları uzakta tutabilecek bir canavardır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_negev_png.png"},{"id":"base_weapon-weapon_nova","name":"Nova","description":"Nova'nın ucuz fiyatı, onu nakit sıkıntısı çeken takımlar için müthiş bir pusu silahı haline getirir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"},{"id":"base_weapon-weapon_p250","name":"P250","description":"Düşük bir geri tepme oranına sahip ve seri ateş edebilme kabiliyeti olan P250 tabancası, zırhlı rakiplerinize karşı diğer silahlara göre biraz daha ucuz bir seçimdir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p250_png.png"},{"id":"base_weapon-weapon_p90","name":"P90","description":"Benzersiz bullpup tasarımı sayesinde kolayca hatırlanabilen, yüksek kapasiteli şarjörüyle ve düşük geri tepmesiyle P90, hareket halindeyken vurmak için mükemmel bir silahtır.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p90_png.png"},{"id":"base_weapon-weapon_revolver","name":"R8 Revolver","description":"R8 Revolver, uzun bir tetik çekişi pahasına oldukça isabetli ve güçlü bir mermi sağlar. Çok kısa mesafeden durdurucu güç gerektiğinde belki de en iyi seçenek, horozu hızlıca ateşlemektir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_revolver_png.png"},{"id":"base_weapon-weapon_sawedoff","name":"Sawed-Off","description":"Klasik bir silah olan Sawed-Off yakın mesafelerde çok ağır hasar verir. Ama düşük isabet oranı, mermileri fazla dağıtması ve düşük atış hızından dolayı vurduğunuzu öldürseniz iyi olur.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.png"},{"id":"base_weapon-weapon_scar20","name":"SCAR-20","description":"SCAR-20, yüksek atış hızı ve güçlü uzun mesafe hasarı için, ağır hareket hızı ve büyük fiyat etiketine katlanılan yarı otomatik bir keskin nişancı tüfeğidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"},{"id":"base_weapon-weapon_sg556","name":"SG 553","description":"Sadece teröristlere özel bir silah olan SG 553, etkili uzak mesafe çatışmaları için AK-47'nin dürbünlü bir alternatifidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"},{"id":"base_weapon-weapon_smokegrenade","name":"Sis Bombası","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"},{"id":"base_weapon-weapon_ssg08","name":"SSG 08","description":"SSG 08'in az hasar veren ancak fiyatına göre çok etkili bir keskin nişancı silahı olması, ilk rauntlarda onu uzun menzilli nişancılık için akıllı bir tercih haline getirmektedir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"},{"id":"base_weapon-weapon_taser","name":"Zeus x27","description":"Yakın mesafe pusuları ve kapalı alan çatışmaları için mükemmel olan tek atışlık Zeus x27, düşmanı tek vuruşta etkisiz hâle getirme kapasitesine sahiptir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_taser_png.png"},{"id":"base_weapon-weapon_tec9","name":"Tec-9","description":"Hareket halindeki Teröristler için ideal bir tabanca olan Tec-9, yakın mesafeli çatışmalarda ölümcüldür ve yüksek kapasiteli bir şarjör sunar.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"},{"id":"base_weapon-weapon_ump45","name":"UMP-45","description":"Hafif makineli ailesinin değeri anlaşılamamış ortanca çocuğu. Yakın mesafede oldukça etkili ve tam otomatik bir silah olan UMP-45'in tek dezavantajı küçük şarjör kapasitesidir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ump45_png.png"},{"id":"base_weapon-weapon_usp_silencer","name":"USP-S","description":"Counter-Strike: Source hayranlarının favorilerinden biri olan USP-S tabancası, silahın geri tepme oranını azaltırken aynı zamanda sesini de bastıran ve takıp çıkarılabilen bir susturucuya sahiptir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.png"},{"id":"base_weapon-weapon_xm1014","name":"XM1014","description":"XM1014, pahalı fiyat etiketini bir odayı anında kurşunla doldurabilme kabiliyetiyle telafi eden güçlü ve tam otomatik bir pompalı tüfektir.","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"}]
+[
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "Varsayılan CT Eldivenleri",
+  "description": "Askeri personel veya güvenlik personeli için tasarlanmış genel kullanıma uygun harekat eldivenleri.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "Varsayılan T Eldivenleri",
+  "description": "<i>Ellerinize kan bulaşmasından asla korkmayın. – Valeria Jenner, Devrimci</i>",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "Güçlü ve güvenilir, AK-47 dünyanın en popüler saldırı tüfeklerinden biridir. Kontrollü atış gücü ile yakın mesafede ölümcüldür.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "Güçlü ve isabetli olan dürbünlü AUG silahının şarjörünü doldurmak uzun sürer, ama mermileri fazla dağıtmaması ve yüksek bir atış hızına sahip olması bunu telafi eder.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "Büyük risk ve büyük ödül. Ünlü AWP silahı, bir atışta bir leş sözü ile de hatırlanabilir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "Bayonet",
+  "description": "İkinci Dünya Savaşı'ndan bu yana tasarımı çok fazla değişmeyen Bayonet'in modern askeri stratejide hâlâ yeri bulunmaktadır. Bayonet hücumları, son dönemlerdeki Afganistan Savaşı ve İkinci Körfez Savaşı'nda görüldüğü üzere etkili olmaya devam etmektedir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "PP-Bizon",
+  "description": "Bizon hafif makinelisi düşük hasar verir, ama seri değiştirilebilmesi için özel tasarlanmış yüksek kapasiteli bir şarjör sunar.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "C4 Patlayıcı",
+  "description": "Çoğu fiziksel sarsıntıya karşı sağlam ve dirençli olan bu el yapımı plastik patlayıcı, ateşlendiğinde saniyede 8.000 metreden fazla bir patlama hızına sahiptir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_c4_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Otomatik",
+  "description": "CZ75'in tam otomatik bir türü olan CZ75-Otomatik, rakibinin silahını alarak durumu kendi lehine çevirmek için kısa vadeli ideal bir seçenektir. Fakat çok az bir cephaneye sahip olduğu için, güçlü bir tetik disiplini gerektirir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Güçlü olduğu kadar pahalı ve artık ikonlaşmış bir tabanca olan Desert Eagle ustalaşması zor bir silahtır. Ayrıca şaşırtıcı bir şekilde uzak mesafelerde de isabetlidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "Yanıltıcı Bomba",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Çift Beretta",
+  "description": "İki büyük şarjöre sahip olan Çift Beretta ile ateş ettiğinizde isabet oranınız azalacak ve şarjörü doldurmanız uzun sürecektir. Ama işin iyi tarafına bakacak olursak, iki tane büyük şarjörü olan Çift Beretta ile ateş etmiş olacaksınız.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_elite_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "Nakitte sıkıntı çeken oyuncular için ucuz bir seçenek olan FAMAS, daha pahalı tüfekler ve daha az etkili hafif makineliler arasındaki boşluğu etkin biçimde dolduruyor.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Yüksek isabet oranı ve zırh delme kabiliyetine sahip pahalı bir tabanca olan Five-SeveN şarjörü yavaş doldurur, ama 20 mermilik cömert şarjörü ve geri tepme oranı bunu telafi eder.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "Flaş Bombası",
+  "description": "Öldürücü olmayan flaş bombası, sarsıntılı patlamanın içerisindeki birini geçici olarak kör eder ve kapalı alanlara baskını mükemmel hale getirir. Ayrıca yüksek sesle patlaması da ayak seslerini maskeler.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "Pahalı bir silah olan G3SG1 hareket hızını ciddi derecede azaltır ama diğer dürbünlü tüfeklere göre daha yüksek bir atış hızına sahip olması bunu telafi eder.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Galil AR",
+  "description": "Terörist saldırı tüfekleri arasında daha ucuz bir seçenek, Galil AR orta ve uzak mesafe çatışmada kullanışlı bir silahtır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_galilar_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "Glock-18 zırhsız düşmanlara karşı kullanışlı bir ilk raunt tabancasıdır ve üçlü atış yapabilir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "Sağlık Aşısı",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "El Bombası",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "İsabetli ve kontrol edilebilir, Alman yapımı P2000 zırhsız düşmanlara karşı en iyi ilk raunt tabancasıdır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "Yanıcı Bomba",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "Kelebek Bıçak",
+  "description": "Bu özel dizayn edilmiş bir balisong bıçağı, halk arasında kelebek olarak da bilinir. Daha çok elde çevrilmesiyle tanınır. Hızlıca gizlenebilmesi ve çıkarılabilmesi artı yönlerindendir. Çoğu ülkede kelebek bıçaklar yasaklanmıştır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "Hayatta Kalma Bıçağı",
+  "description": "Bu çok amaçlı taktisel bıçakta kemik ya da lif gibi kalın malzemelerin içinden doğrudan geçmesine olanak tanıyan testere dişli bir bıçak ve bu bıçağın ucunda da deşme kancası yer alıyor. Kompozit bir malzemeden imal edilen sapı, bıçağa altıgen somunlar kullanılarak cıvatalarla tutturulmuştur.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Paraşüt Kordonu Saplı Bıçak",
+  "description": "Bu sabit hayatta kalma bıçağı tuzak kurulumu, hayvan avı ya da ot kesme gibi durumlar ortaya çıktığında hem silah hem de bir araç olarak kullanılması için tasarlanmıştır. Bıçağın sapı boydan boya çok amaçlı paraşüt kordonuyla sarılıdır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "Klasik Bıçak",
+  "description": "Counter-Strike serisinin bir klasiği olan bu bıçağın köşeleri, bıçağın yanaklarında ve sırtında bulunan titanyum sayesinde keskin ve kusursuz bir şekilde yerine oturtulmuştur. Kabzası, fosilleşmiş mastadon dişi ve karbon fiber ile birlikte tutturulmuştur.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Pala Bıçağı",
+  "description": "Palaya modern bir saygı gösterisi olan bu ucu eğik bıçağın kenarları da kavislidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "Sustalı Bıçak",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "Kancalı Bıçak",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Navaja Bıçağı",
+  "description": "Mermer emayeli kabzaya sahip bu açılır bıçakta küçük ama vahşi şekilde efektif konik uçlu bir bıçak saklıdır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "Karambit",
+  "description": "Kıvrık bıçağıyla bir kaplanın pençesini andıran Karambit, güneydoğu Asya silat dövüş disiplininin bir parçası olarak geliştirilmiştir. Bıçak genelde, üzerindeki halkadan işaret parmağı geçirilerek ters bir kavrayış ile kullanılır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "Kukri Bıçağı",
+  "description": "Düğünler ve bıçaklama gibi geleneksel ritüellerde kullanılır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "M9 Bayonet",
+  "description": "Bu, M9 Bayonet. Asıl olarak bir tüfeğe takılmak için tasarlanmıştır, ayrıca yakın mesafeli çatışmalar için de çok uygundur.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Göçebe Bıçağı",
+  "description": "Açılır ve kilit mekanizmasına sahip olan bu ergonomik taktiksel avcı bıçağı, ayrıca kompozit saplara ve bir şeyleri kesmek ya da kanırtmak için kullanılabilecek güçlü bir bıçağa sahiptir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "Bıçak",
+  "description": "Sessiz ve her zaman erişilebilir, bıçağın ilk vuruşu hızlı ve düşük hasarlıdır, ikinci vuruşu yavaş fakat daha yüksek hasarlıdır. Arkadan bıçaklama ise sessiz oyunculara ani öldürüşü sağlar.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "Gölge Hançerler",
+  "description": "Etkili darbeler için tasarlanan bu hançerleri kullanmak, bir iki yumruk atmak kadar kolaydır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "İskelet Bıçak",
+  "description": "Bu iskelete benzetilen bıçağın kabzası daha iyi bir kavrama için bantla kaplanmış. Kabzasındaki deliğe parmak sokularak daha güvenilir ve kararlı bir kullanım tecrübesi sağlıyor.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Stiletto Bıçak",
+  "description": "Geçmişten bu yana tartışmalara, hatta düzenlemelere konu olmuş İtalyan tarzı bu stiletto bıçağın normalde gizli duran bıçak kısmı yaylı mekanizması sayesinde tek bir dokunuşla anında ortaya çıkartılabilir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Bowie Bıçağı",
+  "description": "Arkası testereli bu Eğri Av Bıçağı, ciddi hayatta kalma mücadelelerinde kullanmak üzere tasarlanmıştır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_survival_bowie_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "Bıçak",
+  "description": "Sessiz ve her zaman ulaşılabilir, bıçağın hızlı, düşük hasarlı ana saldırısı ve yavaş, ağır hasarlı ikincil saldırısı vardır. Sırttan bıçaklama sessiz oyunculara anında bir öldürme kazandırır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Avcı Bıçağı",
+  "description": "Modern taktiksel kullanımlar için dizayn edilmiş bu bıçak, yakın mücadele ve faydalı kullanım gibi alanların her ikisi için de uygundur. Eşsiz Tanto noktası en sert yüzeylerde bile maksimum delmeyi sağlar.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Ursus Bıçağı",
+  "description": "Bu tanto tipi hayatta kalma bıçağında çok boyutlu bir bıçak ağzına, hafif eğimli bir baş kısmına ve darbe emici kabzaya sahiptir. Hareket eden parçası yoktur. Tam anlamıyla işe koyulabileceğin dört dörtlük güvenilir bir bıçaktır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_ursus_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Talon Bıçağı",
+  "description": "Fildişi kabzalı bu karambitte pirinç cıvatalar kullanılmıştır, saplarken rahat bir şekilde girebilmesi ve çıkarken de parçalayabilmesi için testere ağzına sahip bir kısmı vardır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "Güçlü bir açık alan ağır silahı olan M249, artırılmış isabet ve yüksek cephane kapasitesi için yavaş atış hızını göze alan oyuncular için mükemmel seçimdir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m249_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "Muadili AK-47'den daha isabetli fakat daha az zarar veren bir silah olan olan M4A4, AT'ler için tam otomatik taarruz tüfeği seçeneğidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "Susturuculu M4A1, susturucu çıkarılmış haline nazaran daha küçük bir şarjör haznesine sahip olmakla beraber daha az geri tepme ve daha iyi kesinlik ile daha sessiz atışlar sağlar.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_silencer_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "Basitçe içinden mermiler çıkan bir kutu olan MAC-10 hafif makinelisi, yüksek bir atış hızına sahiptir ancak fazla geri teper ve isabet oranı düşüktür.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "AT'ye özel Mag-7 yakın mesafede yok edici etkiye sahiptir. Hızlı şarjör değiştirmesi onu mükemmel bir taktiksel seçenek hâline getirir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "Molotof",
+  "description": "Molotof oldukça güçlü ve bir bölgeye attığınızda orada beklenmedik bir alan engellemesi oluşturabilen bir silahtır. Düştüğü yer yanmaya başlar ve o alan içinde bulunan oyuncular zarar görür.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "Çok sık taklit edilen ancak eşi benzeri olmayan MP5, dünyadaki hafif makineli silahlar arasından belki de en çok yönlü ve popüler olanlardan biridir. Ölümcül MP5'ın bu SD versiyonu sahip olduğu entegre susturucusu sayesinde fısıltı sessizliğinde çalışır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "Çok yönlü fakat pahalı. Alman yapımı MP7 hafif makinelisi yakın çatışmalarda etkili olmak için mükemmel bir seçimdir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp7_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "İsviçre'de üretilmiş son teknoloji ürünü olan MP9 hafif makinelisi, özel güvenlik firmaları tarafından tercih edilen ergonomik polimer bir silahtır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Negev",
+  "description": "Eğer kontrol altında tutabilecek zaman lüksüne sahipseniz Negev, oldukça isabetli bastırma ateşi ile düşmanları uzakta tutabilecek bir canavardır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_negev_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Nova'nın ucuz fiyatı, onu nakit sıkıntısı çeken takımlar için müthiş bir pusu silahı haline getirir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "Düşük bir geri tepme oranına sahip ve seri ateş edebilme kabiliyeti olan P250 tabancası, zırhlı rakiplerinize karşı diğer silahlara göre biraz daha ucuz bir seçimdir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p250_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "Benzersiz bullpup tasarımı sayesinde kolayca hatırlanabilen, yüksek kapasiteli şarjörüyle ve düşük geri tepmesiyle P90, hareket halindeyken vurmak için mükemmel bir silahtır.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p90_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "R8 Revolver",
+  "description": "R8 Revolver, uzun bir tetik çekişi pahasına oldukça isabetli ve güçlü bir mermi sağlar. Çok kısa mesafeden durdurucu güç gerektiğinde belki de en iyi seçenek, horozu hızlıca ateşlemektir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_revolver_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Sawed-Off",
+  "description": "Klasik bir silah olan Sawed-Off yakın mesafelerde çok ağır hasar verir. Ama düşük isabet oranı, mermileri fazla dağıtması ve düşük atış hızından dolayı vurduğunuzu öldürseniz iyi olur.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "SCAR-20, yüksek atış hızı ve güçlü uzun mesafe hasarı için, ağır hareket hızı ve büyük fiyat etiketine katlanılan yarı otomatik bir keskin nişancı tüfeğidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "Sadece teröristlere özel bir silah olan SG 553, etkili uzak mesafe çatışmaları için AK-47'nin dürbünlü bir alternatifidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "Sis Bombası",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "SSG 08'in az hasar veren ancak fiyatına göre çok etkili bir keskin nişancı silahı olması, ilk rauntlarda onu uzun menzilli nişancılık için akıllı bir tercih haline getirmektedir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "Yakın mesafe pusuları ve kapalı alan çatışmaları için mükemmel olan tek atışlık Zeus x27, düşmanı tek vuruşta etkisiz hâle getirme kapasitesine sahiptir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_taser_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "Hareket halindeki Teröristler için ideal bir tabanca olan Tec-9, yakın mesafeli çatışmalarda ölümcüldür ve yüksek kapasiteli bir şarjör sunar.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "Hafif makineli ailesinin değeri anlaşılamamış ortanca çocuğu. Yakın mesafede oldukça etkili ve tam otomatik bir silah olan UMP-45'in tek dezavantajı küçük şarjör kapasitesidir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ump45_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "Counter-Strike: Source hayranlarının favorilerinden biri olan USP-S tabancası, silahın geri tepme oranını azaltırken aynı zamanda sesini de bastıran ve takıp çıkarılabilen bir susturucuya sahiptir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "XM1014, pahalı fiyat etiketini bir odayı anında kurşunla doldurabilme kabiliyetiyle telafi eden güçlü ve tam otomatik bir pompalı tüfektir.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ }
+]

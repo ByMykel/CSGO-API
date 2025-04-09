@@ -1,1 +1,404 @@
-[{"id":"base_weapon-ct_gloves","name":"デフォルトのCTグローブ","description":"兵士および警備担当向けの汎用タクティカルグローブ","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"},{"id":"base_weapon-t_gloves","name":"デフォルトのTグローブ","description":"<i>その手を血で汚すことをいとわないで。―革命家 ヴァレリア・ジェンナー</i>","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"},{"id":"base_weapon-weapon_ak47","name":"AK-47","description":"強力で信頼性の高い AK-47は、世界で最も有名なアサルトライフルの1つ。短いバーストで反動を抑えることで最大限に威力を引き出せる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png"},{"id":"base_weapon-weapon_aug","name":"AUG","description":"強力で精度が良い AUG 照準器付きアサルトライフルは、長い再装填時間を高い集弾率と高い射撃速度で補完している。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png"},{"id":"base_weapon-weapon_awp","name":"AWP","description":"ハイリスク・ハイリターンなライフルである AWP は、特徴的な発射音とワンショット・ワンキルのポリシーで知られている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"},{"id":"base_weapon-weapon_bayonet","name":"銃剣","description":"銃剣/Bayonet は第ニ次世界大戦以降、設計面ではほとんど変更がなされていないが、現代の軍事戦略において今なお地位を確保している。最近では第二次湾岸戦争やアフガニスタン戦争でも銃剣突撃の有効性が実証された。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"},{"id":"base_weapon-weapon_bizon","name":"PP-Bizon","description":"Bizon サブマシンガンは威力こそ弱いものの、 素早くリロードできる独特な構造の大容量ドラムマガジンを備えている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"},{"id":"base_weapon-weapon_c4","name":"C4 Explosive","description":"ほとんどの物理的衝撃に対する耐久性と安定性のあるこの即席プラスチック爆弾は、起爆時に秒間8,000メートル以上の爆轟速度を持つ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_c4_png.png"},{"id":"base_weapon-weapon_cz75a","name":"CZ75-Auto","description":"CZ75 をフルオートマチックに改造した CZ75-Auto は、戦局をひっくり返し、相手の武器を奪うのに理想的な短期決戦用の選択だ。ただし装弾数が少ないため、正確な射撃が求められる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.png"},{"id":"base_weapon-weapon_deagle","name":"Desert Eagle","description":"Desert Eagle は価格に見合う威力のある逸品だ。使いこなすのは困難だが、遠距離でも驚くほどの正確さを誇る。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png"},{"id":"base_weapon-weapon_decoy","name":"デコイグレネード","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"},{"id":"base_weapon-weapon_elite","name":"Dual Berettas","description":"大容量の弾倉を装着した2丁の Beretta を同時に撃つと、命中率が下がり、装填時間が伸びる。だが大容量の弾倉を備えた2丁の Beretta を同時に撃てるのだから、それで良しとしよう。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_elite_png.png"},{"id":"base_weapon-weapon_famas","name":"FAMAS","description":"金欠プレイヤーにとって安価な選択肢となる FAMAS は、高価なライフルとより威力の低い SMG の間の隙間を埋める存在である。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"},{"id":"base_weapon-weapon_fiveseven","name":"Five-SeveN","description":"Five-Seven は精度と貫通能力が優れている。高価なうえに装填速度も遅いが、20発の大容量弾倉と低反動によってその短所を補っている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.png"},{"id":"base_weapon-weapon_flashbang","name":"フラッシュグレネード","description":"フラッシュグレネードは致死性こそないが衝撃範囲内にいる全員の視力を一時的に奪うため、屋内エリアのクリアリングで活躍する。また、大きな爆発音によって足音も一時的に聞こえなくなる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"},{"id":"base_weapon-weapon_g3sg1","name":"G3SG1","description":"高価な G3SG1 は、大幅に移動速度を低下させるが、他のスナイパーライフルより高い連射速度で埋め合わせている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"},{"id":"base_weapon-weapon_galilar","name":"Galil AR","description":"テロリスト専用アサルトライフルの中で比較的安価な選択肢である Galil AR は、中長距離戦闘で役立つ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_galilar_png.png"},{"id":"base_weapon-weapon_glock","name":"Glock-18","description":"Glock 18 は第1ラウンドでの使用に適しており、防具を着用していない敵には特に有効である。3点バースト射撃が可能。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"},{"id":"base_weapon-weapon_healthshot","name":"メディショット","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"},{"id":"base_weapon-weapon_hegrenade","name":"HE グレネード","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"},{"id":"base_weapon-weapon_hkp2000","name":"P2000","description":"正確で制御しやすく、第1ラウンド向きの実用的なドイツ製ピストル。防具を着用していない敵に有効。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.png"},{"id":"base_weapon-weapon_incgrenade","name":"焼夷グレネード","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"},{"id":"base_weapon-weapon_knife_butterfly","name":"バタフライナイフ","description":"一般的にはバタフライナイフとして知られているカスタム設計されたバリソン。扇のように開いて自由に回転するブレードを出す機構が特徴で、素早い展開や隠匿が可能。そのため、バタフライナイフは多くの国で非合法化されている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.png"},{"id":"base_weapon-weapon_knife_canis","name":"サバイバルナイフ","description":"鋸刃部分で硬い骨や繊維を断裁でき、鋭い返し刃もついた多目的タクティカルナイフ。複合材の持ち手は六角ナットで刃に固定されている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.png"},{"id":"base_weapon-weapon_knife_cord","name":"Paracord ナイフ","description":"武器としてもツールとしても使えるようにデザインされた固定刃のサバイバルナイフで、罠の作成、動物の狩猟、草木の伐採なども可能。持ち手部分には多用途のパラコードが巻かれている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.png"},{"id":"base_weapon-weapon_knife_css","name":"クラシックナイフ","description":"「Counter-Strike」シリーズ定番のこのナイフのエッジはステライト製で、チタン製のブレードの側面と背にぴったりとプレスで固定されている。柄の部分は、中心がマストドンの牙の化石で、外側がカーボンファイバーでできている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.png"},{"id":"base_weapon-weapon_knife_falchion","name":"Falchion ナイフ","description":"ファルシオンへの現代的オマージュであるクリップポイントナイフ。湾曲したエッジを持つ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.png"},{"id":"base_weapon-weapon_knife_flip","name":"折りたたみナイフ","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"},{"id":"base_weapon-weapon_knife_gut","name":"ガットナイフ","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"},{"id":"base_weapon-weapon_knife_gypsy_jackknife","name":"Navaja ナイフ","description":"この大理石エナメルハンドルのフリップナイフは、小さいながらも凶悪な先細の刃を隠し持つ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.png"},{"id":"base_weapon-weapon_knife_karambit","name":"カランビット","description":"トラの爪を模倣した湾曲刃を持つ Karambit は東南アジアの武術シラットの武具として発展してきた。このナイフはリング部分に人差し指を通し、主に逆手で使用する。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"},{"id":"base_weapon-weapon_knife_kukri","name":"ククリナイフ","description":"結婚式や刺殺などの伝統的な儀式で使用される。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"},{"id":"base_weapon-weapon_knife_m9_bayonet","name":"M9バヨネット","description":"M-9 銃剣。もともとライフルに装着されることを想定された武器だが、近接戦闘にも適している。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"},{"id":"base_weapon-weapon_knife_outdoor","name":"Nomad ナイフ","description":"人体工学設計が施されたロックブレード機構のナイフ。複合材のインサートハンドルと幅広で頑丈な刃が特徴で、切断だけでなく物をこじ開ける際にも便利。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.png"},{"id":"base_weapon-weapon_knife","name":"ナイフ","description":"静かでいつでも使用できるナイフには、素早くダメージの少ない第一攻撃と、遅くダメージの大きい第二攻撃がある。隠密行動中のプレイヤーは、バックスタブで敵を一撃で倒すことが可能。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_png.png"},{"id":"base_weapon-weapon_knife_push","name":"シャドウダガー","description":"プッシュダガーは効率的な刺突のために設計されており、パンチするのと同じぐらい簡単使える。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.png"},{"id":"base_weapon-weapon_knife_skeleton","name":"Skeleton ナイフ","description":"スケルトン加工されたタングナイフで、グリップ性を高めるためにハンドル部分にテープが巻かれている。くり抜かれた部分に指を通すことで安定性と安全性が向上する。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.png"},{"id":"base_weapon-weapon_knife_stiletto","name":"Stiletto ナイフ","description":"歴史的に論争や規制の的となってきたイタリアンスタイルのスティレットのスイッチブレードナイフ。リリーススイッチを押すと瞬時に飛び出すバネ式のブレードが仕込まれている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.png"},{"id":"base_weapon-weapon_knife_survival_bowie","name":"Bowie ナイフ","description":"フルタング構造の Sawback Bowie ナイフは、過酷なサバイバル環境での酷使に耐えられるよう設計されている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_survival_bowie_png.png"},{"id":"base_weapon-weapon_knife_t","name":"ナイフ","description":"静かでいつでも使用できるナイフには、素早くダメージの少ない第一攻撃と、遅くダメージの大きい第二攻撃がある。隠密行動中のプレイヤーは、バックスタブで敵を一撃で倒すことが可能。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.png"},{"id":"base_weapon-weapon_knife_tactical","name":"Huntsman ナイフ","description":"現代におけるタクティカル用途のために設計されたナイフであり、ブレードは戦闘だけでなくツールとしても幅広く用いられる。独特の短刀状の切先を持ち、硬い素材でも貫通できる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.png"},{"id":"base_weapon-weapon_knife_ursus","name":"Ursus ナイフ","description":"フルタング構造でファセット加工の刃を持ち、ポメルでの打撃も可能な短刀型のサバイバルナイフ。手間要らずで可動部分もなく、すぐに使える頼れるナイフだ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_ursus_png.png"},{"id":"base_weapon-weapon_knife_widowmaker","name":"Talon ナイフ","description":"この象牙ハンドルのカランビットナイフは、真鍮のリベットと鋸歯の峰を持ち、突くと切り、抜くと裂く。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.png"},{"id":"base_weapon-weapon_m249","name":"M249","description":"開けた場所での運用時に威力を発揮する M249 は、連射速度よりも精度と装弾数を重視するプレイヤーに最適な LMG だ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m249_png.png"},{"id":"base_weapon-weapon_m4a1","name":"M4A4","description":"同等級の AK-47 より精度が高いがダメージが少ない M4A4 は、CT の第一選択肢となるフルオートのアサルトライフル。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png"},{"id":"base_weapon-weapon_m4a1_silencer","name":"M4A1-S","description":"消音器を外した同等品よりも弾倉が小さい消音器付き M4A1。反動が小さく、精度が高い上に発砲音が静かだ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_silencer_png.png"},{"id":"base_weapon-weapon_mac10","name":"MAC-10","description":"本質的には弾丸が出てくる箱である MAC-10 サブマシンガンは、高い射撃速度を誇るが、引き換えに集弾精度が低く、反動が激しい。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"},{"id":"base_weapon-weapon_mag7","name":"MAG-7","description":"CT 専用の Mag-7 は近距離では圧倒的なダメージ量を誇る。弾倉形式のためリロードが速く、戦術的な運用が可能。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"},{"id":"base_weapon-weapon_molotov","name":"火炎瓶","description":"火炎瓶は強力かつ予測の難しいエリアコントロール用のアイテムで、投げて地面に当たると炎上し、範囲内にいる全プレイヤーにダメージを与える。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"},{"id":"base_weapon-weapon_mp5sd","name":"MP5-SD","description":"世界でもトップクラスの万能性と人気を誇る MP5 は、よく模造の対象となるが、本物には遠く及ばない。この SD モデルは一体化されたサイレンサーが特徴で、ただでさえ強力な SMG に静音性まで加わっている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"},{"id":"base_weapon-weapon_mp7","name":"MP7","description":"万能だが高価なドイツ製の MP7 サブマシンガンは、激しい近接戦に最適な選択。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp7_png.png"},{"id":"base_weapon-weapon_mp9","name":"MP9","description":"スイス製の MP9 サブマシンガンは人間工学に基づいたポリマー素材の最先端武器で、民間警備会社も愛用している。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png"},{"id":"base_weapon-weapon_negev","name":"Negev","description":"Negev は精密な制圧射撃で敵を寄せ付けないモンスター級の武器だが、取り扱う際は時間的余裕が必要となる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_negev_png.png"},{"id":"base_weapon-weapon_nova","name":"Nova","description":"Nova の安さは特筆に値する。資金に乏しいチームにとってはありがたい奇襲用武器だ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"},{"id":"base_weapon-weapon_p250","name":"P250","description":"連射速度が高く低反動な P250 は、防具を着用した敵を相手にする際、比較的安価な選択肢となる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p250_png.png"},{"id":"base_weapon-weapon_p90","name":"P90","description":"独自のブルパップデザインにより一目で見分けが付く P90 は、大容量マガジンと低リコイルにより移動時の射撃に優れている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p90_png.png"},{"id":"base_weapon-weapon_revolver","name":"R8 Revolver","description":"R8 Revolver は、トリガーを引くのに時間がかかる代わりに、正確で強力な一撃を与えられる。至近距離でのストッピングパワーが求められるときは、ハンマーを手で弾くことによって連射が可能だ。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_revolver_png.png"},{"id":"base_weapon-weapon_sawedoff","name":"Sawed-Off","description":"古典的な Sawed-Off は激しい近距離ダメージを与えるが、精度の低さや低い集弾性、連射速度の低さを考えると、狙った敵を仕留めないと困ったことになる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.png"},{"id":"base_weapon-weapon_scar20","name":"SCAR-20","description":"セミオートマチックのスナイパーライフルである SCAR-20 は、高い連射速度と強力な遠距離ダメージを得られる一方で、移動速度が遅く、価格も高い。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"},{"id":"base_weapon-weapon_sg556","name":"SG 553","description":"テロリスト専用の SG553 は、いわば AK47 の高級な代替品である。スコープ付きで、遠距離での交戦で威力を発揮する。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"},{"id":"base_weapon-weapon_smokegrenade","name":"スモークグレネード","description":null,"image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"},{"id":"base_weapon-weapon_ssg08","name":"SSG 08","description":"ボルトアクションの SSG08 は、ダメージは低いが非常にコストパフォーマンスの高いスナイパーライフルで、初期ラウンドでの長距離狙撃に向いている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"},{"id":"base_weapon-weapon_taser","name":"Zeus x27","description":"近距離の奇襲や密閉された場所での遭遇戦にうってつけの Zeus x27 は、一度しか使えないが、その一撃で敵を無力化できる。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_taser_png.png"},{"id":"base_weapon-weapon_tec9","name":"Tec-9","description":"行動中のテロリストには理想の拳銃である Tec-9 は近接戦における高い殺傷力と、多くの装弾数を誇る。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"},{"id":"base_weapon-weapon_ump45","name":"UMP-45","description":"UMP45 は不当な評価を受けやすいが、装弾数が少ないことを除けば万能の近接戦闘用オートマチック SMG と言える。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ump45_png.png"},{"id":"base_weapon-weapon_usp_silencer","name":"USP-S","description":"『Counter-Strike Source』ファンのお気に入りである消音 USP ピストルには、射撃時の反動や、注意を引く雑音を抑え、なおかつ取り外し可能なサイレンサーが付いている。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.png"},{"id":"base_weapon-weapon_xm1014","name":"XM1014","description":"強力なオートマチックショットガンである XM1014 は、一瞬にして空間を鉛弾で埋め尽くす能力によってその強気な価格を正当化する。","image":"https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"}]
+[
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "デフォルトのCTグローブ",
+  "description": "兵士および警備担当向けの汎用タクティカルグローブ",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "デフォルトのTグローブ",
+  "description": "<i>その手を血で汚すことをいとわないで。―革命家 ヴァレリア・ジェンナー</i>",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "強力で信頼性の高い AK-47は、世界で最も有名なアサルトライフルの1つ。短いバーストで反動を抑えることで最大限に威力を引き出せる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ak47_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "強力で精度が良い AUG 照準器付きアサルトライフルは、長い再装填時間を高い集弾率と高い射撃速度で補完している。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_aug_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "ハイリスク・ハイリターンなライフルである AWP は、特徴的な発射音とワンショット・ワンキルのポリシーで知られている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_awp_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "銃剣",
+  "description": "銃剣/Bayonet は第ニ次世界大戦以降、設計面ではほとんど変更がなされていないが、現代の軍事戦略において今なお地位を確保している。最近では第二次湾岸戦争やアフガニスタン戦争でも銃剣突撃の有効性が実証された。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bayonet_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "PP-Bizon",
+  "description": "Bizon サブマシンガンは威力こそ弱いものの、 素早くリロードできる独特な構造の大容量ドラムマガジンを備えている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_bizon_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "C4 Explosive",
+  "description": "ほとんどの物理的衝撃に対する耐久性と安定性のあるこの即席プラスチック爆弾は、起爆時に秒間8,000メートル以上の爆轟速度を持つ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_c4_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Auto",
+  "description": "CZ75 をフルオートマチックに改造した CZ75-Auto は、戦局をひっくり返し、相手の武器を奪うのに理想的な短期決戦用の選択だ。ただし装弾数が少ないため、正確な射撃が求められる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_cz75a_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Desert Eagle は価格に見合う威力のある逸品だ。使いこなすのは困難だが、遠距離でも驚くほどの正確さを誇る。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_deagle_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "デコイグレネード",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Dual Berettas",
+  "description": "大容量の弾倉を装着した2丁の Beretta を同時に撃つと、命中率が下がり、装填時間が伸びる。だが大容量の弾倉を備えた2丁の Beretta を同時に撃てるのだから、それで良しとしよう。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_elite_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "金欠プレイヤーにとって安価な選択肢となる FAMAS は、高価なライフルとより威力の低い SMG の間の隙間を埋める存在である。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Five-Seven は精度と貫通能力が優れている。高価なうえに装填速度も遅いが、20発の大容量弾倉と低反動によってその短所を補っている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_fiveseven_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "フラッシュグレネード",
+  "description": "フラッシュグレネードは致死性こそないが衝撃範囲内にいる全員の視力を一時的に奪うため、屋内エリアのクリアリングで活躍する。また、大きな爆発音によって足音も一時的に聞こえなくなる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "高価な G3SG1 は、大幅に移動速度を低下させるが、他のスナイパーライフルより高い連射速度で埋め合わせている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Galil AR",
+  "description": "テロリスト専用アサルトライフルの中で比較的安価な選択肢である Galil AR は、中長距離戦闘で役立つ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_galilar_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "Glock 18 は第1ラウンドでの使用に適しており、防具を着用していない敵には特に有効である。3点バースト射撃が可能。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_glock_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "メディショット",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "HE グレネード",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "正確で制御しやすく、第1ラウンド向きの実用的なドイツ製ピストル。防具を着用していない敵に有効。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hkp2000_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "焼夷グレネード",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "バタフライナイフ",
+  "description": "一般的にはバタフライナイフとして知られているカスタム設計されたバリソン。扇のように開いて自由に回転するブレードを出す機構が特徴で、素早い展開や隠匿が可能。そのため、バタフライナイフは多くの国で非合法化されている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_butterfly_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "サバイバルナイフ",
+  "description": "鋸刃部分で硬い骨や繊維を断裁でき、鋭い返し刃もついた多目的タクティカルナイフ。複合材の持ち手は六角ナットで刃に固定されている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_canis_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Paracord ナイフ",
+  "description": "武器としてもツールとしても使えるようにデザインされた固定刃のサバイバルナイフで、罠の作成、動物の狩猟、草木の伐採なども可能。持ち手部分には多用途のパラコードが巻かれている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_cord_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "クラシックナイフ",
+  "description": "「Counter-Strike」シリーズ定番のこのナイフのエッジはステライト製で、チタン製のブレードの側面と背にぴったりとプレスで固定されている。柄の部分は、中心がマストドンの牙の化石で、外側がカーボンファイバーでできている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_css_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Falchion ナイフ",
+  "description": "ファルシオンへの現代的オマージュであるクリップポイントナイフ。湾曲したエッジを持つ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_falchion_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "折りたたみナイフ",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_flip_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "ガットナイフ",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gut_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Navaja ナイフ",
+  "description": "この大理石エナメルハンドルのフリップナイフは、小さいながらも凶悪な先細の刃を隠し持つ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "カランビット",
+  "description": "トラの爪を模倣した湾曲刃を持つ Karambit は東南アジアの武術シラットの武具として発展してきた。このナイフはリング部分に人差し指を通し、主に逆手で使用する。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_karambit_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "ククリナイフ",
+  "description": "結婚式や刺殺などの伝統的な儀式で使用される。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "M9バヨネット",
+  "description": "M-9 銃剣。もともとライフルに装着されることを想定された武器だが、近接戦闘にも適している。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_m9_bayonet_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Nomad ナイフ",
+  "description": "人体工学設計が施されたロックブレード機構のナイフ。複合材のインサートハンドルと幅広で頑丈な刃が特徴で、切断だけでなく物をこじ開ける際にも便利。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_outdoor_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "ナイフ",
+  "description": "静かでいつでも使用できるナイフには、素早くダメージの少ない第一攻撃と、遅くダメージの大きい第二攻撃がある。隠密行動中のプレイヤーは、バックスタブで敵を一撃で倒すことが可能。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "シャドウダガー",
+  "description": "プッシュダガーは効率的な刺突のために設計されており、パンチするのと同じぐらい簡単使える。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_push_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "Skeleton ナイフ",
+  "description": "スケルトン加工されたタングナイフで、グリップ性を高めるためにハンドル部分にテープが巻かれている。くり抜かれた部分に指を通すことで安定性と安全性が向上する。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_skeleton_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Stiletto ナイフ",
+  "description": "歴史的に論争や規制の的となってきたイタリアンスタイルのスティレットのスイッチブレードナイフ。リリーススイッチを押すと瞬時に飛び出すバネ式のブレードが仕込まれている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_stiletto_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Bowie ナイフ",
+  "description": "フルタング構造の Sawback Bowie ナイフは、過酷なサバイバル環境での酷使に耐えられるよう設計されている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_survival_bowie_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "ナイフ",
+  "description": "静かでいつでも使用できるナイフには、素早くダメージの少ない第一攻撃と、遅くダメージの大きい第二攻撃がある。隠密行動中のプレイヤーは、バックスタブで敵を一撃で倒すことが可能。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_t_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Huntsman ナイフ",
+  "description": "現代におけるタクティカル用途のために設計されたナイフであり、ブレードは戦闘だけでなくツールとしても幅広く用いられる。独特の短刀状の切先を持ち、硬い素材でも貫通できる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_tactical_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Ursus ナイフ",
+  "description": "フルタング構造でファセット加工の刃を持ち、ポメルでの打撃も可能な短刀型のサバイバルナイフ。手間要らずで可動部分もなく、すぐに使える頼れるナイフだ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_ursus_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Talon ナイフ",
+  "description": "この象牙ハンドルのカランビットナイフは、真鍮のリベットと鋸歯の峰を持ち、突くと切り、抜くと裂く。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_widowmaker_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "開けた場所での運用時に威力を発揮する M249 は、連射速度よりも精度と装弾数を重視するプレイヤーに最適な LMG だ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m249_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "同等級の AK-47 より精度が高いがダメージが少ない M4A4 は、CT の第一選択肢となるフルオートのアサルトライフル。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "消音器を外した同等品よりも弾倉が小さい消音器付き M4A1。反動が小さく、精度が高い上に発砲音が静かだ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_m4a1_silencer_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "本質的には弾丸が出てくる箱である MAC-10 サブマシンガンは、高い射撃速度を誇るが、引き換えに集弾精度が低く、反動が激しい。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "CT 専用の Mag-7 は近距離では圧倒的なダメージ量を誇る。弾倉形式のためリロードが速く、戦術的な運用が可能。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "火炎瓶",
+  "description": "火炎瓶は強力かつ予測の難しいエリアコントロール用のアイテムで、投げて地面に当たると炎上し、範囲内にいる全プレイヤーにダメージを与える。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "世界でもトップクラスの万能性と人気を誇る MP5 は、よく模造の対象となるが、本物には遠く及ばない。この SD モデルは一体化されたサイレンサーが特徴で、ただでさえ強力な SMG に静音性まで加わっている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "万能だが高価なドイツ製の MP7 サブマシンガンは、激しい近接戦に最適な選択。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp7_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "スイス製の MP9 サブマシンガンは人間工学に基づいたポリマー素材の最先端武器で、民間警備会社も愛用している。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp9_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Negev",
+  "description": "Negev は精密な制圧射撃で敵を寄せ付けないモンスター級の武器だが、取り扱う際は時間的余裕が必要となる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_negev_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Nova の安さは特筆に値する。資金に乏しいチームにとってはありがたい奇襲用武器だ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "連射速度が高く低反動な P250 は、防具を着用した敵を相手にする際、比較的安価な選択肢となる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p250_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "独自のブルパップデザインにより一目で見分けが付く P90 は、大容量マガジンと低リコイルにより移動時の射撃に優れている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_p90_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "R8 Revolver",
+  "description": "R8 Revolver は、トリガーを引くのに時間がかかる代わりに、正確で強力な一撃を与えられる。至近距離でのストッピングパワーが求められるときは、ハンマーを手で弾くことによって連射が可能だ。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_revolver_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Sawed-Off",
+  "description": "古典的な Sawed-Off は激しい近距離ダメージを与えるが、精度の低さや低い集弾性、連射速度の低さを考えると、狙った敵を仕留めないと困ったことになる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sawedoff_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "セミオートマチックのスナイパーライフルである SCAR-20 は、高い連射速度と強力な遠距離ダメージを得られる一方で、移動速度が遅く、価格も高い。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "テロリスト専用の SG553 は、いわば AK47 の高級な代替品である。スコープ付きで、遠距離での交戦で威力を発揮する。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "スモークグレネード",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "ボルトアクションの SSG08 は、ダメージは低いが非常にコストパフォーマンスの高いスナイパーライフルで、初期ラウンドでの長距離狙撃に向いている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ssg08_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "近距離の奇襲や密閉された場所での遭遇戦にうってつけの Zeus x27 は、一度しか使えないが、その一撃で敵を無力化できる。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_taser_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "行動中のテロリストには理想の拳銃である Tec-9 は近接戦における高い殺傷力と、多くの装弾数を誇る。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_tec9_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "UMP45 は不当な評価を受けやすいが、装弾数が少ないことを除けば万能の近接戦闘用オートマチック SMG と言える。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_ump45_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "『Counter-Strike Source』ファンのお気に入りである消音 USP ピストルには、射撃時の反動や、注意を引く雑音を抑え、なおかつ取り外し可能なサイレンサーが付いている。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_usp_silencer_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "強力なオートマチックショットガンである XM1014 は、一瞬にして空間を鉛弾で埋め尽くす能力によってその強気な価格を正当化する。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ }
+]
