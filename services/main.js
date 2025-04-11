@@ -673,9 +673,9 @@ export const loadHighlights = () => {
     state.highlightReels = Object.entries(state.itemsGame.highlight_reels).map(([_, item]) => {
         const tournamentString = String(item['tournament event id']).padStart(3, '0');
         const matchString = `${String(item['tournament event team0 id']).padStart(3, '0')}v${String(item['tournament event team1 id']).padStart(3, '0')}_${String(item['tournament event stage id']).padStart(3, '0')}`;
-        
+
         const video = `https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/${tournamentString}/${matchString}/${tournamentString}_${matchString}_${item.map}_${item.id}_ww_1080p.webm`;
-        
+
         return {
             id: item.id,
             tournament_event_id: item['tournament event id'],
@@ -688,6 +688,30 @@ export const loadHighlights = () => {
             video: video,
         };
     });
+};
+
+export const loadProTeams = () => {
+    state.proTeams = Object.entries(state.itemsGame.pro_teams)
+        .map(([key, item]) => ({
+            ...item,
+            object_id: key,
+        }));
+
+    state.proTeams = Object.fromEntries(
+        state.proTeams.map((item) => [item.object_id, item])
+    );
+};
+
+export const loadProPlayers = () => {
+    state.proPlayers = Object.entries(state.itemsGame.pro_players)
+        .map(([key, item]) => ({
+            ...item,
+            object_id: key,
+        }));
+
+    state.proPlayers = Object.fromEntries(
+        state.proPlayers.map((item) => [item.object_id, item])
+    );
 };
 
 const getItemFromKey = (key) => {
@@ -922,4 +946,6 @@ export const loadData = async () => {
     loadSouvenirSkins();
     loadStattrakSkins();
     loadHighlights();
+    loadProTeams();
+    loadProPlayers();
 };
