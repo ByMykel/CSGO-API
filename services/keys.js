@@ -92,6 +92,7 @@ const parseItem = (item) => {
     return {
         id: `key-${item.object_id}`,
         name: $t(item.item_name),
+        code: item.item_name,
         description:
             $t(item.item_description) ?? $t(item.item_description_prefab),
         crates,

@@ -107,6 +107,7 @@ const parseItem = (item) => {
                   item_name: $t(item.item_name),
               })
             : $t(item.item_name),
+        code: item.item_name,
         description: item.item_description
             ? $t(item.item_description)
             : item.item_description_prefab
