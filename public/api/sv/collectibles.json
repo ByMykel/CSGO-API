@@ -3809,7 +3809,7 @@
  },
  {
   "id": "collectible-4628",
-  "name": "Berlin 2019 Souvenirpollett",
+  "name": "Berlin 2019 Souvenir Token",
   "description": "Detta är en förseglad souvenirpollett för CS:GO-mästerskapet StarLadder 2019 i Berlin. När denna pollett öppnas, lägger den till en pollett till ditt Berlin 2019-mynt och tillåter dig att ta ut ett souvenirpaket.\\n\\nPolletter kan endast tillämpas på ditt befintliga Berlin 2019-mynt.",
   "rarity": {
    "id": "rarity_common",
@@ -4677,7 +4677,7 @@
  },
  {
   "id": "collectible-4831",
-  "name": "Antwerp 2022 – Souvenirpollett",
+  "name": "Antwerp 2022 Souvenir Token",
   "description": "This is a sealed PGL 2022 Antwerp CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Antwerp 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Antwerp 2022 Coin.",
   "rarity": {
    "id": "rarity_common",
@@ -4775,7 +4775,7 @@
  },
  {
   "id": "collectible-4856",
-  "name": "Rio 2022 – Souvenirpollett",
+  "name": "Rio 2022 Souvenir Token",
   "description": "This is a sealed IEM Rio 2022 CS:GO Major Championship Souvenir Token. Once this token is unsealed, it will add a token to your Rio 2022 Coin and allow you to claim a Souvenir Package.\\n\\nTokens can only be applied to your existing Rio 2022 Coin.",
   "rarity": {
    "id": "rarity_common",
@@ -5139,7 +5139,7 @@
  },
  {
   "id": "collectible-4922",
-  "name": "Copenhagen 2024 – souvenirpaket",
+  "name": "Copenhagen 2024 Souvenir Package",
   "description": "Detta är ett förseglat souvenirpaket för CS2-majormästerskapet PGL Copenhagen 2024.",
   "rarity": {
    "id": "rarity_common",
@@ -5447,7 +5447,7 @@
  },
  {
   "id": "collectible-4963",
-  "name": "Shanghai 2024 – souvenirpaket",
+  "name": "Shanghai 2024 Souvenir Package",
   "description": "Ett förseglat souvenirpaket för CS2-majormästerskapet Perfect World Shanghai 2024.",
   "rarity": {
    "id": "rarity_common",
@@ -6088,6 +6088,76 @@
   "genuine": false,
   "market_hash_name": null,
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/premier_seasons/premier_season_2_coin_75_png.png"
+ },
+ {
+  "id": "collectible-5135",
+  "name": "Agency Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Agency'",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_agencycs2_png.png"
+ },
+ {
+  "id": "collectible-5136",
+  "name": "Jura Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Jura'",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_jura_png.png"
+ },
+ {
+  "id": "collectible-5137",
+  "name": "Grail Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Grail'",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_grail_png.png"
+ },
+ {
+  "id": "collectible-5138",
+  "name": "Dogtown Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Dogtown'",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_dogtown_png.png"
+ },
+ {
+  "id": "collectible-5139",
+  "name": "Brewery Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Brewery'",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_brewery_png.png"
  },
  {
   "id": "collectible-6001",
