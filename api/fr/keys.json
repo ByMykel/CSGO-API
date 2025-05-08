@@ -587,7 +587,7 @@
  {
   "id": "key-7002",
   "name": "Clé de caisse de Galerie",
-  "description": "Cette clé ouvre seulement les caisses d'armes de Galerie.",
+  "description": "Cette clé ouvre seulement les caisses d'armes de Galerie",
   "crates": [
    {
     "id": "crate-7003",
@@ -601,12 +601,12 @@
  },
  {
   "id": "key-7008",
-  "name": "Fever Case Key",
-  "description": "This key only opens Fever cases",
+  "name": "Clé de caisse Fièvre",
+  "description": "Cette clé ouvre seulement les caisses Fièvre",
   "crates": [
    {
     "id": "crate-7007",
-    "name": "Fever Case",
+    "name": "Caisse Fièvre",
     "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_35_png.png"
    }
   ],
