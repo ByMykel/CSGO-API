@@ -438,6 +438,7 @@ export const getCollectibleRarity = (prefab) => {
             case "paris2023_tournament_pass_prefab":
             case "cph2024_tournament_pass_prefab":
             case "sha2024_tournament_pass_prefab":
+            case "aus2025_tournament_pass_prefab":
             case "season_pass":
             case "season_tiers":
                 return "rarity_common";
@@ -449,6 +450,7 @@ export const getCollectibleRarity = (prefab) => {
             case "paris2023_tournament_journal_prefab":
             case "cph2024_tournament_journal_prefab":
             case "sha2024_tournament_journal_prefab":
+            case "aus2025_tournament_journal_prefab":
             case "collectible_untradable_coin":
             case "majors_trophy":
             case "map_token":
