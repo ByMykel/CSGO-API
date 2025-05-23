@@ -10,7 +10,7 @@ const isSticker = (item) => {
         return false;
     }
 
-    if (!item.item_name.startsWith("#StickerKit_")) {
+    if (!item.item_name.toLowerCase().includes("stickerkit_")) {
         return false;
     }
 

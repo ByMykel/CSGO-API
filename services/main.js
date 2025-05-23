@@ -147,7 +147,6 @@ export const loadItemsGame = async () => {
                 if (!item.includes('light_png.png')) return false
                 // Chickens
                 if (item.includes('pet_hen_1_hen')) return false
-                if (item.includes('weapon_m4a1_silencer_gs_m4a1_decimator_bright')) return false
                 return true
             }).reduce((acc, item) => {
                 acc[sha1(item.replace("_light_png.png", "")).slice(0, 12)] = {
