@@ -668,6 +668,30 @@ export const loadStattrakSkins = () => {
     state.stattTrakSkins = result;
 };
 
+export const loadProTeams = () => {
+    state.proTeams = Object.entries(state.itemsGame.pro_teams)
+        .map(([key, item]) => ({
+            ...item,
+            object_id: key,
+        }));
+
+    state.proTeams = Object.fromEntries(
+        state.proTeams.map((item) => [item.object_id, item])
+    );
+};
+
+export const loadProPlayers = () => {
+    state.proPlayers = Object.entries(state.itemsGame.pro_players)
+        .map(([key, item]) => ({
+            ...item,
+            object_id: key,
+        }));
+
+    state.proPlayers = Object.fromEntries(
+        state.proPlayers.map((item) => [item.object_id, item])
+    );
+};
+
 const getItemFromKey = (key) => {
     const {
         items,
@@ -894,4 +918,6 @@ export const loadData = async () => {
     loadCollectionsBySkins();
     loadSouvenirSkins();
     loadStattrakSkins();
+    loadProTeams();
+    loadProPlayers();
 };
