@@ -611,7 +611,7 @@ export const loadSouvenirSkins = () => {
     state.souvenirSkins = {
         ...Object.values(state.items)
             .filter((item) => {
-                return item.prefab === "weapon_case_souvenirpkg";
+                return item.prefab === "weapon_case_souvenirpkg" || item.prefab?.includes("_souvenir_crate_promo_prefab");
             })
             .map((item) => {
                 const lootListName = item?.loot_list_name ?? null;
