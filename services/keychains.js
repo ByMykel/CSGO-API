@@ -26,6 +26,7 @@ const parseItem = (item) => {
         id: `keychain-${item.object_id}`,
         name: `${$t("CSGO_Tool_Keychain")} | ${$t(item.loc_name)}`,
         description: $t("csgo_tool_keychain_desc"),
+        paint_index: item.object_id,
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
