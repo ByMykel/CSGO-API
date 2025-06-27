@@ -17,6 +17,7 @@ const parseItem = (item) => {
         id: `agent-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.item_description),
+        paint_index: item.object_id,
         rarity: {
             id: `rarity_${item.item_rarity}_character`,
             name: $t(`rarity_${item.item_rarity}_character`),

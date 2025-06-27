@@ -34,6 +34,7 @@ const parseItem = (item) => {
             id: `music_kit-${item.object_id}`,
             name: (exclusive || valve) ? $t(item.loc_name) : $t(item.coupon_name),
             description: $t(item.loc_description),
+            paint_index: item.object_id,
             rarity: {
                 id: "rarity_rare",
                 name: $t("rarity_rare"),
@@ -52,6 +53,7 @@ const parseItem = (item) => {
             id: `music_kit-${item.object_id}_st`,
             name: $t(`${item.coupon_name}_stattrak`),
             description: $t(item.loc_description),
+            paint_index: item.object_id,
             rarity: {
                 id: "rarity_rare",
                 name: $t("rarity_rare"),

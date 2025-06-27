@@ -97,6 +97,7 @@ const parseItem = (item) => {
             : item.item_description_prefab
             ? $t(item.item_description_prefab)
             : null,
+        paint_index: item.object_id,
         rarity: {
             id: rarity,
             name: $t(rarity),
