@@ -109,6 +109,13 @@ const parseItem = (item) => {
             ["Pass", "Pin"].includes(getType(item)) && !isAttendance
                 ? $t(item.item_name, true)
                 : null,
+        team: {
+            id: Object.keys(item.used_by_classes)[0],
+            name:
+                Object.keys(item.used_by_classes)[0] === "counter-terrorists"
+                    ? $t("inv_filter_ct")
+                    : $t("inv_filter_t"),
+        },
         image,
     };
 };
