@@ -61,13 +61,6 @@ const parseItem = (item) => {
             },
             market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
-            team: {
-                id: Object.keys(item.used_by_classes)[0],
-                name:
-                    Object.keys(item.used_by_classes)[0] === "counter-terrorists"
-                        ? $t("inv_filter_ct")
-                        : $t("inv_filter_t"),
-            },
             image,
         };
 
