@@ -84,6 +84,12 @@ const parseItem = (item) => {
         ? `rarity_${item.item_rarity}`
         : getCollectibleRarity(item?.prefab);
 
+    const team =
+        !item.used_by_classes ||
+        Object.keys(item.used_by_classes).length === 2
+            ? "both"
+            : Object.keys(item.used_by_classes)[0];
+
     return {
         id: `collectible-${item.object_id}`,
         name: isAttendance
@@ -110,9 +116,11 @@ const parseItem = (item) => {
                 ? $t(item.item_name, true)
                 : null,
         team: {
-            id: Object.keys(item.used_by_classes)[0],
+            id: team,
             name:
-                Object.keys(item.used_by_classes)[0] === "counter-terrorists"
+                team === "both"
+                    ? $t("inv_filter_both_teams")
+                    : team === "counter-terrorists"
                     ? $t("inv_filter_ct")
                     : $t("inv_filter_t"),
         },

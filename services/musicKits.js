@@ -29,6 +29,12 @@ const parseItem = (item) => {
 
     let kits = []
 
+    const team =
+        !item.used_by_classes ||
+        Object.keys(item.used_by_classes).length === 2
+            ? "both"
+            : Object.keys(item.used_by_classes)[0];
+
     if (!kitsOnlyStattrak.includes(item.name)) {
         const normalMusicKit = {
             id: `music_kit-${item.object_id}`,
@@ -42,6 +48,15 @@ const parseItem = (item) => {
             },
             market_hash_name: (exclusive || valve) ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive,
+            team: {
+                id: team,
+                name:
+                    team === "both"
+                        ? $t("inv_filter_both_teams")
+                        : team === "counter-terrorists"
+                        ? $t("inv_filter_ct")
+                        : $t("inv_filter_t"),
+            },
             image,
         };
 
@@ -61,10 +76,13 @@ const parseItem = (item) => {
             },
             market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
+            // Hardcoded team for Music Kits
             team: {
-                id: Object.keys(item.used_by_classes)[0],
+                id: team,
                 name:
-                    Object.keys(item.used_by_classes)[0] === "counter-terrorists"
+                    team === "both"
+                        ? $t("inv_filter_both_teams")
+                        : team === "counter-terrorists"
                         ? $t("inv_filter_ct")
                         : $t("inv_filter_t"),
             },
