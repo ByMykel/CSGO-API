@@ -76,7 +76,6 @@ const parseItem = (item) => {
             },
             market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
-            // Hardcoded team for Music Kits
             team: {
                 id: team,
                 name:
