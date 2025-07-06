@@ -30,7 +30,6 @@ const parseItem = (item) => {
         id: `keychain-${item.object_id}`,
         name: `${$t("CSGO_Tool_Keychain")} | ${$t(item.loc_name)}`,
         description: $t("csgo_tool_keychain_desc"),
-        paint_index: item.object_id,
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
@@ -46,11 +45,36 @@ const parseItem = (item) => {
     };
 };
 
+const parseHighlight = (item) => {
+    const [tournament, highlightType] = item.id.split('_');
+    const keychainName = $t(`keychain_kc_${tournament}`);
+    const highlightName = $t(`highlightreel_${tournament}_${highlightType}`);
+    const keychainNameRaw = $t(`keychain_kc_${tournament}`, true);
+    const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
+    
+    return {
+        id: `highlight-${item.id}`,
+        // TODO: translate Souvenir Charm to other languages
+        name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
+        description: $t(`highlightdesc_${tournament}_${highlightType}`),
+        rarity: {
+            id: "rarity_rare",
+            name: $t("rarity_rare"),
+            color: getRarityColor("rarity_rare"),
+        },
+        collections: [],
+        market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
+        image: item.image,
+    };
+};
+
 export const getKeychains = () => {
-    const { keychainDefinitions } = state;
+    const { keychainDefinitions, highlightReels } = state;
     const { folder } = languageData;
 
     const keychains = keychainDefinitions.filter(isKeychain).map(parseItem);
+    const highlights = highlightReels.map(parseHighlight);
+    const allKeychains = [...keychains, ...highlights];
 
-    saveDataJson(`./public/api/${folder}/keychains.json`, keychains);
+    saveDataJson(`./public/api/${folder}/keychains.json`, allKeychains);
 };

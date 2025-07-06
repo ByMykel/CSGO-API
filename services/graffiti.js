@@ -50,7 +50,6 @@ const parseItemSealedGraffiti = (item) => {
                     colorKey
                 )})`,
                 description: getDescription(item),
-                paint_index: item.object_id,
                 rarity: {
                     id: `rarity_${item.item_rarity}`,
                     name: $t(`rarity_${item.item_rarity}`),
