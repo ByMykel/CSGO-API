@@ -30,6 +30,7 @@ const parseItem = (item) => {
         id: `keychain-${item.object_id}`,
         name: `${$t("CSGO_Tool_Keychain")} | ${$t(item.loc_name)}`,
         description: $t("csgo_tool_keychain_desc"),
+        def_index: item.object_id,
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),
@@ -57,6 +58,8 @@ const parseHighlight = (item) => {
         // TODO: translate Souvenir Charm to other languages
         name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
         description: $t(`highlightdesc_${tournament}_${highlightType}`),
+        def_index: null, // TODO: add def_index
+        highlight: true,
         rarity: {
             id: "rarity_rare",
             name: $t("rarity_rare"),
