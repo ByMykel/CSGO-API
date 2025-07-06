@@ -17,6 +17,7 @@ import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
 import { getBaseWeapons } from "./services/baseWeapons.js";
+import { getHighlights } from "./services/highlights.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes('--force');
@@ -70,6 +71,7 @@ for (const language of LANGUAGES_URL) {
         getKeychains();
         getTools();
         getBaseWeapons();
+        getHighlights();
     } catch (error) {
         console.log(error);
     }
