@@ -9,6 +9,10 @@ const isKeychain = (item) => {
         return false;
     }
 
+    if (item['is commodity']) {
+        return false;
+    }
+
     return true;
 };
 
