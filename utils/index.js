@@ -679,3 +679,25 @@ export function getFinishStyleLink(id) {
     }
     return null
 }
+
+export function getPlayerNameOfHighlight(id, players) {
+    id = id.split('_')[1]
+
+    if (id.startsWith('shiro')) id = id.replace('shiro', 'sh1ro')
+    if (id.startsWith('magix')) id = id.replace('magix', 'magixx')
+    if (id.startsWith('torszi')) id = id.replace('torszi', 'torzsi')
+    if (id.startsWith('zontix')) id = id.replace('zontix', 'zont1x')
+    if (id.startsWith('techno')) id = id.replace('techno', 'techno4k')
+    if (id.startsWith('tehcno')) id = id.replace('tehcno', 'techno4k')
+    if (id.startsWith('wonderful')) id = id.replace('wonderful', 'w0nderful')
+    if (id.startsWith('yuuri')) id = id.replace('yuuri', 'yuurih')
+    if (id.startsWith('flames')) id = id.replace('flames', 'flamez')
+    if (id.startsWith('mezi')) id = id.replace('mezi', 'mezii')
+    if (id.startsWith('senznu')) id = id.replace('senznu', 'senzu')
+    if (id.startsWith('jimphat')) id = id.replace('jimphat', 'jimpphat')
+
+    if (id === 'mongolzscaredofs1mplevsfazeonanubis') id = 's1mple'
+    if (id === 'boosttorszitoentryvsspiritonnuke') id = 'torzsi'
+
+    return Object.values(players).find(name => id.startsWith(name.toLowerCase())) ?? 'Unknown Player'
+}

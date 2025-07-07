@@ -3,6 +3,7 @@ import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 
 const parseItem = (item) => {
+    const { folder } = languageData;
     const [tournament, highlightType] = item.id.split('_');
     const keychainName = $t(`keychain_kc_${tournament}`);
     const highlightName = $t(`highlightreel_${tournament}_${highlightType}`);
@@ -21,10 +22,11 @@ const parseItem = (item) => {
         team0: $t(`csgo_teamid_${item.tournament_event_team0_id}`),
         team1: $t(`csgo_teamid_${item.tournament_event_team1_id}`),
         stage: $t(`csgo_tournament_event_stage_${item.tournament_event_stage_id}`),
+        tournament_player: item.tournament_player,
         map: item.tournament_event_map,
         market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
         image: item.image,
-        video: item.video,
+        video: folder === "zh-CN" ? item.video.replace("_ww_", "_cn_") : item.video,
     };
 };
 
