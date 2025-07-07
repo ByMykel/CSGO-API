@@ -5,6 +5,7 @@ import {
     filterUniqueByAttribute,
     getDopplerPhase,
     getGraffitiVariations,
+    getPlayerNameOfHighlight,
     isExclusive,
     isNotWeapon,
     knives,
@@ -682,6 +683,7 @@ export const loadHighlights = () => {
             tournament_event_team1_id: item['tournament event team1 id'],
             tournament_event_stage_id: item['tournament event stage id'],
             tournament_event_map: item.map,
+            tournament_player: getPlayerNameOfHighlight(item.id, state.players),
             image: getImageUrl(`econ/keychains/${item.id.split('_')[0]}/kc_${item.id.split('_')[0]}`),
             video: video,
         };
