@@ -3,7 +3,7 @@
   "id": "collectible-874",
   "name": "Монета 5-річного ветерана",
   "description": "Учасник спільноти Counter-Strike більше ніж 5 років.",
-  "paint_index": "874",
+  "def_index": "874",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -18,7 +18,7 @@
   "id": "collectible-875",
   "name": "Чемпіон DreamHack 2013",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO у 2013 на «DreamHack SteelSeries».",
-  "paint_index": "875",
+  "def_index": "875",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -33,7 +33,7 @@
   "id": "collectible-876",
   "name": "Фіналіст DreamHack 2013",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO у 2013 на «DreamHack SteelSeries».",
-  "paint_index": "876",
+  "def_index": "876",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -48,7 +48,7 @@
   "id": "collectible-877",
   "name": "Півфіналіст DreamHack 2013",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO у 2013 на «DreamHack SteelSeries».",
-  "paint_index": "877",
+  "def_index": "877",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -63,7 +63,7 @@
   "id": "collectible-878",
   "name": "Чвертьфіналіст DreamHack 2013",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO у 2013 на «DreamHack SteelSeries».",
-  "paint_index": "878",
+  "def_index": "878",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -78,7 +78,7 @@
   "id": "collectible-879",
   "name": "Чемпіон EMS One Katowice 2014",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «EMS One Katowice 2014».",
-  "paint_index": "879",
+  "def_index": "879",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -93,7 +93,7 @@
   "id": "collectible-880",
   "name": "Фіналіст EMS One Katowice 2014",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «EMS One Katowice 2014».",
-  "paint_index": "880",
+  "def_index": "880",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -108,7 +108,7 @@
   "id": "collectible-881",
   "name": "Півфіналіст EMS One Katowice 2014",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «EMS One Katowice 2014».",
-  "paint_index": "881",
+  "def_index": "881",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -123,7 +123,7 @@
   "id": "collectible-882",
   "name": "Чвертьфіналіст EMS One Katowice 2014",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «EMS One Katowice 2014».",
-  "paint_index": "882",
+  "def_index": "882",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -138,7 +138,7 @@
   "id": "collectible-883",
   "name": "Переможець «ESL One Cologne 2014»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «ESL One Cologne 2014».",
-  "paint_index": "883",
+  "def_index": "883",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -153,7 +153,7 @@
   "id": "collectible-884",
   "name": "Фіналіст «ESL One Cologne 2014»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «ESL One Cologne 2014».",
-  "paint_index": "884",
+  "def_index": "884",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -168,7 +168,7 @@
   "id": "collectible-885",
   "name": "Півфіналіст «ESL One Cologne 2014»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «ESL One Cologne 2014».",
-  "paint_index": "885",
+  "def_index": "885",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -183,7 +183,7 @@
   "id": "collectible-886",
   "name": "Чвертьфіналіст «ESL One Cologne 2014»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «ESL One Cologne 2014».",
-  "paint_index": "886",
+  "def_index": "886",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -198,7 +198,7 @@
   "id": "collectible-887",
   "name": "Бронзова нагорода змагання прогнозів на «Кельн 2014»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2014».",
-  "paint_index": "887",
+  "def_index": "887",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -213,7 +213,7 @@
   "id": "collectible-888",
   "name": "Срібна нагорода змагання прогнозів на «Кельн 2014»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2014».",
-  "paint_index": "888",
+  "def_index": "888",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -228,7 +228,7 @@
   "id": "collectible-889",
   "name": "Золота нагорода змагання прогнозів на «Кельн 2014»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2014».",
-  "paint_index": "889",
+  "def_index": "889",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -243,7 +243,7 @@
   "id": "collectible-890",
   "name": "Чемпіон DreamHack Winter 2014",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «The DreamHack Winter 2014».",
-  "paint_index": "890",
+  "def_index": "890",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -258,7 +258,7 @@
   "id": "collectible-891",
   "name": "Фіналіст DreamHack Winter 2014",
   "description": "Цю нагороду вручено переможцю фіналісту з CS:GO на «The DreamHack Winter 2014».",
-  "paint_index": "891",
+  "def_index": "891",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -273,7 +273,7 @@
   "id": "collectible-892",
   "name": "Півфіналіст DreamHack Winter 2014",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «DreamHack Winter 2014».",
-  "paint_index": "892",
+  "def_index": "892",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -288,7 +288,7 @@
   "id": "collectible-893",
   "name": "Чвертьфіналіст DreamHack Winter 2014",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «DreamHack Winter 2014».",
-  "paint_index": "893",
+  "def_index": "893",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -303,7 +303,7 @@
   "id": "collectible-894",
   "name": "Бронзова нагорода змагання прогнозів на «DreamHack 2014»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «DreamHack Зима 2014».",
-  "paint_index": "894",
+  "def_index": "894",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -318,7 +318,7 @@
   "id": "collectible-895",
   "name": "Срібна нагорода змагання прогнозів на «DreamHack 2014»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «DreamHack Зима 2014».",
-  "paint_index": "895",
+  "def_index": "895",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -333,7 +333,7 @@
   "id": "collectible-896",
   "name": "Золота нагорода змагання прогнозів на «DreamHack 2014»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «DreamHack Зима 2014».",
-  "paint_index": "896",
+  "def_index": "896",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -348,7 +348,7 @@
   "id": "collectible-897",
   "name": "Чемпіон ESL One Katowice 2015",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «ESL One Katowice 2015».",
-  "paint_index": "897",
+  "def_index": "897",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -363,7 +363,7 @@
   "id": "collectible-898",
   "name": "Фіналіст ESL One Katowice 2015",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «ESL One Katowice 2015».",
-  "paint_index": "898",
+  "def_index": "898",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -378,7 +378,7 @@
   "id": "collectible-899",
   "name": "Півфіналіст ESL One Katowice 2015",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «ESL One Katowice 2015».",
-  "paint_index": "899",
+  "def_index": "899",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -393,7 +393,7 @@
   "id": "collectible-900",
   "name": "Чвертьфіналіст ESL One Katowice 2015",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «ESL One Katowice 2015».",
-  "paint_index": "900",
+  "def_index": "900",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -408,7 +408,7 @@
   "id": "collectible-901",
   "name": "Бронзова нагорода змагання прогнозів на «Катовіце 2015»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ESL One Катовіце 2015».",
-  "paint_index": "901",
+  "def_index": "901",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -423,7 +423,7 @@
   "id": "collectible-902",
   "name": "Срібна нагорода змагання прогнозів на «Катовіце 2015»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ESL One Катовіце 2015».",
-  "paint_index": "902",
+  "def_index": "902",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -438,7 +438,7 @@
   "id": "collectible-903",
   "name": "Золота нагорода змагання прогнозів на «Катовіце 2015»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ESL One Катовіце 2015».",
-  "paint_index": "903",
+  "def_index": "903",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -453,7 +453,7 @@
   "id": "collectible-904",
   "name": "Переможець ESL One Cologne 2015",
   "description": "Цю нагороду вручено переможцю з чемпіонату CS:GO на «ESL One Cologne 2015».",
-  "paint_index": "904",
+  "def_index": "904",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -468,7 +468,7 @@
   "id": "collectible-905",
   "name": "Фіналіст ESL One Cologne 2015",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO у 2015 на «ESL One Cologne».",
-  "paint_index": "905",
+  "def_index": "905",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -483,7 +483,7 @@
   "id": "collectible-906",
   "name": "Півфіналіст ESL One Cologne 2015",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO у 2015 на «ESL One Cologne».",
-  "paint_index": "906",
+  "def_index": "906",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -498,7 +498,7 @@
   "id": "collectible-907",
   "name": "Чвертьфіналіст ESL One Cologne 2015",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO у 2015 на «ESL One Cologne».",
-  "paint_index": "907",
+  "def_index": "907",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -513,7 +513,7 @@
   "id": "collectible-908",
   "name": "Бронзова нагорода змагання прогнозів на «Кельн 2015»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2015».",
-  "paint_index": "908",
+  "def_index": "908",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -528,7 +528,7 @@
   "id": "collectible-909",
   "name": "Срібна нагорода змагання прогнозів на «Кельн 2015»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2015».",
-  "paint_index": "909",
+  "def_index": "909",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -543,7 +543,7 @@
   "id": "collectible-910",
   "name": "Золота нагорода змагання прогнозів на «Кельн 2015»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2015».",
-  "paint_index": "910",
+  "def_index": "910",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -558,7 +558,7 @@
   "id": "collectible-911",
   "name": "Бронзова нагорода змагання прогнозів на «Клуж-Напоку 2015»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «DreamHack Клуж-Напока 2015».",
-  "paint_index": "911",
+  "def_index": "911",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -573,7 +573,7 @@
   "id": "collectible-912",
   "name": "Срібна нагорода змагання прогнозів на «Клуж-Напоку 2015»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «DreamHack Клуж-Напока 2015».",
-  "paint_index": "912",
+  "def_index": "912",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -588,7 +588,7 @@
   "id": "collectible-913",
   "name": "Золота нагорода змагання прогнозів на «Клуж-Напоку 2015»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «DreamHack Клуж-Напока 2015».",
-  "paint_index": "913",
+  "def_index": "913",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -603,7 +603,7 @@
   "id": "collectible-914",
   "name": "Бронзова нагорода змагання «Fantasy Team» на «DreamHack Клуж-Напока 2015»",
   "description": "Цю бронзову нагороду було вручено під час змагання «Fantasy Team» на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "914",
+  "def_index": "914",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -618,7 +618,7 @@
   "id": "collectible-915",
   "name": "Срібна нагорода Cluj-Napoca 2015 Fantasy",
   "description": "Цю срібну нагороду було вручено під час змагання «Fantasy Team» на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "915",
+  "def_index": "915",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -633,7 +633,7 @@
   "id": "collectible-916",
   "name": "Золота нагорода Cluj-Napoca 2015 Fantasy",
   "description": "Цю золоту нагороду було вручено під час змагання «Fantasy Team» на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "916",
+  "def_index": "916",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -648,7 +648,7 @@
   "id": "collectible-917",
   "name": "Переможець «DreamHack Клуж-Напока 2015»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "917",
+  "def_index": "917",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -663,7 +663,7 @@
   "id": "collectible-918",
   "name": "Фіналіст «DreamHack Клуж-Напока 2015»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "918",
+  "def_index": "918",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -678,7 +678,7 @@
   "id": "collectible-919",
   "name": "Півфіналіст «DreamHack Клуж-Напока 2015»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "919",
+  "def_index": "919",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -693,7 +693,7 @@
   "id": "collectible-920",
   "name": "Чвертьфіналіст «DreamHack Клуж-Напока 2015»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «DreamHack Клуж-Напока 2015».",
-  "paint_index": "920",
+  "def_index": "920",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -708,7 +708,7 @@
   "id": "collectible-921",
   "name": "Бронзова нагорода змагання прогнозів на «Колумбус 2016»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «MLG Колумбус 2016».",
-  "paint_index": "921",
+  "def_index": "921",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -723,7 +723,7 @@
   "id": "collectible-922",
   "name": "Срібна нагорода змагання прогнозів на «Колумбус 2016»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «MLG Колумбус 2016».",
-  "paint_index": "922",
+  "def_index": "922",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -738,7 +738,7 @@
   "id": "collectible-923",
   "name": "Золота нагорода змагання прогнозів на «Колумбус 2016»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «MLG Колумбус 2016».",
-  "paint_index": "923",
+  "def_index": "923",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -753,7 +753,7 @@
   "id": "collectible-924",
   "name": "Бронзова нагорода змагання «Fantasy Team» на «Columbus 2016»",
   "description": "Цю бронзову нагороду було вручено під час змагання «Fantasy Team» на «MLG Columbus 2016».",
-  "paint_index": "924",
+  "def_index": "924",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -768,7 +768,7 @@
   "id": "collectible-925",
   "name": "Срібна нагорода змагання «Fantasy Team» на «Columbus 2016»",
   "description": "Цю срібну нагороду було вручено під час змагання «Fantasy Team» на «MLG Columbus 2016».",
-  "paint_index": "925",
+  "def_index": "925",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -783,7 +783,7 @@
   "id": "collectible-926",
   "name": "Золота нагорода змагання «Fantasy Team» на «Columbus 2016»",
   "description": "Цю золоту нагороду було вручено під час змагання «Fantasy Team» на «MLG Columbus 2016».",
-  "paint_index": "926",
+  "def_index": "926",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -798,7 +798,7 @@
   "id": "collectible-927",
   "name": "Переможець «MLG Columbus 2016»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «MLG Columbus 2016».",
-  "paint_index": "927",
+  "def_index": "927",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -813,7 +813,7 @@
   "id": "collectible-928",
   "name": "Фіналіст MLG Columbus 2016",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «MLG Columbus 2016».",
-  "paint_index": "928",
+  "def_index": "928",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -828,7 +828,7 @@
   "id": "collectible-929",
   "name": "Півфіналіст «MLG Колумбус 2016»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «MLG Columbus 2016».",
-  "paint_index": "929",
+  "def_index": "929",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -843,7 +843,7 @@
   "id": "collectible-930",
   "name": "Чвертьфіналісти MLG Columbus 2016",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «MLG Columbus 2016».",
-  "paint_index": "930",
+  "def_index": "930",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -858,7 +858,7 @@
   "id": "collectible-931",
   "name": "Переможець «ESL One Cologne 2016»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «ESL One Cologne 2016».",
-  "paint_index": "931",
+  "def_index": "931",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -873,7 +873,7 @@
   "id": "collectible-932",
   "name": "Фіналіст «ESL One Cologne 2016»",
   "description": "Цю нагороду вручено фіналісту чемпіонату CS:GO на «ESL One Cologne 2016».",
-  "paint_index": "932",
+  "def_index": "932",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -888,7 +888,7 @@
   "id": "collectible-933",
   "name": "Півфіналіст «ESL One Cologne 2016»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату CS:GO на «ESL One Cologne 2016».",
-  "paint_index": "933",
+  "def_index": "933",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -903,7 +903,7 @@
   "id": "collectible-934",
   "name": "Чвертьфіналіст «ESL One Cologne 2016»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату CS:GO на «ESL One Cologne 2016».",
-  "paint_index": "934",
+  "def_index": "934",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -918,7 +918,7 @@
   "id": "collectible-935",
   "name": "Бронзова нагорода змагання прогнозів на «Кельн 2016»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2016».",
-  "paint_index": "935",
+  "def_index": "935",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -933,7 +933,7 @@
   "id": "collectible-936",
   "name": "Срібна нагорода змагання прогнозів на «Кельн 2016»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2016».",
-  "paint_index": "936",
+  "def_index": "936",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -948,7 +948,7 @@
   "id": "collectible-937",
   "name": "Золота нагорода змагання прогнозів на «Кельн 2016»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ESL One Кельн 2016».",
-  "paint_index": "937",
+  "def_index": "937",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -963,7 +963,7 @@
   "id": "collectible-938",
   "name": "Бронзова нагорода змагання «Fantasy Team» на «Coloogne 2016»",
   "description": "Цю бронзову нагороду було вручено під час змагання «Fantasy Team» на «ESL One Cologne 2016».",
-  "paint_index": "938",
+  "def_index": "938",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -978,7 +978,7 @@
   "id": "collectible-939",
   "name": "Срібна нагорода змагання «Fantasy Team» на «Coloogne 2016»",
   "description": "Цю срібну нагороду було вручено під час змагання «Fantasy Team» на «ESL One Cologne 2016».",
-  "paint_index": "939",
+  "def_index": "939",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -993,7 +993,7 @@
   "id": "collectible-940",
   "name": "Золота нагорода змагання «Fantasy Team» на «Coloogne 2016»",
   "description": "Цю золоту нагороду було вручено під час змагання «Fantasy Team» на «ESL One Cologne 2016».",
-  "paint_index": "940",
+  "def_index": "940",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1008,7 +1008,7 @@
   "id": "collectible-941",
   "name": "Переможець «ELEAGUE Atlanta 2017»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «ELEAGUE Atlanta 2017».",
-  "paint_index": "941",
+  "def_index": "941",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1023,7 +1023,7 @@
   "id": "collectible-942",
   "name": "Фіналіст «ELEAGUE Atlanta 2017»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «ELEAGUE Atlanta 2017».",
-  "paint_index": "942",
+  "def_index": "942",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1038,7 +1038,7 @@
   "id": "collectible-943",
   "name": "Півфіналіст «ELEAGUE Atlanta 2017»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «ELEAGUE Atlanta 2017».",
-  "paint_index": "943",
+  "def_index": "943",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1053,7 +1053,7 @@
   "id": "collectible-944",
   "name": "Чвертьфіналіст «ELEAGUE Atlanta 2017»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «ELEAGUE Atlanta 2017».",
-  "paint_index": "944",
+  "def_index": "944",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1068,7 +1068,7 @@
   "id": "collectible-945",
   "name": "Бронзова нагорода змагання прогнозів на «Атланту 2017»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Атланта 2017».",
-  "paint_index": "945",
+  "def_index": "945",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1083,7 +1083,7 @@
   "id": "collectible-946",
   "name": "Срібна нагорода змагання прогнозів на «Атланту 2017»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Атланта 2017».",
-  "paint_index": "946",
+  "def_index": "946",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1098,7 +1098,7 @@
   "id": "collectible-947",
   "name": "Золота нагорода змагання прогнозів на «Атланту 2017»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Атланта 2017».",
-  "paint_index": "947",
+  "def_index": "947",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1113,7 +1113,7 @@
   "id": "collectible-948",
   "name": "Чемпіон «PGL Краків 2017»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «PGL Krakow 2017».",
-  "paint_index": "948",
+  "def_index": "948",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1128,7 +1128,7 @@
   "id": "collectible-949",
   "name": "Фіналіст «PGL Краків 2017»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «PGL Краків 2017».",
-  "paint_index": "949",
+  "def_index": "949",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1143,7 +1143,7 @@
   "id": "collectible-950",
   "name": "Півфіналіст «PGL Краків 2017»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «PGL Краків 2017».",
-  "paint_index": "950",
+  "def_index": "950",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1158,7 +1158,7 @@
   "id": "collectible-951",
   "name": "Чвертьфіналіст «PGL Краків 2017»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «PGL Краків 2017».",
-  "paint_index": "951",
+  "def_index": "951",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1173,7 +1173,7 @@
   "id": "collectible-952",
   "name": "Бронзова нагорода змагання прогнозів на «Краків 2017»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «PGL Краків 2017».",
-  "paint_index": "952",
+  "def_index": "952",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1188,7 +1188,7 @@
   "id": "collectible-953",
   "name": "Срібна нагорода змагання прогнозів на «Краків 2017»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «PGL Краків 2017».",
-  "paint_index": "953",
+  "def_index": "953",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1203,7 +1203,7 @@
   "id": "collectible-954",
   "name": "Золота нагорода змагання прогнозів на «Краків 2017»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «PGL Краків 2017».",
-  "paint_index": "954",
+  "def_index": "954",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1218,7 +1218,7 @@
   "id": "collectible-955",
   "name": "Переможець «ELEAGUE Boston 2018»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «ELEAGUE Boston 2018».",
-  "paint_index": "955",
+  "def_index": "955",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1233,7 +1233,7 @@
   "id": "collectible-956",
   "name": "Фіналіст «ELEAGUE Boston 2018»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «ELEAGUE Boston 2018».",
-  "paint_index": "956",
+  "def_index": "956",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1248,7 +1248,7 @@
   "id": "collectible-957",
   "name": "Півфіналіст «ELEAGUE Boston 2018»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «ELEAGUE Boston 2018».",
-  "paint_index": "957",
+  "def_index": "957",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1263,7 +1263,7 @@
   "id": "collectible-958",
   "name": "Чвертьфіналіст «ELEAGUE Boston 2018»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «ELEAGUE Boston 2018».",
-  "paint_index": "958",
+  "def_index": "958",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1278,7 +1278,7 @@
   "id": "collectible-959",
   "name": "Бронзова нагорода змагання прогнозів на «Бостон 2018»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Бостон 2018».",
-  "paint_index": "959",
+  "def_index": "959",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1293,7 +1293,7 @@
   "id": "collectible-960",
   "name": "Срібна нагорода змагання прогнозів на «Бостон 2018»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Бостон 2018».",
-  "paint_index": "960",
+  "def_index": "960",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1308,7 +1308,7 @@
   "id": "collectible-961",
   "name": "Золота нагорода змагання прогнозів на «Бостон 2018»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «ELEAGUE Бостон 2018».",
-  "paint_index": "961",
+  "def_index": "961",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1323,7 +1323,7 @@
   "id": "collectible-962",
   "name": "Чемпіон Лондонському турніру від FACEIT 2018 року",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «FACEIT London 2018».",
-  "paint_index": "962",
+  "def_index": "962",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1338,7 +1338,7 @@
   "id": "collectible-963",
   "name": "Фіналіст Лондонського турніру від FACEIT 2018 року",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «FACEIT London 2018».",
-  "paint_index": "963",
+  "def_index": "963",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1353,7 +1353,7 @@
   "id": "collectible-964",
   "name": "Півфіналіст Лондонського турніру від FACEIT 2018 року",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «FACEIT London 2018».",
-  "paint_index": "964",
+  "def_index": "964",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1368,7 +1368,7 @@
   "id": "collectible-965",
   "name": "Чвертьфіналіст Лондонського турніру від FACEIT 2018 року",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «FACEIT London 2018».",
-  "paint_index": "965",
+  "def_index": "965",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1383,7 +1383,7 @@
   "id": "collectible-966",
   "name": "Бронзова нагорода змагання прогнозів на «Лондон 2018»",
   "description": "Цю бронзову нагороду було вручено під час змагання прогнозів на турнір «FACEIT Лондон 2018».",
-  "paint_index": "966",
+  "def_index": "966",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1398,7 +1398,7 @@
   "id": "collectible-967",
   "name": "Срібна нагорода змагання прогнозів на «Лондон 2018»",
   "description": "Цю срібну нагороду було вручено під час змагання прогнозів на турнір «FACEIT Лондон 2018».",
-  "paint_index": "967",
+  "def_index": "967",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1413,7 +1413,7 @@
   "id": "collectible-968",
   "name": "Золота нагорода змагання прогнозів на «Лондон 2018»",
   "description": "Цю золоту нагороду було вручено під час змагання прогнозів на турнір «FACEIT Лондон 2018».",
-  "paint_index": "968",
+  "def_index": "968",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1428,7 +1428,7 @@
   "id": "collectible-969",
   "name": "Монета 10-річного ветерана",
   "description": "Учасник спільноти Counter-Strike більше ніж 10 років.",
-  "paint_index": "969",
+  "def_index": "969",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1443,7 +1443,7 @@
   "id": "collectible-970",
   "name": "Значок вірності",
   "description": "Це значок за вашу відданість спільноті Counter-Strike до виходу оновлення «Небезпечна зона».\\n\\n<i>Сила у вірності.</i>",
-  "paint_index": "970",
+  "def_index": "970",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1458,7 +1458,7 @@
   "id": "collectible-971",
   "name": "Чемпіон «IEM Катовіце 2019»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO на «IEM Катовіце 2019».",
-  "paint_index": "971",
+  "def_index": "971",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1473,7 +1473,7 @@
   "id": "collectible-972",
   "name": "Фіналіст «IEM Катовіце 2019»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO на «IEM Катовіце 2019».",
-  "paint_index": "972",
+  "def_index": "972",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1488,7 +1488,7 @@
   "id": "collectible-973",
   "name": "Півфіналіст «IEM Катовіце 2019»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO на «IEM Катовіце 2019».",
-  "paint_index": "973",
+  "def_index": "973",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1503,7 +1503,7 @@
   "id": "collectible-974",
   "name": "Чвертьфіналіст «IEM Катовіце 2019»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «IEM Катовіце 2019».",
-  "paint_index": "974",
+  "def_index": "974",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1518,7 +1518,7 @@
   "id": "collectible-975",
   "name": "Чемпіон «StarLadder Берлін 2019»",
   "description": "Цю нагороду вручено переможцю чемпіонату з CS:GO у 2019 на «StarLadder Берлін 2019».",
-  "paint_index": "975",
+  "def_index": "975",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1533,7 +1533,7 @@
   "id": "collectible-976",
   "name": "Фіналіст «StarLadder Берлін 2019»",
   "description": "Цю нагороду вручено фіналісту чемпіонату з CS:GO у 2019 на «StarLadder Берлін 2019».",
-  "paint_index": "976",
+  "def_index": "976",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1548,7 +1548,7 @@
   "id": "collectible-977",
   "name": "Півфіналіст «StarLadder Берлін 2019»",
   "description": "Цю нагороду вручено півфіналісту чемпіонату з CS:GO у 2019 на «StarLadder Берлін 2019».",
-  "paint_index": "977",
+  "def_index": "977",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1563,7 +1563,7 @@
   "id": "collectible-978",
   "name": "Чвертьфіналіст «StarLadder Берлін 2019»",
   "description": "Цю нагороду вручено чвертьфіналісту чемпіонату з CS:GO на «StarLadder Берлін 2019».",
-  "paint_index": "978",
+  "def_index": "978",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1578,7 +1578,7 @@
   "id": "collectible-979",
   "name": "Чемпіон «PGL Стокгольм 2021»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS:GO «PGL Стокгольм 2021».",
-  "paint_index": "979",
+  "def_index": "979",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1593,7 +1593,7 @@
   "id": "collectible-980",
   "name": "Фіналіст «PGL Стокгольм 2021»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS:GO «PGL Стокгольм 2021».",
-  "paint_index": "980",
+  "def_index": "980",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1608,7 +1608,7 @@
   "id": "collectible-981",
   "name": "Півфіналіст «PGL Стокгольм 2021»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS:GO «PGL Стокгольм 2021».",
-  "paint_index": "981",
+  "def_index": "981",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1623,7 +1623,7 @@
   "id": "collectible-982",
   "name": "Чвертьфіналіст «PGL Стокгольм 2021»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS:GO «PGL Стокгольм 2021».",
-  "paint_index": "982",
+  "def_index": "982",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1638,7 +1638,7 @@
   "id": "collectible-983",
   "name": "Чемпіон «PGL Антверпен 2022»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS:GO «PGL Антверпен 2022».",
-  "paint_index": "983",
+  "def_index": "983",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1653,7 +1653,7 @@
   "id": "collectible-984",
   "name": "Фіналіст «PGL Антверпен 2022»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS:GO «PGL Антверпен 2022».",
-  "paint_index": "984",
+  "def_index": "984",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1668,7 +1668,7 @@
   "id": "collectible-985",
   "name": "Півфіналіст «PGL Антверпен 2022»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS:GO «PGL Антверпен 2022».",
-  "paint_index": "985",
+  "def_index": "985",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1683,7 +1683,7 @@
   "id": "collectible-986",
   "name": "Чвертьфіналіст «PGL Антверпен 2022»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS:GO «PGL Антверпен 2022».",
-  "paint_index": "986",
+  "def_index": "986",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1698,7 +1698,7 @@
   "id": "collectible-987",
   "name": "Монета «Десятиріччя CS:GO»",
   "description": "Видано за святкування десятого Дня народження CS:GO разом зі спільнотою.\\n\\n<i>Десять років пострілів у голову, клатчів і спільноти. З Днем народження, CS:GO!</i>",
-  "paint_index": "987",
+  "def_index": "987",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1713,7 +1713,7 @@
   "id": "collectible-988",
   "name": "Чемпіон «IEM Ріо 2022»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS:GO «IEM Ріо 2022».",
-  "paint_index": "988",
+  "def_index": "988",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1728,7 +1728,7 @@
   "id": "collectible-989",
   "name": "Фіналіст «IEM Ріо 2022»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS:GO «IEM Ріо 2022».",
-  "paint_index": "989",
+  "def_index": "989",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1743,7 +1743,7 @@
   "id": "collectible-990",
   "name": "Півфіналіст «IEM Ріо 2022»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS:GO «IEM Ріо 2022».",
-  "paint_index": "990",
+  "def_index": "990",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1758,7 +1758,7 @@
   "id": "collectible-991",
   "name": "Чвертьфіналіст «IEM Ріо 2022»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS:GO «IEM Ріо 2022».",
-  "paint_index": "991",
+  "def_index": "991",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1773,7 +1773,7 @@
   "id": "collectible-992",
   "name": "Чемпіон «BLAST.tv Париж 2023»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS:GO «BLAST.tv Париж 2023».",
-  "paint_index": "992",
+  "def_index": "992",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1788,7 +1788,7 @@
   "id": "collectible-993",
   "name": "Фіналіст «BLAST.tv Париж 2023»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS:GO «BLAST.tv Париж 2023».",
-  "paint_index": "993",
+  "def_index": "993",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1803,7 +1803,7 @@
   "id": "collectible-994",
   "name": "Півфіналіст «BLAST.tv Париж 2023»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS:GO «BLAST.tv Париж 2023».",
-  "paint_index": "994",
+  "def_index": "994",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1818,7 +1818,7 @@
   "id": "collectible-995",
   "name": "Чвертьфіналіст «BLAST.tv Париж 2023»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS:GO «BLAST.tv Париж 2023».",
-  "paint_index": "995",
+  "def_index": "995",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1833,7 +1833,7 @@
   "id": "collectible-996",
   "name": "Значок глобального наступу",
   "description": "Це значок за вашу відданість спільноті Counter-Strike: Global Offensive до виходу Counter-Strike 2. <i>Легенди не помирають.</i>",
-  "paint_index": "996",
+  "def_index": "996",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1848,7 +1848,7 @@
   "id": "collectible-1000",
   "name": "Перепустка на операцію «Відплата»",
   "description": "Операція «Відплата» була доступна з 25 квітня до 2 вересня 2013 року і принесла понад 180 000 доларів США розробникам мап зі спільноти. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1000",
+  "def_index": "1000",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -1863,7 +1863,7 @@
   "id": "collectible-1001",
   "name": "Монета учасника операції «Відплата»",
   "description": "За участь в операції «Відплата» для підтримки творців мап зі спільноти.",
-  "paint_index": "1001",
+  "def_index": "1001",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1878,7 +1878,7 @@
   "id": "collectible-1002",
   "name": "Срібна монета учасника операції «Відплата»",
   "description": "За участь в операції «Відплата» протягом 10 годин для підтримки творців мап зі спільноти.",
-  "paint_index": "1002",
+  "def_index": "1002",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1893,7 +1893,7 @@
   "id": "collectible-1003",
   "name": "Золота монета учасника операції «Відплата»",
   "description": "За участь в операції «Відплата» протягом 50 годин для підтримки творців мап зі спільноти.",
-  "paint_index": "1003",
+  "def_index": "1003",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1908,7 +1908,7 @@
   "id": "collectible-1004",
   "name": "Монета мапи Museum",
   "description": null,
-  "paint_index": "1004",
+  "def_index": "1004",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1923,7 +1923,7 @@
   "id": "collectible-1005",
   "name": "Монета мапи Downtown",
   "description": null,
-  "paint_index": "1005",
+  "def_index": "1005",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1938,7 +1938,7 @@
   "id": "collectible-1006",
   "name": "Монета мапи Thunder",
   "description": null,
-  "paint_index": "1006",
+  "def_index": "1006",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1953,7 +1953,7 @@
   "id": "collectible-1007",
   "name": "Монета мапи Favela",
   "description": null,
-  "paint_index": "1007",
+  "def_index": "1007",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1968,7 +1968,7 @@
   "id": "collectible-1008",
   "name": "Монета мапи Motel",
   "description": null,
-  "paint_index": "1008",
+  "def_index": "1008",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1983,7 +1983,7 @@
   "id": "collectible-1009",
   "name": "Монета мапи Seaside",
   "description": null,
-  "paint_index": "1009",
+  "def_index": "1009",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -1998,7 +1998,7 @@
   "id": "collectible-1010",
   "name": "Монета мапи Library",
   "description": null,
-  "paint_index": "1010",
+  "def_index": "1010",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2013,7 +2013,7 @@
   "id": "collectible-1012",
   "name": "Перепустка на операцію «Браво»",
   "description": "Операція «Браво» була доступна з 19 вересня 2013 року до 5 лютого 2014 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1012",
+  "def_index": "1012",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -2028,7 +2028,7 @@
   "id": "collectible-1013",
   "name": "Монета учасника операції «Браво»",
   "description": "За участь в операції «Браво».",
-  "paint_index": "1013",
+  "def_index": "1013",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2043,7 +2043,7 @@
   "id": "collectible-1014",
   "name": "Срібна монета учасника операції «Браво»",
   "description": "За участь в операції «Браво».",
-  "paint_index": "1014",
+  "def_index": "1014",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2058,7 +2058,7 @@
   "id": "collectible-1015",
   "name": "Золота монета учасника операції «Браво»",
   "description": "За участь в операції «Браво».",
-  "paint_index": "1015",
+  "def_index": "1015",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2073,7 +2073,7 @@
   "id": "collectible-1016",
   "name": "Монета мапи Agency",
   "description": "<b><font color='#F2A93E'>Agency Map Coin</font></b>",
-  "paint_index": "1016",
+  "def_index": "1016",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2088,7 +2088,7 @@
   "id": "collectible-1017",
   "name": "Монета мапи Ali",
   "description": "<b><font color='#F2A93E'>Ali Map Coin</font></b>",
-  "paint_index": "1017",
+  "def_index": "1017",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2103,7 +2103,7 @@
   "id": "collectible-1018",
   "name": "Монета мапи Cache",
   "description": "<b><font color='#F2A93E'>Cache Map Coin</font></b>",
-  "paint_index": "1018",
+  "def_index": "1018",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2118,7 +2118,7 @@
   "id": "collectible-1019",
   "name": "Монета мапи Chinatown",
   "description": "<b><font color='#F2A93E'>Chinatown Map Coin</font></b>",
-  "paint_index": "1019",
+  "def_index": "1019",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2133,7 +2133,7 @@
   "id": "collectible-1020",
   "name": "Монета мапи Gwalior",
   "description": "<b><font color='#F2A93E'>Gwalior Map Coin</font></b>",
-  "paint_index": "1020",
+  "def_index": "1020",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2148,7 +2148,7 @@
   "id": "collectible-1021",
   "name": "Монета мапи Ruins",
   "description": "<b><font color='#F2A93E'>Ruins Map Coin</font></b>",
-  "paint_index": "1021",
+  "def_index": "1021",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2163,7 +2163,7 @@
   "id": "collectible-1022",
   "name": "Монета мапи Siege",
   "description": "<b><font color='#F2A93E'>Siege Map Coin</font></b>",
-  "paint_index": "1022",
+  "def_index": "1022",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2178,7 +2178,7 @@
   "id": "collectible-1023",
   "name": "Перепустка на операцію «Фенікс»",
   "description": "Операція «Фенікс» була доступна з 20 лютого до 11 червня 2014 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1023",
+  "def_index": "1023",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -2193,7 +2193,7 @@
   "id": "collectible-1024",
   "name": "Монета учасника операції «Фенікс»",
   "description": "За участь в операції «Фенікс».",
-  "paint_index": "1024",
+  "def_index": "1024",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2208,7 +2208,7 @@
   "id": "collectible-1025",
   "name": "Срібна монета операції «Фенікс»",
   "description": "За участь в операції «Фенікс».",
-  "paint_index": "1025",
+  "def_index": "1025",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2223,7 +2223,7 @@
   "id": "collectible-1026",
   "name": "Золота монета операції «Фенікс»",
   "description": "За участь в операції «Фенікс».",
-  "paint_index": "1026",
+  "def_index": "1026",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2238,7 +2238,7 @@
   "id": "collectible-1027",
   "name": "Повна перепустка на операцію «Прорив»",
   "description": "Операція «Прорив» була доступна з 2 липня до 2 жовтня 2014 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1027",
+  "def_index": "1027",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -2253,7 +2253,7 @@
   "id": "collectible-1028",
   "name": "Монета учасника операції «Прорив»",
   "description": "За участь в операції «Прорив».",
-  "paint_index": "1028",
+  "def_index": "1028",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2268,7 +2268,7 @@
   "id": "collectible-1029",
   "name": "Срібна монета учасника операції «Прорив»",
   "description": "За участь в операції «Прорив».",
-  "paint_index": "1029",
+  "def_index": "1029",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2283,7 +2283,7 @@
   "id": "collectible-1030",
   "name": "Золота монета учасника операції «Прорив»",
   "description": "За участь в операції «Прорив».",
-  "paint_index": "1030",
+  "def_index": "1030",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2298,7 +2298,7 @@
   "id": "collectible-1031",
   "name": "Монета мапи Castle",
   "description": "<b><font color='#F2A93E'>Castle Map Coin</font></b>",
-  "paint_index": "1031",
+  "def_index": "1031",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2313,7 +2313,7 @@
   "id": "collectible-1032",
   "name": "Монета мапи Black Gold",
   "description": "<b><font color='#F2A93E'>Black Gold Map Coin</font></b>",
-  "paint_index": "1032",
+  "def_index": "1032",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2328,7 +2328,7 @@
   "id": "collectible-1033",
   "name": "Монета мапи Rush",
   "description": "<b><font color='#F2A93E'>Rush Map Coin</font></b>",
-  "paint_index": "1033",
+  "def_index": "1033",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2343,7 +2343,7 @@
   "id": "collectible-1034",
   "name": "Монета мапи Mist",
   "description": "<b><font color='#F2A93E'>Mist Map Coin</font></b>",
-  "paint_index": "1034",
+  "def_index": "1034",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2358,7 +2358,7 @@
   "id": "collectible-1035",
   "name": "Монета мапи Insertion",
   "description": "<b><font color='#F2A93E'>Insertion Map Coin</font></b>",
-  "paint_index": "1035",
+  "def_index": "1035",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2373,7 +2373,7 @@
   "id": "collectible-1036",
   "name": "Монета мапи Overgrown",
   "description": "<b><font color='#F2A93E'>Overgrown Map Coin</font></b>",
-  "paint_index": "1036",
+  "def_index": "1036",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2388,7 +2388,7 @@
   "id": "collectible-1037",
   "name": "Монета мапи Marquis",
   "description": "<b><font color='#F2A93E'>Marquis Map Coin</font></b>",
-  "paint_index": "1037",
+  "def_index": "1037",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2403,7 +2403,7 @@
   "id": "collectible-1038",
   "name": "Монета мапи Workout",
   "description": "<b><font color='#F2A93E'>Workout Map Coin</font></b>",
-  "paint_index": "1038",
+  "def_index": "1038",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2418,7 +2418,7 @@
   "id": "collectible-1039",
   "name": "Монета мапи Backalley",
   "description": "<b><font color='#F2A93E'>Backalley Map Coin</font></b>",
-  "paint_index": "1039",
+  "def_index": "1039",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2433,7 +2433,7 @@
   "id": "collectible-1040",
   "name": "Монета мапи Season",
   "description": "<b><font color='#F2A93E'>Season Map Coin</font></b>",
-  "paint_index": "1040",
+  "def_index": "1040",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2448,7 +2448,7 @@
   "id": "collectible-1041",
   "name": "Монета мапи Bazaar",
   "description": "<b><font color='#F2A93E'>Bazaar Map Coin</font></b>",
-  "paint_index": "1041",
+  "def_index": "1041",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2463,7 +2463,7 @@
   "id": "collectible-1042",
   "name": "Монета мапи Facade",
   "description": "<b><font color='#F2A93E'>Facade Map Coin</font></b>",
-  "paint_index": "1042",
+  "def_index": "1042",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2478,7 +2478,7 @@
   "id": "collectible-1043",
   "name": "Монета мапи Log",
   "description": "<b><font color='#F2A93E'>Log Map Coin</font></b>",
-  "paint_index": "1043",
+  "def_index": "1043",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2493,7 +2493,7 @@
   "id": "collectible-1044",
   "name": "Монета мапи Rails",
   "description": "<b><font color='#F2A93E'>Rails Map Coin</font></b>",
-  "paint_index": "1044",
+  "def_index": "1044",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2508,7 +2508,7 @@
   "id": "collectible-1045",
   "name": "Монета мапи Resort",
   "description": "<b><font color='#F2A93E'>Resort Map Coin</font></b>",
-  "paint_index": "1045",
+  "def_index": "1045",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2523,7 +2523,7 @@
   "id": "collectible-1046",
   "name": "Монета мапи Zoo",
   "description": "<b><font color='#F2A93E'>Zoo Map Coin</font></b>",
-  "paint_index": "1046",
+  "def_index": "1046",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2538,7 +2538,7 @@
   "id": "collectible-1047",
   "name": "Монета мапи Santorini",
   "description": "<b><font color='#F2A93E'>Santorini Map Coin</font></b>",
-  "paint_index": "1047",
+  "def_index": "1047",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2553,7 +2553,7 @@
   "id": "collectible-1048",
   "name": "Монета мапи Coast",
   "description": "<b><font color='#F2A93E'>Coast Map Coin</font></b>",
-  "paint_index": "1048",
+  "def_index": "1048",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2568,7 +2568,7 @@
   "id": "collectible-1049",
   "name": "Монета мапи Mikla",
   "description": "<b><font color='#F2A93E'>Mikla Map Coin</font></b>",
-  "paint_index": "1049",
+  "def_index": "1049",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2583,7 +2583,7 @@
   "id": "collectible-1050",
   "name": "Монета мапи Royal",
   "description": "<b><font color='#F2A93E'>Royal Map Coin</font></b>",
-  "paint_index": "1050",
+  "def_index": "1050",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2598,7 +2598,7 @@
   "id": "collectible-1051",
   "name": "Монета мапи Empire",
   "description": "<b><font color='#F2A93E'>Empire Map Coin</font></b>",
-  "paint_index": "1051",
+  "def_index": "1051",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2613,7 +2613,7 @@
   "id": "collectible-1052",
   "name": "Монета мапи Tulip",
   "description": "<b><font color='#F2A93E'>Tulip Map Coin</font></b>",
-  "paint_index": "1052",
+  "def_index": "1052",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2628,7 +2628,7 @@
   "id": "collectible-1053",
   "name": "Монета мапи Cruise",
   "description": "<b><font color='#F2A93E'>Cruise Map Coin</font></b>",
-  "paint_index": "1053",
+  "def_index": "1053",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2643,7 +2643,7 @@
   "id": "collectible-1054",
   "name": "Монета мапи Subzero",
   "description": null,
-  "paint_index": "1054",
+  "def_index": "1054",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2658,7 +2658,7 @@
   "id": "collectible-1055",
   "name": "Монета мапи Biome",
   "description": null,
-  "paint_index": "1055",
+  "def_index": "1055",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2673,7 +2673,7 @@
   "id": "collectible-1056",
   "name": "Монета мапи Abbey",
   "description": "<b><font color='#F2A93E'>Abbey Map Coin</font></b>",
-  "paint_index": "1056",
+  "def_index": "1056",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2688,7 +2688,7 @@
   "id": "collectible-1057",
   "name": "Монета мапи Ruby",
   "description": null,
-  "paint_index": "1057",
+  "def_index": "1057",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2703,7 +2703,7 @@
   "id": "collectible-1058",
   "name": "Монета мапи Breach",
   "description": "<b><font color='#F2A93E'>Breach Map Coin</font></b>",
-  "paint_index": "1058",
+  "def_index": "1058",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2718,7 +2718,7 @@
   "id": "collectible-1059",
   "name": "Монета мапи Studio",
   "description": null,
-  "paint_index": "1059",
+  "def_index": "1059",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2733,7 +2733,7 @@
   "id": "collectible-1060",
   "name": "Монета мапи Jungle",
   "description": null,
-  "paint_index": "1060",
+  "def_index": "1060",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2748,7 +2748,7 @@
   "id": "collectible-1061",
   "name": "Монета мапи Anubis",
   "description": null,
-  "paint_index": "1061",
+  "def_index": "1061",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2763,7 +2763,7 @@
   "id": "collectible-1062",
   "name": "Монета мапи Chlorine",
   "description": null,
-  "paint_index": "1062",
+  "def_index": "1062",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2778,7 +2778,7 @@
   "id": "collectible-1063",
   "name": "Монета мапи Mutiny",
   "description": null,
-  "paint_index": "1063",
+  "def_index": "1063",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2793,7 +2793,7 @@
   "id": "collectible-1064",
   "name": "Монета мапи Swamp",
   "description": null,
-  "paint_index": "1064",
+  "def_index": "1064",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2808,7 +2808,7 @@
   "id": "collectible-1065",
   "name": "Монета мапи Frostbite",
   "description": null,
-  "paint_index": "1065",
+  "def_index": "1065",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2823,7 +2823,7 @@
   "id": "collectible-1066",
   "name": "Монета мапи Engage",
   "description": null,
-  "paint_index": "1066",
+  "def_index": "1066",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2838,7 +2838,7 @@
   "id": "collectible-1067",
   "name": "Монета мапи Apollo",
   "description": null,
-  "paint_index": "1067",
+  "def_index": "1067",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2853,7 +2853,7 @@
   "id": "collectible-1068",
   "name": "Монета мапи Guard",
   "description": null,
-  "paint_index": "1068",
+  "def_index": "1068",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2868,7 +2868,7 @@
   "id": "collectible-1069",
   "name": "Монета мапи Elysion",
   "description": null,
-  "paint_index": "1069",
+  "def_index": "1069",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2883,7 +2883,7 @@
   "id": "collectible-1070",
   "name": "Монета мапи Grind",
   "description": null,
-  "paint_index": "1070",
+  "def_index": "1070",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2898,7 +2898,7 @@
   "id": "collectible-1071",
   "name": "Монета мапи Mocha",
   "description": null,
-  "paint_index": "1071",
+  "def_index": "1071",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2913,7 +2913,7 @@
   "id": "collectible-1072",
   "name": "Монета мапи Calavera",
   "description": null,
-  "paint_index": "1072",
+  "def_index": "1072",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2928,7 +2928,7 @@
   "id": "collectible-1073",
   "name": "Монета мапи Pitstop",
   "description": null,
-  "paint_index": "1073",
+  "def_index": "1073",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2943,7 +2943,7 @@
   "id": "collectible-1074",
   "name": "Монета мапи Basalt",
   "description": null,
-  "paint_index": "1074",
+  "def_index": "1074",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2958,7 +2958,7 @@
   "id": "collectible-1075",
   "name": "Монета мапи Insertion II",
   "description": null,
-  "paint_index": "1075",
+  "def_index": "1075",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2973,7 +2973,7 @@
   "id": "collectible-1076",
   "name": "Монета мапи Ravine",
   "description": null,
-  "paint_index": "1076",
+  "def_index": "1076",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -2988,7 +2988,7 @@
   "id": "collectible-1077",
   "name": "Монета мапи Extraction",
   "description": null,
-  "paint_index": "1077",
+  "def_index": "1077",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3003,7 +3003,7 @@
   "id": "collectible-1078",
   "name": "Монета мапи County",
   "description": null,
-  "paint_index": "1078",
+  "def_index": "1078",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3018,7 +3018,7 @@
   "id": "collectible-1079",
   "name": "Монета мапи Iris",
   "description": null,
-  "paint_index": "1079",
+  "def_index": "1079",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3033,7 +3033,7 @@
   "id": "collectible-1080",
   "name": "Монета мапи Climb",
   "description": null,
-  "paint_index": "1080",
+  "def_index": "1080",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3048,7 +3048,7 @@
   "id": "collectible-1081",
   "name": "Монета мапи Crete",
   "description": null,
-  "paint_index": "1081",
+  "def_index": "1081",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3063,7 +3063,7 @@
   "id": "collectible-1082",
   "name": "Монета мапи Hive",
   "description": null,
-  "paint_index": "1082",
+  "def_index": "1082",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3078,7 +3078,7 @@
   "id": "collectible-1083",
   "name": "Монета мапи Vineyard",
   "description": null,
-  "paint_index": "1083",
+  "def_index": "1083",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3093,7 +3093,7 @@
   "id": "collectible-1084",
   "name": "Монета мапи Ember",
   "description": null,
-  "paint_index": "1084",
+  "def_index": "1084",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3108,7 +3108,7 @@
   "id": "collectible-1085",
   "name": "Монета мапи Tuscan",
   "description": null,
-  "paint_index": "1085",
+  "def_index": "1085",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3123,7 +3123,7 @@
   "id": "collectible-1086",
   "name": "Монета мапи Cascade",
   "description": null,
-  "paint_index": "1086",
+  "def_index": "1086",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3138,7 +3138,7 @@
   "id": "collectible-1087",
   "name": "Монета мапи Blagai",
   "description": null,
-  "paint_index": "1087",
+  "def_index": "1087",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3153,7 +3153,7 @@
   "id": "collectible-1088",
   "name": "Монета мапи Boyard",
   "description": null,
-  "paint_index": "1088",
+  "def_index": "1088",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3168,7 +3168,7 @@
   "id": "collectible-1089",
   "name": "Монета мапи Chalice",
   "description": null,
-  "paint_index": "1089",
+  "def_index": "1089",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3183,7 +3183,7 @@
   "id": "collectible-1315",
   "name": "Перепустка на операцію «Авангард»",
   "description": "Операція «Авангард» була доступна з 11 листопада 2014 року до 31 березня 2015 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1315",
+  "def_index": "1315",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3198,7 +3198,7 @@
   "id": "collectible-1316",
   "name": "Монета учасника операції «Авангард»",
   "description": "За участь в операції «Авангард».",
-  "paint_index": "1316",
+  "def_index": "1316",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3213,7 +3213,7 @@
   "id": "collectible-1317",
   "name": "Срібна монета учасника операції «Авангард»",
   "description": "За участь в операції «Авангард».",
-  "paint_index": "1317",
+  "def_index": "1317",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3228,7 +3228,7 @@
   "id": "collectible-1318",
   "name": "Золота монета учасника операції «Авангард»",
   "description": "За участь в операції «Авангард».",
-  "paint_index": "1318",
+  "def_index": "1318",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3243,7 +3243,7 @@
   "id": "collectible-1326",
   "name": "Перепустка на операцію «Дойда»",
   "description": "Операція «Дойда» була доступна з 26 травня до 1 жовтня 2015 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1326",
+  "def_index": "1326",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3258,7 +3258,7 @@
   "id": "collectible-1327",
   "name": "Монета учасника операції «Дойда»",
   "description": "За участь в операції «Дойда».",
-  "paint_index": "1327",
+  "def_index": "1327",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3273,7 +3273,7 @@
   "id": "collectible-1328",
   "name": "Срібна монета учасника операції «Дойда»",
   "description": "За участь в операції «Дойда».",
-  "paint_index": "1328",
+  "def_index": "1328",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3288,7 +3288,7 @@
   "id": "collectible-1329",
   "name": "Золота монета учасника операції «Дойда»",
   "description": "За участь в операції «Дойда».",
-  "paint_index": "1329",
+  "def_index": "1329",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3303,7 +3303,7 @@
   "id": "collectible-1331",
   "name": "Медаль за службу 2015",
   "description": "Нагороджено за видатну службу й досягнення у 2015 році.",
-  "paint_index": "1331",
+  "def_index": "1331",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3318,7 +3318,7 @@
   "id": "collectible-1332",
   "name": "Медаль за службу 2015",
   "description": "Нагороджено за видатну службу й досягнення у 2015 році.",
-  "paint_index": "1332",
+  "def_index": "1332",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3333,7 +3333,7 @@
   "id": "collectible-1335",
   "name": "Перепустка на операцію «Дике полум’я»",
   "description": "Операція «Дике полум’я» була доступна з 17 лютого до 13 липня 2016 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1335",
+  "def_index": "1335",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3348,7 +3348,7 @@
   "id": "collectible-1336",
   "name": "Монета учасника операції «Дике полум’я»",
   "description": "За участь в операції «Дике полум’я».",
-  "paint_index": "1336",
+  "def_index": "1336",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3363,7 +3363,7 @@
   "id": "collectible-1337",
   "name": "Срібна монета учасника операції «Дике полум’я»",
   "description": "За участь в операції «Дике полум’я».",
-  "paint_index": "1337",
+  "def_index": "1337",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3378,7 +3378,7 @@
   "id": "collectible-1338",
   "name": "Золота монета учасника операції «Дике полум’я»",
   "description": "За участь в операції «Дике полум’я».",
-  "paint_index": "1338",
+  "def_index": "1338",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3393,7 +3393,7 @@
   "id": "collectible-1339",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1339",
+  "def_index": "1339",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3408,7 +3408,7 @@
   "id": "collectible-1340",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1340",
+  "def_index": "1340",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3423,7 +3423,7 @@
   "id": "collectible-1341",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1341",
+  "def_index": "1341",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3438,7 +3438,7 @@
   "id": "collectible-1342",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1342",
+  "def_index": "1342",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3453,7 +3453,7 @@
   "id": "collectible-1343",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1343",
+  "def_index": "1343",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3468,7 +3468,7 @@
   "id": "collectible-1344",
   "name": "Медаль за службу 2016",
   "description": "Нагороджено за видатну службу й досягнення у 2016 році.",
-  "paint_index": "1344",
+  "def_index": "1344",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3483,7 +3483,7 @@
   "id": "collectible-1352",
   "name": "Перепустка на операцію «Гідра»",
   "description": "Операція «Гідра» була доступна з 23 травня до 14 листопада 2017 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "1352",
+  "def_index": "1352",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3498,7 +3498,7 @@
   "id": "collectible-1357",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1357",
+  "def_index": "1357",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3513,7 +3513,7 @@
   "id": "collectible-1358",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1358",
+  "def_index": "1358",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3528,7 +3528,7 @@
   "id": "collectible-1359",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1359",
+  "def_index": "1359",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3543,7 +3543,7 @@
   "id": "collectible-1360",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1360",
+  "def_index": "1360",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3558,7 +3558,7 @@
   "id": "collectible-1361",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1361",
+  "def_index": "1361",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3573,7 +3573,7 @@
   "id": "collectible-1362",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1362",
+  "def_index": "1362",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3588,7 +3588,7 @@
   "id": "collectible-1363",
   "name": "Медаль за службу 2017",
   "description": "Нагороджено за видатну службу й досягнення у 2017 році.",
-  "paint_index": "1363",
+  "def_index": "1363",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3603,7 +3603,7 @@
   "id": "collectible-1367",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1367",
+  "def_index": "1367",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3618,7 +3618,7 @@
   "id": "collectible-1368",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1368",
+  "def_index": "1368",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3633,7 +3633,7 @@
   "id": "collectible-1369",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1369",
+  "def_index": "1369",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3648,7 +3648,7 @@
   "id": "collectible-1370",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1370",
+  "def_index": "1370",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3663,7 +3663,7 @@
   "id": "collectible-1371",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1371",
+  "def_index": "1371",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3678,7 +3678,7 @@
   "id": "collectible-1372",
   "name": "Медаль за службу 2018",
   "description": "Нагороджено за видатну службу й досягнення у 2018 році.",
-  "paint_index": "1372",
+  "def_index": "1372",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3693,7 +3693,7 @@
   "id": "collectible-1376",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1376",
+  "def_index": "1376",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3708,7 +3708,7 @@
   "id": "collectible-1377",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1377",
+  "def_index": "1377",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3723,7 +3723,7 @@
   "id": "collectible-1378",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1378",
+  "def_index": "1378",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3738,7 +3738,7 @@
   "id": "collectible-1379",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1379",
+  "def_index": "1379",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3753,7 +3753,7 @@
   "id": "collectible-1380",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1380",
+  "def_index": "1380",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3768,7 +3768,7 @@
   "id": "collectible-1381",
   "name": "Медаль за службу 2019",
   "description": "Нагороджено за видатну службу й досягнення у 2019 році.",
-  "paint_index": "1381",
+  "def_index": "1381",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3783,7 +3783,7 @@
   "id": "collectible-4353",
   "name": "Монета учасника операції «Гідра»",
   "description": "За участь в операції «Гідра».",
-  "paint_index": "4353",
+  "def_index": "4353",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3798,7 +3798,7 @@
   "id": "collectible-4354",
   "name": "Срібна монета учасника операції «Гідра»",
   "description": "За участь в операції «Гідра».",
-  "paint_index": "4354",
+  "def_index": "4354",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3813,7 +3813,7 @@
   "id": "collectible-4355",
   "name": "Золота монета учасника операції «Гідра»",
   "description": "За участь в операції «Гідра».",
-  "paint_index": "4355",
+  "def_index": "4355",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3828,7 +3828,7 @@
   "id": "collectible-4356",
   "name": "Діамантова монета учасника операції «Гідра»",
   "description": "За виконання операції «Гідра».",
-  "paint_index": "4356",
+  "def_index": "4356",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3843,7 +3843,7 @@
   "id": "collectible-4549",
   "name": "Преміальна перепустка на операцію «Розірвана мережа»",
   "description": "Операція «Розірвана мережа» була доступна з 18 листопада 2019 року до 31 березня 2020 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "4549",
+  "def_index": "4549",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3858,7 +3858,7 @@
   "id": "collectible-4550",
   "name": "Монета учасника операції «Розірвана мережа»",
   "description": "За участь в операції «Розірвана мережа».",
-  "paint_index": "4550",
+  "def_index": "4550",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3873,7 +3873,7 @@
   "id": "collectible-4551",
   "name": "Срібна монета учасника операції «Розірвана мережа»",
   "description": "За участь в операції «Розірвана мережа».",
-  "paint_index": "4551",
+  "def_index": "4551",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3888,7 +3888,7 @@
   "id": "collectible-4552",
   "name": "Золота монета учасника операції «Розірвана мережа»",
   "description": "За участь в операції «Розірвана мережа».",
-  "paint_index": "4552",
+  "def_index": "4552",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3903,7 +3903,7 @@
   "id": "collectible-4553",
   "name": "Діамантова монета учасника операції «Розірвана мережа»",
   "description": "За виконання операції «Розірвана мережа».",
-  "paint_index": "4553",
+  "def_index": "4553",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3918,7 +3918,7 @@
   "id": "collectible-4554",
   "name": "Глядацька перепустка «Катовіце 2019»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «IEM Катовіце 2019». Якщо її відкрити, то вона дасть монету «Катовіце 2019», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, до сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Катовіце 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4554",
+  "def_index": "4554",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -3933,7 +3933,7 @@
   "id": "collectible-4555",
   "name": "Монета «Катовіце 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Катовіце 2019», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Катовіце 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4555",
+  "def_index": "4555",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3948,7 +3948,7 @@
   "id": "collectible-4556",
   "name": "Срібна монета «Katowice 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Катовіце 2019», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Катовіце 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4556",
+  "def_index": "4556",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3963,7 +3963,7 @@
   "id": "collectible-4557",
   "name": "Золота монета «Катовіце 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Катовіце 2019», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Катовіце 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4557",
+  "def_index": "4557",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3978,7 +3978,7 @@
   "id": "collectible-4558",
   "name": "Діамантова монета «Катовіце 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Катовіце 2019», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Катовіце 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4558",
+  "def_index": "4558",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -3993,7 +3993,7 @@
   "id": "collectible-4622",
   "name": "Глядацька перепустка «Берлін 2019»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «Берлін 2019 від StarLadder». Якщо її відкрити, то вона дасть монету «Берлін 2019», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Берлін 2019» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.",
-  "paint_index": "4622",
+  "def_index": "4622",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4008,7 +4008,7 @@
   "id": "collectible-4623",
   "name": "Монета «Берлін 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «Берлін 2019 від StarLadder», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Берлін 2019» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4623",
+  "def_index": "4623",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4023,7 +4023,7 @@
   "id": "collectible-4624",
   "name": "Срібна монета «Берлін 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «Берлін 2019 від StarLadder», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Берлін 2019» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4624",
+  "def_index": "4624",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4038,7 +4038,7 @@
   "id": "collectible-4625",
   "name": "Золота монета «Берлін 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «Берлін 2019 від StarLadder», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Берлін 2019» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4625",
+  "def_index": "4625",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4053,7 +4053,7 @@
   "id": "collectible-4626",
   "name": "Діамантова монета «Берлін 2019»",
   "description": "Це пам’ятна монета великого чемпіонату «Берлін 2019 від StarLadder», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Берлін 2019» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4626",
+  "def_index": "4626",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4068,7 +4068,7 @@
   "id": "collectible-4627",
   "name": "Глядацька перепустка «Берлін 2019» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «Берлін 2019 від StarLadder». Якщо її відкрити, то вона дасть монету «Берлін 2019», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Берлін 2019» шляхом виконання завдань. З кожним покращенням монети ви можете отримати сувенірний набір.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Берлін 2019» і 3 сувенірні жетони.",
-  "paint_index": "4627",
+  "def_index": "4627",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4083,7 +4083,7 @@
   "id": "collectible-4628",
   "name": "Сувенірний жетон «Берлін 2019»",
   "description": "Це запечатаний сувенірний жетон великого чемпіонату «Берлін 2019 від StarLadder». Якщо його відкрити, то він додасть жетон до вашої монети «Берлін 2019» і дозволить вам отримати сувенірний набір.\\n\\nЖетони можна застосувати лише до монети «Берлін 2019».",
-  "paint_index": "4628",
+  "def_index": "4628",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4098,7 +4098,7 @@
   "id": "collectible-4671",
   "name": "1 зірка для операції «Розірвана мережа»",
   "description": "Це наявне в продажу покращення дає <b>1 зірку операції</b> після застосування.\\n\\nЦе покращення зірок операції доступне лише для гравців, які володіють монетою операції.",
-  "paint_index": "4671",
+  "def_index": "4671",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4113,7 +4113,7 @@
   "id": "collectible-4672",
   "name": "10 зірок для операції «Розірвана мережа»",
   "description": "Це наявне в продажу покращення дає <b>10 зірок операції</b> після застосування.\\n\\nЦе покращення зірок операції доступне лише для гравців, які володіють монетою операції.",
-  "paint_index": "4672",
+  "def_index": "4672",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4128,7 +4128,7 @@
   "id": "collectible-4673",
   "name": "100 зірок для операції «Розірвана мережа»",
   "description": "Це наявне в продажу покращення дає <b>100 зірок операції</b> після застосування.\\n\\nЦе покращення зірок операції доступне лише для гравців, які володіють монетою операції.",
-  "paint_index": "4673",
+  "def_index": "4673",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4143,7 +4143,7 @@
   "id": "collectible-4674",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4674",
+  "def_index": "4674",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4158,7 +4158,7 @@
   "id": "collectible-4675",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4675",
+  "def_index": "4675",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4173,7 +4173,7 @@
   "id": "collectible-4676",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4676",
+  "def_index": "4676",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4188,7 +4188,7 @@
   "id": "collectible-4677",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4677",
+  "def_index": "4677",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4203,7 +4203,7 @@
   "id": "collectible-4678",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4678",
+  "def_index": "4678",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4218,7 +4218,7 @@
   "id": "collectible-4679",
   "name": "Медаль за службу 2020",
   "description": "Нагороджено за видатну службу й досягнення у 2020 році.",
-  "paint_index": "4679",
+  "def_index": "4679",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4233,7 +4233,7 @@
   "id": "collectible-4682",
   "name": "Значок «Цивільна оборона»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4682",
+  "def_index": "4682",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4248,7 +4248,7 @@
   "id": "collectible-4683",
   "name": "Значок «Їжа!»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4683",
+  "def_index": "4683",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -4263,7 +4263,7 @@
   "id": "collectible-4684",
   "name": "Значок «Вортіґонт»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4684",
+  "def_index": "4684",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -4278,7 +4278,7 @@
   "id": "collectible-4685",
   "name": "Значок «Ієрогліф хедкраба»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4685",
+  "def_index": "4685",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -4293,7 +4293,7 @@
   "id": "collectible-4686",
   "name": "Значок «Здоров’я»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4686",
+  "def_index": "4686",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -4308,7 +4308,7 @@
   "id": "collectible-4687",
   "name": "Значок «Лямбда»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4687",
+  "def_index": "4687",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -4323,7 +4323,7 @@
   "id": "collectible-4688",
   "name": "Значок «Мідна лямбда»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4688",
+  "def_index": "4688",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -4338,7 +4338,7 @@
   "id": "collectible-4689",
   "name": "Значок «CMB»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4689",
+  "def_index": "4689",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -4353,7 +4353,7 @@
   "id": "collectible-4690",
   "name": "Значок «Блек-Меса»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4690",
+  "def_index": "4690",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -4368,7 +4368,7 @@
   "id": "collectible-4691",
   "name": "Значок «Шолом комбінантів»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4691",
+  "def_index": "4691",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -4383,7 +4383,7 @@
   "id": "collectible-4692",
   "name": "Значок «Сіті-17»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "4692",
+  "def_index": "4692",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -4398,7 +4398,7 @@
   "id": "collectible-4699",
   "name": "Преміальна перепустка на операцію «Зламане ікло»",
   "description": "Операція «Зламане ікло» була доступна з 3 грудня 2020 року до 30 квітня 2021 року. Ця перепустка більше не дає доступу до операції, але її можна обміняти на пам’ятну монету.",
-  "paint_index": "4699",
+  "def_index": "4699",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4413,7 +4413,7 @@
   "id": "collectible-4700",
   "name": "Монета учасника операції «Зламане ікло»",
   "description": "За участь в операції «Зламане ікло».",
-  "paint_index": "4700",
+  "def_index": "4700",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4428,7 +4428,7 @@
   "id": "collectible-4701",
   "name": "Срібна монета учасника операції «Зламане ікло»",
   "description": "За участь в операції «Зламане ікло».",
-  "paint_index": "4701",
+  "def_index": "4701",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4443,7 +4443,7 @@
   "id": "collectible-4702",
   "name": "Золота монета учасника операції «Зламане ікло»",
   "description": "За участь в операції «Зламане ікло».",
-  "paint_index": "4702",
+  "def_index": "4702",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4458,7 +4458,7 @@
   "id": "collectible-4703",
   "name": "Діамантова монета учасника операції «Зламане ікло»",
   "description": "За виконання операції «Зламане ікло».",
-  "paint_index": "4703",
+  "def_index": "4703",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4473,7 +4473,7 @@
   "id": "collectible-4704",
   "name": "1 зірка для операції «Зламане ікло»",
   "description": "Це наявне в продажу покращення дає <b>1 зірку операції</b> після застосування.",
-  "paint_index": "4704",
+  "def_index": "4704",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4488,7 +4488,7 @@
   "id": "collectible-4705",
   "name": "10 зірок для операції «Зламане ікло»",
   "description": "Це наявне в продажу покращення дає <b>10 зірок операції</b> після застосування.",
-  "paint_index": "4705",
+  "def_index": "4705",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4503,7 +4503,7 @@
   "id": "collectible-4706",
   "name": "100 зірок для операції «Зламане ікло»",
   "description": "Це наявне в продажу покращення дає <b>100 зірок операції</b> після застосування.",
-  "paint_index": "4706",
+  "def_index": "4706",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4518,7 +4518,7 @@
   "id": "collectible-4737",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4737",
+  "def_index": "4737",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4533,7 +4533,7 @@
   "id": "collectible-4738",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4738",
+  "def_index": "4738",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4548,7 +4548,7 @@
   "id": "collectible-4739",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4739",
+  "def_index": "4739",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4563,7 +4563,7 @@
   "id": "collectible-4740",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4740",
+  "def_index": "4740",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4578,7 +4578,7 @@
   "id": "collectible-4741",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4741",
+  "def_index": "4741",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4593,7 +4593,7 @@
   "id": "collectible-4742",
   "name": "Медаль за службу 2021",
   "description": "Нагороджено за видатну службу й досягнення у 2021 році.",
-  "paint_index": "4742",
+  "def_index": "4742",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4608,7 +4608,7 @@
   "id": "collectible-4758",
   "name": "Преміальна перепустка на операцію «Хижі води»",
   "description": "Преміальна перепустка на операцію «Хижі води» гарантує вам пам’ятну монету операції «Хижі води», яку можна покращити, щотижневі завдання та доступ до ексклюзивних предметів у крамниці операції.",
-  "paint_index": "4758",
+  "def_index": "4758",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4623,7 +4623,7 @@
   "id": "collectible-4759",
   "name": "Монета учасника операції «Хижі води»",
   "description": "За участь в операції «Хижі води».",
-  "paint_index": "4759",
+  "def_index": "4759",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4638,7 +4638,7 @@
   "id": "collectible-4760",
   "name": "Срібна монета учасника операції «Хижі води»",
   "description": "За участь в операції «Хижі води».",
-  "paint_index": "4760",
+  "def_index": "4760",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4653,7 +4653,7 @@
   "id": "collectible-4761",
   "name": "Золота монета учасника операції «Хижі води»",
   "description": "За участь в операції «Хижі води».",
-  "paint_index": "4761",
+  "def_index": "4761",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4668,7 +4668,7 @@
   "id": "collectible-4762",
   "name": "Діамантова монета учасника операції «Хижі води»",
   "description": "За виконання операції «Хижі води».",
-  "paint_index": "4762",
+  "def_index": "4762",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4683,7 +4683,7 @@
   "id": "collectible-4763",
   "name": "1 зірка для операції «Хижі води»",
   "description": "Це наявне в продажу покращення дає <b>1 зірку операції</b> після застосування.",
-  "paint_index": "4763",
+  "def_index": "4763",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4698,7 +4698,7 @@
   "id": "collectible-4764",
   "name": "10 зірок для операції «Хижі води»",
   "description": "Це наявне в продажу покращення дає <b>10 зірок операції</b> після застосування.",
-  "paint_index": "4764",
+  "def_index": "4764",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4713,7 +4713,7 @@
   "id": "collectible-4765",
   "name": "100 зірок для операції «Хижі води»",
   "description": "Це наявне в продажу покращення дає <b>100 зірок операції</b> після застосування.",
-  "paint_index": "4765",
+  "def_index": "4765",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4728,7 +4728,7 @@
   "id": "collectible-4796",
   "name": "Глядацька перепустка «Стокгольм 2021»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «PGL Стокгольм 2021». Якщо її відкрити, то вона дасть монету «Стокгольм 2021», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Стокгольм 2021» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4796",
+  "def_index": "4796",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4743,7 +4743,7 @@
   "id": "collectible-4797",
   "name": "Монета «Стокгольм 2021»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Стокгольм 2021», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Стокгольм 2021» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4797",
+  "def_index": "4797",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4758,7 +4758,7 @@
   "id": "collectible-4798",
   "name": "Срібна монета «Стокгольм 2021»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Стокгольм 2021», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Стокгольм 2021» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4798",
+  "def_index": "4798",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4773,7 +4773,7 @@
   "id": "collectible-4799",
   "name": "Золота монета «Стокгольм 2021»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Стокгольм 2021», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Стокгольм 2021» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4799",
+  "def_index": "4799",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4788,7 +4788,7 @@
   "id": "collectible-4800",
   "name": "Діамантова монета «Стокгольм 2021»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Стокгольм 2021», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Стокгольм 2021» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4800",
+  "def_index": "4800",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4803,7 +4803,7 @@
   "id": "collectible-4801",
   "name": "Глядацька перепустка «Стокгольм 2021» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «PGL Стокгольм 2021». Якщо її відкрити, то вона дасть монету «Стокгольм 2021», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Стокгольм 2021» через виконання завдань. Ця перепустка глядача попередньо активує вашу монету «Стокгольм 2021» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4801",
+  "def_index": "4801",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4818,7 +4818,7 @@
   "id": "collectible-4802",
   "name": "Сувенірний жетон «Стокгольм 2021»",
   "description": "Це запечатаний сувенірний жетон великого чемпіонату «PGL Стокгольм 2021». Якщо його відкрити, то він додасть жетон до вашої монети «Стокгольм 2021» і дозволить вам отримати сувенірний набір.\\n\\nЖетони можна застосувати лише до монети «Стокгольм 2021».",
-  "paint_index": "4802",
+  "def_index": "4802",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4833,7 +4833,7 @@
   "id": "collectible-4819",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4819",
+  "def_index": "4819",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4848,7 +4848,7 @@
   "id": "collectible-4820",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4820",
+  "def_index": "4820",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4863,7 +4863,7 @@
   "id": "collectible-4821",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4821",
+  "def_index": "4821",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4878,7 +4878,7 @@
   "id": "collectible-4822",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4822",
+  "def_index": "4822",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4893,7 +4893,7 @@
   "id": "collectible-4823",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4823",
+  "def_index": "4823",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4908,7 +4908,7 @@
   "id": "collectible-4824",
   "name": "Медаль за службу 2022",
   "description": "Нагороджено за видатну службу й досягнення у 2022 році.",
-  "paint_index": "4824",
+  "def_index": "4824",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4923,7 +4923,7 @@
   "id": "collectible-4825",
   "name": "Глядацька перепустка «Антверпен 2022»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «PGL Антверпен 2022». Якщо її відкрити, то вона дасть монету «Антверпен 2022», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Антверпен 2022» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4825",
+  "def_index": "4825",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -4938,7 +4938,7 @@
   "id": "collectible-4826",
   "name": "Монета «Антверпен 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Антверпен 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Антверпен 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4826",
+  "def_index": "4826",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4953,7 +4953,7 @@
   "id": "collectible-4827",
   "name": "Срібна монета «Антверпен 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Антверпен 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Антверпен 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4827",
+  "def_index": "4827",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4968,7 +4968,7 @@
   "id": "collectible-4828",
   "name": "Золота монета «Антверпен 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Антверпен 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Антверпен 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4828",
+  "def_index": "4828",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4983,7 +4983,7 @@
   "id": "collectible-4829",
   "name": "Діамантова монета «Антверпен 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «PGL Антверпен 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Антверпен 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4829",
+  "def_index": "4829",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -4998,7 +4998,7 @@
   "id": "collectible-4830",
   "name": "Глядацька перепустка «Антверпен 2022» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «PGL Антверпен 2022». Якщо її відкрити, то вона дасть монету «Антверпен 2022», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Антверпен 2022» через виконання завдань.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Антверпен 2022» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4830",
+  "def_index": "4830",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5013,7 +5013,7 @@
   "id": "collectible-4831",
   "name": "Сувенірний жетон «Антверпен 2022»",
   "description": "Це запечатаний сувенірний жетон великого чемпіонату «Антверпен 2022 від PGL». Якщо його відкрити, то він додасть жетон до вашої монети «Антверпен 2022» і дозволить вам отримати сувенірний набір.\\n\\nЖетони можна застосувати лише до монети «Антверпен 2022».",
-  "paint_index": "4831",
+  "def_index": "4831",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5028,7 +5028,7 @@
   "id": "collectible-4850",
   "name": "Глядацька перепустка «Ріо 2022»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «IEM Ріо 2022». Якщо її відкрити, то вона дасть монету «IEM Ріо 2022», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «IEM Ріо 2022» через виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4850",
+  "def_index": "4850",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5043,7 +5043,7 @@
   "id": "collectible-4851",
   "name": "Монета «Ріо 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Ріо 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Ріо 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4851",
+  "def_index": "4851",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5058,7 +5058,7 @@
   "id": "collectible-4852",
   "name": "Срібна монета «Ріо 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Ріо 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Ріо 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4852",
+  "def_index": "4852",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5073,7 +5073,7 @@
   "id": "collectible-4853",
   "name": "Золота монета «Ріо 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Ріо 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Ріо 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4853",
+  "def_index": "4853",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5088,7 +5088,7 @@
   "id": "collectible-4854",
   "name": "Діамантова монета «Ріо 2022»",
   "description": "Це пам’ятна монета великого чемпіонату «IEM Ріо 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Ріо 2022» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4854",
+  "def_index": "4854",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5103,7 +5103,7 @@
   "id": "collectible-4855",
   "name": "Глядацька перепустка «Ріо 2022» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «IEM Ріо 2022». Якщо її відкрити, то вона дасть монету «Ріо 2022», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Ріо 2022» через виконання завдань.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Ріо 2022» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4855",
+  "def_index": "4855",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5118,7 +5118,7 @@
   "id": "collectible-4856",
   "name": "Сувенірний жетон «Ріо 2022»",
   "description": "Це запечатаний сувенірний жетон великого чемпіонату «Ріо 2022» від IEM. Якщо його відкрити, то він додасть жетон до вашої монети «Ріо 2022» і дозволить вам отримати сувенірний набір.\\n\\nЖетони можна застосувати лише до монети «Ріо 2022».",
-  "paint_index": "4856",
+  "def_index": "4856",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5133,7 +5133,7 @@
   "id": "collectible-4873",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4873",
+  "def_index": "4873",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5148,7 +5148,7 @@
   "id": "collectible-4874",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4874",
+  "def_index": "4874",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5163,7 +5163,7 @@
   "id": "collectible-4875",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4875",
+  "def_index": "4875",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5178,7 +5178,7 @@
   "id": "collectible-4876",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4876",
+  "def_index": "4876",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5193,7 +5193,7 @@
   "id": "collectible-4877",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4877",
+  "def_index": "4877",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5208,7 +5208,7 @@
   "id": "collectible-4878",
   "name": "Медаль за службу 2023",
   "description": "Нагороджено за видатну службу й досягнення у 2023 році.",
-  "paint_index": "4878",
+  "def_index": "4878",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5223,7 +5223,7 @@
   "id": "collectible-4883",
   "name": "Глядацька перепустка «Париж 2023»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «BLAST.tv Париж 2023». Якщо її відкрити, то вона дасть монету «Париж 2023», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4883",
+  "def_index": "4883",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5238,7 +5238,7 @@
   "id": "collectible-4884",
   "name": "Монета «Париж 2023»",
   "description": "Це пам’ятна монета великого чемпіонату «BLAST.tv Париж 2023», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4884",
+  "def_index": "4884",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5253,7 +5253,7 @@
   "id": "collectible-4885",
   "name": "Срібна монета «Париж 2023»",
   "description": "Це пам’ятна монета великого чемпіонату «BLAST.tv Париж 2023», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4885",
+  "def_index": "4885",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5268,7 +5268,7 @@
   "id": "collectible-4886",
   "name": "Золота монета «Париж 2023»",
   "description": "Це пам’ятна монета великого чемпіонату «BLAST.tv Париж 2023», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4886",
+  "def_index": "4886",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5283,7 +5283,7 @@
   "id": "collectible-4887",
   "name": "Діамантова монета «Париж 2023»",
   "description": "Це пам’ятна монета великого чемпіонату «BLAST.tv Париж 2023», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4887",
+  "def_index": "4887",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5298,7 +5298,7 @@
   "id": "collectible-4888",
   "name": "Глядацька перепустка «Париж 2023» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «BLAST.tv Париж 2023». Якщо її відкрити, то вона дасть монету «Париж 2023», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Париж 2023» шляхом виконання завдань. Ви можете отримати сувенірний набір щоразу, як покращуєте свою монету.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Париж 2023» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "4888",
+  "def_index": "4888",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5313,7 +5313,7 @@
   "id": "collectible-4889",
   "name": "Сувенірний жетон «Париж 2023»",
   "description": "Це запечатаний сувенірний жетон великого чемпіонату «Париж 2023» від BLAST.tv. Якщо його відкрити, то він додасть жетон до вашої монети «Париж 2023» і дозволить вам отримати сувенірний набір.\\n\\nЖетони можна застосувати лише до монети «Париж 2023».",
-  "paint_index": "4889",
+  "def_index": "4889",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5328,7 +5328,7 @@
   "id": "collectible-4906",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4906",
+  "def_index": "4906",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5343,7 +5343,7 @@
   "id": "collectible-4907",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4907",
+  "def_index": "4907",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5358,7 +5358,7 @@
   "id": "collectible-4908",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4908",
+  "def_index": "4908",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5373,7 +5373,7 @@
   "id": "collectible-4909",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4909",
+  "def_index": "4909",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5388,7 +5388,7 @@
   "id": "collectible-4910",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4910",
+  "def_index": "4910",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5403,7 +5403,7 @@
   "id": "collectible-4911",
   "name": "Медаль за службу 2024",
   "description": "Нагороджено за видатну службу й досягнення у 2024 році.",
-  "paint_index": "4911",
+  "def_index": "4911",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5418,7 +5418,7 @@
   "id": "collectible-4916",
   "name": "Глядацька перепустка «Копенгаген 2024»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату з CS2 «PGL Копенгаген 2024». Якщо її відкрити, то вона дасть монету «Копенгаген 2024», яка відстежує ваш поступ упродовж події, а також доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Копенгаген 2024» через виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасникам.",
-  "paint_index": "4916",
+  "def_index": "4916",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5433,7 +5433,7 @@
   "id": "collectible-4917",
   "name": "Монета «Копенгаген 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «PGL Копенгаген 2024», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Копенгаген 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4917",
+  "def_index": "4917",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5448,7 +5448,7 @@
   "id": "collectible-4918",
   "name": "Срібна монета «Копенгаген 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «PGL Копенгаген 2024», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Копенгаген 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4918",
+  "def_index": "4918",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5463,7 +5463,7 @@
   "id": "collectible-4919",
   "name": "Золота монета «Копенгаген 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «PGL Копенгаген 2024», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Копенгаген 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4919",
+  "def_index": "4919",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5478,7 +5478,7 @@
   "id": "collectible-4920",
   "name": "Діамантова монета «Копенгаген 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «PGL Копенгаген 2024», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Копенгаген 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4920",
+  "def_index": "4920",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5493,7 +5493,7 @@
   "id": "collectible-4921",
   "name": "Глядацька перепустка «Копенгаген 2024» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату «PGL Копенгаген 2024». Якщо її відкрити, то вона дасть монету «Копенгаген 2024», яка відстежує ваш поступ упродовж події, дає доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру. \\n\\nВи можете покращити свою монету «Копенгаген 2024» через виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Копенгаген 2024» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасникам.",
-  "paint_index": "4921",
+  "def_index": "4921",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5508,7 +5508,7 @@
   "id": "collectible-4922",
   "name": "Сувенірний набір «Копенгаген 2024»",
   "description": "Це запечатаний сувенірний набір великого турніру з CS2 «PGL Копенгаген 2024».",
-  "paint_index": "4922",
+  "def_index": "4922",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5523,7 +5523,7 @@
   "id": "collectible-4933",
   "name": "Чемпіон «PGL Копенгаген 2024»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS2 «PGL Копенгаген 2024».",
-  "paint_index": "4933",
+  "def_index": "4933",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5538,7 +5538,7 @@
   "id": "collectible-4934",
   "name": "Фіналіст «PGL Копенгаген 2024»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS2 «PGL Копенгаген 2024».",
-  "paint_index": "4934",
+  "def_index": "4934",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5553,7 +5553,7 @@
   "id": "collectible-4935",
   "name": "Півфіналіст «PGL Копенгаген 2024»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS2 «PGL Копенгаген 2024».",
-  "paint_index": "4935",
+  "def_index": "4935",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5568,7 +5568,7 @@
   "id": "collectible-4936",
   "name": "Чвертьфіналіст «PGL Копенгаген 2024»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS2 «PGL Копенгаген 2024».",
-  "paint_index": "4936",
+  "def_index": "4936",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5583,7 +5583,7 @@
   "id": "collectible-4941",
   "name": "Монета мапи Thera",
   "description": "Вшановує авторів мапи Thera для CS2.",
-  "paint_index": "4941",
+  "def_index": "4941",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5598,7 +5598,7 @@
   "id": "collectible-4942",
   "name": "Монета мапи Mills",
   "description": "Вшановує авторів мапи Mills для CS2.",
-  "paint_index": "4942",
+  "def_index": "4942",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5613,7 +5613,7 @@
   "id": "collectible-4943",
   "name": "Монета мапи Assembly",
   "description": "Вшановує авторів мапи Assembly для CS2.",
-  "paint_index": "4943",
+  "def_index": "4943",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5628,7 +5628,7 @@
   "id": "collectible-4944",
   "name": "Монета мапи Memento",
   "description": "Вшановує авторів мапи Memento для CS2.",
-  "paint_index": "4944",
+  "def_index": "4944",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5643,7 +5643,7 @@
   "id": "collectible-4945",
   "name": "Монета мапи Pool Day",
   "description": "Вшановує авторів мапи Pool Day для CS2.",
-  "paint_index": "4945",
+  "def_index": "4945",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5658,7 +5658,7 @@
   "id": "collectible-4951",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4951",
+  "def_index": "4951",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5673,7 +5673,7 @@
   "id": "collectible-4952",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4952",
+  "def_index": "4952",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5688,7 +5688,7 @@
   "id": "collectible-4953",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4953",
+  "def_index": "4953",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5703,7 +5703,7 @@
   "id": "collectible-4954",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4954",
+  "def_index": "4954",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5718,7 +5718,7 @@
   "id": "collectible-4955",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4955",
+  "def_index": "4955",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5733,7 +5733,7 @@
   "id": "collectible-4956",
   "name": "Медаль за службу 2025",
   "description": "Нагороджено за видатну службу й досягнення у 2025 році.",
-  "paint_index": "4956",
+  "def_index": "4956",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5748,7 +5748,7 @@
   "id": "collectible-4957",
   "name": "Глядацька перепустка «Шанхай 2024»",
   "description": "Це запечатана глядацька перепустка великого чемпіонату з CS2 «Perfect World Шанхай 2024». Якщо її відкрити, то вона дасть монету «Шанхай 2024», яка відстежує ваш поступ упродовж події, а також повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» через виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасникам.",
-  "paint_index": "4957",
+  "def_index": "4957",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5763,7 +5763,7 @@
   "id": "collectible-4958",
   "name": "Монета «Шанхай 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «Perfect World Шанхай 2024», яка відстежує ваш поступ упродовж події, дає повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4958",
+  "def_index": "4958",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5778,7 +5778,7 @@
   "id": "collectible-4959",
   "name": "Срібна монета «Шанхай 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «Perfect World Шанхай 2024», яка відстежує ваш поступ упродовж події, дає повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4959",
+  "def_index": "4959",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5793,7 +5793,7 @@
   "id": "collectible-4960",
   "name": "Золота монета «Шанхай 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «Perfect World Шанхай 2024», яка відстежує ваш поступ упродовж події, дає повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4960",
+  "def_index": "4960",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5808,7 +5808,7 @@
   "id": "collectible-4961",
   "name": "Діамантова монета «Шанхай 2024»",
   "description": "Це пам’ятна монета великого чемпіонату з CS2 «Perfect World Шанхай 2024», яка відстежує ваш поступ упродовж події, дає повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» шляхом виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.",
-  "paint_index": "4961",
+  "def_index": "4961",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5823,7 +5823,7 @@
   "id": "collectible-4962",
   "name": "Глядацька перепустка «Шанхай 2024» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого чемпіонату з CS2 «Perfect World Шанхай 2024». Якщо її відкрити, то вона дасть монету «Шанхай 2024», яка відстежує ваш поступ упродовж події, а також повний доступ до прогнозів на турнір, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nВи можете покращити свою монету «Шанхай 2024» через виконання завдань. Ви можете отримати сувенірний жетон щоразу, як покращуєте свою монету.\\n\\nЦя перепустка глядача попередньо активує вашу монету «Шанхай 2024» і 3 сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасникам.",
-  "paint_index": "4962",
+  "def_index": "4962",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5838,7 +5838,7 @@
   "id": "collectible-4963",
   "name": "Сувенірний набір «Шанхай 2024»",
   "description": "Це запечатаний сувенірний набір великого турніру з CS2 «Perfect World Шанхай 2024».",
-  "paint_index": "4963",
+  "def_index": "4963",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -5853,7 +5853,7 @@
   "id": "collectible-4974",
   "name": "Чемпіон «Perfect World Шанхай 2024»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS2 «Perfect World Шанхай 2024».",
-  "paint_index": "4974",
+  "def_index": "4974",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5868,7 +5868,7 @@
   "id": "collectible-4975",
   "name": "Фіналіст «Perfect World Шанхай 2024»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS2 «Perfect World Шанхай 2024».",
-  "paint_index": "4975",
+  "def_index": "4975",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5883,7 +5883,7 @@
   "id": "collectible-4976",
   "name": "Півфіналіст «Perfect World Шанхай 2024»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS2 «Perfect World Шанхай 2024».",
-  "paint_index": "4976",
+  "def_index": "4976",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5898,7 +5898,7 @@
   "id": "collectible-4977",
   "name": "Чвертьфіналіст «Perfect World Шанхай 2024»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS2 «Perfect World Perfect World 2024».",
-  "paint_index": "4977",
+  "def_index": "4977",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5913,7 +5913,7 @@
   "id": "collectible-4982",
   "name": "Монета мапи Whistle",
   "description": "Вшановує авторів мапи Whistle для CS2.",
-  "paint_index": "4982",
+  "def_index": "4982",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5928,7 +5928,7 @@
   "id": "collectible-4983",
   "name": "Монета мапи Palais",
   "description": "Вшановує авторів мапи Palais для CS2.",
-  "paint_index": "4983",
+  "def_index": "4983",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5943,7 +5943,7 @@
   "id": "collectible-4984",
   "name": "Монета мапи Edin",
   "description": "Вшановує авторів мапи Edin для CS2.",
-  "paint_index": "4984",
+  "def_index": "4984",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5958,7 +5958,7 @@
   "id": "collectible-4985",
   "name": "Монета мапи Basalt",
   "description": "Вшановує авторів мапи Basalt для CS2.",
-  "paint_index": "4985",
+  "def_index": "4985",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5973,7 +5973,7 @@
   "id": "collectible-4986",
   "name": "Медаль першого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у першому сезоні.",
-  "paint_index": "4986",
+  "def_index": "4986",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -5988,7 +5988,7 @@
   "id": "collectible-4987",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4987",
+  "def_index": "4987",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6003,7 +6003,7 @@
   "id": "collectible-4988",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4988",
+  "def_index": "4988",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6018,7 +6018,7 @@
   "id": "collectible-4989",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4989",
+  "def_index": "4989",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6033,7 +6033,7 @@
   "id": "collectible-4990",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4990",
+  "def_index": "4990",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6048,7 +6048,7 @@
   "id": "collectible-4991",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4991",
+  "def_index": "4991",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6063,7 +6063,7 @@
   "id": "collectible-4992",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4992",
+  "def_index": "4992",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6078,7 +6078,7 @@
   "id": "collectible-4993",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4993",
+  "def_index": "4993",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6093,7 +6093,7 @@
   "id": "collectible-4994",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4994",
+  "def_index": "4994",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6108,7 +6108,7 @@
   "id": "collectible-4995",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4995",
+  "def_index": "4995",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6123,7 +6123,7 @@
   "id": "collectible-4996",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4996",
+  "def_index": "4996",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6138,7 +6138,7 @@
   "id": "collectible-4997",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4997",
+  "def_index": "4997",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6153,7 +6153,7 @@
   "id": "collectible-4998",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4998",
+  "def_index": "4998",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6168,7 +6168,7 @@
   "id": "collectible-4999",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "4999",
+  "def_index": "4999",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6183,7 +6183,7 @@
   "id": "collectible-5000",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5000",
+  "def_index": "5000",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6198,7 +6198,7 @@
   "id": "collectible-5001",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5001",
+  "def_index": "5001",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6213,7 +6213,7 @@
   "id": "collectible-5002",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5002",
+  "def_index": "5002",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6228,7 +6228,7 @@
   "id": "collectible-5003",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5003",
+  "def_index": "5003",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6243,7 +6243,7 @@
   "id": "collectible-5004",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5004",
+  "def_index": "5004",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6258,7 +6258,7 @@
   "id": "collectible-5005",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5005",
+  "def_index": "5005",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6273,7 +6273,7 @@
   "id": "collectible-5006",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5006",
+  "def_index": "5006",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6288,7 +6288,7 @@
   "id": "collectible-5007",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5007",
+  "def_index": "5007",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6303,7 +6303,7 @@
   "id": "collectible-5008",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5008",
+  "def_index": "5008",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6318,7 +6318,7 @@
   "id": "collectible-5009",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5009",
+  "def_index": "5009",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6333,7 +6333,7 @@
   "id": "collectible-5010",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5010",
+  "def_index": "5010",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6348,7 +6348,7 @@
   "id": "collectible-5011",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5011",
+  "def_index": "5011",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6363,7 +6363,7 @@
   "id": "collectible-5012",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5012",
+  "def_index": "5012",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6378,7 +6378,7 @@
   "id": "collectible-5013",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5013",
+  "def_index": "5013",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6393,7 +6393,7 @@
   "id": "collectible-5014",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5014",
+  "def_index": "5014",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6408,7 +6408,7 @@
   "id": "collectible-5015",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5015",
+  "def_index": "5015",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6423,7 +6423,7 @@
   "id": "collectible-5016",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5016",
+  "def_index": "5016",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6438,7 +6438,7 @@
   "id": "collectible-5017",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5017",
+  "def_index": "5017",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6453,7 +6453,7 @@
   "id": "collectible-5018",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5018",
+  "def_index": "5018",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6468,7 +6468,7 @@
   "id": "collectible-5019",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5019",
+  "def_index": "5019",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6483,7 +6483,7 @@
   "id": "collectible-5020",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5020",
+  "def_index": "5020",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6498,7 +6498,7 @@
   "id": "collectible-5021",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5021",
+  "def_index": "5021",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6513,7 +6513,7 @@
   "id": "collectible-5022",
   "name": "Медаль другого сезону прем’єр-режиму",
   "description": "Це пам’ятна медаль прем’єр-режиму за вашу активну участь у другому сезоні.",
-  "paint_index": "5022",
+  "def_index": "5022",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6528,7 +6528,7 @@
   "id": "collectible-5110",
   "name": "Глядацька перепустка «Остін 2025»",
   "description": "Це запечатана глядацька перепустка великого турніру «BLAST.tv Остін 2025». Якщо її відкрити, ви отримаєте монету «Остін 2025», яка відстежує ваш поступ упродовж події, а також надає доступ до прогнозів, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "5110",
+  "def_index": "5110",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -6543,7 +6543,7 @@
   "id": "collectible-5111",
   "name": "Монета «Остін 2025»",
   "description": "Це пам’ятна монета великого турніру «BLAST.tv Остін 2025», яка відстежує ваш поступ упродовж події, надає доступ до прогнозів, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.",
-  "paint_index": "5111",
+  "def_index": "5111",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6558,7 +6558,7 @@
   "id": "collectible-5112",
   "name": "Срібна монета «Остін 2025»",
   "description": "Це пам’ятна монета великого турніру «BLAST.tv Остін 2025», яка відстежує ваш поступ упродовж події, надає доступ до прогнозів, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.",
-  "paint_index": "5112",
+  "def_index": "5112",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6573,7 +6573,7 @@
   "id": "collectible-5113",
   "name": "Золота монета «Остін 2025»",
   "description": "Це пам’ятна монета великого турніру «BLAST.tv Остін 2025», яка відстежує ваш поступ упродовж події, надає доступ до прогнозів, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.",
-  "paint_index": "5113",
+  "def_index": "5113",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6588,7 +6588,7 @@
   "id": "collectible-5114",
   "name": "Діамантова монета «Остін 2025»",
   "description": "Це пам’ятна монета великого турніру «BLAST.tv Остін 2025», яка відстежує ваш поступ упродовж події, надає доступ до прогнозів, сувенірних наборів, позначок чату Steam.tv та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.",
-  "paint_index": "5114",
+  "def_index": "5114",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6603,7 +6603,7 @@
   "id": "collectible-5115",
   "name": "Глядацька перепустка «Остін 2025» + 3 сувенірні жетони",
   "description": "Це запечатана глядацька перепустка великого турніру «BLAST.tv Остін 2025». Якщо її відкрити, ви отримаєте монету «Остін 2025», яка відстежує ваш поступ упродовж події, а також надає доступ до прогнозів, позначок чату Steam.tv, виконання завдань та необмежену кількість командних графіті на час турніру.\\n\\nПокращити свою монету «Остін 2025» можна шляхом виконання завдань. Щоразу, коли ви це робитимете, отримуватимете сувенірний жетон.\\n\\nЦя глядацька перепустка одразу активує монету «Остін 2025» та надає три сувенірні жетони.\\n\\n50% коштів, отриманих із продажу цієї перепустки, буде передано організаціям-учасницям.",
-  "paint_index": "5115",
+  "def_index": "5115",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -6618,7 +6618,7 @@
   "id": "collectible-5116",
   "name": "Сувенірний набір «Остін 2025»",
   "description": "Це запечатаний сувенірний набір великого турніру з CS2 «BLAST.tv Остін 2025».",
-  "paint_index": "5116",
+  "def_index": "5116",
   "rarity": {
    "id": "rarity_common",
    "name": "звичайний предмет",
@@ -6633,7 +6633,7 @@
   "id": "collectible-5127",
   "name": "Чемпіон «BLAST.tv Остін 2025»",
   "description": "Цю нагороду вручено переможцю великого турніру з CS2 «BLAST.tv Остін 2025».",
-  "paint_index": "5127",
+  "def_index": "5127",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6648,7 +6648,7 @@
   "id": "collectible-5128",
   "name": "Фіналіст «BLAST.tv Остін 2025»",
   "description": "Цю нагороду вручено фіналісту великого турніру з CS2 «BLAST.tv Остін 2025».",
-  "paint_index": "5128",
+  "def_index": "5128",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6663,7 +6663,7 @@
   "id": "collectible-5129",
   "name": "Півфіналіст «BLAST.tv Остін 2025»",
   "description": "Цю нагороду вручено півфіналісту великого турніру з CS2 «BLAST.tv Остін 2025».",
-  "paint_index": "5129",
+  "def_index": "5129",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6678,7 +6678,7 @@
   "id": "collectible-5130",
   "name": "Чвертьфіналіст «BLAST.tv Остін 2025»",
   "description": "Цю нагороду вручено чвертьфіналісту великого турніру з CS2 «BLAST.tv Остін 2025».",
-  "paint_index": "5130",
+  "def_index": "5130",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6693,7 +6693,7 @@
   "id": "collectible-5135",
   "name": "Монета мапи Agency",
   "description": "Вшановує авторів мапи Agency для CS2.",
-  "paint_index": "5135",
+  "def_index": "5135",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6708,7 +6708,7 @@
   "id": "collectible-5136",
   "name": "Монета мапи Jura",
   "description": "Вшановує авторів мапи Jura для CS2.",
-  "paint_index": "5136",
+  "def_index": "5136",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6723,7 +6723,7 @@
   "id": "collectible-5137",
   "name": "Монета мапи Grail",
   "description": "Вшановує авторів мапи Grail для CS2.",
-  "paint_index": "5137",
+  "def_index": "5137",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6738,7 +6738,7 @@
   "id": "collectible-5138",
   "name": "Монета мапи Dogtown",
   "description": "Вшановує авторів мапи Dogtown для CS2.",
-  "paint_index": "5138",
+  "def_index": "5138",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6753,7 +6753,7 @@
   "id": "collectible-5139",
   "name": "Монета мапи Brewery",
   "description": "Вшановує авторів мапи Brewery для CS2.",
-  "paint_index": "5139",
+  "def_index": "5139",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6768,7 +6768,7 @@
   "id": "collectible-6001",
   "name": "Значок «Dust II» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6001",
+  "def_index": "6001",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6783,7 +6783,7 @@
   "id": "collectible-6002",
   "name": "Значок елітного вартового (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6002",
+  "def_index": "6002",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -6798,7 +6798,7 @@
   "id": "collectible-6003",
   "name": "Значок «Mirage» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6003",
+  "def_index": "6003",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -6813,7 +6813,7 @@
   "id": "collectible-6004",
   "name": "Значок «Inferno» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6004",
+  "def_index": "6004",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -6828,7 +6828,7 @@
   "id": "collectible-6005",
   "name": "Значок «Italy» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6005",
+  "def_index": "6005",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -6843,7 +6843,7 @@
   "id": "collectible-6006",
   "name": "Значок «Перемога» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6006",
+  "def_index": "6006",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -6858,7 +6858,7 @@
   "id": "collectible-6007",
   "name": "Значок «Militia» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6007",
+  "def_index": "6007",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -6873,7 +6873,7 @@
   "id": "collectible-6008",
   "name": "Значок «Nuke» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6008",
+  "def_index": "6008",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6888,7 +6888,7 @@
   "id": "collectible-6009",
   "name": "Значок «Train» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6009",
+  "def_index": "6009",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6903,7 +6903,7 @@
   "id": "collectible-6010",
   "name": "Значок «Вартовий» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6010",
+  "def_index": "6010",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6918,7 +6918,7 @@
   "id": "collectible-6011",
   "name": "Значок «Тактика» (з першої партії)",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6011",
+  "def_index": "6011",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6933,7 +6933,7 @@
   "id": "collectible-6012",
   "name": "Значок «Вартовий 2» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6012",
+  "def_index": "6012",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6948,7 +6948,7 @@
   "id": "collectible-6013",
   "name": "Значок «Браво» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6013",
+  "def_index": "6013",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6963,7 +6963,7 @@
   "id": "collectible-6014",
   "name": "Значок «Baggage» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6014",
+  "def_index": "6014",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6978,7 +6978,7 @@
   "id": "collectible-6015",
   "name": "Значок «Фенікс» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6015",
+  "def_index": "6015",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -6993,7 +6993,7 @@
   "id": "collectible-6016",
   "name": "Значок «Office» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6016",
+  "def_index": "6016",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7008,7 +7008,7 @@
   "id": "collectible-6017",
   "name": "Значок «Cobblestone» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6017",
+  "def_index": "6017",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7023,7 +7023,7 @@
   "id": "collectible-6018",
   "name": "Значок «Overpass» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6018",
+  "def_index": "6018",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7038,7 +7038,7 @@
   "id": "collectible-6019",
   "name": "Значок «Дойда» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6019",
+  "def_index": "6019",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7053,7 +7053,7 @@
   "id": "collectible-6020",
   "name": "Значок «Cache» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6020",
+  "def_index": "6020",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7068,7 +7068,7 @@
   "id": "collectible-6021",
   "name": "Значок «Валерія Фенікс» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6021",
+  "def_index": "6021",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7083,7 +7083,7 @@
   "id": "collectible-6022",
   "name": "Значок «Хрома» (з першої партії)",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6022",
+  "def_index": "6022",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7098,7 +7098,7 @@
   "id": "collectible-6023",
   "name": "Значок «Вартовий 3» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6023",
+  "def_index": "6023",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7113,7 +7113,7 @@
   "id": "collectible-6024",
   "name": "Значок «Canals» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6024",
+  "def_index": "6024",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7128,7 +7128,7 @@
   "id": "collectible-6025",
   "name": "Значок «Ласкаво просимо до клатчу» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6025",
+  "def_index": "6025",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7143,7 +7143,7 @@
   "id": "collectible-6026",
   "name": "Значок «Смертний вирок» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6026",
+  "def_index": "6026",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7158,7 +7158,7 @@
   "id": "collectible-6027",
   "name": "Значок «Inferno 2» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6027",
+  "def_index": "6027",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7173,7 +7173,7 @@
   "id": "collectible-6028",
   "name": "Значок «Дике полум’я» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6028",
+  "def_index": "6028",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7188,7 +7188,7 @@
   "id": "collectible-6029",
   "name": "Значок «Простіше простого» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6029",
+  "def_index": "6029",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7203,7 +7203,7 @@
   "id": "collectible-6030",
   "name": "Значок «Козирні тузи» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6030",
+  "def_index": "6030",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7218,7 +7218,7 @@
   "id": "collectible-6031",
   "name": "Значок «Гідра» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6031",
+  "def_index": "6031",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7233,7 +7233,7 @@
   "id": "collectible-6032",
   "name": "Значок «Виття» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6032",
+  "def_index": "6032",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7248,7 +7248,7 @@
   "id": "collectible-6033",
   "name": "Значок «Бригадний генерал» (з першої партії)",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6033",
+  "def_index": "6033",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7263,7 +7263,7 @@
   "id": "collectible-6034",
   "name": "Значок «Алікс» (з першої партії)",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "6034",
+  "def_index": "6034",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7278,7 +7278,7 @@
   "id": "collectible-6101",
   "name": "Значок «Dust II»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6101",
+  "def_index": "6101",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7293,7 +7293,7 @@
   "id": "collectible-6102",
   "name": "Значок елітного вартового",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6102",
+  "def_index": "6102",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7308,7 +7308,7 @@
   "id": "collectible-6103",
   "name": "Значок «Mirage»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6103",
+  "def_index": "6103",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7323,7 +7323,7 @@
   "id": "collectible-6104",
   "name": "Значок «Inferno»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6104",
+  "def_index": "6104",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7338,7 +7338,7 @@
   "id": "collectible-6105",
   "name": "Значок «Italy»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6105",
+  "def_index": "6105",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7353,7 +7353,7 @@
   "id": "collectible-6106",
   "name": "Значок «Перемога»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6106",
+  "def_index": "6106",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7368,7 +7368,7 @@
   "id": "collectible-6107",
   "name": "Значок «Militia»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6107",
+  "def_index": "6107",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7383,7 +7383,7 @@
   "id": "collectible-6108",
   "name": "Значок «Nuke»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6108",
+  "def_index": "6108",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7398,7 +7398,7 @@
   "id": "collectible-6109",
   "name": "Значок «Train»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6109",
+  "def_index": "6109",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7413,7 +7413,7 @@
   "id": "collectible-6110",
   "name": "Значок «Вартовий»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6110",
+  "def_index": "6110",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7428,7 +7428,7 @@
   "id": "collectible-6111",
   "name": "Значок «Тактика»",
   "description": "Це колекційний значок першої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6111",
+  "def_index": "6111",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7443,7 +7443,7 @@
   "id": "collectible-6112",
   "name": "Значок «Вартовий 2»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6112",
+  "def_index": "6112",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7458,7 +7458,7 @@
   "id": "collectible-6113",
   "name": "Значок «Браво»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6113",
+  "def_index": "6113",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7473,7 +7473,7 @@
   "id": "collectible-6114",
   "name": "Значок «Baggage»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6114",
+  "def_index": "6114",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7488,7 +7488,7 @@
   "id": "collectible-6115",
   "name": "Значок «Фенікс»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6115",
+  "def_index": "6115",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7503,7 +7503,7 @@
   "id": "collectible-6116",
   "name": "Значок «Office»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6116",
+  "def_index": "6116",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7518,7 +7518,7 @@
   "id": "collectible-6117",
   "name": "Значок «Cobblestone»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6117",
+  "def_index": "6117",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7533,7 +7533,7 @@
   "id": "collectible-6118",
   "name": "Значок «Overpass»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6118",
+  "def_index": "6118",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7548,7 +7548,7 @@
   "id": "collectible-6119",
   "name": "Значок «Дойда»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6119",
+  "def_index": "6119",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7563,7 +7563,7 @@
   "id": "collectible-6120",
   "name": "Значок «Cache»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6120",
+  "def_index": "6120",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7578,7 +7578,7 @@
   "id": "collectible-6121",
   "name": "Значок «Валерія Фенікс»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6121",
+  "def_index": "6121",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7593,7 +7593,7 @@
   "id": "collectible-6122",
   "name": "Значок «Хрома»",
   "description": "Це колекційний значок другої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6122",
+  "def_index": "6122",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7608,7 +7608,7 @@
   "id": "collectible-6123",
   "name": "Значок «Вартовий 3»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6123",
+  "def_index": "6123",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7623,7 +7623,7 @@
   "id": "collectible-6124",
   "name": "Значок «Canals»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6124",
+  "def_index": "6124",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7638,7 +7638,7 @@
   "id": "collectible-6125",
   "name": "Значок «Ласкаво просимо до клатчу»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6125",
+  "def_index": "6125",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7653,7 +7653,7 @@
   "id": "collectible-6126",
   "name": "Значок «Смертний вирок»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6126",
+  "def_index": "6126",
   "rarity": {
    "id": "rarity_rare",
    "name": "дуже рідкісний предмет",
@@ -7668,7 +7668,7 @@
   "id": "collectible-6127",
   "name": "Значок «Inferno 2»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6127",
+  "def_index": "6127",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7683,7 +7683,7 @@
   "id": "collectible-6128",
   "name": "Значок «Дике полум’я»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6128",
+  "def_index": "6128",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7698,7 +7698,7 @@
   "id": "collectible-6129",
   "name": "Значок «Простіше простого»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6129",
+  "def_index": "6129",
   "rarity": {
    "id": "rarity_mythical",
    "name": "цікавий предмет",
@@ -7713,7 +7713,7 @@
   "id": "collectible-6130",
   "name": "Значок «Козирні тузи»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6130",
+  "def_index": "6130",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7728,7 +7728,7 @@
   "id": "collectible-6131",
   "name": "Значок «Гідра»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6131",
+  "def_index": "6131",
   "rarity": {
    "id": "rarity_legendary",
    "name": "екзотичний предмет",
@@ -7743,7 +7743,7 @@
   "id": "collectible-6132",
   "name": "Значок «Виття»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6132",
+  "def_index": "6132",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7758,7 +7758,7 @@
   "id": "collectible-6133",
   "name": "Значок «Бригадний генерал»",
   "description": "Це колекційний значок третьої серії. Його можна показати у своєму профілі.",
-  "paint_index": "6133",
+  "def_index": "6133",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
@@ -7773,7 +7773,7 @@
   "id": "collectible-6134",
   "name": "Значок «Алікс»",
   "description": "Це колекційний значок на честь Half-Life: Alyx, віртуально-реального повернення Valve до серії Half-Life. Його можна показати у своєму профілі.",
-  "paint_index": "6134",
+  "def_index": "6134",
   "rarity": {
    "id": "rarity_ancient",
    "name": "надзвичайний предмет",
