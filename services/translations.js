@@ -1,6 +1,6 @@
 import axios from "axios";
 import { CSGO_ENGLISH_URL } from "../constants.js";
-import customTranslations from "../utils/translations.json" assert { type: "json" };
+import customTranslations from "../utils/translations.json" with { type: "json" };
 
 export let languageData = null;
 const translations = {

@@ -11,7 +11,7 @@ import {
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tTag, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getImageUrl } from "../constants.js";
 
 const getPatternName = (weapon, string) => {

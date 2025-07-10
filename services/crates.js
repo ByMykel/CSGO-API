@@ -1,7 +1,7 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
-import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
