@@ -12,7 +12,7 @@ import {
     weaponIDMapping
 } from "../utils/index.js";
 import { saveDataJson } from "../utils/saveDataJson.js";
-import specialNotes from "../utils/specialNotes.json" assert { type: "json" };
+import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { $t, $tc, $tTag, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { getImageUrl } from "../constants.js";
