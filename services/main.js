@@ -498,7 +498,7 @@ export const loadyCratesBySkins = () => {
 export const loadSkinsByCollections = () => {
     state.skinsByCollections = Object.entries(state.itemsGame.item_sets).reduce(
         (items, [key, value]) => {
-            items[key] = Object.keys(value.items).map((item) => getItemFromKey(item));
+            items[key] = Object.keys(value.items).map((item) => getItemFromKey(item)).filter(Boolean);
             return items;
         },
         {
@@ -850,6 +850,11 @@ const getItemFromKey = (key) => {
             ).find(
                 ([, value]) => value.icon_path.includes(`${type}_${name}_light`)
             );
+
+            if (!weaponIcons) {
+                console.log('[ERROR] Weapon icon not found', type, name)
+                return null;
+            }
 
             id = `skin-${weaponIcons[0]}`;
             itemName = {
