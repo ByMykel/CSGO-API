@@ -30,6 +30,24 @@ const getDescription = (item) => {
     return msg;
 };
 
+const getMarketHashName = (item, colorKey) => {
+    if (colorKey) {
+        return `${$t("csgo_tool_spray", true)} | ${$t(
+            item.item_name,
+            true
+        )} (${$t(colorKey, true)})`;
+    }
+    // The only sealed graffiti that has a market hash name are the
+    // ones from: Atlanta 2017, Krakow 2017,  Boston 2018, London 2018.
+    if (item.tournament_event_id && ![11, 12, 13, 14].includes(item.tournament_event_id)) {
+        return null;
+    }
+    return `${$t("csgo_tool_spray", true)} | ${$t(
+        item.item_name,
+        true
+    )}`;
+};
+
 const parseItemSealedGraffiti = (item) => {
     const { cratesBySkins } = state;
     const image = getImageUrl(`econ/stickers/${item.sticker_material}`);
@@ -62,10 +80,7 @@ const parseItemSealedGraffiti = (item) => {
                         ...i,
                         name: $t(i.name),
                     })) ?? [],
-                market_hash_name: `${$t("csgo_tool_spray", true)} | ${$t(
-                    item.item_name,
-                    true
-                )} (${$t(colorKey, true)})`,
+                market_hash_name: getMarketHashName(item, colorKey),
                 image: getImageUrl(
                     `econ/stickers/${item.sticker_material}_${index}`
                 ),
@@ -88,10 +103,7 @@ const parseItemSealedGraffiti = (item) => {
                 ...i,
                 name: $t(i.name),
             })) ?? [],
-        market_hash_name: `${$t("csgo_tool_spray", true)} | ${$t(
-            item.item_name,
-            true
-        )}`,
+        market_hash_name: getMarketHashName(item),
         image,
     };
 };
