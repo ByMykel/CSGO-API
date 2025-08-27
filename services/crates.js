@@ -126,6 +126,11 @@ const parseItem = (item, prefabs) => {
             $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, prefabs),
+        rarity: {
+            id: 'rarity_common',
+            name: $t('rarity_common'),
+            color: getRarityColor('rarity_common'),
+        },
         contains: (
             skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
             skinsByCrates?.[keyLootList] ??
