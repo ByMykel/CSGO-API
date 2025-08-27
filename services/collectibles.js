@@ -76,6 +76,21 @@ const getType = (collectible) => {
     return null;
 };
 
+const getMarketHashName = (item) => {
+    const isAttendance = item.prefab === "attendance_pin";
+    const isCannotTrade = item.attributes?.["cannot trade"];
+
+    if (isCannotTrade) {
+        return null;
+    }
+
+    if (["Pass", "Pin"].includes(getType(item)) && !isAttendance) {
+        return $t(item.item_name, true);
+    }
+
+    return null;
+};
+
 const parseItem = (item) => {
     const isAttendance = item.prefab === "attendance_pin";
     const image = getImageUrl(item.image_inventory);
@@ -105,10 +120,7 @@ const parseItem = (item) => {
         },
         type: getType(item),
         genuine: isAttendance,
-        market_hash_name:
-            ["Pass", "Pin"].includes(getType(item)) && !isAttendance
-                ? $t(item.item_name, true)
-                : null,
+        market_hash_name: getMarketHashName(item),
         image,
     };
 };
