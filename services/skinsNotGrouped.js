@@ -154,6 +154,7 @@ const parseItem = (item, items) => {
                     pattern: $t(paintKits[pattern]?.description_tag),
                     wear: $t(wear),
                 }),
+            code: items[weapon].name,
             description: getDescription(
                 translatedDescription,
                 paintKits,
@@ -254,6 +255,7 @@ export const getSkinsNotGrouped = () => {
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
+                    code: knife.name,
                     description: getVanillaDescription($t(knife.item_description), type === "rare_special_vanilla_stattrak"),
                     weapon: {
                         id: knife.item_name,
@@ -270,6 +272,7 @@ export const getSkinsNotGrouped = () => {
                         color: getRarityColor(`rarity_ancient_weapon`),
                     },
                     stattrak: type === "rare_special_vanilla_stattrak",
+                    paint_index: null,
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
                         pattern: null,
