@@ -15492,6 +15492,207 @@
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_35_png.png"
  },
  {
+  "id": "collection-set-community-36",
+  "name": "The Genesis Collection",
+  "crates": [
+   {
+    "id": "crate-5176",
+    "name": "Sealed Genesis Terminal",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_36_closed_png.png"
+   }
+  ],
+  "contains": [
+   {
+    "id": "skin-e8ce6f07d5e7",
+    "name": "SCAR-20 | Caged",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1343",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_refraction_v4_light_png.png"
+   },
+   {
+    "id": "skin-ab9a15ef8110",
+    "name": "AUG | Стрелковая дисциплина",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1339",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_trigger_discipline_velco_light_png.png"
+   },
+   {
+    "id": "skin-53b81168eea3",
+    "name": "P2000 | Red Wing",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1342",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_hkp2000_p2000_deep_red_light_png.png"
+   },
+   {
+    "id": "skin-fb7ae83c1e81",
+    "name": "MP9 | Broken Record",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1341",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_vinyl_light_png.png"
+   },
+   {
+    "id": "skin-8ec9dd302f30",
+    "name": "P250 | Bullfrog",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1345",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_bullfrog_light_png.png"
+   },
+   {
+    "id": "skin-e8947585ba24",
+    "name": "MAG-7 | MAGnitude",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1355",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mag7_mag7_circle_copper_light_png.png"
+   },
+   {
+    "id": "skin-e051c197f5af",
+    "name": "MP5-SD | Focus",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Армейское качество",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1344",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp5sd_mp5sd_chrome_light_png.png"
+   },
+   {
+    "id": "skin-f58ac1d8b31c",
+    "name": "Nova | Ocular",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Запрещённое",
+     "color": "#8847ff"
+    },
+    "paint_index": "1350",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_ocular_light_png.png"
+   },
+   {
+    "id": "skin-41345355b55a",
+    "name": "M4A1-S | Ликвидация",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Запрещённое",
+     "color": "#8847ff"
+    },
+    "paint_index": "1340",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_m4a1s_quick_liquidation_light_png.png"
+   },
+   {
+    "id": "skin-94f44ac08438",
+    "name": "Dual Berettas | Angel Eyes",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Запрещённое",
+     "color": "#8847ff"
+    },
+    "paint_index": "1347",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_elite_biblical_angel_light_png.png"
+   },
+   {
+    "id": "skin-0befed15aba5",
+    "name": "MAC-10 | Cat Fight",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Запрещённое",
+     "color": "#8847ff"
+    },
+    "paint_index": "1349",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_kamicatze_light_png.png"
+   },
+   {
+    "id": "skin-822f252e3894",
+    "name": "UMP-45 | Continuum",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Запрещённое",
+     "color": "#8847ff"
+    },
+    "paint_index": "1351",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_ump45_illumina_v2_light_png.png"
+   },
+   {
+    "id": "skin-a5be0877a3d7",
+    "name": "AWP | Ледяной уголь",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Засекреченное",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1346",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_ice_coaled_light_png.png"
+   },
+   {
+    "id": "skin-270e56729de6",
+    "name": "MP7 | Smoking Kills",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Засекреченное",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1354",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_mp7_smoking_kills_v2_light_png.png"
+   },
+   {
+    "id": "skin-a59908982432",
+    "name": "Glock-18 | Mirror Mosaic",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Засекреченное",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1348",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_mirror_maze_v2_pearl_light_png.png"
+   },
+   {
+    "id": "skin-e7c2a01982dd",
+    "name": "M4A4 | Full Throttle",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Тайное",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1353",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_skrrrt_green_light_png.png"
+   },
+   {
+    "id": "skin-4608abab8351",
+    "name": "AK-47 | The Oligarch",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Тайное",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1352",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_puffer_custom_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_36_png.png"
+ },
+ {
   "id": "collection-set-graphic-design",
   "name": "Коллекция «Графический дизайн»",
   "crates": [],
