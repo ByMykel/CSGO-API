@@ -29,7 +29,6 @@ const parseItem = (item) => {
     return {
         id: `keychain-${item.object_id}`,
         name: `${$t("CSGO_Tool_Keychain")} | ${$t(item.loc_name)}`,
-        code: item.loc_name,
         description: $t("csgo_tool_keychain_desc"),
         def_index: item.object_id,
         rarity: {
@@ -44,6 +43,11 @@ const parseItem = (item) => {
             })) ?? [],
         market_hash_name: getMarketHashName(item),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            loc_name: item.loc_name
+        }
     };
 };
 

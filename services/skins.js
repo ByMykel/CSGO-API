@@ -110,7 +110,6 @@ const parseItem = (item, items) => {
                   pattern: $t(paintKits[pattern]?.description_tag),
               })
             : `${translatedName} | ${$t(paintKits[pattern]?.description_tag)}`,
-        code: items[weapon].name,
         description: getDescription(translatedDescription, paintKits, pattern),
         weapon: {
             id: weapon,
@@ -164,6 +163,11 @@ const parseItem = (item, items) => {
         },
         legacy_model: paintKits[pattern]?.legacy_model,
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: items[weapon].name,
+        }
     };
 };
 
@@ -182,7 +186,6 @@ export const getSkins = () => {
             name: $tc("rare_special_vanilla", {
                 item_name: $t(knife.item_name),
             }),
-            code: knife.name,
             description: $t(knife.item_description),
             weapon: {
                 id: knife.item_name,
@@ -214,6 +217,11 @@ export const getSkins = () => {
             },
             legacy_model: true,
             image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
+
+            // Return original attributes from item_game.json
+            original: {
+                name: knife.name
+            }
         })),
     ].filter((skin) => !skin.name.includes("null") && skin.rarity.id);
 

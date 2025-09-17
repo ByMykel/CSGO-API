@@ -107,7 +107,6 @@ const parseItem = (item) => {
                   item_name: $t(item.item_name),
               })
             : $t(item.item_name),
-        code: item.item_name,
         description: item.item_description
             ? $t(item.item_description)
             : item.item_description_prefab
@@ -123,6 +122,11 @@ const parseItem = (item) => {
         genuine: isAttendance,
         market_hash_name: getMarketHashName(item),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            item_name: item.item_name
+        }
     };
 };
 
