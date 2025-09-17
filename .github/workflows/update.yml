@@ -1,27 +1,43 @@
 name: Update JSON API
 
 on:
-    workflow_dispatch:
-    schedule:
-        - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force download (ignore existing files)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "0 * * * *"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: 24
-            - name: Generate new data
-              run: npm install && npm run update-data
-            - name: Read manifestIdUpdate.txt
-              id: manifestId
-              uses: juliangruber/read-file-action@v1
-              with:
-                  path: ./manifestIdUpdate.txt
-            - name: Commit & push changes
-              uses: stefanzweifel/git-auto-commit-action@v4
-              with:
-                  commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Generate new data
+        run: npm install && npm run ${{ github.event.inputs.force == 'true' && 'update-data-force' || 'update-data' }}
+      - name: Read manifestIdUpdate.txt
+        id: manifestId
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./manifestIdUpdate.txt
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
+      - name: Trigger group workflow
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: trigger-group-workflow
+          client-payload: '{"ref": "${{ github.ref }}"}'

@@ -1,24 +1,27 @@
 name: Deploy to GitHub pages
 
 on:
-    workflow_dispatch:
-    schedule:
-        - cron: "0 6 * * *"
+  workflow_dispatch:
+  # schedule:
+  #     - cron: "0 6 * * *"
+  push:
+    paths:
+      - "public/index.html"
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v4
-            - run: |
-                  git init
-                  git add -A
-                  git config --local user.email "github-actions[bot]"
-                  git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
-                  git commit -m 'deploy'
-              working-directory: ./public
-            - uses: JamesIves/github-pages-deploy-action@v4.3.3
-              with:
-                  branch: gh-pages
-                  folder: public
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git init
+          git add -A
+          git config --local user.email "github-actions[bot]"
+          git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m 'deploy'
+        working-directory: ./public
+      - uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: public
