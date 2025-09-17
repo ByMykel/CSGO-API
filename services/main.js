@@ -691,27 +691,27 @@ export const loadHighlights = () => {
 };
 
 export const loadProTeams = () => {
-    state.proTeams = Object.entries(state.itemsGame.pro_teams)
-        .map(([key, item]) => ({
-            ...item,
-            object_id: key,
-        }));
-
-    state.proTeams = Object.fromEntries(
-        state.proTeams.map((item) => [item.object_id, item])
-    );
+    state.proTeams = Object.entries(state.itemsGame.pro_teams).reduce((acc, [id, item]) => {
+        acc[id] = {
+            id: parseInt(id),
+            tag: item.tag,
+            geo: item.geo,
+        };
+        return acc;
+    }, {});
 };
 
 export const loadProPlayers = () => {
-    state.proPlayers = Object.entries(state.itemsGame.pro_players)
-        .map(([key, item]) => ({
-            ...item,
-            object_id: key,
-        }));
-
-    state.proPlayers = Object.fromEntries(
-        state.proPlayers.map((item) => [item.object_id, item])
-    );
+    state.proPlayers = Object.entries(state.itemsGame.pro_players).reduce((acc, [id, item]) => {
+        acc[id] = {
+            id: parseInt(id),
+            name: item.name,
+            code: item.code,
+            dob: item.dob,
+            geo: item.geo,
+        };
+        return acc;
+    }, {});
 };
 
 const getItemFromKey = (key) => {

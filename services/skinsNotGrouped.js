@@ -154,7 +154,6 @@ const parseItem = (item, items) => {
                     pattern: $t(paintKits[pattern]?.description_tag),
                     wear: $t(wear),
                 }),
-            code: items[weapon].name,
             description: getDescription(
                 translatedDescription,
                 paintKits,
@@ -230,6 +229,11 @@ const parseItem = (item, items) => {
             },
             legacy_model: paintKits[pattern]?.legacy_model,
             image: formatSkinImage(image, wear),
+
+            // Return original attributes from item_game.json
+            original: {
+                name: items[weapon].name
+            }
         }))
     );
 };
@@ -255,7 +259,6 @@ export const getSkinsNotGrouped = () => {
                     name: $tc(type, {
                         item_name: $t(knife.item_name),
                     }),
-                    code: knife.name,
                     description: getVanillaDescription($t(knife.item_description), type === "rare_special_vanilla_stattrak"),
                     weapon: {
                         id: knife.item_name,
@@ -295,6 +298,11 @@ export const getSkinsNotGrouped = () => {
                     image: getImageUrl(
                         `econ/weapons/base_weapons/${knife.name}`
                     ),
+
+                    // Return original attributes from item_game.json
+                    original: {
+                        name: knife.name
+                    }
                 }))
             )
             .flatMap((level1) => level1),

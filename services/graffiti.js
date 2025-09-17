@@ -67,7 +67,6 @@ const parseItemSealedGraffiti = (item) => {
                 name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)} (${$t(
                     colorKey
                 )})`,
-                code: item.item_name,
                 description: getDescription(item),
                 def_index: item.object_id,
                 rarity: {
@@ -85,6 +84,11 @@ const parseItemSealedGraffiti = (item) => {
                 image: getImageUrl(
                     `econ/stickers/${item.sticker_material}_${index}`
                 ),
+
+                // Return original attributes from item_game.json
+                original: {
+                    item_name: item.item_name
+                }
             };
         });
     }
@@ -92,7 +96,6 @@ const parseItemSealedGraffiti = (item) => {
     return {
         id: `graffiti-${item.object_id}`,
         name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
-        code: item.name,
         description: getDescription(item),
         rarity: {
             id: `rarity_${item.item_rarity}`,
@@ -107,6 +110,11 @@ const parseItemSealedGraffiti = (item) => {
             })) ?? [],
         market_hash_name: getMarketHashName(item),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+        }
     };
 };
 

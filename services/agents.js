@@ -16,7 +16,6 @@ const parseItem = (item) => {
     return {
         id: `agent-${item.object_id}`,
         name: $t(item.item_name),
-        code: item.name,
         description: $t(item.item_description),
         def_index: item.object_id,
         rarity: {
@@ -39,7 +38,12 @@ const parseItem = (item) => {
         },
         market_hash_name: $t(item.item_name, true),
         image,
-        model_player: item.model_player ?? null
+        model_player: item.model_player ?? null,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+        }
     };
 };
 

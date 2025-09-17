@@ -156,40 +156,9 @@ const parseItem = (item) => {
         item.item_name = "#StickerKit_dhw2014_teamdignitas_gold";
     }
 
-    let tournament = null;
-    let team = null;
-    let player = null;
-
-    if (item.tournament_event_id) {
-        tournament = {
-            id: item.tournament_event_id,
-            name: $t(`CSGO_Tournament_Event_NameShort_${item.tournament_event_id}`)
-        };
-    }
-
-    if (item.tournament_team_id && proTeams[item.tournament_team_id]) {
-        team = {
-            id: item.tournament_team_id,
-            tag: proTeams[item.tournament_team_id].tag,
-            geo: proTeams[item.tournament_team_id].geo,
-            name: $t(`CSGO_TeamID_${item.tournament_team_id}`)
-        };
-    }
-
-    if (item.tournament_player_id && proPlayers[item.tournament_player_id]) {
-        player = {
-            id: item.tournament_player_id,
-            code: proPlayers[item.tournament_player_id].code,
-            geo: proPlayers[item.tournament_player_id].geo,
-            dob: proPlayers[item.tournament_player_id].dob,
-            name: proPlayers[item.tournament_player_id].name,
-        };
-    }
-
     return {
         id: `sticker-${item.object_id}`,
         name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
-        code: item.name,
         description: getDescription(item),
         def_index: item.object_id,
         rarity: item.item_rarity
@@ -209,21 +178,24 @@ const parseItem = (item) => {
                 ...i,
                 name: $t(i.name),
             })) ?? [],
-        tournament_event:
-            $t(`csgo_watch_cat_tournament_${item.tournament_event_id}`) ??
-            $t(`csgo_tournament_event_location_${item.tournament_event_id}`) ??
-            undefined,
-        tournament_team:
-            $t(`csgo_teamid_${item.tournament_team_id}`) ?? undefined,
-        tournament_player:
-            state.players[item.tournament_player_id] ?? undefined,
         type: getType(item),
         market_hash_name: getMarketHashName(item),
         effect: getEffect(item),
-        tournament,
-        team,
-        player,
+        tournament:item.tournament_event_id ? {
+            id: item.tournament_event_id,
+            name: $t(`csgo_tournament_event_nameshort_${item.tournament_event_id}`)
+        } : undefined,
+        team: proTeams[item.tournament_team_id] ?{
+            ...proTeams[item.tournament_team_id],
+            name: $t(`csgo_teamid_${item.tournament_team_id}`)
+        } : undefined,
+        player: proPlayers[item.tournament_player_id] ?? undefined,
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name
+        }
     };
 };
 
