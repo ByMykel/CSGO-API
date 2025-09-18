@@ -35,9 +35,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
-      - name: Trigger group workflow
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: trigger-group-workflow
-          client-payload: '{"ref": "${{ github.ref }}"}'

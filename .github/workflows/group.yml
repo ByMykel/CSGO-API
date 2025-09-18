@@ -10,8 +10,9 @@ on:
         type: boolean
   # schedule:
   #   - cron: "30 5 * * *"
-  repository_dispatch:
-    types: [trigger-group-workflow]
+  workflow_run:
+    workflows: ["Update JSON API"]
+    types: [completed]
 
 jobs:
   build:
