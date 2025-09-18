@@ -110,6 +110,7 @@ const parseItem = (item, items) => {
                   pattern: $t(paintKits[pattern]?.description_tag),
               })
             : `${translatedName} | ${$t(paintKits[pattern]?.description_tag)}`,
+        code: items[weapon].name,
         description: getDescription(translatedDescription, paintKits, pattern),
         weapon: {
             id: weapon,
@@ -181,6 +182,7 @@ export const getSkins = () => {
             name: $tc("rare_special_vanilla", {
                 item_name: $t(knife.item_name),
             }),
+            code: knife.name,
             description: $t(knife.item_description),
             weapon: {
                 id: knife.item_name,
