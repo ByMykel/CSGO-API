@@ -640,7 +640,8 @@ export const loadStattrakSkins = () => {
     const crates = {};
 
     Object.values(items).forEach((item) => {
-        if (item.prefab === "weapon_case") {
+        const prefab = (item.prefab || "").split(" ")
+        if (prefab.includes("weapon_case") || prefab.includes("volatile_pricing")) {
             const name = item?.tags?.ItemSet?.tag_value;
 
             if (name !== undefined) {
