@@ -25,7 +25,13 @@ jobs:
         with:
           node-version: 24
       - name: Generate new data
+        id: update-data
         run: npm install && npm run ${{ github.event.inputs.force == 'true' && 'update-data-force' || 'update-data' }}
+      - name: Skip if no updates needed
+        if: steps.update-data.outcome != 'success'
+        run: |
+          echo "No updates needed - manifest already up to date"
+          exit 78  # GitHub's "skipped" exit code
       - name: Read manifestIdUpdate.txt
         id: manifestId
         uses: juliangruber/read-file-action@v1
