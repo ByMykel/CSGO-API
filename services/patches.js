@@ -41,6 +41,11 @@ const parseItem = (item) => {
             true
         )}`,
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+        }
     };
 };
 

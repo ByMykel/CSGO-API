@@ -145,7 +145,7 @@ const getMarketHashName = (item) => {
 };
 
 const parseItem = (item) => {
-    const { cratesBySkins } = state;
+    const { cratesBySkins, proTeams, proPlayers } = state;
 
     const image = getImageUrl(
         `econ/stickers/${item.sticker_material.toLowerCase()}`
@@ -178,18 +178,24 @@ const parseItem = (item) => {
                 ...i,
                 name: $t(i.name),
             })) ?? [],
-        tournament_event:
-            $t(`csgo_watch_cat_tournament_${item.tournament_event_id}`) ??
-            $t(`csgo_tournament_event_location_${item.tournament_event_id}`) ??
-            undefined,
-        tournament_team:
-            $t(`csgo_teamid_${item.tournament_team_id}`) ?? undefined,
-        tournament_player:
-            state.players[item.tournament_player_id] ?? undefined,
         type: getType(item),
         market_hash_name: getMarketHashName(item),
         effect: getEffect(item),
+        tournament:item.tournament_event_id ? {
+            id: item.tournament_event_id,
+            name: $t(`csgo_tournament_event_nameshort_${item.tournament_event_id}`)
+        } : undefined,
+        team: proTeams[item.tournament_team_id] ?{
+            ...proTeams[item.tournament_team_id],
+            name: $t(`csgo_teamid_${item.tournament_team_id}`)
+        } : undefined,
+        player: proPlayers[item.tournament_player_id] ?? undefined,
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name
+        }
     };
 };
 

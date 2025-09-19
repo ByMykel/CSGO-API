@@ -176,7 +176,12 @@ const parseItem = (item, prefabs) => {
             image: item.image_unusual_item
                 ? getImageUrl(item.image_unusual_item)
                 : getImageUrl('econ/weapon_cases/default_rare_item'),
-        } : null
+        } : null,
+
+        // Return original attributes from item_game.json
+        original: {
+            item_name: item.item_name
+        }
     };
 };
 

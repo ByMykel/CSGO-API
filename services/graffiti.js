@@ -84,6 +84,11 @@ const parseItemSealedGraffiti = (item) => {
                 image: getImageUrl(
                     `econ/stickers/${item.sticker_material}_${index}`
                 ),
+
+                // Return original attributes from item_game.json
+                original: {
+                    item_name: item.item_name
+                }
             };
         });
     }
@@ -105,6 +110,11 @@ const parseItemSealedGraffiti = (item) => {
             })) ?? [],
         market_hash_name: getMarketHashName(item),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+        }
     };
 };
 

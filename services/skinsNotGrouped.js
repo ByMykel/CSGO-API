@@ -229,6 +229,11 @@ const parseItem = (item, items) => {
             },
             legacy_model: paintKits[pattern]?.legacy_model,
             image: formatSkinImage(image, wear),
+
+            // Return original attributes from item_game.json
+            original: {
+                name: items[weapon].name
+            }
         }))
     );
 };
@@ -270,6 +275,7 @@ export const getSkinsNotGrouped = () => {
                         color: getRarityColor(`rarity_ancient_weapon`),
                     },
                     stattrak: type === "rare_special_vanilla_stattrak",
+                    paint_index: null,
                     market_hash_name: skinMarketHashName({
                         itemName: $t(knife.item_name, true),
                         pattern: null,
@@ -292,6 +298,11 @@ export const getSkinsNotGrouped = () => {
                     image: getImageUrl(
                         `econ/weapons/base_weapons/${knife.name}`
                     ),
+
+                    // Return original attributes from item_game.json
+                    original: {
+                        name: knife.name
+                    }
                 }))
             )
             .flatMap((level1) => level1),

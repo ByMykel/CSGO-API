@@ -67,6 +67,11 @@ const parseItem = (item) => {
             })
         ),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+        }
     };
 };
 
@@ -89,6 +94,12 @@ const parseItemSelfOpening = (item) => {
             },
         })),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: item.name,
+            item_name: item.item_name
+        }
     };
 };
 

@@ -43,6 +43,11 @@ const parseItem = (item) => {
             })) ?? [],
         market_hash_name: getMarketHashName(item),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            loc_name: item.loc_name
+        }
     };
 };
 

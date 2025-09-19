@@ -98,6 +98,11 @@ const parseItem = (item) => {
         market_hash_name: marketable.includes(item.item_name) ? $t(item.item_name, true) : null,
         marketable: marketable.includes(item.item_name),
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            item_name: item.item_name
+        }
     };
 };
 
