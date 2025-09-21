@@ -27,6 +27,8 @@ const parseItem = (item) => {
         market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
         image: item.image,
         video: folder === "zh-CN" ? item.video.replace("_ww_", "_cn_") : item.video,
+        // TODO: would be great to have chinese thumbnail as well
+        thumbnail: item.thumbnail,
     };
 };
 
