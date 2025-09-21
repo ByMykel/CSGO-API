@@ -687,6 +687,7 @@ export const loadHighlights = () => {
             tournament_player: getPlayerNameOfHighlight(item.id, state.players),
             image: getImageUrl(`econ/keychains/${item.id.split('_')[0]}/kc_${item.id.split('_')[0]}`),
             video: video,
+            thumbnail: `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/highlightreels/${tournamentString}/${matchString}/${tournamentString}_${matchString}_${item.map}_${item.id}_ww.webp`,
         };
     });
 };
