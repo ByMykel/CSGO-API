@@ -39,7 +39,7 @@ if (isForce) {
     // since we now pull data from there too.
     if (existingManifestId == latestManifestId) {
         console.log("Latest manifest Id matches existing manifest Id, exiting");
-        process.exit(78);
+        process.exit(0);
     } else {
         console.log(
             "Latest manifest Id does not match existing manifest Id, generating new data."
