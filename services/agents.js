@@ -42,11 +42,11 @@ const parseItem = (item) => {
     };
 };
 
-export const getAgents = () => {
+export const getAgents = async () => {
     const { items } = state;
     const { folder } = languageData;
 
     const agents = Object.values(items).filter(isAgent).map(parseItem);
 
-    saveDataJson(`./public/api/${folder}/agents.json`, agents);
+    await saveDataJson(`./public/api/${folder}/agents.json`, agents);
 };

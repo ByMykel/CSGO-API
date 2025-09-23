@@ -125,7 +125,7 @@ const parseItem = (item) => {
     };
 };
 
-export const getCollectibles = () => {
+export const getCollectibles = async () => {
     const { items } = state;
     const { folder } = languageData;
 
@@ -134,5 +134,5 @@ export const getCollectibles = () => {
         .map(parseItem)
         .filter((collectible) => collectible.name);
 
-    saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
+    await saveDataJson(`./public/api/${folder}/collectibles.json`, collectibles);
 };

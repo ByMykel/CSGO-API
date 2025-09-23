@@ -51,7 +51,7 @@ if (isForce) {
 
 await loadData();
 
-for (const language of LANGUAGES_URL) {
+await Promise.all(LANGUAGES_URL.map(async (language) => {
     console.log(`Language: ${language.language}`);
 
     try {
@@ -75,7 +75,7 @@ for (const language of LANGUAGES_URL) {
     } catch (error) {
         console.log(error);
     }
-}
+}));
 
 try {
     fs.writeFileSync("./manifestIdUpdate.txt", latestManifestId.toString());

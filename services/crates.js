@@ -180,7 +180,7 @@ const parseItem = (item, prefabs) => {
     };
 };
 
-export const getCrates = () => {
+export const getCrates = async () => {
     const { items, prefabs } = state;
     const { folder } = languageData;
 
@@ -189,5 +189,5 @@ export const getCrates = () => {
         .map((item) => parseItem(item, prefabs))
         .filter((crate) => crate.name);
 
-    saveDataJson(`./public/api/${folder}/crates.json`, crates);
+    await saveDataJson(`./public/api/${folder}/crates.json`, crates);
 };

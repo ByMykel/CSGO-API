@@ -92,7 +92,7 @@ const parseItemSelfOpening = (item) => {
     };
 };
 
-export const getCollections = () => {
+export const getCollections = async () => {
     const { items, itemSets } = state;
     const { folder } = languageData;
 
@@ -103,5 +103,5 @@ export const getCollections = () => {
             .map(parseItemSelfOpening),
     ].filter((collection) => collection.name);
 
-    saveDataJson(`./public/api/${folder}/collections.json`, collections);
+    await saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };
