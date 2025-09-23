@@ -36,13 +36,25 @@ jobs:
         if: steps.update-data.outcome != 'success'
         run: |
           echo "No updates needed - manifest already up to date"
-          exit 78  # GitHub's "skipped" exit code
+          echo "skipped=true" >> $GITHUB_OUTPUT
+          exit 0
       - name: Read manifestIdUpdate.txt
         id: manifestId
         uses: juliangruber/read-file-action@v1
         with:
           path: ./manifestIdUpdate.txt
       - name: Commit & push changes
+        if: steps.update-data.outcome == 'success'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[bot::update] manifest ${{ steps.manifestId.outputs.content }}"
+      - name: Set job status
+        if: always()
+        run: |
+          if [ "${{ steps.update-data.outcome }}" != "success" ]; then
+            echo "::notice::Workflow skipped - no updates needed"
+            echo "Job status: SKIPPED (no updates available)"
+          else
+            echo "::notice::Workflow completed successfully"
+            echo "Job status: SUCCESS (updates applied)"
+          fi
