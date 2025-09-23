@@ -889,22 +889,6 @@ export const getManifestId = async () => {
             // Decode base64 content and trim whitespace
             return Buffer.from(response.data.content, 'base64').toString('utf-8').trim();
         })
-        .catch(() => {
-            throw new Error(`Error loading latest manifest Id`);
-        });
-};
-
-
-export const getManifestIdFromImageTracker = async () => {
-    return axios
-        .get('https://api.github.com/repos/ByMykel/counter-strike-image-tracker/contents/static/manifestId.txt')
-        .then((response) => {
-            // Decode base64 content and trim whitespace
-            return Buffer.from(response.data.content, 'base64').toString('utf-8').trim();
-        })
-        .catch(() => {
-            throw new Error(`Error loading latest manifest Id`);
-        });
 };
 
 export const loadData = async () => {
