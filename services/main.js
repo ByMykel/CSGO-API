@@ -884,21 +884,24 @@ const getItemFromKey = (key) => {
 
 export const getManifestId = async () => {
     return axios
-        .get(
-            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt?t=${Date.now()}`
-        )
-        .then((data) => data.data)
+        .get('https://api.github.com/repos/ByMykel/counter-strike-file-tracker/contents/static/manifestId.txt')
+        .then((response) => {
+            // Decode base64 content and trim whitespace
+            return Buffer.from(response.data.content, 'base64').toString('utf-8').trim();
+        })
         .catch(() => {
             throw new Error(`Error loading latest manifest Id`);
         });
 };
 
+
 export const getManifestIdFromImageTracker = async () => {
     return axios
-        .get(
-            `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/manifestId.txt?t=${Date.now()}`
-        )
-        .then((data) => data.data)
+        .get('https://api.github.com/repos/ByMykel/counter-strike-image-tracker/contents/static/manifestId.txt')
+        .then((response) => {
+            // Decode base64 content and trim whitespace
+            return Buffer.from(response.data.content, 'base64').toString('utf-8').trim();
+        })
         .catch(() => {
             throw new Error(`Error loading latest manifest Id`);
         });
