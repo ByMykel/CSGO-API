@@ -32,6 +32,7 @@ jobs:
       - name: Generate new data
         id: update-data
         run: npm install && npm run ${{ github.event.inputs.force == 'true' && 'update-data-force' || 'update-data' }}
+        continue-on-error: true
       - name: Skip if no updates needed
         if: steps.update-data.outcome != 'success'
         run: |
