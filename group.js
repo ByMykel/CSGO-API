@@ -33,6 +33,10 @@ try {
     }
 }
 
+console.log("Latest manifest Id: ", latestManifestId);
+console.log("Latest manifest Id in Image Tracker: ", latestManifestIdInImageTracker);
+console.log("Existing manifest Id: ", existingManifestId);
+
 if (isForce) {
     console.log("Force flag detected, generating new data regardless of manifest Ids")
 } else {

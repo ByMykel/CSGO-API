@@ -885,7 +885,7 @@ const getItemFromKey = (key) => {
 export const getManifestId = async () => {
     return axios
         .get(
-            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt`
+            `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/manifestId.txt?t=${Date.now()}`
         )
         .then((data) => data.data)
         .catch(() => {
@@ -896,7 +896,7 @@ export const getManifestId = async () => {
 export const getManifestIdFromImageTracker = async () => {
     return axios
         .get(
-            `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/manifestId.txt`
+            `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/manifestId.txt?t=${Date.now()}`
         )
         .then((data) => data.data)
         .catch(() => {

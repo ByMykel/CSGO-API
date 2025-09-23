@@ -34,9 +34,14 @@ try {
     }
 }
 
+console.log("Latest manifest Id: ", latestManifestId);
+console.log("Latest manifest Id in Image Tracker: ", latestManifestIdInImageTracker);
+console.log("Existing manifest Id: ", existingManifestId);
+
 if (isForce) {
     console.log("Force flag detected, generating new data regardless of manifest Ids")
 } else {
+
     // TODO: Need to check if default_generated.json from counter-strike-image-tracker repo has changed,
     // since we now pull data from there too.
     if (existingManifestId == latestManifestId && existingManifestId == latestManifestIdInImageTracker) {
