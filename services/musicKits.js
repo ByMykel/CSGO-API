@@ -43,6 +43,11 @@ const parseItem = (item) => {
             market_hash_name: (exclusive || valve) ? null : `Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive,
             image,
+
+            // Return original attributes from item_game.json
+            original: {
+                name: item.name,
+            }
         };
 
         kits.push(normalMusicKit)
@@ -62,6 +67,11 @@ const parseItem = (item) => {
             market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
             image,
+
+            // Return original attributes from item_game.json
+            original: {
+                name: item.name,
+            }
         };
 
         kits.push(stattrakMusicKit)
