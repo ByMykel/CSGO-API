@@ -163,6 +163,11 @@ const parseItem = (item, items) => {
         },
         legacy_model: paintKits[pattern]?.legacy_model,
         image,
+
+        // Return original attributes from item_game.json
+        original: {
+            name: items[weapon].name,
+        }
     };
 };
 
@@ -212,6 +217,11 @@ export const getSkins = async () => {
             },
             legacy_model: true,
             image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
+
+            // Return original attributes from item_game.json
+            original: {
+                name: knife.name
+            }
         })),
     ].filter((skin) => !skin.name.includes("null") && skin.rarity.id);
 
