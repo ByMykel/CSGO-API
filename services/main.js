@@ -503,9 +503,9 @@ export const loadCollectionsByStickers = () => {
                             acc[stickerItem.id] = [];
                         }
 
-                        const fileName = collectionKey.replace("set_", "set-");
+                        const fileName = collectionKey.replace("set_", "");
                         acc[stickerItem.id].push({
-                            id: `collection-${fileName.replace(/_/g, "-")}`,
+                            id: `collection-set-${fileName.replace(/_/g, "-")}`,
                             name: itemSet.name_force ?? itemSet.name,
                             image: getImageUrl(`econ/set_icons/set_${fileName}`),
                         });
