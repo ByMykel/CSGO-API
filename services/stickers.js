@@ -130,7 +130,7 @@ const getMarketHashName = item => {
 };
 
 const parseItem = item => {
-    const { cratesBySkins, proTeams, proPlayers } = state;
+    const { cratesBySkins, proTeams, proPlayers, collectionsByStickers } = state;
 
     const image = getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
 
@@ -158,6 +158,11 @@ const parseItem = item => {
         special_notes: specialNotes?.[`sticker-${item.object_id}`],
         crates:
             cratesBySkins?.[`sticker-${item.object_id}`]?.map(i => ({
+                ...i,
+                name: $t(i.name),
+            })) ?? [],
+        collections:
+            collectionsByStickers?.[`sticker-${item.object_id}`]?.map(i => ({
                 ...i,
                 name: $t(i.name),
             })) ?? [],

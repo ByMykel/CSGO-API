@@ -45,10 +45,12 @@ export const loadItemsGame = async () => {
                 }
             });
             Object.entries(sets).forEach(([key, value]) => {
+                let keyTranslation = key;
+                if (keyTranslation === "community_2025") keyTranslation = "community2025";
                 state.itemsGame.item_sets[`set_${key}`] = {
                     name: `#CSGO_set_${key}`,
-                    name_force: `#CSGO_crate_${value.type}${key}_capsule`,
-                    set_description: `#CSGO_crate_${value.type}${key}_capsule_desc`,
+                    name_force: `#CSGO_crate_${value.type}${keyTranslation}_capsule`,
+                    set_description: `#CSGO_crate_${value.type}${keyTranslation}_capsule_desc`,
                     is_collection: 1,
                     items: value.items,
                 };
@@ -480,6 +482,39 @@ export const loadCollectionsBySkins = () => {
     );
 };
 
+export const loadCollectionsByStickers = () => {
+    state.collectionsByStickers = Object.entries(state.itemsGame.item_sets)
+        .filter(([key, value]) => {
+            // Only include item sets that have stickers and are collections
+            return (
+                value.is_collection &&
+                Object.keys(value.items).some(
+                    itemKey => itemKey.includes("[") && itemKey.includes("]sticker")
+                )
+            );
+        })
+        .reduce((acc, [collectionKey, itemSet]) => {
+            Object.keys(itemSet.items)
+                .filter(itemKey => itemKey.includes("[") && itemKey.includes("]sticker"))
+                .forEach(itemKey => {
+                    const stickerItem = getItemFromKey(itemKey);
+                    if (stickerItem && stickerItem.id) {
+                        if (!(stickerItem.id in acc)) {
+                            acc[stickerItem.id] = [];
+                        }
+
+                        const fileName = collectionKey.replace("set_", "");
+                        acc[stickerItem.id].push({
+                            id: `collection-${fileName.replace(/_/g, "-")}`,
+                            name: itemSet.name_force ?? itemSet.name,
+                            image: getImageUrl(`econ/set_icons/set_${fileName}`),
+                        });
+                    }
+                });
+            return acc;
+        }, {});
+};
+
 export const loadSouvenirSkins = () => {
     state.souvenirSkins = {
         ...Object.values(state.items)
@@ -796,6 +831,7 @@ export const loadData = async () => {
     loadSkinsByCollections();
     loadCratesByCollections();
     loadCollectionsBySkins();
+    loadCollectionsByStickers();
     loadSouvenirSkins();
     loadStattrakSkins();
     loadHighlights();
