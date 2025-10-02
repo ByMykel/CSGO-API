@@ -4,9 +4,9 @@ import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
-const isCollection = (item) => item.is_collection !== undefined;
+const isCollection = item => item.is_collection !== undefined;
 
-const isSelfOpeningCollection = (item) => {
+const isSelfOpeningCollection = item => {
     if (item.item_name === undefined) return false;
 
     if (!item.item_name.startsWith("#CSGO_crate")) {
@@ -37,7 +37,7 @@ const isSelfOpeningCollection = (item) => {
     return false;
 };
 
-const parseItem = (item) => {
+const parseItem = item => {
     const { skinsByCollections, cratesByCollections } = state;
 
     const fileName = `${item.name.replace("#CSGO_", "")}`;
@@ -46,36 +46,29 @@ const parseItem = (item) => {
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: item.name_force ? $t(item.name_force) : $t(item.name),
-        crates: (
-            cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []
-        ).map((i) => ({
+        crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(i => ({
             ...i,
             name: $t(i.name),
         })),
-        contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(
-            (i) => ({
-                ...i,
-                name:
-                    i.name instanceof Object
-                        ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
-                        : $t(i.name),
-                rarity: {
-                    id: i.rarity,
-                    name: $t(i.rarity),
-                    color: getRarityColor(i.rarity),
-                },
-            })
-        ),
+        contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(i => ({
+            ...i,
+            name: i.name instanceof Object ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}` : $t(i.name),
+            rarity: {
+                id: i.rarity,
+                name: $t(i.rarity),
+                color: getRarityColor(i.rarity),
+            },
+        })),
         image,
 
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-        }
+        },
     };
 };
 
-const parseItemSelfOpening = (item) => {
+const parseItemSelfOpening = item => {
     const { skinsByCollections } = state;
 
     const image = getImageUrl(item.image_inventory.toLowerCase());
@@ -84,7 +77,7 @@ const parseItemSelfOpening = (item) => {
         id: `collection-${item.object_id}`,
         name: $t(item.item_name),
         crates: [],
-        contains: (skinsByCollections?.[item.name] ?? []).map((i) => ({
+        contains: (skinsByCollections?.[item.name] ?? []).map(i => ({
             ...i,
             name: $t(i.name),
             rarity: {
@@ -98,8 +91,8 @@ const parseItemSelfOpening = (item) => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-            item_name: item.item_name
-        }
+            item_name: item.item_name,
+        },
     };
 };
 
@@ -109,10 +102,8 @@ export const getCollections = async () => {
 
     const collections = [
         ...itemSets.filter(isCollection).map(parseItem),
-        ...Object.values(items)
-            .filter(isSelfOpeningCollection)
-            .map(parseItemSelfOpening),
-    ].filter((collection) => collection.name);
+        ...Object.values(items).filter(isSelfOpeningCollection).map(parseItemSelfOpening),
+    ].filter(collection => collection.name);
 
     await saveDataJson(`./public/api/${folder}/collections.json`, collections);
 };

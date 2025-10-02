@@ -4,14 +4,12 @@ import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
-const isAgent = (item) => item.prefab === "customplayertradable";
+const isAgent = item => item.prefab === "customplayertradable";
 
-const parseItem = (item) => {
+const parseItem = item => {
     const { collectionsBySkins } = state;
 
-    const image = getImageUrl(
-        `econ/characters/${item.name.toLocaleLowerCase()}`
-    );
+    const image = getImageUrl(`econ/characters/${item.name.toLocaleLowerCase()}`);
 
     return {
         id: `agent-${item.object_id}`,
@@ -23,12 +21,10 @@ const parseItem = (item) => {
             name: $t(`rarity_${item.item_rarity}_character`),
             color: getRarityColor(`rarity_${item.item_rarity}_character`),
         },
-        collections: collectionsBySkins?.[`agent-${item.object_id}`]?.map(
-            (i) => ({
-                ...i,
-                name: $t(i.name),
-            })
-        ),
+        collections: collectionsBySkins?.[`agent-${item.object_id}`]?.map(i => ({
+            ...i,
+            name: $t(i.name),
+        })),
         team: {
             id: Object.keys(item.used_by_classes)[0],
             name:
@@ -43,7 +39,7 @@ const parseItem = (item) => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-        }
+        },
     };
 };
 

@@ -5,7 +5,7 @@ import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
-const isSticker = (item) => {
+const isSticker = item => {
     if (item.sticker_material === undefined) {
         return false;
     }
@@ -25,9 +25,11 @@ const isSticker = (item) => {
     return true;
 };
 
-const getDescription = (item) => {
-    const commemoratesText = item.tournament_event_id ? `<span style='color:#ffd700;'>${$t(`csgo_event_desc`).replace('%s1', $t(`csgo_tournament_event_name_${item.tournament_event_id}`))}</span><br/><br/> ` : '';
-    
+const getDescription = item => {
+    const commemoratesText = item.tournament_event_id
+        ? `<span style='color:#ffd700;'>${$t(`csgo_event_desc`).replace("%s1", $t(`csgo_tournament_event_name_${item.tournament_event_id}`))}</span><br/><br/> `
+        : "";
+
     let msg = $t("CSGO_Tool_Sticker_Desc");
     let desc = $t(item.description_string);
     if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
@@ -36,7 +38,7 @@ const getDescription = (item) => {
     return `${commemoratesText}${msg}`;
 };
 
-const getType = (item) => {
+const getType = item => {
     if (item.tournament_player_id) {
         return "Autograph";
     }
@@ -52,11 +54,8 @@ const getType = (item) => {
     return "Other";
 };
 
-const getEffect = (item) => {
-    if (
-        $t(item.item_name, true).includes("(Holo)") ||
-        $t(item.item_name, true).includes("(Holo, ")
-    ) {
+const getEffect = item => {
+    if ($t(item.item_name, true).includes("(Holo)") || $t(item.item_name, true).includes("(Holo, ")) {
         return "Holo";
     }
 
@@ -68,24 +67,18 @@ const getEffect = (item) => {
         return "Lenticular";
     }
 
-    if (
-        $t(item.item_name, true).includes("(Glitter)") ||
-        $t(item.item_name, true).includes("(Glitter, ")
-    ) {
+    if ($t(item.item_name, true).includes("(Glitter)") || $t(item.item_name, true).includes("(Glitter, ")) {
         return "Glitter";
     }
 
-    if (
-        $t(item.item_name, true).includes("(Gold)") ||
-        $t(item.item_name, true).includes("(Gold, ")
-    ) {
+    if ($t(item.item_name, true).includes("(Gold)") || $t(item.item_name, true).includes("(Gold, ")) {
         return "Gold";
     }
 
     return "Other";
 };
 
-const getMarketHashName = (item) => {
+const getMarketHashName = item => {
     // 1 - DreamHack 2013
     if (item.tournament_event_id === 1) {
         return null;
@@ -94,8 +87,7 @@ const getMarketHashName = (item) => {
     // 3 - Katowice 2014
     if (item.tournament_event_id === 3) {
         if (
-            (getType(item) === "Event" &&
-                item.sticker_material.includes("gold_foil")) ||
+            (getType(item) === "Event" && item.sticker_material.includes("gold_foil")) ||
             (getEffect(item) === "Foil" && getType(item) === "Team")
         ) {
             return null;
@@ -104,10 +96,7 @@ const getMarketHashName = (item) => {
 
     // 4 - Cologne 2014
     if (item.tournament_event_id === 4) {
-        if (
-            getEffect(item) === "Foil" ||
-            item.sticker_material === "cologne2014/esl_c"
-        ) {
+        if (getEffect(item) === "Foil" || item.sticker_material === "cologne2014/esl_c") {
             return null;
         }
     }
@@ -124,11 +113,7 @@ const getMarketHashName = (item) => {
     // 14 - London 2018
     // 15 - Katowice 2019
     // 16 - Berlin 2019
-    if (
-        [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].includes(
-            item.tournament_event_id
-        )
-    ) {
+    if ([5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].includes(item.tournament_event_id)) {
         if (item.item_rarity === "legendary" && getEffect(item) === "Gold") {
             return null;
         }
@@ -144,12 +129,10 @@ const getMarketHashName = (item) => {
     return `${$t("csgo_tool_sticker", true)} | ${$t(item.item_name, true)}`;
 };
 
-const parseItem = (item) => {
+const parseItem = item => {
     const { cratesBySkins, proTeams, proPlayers } = state;
 
-    const image = getImageUrl(
-        `econ/stickers/${item.sticker_material.toLowerCase()}`
-    );
+    const image = getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {
@@ -163,39 +146,43 @@ const parseItem = (item) => {
         def_index: item.object_id,
         rarity: item.item_rarity
             ? {
-                id: `rarity_${item.item_rarity}`,
-                name: $t(`rarity_${item.item_rarity}`),
-                color: getRarityColor(`rarity_${item.item_rarity}`),
-            }
+                  id: `rarity_${item.item_rarity}`,
+                  name: $t(`rarity_${item.item_rarity}`),
+                  color: getRarityColor(`rarity_${item.item_rarity}`),
+              }
             : {
-                id: "rarity_default",
-                name: $t("rarity_default"),
-                color: getRarityColor("rarity_default"),
-            },
+                  id: "rarity_default",
+                  name: $t("rarity_default"),
+                  color: getRarityColor("rarity_default"),
+              },
         special_notes: specialNotes?.[`sticker-${item.object_id}`],
         crates:
-            cratesBySkins?.[`sticker-${item.object_id}`]?.map((i) => ({
+            cratesBySkins?.[`sticker-${item.object_id}`]?.map(i => ({
                 ...i,
                 name: $t(i.name),
             })) ?? [],
         type: getType(item),
         market_hash_name: getMarketHashName(item),
         effect: getEffect(item),
-        tournament:item.tournament_event_id ? {
-            id: item.tournament_event_id,
-            name: $t(`csgo_tournament_event_nameshort_${item.tournament_event_id}`)
-        } : undefined,
-        team: proTeams[item.tournament_team_id] ?{
-            ...proTeams[item.tournament_team_id],
-            name: $t(`csgo_teamid_${item.tournament_team_id}`)
-        } : undefined,
+        tournament: item.tournament_event_id
+            ? {
+                  id: item.tournament_event_id,
+                  name: $t(`csgo_tournament_event_nameshort_${item.tournament_event_id}`),
+              }
+            : undefined,
+        team: proTeams[item.tournament_team_id]
+            ? {
+                  ...proTeams[item.tournament_team_id],
+                  name: $t(`csgo_teamid_${item.tournament_team_id}`),
+              }
+            : undefined,
         player: proPlayers[item.tournament_player_id] ?? undefined,
         image,
 
         // Return original attributes from item_game.json
         original: {
-            name: item.name
-        }
+            name: item.name,
+        },
     };
 };
 
