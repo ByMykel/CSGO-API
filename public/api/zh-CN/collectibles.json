@@ -8766,6 +8766,78 @@
   }
  },
  {
+  "id": "collectible-5177",
+  "name": "Golden Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Golden'",
+  "def_index": "5177",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "非凡",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_golden_png.png",
+  "original": {
+   "item_name": "#CSGO_Collectible_MapTokenGolden"
+  }
+ },
+ {
+  "id": "collectible-5178",
+  "name": "Rooftop Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Rooftop'",
+  "def_index": "5178",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "非凡",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_rooftop_png.png",
+  "original": {
+   "item_name": "#CSGO_Collectible_MapTokenRooftop"
+  }
+ },
+ {
+  "id": "collectible-5179",
+  "name": "Palacio Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Palacio'",
+  "def_index": "5179",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "非凡",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_palacio_png.png",
+  "original": {
+   "item_name": "#CSGO_Collectible_MapTokenPalacio"
+  }
+ },
+ {
+  "id": "collectible-5180",
+  "name": "Transit Map Coin",
+  "description": "Commemorates authorship of the CS2 Map 'Transit'",
+  "def_index": "5180",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "非凡",
+   "color": "#eb4b4b"
+  },
+  "type": "Map Contributor Coin",
+  "genuine": false,
+  "market_hash_name": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/maptoken_transit_png.png",
+  "original": {
+   "item_name": "#CSGO_Collectible_MapTokenTransit"
+  }
+ },
+ {
   "id": "collectible-6001",
   "name": "炙热沙城 II 胸章（纯正）",
   "description": "这是一枚系列 1 的收藏胸章。您可以在个人资料上展示此胸章。",

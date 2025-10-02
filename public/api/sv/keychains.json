@@ -759,6 +759,771 @@
   }
  },
  {
+  "id": "keychain-38",
+  "name": "Hänge | Lil' Curse",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "38",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Curse",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_ancientcurse_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_ancientcurse"
+  }
+ },
+ {
+  "id": "keychain-39",
+  "name": "Hänge | Lil' Serpent",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "39",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Serpent",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_babyserpent_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_babyserpent"
+  }
+ },
+ {
+  "id": "keychain-40",
+  "name": "Hänge | Lil' Baller",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "40",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Baller",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_basketball_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_basketball"
+  }
+ },
+ {
+  "id": "keychain-41",
+  "name": "Hänge | Dead Weight",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "41",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Dead Weight",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_bodybag_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_bodybag"
+  }
+ },
+ {
+  "id": "keychain-42",
+  "name": "Hänge | Lil' Prick",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "42",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Prick",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_cactus_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_cactus"
+  }
+ },
+ {
+  "id": "keychain-43",
+  "name": "Hänge | Lil' Buns",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "43",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Buns",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_charmburger_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_charmburger"
+  }
+ },
+ {
+  "id": "keychain-44",
+  "name": "Hänge | Lil' Smokey",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "44",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Smokey",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_cigar_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_cigar"
+  }
+ },
+ {
+  "id": "keychain-45",
+  "name": "Hänge | Lil' Eldritch",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "45",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Eldritch",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_cthulhu_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_cthulhu"
+  }
+ },
+ {
+  "id": "keychain-46",
+  "name": "Hänge | Lil' Happy",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "46",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Happy",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_happy_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_happy"
+  }
+ },
+ {
+  "id": "keychain-47",
+  "name": "Hänge | Magmatude",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "47",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Magmatude",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_lilhothead_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_lilhothead"
+  }
+ },
+ {
+  "id": "keychain-48",
+  "name": "Hänge | Lil' Cackle",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "48",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Cackle",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_lillol_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_lillol"
+  }
+ },
+ {
+  "id": "keychain-49",
+  "name": "Hänge | Quick Silver",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "49",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Quick Silver",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_melted_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_melted"
+  }
+ },
+ {
+  "id": "keychain-50",
+  "name": "Hänge | Lil' No. 2",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "50",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' No. 2",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_pencil_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_pencil"
+  }
+ },
+ {
+  "id": "keychain-51",
+  "name": "Hänge | Piñatita",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "51",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Piñatita",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_pinata_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_pinata"
+  }
+ },
+ {
+  "id": "keychain-52",
+  "name": "Hänge | Pocket Pop",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "52",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Pocket Pop",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_popsicle_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_popsicle"
+  }
+ },
+ {
+  "id": "keychain-53",
+  "name": "Hänge | Lil' Hero",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "53",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Hero",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_sentai_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_sentai"
+  }
+ },
+ {
+  "id": "keychain-54",
+  "name": "Hänge | Lil' Tusk",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "54",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Tusk",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_sillyelephant_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_sillyelephant"
+  }
+ },
+ {
+  "id": "keychain-55",
+  "name": "Hänge | Lil' Goop",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "55",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Goop",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_slime_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_slime"
+  }
+ },
+ {
+  "id": "keychain-56",
+  "name": "Hänge | Hang Loose",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "56",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Hang Loose",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_surfsup_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_surfsup"
+  }
+ },
+ {
+  "id": "keychain-57",
+  "name": "Hänge | Lil' Vino",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "57",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Vino",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_winemaker_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_winemaker"
+  }
+ },
+ {
+  "id": "keychain-58",
+  "name": "Hänge | Lil' Moments",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "58",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Moments",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_retrovision_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_retrovision"
+  }
+ },
+ {
+  "id": "keychain-59",
+  "name": "Hänge | Lil' Boo",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "59",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Boo",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_muteghost_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_muteghost"
+  }
+ },
+ {
+  "id": "keychain-60",
+  "name": "Hänge | Lil' Chirp",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "60",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Chirp",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink_community_01/kc_missinglink_lilhatchling_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_missinglink_lilhatchling"
+  }
+ },
+ {
+  "id": "keychain-61",
+  "name": "Hänge | Big Brain",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "61",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Big Brain",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_200iq_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_200iq"
+  }
+ },
+ {
+  "id": "keychain-62",
+  "name": "Hänge | Biomech",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "62",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Biomech",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_biomech_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_biomech"
+  }
+ },
+ {
+  "id": "keychain-63",
+  "name": "Hänge | Splatter Cat",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "63",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Splatter Cat",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_hellcat_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_hellcat"
+  }
+ },
+ {
+  "id": "keychain-64",
+  "name": "Hänge | Gritty",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "64",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Gritty",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_terror_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_terror"
+  }
+ },
+ {
+  "id": "keychain-65",
+  "name": "Hänge | Fluffy",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "65",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Fluffy",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_ugly_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_ugly"
+  }
+ },
+ {
+  "id": "keychain-66",
+  "name": "Hänge | Whittle Guy",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "66",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Whittle Guy",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_wood_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_wood"
+  }
+ },
+ {
+  "id": "keychain-67",
+  "name": "Hänge | Lil' Zen",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "67",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "Högkvalitet",
+   "color": "#4b69ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Zen",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_yinyang_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_yinyang"
+  }
+ },
+ {
+  "id": "keychain-68",
+  "name": "Hänge | Lil' Facelift",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "68",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Facelift",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_aztec_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_aztec"
+  }
+ },
+ {
+  "id": "keychain-69",
+  "name": "Hänge | Lil' Chomper",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "69",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Chomper",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_bombacat_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_bombacat"
+  }
+ },
+ {
+  "id": "keychain-70",
+  "name": "Hänge | Lil' Bloody",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "70",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Bloody",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_clown_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_clown"
+  }
+ },
+ {
+  "id": "keychain-71",
+  "name": "Hänge | Lil' Dumplin'",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "71",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Dumplin'",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_dimsum_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_dimsum"
+  }
+ },
+ {
+  "id": "keychain-72",
+  "name": "Hänge | Bomb Tag",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "72",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Bomb Tag",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_eviscerate_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_eviscerate"
+  }
+ },
+ {
+  "id": "keychain-73",
+  "name": "Hänge | Glitter Bomb",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "73",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Glitter Bomb",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_dripfade_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_dripfade"
+  }
+ },
+ {
+  "id": "keychain-74",
+  "name": "Hänge | Lil' Eco",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "74",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Eco",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_eco_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_eco"
+  }
+ },
+ {
+  "id": "keychain-75",
+  "name": "Hänge | Hungry Eyes",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "75",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Hungry Eyes",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_eyecritter_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_eyecritter"
+  }
+ },
+ {
+  "id": "keychain-76",
+  "name": "Hänge | Eye of Ball",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "76",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Eye of Ball",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_occult_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_occult"
+  }
+ },
+ {
+  "id": "keychain-77",
+  "name": "Hänge | Lil' Yeti",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "77",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Yeti",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_yeti_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_yeti"
+  }
+ },
+ {
+  "id": "keychain-78",
+  "name": "Hänge | 8 Ball IGL",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "78",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | 8 Ball IGL",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_8ball_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_8ball"
+  }
+ },
+ {
+  "id": "keychain-79",
+  "name": "Hänge | Flash Bomb",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "79",
+  "rarity": {
+   "id": "rarity_legendary",
+   "name": "Exotisk",
+   "color": "#d32ce6"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Flash Bomb",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_flash_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_flash"
+  }
+ },
+ {
+  "id": "keychain-80",
+  "name": "Hänge | Lil' Ferno",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "80",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Lil' Ferno",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_incendiary_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_incendiary"
+  }
+ },
+ {
+  "id": "keychain-81",
+  "name": "Hänge | Butane Buddy",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "81",
+  "rarity": {
+   "id": "rarity_ancient",
+   "name": "Extraordinär",
+   "color": "#eb4b4b"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Butane Buddy",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_lighter_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_lighter"
+  }
+ },
+ {
+  "id": "keychain-82",
+  "name": "Hänge | Dr. Brian",
+  "description": "Detta hänge kan fästas på vilket som helst av dina vapen. Varje fastsatt hänge kan tas loss genom att använda en hängesavlägsnare. Avlägsnade hängen returneras till ditt förråd.",
+  "def_index": "82",
+  "rarity": {
+   "id": "rarity_mythical",
+   "name": "Enastående",
+   "color": "#8847ff"
+  },
+  "collections": [],
+  "market_hash_name": "Charm | Dr. Brian",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/drboom/kc_db_drbrian_png.png",
+  "original": {
+   "loc_name": "#keychain_kc_db_drbrian"
+  }
+ },
+ {
   "id": "highlight-aus2025_chopper2kvsmouzonmirage1",
   "name": "Souvenir Charm | Höjdpunkt: Austin 2025 | choppers dubbelkill",
   "description": "chopper får två kills från balkongen på Mirage under försvaret av bombplats A.",
