@@ -19,122 +19,40 @@ export const loadItemsGame = async () => {
         .get(ITEMS_GAME_URL)
         .then((data) => {
             state.itemsGame = data.data.items_game;
-            // Had to hardcode this because it's easier.
-            state.itemsGame.item_sets["set_kc_missinglink"] = {
-                name: "#CSGO_set_kc_missinglink",
-                name_force: "#CSGO_crate_keychain_pack_kc_missinglink_capsule",
-                set_description:
-                    "#CSGO_crate_keychain_pack_kc_missinglink_capsule_desc",
-                is_collection: 1,
-                items: {
-                    "[kc_missinglink_ava]keychain": 1,
-                    "[kc_missinglink_ava]keychain": 1,
-                    "[kc_missinglink_sam_salty]keychain": 1,
-                    "[kc_missinglink_sam_catchup]keychain": 1,
-                    "[kc_missinglink_sas]keychain": 1,
-                    "[kc_missinglink_guerilla]keychain": 1,
-                    "[kc_missinglink_kev]keychain": 1,
-                    "[kc_missinglink_chicken]keychain": 1,
-                    "[kc_missinglink_banana]keychain": 1,
-                    "[kc_missinglink_cat]keychain": 1,
-                    "[kc_missinglink_catbeach]keychain": 1,
-                    "[kc_missinglink_bigfoot]keychain": 1,
-                    "[kc_missinglink_sam_toile]keychain": 1,
-                    "[kc_missinglink_monster]keychain": 1,
-                    "[kc_missinglink_sam_diamond]keychain": 1,
-                    "[kc_missinglink_sam_shape]keychain": 1,
-                    "[kc_missinglink_howl]keychain": 1,
-                    "[kc_missinglink_wurst]keychain": 1,
-                },
-            };
-            state.itemsGame.item_sets["set_kc_weapon_01"] = {
-                name: "#CSGO_set_kc_weapon_01",
-                name_force: "#CSGO_crate_keychain_pack_kc_weapon_01_capsule",
-                is_collection: 1,
-                items: {
-                    "[kc_wpn_ak_base]keychain": 1,
-                    "[kc_wpn_usp_yarn]keychain": 1,
-                    "[kc_wpn_tec9_cap]keychain": 1,
-                    "[kc_wpn_awp_plastic]keychain": 1,
-                    "[kc_wpn_mac10_tile]keychain": 1,
-                    "[kc_wpn_ctknife_wood]keychain": 1,
-                    "[kc_wpn_m4a1s_comic]keychain": 1,
-                    "[kc_wpn_usp_jewel]keychain": 1,
-                    "[kc_wpn_ak_jelly]keychain": 1,
-                    "[kc_wpn_mac10_glitter]keychain": 1,
-                    "[kc_wpn_tec9_magma]keychain": 1,
-                    "[kc_wpn_awp_spoon]keychain": 1,
-                    "[kc_wpn_m4a1s_ss]keychain": 1,
-                    "[kc_wpn_tknife_crystal]keychain": 1,
-                    "[kc_wpn_ctknife_gold]keychain": 1,
-                    "[kc_wpn_tknife_gold]keychain": 1,
-                },
-            };
-            state.itemsGame.item_sets["set_stkr_craft_01"] = {
-                name: "#CSGO_set_stkr_craft_01",
-                name_force: "#CSGO_crate_sticker_pack_stkr_craft_01_capsule",
-                is_collection: 1,
-                items: {
-                    "[paper_lightning_two]sticker": 1,
-                    "[paper_lightning_three]sticker": 1,
-                    "[paper_lightning_one]sticker": 1,
-                    "[paper_flames_two]sticker": 1,
-                    "[paper_flames]sticker": 1,
-                    "[paper_fire_one]sticker": 1,
-                    "[paper_fire_two]sticker": 1,
-                    "[paper_fire_three]sticker": 1,
-                    "[paper_explosion_two]sticker": 1,
-                    "[paper_explosion_three]sticker": 1,
-                    "[paper_explosion_one]sticker": 1,
-                    "[paper_explosion_four]sticker": 1,
-                    "[paper_water_one]sticker": 1,
-                    "[paper_water_two]sticker": 1,
-                    "[paper_water_three]sticker": 1,
-                    "[holo_rainbow_trail]sticker": 1,
-                    "[glitter_explosion_two]sticker": 1,
-                    "[glitter_explosion_three]sticker": 1,
-                    "[glitter_explosion_one]sticker": 1,
-                    "[glitter_explosion_four]sticker": 1,
-                    "[foil_lightning_two]sticker": 1,
-                    "[foil_lightning_three]sticker": 1,
-                    "[foil_lightning_one]sticker": 1,
-                    "[foil_fire_three]sticker": 1,
-                    "[lenticular_blood_one]sticker": 1,
-                    "[lenticular_blood_two]sticker": 1,
-                },
-            };
-            state.itemsGame.item_sets["set_stkr_craft_02"] = {
-                name: "#CSGO_set_stkr_craft_02",
-                name_force: "#CSGO_crate_sticker_pack_stkr_craft_02_capsule",
-                is_collection: 1,
-                items: {
-                    "[paper_arm_flex]sticker": 1,
-                    "[paper_clown_nose]sticker": 1,
-                    "[paper_clown_wig]sticker": 1,
-                    "[paper_ct_left_hand]sticker": 1,
-                    "[paper_eye]sticker": 1,
-                    "[paper_googly_eye_small]sticker": 1,
-                    "[paper_male_anime_face]sticker": 1,
-                    "[paper_mouth]sticker": 1,
-                    "[paper_ribbon]sticker": 1,
-                    "[paper_shark_mouth]sticker": 1,
-                    "[paper_t_left_hand]sticker": 1,
-                    "[paper_tentacle]sticker": 1,
-                    "[paper_tongue]sticker": 1,
-                    "[paper_wings]sticker": 1,
-                    "[paper_winky_eyes]sticker": 1,
-                    "[glitter_kawaii_eyes]sticker": 1,
-                    "[glitter_tentacle]sticker": 1,
-                    "[holo_mouth]sticker": 1,
-                    "[holo_tongue]sticker": 1,
-                    "[lenticular_angry_eyes]sticker": 1,
-                    "[foil_mustache]sticker": 1,
-                    "[foil_sunglasses]sticker": 1,
-                    "[foil_mouth]sticker": 1,
-                    "[lenticular_cheeky_eyes]sticker": 1,
-                    "[lenticular_googly_eye]sticker": 1
-                },
-            };
+
+            // Some collections are not in the item_sets object. So I just add them in this way.
+            // Some examples:
+            // Sugarface 2 Sticker Collection
+            // Missing Link Community Charm Collection
+            // Dr Boom Charm Collection
+            // Character Craft Sticker Pack
+            // Elemental Craft Sticker Pack
+            const sets = {}
+            Object.entries(state.itemsGame.client_loot_lists).forEach(([key, value]) => {
+                const match = key.match(/^(sticker_pack_|keychain_pack_)(.+)_(.+)$/);
+                if (match && Object.keys(value)[0].includes("[")) {
+                    const [, , set_name] = match;
+                    if (!(set_name in sets)) {
+                        sets[set_name] = {
+                            type: match[1],
+                            items: {}
+                        }
+                    }
+                    sets[set_name].items = {
+                        ...sets[set_name].items,
+                        ...value
+                    }
+                }
+            })
+            Object.entries(sets).forEach(([key, value]) => {
+                state.itemsGame.item_sets[`set_${key}`] = {
+                    name: `#CSGO_set_${key}`,
+                    name_force: `#CSGO_crate_${value.type}${key}_capsule`,
+                    set_description: `#CSGO_crate_${value.type}${key}_capsule_desc`,
+                    is_collection: 1,
+                    items: value.items
+                }
+            })
         })
         .catch(() => {
             throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
