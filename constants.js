@@ -1,8 +1,8 @@
-const getLanguageUrl = (language) => {
+const getLanguageUrl = language => {
     return `https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_${language}.json`;
 };
 
-export const getImageUrl = (path) => {
+export const getImageUrl = path => {
     return `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/${path}_png.png`;
 };
 

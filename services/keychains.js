@@ -4,27 +4,25 @@ import { state } from "./main.js";
 import { getImageUrl } from "../constants.js";
 import { getRarityColor } from "../utils/index.js";
 
-const isKeychain = (item) => {
+const isKeychain = item => {
     if (!item.loc_name.startsWith("#keychain_")) {
         return false;
     }
 
-    if (item['is commodity']) {
+    if (item["is commodity"]) {
         return false;
     }
 
     return true;
 };
 
-const getMarketHashName = (item) => {
+const getMarketHashName = item => {
     return `${$t("CSGO_Tool_Keychain", true)} | ${$t(item.loc_name, true)}`;
 };
 
-const parseItem = (item) => {
+const parseItem = item => {
     const { collectionsBySkins } = state;
-    const image = getImageUrl(
-        `${item.image_inventory.toLowerCase()}`
-    );
+    const image = getImageUrl(`${item.image_inventory.toLowerCase()}`);
 
     return {
         id: `keychain-${item.object_id}`,
@@ -37,7 +35,7 @@ const parseItem = (item) => {
             color: getRarityColor(`rarity_${item.item_rarity}`),
         },
         collections:
-            collectionsBySkins?.[`keychain-${item.object_id}`]?.map((i) => ({
+            collectionsBySkins?.[`keychain-${item.object_id}`]?.map(i => ({
                 ...i,
                 name: $t(i.name),
             })) ?? [],
@@ -46,18 +44,18 @@ const parseItem = (item) => {
 
         // Return original attributes from item_game.json
         original: {
-            loc_name: item.loc_name
-        }
+            loc_name: item.loc_name,
+        },
     };
 };
 
-const parseHighlight = (item) => {
-    const [tournament, highlightType] = item.id.split('_');
+const parseHighlight = item => {
+    const [tournament, highlightType] = item.id.split("_");
     const keychainName = $t(`keychain_kc_${tournament}`);
     const highlightName = $t(`highlightreel_${tournament}_${highlightType}`);
     const keychainNameRaw = $t(`keychain_kc_${tournament}`, true);
     const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
-    
+
     return {
         id: `highlight-${item.id}`,
         // TODO: translate Souvenir Charm to other languages

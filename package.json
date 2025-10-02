@@ -4,10 +4,14 @@
     "axios": "^1.12.2",
     "sha1": "^1.1.1"
   },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
   "scripts": {
     "update-data": "node update.js",
     "group-data": "node group.js",
     "update-data-force": "node update.js --force",
-    "group-data-force": "node group.js --force"
+    "group-data-force": "node group.js --force",
+    "format": "prettier --write \"**/*.js\" --ignore-path .gitignore"
   }
 }

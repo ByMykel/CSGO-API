@@ -5,13 +5,10 @@ import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
-const isCrate = (item) => {
+const isCrate = item => {
     if (item.item_name === undefined) return false;
 
-    if (
-        item?.attributes?.["set supply crate series"]?.attribute_class ===
-        "supply_crate_series"
-    ) {
+    if (item?.attributes?.["set supply crate series"]?.attribute_class === "supply_crate_series") {
         return true;
     }
 
@@ -43,12 +40,12 @@ const isCrate = (item) => {
     return true;
 };
 
-const getCrateType = (item) => {
+const getCrateType = item => {
     if (item.prefab === "weapon_case") {
         return "Case";
     }
 
-    if (item.prefab === "weapon_case_souvenirpkg" || item.prefab.includes('souvenir_crate')) {
+    if (item.prefab === "weapon_case_souvenirpkg" || item.prefab.includes("souvenir_crate")) {
         return "Souvenir";
     }
 
@@ -114,46 +111,24 @@ const parseItem = (item, prefabs) => {
 
     const image = getImageUrl(item.image_inventory.toLowerCase());
     const lootListName = item?.loot_list_name ?? null;
-    const attributeValue =
-        item.attributes?.["set supply crate series"]?.value ?? null;
-    const keyLootList =
-        lootListName ?? revolvingLootLists[attributeValue] ?? null;
+    const attributeValue = item.attributes?.["set supply crate series"]?.value ?? null;
+    const keyLootList = lootListName ?? revolvingLootLists[attributeValue] ?? null;
 
     return {
         id: `crate-${item.object_id}`,
         name: $t(item.item_name),
-        description:
-            $t(item.item_description) ?? $t(item.item_description_prefab),
+        description: $t(item.item_description) ?? $t(item.item_description_prefab),
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, prefabs),
         rarity: {
-            id: 'rarity_common',
-            name: $t('rarity_common'),
-            color: getRarityColor('rarity_common'),
+            id: "rarity_common",
+            name: $t("rarity_common"),
+            color: getRarityColor("rarity_common"),
         },
-        contains: (
-            skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
-            skinsByCrates?.[keyLootList] ??
-            []
-        ).map((i) => ({
-            ...i,
-            name:
-                i.name instanceof Object
-                    ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}`
-                    : $t(i.name),
-            rarity: {
-                id: i.rarity,
-                name: $t(i.rarity),
-                color: getRarityColor(i.rarity),
-            },
-        })),
-        contains_rare: (skinsByCrates?.[`rare--${keyLootList}`] ?? []).map(
-            (i) => ({
+        contains: (skinsByCrates?.[item.tags?.ItemSet?.tag_value] ?? skinsByCrates?.[keyLootList] ?? []).map(
+            i => ({
                 ...i,
-                name: $tc(i.name?.tKey ?? JSON.stringify(i.name), {
-                    item_name: $t(i.name.weapon),
-                    pattern: $t(i.name.pattern),
-                }),
+                name: i.name instanceof Object ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}` : $t(i.name),
                 rarity: {
                     id: i.rarity,
                     name: $t(i.rarity),
@@ -161,27 +136,38 @@ const parseItem = (item, prefabs) => {
                 },
             })
         ),
+        contains_rare: (skinsByCrates?.[`rare--${keyLootList}`] ?? []).map(i => ({
+            ...i,
+            name: $tc(i.name?.tKey ?? JSON.stringify(i.name), {
+                item_name: $t(i.name.weapon),
+                pattern: $t(i.name.pattern),
+            }),
+            rarity: {
+                id: i.rarity,
+                name: $t(i.rarity),
+                color: getRarityColor(i.rarity),
+            },
+        })),
         special_notes: specialNotes?.[`crate-${item.object_id}`],
-        market_hash_name: $t(item.item_name, true).replace(
-            "Holo/Foil",
-            "Holo-Foil"
-        ),
+        market_hash_name: $t(item.item_name, true).replace("Holo/Foil", "Holo-Foil"),
         rental: !!item.attributes["can open for rental"],
         image,
         model_player: item.model_player ?? null,
-        loot_list: item.loot_list_rare_item_name ? {
-            name: $t(item.loot_list_rare_item_name),
-            footer: $t(item.loot_list_rare_item_footer),
-            // The crates without image_unusual_item are the ones with gloves, this might not work in the future
-            image: item.image_unusual_item
-                ? getImageUrl(item.image_unusual_item)
-                : getImageUrl('econ/weapon_cases/default_rare_item'),
-        } : null,
+        loot_list: item.loot_list_rare_item_name
+            ? {
+                  name: $t(item.loot_list_rare_item_name),
+                  footer: $t(item.loot_list_rare_item_footer),
+                  // The crates without image_unusual_item are the ones with gloves, this might not work in the future
+                  image: item.image_unusual_item
+                      ? getImageUrl(item.image_unusual_item)
+                      : getImageUrl("econ/weapon_cases/default_rare_item"),
+              }
+            : null,
 
         // Return original attributes from item_game.json
         original: {
-            item_name: item.item_name
-        }
+            item_name: item.item_name,
+        },
     };
 };
 
@@ -191,8 +177,8 @@ export const getCrates = async () => {
 
     const crates = Object.values(items)
         .filter(isCrate)
-        .map((item) => parseItem(item, prefabs))
-        .filter((crate) => crate.name);
+        .map(item => parseItem(item, prefabs))
+        .filter(crate => crate.name);
 
     await saveDataJson(`./public/api/${folder}/crates.json`, crates);
 };

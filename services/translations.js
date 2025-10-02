@@ -45,9 +45,7 @@ export const $tc = (key, data = {}) => {
     const specific = all[key];
 
     if (!specific) {
-        throw new Error(
-            `key '${key}' does not exist in '${languageData.language}' translations`
-        );
+        throw new Error(`key '${key}' does not exist in '${languageData.language}' translations`);
     }
 
     let replaced = specific.replace(/\{.*?\}/g, function (match) {
@@ -63,14 +61,11 @@ export const $tc = (key, data = {}) => {
     return replaced;
 };
 
-const getTranslations = async (url) => {
+const getTranslations = async url => {
     const { data } = await axios.get(url);
 
     const lowerCaseKeys = Object.fromEntries(
-        Object.entries(data.lang.Tokens).map(([key, val]) => [
-            key.toLowerCase(),
-            val,
-        ])
+        Object.entries(data.lang.Tokens).map(([key, val]) => [key.toLowerCase(), val])
     );
 
     const lowerCaseKeysIdx = [];
@@ -78,25 +73,23 @@ const getTranslations = async (url) => {
         lowerCaseKeysIdx.push(key);
     }
 
-    return {lowerCaseKeys, lowerCaseKeysIdx};
+    return { lowerCaseKeys, lowerCaseKeysIdx };
 };
 
 export const loadTranslations = async ({ language, url, folder }) => {
     if (translations.default == null) {
         await getTranslations(CSGO_ENGLISH_URL)
-            .then((data) => {
+            .then(data => {
                 translations.default = data.lowerCaseKeys;
                 translations.default_idx = data.lowerCaseKeysIdx;
             })
             .catch(() => {
-                throw new Error(
-                    `Error loading translations from ${CSGO_ENGLISH_URL}`
-                );
+                throw new Error(`Error loading translations from ${CSGO_ENGLISH_URL}`);
             });
     }
 
     await getTranslations(url)
-        .then((data) => {
+        .then(data => {
             languageData = { language, folder };
             translations.selected = data.lowerCaseKeys;
             translations.selected_idx = data.lowerCaseKeysIdx;

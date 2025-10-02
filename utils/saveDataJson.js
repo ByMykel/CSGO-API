@@ -5,9 +5,7 @@ export const saveDataJson = (file, data) => {
         // I beautify the JSON data because it's easier for me see the changes
         const json = JSON.stringify(data, null, 1);
 
-        const folders = file
-            .replace(/\.\/public\/api\/(.*)\/(.*)\.json/, "$1")
-            .split("/");
+        const folders = file.replace(/\.\/public\/api\/(.*)\/(.*)\.json/, "$1").split("/");
 
         // Create api folder if it doesn't exist
         if (!fs.existsSync("./public/api")) {
@@ -22,7 +20,7 @@ export const saveDataJson = (file, data) => {
             }
         });
 
-        fs.writeFile(file, json, (err) => {
+        fs.writeFile(file, json, err => {
             if (err) {
                 reject(err);
             } else {

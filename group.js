@@ -4,7 +4,7 @@ import { LANGUAGES_URL } from "./constants.js";
 import { getManifestId } from "./services/main.js";
 
 const args = process.argv.slice(2);
-const isForce = args.includes('--force');
+const isForce = args.includes("--force");
 
 const inputFilePathsTemplate = [
     "./public/api/{lang}/agents.json",
@@ -33,7 +33,7 @@ try {
 }
 
 if (isForce) {
-    console.log("Force flag detected, generating new data regardless of manifest Ids")
+    console.log("Force flag detected, generating new data regardless of manifest Ids");
 } else {
     // TODO: Need to check if default_generated.json from counter-strike-image-tracker repo has changed,
     // since we now pull data from there too.
@@ -41,9 +41,7 @@ if (isForce) {
         console.log("Latest manifest Id matches existing manifest Id, exiting");
         process.exit(0);
     } else {
-        console.log(
-            "Latest manifest Id does not match existing manifest Id, generating new data."
-        );
+        console.log("Latest manifest Id does not match existing manifest Id, generating new data.");
     }
 }
 
@@ -51,9 +49,7 @@ for (let langObj of LANGUAGES_URL) {
     const lang = langObj.folder;
     const allData = {};
 
-    const inputFilePaths = inputFilePathsTemplate.map((templatePath) =>
-        templatePath.replace("{lang}", lang)
-    );
+    const inputFilePaths = inputFilePathsTemplate.map(templatePath => templatePath.replace("{lang}", lang));
 
     for (let filePath of inputFilePaths) {
         const fullPath = path.join(process.cwd(), filePath);
@@ -62,7 +58,7 @@ for (let langObj of LANGUAGES_URL) {
         if (fs.existsSync(fullPath)) {
             const fileData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
             if (Array.isArray(fileData)) {
-                fileData.forEach((item) => {
+                fileData.forEach(item => {
                     allData[item.id] = item;
                 });
             }

@@ -4,17 +4,15 @@ import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
-const isPatch = (item) => {
-    if (
-        ["case_skillgroups/patch_legendaryeagle"].includes(item.patch_material)
-    ) {
+const isPatch = item => {
+    if (["case_skillgroups/patch_legendaryeagle"].includes(item.patch_material)) {
         return false;
     }
 
     return !(item.patch_material === undefined);
 };
 
-const getDescription = (item) => {
+const getDescription = item => {
     let msg = $t("CSGO_Tool_Patch_Desc");
     let desc = $t(item.description_string);
     if (desc && desc.length > 0) {
@@ -23,7 +21,7 @@ const getDescription = (item) => {
     return msg;
 };
 
-const parseItem = (item) => {
+const parseItem = item => {
     const image = getImageUrl(`econ/patches/${item.patch_material}`);
 
     return {
@@ -36,16 +34,13 @@ const parseItem = (item) => {
             name: $t(`rarity_${item.item_rarity}`),
             color: getRarityColor(`rarity_${item.item_rarity}`),
         },
-        market_hash_name: `${$t("csgo_tool_patch", true)} | ${$t(
-            item.item_name,
-            true
-        )}`,
+        market_hash_name: `${$t("csgo_tool_patch", true)} | ${$t(item.item_name, true)}`,
         image,
 
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-        }
+        },
     };
 };
 
