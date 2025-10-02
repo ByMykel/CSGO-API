@@ -17711,6 +17711,307 @@
   }
  },
  {
+  "id": "collection-set-community-2025",
+  "name": "Kolekcja naklejek społeczności 2025",
+  "crates": [],
+  "contains": [
+   {
+    "id": "sticker-9451",
+    "name": "Jabłka kandyzowane",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_candy_apples_png.png"
+   },
+   {
+    "id": "sticker-9452",
+    "name": "Cubix Connexion",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_cubix_connexion_png.png"
+   },
+   {
+    "id": "sticker-9453",
+    "name": "Oczy Farlow",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_eyes_of_farlow_png.png"
+   },
+   {
+    "id": "sticker-9454",
+    "name": "Zanikające mango",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_fade_mangos_png.png"
+   },
+   {
+    "id": "sticker-9455",
+    "name": "W rękawicach",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_gloves_on_png.png"
+   },
+   {
+    "id": "sticker-9456",
+    "name": "Pełne skupienie",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_lock_in_png.png"
+   },
+   {
+    "id": "sticker-9457",
+    "name": "Mimikapsuła",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_mimicapsule_png.png"
+   },
+   {
+    "id": "sticker-9458",
+    "name": "Psinka",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_pop_pup_png.png"
+   },
+   {
+    "id": "sticker-9459",
+    "name": "POTS",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_pots_png.png"
+   },
+   {
+    "id": "sticker-9460",
+    "name": "Z pozdrowieniami",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_sent_with_love_png.png"
+   },
+   {
+    "id": "sticker-9461",
+    "name": "Cios nożem szkieletowym",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_skellystab_png.png"
+   },
+   {
+    "id": "sticker-9462",
+    "name": "Kursor retro",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "wysokiej jakości",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/paper_vice_cursor_png.png"
+   },
+   {
+    "id": "sticker-9463",
+    "name": "Ślad AT (brokatowa)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/glitter_ct_tracks_png.png"
+   },
+   {
+    "id": "sticker-9464",
+    "name": "Przeciążenie (brokatowa)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/glitter_overloaded_png.png"
+   },
+   {
+    "id": "sticker-9465",
+    "name": "Ślad T (brokatowa)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/glitter_t_tracks_png.png"
+   },
+   {
+    "id": "sticker-9466",
+    "name": "Bomba podłożona (holograficzna)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/holo_bomb_planted_png.png"
+   },
+   {
+    "id": "sticker-9467",
+    "name": "Chromowa głowa (holograficzna)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/holo_chrome_dome_png.png"
+   },
+   {
+    "id": "sticker-9468",
+    "name": "Słodziak (holograficzna)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/holo_cutie_png.png"
+   },
+   {
+    "id": "sticker-9469",
+    "name": "Dowody (holograficzna)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/holo_evidence_png.png"
+   },
+   {
+    "id": "sticker-9470",
+    "name": "Okularki pływackie (holograficzna)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "nadzwyczajnej rzadkości",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/holo_froggles_png.png"
+   },
+   {
+    "id": "sticker-9471",
+    "name": "Nie na wypożyczeniu (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_aint_a_rental_png.png"
+   },
+   {
+    "id": "sticker-9472",
+    "name": "Wzrok w niebo (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_eyes_sky_png.png"
+   },
+   {
+    "id": "sticker-9473",
+    "name": "Jak nówka (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_good_as_new_png.png"
+   },
+   {
+    "id": "sticker-9474",
+    "name": "Łapy precz (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_hands_off_png.png"
+   },
+   {
+    "id": "sticker-9475",
+    "name": "Król Crasswater (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_king_crasswater_png.png"
+   },
+   {
+    "id": "sticker-9476",
+    "name": "Królowa Ava (foliowana)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "egzotycznego pochodzenia",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/foil_queen_ava_png.png"
+   },
+   {
+    "id": "sticker-9477",
+    "name": "Dinogotchi (soczewkowa)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "wyjątkowej jakości",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/lenticular_digistrike_png.png"
+   },
+   {
+    "id": "sticker-9478",
+    "name": "Neonowy MVP (soczewkowa)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "wyjątkowej jakości",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/lenticular_neonmvp_png.png"
+   },
+   {
+    "id": "sticker-9479",
+    "name": "Strzał w dziesiątkę (soczewkowa)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "wyjątkowej jakości",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/community_2025/lenticular_bullhit_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_2025_png.png",
+  "original": {
+   "name": "#CSGO_set_community_2025"
+  }
+ },
+ {
   "id": "collection-set-kc-drboom",
   "name": "Dr Boom Charm Collection",
   "crates": [],
