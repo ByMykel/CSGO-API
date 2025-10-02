@@ -503,7 +503,7 @@ export const loadCollectionsByStickers = () => {
                             acc[stickerItem.id] = [];
                         }
 
-                        const fileName = collectionKey.replace("set_", "");
+                        const fileName = collectionKey.replace("set_", "set-");
                         acc[stickerItem.id].push({
                             id: `collection-${fileName.replace(/_/g, "-")}`,
                             name: itemSet.name_force ?? itemSet.name,
