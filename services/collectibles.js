@@ -40,10 +40,18 @@ const getType = collectible => {
     }
 
     if (
-        collectible.item_name.startsWith("#CSGO_TournamentPass") ||
-        collectible.item_name.startsWith("#CSGO_Ticket_")
+        collectible.item_name.startsWith("#CSGO_TournamentPass") &&
+        collectible.item_name.endsWith("_charge")
     ) {
-        return "Pass";
+        return "Souvenir Token";
+    }
+
+    if (collectible.item_name.startsWith("#CSGO_TournamentPass")) {
+        return "Tournament Pass";
+    }
+
+    if (collectible.item_name.startsWith("#CSGO_Ticket_")) {
+        return "Operation Pass";
     }
 
     if (collectible.item_name.startsWith("#CSGO_Collectible_CommunitySeason")) {
@@ -81,7 +89,10 @@ const getMarketHashName = item => {
         return null;
     }
 
-    if (["Pass", "Pin"].includes(getType(item)) && !isAttendance) {
+    if (
+        ["Pin", "Souvenir Token", "Tournament Pass", "Operation Pass"].includes(getType(item)) &&
+        !isAttendance
+    ) {
         return $t(item.item_name, true);
     }
 
