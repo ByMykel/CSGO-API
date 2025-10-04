@@ -93,6 +93,7 @@ const parseItem = item => {
         id: `key-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.item_description) ?? $t(item.item_description_prefab),
+        def_index: item.object_id,
         crates,
         market_hash_name: marketable.includes(item.item_name) ? $t(item.item_name, true) : null,
         marketable: marketable.includes(item.item_name),
