@@ -811,6 +811,8 @@ export const getManifestId = async () => {
         .then(response => {
             // Decode base64 content and trim whitespace
             return Buffer.from(response.data.content, "base64").toString("utf-8").trim();
+        }).catch((error) => {
+            throw new Error(`Error getting manifestId: ${error.message}`);
         });
 };
 
