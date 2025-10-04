@@ -118,6 +118,7 @@ const parseItem = (item, prefabs) => {
         id: `crate-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.item_description) ?? $t(item.item_description_prefab),
+        def_index: item.object_id,
         type: getCrateType(item),
         first_sale_date: getFirstSaleDate(item, prefabs),
         rarity: {
