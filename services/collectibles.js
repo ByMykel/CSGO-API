@@ -126,6 +126,7 @@ const parseItem = item => {
         },
         type: getType(item),
         genuine: isAttendance,
+        premier_season: item.attributes?.["premier season"],
         market_hash_name: getMarketHashName(item),
         image,
 
