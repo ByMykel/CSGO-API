@@ -3,6 +3,7 @@
   "id": "key-generic_valve_key",
   "name": "CS:GO-kassenøkkel",
   "description": "Denne nøkkelen vil åpne alle våpenkasser i Valve-serien. Kasser utenom Valve-serien (f.eks. eSports-kasser) krever egne nøkler for å åpne.",
+  "def_index": "generic_valve_key",
   "crates": [
    {
     "id": "crate-4001",
@@ -36,6 +37,7 @@
   "id": "key-1204",
   "name": "eSports-kassenøkkel",
   "description": "Denne nøkkelen åpner hvilken som helst eSports-kasse.\\n\\n En del av inntektene fra salget av denne nøkkelen vil gå til en av de etablerte samfunnsdrevne CS:GO-turneringene. Følg med for ytterligere kunngjøringer.",
+  "def_index": "1204",
   "crates": [
    {
     "id": "crate-4002",
@@ -64,6 +66,7 @@
   "id": "key-1212",
   "name": "CS:GO-kapselnøkkel",
   "description": "Denne nøkkelen vil åpne hvilken som helst kapsel fra Valve-serier.",
+  "def_index": "1212",
   "crates": [
    {
     "id": "crate-4007",
@@ -87,6 +90,7 @@
   "id": "key-1214",
   "name": "Winter Offensive-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Winter Offensive-kasser.",
+  "def_index": "1214",
   "crates": [
    {
     "id": "crate-4009",
@@ -105,6 +109,7 @@
   "id": "key-1303",
   "name": "Operasjon Phoenix-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Phoenix-kasser",
+  "def_index": "1303",
   "crates": [
    {
     "id": "crate-4011",
@@ -123,6 +128,7 @@
   "id": "key-1304",
   "name": "Nøkkel til Samfunnets klistremerkekapsel 1",
   "description": "Denne nøkkelen åpner Samfunnets klistremerkekapsel 1.\\n\\nEn andel av inntektene fra salget av denne nøkkelen vil gå til klistremerkenes skapere.",
+  "def_index": "1304",
   "crates": [
    {
     "id": "crate-4016",
@@ -141,6 +147,7 @@
   "id": "key-1305",
   "name": "Huntsman-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Huntsman-kasser",
+  "def_index": "1305",
   "crates": [
    {
     "id": "crate-4017",
@@ -159,6 +166,7 @@
   "id": "key-1309",
   "name": "Operasjon Breakout-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Breakout-kasser",
+  "def_index": "1309",
   "crates": [
    {
     "id": "crate-4018",
@@ -177,6 +185,7 @@
   "id": "key-1322",
   "name": "Operasjon Vanguard-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Vanguard-kasser",
+  "def_index": "1322",
   "crates": [
    {
     "id": "crate-4029",
@@ -195,6 +204,7 @@
   "id": "key-1323",
   "name": "Chroma-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Chroma-kasser",
+  "def_index": "1323",
   "crates": [
    {
     "id": "crate-4061",
@@ -213,6 +223,7 @@
   "id": "key-1325",
   "name": "Chroma 2-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Chroma 2-kasser",
+  "def_index": "1325",
   "crates": [
    {
     "id": "crate-4089",
@@ -231,6 +242,7 @@
   "id": "key-1330",
   "name": "Falchion-kassenøkkel",
   "description": "Denne nøkkelen åpner bare Falchion-kasser",
+  "def_index": "1330",
   "crates": [
    {
     "id": "crate-4091",
@@ -249,6 +261,7 @@
   "id": "key-1333",
   "name": "Shadow-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Shadow-kasser",
+  "def_index": "1333",
   "crates": [
    {
     "id": "crate-4138",
@@ -267,6 +280,7 @@
   "id": "key-1334",
   "name": "Revolver-kassenøkkel",
   "description": "Denne nøkkelen åpner bare Revolver-våpenkasser",
+  "def_index": "1334",
   "crates": [
    {
     "id": "crate-4186",
@@ -285,6 +299,7 @@
   "id": "key-1347",
   "name": "Chroma 3-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Chroma 3-kasser",
+  "def_index": "1347",
   "crates": [
    {
     "id": "crate-4233",
@@ -303,6 +318,7 @@
   "id": "key-1350",
   "name": "Gamma-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Gamma-kasser",
+  "def_index": "1350",
   "crates": [
    {
     "id": "crate-4236",
@@ -321,6 +337,7 @@
   "id": "key-1351",
   "name": "Gamma 2-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Gamma 2-kasser",
+  "def_index": "1351",
   "crates": [
    {
     "id": "crate-4281",
@@ -339,6 +356,7 @@
   "id": "key-1356",
   "name": "Hanskekassenøkkel",
   "description": "Denne nøkkelen åpner kun Hanskekasser",
+  "def_index": "1356",
   "crates": [
    {
     "id": "crate-4288",
@@ -357,6 +375,7 @@
   "id": "key-1364",
   "name": "Spectrum-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Spectrum-kasser",
+  "def_index": "1364",
   "crates": [
    {
     "id": "crate-4351",
@@ -375,6 +394,7 @@
   "id": "key-1365",
   "name": "Operasjon Hydra-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Hydra-kasser",
+  "def_index": "1365",
   "crates": [
    {
     "id": "crate-4352",
@@ -393,6 +413,7 @@
   "id": "key-1366",
   "name": "Spectrum 2-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Spectrum 2-kasser",
+  "def_index": "1366",
   "crates": [
    {
     "id": "crate-4403",
@@ -411,6 +432,7 @@
   "id": "key-1373",
   "name": "Clutch-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Clutch-kasser",
+  "def_index": "1373",
   "crates": [
    {
     "id": "crate-4471",
@@ -429,6 +451,7 @@
   "id": "key-1374",
   "name": "Horizon-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Horizon-kasser",
+  "def_index": "1374",
   "crates": [
    {
     "id": "crate-4482",
@@ -447,6 +470,7 @@
   "id": "key-1375",
   "name": "Faresonekassenøkkel",
   "description": "Denne nøkkelen åpner kun Faresonekasser",
+  "def_index": "1375",
   "crates": [
    {
     "id": "crate-4548",
@@ -465,6 +489,7 @@
   "id": "key-1383",
   "name": "Prisma-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Prisma-kasser",
+  "def_index": "1383",
   "crates": [
    {
     "id": "crate-4598",
@@ -483,6 +508,7 @@
   "id": "key-1384",
   "name": "Shattered Web-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Shattered Web-kasser",
+  "def_index": "1384",
   "crates": [
    {
     "id": "crate-4620",
@@ -501,6 +527,7 @@
   "id": "key-1385",
   "name": "CS20-kassenøkkel",
   "description": "Denne nøkkelen åpner kun CS20-kasser",
+  "def_index": "1385",
   "crates": [
    {
     "id": "crate-4669",
@@ -519,6 +546,7 @@
   "id": "key-1386",
   "name": "Prisma 2-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Prisma 2-kasser",
+  "def_index": "1386",
   "crates": [
    {
     "id": "crate-4695",
@@ -537,6 +565,7 @@
   "id": "key-1387",
   "name": "Fracture-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Fracture-kasser",
+  "def_index": "1387",
   "crates": [
    {
     "id": "crate-4698",
@@ -555,6 +584,7 @@
   "id": "key-1388",
   "name": "Operasjon Broken Fang-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Broken Fang-kasser",
+  "def_index": "1388",
   "crates": [
    {
     "id": "crate-4717",
@@ -573,6 +603,7 @@
   "id": "key-1389",
   "name": "Snakebite-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Snakebite-kasser",
+  "def_index": "1389",
   "crates": [
    {
     "id": "crate-4747",
@@ -591,6 +622,7 @@
   "id": "key-1390",
   "name": "Operasjon Riptide-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Operasjon Riptide-kasser",
+  "def_index": "1390",
   "crates": [
    {
     "id": "crate-4790",
@@ -609,6 +641,7 @@
   "id": "key-1391",
   "name": "Drømmer og mareritt-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Drømmer og mareritt-kasser",
+  "def_index": "1391",
   "crates": [
    {
     "id": "crate-4818",
@@ -627,6 +660,7 @@
   "id": "key-1392",
   "name": "Recoil-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Recoil-kasser",
+  "def_index": "1392",
   "crates": [
    {
     "id": "crate-4846",
@@ -645,6 +679,7 @@
   "id": "key-1393",
   "name": "Revolution-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Revolution-kasser",
+  "def_index": "1393",
   "crates": [
    {
     "id": "crate-4880",
@@ -663,6 +698,7 @@
   "id": "key-1394",
   "name": "Kilowatt-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Kilowatt-kasser",
+  "def_index": "1394",
   "crates": [
    {
     "id": "crate-4904",
@@ -681,6 +717,7 @@
   "id": "key-7000",
   "name": "Operasjon Wildfire-kassenøkkel",
   "description": "Denne nøkkelen åpner bare Operasjon Wildfire-våpenkasser",
+  "def_index": "7000",
   "crates": [
    {
     "id": "crate-4187",
@@ -699,6 +736,7 @@
   "id": "key-7002",
   "name": "Gallery-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Gallery-kasser",
+  "def_index": "7002",
   "crates": [
    {
     "id": "crate-7003",
@@ -717,6 +755,7 @@
   "id": "key-7008",
   "name": "Fever-kassenøkkel",
   "description": "Denne nøkkelen åpner kun Fever-kasser",
+  "def_index": "7008",
   "crates": [
    {
     "id": "crate-7007",

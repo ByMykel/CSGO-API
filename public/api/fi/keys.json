@@ -3,6 +3,7 @@
   "id": "key-generic_valve_key",
   "name": "CS2-aselaatikon avain",
   "description": "Tällä avaimella voi avata minkä tahansa Valve-sarjan aselaatikon. Muut kuin Valve-sarjan laatikot (kuten eSports-aselaatikko) vaativat oman avaimen.",
+  "def_index": "generic_valve_key",
   "crates": [
    {
     "id": "crate-4001",
@@ -36,6 +37,7 @@
   "id": "key-1204",
   "name": "eSports-avain",
   "description": "Tämä avain avaa eSports-aselaatikon.\\n\\nOsa sen myyntituloista menee yhteisön järjestämille CS2-turnauksille. Lisätietoja tulee myöhemmin.",
+  "def_index": "1204",
   "crates": [
    {
     "id": "crate-4002",
@@ -64,6 +66,7 @@
   "id": "key-1212",
   "name": "CS2-kapselin avain",
   "description": "Tämä avain avaa minkä tahansa Valve-sarjan kapselin.",
+  "def_index": "1212",
   "crates": [
    {
     "id": "crate-4007",
@@ -87,6 +90,7 @@
   "id": "key-1214",
   "name": "Winter Offensive -aselaatikon avain",
   "description": "Tämä avain avaa vain Winter Offensive -aselaatikoita",
+  "def_index": "1214",
   "crates": [
    {
     "id": "crate-4009",
@@ -105,6 +109,7 @@
   "id": "key-1303",
   "name": "Operaatio Feeniks -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Feeniks -aselaatikoita.",
+  "def_index": "1303",
   "crates": [
    {
     "id": "crate-4011",
@@ -123,6 +128,7 @@
   "id": "key-1304",
   "name": "Yhteisön tarrakapseli 1 -avain",
   "description": "Tämä avain avaa yhteisön 1. tarrakapselin.\\n\\nOsa avaimien tuottamista rahoista menee tarrojen tekijöille.",
+  "def_index": "1304",
   "crates": [
    {
     "id": "crate-4016",
@@ -141,6 +147,7 @@
   "id": "key-1305",
   "name": "Metsämies-aselaatikon avain",
   "description": "Tämä avain avaa vain Metsämies-aselaatikoita",
+  "def_index": "1305",
   "crates": [
    {
     "id": "crate-4017",
@@ -159,6 +166,7 @@
   "id": "key-1309",
   "name": "Operaatio Läpimurto -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Läpimurto -aselaatikoita",
+  "def_index": "1309",
   "crates": [
    {
     "id": "crate-4018",
@@ -177,6 +185,7 @@
   "id": "key-1322",
   "name": "Operaatio Eturintama -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Eturintama -aselaatikon",
+  "def_index": "1322",
   "crates": [
    {
     "id": "crate-4029",
@@ -195,6 +204,7 @@
   "id": "key-1323",
   "name": "Kirjo-aselaatikon avain",
   "description": "Tämä avain avaa vain Kirjo-aselaatikoita",
+  "def_index": "1323",
   "crates": [
    {
     "id": "crate-4061",
@@ -213,6 +223,7 @@
   "id": "key-1325",
   "name": "Kirjo 2 -aselaatikon avain",
   "description": "Tämä avain avaa vain Kirjo 2 -aselaatikoita",
+  "def_index": "1325",
   "crates": [
    {
     "id": "crate-4089",
@@ -231,6 +242,7 @@
   "id": "key-1330",
   "name": "Falchion-aselaatikon avain",
   "description": "Tämä avain avaa vain Falchion-aselaatikoita",
+  "def_index": "1330",
   "crates": [
    {
     "id": "crate-4091",
@@ -249,6 +261,7 @@
   "id": "key-1333",
   "name": "Varjo-aselaatikon avain",
   "description": "Tämä avain avaa vain Varjo-aselaatikoita",
+  "def_index": "1333",
   "crates": [
    {
     "id": "crate-4138",
@@ -267,6 +280,7 @@
   "id": "key-1334",
   "name": "Revolverilaatikon avain",
   "description": "Tämä avain avaa vain revolverilaatikoita",
+  "def_index": "1334",
   "crates": [
    {
     "id": "crate-4186",
@@ -285,6 +299,7 @@
   "id": "key-1347",
   "name": "Kirjo 3 -aselaatikon avain",
   "description": "Tämä avain avaa vain Kirjo 3 -aselaatikoita",
+  "def_index": "1347",
   "crates": [
    {
     "id": "crate-4233",
@@ -303,6 +318,7 @@
   "id": "key-1350",
   "name": "Gamma-aselaatikon avain",
   "description": "Tämä avain avaa vain Gamma-aselaatikoita",
+  "def_index": "1350",
   "crates": [
    {
     "id": "crate-4236",
@@ -321,6 +337,7 @@
   "id": "key-1351",
   "name": "Gamma 2 -aselaatikon avain",
   "description": "Tämä avain avaa vain Gamma 2 -aselaatikoita",
+  "def_index": "1351",
   "crates": [
    {
     "id": "crate-4281",
@@ -339,6 +356,7 @@
   "id": "key-1356",
   "name": "Hanska-aselaatikon avain",
   "description": "Tämä avain avaa vain Hanska-aselaatikoita",
+  "def_index": "1356",
   "crates": [
    {
     "id": "crate-4288",
@@ -357,6 +375,7 @@
   "id": "key-1364",
   "name": "Spektri-aselaatikon avain",
   "description": "Tämä avain avaa vain Spektri-aselaatikoita",
+  "def_index": "1364",
   "crates": [
    {
     "id": "crate-4351",
@@ -375,6 +394,7 @@
   "id": "key-1365",
   "name": "Operaatio Hydra -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Hydran aselaatikoita",
+  "def_index": "1365",
   "crates": [
    {
     "id": "crate-4352",
@@ -393,6 +413,7 @@
   "id": "key-1366",
   "name": "Spektri 2 -aselaatikon avain",
   "description": "Tämä avain avaa vain Spektri 2 -aselaatikoita",
+  "def_index": "1366",
   "crates": [
    {
     "id": "crate-4403",
@@ -411,6 +432,7 @@
   "id": "key-1373",
   "name": "Clutch-aselaatikon avain",
   "description": "Tällä tunnuksella ainoastaan avataan Clutch-salkkuja.",
+  "def_index": "1373",
   "crates": [
    {
     "id": "crate-4471",
@@ -429,6 +451,7 @@
   "id": "key-1374",
   "name": "Horisontti-aselaatikon avain",
   "description": "Tämä avain avaa vain Horisontti-aselaatikoita",
+  "def_index": "1374",
   "crates": [
    {
     "id": "crate-4482",
@@ -447,6 +470,7 @@
   "id": "key-1375",
   "name": "Vaaravyöhyke-aselaatikon avain",
   "description": "Tällä avaimella saa auki vain Vaaravyöhyke-aselaukkuja",
+  "def_index": "1375",
   "crates": [
    {
     "id": "crate-4548",
@@ -465,6 +489,7 @@
   "id": "key-1383",
   "name": "Prisma-aselaatikon avain",
   "description": "Tämä avain käy vain Prisma-aselaatikoihin.",
+  "def_index": "1383",
   "crates": [
    {
     "id": "crate-4598",
@@ -483,6 +508,7 @@
   "id": "key-1384",
   "name": "Pirstaleinen verkko -aselaatikon avain",
   "description": "Tämä avain avaa vain Pirstaleinen verkko -aselaatikoita",
+  "def_index": "1384",
   "crates": [
    {
     "id": "crate-4620",
@@ -501,6 +527,7 @@
   "id": "key-1385",
   "name": "CS20-aselaatikon avain",
   "description": "Tällä avaimella saa auki vain CS20-aselaatikoita",
+  "def_index": "1385",
   "crates": [
    {
     "id": "crate-4669",
@@ -519,6 +546,7 @@
   "id": "key-1386",
   "name": "Prisma 2 -aselaatikon avain",
   "description": "Tämä avain käy vain Prisma 2 -aselaatikoihin.",
+  "def_index": "1386",
   "crates": [
    {
     "id": "crate-4695",
@@ -537,6 +565,7 @@
   "id": "key-1387",
   "name": "Sirpaleisen laatikon avain",
   "description": "Tämä avain avaa ainoastaan Sirpaleisia laatikoita",
+  "def_index": "1387",
   "crates": [
    {
     "id": "crate-4698",
@@ -555,6 +584,7 @@
   "id": "key-1388",
   "name": "Operaatio Katkennut torahammas -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Katkenneen torahampaan aselaatikoita",
+  "def_index": "1388",
   "crates": [
    {
     "id": "crate-4717",
@@ -573,6 +603,7 @@
   "id": "key-1389",
   "name": "Käärmeenpisto-aselaatikon avain",
   "description": "Avain avaa ainoastaan Käärmeenpisto-aselaatikoita",
+  "def_index": "1389",
   "crates": [
    {
     "id": "crate-4747",
@@ -591,6 +622,7 @@
   "id": "key-1390",
   "name": "Operaatio Ristiaallokko -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Ristiaallokon aselaatikoita",
+  "def_index": "1390",
   "crates": [
    {
     "id": "crate-4790",
@@ -609,6 +641,7 @@
   "id": "key-1391",
   "name": "Unelmia ja painajaisia -aselaatikon avain",
   "description": "Tämä avain avaa vain Unelmia ja painajaisia -aselaatikoita",
+  "def_index": "1391",
   "crates": [
    {
     "id": "crate-4818",
@@ -627,6 +660,7 @@
   "id": "key-1392",
   "name": "Rekyyli-arkun avain",
   "description": "Tämä avain avaa vain Rekyyli-aselaatikoita",
+  "def_index": "1392",
   "crates": [
    {
     "id": "crate-4846",
@@ -645,6 +679,7 @@
   "id": "key-1393",
   "name": "Revolution-aselaatikon avain",
   "description": "Avain käy vain Revolution-aselaatikoihin",
+  "def_index": "1393",
   "crates": [
    {
     "id": "crate-4880",
@@ -663,6 +698,7 @@
   "id": "key-1394",
   "name": "Kilowatt-aselaatikon avain",
   "description": "Tämä avain avaa vain Kilowatt-aselaatikoita.",
+  "def_index": "1394",
   "crates": [
    {
     "id": "crate-4904",
@@ -681,6 +717,7 @@
   "id": "key-7000",
   "name": "Operaatio Maastopalo -aselaatikon avain",
   "description": "Tämä avain avaa vain Operaatio Maastopalo -aselaatikoita",
+  "def_index": "7000",
   "crates": [
    {
     "id": "crate-4187",
@@ -699,6 +736,7 @@
   "id": "key-7002",
   "name": "Galleria-aselaatikon avain",
   "description": "Tämä avain avaa vain Galleria-aselaatikoita",
+  "def_index": "7002",
   "crates": [
    {
     "id": "crate-7003",
@@ -717,6 +755,7 @@
   "id": "key-7008",
   "name": "Fever-aselaatikon avain",
   "description": "Tämä avain avaa vain Fever-aselaatikoita",
+  "def_index": "7008",
   "crates": [
    {
     "id": "crate-7007",

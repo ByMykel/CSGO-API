@@ -3,6 +3,7 @@
   "id": "key-generic_valve_key",
   "name": "CS:GO 상자 열쇠",
   "description": "이 열쇠는 Valve 시리즈 무기 상자를 여는 데 사용됩니다. 그 이외의 상자들(예를 들어 eSports 상자)을 열기 위해서는 상자 시리즈에 맞는 열쇠가 필요합니다.",
+  "def_index": "generic_valve_key",
   "crates": [
    {
     "id": "crate-4001",
@@ -36,6 +37,7 @@
   "id": "key-1204",
   "name": "eSports 열쇠",
   "description": "이 열쇠로 eSports 상자를 열어볼 수 있습니다.\\n\\n이 열쇠의 수익금 중 일부는 CS:GO 토너먼트를 개최하는 커뮤니티에 돌아갑니다. 추후에 공지될 소식을 놓치지 마세요.",
+  "def_index": "1204",
   "crates": [
    {
     "id": "crate-4002",
@@ -64,6 +66,7 @@
   "id": "key-1212",
   "name": "스티커 캡슐 열쇠",
   "description": "이 열쇠는 Valve 시리즈 스티커 캡슐을 열 수 있습니다.",
+  "def_index": "1212",
   "crates": [
    {
     "id": "crate-4007",
@@ -87,6 +90,7 @@
   "id": "key-1214",
   "name": "Winter Offensive 상자 열쇠",
   "description": "이 열쇠는 Winter Offensive 상자만 열 수 있습니다.",
+  "def_index": "1214",
   "crates": [
    {
     "id": "crate-4009",
@@ -105,6 +109,7 @@
   "id": "key-1303",
   "name": "피닉스 작전 상자 열쇠",
   "description": "이 열쇠는 피닉스 작전 상자만 열 수 있습니다.",
+  "def_index": "1303",
   "crates": [
    {
     "id": "crate-4011",
@@ -123,6 +128,7 @@
   "id": "key-1304",
   "name": "커뮤니티 스티커 캡술 1 열쇠",
   "description": "이 열쇠는 커뮤니티 스티커 캡슐 1을 열 수 있습니다.\\n\\n이 열쇠 판매 수익의 일부분은 스티커 제작자들에게 돌아갑니다.",
+  "def_index": "1304",
   "crates": [
    {
     "id": "crate-4016",
@@ -141,6 +147,7 @@
   "id": "key-1305",
   "name": "헌츠맨 무기 상자 열쇠",
   "description": "이 열쇠는 헌츠맨 무기 상자만 열 수 있습니다.",
+  "def_index": "1305",
   "crates": [
    {
     "id": "crate-4017",
@@ -159,6 +166,7 @@
   "id": "key-1309",
   "name": "돌파 작전 상자 열쇠",
   "description": "이 열쇠는 돌파 작전 상자만 열 수 있습니다.",
+  "def_index": "1309",
   "crates": [
    {
     "id": "crate-4018",
@@ -177,6 +185,7 @@
   "id": "key-1322",
   "name": "선봉 작전 상자 열쇠",
   "description": "이 열쇠는 선봉 작전 상자만 열 수 있습니다.",
+  "def_index": "1322",
   "crates": [
    {
     "id": "crate-4029",
@@ -195,6 +204,7 @@
   "id": "key-1323",
   "name": "크로마 상자 열쇠",
   "description": "이 열쇠는 크로마 상자만 열 수 있습니다.",
+  "def_index": "1323",
   "crates": [
    {
     "id": "crate-4061",
@@ -213,6 +223,7 @@
   "id": "key-1325",
   "name": "크로마 2 상자 열쇠",
   "description": "이 열쇠는 크로마 2 상자만 열 수 있습니다.",
+  "def_index": "1325",
   "crates": [
    {
     "id": "crate-4089",
@@ -231,6 +242,7 @@
   "id": "key-1330",
   "name": "파르치온 상자 열쇠",
   "description": "이 열쇠는 파르치온 상자만 열 수 있습니다.",
+  "def_index": "1330",
   "crates": [
    {
     "id": "crate-4091",
@@ -249,6 +261,7 @@
   "id": "key-1333",
   "name": "그림자 상자 열쇠",
   "description": "이 열쇠는 그림자 상자만 열 수 있습니다.",
+  "def_index": "1333",
   "crates": [
    {
     "id": "crate-4138",
@@ -267,6 +280,7 @@
   "id": "key-1334",
   "name": "리볼버 상자 열쇠",
   "description": "이 열쇠는 리볼버 상자만 열 수 있습니다.",
+  "def_index": "1334",
   "crates": [
    {
     "id": "crate-4186",
@@ -285,6 +299,7 @@
   "id": "key-1347",
   "name": "크로마 3 상자 열쇠",
   "description": "이 열쇠는 크로마 3 상자만 열 수 있습니다.",
+  "def_index": "1347",
   "crates": [
    {
     "id": "crate-4233",
@@ -303,6 +318,7 @@
   "id": "key-1350",
   "name": "감마 상자 열쇠",
   "description": "이 열쇠는 감마 상자만 열 수 있습니다.",
+  "def_index": "1350",
   "crates": [
    {
     "id": "crate-4236",
@@ -321,6 +337,7 @@
   "id": "key-1351",
   "name": "감마 2 상자 열쇠",
   "description": "이 열쇠는 감마 2 상자만 열 수 있습니다.",
+  "def_index": "1351",
   "crates": [
    {
     "id": "crate-4281",
@@ -339,6 +356,7 @@
   "id": "key-1356",
   "name": "장갑 상자 열쇠",
   "description": "이 열쇠는 장갑 상자만 열 수 있습니다.",
+  "def_index": "1356",
   "crates": [
    {
     "id": "crate-4288",
@@ -357,6 +375,7 @@
   "id": "key-1364",
   "name": "스펙트럼 상자 열쇠",
   "description": "이 열쇠는 스펙트럼 상자만 열 수 있습니다.",
+  "def_index": "1364",
   "crates": [
    {
     "id": "crate-4351",
@@ -375,6 +394,7 @@
   "id": "key-1365",
   "name": "히드라 작전 상자 열쇠",
   "description": "이 열쇠는 히드라 작전 상자만 열 수 있습니다.",
+  "def_index": "1365",
   "crates": [
    {
     "id": "crate-4352",
@@ -393,6 +413,7 @@
   "id": "key-1366",
   "name": "스펙트럼 2 상자 열쇠",
   "description": "이 열쇠는 스펙트럼 2 상자만 열 수 있습니다.",
+  "def_index": "1366",
   "crates": [
    {
     "id": "crate-4403",
@@ -411,6 +432,7 @@
   "id": "key-1373",
   "name": "클러치 상자 열쇠",
   "description": "이 열쇠는 클러치 상자만 열 수 있습니다.",
+  "def_index": "1373",
   "crates": [
    {
     "id": "crate-4471",
@@ -429,6 +451,7 @@
   "id": "key-1374",
   "name": "호라이즌 상자 열쇠",
   "description": "이 열쇠는 호라이즌 상자만 열 수 있습니다.",
+  "def_index": "1374",
   "crates": [
    {
     "id": "crate-4482",
@@ -447,6 +470,7 @@
   "id": "key-1375",
   "name": "위험지대 상자 열쇠",
   "description": "이 열쇠는 위험지대 상자만 열 수 있습니다.",
+  "def_index": "1375",
   "crates": [
    {
     "id": "crate-4548",
@@ -465,6 +489,7 @@
   "id": "key-1383",
   "name": "프리즈마 상자 열쇠",
   "description": "이 열쇠는 프리즈마 상자만 열 수 있습니다.",
+  "def_index": "1383",
   "crates": [
    {
     "id": "crate-4598",
@@ -483,6 +508,7 @@
   "id": "key-1384",
   "name": "파괴 망 상자 열쇠",
   "description": "이 열쇠는 파괴 망 상자만 열 수 있습니다.",
+  "def_index": "1384",
   "crates": [
    {
     "id": "crate-4620",
@@ -501,6 +527,7 @@
   "id": "key-1385",
   "name": "CS20 상자 열쇠",
   "description": "이 열쇠는 CS20 상자만 열 수 있습니다.",
+  "def_index": "1385",
   "crates": [
    {
     "id": "crate-4669",
@@ -519,6 +546,7 @@
   "id": "key-1386",
   "name": "프리즈마 2 상자 열쇠",
   "description": "이 열쇠는 프리즈마 2 상자만 열 수 있습니다.",
+  "def_index": "1386",
   "crates": [
    {
     "id": "crate-4695",
@@ -537,6 +565,7 @@
   "id": "key-1387",
   "name": "프랙처 상자 열쇠",
   "description": "이 열쇠는 프랙처 상자만 열 수 있습니다.",
+  "def_index": "1387",
   "crates": [
    {
     "id": "crate-4698",
@@ -555,6 +584,7 @@
   "id": "key-1388",
   "name": "브로큰 팽 작전 상자 열쇠",
   "description": "이 열쇠는 브로큰 팽 작전 상자만 열 수 있습니다.",
+  "def_index": "1388",
   "crates": [
    {
     "id": "crate-4717",
@@ -573,6 +603,7 @@
   "id": "key-1389",
   "name": "스네이크바이트 상자 열쇠",
   "description": "이 열쇠는 스네이크바이트 상자만 열 수 있습니다.",
+  "def_index": "1389",
   "crates": [
    {
     "id": "crate-4747",
@@ -591,6 +622,7 @@
   "id": "key-1390",
   "name": "립타이드 작전 상자 열쇠",
   "description": "이 열쇠는 립타이드 작전 상자만 열 수 있습니다.",
+  "def_index": "1390",
   "crates": [
    {
     "id": "crate-4790",
@@ -609,6 +641,7 @@
   "id": "key-1391",
   "name": "Dreams & Nightmares 상자 열쇠",
   "description": "이 열쇠는 Dreams & Nightmares 상자만 열 수 있습니다.",
+  "def_index": "1391",
   "crates": [
    {
     "id": "crate-4818",
@@ -627,6 +660,7 @@
   "id": "key-1392",
   "name": "리코일 상자 열쇠",
   "description": "이 열쇠는 리코일 상자만 열 수 있습니다.",
+  "def_index": "1392",
   "crates": [
    {
     "id": "crate-4846",
@@ -645,6 +679,7 @@
   "id": "key-1393",
   "name": "레볼루션 상자 열쇠",
   "description": "이 열쇠는 레볼루션 상자만 열 수 있습니다.",
+  "def_index": "1393",
   "crates": [
    {
     "id": "crate-4880",
@@ -663,6 +698,7 @@
   "id": "key-1394",
   "name": "킬로와트 상자 열쇠",
   "description": "이 열쇠는 킬로와트 상자만 열 수 있습니다.",
+  "def_index": "1394",
   "crates": [
    {
     "id": "crate-4904",
@@ -681,6 +717,7 @@
   "id": "key-7000",
   "name": "들불 작전 상자 열쇠",
   "description": "이 열쇠는 들불 작전 상자만 열 수 있습니다.",
+  "def_index": "7000",
   "crates": [
    {
     "id": "crate-4187",
@@ -699,6 +736,7 @@
   "id": "key-7002",
   "name": "갤러리 상자 열쇠",
   "description": "이 열쇠는 갤러리 상자만 열 수 있습니다.",
+  "def_index": "7002",
   "crates": [
    {
     "id": "crate-7003",
@@ -717,6 +755,7 @@
   "id": "key-7008",
   "name": "열정 상자 열쇠",
   "description": "이 열쇠는 열정 상자만 열 수 있습니다.",
+  "def_index": "7008",
   "crates": [
    {
     "id": "crate-7007",

@@ -3,6 +3,7 @@
   "id": "key-generic_valve_key",
   "name": "Klucz do skrzyni CS:GO",
   "description": "Ten klucz pozwoli otworzyć dowolną skrzynię stworzoną przez Valve. Inne skrzynie (np. walizka e-sportowa) wymagają własnego klucza do otwarcia.",
+  "def_index": "generic_valve_key",
   "crates": [
    {
     "id": "crate-4001",
@@ -36,6 +37,7 @@
   "id": "key-1204",
   "name": "Klucz do walizek e-sportowych",
   "description": "Ten klucz otwiera walizkę e-sportową.\\n\\nCzęść zysków ze sprzedaży zostanie przeznaczona na wsparcie znanych, cyklicznie organizowanych przez społeczność turniejów CS:GO. Więcej informacji już wkrótce.",
+  "def_index": "1204",
   "crates": [
    {
     "id": "crate-4002",
@@ -64,6 +66,7 @@
   "id": "key-1212",
   "name": "Klucz do pojemnika CS:GO",
   "description": "Ten klucz otworzy dowolny pojemnik od Valve.",
+  "def_index": "1212",
   "crates": [
    {
     "id": "crate-4007",
@@ -87,6 +90,7 @@
   "id": "key-1214",
   "name": "Klucz do skrzyni Zimowej ofensywy",
   "description": "Ten klucz otwiera tylko skrzynie Zimowej ofensywy.",
+  "def_index": "1214",
   "crates": [
    {
     "id": "crate-4009",
@@ -105,6 +109,7 @@
   "id": "key-1303",
   "name": "Klucz do skrzyni operacji Phoenix",
   "description": "Ten klucz otwiera tylko skrzynie operacji Phoenix.",
+  "def_index": "1303",
   "crates": [
    {
     "id": "crate-4011",
@@ -123,6 +128,7 @@
   "id": "key-1304",
   "name": "Klucz do pojemnika z naklejką społeczności 1",
   "description": "Klucz ten otwiera Pojemnik z naklejką społeczności 1.\\n\\nCzęść z zysków ze sprzedaży klucza trafi do twórców naklejki.",
+  "def_index": "1304",
   "crates": [
    {
     "id": "crate-4016",
@@ -141,6 +147,7 @@
   "id": "key-1305",
   "name": "Klucz do skrzyni Łowcy",
   "description": "Ten klucz otwiera tylko skrzynie Łowcy.",
+  "def_index": "1305",
   "crates": [
    {
     "id": "crate-4017",
@@ -159,6 +166,7 @@
   "id": "key-1309",
   "name": "Klucz do skrzyni operacji Breakout",
   "description": "Ten klucz otwiera tylko skrzynie operacji Breakout.",
+  "def_index": "1309",
   "crates": [
    {
     "id": "crate-4018",
@@ -177,6 +185,7 @@
   "id": "key-1322",
   "name": "Klucz do skrzyni operacji Vanguard",
   "description": "Ten klucz otwiera tylko skrzynie operacji Vanguard.",
+  "def_index": "1322",
   "crates": [
    {
     "id": "crate-4029",
@@ -195,6 +204,7 @@
   "id": "key-1323",
   "name": "Klucz do skrzyni Chromatyczności",
   "description": "Ten klucz otwiera tylko skrzynie Chromatyczności.",
+  "def_index": "1323",
   "crates": [
    {
     "id": "crate-4061",
@@ -213,6 +223,7 @@
   "id": "key-1325",
   "name": "Klucz do skrzyni Chromatyczności 2",
   "description": "Ten klucz otwiera tylko skrzynie Chromatyczności 2.",
+  "def_index": "1325",
   "crates": [
    {
     "id": "crate-4089",
@@ -231,6 +242,7 @@
   "id": "key-1330",
   "name": "Klucz do skrzyni Falcjonu",
   "description": "Ten klucz otwiera tylko skrzynie Falcjonu.",
+  "def_index": "1330",
   "crates": [
    {
     "id": "crate-4091",
@@ -249,6 +261,7 @@
   "id": "key-1333",
   "name": "Klucz do skrzyni Cienia",
   "description": "Ten klucz otwiera tylko skrzynie Cienia.",
+  "def_index": "1333",
   "crates": [
    {
     "id": "crate-4138",
@@ -267,6 +280,7 @@
   "id": "key-1334",
   "name": "Klucz do skrzyni Rewolweru",
   "description": "Ten klucz otwiera tylko skrzynie Rewolweru.",
+  "def_index": "1334",
   "crates": [
    {
     "id": "crate-4186",
@@ -285,6 +299,7 @@
   "id": "key-1347",
   "name": "Klucz do skrzyni Chromatyczności 3",
   "description": "Ten klucz otwiera tylko skrzynie Chromatyczności 3.",
+  "def_index": "1347",
   "crates": [
    {
     "id": "crate-4233",
@@ -303,6 +318,7 @@
   "id": "key-1350",
   "name": "Klucz do skrzyni Gamma",
   "description": "Ten klucz otwiera tylko skrzynie Gamma.",
+  "def_index": "1350",
   "crates": [
    {
     "id": "crate-4236",
@@ -321,6 +337,7 @@
   "id": "key-1351",
   "name": "Klucz do skrzyni Gamma 2",
   "description": "Ten klucz otwiera tylko skrzynie Gamma 2.",
+  "def_index": "1351",
   "crates": [
    {
     "id": "crate-4281",
@@ -339,6 +356,7 @@
   "id": "key-1356",
   "name": "Klucz do skrzyni Rękawic",
   "description": "Ten klucz otwiera tylko skrzynie Rękawic.",
+  "def_index": "1356",
   "crates": [
    {
     "id": "crate-4288",
@@ -357,6 +375,7 @@
   "id": "key-1364",
   "name": "Klucz do skrzyni Spektrum",
   "description": "Ten klucz otwiera tylko skrzynie Spektrum.",
+  "def_index": "1364",
   "crates": [
    {
     "id": "crate-4351",
@@ -375,6 +394,7 @@
   "id": "key-1365",
   "name": "Klucz do skrzyni operacji Hydra",
   "description": "Ten klucz otwiera tylko skrzynie operacji Hydra.",
+  "def_index": "1365",
   "crates": [
    {
     "id": "crate-4352",
@@ -393,6 +413,7 @@
   "id": "key-1366",
   "name": "Klucz do skrzyni Spektrum 2",
   "description": "Ten klucz otwiera tylko skrzynie Spektrum 2.",
+  "def_index": "1366",
   "crates": [
    {
     "id": "crate-4403",
@@ -411,6 +432,7 @@
   "id": "key-1373",
   "name": "Klucz do skrzyni Clutch",
   "description": "Ten klucz otwiera tylko skrzynie Clutch.",
+  "def_index": "1373",
   "crates": [
    {
     "id": "crate-4471",
@@ -429,6 +451,7 @@
   "id": "key-1374",
   "name": "Klucz do skrzyni Horyzontu",
   "description": "Ten klucz otwiera tylko skrzynie Horyzontu.",
+  "def_index": "1374",
   "crates": [
    {
     "id": "crate-4482",
@@ -447,6 +470,7 @@
   "id": "key-1375",
   "name": "Klucz do skrzyni Strefy zagrożenia",
   "description": "Ten klucz otwiera tylko skrzynie Strefy zagrożenia.",
+  "def_index": "1375",
   "crates": [
    {
     "id": "crate-4548",
@@ -465,6 +489,7 @@
   "id": "key-1383",
   "name": "Klucz do skrzyni Pryzmatu",
   "description": "Ten klucz otwiera tylko skrzynie Pryzmatu.",
+  "def_index": "1383",
   "crates": [
    {
     "id": "crate-4598",
@@ -483,6 +508,7 @@
   "id": "key-1384",
   "name": "Klucz do skrzyni operacji Shattered Web",
   "description": "Ten klucz otwiera tylko skrzynie operacji Shattered Web.",
+  "def_index": "1384",
   "crates": [
    {
     "id": "crate-4620",
@@ -501,6 +527,7 @@
   "id": "key-1385",
   "name": "Klucz do skrzyni CS20",
   "description": "Ten klucz otwiera tylko skrzynie CS20.",
+  "def_index": "1385",
   "crates": [
    {
     "id": "crate-4669",
@@ -519,6 +546,7 @@
   "id": "key-1386",
   "name": "Klucz do skrzyni Pryzmatu 2",
   "description": "Ten klucz otwiera tylko skrzynie Pryzmatu 2.",
+  "def_index": "1386",
   "crates": [
    {
     "id": "crate-4695",
@@ -537,6 +565,7 @@
   "id": "key-1387",
   "name": "Klucz do skrzyni Załamania",
   "description": "Ten klucz otwiera tylko skrzynie Załamania.",
+  "def_index": "1387",
   "crates": [
    {
     "id": "crate-4698",
@@ -555,6 +584,7 @@
   "id": "key-1388",
   "name": "Klucz do skrzyni operacji Broken Fang",
   "description": "Ten klucz otwiera tylko skrzynie operacji Broken Fang.",
+  "def_index": "1388",
   "crates": [
    {
     "id": "crate-4717",
@@ -573,6 +603,7 @@
   "id": "key-1389",
   "name": "Klucz do skrzyni Ukąszenia Węża",
   "description": "Ten klucz otwiera tylko skrzynie Ukąszenia Węża.",
+  "def_index": "1389",
   "crates": [
    {
     "id": "crate-4747",
@@ -591,6 +622,7 @@
   "id": "key-1390",
   "name": "Klucz do skrzyni operacji Riptide",
   "description": "Ten klucz otwiera tylko skrzynie operacji Riptide.",
+  "def_index": "1390",
   "crates": [
    {
     "id": "crate-4790",
@@ -609,6 +641,7 @@
   "id": "key-1391",
   "name": "Klucz do skrzyni Snów i koszmarów",
   "description": "Ten klucz otwiera tylko skrzynie Snów i koszmarów.",
+  "def_index": "1391",
   "crates": [
    {
     "id": "crate-4818",
@@ -627,6 +660,7 @@
   "id": "key-1392",
   "name": "Klucz do skrzyni Odrzutu",
   "description": "Ten klucz otwiera tylko skrzynie Odrzutu.",
+  "def_index": "1392",
   "crates": [
    {
     "id": "crate-4846",
@@ -645,6 +679,7 @@
   "id": "key-1393",
   "name": "Klucz do skrzyni Rewolucji",
   "description": "Ten klucz otwiera tylko skrzynie Rewolucji.",
+  "def_index": "1393",
   "crates": [
    {
     "id": "crate-4880",
@@ -663,6 +698,7 @@
   "id": "key-1394",
   "name": "Klucz do skrzyni Kilowata",
   "description": "Ten klucz otwiera tylko skrzynie Kilowata.",
+  "def_index": "1394",
   "crates": [
    {
     "id": "crate-4904",
@@ -681,6 +717,7 @@
   "id": "key-7000",
   "name": "Klucz do skrzyni operacji Wildfire",
   "description": "Ten klucz otwiera tylko skrzynie operacji Wildfire.",
+  "def_index": "7000",
   "crates": [
    {
     "id": "crate-4187",
@@ -699,6 +736,7 @@
   "id": "key-7002",
   "name": "Klucz do skrzyni Galerii",
   "description": "Ten klucz otwiera tylko skrzynie Galerii.",
+  "def_index": "7002",
   "crates": [
    {
     "id": "crate-7003",
@@ -717,6 +755,7 @@
   "id": "key-7008",
   "name": "Klucz do skrzyni Gorączki",
   "description": "Ten klucz otwiera tylko skrzynie Gorączki.",
+  "def_index": "7008",
   "crates": [
    {
     "id": "crate-7007",

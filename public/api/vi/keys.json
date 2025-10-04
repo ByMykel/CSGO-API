@@ -3,6 +3,7 @@
   "id": "key-generic_valve_key",
   "name": "Chìa khóa hòm CS:GO",
   "description": "Chìa khóa này mở bất cứ hòm vũ khí nào của Valve. Hòm không do Valve tạo (v.d. hòm vũ khí eSports) cần dùng chìa khóa riêng.",
+  "def_index": "generic_valve_key",
   "crates": [
    {
     "id": "crate-4001",
@@ -36,6 +37,7 @@
   "id": "key-1204",
   "name": "Chìa khóa eSports",
   "description": "Chìa khóa này mở bất kì hòm eSports nào.\\n\\nMột phần doanh thu của chìa khóa này sẽ được tích vào một trong những giải đấu có uy tín của cộng đồng CS:GO. Hãy theo dõi những thông báo sau này.",
+  "def_index": "1204",
   "crates": [
    {
     "id": "crate-4002",
@@ -64,6 +66,7 @@
   "id": "key-1212",
   "name": "Chìa khóa gói CS:GO",
   "description": "Chìa khóa này sẽ mở bất kỳ gói Valve Series nào.",
+  "def_index": "1212",
   "crates": [
    {
     "id": "crate-4007",
@@ -87,6 +90,7 @@
   "id": "key-1214",
   "name": "Chìa khóa hòm Winter Offensive",
   "description": "Chìa khóa này chỉ mở hòm Winter Offensive",
+  "def_index": "1214",
   "crates": [
    {
     "id": "crate-4009",
@@ -105,6 +109,7 @@
   "id": "key-1303",
   "name": "Chìa khóa hòm chiến dịch Phoenix",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Phoenix",
+  "def_index": "1303",
   "crates": [
    {
     "id": "crate-4011",
@@ -123,6 +128,7 @@
   "id": "key-1304",
   "name": "Chìa khóa gói hình dán cộng đồng 1",
   "description": "Chìa khóa này có thể mở gói hình dán cộng đồng 1.\\n\\nMột phần doanh thu từ chìa khóa này sẽ được gửi đến các tác giả của hình dán.",
+  "def_index": "1304",
   "crates": [
    {
     "id": "crate-4016",
@@ -141,6 +147,7 @@
   "id": "key-1305",
   "name": "Chìa khóa hòm Huntsman",
   "description": "Chìa khóa này chỉ mở hòm Huntsman",
+  "def_index": "1305",
   "crates": [
    {
     "id": "crate-4017",
@@ -159,6 +166,7 @@
   "id": "key-1309",
   "name": "Chìa khóa hòm chiến dịch Breakout",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Breakout",
+  "def_index": "1309",
   "crates": [
    {
     "id": "crate-4018",
@@ -177,6 +185,7 @@
   "id": "key-1322",
   "name": "Chìa khóa chiến dịch Vanguard",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Vanguard",
+  "def_index": "1322",
   "crates": [
    {
     "id": "crate-4029",
@@ -195,6 +204,7 @@
   "id": "key-1323",
   "name": "Chìa khóa hòm Chroma",
   "description": "Chìa khóa này chỉ mở hòm Chroma",
+  "def_index": "1323",
   "crates": [
    {
     "id": "crate-4061",
@@ -213,6 +223,7 @@
   "id": "key-1325",
   "name": "Chìa khóa hòm Chroma 2",
   "description": "Chìa khóa này chỉ mở hòm Chroma 2",
+  "def_index": "1325",
   "crates": [
    {
     "id": "crate-4089",
@@ -231,6 +242,7 @@
   "id": "key-1330",
   "name": "Chìa khóa hòm Falchion",
   "description": "Chìa khóa này chỉ mở hòm Falchion",
+  "def_index": "1330",
   "crates": [
    {
     "id": "crate-4091",
@@ -249,6 +261,7 @@
   "id": "key-1333",
   "name": "Chìa khóa hòm Shadow",
   "description": "Chìa khóa này chỉ mở hòm Shadow",
+  "def_index": "1333",
   "crates": [
    {
     "id": "crate-4138",
@@ -267,6 +280,7 @@
   "id": "key-1334",
   "name": "Chìa khóa hòm Revolver",
   "description": "Chìa khóa này chỉ mở hòm Revolver",
+  "def_index": "1334",
   "crates": [
    {
     "id": "crate-4186",
@@ -285,6 +299,7 @@
   "id": "key-1347",
   "name": "Chìa khóa hòm Chroma 3",
   "description": "Chìa khóa này chỉ mở hòm Chroma 3",
+  "def_index": "1347",
   "crates": [
    {
     "id": "crate-4233",
@@ -303,6 +318,7 @@
   "id": "key-1350",
   "name": "Chìa khóa hòm Gamma",
   "description": "Chìa khóa này chỉ mở hòm Gamma",
+  "def_index": "1350",
   "crates": [
    {
     "id": "crate-4236",
@@ -321,6 +337,7 @@
   "id": "key-1351",
   "name": "Chìa khóa hòm Gamma 2",
   "description": "Chìa khóa này chỉ mở hòm Gamma 2",
+  "def_index": "1351",
   "crates": [
    {
     "id": "crate-4281",
@@ -339,6 +356,7 @@
   "id": "key-1356",
   "name": "Chìa khóa hòm Glove",
   "description": "Chìa khóa này chỉ mở hòm Glove",
+  "def_index": "1356",
   "crates": [
    {
     "id": "crate-4288",
@@ -357,6 +375,7 @@
   "id": "key-1364",
   "name": "Chìa khóa hòm Spectrum",
   "description": "Chìa khóa này chỉ mở hòm Spectrum",
+  "def_index": "1364",
   "crates": [
    {
     "id": "crate-4351",
@@ -375,6 +394,7 @@
   "id": "key-1365",
   "name": "Chìa khóa hòm chiến dịch Hydra",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Hydra",
+  "def_index": "1365",
   "crates": [
    {
     "id": "crate-4352",
@@ -393,6 +413,7 @@
   "id": "key-1366",
   "name": "Chìa khóa hòm Spectrum 2",
   "description": "Chìa khóa này chỉ mở hòm Spectrum 2",
+  "def_index": "1366",
   "crates": [
    {
     "id": "crate-4403",
@@ -411,6 +432,7 @@
   "id": "key-1373",
   "name": "Chìa khóa hòm Clutch",
   "description": "Chìa khóa này chỉ mở hòm Clutch",
+  "def_index": "1373",
   "crates": [
    {
     "id": "crate-4471",
@@ -429,6 +451,7 @@
   "id": "key-1374",
   "name": "Chìa khóa hòm Horizon",
   "description": "Chìa khóa này chỉ mở hòm Horizon",
+  "def_index": "1374",
   "crates": [
    {
     "id": "crate-4482",
@@ -447,6 +470,7 @@
   "id": "key-1375",
   "name": "Chìa khóa hòm Danger Zone",
   "description": "Chìa khóa này chỉ mở hòm Danger Zone",
+  "def_index": "1375",
   "crates": [
    {
     "id": "crate-4548",
@@ -465,6 +489,7 @@
   "id": "key-1383",
   "name": "Chìa khóa hòm Prisma",
   "description": "Chìa khóa này chỉ mở hòm Prisma",
+  "def_index": "1383",
   "crates": [
    {
     "id": "crate-4598",
@@ -483,6 +508,7 @@
   "id": "key-1384",
   "name": "Chìa khóa hòm Shattered Web",
   "description": "Chìa khóa này chỉ mở hòm Shattered Web",
+  "def_index": "1384",
   "crates": [
    {
     "id": "crate-4620",
@@ -501,6 +527,7 @@
   "id": "key-1385",
   "name": "Chìa khoá hòm CS20",
   "description": "Chìa khoá này chỉ mở hòm CS20",
+  "def_index": "1385",
   "crates": [
    {
     "id": "crate-4669",
@@ -519,6 +546,7 @@
   "id": "key-1386",
   "name": "Chìa khóa hòm Prisma 2",
   "description": "Chìa khóa này chỉ mở hòm Prisma 2",
+  "def_index": "1386",
   "crates": [
    {
     "id": "crate-4695",
@@ -537,6 +565,7 @@
   "id": "key-1387",
   "name": "Chìa khóa hòm Fracture",
   "description": "Chìa khóa này chỉ mở hòm Fracture",
+  "def_index": "1387",
   "crates": [
    {
     "id": "crate-4698",
@@ -555,6 +584,7 @@
   "id": "key-1388",
   "name": "Chìa khóa hòm chiến dịch Broken Fang",
   "description": "Chìa khóa này chỉ mở chiến dịch Broken Fang",
+  "def_index": "1388",
   "crates": [
    {
     "id": "crate-4717",
@@ -573,6 +603,7 @@
   "id": "key-1389",
   "name": "Chìa khóa hòm Snakebite",
   "description": "Chìa khóa này chỉ mở hòm Snakebite",
+  "def_index": "1389",
   "crates": [
    {
     "id": "crate-4747",
@@ -591,6 +622,7 @@
   "id": "key-1390",
   "name": "Chìa khóa hòm chiến dịch Riptide",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Riptide",
+  "def_index": "1390",
   "crates": [
    {
     "id": "crate-4790",
@@ -609,6 +641,7 @@
   "id": "key-1391",
   "name": "Chìa khóa hòm Dreams & Nightmares",
   "description": "Chìa khóa này chỉ mở hòm Dreams & Nightmares",
+  "def_index": "1391",
   "crates": [
    {
     "id": "crate-4818",
@@ -627,6 +660,7 @@
   "id": "key-1392",
   "name": "Chìa khóa hòm Recoil",
   "description": "Chìa khóa này chỉ mở hòm Recoil",
+  "def_index": "1392",
   "crates": [
    {
     "id": "crate-4846",
@@ -645,6 +679,7 @@
   "id": "key-1393",
   "name": "Chìa khóa hòm Revolution",
   "description": "Chìa khóa này chỉ mở hòm Revolution",
+  "def_index": "1393",
   "crates": [
    {
     "id": "crate-4880",
@@ -663,6 +698,7 @@
   "id": "key-1394",
   "name": "Chìa khóa hòm Kilowatt",
   "description": "Chìa khóa này chỉ mở hòm Kilowatt",
+  "def_index": "1394",
   "crates": [
    {
     "id": "crate-4904",
@@ -681,6 +717,7 @@
   "id": "key-7000",
   "name": "Chìa khóa hòm chiến dịch Wildfire",
   "description": "Chìa khóa này chỉ mở hòm chiến dịch Wildfire",
+  "def_index": "7000",
   "crates": [
    {
     "id": "crate-4187",
@@ -699,6 +736,7 @@
   "id": "key-7002",
   "name": "Chìa khóa hòm Gallery",
   "description": "Chìa khóa này chỉ mở hòm Gallery",
+  "def_index": "7002",
   "crates": [
    {
     "id": "crate-7003",
@@ -717,6 +755,7 @@
   "id": "key-7008",
   "name": "Chìa khóa hòm Fever",
   "description": "Chìa khóa này chỉ mở hòm Fever",
+  "def_index": "7008",
   "crates": [
    {
     "id": "crate-7007",
