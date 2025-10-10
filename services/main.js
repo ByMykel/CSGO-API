@@ -56,8 +56,8 @@ export const loadItemsGame = async () => {
                 };
             });
         })
-        .catch(() => {
-            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
+        .catch(error => {
+            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`, { cause: error });
         });
 
     await axios
@@ -80,8 +80,8 @@ export const loadItemsGame = async () => {
                     return acc;
                 }, {});
         })
-        .catch(() => {
-            throw new Error(`Error formatting alternate_icons2.weapon_icons`);
+        .catch(error => {
+            throw new Error(`Error formatting alternate_icons2.weapon_icons`, { cause: error });
         });
 };
 
@@ -811,8 +811,9 @@ export const getManifestId = async () => {
         .then(response => {
             // Decode base64 content and trim whitespace
             return Buffer.from(response.data.content, "base64").toString("utf-8").trim();
-        }).catch((error) => {
-            throw new Error(`Error getting manifestId: ${error.message}`);
+        })
+        .catch(error => {
+            throw new Error(`Error getting manifestId`, { cause: error });
         });
 };
 
