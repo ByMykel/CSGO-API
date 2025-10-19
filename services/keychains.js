@@ -58,6 +58,7 @@ const parseHighlight = item => {
 
     return {
         id: `highlight-${item.id}`,
+        highlight_reel: item.highlight_reel,
         // TODO: translate Souvenir Charm to other languages
         name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
         description: $t(`highlightdesc_${tournament}_${highlightType}`),
