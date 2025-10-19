@@ -579,7 +579,7 @@ export const loadStattrakSkins = () => {
 };
 
 export const loadHighlights = () => {
-    state.highlightReels = Object.entries(state.itemsGame.highlight_reels).map(([_, item]) => {
+    state.highlightReels = Object.entries(state.itemsGame.highlight_reels).map(([id, item]) => {
         const tournamentString = String(item["tournament event id"]).padStart(3, "0");
         const matchString = `${String(item["tournament event team0 id"]).padStart(3, "0")}v${String(item["tournament event team1 id"]).padStart(3, "0")}_${String(item["tournament event stage id"]).padStart(3, "0")}`;
 
@@ -587,6 +587,7 @@ export const loadHighlights = () => {
 
         return {
             id: item.id,
+            highlight_reel: id,
             tournament_event_id: item["tournament event id"],
             tournament_event_team0_id: item["tournament event team0 id"],
             tournament_event_team1_id: item["tournament event team1 id"],
