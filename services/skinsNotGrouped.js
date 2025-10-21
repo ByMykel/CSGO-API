@@ -217,6 +217,7 @@ const parseItem = (item, items) => {
             // Return original attributes from item_game.json
             original: {
                 name: items[weapon].name,
+                image_inventory: item.icon_path,
             },
         }))
     );
@@ -285,6 +286,7 @@ export const getSkinsNotGrouped = () => {
                     // Return original attributes from item_game.json
                     original: {
                         name: knife.name,
+                        icon_path: `econ/weapons/base_weapons/${knife.name}`,
                     },
                 }))
             )

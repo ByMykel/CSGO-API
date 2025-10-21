@@ -47,6 +47,7 @@ const parseItem = item => {
             // Return original attributes from item_game.json
             original: {
                 name: item.name,
+                image_inventory: item.image_inventory.toLowerCase(),
             },
         };
 
@@ -73,6 +74,7 @@ const parseItem = item => {
             // Return original attributes from item_game.json
             original: {
                 name: item.name,
+                image_inventory: item.image_inventory.toLowerCase(),
             },
         };
 

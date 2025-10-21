@@ -30,6 +30,9 @@ const parseItem = item => {
         video: folder === "zh-CN" ? item.video.replace("_ww_", "_cn_") : item.video,
         // TODO: would be great to have chinese thumbnail as well
         thumbnail: folder === "zh-CN" ? item.thumbnail.replace("_ww.jpg", "_cn.jpg") : item.thumbnail,
+        original: {
+            image_inventory: item.image_inventory,
+        },
     };
 };
 

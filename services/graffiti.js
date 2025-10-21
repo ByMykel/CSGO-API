@@ -77,6 +77,7 @@ const parseItemSealedGraffiti = item => {
                 // Return original attributes from item_game.json
                 original: {
                     item_name: item.item_name,
+                    image_inventory: `econ/stickers/${item.sticker_material}_${index}`,
                 },
             };
         });
@@ -104,6 +105,7 @@ const parseItemSealedGraffiti = item => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
+            image_inventory: `econ/stickers/${item.sticker_material}`,
         },
     };
 };
