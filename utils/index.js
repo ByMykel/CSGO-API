@@ -505,6 +505,11 @@ export const filterUniqueByAttribute = (items, attribute) => {
 };
 
 export const formatSkinImage = (url, wear) => {
+    // SFUI_InvTooltip_Wear_Amount_0 - Factory New - light
+    // SFUI_InvTooltip_Wear_Amount_1 - Minimal Wear - light
+    // SFUI_InvTooltip_Wear_Amount_2 - Field-Tested - medium
+    // SFUI_InvTooltip_Wear_Amount_3 - Well-Worn - medium
+    // SFUI_InvTooltip_Wear_Amount_4 - Battle-Scarred - heavy
     if (["SFUI_InvTooltip_Wear_Amount_2", "SFUI_InvTooltip_Wear_Amount_3"].includes(wear)) {
         url = url.replace("_light_png", "_medium_png");
     }

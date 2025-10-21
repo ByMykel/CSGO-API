@@ -217,7 +217,12 @@ const parseItem = (item, items) => {
             // Return original attributes from item_game.json
             original: {
                 name: items[weapon].name,
-                image_inventory: item.icon_path,
+                image_inventory: formatSkinImage(image, wear)
+                    .replace(
+                        "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/",
+                        ""
+                    )
+                    .replace("_png.png", ""),
             },
         }))
     );
