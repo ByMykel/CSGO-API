@@ -45,6 +45,7 @@ const parseItem = item => {
         // Return original attributes from item_game.json
         original: {
             loc_name: item.loc_name,
+            image_inventory: item.image_inventory.toLowerCase(),
         },
     };
 };

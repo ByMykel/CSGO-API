@@ -168,6 +168,7 @@ const parseItem = (item, prefabs) => {
         // Return original attributes from item_game.json
         original: {
             item_name: item.item_name,
+            image_inventory: item.image_inventory.toLowerCase(),
         },
     };
 };
