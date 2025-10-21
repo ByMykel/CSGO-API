@@ -6,45 +6,40 @@ Data are sourced from files maintained at [this repository](https://github.com/B
 
 ## Usage
 
-This API supports over 20 languages. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
+This API currently supports **5 core languages** to keep the repository size manageable. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
 
 ```http
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
 ```
 
-Supported Languages:
+## Currently Supported Languages
 
 | Language Name         | Language Code |
 | --------------------- | ------------- |
-| Bulgarian             | bg            |
-| Czech                 | cs            |
-| Danish                | da            |
-| German                | de            |
-| Greek                 | el            |
-| English               | en            |
-| Spanish (Spain)       | es-ES         |
-| Spanish (Mexico)      | es-MX         |
-| Finnish               | fi            |
-| French                | fr            |
-| Hungarian             | hu            |
-| Italian               | it            |
-| Japanese              | ja            |
-| Korean                | ko            |
-| Dutch                 | nl            |
-| Norwegian             | no            |
-| Polish                | pl            |
 | Portuguese (Brazil)   | pt-BR         |
-| Portuguese (Portugal) | pt-PT         |
-| Romanian              | ro            |
+| English               | en            |
 | Russian               | ru            |
-| Slovak                | sk            |
-| Swedish               | sv            |
-| Thai                  | th            |
-| Turkish               | tr            |
-| Ukrainian             | uk            |
 | Chinese (Simplified)  | zh-CN         |
-| Chinese (Traditional) | zh-TW         |
-| Vietnamese            | vi            |
+| Spanish (Spain)       | es-ES         |
+
+## Adding More Languages
+
+If you need support for additional languages, you can:
+
+1. **Fork this repository**
+2. **Uncomment the desired languages** in `constants.js` (lines 24-173)
+3. **Run the update script** to generate the language files:
+   ```bash
+   npm run update-data-force
+   ```
+
+The following languages are available but commented out in the codebase:
+- Bulgarian (bg), Czech (cs), Danish (da), German (de), Greek (el)
+- Spanish Mexico (es-MX), Finnish (fi), French (fr), Hungarian (hu)
+- Italian (it), Japanese (ja), Korean (ko), Dutch (nl), Norwegian (no)
+- Polish (pl), Portuguese Portugal (pt-PT), Romanian (ro)
+- Swedish (sv), Thai (th), Turkish (tr), Ukrainian (uk)
+- Chinese Traditional (zh-TW), Vietnamese (vi)
 
 ### All items
 
