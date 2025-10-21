@@ -435,38 +435,28 @@
                         <p
                             class="mt-4 text-base md:text-lg text-slate-700 mb-4"
                         >
-                            To access information in a specific language,
-                            replace <span>{language}</span> in the URL with one
-                            of the supported language codes:
-                            <span class="language-code">bg</span>
-                            <span class="language-code">cs</span>
-                            <span class="language-code">da</span>
-                            <span class="language-code">de</span>
-                            <span class="language-code">el</span>
-                            <span class="language-code">en</span>
-                            <span class="language-code">es-ES</span>
-                            <span class="language-code">es-MX</span>
-                            <span class="language-code">fi</span>
-                            <span class="language-code">fr</span>
-                            <span class="language-code">hu</span>
-                            <span class="language-code">it</span>
-                            <span class="language-code">ja</span>
-                            <span class="language-code">ko</span>
-                            <span class="language-code">nl</span>
-                            <span class="language-code">no</span>
-                            <span class="language-code">pl</span>
+                            This API currently supports <strong>5 core languages</strong> to keep the repository size manageable. To access information in a specific language, replace <span>{language}</span> in the URL with one of the supported language codes:
                             <span class="language-code">pt-BR</span>
-                            <span class="language-code">pt-PT</span>
-                            <span class="language-code">ro</span>
+                            <span class="language-code">en</span>
                             <span class="language-code">ru</span>
-                            <span class="language-code">sv</span>
-                            <span class="language-code">th</span>
-                            <span class="language-code">tr</span>
-                            <span class="language-code">uk</span>
                             <span class="language-code">zh-CN</span>
-                            <span class="language-code">zh-TW</span>
-                            <span class="language-code">vi</span>
+                            <span class="language-code">es-ES</span>
                         </p>
+                        
+                        <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-900 mb-2">Need more languages?</h3>
+                            <p class="text-blue-800 text-sm mb-2">
+                                If you need support for additional languages, you can:
+                            </p>
+                            <ol class="text-blue-800 text-sm list-decimal list-inside space-y-1">
+                                <li><strong>Fork this repository</strong></li>
+                                <li><strong>Uncomment the desired languages</strong> in <code>constants.js</code></li>
+                                <li><strong>Run the update script:</strong> <code>npm run update-data-force</code></li>
+                            </ol>
+                            <p class="text-blue-800 text-sm mt-2">
+                                Available languages: bg, cs, da, de, el, es-MX, fi, fr, hu, it, ja, ko, nl, no, pl, pt-PT, ro, sv, th, tr, uk, zh-TW, vi
+                            </p>
+                        </div>
                     </div>
 
                     <hr />
