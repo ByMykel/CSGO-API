@@ -7,7 +7,7 @@ import {
     skinMarketHashName,
     getCategory,
     getRarityColor,
-    formatSkinImage,
+    formatIconPath,
     getFinishStyleLink,
     weaponIDMapping,
 } from "../utils/index.js";
@@ -75,9 +75,8 @@ const getVanillaDescription = (desc, isStatTrak) => {
 };
 
 const parseItem = (item, items) => {
-    const { rarities, paintKits, souvenirSkins, stattTrakSkins } = state;
+    const { rarities, paintKits, souvenirSkins, stattTrakSkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -212,24 +211,21 @@ const parseItem = (item, items) => {
                 url: getFinishStyleLink(paintKits[pattern]?.style_id),
             },
             legacy_model: paintKits[pattern]?.legacy_model,
-            image: formatSkinImage(image, wear),
+            image:
+                cdnImages[formatIconPath(item.icon_path.toLowerCase(), wear)] ??
+                getImageUrl(formatIconPath(item.icon_path.toLowerCase(), wear)),
 
             // Return original attributes from item_game.json
             original: {
                 name: items[weapon].name,
-                image_inventory: formatSkinImage(image, wear)
-                    .replace(
-                        "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/",
-                        ""
-                    )
-                    .replace("_png.png", ""),
+                image_inventory: formatIconPath(item.icon_path.toLowerCase(), wear),
             },
         }))
     );
 };
 
 export const getSkinsNotGrouped = () => {
-    const { itemsGame, items } = state;
+    const { itemsGame, items, cdnImages } = state;
     const { folder } = languageData;
 
     const types = ["rare_special_vanilla", "rare_special_vanilla_stattrak"];
@@ -286,7 +282,9 @@ export const getSkinsNotGrouped = () => {
                         url: getFinishStyleLink(0),
                     },
                     legacy_model: true,
-                    image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
+                    image:
+                        cdnImages[`econ/weapons/base_weapons/${knife.name}`] ??
+                        getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
 
                     // Return original attributes from item_game.json
                     original: {

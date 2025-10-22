@@ -60,9 +60,9 @@ const getDescription = (desc, paintKits, pattern) => {
 };
 
 const parseItem = (item, items) => {
-    const { rarities, paintKits, cratesBySkins, souvenirSkins, collectionsBySkins } = state;
+    const { rarities, paintKits, cratesBySkins, souvenirSkins, collectionsBySkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = getImageUrl(item.icon_path.toLowerCase());
+    const image = cdnImages[item.icon_path.toLowerCase()] ?? getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);

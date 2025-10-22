@@ -130,9 +130,11 @@ const getMarketHashName = item => {
 };
 
 const parseItem = item => {
-    const { cratesBySkins, proTeams, proPlayers, collectionsByStickers } = state;
+    const { cratesBySkins, proTeams, proPlayers, collectionsByStickers, cdnImages } = state;
 
-    const image = getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
+    const image =
+        cdnImages[`econ/stickers/${item.sticker_material.toLowerCase()}`] ??
+        getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {

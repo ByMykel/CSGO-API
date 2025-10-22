@@ -21,8 +21,9 @@ const getMarketHashName = item => {
 };
 
 const parseItem = item => {
-    const { collectionsBySkins } = state;
-    const image = getImageUrl(`${item.image_inventory.toLowerCase()}`);
+    const { collectionsBySkins, cdnImages } = state;
+    const image =
+        cdnImages[item.image_inventory.toLowerCase()] ?? getImageUrl(item.image_inventory.toLowerCase());
 
     return {
         id: `keychain-${item.object_id}`,

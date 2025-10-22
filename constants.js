@@ -15,11 +15,34 @@ export const IMAGES_BASE_URL =
 export const CSGO_ENGLISH_URL =
     "https://raw.githubusercontent.com/ByMykel/counter-strike-file-tracker/main/static/csgo_english.json";
 
+export const IMAGES_INVENTORY_URL =
+    "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/images_inventory.json";
+
 export const LANGUAGES_URL = [
+    {
+        language: "english",
+        folder: "en",
+        url: getLanguageUrl("english"),
+    },
     {
         language: "portuguese (Brazil)",
         folder: "pt-BR",
         url: getLanguageUrl("brazilian"),
+    },
+    {
+        language: "russian",
+        folder: "ru",
+        url: getLanguageUrl("russian"),
+    },
+    {
+        language: "schinese",
+        folder: "zh-CN",
+        url: getLanguageUrl("schinese"),
+    },
+    {
+        language: "spanish",
+        folder: "es-ES",
+        url: getLanguageUrl("spanish"),
     },
     // {
     //     language: "bulgarian",
@@ -41,11 +64,6 @@ export const LANGUAGES_URL = [
     //     folder: "nl",
     //     url: getLanguageUrl("dutch"),
     // },
-    {
-        language: "english",
-        folder: "en",
-        url: getLanguageUrl("english"),
-    },
     // {
     //     language: "finnish",
     //     folder: "fi",
@@ -121,26 +139,11 @@ export const LANGUAGES_URL = [
     //     folder: "ro",
     //     url: getLanguageUrl("romanian"),
     // },
-    {
-        language: "russian",
-        folder: "ru",
-        url: getLanguageUrl("russian"),
-    },
     // {
     //     language: "schinese_pw",
     //     folder: "zh-CN",
     //     url: getLanguageUrl("schinese_pw"),
     // },
-    {
-        language: "schinese",
-        folder: "zh-CN",
-        url: getLanguageUrl("schinese"),
-    },
-    {
-        language: "spanish",
-        folder: "es-ES",
-        url: getLanguageUrl("spanish"),
-    },
     // {
     //     language: "swedish",
     //     folder: "sv",

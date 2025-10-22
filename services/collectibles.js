@@ -100,8 +100,9 @@ const getMarketHashName = item => {
 };
 
 const parseItem = item => {
+    const { cdnImages } = state;
     const isAttendance = item.prefab === "attendance_pin";
-    const image = getImageUrl(item.image_inventory);
+    const image = cdnImages[item.image_inventory] ?? getImageUrl(item.image_inventory);
 
     const rarity = item.item_rarity ? `rarity_${item.item_rarity}` : getCollectibleRarity(item?.prefab);
 

@@ -22,7 +22,10 @@ const getDescription = item => {
 };
 
 const parseItem = item => {
-    const image = getImageUrl(`econ/patches/${item.patch_material}`);
+    const { cdnImages } = state;
+    const image =
+        cdnImages[`econ/patches/${item.patch_material}`] ??
+        getImageUrl(`econ/patches/${item.patch_material}`);
 
     return {
         id: `patch-${item.object_id}`,
