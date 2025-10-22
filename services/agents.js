@@ -7,9 +7,11 @@ import { getImageUrl } from "../constants.js";
 const isAgent = item => item.prefab === "customplayertradable";
 
 const parseItem = item => {
-    const { collectionsBySkins } = state;
+    const { collectionsBySkins, cdnImages } = state;
 
-    const image = getImageUrl(`econ/characters/${item.name.toLocaleLowerCase()}`);
+    const image =
+        cdnImages[`econ/characters/${item.name.toLocaleLowerCase()}`] ??
+        getImageUrl(`econ/characters/${item.name.toLocaleLowerCase()}`);
 
     return {
         id: `agent-${item.object_id}`,

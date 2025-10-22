@@ -504,22 +504,22 @@ export const filterUniqueByAttribute = (items, attribute) => {
     });
 };
 
-export const formatSkinImage = (url, wear) => {
+export const formatIconPath = (icon_path, wear) => {
     // SFUI_InvTooltip_Wear_Amount_0 - Factory New - light
     // SFUI_InvTooltip_Wear_Amount_1 - Minimal Wear - light
     // SFUI_InvTooltip_Wear_Amount_2 - Field-Tested - medium
     // SFUI_InvTooltip_Wear_Amount_3 - Well-Worn - medium
     // SFUI_InvTooltip_Wear_Amount_4 - Battle-Scarred - heavy
     if (["SFUI_InvTooltip_Wear_Amount_2", "SFUI_InvTooltip_Wear_Amount_3"].includes(wear)) {
-        url = url.replace("_light_png", "_medium_png");
+        icon_path = icon_path.replace(/_light$/, "_medium");
     }
 
     if (["SFUI_InvTooltip_Wear_Amount_4"].includes(wear)) {
-        url = url.replace("_light_png", "_heavy_png");
+        icon_path = icon_path.replace(/_light$/, "_heavy");
     }
 
     // Return the image as it is with _light_
-    return url;
+    return icon_path;
 };
 
 export const getGraffitiVariations = material => {

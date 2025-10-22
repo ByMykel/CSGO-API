@@ -1,6 +1,6 @@
 import axios from "axios";
 import sha1 from "sha1";
-import { ITEMS_GAME_URL, getImageUrl } from "../constants.js";
+import { IMAGES_INVENTORY_URL, ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import {
     filterUniqueByAttribute,
     getDopplerPhase,
@@ -626,6 +626,15 @@ export const loadProPlayers = () => {
     }, {});
 };
 
+export const loadImagesInventory = async () => {
+    try {
+        const response = await axios.get(IMAGES_INVENTORY_URL);
+        state.cdnImages = response.data;
+    } catch (error) {
+        throw new Error(`Error loading images inventory`, { cause: error });
+    }
+};
+
 const getItemFromKey = key => {
     const {
         items,
@@ -842,4 +851,5 @@ export const loadData = async () => {
     loadHighlights();
     loadProTeams();
     loadProPlayers();
+    loadImagesInventory();
 };

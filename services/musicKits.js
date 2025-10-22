@@ -5,7 +5,9 @@ import { getRarityColor, isExclusive } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
 const parseItem = item => {
-    const image = getImageUrl(item.image_inventory.toLowerCase());
+    const { cdnImages } = state;
+    const image =
+        cdnImages[item.image_inventory.toLowerCase()] ?? getImageUrl(item.image_inventory.toLowerCase());
     const exclusive = isExclusive(item.name);
     const valve = ["valve_01", "valve_02", "valve_cs2_01"].includes(item.name);
 

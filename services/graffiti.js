@@ -43,8 +43,10 @@ const getMarketHashName = (item, colorKey) => {
 };
 
 const parseItemSealedGraffiti = item => {
-    const { cratesBySkins } = state;
-    const image = getImageUrl(`econ/stickers/${item.sticker_material}`);
+    const { cratesBySkins, cdnImages } = state;
+    const image =
+        cdnImages[`econ/stickers/${item.sticker_material}`] ??
+        getImageUrl(`econ/stickers/${item.sticker_material}`);
 
     // TODO: work in progress
     const variations = getGraffitiVariations(item.name);
@@ -72,7 +74,9 @@ const parseItemSealedGraffiti = item => {
                         name: $t(i.name),
                     })) ?? [],
                 market_hash_name: getMarketHashName(item, colorKey),
-                image: getImageUrl(`econ/stickers/${item.sticker_material}_${index}`),
+                image:
+                    cdnImages[`econ/stickers/${item.sticker_material}_${index}`] ??
+                    getImageUrl(`econ/stickers/${item.sticker_material}_${index}`),
 
                 // Return original attributes from item_game.json
                 original: {

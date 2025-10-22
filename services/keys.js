@@ -32,7 +32,7 @@ const isKey = item => {
 };
 
 const parseItem = item => {
-    const { items } = state;
+    const { items, cdnImages } = state;
 
     const marketable = [
         "#CSGO_Tool_WeaponCase_Key",
@@ -76,7 +76,8 @@ const parseItem = item => {
         // "#CSGO_crate_key_community_35",
     ];
 
-    const image = getImageUrl(item.image_inventory.toLowerCase());
+    const image =
+        cdnImages[item.image_inventory.toLowerCase()] ?? getImageUrl(item.image_inventory.toLowerCase());
     const crates = Object.values(items)
         .filter(
             crate =>

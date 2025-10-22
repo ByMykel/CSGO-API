@@ -3,6 +3,7 @@ import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 
 const parseItem = item => {
+    const { cdnImages } = state;
     const { folder } = languageData;
     const [tournament, highlightType] = item.id.split("_");
     const keychainName = $t(`keychain_kc_${tournament}`);
@@ -26,7 +27,7 @@ const parseItem = item => {
         tournament_player: item.tournament_player,
         map: item.tournament_event_map,
         market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
-        image: item.image,
+        image: cdnImages[item.image_inventory] ?? item.image,
         video: folder === "zh-CN" ? item.video.replace("_ww_", "_cn_") : item.video,
         // TODO: would be great to have chinese thumbnail as well
         thumbnail: folder === "zh-CN" ? item.thumbnail.replace("_ww.jpg", "_cn.jpg") : item.thumbnail,
