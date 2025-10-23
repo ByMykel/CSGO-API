@@ -62,7 +62,11 @@ const getDescription = (desc, paintKits, pattern) => {
 const parseItem = (item, items) => {
     const { rarities, paintKits, cratesBySkins, souvenirSkins, collectionsBySkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
-    const image = cdnImages[item.icon_path.toLowerCase()] ?? getImageUrl(item.icon_path.toLowerCase());
+    const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
+    const image =
+        cdnImages[item.icon_path.toLowerCase()] && !dopplerPhase
+            ? cdnImages[item.icon_path.toLowerCase()]
+            : getImageUrl(item.icon_path.toLowerCase());
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
@@ -76,8 +80,6 @@ const parseItem = (item, items) => {
         state.stattTrakSkins[`[${pattern}]${weapon}`] !== undefined;
 
     const isKnife = weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
-
-    const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
 
     const rarity = !isNotWeapon(weapon)
         ? rarities[`[${pattern}]${weapon}`]?.rarity
@@ -163,7 +165,7 @@ const parseItem = (item, items) => {
 };
 
 export const getSkins = async () => {
-    const { itemsGame, items, cratesBySkins } = state;
+    const { itemsGame, items, cratesBySkins, cdnImages } = state;
     const { folder } = languageData;
 
     const skins = [
@@ -205,7 +207,8 @@ export const getSkins = async () => {
                 name: $t("inv_filter_both_teams"),
             },
             legacy_model: true,
-            image: getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
+            image:
+                cdnImages[`econ/weapons/base_weapons/${knife.name}`] ?? getImageUrl(`econ/weapons/base_weapons/${knife.name}`),
 
             // Return original attributes from item_game.json
             original: {
