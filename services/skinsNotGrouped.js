@@ -212,8 +212,9 @@ const parseItem = (item, items) => {
             },
             legacy_model: paintKits[pattern]?.legacy_model,
             image:
-                cdnImages[formatIconPath(item.icon_path.toLowerCase(), wear)] ??
-                getImageUrl(formatIconPath(item.icon_path.toLowerCase(), wear)),
+                cdnImages[formatIconPath(item.icon_path.toLowerCase(), wear)] && !dopplerPhase
+                    ? cdnImages[formatIconPath(item.icon_path.toLowerCase(), wear)]
+                    : getImageUrl(formatIconPath(item.icon_path.toLowerCase(), wear)),
 
             // Return original attributes from item_game.json
             original: {
