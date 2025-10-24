@@ -51,39 +51,11 @@ const parseItem = item => {
     };
 };
 
-const parseHighlight = item => {
-    const [tournament, highlightType] = item.id.split("_");
-    const keychainName = $t(`keychain_kc_${tournament}`);
-    const highlightName = $t(`highlightreel_${tournament}_${highlightType}`);
-    const keychainNameRaw = $t(`keychain_kc_${tournament}`, true);
-    const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
-
-    return {
-        id: `highlight-${item.id}`,
-        highlight_reel: item.highlight_reel,
-        // TODO: translate Souvenir Charm to other languages
-        name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
-        description: $t(`highlightdesc_${tournament}_${highlightType}`),
-        def_index: null, // TODO: add def_index
-        highlight: true,
-        rarity: {
-            id: "rarity_rare",
-            name: $t("rarity_rare"),
-            color: getRarityColor("rarity_rare"),
-        },
-        collections: [],
-        market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
-        image: item.image,
-    };
-};
-
 export const getKeychains = () => {
-    const { keychainDefinitions, highlightReels } = state;
+    const { keychainDefinitions } = state;
     const { folder } = languageData;
 
     const keychains = keychainDefinitions.filter(isKeychain).map(parseItem);
-    const highlights = highlightReels.map(parseHighlight);
-    const allKeychains = [...keychains, ...highlights];
 
-    saveDataJson(`./public/api/${folder}/keychains.json`, allKeychains);
+    saveDataJson(`./public/api/${folder}/keychains.json`, keychains);
 };
