@@ -12,8 +12,8 @@ const parseItem = item => {
     const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
 
     return {
-        id: item.id,
-        highlight_reel: item.highlight_reel,
+        id: `highlight-${item.highlight_reel}`,
+        def_index: item.highlight_reel,
         // TODO: translate Souvenir Charm to other languages
         name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
         description: $t(`highlightdesc_${tournament}_${highlightType}`),
