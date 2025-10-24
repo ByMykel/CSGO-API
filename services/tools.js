@@ -16,7 +16,7 @@ export const getTools = () => {
             def_index: "1200",
             original: {
                 image_inventory: "econ/tools/tag",
-            }
+            },
         },
         {
             id: "tool-2",
@@ -26,7 +26,7 @@ export const getTools = () => {
             def_index: "1201",
             original: {
                 image_inventory: "econ/tools/casket",
-            }
+            },
         },
         {
             id: "tool-3",
@@ -36,7 +36,7 @@ export const getTools = () => {
             def_index: "1324",
             original: {
                 image_inventory: "econ/tools/stattrak_swap_tool",
-            }
+            },
         },
         {
             id: "tool-4",
@@ -48,7 +48,7 @@ export const getTools = () => {
             def_index: "65",
             original: {
                 image_inventory: "econ/tools/keychain_remove_tool",
-            }
+            },
         },
     ];
 
