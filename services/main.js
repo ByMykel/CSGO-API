@@ -361,7 +361,9 @@ export const loadyCratesBySkins = () => {
                     acc[item.id].push({
                         id: `crate-${crateItem.object_id}`,
                         name: crateItem.item_name,
-                        image: getImageUrl(crateItem?.image_inventory?.toLowerCase()),
+                        image:
+                            state.cdnImages[crateItem?.image_inventory?.toLowerCase()] ??
+                            getImageUrl(crateItem?.image_inventory?.toLowerCase()),
                     });
                 }
             });
@@ -471,7 +473,9 @@ export const loadCollectionsBySkins = () => {
                     acc[item.id].push({
                         id: `collection-${crateItem.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
                         name: crateItem.name_force ?? crateItem.name,
-                        image: getImageUrl(`econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`),
+                        image:
+                            state.cdnImages[`econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`] ??
+                            getImageUrl(`econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`),
                     });
                 }
             });
@@ -507,7 +511,9 @@ export const loadCollectionsByStickers = () => {
                         acc[stickerItem.id].push({
                             id: `collection-set-${fileName.replace(/_/g, "-")}`,
                             name: itemSet.name_force ?? itemSet.name,
-                            image: getImageUrl(`econ/set_icons/set_${fileName}`),
+                            image:
+                                state.cdnImages[`econ/set_icons/set_${fileName}`] ??
+                                getImageUrl(`econ/set_icons/set_${fileName}`),
                         });
                     }
                 });
@@ -652,7 +658,9 @@ const getItemFromKey = key => {
             id: `collectible-${pin.object_id}`,
             name: pin.item_name,
             rarity: `rarity_${pin.item_rarity}`,
-            image: getImageUrl(pin.image_inventory),
+            image:
+                state.cdnImages[pin.image_inventory.toLowerCase()] ??
+                getImageUrl(pin.image_inventory.toLowerCase()),
         };
     }
 
@@ -662,7 +670,9 @@ const getItemFromKey = key => {
             id: `agent-${agent.object_id}`,
             name: agent.item_name,
             rarity: `rarity_${agent.item_rarity}_character`,
-            image: getImageUrl(`econ/characters/${agent.name.toLocaleLowerCase()}`),
+            image:
+                state.cdnImages[`econ/characters/${agent.name.toLocaleLowerCase()}`] ??
+                getImageUrl(`econ/characters/${agent.name.toLocaleLowerCase()}`),
         };
     }
 
@@ -683,7 +693,9 @@ const getItemFromKey = key => {
             id: `${type}-${sticker.object_id}`,
             name: sticker.item_name,
             rarity: `rarity_${sticker.item_rarity}`,
-            image: getImageUrl(`econ/stickers/${sticker.sticker_material.toLowerCase()}`),
+            image:
+                state.cdnImages[`econ/stickers/${sticker.sticker_material.toLowerCase()}`] ??
+                getImageUrl(`econ/stickers/${sticker.sticker_material.toLowerCase()}`),
         };
     }
 
@@ -693,7 +705,9 @@ const getItemFromKey = key => {
             id: `${type}-${patch.object_id}`,
             name: patch.item_name,
             rarity: `rarity_${patch.item_rarity}`,
-            image: getImageUrl(`econ/patches/${patch.patch_material}`),
+            image:
+                state.cdnImages[`econ/patches/${patch.patch_material}`] ??
+                getImageUrl(`econ/patches/${patch.patch_material}`),
         };
     }
 
@@ -708,7 +722,9 @@ const getItemFromKey = key => {
                 id: `graffiti-${graffiti.object_id}_${index}`,
                 name: graffiti.item_name,
                 rarity: `rarity_${graffiti.item_rarity}`,
-                image: getImageUrl(`econ/stickers/${graffiti.sticker_material}_${index}`),
+                image:
+                    state.cdnImages[`econ/stickers/${graffiti.sticker_material}_${index}`] ??
+                    getImageUrl(`econ/stickers/${graffiti.sticker_material}_${index}`),
             }));
         }
 
@@ -716,7 +732,9 @@ const getItemFromKey = key => {
             id: `graffiti-${graffiti.object_id}`,
             name: graffiti.item_name,
             rarity: `rarity_${graffiti.item_rarity}`,
-            image: getImageUrl(`econ/stickers/${graffiti.sticker_material}`),
+            image:
+                state.cdnImages[`econ/stickers/${graffiti.sticker_material}`] ??
+                getImageUrl(`econ/stickers/${graffiti.sticker_material}`),
         };
     }
 
@@ -727,7 +745,9 @@ const getItemFromKey = key => {
             id: `music_kit-${kit.object_id}`,
             name: exclusive ? kit.loc_name : kit.coupon_name,
             rarity: "rarity_rare",
-            image: getImageUrl(kit.image_inventory),
+            image:
+                state.cdnImages[kit.image_inventory.toLowerCase()] ??
+                getImageUrl(kit.image_inventory.toLowerCase()),
         };
     }
 
@@ -737,7 +757,9 @@ const getItemFromKey = key => {
             id: `keychain-${keychain.object_id}`,
             name: keychain.loc_name,
             rarity: `rarity_${keychain.item_rarity}`,
-            image: getImageUrl(keychain.image_inventory.toLowerCase()),
+            image:
+                state.cdnImages[keychain.image_inventory.toLowerCase()] ??
+                getImageUrl(keychain.image_inventory.toLowerCase()),
         };
     }
 
@@ -779,7 +801,9 @@ const getItemFromKey = key => {
                 tKey: "rare_special_vanilla",
                 weapon: knife.item_name,
             };
-            image = getImageUrl(`econ/weapons/base_weapons/${knife.name}`);
+            image =
+                state.cdnImages[`econ/weapons/base_weapons/${knife.name}`] ??
+                getImageUrl(`econ/weapons/base_weapons/${knife.name}`);
         } else {
             const weaponIcons = Object.entries(itemsGame.alternate_icons2.weapon_icons).find(([, value]) =>
                 value.icon_path.includes(`${type}_${name}_light`)
@@ -798,7 +822,9 @@ const getItemFromKey = key => {
             };
             paint_index = paintKits[name.toLowerCase()]?.paint_index;
             phase = getDopplerPhase(paintKits[name.toLowerCase()].paint_index);
-            image = getImageUrl(`${weaponIcons[1].icon_path.toLowerCase()}`);
+            image =
+                state.cdnImages[`${weaponIcons[1].icon_path.toLowerCase()}`] ??
+                getImageUrl(`${weaponIcons[1].icon_path.toLowerCase()}`);
         }
 
         return {
@@ -830,6 +856,7 @@ export const getManifestId = async () => {
 
 export const loadData = async () => {
     await loadItemsGame();
+    await loadImagesInventory();
     loadPrefabs();
     loadItems();
     loadItemSets();
@@ -851,5 +878,4 @@ export const loadData = async () => {
     loadHighlights();
     loadProTeams();
     loadProPlayers();
-    loadImagesInventory();
 };
