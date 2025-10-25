@@ -94,6 +94,7 @@ const parseItemSelfOpening = item => {
         original: {
             name: item.name,
             item_name: item.item_name,
+            image_inventory: item.image_inventory.toLowerCase(),
         },
     };
 };
