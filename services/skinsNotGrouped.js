@@ -289,7 +289,7 @@ export const getSkinsNotGrouped = () => {
                     // Return original attributes from item_game.json
                     original: {
                         name: knife.name,
-                        icon_path: `econ/weapons/base_weapons/${knife.name}`,
+                        image_inventory: `econ/weapons/base_weapons/${knife.name}`,
                     },
                 }))
             )
