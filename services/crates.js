@@ -106,6 +106,14 @@ const getFirstSaleDate = (item, prefabs) => {
     return null;
 };
 
+const getMarketHashName = item => {
+    if (["4729", "4783", "4795", "4614", "4779"].includes(item.object_id)) {
+        return null;
+    }
+
+    return $t(item.item_name, true).replace("Holo/Foil", "Holo-Foil");
+};
+
 const parseItem = (item, prefabs) => {
     const { skinsByCrates, revolvingLootLists, cdnImages } = state;
 
@@ -151,7 +159,7 @@ const parseItem = (item, prefabs) => {
             },
         })),
         special_notes: specialNotes?.[`crate-${item.object_id}`],
-        market_hash_name: $t(item.item_name, true).replace("Holo/Foil", "Holo-Foil"),
+        market_hash_name: getMarketHashName(item),
         rental: !!item.attributes["can open for rental"],
         image,
         model_player: item.model_player ?? null,
