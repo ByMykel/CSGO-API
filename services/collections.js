@@ -64,6 +64,7 @@ const parseItem = item => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
+            image_inventory: `econ/set_icons/${fileName}`,
         },
     };
 };
