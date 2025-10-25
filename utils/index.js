@@ -128,6 +128,18 @@ export const weaponIDMapping = {
     motorcycle_gloves: 5033,
     specialist_gloves: 5034,
     studded_hydra_gloves: 5035,
+    weapon_flashbang: 43,
+    weapon_hegrenade: 44,
+    weapon_smokegrenade: 45,
+    weapon_molotov: 46,
+    weapon_decoy: 47,
+    weapon_incgrenade: 48,
+    weapon_c4: 49,
+    weapon_healthshot: 57,
+    weapon_knife_t: 59,
+    weapon_knife: 42,
+    t_gloves: 5028,
+    ct_gloves: 5029,
 };
 
 export const knives = [
