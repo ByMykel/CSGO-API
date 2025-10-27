@@ -123,7 +123,7 @@ const parseItem = (item, prefabs) => {
     const attributeValue = item.attributes?.["set supply crate series"]?.value ?? null;
     const keyLootList = lootListName ?? revolvingLootLists[attributeValue] ?? null;
 
-    return {
+    let crate = {
         id: `crate-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.item_description) ?? $t(item.item_description_prefab),
@@ -180,6 +180,26 @@ const parseItem = (item, prefabs) => {
             image_inventory: item.image_inventory.toLowerCase(),
         },
     };
+
+    // Souvenir Highlight Package
+    if ($t(`${item.item_name}^highlight`)) {
+        return [
+            crate,
+            {
+                ...crate,
+                id: `crate-${item.object_id}_highlight`,
+                name: $t(`${item.item_name}^highlight`),
+                rarity: {
+                    id: "rarity_common_highlight",
+                    name: `${$t("highlight")} ${$t("rarity_common")}`,
+                    color: "#ffd7aa", // Highlight Base Grade Container
+                },
+                type: "Souvenir Highlight",
+            },
+        ];
+    }
+
+    return crate;
 };
 
 export const getCrates = async () => {
@@ -189,6 +209,7 @@ export const getCrates = async () => {
     const crates = Object.values(items)
         .filter(isCrate)
         .map(item => parseItem(item, prefabs))
+        .flat()
         .filter(crate => crate.name);
 
     await saveDataJson(`./public/api/${folder}/crates.json`, crates);
