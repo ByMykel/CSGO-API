@@ -195,6 +195,7 @@ const parseItem = (item, prefabs) => {
                     color: "#ffd7aa", // Highlight Base Grade Container
                 },
                 type: "Souvenir Highlight",
+                market_hash_name: $t(`${item.item_name}^highlight`, true),
             },
         ];
     }
