@@ -10,11 +10,23 @@ const isSticker = item => {
         return false;
     }
 
+    // https://github.com/ByMykel/CSGO-API/issues/208
+    // Theses team roles stickers are not avaliable in the game, so we don't need to parse them
     if (
         item.sticker_material.startsWith("team_roles_capsule") &&
         item.sticker_material.endsWith("_foil") &&
         item.sticker_material !== "team_roles_capsule/pro_foil"
     ) {
+        return false;
+    }
+
+    // https://github.com/ByMykel/CSGO-API/issues/209
+    // These stickers are not avaliable in the game, so we don't need to parse them
+    // Sticker | 3DMAX | DreamHack 2014
+    // Sticker | dAT team | DreamHack 2014
+    // Sticker | London Conspiracy | DreamHack 2014
+    // Sticker | mousesports | DreamHack 2014
+    if (["232", "234", "235", "236"].includes(item.object_id)) {
         return false;
     }
 
