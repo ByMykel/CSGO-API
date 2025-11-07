@@ -10,6 +10,14 @@ const isSticker = item => {
         return false;
     }
 
+    if (
+        item.sticker_material.startsWith("team_roles_capsule") &&
+        item.sticker_material.endsWith("_foil") &&
+        item.sticker_material !== "team_roles_capsule/pro_foil"
+    ) {
+        return false;
+    }
+
     if (!item.item_name.toLowerCase().includes("stickerkit_")) {
         return false;
     }
