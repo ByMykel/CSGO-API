@@ -559,6 +559,7 @@ export const rareSpecial = {
         "[sp_mesh_tan]weapon_knife_canis": 1,
     },
     set_community_22_unusual: {
+        "[vanilla]weapon_knife_gypsy_jackknife": 1,
         "[am_marble_fade]weapon_knife_gypsy_jackknife": 1,
         "[an_tiger_orange]weapon_knife_gypsy_jackknife": 1,
         "[am_ruby_marbleized]weapon_knife_gypsy_jackknife": 1,
@@ -572,6 +573,7 @@ export const rareSpecial = {
         "[so_purple]weapon_knife_gypsy_jackknife": 1,
         "[aq_steel_knife]weapon_knife_gypsy_jackknife": 1,
 
+        "[vanilla]weapon_knife_stiletto": 1,
         "[am_marble_fade]weapon_knife_stiletto": 1,
         "[an_tiger_orange]weapon_knife_stiletto": 1,
         "[am_ruby_marbleized]weapon_knife_stiletto": 1,
@@ -585,6 +587,7 @@ export const rareSpecial = {
         "[so_purple]weapon_knife_stiletto": 1,
         "[aq_steel_knife]weapon_knife_stiletto": 1,
 
+        "[vanilla]weapon_knife_widowmaker": 1,
         "[am_marble_fade_widow]weapon_knife_widowmaker": 1,
         "[an_tiger_orange]weapon_knife_widowmaker": 1,
         "[am_ruby_marbleized]weapon_knife_widowmaker": 1,
@@ -598,6 +601,7 @@ export const rareSpecial = {
         "[so_purple]weapon_knife_widowmaker": 1,
         "[aq_steel_knife]weapon_knife_widowmaker": 1,
 
+        "[vanilla]weapon_knife_ursus": 1,
         "[am_marble_fade]weapon_knife_ursus": 1,
         "[an_tiger_orange]weapon_knife_ursus": 1,
         "[am_ruby_marbleized]weapon_knife_ursus": 1,
@@ -685,6 +689,7 @@ export const rareSpecial = {
     },
 
     set_community_35_unusual: {
+        "[vanilla]weapon_knife_canis": 1,
         "[am_marble_fade]weapon_knife_canis": 1,
         "[an_tiger_orange]weapon_knife_canis": 1,
         "[am_ruby_marbleized]weapon_knife_canis": 1,
@@ -698,6 +703,7 @@ export const rareSpecial = {
         "[so_purple]weapon_knife_canis": 1,
         "[aq_steel_knife]weapon_knife_canis": 1,
 
+        "[vanilla]weapon_knife_skeleton": 1,
         "[am_marble_fade]weapon_knife_skeleton": 1,
         "[an_tiger_orange]weapon_knife_skeleton": 1,
         "[am_ruby_marbleized]weapon_knife_skeleton": 1,
@@ -711,6 +717,7 @@ export const rareSpecial = {
         "[so_purple]weapon_knife_skeleton": 1,
         "[aq_steel_knife]weapon_knife_skeleton": 1,
 
+        "[vanilla]weapon_knife_cord": 1,
         "[am_marble_fade]weapon_knife_cord": 1,
         "[an_tiger_orange]weapon_knife_cord": 1,
         "[am_ruby_marbleized]weapon_knife_cord": 1,
@@ -724,6 +731,7 @@ export const rareSpecial = {
         "[so_purple_falchion]weapon_knife_cord": 1,
         "[aq_steel_knife]weapon_knife_cord": 1,
 
+        "[vanilla]weapon_knife_outdoor": 1,
         "[am_marble_fade]weapon_knife_outdoor": 1,
         "[an_tiger_orange]weapon_knife_outdoor": 1,
         "[am_ruby_marbleized]weapon_knife_outdoor": 1,
