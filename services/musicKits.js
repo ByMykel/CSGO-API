@@ -4,6 +4,14 @@ import { state } from "./main.js";
 import { getRarityColor, isExclusive } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
+const getDescription = (item, isStattrak) => {
+    const stattrakText = isStattrak
+        ? `<span style='color:#99ccff;'>${$t("attrib_killeater")}</span><br/><br/><span style='color:#cf6a32;'>${$t("killeaterdescriptionnotice_ocmvps")}</span><br/><br/>`
+        : "";
+
+    return `${stattrakText}${$t("csgo_musickit_desc")}<br/><br/>${$t(item.loc_description)}`;
+};
+
 const parseItem = item => {
     const { cdnImages } = state;
     const image =
@@ -35,7 +43,7 @@ const parseItem = item => {
         const normalMusicKit = {
             id: `music_kit-${item.object_id}`,
             name: exclusive || valve ? $t(item.loc_name) : $t(item.coupon_name),
-            description: $t(item.loc_description),
+            description: getDescription(item, false),
             def_index: item.object_id,
             rarity: {
                 id: "rarity_rare",
@@ -60,7 +68,7 @@ const parseItem = item => {
         const stattrakMusicKit = {
             id: `music_kit-${item.object_id}_st`,
             name: $t(`${item.coupon_name}_stattrak`),
-            description: $t(item.loc_description),
+            description: getDescription(item, true),
             def_index: item.object_id,
             rarity: {
                 id: "rarity_rare",
