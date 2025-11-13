@@ -10,6 +10,7 @@ import { loadTranslations } from "./services/translations.js";
 import { getGraffiti } from "./services/graffiti.js";
 import { getPatches } from "./services/patches.js";
 import { getStickers } from "./services/stickers.js";
+import { getStickersSlab } from "./services/stickersSlab.js";
 import { getKeychains } from "./services/keychains.js";
 import { getSkins } from "./services/skins.js";
 import { LANGUAGES_URL } from "./constants.js";
@@ -66,6 +67,7 @@ await Promise.all(
             getSkins();
             getSkinsNotGrouped();
             getStickers();
+            getStickersSlab();
             getKeychains();
             getTools();
             getBaseWeapons();
