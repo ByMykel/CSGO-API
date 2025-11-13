@@ -25,25 +25,25 @@ export const LANGUAGES_URL = [
         url: getLanguageUrl("english"),
     },
     {
-        language: "portuguese (Brazil)",
-        folder: "pt-BR",
-        url: getLanguageUrl("brazilian"),
-    },
-    {
-        language: "russian",
-        folder: "ru",
-        url: getLanguageUrl("russian"),
-    },
-    {
         language: "schinese",
         folder: "zh-CN",
         url: getLanguageUrl("schinese"),
     },
-    {
-        language: "spanish",
-        folder: "es-ES",
-        url: getLanguageUrl("spanish"),
-    },
+    // {
+    //     language: "portuguese (Brazil)",
+    //     folder: "pt-BR",
+    //     url: getLanguageUrl("brazilian"),
+    // },
+    // {
+    //     language: "russian",
+    //     folder: "ru",
+    //     url: getLanguageUrl("russian"),
+    // },
+    // {
+    //     language: "spanish",
+    //     folder: "es-ES",
+    //     url: getLanguageUrl("spanish"),
+    // },
     // {
     //     language: "bulgarian",
     //     folder: "bg",
