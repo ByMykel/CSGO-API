@@ -226,6 +226,57 @@ Example response:
 ]
 ```
 
+### List stickers slab
+
+```http
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers_slab.json
+```
+
+Example response:
+
+```js
+[
+  {
+    id: "sticker-slab-75",
+    name: "Sticker Slab | Titan | Katowice 2014",
+    description: "The sticker is safely sealed in this slab. You can return the sticker to your inventory at any time by cracking open and discarding this slab.<br><br>This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+    def_index: "75",
+    rarity: {
+      id: "rarity_rare",
+      name: "High Grade",
+      color: "#4b69ff",
+    },
+    crates: [
+      {
+        id: "crate-4015",
+        name: "EMS Katowice 2014 Legends",
+        image: "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bjn_lDkShjjoYbh_ilk5PO6OvQ8dM_DXCnHkOgktbhoHyqxxRh0tWiDnIr4dnKSOAUoC5J1TbJZ4Bi8k9HlY-Li-UWA3NcCqy5X",
+      },
+    ],
+    collections: [],
+    type: "Team",
+    market_hash_name: "Sticker Slab | Titan | Katowice 2014",
+    effect: "Other",
+    tournament: {
+      id: 3,
+      name: "2014 EMS One Katowice",
+    },
+    team: {
+      id: 27,
+      tag: "TIT",
+      geo: "FR",
+      name: "Titan",
+    },
+    image: "https://cdn.steamstatic.com/apps/730/icons/econ/stickers/emskatowice2014/titan_1355_37.13ccde686799abb2976807a757a42e144246a28d.png",
+    original: {
+      name: "kat2014_titan",
+      image_inventory: "econ/stickers/emskatowice2014/titan_1355_37",
+    },
+  },
+  // ...
+]
+```
+
 ### List keychains (charms)
 
 ```http
