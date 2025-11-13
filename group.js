@@ -17,6 +17,7 @@ const inputFilePathsTemplate = [
     "./public/api/{lang}/patches.json",
     "./public/api/{lang}/skins_not_grouped.json",
     "./public/api/{lang}/stickers.json",
+    "./public/api/{lang}/stickers_slab.json",
     "./public/api/{lang}/keychains.json",
     "./public/api/{lang}/tools.json",
 ];

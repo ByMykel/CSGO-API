@@ -45,17 +45,8 @@ const isSticker = item => {
     return true;
 };
 
-const getDescription = item => {
-    const commemoratesText = item.tournament_event_id
-        ? `<span style='color:#ffd700;'>${$t(`csgo_event_desc`).replace("%s1", $t(`csgo_tournament_event_name_${item.tournament_event_id}`))}</span><br/><br/> `
-        : "";
-
-    let msg = $t("CSGO_Tool_Sticker_Desc");
-    let desc = $t(item.description_string);
-    if (desc && desc.length > 0 && item.description_string !== `#${desc}`) {
-        return `${commemoratesText}${msg}<br><br>${desc}`;
-    }
-    return `${commemoratesText}${msg}`;
+const getDescription = () => {
+    return `${$t("keychain_kc_sticker_display_case_desc")}<br><br>${$t("csgo_tool_keychain_desc")}`;
 };
 
 const getType = item => {
@@ -146,15 +137,15 @@ const getMarketHashName = item => {
         return null;
     }
 
-    return `${$t("csgo_tool_sticker", true)} | ${$t(item.item_name, true)}`;
+    return `${$t("keychain_kc_sticker_display_case", true)} | ${$t(item.item_name, true)}`;
 };
 
 const parseItem = item => {
     const { cratesBySkins, proTeams, proPlayers, collectionsByStickers, cdnImages } = state;
 
     const image =
-        cdnImages[`econ/stickers/${item.sticker_material.toLowerCase()}`] ??
-        getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
+        cdnImages[`econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`] ??
+        getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`);
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {
@@ -162,9 +153,9 @@ const parseItem = item => {
     }
 
     return {
-        id: `sticker-${item.object_id}`,
-        name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
-        description: getDescription(item),
+        id: `sticker-slab-${item.object_id}`,
+        name: `${$t("keychain_kc_sticker_display_case")} | ${$t(item.item_name)}`,
+        description: getDescription(),
         def_index: item.object_id,
         rarity: item.item_rarity
             ? {
@@ -209,16 +200,16 @@ const parseItem = item => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-            image_inventory: `econ/stickers/${item.sticker_material.toLowerCase()}`,
+            image_inventory: `econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`,
         },
     };
 };
 
-export const getStickers = () => {
+export const getStickersSlab = () => {
     const { stickerKits } = state;
     const { folder } = languageData;
 
     const stickers = stickerKits.filter(isSticker).map(parseItem);
 
-    saveDataJson(`./public/api/${folder}/stickers.json`, stickers);
+    saveDataJson(`./public/api/${folder}/stickers_slab.json`, stickers);
 };
