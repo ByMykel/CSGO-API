@@ -6,7 +6,7 @@ Data are sourced from files maintained at [this repository](https://github.com/B
 
 ## Usage
 
-This API currently supports **5 core languages** to keep the repository size manageable. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
+This API currently supports **2 languages**. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
 
 ```http
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
@@ -16,11 +16,8 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language
 
 | Language Name         | Language Code |
 | --------------------- | ------------- |
-| Portuguese (Brazil)   | pt-BR         |
 | English               | en            |
-| Russian               | ru            |
 | Chinese (Simplified)  | zh-CN         |
-| Spanish (Spain)       | es-ES         |
 
 ## Adding More Languages
 
@@ -237,7 +234,7 @@ Example response:
 ```js
 [
   {
-    id: "sticker-slab-75",
+    id: "sticker_slab-75",
     name: "Sticker Slab | Titan | Katowice 2014",
     description: "The sticker is safely sealed in this slab. You can return the sticker to your inventory at any time by cracking open and discarding this slab.<br><br>This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
     def_index: "75",
