@@ -153,7 +153,7 @@ const parseItem = item => {
     }
 
     return {
-        id: `sticker-slab-${item.object_id}`,
+        id: `sticker_slab-${item.object_id}`,
         name: `${$t("keychain_kc_sticker_display_case")} | ${$t(item.item_name)}`,
         description: getDescription(),
         def_index: item.object_id,
