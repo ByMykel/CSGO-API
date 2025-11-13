@@ -155,6 +155,9 @@ const parseItem = item => {
     const image =
         cdnImages[`econ/stickers/${item.sticker_material.toLowerCase()}`] ??
         getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}`);
+    const image_slab =
+        cdnImages[`econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`] ??
+        getImageUrl(`econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`);
 
     // items_game.txt is named as dignitas but in translation as teamdignitas.
     if (item.item_name === "#StickerKit_dhw2014_dignitas_gold") {
@@ -205,11 +208,13 @@ const parseItem = item => {
             : undefined,
         player: proPlayers[item.tournament_player_id] ?? undefined,
         image,
+        image_slab,
 
         // Return original attributes from item_game.json
         original: {
             name: item.name,
             image_inventory: `econ/stickers/${item.sticker_material.toLowerCase()}`,
+            image_inventory_slab: `econ/stickers/${item.sticker_material.toLowerCase()}_1355_37`,
         },
     };
 };
