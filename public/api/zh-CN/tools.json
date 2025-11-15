@@ -1,0 +1,42 @@
+[
+ {
+  "id": "tool-1",
+  "name": "名称标签",
+  "description": "这件物品能重命名一把武器。一个自定义的刻铭牌将被应用到武器上，并可在游戏中显示。",
+  "image": "https://cdn.steamstatic.com/apps/730/icons/econ/tools/tag.82c5208aedff96583779f2d51fd631ae06aab31f.png",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "库存存储组件",
+  "description": "库存存储组件允许您存储超过库存容量限制（1000件）的物品。在任何时候您都可以从库存中把物品移动到库存存储组件中，或者从中取回到库存，或者您可以用它来管理您的收藏品。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "StatTrak™ 数据互换器",
+  "description": "该物品可以将两种相同物品类型的 StatTrak™ 数据互换。",
+  "image": "https://cdn.steamstatic.com/apps/730/icons/econ/tools/stattrak_swap_tool.507d60ccedb7a19189440869e73902e14b837748.png",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "挂件拆卸器",
+  "description": "选择一把已装配挂件的武器。使用挂件拆卸器拆掉挂件并将其返还到你的库存。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "65",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ }
+]
