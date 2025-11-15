@@ -824,6 +824,8 @@ const getItemFromKey = key => {
             phase = getDopplerPhase(paintKits[name.toLowerCase()].paint_index);
             image =
                 state.cdnImages[`${weaponIcons[1].icon_path.toLowerCase()}`] ??
+                state.cdnImages[`${weaponIcons[1].icon_path.toLowerCase().replace(/_light$/, "_medium")}`] ??
+                state.cdnImages[`${weaponIcons[1].icon_path.toLowerCase().replace(/_light$/, "_heavy")}`] ??
                 getImageUrl(`${weaponIcons[1].icon_path.toLowerCase()}`);
         }
 

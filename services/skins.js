@@ -63,9 +63,11 @@ const parseItem = (item, items) => {
     const { rarities, paintKits, cratesBySkins, souvenirSkins, collectionsBySkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
-    const image = cdnImages[item.icon_path.toLowerCase()]
-        ? cdnImages[item.icon_path.toLowerCase()]
-        : getImageUrl(item.icon_path.toLowerCase());
+    const image =
+        state.cdnImages[`${item.icon_path.toLowerCase()}`] ??
+        state.cdnImages[`${item.icon_path.toLowerCase().replace(/_light$/, "_medium")}`] ??
+        state.cdnImages[`${item.icon_path.toLowerCase().replace(/_light$/, "_heavy")}`] ??
+        getImageUrl(`${item.icon_path.toLowerCase()}`);
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
         : $t(items[weapon].item_name);
