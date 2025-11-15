@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Primary Meta Tags -->
+        <title>CSGO API</title>
+        <meta name="title" content="CSGO API" />
+        <meta
+            name="description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <link rel="icon" href="favicon.ico" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bymykel.github.io/CSGO-API/" />
+        <meta property="og:title" content="CSGO API" />
+        <meta
+            property="og:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <meta
+            property="og:image"
+            content="https://bymykel.github.io/CSGO-API/image-meta.png"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://bymykel.github.io/CSGO-API/"
+        />
+        <meta property="twitter:title" content="CSGO API" />
+        <meta
+            property="twitter:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <meta
+            property="twitter:image"
+            content="https://bymykel.github.io/CSGO-API/image-meta.png"
+        />
+
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <style type="text/tailwindcss">
+            @layer base {
+                    html {
+                        font-family: "Inter", sans-serif !important;
+                    }
+
+                    body {
+                        @apply antialiased bg-white text-slate-500;
+                    }
+
+                    hr {
+                        border-color: #f1f5f9;
+                        border-top-width: 1px;
+                        margin-top: 3em;
+                        margin-bottom: 3em;
+                    }
+
+                    .language-code {
+                        @apply bg-slate-800 text-slate-50 rounded-xl px-2 py-0.5 text-sm;
+                    }
+
+                    .section-heading {
+                        @apply text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-4;
+                    }
+
+                    .request-info {
+                        @apply bg-slate-800 text-slate-50 rounded-xl text-base p-3 shadow-lg flex justify-between items-center;
+                    }
+
+                    .request-method {
+                        @apply text-pink-400;
+                    }
+
+                    .request-icon {
+                        @apply w-5 h-5 text-slate-400 hover:text-slate-300;
+                    }
+
+                    .details {
+                        @apply bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg mt-2 overflow-hidden;
+                    }
+
+                }
+        </style>
+    </head>
+
+    <body>
+        <div
+            class="fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center"
+        >
+            <h1 class="text-2xl tracking-tight font-extrabold text-slate-900">
+                CSGO API
+            </h1>
+            <button onclick="openLateralNav()">
+                <svg width="24" height="24">
+                    <path
+                        d="M5 6h14M5 12h14M5 18h14"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                    ></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="px-2 mx-auto max-w-5xl sm:px-6 lg:px-8 mb-20 pt-12 lg:pt-0 pb-20">
+            <div
+                class="fixed z-50 inset-0 overflow-y-auto lg:hidden hidden"
+                id="lateral-nav"
+                role="dialog"
+                aria-modal="true"
+            >
+                <div
+                    class="fixed inset-0 bg-black/20 backdrop-blur-sm"
+                    onClick="closeLateralNav()"
+                ></div>
+                <div class="relative bg-white w-80 max-w-[calc(100%-3rem)] p-6">
+                    <button
+                        class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300"
+                        onClick="closeLateralNav()"
+                    >
+                        <svg
+                            viewBox="0 0 10 10"
+                            class="w-2.5 h-2.5 overflow-visible"
+                        >
+                            <path
+                                d="M0 0L10 10M10 0L0 10"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                            ></path>
+                        </svg>
+                    </button>
+                    <nav id="nav" class="lg:text-sm lg:leading-6 relative">
+                        <div
+                            id="responsive-links"
+                            class="space-y-2 min-h-screen pt-6"
+                        >
+                            <div class="mb-1.5">
+                                <a
+                                    href="#introduction"
+                                    class="text-slate-900 hover:underline"
+                                    >Introduction</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-all"
+                                    class="text-slate-900 hover:underline"
+                                    >List all</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-skins"
+                                    class="text-slate-900 hover:underline"
+                                    >List skins</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-skins-not-grouped"
+                                    class="text-slate-900 hover:underline"
+                                    >List skins not grouped</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-stickers"
+                                    class="text-slate-900 hover:underline"
+                                    >List stickers</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-stickers-slab"
+                                    class="text-slate-900 hover:underline"
+                                    >List stickers slab</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-keychain"
+                                    class="text-slate-900 hover:underline"
+                                    >List keychains</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-collections"
+                                    class="text-slate-900 hover:underline"
+                                    >List collections</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-crates"
+                                    class="text-slate-900 hover:underline"
+                                    >List crates</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-keys"
+                                    class="text-slate-900 hover:underline"
+                                    >List keys</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-collectibles"
+                                    class="text-slate-900 hover:underline"
+                                    >List collectibles</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-agents"
+                                    class="text-slate-900 hover:underline"
+                                    >List agents</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-patches"
+                                    class="text-slate-900 hover:underline"
+                                    >List patches</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-graffiti"
+                                    class="text-slate-900 hover:underline"
+                                    >List graffiti</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-music-kits"
+                                    class="text-slate-900 hover:underline"
+                                    >List music kits</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-base-weapons"
+                                    class="text-slate-900 hover:underline"
+                                    >List base weapons</a
+                                >
+                            </div>
+                            <div class="mb-1.5">
+                                <a
+                                    href="#list-highlights"
+                                    class="text-slate-900 hover:underline"
+                                    >List highlights</a
+                                >
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div
+                class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[16rem] pb-10 px-6 overflow-y-auto"
+            >
+                <div class="sticky top-4 nav-desktop">
+                    <div>
+                        <h1
+                            class="text-lg tracking-tight font-extrabold text-slate-900 mb-3"
+                        >
+                            CSGO API
+                        </h1>
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#introduction"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >Introduction</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-all"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List all</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-skins"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List skins</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-skins-not-grouped"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List skins not grouped</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-stickers"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List stickers</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-stickers-slab"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List stickers slab</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-keychain"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List keychains</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-collections"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List collections</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-crates"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List crates</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-keys"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List keys</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-collectibles"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List collectibles</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-agents"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List agents</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-patches"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List patches</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-graffiti"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List graffiti</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-music-kits"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List music kits</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-base-weapons"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List base weapons</a
+                        >
+                    </div>
+                    <div class="mb-1.5">
+                        <a
+                            href="#list-highlights"
+                            class="text-slate-900 hover:underline border-l-2 border-transparent pl-1 duration-100"
+                            >List highlights</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:pl-[11rem] xl:pl-[2rem] endpoints">
+                <div class="pb-12 mt-4">
+                    <div id="introduction">
+                        <h1 class="section-heading">Introduction</h1>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            Welcome to the unofficial JSON API for
+                            Counter-Strike 2. This API provides access to
+                            various data aspects of the game, parsed into JSON
+                            format for easier integration and use.
+                        </p>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            And you can find this project source code
+                            <a
+                                class="hover:underline text-sky-500"
+                                href="https://github.com/ByMykel/CSGO-API"
+                                target="_blank"
+                                >here</a
+                            >.
+                        </p>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        ></p>
+
+                        <div
+                            class="bg-slate-800 text-slate-50 rounded-xl text-base shadow-lg"
+                        >
+                            <div
+                                class="py-2.5 px-3 border-b border-slate-700 flex space-x-4 text-[#7dd3fc]"
+                            >
+                                BASE URL
+                            </div>
+                            <div class="py-2.5 px-3">
+                                https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
+                            </div>
+                        </div>
+
+                        <p
+                            class="mt-4 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            This API currently supports <strong>2 languages</strong>. To access information in a specific language, replace <span>{language}</span> in the URL with one of the supported language codes:
+                            <span class="language-code">en</span>
+                            <span class="language-code">zh-CN</span>
+                        </p>
+                        
+                        <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-900 mb-2">Need more languages?</h3>
+                            <p class="text-blue-800 text-sm mb-2">
+                                If you need support for additional languages, you can:
+                            </p>
+                            <ol class="text-blue-800 text-sm list-decimal list-inside space-y-1">
+                                <li><strong>Fork this repository</strong></li>
+                                <li><strong>Uncomment the desired languages</strong> in <code>constants.js</code></li>
+                                <li><strong>Run the update script:</strong> <code>npm run update-data-force</code></li>
+                            </ol>
+                            <p class="text-blue-800 text-sm mt-2">
+                                Available languages: bg, cs, da, de, el, es-MX, fi, fr, hu, it, ja, ko, nl, no, pl, pt-PT, ro, sv, th, tr, uk, zh-TW, vi
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-all" class="mb-8">
+                        <h1 class="section-heading">List all</h1>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            Object with all items accessible by their id.
+                        </p>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /all.json
+                            </div>
+                            <a
+                                href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/all.json"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="request-icon"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="list-skins" class="mb-8">
+                        <h1 class="section-heading">List skins</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /skins.json
+                            </div>
+                            <a
+                                href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins.json"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="request-icon"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "skin-65604",
+        name: "Desert Eagle | Urban DDPAT",
+        description:
+            "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\\n\\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
+        weapon: {
+            id: "weapon_deagle",
+            weapon_id: 1,
+            name: "Desert Eagle",
+        },
+        category: {
+            id: "csgo_inventory_weapon_category_pistols",
+            name: "Pistols",
+        },
+        pattern: {
+            id: "hy_ddpat_urb",
+            name: "Urban DDPAT",
+        },
+        min_float: 0.06,
+        max_float: 0.8,
+        rarity: {
+            id: "rarity_uncommon_weapon",
+            name: "Industrial Grade",
+            color: "#5e98d9",
+        },
+        stattrak: false,
+        souvenir: true,
+        paint_index: "17",
+        wears: [
+            {
+            id: "SFUI_InvTooltip_Wear_Amount_0",
+            name: "Factory New",
+            },
+            // ...
+        ],
+        collections: [
+            {
+            id: "collection-set-overpass",
+            name: "The Overpass Collection",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png",
+            },
+        ],
+        crates: [
+            {
+            id: "crate-4028",
+            name: "ESL One Cologne 2014 Overpass Souvenir Package",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esl14_promo_de_overpass_png.png",
+            },
+            // ...
+        ],
+        team: {
+            id: "both",
+            name: "Both Teams",
+        },
+        legacy_model: true,
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+    },
+    // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div id="list-skins-not-grouped" class="mb-8">
+                        <h1 class="section-heading">List skins not grouped</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /skins_not_grouped.json
+                            </div>
+                            <a
+                                href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins_not_grouped.json"
+                                target="_blank"
+                            >
+                                <svg
+                                    class="request-icon"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "skin-65604_0",
+        skin_id: "skin-65604",
+        name: "Desert Eagle | Urban DDPAT (Factory New)",
+        description:
+            "As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range. It has been painted using a Digital Disruptive Pattern (DDPAT) hydrographic.\\n\\n<i>By the time you're close enough to notice the pixels it's already too late</i>",
+        weapon: {
+            id: "weapon_deagle",
+            weapon_id: 1,
+            name: "Desert Eagle",
+        },
+        category: {
+            id: "csgo_inventory_weapon_category_pistols",
+            name: "Pistols",
+        },
+        pattern: {
+            id: "hy_ddpat_urb",
+            name: "Urban DDPAT",
+        },
+        min_float: 0.06,
+        max_float: 0.8,
+        wear: {
+            id: "SFUI_InvTooltip_Wear_Amount_0",
+            name: "Factory New",
+        },
+        stattrak: false,
+        souvenir: false,
+        paint_index: "17",
+        rarity: {
+            id: "rarity_uncommon_weapon",
+            name: "Industrial Grade",
+            color: "#5e98d9",
+        },
+        market_hash_name: "Desert Eagle | Urban DDPAT (Factory New)",
+        team: {
+            id: "both",
+            name: "Both Teams",
+        },
+        style: {
+            id: 2,
+            name: "Hydrographic",
+            url: "https://www.counter-strike.net/workshop/workshopfinishes#hydrographic",
+        },
+        legacy_model: true,
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+        },
+        // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-stickers" class="mb-8">
+                        <h1 class="section-heading">List stickers</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /stickers.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "sticker-75",
+        name: "Sticker | Titan | Katowice 2014",
+        description:
+            "This item commemorates the The 2014 EMS One Katowice CS:GO Championship.This sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon.",
+        rarity: {
+            id: "rarity_rare",
+            name: "High Grade",
+            color: "#4b69ff",
+        },
+        crates: [
+            {
+            id: "crate-4015",
+            name: "EMS Katowice 2014 Legends",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_kat2014_02_png.png",
+            },
+        ],
+        tournament_event: "Katowice 2014",
+        tournament_team: "Titan",
+        type: "Team",
+        market_hash_name: "Sticker | Titan | Katowice 2014",
+        effect: "Other",
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png",
+    },
+    // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-stickers-slab" class="mb-8">
+                        <h1 class="section-heading">List stickers slab</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /stickers_slab.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers_slab.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "sticker_slab-75",
+        name: "Sticker Slab | Titan | Katowice 2014",
+        description: "The sticker is safely sealed in this slab. You can return the sticker to your inventory at any time by cracking open and discarding this slab.<br><br>This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+        def_index: "75",
+        rarity: {
+            id: "rarity_rare",
+            name: "High Grade",
+            color: "#4b69ff",
+        },
+        crates: [
+            {
+            id: "crate-4015",
+            name: "EMS Katowice 2014 Legends",
+            image: "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bjn_lDkShjjoYbh_ilk5PO6OvQ8dM_DXCnHkOgktbhoHyqxxRh0tWiDnIr4dnKSOAUoC5J1TbJZ4Bi8k9HlY-Li-UWA3NcCqy5X",
+            },
+        ],
+        collections: [],
+        type: "Team",
+        market_hash_name: "Sticker Slab | Titan | Katowice 2014",
+        effect: "Other",
+        tournament: {
+            id: 3,
+            name: "2014 EMS One Katowice",
+        },
+        team: {
+            id: 27,
+            tag: "TIT",
+            geo: "FR",
+            name: "Titan",
+        },
+        image: "https://cdn.steamstatic.com/apps/730/icons/econ/stickers/emskatowice2014/titan_1355_37.13ccde686799abb2976807a757a42e144246a28d.png",
+        original: {
+            name: "kat2014_titan",
+            image_inventory: "econ/stickers/emskatowice2014/titan_1355_37",
+        },
+    },
+    // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-keychain" class="mb-8">
+                        <h1 class="section-heading">List keychains</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /keychains.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keychains.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "keychain-1",
+        name: "Charm | Lil' Ava",
+        description:
+            "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+        rarity: {
+            id: "rarity_rare",
+            name: "High Grade",
+            color: "#4b69ff",
+        },
+        collections: [
+            {
+            id: "collection-set-kc-missinglink",
+            name: "Missing Link Charm Collection",
+            image:
+                "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png",
+            },
+        ],
+        market_hash_name: "Charm | Lil' Ava",
+        image:
+            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png",
+    },
+    // ...
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-collections">
+                        <h1 class="section-heading">List collections</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /collections.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collections.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "collection-set-community-3",
+        "name": "The Huntsman Collection",
+        "crates": [
+            {
+                "id": "crate-4017",
+                "name": "Huntsman Weapon Case",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png"
+            }
+        ],
+        "contains": [
+            {
+                "id": "skin-1967292",
+                "name": "Tec-9 | Isaac",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "Mil-Spec Grade",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "303",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_light_png.png"
+            }
+            // ... 
+        ],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_3_png.png"
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-crates">
+                        <h1
+                            class="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight"
+                        >
+                            List crates
+                        </h1>
+
+                        <p
+                            class="mt-2 text-base md:text-lg text-slate-700 mb-4"
+                        >
+                            This list includes cases, capsules, graffiti boxes,
+                            music kit boxes and souvenir packages.
+                        </p>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /crates.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/crates.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "crate-4904",
+        "name": "Kilowatt Case",
+        "description": null,
+        "type": "Case",
+        "first_sale_date": "2024-01-31",
+        "contains": [
+            {
+                "id": "skin-135748",
+                "name": "Dual Berettas | Hideout",
+                "rarity": {
+                    "id": "rarity_rare_weapon",
+                    "name": "Mil-Spec Grade",
+                    "color": "#4b69ff"
+                },
+                "paint_index": "1169",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_berettas_lethal_grin_light_png.png"
+            }
+            // ... 
+        ],
+        "contains_rare": [
+            {
+                "id": "skin-vanilla-weapon_knife_kukri",
+                "name": "★ Kukri Knife",
+                "rarity": {
+                    "id": "rarity_ancient_weapon",
+                    "name": "Covert",
+                    "color": "#eb4b4b"
+                },
+                "paint_index": null,
+                "phase": null,
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png"
+            }
+            // ... 
+        ],
+        "market_hash_name": "Kilowatt Case",
+        "rental": true,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png",
+        "model_player": "models/props/crates/csgo_drop_crate_community_33.vmdl",
+        "loot_list": {
+            "name": "★ Kukri Knife ★",
+            "footer": "or an Exceedingly Rare Kukri Knife!",
+            "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_rare_item_png.png"
+        }
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-keys">
+                        <h1 class="section-heading">List keys</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /keys.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keys.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "key-generic_valve_key",
+        "name": "CS:GO Case Key",
+        "description": "This key will open any Valve Series Weapon Case. Non-Valve Series cases (e.g. eSports Case) require their own key to open.",
+        "market_hash_name": "CS:GO Case Key",
+        "crates": [
+            {
+                "id": "crate-4001",
+                "name": "CS:GO Weapon Case",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png"
+            }
+            // ... 
+        ],
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png"
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-collectibles">
+                        <h1 class="section-heading">List collectibles</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /collectibles.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collectibles.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "collectible-874",
+        "name": "5 Year Veteran Coin",
+        "description": "Has been a member of the Counter-Strike community for over 5 years.",
+        "rarity": {
+            "id": "rarity_ancient",
+            "name": "Extraordinary",
+            "color": "#eb4b4b"
+        },
+        "type": null,
+        "genuine": false,
+        "market_hash_name": null,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png"
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-agents">
+                        <h1 class="section-heading">List agents</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /agents.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/agents.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "agent-4613",
+        "name": "Bloody Darryl The Strapped | The Professionals",
+        "description": "Before he was leader of the heist gang 'The Professionals' Sir Bloody Darryl was more simply called, Bloody Darryl. Still your friendly neighborhood psychopath in every sense of the word. Not actually Australian according to Australians. \\n\\n<i>I'm just gonna give them a bit of Razzle Dazzle.</i>",
+        "rarity": {
+            "id": "rarity_legendary_character",
+            "name": "Superior",
+            "color": "#d32ce6"
+        },
+        "collections": [
+            {
+                "id": "collection-set-op11-characters",
+                "name": "Operation Riptide Agents",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png"
+            }
+        ],
+        "team": {
+            "id": "terrorists",
+            "name": "Terrorist"
+        },
+        "market_hash_name": "Bloody Darryl The Strapped | The Professionals",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/characters/customplayer_tm_professional_varf5_png.png"
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-patches">
+                        <h1 class="section-heading">List patches</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /patches.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/patches.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "patch-5126",
+        "name": "Patch | FaZe Clan (Gold) | Stockholm 2021",
+        "description": "This patch can be applied to any agent you own. Once applied, it can be removed but not recovered.",
+        "rarity": {
+            "id": "rarity_mythical",
+            "name": "Remarkable",
+            "color": "#8847ff"
+        },
+        "market_hash_name": "Patch | FaZe Clan (Gold) | Stockholm 2021",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/patches/stockh2021/patch_faze_gold_png.png"
+    }
+    // ... 
+]
+                            </pre>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-graffiti">
+                        <h1 class="section-heading">List graffiti</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /graffiti.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/graffiti.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "graffiti-1654",
+        "name": "Sealed Graffiti | Chabo",
+        "description": "This is a sealed container of a graffiti pattern. Once this graffiti pattern is unsealed, it will provide you with enough charges to apply the graffiti pattern <b>50</b> times to the in-game world.",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "High Grade",
+            "color": "#4b69ff"
+        },
+        "crates": [
+            {
+                "id": "crate-4234",
+                "name": "Community Graffiti Box 1",
+                "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_spray_pack_community_1_png.png"
+            }
+        ],
+        "market_hash_name": "Sealed Graffiti | Chabo",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community_mix01/chicken_png.png"
+    }
+    // ... 
+]
+</pre
+                            >
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-music-kits">
+                        <h1 class="section-heading">List music kits</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /music_kits.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/music_kits.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "music_kit-39",
+        "name": "Music Kit | The Verkkars, EZ4ENCE",
+        "description": "The Verkkars rise through the Finnish charts with a heart-pounding tribute to ENCE. Can it really be so EZ?",
+        "rarity": {
+            "id": "rarity_rare",
+            "name": "High Grade",
+            "color": "#4b69ff"
+        },
+        "market_hash_name": "Music Kit | The Verkkars, EZ4ENCE",
+        "exclusive": false,
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/theverkkars_01_png.png"
+    },
+    // ...
+]
+</pre
+                            >
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-base-weapons">
+                        <h1 class="section-heading">List base weapons</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /base_weapons.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/base_weapons.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        "id": "base_weapon-ct_gloves",
+        "name": "Default CT Gloves",
+        "description": "General-purpose tactical combat gloves designed for military or security personnel.",
+        "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+    },
+    // ...
+]
+</pre
+                            >
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div id="list-highlights">
+                        <h1 class="section-heading">List highlights</h1>
+
+                        <div class="request-info">
+                            <div>
+                                <span class="request-method">GET</span>
+                                /highlights.json
+                            </div>
+                            <div>
+                                <a
+                                    href="https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highlights.json"
+                                    target="_blank"
+                                >
+                                    <svg
+                                        class="request-icon"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <pre
+                                class="p-4 bg-gray-800 text-white font-mono text-sm leading-normal overflow-x-auto rounded-lg"
+                            >
+[
+    {
+        id: "aus2025_chopper2kvsmouzonmirage1",
+        name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
+        description: "chopper gets a double kill on the A-site defense from Balcony on Mirage.",
+        tournament_event: "Austin 2025",
+        team0: "Team Spirit",
+        team1: "MOUZ",
+        stage: "Quarterfinal",
+        map: "de_mirage",
+        market_hash_name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
+        image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/aus2025/kc_aus2025_png.png",
+        video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm"
+    },
+]
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const openLateralNav = () => {
+                document.body.classList.add("overflow-hidden");
+                document.body.classList.add("lg:overflow-auto");
+                document
+                    .getElementById("lateral-nav")
+                    .classList.remove("hidden");
+            };
+
+            const closeLateralNav = () => {
+                document.body.classList.remove("overflow-hidden");
+                document.body.classList.remove("lg:overflow-auto");
+                document.getElementById("lateral-nav").classList.add("hidden");
+            };
+
+            (() => {
+                const links = document.querySelectorAll("#responsive-links a");
+
+                for (const link of links) {
+                    link.addEventListener("click", () => {
+                        closeLateralNav();
+                        setTimeout(() => window.scrollBy(0, -48), 10);
+                    });
+                }
+
+                document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+                    anchor.addEventListener("click", function (e) {
+                        e.preventDefault();
+
+                        document
+                            .querySelector(this.getAttribute("href"))
+                            .scrollIntoView({
+                                behavior: "smooth",
+                            });
+                    });
+                });
+
+                document.addEventListener("scroll", () => {
+                    let sections = document.querySelectorAll(".endpoints div[id]");
+                    let currentSection = null;
+
+                    sections.forEach((section) => {
+                        const rect = section.getBoundingClientRect();
+                        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+                            currentSection = section;
+                        }
+                    });
+
+                    if (currentSection) {
+                        history.replaceState(null, null, `#${currentSection.id}`);
+
+                        // Remove the border class from all links inside .nav-desktop
+                        document.querySelectorAll(".nav-desktop a").forEach((link) => {
+                            link.classList.remove("border-sky-500/60");
+                        });
+
+                        // Find the corresponding <a> inside .nav-desktop and add the border class
+                        let navLink = document.querySelector(`.nav-desktop a[href='#${currentSection.id}']`);
+                        if (navLink) {
+                            navLink.classList.add("border-sky-500/60");
+                        }
+                    }
+                });
+
+            })();
+        </script>
+    </body>
+</html>
