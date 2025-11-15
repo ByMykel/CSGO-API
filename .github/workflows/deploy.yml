@@ -1,18 +1,27 @@
 name: Deploy to GitHub pages
+
 on:
-    push:
-        branches: [main]
+  workflow_dispatch:
+  # schedule:
+  #     - cron: "0 6 * * *"
+  push:
+    paths:
+      - "public/index.html"
+
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v2
-
-            - name: Force push to destination branch
-              uses: ad-m/github-push-action@v0.5.0
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: gh-pages
-                  force: true
-                  directory: ./public
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git init
+          git add -A
+          git config --local user.email "github-actions[bot]"
+          git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m 'deploy'
+        working-directory: ./public
+      - uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: public

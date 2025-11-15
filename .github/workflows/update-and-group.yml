@@ -1,0 +1,57 @@
+name: Update and Group JSON API
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force download (ignore existing files)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "0 * * * *"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-and-group:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      
+      - name: Install dependencies
+        run: npm install
+      
+      # Update step
+      - name: Update data
+        id: update-data
+        run: npm run ${{ github.event.inputs.force == 'true' && 'update-data-force' || 'update-data' }}
+      
+      - name: Read manifestIdUpdate.txt
+        id: manifestIdUpdate
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./manifestIdUpdate.txt
+      
+      # Group step
+      - name: Group data
+        id: group-data
+        run: npm run ${{ github.event.inputs.force == 'true' && 'group-data-force' || 'group-data' }}
+      
+      - name: Read manifestIdGroup.txt
+        id: manifestIdGroup
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./manifestIdGroup.txt
+      
+      # Commit all changes
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[bot::update-group] manifest ${{ steps.manifestIdUpdate.outputs.content }}"
