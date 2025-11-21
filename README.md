@@ -25,9 +25,10 @@ If you need support for additional languages, you can:
 
 1. **Fork this repository**
 2. **Uncomment the desired languages** in `constants.js` (lines 24-173)
-3. **Run the update script** to generate the language files:
+3. **Run the update scripts** to generate the language files:
    ```bash
    npm run update-data-force
+   npm run group-data-force
    ```
 
 The following languages are available but commented out in the codebase:
