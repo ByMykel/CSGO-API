@@ -6,7 +6,7 @@ on:
   #     - cron: "0 6 * * *"
   push:
     paths:
-      - "public/index.html"
+      - "public/docs/index.html"
 
 jobs:
   build:
@@ -20,8 +20,8 @@ jobs:
           git config --local user.email "github-actions[bot]"
           git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m 'deploy'
-        working-directory: ./public
+        working-directory: ./public/docs
       - uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages
-          folder: public
+          folder: public/docs
