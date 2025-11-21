@@ -107,7 +107,7 @@ const getFirstSaleDate = (item, prefabs) => {
 };
 
 const getMarketHashName = item => {
-    if (["4729", "4783", "4795", "4614", "4779"].includes(item.object_id)) {
+    if (["4600", "4614", "4719", "4729", "4779", "4783", "4795"].includes(item.object_id)) {
         return null;
     }
 
