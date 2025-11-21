@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Primary Meta Tags -->
+        <title>CSGO API</title>
+        <meta name="title" content="CSGO API" />
+        <meta
+            name="description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <link rel="icon" href="favicon.ico" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bymykel.github.io/CSGO-API/" />
+        <meta property="og:title" content="CSGO API" />
+        <meta
+            property="og:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <meta property="og:image" content="https://bymykel.github.io/CSGO-API/image-meta.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://bymykel.github.io/CSGO-API/" />
+        <meta property="twitter:title" content="CSGO API" />
+        <meta
+            property="twitter:description"
+            content="An unofficial JSON API for Counter-Strike: Global Offensive in multiples languages. List of skins, cases, stickers, collections, collectibles, agents, graffiti, keys, patches and music kits."
+        />
+        <meta property="twitter:image" content="https://bymykel.github.io/CSGO-API/image-meta.png" />
+
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {},
+                },
+            };
+        </script>
+
+        <style>
+            * {
+                scroll-behavior: smooth;
+            }
+
+            html {
+                font-family: "Inter", sans-serif !important;
+            }
+
+            body {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                background-color: #ffffff;
+                color: #475569;
+                line-height: 1.6;
+            }
+
+            hr {
+                border: none;
+                border-top: 1px solid #e2e8f0;
+                margin: 3rem 0;
+            }
+
+            .language-code {
+                background-color: #1e293b;
+                color: #f1f5f9;
+                border-radius: 0.25rem;
+                padding: 0.25rem 0.5rem;
+                font-size: 0.875rem;
+                font-weight: 500;
+                display: inline-block;
+                margin-right: 0.5rem;
+            }
+
+            .section-heading {
+                font-size: 2rem;
+                line-height: 1.2;
+                font-weight: 800;
+                color: #0f172a;
+                letter-spacing: -0.02em;
+                margin-bottom: 1rem;
+            }
+
+            @media (min-width: 640px) {
+                .section-heading {
+                    font-size: 2.25rem;
+                }
+            }
+
+            .request-info {
+                background-color: #1e293b;
+                color: #f1f5f9;
+                border-radius: 0.25rem;
+                font-size: 1rem;
+                padding: 0.875rem 1rem;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid #334155;
+            }
+
+            .request-method {
+                color: #f472b6;
+                font-weight: 600;
+                margin-right: 0.75rem;
+                font-size: 0.875rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+            }
+
+            .request-icon {
+                width: 1.25rem;
+                height: 1.25rem;
+                color: #94a3b8;
+                transition: color 0.2s;
+            }
+
+            .request-icon:hover {
+                color: #f1f5f9;
+            }
+
+            .base-url-box {
+                background-color: #1e293b;
+                color: #f1f5f9;
+                border-radius: 0.25rem;
+                font-size: 1rem;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                margin-top: 1rem;
+                overflow: hidden;
+                border: 1px solid #334155;
+            }
+
+            .base-url-header {
+                padding: 0.75rem 1rem;
+                border-bottom: 1px solid #334155;
+                background-color: #0f172a;
+            }
+
+            .base-url-header span {
+                color: #f472b6;
+                font-weight: 600;
+                font-size: 0.75rem;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+
+            .base-url-content {
+                padding: 0.75rem 1rem;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+                font-size: 0.875rem;
+                color: #cbd5e1;
+                word-break: break-all;
+            }
+
+            .info-box {
+                margin-top: 1rem;
+                padding: 1rem;
+                background-color: #eff6ff;
+                border: 1px solid #bfdbfe;
+                border-radius: 0.25rem;
+            }
+
+            .info-box h3 {
+                font-weight: 600;
+                color: #1e40af;
+                margin-bottom: 0.5rem;
+                font-size: 1rem;
+            }
+
+            .info-box p,
+            .info-box ol {
+                color: #1e3a8a;
+                font-size: 0.875rem;
+                line-height: 1.625;
+            }
+
+            .info-box code {
+                background-color: rgba(59, 130, 246, 0.1);
+                padding: 0.125rem 0.375rem;
+                border-radius: 0.125rem;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+                font-size: 0.8125rem;
+                color: #1e40af;
+                font-weight: 600;
+            }
+
+            .response-structure {
+                margin-top: 1rem;
+                padding: 1.25rem;
+                background-color: #1e293b;
+                border-radius: 0.25rem;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                border: 1px solid #334155;
+            }
+
+            .response-structure h4 {
+                color: #f1f5f9;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                font-size: 1rem;
+            }
+
+            .structure-item {
+                color: #e2e8f0;
+                margin-bottom: 0.5rem;
+                line-height: 1.6;
+                font-size: 0.9375rem;
+            }
+
+            .structure-item.ml-4 {
+                color: #cbd5e1;
+            }
+
+            .structure-key {
+                color: #f472b6;
+                font-weight: 600;
+            }
+
+            .structure-item.ml-4 .structure-key {
+                color: #cbd5e1;
+                font-weight: 500;
+            }
+
+            .structure-type {
+                color: #94a3b8;
+            }
+
+            .structure-item.ml-4 .structure-type {
+                font-weight: 500;
+            }
+
+            .structure-type.type-string {
+                color: #60a5fa;
+            }
+
+            .structure-type.type-number {
+                color: #f59e0b;
+            }
+
+            .structure-type.type-boolean {
+                color: #10b981;
+            }
+
+            .structure-type.type-array {
+                color: #a78bfa;
+            }
+
+            .structure-type.type-object {
+                color: #ec4899;
+            }
+
+            .structure-type.type-null {
+                color: #94a3b8;
+            }
+
+            .nav-link {
+                color: #475569;
+                transition: color 0.2s;
+                padding: 0.25rem 0;
+                display: block;
+            }
+
+            .nav-link:hover {
+                color: #0f172a;
+            }
+
+            .nav-link.active {
+                color: #0f172a;
+                font-weight: 600;
+            }
+
+            .mobile-header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(8px);
+                border-bottom: 1px solid #e2e8f0;
+                justify-content: space-between;
+                width: 100%;
+                height: 3.5rem;
+                padding: 0 1rem;
+                display: flex;
+                align-items: center;
+                z-index: 50;
+            }
+
+            @media (min-width: 1024px) {
+                .mobile-header {
+                    display: none;
+                }
+            }
+
+            .mobile-nav-overlay {
+                position: fixed;
+                z-index: 50;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                overflow-y: auto;
+                display: none;
+            }
+
+            .mobile-nav-overlay:not(.hidden) {
+                display: flex;
+                align-items: flex-start;
+            }
+
+            @media (min-width: 1024px) {
+                .mobile-nav-overlay {
+                    display: none !important;
+                }
+            }
+
+            .mobile-nav-backdrop {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                opacity: 0;
+                transition: opacity 0.3s ease-out;
+            }
+
+            .mobile-nav-overlay:not(.hidden) .mobile-nav-backdrop {
+                opacity: 1;
+            }
+
+            .mobile-nav-panel {
+                position: relative;
+                background-color: white;
+                width: 20rem;
+                max-width: calc(100% - 3rem);
+                height: 100%;
+                padding: 1.5rem;
+                box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+                transform: translateX(-100%);
+                transition: transform 0.3s ease-out;
+                overflow-y: auto;
+            }
+
+            .mobile-nav-overlay:not(.hidden) .mobile-nav-panel {
+                transform: translateX(0);
+            }
+
+            /* Endpoint sections */
+            .endpoints > div > div[id] {
+                scroll-margin-top: 2rem;
+                padding-top: 1rem;
+                margin-bottom: 3rem;
+            }
+
+            /* Code styling */
+            code {
+                background-color: #f1f5f9;
+                padding: 0.125rem 0.375rem;
+                border-radius: 0.125rem;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+                font-size: 0.875em;
+                color: #475569;
+                font-weight: 500;
+            }
+
+            /* Smooth scroll */
+            html {
+                scroll-padding-top: 2rem;
+            }
+
+            /* Desktop nav */
+            .nav-desktop {
+                padding-right: 1rem;
+            }
+
+            .nav-desktop a {
+                padding: 0.25rem 0;
+            }
+
+            /* Spacing */
+            .endpoints {
+                max-width: 100%;
+            }
+
+            .endpoints > div {
+                padding-right: 1rem;
+            }
+
+            .endpoints p {
+                color: #475569;
+                line-height: 1.75;
+            }
+
+            /* Link styling */
+            a {
+                transition: color 0.2s;
+            }
+
+            a[href^="http"]:not(.nav-link):not(.request-icon):hover {
+                text-decoration: underline;
+            }
+
+            /* Button styling */
+            button {
+                transition: opacity 0.2s;
+            }
+
+            button:hover {
+                opacity: 0.8;
+            }
+
+            /* List styling */
+            .info-box ol {
+                padding-left: 1.5rem;
+            }
+
+            .info-box ol li {
+                margin-bottom: 0.5rem;
+            }
+
+            .info-box ol li strong {
+                color: #1e40af;
+            }
+
+            /* Request info font-mono */
+            .request-info .font-mono {
+                color: #e2e8f0;
+                font-weight: 500;
+            }
+
+            /* Focus states */
+            a:focus-visible,
+            button:focus-visible {
+                outline: 2px solid #6366f1;
+                outline-offset: 2px;
+            }
+
+            /* Scrollbar */
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f5f9;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: #cbd5e1;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #94a3b8;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="mobile-header fixed sm:px-6 lg:hidden top-0 left-0 right-0 bg-white/80 backdrop-blur-sm border-b justify-between border-slate-200 w-100 h-12 px-2 flex items-center z-50">
+            <h1 class="text-xl tracking-tight font-extrabold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
+                CSGO API
+            </h1>
+            <button onclick="openLateralNav()" class="text-slate-600">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8 mb-20 pt-16 lg:pt-8 pb-20">
+            <div class="mobile-nav-overlay hidden" id="lateral-nav" role="dialog" aria-modal="true">
+                <div class="mobile-nav-backdrop" onClick="closeLateralNav()"></div>
+                <div class="mobile-nav-panel p-6">
+                    <button
+                        class="absolute z-10 top-5 right-5 w-8 h-8 flex items-center justify-center text-slate-500 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+                        onClick="closeLateralNav()"
+                    >
+                        <svg viewBox="0 0 10 10" class="w-3 h-3">
+                            <path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                    <nav id="nav" class="lg:text-sm lg:leading-6 relative">
+                        <div id="responsive-links" class="space-y-1 pt-6">
+                            <div><a href="#introduction" class="nav-link block">Introduction</a></div>
+                            <div><a href="#list-all" class="nav-link block">List all</a></div>
+                            <div><a href="#list-skins" class="nav-link block">List skins</a></div>
+                            <div><a href="#list-skins-not-grouped" class="nav-link block">List skins not grouped</a></div>
+                            <div><a href="#list-stickers" class="nav-link block">List stickers</a></div>
+                            <div><a href="#list-stickers-slab" class="nav-link block">List stickers slab</a></div>
+                            <div><a href="#list-keychain" class="nav-link block">List keychains</a></div>
+                            <div><a href="#list-collections" class="nav-link block">List collections</a></div>
+                            <div><a href="#list-crates" class="nav-link block">List crates</a></div>
+                            <div><a href="#list-keys" class="nav-link block">List keys</a></div>
+                            <div><a href="#list-collectibles" class="nav-link block">List collectibles</a></div>
+                            <div><a href="#list-agents" class="nav-link block">List agents</a></div>
+                            <div><a href="#list-patches" class="nav-link block">List patches</a></div>
+                            <div><a href="#list-graffiti" class="nav-link block">List graffiti</a></div>
+                            <div><a href="#list-music-kits" class="nav-link block">List music kits</a></div>
+                            <div><a href="#list-base-weapons" class="nav-link block">List base weapons</a></div>
+                            <div><a href="#list-highlights" class="nav-link block">List highlights</a></div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hidden lg:block fixed z-20 inset-0 left-[max(0px,calc(50%-45rem))] right-auto w-[18rem] pb-10 px-6 overflow-y-auto">
+                <div class="sticky top-6 nav-desktop">
+                    <div class="mb-6">
+                        <h1 class="text-xl tracking-tight font-extrabold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
+                            CSGO API
+                        </h1>
+                    </div>
+                    <div class="space-y-1">
+                        <div><a href="#introduction" class="nav-link block">Introduction</a></div>
+                        <div><a href="#list-all" class="nav-link block">List all</a></div>
+                        <div><a href="#list-skins" class="nav-link block">List skins</a></div>
+                        <div><a href="#list-skins-not-grouped" class="nav-link block">List skins not grouped</a></div>
+                        <div><a href="#list-stickers" class="nav-link block">List stickers</a></div>
+                        <div><a href="#list-stickers-slab" class="nav-link block">List stickers slab</a></div>
+                        <div><a href="#list-keychain" class="nav-link block">List keychains</a></div>
+                        <div><a href="#list-collections" class="nav-link block">List collections</a></div>
+                        <div><a href="#list-crates" class="nav-link block">List crates</a></div>
+                        <div><a href="#list-keys" class="nav-link block">List keys</a></div>
+                        <div><a href="#list-collectibles" class="nav-link block">List collectibles</a></div>
+                        <div><a href="#list-agents" class="nav-link block">List agents</a></div>
+                        <div><a href="#list-patches" class="nav-link block">List patches</a></div>
+                        <div><a href="#list-graffiti" class="nav-link block">List graffiti</a></div>
+                        <div><a href="#list-music-kits" class="nav-link block">List music kits</a></div>
+                        <div><a href="#list-base-weapons" class="nav-link block">List base weapons</a></div>
+                        <div><a href="#list-highlights" class="nav-link block">List highlights</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:pl-[15rem] xl:pl-[15rem] endpoints">
+                <div class="pb-12 mt-4">
+                    <div id="introduction">
+                        <h1 class="section-heading">Introduction</h1>
+
+                        <p class="mt-4 text-base md:text-lg text-slate-700 mb-6 leading-relaxed">
+                            Welcome to the unofficial JSON API for Counter-Strike 2. This API provides access
+                            to various data aspects of the game, parsed into JSON format for easier
+                            integration and use.
+                        </p>
+
+                        <p class="mt-4 text-base md:text-lg text-slate-700 mb-6 leading-relaxed">
+                            You can find this project source code
+                            <a
+                                class="hover:underline text-indigo-600 font-medium hover:text-indigo-700 transition-colors"
+                                href="https://github.com/ByMykel/CSGO-API"
+                                target="_blank"
+                                >on GitHub</a
+                            >.
+                        </p>
+
+                        <div class="base-url-box">
+                            <div class="base-url-header">
+                                <span class="text-indigo-400 font-semibold text-sm">BASE URL</span>
+                            </div>
+                            <div class="base-url-content">
+                                https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
+                            </div>
+                        </div>
+
+                        <p class="mt-6 text-base md:text-lg text-slate-700 mb-4 leading-relaxed">
+                            This API currently has
+                            <strong class="text-slate-900">2 languages enabled</strong> (with around
+                            <strong class="text-slate-900">30 languages</strong> available). To access
+                            information in a specific language, replace
+                            <code class="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono"
+                                >{language}</code
+                            >
+                            in the URL with one of the currently enabled language codes:
+                        </p>
+                        <div class="mt-3 mb-6">
+                            <span class="language-code">en</span>
+                            <span class="language-code">zh-CN</span>
+                        </div>
+
+                        <div class="info-box">
+                            <h3>Need more languages?</h3>
+                            <p class="mb-3">If you need support for additional languages, you can:</p>
+                            <ol class="list-decimal list-inside space-y-2 mb-3">
+                                <li><strong>Fork this repository</strong></li>
+                                <li>
+                                    <strong>Uncomment the desired languages</strong> in
+                                    <code>constants.js</code>
+                                </li>
+                                <li>
+                                    <strong>Run the update scripts:</strong>
+                                    <code>npm run update-data-force</code> and
+                                    <code>npm run group-data-force</code>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <!-- ENDPOINTS_PLACEHOLDER -->
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const openLateralNav = () => {
+                document.body.classList.add("overflow-hidden");
+                document.body.classList.add("lg:overflow-auto");
+                document.getElementById("lateral-nav").classList.remove("hidden");
+            };
+
+            const closeLateralNav = () => {
+                document.body.classList.remove("overflow-hidden");
+                document.body.classList.remove("lg:overflow-auto");
+                document.getElementById("lateral-nav").classList.add("hidden");
+            };
+
+            (() => {
+                const links = document.querySelectorAll("#responsive-links a");
+
+                for (const link of links) {
+                    link.addEventListener("click", () => {
+                        closeLateralNav();
+                        setTimeout(() => window.scrollBy(0, -56), 10);
+                    });
+                }
+
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        document.querySelector(this.getAttribute("href")).scrollIntoView({
+                            behavior: "smooth",
+                        });
+                    });
+                });
+
+                document.addEventListener("scroll", () => {
+                    let sections = document.querySelectorAll(".endpoints div[id]");
+                    let currentSection = null;
+
+                    sections.forEach(section => {
+                        const rect = section.getBoundingClientRect();
+                        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+                            currentSection = section;
+                        }
+                    });
+
+                    if (currentSection) {
+                        history.replaceState(null, null, `#${currentSection.id}`);
+
+                        // Update desktop nav
+                        document.querySelectorAll(".nav-desktop a").forEach(link => {
+                            link.classList.remove("active");
+                        });
+
+                        let navLink = document.querySelector(`.nav-desktop a[href='#${currentSection.id}']`);
+                        if (navLink) {
+                            navLink.classList.add("active");
+                        }
+
+                        // Update mobile nav
+                        document.querySelectorAll("#responsive-links a").forEach(link => {
+                            link.classList.remove("active");
+                        });
+
+                        let mobileNavLink = document.querySelector(
+                            `#responsive-links a[href='#${currentSection.id}']`
+                        );
+                        if (mobileNavLink) {
+                            mobileNavLink.classList.add("active");
+                        }
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>
+
