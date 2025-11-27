@@ -41,12 +41,12 @@ const endpoints = [
         jsonFile: "public/api/en/stickers.json",
     },
     {
-        id: "list-stickers-slab",
-        title: "List stickers slab",
+        id: "list-sticker-slabs",
+        title: "List sticker slabs",
         description: "Returns an array of sticker slabs (sealed stickers that can be opened).",
-        endpoint: "/stickers_slab.json",
-        url: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers_slab.json",
-        jsonFile: "public/api/en/stickers_slab.json",
+        endpoint: "/sticker_slabs.json",
+        url: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/sticker_slabs.json",
+        jsonFile: "public/api/en/sticker_slabs.json",
     },
     {
         id: "list-keychain",

@@ -205,11 +205,11 @@ const parseItem = item => {
     };
 };
 
-export const getStickersSlab = () => {
+export const getStickerSlabs = () => {
     const { stickerKits } = state;
     const { folder } = languageData;
 
     const stickers = stickerKits.filter(isSticker).map(parseItem);
 
-    saveDataJson(`./public/api/${folder}/stickers_slab.json`, stickers);
+    saveDataJson(`./public/api/${folder}/sticker_slabs.json`, stickers);
 };

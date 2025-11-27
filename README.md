@@ -224,10 +224,10 @@ Example response:
 ]
 ```
 
-### List stickers slab
+### List sticker slabs
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers_slab.json
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/sticker_slabs.json
 ```
 
 Example response:
