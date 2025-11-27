@@ -603,7 +603,7 @@ export const loadHighlights = () => {
             image: getImageUrl(`econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`),
             image_inventory: `econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`,
             video: video,
-            thumbnail: `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/highlightreels/${item.id.split("_")[0]}/${item.id}_ww.jpg`,
+            thumbnail: `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/highlightreels/${item.id.split("_")[0]}/${item.id}_ww.webp`,
         };
     });
 };
