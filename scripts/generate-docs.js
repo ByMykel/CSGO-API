@@ -303,7 +303,7 @@ function generateEndpointSection(endpoint, responseStructureHtml) {
 function generateDocs() {
     console.log("Generating documentation...");
 
-    let endpointsHtml = "";
+    const endpointHtmls = [];
 
     endpoints.forEach(endpoint => {
         try {
@@ -339,13 +339,16 @@ function generateDocs() {
 
             const responseStructureHtml = generateResponseStructure(sampleObject, endpoint.isObject);
             const endpointHtml = generateEndpointSection(endpoint, responseStructureHtml);
-            endpointsHtml += endpointHtml + "\n                    <hr />\n";
+            endpointHtmls.push(endpointHtml);
 
             console.log(`✓ Generated ${endpoint.id}`);
         } catch (error) {
             console.error(`Error processing ${endpoint.id}:`, error.message);
         }
     });
+
+    // Join endpoints with <hr /> between them (but not after the last one)
+    const endpointsHtml = endpointHtmls.join("\n                    <hr />\n");
 
     // Read the template
     const templatePath = path.join(__dirname, "..", "public", "docs", "template.html");
