@@ -1,10 +1,11 @@
 import fs from "fs";
 import path from "path";
-import { LANGUAGES_URL } from "./constants.js";
+import { getLanguages, parseLanguagesArg } from "./constants.js";
 import { getManifestId, getImagesJsonSha } from "./services/main.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes("--force");
+const languages = getLanguages(parseLanguagesArg(args));
 
 const inputFilePathsTemplate = [
     "./public/api/{lang}/agents.json",
@@ -61,7 +62,7 @@ if (isForce) {
     }
 }
 
-for (let langObj of LANGUAGES_URL) {
+for (let langObj of languages) {
     const lang = langObj.folder;
     const allData = {};
 

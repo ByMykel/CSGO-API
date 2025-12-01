@@ -13,7 +13,7 @@ import { getStickers } from "./services/stickers.js";
 import { getStickerSlabs } from "./services/stickerSlabs.js";
 import { getKeychains } from "./services/keychains.js";
 import { getSkins } from "./services/skins.js";
-import { LANGUAGES_URL } from "./constants.js";
+import { getLanguages, parseLanguagesArg } from "./constants.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
@@ -23,6 +23,7 @@ import { getInventory } from "./services/inventory.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes("--force");
+const languages = getLanguages(parseLanguagesArg(args));
 
 let existingManifestId = "";
 let existingImagesSha = "";
@@ -66,7 +67,7 @@ if (isForce) {
 await loadData();
 
 await Promise.all(
-    LANGUAGES_URL.map(async language => {
+    languages.map(async language => {
         console.log(`Language: ${language.language}`);
 
         try {

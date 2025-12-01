@@ -6,13 +6,15 @@ Data are sourced from files maintained at [this repository](https://github.com/B
 
 ## Usage
 
-This API currently supports **2 languages**. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
+The hosted API on the `main` branch currently ships **2 languages** (English and Simplified Chinese). To access information in a specific language, replace `{language}` in the URL with one of the supported language folder codes listed below.
 
 ```http
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
 ```
 
-## Currently Supported Languages
+If you need other languages, see [Adding More Languages](#adding-more-languages) — you can generate them via CLI or enable them in your own fork without editing the source code.
+
+## Currently Supported Languages (hosted)
 
 | Language Name         | Language Code |
 | --------------------- | ------------- |
@@ -21,23 +23,98 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language
 
 ## Adding More Languages
 
-If you need support for additional languages, you can:
+All supported languages are defined in `LANGUAGES_URL` in [constants.js](constants.js). By default only `en` and `zh-CN` are generated (controlled by `LANGUAGES_ENABLED`). Languages are selected by their **folder code** (e.g. `en`, `ru`, `zh-CN`). You can enable extra languages without editing the source — pick whichever option fits your workflow.
 
-1. **Fork this repository**
-2. **Uncomment the desired languages** in `constants.js` (lines 24-173)
-3. **Run the update scripts** to generate the language files:
-   ```bash
-   npm run update-data-force
-   npm run group-data-force
-   ```
+### Available languages
 
-The following languages are available but commented out in the codebase:
-- Bulgarian (bg), Czech (cs), Danish (da), German (de), Greek (el)
-- Spanish Mexico (es-MX), Finnish (fi), French (fr), Hungarian (hu)
-- Italian (it), Japanese (ja), Korean (ko), Dutch (nl), Norwegian (no)
-- Polish (pl), Portuguese Portugal (pt-PT), Romanian (ro)
-- Swedish (sv), Thai (th), Turkish (tr), Ukrainian (uk)
-- Chinese Traditional (zh-TW), Vietnamese (vi)
+| Language             | `language` (constants.js) | Folder code |
+| -------------------- | ------------------------- | ----------- |
+| English              | `english`                 | `en`        |
+| Chinese (Simplified) | `schinese`                | `zh-CN`     |
+| Portuguese (Brazil)  | `brazilian`               | `pt-BR`     |
+| Russian              | `russian`                 | `ru`        |
+| Spanish              | `spanish`                 | `es-ES`     |
+| Bulgarian            | `bulgarian`               | `bg`        |
+| Czech                | `czech`                   | `cs`        |
+| Danish               | `danish`                  | `da`        |
+| Dutch                | `dutch`                   | `nl`        |
+| Finnish              | `finnish`                 | `fi`        |
+| French               | `french`                  | `fr`        |
+| German               | `german`                  | `de`        |
+| Greek                | `greek`                   | `el`        |
+| Hungarian            | `hungarian`               | `hu`        |
+| Italian              | `italian`                 | `it`        |
+| Japanese             | `japanese`                | `ja`        |
+| Korean               | `koreana`                 | `ko`        |
+| Spanish (Latin Am.)  | `latam`                   | `es-MX`     |
+| Norwegian            | `norwegian`               | `no`        |
+| Polish               | `polish`                  | `pl`        |
+| Portuguese           | `portuguese`              | `pt-PT`     |
+| Romanian             | `romanian`                | `ro`        |
+| Swedish              | `swedish`                 | `sv`        |
+| Chinese (Traditional)| `tchinese`                | `zh-TW`     |
+| Thai                 | `thai`                    | `th`        |
+| Turkish              | `turkish`                 | `tr`        |
+| Ukrainian            | `ukrainian`               | `uk`        |
+| Vietnamese           | `vietnamese`              | `vi`        |
+
+### Option 1 — Run locally via CLI
+
+Pass `--languages` with a comma-separated list of folder codes to `update.js` and `group.js`:
+
+```bash
+npm install
+
+node update.js --languages en,ru,uk
+node group.js  --languages en,ru,uk
+
+# with --force
+node update.js --force --languages en,ru,uk
+node group.js  --force --languages en,ru,uk
+```
+
+If `--languages` is omitted, the scripts fall back to `LANGUAGES_ENABLED` in `constants.js`.
+
+### Option 2 — Fork + GitHub Actions repository variable (recommended for scheduled runs)
+
+This is the cleanest way: the cron workflow will automatically pick up your chosen languages, and you never need to modify `constants.js`, so pulling upstream changes stays conflict-free.
+
+1. **Fork this repository**.
+2. Open your fork → **Settings → Secrets and variables → Actions → Variables → New repository variable**.
+3. Create variable:
+   - **Name:** `LANGUAGES`
+   - **Value:** `en,ru,uk` (your comma-separated list of folder codes)
+4. Enable Actions in your fork (**Actions** tab → enable workflows).
+5. The `Update and Group JSON API` workflow will now use `LANGUAGES` on every scheduled run.
+
+### Option 3 — Manual run via GitHub UI (one-off)
+
+1. Fork the repo and enable Actions.
+2. Go to **Actions → Update and Group JSON API → Run workflow**.
+3. Fill in the **languages** input (e.g. `en,ru,uk`) and optionally tick **force**.
+4. Run. This overrides the `LANGUAGES` repository variable for this run only.
+
+### Option 4 — Change the default in `constants.js`
+
+If you prefer the defaults in code, edit `LANGUAGES_ENABLED` (folder codes):
+
+```js
+export const LANGUAGES_ENABLED = ["en", "ru", "uk"];
+```
+
+Then run:
+```bash
+npm run update-data-force
+npm run group-data-force
+```
+
+### Precedence
+
+When multiple sources are set, the first match wins:
+
+1. `--languages` CLI argument (also set by the workflow's **languages** input)
+2. `LANGUAGES` repository variable (used by the scheduled cron run in a fork)
+3. `LANGUAGES_ENABLED` in `constants.js` (default: `en`, `zh-CN`)
 
 ### All items
 
