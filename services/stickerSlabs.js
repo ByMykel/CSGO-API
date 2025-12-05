@@ -86,6 +86,13 @@ const getEffect = item => {
         return "Gold";
     }
 
+    if (
+        $t(item.item_name, true).includes("(Embroidered)") ||
+        $t(item.item_name, true).includes("(Embroidered, ")
+    ) {
+        return "Embroidered";
+    }
+
     return "Other";
 };
 
