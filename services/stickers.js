@@ -5,6 +5,12 @@ import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
+const cleanStickerName = name => {
+    // Fix double spaces around pipe for items with incorrect Steam data
+    if (typeof name !== 'string') return name;
+    return name.replace(/\s*\|\s*/g, ' | ');
+};
+
 const isSticker = item => {
     if (item.sticker_material === undefined) {
         return false;
@@ -153,7 +159,7 @@ const getMarketHashName = item => {
         return null;
     }
 
-    return `${$t("csgo_tool_sticker", true)} | ${$t(item.item_name, true)}`;
+    return cleanStickerName(`${$t("csgo_tool_sticker", true)} | ${$t(item.item_name, true)}`);
 };
 
 const parseItem = item => {
@@ -170,7 +176,7 @@ const parseItem = item => {
 
     return {
         id: `sticker-${item.object_id}`,
-        name: `${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`,
+        name: cleanStickerName(`${$t("csgo_tool_sticker")} | ${$t(item.item_name)}`),
         description: getDescription(item),
         def_index: item.object_id,
         rarity: item.item_rarity

@@ -6,6 +6,12 @@ import { getImageUrl } from "../constants.js";
 
 const isAgent = item => item.prefab === "customplayertradable";
 
+const cleanAgentName = name => {
+    // Fix double spaces around pipe for items with incorrect Steam data
+    if (typeof name !== 'string') return name;
+    return name.replace(/\s*\|\s*/g, ' | ');
+};
+
 const parseItem = item => {
     const { collectionsBySkins, cdnImages } = state;
 
@@ -15,7 +21,7 @@ const parseItem = item => {
 
     return {
         id: `agent-${item.object_id}`,
-        name: $t(item.item_name),
+        name: cleanAgentName($t(item.item_name)),
         description: $t(item.item_description),
         def_index: item.object_id,
         rarity: {
@@ -34,7 +40,7 @@ const parseItem = item => {
                     ? $t("inv_filter_ct")
                     : $t("inv_filter_t"),
         },
-        market_hash_name: $t(item.item_name, true),
+        market_hash_name: cleanAgentName($t(item.item_name, true)),
         image,
         model_player: item.model_player ?? null,
 

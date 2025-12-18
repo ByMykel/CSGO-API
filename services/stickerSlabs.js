@@ -5,6 +5,12 @@ import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
+const cleanItemName = name => {
+    // Fix double spaces around pipe for items with incorrect Steam data
+    if (typeof name !== 'string') return name;
+    return name.replace(/\s*\|\s*/g, ' | ');
+};
+
 const isSticker = item => {
     if (item.sticker_material === undefined) {
         return false;
@@ -144,7 +150,7 @@ const getMarketHashName = item => {
         return null;
     }
 
-    return `${$t("keychain_kc_sticker_display_case", true)} | ${$t(item.item_name, true)}`;
+    return cleanItemName(`${$t("keychain_kc_sticker_display_case", true)} | ${$t(item.item_name, true)}`);
 };
 
 const parseItem = item => {
@@ -161,7 +167,7 @@ const parseItem = item => {
 
     return {
         id: `sticker_slab-${item.object_id}`,
-        name: `${$t("keychain_kc_sticker_display_case")} | ${$t(item.item_name)}`,
+        name: cleanItemName(`${$t("keychain_kc_sticker_display_case")} | ${$t(item.item_name)}`),
         description: getDescription(),
         def_index: item.object_id,
         rarity: item.item_rarity

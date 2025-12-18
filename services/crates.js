@@ -5,6 +5,12 @@ import specialNotes from "../utils/specialNotes.json" with { type: "json" };
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl } from "../constants.js";
 
+const cleanItemName = name => {
+    // Fix double spaces around pipe for items with incorrect Steam data
+    if (typeof name !== 'string') return name;
+    return name.replace(/\s*\|\s*/g, ' | ');
+};
+
 const isCrate = item => {
     if (item.item_name === undefined) return false;
 
@@ -138,7 +144,7 @@ const parseItem = (item, prefabs) => {
         contains: (skinsByCrates?.[item.tags?.ItemSet?.tag_value] ?? skinsByCrates?.[keyLootList] ?? []).map(
             i => ({
                 ...i,
-                name: i.name instanceof Object ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}` : $t(i.name),
+                name: i.name instanceof Object ? cleanItemName(`${$t(i.name.weapon)} | ${$t(i.name.pattern)}`) : cleanItemName($t(i.name)),
                 rarity: {
                     id: i.rarity,
                     name: $t(i.rarity),

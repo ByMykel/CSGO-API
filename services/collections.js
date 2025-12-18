@@ -6,6 +6,12 @@ import { getImageUrl } from "../constants.js";
 
 const isCollection = item => item.is_collection !== undefined;
 
+const cleanItemName = name => {
+    // Fix double spaces around pipe for items with incorrect Steam data
+    if (typeof name !== 'string') return name;
+    return name.replace(/\s*\|\s*/g, ' | ');
+};
+
 const isSelfOpeningCollection = item => {
     if (item.item_name === undefined) return false;
 
@@ -48,11 +54,11 @@ const parseItem = item => {
         name: item.name_force ? $t(item.name_force) : $t(item.name),
         crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(i => ({
             ...i,
-            name: $t(i.name),
+            name: cleanItemName($t(i.name)),
         })),
         contains: skinsByCollections?.[item.name.replace("#CSGO_", "")].map(i => ({
             ...i,
-            name: i.name instanceof Object ? `${$t(i.name.weapon)} | ${$t(i.name.pattern)}` : $t(i.name),
+            name: i.name instanceof Object ? cleanItemName(`${$t(i.name.weapon)} | ${$t(i.name.pattern)}`) : cleanItemName($t(i.name)),
             rarity: {
                 id: i.rarity,
                 name: $t(i.rarity),
@@ -81,7 +87,7 @@ const parseItemSelfOpening = item => {
         crates: [],
         contains: (skinsByCollections?.[item.name] ?? []).map(i => ({
             ...i,
-            name: $t(i.name),
+            name: cleanItemName($t(i.name)),
             rarity: {
                 id: i.rarity,
                 name: $t(i.rarity),
