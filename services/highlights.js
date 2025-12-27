@@ -11,6 +11,15 @@ const parseItem = item => {
     const keychainNameRaw = $t(`keychain_kc_${tournament}`, true);
     const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
 
+    const getThumbnail = () => {
+        // Only Austin 2025 has chinese thumbnail
+        if (![24].includes(item.tournament_event_id)) {
+            return item.thumbnail;
+        }
+
+        return folder === "zh-CN" ? item.thumbnail.replace("/ww/", "/cn/") : item.thumbnail;
+    };
+
     return {
         id: `highlight-${item.highlight_reel}`,
         def_index: item.highlight_reel,
@@ -30,7 +39,7 @@ const parseItem = item => {
         image: cdnImages[item.image_inventory] ?? item.image,
         video: folder === "zh-CN" ? item.video.replace("_ww_", "_cn_") : item.video,
         // TODO: would be great to have chinese thumbnail as well
-        thumbnail: folder === "zh-CN" ? item.thumbnail.replace("/ww/", "/cn/") : item.thumbnail,
+        thumbnail: getThumbnail(),
         original: {
             image_inventory: item.image_inventory,
         },
