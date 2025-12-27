@@ -87,7 +87,9 @@ const parseItem = item => {
         .map(crate => ({
             id: `crate-${crate.object_id}`,
             name: $t(crate.item_name),
-            image: getImageUrl(crate.image_inventory.toLowerCase()),
+            image:
+                cdnImages[crate.image_inventory.toLowerCase()] ??
+                getImageUrl(crate.image_inventory.toLowerCase()),
         }));
 
     return {
