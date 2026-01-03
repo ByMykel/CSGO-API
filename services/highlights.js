@@ -41,6 +41,7 @@ const parseItem = item => {
         // TODO: would be great to have chinese thumbnail as well
         thumbnail: getThumbnail(),
         original: {
+            id: item.id,
             image_inventory: item.image_inventory,
         },
     };
