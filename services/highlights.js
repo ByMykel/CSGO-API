@@ -1,5 +1,5 @@
 import { saveDataJson } from "../utils/saveDataJson.js";
-import { $t, languageData } from "./translations.js";
+import { $t, $tc, languageData } from "./translations.js";
 import { state } from "./main.js";
 
 const parseItem = item => {
@@ -10,6 +10,7 @@ const parseItem = item => {
     const highlightName = $t(`highlightreel_${tournament}_${highlightType}`);
     const keychainNameRaw = $t(`keychain_kc_${tournament}`, true);
     const highlightNameRaw = $t(`highlightreel_${tournament}_${highlightType}`, true);
+    const charmName = $t("CSGO_Tool_Keychain");
 
     const getThumbnail = () => {
         // Only Austin 2025 has chinese thumbnail
@@ -23,8 +24,11 @@ const parseItem = item => {
     return {
         id: `highlight-${item.highlight_reel}`,
         def_index: item.highlight_reel,
-        // TODO: translate Souvenir Charm to other languages
-        name: `Souvenir Charm | ${keychainName} | ${highlightName}`,
+        name: $tc("highlight_charm", {
+            charm_name: charmName,
+            keychain_name: keychainName,
+            highlight_name: highlightName,
+        }),
         description: $t(`highlightdesc_${tournament}_${highlightType}`),
         tournament_event:
             $t(`csgo_watch_cat_tournament_${item.tournament_event_id}`) ??
