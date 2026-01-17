@@ -332,7 +332,25 @@ export const getCategory = weapon => {
         case "studded_hydra_gloves":
             return "sfui_invpanel_filter_gloves";
         case "weapon_taser":
+        case "weapon_healthshot":
             return "loadoutslot_equipment";
+        case "weapon_flashbang":
+        case "weapon_hegrenade":
+        case "weapon_smokegrenade":
+        case "weapon_molotov":
+        case "weapon_decoy":
+        case "weapon_incgrenade":
+            // No idea what translation should be used for this
+            return "loadoutslot_grenade";
+        case "weapon_c4":
+            // No idea what translation should be used for this
+            return "loadoutslot_c4";
+        case "ct_gloves":
+        case "t_gloves":
+            return "sfui_invpanel_filter_gloves";
+        case "weapon_knife":
+        case "weapon_knife_t":
+            return "sfui_invpanel_filter_melee";
     }
 
     return null;
