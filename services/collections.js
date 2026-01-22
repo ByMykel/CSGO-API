@@ -2,7 +2,7 @@ import { saveDataJson } from "../utils/saveDataJson.js";
 import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
-import { getImageUrl } from "../constants.js";
+import { getImageUrl, getImageUrlSvg } from "../constants.js";
 
 const isCollection = item => item.is_collection !== undefined;
 
@@ -37,11 +37,28 @@ const isSelfOpeningCollection = item => {
     return false;
 };
 
-const parseItem = item => {
-    const { skinsByCollections, cratesByCollections, cdnImages } = state;
-
+const getImage = item => {
+    const { cdnImages } = state;
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-    const image = cdnImages[`econ/set_icons/${fileName}`] ?? getImageUrl(`econ/set_icons/${fileName}`);
+
+    const image_inventory = `econ/set_icons/${fileName}`;
+
+    if (["#CSGO_set_timed_drops_achroma", "#CSGO_set_timed_drops_exuberant"].includes(item.name)) {
+        return {
+            image: cdnImages[`econ/set_icons/${fileName}`] ?? getImageUrlSvg(`econ/set_icons/${fileName}`),
+            image_inventory,
+        };
+    }
+
+    return {
+        image: cdnImages[`econ/set_icons/${fileName}`] ?? getImageUrl(`econ/set_icons/${fileName}`),
+        image_inventory,
+    };
+};
+
+const parseItem = item => {
+    const { skinsByCollections, cratesByCollections } = state;
+    const { image, image_inventory } = getImage(item);
 
     return {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
@@ -64,7 +81,7 @@ const parseItem = item => {
         // Return original attributes from item_game.json
         original: {
             name: item.name,
-            image_inventory: `econ/set_icons/${fileName}`,
+            image_inventory,
         },
     };
 };
