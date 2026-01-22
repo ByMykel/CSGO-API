@@ -4,6 +4,13 @@ import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl, getImageUrlSvg } from "../constants.js";
 
+const SPECIAL_COLLECTIONS = ["#CSGO_set_timed_drops_achroma", "#CSGO_set_timed_drops_exuberant"];
+
+export const getCollectionImage = (collectionName, imagePath, cdnImages) => {
+    const isSpecialCollection = SPECIAL_COLLECTIONS.includes(collectionName);
+    return cdnImages[imagePath] ?? (isSpecialCollection ? getImageUrlSvg(imagePath) : getImageUrl(imagePath));
+};
+
 const isCollection = item => item.is_collection !== undefined;
 
 const isSelfOpeningCollection = item => {
@@ -40,18 +47,10 @@ const isSelfOpeningCollection = item => {
 const getImage = item => {
     const { cdnImages } = state;
     const fileName = `${item.name.replace("#CSGO_", "")}`;
-
     const image_inventory = `econ/set_icons/${fileName}`;
 
-    if (["#CSGO_set_timed_drops_achroma", "#CSGO_set_timed_drops_exuberant"].includes(item.name)) {
-        return {
-            image: cdnImages[`econ/set_icons/${fileName}`] ?? getImageUrlSvg(`econ/set_icons/${fileName}`),
-            image_inventory,
-        };
-    }
-
     return {
-        image: cdnImages[`econ/set_icons/${fileName}`] ?? getImageUrl(`econ/set_icons/${fileName}`),
+        image: getCollectionImage(item.name, image_inventory, cdnImages),
         image_inventory,
     };
 };

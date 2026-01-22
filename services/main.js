@@ -1,6 +1,7 @@
 import axios from "axios";
 import sha1 from "sha1";
 import { IMAGES_INVENTORY_URL, ITEMS_GAME_URL, getImageUrl } from "../constants.js";
+import { getCollectionImage } from "./collections.js";
 import {
     filterUniqueByAttribute,
     getDopplerPhase,
@@ -470,12 +471,14 @@ export const loadCollectionsBySkins = () => {
                 const crateItem = state.itemsGame.item_sets[crateKey];
 
                 if (crateItem != null) {
+                    const fileName = crateItem.name.replace("#CSGO_", "");
+                    const imagePath = `econ/set_icons/${fileName}`;
+                    const image = getCollectionImage(crateItem.name, imagePath, state.cdnImages);
+
                     acc[item.id].push({
-                        id: `collection-${crateItem.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
+                        id: `collection-${fileName.replace(/_/g, "-")}`,
                         name: crateItem.name_force ?? crateItem.name,
-                        image:
-                            state.cdnImages[`econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`] ??
-                            getImageUrl(`econ/set_icons/${crateItem.name.replace("#CSGO_", "")}`),
+                        image,
                     });
                 }
             });
@@ -508,12 +511,13 @@ export const loadCollectionsByStickers = () => {
                         }
 
                         const fileName = collectionKey.replace("set_", "");
+                        const imagePath = `econ/set_icons/set_${fileName}`;
+                        const image = getCollectionImage(itemSet.name, imagePath, state.cdnImages);
+
                         acc[stickerItem.id].push({
                             id: `collection-set-${fileName.replace(/_/g, "-")}`,
                             name: itemSet.name_force ?? itemSet.name,
-                            image:
-                                state.cdnImages[`econ/set_icons/set_${fileName}`] ??
-                                getImageUrl(`econ/set_icons/set_${fileName}`),
+                            image,
                         });
                     }
                 });
