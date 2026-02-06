@@ -19,6 +19,7 @@ import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
 import { getBaseWeapons } from "./services/baseWeapons.js";
 import { getHighlights } from "./services/highlights.js";
+import { getInventory } from "./services/inventory.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes("--force");
@@ -72,6 +73,7 @@ await Promise.all(
             getTools();
             getBaseWeapons();
             getHighlights();
+            getInventory();
         } catch (error) {
             console.log(error);
         }
