@@ -45,7 +45,7 @@ export const getTools = () => {
             image:
                 cdnImages["econ/tools/keychain_remove_tool"] ??
                 getImageUrl("econ/tools/keychain_remove_tool"),
-            def_index: "65",
+            def_index: "4950",
             original: {
                 image_inventory: "econ/tools/keychain_remove_tool",
             },
