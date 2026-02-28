@@ -12,6 +12,11 @@ const formatInventoryData = ({
     musicKits,
     keychains,
     highlights,
+    agents,
+    patches,
+    keys,
+    stickerSlabs,
+    tools,
 }) => {
     const items = {};
 
@@ -21,7 +26,8 @@ const formatInventoryData = ({
 
         items["skins"][skin.weapon.weapon_id][skin.paint_index] = {
             name: skin.name,
-            // market_hash_name: skin.market_hash_name,
+            rarity: skin.rarity,
+            marketable: true,
             image: skin.image,
         };
     });
@@ -33,7 +39,8 @@ const formatInventoryData = ({
 
         items["crates"][crate.id.replace("crate-", "")] = {
             name: crate.name,
-            // market_hash_name: crate.market_hash_name,
+            rarity: crate.rarity,
+            marketable: !!crate.market_hash_name,
             image: crate.image,
         };
     });
@@ -45,7 +52,8 @@ const formatInventoryData = ({
 
         items["collectibles"][collectible.id.replace("collectible-", "")] = {
             name: collectible.name,
-            // market_hash_name: collectible.market_hash_name,
+            rarity: collectible.rarity,
+            marketable: !!collectible.market_hash_name,
             image: collectible.image,
         };
     });
@@ -57,7 +65,8 @@ const formatInventoryData = ({
 
         items["stickers"][sticker.id.replace("sticker-", "")] = {
             name: sticker.name,
-            // market_hash_name: sticker.market_hash_name,
+            rarity: sticker.rarity,
+            marketable: !!sticker.market_hash_name,
             image: sticker.image,
         };
     });
@@ -69,7 +78,8 @@ const formatInventoryData = ({
 
         items["graffiti"][graffiti.id.replace("graffiti-", "")] = {
             name: graffiti.name,
-            // market_hash_name: graffiti.market_hash_name,
+            rarity: graffiti.rarity,
+            marketable: !!graffiti.market_hash_name,
             image: graffiti.image,
         };
     });
@@ -82,7 +92,8 @@ const formatInventoryData = ({
 
             items["music_kits"][musicKit.id.replace("music_kit-", "")] = {
                 name: musicKit.name,
-                // market_hash_name: musicKit.market_hash_name,
+                rarity: musicKit.rarity,
+                marketable: !!musicKit.market_hash_name,
                 image: musicKit.image,
             };
         }
@@ -92,7 +103,8 @@ const formatInventoryData = ({
         if (!items["keychains"]) items["keychains"] = {};
         items["keychains"][keychain.id.replace("keychain-", "")] = {
             name: keychain.name,
-            // market_hash_name: keychain.market_hash_name,
+            rarity: keychain.rarity,
+            marketable: !!keychain.market_hash_name,
             image: keychain.image,
         };
     });
@@ -101,8 +113,59 @@ const formatInventoryData = ({
         if (!items["highlights"]) items["highlights"] = {};
         items["highlights"][highlight.id.replace("highlight-", "")] = {
             name: highlight.name,
-            // market_hash_name: highlight.market_hash_name,
+            rarity: highlight.rarity ?? null,
+            marketable: !!highlight.market_hash_name,
             image: highlight.image,
+        };
+    });
+
+    agents.forEach(agent => {
+        if (!items["agents"]) items["agents"] = {};
+        items["agents"][agent.id.replace("agent-", "")] = {
+            name: agent.name,
+            rarity: agent.rarity,
+            marketable: !!agent.market_hash_name,
+            image: agent.image,
+        };
+    });
+
+    patches.forEach(patch => {
+        if (!items["patches"]) items["patches"] = {};
+        items["patches"][patch.id.replace("patch-", "")] = {
+            name: patch.name,
+            rarity: patch.rarity,
+            marketable: !!patch.market_hash_name,
+            image: patch.image,
+        };
+    });
+
+    keys.forEach(key => {
+        if (!items["keys"]) items["keys"] = {};
+        items["keys"][key.id.replace("key-", "")] = {
+            name: key.name,
+            rarity: key.rarity ?? null,
+            marketable: !!key.market_hash_name,
+            image: key.image,
+        };
+    });
+
+    stickerSlabs.forEach(stickerSlab => {
+        if (!items["sticker_slabs"]) items["sticker_slabs"] = {};
+        items["sticker_slabs"][stickerSlab.id.replace("sticker_slab-", "")] = {
+            name: stickerSlab.name,
+            rarity: stickerSlab.rarity,
+            marketable: !!stickerSlab.market_hash_name,
+            image: stickerSlab.image,
+        };
+    });
+
+    tools.forEach(tool => {
+        if (!items["tools"]) items["tools"] = {};
+        items["tools"][tool.id.replace("tool-", "")] = {
+            name: tool.name,
+            rarity: tool.rarity ?? null,
+            marketable: !!tool.market_hash_name,
+            image: tool.image,
         };
     });
 
@@ -129,6 +192,11 @@ export const getInventory = async () => {
     const musicKitsFilePath = path.join(process.cwd(), `./public/api/${folder}/music_kits.json`);
     const keychainsFilePath = path.join(process.cwd(), `./public/api/${folder}/keychains.json`);
     const highlightsFilePath = path.join(process.cwd(), `./public/api/${folder}/highlights.json`);
+    const agentsFilePath = path.join(process.cwd(), `./public/api/${folder}/agents.json`);
+    const patchesFilePath = path.join(process.cwd(), `./public/api/${folder}/patches.json`);
+    const keysFilePath = path.join(process.cwd(), `./public/api/${folder}/keys.json`);
+    const stickerSlabsFilePath = path.join(process.cwd(), `./public/api/${folder}/sticker_slabs.json`);
+    const toolsFilePath = path.join(process.cwd(), `./public/api/${folder}/tools.json`);
 
     try {
         const skins = await waitForFile(skinsFilePath);
@@ -139,6 +207,11 @@ export const getInventory = async () => {
         const musicKits = await waitForFile(musicKitsFilePath);
         const keychains = await waitForFile(keychainsFilePath);
         const highlights = await waitForFile(highlightsFilePath);
+        const agents = await waitForFile(agentsFilePath);
+        const patches = await waitForFile(patchesFilePath);
+        const keys = await waitForFile(keysFilePath);
+        const stickerSlabs = await waitForFile(stickerSlabsFilePath);
+        const tools = await waitForFile(toolsFilePath);
         const inventory = formatInventoryData({
             skins,
             crates,
@@ -148,6 +221,11 @@ export const getInventory = async () => {
             musicKits,
             keychains,
             highlights,
+            agents,
+            patches,
+            keys,
+            stickerSlabs,
+            tools,
         });
         saveDataJson(`./public/api/${folder}/inventory.json`, inventory);
     } catch (error) {
