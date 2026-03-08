@@ -713,7 +713,7 @@ export function getPlayerNameOfHighlight(id, players) {
     if (id === "boosttorszitoentryvsspiritonnuke") id = "torzsi";
 
     if (id.startsWith("qf-") || id.startsWith("sf-") || id.startsWith("gf-")) {
-        id = id.replace(/^(qf|sf|gf)-/, ""); 
+        id = id.replace(/^(qf|sf|gf)-/, "");
     }
 
     return Object.values(players).find(name => id.startsWith(name.toLowerCase())) ?? "Unknown Player";

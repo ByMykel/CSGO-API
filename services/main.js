@@ -58,7 +58,7 @@ export const loadItemsGame = async () => {
             });
         })
         .catch(error => {
-            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`, { cause: error });
+            throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
         });
 
     await axios
@@ -82,7 +82,7 @@ export const loadItemsGame = async () => {
                 }, {});
         })
         .catch(error => {
-            throw new Error(`Error formatting alternate_icons2.weapon_icons`, { cause: error });
+            throw new Error(`Error formatting alternate_icons2.weapon_icons`);
         });
 };
 
@@ -641,7 +641,7 @@ export const loadImagesInventory = async () => {
         const response = await axios.get(IMAGES_INVENTORY_URL);
         state.cdnImages = response.data;
     } catch (error) {
-        throw new Error(`Error loading images inventory`, { cause: error });
+        throw new Error(`Error loading images inventory`);
     }
 };
 
@@ -856,7 +856,18 @@ export const getManifestId = async () => {
             return Buffer.from(response.data.content, "base64").toString("utf-8").trim();
         })
         .catch(error => {
-            throw new Error(`Error getting manifestId`, { cause: error });
+            throw new Error(`Error getting manifestId`);
+        });
+};
+
+export const getImagesJsonSha = async () => {
+    return axios
+        .get("https://api.github.com/repos/ByMykel/counter-strike-image-tracker/contents/static/images.json")
+        .then(response => {
+            return response.data.sha;
+        })
+        .catch(error => {
+            throw new Error(`Error getting images.json SHA`);
         });
 };
 

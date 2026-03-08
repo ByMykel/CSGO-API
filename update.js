@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-import { loadData, getManifestId } from "./services/main.js";
+import { loadData, getManifestId, getImagesJsonSha } from "./services/main.js";
 import { getCollectibles } from "./services/collectibles.js";
 import { getKeys } from "./services/keys.js";
 import { getAgents } from "./services/agents.js";
@@ -25,10 +25,19 @@ const args = process.argv.slice(2);
 const isForce = args.includes("--force");
 
 let existingManifestId = "";
-const latestManifestId = await getManifestId();
+let existingImagesSha = "";
+const [latestManifestId, latestImagesSha] = await Promise.all([getManifestId(), getImagesJsonSha()]);
 
 try {
-    existingManifestId = fs.readFileSync("./manifestIdUpdate.txt");
+    existingManifestId = fs.readFileSync("./manifestIdUpdate.txt", "utf-8");
+} catch (err) {
+    if (err.code != "ENOENT") {
+        throw err;
+    }
+}
+
+try {
+    existingImagesSha = fs.readFileSync("./imagesShaUpdate.txt", "utf-8");
 } catch (err) {
     if (err.code != "ENOENT") {
         throw err;
@@ -38,13 +47,19 @@ try {
 if (isForce) {
     console.log("Force flag detected, generating new data regardless of manifest Ids");
 } else {
-    // TODO: Need to check if default_generated.json from counter-strike-image-tracker repo has changed,
-    // since we now pull data from there too.
-    if (existingManifestId == latestManifestId) {
-        console.log("Latest manifest Id matches existing manifest Id, exiting");
+    const manifestChanged = existingManifestId !== latestManifestId;
+    const imagesChanged = existingImagesSha !== latestImagesSha;
+
+    if (!manifestChanged && !imagesChanged) {
+        console.log("No changes detected in manifest or images.json, exiting");
         process.exit(0);
-    } else {
-        console.log("Latest manifest Id does not match existing manifest Id, generating new data.");
+    }
+
+    if (manifestChanged) {
+        console.log("Manifest Id changed, generating new data.");
+    }
+    if (imagesChanged) {
+        console.log("images.json changed, generating new data.");
     }
 }
 
@@ -82,6 +97,7 @@ await Promise.all(
 
 try {
     fs.writeFileSync("./manifestIdUpdate.txt", latestManifestId.toString());
+    fs.writeFileSync("./imagesShaUpdate.txt", latestImagesSha.toString());
 } catch (err) {
     throw err;
 }
