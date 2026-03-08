@@ -656,3 +656,50 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
   },
 ]
 ```
+
+### Inventory
+
+```http
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/inventory.json
+```
+
+Object with all items organized by category (skins, crates, collectibles, stickers, graffiti, music_kits, keychains, highlights, agents, patches, keys, sticker_slabs, tools). Skins are keyed by weapon_id and paint_index. Other items are keyed by def_index.
+
+Example response:
+
+```js
+{
+  skins: {
+    "1": { // weapon_id
+      "17": { // paint_index
+        name: "Desert Eagle | Urban DDPAT",
+        rarity: {
+          id: "rarity_uncommon_weapon",
+          name: "Industrial Grade",
+          color: "#5e98d9",
+        },
+        marketable: true,
+        image:
+          "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk5-uRbKB9IeSsG3WS_uJ_t-l9AXm2kxkk42rWn9egc36UOwYiX5N1EOVYsRLtldC0M77g5QXfiN1Fzn_gznQemk8fKYk",
+      },
+      // ...
+    },
+    // ...
+  },
+  crates: {
+    "1210": { // def_index
+      name: "Gift Package",
+      rarity: {
+        id: "rarity_common",
+        name: "Base Grade",
+        color: "#b0c3d9",
+      },
+      marketable: true,
+      image:
+        "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSQ7FBhpZf460DiU1P1yZfmrSEMu_Gta_w-caSQXTbEwrYh4LY5FyrjlBh0sm2Am4uqcyrDcEZ-XUgUbjls",
+    },
+    // ...
+  },
+  // ...
+}
+```

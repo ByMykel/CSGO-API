@@ -137,6 +137,16 @@ const endpoints = [
         url: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highlights.json",
         jsonFile: "public/api/en/highlights.json",
     },
+    {
+        id: "inventory",
+        title: "Inventory",
+        description:
+            "All items grouped by category for easy lookup. Skins use weapon_id and paint_index as keys, while other categories use def_index.",
+        endpoint: "/inventory.json",
+        url: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/inventory.json",
+        jsonFile: "public/api/en/inventory.json",
+        isInventory: true,
+    },
 ];
 
 // Function to get type of a value
@@ -220,7 +230,85 @@ function analyzeStructure(obj, depth = 0, maxDepth = 2) {
 }
 
 // Function to generate Response Structure HTML
-function generateResponseStructure(sampleObject, isObject = false) {
+function generateResponseStructure(sampleObject, isObject = false, isInventory = false) {
+    if (isInventory) {
+        return `
+                            <div class="structure-item">
+                                <span class="structure-key">Object</span> with categories:
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">skins</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by weapon_id, then paint_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">crates</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">collectibles</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">stickers</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">graffiti</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">music_kits</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">keychains</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">highlights</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">agents</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">patches</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">keys</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">sticker_slabs</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">tools</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item mt-3">
+                                Each item has:
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">name</span>
+                                <span class="structure-type type-string">(string)</span> - Item name
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">rarity</span>
+                                <span class="structure-type type-object">(object|null)</span> - Rarity with color
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">marketable</span>
+                                <span class="structure-type type-boolean">(boolean)</span> - Whether it's marketable
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">image</span>
+                                <span class="structure-type type-string">(string)</span> - Image URL
+                            </div>`;
+    }
+
     if (isObject) {
         // Special handling for "list-all" which is an object
         return `
@@ -318,7 +406,9 @@ function generateDocs() {
             const data = JSON.parse(jsonContent);
 
             let sampleObject;
-            if (endpoint.isObject) {
+            if (endpoint.isInventory) {
+                sampleObject = data;
+            } else if (endpoint.isObject) {
                 // For objects, get the first value
                 const keys = Object.keys(data);
                 if (keys.length > 0) {
@@ -337,7 +427,11 @@ function generateDocs() {
                 }
             }
 
-            const responseStructureHtml = generateResponseStructure(sampleObject, endpoint.isObject);
+            const responseStructureHtml = generateResponseStructure(
+                sampleObject,
+                endpoint.isObject,
+                endpoint.isInventory
+            );
             const endpointHtml = generateEndpointSection(endpoint, responseStructureHtml);
             endpointHtmls.push(endpointHtml);
 
