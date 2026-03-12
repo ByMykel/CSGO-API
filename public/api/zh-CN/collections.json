@@ -16054,6 +16054,211 @@
   }
  },
  {
+  "id": "collection-set-community-37",
+  "name": "The Dead Hand Collection",
+  "crates": [
+   {
+    "id": "crate-5181",
+    "name": "Sealed Dead Hand Terminal",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_37_closed_png.png"
+   }
+  ],
+  "contains": [
+   {
+    "id": "skin-526e890d5739",
+    "name": "M249 | Bock Blocks",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1435",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m249_m249_blocks_purple_light_png.png"
+   },
+   {
+    "id": "skin-ca4c3950bda2",
+    "name": "M4A4 | Zubastick",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1432",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_zubastick_bw_light_png.png"
+   },
+   {
+    "id": "skin-40743fbc40a8",
+    "name": "UMP-45 | Fragment",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1426",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ump45_ump_fragment_light_png.png"
+   },
+   {
+    "id": "skin-39ceb900b437",
+    "name": "截短霰弹枪 | Fusion",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1427",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_sawedoff_fusion_light_png.png"
+   },
+   {
+    "id": "skin-19e064301c88",
+    "name": "FN57 | Dark Polymer",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1429",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_polymer_dark_light_png.png"
+   },
+   {
+    "id": "skin-12f8829b002d",
+    "name": "USP消音版 | Silent Shot",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1431",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usps_silent_boy_light_png.png"
+   },
+   {
+    "id": "skin-fb5805d13a5e",
+    "name": "PP-野牛 | RMX",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1418",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_bizon_rmx_light_png.png"
+   },
+   {
+    "id": "skin-2bcac1c42296",
+    "name": "沙漠之鹰 | Firebreathing",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1430",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_firebreathing_light_png.png"
+   },
+   {
+    "id": "skin-62ecfa87b86d",
+    "name": "M4A1消音版 | Electrum",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1433",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_m4a1s_electrum_light_png.png"
+   },
+   {
+    "id": "skin-55d44f236355",
+    "name": "MP7 | Amberline",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1436",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_mp7_amberline_light_png.png"
+   },
+   {
+    "id": "skin-8571b4f29f98",
+    "name": "加利尔AR | Galigator",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1434",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_galilar_galil_galigator_light_png.png"
+   },
+   {
+    "id": "skin-36e373c7de1c",
+    "name": "MP9 | Urban Sovereign",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1423",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_urban_sovereign_light_png.png"
+   },
+   {
+    "id": "skin-f64cdaac0b90",
+    "name": "AK-47 | Crane Flight",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1425",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_crane_flight_light_png.png"
+   },
+   {
+    "id": "skin-2f5828f37817",
+    "name": "P250 | Kintsugi",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1420",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_kintsugi_light_png.png"
+   },
+   {
+    "id": "skin-612576d81a84",
+    "name": "P90 | Deathgaze",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1419",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p90_p90_deathgaze_light_png.png"
+   },
+   {
+    "id": "skin-66197377b028",
+    "name": "AWP | Queen's Gambit",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1422",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_queens_gambit_light_png.png"
+   },
+   {
+    "id": "skin-ec359b168d17",
+    "name": "格洛克18型 | Fully Tuned",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1421",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_jdpeek_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_37.svg",
+  "original": {
+   "name": "#CSGO_set_community_37",
+   "image_inventory": "econ/set_icons/set_community_37"
+  }
+ },
+ {
   "id": "collection-set-graphic-design",
   "name": "平面设计收藏品",
   "crates": [],
