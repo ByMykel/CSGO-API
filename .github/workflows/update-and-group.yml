@@ -1,6 +1,8 @@
 name: Update and Group JSON API
 
 on:
+  repository_dispatch:
+    types: [update-images]
   workflow_dispatch:
     inputs:
       force:
