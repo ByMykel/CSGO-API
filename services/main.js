@@ -559,7 +559,11 @@ export const loadStattrakSkins = () => {
 
     Object.values(items).forEach(item => {
         const prefab = (item.prefab || "").split(" ");
-        if (prefab.includes("weapon_case") || prefab.includes("volatile_pricing")) {
+        if (
+            prefab.includes("weapon_case") ||
+            prefab.includes("volatile_pricing") ||
+            prefab.includes("volatile_pricing_gloves")
+        ) {
             const name = item?.tags?.ItemSet?.tag_value;
 
             if (name !== undefined) {
