@@ -52,6 +52,6 @@ jobs:
       
       # Commit all changes
       - name: Commit & push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "[bot::update-group] manifest ${{ steps.manifestIdUpdate.outputs.content }}"
