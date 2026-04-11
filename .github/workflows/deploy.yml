@@ -21,7 +21,7 @@ jobs:
           git config --local user.name "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m 'deploy'
         working-directory: ./public/docs
-      - uses: JamesIves/github-pages-deploy-action@v4.3.3
+      - uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           branch: gh-pages
           folder: public/docs
