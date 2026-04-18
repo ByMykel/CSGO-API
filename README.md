@@ -2,119 +2,43 @@
 
 Welcome to the unofficial JSON API for Counter-Strike 2. This API provides access to various data aspects of the game, parsed into JSON format for easier integration and use.
 
-Data are sourced from files maintained at [this repository](https://github.com/ByMykel/counter-strike-file-tracker/tree/main/static).
-
 ## Usage
 
-The hosted API on the `main` branch currently ships **2 languages** (English and Simplified Chinese). To access information in a specific language, replace `{language}` in the URL with one of the supported language folder codes listed below.
+The hosted API currently ships **2 languages** (out of **28 available**). Replace `{language}` in the URL with one of the folder codes below:
 
 ```http
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
 ```
 
-If you need other languages, see [Adding More Languages](#adding-more-languages) — you can generate them via CLI or enable them in your own fork without editing the source code.
-
 ## Currently Supported Languages (hosted)
 
-| Language Name         | Language Code |
-| --------------------- | ------------- |
-| English               | en            |
-| Chinese (Simplified)  | zh-CN         |
+`en`, `zh-CN`
+
+Need other languages? See [Adding More Languages](#adding-more-languages).
 
 ## Adding More Languages
 
-All supported languages are defined in `LANGUAGES_URL` in [constants.js](constants.js). By default only `en` and `zh-CN` are generated (controlled by `LANGUAGES_ENABLED`). Languages are selected by their **folder code** (e.g. `en`, `ru`, `zh-CN`). You can enable extra languages without editing the source — pick whichever option fits your workflow.
+Languages are selected by folder code (`en`, `ru`, `zh-CN`, ...).
 
-### Available languages
-
-| Language             | `language` (constants.js) | Folder code |
-| -------------------- | ------------------------- | ----------- |
-| English              | `english`                 | `en`        |
-| Chinese (Simplified) | `schinese`                | `zh-CN`     |
-| Portuguese (Brazil)  | `brazilian`               | `pt-BR`     |
-| Russian              | `russian`                 | `ru`        |
-| Spanish              | `spanish`                 | `es-ES`     |
-| Bulgarian            | `bulgarian`               | `bg`        |
-| Czech                | `czech`                   | `cs`        |
-| Danish               | `danish`                  | `da`        |
-| Dutch                | `dutch`                   | `nl`        |
-| Finnish              | `finnish`                 | `fi`        |
-| French               | `french`                  | `fr`        |
-| German               | `german`                  | `de`        |
-| Greek                | `greek`                   | `el`        |
-| Hungarian            | `hungarian`               | `hu`        |
-| Italian              | `italian`                 | `it`        |
-| Japanese             | `japanese`                | `ja`        |
-| Korean               | `koreana`                 | `ko`        |
-| Spanish (Latin Am.)  | `latam`                   | `es-MX`     |
-| Norwegian            | `norwegian`               | `no`        |
-| Polish               | `polish`                  | `pl`        |
-| Portuguese           | `portuguese`              | `pt-PT`     |
-| Romanian             | `romanian`                | `ro`        |
-| Swedish              | `swedish`                 | `sv`        |
-| Chinese (Traditional)| `tchinese`                | `zh-TW`     |
-| Thai                 | `thai`                    | `th`        |
-| Turkish              | `turkish`                 | `tr`        |
-| Ukrainian            | `ukrainian`               | `uk`        |
-| Vietnamese           | `vietnamese`              | `vi`        |
-
-### Option 1 — Run locally via CLI
-
-Pass `--languages` with a comma-separated list of folder codes to `update.js` and `group.js`:
+### Locally
 
 ```bash
 npm install
-
 node update.js --languages en,ru,uk
 node group.js  --languages en,ru,uk
-
-# with --force
-node update.js --force --languages en,ru,uk
-node group.js  --force --languages en,ru,uk
 ```
 
-If `--languages` is omitted, the scripts fall back to `LANGUAGES_ENABLED` in `constants.js`.
+Use `--languages all` to run every available language. `--force` skips the manifest cache check.
 
-### Option 2 — Fork + GitHub Actions repository variable (recommended for scheduled runs)
+### In a fork
 
-This is the cleanest way: the cron workflow will automatically pick up your chosen languages, and you never need to modify `constants.js`, so pulling upstream changes stays conflict-free.
+Set `LANGUAGES` under **Settings → Secrets and variables → Actions → Variables** (value: `en,ru,uk`, or `all` for every language). Scheduled runs use it automatically. To override once, go to **Actions → Update and Group JSON API → Run workflow** and fill the `languages` input (it takes priority over the variable).
 
-1. **Fork this repository**.
-2. Open your fork → **Settings → Secrets and variables → Actions → Variables → New repository variable**.
-3. Create variable:
-   - **Name:** `LANGUAGES`
-   - **Value:** `en,ru,uk` (your comma-separated list of folder codes)
-4. Enable Actions in your fork (**Actions** tab → enable workflows).
-5. The `Update and Group JSON API` workflow will now use `LANGUAGES` on every scheduled run.
+### Available folder codes
 
-### Option 3 — Manual run via GitHub UI (one-off)
+`en`, `zh-CN`, `pt-BR`, `ru`, `es-ES`, `bg`, `cs`, `da`, `nl`, `fi`, `fr`, `de`, `el`, `hu`, `it`, `ja`, `ko`, `es-MX`, `no`, `pl`, `pt-PT`, `ro`, `sv`, `zh-TW`, `th`, `tr`, `uk`, `vi`
 
-1. Fork the repo and enable Actions.
-2. Go to **Actions → Update and Group JSON API → Run workflow**.
-3. Fill in the **languages** input (e.g. `en,ru,uk`) and optionally tick **force**.
-4. Run. This overrides the `LANGUAGES` repository variable for this run only.
-
-### Option 4 — Change the default in `constants.js`
-
-If you prefer the defaults in code, edit `LANGUAGES_ENABLED` (folder codes):
-
-```js
-export const LANGUAGES_ENABLED = ["en", "ru", "uk"];
-```
-
-Then run:
-```bash
-npm run update-data-force
-npm run group-data-force
-```
-
-### Precedence
-
-When multiple sources are set, the first match wins:
-
-1. `--languages` CLI argument (also set by the workflow's **languages** input)
-2. `LANGUAGES` repository variable (used by the scheduled cron run in a fork)
-3. `LANGUAGES_ENABLED` in `constants.js` (default: `en`, `zh-CN`)
+Full list with display names in [`constants.js`](constants.js).
 
 ### All items
 
