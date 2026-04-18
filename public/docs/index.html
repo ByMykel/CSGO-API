@@ -75,7 +75,7 @@
                 font-size: 0.875rem;
                 font-weight: 500;
                 display: inline-block;
-                margin-right: 0.5rem;
+                margin: 0 0.5rem 0.5rem 0;
             }
 
             .section-heading {
@@ -577,14 +577,13 @@
                         </div>
 
                         <p class="mt-6 text-base md:text-lg text-slate-700 mb-4 leading-relaxed">
-                            This API currently has
-                            <strong class="text-slate-900">2 languages enabled</strong> (with around
-                            <strong class="text-slate-900">30 languages</strong> available). To access
-                            information in a specific language, replace
+                            The hosted API currently ships
+                            <strong class="text-slate-900">2 languages</strong> (out of
+                            <strong class="text-slate-900">28 available</strong>). Replace
                             <code class="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono"
                                 >{language}</code
                             >
-                            in the URL with one of the currently enabled language codes:
+                            in the URL with one of the folder codes below:
                         </p>
                         <div class="mt-3 mb-6">
                             <span class="language-code">en</span>
@@ -593,19 +592,66 @@
 
                         <div class="info-box">
                             <h3>Need more languages?</h3>
-                            <p class="mb-3">If you need support for additional languages, you can:</p>
-                            <ol class="list-decimal list-inside space-y-2 mb-3">
-                                <li><strong>Fork this repository</strong></li>
-                                <li>
-                                    <strong>Uncomment the desired languages</strong> in
-                                    <code>constants.js</code>
-                                </li>
-                                <li>
-                                    <strong>Run the update scripts:</strong>
-                                    <code>npm run update-data-force</code> and
-                                    <code>npm run group-data-force</code>
-                                </li>
-                            </ol>
+                            <p class="mb-4">
+                                Languages are selected by folder code
+                                (<code>en</code>, <code>ru</code>,
+                                <code>zh-CN</code>, ...).
+                            </p>
+
+                            <p class="mb-2"><strong>Locally</strong></p>
+                            <pre class="mb-4"><code>npm install
+node update.js --languages en,ru,uk
+node group.js  --languages en,ru,uk</code></pre>
+                            <p class="mb-4">
+                                Use <code>--languages all</code> to run every
+                                available language. <code>--force</code> skips
+                                the manifest cache check.
+                            </p>
+
+                            <p class="mb-2"><strong>In a fork</strong></p>
+                            <p class="mb-4">
+                                Set <code>LANGUAGES</code> under
+                                <strong>Settings → Secrets and variables → Actions → Variables</strong>
+                                (value: <code>en,ru,uk</code>, or <code>all</code>).
+                                Scheduled runs use it.
+                                To override once: <strong>Actions → Update and Group JSON API → Run workflow</strong>,
+                                fill the <code>languages</code> input (takes priority
+                                over the variable).
+                            </p>
+
+                            <p class="mb-2">
+                                <strong>Available folder codes:</strong>
+                            </p>
+                            <div class="mt-2">
+                                <span class="language-code">en</span>
+                                <span class="language-code">zh-CN</span>
+                                <span class="language-code">pt-BR</span>
+                                <span class="language-code">ru</span>
+                                <span class="language-code">es-ES</span>
+                                <span class="language-code">bg</span>
+                                <span class="language-code">cs</span>
+                                <span class="language-code">da</span>
+                                <span class="language-code">nl</span>
+                                <span class="language-code">fi</span>
+                                <span class="language-code">fr</span>
+                                <span class="language-code">de</span>
+                                <span class="language-code">el</span>
+                                <span class="language-code">hu</span>
+                                <span class="language-code">it</span>
+                                <span class="language-code">ja</span>
+                                <span class="language-code">ko</span>
+                                <span class="language-code">es-MX</span>
+                                <span class="language-code">no</span>
+                                <span class="language-code">pl</span>
+                                <span class="language-code">pt-PT</span>
+                                <span class="language-code">ro</span>
+                                <span class="language-code">sv</span>
+                                <span class="language-code">zh-TW</span>
+                                <span class="language-code">th</span>
+                                <span class="language-code">tr</span>
+                                <span class="language-code">uk</span>
+                                <span class="language-code">vi</span>
+                            </div>
                         </div>
                     </div>
 

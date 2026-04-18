@@ -10,6 +10,11 @@ on:
         required: false
         default: false
         type: boolean
+      languages:
+        description: "Comma-separated folder codes (e.g. en,ru,uk) or 'all'. Empty = use vars.LANGUAGES."
+        required: false
+        default: ""
+        type: string
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -19,30 +24,34 @@ jobs:
   update-and-group:
     runs-on: ubuntu-latest
 
+    env:
+      LANGUAGES: ${{ github.event.inputs.languages || vars.LANGUAGES || 'en,zh-CN' }}
+      FORCE_FLAG: ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      
+
       - name: Install dependencies
         run: npm install
-      
+
       # Update step
       - name: Update data
         id: update-data
-        run: npm run ${{ github.event.inputs.force == 'true' && 'update-data-force' || 'update-data' }}
-      
+        run: node update.js $FORCE_FLAG ${LANGUAGES:+--languages "$LANGUAGES"}
+
       - name: Read manifestIdUpdate.txt
         id: manifestIdUpdate
         uses: juliangruber/read-file-action@v1
         with:
           path: ./manifestIdUpdate.txt
-      
+
       # Group step
       - name: Group data
         id: group-data
-        run: npm run ${{ github.event.inputs.force == 'true' && 'group-data-force' || 'group-data' }}
+        run: node group.js $FORCE_FLAG ${LANGUAGES:+--languages "$LANGUAGES"}
       
       - name: Read manifestIdGroup.txt
         id: manifestIdGroup
