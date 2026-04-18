@@ -11,7 +11,7 @@ on:
         default: false
         type: boolean
       languages:
-        description: "Comma-separated list of language folder codes (e.g. en,ru,uk). Leave empty to use LANGUAGES variable or LANGUAGES_ENABLED from constants.js"
+        description: "Comma-separated folder codes (e.g. en,ru,uk) or 'all'. Empty = use vars.LANGUAGES."
         required: false
         default: ""
         type: string
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      LANGUAGES: ${{ github.event.inputs.languages || vars.LANGUAGES }}
+      LANGUAGES: ${{ github.event.inputs.languages || vars.LANGUAGES || 'en,zh-CN' }}
       FORCE_FLAG: ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
     steps:
@@ -37,20 +37,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build CLI args
-        id: args
-        run: |
-          ARGS="$FORCE_FLAG"
-          if [ -n "$LANGUAGES" ]; then
-            ARGS="$ARGS --languages $LANGUAGES"
-          fi
-          echo "cli_args=$ARGS" >> "$GITHUB_OUTPUT"
-          echo "Using CLI args: $ARGS"
-
       # Update step
       - name: Update data
         id: update-data
-        run: node update.js ${{ steps.args.outputs.cli_args }}
+        run: node update.js $FORCE_FLAG ${LANGUAGES:+--languages "$LANGUAGES"}
 
       - name: Read manifestIdUpdate.txt
         id: manifestIdUpdate
@@ -61,7 +51,7 @@ jobs:
       # Group step
       - name: Group data
         id: group-data
-        run: node group.js ${{ steps.args.outputs.cli_args }}
+        run: node group.js $FORCE_FLAG ${LANGUAGES:+--languages "$LANGUAGES"}
       
       - name: Read manifestIdGroup.txt
         id: manifestIdGroup

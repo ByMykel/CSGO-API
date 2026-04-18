@@ -164,21 +164,3 @@ export const LANGUAGES_URL = [
         url: getLanguageUrl("vietnamese"),
     },
 ];
-
-export const LANGUAGES_ENABLED = ["en", "zh-CN"];
-
-export const getLanguages = (cliLanguages) => {
-    const filter = cliLanguages.length > 0 ? cliLanguages : LANGUAGES_ENABLED;
-
-    return LANGUAGES_URL.filter(lang => filter.includes(lang.folder));
-};
-
-export const parseLanguagesArg = (args) => {
-    const langIndex = args.indexOf("--languages");
-
-    if (langIndex === -1 || langIndex + 1 >= args.length) {
-        return [];
-    }
-
-    return args[langIndex + 1].split(",").map(l => l.trim()).filter(Boolean);
-};

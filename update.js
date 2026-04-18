@@ -13,7 +13,7 @@ import { getStickers } from "./services/stickers.js";
 import { getStickerSlabs } from "./services/stickerSlabs.js";
 import { getKeychains } from "./services/keychains.js";
 import { getSkins } from "./services/skins.js";
-import { getLanguages, parseLanguagesArg } from "./constants.js";
+import { getLanguages, parseLanguagesArg } from "./utils/languages.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
@@ -23,7 +23,19 @@ import { getInventory } from "./services/inventory.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes("--force");
-const languages = getLanguages(parseLanguagesArg(args));
+const codes = parseLanguagesArg(args);
+
+if (codes.length === 0) {
+    console.error("Error: no languages specified. Pass --languages en,ru,uk (comma-separated folder codes).");
+    process.exit(1);
+}
+
+const languages = getLanguages(codes);
+
+if (languages.length === 0) {
+    console.error(`Error: none of the provided codes match known languages: ${codes.join(", ")}`);
+    process.exit(1);
+}
 
 let existingManifestId = "";
 let existingImagesSha = "";

@@ -1,11 +1,23 @@
 import fs from "fs";
 import path from "path";
-import { getLanguages, parseLanguagesArg } from "./constants.js";
+import { getLanguages, parseLanguagesArg } from "./utils/languages.js";
 import { getManifestId, getImagesJsonSha } from "./services/main.js";
 
 const args = process.argv.slice(2);
 const isForce = args.includes("--force");
-const languages = getLanguages(parseLanguagesArg(args));
+const codes = parseLanguagesArg(args);
+
+if (codes.length === 0) {
+    console.error("Error: no languages specified. Pass --languages en,ru,uk (comma-separated folder codes).");
+    process.exit(1);
+}
+
+const languages = getLanguages(codes);
+
+if (languages.length === 0) {
+    console.error(`Error: none of the provided codes match known languages: ${codes.join(", ")}`);
+    process.exit(1);
+}
 
 const inputFilePathsTemplate = [
     "./public/api/{lang}/agents.json",
