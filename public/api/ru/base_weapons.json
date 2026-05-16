@@ -1,0 +1,739 @@
+[
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Дорогой и крайне мощный Desert Eagle — знаковый пистолет, который непросто освоить, хоть он и удивительно точен на дальних дистанциях.",
+  "def_index": 1,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnk-CNc4_fgOfA8cfGRDTfGku13seI4Fyq2wUQm5DjWzo38IH3BO1N2W5MmTe5etw74zINmLLSKdA"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Dual Berettas",
+  "description": "Одновременная стрельба из двух пистолетов Beretta с большим магазином уменьшает точность и увеличивает время перезарядки. С другой стороны, вы можете стрелять сразу двумя Beretta.",
+  "def_index": 2,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Five-Seven стоит дорого и медленно перезаряжается, однако эти недостатки компенсируются высокой точностью, бронебойностью, щедрым магазином на 20 патронов и снисходительной отдачей.",
+  "def_index": 3,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm9DRe_Pe4baojePHHWz7GwL4jsbVvTHnilE1w5WrVzo39JH6QOFUnC8RxROMN4ESwlMqnab24YkBbtQ"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "Пистолет Glock-18 подходит для первого раунда. Он наиболее эффективен против противников без бронежилета и может вести огонь очередями из трёх выстрелов.",
+  "def_index": 4,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn8S1Y5Lz9O_M5d_LHDz6WmOp04-U8THmwzU0l6ziDyd__IC3DO1IgXJJwE7NfrFDmxU9v5GXb"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "Мощная и надежная штурмовая винтовка АК-47 — одна из самых известных в мире. Наиболее смертельна стрельба короткими и точными очередями.",
+  "def_index": 7,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "Мощная и точная винтовка с оптическим прицелом AUG компенсирует свою долгую перезарядку низким разбросом пуль и высокой скорострельностью.",
+  "def_index": 8,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6CUV7ff8PP08eanED2LHlLh06ec-TnjmkUUmsGXRn4n8cimTPVB0XsR1RPlK7Ee4GsImgw"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "Печально известная снайперская винтовка AWP — очень опасное и очень эффективное оружие, которое легко узнается по характерному звуку выстрела и жестокому правилу: «один выстрел, один труп».",
+  "def_index": 9,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6jIVtqr4PqBoI_ORVjXFkeguseMwGXGwwUV_4GmHyd2qdH-WbFAmApsiQPlK7EcMn7y-CQ"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "Дешёвый выбор для не очень богатых игроков, FAMAS отлично заполняет нишу между более дорогими автоматами и менее эффективными пистолетами-пулемётами.",
+  "def_index": 10,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_famas_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "Дорогая снайперская винтовка G3SG1 значительно замедляет движение, что, однако, компенсируется более высокой скорострельностью, чем у других снайперских винтовок.",
+  "def_index": 11,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_g3sg1_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Автомат «Галиль»",
+  "description": "Автомат «Галиль» — относительно дешевая штурмовая винтовка у террористов, которая считается хорошим оружием на средних и дальних дистанциях.",
+  "def_index": 13,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn_C5S4_O8JvZrIaPKV2ORx7d3trg7Gnjmlxl04WTTyoyqeXKUPFVzCsN1FuMJuxam0oqwr0aqT-w"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "Пулемет M249 хорош на открытых пространствах и идеально подходит игрокам, готовым мириться с медленным темпом стрельбы ради вместительного магазина и повышенной точности.",
+  "def_index": 14,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntr3YCoaarbfc_IvHDWWLClb8g5OA7F3y1l0xw6juBzdeoJX6fZ1IoWcciQ-UU8k7vtOr9c-I"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "M4A4 — более точный, но слабый аналог АК-47 — полностью автоматическая штурмовая винтовка, которая находится исключительно на вооружении у спецназа.",
+  "def_index": 16,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMKofH_O_Y-JfSVV2XBkLolsbZvTCqxx0sk4DjUnNipdSiQagcgXJQlRLEU8k7vIDSSpqI"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "Пистолет-пулемёт MAC-10 похож на коробку, из которой летят пули. Он может похвастаться высокой скорострельностью, но расплатиться за это придется низкой точностью и сильной отдачей.",
+  "def_index": 17,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "P90 легко узнать по уникальному дизайну под названием «булл-пап». Это оружие великолепно подходит для стрельбы на ходу благодаря высокой ёмкости магазина и низкой отдаче.",
+  "def_index": 19,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "Единственный и неповторимый MP5 — пожалуй, самый универсальный и популярный пистолет-пулемёт в мире. Модификация SD оснащена интегрированным глушителем, который делает бесшумным и без того грозное оружие.",
+  "def_index": 23,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "Пистолет-пулемёт UMP45 часто не воспринимают всерьёз, хотя небольшой магазин является его единственным недостатком. В остальном же это весьма универсальное оружие для боя на ближней дистанции.",
+  "def_index": 24,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn18DIPurz6MPducqDGCDPIw7l05LA7SXyylkh25z-Dm9agJHKSZgciDZt3F7JerFDmxeILsNGi"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "XM1014 — это мощный, полностью автоматический дробовик, который оправдывает свой здоровенный размер возможностью быстро нашпиговать комнату свинцом.",
+  "def_index": 25,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "ПП-19 «Бизон»",
+  "description": "У пистолета-пулемёта «Бизон» низкий урон, который компенсируется уникальным вместительным шнековым магазином с быстрой перезарядкой.",
+  "def_index": 26,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni9DhU4bz-PKZocPTBW2GWlbZw4bM7SS2xwER1smSEnIv6dS_GbFBxDJd0RLFbrFDmxaLGO5J-"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "Эксклюзивный для спецназа Mag-7 наносит разрушительный ущерб на близком расстоянии. Быстрая перезарядка магазина делает его отличным тактическим выбором.",
+  "def_index": 27,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mag7_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Негев",
+  "description": "Невероятно мощный пулемёт «Негев» позволяет держать противника на почтительном расстоянии точным огнём на подавление — если, разумеется, вам хватит времени заполучить желаемую точность.",
+  "def_index": 28,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnu-CVe-bz3P6I1caTGDzTFk7gh5rg6Tn3rkBwm4zjSwo3_Ii-fZgIjA8dwELFZrFDmxWhBRARX"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Обрез",
+  "description": "Классический обрез наносит большой урон на ближних дистанциях, но имеет невысокую точность, высокий разброс и медленную скорость стрельбы, поэтому вам лучше бы поскорее убивать то, во что вы попали.",
+  "def_index": 29,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_DVe6_2obuo_JqHACzaSk-1wtrMwTi3nkUly6m-ByYr4Jy2fP1cgA8dxFLRfu0LqjJS5YC4vtNQk"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "Tec-9 обладает вместительным магазином и идеально подходит для террориста, предпочитающего бой на небольших расстояниях.",
+  "def_index": 30,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0-CECofb2MKY9IvPGWjPAkrwi5Lk4Tn3nzUwlsGnVzI6pdymQbVAjW8d0F-IU8k7vdMx23Ho"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "Перезаряжаемый Zeus x27 идеален для засад и стычек в закрытом пространстве, ведь способен нейтрализовать врага всего с одного выстрела.",
+  "def_index": 31,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Снаряжение"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0_DFe_bz6PKI4caTCDzHCwrkj57U6FnHik0l04mXVw4yhJCiRaVImW8dzTeRcrFDmxd8qNG47"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "Точный и податливый пистолет P2000, произведенный в Германии, — хорошее оружие для первого раунда, которое особенно эффективно против небронированных противников.",
+  "def_index": 32,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKno9jIJv6L-Jqc_cKjEWDDDlLx3trVrH3qykEtz4TjQno6td3uVbVRyWZR2EbEKtRCm0oqwKXhPxN4"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "Универсальный, но дорогой пистолет-пулемёт немецкого производства MP7 — идеальный выбор для перестрелки на ближних дистанциях.",
+  "def_index": 33,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XUVvfOoPqA1eKHEVjXFlr0ituM_SnqwwR9w4mXVyIn6dnKRblV1D5AhTPlK7EelyO1yEg"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "Производимый в Швейцарии передовой пистолет-пулемёт МР9 — это эргономичное полимерное оружие, используемое частными охранными фирмами.",
+  "def_index": 34,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XsVv6T9OvE9dKLKCD_Ex74h5bY6Tnrgl0hzt2rXm4qseXyWaAMgWJJ2EflK7Ec0i602wg"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады.",
+  "def_index": 35,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "Пистолет P250 — огнестрельное оружие с высоким темпом стрельбы и низкой отдачей, представляющее собой относительно недорогой выбор против бронированных противников.",
+  "def_index": 36,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwr3cLoaf4avNvJqKXXmKUlrp0s-U9HCvgw0V05WSDw96pIC6VOw92X8QkROAU8k7vNwsvFQ4"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "SCAR-20 — полуавтоматическая снайперская винтовка, которая предлагает высокую скорострельность и большой урон на расстоянии, в обмен на более медленную скорость передвижения и большую стоимость самого оружия.",
+  "def_index": 38,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_scar20_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "Эксклюзивный для террористов SG553 — хорошая альтернатива АК-47 с прицелом, помогающим в стрельбе на дальних дистанциях.",
+  "def_index": 39,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "Снайперская винтовка SSG08 со скользящим затвором не наносит много повреждений, однако хорошее соотношение цены и качества делает ее отличным приобретением в первых раундах для перестрелок на дальних дистанциях.",
+  "def_index": 40,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz7iULt7z2MPY1eaWVCDHGlrgksuQ_HS3lxhkh4m-Gm9b6ICjCPQ4hDMF3EOJerFDmxXJ24aAg"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "Нож",
+  "description": "Тихий и всегда доступный нож имеет быструю основную атаку с низким уровнем повреждений и вторичную атаку — медленную, но зато с высоким уровнем повреждений. Атака со спины позволит тихим игрокам моментально убить противника.",
+  "def_index": 42,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6rz5PvI9dPbGX2HGl7dw4LYxHn3mlkshtWmHzI74IyqVbQQnWZN1Q7QLrFDmxYFVbevc"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "Светошумовая граната",
+  "description": "Нелетальная светошумовая граната временно ослепляет всех, кто находится в радиусе взрыва, что делает её идеальным средством для зачистки закрытых помещений. Громкий взрыв гранаты также временно маскирует звуки шагов.",
+  "def_index": 43,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "Осколочная граната",
+  "description": null,
+  "def_index": 44,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "Дымовая граната",
+  "description": null,
+  "def_index": 45,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "Коктейль Молотова",
+  "description": "Коктейль Молотова — это мощное и непредсказуемое оружие, которое при броске разливается пламенем по небольшой области, нанося урон любому игроку в радиусе поражения.",
+  "def_index": 46,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "Ложная граната",
+  "description": null,
+  "def_index": 47,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "Зажигательная граната",
+  "description": null,
+  "def_index": 48,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Гранаты"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "Взрывчатка C4",
+  "description": "Это самодельное взрывное устройство стабильно и устойчиво к большинству механических ударов, а также имеет скорость детонации более 8000 метров в секунду при воспламенении.",
+  "def_index": 49,
+  "category": {
+   "id": "loadoutslot_c4",
+   "name": "C4"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnjqWwLvfOoavw8IvTCV2bEle1w6Lk-TSq2k0x25jiBzN_9dXqVaQ91W5AkW6dU5WnQha4l"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "Медшприц",
+  "description": null,
+  "def_index": 57,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Снаряжение"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "Нож",
+  "description": "Тихий и всегда доступный боевой нож имеет основную быструю атаку с низким уровнем повреждений и вторичную атаку — медленную, но зато с высоким уровнем повреждений. Атака со спины позволит тихим игрокам моментально убить противника.",
+  "def_index": 59,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26JqJodqWRXjXBlLt05bM7TX21kx91527RnN-teXzFPQYpD5ckQbYM4BCm0oqwrVaqAqg"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "Бесшумный карабин M4A1 оснащен менее вместительным магазином, чем его аналог без глушителя, зато он обеспечивает более тихую стрельбу с меньшей отдачей и повышенной точностью.",
+  "def_index": 60,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMK0OGnZKFjI_WBQD_Cleh0teA_F37qkERy52rWm9yhdynGblMgD5AkQrZeuhXtkt3iMOv8p1uJZpwq8Vo"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "Пистолет USP, любимец игроков в Counter-Strike: Source, имеет отсоединяемый глушитель, который уменьшает отдачу, одновременно поглощая привлекающий внимание шум.",
+  "def_index": 61,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Auto",
+  "description": "Будучи автоматическим вариантом CZ75, CZ75-Auto — идеальный вариант для тех, кто собирается использовать оружие павших противников. Но из-за небольшого запаса патронов при стрельбе вам придется быть куда аккуратнее.",
+  "def_index": 63,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "Револьвер R8",
+  "description": "Револьвер R8 стреляет крайне точно и мощно, но его спусковой крючок печально известен своей тугостью. Если противник уже близко, не стесняйтесь бить по курку.",
+  "def_index": 64,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKny-DRU4-Sreuo8cvTLCzKRmbkk4ONtGijilk8k4znWy9v8JCiUaQIiWZpyQ-AJtEa7jJS5YM17OTN5"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "Штык-нож",
+  "description": "Со времен Второй мировой войны его дизайн принципиально не изменился, но штык по-прежнему остается на вооружении в современной армии. Его пользу оценили, например, в периоды второй войны в Персидском заливе и войны в Афганистане.",
+  "def_index": 500,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni_DtU4fe6Jv07IfTDDT_JkL4htLI7HCvmwE9z42_Vzov4ci2Wa1IgWMN3R7IMuxCm0oqwYUAZNBA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "Классический нож",
+  "description": "Классика серии Counter-Strike. Лезвие из спрессованного стеллита идеально держат титановые бока и обух, а рукоятку из окаменелой мамонтовой кости окутывает углеволоконный чехол.",
+  "def_index": 503,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2te7cjd6HHXmHBxep157VtTi_rzUR-5WiHnt39c3_EZg4pW5UjQOZbsBCxw8qnab32FBG7RA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "Складной нож",
+  "description": null,
+  "def_index": 505,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oZK19bqjKVjbDkbtwtbU4S3jhwElw4DvVzomhd3_CblV1CZd2TO5f4RG4lID5d7S15Y9TpQQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "Нож с лезвием-крюком",
+  "description": null,
+  "def_index": 506,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pfbAjd6TAXDSSkeh3trdtTCy1zUV2t2vTyoyrIHzDalAgCsN1ROcO40O6wMqnab0rKy1qHw"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "Керамбит",
+  "description": "Керамбит — это нож с изогнутым лезвием, имитирующим клык тигра, специально разработанный для юго-восточного азиатского боевого искусства силат. Нож обычно держат обратной хваткой, вдевая указательный палец в кольцо на рукоятке.",
+  "def_index": 507,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2labZsLfKaGinEx-0u5LhqGHrjlElz52jRmN2sd3yfb1NzWZVwRbNeu0S5k9WxMuvh-UWA3ObnwJvj"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "Штык-нож M9",
+  "description": "Это штык от М-9. Первоначально предназначался для установки на винтовке, но отлично подходит и для ближнего боя.",
+  "def_index": 508,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2jMZtvIemcAGKEj7ojtOIwSnrrkEt25WiEw438cXuUaQB0WcBxFrUItxa6lNezMOKzsVPAy9USYWigJ8Q"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Охотничий нож",
+  "description": "Современный тактический нож, отлично подходящий как для боевых, так и мирных нужд. Уникальная заточка танто позволяет хорошо пробивать даже самые жесткие поверхности.",
+  "def_index": 509,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26aad5KfOSAimVlugu47U5HSrmzEp14zncz4ygICiealIiAsF2EOdYtkTpwNXuYbjk-UWA3JpY_ZDP"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Фальшион",
+  "description": "Переосмысление клинка-фальшиона с изогнутым лезвием.",
+  "def_index": 512,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oaahuKPmcACmSlL4u5uVqG37klhh24DnUytaqJXKQbgcmX5RyF-4Puha8xofmZejg-UWA3FLkEz9H"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Нож Боуи",
+  "description": "Этот цельный зазубренный нож Боуи создан для выживания в экстремальных условиях.",
+  "def_index": 514,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fbZ7KeaSAliSzvl_ta88TX61xExyt2nTz9eveHjEPQRzXMcjFuYIuhHtkIKyNLnmtACLg4sX02yg2XbF4Kcv"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "Нож-бабочка",
+  "description": "Специально разработанный балисонг, широко известный как нож-бабочка. Главной особенностью этого оружия является молниеносное приведение его в боевое состояние при помощи взмаха руки, обнажающего свободно крепящееся лезвие. Как результат, ножи-бабочки запрещены во многих странах.",
+  "def_index": 515,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2sfbB5JeKVAn7elO8l6LRoF3_hzBsmtWSDzt-rcy3BP1AnXsR4FOJZskG6xtDkM7627xue1dy94mNpNQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "Тычковые ножи",
+  "description": "Наносить эффективные и жестокие удары тычковым ножом так же просто, как бить кулаками.",
+  "def_index": 516,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2-fbdlbvXKWWXIlbh15bdrTnvmwkt34z_Qz46hdnjFbAIkCJdzR-Zctxi5kNb5d7S1mgn3amY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Паракорд-нож",
+  "description": "Этот нож для выживания с фиксированным клинком можно использовать и как оружие, и как инструмент — например, для установки силков, охоты на животных и срезания веток. Рукоятка обёрнута в универсальный шнур-паракорд.",
+  "def_index": 517,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2tZ7ZpbqWRXmWTmbsm5bU5TXu3lkR_5j_Swor8JC_BPFVxWJd1FuID4RW7w9b5d7S1z-U4Rao"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "Нож выживания",
+  "description": "Зазубренное лезвие этого многофункционального тактического ножа способно пробить жёсткие материалы наподобие кости и плоти, а острый крюк поможет при разделке. Рукоятка из композитного материала прикручена к лезвию шестигранными болтами.",
+  "def_index": 518,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2taapkM77CDzbIlrsms-NsHHGxzUwj5G6En4yuIy_BbQAjC5VxQLRc5hm8x4HvKaq8sEukLuHu"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Медвежий нож",
+  "description": "Этот нож для выживания в стиле танто отличается огранённым лезвием с цельным вырезом и крепкой рукоятью. Никаких сложностей, никаких двигающихся частей — просто надёжный нож, готовый резать.",
+  "def_index": 519,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s27erd4M77AXWWWx7h3tOA5SyvilEkj5WuGw42qc3zEOg4iDJEjQu9b4xa6w4DgKaq8sDVgNcPY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Наваха",
+  "description": "Этот нож-бабочка с полированной мраморной ручкой прячет маленькое, но очень злое лезвие.",
+  "def_index": 520,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pcbR-Oc-ZD2SbyuB_tuQnGXu1kBxw62_dwtird3qXZwQgXJV0E-4PtESxl4ezYr6x4FaMjI4UyzK-0H1iy36efQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Нож «Бродяга»",
+  "description": "Эргономичный тактический охотничий нож с пружинным механизмом и композитными вставками в рукоятке. Прочное широкое лезвие пригодится для рубки и отделения материалов.",
+  "def_index": 521,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2hfbBpL_-BQDPEw-hz57cxTnCxkEh_5jnVzor8dymXbgAiAsFyEOEMsBW8l9O1Ne38p1uJmh0Kkm0"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Стилет",
+  "description": "Cтилет — автоматический складной нож в итальянском стиле, который исторически стал предметом споров и даже запретов; его лезвие практически мгновенно выбрасывается при нажатии кнопки-качельки.",
+  "def_index": 522,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fK1hJeSHASnCmO8v4bc_HCjilkkismTWyNutciqealMhDsR5F7MM4UWwlYC1Zr7n-UWA3E6ZCYCt"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Коготь",
+  "description": "Этот керамбит с рукоятью из слоновой кости, медными заклёпками и зубчатым лезвием режет на входе и раздирает на выходе.",
+  "def_index": 523,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s25YaBiN_2SBWKCj7ghsrRrTHDnzB8h4mTRw9iudC_DPFVyCsF3R-Zc4xK_ldXgNb7qsgDAy9USS1NPX9M"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "Скелетный нож",
+  "description": "Рукоять этого скелетонизированного ножа для удобства обмотали изолентой. Отверстие нужно для того, чтобы в неё можно было продеть палец: как для удобства, так и для безопасности.",
+  "def_index": 525,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29Y6FhJeScACnDkL8j6LU8GS3mwUh24G-Bno2tIymeblMgC5R3F-ECsBK6k4XuN-Lh-UWA3P3GyEv9"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "Кукри",
+  "description": "Используется в традиционных ритуалах вроде свадеб и поножовщин.",
+  "def_index": 526,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Ножи"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "Стандартные перчатки террористов",
+  "description": "<i>«Никогда не бойтесь испачкать руки в крови», — Валерия Дженнер, революционер</i>",
+  "def_index": 5028,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Перчатки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "Стандартные перчатки спецназа",
+  "description": "Тактические перчатки общего назначения, используемые военными и охранными фирмами.",
+  "def_index": 5029,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Перчатки"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ }
+]
