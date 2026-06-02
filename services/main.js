@@ -525,33 +525,6 @@ export const loadCollectionsByStickers = () => {
         }, {});
 };
 
-export const loadSouvenirSkins = () => {
-    state.souvenirSkins = {
-        ...Object.values(state.items)
-            .filter(item => {
-                return (
-                    item.prefab === "weapon_case_souvenirpkg" ||
-                    item.prefab?.includes("_souvenir_crate_promo_prefab")
-                );
-            })
-            .map(item => {
-                const lootListName = item?.loot_list_name ?? null;
-                const attributeValue = item.attributes?.["set supply crate series"]?.value ?? null;
-                const keyLootList = lootListName ?? state.revolvingLootLists[attributeValue] ?? null;
-
-                return (
-                    state.skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
-                    state.skinsByCrates?.[keyLootList] ??
-                    []
-                );
-            })
-            .flatMap(level1 => level1)
-            .reduce((acc, item) => ({ ...acc, [item.id]: true }), {}),
-
-        "skin-e73d6e7e9004": true, // MP5-SD | Lab Rats
-    };
-};
-
 export const loadStattrakSkins = () => {
     const { itemSets, items } = state;
 
@@ -894,7 +867,6 @@ export const loadData = async () => {
     loadCratesByCollections();
     loadCollectionsBySkins();
     loadCollectionsByStickers();
-    loadSouvenirSkins();
     loadStattrakSkins();
     loadHighlights();
     loadProTeams();

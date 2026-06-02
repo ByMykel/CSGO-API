@@ -75,7 +75,7 @@ const getVanillaDescription = (desc, isStatTrak) => {
 };
 
 const parseItem = (item, items) => {
-    const { rarities, paintKits, souvenirSkins, stattTrakSkins, cdnImages } = state;
+    const { rarities, paintKits, stattTrakSkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const translatedName = !isNotWeapon(weapon)
         ? $t(items[weapon].item_name_prefab)
@@ -88,7 +88,10 @@ const parseItem = (item, items) => {
         weapon.includes("knife") ||
         weapon.includes("bayonet") ||
         stattTrakSkins[`[${pattern}]${weapon}`] !== undefined;
-    const isSouvenir = souvenirSkins?.[`skin-${item.object_id}`] ?? false;
+    // Since the IEM Cologne 2026 Major, the Souvenir-O-Matic lets players craft a Souvenir
+    // from any normal weapon skin, so every gun skin now has a souvenir variant. Knives and
+    // gloves are not eligible, and isNotWeapon already covers both.
+    const isSouvenir = !isNotWeapon(weapon);
 
     const isKnife = weapon.includes("weapon_knife") || weapon.includes("weapon_bayonet");
 

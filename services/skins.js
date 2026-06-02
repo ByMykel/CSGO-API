@@ -60,7 +60,7 @@ const getDescription = (desc, paintKits, pattern) => {
 };
 
 const parseItem = (item, items) => {
-    const { rarities, paintKits, cratesBySkins, souvenirSkins, collectionsBySkins, cdnImages } = state;
+    const { rarities, paintKits, cratesBySkins, collectionsBySkins, cdnImages } = state;
     const [weapon, pattern] = getSkinInfo(item.icon_path);
     const dopplerPhase = getDopplerPhase(paintKits[pattern]?.paint_index);
     const image =
@@ -129,7 +129,9 @@ const parseItem = (item, items) => {
             color: getRarityColor(rarity),
         },
         stattrak: isStatTrak,
-        souvenir: souvenirSkins?.[`skin-${item.object_id}`] ?? false,
+        // The Souvenir-O-Matic (IEM Cologne 2026 Major) lets any normal weapon skin become a
+        // Souvenir, so every gun qualifies. Knives and gloves stay out, as isNotWeapon covers both.
+        souvenir: !isNotWeapon(weapon),
         paint_index: paintKits[pattern]?.paint_index,
         wears: getWears(paintKits[pattern]?.wear_remap_min, paintKits[pattern]?.wear_remap_max).map(
             wearKey => ({ id: wearKey, name: $t(wearKey) })
