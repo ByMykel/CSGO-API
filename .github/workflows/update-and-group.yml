@@ -29,7 +29,7 @@ jobs:
       FORCE_FLAG: ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
           node-version: 24
