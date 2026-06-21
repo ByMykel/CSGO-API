@@ -7,6 +7,12 @@ import { getImageUrl } from "../constants.js";
 const isCollectible = item => {
     if (item.item_name === undefined) return false;
 
+    // Redacted Map Coin from Transit due to use of copyrighted and hidden inappropiate content.
+    // https://counterstrike.fandom.com/wiki/Transit#Controversy
+    if (item.object_id === "5180") {
+        return false;
+    }
+
     if (item.item_name.startsWith("#CSGO_Collectible")) {
         return true;
     }
