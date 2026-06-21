@@ -354,9 +354,11 @@ export const loadyCratesBySkins = () => {
                 const crateItem =
                     hardCodedCrates[crateKey] ||
                     state.items[crateKey] ||
-                    Object.values(state.items).find(
-                        i => i.attributes?.["set supply crate series"]?.value == lootList?.[0]
-                    );
+                    Object.values(state.items).find(i => {
+                        const series = i.attributes?.["set supply crate series"];
+                        const value = typeof series === "object" ? series?.value : series;
+                        return value == lootList?.[0];
+                    });
 
                 if (crateItem != null) {
                     acc[item.id].push({
