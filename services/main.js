@@ -574,6 +574,8 @@ export const loadHighlights = () => {
 
         const video = `https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/${tournamentString}/${matchString}/${tournamentString}_${matchString}_${item.map}_${item.id}_ww_1080p.webm`;
 
+        const tournamentPlayer = getPlayerNameOfHighlight(item.id, state.players);
+
         return {
             id: item.id,
             highlight_reel: id,
@@ -582,7 +584,8 @@ export const loadHighlights = () => {
             tournament_event_team1_id: item["tournament event team1 id"],
             tournament_event_stage_id: item["tournament event stage id"],
             tournament_event_map: item.map,
-            tournament_player: getPlayerNameOfHighlight(item.id, state.players),
+            tournament_player: tournamentPlayer,
+            type: tournamentPlayer ? "player" : "team",
             image: getImageUrl(`econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`),
             image_inventory: `econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`,
             video: video,

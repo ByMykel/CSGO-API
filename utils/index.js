@@ -696,6 +696,10 @@ export function getFinishStyleLink(id) {
 export function getPlayerNameOfHighlight(id, players) {
     id = id.split("_")[1];
 
+    // Strip the stage prefix. Budapest 2025 uses a dash (qf-, sf-, gf-) while
+    // Cologne 2026 glues it to the player name (st1, st2, st3, qf, sf, gf).
+    id = id.replace(/^(st\d+|qf|sf|gf)-?/, "");
+
     if (id.startsWith("shiro")) id = id.replace("shiro", "sh1ro");
     if (id.startsWith("magix")) id = id.replace("magix", "magixx");
     if (id.startsWith("torszi")) id = id.replace("torszi", "torzsi");
@@ -712,9 +716,9 @@ export function getPlayerNameOfHighlight(id, players) {
     if (id === "mongolzscaredofs1mplevsfazeonanubis") id = "s1mple";
     if (id === "boosttorszitoentryvsspiritonnuke") id = "torzsi";
 
-    if (id.startsWith("qf-") || id.startsWith("sf-") || id.startsWith("gf-")) {
-        id = id.replace(/^(qf|sf|gf)-/, "");
-    }
+    // Team-level highlights (team entrance, victory, trophy lifting) have no single
+    // player. Return null so they get flagged as type "team".
+    if (/(entrance|victory|win|trophyliftingmoment)$/.test(id)) return null;
 
     return Object.values(players).find(name => id.startsWith(name.toLowerCase())) ?? "Unknown Player";
 }
