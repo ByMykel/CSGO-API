@@ -354,9 +354,11 @@ export const loadyCratesBySkins = () => {
                 const crateItem =
                     hardCodedCrates[crateKey] ||
                     state.items[crateKey] ||
-                    Object.values(state.items).find(
-                        i => i.attributes?.["set supply crate series"]?.value == lootList?.[0]
-                    );
+                    Object.values(state.items).find(i => {
+                        const series = i.attributes?.["set supply crate series"];
+                        const value = typeof series === "object" ? series?.value : series;
+                        return value == lootList?.[0];
+                    });
 
                 if (crateItem != null) {
                     acc[item.id].push({
@@ -525,33 +527,6 @@ export const loadCollectionsByStickers = () => {
         }, {});
 };
 
-export const loadSouvenirSkins = () => {
-    state.souvenirSkins = {
-        ...Object.values(state.items)
-            .filter(item => {
-                return (
-                    item.prefab === "weapon_case_souvenirpkg" ||
-                    item.prefab?.includes("_souvenir_crate_promo_prefab")
-                );
-            })
-            .map(item => {
-                const lootListName = item?.loot_list_name ?? null;
-                const attributeValue = item.attributes?.["set supply crate series"]?.value ?? null;
-                const keyLootList = lootListName ?? state.revolvingLootLists[attributeValue] ?? null;
-
-                return (
-                    state.skinsByCrates?.[item.tags?.ItemSet?.tag_value] ??
-                    state.skinsByCrates?.[keyLootList] ??
-                    []
-                );
-            })
-            .flatMap(level1 => level1)
-            .reduce((acc, item) => ({ ...acc, [item.id]: true }), {}),
-
-        "skin-e73d6e7e9004": true, // MP5-SD | Lab Rats
-    };
-};
-
 export const loadStattrakSkins = () => {
     const { itemSets, items } = state;
 
@@ -599,6 +574,8 @@ export const loadHighlights = () => {
 
         const video = `https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/${tournamentString}/${matchString}/${tournamentString}_${matchString}_${item.map}_${item.id}_ww_1080p.webm`;
 
+        const tournamentPlayer = getPlayerNameOfHighlight(item.id, state.players);
+
         return {
             id: item.id,
             highlight_reel: id,
@@ -607,7 +584,8 @@ export const loadHighlights = () => {
             tournament_event_team1_id: item["tournament event team1 id"],
             tournament_event_stage_id: item["tournament event stage id"],
             tournament_event_map: item.map,
-            tournament_player: getPlayerNameOfHighlight(item.id, state.players),
+            tournament_player: tournamentPlayer,
+            type: tournamentPlayer ? "player" : "team",
             image: getImageUrl(`econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`),
             image_inventory: `econ/keychains/${item.id.split("_")[0]}/kc_${item.id.split("_")[0]}`,
             video: video,
@@ -761,13 +739,14 @@ const getItemFromKey = key => {
 
     if (type === "keychain") {
         const keychain = keychainDefinitionsObj[name];
+        const keychainImageInventory = (
+            keychain?.image_inventory ?? keychainDefinitionsObj[keychain.base]?.image_inventory
+        )?.toLowerCase();
         return {
             id: `keychain-${keychain.object_id}`,
             name: keychain.loc_name,
             rarity: `rarity_${keychain.item_rarity}`,
-            image:
-                state.cdnImages[keychain.image_inventory.toLowerCase()] ??
-                getImageUrl(keychain.image_inventory.toLowerCase()),
+            image: state.cdnImages[keychainImageInventory] ?? getImageUrl(keychainImageInventory),
         };
     }
 
@@ -894,7 +873,6 @@ export const loadData = async () => {
     loadCratesByCollections();
     loadCollectionsBySkins();
     loadCollectionsByStickers();
-    loadSouvenirSkins();
     loadStattrakSkins();
     loadHighlights();
     loadProTeams();

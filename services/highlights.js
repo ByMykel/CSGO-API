@@ -13,8 +13,8 @@ const parseItem = item => {
     const charmName = $t("CSGO_Tool_Keychain");
 
     const getThumbnail = () => {
-        // Only Austin 2025 has chinese thumbnail
-        if (![24].includes(item.tournament_event_id)) {
+        // Budapest 2025 does not have chinese thumbnail, so we will use the default one
+        if ([25].includes(item.tournament_event_id)) {
             return item.thumbnail;
         }
 
@@ -38,6 +38,7 @@ const parseItem = item => {
         team1: $t(`csgo_teamid_${item.tournament_event_team1_id}`),
         stage: $t(`csgo_tournament_event_stage_${item.tournament_event_stage_id}`),
         tournament_player: item.tournament_player,
+        type: item.type,
         map: item.tournament_event_map,
         market_hash_name: `Souvenir Charm | ${keychainNameRaw} | ${highlightNameRaw}`,
         image: cdnImages[item.image_inventory] ?? item.image,

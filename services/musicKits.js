@@ -75,9 +75,7 @@ const parseItem = item => {
                 name: $t("rarity_rare"),
                 color: getRarityColor(`rarity_rare`),
             },
-            market_hash_name: exclusive
-                ? null
-                : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
+            market_hash_name: exclusive ? null : `StatTrak™ Music Kit | ${$t(`musickit_${item.name}`, true)}`,
             exclusive: false,
             image,
 
