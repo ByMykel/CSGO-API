@@ -761,12 +761,15 @@ const getItemFromKey = key => {
 
     if (type === "keychain") {
         const keychain = keychainDefinitionsObj[name];
+        if (!keychain.image_inventory) {
+            console.log(keychain);
+        }
         return {
             id: `keychain-${keychain.object_id}`,
             name: keychain.loc_name,
             rarity: `rarity_${keychain.item_rarity}`,
             image:
-                state.cdnImages[keychain.image_inventory?.toLowerCase()] ??
+                state.cdnImages[keychain.image_inventory.toLowerCase()] ??
                 getImageUrl(keychain.image_inventory.toLowerCase()),
         };
     }
