@@ -766,7 +766,7 @@ const getItemFromKey = key => {
             name: keychain.loc_name,
             rarity: `rarity_${keychain.item_rarity}`,
             image:
-                state.cdnImages[keychain.image_inventory.toLowerCase()] ??
+                state.cdnImages[keychain.image_inventory?.toLowerCase()] ??
                 getImageUrl(keychain.image_inventory.toLowerCase()),
         };
     }
