@@ -761,10 +761,6 @@ const getItemFromKey = key => {
 
     if (type === "keychain") {
         const keychain = keychainDefinitionsObj[name];
-        if (!keychain.image_inventory) {
-            console.error('Invalid keychain, skip');
-            return;
-        }
         return {
             id: `keychain-${keychain.object_id}`,
             name: keychain.loc_name,
