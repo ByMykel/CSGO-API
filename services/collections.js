@@ -3,6 +3,7 @@ import { $t, languageData } from "./translations.js";
 import { state } from "./main.js";
 import { getRarityColor } from "../utils/index.js";
 import { getImageUrl, getImageUrlSvg } from "../constants.js";
+import collectionReleaseDates from "../utils/collectionReleaseDates.json" with { type: "json" };
 
 const SPECIAL_COLLECTIONS = ["#CSGO_set_timed_drops_achroma", "#CSGO_set_timed_drops_exuberant"];
 
@@ -58,10 +59,13 @@ const getImage = item => {
 const parseItem = item => {
     const { skinsByCollections, cratesByCollections } = state;
     const { image, image_inventory } = getImage(item);
+    const id = `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`;
 
     return {
-        id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
+        id,
         name: item.name_force ? $t(item.name_force) : $t(item.name),
+        description: $t(item.set_description),
+        release_date: collectionReleaseDates[id] ?? null,
         crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(i => ({
             ...i,
             name: $t(i.name),
@@ -90,10 +94,13 @@ const parseItemSelfOpening = item => {
 
     const image =
         cdnImages[item.image_inventory.toLowerCase()] ?? getImageUrl(item.image_inventory.toLowerCase());
+    const id = `collection-${item.object_id}`;
 
     return {
-        id: `collection-${item.object_id}`,
+        id,
         name: $t(item.item_name),
+        description: $t(item.set_description),
+        release_date: collectionReleaseDates[id] ?? null,
         crates: [],
         contains: (skinsByCollections?.[item.name] ?? []).map(i => ({
             ...i,
