@@ -15849,6 +15849,205 @@
   }
  },
  {
+  "id": "collection-set-arabesque",
+  "name": "The Arabesque Collection",
+  "crates": [],
+  "contains": [
+   {
+    "id": "skin-597120dcc9dc",
+    "name": "PP-Bizon | Traitor",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1472",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_bizon_traitor_light_png.png"
+   },
+   {
+    "id": "skin-ba6bf5572bb9",
+    "name": "MP9 | Dune Asp",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1473",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_dune_asp_light_png.png"
+   },
+   {
+    "id": "skin-4ab74eebe0c0",
+    "name": "Nova | Morning Sun",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1474",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_morning_sun_light_png.png"
+   },
+   {
+    "id": "skin-c624b6694da0",
+    "name": "SCAR-20 | Sirocco Script",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1453",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_sirocco_light_png.png"
+   },
+   {
+    "id": "skin-4390d95df013",
+    "name": "Five-SeveN | Desert Seal",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1457",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_desert_seal_light_png.png"
+   },
+   {
+    "id": "skin-5fdbc79e9391",
+    "name": "Dual Berettas | Mystic Conjunction",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1459",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dualies_mystic_conjunction_v3_light_png.png"
+   },
+   {
+    "id": "skin-4f033a7badb4",
+    "name": "Sawed-Off | Lunar Wyrm",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1475",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_sawedoff_lunar_wyrm_light_png.png"
+   },
+   {
+    "id": "skin-a7894cfa1ec1",
+    "name": "FAMAS | Snake Song",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1461",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_snake_song_light_png.png"
+   },
+   {
+    "id": "skin-d23df8a148c2",
+    "name": "Tec-9 | Sultan",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1462",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_sultan_light_png.png"
+   },
+   {
+    "id": "skin-814d19013b18",
+    "name": "MAC-10 | Arabesque Mosaic",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1454",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_arabesque_gold_light_png.png"
+   },
+   {
+    "id": "skin-8c086e8406f0",
+    "name": "AUG | Lapis Lazuli",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1464",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_lapis_lazuli_light_png.png"
+   },
+   {
+    "id": "skin-17a447e64559",
+    "name": "Glock-18 | Ifrit Lattice",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1460",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ifrit_lattice_light_png.png"
+   },
+   {
+    "id": "skin-9f80f7a57fce",
+    "name": "P250 | Lotus Imprint",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1455",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_lotus_imprint_glitter_purple_light_png.png"
+   },
+   {
+    "id": "skin-febc497c7cf2",
+    "name": "Desert Eagle | Eastern Enigma",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Classified",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1458",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_eastern_enigma_blue_light_png.png"
+   },
+   {
+    "id": "skin-ba6fb75e8368",
+    "name": "M4A4 | Falak",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Classified",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1463",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_falak_light_png.png"
+   },
+   {
+    "id": "skin-6e5532fe3b91",
+    "name": "AWP | Sovereign Flame",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Covert",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1465",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_sovereign_flame_light_png.png"
+   },
+   {
+    "id": "skin-651edfe9a99a",
+    "name": "AK-47 | Consequence of the Jinn",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Covert",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1466",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_jinn_consequence_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_arabesque.svg",
+  "original": {
+   "name": "#CSGO_set_arabesque",
+   "image_inventory": "econ/set_icons/set_arabesque"
+  }
+ },
+ {
   "id": "collection-set-community-36",
   "name": "The Genesis Collection",
   "crates": [
@@ -16826,6 +17025,205 @@
   "original": {
    "name": "#CSGO_set_realism_camo",
    "image_inventory": "econ/set_icons/set_realism_camo"
+  }
+ },
+ {
+  "id": "collection-set-spy-tech",
+  "name": "The Spy Tech Collection",
+  "crates": [],
+  "contains": [
+   {
+    "id": "skin-ffce7ece69a0",
+    "name": "MP7 | Base-2",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1468",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_mp7_binary_green_light_png.png"
+   },
+   {
+    "id": "skin-cae293d76ade",
+    "name": "Tec-9 | Perimeter",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1447",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_perimeter_urban_light_png.png"
+   },
+   {
+    "id": "skin-9cfeaf972aa7",
+    "name": "MAC-10 | Video Cam",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1448",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_video_cam_light_png.png"
+   },
+   {
+    "id": "skin-57bff25c9e87",
+    "name": "SCAR-20 | Arctic Camo Panels",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1470",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_arctic_camo_panels_light_png.png"
+   },
+   {
+    "id": "skin-6a9f594a5d3c",
+    "name": "XM1014 | Black Site",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1471",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_xm1014_black_site_light_png.png"
+   },
+   {
+    "id": "skin-3e29c2ccb9d9",
+    "name": "FAMAS | Corp Defense",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "Industrial Grade",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1477",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_corp_defense_light_png.png"
+   },
+   {
+    "id": "skin-68f3c97df6fb",
+    "name": "R8 Revolver | Monarch",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1445",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_r8_monarch_extended_light_png.png"
+   },
+   {
+    "id": "skin-898c79236bd1",
+    "name": "AUG | Signal Scanner",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1452",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_ghost_signal_light_png.png"
+   },
+   {
+    "id": "skin-d79f18bbf38c",
+    "name": "MP9 | Spy Prototype",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1469",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_prototype_extended_light_png.png"
+   },
+   {
+    "id": "skin-9a04113a9d7b",
+    "name": "M4A4 | Dark Operative",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "Mil-Spec Grade",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1446",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_black_side_matte_light_png.png"
+   },
+   {
+    "id": "skin-0b4117bef059",
+    "name": "CZ75-Auto | Hydraulics",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1443",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_cz75_hydraulics_light_png.png"
+   },
+   {
+    "id": "skin-a559f10a1997",
+    "name": "Nova | Smart Gun",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1442",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_smart_light_png.png"
+   },
+   {
+    "id": "skin-fb4c997d4376",
+    "name": "AWP | Black Box",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "Restricted",
+     "color": "#8847ff"
+    },
+    "paint_index": "1467",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_black_box_light_png.png"
+   },
+   {
+    "id": "skin-ef8a4654c567",
+    "name": "USP-S | Spiral Glitch",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Classified",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1451",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usps_spiral_glitch_iridescent_light_png.png"
+   },
+   {
+    "id": "skin-1372e31792c1",
+    "name": "M4A1-S | Fatal Glitch",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "Classified",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1476",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_spyglitch_green_m4a1s_light_png.png"
+   },
+   {
+    "id": "skin-6370d1af59f7",
+    "name": "AK-47 | AUTOEXEC",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Covert",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1449",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_autoexec_camo_light_png.png"
+   },
+   {
+    "id": "skin-59c755307d22",
+    "name": "Glock-18 | Ghost Protocol",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "Covert",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1450",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ghost_protocol_red_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_spy_tech.svg",
+  "original": {
+   "name": "#CSGO_set_spy_tech",
+   "image_inventory": "econ/set_icons/set_spy_tech"
   }
  },
  {
@@ -18508,6 +18906,298 @@
   }
  },
  {
+  "id": "collection-set-auto-racing",
+  "name": "Auto Racing Sticker Collection",
+  "crates": [],
+  "contains": [
+   {
+    "id": "sticker-10343",
+    "name": "Boreal Blast",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_boreal_blast_png.png"
+   },
+   {
+    "id": "sticker-10350",
+    "name": "Safari Shine",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_safari_shine_png.png"
+   },
+   {
+    "id": "sticker-10341",
+    "name": "Blaze Breeze",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_blaze_breeze_png.png"
+   },
+   {
+    "id": "sticker-11194",
+    "name": "Please Be Patient",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_be_patient_png.png"
+   },
+   {
+    "id": "sticker-10344",
+    "name": "Bunnyhop Hydraulics",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_bhop_hydraulics_png.png"
+   },
+   {
+    "id": "sticker-10349",
+    "name": "Run Boost Lift Kits",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_run_boost_png.png"
+   },
+   {
+    "id": "sticker-10353",
+    "name": "W Performance Tires",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_w_tires_png.png"
+   },
+   {
+    "id": "sticker-10348",
+    "name": "Roentgen Raceclub",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_roentgen_raceclub_png.png"
+   },
+   {
+    "id": "sticker-10346",
+    "name": "Defusal Sprint",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_defusal_sprint_png.png"
+   },
+   {
+    "id": "sticker-10347",
+    "name": "Killometer",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_killometer_png.png"
+   },
+   {
+    "id": "sticker-10345",
+    "name": "Checkered Kukri",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_racing_flag_png.png"
+   },
+   {
+    "id": "sticker-10342",
+    "name": "Bomb On Board",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_bomb_on_board_png.png"
+   },
+   {
+    "id": "sticker-10351",
+    "name": "Sand Dune Baja Tour",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_sand_dune_baja_tour_png.png"
+   },
+   {
+    "id": "sticker-10354",
+    "name": "Cone Zone (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_cone_zone_png.png"
+   },
+   {
+    "id": "sticker-10356",
+    "name": "First Lap (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_first_lap_png.png"
+   },
+   {
+    "id": "sticker-10357",
+    "name": "Neo-Hold (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_neo_hold_png.png"
+   },
+   {
+    "id": "sticker-10358",
+    "name": "Neo-Rush (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_neo_rush_png.png"
+   },
+   {
+    "id": "sticker-10359",
+    "name": "Safety First (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_safety_first_png.png"
+   },
+   {
+    "id": "sticker-10355",
+    "name": "Engine Start (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_engine_start_png.png"
+   },
+   {
+    "id": "sticker-10360",
+    "name": "Eco Mode (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_eco_mode_png.png"
+   },
+   {
+    "id": "sticker-10361",
+    "name": "Lucky Charms (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_lucky_charms_png.png"
+   },
+   {
+    "id": "sticker-11195",
+    "name": "Born To Peek (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_born_to_peek_png.png"
+   },
+   {
+    "id": "sticker-10363",
+    "name": "Turbo Peek (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_turbo_peek_png.png"
+   },
+   {
+    "id": "sticker-10364",
+    "name": "Sniper Ahead (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_watch_sniper_png.png"
+   },
+   {
+    "id": "sticker-10365",
+    "name": "Burnout (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_burnout_png.png"
+   },
+   {
+    "id": "sticker-10368",
+    "name": "NITRO! (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_nitro_png.png"
+   },
+   {
+    "id": "sticker-10366",
+    "name": "Digital Dashboard (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_digital_dashboard_png.png"
+   },
+   {
+    "id": "sticker-10367",
+    "name": "Handheld (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_handheld_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_auto_racing_png.png",
+  "original": {
+   "name": "#CSGO_set_auto_racing",
+   "image_inventory": "econ/set_icons/set_auto_racing"
+  }
+ },
+ {
   "id": "collection-set-community-2025",
   "name": "2025 Community Sticker Collection",
   "crates": [],
@@ -18807,6 +19497,288 @@
   "original": {
    "name": "#CSGO_set_community_2025",
    "image_inventory": "econ/set_icons/set_community_2025"
+  }
+ },
+ {
+  "id": "collection-set-fruits-veggies",
+  "name": "Fruits And Veggies Sticker Collection",
+  "crates": [],
+  "contains": [
+   {
+    "id": "sticker-10314",
+    "name": "B'nana Strike",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_nana_strike_png.png"
+   },
+   {
+    "id": "sticker-10319",
+    "name": "From The Source",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_from_the_source_png.png"
+   },
+   {
+    "id": "sticker-10315",
+    "name": "Agent Kucumber",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_agent_kucumber_png.png"
+   },
+   {
+    "id": "sticker-10316",
+    "name": "Box Logo",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_box_logo_png.png"
+   },
+   {
+    "id": "sticker-10317",
+    "name": "Cry Baby",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_dont_cry_png.png"
+   },
+   {
+    "id": "sticker-10318",
+    "name": "Fresh Cut",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_fresh_cut_png.png"
+   },
+   {
+    "id": "sticker-10320",
+    "name": "Heckler",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_heckler_png.png"
+   },
+   {
+    "id": "sticker-10321",
+    "name": "Lemin",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_lemin_png.png"
+   },
+   {
+    "id": "sticker-10322",
+    "name": "Peekle",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_peekle_png.png"
+   },
+   {
+    "id": "sticker-10323",
+    "name": "Pungent Comms",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_pungent_comms_png.png"
+   },
+   {
+    "id": "sticker-10324",
+    "name": "Radish K",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_radish_k_png.png"
+   },
+   {
+    "id": "sticker-10325",
+    "name": "Scratch N' Whiff",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "High Grade",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_scratch_n_whiff_png.png"
+   },
+   {
+    "id": "sticker-10326",
+    "name": "Aceberry (Glitter)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/glitter_aceberry_png.png"
+   },
+   {
+    "id": "sticker-10327",
+    "name": "Apple A Day (Glitter)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/glitter_apple_a_day_png.png"
+   },
+   {
+    "id": "sticker-10328",
+    "name": "Juice Box (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_juice_box_png.png"
+   },
+   {
+    "id": "sticker-10329",
+    "name": "Knife Streak (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_knife_streak_png.png"
+   },
+   {
+    "id": "sticker-10330",
+    "name": "From The Vine (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_from_the_vine_png.png"
+   },
+   {
+    "id": "sticker-10331",
+    "name": "Hot Pepper (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_hot_pepper_png.png"
+   },
+   {
+    "id": "sticker-10332",
+    "name": "Quality Control (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_quality_control_png.png"
+   },
+   {
+    "id": "sticker-10333",
+    "name": "Ultra Fruity (Holo)",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "Remarkable",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_ultra_fruity_png.png"
+   },
+   {
+    "id": "sticker-10334",
+    "name": "B-A-N-A-N-A-S (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_banana_face_png.png"
+   },
+   {
+    "id": "sticker-10335",
+    "name": "Bananart (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_modern_art_png.png"
+   },
+   {
+    "id": "sticker-10336",
+    "name": "Dragon Fruit (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_dragon_fruit_png.png"
+   },
+   {
+    "id": "sticker-10337",
+    "name": "Early Bird (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_early_bird_png.png"
+   },
+   {
+    "id": "sticker-10338",
+    "name": "Fruit Fly (Foil)",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "Exotic",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_fruit_fly_png.png"
+   },
+   {
+    "id": "sticker-10339",
+    "name": "Pineapple On Pizza (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/lenticular_pineapple_pizza_png.png"
+   },
+   {
+    "id": "sticker-10340",
+    "name": "Pepper Gauge (Lenticular)",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "Extraordinary",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/lenticular_pepper_gauge_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_fruits_veggies_png.png",
+  "original": {
+   "name": "#CSGO_set_fruits_veggies",
+   "image_inventory": "econ/set_icons/set_fruits_veggies"
   }
  },
  {

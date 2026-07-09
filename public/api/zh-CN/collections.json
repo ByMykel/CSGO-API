@@ -15849,6 +15849,205 @@
   }
  },
  {
+  "id": "collection-set-arabesque",
+  "name": "蔓藤纹收藏品",
+  "crates": [],
+  "contains": [
+   {
+    "id": "skin-597120dcc9dc",
+    "name": "PP-野牛 | 叛徒",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1472",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_bizon_traitor_light_png.png"
+   },
+   {
+    "id": "skin-ba6bf5572bb9",
+    "name": "MP9 | 沙蝰",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1473",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_dune_asp_light_png.png"
+   },
+   {
+    "id": "skin-4ab74eebe0c0",
+    "name": "新星 | 晨谕",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1474",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_morning_sun_light_png.png"
+   },
+   {
+    "id": "skin-c624b6694da0",
+    "name": "SCAR-20 | 风蚀铭沙",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1453",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_sirocco_light_png.png"
+   },
+   {
+    "id": "skin-4390d95df013",
+    "name": "FN57 | 沙漠封印",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1457",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_desert_seal_light_png.png"
+   },
+   {
+    "id": "skin-5fdbc79e9391",
+    "name": "双持贝瑞塔 | 流金契目",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1459",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dualies_mystic_conjunction_v3_light_png.png"
+   },
+   {
+    "id": "skin-4f033a7badb4",
+    "name": "截短霰弹枪 | 月虬",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1475",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_sawedoff_lunar_wyrm_light_png.png"
+   },
+   {
+    "id": "skin-a7894cfa1ec1",
+    "name": "法玛斯 | 蛇吟",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1461",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_snake_song_light_png.png"
+   },
+   {
+    "id": "skin-d23df8a148c2",
+    "name": "Tec-9 | 苏丹",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1462",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_sultan_light_png.png"
+   },
+   {
+    "id": "skin-814d19013b18",
+    "name": "MAC-10 | 阿拉伯式马赛克",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1454",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_arabesque_gold_light_png.png"
+   },
+   {
+    "id": "skin-8c086e8406f0",
+    "name": "AUG | 星点天青",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1464",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_lapis_lazuli_light_png.png"
+   },
+   {
+    "id": "skin-17a447e64559",
+    "name": "格洛克18型 | 火灵纹阵",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1460",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ifrit_lattice_light_png.png"
+   },
+   {
+    "id": "skin-9f80f7a57fce",
+    "name": "P250 | 莲花印",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1455",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_lotus_imprint_glitter_purple_light_png.png"
+   },
+   {
+    "id": "skin-febc497c7cf2",
+    "name": "沙漠之鹰 | 东方之谜",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1458",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_eastern_enigma_blue_light_png.png"
+   },
+   {
+    "id": "skin-ba6fb75e8368",
+    "name": "M4A4 | 吞天巨蛇",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1463",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_falak_light_png.png"
+   },
+   {
+    "id": "skin-6e5532fe3b91",
+    "name": "AWP | 无上之焰",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1465",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_sovereign_flame_light_png.png"
+   },
+   {
+    "id": "skin-651edfe9a99a",
+    "name": "AK-47 | 精灵之噬",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1466",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_jinn_consequence_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_arabesque.svg",
+  "original": {
+   "name": "#CSGO_set_arabesque",
+   "image_inventory": "econ/set_icons/set_arabesque"
+  }
+ },
+ {
   "id": "collection-set-community-36",
   "name": "创世纪收藏品",
   "crates": [
@@ -16826,6 +17025,205 @@
   "original": {
    "name": "#CSGO_set_realism_camo",
    "image_inventory": "econ/set_icons/set_realism_camo"
+  }
+ },
+ {
+  "id": "collection-set-spy-tech",
+  "name": "谍影收藏品",
+  "crates": [],
+  "contains": [
+   {
+    "id": "skin-ffce7ece69a0",
+    "name": "MP7 | 二进制",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1468",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_mp7_binary_green_light_png.png"
+   },
+   {
+    "id": "skin-cae293d76ade",
+    "name": "Tec-9 | 边界",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1447",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_perimeter_urban_light_png.png"
+   },
+   {
+    "id": "skin-9cfeaf972aa7",
+    "name": "MAC-10 | 射向头",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1448",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_video_cam_light_png.png"
+   },
+   {
+    "id": "skin-57bff25c9e87",
+    "name": "SCAR-20 | 冰原迷彩",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1470",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_arctic_camo_panels_light_png.png"
+   },
+   {
+    "id": "skin-6a9f594a5d3c",
+    "name": "XM1014 | 暗域",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1471",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_xm1014_black_site_light_png.png"
+   },
+   {
+    "id": "skin-3e29c2ccb9d9",
+    "name": "法玛斯 | 精英护卫",
+    "rarity": {
+     "id": "rarity_uncommon_weapon",
+     "name": "工业级",
+     "color": "#5e98d9"
+    },
+    "paint_index": "1477",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_corp_defense_light_png.png"
+   },
+   {
+    "id": "skin-68f3c97df6fb",
+    "name": "R8左轮手枪 | 帝王蝶",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1445",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_r8_monarch_extended_light_png.png"
+   },
+   {
+    "id": "skin-898c79236bd1",
+    "name": "AUG | 侦测仪",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1452",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_ghost_signal_light_png.png"
+   },
+   {
+    "id": "skin-d79f18bbf38c",
+    "name": "MP9 | 特工原型",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1469",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_prototype_extended_light_png.png"
+   },
+   {
+    "id": "skin-9a04113a9d7b",
+    "name": "M4A4 | 暗影特工",
+    "rarity": {
+     "id": "rarity_rare_weapon",
+     "name": "军规级",
+     "color": "#4b69ff"
+    },
+    "paint_index": "1446",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_black_side_matte_light_png.png"
+   },
+   {
+    "id": "skin-0b4117bef059",
+    "name": "CZ75自动型 | 液压",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1443",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_cz75_hydraulics_light_png.png"
+   },
+   {
+    "id": "skin-a559f10a1997",
+    "name": "新星 | 枪工智能",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1442",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_smart_light_png.png"
+   },
+   {
+    "id": "skin-fb4c997d4376",
+    "name": "AWP | 黑匣子",
+    "rarity": {
+     "id": "rarity_mythical_weapon",
+     "name": "受限级",
+     "color": "#8847ff"
+    },
+    "paint_index": "1467",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_black_box_light_png.png"
+   },
+   {
+    "id": "skin-ef8a4654c567",
+    "name": "USP消音版 | 眩流",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1451",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usps_spiral_glitch_iridescent_light_png.png"
+   },
+   {
+    "id": "skin-1372e31792c1",
+    "name": "M4A1消音版 | 致命故障",
+    "rarity": {
+     "id": "rarity_legendary_weapon",
+     "name": "保密级",
+     "color": "#d32ce6"
+    },
+    "paint_index": "1476",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_spyglitch_green_m4a1s_light_png.png"
+   },
+   {
+    "id": "skin-6370d1af59f7",
+    "name": "AK-47 | AUTOEXEC",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1449",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_autoexec_camo_light_png.png"
+   },
+   {
+    "id": "skin-59c755307d22",
+    "name": "格洛克18型 | 幽灵协议",
+    "rarity": {
+     "id": "rarity_ancient_weapon",
+     "name": "隐秘级",
+     "color": "#eb4b4b"
+    },
+    "paint_index": "1450",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ghost_protocol_red_light_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_spy_tech.svg",
+  "original": {
+   "name": "#CSGO_set_spy_tech",
+   "image_inventory": "econ/set_icons/set_spy_tech"
   }
  },
  {
@@ -18508,6 +18906,298 @@
   }
  },
  {
+  "id": "collection-set-auto-racing",
+  "name": "极速印花收藏品",
+  "crates": [],
+  "contains": [
+   {
+    "id": "sticker-10343",
+    "name": "寒林爆鸣",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_boreal_blast_png.png"
+   },
+   {
+    "id": "sticker-10350",
+    "name": "荒野耀光",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_safari_shine_png.png"
+   },
+   {
+    "id": "sticker-10341",
+    "name": "烈焰微醺",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_blaze_breeze_png.png"
+   },
+   {
+    "id": "sticker-11194",
+    "name": "请耐心等待",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_be_patient_png.png"
+   },
+   {
+    "id": "sticker-10344",
+    "name": "兔跳液压",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_bhop_hydraulics_png.png"
+   },
+   {
+    "id": "sticker-10349",
+    "name": "弹射助推",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_run_boost_png.png"
+   },
+   {
+    "id": "sticker-10353",
+    "name": "W 竞速胎",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_w_tires_png.png"
+   },
+   {
+    "id": "sticker-10348",
+    "name": "伦琴赛车俱乐部",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_roentgen_raceclub_png.png"
+   },
+   {
+    "id": "sticker-10346",
+    "name": "拆弹冲刺",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_defusal_sprint_png.png"
+   },
+   {
+    "id": "sticker-10347",
+    "name": "杀手里程",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_killometer_png.png"
+   },
+   {
+    "id": "sticker-10345",
+    "name": "棋盘格廓尔喀",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_racing_flag_png.png"
+   },
+   {
+    "id": "sticker-10342",
+    "name": "炸弹已安放",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_bomb_on_board_png.png"
+   },
+   {
+    "id": "sticker-10351",
+    "name": "巴哈沙丘巡回赛",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/paper_sand_dune_baja_tour_png.png"
+   },
+   {
+    "id": "sticker-10354",
+    "name": "雪糕筒（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_cone_zone_png.png"
+   },
+   {
+    "id": "sticker-10356",
+    "name": "首圈（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_first_lap_png.png"
+   },
+   {
+    "id": "sticker-10357",
+    "name": "新式侧滑（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_neo_hold_png.png"
+   },
+   {
+    "id": "sticker-10358",
+    "name": "新式冲刺（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_neo_rush_png.png"
+   },
+   {
+    "id": "sticker-10359",
+    "name": "安全第一（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_safety_first_png.png"
+   },
+   {
+    "id": "sticker-10355",
+    "name": "引擎启动（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/holo_engine_start_png.png"
+   },
+   {
+    "id": "sticker-10360",
+    "name": "经济模式（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_eco_mode_png.png"
+   },
+   {
+    "id": "sticker-10361",
+    "name": "幸运符（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_lucky_charms_png.png"
+   },
+   {
+    "id": "sticker-11195",
+    "name": "生而匹敌（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_born_to_peek_png.png"
+   },
+   {
+    "id": "sticker-10363",
+    "name": "疾速拉枪（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_turbo_peek_png.png"
+   },
+   {
+    "id": "sticker-10364",
+    "name": "前方有狙（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/foil_watch_sniper_png.png"
+   },
+   {
+    "id": "sticker-10365",
+    "name": "燃爆（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_burnout_png.png"
+   },
+   {
+    "id": "sticker-10368",
+    "name": "氮气加速！（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_nitro_png.png"
+   },
+   {
+    "id": "sticker-10366",
+    "name": "数显仪表（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_digital_dashboard_png.png"
+   },
+   {
+    "id": "sticker-10367",
+    "name": "掌机（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/auto_racing/lenticular_handheld_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_auto_racing_png.png",
+  "original": {
+   "name": "#CSGO_set_auto_racing",
+   "image_inventory": "econ/set_icons/set_auto_racing"
+  }
+ },
+ {
   "id": "collection-set-community-2025",
   "name": "2025社区印花收藏品",
   "crates": [],
@@ -18807,6 +19497,288 @@
   "original": {
    "name": "#CSGO_set_community_2025",
    "image_inventory": "econ/set_icons/set_community_2025"
+  }
+ },
+ {
+  "id": "collection-set-fruits-veggies",
+  "name": "果蔬印花收藏品",
+  "crates": [],
+  "contains": [
+   {
+    "id": "sticker-10314",
+    "name": "蕉蕉打击",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_nana_strike_png.png"
+   },
+   {
+    "id": "sticker-10319",
+    "name": "来自起源",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_from_the_source_png.png"
+   },
+   {
+    "id": "sticker-10315",
+    "name": "狂瓜先生",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_agent_kucumber_png.png"
+   },
+   {
+    "id": "sticker-10316",
+    "name": "果盒标志",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_box_logo_png.png"
+   },
+   {
+    "id": "sticker-10317",
+    "name": "小哭包",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_dont_cry_png.png"
+   },
+   {
+    "id": "sticker-10318",
+    "name": "鲜切",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_fresh_cut_png.png"
+   },
+   {
+    "id": "sticker-10320",
+    "name": "爆了再说",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_heckler_png.png"
+   },
+   {
+    "id": "sticker-10321",
+    "name": "柠莔",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_lemin_png.png"
+   },
+   {
+    "id": "sticker-10322",
+    "name": "小拉",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_peekle_png.png"
+   },
+   {
+    "id": "sticker-10323",
+    "name": "毒舌频道",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_pungent_comms_png.png"
+   },
+   {
+    "id": "sticker-10324",
+    "name": "萝卜 K",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_radish_k_png.png"
+   },
+   {
+    "id": "sticker-10325",
+    "name": "擦即是空",
+    "rarity": {
+     "id": "rarity_rare",
+     "name": "高级",
+     "color": "#4b69ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/paper_scratch_n_whiff_png.png"
+   },
+   {
+    "id": "sticker-10326",
+    "name": "莓有对手（闪耀）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/glitter_aceberry_png.png"
+   },
+   {
+    "id": "sticker-10327",
+    "name": "苹果啃一天（闪耀）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/glitter_apple_a_day_png.png"
+   },
+   {
+    "id": "sticker-10328",
+    "name": "果汁盒（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_juice_box_png.png"
+   },
+   {
+    "id": "sticker-10329",
+    "name": "果迎斩（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_knife_streak_png.png"
+   },
+   {
+    "id": "sticker-10330",
+    "name": "蔓生（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_from_the_vine_png.png"
+   },
+   {
+    "id": "sticker-10331",
+    "name": "椒灼（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_hot_pepper_png.png"
+   },
+   {
+    "id": "sticker-10332",
+    "name": "品质保怔（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_quality_control_png.png"
+   },
+   {
+    "id": "sticker-10333",
+    "name": "果力爆棚（全息）",
+    "rarity": {
+     "id": "rarity_mythical",
+     "name": "卓越",
+     "color": "#8847ff"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/holo_ultra_fruity_png.png"
+   },
+   {
+    "id": "sticker-10334",
+    "name": "禾-曰-艹-隹-灬（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_banana_face_png.png"
+   },
+   {
+    "id": "sticker-10335",
+    "name": "香蕉艺术（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_modern_art_png.png"
+   },
+   {
+    "id": "sticker-10336",
+    "name": "火龙果（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_dragon_fruit_png.png"
+   },
+   {
+    "id": "sticker-10337",
+    "name": "早起的鸟儿（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_early_bird_png.png"
+   },
+   {
+    "id": "sticker-10338",
+    "name": "果蝇（闪亮）",
+    "rarity": {
+     "id": "rarity_legendary",
+     "name": "奇异",
+     "color": "#d32ce6"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/foil_fruit_fly_png.png"
+   },
+   {
+    "id": "sticker-10339",
+    "name": "披萨有菠萝（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/lenticular_pineapple_pizza_png.png"
+   },
+   {
+    "id": "sticker-10340",
+    "name": "辣度仪（透镜）",
+    "rarity": {
+     "id": "rarity_ancient",
+     "name": "非凡",
+     "color": "#eb4b4b"
+    },
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/fruits_veggies/lenticular_pepper_gauge_png.png"
+   }
+  ],
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_fruits_veggies_png.png",
+  "original": {
+   "name": "#CSGO_set_fruits_veggies",
+   "image_inventory": "econ/set_icons/set_fruits_veggies"
   }
  },
  {
