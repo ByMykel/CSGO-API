@@ -6778,6 +6778,73 @@
   }
  },
  {
+  "id": "skin-6370d1af59f7",
+  "name": "AK-47 | АВТОЗАПУСК",
+  "description": "Мощная и надежная штурмовая винтовка АК-47 — одна из самых известных в мире. Наиболее смертельна стрельба короткими и точными очередями. Глянцевый сине-розовый градиент дополнен графическими элементами.\\n\\n<i>«kill» в консоли</i>",
+  "weapon": {
+   "id": "weapon_ak47",
+   "weapon_id": 7,
+   "name": "AK-47"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "ak47_autoexec_camo",
+   "name": "АВТОЗАПУСК"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_ancient_weapon",
+   "name": "Тайное",
+   "color": "#eb4b4b"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1449",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_autoexec_camo_light_png.png",
+  "original": {
+   "name": "weapon_ak47"
+  }
+ },
+ {
   "id": "skin-f64cdaac0b90",
   "name": "AK-47 | Полёт журавля",
   "description": "Мощная и надежная штурмовая винтовка АК-47 — одна из самых известных в мире. Наиболее смертельна стрельба короткими и точными очередями. На корпус вручную нанесён рисунок журавля и золотистые детали поверх чёрно-белой основы.\\n\\n<i>Перед кровавой луной</i>",
@@ -6919,6 +6986,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiNQu6WRbbx9LP-AB3GV_uJ_t-l9AXu2lk1xsD-EnI3_JHmeaAV1CZB1RbEJtxfuxNHuMuq251PY3o4UxXjgznQeg4Qz-rg",
+  "original": {
+   "name": "weapon_ak47"
+  }
+ },
+ {
+  "id": "skin-651edfe9a99a",
+  "name": "AK-47 | Порождения джинна",
+  "description": "Мощная и надежная штурмовая винтовка АК-47 — одна из самых известных в мире. Наиболее смертельна стрельба короткими и точными очередями. На ярко-оранжевую основу нанесены блестящие золотистые языки пламени, а на магазине и над ним изображён джинн.\\n\\n<i>Загадывай с умом...</i>",
+  "weapon": {
+   "id": "weapon_ak47",
+   "weapon_id": 7,
+   "name": "AK-47"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "ak47_jinn_consequence",
+   "name": "Порождения джинна"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_ancient_weapon",
+   "name": "Тайное",
+   "color": "#eb4b4b"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1466",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_ak47_ak47_jinn_consequence_light_png.png",
   "original": {
    "name": "weapon_ak47"
   }
@@ -11999,6 +12133,140 @@
   }
  },
  {
+  "id": "skin-898c79236bd1",
+  "name": "AUG | Сканер сигналов",
+  "description": "Мощная и точная винтовка с оптическим прицелом AUG компенсирует свою долгую перезарядку низким разбросом пуль и высокой скорострельностью. На матовую чёрную основу нанесены разноцветные элементы.\\n\\n<i>> Повторное подключение ... ... ...</i>",
+  "weapon": {
+   "id": "weapon_aug",
+   "weapon_id": 8,
+   "name": "AUG"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "aug_ghost_signal",
+   "name": "Сканер сигналов"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1452",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_ghost_signal_light_png.png",
+  "original": {
+   "name": "weapon_aug"
+  }
+ },
+ {
+  "id": "skin-8c086e8406f0",
+  "name": "AUG | Ляпис-лазурь",
+  "description": "Мощная и точная винтовка с оптическим прицелом AUG компенсирует свою долгую перезарядку низким разбросом пуль и высокой скорострельностью. Оружие окрашено в белый, синий и золотой цвета, напоминающие лазурит.\\n\\n<i>Изысканное изделие — одновременно веское и хрупкое</i>",
+  "weapon": {
+   "id": "weapon_aug",
+   "weapon_id": 8,
+   "name": "AUG"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "aug_lapis_lazuli",
+   "name": "Ляпис-лазурь"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1464",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_aug_aug_lapis_lazuli_light_png.png",
+  "original": {
+   "name": "weapon_aug"
+  }
+ },
+ {
   "id": "skin-f0c2d895b50d",
   "name": "AUG | Роскошная отделка",
   "description": "Мощная и точная винтовка с оптическим прицелом AUG компенсирует свою долгую перезарядку низким разбросом пуль и высокой скорострельностью. На корпус нанесён рисунок, повторяющий вид и ощущения от пуховика. Дополнен бронзовыми акцентами.\\n\\n<i>Премиум-набор</i>",
@@ -15059,6 +15327,73 @@
   }
  },
  {
+  "id": "skin-fb4c997d4376",
+  "name": "AWP | Чёрный ящик",
+  "description": "Печально известная снайперская винтовка AWP — очень опасное и очень эффективное оружие, которое легко узнается по характерному звуку выстрела и жестокому правилу: «один выстрел, один труп». Матовая чёрная окраска дополнена оранжевой полосой.\\n\\n<i>«Ничего мудрёного, ясно тебе?»</i>",
+  "weapon": {
+   "id": "weapon_awp",
+   "weapon_id": 9,
+   "name": "AWP"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "awp_black_box",
+   "name": "Чёрный ящик"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1467",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_black_box_light_png.png",
+  "original": {
+   "name": "weapon_awp"
+  }
+ },
+ {
   "id": "skin-a5be0877a3d7",
   "name": "AWP | Ледяной уголь",
   "description": "Печально известная снайперская винтовка AWP — очень опасное и очень эффективное оружие, которое легко узнается по характерному звуку выстрела и жестокому правилу: «один выстрел, один труп». На корпус был нанесён градиент, переходящий из ярко-зелёного в синий.\\n\\n<i>Холоден на ощупь</i>",
@@ -15351,6 +15686,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DVL0OO7baFjM8-UD2qSyPpJvOhuRz39kUpw42zWntiteSiVaQYhCJJzEeIOukSwl4XmPrmw4VHXjtpExC_33zQJsHjNnJgjQA",
+  "original": {
+   "name": "weapon_awp"
+  }
+ },
+ {
+  "id": "skin-6e5532fe3b91",
+  "name": "AWP | Пламя суверена",
+  "description": "Печально известная снайперская винтовка AWP — очень опасное и очень эффективное оружие, которое легко узнается по характерному звуку выстрела и жестокому правилу: «один выстрел, один труп». Прицел окрашен в золотой цвет, а по всей длине оружия протягивается пламя.\\n\\n<i>Благородство одержало победу</i>",
+  "weapon": {
+   "id": "weapon_awp",
+   "weapon_id": 9,
+   "name": "AWP"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "awp_sovereign_flame",
+   "name": "Пламя суверена"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_ancient_weapon",
+   "name": "Тайное",
+   "color": "#eb4b4b"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1465",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_awp_awp_sovereign_flame_light_png.png",
   "original": {
    "name": "weapon_awp"
   }
@@ -19345,7 +19747,7 @@
  {
   "id": "skin-8084beee1235",
   "name": "★ Штык-нож | Убийство",
-  "description": "Со времен Второй мировой войны его дизайн принципиально не изменился, но штык по-прежнему остается на вооружении в современной армии. Его пользу оценили, например, в периоды второй войны в Персидском заливе и войны в Афганистане. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Со времен Второй мировой войны его дизайн принципиально не изменился, но штык по-прежнему остается на вооружении в современной армии. Его пользу оценили, например, в периоды второй войны в Персидском заливе и войны в Афганистане. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_bayonet",
    "weapon_id": 500,
@@ -21686,6 +22088,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzl4zv8x1Z5uihZpt_LeisAm6Xyfo45OI7S37gwEhx4WiGnt_8eS2RPw4nX8AkTeNftkS8ltLkNePj5gyI3ZUFk3vfJ75LcA",
+  "original": {
+   "name": "weapon_bizon"
+  }
+ },
+ {
+  "id": "skin-597120dcc9dc",
+  "name": "ПП-19 «Бизон» | Предатель",
+  "description": "У пистолета-пулемёта «Бизон» низкий урон, который компенсируется уникальным вместительным шнековым магазином с быстрой перезарядкой. На оружие нанесён бронзово-золотой узор.\\n\\n<i>Бронза и боль</i>",
+  "weapon": {
+   "id": "weapon_bizon",
+   "weapon_id": 26,
+   "name": "ПП-19 «Бизон»"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "bizon_traitor",
+   "name": "Предатель"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1472",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_bizon_bizon_traitor_light_png.png",
   "original": {
    "name": "weapon_bizon"
   }
@@ -25639,6 +26108,73 @@
   }
  },
  {
+  "id": "skin-0b4117bef059",
+  "name": "CZ75-Auto | Гидравлика",
+  "description": "Будучи автоматическим вариантом CZ75, CZ75-Auto — идеальный вариант для тех, кто собирается использовать оружие павших противников. Но из-за небольшого запаса патронов при стрельбе вам придется быть куда аккуратнее. Магазин раскрашен под полимерный материал. Над спусковым крючком написано: HYDRA.\\n\\n<i>Ты что, Геракл?</i>",
+  "weapon": {
+   "id": "weapon_cz75a",
+   "weapon_id": 63,
+   "name": "CZ75-Auto"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "cz75_hydraulics",
+   "name": "Гидравлика"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1443",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_cz75a_cz75_hydraulics_light_png.png",
+  "original": {
+   "name": "weapon_cz75a"
+  }
+ },
+ {
   "id": "skin-0ba56fdaa179",
   "name": "CZ75-Auto | Тактикотик",
   "description": "Будучи автоматическим вариантом CZ75, CZ75-Auto — идеальный вариант для тех, кто собирается использовать оружие павших противников. Но из-за небольшого запаса патронов при стрельбе вам придется быть куда аккуратнее. Корпус вручную окрашен в розово-фиолетовые тона и украшен кошачьими наклейками.\\n\\n<i>24 пули, 9 жизней</i>",
@@ -29003,6 +29539,73 @@
   }
  },
  {
+  "id": "skin-febc497c7cf2",
+  "name": "Desert Eagle | Восточная загадка",
+  "description": "Дорогой и крайне мощный Desert Eagle — знаковый пистолет, который непросто освоить, хоть он и удивительно точен на дальних дистанциях. Металлической краской на корпус нанесён рисунок в серебристом, чёрном и синем цветах.\\n\\n<i>Не теряй нить</i>",
+  "weapon": {
+   "id": "weapon_deagle",
+   "weapon_id": 1,
+   "name": "Desert Eagle"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "deagle_eastern_enigma_blue",
+   "name": "Восточная загадка"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_legendary_weapon",
+   "name": "Засекреченное",
+   "color": "#d32ce6"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1458",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_deagle_eastern_enigma_blue_light_png.png",
+  "original": {
+   "name": "weapon_deagle"
+  }
+ },
+ {
   "id": "skin-2bcac1c42296",
   "name": "Desert Eagle | Огненное дыхание",
   "description": "Дорогой и крайне мощный Desert Eagle — знаковый пистолет, который непросто освоить, хоть он и удивительно точен на дальних дистанциях. На корпус перламутровой краской нанесён рисунок фиолетовых и синих языков пламени.\\n\\n<i>Обладает исключительными качествами и характеристиками</i>",
@@ -31600,6 +32203,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL0kp_0-B1f-vOiV6FhKeSWMW-Jxfx5j_J9XSC4kCIrujqNjsGgeHrGa1B2W5t1Q7NetkOwk4C2Ybzq4FDWjI0TzS6viilLv3tp6rwLT-N7rWtjCU_P",
+  "original": {
+   "name": "weapon_elite"
+  }
+ },
+ {
+  "id": "skin-5fdbc79e9391",
+  "name": "Dual Berettas | Мистическое единение",
+  "description": "Одновременная стрельба из двух пистолетов Beretta с большим магазином уменьшает точность и увеличивает время перезарядки. С другой стороны, вы можете стрелять сразу двумя Beretta. Нанесённые на оружие плавные золотые линии при наложении сливаются в глаз пустыни.\\n\\n<i>Общее видение</i>",
+  "weapon": {
+   "id": "weapon_elite",
+   "weapon_id": 2,
+   "name": "Dual Berettas"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "dualies_mystic_conjunction_v3",
+   "name": "Мистическое единение"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1459",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dualies_mystic_conjunction_v3_light_png.png",
   "original": {
    "name": "weapon_elite"
   }
@@ -34785,6 +35455,140 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1d7v-ve5tvIfSHHG6A_uJ_t-l9AX6xzExytWndzdj6eCrGb1MkWZB2TOBc4xK8mtHkZezrsQOPjoITyi_gznQezHhrR0c",
+  "original": {
+   "name": "weapon_famas"
+  }
+ },
+ {
+  "id": "skin-3e29c2ccb9d9",
+  "name": "FAMAS | Корпоративная оборона",
+  "description": "Дешёвый выбор для не очень богатых игроков, FAMAS отлично заполняет нишу между более дорогими автоматами и менее эффективными пистолетами-пулемётами. Оружие окрашено в чёрный и красный цвета.\\n\\n<i>Костюм и тёмные очки продаются отдельно</i>",
+  "weapon": {
+   "id": "weapon_famas",
+   "weapon_id": 10,
+   "name": "FAMAS"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "famas_corp_defense",
+   "name": "Корпоративная оборона"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1477",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_corp_defense_light_png.png",
+  "original": {
+   "name": "weapon_famas"
+  }
+ },
+ {
+  "id": "skin-a7894cfa1ec1",
+  "name": "FAMAS | Змеиная песнь",
+  "description": "Дешёвый выбор для не очень богатых игроков, FAMAS отлично заполняет нишу между более дорогими автоматами и менее эффективными пистолетами-пулемётами. На золотой матовой основе изображена зелёная змея с ярко-золотым контуром.\\n\\n<i>Проблеск надежды</i>",
+  "weapon": {
+   "id": "weapon_famas",
+   "weapon_id": 10,
+   "name": "FAMAS"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "famas_snake_song",
+   "name": "Змеиная песнь"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1461",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_famas_famas_snake_song_light_png.png",
   "original": {
    "name": "weapon_famas"
   }
@@ -38007,6 +38811,73 @@
   },
   "legacy_model": true,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRa7FSNvWBGm6XztFwufdsXCylkBMYvzSCkpu3Ii-QbQ51XJpzQ-8PsUOwmoLvZLm3sQfb3tkTxHj-hytBv35jt7wFBL1lpPNwauo7lw",
+  "original": {
+   "name": "weapon_fiveseven"
+  }
+ },
+ {
+  "id": "skin-4390d95df013",
+  "name": "Five-SeveN | Печать пустыни",
+  "description": "Five-Seven стоит дорого и медленно перезаряжается, однако эти недостатки компенсируются высокой точностью, бронебойностью, щедрым магазином на 20 патронов и снисходительной отдачей. На корпус нанесена печать пустыни в серебристо-фиолетовой расцветке.\\n\\n<i>Судьба зовёт</i>",
+  "weapon": {
+   "id": "weapon_fiveseven",
+   "weapon_id": 3,
+   "name": "Five-SeveN"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "fiveseven_desert_seal",
+   "name": "Печать пустыни"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1457",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_fiveseven_fiveseven_desert_seal_light_png.png",
   "original": {
    "name": "weapon_fiveseven"
   }
@@ -47989,6 +48860,140 @@
   }
  },
  {
+  "id": "skin-59c755307d22",
+  "name": "Glock-18 | Протокол «Призрак»",
+  "description": "Пистолет Glock-18 подходит для первого раунда. Он наиболее эффективен против противников без бронежилета и может вести огонь очередями из трёх выстрелов. Оружие окрашено в красные цвета с разной степенью блеска.\\n\\n<i>«Мне всё равно, следили ли за тобой. Ты уже здесь», — Валерия Дженнер, революционерка</i>",
+  "weapon": {
+   "id": "weapon_glock",
+   "weapon_id": 4,
+   "name": "Glock-18"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "glock_ghost_protocol_red",
+   "name": "Протокол «Призрак»"
+  },
+  "min_float": 0,
+  "max_float": 0.9,
+  "rarity": {
+   "id": "rarity_ancient_weapon",
+   "name": "Тайное",
+   "color": "#eb4b4b"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1450",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ghost_protocol_red_light_png.png",
+  "original": {
+   "name": "weapon_glock"
+  }
+ },
+ {
+  "id": "skin-17a447e64559",
+  "name": "Glock-18 | Ифритова решётка",
+  "description": "Пистолет Glock-18 подходит для первого раунда. Он наиболее эффективен против противников без бронежилета и может вести огонь очередями из трёх выстрелов. На корпус нанесён чёрно-бежевый узор.\\n\\n<i>Устаревшие разведданные — всё ещё разведданные, знаешь ли...</i>",
+  "weapon": {
+   "id": "weapon_glock",
+   "weapon_id": 4,
+   "name": "Glock-18"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "glock_ifrit_lattice",
+   "name": "Ифритова решётка"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1460",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_glock_glock_ifrit_lattice_light_png.png",
+  "original": {
+   "name": "weapon_glock"
+  }
+ },
+ {
   "id": "skin-ec359b168d17",
   "name": "Glock-18 | Полный раскрас",
   "description": "Пистолет Glock-18 подходит для первого раунда. Он наиболее эффективен против противников без бронежилета и может вести огонь очередями из трёх выстрелов. На корпус нанесён рисунок в неоновых цветах краской с металлическим отблеском.\\n\\n<i>«Для меня немного чересчур, но я не целевая аудитория...» — Бут, торговец оружием</i>",
@@ -53547,7 +54552,7 @@
  {
   "id": "skin-eae7c10fa54f",
   "name": "★ Нож-бабочка | Убийство",
-  "description": "Специально разработанный балисонг, широко известный как нож-бабочка. Главной особенностью этого оружия является молниеносное приведение его в боевое состояние при помощи взмаха руки, обнажающего свободно крепящееся лезвие. Как результат, ножи-бабочки запрещены во многих странах. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Специально разработанный балисонг, широко известный как нож-бабочка. Главной особенностью этого оружия является молниеносное приведение его в боевое состояние при помощи взмаха руки, обнажающего свободно крепящееся лезвие. Как результат, ножи-бабочки запрещены во многих странах. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_butterfly",
    "weapon_id": 515,
@@ -55335,7 +56340,7 @@
  {
   "id": "skin-239162799f41",
   "name": "★ Нож выживания | Убийство",
-  "description": "Зазубренное лезвие этого многофункционального тактического ножа способно пробить жёсткие материалы наподобие кости и плоти, а острый крюк поможет при разделке. Рукоятка из композитного материала прикручена к лезвию шестигранными болтами. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Зазубренное лезвие этого многофункционального тактического ножа способно пробить жёсткие материалы наподобие кости и плоти, а острый крюк поможет при разделке. Рукоятка из композитного материала прикручена к лезвию шестигранными болтами. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_canis",
    "weapon_id": 518,
@@ -56870,7 +57875,7 @@
  {
   "id": "skin-f04f7388bd8b",
   "name": "★ Паракорд-нож | Убийство",
-  "description": "Этот нож для выживания с фиксированным клинком можно использовать и как оружие, и как инструмент — например, для установки силков, охоты на животных и срезания веток. Рукоятка обёрнута в универсальный шнур-паракорд. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Этот нож для выживания с фиксированным клинком можно использовать и как оружие, и как инструмент — например, для установки силков, охоты на животных и срезания веток. Рукоятка обёрнута в универсальный шнур-паракорд. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_cord",
    "weapon_id": 517,
@@ -57953,7 +58958,7 @@
  {
   "id": "skin-04079b605b66",
   "name": "★ Классический нож | Убийство",
-  "description": "Классика серии Counter-Strike. Лезвие из спрессованного стеллита идеально держат титановые бока и обух, а рукоятку из окаменелой мамонтовой кости окутывает углеволоконный чехол. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Классика серии Counter-Strike. Лезвие из спрессованного стеллита идеально держат титановые бока и обух, а рукоятку из окаменелой мамонтовой кости окутывает углеволоконный чехол. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_css",
    "weapon_id": 503,
@@ -59601,7 +60606,7 @@
  {
   "id": "skin-a0e461882742",
   "name": "★ Фальшион | Убийство",
-  "description": "Переосмысление клинка-фальшиона с изогнутым лезвием. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Переосмысление клинка-фальшиона с изогнутым лезвием. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_falchion",
    "weapon_id": 512,
@@ -61891,7 +62896,7 @@
  {
   "id": "skin-66d8b7a8bda6",
   "name": "★ Складной нож | Убийство",
-  "description": "Спортивные складные ножи персидского стиля со стреловидным лезвием и очень острой заточкой. В то время как лезвие может быть хрупким, сам складной нож удивительно прочный. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Спортивные складные ножи персидского стиля со стреловидным лезвием и очень острой заточкой. В то время как лезвие может быть хрупким, сам складной нож удивительно прочный. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_flip",
    "weapon_id": 505,
@@ -64751,7 +65756,7 @@
  {
   "id": "skin-9505695d72d4",
   "name": "★ Нож с лезвием-крюком | Убийство",
-  "description": "Наиболее примечательной особенностью ножа-потрошителя является крюк для потрошения на тыльной стороне лезвия. Первоначально применявшийся как вспомогательное средство для свежевания животных, он также эффективен в прорезании волокнистых материалов, таких как веревки, стропы или ремни безопасности. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Наиболее примечательной особенностью ножа-потрошителя является крюк для потрошения на тыльной стороне лезвия. Первоначально применявшийся как вспомогательное средство для свежевания животных, он также эффективен в прорезании волокнистых материалов, таких как веревки, стропы или ремни безопасности. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_gut",
    "weapon_id": 506,
@@ -67149,7 +68154,7 @@
  {
   "id": "skin-4facadf19ddb",
   "name": "★ Наваха | Убийство",
-  "description": "Этот нож-бабочка с полированной мраморной ручкой прячет маленькое, но очень злое лезвие. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Этот нож-бабочка с полированной мраморной ручкой прячет маленькое, но очень злое лезвие. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_gypsy_jackknife",
    "weapon_id": 520,
@@ -69206,7 +70211,7 @@
  {
   "id": "skin-818be290cd5b",
   "name": "★ Керамбит | Убийство",
-  "description": "Керамбит — это нож с изогнутым лезвием, имитирующим клык тигра, специально разработанный для юго-восточного азиатского боевого искусства силат. Нож обычно держат обратной хваткой, вдевая указательный палец в кольцо на рукоятке. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Керамбит — это нож с изогнутым лезвием, имитирующим клык тигра, специально разработанный для юго-восточного азиатского боевого искусства силат. Нож обычно держат обратной хваткой, вдевая указательный палец в кольцо на рукоятке. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_karambit",
    "weapon_id": 507,
@@ -71117,7 +72122,7 @@
  {
   "id": "skin-0808024a639a",
   "name": "★ Кукри | Убийство",
-  "description": "Используется в традиционных ритуалах вроде свадеб и поножовщин. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Используется в традиционных ритуалах вроде свадеб и поножовщин. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_kukri",
    "weapon_id": 526,
@@ -72910,7 +73915,7 @@
  {
   "id": "skin-07fea33b6a5f",
   "name": "★ Штык-нож M9 | Убийство",
-  "description": "Это штык от М-9. Первоначально предназначался для установки на винтовке, но отлично подходит и для ближнего боя. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Это штык от М-9. Первоначально предназначался для установки на винтовке, но отлично подходит и для ближнего боя. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_m9_bayonet",
    "weapon_id": 508,
@@ -75268,7 +76273,7 @@
  {
   "id": "skin-74f72ddc6769",
   "name": "★ Нож «Бродяга» | Убийство",
-  "description": "Эргономичный тактический охотничий нож с пружинным механизмом и композитными вставками в рукоятке. Прочное широкое лезвие пригодится для рубки и отделения материалов. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Эргономичный тактический охотничий нож с пружинным механизмом и композитными вставками в рукоятке. Прочное широкое лезвие пригодится для рубки и отделения материалов. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_outdoor",
    "weapon_id": 521,
@@ -77215,7 +78220,7 @@
  {
   "id": "skin-7741632caeaf",
   "name": "★ Тычковые ножи | Убийство",
-  "description": "Наносить эффективные и жестокие удары тычковым ножом так же просто, как бить кулаками. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Наносить эффективные и жестокие удары тычковым ножом так же просто, как бить кулаками. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_push",
    "weapon_id": 516,
@@ -79003,7 +80008,7 @@
  {
   "id": "skin-6b5516a41499",
   "name": "★ Скелетный нож | Убийство",
-  "description": "Рукоять этого скелетонизированного ножа для удобства обмотали изолентой. Отверстие нужно для того, чтобы в неё можно было продеть палец: как для удобства, так и для безопасности. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Рукоять этого скелетонизированного ножа для удобства обмотали изолентой. Отверстие нужно для того, чтобы в неё можно было продеть палец: как для удобства, так и для безопасности. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_skeleton",
    "weapon_id": 525,
@@ -80578,7 +81583,7 @@
  {
   "id": "skin-05341f90a3cf",
   "name": "★ Стилет | Убийство",
-  "description": "Cтилет — автоматический складной нож в итальянском стиле, который исторически стал предметом споров и даже запретов; его лезвие практически мгновенно выбрасывается при нажатии кнопки-качельки. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Cтилет — автоматический складной нож в итальянском стиле, который исторически стал предметом споров и даже запретов; его лезвие практически мгновенно выбрасывается при нажатии кнопки-качельки. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_stiletto",
    "weapon_id": 522,
@@ -82545,7 +83550,7 @@
  {
   "id": "skin-5f746d4751f8",
   "name": "★ Нож Боуи | Убийство",
-  "description": "Этот цельный зазубренный нож Боуи создан для выживания в экстремальных условиях. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Этот цельный зазубренный нож Боуи создан для выживания в экстремальных условиях. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_survival_bowie",
    "weapon_id": 514,
@@ -84745,7 +85750,7 @@
  {
   "id": "skin-2cab831d314a",
   "name": "★ Охотничий нож | Убийство",
-  "description": "Современный тактический нож, отлично подходящий как для боевых, так и мирных нужд. Уникальная заточка танто позволяет хорошо пробивать даже самые жесткие поверхности. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Современный тактический нож, отлично подходящий как для боевых, так и мирных нужд. Уникальная заточка танто позволяет хорошо пробивать даже самые жесткие поверхности. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_tactical",
    "weapon_id": 509,
@@ -86573,7 +87578,7 @@
  {
   "id": "skin-3bdc5f369061",
   "name": "★ Медвежий нож | Убийство",
-  "description": "Этот нож для выживания в стиле танто отличается огранённым лезвием с цельным вырезом и крепкой рукоятью. Никаких сложностей, никаких двигающихся частей — просто надёжный нож, готовый резать. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Этот нож для выживания в стиле танто отличается огранённым лезвием с цельным вырезом и крепкой рукоятью. Никаких сложностей, никаких двигающихся частей — просто надёжный нож, готовый резать. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_ursus",
    "weapon_id": 519,
@@ -88168,7 +89173,7 @@
  {
   "id": "skin-39fd4dd08be3",
   "name": "★ Коготь | Убийство",
-  "description": "Этот керамбит с рукоятью из слоновой кости, медными заклёпками и зубчатым лезвием режет на входе и раздирает на выходе. Был покрашен в полоску красками с алюминиевым и хромовым отблеском, а потом покрыт томатно-красным цветом.\\n\\n<i>Валерия платила Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы<i>",
+  "description": "Этот керамбит с рукоятью из слоновой кости, медными заклёпками и зубчатым лезвием режет на входе и раздирает на выходе. Покрашено в полоску красками с алюминиевым и хромовым отблеском, а потом покрыто томатно-красным цветом.\\n\\n<i>Валерия платит Хавьеру не за то, чтобы тот задавал вопросы… а за то, чтобы он выбивал ответы</i>",
   "weapon": {
    "id": "weapon_knife_widowmaker",
    "weapon_id": 523,
@@ -94105,6 +95110,140 @@
   }
  },
  {
+  "id": "skin-9a04113a9d7b",
+  "name": "M4A4 | Тайный агент",
+  "description": "M4A4 — более точный, но слабый аналог АК-47 — полностью автоматическая штурмовая винтовка, которая находится исключительно на вооружении у спецназа. Матовая серебристо-чёрная окраска дополнена белыми графическими элементами.\\n\\n<i>Функция важнее стиля</i>",
+  "weapon": {
+   "id": "weapon_m4a1",
+   "weapon_id": 16,
+   "name": "M4A4"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "m4a4_black_side_matte",
+   "name": "Тайный агент"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1446",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_black_side_matte_light_png.png",
+  "original": {
+   "name": "weapon_m4a1"
+  }
+ },
+ {
+  "id": "skin-ba6fb75e8368",
+  "name": "M4A4 | Фалак",
+  "description": "M4A4 — более точный, но слабый аналог АК-47 — полностью автоматическая штурмовая винтовка, которая находится исключительно на вооружении у спецназа. На бледно-бежевой основе изображён красный змей.\\n\\n<i>Сила в твоих руках требует сдержанности</i>",
+  "weapon": {
+   "id": "weapon_m4a1",
+   "weapon_id": 16,
+   "name": "M4A4"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "m4a4_falak",
+   "name": "Фалак"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_legendary_weapon",
+   "name": "Засекреченное",
+   "color": "#d32ce6"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1463",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_m4a4_falak_light_png.png",
+  "original": {
+   "name": "weapon_m4a1"
+  }
+ },
+ {
   "id": "skin-6bdcfb1366c6",
   "name": "M4A4 | Турбина",
   "description": "M4A4 — более точный, но слабый аналог АК-47 — полностью автоматическая штурмовая винтовка, которая находится исключительно на вооружении у спецназа. Корпус окрашен в винный цвет.\\n\\n<i>ВНИМАНИЕ: длительная стрельба может привести к перегреву</i>",
@@ -97423,6 +98562,73 @@
   }
  },
  {
+  "id": "skin-1372e31792c1",
+  "name": "M4A1-S | Фатальный сбой",
+  "description": "Бесшумный карабин M4A1 оснащен менее вместительным магазином, чем его аналог без глушителя, зато он обеспечивает более тихую стрельбу с меньшей отдачей и повышенной точностью. Оружие покрыто ярко-зелёной перламутровой краской.\\n\\n<i>Когда незаметность — не вариант</i>",
+  "weapon": {
+   "id": "weapon_m4a1_silencer",
+   "weapon_id": 60,
+   "name": "M4A1-S"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "hye_spyglitch_green_m4a1s",
+   "name": "Фатальный сбой"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_legendary_weapon",
+   "name": "Засекреченное",
+   "color": "#d32ce6"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1476",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_m4a1_silencer_hye_spyglitch_green_m4a1s_light_png.png",
+  "original": {
+   "name": "weapon_m4a1_silencer"
+  }
+ },
+ {
   "id": "skin-63c1d72b8501",
   "name": "M4A1-S | Чёрный лотос",
   "description": "Бесшумный карабин M4A1 оснащен менее вместительным магазином, чем его аналог без глушителя, зато он обеспечивает более тихую стрельбу с меньшей отдачей и повышенной точностью. На сине-фиолетовую основу нанесён рисунок чёрного лотоса.\\n\\n<i>Добавьте два убийства в раунде с винтовками, затем сбросьте</i>",
@@ -97498,7 +98704,7 @@
  {
   "id": "skin-62ecfa87b86d",
   "name": "M4A1-S | Электрум",
-  "description": "Бесшумный карабин M4A1 оснащен менее вместительным магазином, чем его аналог без глушителя, зато он обеспечивает более тихую стрельбу с меньшей отдачей и повышенной точностью. На корпус нанесена зелёная основа с мраморным узором, а также золотистыми и красными деталями.\\n\\n<i>«Они платят недостаточно, чтобы это нести, но я всё равно буду», — Валерия Дженнер, революционерка</i>",
+  "description": "Бесшумный карабин M4A1 оснащен менее вместительным магазином, чем его аналог без глушителя, зато он обеспечивает более тихую стрельбу с меньшей отдачей и повышенной точностью. На корпус нанесена зелёная основа с мраморным узором, а также золотистыми и красными деталями.\\n\\n<i>«Они платят тебе недостаточно, чтобы брать его в руки, но я скупиться не буду», — Валерия Дженнер, революционерка</i>",
   "weapon": {
    "id": "weapon_m4a1_silencer",
    "weapon_id": 60,
@@ -101732,6 +102938,73 @@
   }
  },
  {
+  "id": "skin-814d19013b18",
+  "name": "MAC-10 | Арабесковая мозаика",
+  "description": "Пистолет-пулемёт MAC-10 похож на коробку, из которой летят пули. Он может похвастаться высокой скорострельностью, но расплатиться за это придется низкой точностью и сильной отдачей. На оружие нанесён меняющийся средневосточный пейзаж.\\n\\n<i>Пески перемен</i>",
+  "weapon": {
+   "id": "weapon_mac10",
+   "weapon_id": 17,
+   "name": "MAC-10"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "mac10_arabesque_gold",
+   "name": "Арабесковая мозаика"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1454",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_arabesque_gold_light_png.png",
+  "original": {
+   "name": "weapon_mac10"
+  }
+ },
+ {
   "id": "skin-543d85d8ca60",
   "name": "MAC-10 | Световой короб",
   "description": "Пистолет-пулемёт MAC-10 похож на коробку, из которой летят пули. Он может похвастаться высокой скорострельностью, но расплатиться за это придется низкой точностью и сильной отдачей. Рисунок на задней части создаёт иллюзию, что внутрь оружия можно заглянуть.\\n\\n<i>Индивидуальный заказ</i>",
@@ -102024,6 +103297,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1W7vH_OJt5MvGaAFiT0-9luN5lRi67gVN14j6Gy9_7cSqQZw4hW5BzEeICthW6kYe1ZO_ntQ3e2olGnn-vhygY8G81tHTA36iF",
+  "original": {
+   "name": "weapon_mac10"
+  }
+ },
+ {
+  "id": "skin-9cfeaf972aa7",
+  "name": "MAC-10 | Видеокамера",
+  "description": "Пистолет-пулемёт MAC-10 похож на коробку, из которой летят пули. Он может похвастаться высокой скорострельностью, но расплатиться за это придется низкой точностью и сильной отдачей. Окраска напоминает ручную видеокамеру.\\n\\n<i>ЗАПИСЬ...</i>",
+  "weapon": {
+   "id": "weapon_mac10",
+   "weapon_id": 17,
+   "name": "MAC-10"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "mac10_video_cam",
+   "name": "Видеокамера"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1448",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mac10_mac10_video_cam_light_png.png",
   "original": {
    "name": "weapon_mac10"
   }
@@ -109787,6 +111127,73 @@
   }
  },
  {
+  "id": "skin-ffce7ece69a0",
+  "name": "MP7 | Основание-2",
+  "description": "Универсальный, но дорогой пистолет-пулемёт немецкого производства MP7 — идеальный выбор для перестрелки на ближних дистанциях. Оружие окрашено в зелёный и чёрный цвета с единицами и нулями.\\n\\n<i>01001101 01010000 00110111</i>",
+  "weapon": {
+   "id": "weapon_mp7",
+   "weapon_id": 33,
+   "name": "MP7"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "mp7_binary_green",
+   "name": "Основание-2"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1468",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp7_mp7_binary_green_light_png.png",
+  "original": {
+   "name": "weapon_mp7"
+  }
+ },
+ {
   "id": "skin-48f9126df040",
   "name": "MP7 | Улыбочка",
   "description": "Универсальный, но дорогой пистолет-пулемёт немецкого производства MP7 — идеальный выбор для перестрелки на ближних дистанциях. Сине-фиолетовая основа дополнена смайликом и словами «Просто улыбайся», написанными жёлтым.\\n\\n<i>«Сейчас вылетит птичка!»</i>",
@@ -113345,6 +114752,73 @@
   }
  },
  {
+  "id": "skin-ba6bf5572bb9",
+  "name": "MP9 | Дюнный аспид",
+  "description": "Производимый в Швейцарии передовой пистолет-пулемёт МР9 — это эргономичное полимерное оружие, используемое частными охранными фирмами. На бежевой основе белыми каллиграфическими мазками изображён змей.\\n\\n<i>Необычный артефакт скудных земель</i>",
+  "weapon": {
+   "id": "weapon_mp9",
+   "weapon_id": 34,
+   "name": "MP9"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "mp9_dune_asp",
+   "name": "Дюнный аспид"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1473",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_dune_asp_light_png.png",
+  "original": {
+   "name": "weapon_mp9"
+  }
+ },
+ {
   "id": "skin-038541568496",
   "name": "MP9 | Связующая нить",
   "description": "Производимый в Швейцарии передовой пистолет-пулемёт МР9 — это эргономичное полимерное оружие, используемое частными охранными фирмами. Окраску в серебряном, чёрном и синем цветах дополняют современные узоры.\\n\\n<i>Индивидуальный, но сдержанный подход</i>",
@@ -113413,6 +114887,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8js_f8DIC0PyrcLF-H_yaCW-Ej7ohs7Q5FnDqx0t152XdzI36cCnDaAZyDJNzRuVYsBa4kYHgZbyx4ALAy9USEWUfUe0",
+  "original": {
+   "name": "weapon_mp9"
+  }
+ },
+ {
+  "id": "skin-d79f18bbf38c",
+  "name": "MP9 | Шпионский прототип",
+  "description": "Производимый в Швейцарии передовой пистолет-пулемёт МР9 — это эргономичное полимерное оружие, используемое частными охранными фирмами. Белая основа, окрашенная под сатин, дополнена синими элементами.\\n\\n<i>Результат не гарантирован</i>",
+  "weapon": {
+   "id": "weapon_mp9",
+   "weapon_id": 34,
+   "name": "MP9"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "ПП"
+  },
+  "pattern": {
+   "id": "mp9_prototype_extended",
+   "name": "Шпионский прототип"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1469",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_mp9_mp9_prototype_extended_light_png.png",
   "original": {
    "name": "weapon_mp9"
   }
@@ -117493,7 +119034,7 @@
  {
   "id": "skin-f2779230030e",
   "name": "Nova | Расцветающая ветка",
-  "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады. Ружье было вручную расписано под вишню посредством аэрографии, а сверху нанесен глянцевый лак.",
+  "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады. Ружьё было вручную расписано под вишню посредством аэрографии, а сверху нанесён глянцевый лак.",
   "weapon": {
    "id": "weapon_nova",
    "weapon_id": 35,
@@ -118703,6 +120244,73 @@
   }
  },
  {
+  "id": "skin-4ab74eebe0c0",
+  "name": "Nova | Утреннее солнце",
+  "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады. На оружие нанесён замысловатый узор в песчаных цветах.\\n\\n<i>Сила начинается со света</i>",
+  "weapon": {
+   "id": "weapon_nova",
+   "weapon_id": 35,
+   "name": "Nova"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "pattern": {
+   "id": "nova_morning_sun",
+   "name": "Утреннее солнце"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1474",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_morning_sun_light_png.png",
+  "original": {
+   "name": "weapon_nova"
+  }
+ },
+ {
   "id": "skin-f58ac1d8b31c",
   "name": "Nova | Глазастость",
   "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады. На оружии изображены простые геометрические формы и реалистичные элементы, вдохновлённые абстрактным сюрреализмом и полотнами XX века.\\n\\n<i>Глаза смотрящего</i>",
@@ -118844,6 +120452,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_kYDhwixU-fOReq1-Kf6UMXSFz9F6ueZhW2eyzB9z4WjTzt77JXKVaQcnC5sjTLEMthDpwdzkMr_lsVbW34lGmyj5kGoXuV-iSbwM",
+  "original": {
+   "name": "weapon_nova"
+  }
+ },
+ {
+  "id": "skin-a559f10a1997",
+  "name": "Nova | Умная пушка",
+  "description": "Дробовик Nova из-за низкой цены идеально подходит для небогатых игроков, которые стремятся напасть на врага из засады. Оружие окрашено серебряной металлической краской, а рядом с целиком изображён мозг, будто бы встроенный в корпус.\\n\\n<i>Союз технологий и органики</i>",
+  "weapon": {
+   "id": "weapon_nova",
+   "weapon_id": 35,
+   "name": "Nova"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "pattern": {
+   "id": "nova_smart",
+   "name": "Умная пушка"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1442",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_nova_nova_smart_light_png.png",
   "original": {
    "name": "weapon_nova"
   }
@@ -123387,6 +125062,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwjIJuqKRY61jNOOGCW6vzedxuPUnHXrikBkh4jjXzd76I36VPQF2CJV2FOYLthC5k9DiNuOwswKLj4JHxTK-0H3jhNNozg",
+  "original": {
+   "name": "weapon_p250"
+  }
+ },
+ {
+  "id": "skin-9f80f7a57fce",
+  "name": "P250 | Отпечаток лотоса",
+  "description": "Пистолет P250 — огнестрельное оружие с высоким темпом стрельбы и низкой отдачей, представляющее собой относительно недорогой выбор против бронированных противников. Металлической краской на оружие нанесён сине-золотой узор.\\n\\n<i>Лотос в руках — два убийства на счету</i>",
+  "weapon": {
+   "id": "weapon_p250",
+   "weapon_id": 36,
+   "name": "P250"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "p250_lotus_imprint_glitter_purple",
+   "name": "Отпечаток лотоса"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_mythical_weapon",
+   "name": "Запрещённое",
+   "color": "#8847ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1455",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_p250_p250_lotus_imprint_glitter_purple_light_png.png",
   "original": {
    "name": "weapon_p250"
   }
@@ -129910,6 +131652,73 @@
   }
  },
  {
+  "id": "skin-68f3c97df6fb",
+  "name": "Револьвер R8 | Монарх",
+  "description": "Револьвер R8 стреляет крайне точно и мощно, но его спусковой крючок печально известен своей тугостью. Если противник уже близко, не стесняйтесь бить по курку. Оружие окрашено в оранжевый и серый цвета, а подвижные элементы отделаны медью.\\n\\n<i>Символ статуса и авторитета</i>",
+  "weapon": {
+   "id": "weapon_revolver",
+   "weapon_id": 64,
+   "name": "Револьвер R8"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "r8_monarch_extended",
+   "name": "Монарх"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1445",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_revolver_r8_monarch_extended_light_png.png",
+  "original": {
+   "name": "weapon_revolver"
+  }
+ },
+ {
   "id": "skin-3604c7754aa6",
   "name": "Револьвер R8 | Танго",
   "description": "Револьвер R8 стреляет крайне точно и мощно, но его спусковой крючок печально известен своей тугостью. Если противник уже близко, не стесняйтесь бить по курку. На корпус нанесён узор из роз, а рукоятка окрашена под дерево.\\n\\n<i>Потанцуем?</i>",
@@ -132924,6 +134733,73 @@
   }
  },
  {
+  "id": "skin-4f033a7badb4",
+  "name": "Обрез | Лунный змей",
+  "description": "Классический обрез наносит большой урон на ближних дистанциях, но имеет невысокую точность, высокий разброс и медленную скорость стрельбы, поэтому вам лучше бы поскорее убивать то, во что вы попали. На багровой основе изображён змей.\\n\\n<i>Витки в земных глубинах</i>",
+  "weapon": {
+   "id": "weapon_sawedoff",
+   "weapon_id": 29,
+   "name": "Обрез"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "pattern": {
+   "id": "sawedoff_lunar_wyrm",
+   "name": "Лунный змей"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1475",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_sawedoff_sawedoff_lunar_wyrm_light_png.png",
+  "original": {
+   "name": "weapon_sawedoff"
+  }
+ },
+ {
   "id": "skin-279d95d3dd65",
   "name": "Обрез | Радиоактивная опасность",
   "description": "Классический обрез наносит большой урон на ближних дистанциях, но имеет невысокую точность, высокий разброс и медленную скорость стрельбы, поэтому вам лучше бы поскорее убивать то, во что вы попали. Рисунок в виде знака радиологической опасности нанесен баллончиком.",
@@ -135040,6 +136916,73 @@
   }
  },
  {
+  "id": "skin-57bff25c9e87",
+  "name": "SCAR-20 | Панельный арктический камуфляж",
+  "description": "SCAR-20 — полуавтоматическая снайперская винтовка, которая предлагает высокую скорострельность и большой урон на расстоянии, в обмен на более медленную скорость передвижения и большую стоимость самого оружия. На оружие нанесён серо-зелёный камуфляж.\\n\\n<i>Арктические мстители, общий сбор!</i>",
+  "weapon": {
+   "id": "weapon_scar20",
+   "weapon_id": 38,
+   "name": "SCAR-20"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "scar_arctic_camo_panels",
+   "name": "Панельный арктический камуфляж"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1470",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_arctic_camo_panels_light_png.png",
+  "original": {
+   "name": "weapon_scar20"
+  }
+ },
+ {
   "id": "skin-e8ce6f07d5e7",
   "name": "SCAR-20 | В клетке",
   "description": "SCAR-20 — полуавтоматическая снайперская винтовка, которая предлагает высокую скорострельность и большой урон на расстоянии, в обмен на более медленную скорость передвижения и большую стоимость самого оружия. На оружие нанесён сине-фиолетовый градиентный рисунок.\\n\\n<i>«Такая большая пушка и такая маленькая клетка...»</i>",
@@ -135108,6 +137051,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk_PGvept_JfaBD2SEyOF4j_c9cCW6khUz_W_SmNirdSmVOFcmDJEjQrEPtROwxtGyYevqsgPcg98RxXishi1Bui91o7FVKL5cNSg",
+  "original": {
+   "name": "weapon_scar20"
+  }
+ },
+ {
+  "id": "skin-c624b6694da0",
+  "name": "SCAR-20 | Письмена сирокко",
+  "description": "SCAR-20 — полуавтоматическая снайперская винтовка, которая предлагает высокую скорострельность и большой урон на расстоянии, в обмен на более медленную скорость передвижения и большую стоимость самого оружия. На оружие нанесён декоративный узор из псевдокаллиграфии и арабесковых геометрических фигур.\\n\\n<i>Создано теплом, песком и сухим ветром</i>",
+  "weapon": {
+   "id": "weapon_scar20",
+   "weapon_id": 38,
+   "name": "SCAR-20"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Винтовки"
+  },
+  "pattern": {
+   "id": "scar_sirocco",
+   "name": "Письмена сирокко"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1453",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_scar20_scar_sirocco_light_png.png",
   "original": {
    "name": "weapon_scar20"
   }
@@ -146157,6 +148167,140 @@
   }
  },
  {
+  "id": "skin-cae293d76ade",
+  "name": "Tec-9 | Периметр",
+  "description": "Tec-9 обладает вместительным магазином и идеально подходит для террориста, предпочитающего бой на небольших расстояниях. На оружие нанесён разноцветный узор из крестов, квадратов и кругов.\\n\\n<i>Крестики — это бывшие нолики</i>",
+  "weapon": {
+   "id": "weapon_tec9",
+   "weapon_id": 30,
+   "name": "Tec-9"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "tec9_perimeter_urban",
+   "name": "Периметр"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1447",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_perimeter_urban_light_png.png",
+  "original": {
+   "name": "weapon_tec9"
+  }
+ },
+ {
+  "id": "skin-d23df8a148c2",
+  "name": "Tec-9 | Султан",
+  "description": "Tec-9 обладает вместительным магазином и идеально подходит для террориста, предпочитающего бой на небольших расстояниях. На оружие нанесён рисунок мозаики, вдохновлённый арабеской.\\n\\n<i>Прекращение огня наращением огня</i>",
+  "weapon": {
+   "id": "weapon_tec9",
+   "weapon_id": 30,
+   "name": "Tec-9"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "tec9_sultan",
+   "name": "Султан"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_rare_weapon",
+   "name": "Армейское качество",
+   "color": "#4b69ff"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1462",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-arabesque",
+    "name": "Коллекция «Арабеска»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_arabesque.3d2ee80f107ddabe862843e7b8097b1fdc98a917.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "terrorists",
+   "name": "Террористы"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_tec9_sultan_light_png.png",
+  "original": {
+   "name": "weapon_tec9"
+  }
+ },
+ {
   "id": "skin-50ccad9f2ecc",
   "name": "UMP-45 | Механизм",
   "description": "Пистолет-пулемёт UMP45 часто не воспринимают всерьёз, хотя небольшой магазин является его единственным недостатком. В остальном же это весьма универсальное оружие для боя на ближней дистанции. Анодированный узор в виде деталей мотора.\\n\\n<i>«Плохо дело...»</i>",
@@ -153149,6 +155293,73 @@
   }
  },
  {
+  "id": "skin-ef8a4654c567",
+  "name": "USP-S | Спиральный сбой",
+  "description": "Пистолет USP, любимец игроков в Counter-Strike: Source, имеет отсоединяемый глушитель, который уменьшает отдачу, одновременно поглощая привлекающий внимание шум. Рваные узоры покрыты перламутровой краской.\\n\\n<i>Они не узнают, что их настигло</i>",
+  "weapon": {
+   "id": "weapon_usp_silencer",
+   "weapon_id": 61,
+   "name": "USP-S"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Пистолеты"
+  },
+  "pattern": {
+   "id": "usps_spiral_glitch_iridescent",
+   "name": "Спиральный сбой"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_legendary_weapon",
+   "name": "Засекреченное",
+   "color": "#d32ce6"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1451",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "counter-terrorists",
+   "name": "Спецназ"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_usp_silencer_usps_spiral_glitch_iridescent_light_png.png",
+  "original": {
+   "name": "weapon_usp_silencer"
+  }
+ },
+ {
   "id": "skin-e95b5ddb7a37",
   "name": "XM1014 | Древняя истина",
   "description": "XM1014 — это мощный, полностью автоматический дробовик, который оправдывает свой здоровенный размер возможностью быстро нашпиговать комнату свинцом. На корпус нанесён узор из древних плиток бледно-зелёного, бежевого и красного цветов.\\n\\n<i>«Надежда остаётся даже с теми, кто пошёл по неправильному пути»</i>",
@@ -156348,6 +158559,73 @@
   },
   "legacy_model": false,
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk_OKRfK1_Jc-HHGKRxdF0vPRscCW6khUz_T7Vydn7dS6UZ1ciD8YhE7Je4Rm-l4bjN-mxtVaPi9lMxSqqjy9B7Xx1o7FVHG_KYuo",
+  "original": {
+   "name": "weapon_xm1014"
+  }
+ },
+ {
+  "id": "skin-6a9f594a5d3c",
+  "name": "XM1014 | Чёрное пятно",
+  "description": "XM1014 — это мощный, полностью автоматический дробовик, который оправдывает свой здоровенный размер возможностью быстро нашпиговать комнату свинцом. Окрашено в матовые чёрный, серый и бронзовый цвета.\\n\\n<i>Устройте сцену</i>",
+  "weapon": {
+   "id": "weapon_xm1014",
+   "weapon_id": 25,
+   "name": "XM1014"
+  },
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Тяжелое"
+  },
+  "pattern": {
+   "id": "xm1014_black_site",
+   "name": "Чёрное пятно"
+  },
+  "min_float": 0,
+  "max_float": 1,
+  "rarity": {
+   "id": "rarity_uncommon_weapon",
+   "name": "Промышленное качество",
+   "color": "#5e98d9"
+  },
+  "stattrak": false,
+  "souvenir": true,
+  "paint_index": "1471",
+  "wears": [
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_0",
+    "name": "Прямо с завода"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_1",
+    "name": "Немного поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_2",
+    "name": "После полевых испытаний"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_3",
+    "name": "Поношенное"
+   },
+   {
+    "id": "SFUI_InvTooltip_Wear_Amount_4",
+    "name": "Закалённое в боях"
+   }
+  ],
+  "collections": [
+   {
+    "id": "collection-set-spy-tech",
+    "name": "Коллекция «Шпионаж и технологии»",
+    "image": "https://cdn.steamstatic.com/apps/730/icons/econ/set_icons/set_spy_tech.441f3fa962400c425c38ece97953d4322afe1706.png"
+   }
+  ],
+  "crates": [],
+  "team": {
+   "id": "both",
+   "name": "Обе команды"
+  },
+  "legacy_model": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_xm1014_xm1014_black_site_light_png.png",
   "original": {
    "name": "weapon_xm1014"
   }
