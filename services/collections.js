@@ -59,13 +59,12 @@ const getImage = item => {
 const parseItem = item => {
     const { skinsByCollections, cratesByCollections } = state;
     const { image, image_inventory } = getImage(item);
-    const id = `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`;
 
     return {
-        id,
+        id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: item.name_force ? $t(item.name_force) : $t(item.name),
         description: $t(item.set_description),
-        release_date: collectionReleaseDates[id] ?? null,
+        release_date: collectionReleaseDates[item.name]?.date ?? null,
         crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(i => ({
             ...i,
             name: $t(i.name),
@@ -94,13 +93,12 @@ const parseItemSelfOpening = item => {
 
     const image =
         cdnImages[item.image_inventory.toLowerCase()] ?? getImageUrl(item.image_inventory.toLowerCase());
-    const id = `collection-${item.object_id}`;
 
     return {
-        id,
+        id: `collection-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.set_description),
-        release_date: collectionReleaseDates[id] ?? null,
+        release_date: collectionReleaseDates[item.item_name]?.date ?? null,
         crates: [],
         contains: (skinsByCollections?.[item.name] ?? []).map(i => ({
             ...i,
