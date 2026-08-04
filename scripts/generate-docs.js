@@ -200,6 +200,8 @@ function analyzeStructure(obj, depth = 0, maxDepth = 2) {
         else if (key === "thumbnail") description = "Thumbnail image URL";
         else if (key === "rental") description = "Whether it's a rental";
         else if (key === "first_sale_date") description = "First sale date";
+        else if (key === "release_date")
+            description = "Release date, can differ from the first_sale_date of the linked crate";
         else if (key === "contains") description = "Items that can be obtained";
         else if (key === "contains_rare") description = "Rare items (knives, etc.)";
         else if (key === "skin_id") description = "Reference to grouped skin";

@@ -325,6 +325,8 @@ Example response:
   {
     id: "collection-set-community-3",
     name: "The Huntsman Collection",
+    description: null,
+    release_date: "2014-05-02",
     crates: [
       {
         id: "crate-4017",
@@ -643,17 +645,25 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
 ```js
 [
   {
-    id: "aus2025_chopper2kvsmouzonmirage1",
+    id: "highlight-1",
+    def_index: "1",
     name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
     description: "chopper gets a double kill on the A-site defense from Balcony on Mirage.",
     tournament_event: "Austin 2025",
     team0: "Team Spirit",
     team1: "MOUZ",
     stage: "Quarterfinal",
+    tournament_player: "chopper", // null when type is "team"
+    type: "player", // "player" or "team"
     map: "de_mirage",
     market_hash_name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
     image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/aus2025/kc_aus2025_png.png",
-    video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm"
+    video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm",
+    thumbnail: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/highlightreels/ww/1.webp",
+    original: {
+      id: "aus2025_chopper2kvsmouzonmirage1",
+      image_inventory: "econ/keychains/aus2025/kc_aus2025",
+    },
   },
 ]
 ```
