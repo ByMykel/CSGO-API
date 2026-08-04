@@ -45,6 +45,17 @@ const isSelfOpeningCollection = item => {
     return false;
 };
 
+const getReleaseDate = name => {
+    const collection = collectionReleaseDates[name];
+
+    if (collection === undefined) {
+        console.log("[ERROR] Collection release date not found", name);
+        return null;
+    }
+
+    return collection.date;
+};
+
 const getImage = item => {
     const { cdnImages } = state;
     const fileName = `${item.name.replace("#CSGO_", "")}`;
@@ -64,7 +75,7 @@ const parseItem = item => {
         id: `collection-${item.name.replace("#CSGO_", "").replace(/_/g, "-")}`,
         name: item.name_force ? $t(item.name_force) : $t(item.name),
         description: $t(item.set_description),
-        release_date: collectionReleaseDates[item.name]?.date ?? null,
+        release_date: getReleaseDate(item.name),
         crates: (cratesByCollections?.[item.name.replace("#CSGO_", "")] ?? []).map(i => ({
             ...i,
             name: $t(i.name),
@@ -98,7 +109,7 @@ const parseItemSelfOpening = item => {
         id: `collection-${item.object_id}`,
         name: $t(item.item_name),
         description: $t(item.set_description),
-        release_date: collectionReleaseDates[item.item_name]?.date ?? null,
+        release_date: getReleaseDate(item.item_name),
         crates: [],
         contains: (skinsByCollections?.[item.name] ?? []).map(i => ({
             ...i,
