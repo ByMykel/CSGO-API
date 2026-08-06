@@ -79,7 +79,7 @@ const getEffect = item => {
         return "Holo";
     }
 
-    if ($t(item.item_name, true).includes("(Foil)")) {
+    if ($t(item.item_name, true).includes("(Foil)") || $t(item.item_name, true).includes("(Foil, ")) {
         return "Foil";
     }
 
