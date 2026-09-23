@@ -3400,5 +3400,41 @@
    "name": "shockone_01",
    "image_inventory": "econ/music_kits/shockone_01"
   }
+ },
+ {
+  "id": "music_kit-104",
+  "name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "description": "这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Experience a music kit from the grooviest station in the galaxy, featuring the newest sounds of today drenched with vintage nostalgia of yesterday. This is Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "高级",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/starjunk95_01_png.png",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
+ },
+ {
+  "id": "music_kit-104_st",
+  "name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "description": "<span style='color:#99ccff;'>该物品具有 StatTrak™ 技术，在其所有者装备时能跟踪若干统计数据。</span><br/><br/><span style='color:#cf6a32;'>该物品记录官方竞技 MVP 次数。</span><br/><br/>这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Experience a music kit from the grooviest station in the galaxy, featuring the newest sounds of today drenched with vintage nostalgia of yesterday. This is Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "高级",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/starjunk95_01_png.png",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
  }
 ]

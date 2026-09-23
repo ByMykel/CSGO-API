@@ -3400,5 +3400,41 @@
    "name": "shockone_01",
    "image_inventory": "econ/music_kits/shockone_01"
   }
+ },
+ {
+  "id": "music_kit-104",
+  "name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "description": "This Music Kit will replace all of the music in the game and is shareable with anyone you are playing with. It also includes an MVP Anthem that plays for everyone in the match when you are MVP.\\n\\nThe Music Kit replaces the following music:\\n- Main Menu\\n- Round Start and End\\n- Map Objective\\n- Ten Second Warning\\n- Death Camera<br/><br/>Experience a music kit from the grooviest station in the galaxy, featuring the newest sounds of today drenched with vintage nostalgia of yesterday. This is Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/starjunk95_01_png.png",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
+ },
+ {
+  "id": "music_kit-104_st",
+  "name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "description": "<span style='color:#99ccff;'>This item features StatTrak™ technology, which tracks certain statistics when equipped by its owner.</span><br/><br/><span style='color:#cf6a32;'>This item tracks Official Competitive MVPs.</span><br/><br/>This Music Kit will replace all of the music in the game and is shareable with anyone you are playing with. It also includes an MVP Anthem that plays for everyone in the match when you are MVP.\\n\\nThe Music Kit replaces the following music:\\n- Main Menu\\n- Round Start and End\\n- Map Objective\\n- Ten Second Warning\\n- Death Camera<br/><br/>Experience a music kit from the grooviest station in the galaxy, featuring the newest sounds of today drenched with vintage nostalgia of yesterday. This is Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/starjunk95_01_png.png",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
  }
 ]
