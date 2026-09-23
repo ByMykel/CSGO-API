@@ -42,6 +42,18 @@ const getMarketHashName = (item, colorKey) => {
     return `${$t("csgo_tool_spray", true)} | ${$t(item.item_name, true)}`;
 };
 
+const getTint = index => {
+    const tint = state.graffitiTints[index];
+
+    if (!tint) return null;
+
+    return {
+        id: tint.id,
+        name: $t(`attrib_spraytintvalue_${index}`),
+        hex_color: tint.hex_color,
+    };
+};
+
 const parseItemSealedGraffiti = item => {
     const { cratesBySkins, cdnImages } = state;
     const image =
@@ -62,6 +74,7 @@ const parseItemSealedGraffiti = item => {
                 description: getDescription(item),
                 def_index: item.object_id,
                 color_index: index,
+                tint: getTint(index),
                 rarity: {
                     id: `rarity_${item.item_rarity}`,
                     name: $t(`rarity_${item.item_rarity}`),
@@ -92,6 +105,7 @@ const parseItemSealedGraffiti = item => {
         name: `${$t("csgo_tool_spray")} | ${$t(item.item_name)}`,
         description: getDescription(item),
         def_index: item.object_id,
+        tint: null,
         rarity: {
             id: `rarity_${item.item_rarity}`,
             name: $t(`rarity_${item.item_rarity}`),

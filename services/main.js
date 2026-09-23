@@ -111,6 +111,15 @@ export const loadStickerKits = () => {
     }, {});
 };
 
+export const loadGraffitiTints = () => {
+    state.graffitiTints = Object.fromEntries(
+        Object.entries(state.itemsGame.graffiti_tints ?? {}).map(([key, tint]) => [
+            tint.id,
+            { id: key, hex_color: tint.hex_color },
+        ])
+    );
+};
+
 export const loadKeychainDefinitions = () => {
     state.keychainDefinitions = Object.entries(state.itemsGame.keychain_definitions).map(([key, item]) => ({
         ...item,
@@ -861,6 +870,7 @@ export const loadData = async () => {
     loadItems();
     loadItemSets();
     loadStickerKits();
+    loadGraffitiTints();
     loadKeychainDefinitions();
     loadPaintKits();
     loadMusicDefinitions();
