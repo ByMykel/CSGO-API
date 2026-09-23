@@ -291,6 +291,7 @@ Example response:
     name: "Charm | Lil' Ava",
     description:
       "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+    icon_base: "kc_missinglink",
     rarity: {
       id: "rarity_rare",
       name: "High Grade",
@@ -566,6 +567,7 @@ Example response:
     name: "Sealed Graffiti | Chabo",
     description:
       "This is a sealed container of a graffiti pattern. Once this graffiti pattern is unsealed, it will provide you with enough charges to apply the graffiti pattern <b>50</b> times to the in-game world.",
+    tint: null,
     rarity: {
       id: "rarity_rare",
       name: "High Grade",
