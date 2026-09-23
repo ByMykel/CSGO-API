@@ -50,6 +50,26 @@ export const getTools = () => {
                 image_inventory: "econ/tools/keychain_remove_tool",
             },
         },
+        {
+            id: "tool-5",
+            name: $t("chicken_egg"),
+            description: $t("chicken_egg_desc"),
+            image: cdnImages["econ/pets/chicken_egg"] ?? getImageUrl("econ/pets/chicken_egg"),
+            def_index: "4948",
+            original: {
+                image_inventory: "econ/pets/chicken_egg",
+            },
+        },
+        {
+            id: "tool-6",
+            name: $t("chicken_feed"),
+            description: $t("chicken_feed_desc"),
+            image: cdnImages["econ/pets/chicken_feed_bag"] ?? getImageUrl("econ/pets/chicken_feed_bag"),
+            def_index: "4949",
+            original: {
+                image_inventory: "econ/pets/chicken_feed_bag",
+            },
+        },
     ];
 
     saveDataJson(`./public/api/${folder}/tools.json`, tools);
