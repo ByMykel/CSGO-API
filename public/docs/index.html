@@ -768,15 +768,15 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">pattern</span>
-                                <span class="structure-type type-object">(object)</span> - Pattern/skin design
+                                <span class="structure-type type-object">(object|null)</span> - Pattern/skin design
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">min_float</span>
-                                <span class="structure-type type-number">(number)</span> - min float
+                                <span class="structure-type type-number">(number|null)</span> - min float
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">max_float</span>
-                                <span class="structure-type type-number">(number)</span> - max float
+                                <span class="structure-type type-number">(number|null)</span> - max float
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">rarity</span>
@@ -788,23 +788,31 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">souvenir</span>
-                                <span class="structure-type type-boolean">(boolean)</span> - souvenir
+                                <span class="structure-type type-boolean">(boolean, optional)</span> - souvenir
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">paint_index</span>
-                                <span class="structure-type type-string">(string)</span> - paint index
+                                <span class="structure-type type-string">(string|null)</span> - Paint kit index
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">wears</span>
-                                <span class="structure-type type-array">(array)</span> - Available wear conditions
+                                <span class="structure-type type-array">(array, optional)</span> - Available wear conditions
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">collections</span>
-                                <span class="structure-type type-array">(array)</span> - Collections containing this item
+                                <span class="structure-type type-array">(array, optional)</span> - Collections containing this item
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">crates</span>
                                 <span class="structure-type type-array">(array)</span> - Crates containing this item
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">phase</span>
+                                <span class="structure-type type-string">(string, optional)</span> - Doppler phase
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">team</span>
@@ -891,19 +899,19 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">pattern</span>
-                                <span class="structure-type type-object">(object)</span> - Pattern/skin design
+                                <span class="structure-type type-object">(object, optional)</span> - Pattern/skin design
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">min_float</span>
-                                <span class="structure-type type-number">(number)</span> - min float
+                                <span class="structure-type type-number">(number, optional)</span> - min float
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">max_float</span>
-                                <span class="structure-type type-number">(number)</span> - max float
+                                <span class="structure-type type-number">(number, optional)</span> - max float
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">wear</span>
-                                <span class="structure-type type-object">(object)</span> - Specific wear condition
+                                <span class="structure-type type-object">(object, optional)</span> - Specific wear condition
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">stattrak</span>
@@ -911,19 +919,27 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">souvenir</span>
-                                <span class="structure-type type-boolean">(boolean)</span> - souvenir
+                                <span class="structure-type type-boolean">(boolean, optional)</span> - souvenir
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">paint_index</span>
-                                <span class="structure-type type-string">(string)</span> - paint index
+                                <span class="structure-type type-string">(string|null)</span> - Paint kit index
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">rarity</span>
                                 <span class="structure-type type-object">(object)</span> - Rarity with color
                             </div>
                             <div class="structure-item ml-4">
+                                <span class="structure-key">phase</span>
+                                <span class="structure-type type-string">(string, optional)</span> - Doppler phase
+                            </div>
+                            <div class="structure-item ml-4">
                                 <span class="structure-key">market_hash_name</span>
                                 <span class="structure-type type-string">(string)</span> - Market hash name
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">team</span>
@@ -1009,6 +1025,10 @@ node group.js  --languages en,ru,uk</code></pre>
                                 <span class="structure-type type-object">(object)</span> - Rarity with color
                             </div>
                             <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
+                            </div>
+                            <div class="structure-item ml-4">
                                 <span class="structure-key">crates</span>
                                 <span class="structure-type type-array">(array)</span> - Crates containing this item
                             </div>
@@ -1030,7 +1050,15 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">tournament</span>
-                                <span class="structure-type type-object">(object)</span> - Tournament information
+                                <span class="structure-type type-object">(object, optional)</span> - Tournament information
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">team</span>
+                                <span class="structure-type type-object">(object, optional)</span> - Team information (CT/T)
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">player</span>
+                                <span class="structure-type type-object">(object, optional)</span> - Player information
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">image</span>
@@ -1104,6 +1132,10 @@ node group.js  --languages en,ru,uk</code></pre>
                                 <span class="structure-type type-object">(object)</span> - Rarity with color
                             </div>
                             <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
+                            </div>
+                            <div class="structure-item ml-4">
                                 <span class="structure-key">crates</span>
                                 <span class="structure-type type-array">(array)</span> - Crates containing this item
                             </div>
@@ -1125,7 +1157,15 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">tournament</span>
-                                <span class="structure-type type-object">(object)</span> - Tournament information
+                                <span class="structure-type type-object">(object, optional)</span> - Tournament information
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">team</span>
+                                <span class="structure-type type-object">(object, optional)</span> - Team information (CT/T)
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">player</span>
+                                <span class="structure-type type-object">(object, optional)</span> - Player information
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">image</span>
@@ -1193,6 +1233,10 @@ node group.js  --languages en,ru,uk</code></pre>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">def_index</span>
                                 <span class="structure-type type-string">(string)</span> - Definition index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">icon_base</span>
+                                <span class="structure-type type-string">(string)</span> - Keychain family
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">rarity</span>
@@ -1271,7 +1315,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">release_date</span>
-                                <span class="structure-type type-string">(string)</span> - Release date, can differ from the first_sale_date of the linked crate
+                                <span class="structure-type type-string">(string|null)</span> - Release date, can differ from the first_sale_date of the linked crate
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">crates</span>
@@ -1342,7 +1386,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">description</span>
-                                <span class="structure-type type-string">(string)</span> - Item description
+                                <span class="structure-type type-string">(string|null)</span> - Item description
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">def_index</span>
@@ -1354,7 +1398,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">first_sale_date</span>
-                                <span class="structure-type type-string">(string)</span> - First sale date
+                                <span class="structure-type type-string">(string|null)</span> - First sale date
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">rarity</span>
@@ -1369,8 +1413,12 @@ node group.js  --languages en,ru,uk</code></pre>
                                 <span class="structure-type type-array">(array)</span> - Rare items (knives, etc.)
                             </div>
                             <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
+                            </div>
+                            <div class="structure-item ml-4">
                                 <span class="structure-key">market_hash_name</span>
-                                <span class="structure-type type-string">(string)</span> - Market hash name
+                                <span class="structure-type type-string">(string|null)</span> - Market hash name
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">rental</span>
@@ -1386,7 +1434,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">loot_list</span>
-                                <span class="structure-type type-string">(string|null)</span> - loot list
+                                <span class="structure-type type-object">(object|null)</span> - Loot list information
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">original</span>
@@ -1457,7 +1505,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">market_hash_name</span>
-                                <span class="structure-type type-string">(string)</span> - Market hash name
+                                <span class="structure-type type-string">(string|null)</span> - Market hash name
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">marketable</span>
@@ -1524,7 +1572,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">description</span>
-                                <span class="structure-type type-string">(string)</span> - Item description
+                                <span class="structure-type type-string">(string|null)</span> - Item description
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">def_index</span>
@@ -1541,6 +1589,10 @@ node group.js  --languages en,ru,uk</code></pre>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">genuine</span>
                                 <span class="structure-type type-boolean">(boolean)</span> - Whether it's genuine
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">premier_season</span>
+                                <span class="structure-type type-number">(number, optional)</span> - Premier season number
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">market_hash_name</span>
@@ -1776,8 +1828,20 @@ node group.js  --languages en,ru,uk</code></pre>
                                 <span class="structure-type type-string">(string)</span> - Definition index
                             </div>
                             <div class="structure-item ml-4">
+                                <span class="structure-key">color_index</span>
+                                <span class="structure-type type-number">(number, optional)</span> - Graffiti tint index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">tint</span>
+                                <span class="structure-type type-object">(object|null)</span> - Graffiti tint with hex color
+                            </div>
+                            <div class="structure-item ml-4">
                                 <span class="structure-key">rarity</span>
                                 <span class="structure-type type-object">(object)</span> - Rarity with color
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">special_notes</span>
+                                <span class="structure-type type-array">(array, optional)</span> - Interesting facts about the item, each with a source link
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">crates</span>
@@ -1785,7 +1849,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">market_hash_name</span>
-                                <span class="structure-type type-string">(string)</span> - Market hash name
+                                <span class="structure-type type-string">(string|null)</span> - Market hash name
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">image</span>
@@ -1927,7 +1991,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">description</span>
-                                <span class="structure-type type-string">(string)</span> - Item description
+                                <span class="structure-type type-string">(string|null)</span> - Item description
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">def_index</span>
@@ -2018,7 +2082,7 @@ node group.js  --languages en,ru,uk</code></pre>
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">tournament_player</span>
-                                <span class="structure-type type-string">(string)</span> - Tournament player name
+                                <span class="structure-type type-string">(string|null)</span> - Tournament player name
                             </div>
                             <div class="structure-item ml-4">
                                 <span class="structure-key">type</span>
