@@ -38,5 +38,25 @@
   "original": {
    "image_inventory": "econ/tools/keychain_remove_tool"
   }
+ },
+ {
+  "id": "tool-5",
+  "name": "Chicken Egg",
+  "description": null,
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_egg_png.png",
+  "def_index": "4948",
+  "original": {
+   "image_inventory": "econ/pets/chicken_egg"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "Chicken Feed",
+  "description": "Feed your pet to keep it around.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
  }
 ]
