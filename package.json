@@ -5,7 +5,7 @@
     "sha1": "^1.1.1"
   },
   "devDependencies": {
-    "prettier": "^3.9.8"
+    "prettier": "^3.9.9"
   },
   "scripts": {
     "generate-docs": "node scripts/generate-docs.js",
