@@ -33,6 +33,7 @@ const inputFilePathsTemplate = [
     "./public/api/{lang}/sticker_slabs.json",
     "./public/api/{lang}/keychains.json",
     "./public/api/{lang}/tools.json",
+    "./public/api/{lang}/pets.json",
 ];
 
 let existingManifestId = "";

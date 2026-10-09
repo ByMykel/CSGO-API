@@ -670,13 +670,49 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
 ]
 ```
 
+### List pets
+
+```http
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/pets.json
+```
+
+One entry per pet and style. Adult chickens have a `style` (their breed color); the egg and the chick don't. The game has no inventory images for chickens, so they are rendered from the game models by the [image tracker](https://github.com/ByMykel/counter-strike-image-tracker).
+
+```js
+[
+  {
+    id: "pet-5-9",
+    pet_id: "5",
+    style: 9, // null for pets without styles
+    name: "Pet Chicken | Polish (Pink)",
+    description: null,
+    breed: "Polish", // null for pets without styles
+    color: "Pink", // null for pets without styles
+    rarity: {
+      id: "rarity_rare",
+      name: "High Grade",
+      color: "#4b69ff",
+    },
+    image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_pink.png",
+    original: {
+      name: "chicken_polish_01",
+      loc_name: "#pet_chicken",
+      pedestal_display_model: "models/chicken/chicken_polish.vmdl",
+      image_inventory: null,
+      material: "chicken_polish_pink",
+    },
+  },
+  // ...
+]
+```
+
 ### Inventory
 
 ```http
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/inventory.json
 ```
 
-Object with all items organized by category (skins, crates, collectibles, stickers, graffiti, music_kits, keychains, highlights, agents, patches, keys, sticker_slabs, tools). Skins are keyed by weapon_id and paint_index. Other items are keyed by def_index.
+Object with all items organized by category (skins, crates, collectibles, stickers, graffiti, music_kits, keychains, highlights, agents, patches, keys, sticker_slabs, tools, pets). Skins are keyed by weapon_id and paint_index. Pets are keyed by pet id and style (`<pet_id>_<style>`, or `<pet_id>` for pets without styles). Other items are keyed by def_index.
 
 Example response:
 

@@ -17,6 +17,7 @@ const formatInventoryData = ({
     keys,
     stickerSlabs,
     tools,
+    pets,
 }) => {
     const items = {};
 
@@ -169,6 +170,17 @@ const formatInventoryData = ({
         };
     });
 
+    pets.forEach(pet => {
+        if (!items["pets"]) items["pets"] = {};
+        // Keyed like graffiti: "<pet id>_<style>", or "<pet id>" for pets without styles.
+        items["pets"][pet.style !== null ? `${pet.pet_id}_${pet.style}` : pet.pet_id] = {
+            name: pet.name,
+            rarity: pet.rarity ?? null,
+            marketable: false,
+            image: pet.image,
+        };
+    });
+
     return items;
 };
 
@@ -197,6 +209,7 @@ export const getInventory = async () => {
     const keysFilePath = path.join(process.cwd(), `./public/api/${folder}/keys.json`);
     const stickerSlabsFilePath = path.join(process.cwd(), `./public/api/${folder}/sticker_slabs.json`);
     const toolsFilePath = path.join(process.cwd(), `./public/api/${folder}/tools.json`);
+    const petsFilePath = path.join(process.cwd(), `./public/api/${folder}/pets.json`);
 
     try {
         const skins = await waitForFile(skinsFilePath);
@@ -212,6 +225,7 @@ export const getInventory = async () => {
         const keys = await waitForFile(keysFilePath);
         const stickerSlabs = await waitForFile(stickerSlabsFilePath);
         const tools = await waitForFile(toolsFilePath);
+        const pets = await waitForFile(petsFilePath);
         const inventory = formatInventoryData({
             skins,
             crates,
@@ -226,6 +240,7 @@ export const getInventory = async () => {
             keys,
             stickerSlabs,
             tools,
+            pets,
         });
         saveDataJson(`./public/api/${folder}/inventory.json`, inventory);
     } catch (error) {

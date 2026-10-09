@@ -138,6 +138,14 @@ const endpoints = [
         jsonFile: "public/api/en/highlights.json",
     },
     {
+        id: "list-pets",
+        title: "List pets",
+        description: "Returns an array of pets, one entry per pet and style (breed color).",
+        endpoint: "/pets.json",
+        url: "https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/pets.json",
+        jsonFile: "public/api/en/pets.json",
+    },
+    {
         id: "inventory",
         title: "Inventory",
         description:
@@ -321,6 +329,10 @@ function generateResponseStructure(items, isObject = false, isInventory = false)
                             <div class="structure-item ml-4">
                                 <span class="structure-key">tools</span>
                                 <span class="structure-type type-object">(object)</span> - Keyed by def_index
+                            </div>
+                            <div class="structure-item ml-4">
+                                <span class="structure-key">pets</span>
+                                <span class="structure-type type-object">(object)</span> - Keyed by pet id and style (&lt;pet_id&gt;_&lt;style&gt;)
                             </div>
                             <div class="structure-item mt-3">
                                 Each item has:

@@ -17,6 +17,7 @@ import { getLanguages, parseLanguagesArg } from "./utils/languages.js";
 import { getMusicKits } from "./services/musicKits.js";
 import { getSkinsNotGrouped } from "./services/skinsNotGrouped.js";
 import { getTools } from "./services/tools.js";
+import { getPets } from "./services/pets.js";
 import { getBaseWeapons } from "./services/baseWeapons.js";
 import { getHighlights } from "./services/highlights.js";
 import { getInventory } from "./services/inventory.js";
@@ -99,6 +100,7 @@ await Promise.all(
             getStickerSlabs();
             getKeychains();
             getTools();
+            getPets();
             getBaseWeapons();
             getHighlights();
             getInventory();
