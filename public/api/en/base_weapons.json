@@ -715,6 +715,28 @@
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
  },
  {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "Broken Fang Gloves",
+  "description": "These fingerless gloves have been decorated with metal studs and the Operation Broken Fang logo.",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "Bloodhound Gloves",
+  "description": "These fingerless gloves have been decorated with metal studs and the Operation Bloodhound logo.",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
   "id": "base_weapon-t_gloves",
   "name": "Default T Gloves",
   "description": "<i>Never be afraid to get blood on your hands. – Valeria Jenner, Revolutionary</i>",
@@ -735,5 +757,71 @@
    "name": "Gloves"
   },
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "Sport Gloves",
+  "description": "Synthetic fabrics make these athletic gloves durable and eye-catching.",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "Driver Gloves",
+  "description": "These driving gloves offer protection from the elements while still maintaining tactile sensation.",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "Hand Wraps",
+  "description": "Preferred by hand-to-hand fighters, these wraps protect the knuckles and stabilize the wrist when punching.",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "Moto Gloves",
+  "description": "These bulky hard knuckled gloves can protect the wearers hands from road rash at 60 mph.",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "Specialist Gloves",
+  "description": "Durable, breathable, and stylish; these gloves are designed to take (and give) a beating.",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "Hydra Gloves",
+  "description": "These fingerless gloves have been decorated with metal studs and the Operation Hydra logo.",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Gloves"
+  },
+  "image": null
  }
 ]

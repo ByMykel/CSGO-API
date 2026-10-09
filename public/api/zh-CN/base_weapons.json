@@ -715,6 +715,28 @@
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
  },
  {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "狂牙手套",
+  "description": "这副露指手套使用金属铆钉和“狂牙大行动”的图标进行了装饰。",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "血猎手套",
+  "description": "这副露指手套使用金属铆钉和“血猎大行动”的图标进行了装饰。",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
   "id": "base_weapon-t_gloves",
   "name": "默认T手套",
   "description": "<i>永远不要因手上沾满鲜血而恐惧。– 革命者瓦莱里娅.琴纳</i>",
@@ -735,5 +757,71 @@
    "name": "手套"
   },
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "运动手套",
+  "description": "合成面料使这副运动手套耐用且引人注目。",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "驾驶手套",
+  "description": "这副驾驶手套在提供基础防护的同时还依然能让穿戴者保持触觉。",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "裹手",
+  "description": "更受徒手格斗战士青睐，这套束带可以在挥击拳头时保护指关节并稳定手腕。",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "摩托手套",
+  "description": "这副笨重坚硬的关节手套可以保护穿戴者的手承受 60 英里/时的暴力摩托冲撞。",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "专业手套",
+  "description": "耐用、透气、时尚；这副手套是专门用来承受（和给予）打击的。",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "九头蛇手套",
+  "description": "这副露指手套使用金属铆钉和“九头蛇大行动”的图标进行了装饰。",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "手套"
+  },
+  "image": null
  }
 ]
