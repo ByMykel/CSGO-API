@@ -681,7 +681,7 @@ One entry per pet and style. Adult chickens have a `style` (their breed color); 
 ```js
 [
   {
-    id: "pet-5-9",
+    id: "pet-5_9",
     pet_id: "5",
     style: 9, // null for pets without styles
     name: "Pet Chicken | Polish (Pink)",

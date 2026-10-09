@@ -94,7 +94,7 @@ const parseItem = (item, petItem, pet, style = null, material = pet.material) =>
         : `${RENDERED_IMAGES_URL}/${material}.png`;
 
     return {
-        id: style !== null ? `pet-${item.object_id}-${style}` : `pet-${item.object_id}`,
+        id: style !== null ? `pet-${item.object_id}_${style}` : `pet-${item.object_id}`,
         pet_id: item.object_id,
         style,
         name: style !== null ? `${name} | ${pet.breed} (${color})` : name,
