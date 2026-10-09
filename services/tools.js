@@ -51,16 +51,6 @@ export const getTools = () => {
             },
         },
         {
-            id: "tool-5",
-            name: $t("chicken_egg"),
-            description: $t("chicken_egg_desc"),
-            image: cdnImages["econ/pets/chicken_egg"] ?? getImageUrl("econ/pets/chicken_egg"),
-            def_index: "4948",
-            original: {
-                image_inventory: "econ/pets/chicken_egg",
-            },
-        },
-        {
             id: "tool-6",
             name: $t("chicken_feed"),
             description: $t("chicken_feed_desc"),
