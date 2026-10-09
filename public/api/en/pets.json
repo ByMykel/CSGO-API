@@ -1,0 +1,794 @@
+[
+ {
+  "id": "pet-1",
+  "pet_id": "1",
+  "style": null,
+  "name": "Chicken Egg",
+  "description": null,
+  "breed": null,
+  "color": null,
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_egg_png.png",
+  "original": {
+   "name": "chicken_egg_01",
+   "loc_name": "#chicken_egg",
+   "pedestal_display_model": "models/chicken/egg_pristine.vmdl",
+   "image_inventory": "econ/pets/chicken_egg",
+   "material": null
+  }
+ },
+ {
+  "id": "pet-2",
+  "pet_id": "2",
+  "style": null,
+  "name": "Pet Chick",
+  "description": null,
+  "breed": null,
+  "color": null,
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chick_yellow.png",
+  "original": {
+   "name": "chicken_chick_01",
+   "loc_name": "#pet_chick",
+   "pedestal_display_model": "models/chicken/chick.vmdl",
+   "image_inventory": null,
+   "material": "chick_yellow"
+  }
+ },
+ {
+  "id": "pet-3-1",
+  "pet_id": "3",
+  "style": 1,
+  "name": "Pet Chicken | Catalana (Tan)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Tan",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_tan.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_tan"
+  }
+ },
+ {
+  "id": "pet-3-2",
+  "pet_id": "3",
+  "style": 2,
+  "name": "Pet Chicken | Catalana (Black White Head)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Black White Head",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_black_white_head.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_black_white_head"
+  }
+ },
+ {
+  "id": "pet-3-3",
+  "pet_id": "3",
+  "style": 3,
+  "name": "Pet Chicken | Catalana (White)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "White",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_white.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_white"
+  }
+ },
+ {
+  "id": "pet-3-4",
+  "pet_id": "3",
+  "style": 4,
+  "name": "Pet Chicken | Catalana (Yellow and Red)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Yellow and Red",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_yellow_and_red.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_yellow_and_red"
+  }
+ },
+ {
+  "id": "pet-3-5",
+  "pet_id": "3",
+  "style": 5,
+  "name": "Pet Chicken | Catalana (Light Blue and Red)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Light Blue and Red",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_light_blue_and_red.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_light_blue_and_red"
+  }
+ },
+ {
+  "id": "pet-3-6",
+  "pet_id": "3",
+  "style": 6,
+  "name": "Pet Chicken | Catalana (Black with Red Head)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Black with Red Head",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_black_with_red_head.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_black_with_red_head"
+  }
+ },
+ {
+  "id": "pet-3-7",
+  "pet_id": "3",
+  "style": 7,
+  "name": "Pet Chicken | Catalana (Blue)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Blue",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_blue.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_blue"
+  }
+ },
+ {
+  "id": "pet-3-8",
+  "pet_id": "3",
+  "style": 8,
+  "name": "Pet Chicken | Catalana (Dark Orange)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Dark Orange",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_dark_orange.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_dark_orange"
+  }
+ },
+ {
+  "id": "pet-3-9",
+  "pet_id": "3",
+  "style": 9,
+  "name": "Pet Chicken | Catalana (Blue and Light Orange)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Blue and Light Orange",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalana_blue_and_light_orange.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalana_blue_and_light_orange"
+  }
+ },
+ {
+  "id": "pet-3-10",
+  "pet_id": "3",
+  "style": 10,
+  "name": "Pet Chicken | Catalana (Orange Blue Neck)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Orange Blue Neck",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_orange_blue_neck.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_orange_blue_neck"
+  }
+ },
+ {
+  "id": "pet-3-11",
+  "pet_id": "3",
+  "style": 11,
+  "name": "Pet Chicken | Catalana (Yellow Red Gradient)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Yellow Red Gradient",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_yellow_red_gradient.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_yellow_red_gradient"
+  }
+ },
+ {
+  "id": "pet-3-12",
+  "pet_id": "3",
+  "style": 12,
+  "name": "Pet Chicken | Catalana (Grey)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Grey",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_grey.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_grey"
+  }
+ },
+ {
+  "id": "pet-3-13",
+  "pet_id": "3",
+  "style": 13,
+  "name": "Pet Chicken | Catalana (Black)",
+  "description": null,
+  "breed": "Catalana",
+  "color": "Black",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_catalan_black.png",
+  "original": {
+   "name": "chicken_catalana_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken.vmdl",
+   "image_inventory": null,
+   "material": "chicken_catalan_black"
+  }
+ },
+ {
+  "id": "pet-4-1",
+  "pet_id": "4",
+  "style": 1,
+  "name": "Pet Chicken | Silkie (White)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "White",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_white.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_white"
+  }
+ },
+ {
+  "id": "pet-4-2",
+  "pet_id": "4",
+  "style": 2,
+  "name": "Pet Chicken | Silkie (Splash)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Splash",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_splash.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_splash"
+  }
+ },
+ {
+  "id": "pet-4-3",
+  "pet_id": "4",
+  "style": 3,
+  "name": "Pet Chicken | Silkie (Blue with Red Beard)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Blue with Red Beard",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_blue_with_red_beard.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_blue_with_red_beard"
+  }
+ },
+ {
+  "id": "pet-4-4",
+  "pet_id": "4",
+  "style": 4,
+  "name": "Pet Chicken | Silkie (Leopard)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Leopard",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_leopard.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_leopard"
+  }
+ },
+ {
+  "id": "pet-4-5",
+  "pet_id": "4",
+  "style": 5,
+  "name": "Pet Chicken | Silkie (Red)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Red",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_red.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_red"
+  }
+ },
+ {
+  "id": "pet-4-6",
+  "pet_id": "4",
+  "style": 6,
+  "name": "Pet Chicken | Silkie (Red Beetle)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Red Beetle",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_red_beetle.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_red_beetle"
+  }
+ },
+ {
+  "id": "pet-4-7",
+  "pet_id": "4",
+  "style": 7,
+  "name": "Pet Chicken | Silkie (Orange)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Orange",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_orange.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_orange"
+  }
+ },
+ {
+  "id": "pet-4-8",
+  "pet_id": "4",
+  "style": 8,
+  "name": "Pet Chicken | Silkie (Purple)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Purple",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_purple.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_purple"
+  }
+ },
+ {
+  "id": "pet-4-9",
+  "pet_id": "4",
+  "style": 9,
+  "name": "Pet Chicken | Silkie (Aqua with Yellow)",
+  "description": null,
+  "breed": "Silkie",
+  "color": "Aqua with Yellow",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_silkie_aqua_with_yellow.png",
+  "original": {
+   "name": "chicken_silkie_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_silkie.vmdl",
+   "image_inventory": null,
+   "material": "chicken_silkie_aqua_with_yellow"
+  }
+ },
+ {
+  "id": "pet-5-1",
+  "pet_id": "5",
+  "style": 1,
+  "name": "Pet Chicken | Polish (Black with White Head)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Black with White Head",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_black_with_white_head.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_black_with_white_head"
+  }
+ },
+ {
+  "id": "pet-5-2",
+  "pet_id": "5",
+  "style": 2,
+  "name": "Pet Chicken | Polish (Brown)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Brown",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_brown.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_brown"
+  }
+ },
+ {
+  "id": "pet-5-3",
+  "pet_id": "5",
+  "style": 3,
+  "name": "Pet Chicken | Polish (White with Black Wing Tips)",
+  "description": null,
+  "breed": "Polish",
+  "color": "White with Black Wing Tips",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_white_with_black_wing_tips.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_white_with_black_wing_tips"
+  }
+ },
+ {
+  "id": "pet-5-4",
+  "pet_id": "5",
+  "style": 4,
+  "name": "Pet Chicken | Polish (Brown with Black Wing Tips)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Brown with Black Wing Tips",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_brown_with_black_wing_tips.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_brown_with_black_wing_tips"
+  }
+ },
+ {
+  "id": "pet-5-5",
+  "pet_id": "5",
+  "style": 5,
+  "name": "Pet Chicken | Polish (White Black Head)",
+  "description": null,
+  "breed": "Polish",
+  "color": "White Black Head",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_white_black_head_color.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_white_black_head_color"
+  }
+ },
+ {
+  "id": "pet-5-6",
+  "pet_id": "5",
+  "style": 6,
+  "name": "Pet Chicken | Polish (Blue)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Blue",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_blue.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_blue"
+  }
+ },
+ {
+  "id": "pet-5-7",
+  "pet_id": "5",
+  "style": 7,
+  "name": "Pet Chicken | Polish (Green with Red Head)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Green with Red Head",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_green_with_red_head.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_green_with_red_head"
+  }
+ },
+ {
+  "id": "pet-5-8",
+  "pet_id": "5",
+  "style": 8,
+  "name": "Pet Chicken | Polish (Green)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Green",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_green.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_green"
+  }
+ },
+ {
+  "id": "pet-5-9",
+  "pet_id": "5",
+  "style": 9,
+  "name": "Pet Chicken | Polish (Pink)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Pink",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_pink.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_pink"
+  }
+ },
+ {
+  "id": "pet-5-10",
+  "pet_id": "5",
+  "style": 10,
+  "name": "Pet Chicken | Polish (Blue Yellow)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Blue Yellow",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_blue_yellow.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_blue_yellow"
+  }
+ },
+ {
+  "id": "pet-5-11",
+  "pet_id": "5",
+  "style": 11,
+  "name": "Pet Chicken | Polish (Orange White Blue)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Orange White Blue",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_orange_white_blue.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_orange_white_blue"
+  }
+ },
+ {
+  "id": "pet-5-12",
+  "pet_id": "5",
+  "style": 12,
+  "name": "Pet Chicken | Polish (Orange with Black Stripes)",
+  "description": null,
+  "breed": "Polish",
+  "color": "Orange with Black Stripes",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "High Grade",
+   "color": "#4b69ff"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_orange_with_black_stripes.png",
+  "original": {
+   "name": "chicken_polish_01",
+   "loc_name": "#pet_chicken",
+   "pedestal_display_model": "models/chicken/chicken_polish.vmdl",
+   "image_inventory": null,
+   "material": "chicken_polish_orange_with_black_stripes"
+  }
+ }
+]
