@@ -1,0 +1,827 @@
+[
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Tiền nào của ấy, Desert Eagle là khẩu súng ngắn độc đáo khó thuần thục nhưng chuẩn xác không ngờ ở tầm xa.",
+  "def_index": 1,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnk-CNc4_fgOfA8cfGRDTfGku13seI4Fyq2wUQm5DjWzo38IH3BO1N2W5MmTe5etw74zINmLLSKdA"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Dual Berettas",
+  "description": "Dùng hai khẩu Beretta ổ đạn lớn một lúc làm giảm độ chính xác và tăng thời gian nạp đạn. Nhưng tin vui là, bạn được cầm những hai khẩu Beretta ổ đạn lớn một lúc.",
+  "def_index": 2,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Độ chính xác cao và xuyên giáp tốt, khẩu Five-Seven đắt tiền tuy nạp đạn chậm nhưng bù lại có ổ đạn 20 viên dồi dào và độ giật dễ kiểm soát.",
+  "def_index": 3,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm9DRe_Pe4baojePHHWz7GwL4jsbVvTHnilE1w5WrVzo39JH6QOFUnC8RxROMN4ESwlMqnab24YkBbtQ"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "Glock 18 là khẩu súng ngắn ván đầu tiên hoạt động tốt nhất khi dùng lên kẻ địch không có giáp, và sở hữu chế độ bắn chùm ba viên.",
+  "def_index": 4,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn8S1Y5Lz9O_M5d_LHDz6WmOp04-U8THmwzU0l6ziDyd__IC3DO1IgXJJwE7NfrFDmxU9v5GXb"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "Mạnh mẽ và đáng tin cậy, AK-47 là một trong những khẩu súng trường tấn công nổi tiếng nhất thế giới. Cực kì nguy hiểm nhất là khi được bắn thành những loạt đạn ngắn, có kiểm soát.",
+  "def_index": 7,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "Mạnh mẽ và chính xác, súng trường tấn công có lắp ống ngắm AUG bù cho thời gian nạp đạn lâu bằng độ tỏa thấp và tốc độ bắn cao.",
+  "def_index": 8,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6CUV7ff8PP08eanED2LHlLh06ec-TnjmkUUmsGXRn4n8cimTPVB0XsR1RPlK7Ee4GsImgw"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "Được ăn cả ngã về không, AWP khét tiếng được nhận dạng bởi âm thanh dễ nhận biết và quy tắc một phát, một mạng của nó.",
+  "def_index": 9,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6jIVtqr4PqBoI_ORVjXFkeguseMwGXGwwUV_4GmHyd2qdH-WbFAmApsiQPlK7EcMn7y-CQ"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "Lựa chọn rẻ cho người chơi bị kẹt tiền, FAMAS bù vào chỗ trống giữa súng trường đắt hơn và tiểu liên không hiệu quả bằng.",
+  "def_index": 10,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm_C9a_Lz4OvY8dKLGXDKRmOtw5ORrTni3lhl06mqAn4ypJHvBalQlC8AhE-ICrFDmxTHPFtPP"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "Khẩu G3SG1 đắt tiền làm giảm đáng kể vận tốc nhưng bù lại là tốc độ bắn nhanh hơn các khẩu súng bắn tỉa khác.",
+  "def_index": 11,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnnrjFcvrz4P_U6efbAWT7BmOou57AxHHjjx0gk4zjQztqtJC7FaVUoW5okTLQNrFDmxakCozSV"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Galil AR",
+  "description": "Lựa chọn rẻ hơn trong chỗ súng trường tấn công dành riêng của khủng bố, Galil AR là vũ khí hữu dụng ở tầm giao chiến từ trung tới xa.",
+  "def_index": 13,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn_C5S4_O8JvZrIaPKV2ORx7d3trg7Gnjmlxl04WTTyoyqeXKUPFVzCsN1FuMJuxam0oqwr0aqT-w"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "Một khẩu súng máy hạng nhẹ mạnh mẽ dùng ở không gian trống, M249 là lựa chọn thích hợp cho người chơi sẵn sàng nhận tốc độ bắn chậm đổi lấy độ chính xác và dung lượng đạn.",
+  "def_index": 14,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntr3YCoaarbfc_IvHDWWLClb8g5OA7F3y1l0xw6juBzdeoJX6fZ1IoWcciQ-UU8k7vtOr9c-I"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "Chính xác nhưng sát thương ít hơn tương đương của nó là AK-47, M4A4 là khẩu súng trường tấn công hoàn toàn tự động được CT sử dụng.",
+  "def_index": 16,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMKofH_O_Y-JfSVV2XBkLolsbZvTCqxx0sk4DjUnNipdSiQagcgXJQlRLEU8k7vIDSSpqI"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "Nói cho gọn là một cái hộp phun ra đạn, khẩu tiểu liên MAC-10 phô diễn tốc độ bắn cao, với độ chính xác tỏa ra kém và giật cao để bù lại.",
+  "def_index": 17,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "Dễ dàng nhận ra nhờ thiết kế bullpup độc đáo, khẩu P90 là sự lựa chọn rất tốt nếu muốn khai hỏa trong khi di chuyển, nhờ ổ đạn sức chứa lớn cùng độ giật thấp.",
+  "def_index": 19,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "Thường bị nhái nhưng không bao giờ có kẻ ngang tầm, MP5 lẫy lừng có lẽ là khẩu súng tiểu liên nổi tiếng và linh hoạt nhất thế giới. Phiên bản SD bao gồm một ống giảm thanh gắn cố định hoàn toàn, giúp hệ thống vũ khí vốn đã ghê gớm giờ lại tĩnh lặng đến chết người.",
+  "def_index": 23,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "Đứa con giữa bị hiểu lầm của nhà tiểu liên, ổ đạn nhỏ của UMP45 là bất lợi duy nhất trên khẩu súng thuộc dòng tự động tầm gần đa năng.",
+  "def_index": 24,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn18DIPurz6MPducqDGCDPIw7l05LA7SXyylkh25z-Dm9agJHKSZgciDZt3F7JerFDmxeILsNGi"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "XM1014 là khẩu súng săn hoàn toàn tự động đầy uy lực, biện luận cho cái bảng giá của mình với khả năng phun kín chì khắp một căn phòng nhanh chóng.",
+  "def_index": 25,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "PP-Bizon",
+  "description": "Khẩu tiểu liên Bizon sát thương thấp, nhưng đem đến ổ đạn hình trống sức chứa lớn với thiết kế độc đáo cho phép nạp đạn nhanh.",
+  "def_index": 26,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni9DhU4bz-PKZocPTBW2GWlbZw4bM7SS2xwER1smSEnIv6dS_GbFBxDJd0RLFbrFDmxaLGO5J-"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "Khẩu Mag-7 dành riêng cho CT tung ra sát thương tàn phá ở tầm gần. Kiểu nạp đạn bằng ổ nhanh khiến nó thành lựa chọn chiến thuật tốt.",
+  "def_index": 27,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt_CUMoav3MP1oeanBXWLAmeoitbk-HHrjl0hztW7Xy4n7dirDag4hXJB4EeUU8k7vG_ZoUEk"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Negev",
+  "description": "Negev là một con thú vật có thể giữ chân kẻ địch làn đạn đàn áp tuyệt đối, ấy là nếu bạn có đủ thời gian để cố kiểm soát nó.",
+  "def_index": 28,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnu-CVe-bz3P6I1caTGDzTFk7gh5rg6Tn3rkBwm4zjSwo3_Ii-fZgIjA8dwELFZrFDmxWhBRARX"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Súng nòng ngắn",
+  "description": "Khẩu Sawed-Off kinh điển gây sát thương nặng ở tầm gần, nhưng vì độ chính xác kém, tỏa nhiều và bắn chậm, tốt hơn là bạn nên bắn chết với phát đầu tiên.",
+  "def_index": 29,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_DVe6_2obuo_JqHACzaSk-1wtrMwTi3nkUly6m-ByYr4Jy2fP1cgA8dxFLRfu0LqjJS5YC4vtNQk"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "Một khẩu súng ngắn lý tưởng dành cho những tên khủng bố hay di chuyển, Tec-9 là một vũ khí chết người ở cự ly gần, sở hữu ổ đạn có sức chứa lớn.",
+  "def_index": 30,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0-CECofb2MKY9IvPGWjPAkrwi5Lk4Tn3nzUwlsGnVzI6pdymQbVAjW8d0F-IU8k7vdMx23Ho"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "Dùng để mai phục tầm gần và đối mặt không gian hẹp thì tuyệt hảo, khẩu Zeus x27 với khả năng tự sạc sẽ làm tê liệt đối phương chỉ với một lần bắn.",
+  "def_index": 31,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Trang bị"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0_DFe_bz6PKI4caTCDzHCwrkj57U6FnHik0l04mXVw4yhJCiRaVImW8dzTeRcrFDmxd8qNG47"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "Chính xác và dễ kiểm soát, P2000 đến từ Đức là khẩu súng ngắn ván đầu tiên hữu dụng, hiệu suất tốt nhất khi dùng lên kẻ địch không có giáp.",
+  "def_index": 32,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKno9jIJv6L-Jqc_cKjEWDDDlLx3trVrH3qykEtz4TjQno6td3uVbVRyWZR2EbEKtRCm0oqwKXhPxN4"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "Đa năng nhưng đắt tiền, khẩu tiểu liên MP7 đến từ Đức là lựa chọn tuyệt vời để giao chiến khoảng gần tác động mạnh.",
+  "def_index": 33,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XUVvfOoPqA1eKHEVjXFlr0ituM_SnqwwR9w4mXVyIn6dnKRblV1D5AhTPlK7EelyO1yEg"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "Được sản xuất tại Thụy Sĩ, khẩu tiểu liên hiện đại MP9 là vũ khí polime vừa tay được các công ty an ninh tư nhân ưa dùng.",
+  "def_index": 34,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Tiểu liên"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XsVv6T9OvE9dKLKCD_Ex74h5bY6Tnrgl0hzt2rXm4qseXyWaAMgWJJ2EflK7Ec0i602wg"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Mức giá kịch sàn của Nova khiến nó thành vũ khí mai phục tốt cho một đội đang kẹt tiền.",
+  "def_index": 35,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Hạng nặng"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "Một khẩu súng với tốc độ bắn cao và độ giật thấp, P250 là lựa chọn tương đối rẻ để đánh lại kẻ địch mang giáp.",
+  "def_index": 36,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwr3cLoaf4avNvJqKXXmKUlrp0s-U9HCvgw0V05WSDw96pIC6VOw92X8QkROAU8k7vNwsvFQ4"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "Khẩu SCAR-20 súng bắn tỉa bán tự động đổi tốc độ bắn cao và sát thương tầm xa mạnh với di chuyển chậm chạp và bảng giá cao.",
+  "def_index": 38,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_iNJvaLgbqY_JqbKV2TExL11s7JoGnjkl05-4TvUw96vdHiQOwZ1AsMiQuMOtQ74zINGfpXf5Q"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "Khẩu SG553 dành riêng cho bên khủng bố lựa chọn thay thế có ống ngắm cho AK47 hiệu quả ở giao chiến tầm xa.",
+  "def_index": 39,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "Khẩu kéo thoi SSG08 là súng bắn tỉa sát thương ít nhưng giá hợp lý, khiến nó trở thành lựa chọn thông minh cho việc ngắm bắn tầm xa những ván đầu.",
+  "def_index": 40,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz7iULt7z2MPY1eaWVCDHGlrgksuQ_HS3lxhkh4m-Gm9b6ICjCPQ4hDMF3EOJerFDmxXJ24aAg"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "Dao",
+  "description": "Âm thầm và luôn ngay cạnh, dao có đòn tấn công chính nhanh, ít sát thương và đòn phụ chậm, sát thương cao. Một phát vào lưng thưởng cho người chơi kín đáo một mạng giết ngay lập tức.",
+  "def_index": 42,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6rz5PvI9dPbGX2HGl7dw4LYxHn3mlkshtWmHzI74IyqVbQQnWZN1Q7QLrFDmxYFVbevc"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "Lựu đạn choáng",
+  "description": "Lựu đạn choáng không gây sát thương nhưng làm mù tạm thời bất cứ ai ở trong tầm chấn động của nó, khiến nó rất lý tưởng cho việc gây hỗn loạn các khu vực kín. Tiếng nổ lớn cũng tạm thời giúp ngụy trang tiếng bước chân.",
+  "def_index": 43,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "Lựu đạn nổ",
+  "description": null,
+  "def_index": 44,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "Lựu đạn khói",
+  "description": null,
+  "def_index": 45,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "Bom xăng",
+  "description": "Bom xăng là vũ khí cản đường uy lực và khó lường, tóe ra lửa khi ném xuống đất, làm bị thương bất cứ người chơi nào trong phạm vi của nó.",
+  "def_index": 46,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "Lựu đạn mồi",
+  "description": null,
+  "def_index": 47,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "Bom cháy",
+  "description": null,
+  "def_index": 48,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Lựu đạn"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "Bom C4",
+  "description": "Ổn định và chống được hầu hết các kích thích vật lý, chất nổ dẻo này có vận tốc phát nổ lên tới hơn 8000 mét một giây khi kích hoạt.",
+  "def_index": 49,
+  "category": {
+   "id": "loadoutslot_c4",
+   "name": "C4"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnjqWwLvfOoavw8IvTCV2bEle1w6Lk-TSq2k0x25jiBzN_9dXqVaQ91W5AkW6dU5WnQha4l"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "Medi-Shot",
+  "description": null,
+  "def_index": 57,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Trang bị"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "Dao",
+  "description": "Âm thầm và luôn ngay cạnh, dao có đòn tấn công chính nhanh, ít sát thương và đòn phụ chậm, sát thương cao. Một phát vào lưng thưởng cho người chơi kín đáo một mạng giết ngay lập tức.",
+  "def_index": 59,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26JqJodqWRXjXBlLt05bM7TX21kx91527RnN-teXzFPQYpD5ckQbYM4BCm0oqwrVaqAqg"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "Dù có băng đạn nhỏ hơn người song sinh, khẩu M4A1-S bù lại điểm yếu bằng việc làm giảm tiếng ồn và độ giật, cũng như tăng độ chính xác.",
+  "def_index": 60,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Súng trường"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMK0OGnZKFjI_WBQD_Cleh0teA_F37qkERy52rWm9yhdynGblMgD5AkQrZeuhXtkt3iMOv8p1uJZpwq8Vo"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "Là món vũ khí được fan yêu thích từ thời Counter-Strike Source, khẩu súng ngắn USP giảm thanh có bộ giảm thanh có thể tháo rời, khiến phát bắn giật ít hơn và triệt tiêu tiếng ồn gây chú ý.",
+  "def_index": 61,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Auto",
+  "description": "Là dòng biến thể hoàn toàn tự động của khẩu CZ75, CZ75-Auto là lựa chọn tạm thời lý tưởng để lật ngược tình thế và giật lấy súng của kẻ địch. Nhưng với ổ đạn chẳng mấy viên, cần có rèn luyện kỷ luật cò súng.",
+  "def_index": 63,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "Súng lục R8",
+  "description": "Khẩu súng lục R8 tung ra phát bắn cực kì chính xác và mạnh đổi lại là thời gian bóp cò lâu. Xả đạn liên tục bằng cách giữ cho tay ở búa cò súng là phương án tốt nhất khi cần hạ gục ngay lập tức mục tiêu ở thẳng mặt.",
+  "def_index": 64,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Súng lục"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKny-DRU4-Sreuo8cvTLCzKRmbkk4ONtGijilk8k4znWy9v8JCiUaQIiWZpyQ-AJtEa7jJS5YM17OTN5"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "Bayonet",
+  "description": "Tương đối nguyên vẹn về thiết kế kể từ Thế Chiến II, bayonet vẫn giữ cho mình vị trí trong chiến thuật quân đội hiện đại. Những phát đâm của Bayonet vẫn mang lại hiệu quả, gần đây nhất là ở chiến tranh vùng Vịnh lần hai và ở Afghanistan.",
+  "def_index": 500,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni_DtU4fe6Jv07IfTDDT_JkL4htLI7HCvmwE9z42_Vzov4ci2Wa1IgWMN3R7IMuxCm0oqwYUAZNBA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "Classic Knife",
+  "description": "Vũ khí cổ điển của loạt sê-ri Counter-Strike, lưỡi dao đã được ép phẳng với vật liệu Stellite, được giữ hoàn hảo tại chỗ thông qua khớp nhấn làm bằng Titan ở mặt lưỡi và mặt sau. Tay cầm làm bằng hóa thạch ngà voi răng mấu, và được phủ bao quanh bởi sợi carbon.",
+  "def_index": 503,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2te7cjd6HHXmHBxep157VtTi_rzUR-5WiHnt39c3_EZg4pW5UjQOZbsBCxw8qnab32FBG7RA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "Dao bấm",
+  "description": null,
+  "def_index": 505,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oZK19bqjKVjbDkbtwtbU4S3jhwElw4DvVzomhd3_CblV1CZd2TO5f4RG4lID5d7S15Y9TpQQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "Dao móc",
+  "description": null,
+  "def_index": 506,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pfbAjd6TAXDSSkeh3trdtTCy1zUV2t2vTyoyrIHzDalAgCsN1ROcO40O6wMqnab0rKy1qHw"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "Karambit",
+  "description": "Với lưỡi dao cong bắt chước vuốt hổ, karambit được tạo ra là một phần của môn võ thuật đông nam Á Silat. Con dao thường được cầm ngược lại, luồn ngón trỏ vào vòng ngón.",
+  "def_index": 507,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2labZsLfKaGinEx-0u5LhqGHrjlElz52jRmN2sd3yfb1NzWZVwRbNeu0S5k9WxMuvh-UWA3ObnwJvj"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "M9 Bayonet",
+  "description": "Đây là M-9 bayonet. Vốn được dùng để gắn lên súng trường, nhưng cũng thích hợp cho giao chiến phạm vi gần.",
+  "def_index": 508,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2jMZtvIemcAGKEj7ojtOIwSnrrkEt25WiEw438cXuUaQB0WcBxFrUItxa6lNezMOKzsVPAy9USYWigJ8Q"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Dao Huntsman",
+  "description": "Một con dao được thiết kế với mục đích chiến thuật hiện đại, lưỡi dao thích hợp kể từ việc giao chiến cho tới nhu cần thực dụng. Mũi dao kiểu Tanto cho phép sức xuyên thủng tối đa qua cả những bề mặt chắc nhất.",
+  "def_index": 509,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26aad5KfOSAimVlugu47U5HSrmzEp14zncz4ygICiealIiAsF2EOdYtkTpwNXuYbjk-UWA3JpY_ZDP"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Dao Falchion",
+  "description": "Là lời tỏ lòng kính trọng thời hiện đại cho dòng kiếm falchion, chiếc dao \\\"đầu cụt\\\" này có lưỡi cong.",
+  "def_index": 512,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oaahuKPmcACmSlL4u5uVqG37klhh24DnUytaqJXKQbgcmX5RyF-4Puha8xofmZejg-UWA3FLkEz9H"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Dao Bowie",
+  "description": "Con dao Bowie cán liền thân, lưỡi răng cưa này được thiết kế để chịu công việc nặng trong hoàn cảnh sinh tồn khắc nghiệt.",
+  "def_index": 514,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fbZ7KeaSAliSzvl_ta88TX61xExyt2nTz9eveHjEPQRzXMcjFuYIuhHtkIKyNLnmtACLg4sX02yg2XbF4Kcv"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "Dao bướm",
+  "description": "Đây là một cây balisong thiết kế tùy chỉnh, thường được biết với cái tên dao bướm. Tính chất đặc trưng của vũ khí này là cách mở giống chiếc quạt với lưỡi dao xoay tự do, cho phép lấy ra và giấu đi nhanh chóng. Và vì thế, dao bướm bị cấm tại nhiều nước.",
+  "def_index": 515,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2sfbB5JeKVAn7elO8l6LRoF3_hzBsmtWSDzt-rcy3BP1AnXsR4FOJZskG6xtDkM7627xue1dy94mNpNQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "Dao găm chữ T",
+  "description": "Được thiết kế để sát hại nhanh gọn, sử dụng dao găm đẩy đơn giản như việc tung một hai cú đấm.",
+  "def_index": 516,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2-fbdlbvXKWWXIlbh15bdrTnvmwkt34z_Qz46hdnjFbAIkCJdzR-Zctxi5kNb5d7S1mgn3amY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Dao Paracord",
+  "description": "Với thiết kế lưỡi cố định, dao sinh tồn được tạo nên để có thể chịu được tốt khi sử dụng làm vũ khí hay công cụ, như là đặt bẫy, săn thú hay cắt lá. Tay cầm của dao được bọc bằng một đoạn dây dù đa năng.",
+  "def_index": 517,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2tZ7ZpbqWRXmWTmbsm5bU5TXu3lkR_5j_Swor8JC_BPFVxWJd1FuID4RW7w9b5d7S1z-U4Rao"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "Dao sinh tồn",
+  "description": "Con dao chiến thuật đa năng này có cạnh răng cưa để cắt xuyên qua vật liệu thô như xương hay thớ gỗ, cùng với đó là một lưỡi móc sắc cạnh. Tay cầm bằng vật liệu tổng hợp được bắt vào lưỡi dao với ốc hình lục giác.",
+  "def_index": 518,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2taapkM77CDzbIlrsms-NsHHGxzUwj5G6En4yuIy_BbQAjC5VxQLRc5hm8x4HvKaq8sEukLuHu"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Dao Ursus",
+  "description": "Con dao dã chiến phong cách tanto này có lưỡi được mài với cán liền một khối với dao, kèm theo chuôi nhọn. Không ồn ào, không bộ phận rời - chỉ đơn giản là một lưỡi dao đáng tin cậy để hành sự.",
+  "def_index": 519,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s27erd4M77AXWWWx7h3tOA5SyvilEkj5WuGw42qc3zEOg4iDJEjQu9b4xa6w4DgKaq8sDVgNcPY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Dao Navaja",
+  "description": "Con dao cán đá cẩm thạch tráng men này giấu một lưỡi dao hình nón nhỏ, nhưng hiểm.",
+  "def_index": 520,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pcbR-Oc-ZD2SbyuB_tuQnGXu1kBxw62_dwtird3qXZwQgXJV0E-4PtESxl4ezYr6x4FaMjI4UyzK-0H1iy36efQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Dao Nomad",
+  "description": "Con dao gập chiến thuật này có khóa lưỡi được thiết kế công thái học, với tay cầm bằng vật liệu tổng hợp cùng lưỡi dao to bản và chắc chắn. Cực kì hữu dụng khi cắt xẻ vật liệu.",
+  "def_index": 521,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2hfbBpL_-BQDPEw-hz57cxTnCxkEh_5jnVzor8dymXbgAiAsFyEOEMsBW8l9O1Ne38p1uJmh0Kkm0"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Dao Stiletto",
+  "description": "Về mặt lịch sử, đây là thứ vũ khí nằm trên làn ranh của quy định và hạn chế, con dao bấm stiletto kiểu ý này có một lưỡi dao lò xo xuất kích tức thì ngay khi tháo chốt.",
+  "def_index": 522,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fK1hJeSHASnCmO8v4bc_HCjilkkismTWyNutciqealMhDsR5F7MM4UWwlYC1Zr7n-UWA3E6ZCYCt"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Dao Talon",
+  "description": "Dao karambit này có cán ngà, đinh tán đồng thau và lằn răng lưỡi cưa, để khi chém thì đâm ngập cả lưỡi, khi rút thì xé toạc thịt da.",
+  "def_index": 523,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s25YaBiN_2SBWKCj7ghsrRrTHDnzB8h4mTRw9iudC_DPFVyCsF3R-Zc4xK_ldXgNb7qsgDAy9USS1NPX9M"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "Dao Skeleton",
+  "description": "Chiếc dao được lột vỏ và bọc lại phần tay cầm để cải thiện độ bám. Lỗ trên dao cho phép ngón tay có thể xuyên qua để nâng cao khả năng an toàn và ổn định của dao.",
+  "def_index": 525,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29Y6FhJeScACnDkL8j6LU8GS3mwUh24G-Bno2tIymeblMgC5R3F-ECsBK6k4XuN-Lh-UWA3P3GyEv9"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "Dao Kukri",
+  "description": "Sử dụng trong các nghi lễ truyền thống, như đám cưới hay đâm chém.",
+  "def_index": 526,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Dao"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
+ },
+ {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "Găng tay Broken Fang",
+  "description": "Đôi găng tay cụt ngón này được trang trí bằng đinh kim loại và huy hiệu chiến dịch Broken Fang.",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "Găng tay Bloodhound",
+  "description": "Những găng tay hở ngón này được trang trí đinh kim loại và logo chiến dịch Bloodhound.",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "Găng tay mặc định - T",
+  "description": "<i>Đừng bao giờ sợ tay mình dính máu. – Valeria Jenner, Cách mạng</i>",
+  "def_index": 5028,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "Găng tay mặc định - CT",
+  "description": "Găng tay chiến đấu chiến thuật đa dụng được thiết kế cho các nhân viên quân đội hoặc an ninh.",
+  "def_index": 5029,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "Găng tay thể thao",
+  "description": "Vải tổng hợp khiến những găng tay thể thao này được bền và bắt mắt.",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "Găng tay lái xe",
+  "description": "Những găng tay lái xe này giúp bảo vệ khỏi các yếu tố tác động mà vẫn giữ được cảm nhận xúc giác.",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "Bọc tay",
+  "description": "Được những đấu sĩ tay đôi ưa dùng, những dải bọc này bảo vệ khớp ngón tay và ổn định cổ tay khi đấm.",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "Găng tay mô tô",
+  "description": "Những găng tay to, khớp cứng này có thể bảo vệ tay người đeo khỏi mài đường ở vận tốc 90 kmh.",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "Găng tay chuyên viên",
+  "description": "Bền, thoáng khí, và hợp thời trang; những găng tay này được thiết để chịu (và tung) đòn.",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "Găng tay Hydra",
+  "description": "Những găng tay hở ngón này được trang trí đinh kim loại và logo chiến dịch Hydra.",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Găng tay"
+  },
+  "image": null
+ }
+]
