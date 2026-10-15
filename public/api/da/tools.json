@@ -1,0 +1,52 @@
+[
+ {
+  "id": "tool-1",
+  "name": "Navneskilt",
+  "description": "Denne genstand omdøber et våben. Et brugerdefineret indgraveret navneskilt bliver anvendt på våbnet og kan ses i spillet.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-LVxIT5Z3jCtwYt9YLw7F--F0ipzcG3pCQJ66f_bqA7c6GSCzfGwO9047BvATm9ks8vFHUO",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "Lagercontainer",
+  "description": "Med en lagercontainer kan du lagre op til 1.000 ekstra genstande, som ellers ville bringe dig over inventargrænsen. Du kan når som helst flytte genstande fra dit inventar til lagercontaineren, hente genstande til dit inventar igen, eller du kan bare bruge det til at organisere dine samleobjekter.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "StatTrak™-bytteværktøj",
+  "description": "Denne genstand bytter StatTrak™-værdier mellem to af den samme genstandstype.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-XAwt61J3qc2kVi9ZfL_lboTVOkzsHkq3JY7PeqavNscanCVj7Elb4u5rhsGHrqxU8i4mmHwtyudn-fcEZ-XU9QO74G",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "Vedhængsfjernere",
+  "description": "Vælg et våben med et vedhæng. Vedhængsfjerneren kan bruges til at fjerne vedhænget, som derefter returneres til inventaret.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "4950",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "Hønsefoder",
+  "description": "Giv dit kæledyr mad, så det bliver hos dig.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
+ }
+]
