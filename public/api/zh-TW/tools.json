@@ -1,0 +1,52 @@
+[
+ {
+  "id": "tool-1",
+  "name": "名稱標籤",
+  "description": "這個物品將重新命名一樣武器。一個自訂刻印的名牌將被套用在武器上且可於遊戲內檢視。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-LVxIT5Z3jCtwYt9YLw7F--F0ipzcG3pCQJ66f_bqA7c6GSCzfGwO9047BvATm9ks8vFHUO",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "儲存單元",
+  "description": "儲存單元能儲存您超過物品庫限制（1,000 項）的物品。您可以隨時將任何物品存入儲存單元或從中取回，亦或是只用其管理您的收藏品。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "StatTrak™ 交換工具",
+  "description": "此物品能夠交換兩項相同物品類型的 StatTrak™ 數值。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-XAwt61J3qc2kVi9ZfL_lboTVOkzsHkq3JY7PeqavNscanCVj7Elb4u5rhsGHrqxU8i4mmHwtyudn-fcEZ-XU9QO74G",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "吊飾卸除器",
+  "description": "選擇帶有吊飾的武器。使用吊飾卸除器後，吊飾將從武器上卸除，並返回您的物品庫。",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "4950",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "雞飼料",
+  "description": "要餵您的寵物才能留牠在身邊。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
+ }
+]
