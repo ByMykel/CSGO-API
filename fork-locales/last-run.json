@@ -1,0 +1,157 @@
+{
+  "status": "validated",
+  "sources": {
+    "upstream": "5414fd589b070097e4ae97642aaa311ac31308da",
+    "file-tracker": "f19ecf8e95c9fa1c472fff9adade214ba2bccf53",
+    "image-tracker": "4540d59708253b6302084d545d5d1f4f2c683497"
+  },
+  "dataset_sha256": "b06f551e840a96b5e88395501a86766cc3c4e21d54f9075af913c6789a756c11",
+  "locales": [
+    "en",
+    "zh-CN",
+    "pt-BR",
+    "ru",
+    "es-ES",
+    "bg",
+    "cs",
+    "da",
+    "nl",
+    "fi",
+    "fr",
+    "de",
+    "el",
+    "hu",
+    "it",
+    "ja",
+    "ko",
+    "es-MX",
+    "no",
+    "pl",
+    "pt-PT",
+    "ro",
+    "sv",
+    "zh-TW",
+    "tr",
+    "uk",
+    "vi"
+  ],
+  "batches": [
+    {
+      "batch": 1,
+      "languages": [
+        "pt-BR",
+        "ru",
+        "es-ES",
+        "bg"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 2,
+      "languages": [
+        "ro",
+        "sv",
+        "zh-TW"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 3,
+      "languages": [
+        "cs"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 4,
+      "languages": [
+        "da"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 5,
+      "languages": [
+        "nl"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 6,
+      "languages": [
+        "fi"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 7,
+      "languages": [
+        "fr",
+        "de"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 8,
+      "languages": [
+        "el",
+        "hu"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 9,
+      "languages": [
+        "it"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 10,
+      "languages": [
+        "ja",
+        "ko"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 11,
+      "languages": [
+        "es-MX"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 12,
+      "languages": [
+        "no",
+        "pl"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 13,
+      "languages": [
+        "pt-PT"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 14,
+      "languages": [
+        "tr"
+      ],
+      "status": "validated"
+    },
+    {
+      "batch": 15,
+      "languages": [
+        "uk",
+        "vi"
+      ],
+      "status": "validated"
+    }
+  ],
+  "compressed_combined_files": [],
+  "spelling_certified": false
+}
