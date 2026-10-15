@@ -1,0 +1,827 @@
+[
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Tanto costosa quanto potente, la Desert Eagle è una pistola famosa che è difficile da padroneggiare ma incredibilmente precisa a lunga gittata.",
+  "def_index": 1,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnk-CNc4_fgOfA8cfGRDTfGku13seI4Fyq2wUQm5DjWzo38IH3BO1N2W5MmTe5etw74zINmLLSKdA"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Doppia Beretta",
+  "description": "Sparare contemporaneamente due Beretta con caricatori maggiorati ridurrà la precisione e aumenterà i tempi di ricarica. Dal lato positivo, potrai sparare contemporaneamente con due Beretta dotate di caricatori maggiorati.",
+  "def_index": 2,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Estremamente precisa e utile contro i giubbotti antiproiettile, la costosa Five-Seven è un'arma lenta da ricaricare, compensata da un caricatore da 20 colpi e da un rinculo modesto.",
+  "def_index": 3,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm9DRe_Pe4baojePHHWz7GwL4jsbVvTHnilE1w5WrVzo39JH6QOFUnC8RxROMN4ESwlMqnab24YkBbtQ"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "La Glock 18 è un'utile pistola per il primo round che si dimostra più efficace contro avversari senza giubbotto antiproiettile ed è capace di sparare in raffiche da 3 colpi.",
+  "def_index": 4,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn8S1Y5Lz9O_M5d_LHDz6WmOp04-U8THmwzU0l6ziDyd__IC3DO1IgXJJwE7NfrFDmxU9v5GXb"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "Potente ed affidabile, l'AK-47 è uno dei fucili d'assalto più popolari del mondo. È più letale in raffiche di fuoco brevi e controllate.",
+  "def_index": 7,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "Potente e preciso, l'AUG, dotato di ottica di precisione, compensa i suoi lunghi tempi di ricarica con una dispersione ridotta ed un'alta cadenza di tiro.",
+  "def_index": 8,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6CUV7ff8PP08eanED2LHlLh06ec-TnjmkUUmsGXRn4n8cimTPVB0XsR1RPlK7Ee4GsImgw"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "Il famigerato AWP, rischioso da usare ma molto utile, è riconoscibile per il suo tratto distintivo: un colpo, un morto.",
+  "def_index": 9,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6jIVtqr4PqBoI_ORVjXFkeguseMwGXGwwUV_4GmHyd2qdH-WbFAmApsiQPlK7EcMn7y-CQ"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "Una scelta economica per i giocatori rimasti a tasche vuote, il FAMAS colma lo spazio che si trova tra i fucili più costosi e i mitra meno efficaci.",
+  "def_index": 10,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm_C9a_Lz4OvY8dKLGXDKRmOtw5ORrTni3lhl06mqAn4ypJHvBalQlC8AhE-ICrFDmxTHPFtPP"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "Il costoso G3SG1 riduce la velocità di movimento considerevolmente ma compensa con una cadenza di tiro più alta rispetto a ogni altro fucile di precisione.",
+  "def_index": 11,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnnrjFcvrz4P_U6efbAWT7BmOou57AxHHjjx0gk4zjQztqtJC7FaVUoW5okTLQNrFDmxakCozSV"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Galil AR",
+  "description": "Una scelta meno costosa tra i fucili esclusivi ai Terroristi, il Galil AR è un'arma utile nel combattimento a distanza medio-lunga.",
+  "def_index": 13,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn_C5S4_O8JvZrIaPKV2ORx7d3trg7Gnjmlxl04WTTyoyqeXKUPFVzCsN1FuMJuxam0oqwr0aqT-w"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "Una potente mitragliatrice da campo aperto, l'M249 è la scelta perfetta per i giocatori che desiderano rinunciare ad un'alta cadenza di tiro per una precisione maggiore e una grande capacità di munizioni.",
+  "def_index": 14,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntr3YCoaarbfc_IvHDWWLClb8g5OA7F3y1l0xw6juBzdeoJX6fZ1IoWcciQ-UU8k7vtOr9c-I"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "Più preciso ma dotato di una potenza di fuoco inferiore rispetto al corrispettivo AK-47, l'M4A4 è il fucile d'assalto d'ordinanza completamente automatico per gli AT.",
+  "def_index": 16,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMKofH_O_Y-JfSVV2XBkLolsbZvTCqxx0sk4DjUnNipdSiQagcgXJQlRLEU8k7vIDSSpqI"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "Fondamentalmente, una scatoletta da cui escono fuori i proiettili, il MAC-10 fa vanto di una cadenza di tiro rapida, a discapito di una dispersione dei colpi poco precisa e di un alto rinculo.",
+  "def_index": 17,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "Facilmente riconoscibile per la sua configurazione bullpup, la P90 è un'arma ottima per sparare in movimento grazie al caricatore ad alta capacità e al basso rinculo.",
+  "def_index": 19,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "Spesso imitato, ma mai eguagliato, l'emblematico MP5 è forse il mitra più versatile e popolare del mondo. La variante SD di quest'arma già formidabile presenta un silenziatore integrato, che la rende silenziosa come un sussurro.",
+  "def_index": 23,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "Figlio incompreso di mezzo nella famiglia dei mitra, l'UMP45 è dotato di un caricatore piccolo, unico neo di un'arma automatica altrimenti versatile che eccelle in scontri ravvicinati.",
+  "def_index": 24,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn18DIPurz6MPducqDGCDPIw7l05LA7SXyylkh25z-Dm9agJHKSZgciDZt3F7JerFDmxeILsNGi"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "L'XM1014 è un potente fucile a pompa automatico che giustifica il suo prezzo un po' alto con la capacità di riverniciare una stanza di piombo in pochi istanti.",
+  "def_index": 25,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "PP-Bizon",
+  "description": "Il mitra Bizon ha una limitata potenza di fuoco, ma offre un caricatore a tamburo ad alta capacità espressamente progettato che si ricarica rapidamente.",
+  "def_index": 26,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni9DhU4bz-PKZocPTBW2GWlbZw4bM7SS2xwER1smSEnIv6dS_GbFBxDJd0RLFbrFDmxaLGO5J-"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "Il Mag-7, esclusivo per gli AT, è in grado di infliggere una notevole quantità di danni a distanza ravvicinata. Il suo caratteristico caricatore rapido lo rende una scelta tattica molto interessante.",
+  "def_index": 27,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt_CUMoav3MP1oeanBXWLAmeoitbk-HHrjl0hztW7Xy4n7dirDag4hXJB4EeUU8k7vG_ZoUEk"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Negev",
+  "description": "Il Negev è un'arma molto potente, in grado di tenere il nemico a distanza grazie al suo fuoco di soppressione, sempre che tu ti possa permettere il tempo per riuscire a controllarlo.",
+  "def_index": 28,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnu-CVe-bz3P6I1caTGDzTFk7gh5rg6Tn3rkBwm4zjSwo3_Ii-fZgIjA8dwELFZrFDmxWhBRARX"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Fucile a canne mozze",
+  "description": "Il classico fucile a canne mozze infligge gravissimi danni a distanza ravvicinata, ma con la sua bassa precisione, la sua rosa ampia e i suoi lunghi tempi tra un colpo e il successivo, ti converrà mirare bene e assicurarti di uccidere.",
+  "def_index": 29,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_DVe6_2obuo_JqHACzaSk-1wtrMwTi3nkUly6m-ByYr4Jy2fP1cgA8dxFLRfu0LqjJS5YC4vtNQk"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "Ideale per le sparatorie in corsa, questa pistola per i Terroristi è letale negli scontri ravvicinati e dispone di un caricatore molto capiente.",
+  "def_index": 30,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0-CECofb2MKY9IvPGWjPAkrwi5Lk4Tn3nzUwlsGnVzI6pdymQbVAjW8d0F-IU8k7vdMx23Ho"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "Perfetto per le imboscate a corta distanza e per gli scontri ravvicinati, lo Zeus x27 ricaricabile è in grado di rendere inoffensivo un nemico in un solo colpo.",
+  "def_index": 31,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Equip."
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0_DFe_bz6PKI4caTCDzHCwrkj57U6FnHik0l04mXVw4yhJCiRaVImW8dzTeRcrFDmxd8qNG47"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "Precisa e controllabile, la P2000, di fabbricazione tedesca, è un'utile pistola per il primo round che si dimostra efficace contro gli avversari senza giubbotto antiproiettile.",
+  "def_index": 32,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKno9jIJv6L-Jqc_cKjEWDDDlLx3trVrH3qykEtz4TjQno6td3uVbVRyWZR2EbEKtRCm0oqwKXhPxN4"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "Versatile ma costoso, l'MP7 di fabbricazione tedesca è un mitra perfetto per il combattimento a distanza ravvicinata ad alto impatto.",
+  "def_index": 33,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XUVvfOoPqA1eKHEVjXFlr0ituM_SnqwwR9w4mXVyIn6dnKRblV1D5AhTPlK7EelyO1yEg"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "Fabbricato in Svizzera, l'innovativo mitra MP9 è un'arma ergonomica in polimeri prediletta dalle aziende di sicurezza private.",
+  "def_index": 34,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Mitra"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XsVv6T9OvE9dKLKCD_Ex74h5bY6Tnrgl0hzt2rXm4qseXyWaAMgWJJ2EflK7Ec0i602wg"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Il misero prezzo del Nova lo rende un'arma ottima per le imboscate per una squadra rimasta al verde.",
+  "def_index": 35,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Armi pesanti"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "La P250, una pistola a basso rinculo ed alta cadenza di tiro, è una scelta relativamente poco costosa contro avversari dotati di giubbotto antiproiettile.",
+  "def_index": 36,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwr3cLoaf4avNvJqKXXmKUlrp0s-U9HCvgw0V05WSDw96pIC6VOw92X8QkROAU8k7vNwsvFQ4"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "Lo SCAR-20 è un fucile di precisione semiautomatico che offre un'alta cadenza di tiro e una grande potenza di fuoco a lunga gittata al prezzo di un ingombro notevole e di un costo impressionante.",
+  "def_index": 38,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_iNJvaLgbqY_JqbKV2TExL11s7JoGnjkl05-4TvUw96vdHiQOwZ1AsMiQuMOtQ74zINGfpXf5Q"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "L'SG553, esclusivo per i terroristi, è una versione maggiorata dell'AK-47 dotata di un mirino di precisione, efficace negli scontri a lungo raggio.",
+  "def_index": 39,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "L'SSG08 a otturatore girevole-scorrevole è un fucile di precisione a bassa potenza di fuoco ma molto efficace per il suo prezzo, che lo rende una scelta appetibile per il tiro a lunga distanza nei primi round.",
+  "def_index": 40,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz7iULt7z2MPY1eaWVCDHGlrgksuQ_HS3lxhkh4m-Gm9b6ICjCPQ4hDMF3EOJerFDmxXJ24aAg"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "Coltello",
+  "description": "Silenzioso e sempre disponibile, il coltello ha un attacco primario rapido a danno contenuto, e uno secondario lento a danno elevato. Una pugnalata alle spalle ricompenserà i giocatori furtivi con un'uccisione istantanea.",
+  "def_index": 42,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6rz5PvI9dPbGX2HGl7dw4LYxHn3mlkshtWmHzI74IyqVbQQnWZN1Q7QLrFDmxYFVbevc"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "Granata flashbang",
+  "description": "Questa granata flashbang non letale acceca chiunque rimanga esposto alla luce dell'esplosione, l'ideale per stanare i nemici in ambienti chiusi. Inoltre, il suo suono assordante maschera temporaneamente il rumore dei passi.",
+  "def_index": 43,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "Granata ad alto esplosivo",
+  "description": null,
+  "def_index": 44,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "Granata fumogena",
+  "description": null,
+  "def_index": 45,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "Molotov",
+  "description": "La molotov è un'arma potente e imprevedibile adatta a negare l'accesso ad un'area, che scoppia in un tappeto di fiamme quando viene scagliata a terra, ferendo qualunque giocatore si trovi nel suo raggio d'azione.",
+  "def_index": 46,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "Granata diversiva",
+  "description": null,
+  "def_index": 47,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "Granata incendiaria",
+  "description": null,
+  "def_index": 48,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "Granate"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "Esplosivo C4",
+  "description": "Stabile e resistente alla maggior parte degli shock fisici, questo esplosivo plastico improvvisato ha una velocità di detonazione di oltre 8000 metri al secondo quando viene innescato.",
+  "def_index": 49,
+  "category": {
+   "id": "loadoutslot_c4",
+   "name": "C4"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnjqWwLvfOoavw8IvTCV2bEle1w6Lk-TSq2k0x25jiBzN_9dXqVaQ91W5AkW6dU5WnQha4l"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "Iniezione medica",
+  "description": null,
+  "def_index": 57,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "Equip."
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "Coltello",
+  "description": "Silenzioso e sempre disponibile, il coltello ha un attacco primario rapido a danno contenuto, e uno secondario lento a danno elevato. Una pugnalata alle spalle ricompenserà i giocatori furtivi con un'uccisione istantanea.",
+  "def_index": 59,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26JqJodqWRXjXBlLt05bM7TX21kx91527RnN-teXzFPQYpD5ckQbYM4BCm0oqwrVaqAqg"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "Meno costoso e dotato di un caricatore di capacità inferiore rispetto alla sua versione normale, l'M4A1 silenziato garantisce colpi più difficili da udire, un rinculo ridotto ed una maggior precisione.",
+  "def_index": 60,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Fucili"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMK0OGnZKFjI_WBQD_Cleh0teA_F37qkERy52rWm9yhdynGblMgD5AkQrZeuhXtkt3iMOv8p1uJZpwq8Vo"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "Un'arma amata dai fan di Counter-Strike: Source, la pistola silenziata USP è dotata di un silenziatore smontabile che fornisce un rinculo minore e contemporaneamente evita che il rumore dello sparo attiri troppo l'attenzione.",
+  "def_index": 61,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Auto",
+  "description": "La CZ75-Auto, una variante completamente automatica della CZ75, è un'altra scelta economica contro gli avversari provvisti di giubbotto antiproiettile. Dato che ha poche munizioni, dovrai far valere al meglio ogni colpo.",
+  "def_index": 63,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "Revolver R8",
+  "description": "Il Revolver R8 spara un colpo molto preciso e potente a discapito della lentezza del grilletto. Quando è necessaria la potenza di fuoco a bruciapelo, la migliore opzione potrebbe essere quella di sparare rapidamente sventolando il cane della pistola.",
+  "def_index": 64,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Pistole"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKny-DRU4-Sreuo8cvTLCzKRmbkk4ONtGijilk8k4znWy9v8JCiUaQIiWZpyQ-AJtEa7jJS5YM17OTN5"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "Baionetta",
+  "description": "Pressoché invariata rispetto alla sua versione della seconda guerra mondiale, la baionetta conserva ancora un ruolo nelle strategie militari moderne. Le cariche di baionetta hanno mantenuto la loro efficacia anche più recentemente, nella guerra del Golfo e nella guerra in Afghanistan.",
+  "def_index": 500,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni_DtU4fe6Jv07IfTDDT_JkL4htLI7HCvmwE9z42_Vzov4ci2Wa1IgWMN3R7IMuxCm0oqwYUAZNBA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "Coltello classico",
+  "description": "Un classico della serie di Counter-Strike: la lama è realizzata meticolosamente in Stellite e titanio. Il manico è realizzato in avorio di mastodonte fossilizzato e rinforzato in fibra di carbonio.",
+  "def_index": 503,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2te7cjd6HHXmHBxep157VtTi_rzUR-5WiHnt39c3_EZg4pW5UjQOZbsBCxw8qnab32FBG7RA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "Coltello ricurvo",
+  "description": null,
+  "def_index": 505,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oZK19bqjKVjbDkbtwtbU4S3jhwElw4DvVzomhd3_CblV1CZd2TO5f4RG4lID5d7S15Y9TpQQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "Coltello da sventramento",
+  "description": null,
+  "def_index": 506,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pfbAjd6TAXDSSkeh3trdtTCy1zUV2t2vTyoyrIHzDalAgCsN1ROcO40O6wMqnab0rKy1qHw"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "Karambit",
+  "description": "Con la sua lama ricurva a mo' di artiglio di tigre, il karambit fu sviluppato come parte integrante della disciplina silat di arti marziali asiatiche di Sud-Est. Il coltello è tipicamente impugnato a rovescio, facendo passare l'indice nell'apposito anello.",
+  "def_index": 507,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2labZsLfKaGinEx-0u5LhqGHrjlElz52jRmN2sd3yfb1NzWZVwRbNeu0S5k9WxMuvh-UWA3ObnwJvj"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "Baionetta M9",
+  "description": "Questa è la baionetta M-9. Originariamente pensata per essere montata sul fucile, rimane comunque ben adatta agli scontri ravvicinati.",
+  "def_index": 508,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2jMZtvIemcAGKEj7ojtOIwSnrrkEt25WiEw438cXuUaQB0WcBxFrUItxa6lNezMOKzsVPAy9USYWigJ8Q"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Coltello da cacciatore",
+  "description": "Un coltello realizzato per usi tattici moderni, la lama è utilizzabile sia per il combattimento che per scopi generici. La caratteristica lama a punta Tanto permette la massima penetrazione anche nelle superfici più resistenti.",
+  "def_index": 509,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26aad5KfOSAimVlugu47U5HSrmzEp14zncz4ygICiealIiAsF2EOdYtkTpwNXuYbjk-UWA3JpY_ZDP"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Coltello falchion",
+  "description": "Un omaggio all'antico falchion in chiave moderna, questa lama uncinata ha il filo curvo.",
+  "def_index": 512,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oaahuKPmcACmSlL4u5uVqG37klhh24DnUytaqJXKQbgcmX5RyF-4Puha8xofmZejg-UWA3FLkEz9H"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Coltello Bowie",
+  "description": "Questo affilato coltello Bowie dalla lama parzialmente nascosta è stato progettato per un utilizzo intensivo in situazioni brutali di sopravvivenza.",
+  "def_index": 514,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fbZ7KeaSAliSzvl_ta88TX61xExyt2nTz9eveHjEPQRzXMcjFuYIuhHtkIKyNLnmtACLg4sX02yg2XbF4Kcv"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "Coltello a farfalla",
+  "description": "Questo è un balisong di fattura personalizzata, conosciuto comunemente con il nome di coltello a farfalla. La caratteristica distintiva di quest'arma è il sistema di apertura a ventaglio della lama a perno libero, che le consente di venire estratta o celata molto rapidamente. Per questo motivo, i coltelli a farfalla sono vietati in quasi tutto il mondo.",
+  "def_index": 515,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2sfbB5JeKVAn7elO8l6LRoF3_hzBsmtWSDzt-rcy3BP1AnXsR4FOJZskG6xtDkM7627xue1dy94mNpNQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "Fendi ombra",
+  "description": "Progettati per una meticolosa brutalità, utilizzare questi pugnali è semplice come tirare un pugno o due.",
+  "def_index": 516,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2-fbdlbvXKWWXIlbh15bdrTnvmwkt34z_Qz46hdnjFbAIkCJdzR-Zctxi5kNb5d7S1mgn3amY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Coltello Paracord",
+  "description": "Questo coltello da sopravvivenza a lama fissa è progettato per essere utilizzato come arma o come utensile, ad esempio per preparare trappole, cacciare animali o tagliare rami. Il manico è rivestito da un cavo da paracadute multiuso.",
+  "def_index": 517,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2tZ7ZpbqWRXmWTmbsm5bU5TXu3lkR_5j_Swor8JC_BPFVxWJd1FuID4RW7w9b5d7S1z-U4Rao"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "Coltello da sopravvivenza",
+  "description": "Questo coltello tattico multiuso è dotato di un bordo seghettato per tagliare materiali ruvidi come ossa o fibre, oltre a un gancio affilato per eviscerare. Il manico in materiale composito è fissato alla lama con viti esagonali.",
+  "def_index": 518,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2taapkM77CDzbIlrsms-NsHHGxzUwj5G6En4yuIy_BbQAjC5VxQLRc5hm8x4HvKaq8sEukLuHu"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Coltello Ursus",
+  "description": "Questo coltello da sopravvivenza in pieno stile tantō è dotato di una lama piatta e un codolo pieno con tanto di impugnatura da impatto. Niente fronzoli, niente parti mobili, solo una lama affidabile pronta all'uso.",
+  "def_index": 519,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s27erd4M77AXWWWx7h3tOA5SyvilEkj5WuGw42qc3zEOg4iDJEjQu9b4xa6w4DgKaq8sDVgNcPY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Coltello Navaja",
+  "description": "Questo coltello ricurvo con manico smaltato in marmo nasconde una lama piccola ma affilata per uccidere.",
+  "def_index": 520,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pcbR-Oc-ZD2SbyuB_tuQnGXu1kBxw62_dwtird3qXZwQgXJV0E-4PtESxl4ezYr6x4FaMjI4UyzK-0H1iy36efQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Coltello Nomade",
+  "description": "Questo coltello tattico da caccia a lama pieghevole include inserti in materiale composito sull'impugnatura ergonomica e una lama larga e robusta, utile per tagliare e affettare materiali.",
+  "def_index": 521,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2hfbBpL_-BQDPEw-hz57cxTnCxkEh_5jnVzor8dymXbgAiAsFyEOEMsBW8l9O1Ne38p1uJmh0Kkm0"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Stiletto",
+  "description": "Da sempre al centro di dibattiti e regolamentazioni, questo coltello a serramanico dal design a stiletto in stile italiano è dotato di una lama caricata a molla che può essere rilasciata in modo quasi istantaneo rilasciando la sicura.",
+  "def_index": 522,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fK1hJeSHASnCmO8v4bc_HCjilkkismTWyNutciqealMhDsR5F7MM4UWwlYC1Zr7n-UWA3E6ZCYCt"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Coltello Talon",
+  "description": "Questo karambit con il manico di avorio è caratterizzato da rivetti di ottone ed estremità dentate, in modo tale da tagliare quando entra dentro e lacerare quando esce fuori.",
+  "def_index": 523,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s25YaBiN_2SBWKCj7ghsrRrTHDnzB8h4mTRw9iudC_DPFVyCsF3R-Zc4xK_ldXgNb7qsgDAy9USS1NPX9M"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "Coltello Scheletro",
+  "description": "Su questo coltello a tema scheletrico è stato applicato del nastro per una presa più ferma. Il buco permette di inserire un dito per avere più sicurezza e stabilità.",
+  "def_index": 525,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29Y6FhJeScACnDkL8j6LU8GS3mwUh24G-Bno2tIymeblMgC5R3F-ECsBK6k4XuN-Lh-UWA3P3GyEv9"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "Coltello Kukri",
+  "description": "Utilizzato nei rituali tradizionali, come matrimoni o accoltellamenti.",
+  "def_index": 526,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Coltelli"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
+ },
+ {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "Guanti Broken Fang",
+  "description": "Questi guanti senza dita sono stati decorati con borchie di metallo e il logo dell'Operazione Broken Fang.",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "Guanti Bloodhound",
+  "description": "Questi guanti senza dita sono stati decorati con borchie di metallo e il logo dell'Operazione Bloodhound.",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "Guanti T predefiniti",
+  "description": "<i>Non avere mai paura di sporcarti le mani. – Valeria Jenner, rivoluzionaria</i>",
+  "def_index": 5028,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "Guanti AT predefiniti",
+  "description": "Guanti multiuso tattici da combattimento progettati per personale militare o di sicurezza.",
+  "def_index": 5029,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "Guanti sportivi",
+  "description": "I tessuti sintetici usati per questi guanti sportivi li rendono resistenti e sgargianti.",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "Guanti da autista",
+  "description": "Questi guanti da autista proteggono dagli elementi mantenendo allo stesso tempo la sensibilità tattile.",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "Fasce per le mani",
+  "description": "Amate dai combattenti corpo a corpo, queste fasce per le mani proteggono le nocche e stabilizzano il polso quando si attacca.",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "Guanti da centauro",
+  "description": "Questi guanti resistenti proteggono le mani dalle abrasioni contro l'asfalto in caso di un incidente a 100 km/h.",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "Guanti dello specialista",
+  "description": "Resistenti, traspiranti e alla moda; questi guanti sono progettati per dare (e subire) delle vere batoste.",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "Guanti Hydra",
+  "description": "Questi guanti senza dita sono stati decorati con borchie di metallo e il logo dell'Operazione Hydra.",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Guanti"
+  },
+  "image": null
+ }
+]
