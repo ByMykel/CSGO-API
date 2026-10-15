@@ -1,0 +1,827 @@
+[
+ {
+  "id": "base_weapon-weapon_deagle",
+  "name": "Desert Eagle",
+  "description": "Ακριβό αλλά δυνατό, το Desert Eagle είναι ένα εμβληματικό πιστόλι δύσκολο να το ελέγξεις αλλά εξαιρετικά εύστοχο σε μεγάλες αποστάσεις.",
+  "def_index": 1,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnk-CNc4_fgOfA8cfGRDTfGku13seI4Fyq2wUQm5DjWzo38IH3BO1N2W5MmTe5etw74zINmLLSKdA"
+ },
+ {
+  "id": "base_weapon-weapon_elite",
+  "name": "Dual Berettas",
+  "description": "Το να πυροβολείτε ταυτόχρονα με δύο Beretta με μεγάλους γεμιστήρες θα μειώσει την ευστοχία και θα αυξήσει το χρόνο γεμίσματος. Από την αλλή πλευρά, θα πυροβολείτε ταυτόχρονα δύο Beretta με μεγάλους γεμιστήρες.",
+  "def_index": 2,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk"
+ },
+ {
+  "id": "base_weapon-weapon_fiveseven",
+  "name": "Five-SeveN",
+  "description": "Εξαιρετικά ακριβές και διατρητικό, το ακριβό Five-Seven γεμίζει αργά αλλά αντισταθμίζει με έναν γενναιόδωρο γεμιστήρα με 20 σφαίρες και επιεική ανάκρουση.",
+  "def_index": 3,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm9DRe_Pe4baojePHHWz7GwL4jsbVvTHnilE1w5WrVzo39JH6QOFUnC8RxROMN4ESwlMqnab24YkBbtQ"
+ },
+ {
+  "id": "base_weapon-weapon_glock",
+  "name": "Glock-18",
+  "description": "Το Glock 18 είναι ένα χρήσιμο πιστόλι τριών ριπών για τον πρώτο γύρο που λειτουργεί καλύτερα απέναντι σε αντιπάλους χωρίς αλεξίσφαιρο.",
+  "def_index": 4,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn8S1Y5Lz9O_M5d_LHDz6WmOp04-U8THmwzU0l6ziDyd__IC3DO1IgXJJwE7NfrFDmxU9v5GXb"
+ },
+ {
+  "id": "base_weapon-weapon_ak47",
+  "name": "AK-47",
+  "description": "Ισχυρό και αξιόπιστο, το AK-47 είναι ένα από τα πιο δημοφιλή τουφέκια στον κόσμο. Είναι το πιο θανάσιμο σε σύντομες, συγκρατημένες βολές.",
+  "def_index": 7,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh9nYMoaCvMfxudKGVC2bIwLku5bFsHn2xzU1w4W_Tm9-ucn2eaQZxWcYmR-IU8k7vea-fOvM"
+ },
+ {
+  "id": "base_weapon-weapon_aug",
+  "name": "AUG",
+  "description": "Ισχυρό και ακριβές, το τουφέκι AUG με τηλεφακό αντισταθμίζει το μεγάλο χρόνο γεμίσματός του με μικρή διασπορά και μεγάλη ταχυβολία.",
+  "def_index": 8,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6CUV7ff8PP08eanED2LHlLh06ec-TnjmkUUmsGXRn4n8cimTPVB0XsR1RPlK7Ee4GsImgw"
+ },
+ {
+  "id": "base_weapon-weapon_awp",
+  "name": "AWP",
+  "description": "Υψηλού κινδύνου αλλά υψηλής ανταπόδωσης, το περιβόητο AWP είναι αναγνωρίσιμο από το χαρακτηριστικό του ήχο και την τακτική του «μία βολή, ένας θάνατος».",
+  "def_index": 9,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnh6jIVtqr4PqBoI_ORVjXFkeguseMwGXGwwUV_4GmHyd2qdH-WbFAmApsiQPlK7EcMn7y-CQ"
+ },
+ {
+  "id": "base_weapon-weapon_famas",
+  "name": "FAMAS",
+  "description": "Μια φθηνή εναλλακτική για οικονομικά πιεσμένους παίκτες, το FAMAS καλύπτει αποτελεσματικά το χάσμα μεταξύ των πιο ακριβών τουφεκιών και των λιγότερο αποτελεσματικών υποπολυβόλων (SMG).",
+  "def_index": 10,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnm_C9a_Lz4OvY8dKLGXDKRmOtw5ORrTni3lhl06mqAn4ypJHvBalQlC8AhE-ICrFDmxTHPFtPP"
+ },
+ {
+  "id": "base_weapon-weapon_g3sg1",
+  "name": "G3SG1",
+  "description": "Το ακριβό G3SG1 ελαττώνει την ταχύτητα κίνησης σημαντικά αλλά το αντισταθμίζει με μία μεγαλύτερη ταχυβολία σε σχέση με τα υπόλοιπα τουφέκια ακροβολιστή.",
+  "def_index": 11,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnnrjFcvrz4P_U6efbAWT7BmOou57AxHHjjx0gk4zjQztqtJC7FaVUoW5okTLQNrFDmxakCozSV"
+ },
+ {
+  "id": "base_weapon-weapon_galilar",
+  "name": "Galil AR",
+  "description": "Μια λιγότερο ακριβή εναλλακτική σε τουφέκια αποκλειστικά για τρομοκράτες, το Galil AR είναι ένα εύχρηστο όπλο για μάχες μετρίων έως μεγάλων αποστάσεων.",
+  "def_index": 13,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnn_C5S4_O8JvZrIaPKV2ORx7d3trg7Gnjmlxl04WTTyoyqeXKUPFVzCsN1FuMJuxam0oqwr0aqT-w"
+ },
+ {
+  "id": "base_weapon-weapon_m249",
+  "name": "M249",
+  "description": "Ένα δυνατό LMG ανοικτής περιοχής, το M249 είναι η τέλεια επιλογή για παίκτες που διατίθενται να ανταλλάξουν μια χαμηλή ταχυβολία για αυξημένη ευστοχία και μεγάλη χωρητικότητα πυρομαχικών.",
+  "def_index": 14,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntr3YCoaarbfc_IvHDWWLClb8g5OA7F3y1l0xw6juBzdeoJX6fZ1IoWcciQ-UU8k7vtOr9c-I"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1",
+  "name": "M4A4",
+  "description": "Πιο ακριβές αλλά λιγότερο επιζήμιο από το αντίστοιχο AK-47, το M4A4 είναι η επιλογή της αντιτρομοκρατικής σε πλήρως αυτόματα τυφέκια εφόδου.",
+  "def_index": 16,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMKofH_O_Y-JfSVV2XBkLolsbZvTCqxx0sk4DjUnNipdSiQagcgXJQlRLEU8k7vIDSSpqI"
+ },
+ {
+  "id": "base_weapon-weapon_mac10",
+  "name": "MAC-10",
+  "description": "Ουσιαστικά ένα κουτί από το οποίο βγαίνουν σφαίρες, το MAC-10 SMG έχει υψηλή ταχυβολία, με μικρή ακρίβεια διασποράς και μεγάλη ανάκρουση για αντάλλαγμα.",
+  "def_index": 17,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mac10_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p90",
+  "name": "P90",
+  "description": "Εύκολα αναγνωρίσιμο από το μοναδικό σχεδιασμό του τύπου bullpup, το P90 είναι ένα τέλειο όπλο για να πυροβολείτε εν κινήσει χάρις στον υψηλής χωρητικότητας γεμιστήρα και στην μικρή ανάκρουσή του.",
+  "def_index": 19,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg"
+ },
+ {
+  "id": "base_weapon-weapon_mp5sd",
+  "name": "MP5-SD",
+  "description": "Συχνά το μιμούνται αλλά ποτέ δεν το φτάνουν, το εικονικό MP5 είναι ίσως το προσαρμόσιμο και δημοφιλές SMG στον κόσμο. Η έκδοση SD παρέχει έναν ενσωματωμένο σιγαστήρα, καθιστώντας ένα ήδη τρομερό όπλο αθόρυβο σαν ψίθυρο.",
+  "def_index": 23,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_mp5sd_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ump45",
+  "name": "UMP-45",
+  "description": "Το παρεξηγημένο μεσαίο παιδί της οικογένειας των υποπολυβόλων (SMG), ο μικρός γεμιστήρας του UMP45 είναι το μοναδικό ελάττωμα σε ένα κατά τα άλλα ευέλικτο αυτόματο για μάχες εκ του συστάδην.",
+  "def_index": 24,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn18DIPurz6MPducqDGCDPIw7l05LA7SXyylkh25z-Dm9agJHKSZgciDZt3F7JerFDmxeILsNGi"
+ },
+ {
+  "id": "base_weapon-weapon_xm1014",
+  "name": "XM1014",
+  "description": "Το XM1014 είναι μια ισχυρή πλήρως αυτόματη καραμπίνα που δικαιολογεί την τιμή της με την ικανότητά της να γεμίζει το δωμάτιο με βλήματα.",
+  "def_index": 25,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_xm1014_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_bizon",
+  "name": "PP-Bizon",
+  "description": "Το υποπολυβόλο (SMG) Bizon προκαλεί μικρή ζημιά, αλλά προσφέρει ένα μοναδικά σχεδιασμένο κυλινδρικό γεμιστήρα μεγάλης χωρητικότητας που γεμίζει γρήγορα.",
+  "def_index": 26,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni9DhU4bz-PKZocPTBW2GWlbZw4bM7SS2xwER1smSEnIv6dS_GbFBxDJd0RLFbrFDmxaLGO5J-"
+ },
+ {
+  "id": "base_weapon-weapon_mag7",
+  "name": "MAG-7",
+  "description": "Το Mag-7, αποκλειστικά για την αντιτρομοκρατική, προκαλεί καταστροφική ζημιά σε κοντινές αποστάσεις. Ο γεμιστήρας του ξαναγεμίζεται γρήγορα, κάνοντας το όπλο αυτό μια τέλεια τακτική επιλογή.",
+  "def_index": 27,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt_CUMoav3MP1oeanBXWLAmeoitbk-HHrjl0hztW7Xy4n7dirDag4hXJB4EeUU8k7vG_ZoUEk"
+ },
+ {
+  "id": "base_weapon-weapon_negev",
+  "name": "Negev",
+  "description": "Το Negev είναι ένα θηρίο που μπορεί να κρατάει τον εχθρό μακριά με εύστοχα πυρά καταστολής, δεδομένου ότι έχετε την πολυτέλεια του χρόνου για να αποκτήσετε τον έλεγχο πάνω του.",
+  "def_index": 28,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnu-CVe-bz3P6I1caTGDzTFk7gh5rg6Tn3rkBwm4zjSwo3_Ii-fZgIjA8dwELFZrFDmxWhBRARX"
+ },
+ {
+  "id": "base_weapon-weapon_sawedoff",
+  "name": "Sawed-Off",
+  "description": "Το κλασικό Sawed-Off προκαλεί τεράστια κοντινή ζημιά, αλλά με τη μικρή ευστοχία του, τη μεγάλη διασπορά και τη χαμηλή ταχυβολία του, καλύτερα να σκοτώσετε αυτό που χτυπάτε.",
+  "def_index": 29,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_DVe6_2obuo_JqHACzaSk-1wtrMwTi3nkUly6m-ByYr4Jy2fP1cgA8dxFLRfu0LqjJS5YC4vtNQk"
+ },
+ {
+  "id": "base_weapon-weapon_tec9",
+  "name": "Tec-9",
+  "description": "Ένα ιδανικό πιστόλι για τον Τρομοκράτη εν κινήσει, το Tec-9 είναι θανατηφόρο σε κοντινή απόσταση και προσφέρει μεγάλη χωρητικότητα γεμιστήρα.",
+  "def_index": 30,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0-CECofb2MKY9IvPGWjPAkrwi5Lk4Tn3nzUwlsGnVzI6pdymQbVAjW8d0F-IU8k7vdMx23Ho"
+ },
+ {
+  "id": "base_weapon-weapon_taser",
+  "name": "Zeus x27",
+  "description": "Ιδανικό για ενέδρες κοντινών αποστάσεων και συμπλοκές σε κλειστούς χώρους, το επαναφορτιζόμενο Zeus x27 μπορει να εξουδετερώσει έναν εχθρό με μία μόνο βολή.",
+  "def_index": 31,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "ΕΞΟΠΛΙΣΜΟΣ"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn0_DFe_bz6PKI4caTCDzHCwrkj57U6FnHik0l04mXVw4yhJCiRaVImW8dzTeRcrFDmxd8qNG47"
+ },
+ {
+  "id": "base_weapon-weapon_hkp2000",
+  "name": "P2000",
+  "description": "Ακριβές και ελεγχόμενο, το γερμανικό P2000 είναι ένα χρήσιμο πιστόλι για τον πρώτο γύρο που λειτουργεί καλύτερα απέναντι σε αντιπάλους χωρίς αλεξίσφαιρο.",
+  "def_index": 32,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKno9jIJv6L-Jqc_cKjEWDDDlLx3trVrH3qykEtz4TjQno6td3uVbVRyWZR2EbEKtRCm0oqwKXhPxN4"
+ },
+ {
+  "id": "base_weapon-weapon_mp7",
+  "name": "MP7",
+  "description": "Πολλαπλών χρήσεων αλλά ακριβό, το Γερμανικής κατασκευής υποπολυβόλο (SMG) MP7 είναι η τέλεια επιλογή για να προκαλέσετε σημαντικές ζημιές σε μάχες κοντινών αποστάσεων.",
+  "def_index": 33,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XUVvfOoPqA1eKHEVjXFlr0ituM_SnqwwR9w4mXVyIn6dnKRblV1D5AhTPlK7EelyO1yEg"
+ },
+ {
+  "id": "base_weapon-weapon_mp9",
+  "name": "MP9",
+  "description": "Κατασκευασμένο στην Ελβετία, το πρωτοποριακό υποπολυβόλο (SMG) MP9 είναι ένα εργονομικό όπλο από πολυμερές που προτιμάται από εταιρείες ιδιωτικής ασφάλειας.",
+  "def_index": 34,
+  "category": {
+   "id": "csgo_inventory_weapon_category_smgs",
+   "name": "Υποπολυβόλα"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt7XsVv6T9OvE9dKLKCD_Ex74h5bY6Tnrgl0hzt2rXm4qseXyWaAMgWJJ2EflK7Ec0i602wg"
+ },
+ {
+  "id": "base_weapon-weapon_nova",
+  "name": "Nova",
+  "description": "Η πολύ χαμηλή τιμή του Nova το κάνει το τέλειο όπλο για ενέδρες για μια οικονομικά πιεσμένη ομάδα.",
+  "def_index": 35,
+  "category": {
+   "id": "csgo_inventory_weapon_category_heavy",
+   "name": "Οπλοπολυβόλα"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_nova_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_p250",
+  "name": "P250",
+  "description": "Ένα πυροβόλο όπλο με μικρή ανάκρουση και μεγάλη ταχυβολία, το P250 είναι μια σχετικά φθηνή επιλογή ενάντια σε θωρακισμένους εχθρούς.",
+  "def_index": 36,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwr3cLoaf4avNvJqKXXmKUlrp0s-U9HCvgw0V05WSDw96pIC6VOw92X8QkROAU8k7vNwsvFQ4"
+ },
+ {
+  "id": "base_weapon-weapon_scar20",
+  "name": "SCAR-20",
+  "description": "Το SCAR-20 είναι ένα ημιαυτόματα τουφέκι ακροβολιστή που ανταλλάζει την μεγάλη ταχυβολία του και την ισχυρή ζημιά του σε μεγάλη εμβέλεια για μια μεγάλη μείωση στην ταχύτητα κίνησης και μια αρκετά ακριβή τιμή.",
+  "def_index": 38,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz_iNJvaLgbqY_JqbKV2TExL11s7JoGnjkl05-4TvUw96vdHiQOwZ1AsMiQuMOtQ74zINGfpXf5Q"
+ },
+ {
+  "id": "base_weapon-weapon_sg556",
+  "name": "SG 553",
+  "description": "Το SG553 με τηλεφακό, αποκλειστικά για τρομοκράτες, είναι μια ανώτερης ποιότητας εναλλακτική του AK47 για αποτελεσματικές συμπλοκές μεγάλων αποστάσεων.",
+  "def_index": 39,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_sg556_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_ssg08",
+  "name": "SSG 08",
+  "description": "Το SSG08 bolt-action είναι ένα χαμηλής ζημιάς αλλά αποδοτικό για την αξία του τουφέκι ακροβολιστή, που το καθιστά μια έξυπνη επιλογή για σκοποβολή μεγάλης εμβέλειας στους πρώτους γύρους.",
+  "def_index": 40,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnz7iULt7z2MPY1eaWVCDHGlrgksuQ_HS3lxhkh4m-Gm9b6ICjCPQ4hDMF3EOJerFDmxXJ24aAg"
+ },
+ {
+  "id": "base_weapon-weapon_knife",
+  "name": "Μαχαίρι",
+  "description": "Αθόρυβο και πάντα διαθέσιμο, το μαχαίρι έχει μια γρήγορη, χαμηλής ζημιάς αρχική επίθεση και μια αργή, υψηλής ζημιάς δευτερεύουσα επίθεση. Ένα πισώπλατο μαχαίρωμα θα παραδώσει στους αθόρυβους παίκτες έναν άμεσο σκοτωμό.",
+  "def_index": 42,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6rz5PvI9dPbGX2HGl7dw4LYxHn3mlkshtWmHzI74IyqVbQQnWZN1Q7QLrFDmxYFVbevc"
+ },
+ {
+  "id": "base_weapon-weapon_flashbang",
+  "name": "Χειροβομβίδα κρότου λάμψης",
+  "description": "Η μη θανατηφόρα χειροβομβίδα κρότου λάμψης τυφλώνει προσωρινά οποιονδήποτε βρεθεί μέσα στην έκρηξη, καθιστώντας την ιδανική για καθαρισμό κλειστών περιοχών. Η δυνατή της έκρηξη καλύπτει επίσης προσωρινά των ήχο των βημάτων.",
+  "def_index": 43,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_flashbang_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_hegrenade",
+  "name": "Χειροβομβίδα",
+  "description": null,
+  "def_index": 44,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_hegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_smokegrenade",
+  "name": "Χειροβομβίδα καπνού",
+  "description": null,
+  "def_index": 45,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_smokegrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_molotov",
+  "name": "Μολότοφ",
+  "description": "Το Μολότοφ είναι ένα πολύ ισχυρό όπλο που όταν ριφθεί στο έδαφος το τυλίγει απρόβλεπτα στις φλόγες, τραυματίζοντας οποιονδήποτε παίκτη είναι στην εμβέλειά του.",
+  "def_index": 46,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_molotov_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_decoy",
+  "name": "Χειροβομβίδα παραπλάνησης",
+  "description": null,
+  "def_index": 47,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_decoy_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_incgrenade",
+  "name": "Εμπρηστική χειροβομβίδα",
+  "description": null,
+  "def_index": 48,
+  "category": {
+   "id": "loadoutslot_grenade",
+   "name": "ΧΕΙΡ/ΜΒΙΔΕΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_incgrenade_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_c4",
+  "name": "Εκρηκτικά C4",
+  "description": "Σταθερό και ανθεκτικό στους περισσότερους φυσικούς κραδασμούς, αυτό το αυτοσχέδιο πλαστικό εκρηκτικό έχει ταχύτητα έκρηξης άνω των 8.000 μέτρων το δευτερόλεπτο όταν αναφλεγεί.",
+  "def_index": 49,
+  "category": {
+   "id": "loadoutslot_c4",
+   "name": "C4"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnjqWwLvfOoavw8IvTCV2bEle1w6Lk-TSq2k0x25jiBzN_9dXqVaQ91W5AkW6dU5WnQha4l"
+ },
+ {
+  "id": "base_weapon-weapon_healthshot",
+  "name": "Γιατρικό",
+  "description": null,
+  "def_index": 57,
+  "category": {
+   "id": "loadoutslot_equipment",
+   "name": "ΕΞΟΠΛΙΣΜΟΣ"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_healthshot_png.png"
+ },
+ {
+  "id": "base_weapon-weapon_knife_t",
+  "name": "Μαχαίρι",
+  "description": "Αθόρυβο και πάντα διαθέσιμο, το μαχαίρι έχει μια γρήγορη, χαμηλής ζημιάς αρχική επίθεση και μια αργή, υψηλής ζημιάς δευτερεύουσα επίθεση. Ένα πισώπλατο μαχαίρωμα θα παραδώσει στους αθόρυβους παίκτες έναν άμεσο σκοτωμό.",
+  "def_index": 59,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26JqJodqWRXjXBlLt05bM7TX21kx91527RnN-teXzFPQYpD5ckQbYM4BCm0oqwrVaqAqg"
+ },
+ {
+  "id": "base_weapon-weapon_m4a1_silencer",
+  "name": "M4A1-S",
+  "description": "Με μικρότερο γεμιστήρα από τον μη σιγασμένο ομόλογό του, το σιγασμένο M4A1 παρέχει αθόρυβες βολές με λιγότερη ανάκρουση και καλύτερη ακρίβεια.",
+  "def_index": 60,
+  "category": {
+   "id": "csgo_inventory_weapon_category_rifles",
+   "name": "Τουφέκια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKntqSMK0OGnZKFjI_WBQD_Cleh0teA_F37qkERy52rWm9yhdynGblMgD5AkQrZeuhXtkt3iMOv8p1uJZpwq8Vo"
+ },
+ {
+  "id": "base_weapon-weapon_usp_silencer",
+  "name": "USP-S",
+  "description": "Ένα από τα αγαπημένα των οπαδών του Counter-Strike: Source. Αυτό το πιστόλι USP έχει αποσπώμενο σιγαστήρα για μικρότερη ανάκρουση και ελαχιστοποίηση θορύβου.",
+  "def_index": 61,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg"
+ },
+ {
+  "id": "base_weapon-weapon_cz75a",
+  "name": "CZ75-Auto",
+  "description": "Μια πλήρης αυτόματη παραλλαγή του CZ75, το CZ75-Auto είναι η ιδανική επιλογή που μπορεί να ανατρέψει τα δεδομένα και να σας δώσει το πάνω χέρι. Αλλά λόγω του μικρού αριθμού πυρομαχικών στο γεμιστήρα, απαιτείται ισχυρή πειθαρχεία στη χρήση της σκανδάλης.",
+  "def_index": 63,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga"
+ },
+ {
+  "id": "base_weapon-weapon_revolver",
+  "name": "R8 Revolver",
+  "description": "Το R8 Revolver προσφέρει εξαιρετικά ακριβή και δυνατή βολή εις βάρος του χρόνου τραβήγματος της σκανδάλης. Οι γρήγοροι πυροβολισμοί χτυπώντας επανειλημμένα τον κόκορα ίσως είναι η καλύτερη επιλογή όταν απαιτείται μεγάλη δύναμη άμεσα.",
+  "def_index": 64,
+  "category": {
+   "id": "csgo_inventory_weapon_category_pistols",
+   "name": "Πιστόλια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKny-DRU4-Sreuo8cvTLCzKRmbkk4ONtGijilk8k4znWy9v8JCiUaQIiWZpyQ-AJtEa7jJS5YM17OTN5"
+ },
+ {
+  "id": "base_weapon-weapon_bayonet",
+  "name": "Mπαγιονέτα",
+  "description": "Σχετικά αμετάβλητος ο σχεδιασμός της από τον Β' Παγκόσμιο πόλεμο, η μπαγιονέτα ακόμα διατηρεί μια θέση στη σύγχρονη στρατιωτική στρατηγική. Οι χρήσεις της συνέχισαν να είναι αποτελεσματικές όπως πρόσφατα στο Β' Πόλεμο του Κόλπου και στον Πόλεμο του Αφγανιστάν.",
+  "def_index": 500,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKni_DtU4fe6Jv07IfTDDT_JkL4htLI7HCvmwE9z42_Vzov4ci2Wa1IgWMN3R7IMuxCm0oqwYUAZNBA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_css",
+  "name": "Κλασικό Μαχαίρι",
+  "description": "Ένα κλασικό της σειράς Counter-Strike, η άκρη αυτού του μαχαιριού εφαρμόστηκε τέλεια στη θέση της με πίεση Stellite χάρη στο ακριβές κόψιμό της με τιτάνιο στο πλάι και ράχη της λεπίδας. Η λαβή είναι απολιθωμένο ελεφαντόδοντο μαστόδοντα που κρατιέται σε θήκη από ανθρακόνημα.",
+  "def_index": 503,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2te7cjd6HHXmHBxep157VtTi_rzUR-5WiHnt39c3_EZg4pW5UjQOZbsBCxw8qnab32FBG7RA"
+ },
+ {
+  "id": "base_weapon-weapon_knife_flip",
+  "name": "Flip Knife",
+  "description": null,
+  "def_index": 505,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oZK19bqjKVjbDkbtwtbU4S3jhwElw4DvVzomhd3_CblV1CZd2TO5f4RG4lID5d7S15Y9TpQQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gut",
+  "name": "Gut Knife",
+  "description": null,
+  "def_index": 506,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pfbAjd6TAXDSSkeh3trdtTCy1zUV2t2vTyoyrIHzDalAgCsN1ROcO40O6wMqnab0rKy1qHw"
+ },
+ {
+  "id": "base_weapon-weapon_knife_karambit",
+  "name": "Karambit",
+  "description": "Με την κυρτή λεπίδα του να μιμείται το νύχι ενός τίγρη, το karambit αναπτύχθηκε ως κομμάτι της νοτιοανατολικής Ασιατικής πολεμικής τέχνης silat. Το μαχαίρι χρησιμοποιήται τυπικά με αντίστροφη λαβή, με το δαχτυλίδι του στο δείκτη.",
+  "def_index": 507,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2labZsLfKaGinEx-0u5LhqGHrjlElz52jRmN2sd3yfb1NzWZVwRbNeu0S5k9WxMuvh-UWA3ObnwJvj"
+ },
+ {
+  "id": "base_weapon-weapon_knife_m9_bayonet",
+  "name": "Mπαγιονέτα M9",
+  "description": "Αυτή είναι η μπαγιονέτα M-9. Αρχικά προοριζόταν να τοποθετηθεί σε τουφέκι, αλλά είναι επίσης κατάλληλη και για κοντινές μάχες.",
+  "def_index": 508,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2jMZtvIemcAGKEj7ojtOIwSnrrkEt25WiEw438cXuUaQB0WcBxFrUItxa6lNezMOKzsVPAy9USYWigJ8Q"
+ },
+ {
+  "id": "base_weapon-weapon_knife_tactical",
+  "name": "Μαχαίρι Huntsman",
+  "description": "Ένα μαχαίρι σχεδιασμένο για σύγχρονες τακτικές χρήσεις, η λεπίδα είναι ιδανική για ένα ευρύ φάσμα αναγκών μάχης και γενικής χρήσης. Η μοναδική αιχμή Tanto επιτρέπει τη μέγιστη δυνατή διείσδυση διαμέσου ακόμα και των σκληρότερων επιφανειών.",
+  "def_index": 509,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s26aad5KfOSAimVlugu47U5HSrmzEp14zncz4ygICiealIiAsF2EOdYtkTpwNXuYbjk-UWA3JpY_ZDP"
+ },
+ {
+  "id": "base_weapon-weapon_knife_falchion",
+  "name": "Μαχαίρι Falchion",
+  "description": "Ένας φόρος τιμής σε ένα σπαθί, αυτή η λεπίδα έχει κυρτή άκρη.",
+  "def_index": 512,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2oaahuKPmcACmSlL4u5uVqG37klhh24DnUytaqJXKQbgcmX5RyF-4Puha8xofmZejg-UWA3FLkEz9H"
+ },
+ {
+  "id": "base_weapon-weapon_knife_survival_bowie",
+  "name": "Μαχαίρι Bowie",
+  "description": "Αυτό το πριονωτό μαχαίρι Bowie είναι σχεδιασμένο για βαριά χρήση σε κτηνώδεις καταστάσεις επιβίωσης.",
+  "def_index": 514,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fbZ7KeaSAliSzvl_ta88TX61xExyt2nTz9eveHjEPQRzXMcjFuYIuhHtkIKyNLnmtACLg4sX02yg2XbF4Kcv"
+ },
+ {
+  "id": "base_weapon-weapon_knife_butterfly",
+  "name": "Μαχαίρι Butterfly",
+  "description": "Το προσδιοριστικό χαρακτηριστικό αυτού του μαχαιριού πεταλούδας είναι πως ανοίγει σαν βεντάλια, έχει ελεύθερο άξονα περιστροφής και επιτρέπει γρήγορη ανάπτυξη ή απόκρυψη. Για αυτό το λόγο είναι απαγορευμένο σε πολλές χώρες.",
+  "def_index": 515,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2sfbB5JeKVAn7elO8l6LRoF3_hzBsmtWSDzt-rcy3BP1AnXsR4FOJZskG6xtDkM7627xue1dy94mNpNQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_push",
+  "name": "Shadow Daggers",
+  "description": "Σχεδιασμένο για αποτελεσματική βαναυσότητα, είναι εύχρηστο σαν να ρίχνεις μια γροθιά.",
+  "def_index": 516,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2-fbdlbvXKWWXIlbh15bdrTnvmwkt34z_Qz46hdnjFbAIkCJdzR-Zctxi5kNb5d7S1mgn3amY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_cord",
+  "name": "Μαχαίρι Paracord",
+  "description": "Αυτό το μαχαίρι σταθερής λεπίδας σχεδιάστηκε για να αντέχει να χρησιμοποιείται και σαν όπλο και σαν εργαλείο, όπως για να βάζετε παγίδες, να κυνηγάτε ζώα ή να κόβετε φυλλώματα. Η λαβή είναι τυλιγμένη με μακρύ σχοινί αρτάνη πολλαπλών χρήσεων.",
+  "def_index": 517,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2tZ7ZpbqWRXmWTmbsm5bU5TXu3lkR_5j_Swor8JC_BPFVxWJd1FuID4RW7w9b5d7S1z-U4Rao"
+ },
+ {
+  "id": "base_weapon-weapon_knife_canis",
+  "name": "Μαχαίρι Survival",
+  "description": "Αυτό το τακτικό μαχαίρι πολλαπλών χρήσεων διαθέτει μια οδοντωτή άκρη για να σχίζετε τραχύ υλικό όπως οστό ή ίνες, συν ένα μυτερό γάντζο ξεκοιλιάσματος. Η λαβή από σύνθετο υλικό είναι καρφωμένη στη λεπίδα με εξάγωνες βίδες.",
+  "def_index": 518,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2taapkM77CDzbIlrsms-NsHHGxzUwj5G6En4yuIy_BbQAjC5VxQLRc5hm8x4HvKaq8sEukLuHu"
+ },
+ {
+  "id": "base_weapon-weapon_knife_ursus",
+  "name": "Μαχαίρι Ursus",
+  "description": "Αυτό το μαχαίρι επιβίωσης σε στυλ κοντού ιαπωνικού μαχαιριού έχει πολύπλευρη μύτη και πλήρη λεπίδα, μαζί με σθεναρή λαβή. Όχι φασαρία, όχι κινούμενα μέρη, απλά μια έμπιστη λεπίδα που είναι έτοιμη να δουλέψει.",
+  "def_index": 519,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s27erd4M77AXWWWx7h3tOA5SyvilEkj5WuGw42qc3zEOg4iDJEjQu9b4xa6w4DgKaq8sDVgNcPY"
+ },
+ {
+  "id": "base_weapon-weapon_knife_gypsy_jackknife",
+  "name": "Μαχαίρι Navaja",
+  "description": "Αυτό το μαχαίρι πεταλούδα με μαρμάρινη σμαλτωμένη λαβή κρύβει μια μικρή αλλά μοχθηρή ακονισμένη λεπίδα.",
+  "def_index": 520,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2pcbR-Oc-ZD2SbyuB_tuQnGXu1kBxw62_dwtird3qXZwQgXJV0E-4PtESxl4ezYr6x4FaMjI4UyzK-0H1iy36efQ"
+ },
+ {
+  "id": "base_weapon-weapon_knife_outdoor",
+  "name": "Μαχαίρι Nomad",
+  "description": "Αυτό το εργονομικό τακτικό μαχαίρι κλειδώματος λεπίδας διαθέτει συνθετικές εισαγωγές στη λαβή και μια πλατιά, σταθερή λεπίδα, που είναι χρήσιμη για κόψιμο και διαχωρισμό υλικών.",
+  "def_index": 521,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2hfbBpL_-BQDPEw-hz57cxTnCxkEh_5jnVzor8dymXbgAiAsFyEOEMsBW8l9O1Ne38p1uJmh0Kkm0"
+ },
+ {
+  "id": "base_weapon-weapon_knife_stiletto",
+  "name": "Μαχαίρι Stiletto",
+  "description": "Ιστορικά αποτέλεσε σημείο έντονων διαβουλεύσεων και κανονισμών, αυτό το στιλέτο ιταλικού στυλ έχει μια λεπίδα με ελατήρια που μπορεί να πεταχτεί σχεδόν αμέσως με το πάτημα ενός κουμπιού.",
+  "def_index": 522,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29fK1hJeSHASnCmO8v4bc_HCjilkkismTWyNutciqealMhDsR5F7MM4UWwlYC1Zr7n-UWA3E6ZCYCt"
+ },
+ {
+  "id": "base_weapon-weapon_knife_widowmaker",
+  "name": "Μαχαίρι Talon",
+  "description": "Αυτή η πεταλούδα με λαβή ελεφαντόδοντου έχει μπρούντζινα πριτσίνια και πριονισμένη κορυφή, ώστε να κόβει καθώς μπαίνει και να ξεσκίζει καθώς βγαίνει.",
+  "def_index": 523,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s25YaBiN_2SBWKCj7ghsrRrTHDnzB8h4mTRw9iudC_DPFVyCsF3R-Zc4xK_ldXgNb7qsgDAy9USS1NPX9M"
+ },
+ {
+  "id": "base_weapon-weapon_knife_skeleton",
+  "name": "Μαχαίρι Skeleton",
+  "description": "Αυτό το σκελετοποιημένο μαχαίρι έχει ταινία στη λαβή για βελτιωμένο πιάσιμο. Η τρύπα επιτρέπει ένα δάκτυλο να το διαπεράσει για σταθερότητα και ασφάλεια.",
+  "def_index": 525,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s29Y6FhJeScACnDkL8j6LU8GS3mwUh24G-Bno2tIymeblMgC5R3F-ECsBK6k4XuN-Lh-UWA3P3GyEv9"
+ },
+ {
+  "id": "base_weapon-weapon_knife_kukri",
+  "name": "Μαχαίρι Kukri",
+  "description": "Χρησιμοποιείται σε παραδοσιακές τελετές, όπως σε γάμους ή βεντέτες.",
+  "def_index": 526,
+  "category": {
+   "id": "sfui_invpanel_filter_melee",
+   "name": "Μαχαίρια"
+  },
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
+ },
+ {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "Γάντια Broken Fang",
+  "description": "Αυτά τα γάντια χωρίς δάκτυλα έχουν διακοσμηθεί με μεταλλικά κομμάτια και το σήμα από την επιχείρηση Broken Fang.",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "Γάντια Bloodhound",
+  "description": "Αυτά τα γάντια χωρίς δάκτυλα έχουν διακοσμηθεί με μεταλλικά κομμάτια και το σήμα από την επιχείρηση Bloodhound.",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-t_gloves",
+  "name": "Προεπιλεγμένα γάντια Τ",
+  "description": "<i>Να μη φοβάσαι ποτέ να λερώσεις τα χέρια σου με αίμα. – Valeria Jenner, Επαναστάτρια</i>",
+  "def_index": 5028,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/t_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-ct_gloves",
+  "name": "Προεπιλεγμένα γάντια ΑΤ",
+  "description": "Πολεμικά τακτικά γάντια γενικής χρήσης σχεδιασμένα για στρατιωτικό προσωπικό ή προσωπικό ασφαλείας.",
+  "def_index": 5029,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "Σπορ γάντια",
+  "description": "Τα συνθετικά υφάσματα παρέχουν σε αυτά τα αθλητικά γάντια αντοχή και στυλ.",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "Γάντια οδηγού",
+  "description": "Αυτά τα γάντια οδήγησης παρέχουν προστασία από τον καιρό ενώ εξακολουθούν να δίνουν πολεμική αίσθηση.",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "Περιτυλίγματα χεριών",
+  "description": "Προτιμάται από παλαιστές, καθώς προστατεύουν τις αρθρώσεις και σταθεροποιούν τον καρπό όταν γρονθοκοπούν.",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "Γάντια μηχανής",
+  "description": "Αυτά τα γάντια με ενισχυμένες αρθρώσεις προστατεύουν τα χέρια από σύρσιμο στην άσφαλτο στα 100χλμ/ώρα.",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "Γάντια ειδικού",
+  "description": "Ανθεκτικά, στυλάτα και αναπνέουν. Αυτά τα γάντια αντέχουν (και μοιράζουν) πολύ πόνο.",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "Γάντια Hydra",
+  "description": "Αυτά τα γάντια χωρίς δάκτυλα έχουν διακοσμηθεί με μεταλλικά κομμάτια και το σήμα από την επιχείρηση Hydra.",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Γάντια"
+  },
+  "image": null
+ }
+]

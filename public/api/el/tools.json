@@ -1,0 +1,52 @@
+[
+ {
+  "id": "tool-1",
+  "name": "Ετικέτα ονόματος",
+  "description": "Αυτό το αντικείμενο θα μετονομάσει ένα όπλο. Μια προσαρμοσμένη χαραγμένη πινακίδα θα εφαρμοστεί σε αυτό το όπλο και θα μπορεί να προβληθεί εντός του παιχνιδιού.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-LVxIT5Z3jCtwYt9YLw7F--F0ipzcG3pCQJ66f_bqA7c6GSCzfGwO9047BvATm9ks8vFHUO",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "Κιβώτιο αποθήκευσης",
+  "description": "Το κιβώτιο αποθήκευσης σας επιτρέπει να φυλάξετε έως 1.000 από τα επιπλέον αντικείμενα σας που θα ξεπερνούσαν αλλιώς το όριο της λίστας αντικειμένων σας. Οποιαδήποτε στιγμή μπορείτε να μετακινήσετε αντικείμενα από τη λίστα αντικειμένων σας στο κιβώτιο, να επιστρέψετε αντικείμενα πίσω στη λίστα αντικειμένων σας ή απλά να το χρησιμοποιήσετε για να οργανώσετε τα συλλεκτικά σας.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "Εργαλείο εναλλαγής StatTrak™",
+  "description": "Αυτό το αντικείμενο εναλλάσσει τις τιμές StatTrak™ μεταξύ δύο αντικειμένων ίδιου τύπου.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-XAwt61J3qc2kVi9ZfL_lboTVOkzsHkq3JY7PeqavNscanCVj7Elb4u5rhsGHrqxU8i4mmHwtyudn-fcEZ-XU9QO74G",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "Αφαιρέσεις Γουριού",
+  "description": "Επιλέξτε ένα όπλο με ένα τοποθετημένο γούρι. Χρησιμοποιώντας μια Αφαίρεση Γουριού, το γούρι θα αφαιρεθεί και θα επιστρέψει στα αντικείμενά σας.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "4950",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "Κοτοτροφή",
+  "description": "Ταΐστε το κατοικίδιό σας για να μείνει μαζί σας.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
+ }
+]
