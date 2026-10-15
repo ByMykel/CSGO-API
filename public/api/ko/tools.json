@@ -1,0 +1,52 @@
+[
+ {
+  "id": "tool-1",
+  "name": "이름표",
+  "description": "이 아이템은 총기에 이름을 새로 지을 수 있습니다. 이름이 바뀐 총기에는 새 이름이 새겨진 이름판이 부착되며 게임 내에서 볼 수 있습니다.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-LVxIT5Z3jCtwYt9YLw7F--F0ipzcG3pCQJ66f_bqA7c6GSCzfGwO9047BvATm9ks8vFHUO",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "저장 컨테이너",
+  "description": "저장 컨테이너에는 아이템을 추가로 최대 1,000개까지 보관할 수 있습니다. 언제든지 아이템을 보관함에서 저장 컨테이너로 이동할 수 있으며 저장 컨테이너에 보관한 아이템을 보관함으로 다시 가져올 수도 있습니다. 또한 수집품을 정리하는 데 사용할 수도 있습니다.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "StatTrak™ 교환 도구",
+  "description": "이 아이템으로 유형이 같은 두 아이템의 StatTrak™ 점수를 맞바꿀 수 있습니다.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-XAwt61J3qc2kVi9ZfL_lboTVOkzsHkq3JY7PeqavNscanCVj7Elb4u5rhsGHrqxU8i4mmHwtyudn-fcEZ-XU9QO74G",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "참 장식 분리 도구",
+  "description": "참 장식이 장착된 무기를 선택하세요. 참 장식 분리 도구를 사용하면 참 장식이 분리되어 보관함으로 반환됩니다.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "4950",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "닭 사료",
+  "description": "반려동물을 곁에 두려면 사료를 주세요.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
+ }
+]
