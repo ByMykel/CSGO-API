@@ -1,0 +1,52 @@
+[
+ {
+  "id": "tool-1",
+  "name": "Štítek",
+  "description": "Tento nástroj slouží ke změně názvu zbraně. Na zbraň bude přidán štítek s novým názvem, který bude vidět i ve hře.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-LVxIT5Z3jCtwYt9YLw7F--F0ipzcG3pCQJ66f_bqA7c6GSCzfGwO9047BvATm9ks8vFHUO",
+  "def_index": "1200",
+  "original": {
+   "image_inventory": "econ/tools/tag"
+  }
+ },
+ {
+  "id": "tool-2",
+  "name": "Úložný kontejner",
+  "description": "Úložný kontejner nabízí prostor až pro 1 000 předmětů, které by se jinak nevešly do tvého inventáře. Předměty můžeš kdykoli přesunout do kontejneru, nebo si je z kontejneru naopak vyzvednout. Případně můžeš kontejner použít také pro uložení svých sběratelských předmětů a vhodně mu změnit název.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_XV0MGkITXE5AB094KtuwG0Exv1yMfkqXcCtvT_MPw5JPTKV2bDk7Z3sudtHSjr2w0ptCMWPT2u",
+  "def_index": "1201",
+  "original": {
+   "image_inventory": "econ/tools/casket"
+  }
+ },
+ {
+  "id": "tool-3",
+  "name": "Prohazovač statistik StatTrak™",
+  "description": "Tento nástroj prohodí statistiky mezi dvěma předměty stejného typu.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH-XAwt61J3qc2kVi9ZfL_lboTVOkzsHkq3JY7PeqavNscanCVj7Elb4u5rhsGHrqxU8i4mmHwtyudn-fcEZ-XU9QO74G",
+  "def_index": "1324",
+  "original": {
+   "image_inventory": "econ/tools/stattrak_swap_tool"
+  }
+ },
+ {
+  "id": "tool-4",
+  "name": "Oddělovač přívěsků",
+  "description": "Vyber zbraň s připevněným přívěskem. Když na takovou zbraň použiješ oddělovač, dojde k sundání přívěsku a jeho navrácení do tvého inventáře.",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJG51EejH_3R2smpNHKZ2kRw-Yji72bzThL9oYbh_ikVv6qqPPQ0JaOXCmWRl7shtbhsFnHlkxl16miGy477dnmQb1R2DpBzF_lK7EckGgI0TA",
+  "def_index": "4950",
+  "original": {
+   "image_inventory": "econ/tools/keychain_remove_tool"
+  }
+ },
+ {
+  "id": "tool-6",
+  "name": "Slepičí zob",
+  "description": "Nezapomeň krmit svoji slepici.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
+ }
+]
