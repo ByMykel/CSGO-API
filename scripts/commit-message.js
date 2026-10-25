@@ -86,7 +86,7 @@ const summary = Object.keys(totals)
     .map(k => `${totals[k]} ${k}`)
     .join(", ");
 
-const subject = `[bot::update-group] manifest ${manifestId}: ${summary || "no item changes"}`;
+const subject = `chore(data): manifest ${manifestId} (${summary || "no item changes"})`;
 const message = [subject, ...sections].join("\n\n");
 
 if (process.env.GITHUB_OUTPUT) {
