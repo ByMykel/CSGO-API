@@ -59,8 +59,12 @@ jobs:
         with:
           path: ./manifestIdGroup.txt
       
+      - name: Build commit message
+        id: commit-message
+        run: node scripts/commit-message.js
+
       # Commit all changes
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "[bot::update-group] manifest ${{ steps.manifestIdUpdate.outputs.content }}"
+          commit_message: ${{ steps.commit-message.outputs.message }}
