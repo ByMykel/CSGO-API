@@ -1,4 +1,4 @@
-import axios from "axios";
+import { getJson } from "../utils/http.js";
 import { CSGO_ENGLISH_URL } from "../constants.js";
 import customTranslations from "../utils/translations.json" with { type: "json" };
 
@@ -62,7 +62,7 @@ export const $tc = (key, data = {}) => {
 };
 
 const getTranslations = async url => {
-    const { data } = await axios.get(url);
+    const data = await getJson(url);
 
     const lowerCaseKeys = Object.fromEntries(
         Object.entries(data.lang.Tokens).map(([key, val]) => [key.toLowerCase(), val])

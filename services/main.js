@@ -1,5 +1,4 @@
-import axios from "axios";
-import sha1 from "sha1";
+import { createHash } from "node:crypto";
 import { IMAGES_INVENTORY_URL, ITEMS_GAME_URL, getImageUrl } from "../constants.js";
 import { getCollectionImage } from "./collections.js";
 import {
@@ -11,15 +10,17 @@ import {
     isNotWeapon,
     knives,
 } from "../utils/index.js";
+import { getJson } from "../utils/http.js";
 import { rareSpecial } from "../utils/rareSpecial.js";
+
+const sha1 = str => createHash("sha1").update(str).digest("hex");
 
 export const state = {};
 
 export const loadItemsGame = async () => {
-    await axios
-        .get(ITEMS_GAME_URL)
+    await getJson(ITEMS_GAME_URL)
         .then(data => {
-            state.itemsGame = data.data.items_game;
+            state.itemsGame = data.items_game;
 
             // Some collections are not in the item_sets object. So I just add them in this way.
             // Some examples:
@@ -61,12 +62,11 @@ export const loadItemsGame = async () => {
             throw new Error(`Error loading items_game.txt from ${ITEMS_GAME_URL}`);
         });
 
-    await axios
-        .get(
-            "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/default_generated.json"
-        )
+    await getJson(
+        "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/default_generated.json"
+    )
         .then(data => {
-            state.itemsGame.alternate_icons2.weapon_icons = data.data
+            state.itemsGame.alternate_icons2.weapon_icons = data
                 .filter(item => {
                     // We have heavy, light and medium
                     if (!item.includes("light_png.png")) return false;
@@ -75,7 +75,8 @@ export const loadItemsGame = async () => {
                     return true;
                 })
                 .reduce((acc, item) => {
-                    acc[sha1(item.replace("_light_png.png", "")).slice(0, 12)] = {
+                    const key = sha1(item.replace("_light_png.png", "")).slice(0, 12);
+                    acc[key] = {
                         icon_path: `econ/default_generated/${item.replace("_png.png", "")}`,
                     };
                     return acc;
@@ -629,8 +630,7 @@ export const loadProPlayers = () => {
 
 export const loadImagesInventory = async () => {
     try {
-        const response = await axios.get(IMAGES_INVENTORY_URL);
-        state.cdnImages = response.data;
+        state.cdnImages = await getJson(IMAGES_INVENTORY_URL);
     } catch (error) {
         throw new Error(`Error loading images inventory`);
     }
@@ -839,13 +839,12 @@ const getItemFromKey = key => {
 };
 
 export const getManifestId = async () => {
-    return axios
-        .get(
-            "https://api.github.com/repos/ByMykel/counter-strike-file-tracker/contents/static/manifestId.txt"
-        )
-        .then(response => {
+    return getJson(
+        "https://api.github.com/repos/ByMykel/counter-strike-file-tracker/contents/static/manifestId.txt"
+    )
+        .then(data => {
             // Decode base64 content and trim whitespace
-            return Buffer.from(response.data.content, "base64").toString("utf-8").trim();
+            return Buffer.from(data.content, "base64").toString("utf-8").trim();
         })
         .catch(error => {
             throw new Error(`Error getting manifestId`);
@@ -853,10 +852,11 @@ export const getManifestId = async () => {
 };
 
 export const getImagesJsonSha = async () => {
-    return axios
-        .get("https://api.github.com/repos/ByMykel/counter-strike-image-tracker/contents/static/images.json")
-        .then(response => {
-            return response.data.sha;
+    return getJson(
+        "https://api.github.com/repos/ByMykel/counter-strike-image-tracker/contents/static/images.json"
+    )
+        .then(data => {
+            return data.sha;
         })
         .catch(error => {
             throw new Error(`Error getting images.json SHA`);
