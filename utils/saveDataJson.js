@@ -2,8 +2,7 @@ import * as fs from "fs";
 
 export const saveDataJson = (file, data) => {
     return new Promise((resolve, reject) => {
-        // I beautify the JSON data because it's easier for me see the changes
-        const json = JSON.stringify(data, null, 1);
+        const json = JSON.stringify(data);
 
         const folders = file.replace(/\.\/public\/api\/(.*)\/(.*)\.json/, "$1").split("/");
 
