@@ -5,6 +5,7 @@
   },
   "scripts": {
     "generate-docs": "node scripts/generate-docs.js",
+    "diff-json": "node scripts/diff-json.js",
     "format": "prettier --write \"**/*.js\" --ignore-path .gitignore"
   }
 }
