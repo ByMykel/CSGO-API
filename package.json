@@ -1,7 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.1"
   },
   "scripts": {
     "generate-docs": "node scripts/generate-docs.js",
